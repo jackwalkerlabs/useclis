@@ -81,6 +81,6 @@ npx wrangler deploy --dry-run
 
 `npm run deploy` builds and deploys the Worker. `npm run deploy:pages` targets a Pages project named `useclis`. Authenticate with Cloudflare in your own terminal. See [release and deployment instructions](docs/RELEASING.md) before publishing the repository or domain.
 
-CI validates pushes and pull requests with read-only repository permissions. The daily refresh workflow updates snapshots and the design preview, validates the result, and commits using the repository token. Protected branches may require a PR-based update flow; verify that snapshot commits trigger the intended Cloudflare build.
+CI validates pushes and pull requests with read-only repository permissions. With the Cloudflare API-token secret and deployment variable configured, successful main builds deploy to useclis.com and verify the live files. The daily refresh workflow commits updated snapshots and explicitly triggers the same validation/deployment pipeline. See [deployment setup](docs/RELEASING.md#automatic-deployment-from-main) for credentials, activation, and rollback.
 
 Original app code and the AI-generated design bundle are [MIT-licensed](LICENSE). Fonts, icons, avatars, and dependencies retain their separate [third-party terms](THIRD_PARTY.md).
