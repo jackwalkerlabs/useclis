@@ -1,0 +1,4 @@
+function ToolScreen({tool,back}) {
+  const {Card,Button,MetricStat,SourceBadge}=window.UseclisDesignSystem;
+  return <article className="kit-detail"><Button variant="ghost" onClick={back}>← Back to directory</Button><h1>{tool.name}</h1><p>{tool.description}</p><SourceBadge/><Card><h2>For your agent</h2><p>{tool.agentUse}</p><pre><code>{tool.example}</code></pre><small>Example only. Follow the documentation for setup and authentication.</small></Card><div className="kit-filters"><MetricStat label="GitHub stars" value={tool.stars ?? "—"}/><MetricStat label="License" value={tool.license ?? "See repository"}/></div><p>Snapshot: {tool.checkedAt ?? "Unavailable"}</p><p><a href={tool.docs} target="_blank" rel="noreferrer">Read documentation ↗</a></p><p><a href={`https://github.com/${tool.repo}`} target="_blank" rel="noreferrer">{tool.repo} ↗</a></p></article>;
+}
