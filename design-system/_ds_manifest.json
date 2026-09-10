@@ -150,7 +150,7 @@
       "path": "guidelines/colors-brand.card.html",
       "group": "Colors",
       "viewport": "700x150",
-      "subtitle": "The one brand hue \u2014 brand accents and positive change",
+      "subtitle": "The one brand hue — brand accents and positive change",
       "name": "useclis green"
     },
     {
@@ -164,7 +164,7 @@
       "path": "guidelines/colors-neutral.card.html",
       "group": "Colors",
       "viewport": "700x150",
-      "subtitle": "Paper white to near-black ink \u2014 90% of every screen",
+      "subtitle": "Paper white to near-black ink — 90% of every screen",
       "name": "Neutrals"
     },
     {
@@ -220,7 +220,7 @@
       "path": "guidelines/radius.card.html",
       "group": "Spacing",
       "viewport": "700x150",
-      "subtitle": "4 \u00b7 6 \u00b7 8 controls \u00b7 12 cards \u00b7 16 \u00b7 pill",
+      "subtitle": "4 · 6 · 8 controls · 12 cards · 16 · pill",
       "name": "Corner radii"
     },
     {
@@ -234,7 +234,7 @@
       "path": "guidelines/spacing-scale.card.html",
       "group": "Spacing",
       "viewport": "700x150",
-      "subtitle": "2 \u00b7 4 \u00b7 8 \u00b7 12 \u00b7 16 \u00b7 20 \u00b7 24 \u00b7 32 \u00b7 40 \u00b7 56",
+      "subtitle": "2 · 4 · 8 · 12 · 16 · 20 · 24 · 32 · 40 · 56",
       "name": "Spacing scale"
     },
     {
@@ -255,7 +255,7 @@
       "path": "guidelines/type-numerals.card.html",
       "group": "Type",
       "viewport": "700x170",
-      "subtitle": "System monospace, tabular \u2014 commands and repository metrics",
+      "subtitle": "System monospace, tabular — commands and repository metrics",
       "name": "Numerals"
     },
     {

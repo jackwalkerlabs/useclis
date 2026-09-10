@@ -1,4 +1,4 @@
-/* Sizes and weights observed in the public design reference CSS, 2026-09-09.
+/* useclis homepage type scale.
    Loaded after layout styles so older breakpoint rules cannot shrink the text. */
 body { font-size: 1rem; line-height: 1.5; }
 

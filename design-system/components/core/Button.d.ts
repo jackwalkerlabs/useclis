@@ -1,7 +1,7 @@
 import * as React from "react";
 /**
  * Primary action control. Black-on-white "primary" for most CTAs, green "brand"
- * reserved for verification / listing actions.
+ * used for accent actions.
  * @startingPoint section="Core" subtitle="Button variants, sizes and states" viewport="700x180"
  */
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>{
@@ -12,4 +12,4 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
   fullWidth?: boolean;
   loading?: boolean;
 }
-export declare function Button(props: ButtonProps): JSX.Element;
+export declare function Button(props: ButtonProps): React.JSX.Element;

@@ -16,7 +16,8 @@
     "snapshot-stars": "node scripts/snapshot-stars.mjs",
     "refresh": "npm run refresh-data && npm run refresh-activity && npm run snapshot-stars",
     "check:links": "node scripts/check-links.mjs",
-    "build:design-system": "node scripts/build-design-system.mjs"
+    "build:design-system": "node scripts/build-design-system.mjs",
+    "check:design-system": "node scripts/build-design-system.mjs --check && tsc -p design-system/tsconfig.json"
   },
   "dependencies": {
     "@astrojs/react": "^6.0.5",

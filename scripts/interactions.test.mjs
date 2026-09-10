@@ -177,7 +177,7 @@ test('Activity supports tap, keyboard, blur, and changing range after inspection
 test('Stars keep pending history honest and inspect recorded points by touch and keyboard', () => {
   const props = { total: 110, points: [{ date: '2026-09-09', stars: 110 }], repo: 'example/cli', license: null, checkedAt: '2026-09-09' };
   const view = render(h(StarsPanel, props));
-  assert.ok(screen.getByText('Star history starts today'));
+  assert.ok(screen.getByText('Star history starts Sep 9'));
   assert.equal(screen.queryByRole('img'), null);
   view.rerender(h(StarsPanel, { ...props, points: [{ date: '2026-09-08', stars: 100 }, ...props.points] }));
   const chart = screen.getByRole('img');

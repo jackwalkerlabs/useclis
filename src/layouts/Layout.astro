@@ -8,6 +8,7 @@ import inconsolataLatin from '../../design-system/assets/fonts/inconsolata-latin
 interface Props { title?: string; description?: string; active?: string }
 const { title = 'useclis — CLIs for agents', description = 'Discover GitHub-backed command-line tools for AI agents. Search by task, inspect repository activity, and explore CLI commands.', active = 'Directory' } = Astro.props;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
+const submissionRepo = import.meta.env.PUBLIC_SUBMISSIONS_REPO?.trim() ?? 'jackwalkerlabs/useclis';
 ---
 <!doctype html>
 <html lang="en">
@@ -34,7 +35,7 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefin
           <a class:list={{ active: active === 'Categories' }} href="/categories/">Categories</a>
           <a class:list={{ active: active === 'About' }} href="/about/">About</a>
         </nav>
-        <div class="header-actions"><a class="saved-link" aria-label="Saved CLIs" href="/?saved=1#directory"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span>Saved CLIs</span></a><SubmitCLI client:load submissionRepo={import.meta.env.PUBLIC_SUBMISSIONS_REPO?.trim() || 'jackwalkerlabs/useclis'} /></div>
+        <div class="header-actions"><a class="saved-link" aria-label="Saved CLIs" href="/?saved=1#directory"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span>Saved CLIs</span></a><SubmitCLI client:load submissionRepo={submissionRepo} /></div>
       </div>
     </header>
     <main id="main"><slot /></main>

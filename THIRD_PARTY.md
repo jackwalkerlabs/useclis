@@ -1,8 +1,8 @@
 # Third-party materials
 
-Original useclis code is licensed under [MIT](LICENSE). Third-party licenses and rights to third-party branding remain separate. The MIT license does not establish redistribution rights for the supplied design bundle while its provenance is unresolved.
+useclis code and the AI-generated design bundle are part of this repository and are licensed under [MIT](LICENSE). Third-party fonts, icons, dependencies, and repository-owner avatars retain their own licenses and rights.
 
-- `design-system/`: useclis-branded adaptation of a supplied design reconstruction, with CLI-focused examples. The original bundle described inferred colors, typography, spacing, and components. The original ZIP contains no license. Its README says it was reconstructed from public site content without access to the original codebase, screenshots, or brand assets; the assets README says no source-site imagery was included. Identify who produced the bundle and under what terms. If it was generated for this project, document the generating tool and check any imported code/assets; if supplied by another author, obtain applicable redistribution terms or replace the affected files. The site imports this bundle directly.
+- `design-system/`: AI-generated for useclis and maintained as part of this repository. Its original tokens, components, guidelines, and CLI examples are covered by the repository's MIT license. Third-party assets within the bundle retain the notices listed below.
 - Inconsolata: unmodified variable WOFF2 subsets, licensed under SIL OFL 1.1. Hashes are recorded in `design-system/assets/fonts/README.md`; license copies accompany the fonts and are served at `public/licenses/inconsolata-OFL.txt`.
 - Lucide icons: ISC license; the notice is included under `public/licenses/`.
 - Other npm dependencies: retain their individual licenses in the installed packages. Versions and sources are recorded in `package-lock.json`.

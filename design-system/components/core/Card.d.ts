@@ -4,11 +4,12 @@ import * as React from "react";
  * @startingPoint section="Core" subtitle="Card surface with interactive lift" viewport="700x200"
  */
 export interface CardProps extends React.HTMLAttributes<HTMLElement>{
-  as?: any;
+  as?: React.ElementType;
+  href?: string; target?: React.HTMLAttributeAnchorTarget; rel?: string;
   padding?: "none"|"sm"|"md"|"lg";
   /** Adds hover lift + shadow. Use for clickable listing cards. */
   interactive?: boolean;
-  /** Paid listing tiers may set a custom card background (listingTierBgColor). */
+  /** Optional custom card background. */
   accentBg?: string;
 }
-export declare function Card(props: CardProps): JSX.Element;
+export declare function Card(props: CardProps): React.JSX.Element;

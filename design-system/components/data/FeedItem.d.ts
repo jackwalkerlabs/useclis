@@ -4,4 +4,4 @@ export interface FeedItemProps{
   author: string; authorAvatar?: string; project: string; projectLogo?: string;
   time: string; likes?: number; comments?: number; children?: React.ReactNode;
 }
-export declare function FeedItem(props: FeedItemProps): JSX.Element;
+export declare function FeedItem(props: FeedItemProps): React.JSX.Element;

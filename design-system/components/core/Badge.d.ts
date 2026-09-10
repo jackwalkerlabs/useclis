@@ -6,4 +6,4 @@ export interface BadgeProps extends React.HTMLAttributes<HTMLSpanElement>{
   caps?: boolean;
   dot?: boolean;
 }
-export declare function Badge(props: BadgeProps): JSX.Element;
+export declare function Badge(props: BadgeProps): React.JSX.Element;
