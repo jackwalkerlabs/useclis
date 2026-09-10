@@ -11,6 +11,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
@@ -21,12 +22,13 @@ jobs:
       - run: npm run refresh
         env:
           GITHUB_TOKEN: ${{ github.token }}
+      - run: npm run build:design-system
       - run: npm run check && npm test && npm run build && npm run check:links
       - name: Commit updated public metadata
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/repositories.json src/data/activity.json src/data/star-snapshots.json public/logos
+          git add src/data/repositories.json src/data/activity.json src/data/star-snapshots.json public/logos design-system/_ds_manifest.json design-system/_ds_bundle.js design-system/ui_kits/web/data.js
           if ! git diff --cached --quiet; then
             git commit -m "Update directory snapshots"
             git push

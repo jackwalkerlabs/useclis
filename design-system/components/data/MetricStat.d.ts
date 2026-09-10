@@ -7,4 +7,4 @@ export interface MetricStatProps{
   label: string; value: React.ReactNode; sub?: React.ReactNode;
   align?: "left"|"center"|"right"; size?: "sm"|"md"|"lg"; tone?: "default"|"brand";
 }
-export declare function MetricStat(props: MetricStatProps): JSX.Element;
+export declare function MetricStat(props: MetricStatProps): React.JSX.Element;

@@ -1,4 +1,4 @@
-/* Phone layouts share the supplied useclis tokens and the desktop components. */
+/* Phone layouts share the useclis tokens and the desktop components. */
 .mobile-command, .mobile-activity { display: none; }
 .featured-card, .featured-identity > div, .category-card,
 .detail-identity > div, .related-card > div { min-width: 0; }
