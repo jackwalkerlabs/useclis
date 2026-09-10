@@ -17,7 +17,7 @@ const { default: StarsPanel } = await import('../src/components/StarsPanel.tsx')
 const { default: CommandExample } = await import('../src/components/CommandExample.tsx');
 const { default: AgentPrompt } = await import('../src/components/AgentPrompt.tsx');
 const { agentPrompt } = await import('../src/lib/agent-prompt.ts');
-const { tools, categories } = await import('../src/data/tools.ts');
+const { tools, categories, number } = await import('../src/data/tools.ts');
 const { default: activity } = await import('../src/data/activity.json', { with: { type: 'json' } });
 let scrolls;
 beforeEach(() => {
@@ -190,13 +190,65 @@ test('Every CLI activity chart range shows the corresponding real total', async 
   const user = userEvent.setup();
   for (const tool of tools) {
     const weeks = activity[tool.slug].weeks;
-    const view = render(h(ActivityChart, { name: tool.name, weeks }));
-    for (const [label, range] of [['12W', 12], ['26W', 26], ['1Y', 52]]) {
-      await user.click(screen.getByRole('button', { name: label }));
-      assert.equal(screen.getByRole('button', { name: label }).getAttribute('aria-pressed'), 'true');
+    const view = render(h(ActivityChart, { name: tool.name, weeks, checkedAt: '2026-09-09' }));
+    const select = screen.getByRole('combobox', { name: 'Activity date range' });
+    assert.equal(select.value, '30d');
+    for (const [period, range] of [['7d', 2], ['30d', 5], ['3m', 14], ['6m', 27], ['12m', 52], ['all', 52]]) {
+      await user.selectOptions(select, period);
+      assert.equal(select.value, period);
       assert.ok(document.querySelector('.chart-total').textContent.startsWith(weeks.slice(-range).reduce((a, b) => a + b, 0).toLocaleString('en')));
     }
     view.unmount();
+  }
+});
+
+test('Homepage date ranges update table, totals, and URL while discovery stays weekly', async () => {
+  const user = userEvent.setup();
+  const fixtures = tools.filter(tool => ['github-cli', 'ripgrep'].includes(tool.slug));
+  render(h(Directory, { tools: fixtures }));
+  const select = screen.getByRole('combobox', { name: 'Leaderboard date range' });
+  assert.equal(select.value, '30d');
+  const originalDiscovery = document.querySelector('.discovery-section').textContent;
+  const originalStars = [...document.querySelectorAll('.table-stars')].map(node => node.textContent);
+  for (const [period, count] of [['7d', 2], ['30d', 5], ['3m', 14], ['6m', 27], ['12m', 52], ['all', 52]]) {
+    await user.selectOptions(select, period);
+    assert.equal(new URLSearchParams(window.location.search).get('period'), period === '30d' ? null : period);
+    const totals = fixtures.map(tool => activity[tool.slug].weeks.slice(-count).reduce((a, b) => a + b, 0));
+    for (const tool of fixtures) {
+      const row = document.querySelector(`.table-project[href="/tools/${tool.slug}/"]`).closest('tr');
+      const values = activity[tool.slug].weeks.slice(-count);
+      assert.equal(row.querySelector('.commit-count').textContent, values.reduce((a, b) => a + b, 0).toLocaleString('en'));
+      assert.equal(row.querySelector('.table-chart svg').getAttribute('aria-label'), `${tool.name}, weekly commits: ${values.join(', ')}`);
+      assert.equal(row.querySelector('.mobile-activity svg').getAttribute('aria-label'), row.querySelector('.table-chart svg').getAttribute('aria-label'));
+    }
+    assert.equal(document.querySelector('.useclis-stats > div:last-child strong').textContent, number(totals.reduce((a, b) => a + b, 0)));
+    assert.match(document.querySelector('th.activity-column').textContent, new RegExp(period === 'all' ? 'All time' : period));
+    assert.deepEqual([...document.querySelectorAll('.table-stars')].map(node => node.textContent), originalStars);
+    assert.equal(document.querySelector('.discovery-section').textContent, originalDiscovery);
+    assert.equal(document.querySelector('.useclis-featured'), null);
+  }
+});
+
+test('Homepage restores ranges on reload and history, and rejects unsupported periods', async () => {
+  window.history.replaceState(null, '', '/?q=ripgrep&period=6m&sort=name');
+  const view = render(h(Directory, { tools }));
+  const select = screen.getByRole('combobox', { name: 'Leaderboard date range' });
+  assert.equal(select.value, '6m');
+  assert.deepEqual(rows(), ['ripgrep']);
+  await userEvent.setup().selectOptions(select, '7d');
+  assert.equal(new URLSearchParams(window.location.search).get('q'), 'ripgrep');
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), 'name');
+  window.history.pushState(null, '', '/?period=all');
+  act(() => window.dispatchEvent(new window.PopStateEvent('popstate')));
+  assert.equal(select.value, 'all');
+  assert.equal(rows().length, tools.length);
+  view.unmount();
+  for (const period of ['24h', 'invalid']) {
+    window.history.replaceState(null, '', `/?period=${period}`);
+    const invalid = render(h(Directory, { tools }));
+    assert.equal(screen.getByRole('combobox', { name: 'Leaderboard date range' }).value, '30d');
+    assert.equal(new URLSearchParams(window.location.search).get('period'), null);
+    invalid.unmount();
   }
 });
 
@@ -206,25 +258,62 @@ function pointer(node, type, x) {
   fireEvent(node, event);
 }
 
+test('Range selection handles sparse star history and resets inspected points', async () => {
+  const user = userEvent.setup();
+  render(h(StarsPanel, { total: 130, points: [
+    { date: '2025-01-01', stars: 50 }, { date: '2026-07-01', stars: 90 },
+    { date: '2026-08-20', stars: 100 }, { date: '2026-09-09', stars: 130 },
+  ], repo: 'example/cli', license: null, checkedAt: '2026-09-09' }));
+  const select = screen.getByRole('combobox', { name: 'Stars date range' });
+  assert.equal(select.value, '30d');
+  assert.equal(screen.getByRole('option', { name: 'Last 24 hours' }).disabled, true);
+  assert.match(document.querySelector('.stars-gain').textContent, /^\+30/);
+  fireEvent.keyDown(screen.getByRole('img'), { key: 'ArrowLeft' });
+  assert.equal(document.querySelector('.stars-panel-heading strong').textContent, '100');
+  await user.selectOptions(select, 'all');
+  assert.equal(document.querySelector('.stars-panel-heading strong').textContent, '130');
+  assert.match(document.querySelector('.stars-gain').textContent, /^\+80/);
+  await user.selectOptions(select, '3m');
+  assert.match(document.querySelector('.stars-gain').textContent, /^\+40/);
+  await user.selectOptions(select, '7d');
+  assert.equal(screen.queryByRole('img'), null);
+  assert.equal(document.querySelector('.stars-gain'), null);
+  assert.ok(screen.getByText('More snapshots needed for a trend'));
+});
+
+test('Empty and single-point charts have honest states and finite coordinates', () => {
+  const view = render(h(ActivityChart, { name: 'Empty', weeks: [], checkedAt: '2026-09-09' }));
+  assert.ok(screen.getByText('No activity recorded for this period.'));
+  assert.ok(document.querySelector('.chart-total').textContent.startsWith('—'));
+  view.rerender(h(ActivityChart, { name: 'Single', weeks: [8], checkedAt: '2026-09-09' }));
+  assert.doesNotMatch(screen.getByRole('img').outerHTML, /NaN|Infinity/);
+  assert.equal(document.querySelector('polygon'), null);
+  assert.ok(document.querySelector('circle'));
+  view.unmount();
+  render(h(StarsPanel, { total: 100, points: [{ date: '2026-01-01', stars: 100 }], repo: 'example/cli', license: null, checkedAt: '2026-09-09' }));
+  assert.ok(screen.getByText('No star snapshots in this period'));
+  assert.equal(document.querySelector('.stars-gain'), null);
+});
+
 test('Activity supports tap, keyboard, blur, and changing range after inspection', async () => {
   const user = userEvent.setup();
-  render(h(ActivityChart, { name: 'Fixture', weeks: Array.from({ length: 52 }, (_, i) => i + 1) }));
+  render(h(ActivityChart, { name: 'Fixture', checkedAt: '2026-09-09', weeks: Array.from({ length: 52 }, (_, i) => i + 1) }));
   const chart = screen.getByRole('img');
   chart.getBoundingClientRect = () => ({ left: 0, width: 640 });
   pointer(chart, 'pointerdown', 614);
-  assert.match(document.querySelector('.chart-total').textContent, /^52 commits · 0 weeks/);
+  assert.match(document.querySelector('.chart-total').textContent, /^52 commits · week of Sep 6, 2026/);
   fireEvent.keyDown(chart, { key: 'ArrowLeft' });
-  assert.match(document.querySelector('.chart-total').textContent, /^51 commits · 1 weeks/);
+  assert.match(document.querySelector('.chart-total').textContent, /^51 commits · week of Aug 30, 2026/);
   fireEvent.blur(chart);
-  assert.match(document.querySelector('.chart-total').textContent, /commits over 12 weeks/);
-  await user.click(screen.getByRole('button', { name: '1Y' }));
-  assert.match(document.querySelector('.chart-total').textContent, /1,378 commits over 52 weeks/);
+  assert.match(document.querySelector('.chart-total').textContent, /commits across 5 weeks/);
+  await user.selectOptions(screen.getByRole('combobox', { name: 'Activity date range' }), '12m');
+  assert.match(document.querySelector('.chart-total').textContent, /1,378 commits across 52 weeks/);
 });
 
 test('Stars keep pending history honest and inspect recorded points by touch and keyboard', () => {
   const props = { total: 110, points: [{ date: '2026-09-09', stars: 110 }], repo: 'example/cli', license: null, checkedAt: '2026-09-09' };
   const view = render(h(StarsPanel, props));
-  assert.ok(screen.getByText('Star history starts Sep 9'));
+  assert.ok(screen.getByText('More snapshots needed for a trend'));
   assert.equal(screen.queryByRole('img'), null);
   view.rerender(h(StarsPanel, { ...props, points: [{ date: '2026-09-08', stars: 100 }, ...props.points] }));
   const chart = screen.getByRole('img');
@@ -235,7 +324,7 @@ test('Stars keep pending history honest and inspect recorded points by touch and
   fireEvent.keyDown(chart, { key: 'ArrowRight' });
   assert.equal(document.querySelector('.stars-panel-heading strong').textContent, '110');
   fireEvent.blur(chart);
-  assert.equal(document.querySelector('.stars-period').textContent, 'Since Sep 8');
+  assert.equal(document.querySelector('.stars-period').textContent, 'Sep 8 – Sep 9');
 });
 
 test('Every copy button copies its exact command; denied clipboard selects text for manual copying', async () => {
