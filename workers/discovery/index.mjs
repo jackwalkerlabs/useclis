@@ -17,7 +17,7 @@ export async function dispatchDiscovery(env, fetcher = fetch) {
     body: JSON.stringify({ ref: 'main' }),
   });
   if (response.status !== 204) throw new Error(`Discovery dispatch failed: HTTP ${response.status}`);
-  console.log('Dispatched daily CLI discovery on main');
+  console.log('Dispatched CLI discovery on main');
 }
 
 export default {

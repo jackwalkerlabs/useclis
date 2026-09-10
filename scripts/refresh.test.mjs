@@ -13,7 +13,8 @@ async function scenario(script, fetchBody) {
   const root = await mkdtemp(join(tmpdir(), 'useclis-refresh-'));
   const previous = { example: { stars: 10, checkedAt: '2026-09-01T00:00:00Z', weeks: Array(52).fill(3) } };
   try {
-    await mkdir(join(root, 'scripts'));
+    await mkdir(join(root, 'scripts/lib'), { recursive: true });
+    await copyFile(new URL('./lib/refresh-selection.mjs', import.meta.url), join(root, 'scripts/lib/refresh-selection.mjs'));
     await mkdir(join(root, 'src/data'), { recursive: true });
     await copyFile(new URL(`./${script}.mjs`, import.meta.url), join(root, 'scripts', `${script}.mjs`));
     await writeFile(join(root, 'src/data/catalog.json'), JSON.stringify([{ slug: 'example', name: 'Example', repo: 'example/cli' }]));
@@ -23,7 +24,7 @@ async function scenario(script, fetchBody) {
       ${fetchBody}
     }; await import(${JSON.stringify(pathToFileURL(join(root, 'scripts', `${script}.mjs`)).href)});`;
     let exitCode = 0;
-    try { await run(process.execPath, ['--input-type=module', '--eval', code], { timeout: 10_000, env: { ...process.env, GITHUB_TOKEN: '' } }); }
+    try { await run(process.execPath, ['--input-type=module', '--eval', code], { timeout: 10_000, env: { ...process.env, GITHUB_TOKEN: '', REFRESH_SLUGS: '["example"]' } }); }
     catch (error) { exitCode = error.code; }
     const output = JSON.parse(await readFile(join(root, `src/data/${script === 'refresh-activity' ? 'activity' : 'repositories'}.json`)));
     return { exitCode, output, previous };

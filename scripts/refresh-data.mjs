@@ -1,5 +1,6 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
-const catalog = JSON.parse(await readFile(new URL('../src/data/catalog.json', import.meta.url)));
+import { selectRefreshEntries } from './lib/refresh-selection.mjs';
+const catalog = selectRefreshEntries(JSON.parse(await readFile(new URL('../src/data/catalog.json', import.meta.url))));
 const out = new URL('../src/data/repositories.json', import.meta.url);
 let previous = {};
 try { previous = JSON.parse(await readFile(out)); } catch {}

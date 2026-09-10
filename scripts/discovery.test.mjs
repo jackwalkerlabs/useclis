@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { packageCommands, formulaCommands, evaluateCandidate, remainingToday, validateConfig } from './lib/cli-evidence.mjs';
-import { brewCandidates, createClient, discover, SourceTooLargeError } from './discover-clis.mjs';
+import { brewCandidates, createClient, discover, SourceTooLargeError, BudgetPause } from './discover-clis.mjs';
 import { dispatchDiscovery } from '../workers/discovery/index.mjs';
 
 const config = JSON.parse(await readFile(new URL('../discovery/config.json', import.meta.url)));
@@ -118,6 +118,34 @@ test('Cloudflare dispatch is fixed to the main workflow and reports failed deliv
   await assert.rejects(dispatchDiscovery(env, async () => new Response(null, { status: 403 })), /HTTP 403/);
 });
 
+test('Discovery reserves core budget, tracks search separately, and bounds requests even without rate headers', async () => {
+  let calls = 0;
+  const request = createClient('test', async url => {
+    calls++;
+    return Response.json({}, { headers: { 'x-ratelimit-remaining': url.includes('/search/') ? '2' : '100' } });
+  });
+  await request('https://api.github.com/search/repositories?q=cli');
+  await request('https://api.github.com/repos/sample/query-cli');
+  await assert.rejects(request('https://api.github.com/repos/sample/query-cli/commits/main'), BudgetPause);
+  assert.equal(calls, 2, 'Stops before spending the publication reserve');
+  calls = 0;
+  const retry = createClient('test', async () => {
+    calls++;
+    return new Response(null, { status: 500, headers: { 'x-ratelimit-remaining': '100' } });
+  });
+  await assert.rejects(retry('https://api.github.com/repos/sample/query-cli'), BudgetPause);
+  assert.equal(calls, 1, 'Retries also respect the publication reserve');
+  const capped = createClient('test', async () => { calls++; return Response.json({}); });
+  calls = 0;
+  for (let i = 0; i < 600; i++) await capped('https://api.github.com/repos/sample/query-cli');
+  await assert.rejects(capped('https://api.github.com/repos/sample/query-cli'), BudgetPause);
+  assert.equal(calls, 600);
+  for (const [status, headers] of [[403, { 'x-ratelimit-remaining': '0' }], [403, { 'retry-after': '60' }], [429, {}]]) {
+    const limited = createClient('test', async () => new Response(null, { status, headers }));
+    await assert.rejects(limited('https://api.github.com/repos/sample/query-cli'), error => error instanceof BudgetPause && error.rateLimited);
+  }
+});
+
 test('Homebrew source rotation wraps at the real boundary and malformed source dates stop collection', async () => {
   let endDate = '2026-09-09';
   const request = async url => {
@@ -193,4 +221,29 @@ test('End-to-end discovery pins evidence, preserves editorial data, obeys rerun 
   assert.equal(nextDay.state.candidates['sample/second-cli'].reason, 'Below adoption thresholds');
   assert.deepEqual(nextDay.state.pending, []);
   assert.equal(searches, config.queries.length, 'No new source page until the pending queue is drained');
+
+  // Pause during the second candidate's evidence, after the first has qualified.
+  secondStars = 500;
+  let pause = true;
+  let rateLimited = false;
+  const budgeted = async url => {
+    if (pause && url.includes('/sample/second-cli/git/trees/')) throw new BudgetPause('Budget low', { rateLimited });
+    return multiple(url);
+  };
+  const paused = await discover({ ...input, request: budgeted });
+  assert.equal(paused.accepted.length, 1);
+  assert.deepEqual(paused.state.pending, [{ repo: 'sample/second-cli' }]);
+  assert.equal(paused.state.candidates['sample/second-cli'], undefined, 'Incomplete evidence does not impose a 30-day hold');
+  pause = false;
+  const resumed = await discover({ ...input, request: budgeted, catalog: paused.catalog, state: paused.state });
+  assert.equal(resumed.accepted.length, 1);
+  assert.deepEqual(resumed.state.pending, []);
+  pause = true;
+  rateLimited = true;
+  const exhausted = await discover({ ...input, request: budgeted });
+  assert.deepEqual(exhausted.accepted, []);
+  assert.deepEqual(exhausted.state, state, 'An actual limit rolls back the batch so no metadata requests follow');
+  assert.deepEqual(exhausted.catalog, catalog);
+  const collectionPaused = await discover({ ...input, request: async () => { throw new BudgetPause('Budget low'); } });
+  assert.deepEqual(collectionPaused.state, state, 'Incomplete source collection must not advance source cursors');
 });
