@@ -698,5 +698,705 @@
     "github_url": "https://github.com/casey/just",
     "description": "Execute predefined project commands and workflows.",
     "agent_ai_workflow_support": "Not marked in source list"
+  },
+  {
+    "id": "101",
+    "cli_name": "blucli",
+    "github_url": "https://github.com/steipete/blucli",
+    "description": "Control BluOS players, playback, queues, groups, and presets.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "102",
+    "cli_name": "eightctl",
+    "github_url": "https://github.com/steipete/eightctl",
+    "description": "Retrieve Eight Sleep data and control sleep pods.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "103",
+    "cli_name": "gifgrep",
+    "github_url": "https://github.com/steipete/gifgrep",
+    "description": "Search and retrieve GIFs from the terminal.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "104",
+    "cli_name": "camsnap",
+    "github_url": "https://github.com/steipete/camsnap",
+    "description": "Capture snapshots and clips from RTSP and ONVIF cameras.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "105",
+    "cli_name": "ordercli",
+    "github_url": "https://github.com/steipete/ordercli",
+    "description": "Inspect Foodora and Deliveroo orders and delivery status.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "106",
+    "cli_name": "OpenHue CLI",
+    "github_url": "https://github.com/openhue/openhue-cli",
+    "description": "Discover and control Philips Hue lights and scenes.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "107",
+    "cli_name": "sag",
+    "github_url": "https://github.com/steipete/sag",
+    "description": "Generate spoken audio from text.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "108",
+    "cli_name": "twitter-cli",
+    "github_url": "https://github.com/public-clis/twitter-cli",
+    "description": "Search and interact with X feeds, posts, timelines, and bookmarks.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "109",
+    "cli_name": "bilibili-cli",
+    "github_url": "https://github.com/public-clis/bilibili-cli",
+    "description": "Search Bilibili videos and users and retrieve video information and subtitles.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "110",
+    "cli_name": "rdt-cli",
+    "github_url": "https://github.com/public-clis/rdt-cli",
+    "description": "Search and interact with Reddit posts and export data as JSON or CSV.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "111",
+    "cli_name": "xiaohongshu-cli",
+    "github_url": "https://github.com/jackwener/xiaohongshu-cli",
+    "description": "Search, read, and interact with Xiaohongshu content.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "112",
+    "cli_name": "notesmd-cli",
+    "github_url": "https://github.com/Yakitrak/notesmd-cli",
+    "description": "Manage Markdown notes in Obsidian vaults.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "113",
+    "cli_name": "Jira CLI",
+    "github_url": "https://github.com/ankitpokhrel/jira-cli",
+    "description": "Create, search, update, and transition Jira issues.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "114",
+    "cli_name": "Todoist CLI",
+    "github_url": "https://github.com/sachaos/todoist",
+    "description": "List, create, and complete Todoist tasks.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "115",
+    "cli_name": "Taskwarrior",
+    "github_url": "https://github.com/GothenburgBitFactory/taskwarrior",
+    "description": "Track tasks, priorities, dependencies, and due dates.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "116",
+    "cli_name": "khal",
+    "github_url": "https://github.com/pimutils/khal",
+    "description": "View and manage local calendars and events.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "117",
+    "cli_name": "gcalcli",
+    "github_url": "https://github.com/insanum/gcalcli",
+    "description": "Query and manage Google Calendar events.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "118",
+    "cli_name": "vdirsyncer",
+    "github_url": "https://github.com/pimutils/vdirsyncer",
+    "description": "Synchronize calendars and contacts between servers and local storage.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "119",
+    "cli_name": "buku",
+    "github_url": "https://github.com/jarun/buku",
+    "description": "Store, search, and manage browser bookmarks.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "120",
+    "cli_name": "nb",
+    "github_url": "https://github.com/xwmx/nb",
+    "description": "Create, search, archive, and synchronize notes and bookmarks.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "121",
+    "cli_name": "Vibe Notion",
+    "github_url": "https://github.com/devxoul/vibe-notion",
+    "description": "Manage Notion pages, databases, blocks, and comments.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "122",
+    "cli_name": "OpenCLI",
+    "github_url": "https://github.com/jackwener/OpenCLI",
+    "description": "Access website functionality through CLI interfaces using browser sessions.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "123",
+    "cli_name": "rulesync",
+    "github_url": "https://github.com/dyoshikawa/rulesync",
+    "description": "Synchronize configuration and rules for AI coding agents.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "124",
+    "cli_name": "acpx",
+    "github_url": "https://github.com/openclaw/acpx",
+    "description": "Run headless stateful sessions through the Agent Client Protocol.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "125",
+    "cli_name": "discord-cli",
+    "github_url": "https://github.com/jackwener/discord-cli",
+    "description": "Synchronize, search, and export Discord messages for local analysis.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "126",
+    "cli_name": "tg-cli",
+    "github_url": "https://github.com/jackwener/tg-cli",
+    "description": "Synchronize, search, and export Telegram messages through MTProto.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "127",
+    "cli_name": "agent-slack",
+    "github_url": "https://github.com/stablyai/agent-slack",
+    "description": "Search and manage Slack messages, channels, and documents from agent workflows.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "128",
+    "cli_name": "Auth0 CLI",
+    "github_url": "https://github.com/auth0/auth0-cli",
+    "description": "Build, manage, and test Auth0 integrations.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "129",
+    "cli_name": "Okta CLI",
+    "github_url": "https://github.com/okta/okta-cli",
+    "description": "Bootstrap Okta organizations and application integrations.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "130",
+    "cli_name": "Tailscale CLI",
+    "github_url": "https://github.com/tailscale/tailscale",
+    "description": "Connect devices to Tailscale and inspect network status.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "131",
+    "cli_name": "cloudflared",
+    "github_url": "https://github.com/cloudflare/cloudflared",
+    "description": "Create and run Cloudflare Tunnel connections.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "132",
+    "cli_name": "Heroku CLI",
+    "github_url": "https://github.com/heroku/cli",
+    "description": "Deploy and manage Heroku applications and services.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "133",
+    "cli_name": "flyctl",
+    "github_url": "https://github.com/superfly/flyctl",
+    "description": "Deploy and operate applications on Fly.io.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "134",
+    "cli_name": "Fastly CLI",
+    "github_url": "https://github.com/fastly/cli",
+    "description": "Build, deploy, and configure Fastly services.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "135",
+    "cli_name": "Akamai CLI",
+    "github_url": "https://github.com/akamai/cli",
+    "description": "Manage Akamai products through installable command packages.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "136",
+    "cli_name": "decK",
+    "github_url": "https://github.com/Kong/deck",
+    "description": "Manage declarative Kong Gateway configuration and detect drift.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "137",
+    "cli_name": "Temporal CLI",
+    "github_url": "https://github.com/temporalio/cli",
+    "description": "Run a development server and inspect or manage Temporal workflows.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "138",
+    "cli_name": "NATS CLI",
+    "github_url": "https://github.com/nats-io/natscli",
+    "description": "Publish messages and manage NATS streams and services.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "139",
+    "cli_name": "n8n CLI",
+    "github_url": "https://github.com/n8n-io/n8n",
+    "description": "Execute workflows and import or export workflows and credentials.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "140",
+    "cli_name": "Appwrite CLI",
+    "github_url": "https://github.com/appwrite/sdk-for-cli",
+    "description": "Manage Appwrite projects, functions, and backend resources.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "141",
+    "cli_name": "psql",
+    "github_url": "https://github.com/postgres/postgres",
+    "description": "Execute PostgreSQL queries and SQL scripts.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "142",
+    "cli_name": "redis-cli",
+    "github_url": "https://github.com/redis/redis",
+    "description": "Query and manage Redis data and servers.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "143",
+    "cli_name": "mongosh",
+    "github_url": "https://github.com/mongodb-js/mongosh",
+    "description": "Execute MongoDB queries and administrative commands.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "144",
+    "cli_name": "MongoDB Atlas CLI",
+    "github_url": "https://github.com/mongodb/mongodb-atlas-cli",
+    "description": "Manage MongoDB Atlas cloud database resources.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "145",
+    "cli_name": "Snowflake CLI",
+    "github_url": "https://github.com/snowflakedb/snowflake-cli",
+    "description": "Run SQL and manage Snowflake developer workloads.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "146",
+    "cli_name": "Databricks CLI",
+    "github_url": "https://github.com/databricks/cli",
+    "description": "Manage Databricks workspaces, jobs, and deployments.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "147",
+    "cli_name": "Confluent CLI",
+    "github_url": "https://github.com/confluentinc/cli",
+    "description": "Manage Confluent Cloud and Platform resources.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "148",
+    "cli_name": "ClickHouse client",
+    "github_url": "https://github.com/ClickHouse/ClickHouse",
+    "description": "Query and load analytical data in ClickHouse.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "149",
+    "cli_name": "Influx CLI",
+    "github_url": "https://github.com/influxdata/influx-cli",
+    "description": "Query data and manage InfluxDB v2 resources.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "150",
+    "cli_name": "usql",
+    "github_url": "https://github.com/xo/usql",
+    "description": "Execute SQL across multiple database systems.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "151",
+    "cli_name": "pgcli",
+    "github_url": "https://github.com/dbcli/pgcli",
+    "description": "Query PostgreSQL with a command-line SQL client.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "152",
+    "cli_name": "mycli",
+    "github_url": "https://github.com/dbcli/mycli",
+    "description": "Query MySQL and compatible databases from the terminal.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "153",
+    "cli_name": "litecli",
+    "github_url": "https://github.com/dbcli/litecli",
+    "description": "Query SQLite databases from the terminal.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "154",
+    "cli_name": "csvkit",
+    "github_url": "https://github.com/wireservice/csvkit",
+    "description": "Convert, inspect, query, and transform CSV data.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "155",
+    "cli_name": "qsv",
+    "github_url": "https://github.com/dathere/qsv",
+    "description": "Validate, filter, join, and transform tabular data.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "156",
+    "cli_name": "Git",
+    "github_url": "https://github.com/git/git",
+    "description": "Version files, inspect changes, and manage branches and commits.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "157",
+    "cli_name": "Jujutsu (jj)",
+    "github_url": "https://github.com/jj-vcs/jj",
+    "description": "Manage version-control changes and Git-compatible repositories.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "158",
+    "cli_name": "Git LFS",
+    "github_url": "https://github.com/git-lfs/git-lfs",
+    "description": "Track and transfer large files in Git repositories.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "159",
+    "cli_name": "GoReleaser",
+    "github_url": "https://github.com/goreleaser/goreleaser",
+    "description": "Build, package, and publish software releases.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "160",
+    "cli_name": "act",
+    "github_url": "https://github.com/nektos/act",
+    "description": "Run GitHub Actions workflows locally.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "161",
+    "cli_name": "Dagger CLI",
+    "github_url": "https://github.com/dagger/dagger",
+    "description": "Execute programmable build, test, and delivery pipelines.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "162",
+    "cli_name": "Dev Container CLI",
+    "github_url": "https://github.com/devcontainers/cli",
+    "description": "Create and configure development containers.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "163",
+    "cli_name": "DevSpace",
+    "github_url": "https://github.com/devspace-sh/devspace",
+    "description": "Automate development and deployment workflows on Kubernetes.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "164",
+    "cli_name": "Garden",
+    "github_url": "https://github.com/garden-io/garden",
+    "description": "Build and test applications in Kubernetes environments.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "165",
+    "cli_name": "k3d",
+    "github_url": "https://github.com/k3d-io/k3d",
+    "description": "Create and manage k3s Kubernetes clusters in Docker.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "166",
+    "cli_name": "Skaffold",
+    "github_url": "https://github.com/GoogleContainerTools/skaffold",
+    "description": "Automate Kubernetes application build and deployment cycles.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "167",
+    "cli_name": "Kustomize",
+    "github_url": "https://github.com/kubernetes-sigs/kustomize",
+    "description": "Customize Kubernetes manifests with overlays and patches.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "168",
+    "cli_name": "Helmfile",
+    "github_url": "https://github.com/helmfile/helmfile",
+    "description": "Declare and synchronize collections of Helm releases.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "169",
+    "cli_name": "kubectx",
+    "github_url": "https://github.com/ahmetb/kubectx",
+    "description": "Switch Kubernetes contexts and namespaces.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "170",
+    "cli_name": "stern",
+    "github_url": "https://github.com/stern/stern",
+    "description": "Stream logs from multiple Kubernetes pods and containers.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "171",
+    "cli_name": "uv",
+    "github_url": "https://github.com/astral-sh/uv",
+    "description": "Manage Python projects, packages, virtual environments, and tools.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "172",
+    "cli_name": "Ruff",
+    "github_url": "https://github.com/astral-sh/ruff",
+    "description": "Lint and format Python code.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "173",
+    "cli_name": "Biome",
+    "github_url": "https://github.com/biomejs/biome",
+    "description": "Lint and format JavaScript, TypeScript, and web project files.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "174",
+    "cli_name": "ESLint",
+    "github_url": "https://github.com/eslint/eslint",
+    "description": "Find and fix problematic JavaScript code patterns.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "175",
+    "cli_name": "Prettier",
+    "github_url": "https://github.com/prettier/prettier",
+    "description": "Format source code and markup consistently.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "176",
+    "cli_name": "Deno",
+    "github_url": "https://github.com/denoland/deno",
+    "description": "Execute, test, and manage JavaScript and TypeScript programs.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "177",
+    "cli_name": "pnpm",
+    "github_url": "https://github.com/pnpm/pnpm",
+    "description": "Install JavaScript dependencies and manage workspaces.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "178",
+    "cli_name": "npm",
+    "github_url": "https://github.com/npm/cli",
+    "description": "Manage JavaScript packages and execute project scripts.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "179",
+    "cli_name": "Poetry",
+    "github_url": "https://github.com/python-poetry/poetry",
+    "description": "Manage Python dependencies, environments, and packaging.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "180",
+    "cli_name": "pipx",
+    "github_url": "https://github.com/pypa/pipx",
+    "description": "Install and run Python command-line applications in isolated environments.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "181",
+    "cli_name": "Task",
+    "github_url": "https://github.com/go-task/task",
+    "description": "Execute build and automation commands defined in Taskfiles.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "182",
+    "cli_name": "watchexec",
+    "github_url": "https://github.com/watchexec/watchexec",
+    "description": "Rerun commands when watched files change.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "183",
+    "cli_name": "hyperfine",
+    "github_url": "https://github.com/sharkdp/hyperfine",
+    "description": "Benchmark command execution and compare performance.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "184",
+    "cli_name": "mkcert",
+    "github_url": "https://github.com/FiloSottile/mkcert",
+    "description": "Create locally trusted certificates for development.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "185",
+    "cli_name": "scc",
+    "github_url": "https://github.com/boyter/scc",
+    "description": "Count lines of code and estimate code complexity.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "186",
+    "cli_name": "Docling CLI",
+    "github_url": "https://github.com/docling-project/docling",
+    "description": "Convert documents into structured formats for AI processing.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "187",
+    "cli_name": "MarkItDown",
+    "github_url": "https://github.com/microsoft/markitdown",
+    "description": "Convert documents and other files to Markdown for language-model workflows.",
+    "agent_ai_workflow_support": "Documented"
+  },
+  {
+    "id": "188",
+    "cli_name": "Hugo",
+    "github_url": "https://github.com/gohugoio/hugo",
+    "description": "Build static websites from content and templates.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "189",
+    "cli_name": "MkDocs",
+    "github_url": "https://github.com/mkdocs/mkdocs",
+    "description": "Build documentation websites from Markdown.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "190",
+    "cli_name": "Asciidoctor",
+    "github_url": "https://github.com/asciidoctor/asciidoctor",
+    "description": "Convert AsciiDoc documents to HTML and DocBook.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "191",
+    "cli_name": "Quarto CLI",
+    "github_url": "https://github.com/quarto-dev/quarto-cli",
+    "description": "Publish technical documents, reports, books, and websites.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "192",
+    "cli_name": "Marp CLI",
+    "github_url": "https://github.com/marp-team/marp-cli",
+    "description": "Convert Markdown slide decks to presentation formats.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "193",
+    "cli_name": "Mermaid CLI",
+    "github_url": "https://github.com/mermaid-js/mermaid-cli",
+    "description": "Render Mermaid diagrams as image or PDF files.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "194",
+    "cli_name": "vips CLI",
+    "github_url": "https://github.com/libvips/libvips",
+    "description": "Process, transform, and convert images in batch workflows.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "195",
+    "cli_name": "ExifTool",
+    "github_url": "https://github.com/exiftool/exiftool",
+    "description": "Read, write, and edit file metadata.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "196",
+    "cli_name": "whisper-cli",
+    "github_url": "https://github.com/ggml-org/whisper.cpp",
+    "description": "Transcribe audio locally using Whisper models.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "197",
+    "cli_name": "Typst",
+    "github_url": "https://github.com/typst/typst",
+    "description": "Compile typeset documents from Typst source files.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "198",
+    "cli_name": "mutool",
+    "github_url": "https://github.com/ArtifexSoftware/mupdf",
+    "description": "Inspect, render, and convert PDF documents.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "199",
+    "cli_name": "pdfcpu",
+    "github_url": "https://github.com/pdfcpu/pdfcpu",
+    "description": "Validate, merge, split, and process PDF files.",
+    "agent_ai_workflow_support": "Not assessed"
+  },
+  {
+    "id": "200",
+    "cli_name": "miniserve",
+    "github_url": "https://github.com/svenstaro/miniserve",
+    "description": "Serve files and directories over HTTP.",
+    "agent_ai_workflow_support": "Not assessed"
   }
 ]
