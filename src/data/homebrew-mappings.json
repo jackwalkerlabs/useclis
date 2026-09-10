@@ -1,0 +1,313 @@
+{
+  "github-cli": {
+    "formula": "gh",
+    "repo": "cli/cli"
+  },
+  "agent-browser": {
+    "formula": "agent-browser",
+    "repo": "vercel-labs/agent-browser"
+  },
+  "ripgrep": {
+    "formula": "ripgrep",
+    "repo": "BurntSushi/ripgrep"
+  },
+  "jq": {
+    "formula": "jq",
+    "repo": "jqlang/jq"
+  },
+  "aider": {
+    "formula": "aider",
+    "repo": "Aider-AI/aider"
+  },
+  "opencode": {
+    "formula": "opencode",
+    "repo": "anomalyco/opencode"
+  },
+  "git-town": {
+    "formula": "git-town",
+    "repo": "git-town/git-town"
+  },
+  "fd": {
+    "formula": "fd",
+    "repo": "sharkdp/fd"
+  },
+  "ast-grep": {
+    "formula": "ast-grep",
+    "repo": "ast-grep/ast-grep"
+  },
+  "scc": {
+    "formula": "scc",
+    "repo": "boyter/scc"
+  },
+  "yq": {
+    "formula": "yq",
+    "repo": "mikefarah/yq"
+  },
+  "httpie": {
+    "formula": "httpie",
+    "repo": "httpie/cli"
+  },
+  "curl": {
+    "formula": "curl",
+    "repo": "curl/curl"
+  },
+  "uv": {
+    "formula": "uv",
+    "repo": "astral-sh/uv"
+  },
+  "pnpm": {
+    "formula": "pnpm",
+    "repo": "pnpm/pnpm"
+  },
+  "bun": {
+    "formula": "bun",
+    "repo": "oven-sh/bun"
+  },
+  "mise": {
+    "formula": "mise",
+    "repo": "jdx/mise"
+  },
+  "ruff": {
+    "formula": "ruff",
+    "repo": "astral-sh/ruff"
+  },
+  "biome": {
+    "formula": "biome",
+    "repo": "biomejs/biome"
+  },
+  "semgrep": {
+    "formula": "semgrep",
+    "repo": "semgrep/semgrep"
+  },
+  "gitleaks": {
+    "formula": "gitleaks",
+    "repo": "gitleaks/gitleaks"
+  },
+  "rclone": {
+    "formula": "rclone",
+    "repo": "rclone/rclone"
+  },
+  "pandoc": {
+    "formula": "pandoc",
+    "repo": "jgm/pandoc"
+  },
+  "bat": {
+    "formula": "bat",
+    "repo": "sharkdp/bat"
+  },
+  "glow": {
+    "formula": "glow",
+    "repo": "charmbracelet/glow"
+  },
+  "summarize": {
+    "formula": "summarize",
+    "repo": "steipete/summarize"
+  },
+  "google-workspace-cli": {
+    "formula": "googleworkspace-cli",
+    "repo": "googleworkspace/cli"
+  },
+  "gogcli": {
+    "formula": "gogcli",
+    "repo": "openclaw/gogcli"
+  },
+  "beads": {
+    "formula": "beads",
+    "repo": "gastownhall/beads"
+  },
+  "himalaya": {
+    "formula": "himalaya",
+    "repo": "pimalaya/himalaya"
+  },
+  "railway-cli": {
+    "formula": "railway",
+    "repo": "railwayapp/cli"
+  },
+  "aws-cli": {
+    "formula": "awscli",
+    "repo": "aws/aws-cli"
+  },
+  "azure-cli": {
+    "formula": "azure-cli",
+    "repo": "Azure/azure-cli"
+  },
+  "doctl": {
+    "formula": "doctl",
+    "repo": "digitalocean/doctl"
+  },
+  "hcloud": {
+    "formula": "hcloud",
+    "repo": "hetznercloud/cli"
+  },
+  "scaleway-cli": {
+    "formula": "scw",
+    "repo": "scaleway/scaleway-cli"
+  },
+  "linode-cli": {
+    "formula": "linode-cli",
+    "repo": "linode/linode-cli"
+  },
+  "render-cli": {
+    "formula": "render",
+    "repo": "render-oss/cli"
+  },
+  "stripe-cli": {
+    "formula": "stripe-cli",
+    "repo": "stripe/stripe-cli"
+  },
+  "algolia-cli": {
+    "formula": "algolia",
+    "repo": "algolia/cli"
+  },
+  "podman": {
+    "formula": "podman",
+    "repo": "podman-container-tools/podman"
+  },
+  "helm": {
+    "formula": "helm",
+    "repo": "helm/helm"
+  },
+  "opentofu": {
+    "formula": "opentofu",
+    "repo": "opentofu/opentofu"
+  },
+  "pulumi": {
+    "formula": "pulumi",
+    "repo": "pulumi/pulumi"
+  },
+  "ansible": {
+    "formula": "ansible",
+    "repo": "ansible/ansible"
+  },
+  "argocd": {
+    "formula": "argocd",
+    "repo": "argoproj/argo-cd"
+  },
+  "flux-cli": {
+    "formula": "fluxcd",
+    "repo": "fluxcd/flux2"
+  },
+  "kind": {
+    "formula": "kind",
+    "repo": "kubernetes-sigs/kind"
+  },
+  "minikube": {
+    "formula": "minikube",
+    "repo": "kubernetes/minikube"
+  },
+  "sops": {
+    "formula": "sops",
+    "repo": "getsops/sops"
+  },
+  "age": {
+    "formula": "age",
+    "repo": "FiloSottile/age"
+  },
+  "bitwarden-cli": {
+    "formula": "bitwarden-cli",
+    "repo": "bitwarden/clients"
+  },
+  "doppler-cli": {
+    "formula": "doppler",
+    "repo": "DopplerHQ/cli"
+  },
+  "infisical-cli": {
+    "formula": "infisical",
+    "repo": "Infisical/cli"
+  },
+  "trivy": {
+    "formula": "trivy",
+    "repo": "aquasecurity/trivy"
+  },
+  "syft": {
+    "formula": "syft",
+    "repo": "anchore/syft"
+  },
+  "grype": {
+    "formula": "grype",
+    "repo": "anchore/grype"
+  },
+  "trufflehog": {
+    "formula": "trufflehog",
+    "repo": "trufflesecurity/trufflehog"
+  },
+  "cosign": {
+    "formula": "cosign",
+    "repo": "sigstore/cosign"
+  },
+  "k6": {
+    "formula": "k6",
+    "repo": "grafana/k6"
+  },
+  "duckdb-cli": {
+    "formula": "duckdb",
+    "repo": "duckdb/duckdb"
+  },
+  "sqlite-utils": {
+    "formula": "sqlite-utils",
+    "repo": "simonw/sqlite-utils"
+  },
+  "golang-migrate": {
+    "formula": "golang-migrate",
+    "repo": "golang-migrate/migrate"
+  },
+  "atlas": {
+    "formula": "atlas",
+    "repo": "ariga/atlas"
+  },
+  "miller": {
+    "formula": "miller",
+    "repo": "johnkerl/miller"
+  },
+  "dolt": {
+    "formula": "dolt",
+    "repo": "dolthub/dolt"
+  },
+  "yt-dlp": {
+    "formula": "yt-dlp",
+    "repo": "yt-dlp/yt-dlp"
+  },
+  "tesseract": {
+    "formula": "tesseract",
+    "repo": "tesseract-ocr/tesseract"
+  },
+  "qpdf": {
+    "formula": "qpdf",
+    "repo": "qpdf/qpdf"
+  },
+  "restic": {
+    "formula": "restic",
+    "repo": "restic/restic"
+  },
+  "just": {
+    "formula": "just",
+    "repo": "casey/just"
+  },
+  "git": {
+    "formula": "git",
+    "repo": "git/git"
+  },
+  "docker-cli": {
+    "formula": "docker",
+    "repo": "docker/cli"
+  },
+  "wp-cli": {
+    "formula": "wp-cli",
+    "repo": "wp-cli/wp-cli"
+  },
+  "ffmpeg": {
+    "formula": "ffmpeg",
+    "repo": "FFmpeg/FFmpeg"
+  },
+  "imagemagick": {
+    "formula": "imagemagick",
+    "repo": "ImageMagick/ImageMagick"
+  },
+  "gemini-cli": {
+    "formula": "gemini-cli",
+    "repo": "google-gemini/gemini-cli",
+    "upstreamUrls": [
+      "https://registry.npmjs.org/@google/gemini-cli"
+    ]
+  }
+}
