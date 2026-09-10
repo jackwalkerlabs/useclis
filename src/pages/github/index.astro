@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { profiles } from '../../data/profiles';
+import { number } from '../../data/tools';
+import '../../profile.css';
+const groups = [{ label: 'Organizations', type: 'Organization' }, { label: 'Developers', type: 'User' }];
+---
+<Layout title="GitHub owners — People and organizations building CLIs | useclis" description="Meet the developers and organizations behind the CLIs on useclis. Explore their tools, GitHub stars, and repository activity." active="Owners">
+  <div class="container owners-page"><div class="profile-breadcrumb"><a href="/">useclis</a><span>›</span><span>GitHub owners</span></div><div class="owners-heading"><span class="owners-eyebrow">THE PEOPLE BEHIND THE COMMAND LINE</span><h1>Built by people.<br />Used by agents.</h1><p>Meet the developers and organizations behind your next favorite CLI.</p><nav aria-label="Owner types"><a href="#organizations">Organizations <span>{profiles.filter(profile => profile.type === 'Organization').length}</span></a><a href="#developers">Developers <span>{profiles.filter(profile => profile.type === 'User').length}</span></a></nav></div>
+    {groups.map(group => <section class="owners-group" id={group.label.toLowerCase()}><div class="profile-section-heading"><h2>{group.label}</h2><span>By stars across listed repositories</span></div><div class="owners-grid">{profiles.filter(profile => profile.type === group.type).map(profile => <a class="owner-card" href={`/github/${profile.key}/`}><div class="owner-card-heading"><img class:list={{ 'profile-avatar-user': profile.type === 'User' }} src={profile.avatar} alt="" width="48" height="48" loading="lazy" /><div><h3>{profile.name}</h3><span>@{profile.login}</span></div><span aria-hidden="true">↗</span></div><p>{profile.bio || `The GitHub ${profile.type === 'User' ? 'developer' : 'organization'} behind ${profile.listings.map(tool => tool.name).join(' and ')}.`}</p><div class="owner-card-stats"><span><strong>{number(profile.stars)}</strong> stars</span><span><strong>{profile.listings.length}</strong> {profile.listings.length === 1 ? 'CLI' : 'CLIs'}</span></div><div class="owner-card-tools">{profile.listings.map(tool => <span>{tool.name}</span>)}</div></a>)}</div></section>)}
+  </div>
+</Layout>

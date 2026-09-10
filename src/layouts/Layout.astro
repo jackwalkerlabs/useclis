@@ -33,6 +33,7 @@ const submissionRepo = import.meta.env.PUBLIC_SUBMISSIONS_REPO?.trim() ?? 'jackw
         <nav aria-label="Main navigation">
           <a class:list={{ active: active === 'Directory' }} href="/">Directory</a>
           <a class:list={{ active: active === 'Categories' }} href="/categories/">Categories</a>
+          <a class:list={{ active: active === 'Owners' }} href="/github/">Owners</a>
           <a class:list={{ active: active === 'About' }} href="/about/">About</a>
         </nav>
         <div class="header-actions"><a class="saved-link" aria-label="Saved CLIs" href="/?saved=1#directory"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span>Saved CLIs</span></a><SubmitCLI client:load submissionRepo={submissionRepo} /></div>

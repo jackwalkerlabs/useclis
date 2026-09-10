@@ -237,3 +237,49 @@ test('Submission modal preserves details when closed and validates repository UR
     assert.equal(document.querySelector('dialog').open, false);
   } finally { globalThis.FormData = previousFormData; }
 });
+
+const { default: ProfileActivityChart } = await import('../src/components/ProfileActivityChart.tsx');
+const { default: ShareProfile } = await import('../src/components/ShareProfile.tsx');
+
+test('Profile chart ranges, keyboard and touch inspection use dated totals', async () => {
+  const user = userEvent.setup();
+  const points = Array.from({ length: 52 }, (_, index) => ({ date: new Date(Date.UTC(2025, 8, 14) + index * 7 * 86400000).toISOString().slice(0, 10), commits: index + 1 }));
+  render(h(ProfileActivityChart, { points, name: 'Owner', repositories: 2, totalRepositories: 2 }));
+  for (const range of [12, 26, 52]) {
+    await user.selectOptions(screen.getByRole('combobox', { name: 'Activity period' }), String(range));
+    assert.equal(document.querySelector('.profile-chart-heading strong').textContent, points.slice(-range).reduce((sum, point) => sum + point.commits, 0).toLocaleString('en'));
+  }
+  const chart = screen.getByRole('img');
+  chart.getBoundingClientRect = () => ({ left: 0, width: 960 });
+  pointer(chart, 'pointerdown', 928);
+  assert.match(screen.getByRole('status').textContent, /52 commits/);
+  fireEvent.keyDown(chart, { key: 'ArrowLeft' });
+  assert.match(screen.getByRole('status').textContent, /51 commits/);
+  fireEvent.keyDown(chart, { key: 'Escape' });
+  assert.equal(screen.getByRole('status').textContent, '');
+  await user.selectOptions(screen.getByRole('combobox', { name: 'Activity period' }), '12');
+  assert.equal(document.querySelector('.profile-chart-tooltip'), null);
+});
+
+test('Profile chart has a truthful empty state without invalid SVG coordinates', () => {
+  render(h(ProfileActivityChart, { points: [], name: 'Owner', repositories: 0, totalRepositories: 2 }));
+  assert.ok(screen.getByText('Weekly activity is not available yet.'));
+  assert.equal(screen.queryByRole('img'), null);
+});
+
+test('Share copies the profile URL and offers a selectable link if clipboard fails', async () => {
+  const user = userEvent.setup();
+  window.history.replaceState(null, '', '/github/sharkdp/?ignored=1#test');
+  const copied = [];
+  mock.method(navigator.clipboard, 'writeText', async text => copied.push(text));
+  render(h(ShareProfile));
+  await user.click(screen.getByRole('button', { name: 'Share' }));
+  assert.deepEqual(copied, ['http://localhost:4321/github/sharkdp/']);
+  assert.equal(screen.getByRole('status').textContent, 'Link copied');
+  mock.method(navigator.clipboard, 'writeText', async () => { throw new Error('Denied'); });
+  await user.click(screen.getByRole('button', { name: 'Share' }));
+  const input = screen.getByRole('textbox', { name: 'Profile link' });
+  assert.equal(input.value, copied[0]);
+  await user.click(input);
+  assert.equal(input.selectionEnd - input.selectionStart, copied[0].length);
+});

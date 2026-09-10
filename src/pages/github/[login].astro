@@ -1,0 +1,41 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProfileActivityChart from '../../components/ProfileActivityChart';
+import ShareProfile from '../../components/ShareProfile';
+import { Sparkline } from '../../components/ActivityChart';
+import { profiles } from '../../data/profiles';
+import { tools, number } from '../../data/tools';
+import activity from '../../data/activity.json';
+import { ownerKey, websiteHref } from '../../lib/profiles';
+import '../../profile.css';
+export function getStaticPaths() { return profiles.map(profile => ({ params: { login: profile.key }, props: { profile } })); }
+const { profile } = Astro.props;
+const website = websiteHref(profile.website);
+const recommendations = tools.filter(tool => ownerKey(tool.repo) !== profile.key).sort((a, b) => Number(b.featured) - Number(a.featured)).slice(0, 8);
+const rails = [recommendations.slice(0, 4), recommendations.slice(4)];
+const dateLabel = (date: string) => new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+---
+<Layout title={`${profile.name} (@${profile.login}) — GitHub ${profile.type === 'User' ? 'developer' : 'organization'} | useclis`} description={`Explore ${profile.listings.length} CLIs from ${profile.name}, their GitHub stars, and weekly repository activity.`} active="Owners">
+  <div class="profile-shell">
+    {rails.map((rail, index) => <aside class:list={['profile-rail', index === 0 ? 'profile-rail-left' : 'profile-rail-right']} aria-label={index === 0 ? 'Featured CLIs' : 'More CLIs to explore'}><p>{index === 0 ? 'Discover a CLI' : 'More to explore'}</p>{rail.map((tool, i) => <a class={`profile-promo profile-promo-${(i + index * 2) % 5}`} href={`/tools/${tool.slug}/`}><img src={tool.logo} alt="" width="32" height="32" loading="lazy" /><strong>{tool.name}</strong><span>{tool.useCase}</span><code>{tool.command}</code></a>)}</aside>)}
+    <div class="profile-main">
+      <nav class="profile-breadcrumb" aria-label="Breadcrumb"><a href="/">useclis</a><span>›</span><a href="/github/">GitHub owners</a><span>›</span><span>{profile.login}</span></nav>
+      <section class="profile-header" aria-labelledby="profile-name">
+        <img class:list={['profile-avatar', { 'profile-avatar-user': profile.type === 'User' }]} src={profile.avatar} alt="" width="88" height="88" />
+        <div class="profile-identity"><div class="profile-name"><h1 id="profile-name">{profile.name}</h1><span>@{profile.login}</span></div><p>{profile.listings.length} {profile.listings.length === 1 ? 'CLI' : 'CLIs'} listed on useclis <span class="profile-kind">{profile.type === 'User' ? 'Developer' : 'Organization'}</span></p></div>
+        <div class="profile-actions"><ShareProfile client:load /><a class="button primary" href={profile.source} target="_blank" rel="noreferrer">Visit GitHub profile <span aria-hidden="true">↗</span></a></div>
+      </section>
+      <div class="profile-about">{profile.bio && <p>{profile.bio}</p>}<div>{profile.location && <span>{profile.location}</span>}{website && <a href={website} target="_blank" rel="noreferrer">{website.replace(/^https?:\/\//, '').replace(/\/$/, '')} ↗</a>}<span>{profile.publicRepos.toLocaleString('en')} public repositories on GitHub</span></div></div>
+      <section class="profile-stats" aria-label="GitHub profile statistics">
+        <div><h2>Total stars</h2><strong>{profile.stars.toLocaleString('en')}</strong><p>Across listed repositories</p></div>
+        <div><h2>Commits · 12 weeks</h2><strong>{profile.commits12?.toLocaleString('en') ?? '—'}</strong><p>{profile.activityRepositories === profile.repositories ? 'Across listed repositories' : `${profile.activityRepositories} of ${profile.repositories} repositories`}</p></div>
+        <div><h2>GitHub followers</h2><strong>{number(profile.followers)}</strong><p>Following @{profile.login}</p></div>
+        <div><h2>Listed CLIs</h2><strong>{profile.listings.length}</strong><p>{profile.repositories} {profile.repositories === 1 ? 'GitHub repository' : 'GitHub repositories'}</p></div>
+      </section>
+      <ProfileActivityChart points={profile.points} name={profile.name} repositories={profile.activityRepositories} totalRepositories={profile.repositories} client:load />
+      <section class="profile-tools" aria-labelledby="profile-tools-title"><div class="profile-section-heading"><h2 id="profile-tools-title">CLIs by {profile.name}</h2><span>{profile.listings.length} {profile.listings.length === 1 ? 'CLI' : 'CLIs'}</span></div><div class="profile-tool-grid">{profile.listings.map(tool => <a class="profile-tool-card" href={`/tools/${tool.slug}/`}><div class="profile-tool-heading"><img src={tool.logo} alt="" width="44" height="44" loading="lazy" /><div><h3>{tool.name}</h3><span>{tool.repo}</span></div><span aria-hidden="true">↗</span></div><p>{tool.useCase}</p><code class="cli-command">{tool.command}</code><div class="profile-tool-stats"><span>☆ <strong>{number(tool.stars)}</strong> stars</span><span>{tool.category}</span></div><div class="profile-tool-sparkline"><Sparkline values={(activity[tool.slug as keyof typeof activity]?.weeks ?? []).slice(-12)} name={tool.name} height={36} /></div></a>)}</div></section>
+      <p class="profile-source">Profile from <a href={profile.source} target="_blank" rel="noreferrer">GitHub</a> · checked {dateLabel(profile.checkedAt)}. Stars and activity cover repositories listed on useclis, including work by all contributors. <a href="/about/">About the data ↗</a></p>
+      <a class="profile-back" href="/github/">← Explore all GitHub owners</a>
+    </div>
+  </div>
+</Layout>
