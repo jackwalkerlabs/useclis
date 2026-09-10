@@ -7,7 +7,7 @@ permissions:
   contents: read
 concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -27,3 +27,31 @@ jobs:
       - run: npm run build
       - run: npm run check:links
       - run: npx wrangler deploy --dry-run
+      - name: Deploy current main to useclis.com
+        if: >-
+          github.ref == 'refs/heads/main' &&
+          (github.event_name == 'push' || github.event_name == 'workflow_dispatch') &&
+          vars.CLOUDFLARE_DEPLOY_ENABLED == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          current_main=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')
+          if [ "$GITHUB_SHA" != "$current_main" ]; then
+            echo "Skipping superseded commit $GITHUB_SHA; main is now $current_main."
+            exit 0
+          fi
+          npx wrangler deploy
+          # Edge locations can briefly serve the preceding version after deploy.
+          for attempt in 1 2 3 4 5 6; do
+            if node scripts/check-http.mjs https://useclis.com > "$RUNNER_TEMP/production-check.log" 2>&1; then
+              cat "$RUNNER_TEMP/production-check.log"
+              exit 0
+            fi
+            if [ "$attempt" -lt 6 ]; then
+              echo "Waiting for deployment propagation (attempt $attempt/6)."
+              sleep 15
+            fi
+          done
+          cat "$RUNNER_TEMP/production-check.log"
+          exit 1

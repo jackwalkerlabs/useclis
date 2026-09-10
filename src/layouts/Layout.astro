@@ -4,6 +4,7 @@ import '../mobile.css';
 import '../submission.css';
 import SubmitCLI from '../components/SubmitCLI';
 import '../typography.css';
+import '../agent-prompt.css';
 import inconsolataLatin from '../../design-system/assets/fonts/inconsolata-latin-wght.woff2?url';
 interface Props { title?: string; description?: string; active?: string }
 const { title = 'useclis — CLIs for agents', description = 'Discover GitHub-backed command-line tools for AI agents. Search by task, inspect repository activity, and explore CLI commands.', active = 'Directory' } = Astro.props;
@@ -22,6 +23,7 @@ const submissionRepo = import.meta.env.PUBLIC_SUBMISSIONS_REPO?.trim() ?? 'jackw
     <meta property="og:type" content="website" />
     {canonical && <link rel="canonical" href={canonical} />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="describedby" href="/llms.txt" type="text/plain" />
     <link rel="preload" href={inconsolataLatin} as="font" type="font/woff2" crossorigin="anonymous" />
     <title>{title}</title>
   </head>
@@ -33,6 +35,7 @@ const submissionRepo = import.meta.env.PUBLIC_SUBMISSIONS_REPO?.trim() ?? 'jackw
         <nav aria-label="Main navigation">
           <a class:list={{ active: active === 'Directory' }} href="/">Directory</a>
           <a class:list={{ active: active === 'Categories' }} href="/categories/">Categories</a>
+          <a class:list={{ active: active === 'Owners' }} href="/github/">Owners</a>
           <a class:list={{ active: active === 'About' }} href="/about/">About</a>
         </nav>
         <div class="header-actions"><a class="saved-link" aria-label="Saved CLIs" href="/?saved=1#directory"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span>Saved CLIs</span></a><SubmitCLI client:load submissionRepo={submissionRepo} /></div>

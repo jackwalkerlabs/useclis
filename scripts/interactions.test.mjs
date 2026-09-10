@@ -15,6 +15,8 @@ const { default: Directory } = await import('../src/components/Directory.tsx');
 const { default: ActivityChart } = await import('../src/components/ActivityChart.tsx');
 const { default: StarsPanel } = await import('../src/components/StarsPanel.tsx');
 const { default: CommandExample } = await import('../src/components/CommandExample.tsx');
+const { default: AgentPrompt } = await import('../src/components/AgentPrompt.tsx');
+const { agentPrompt } = await import('../src/lib/agent-prompt.ts');
 const { tools, categories } = await import('../src/data/tools.ts');
 const { default: activity } = await import('../src/data/activity.json', { with: { type: 'json' } });
 let scrolls;
@@ -28,6 +30,25 @@ afterEach(() => { cleanup(); mock.restoreAll(); });
 after(() => dom.window.close());
 const rows = () => [...document.querySelectorAll('tbody .table-project strong')].map(node => node.textContent);
 const search = () => screen.getByRole('textbox', { name: /Search CLIs/ });
+
+test('Agent prompt copies exactly and opens a selected fallback when clipboard access fails', async () => {
+  const user = userEvent.setup();
+  let copied;
+  mock.method(navigator.clipboard, 'writeText', async value => { copied = value; });
+  render(h(AgentPrompt, { siteUrl: 'https://directory.example/' }));
+  await user.click(screen.getByRole('button', { name: 'Copy agent prompt' }));
+  assert.equal(copied, agentPrompt('https://directory.example/'));
+  assert.match(screen.getByRole('status').textContent, /Prompt copied/);
+  mock.method(navigator.clipboard, 'writeText', async () => { throw new Error('Clipboard denied'); });
+  await user.click(screen.getByRole('button', { name: 'Copy agent prompt' }));
+  const prompt = screen.getByRole('textbox', { name: 'Agent prompt' });
+  assert.ok(prompt.closest('details').open);
+  assert.equal(document.activeElement, prompt);
+  assert.equal(prompt.selectionStart, 0);
+  assert.equal(prompt.selectionEnd, prompt.value.length);
+  assert.equal(prompt.value, copied);
+  assert.match(screen.getByRole('status').textContent, /Copy the selected prompt/);
+});
 
 test('Rebrand preserves old bookmarks and saves subsequent removals under useclis', async () => {
   localStorage.setItem('openrepo-saved', JSON.stringify(['github-cli', 'removed-project']));
@@ -236,4 +257,50 @@ test('Submission modal preserves details when closed and validates repository UR
     fireEvent(document.querySelector('dialog'), new window.Event('cancel', { cancelable: true }));
     assert.equal(document.querySelector('dialog').open, false);
   } finally { globalThis.FormData = previousFormData; }
+});
+
+const { default: ProfileActivityChart } = await import('../src/components/ProfileActivityChart.tsx');
+const { default: ShareProfile } = await import('../src/components/ShareProfile.tsx');
+
+test('Profile chart ranges, keyboard and touch inspection use dated totals', async () => {
+  const user = userEvent.setup();
+  const points = Array.from({ length: 52 }, (_, index) => ({ date: new Date(Date.UTC(2025, 8, 14) + index * 7 * 86400000).toISOString().slice(0, 10), commits: index + 1 }));
+  render(h(ProfileActivityChart, { points, name: 'Owner', repositories: 2, totalRepositories: 2 }));
+  for (const range of [12, 26, 52]) {
+    await user.selectOptions(screen.getByRole('combobox', { name: 'Activity period' }), String(range));
+    assert.equal(document.querySelector('.profile-chart-heading strong').textContent, points.slice(-range).reduce((sum, point) => sum + point.commits, 0).toLocaleString('en'));
+  }
+  const chart = screen.getByRole('img');
+  chart.getBoundingClientRect = () => ({ left: 0, width: 960 });
+  pointer(chart, 'pointerdown', 928);
+  assert.match(screen.getByRole('status').textContent, /52 commits/);
+  fireEvent.keyDown(chart, { key: 'ArrowLeft' });
+  assert.match(screen.getByRole('status').textContent, /51 commits/);
+  fireEvent.keyDown(chart, { key: 'Escape' });
+  assert.equal(screen.getByRole('status').textContent, '');
+  await user.selectOptions(screen.getByRole('combobox', { name: 'Activity period' }), '12');
+  assert.equal(document.querySelector('.profile-chart-tooltip'), null);
+});
+
+test('Profile chart has a truthful empty state without invalid SVG coordinates', () => {
+  render(h(ProfileActivityChart, { points: [], name: 'Owner', repositories: 0, totalRepositories: 2 }));
+  assert.ok(screen.getByText('Weekly activity is not available yet.'));
+  assert.equal(screen.queryByRole('img'), null);
+});
+
+test('Share copies the profile URL and offers a selectable link if clipboard fails', async () => {
+  const user = userEvent.setup();
+  window.history.replaceState(null, '', '/github/sharkdp/?ignored=1#test');
+  const copied = [];
+  mock.method(navigator.clipboard, 'writeText', async text => copied.push(text));
+  render(h(ShareProfile));
+  await user.click(screen.getByRole('button', { name: 'Share' }));
+  assert.deepEqual(copied, ['http://localhost:4321/github/sharkdp/']);
+  assert.equal(screen.getByRole('status').textContent, 'Link copied');
+  mock.method(navigator.clipboard, 'writeText', async () => { throw new Error('Denied'); });
+  await user.click(screen.getByRole('button', { name: 'Share' }));
+  const input = screen.getByRole('textbox', { name: 'Profile link' });
+  assert.equal(input.value, copied[0]);
+  await user.click(input);
+  assert.equal(input.selectionEnd - input.selectionStart, copied[0].length);
 });

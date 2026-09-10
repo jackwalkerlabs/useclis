@@ -41,6 +41,27 @@ Charts represent repository activity, including any other software in the same r
 
 Sources: [GitHub repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository) and [weekly participation statistics](https://docs.github.com/en/rest/metrics/statistics#get-the-weekly-commit-count).
 
+## Discovery from a coding agent
+
+The homepage has a copyable prompt that asks an agent to find CLIs for the current task and verify their official documentation. The prompt uses `SITE_URL`, falling back to `https://useclis.com`. Clipboard failures reveal and select the prompt for manual copying.
+
+Three static resources are generated from the directory's catalog on every build:
+
+- `/llms.txt`: short agent guide and catalog links, following the [llms.txt proposal](https://llmstxt.org/).
+- `/llms-full.txt`: every CLI in searchable plain-text Markdown, including commands, examples, use cases, and documentation links.
+- `/clis.json`: versioned JSON with `categories` and a `tools` array, including stable slugs, source URLs, and dated repository snapshots.
+
+All can be fetched with `curl`; no JavaScript, account, or API key is required. After deployment:
+
+```sh
+curl -fsSL https://useclis.com/llms.txt
+curl -fsSL https://useclis.com/llms-full.txt
+# With jq installed, search descriptions, use cases, and features locally:
+curl -fsSL https://useclis.com/clis.json | jq --arg q 'browser' '.tools[] | select([.name, .command, .category, .description, .useCase, .agentUse, (.features | join(" "))] | join(" ") | ascii_downcase | contains($q | ascii_downcase)) | {name, command, url, docs}'
+```
+
+These files return the full catalog; query parameters do not filter them. Agents search the downloaded text or JSON locally. The homepage's `?q=` filter runs in the browser. `llms.txt` is linked from the HTML head and the Cloudflare `Link` response header; it does not guarantee automatic discovery by every agent.
+
 ## Design system
 
 `design-system/` is AI-generated for useclis and belongs to this repository under [MIT](LICENSE). It contains tokens, React components, guidelines, and a standalone CLI preview. Inconsolata is self-hosted; commands and metrics use system monospace fonts. Third-party assets retain their [license notices](THIRD_PARTY.md).
@@ -81,6 +102,14 @@ npx wrangler deploy --dry-run
 
 `npm run deploy` builds and deploys the Worker. `npm run deploy:pages` targets a Pages project named `useclis`. Authenticate with Cloudflare in your own terminal. See [release and deployment instructions](docs/RELEASING.md) before publishing the repository or domain.
 
-CI validates pushes and pull requests with read-only repository permissions. The daily refresh workflow updates snapshots and the design preview, validates the result, and commits using the repository token. Protected branches may require a PR-based update flow; verify that snapshot commits trigger the intended Cloudflare build.
+CI validates pushes and pull requests with read-only repository permissions. With the Cloudflare API-token secret and deployment variable configured, successful main builds deploy to useclis.com and verify the live files. The daily refresh workflow commits updated snapshots and explicitly triggers the same validation/deployment pipeline. See [deployment setup](docs/RELEASING.md#automatic-deployment-from-main) for credentials, activation, and rollback.
 
 Original app code and the AI-generated design bundle are [MIT-licensed](LICENSE). Fonts, icons, avatars, and dependencies retain their separate [third-party terms](THIRD_PARTY.md).
+
+## GitHub owner profiles
+
+Profiles follow the supplied founder-page reference: identity and profile actions, four summary cards, an interactive purple area chart, CLI cards, and pastel discovery rails on wide screens. On phones, metrics use two columns and CLI cards stack. The Owners navigation and each CLI’s “By” link lead into the profiles. Share copies the profile URL and offers a selectable URL when clipboard access fails.
+
+`src/data/profiles.json` stores public profile snapshots; `public/avatars/` stores their local avatars. Run `npm run refresh-profiles` to update them, or `npm run refresh-profiles -- --missing` to fetch new owners only. The full `npm run refresh` includes profile refreshes.
+
+Activity combines matching UTC week dates across available listed repositories and labels missing coverage. Profile pages are generated for every owner in the current catalog; refresh profiles after adding an owner.
