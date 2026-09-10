@@ -1,5 +1,82 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { categories, tools } from '../data/tools';
+import {
+  ArrowUpRight, Bot, Braces, CloudUpload, FileText, GitBranch,
+  MessagesSquare, Package, ScanSearch, ShieldCheck, SquareTerminal,
+  TestTubeDiagonal, PanelsTopLeft, type LucideIcon,
+} from 'lucide-react';
+
+const categoryIcons: Record<string, LucideIcon> = {
+  'Agents & models': Bot,
+  'Browser automation': PanelsTopLeft,
+  'Git & collaboration': GitBranch,
+  'Code search': ScanSearch,
+  'Data & APIs': Braces,
+  'Cloud & deployment': CloudUpload,
+  'Packages & environments': Package,
+  'Testing & quality': TestTubeDiagonal,
+  'Files & documents': FileText,
+  'Productivity & communication': MessagesSquare,
+  'Security & secrets': ShieldCheck,
+};
 ---
-<Layout title="CLI categories | useclis" active="Categories"><div class="container"><section class="page-intro"><span class="eyebrow"><span class="status-dot" /> Explore by category</span><h1 style="margin-top:20px">Find a CLI for the task.</h1><p>Browse command-line tools for browsers, code, APIs, infrastructure, and agent workflows.</p></section><div class="category-grid">{categories.map((category, index) => <a class="category-card" href={`/?category=${encodeURIComponent(category)}#directory`}><span class="category-number">0{index + 1} ↗</span><h2>{category}</h2><span>{tools.filter(tool => tool.category === category).length} CLIs</span><p>{tools.filter(tool => tool.category === category).map(tool => tool.name).join(' · ')}</p></a>)}</div></div></Layout>
+<Layout title="CLI categories | useclis" active="Categories">
+  <div class="container">
+    <section class="page-intro">
+      <span class="eyebrow"><span class="status-dot" /> Explore by category</span>
+      <h1 style="margin-top:20px">Find a CLI for the task.</h1>
+      <p>Browse command-line tools for browsers, code, APIs, infrastructure, and agent workflows.</p>
+    </section>
+    <div class="category-grid">
+      {categories.map(category => {
+        const Icon = categoryIcons[category] ?? SquareTerminal;
+        const categoryTools = tools.filter(tool => tool.category === category);
+        return (
+          <a class="category-card" href={`/?category=${encodeURIComponent(category)}#directory`}>
+            <div class="category-card-header" aria-hidden="true">
+              <span class="category-icon"><Icon size={24} strokeWidth={1.75} /></span>
+              <ArrowUpRight size={18} strokeWidth={1.75} />
+            </div>
+            <h2>{category}</h2>
+            <span>{categoryTools.length} CLIs</span>
+            <p>{categoryTools.map(tool => tool.name).join(' · ')}</p>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .category-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--text-faint);
+  }
+
+  .category-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    background: var(--green-50);
+    color: var(--green-700);
+  }
+
+  .category-card:is(:hover, :focus-visible) {
+    border-color: var(--green-300);
+  }
+
+  .category-card:is(:hover, :focus-visible) .category-card-header {
+    color: var(--green-700);
+  }
+
+  .category-card:is(:hover, :focus-visible) .category-icon {
+    background: var(--green-100);
+  }
+</style>
