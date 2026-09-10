@@ -106,6 +106,32 @@ test('Every category, all sort options, star header, and Clear filters work', as
   assert.deepEqual(rows(), [...tools].sort((a, b) => b.stars - a.stars).map(tool => tool.name));
 });
 
+test('Discovery links clear filters, sort the full table, and survive reload and history', async () => {
+  const user = userEvent.setup();
+  window.history.replaceState(null, '', '/?q=jq&saved=1');
+  const first = render(h(Directory, { tools }));
+  await user.click(screen.getByRole('link', { name: 'View all recently listed' }));
+  assert.equal(search().value, '');
+  assert.equal(rows().length, tools.length);
+  assert.equal(rows()[0], tools.at(-1).name);
+  assert.equal(window.location.search, '?sort=recent');
+  assert.deepEqual(scrolls, ['directory']);
+  first.unmount();
+  render(h(Directory, { tools }));
+  assert.equal(screen.getByRole('combobox', { name: 'Sort tools' }).value, 'recent');
+  assert.equal(rows()[0], tools.at(-1).name);
+  await user.click(screen.getByRole('link', { name: 'View all most active this week' }));
+  const highest = Math.max(...Object.values(activity).map(snapshot => snapshot.weeks.at(-1)));
+  const topTool = tools.find(tool => tool.name === rows()[0]);
+  assert.equal(activity[topTool.slug].weeks.at(-1), highest);
+  assert.equal(window.location.search, '?sort=active');
+  act(() => {
+    window.history.replaceState(null, '', '/?sort=recent');
+    window.dispatchEvent(new window.PopStateEvent('popstate'));
+  });
+  assert.equal(rows()[0], tools.at(-1).name);
+});
+
 test('All bookmark buttons persist, reload, filter, and remove their own CLI', async () => {
   const user = userEvent.setup();
   const first = render(h(Directory, { tools }));

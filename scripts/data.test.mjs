@@ -43,6 +43,16 @@ test('Empty searches and missing bookmarks produce truthful empty states', () =>
   assert.equal(filterTools(tools, { query: 'nonexistentproduct' }).length, 0);
   assert.equal(filterTools(tools, { onlySaved: true, saved: [] }).length, 0);
 });
+test('Weekly ranking puts missing data after zero activity and breaks ties by stars', () => {
+  const sample = [
+    { name: 'Unknown', weeklyCommits: null, stars: 900 },
+    { name: 'Quiet', weeklyCommits: 0, stars: 500 },
+    { name: 'Busy', weeklyCommits: 12, stars: 10 },
+    { name: 'Popular and busy', weeklyCommits: 12, stars: 100 },
+  ];
+  assert.deepEqual(filterTools(sample, { sort: 'active' }).map(tool => tool.name), ['Popular and busy', 'Busy', 'Quiet', 'Unknown']);
+  assert.equal(sample[0].name, 'Unknown');
+});
 test('A single star snapshot has no invented growth', () => {
   const result = starWindow([{ date: '2026-09-09', stars: 24710 }]);
   assert.equal(result.change, null);
