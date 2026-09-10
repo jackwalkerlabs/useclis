@@ -27,7 +27,7 @@ Discovery stops before spending its 100-request GitHub core reserve, before the 
 
 After application, metadata or validation failures prevent any commit or deployment. Discovery and daily snapshot updates share a concurrency lock. A concurrent human push causes the bot push to fail; it never force-pushes or rebases unvalidated data. Rerun the workflow against current main to recover.
 
-Runs with no additions commit only discovery progress and skip metadata refresh, site validation, build, and deployment. New additions use `npm run refresh:additions`, which selects the accepted slugs from the report for repository, activity, star, Homebrew, and owner snapshots. Existing records remain unchanged except an owner shared with a new entry can be refreshed. The daily snapshot workflow continues to refresh the full catalog at 06:17 UTC. If a commit succeeds but deployment dispatch fails, run `gh workflow run ci.yml --ref main --repo jackwalkerlabs/useclis` to recover; an empty discovery rerun does not redeploy.
+Runs with no additions commit only discovery progress and skip metadata refresh, site validation, build, and deployment. New additions use `npm run refresh:additions`, which selects the accepted slugs from the report for repository, activity, star, Homebrew, owner, and mapped download snapshots. Existing records remain unchanged except an owner shared with a new entry can be refreshed. The daily snapshot workflow continues to refresh the full catalog at 06:17 UTC. If a commit succeeds but deployment dispatch fails, run `gh workflow run ci.yml --ref main --repo jackwalkerlabs/useclis` to recover; an empty discovery rerun does not redeploy.
 
 ## Preview locally
 
