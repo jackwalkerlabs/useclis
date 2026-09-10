@@ -5,11 +5,12 @@ import { categories, number, type Tool } from '../data/tools';
 import { filterTools } from '../lib/filter.mjs';
 import { Sparkline } from './ActivityChart';
 import activityData from '../data/activity.json';
+import AgentPrompt from './AgentPrompt';
 const activity = activityData as Record<string, { weeks: number[]; checkedAt: string; source: string }>;
 const weeksFor = (slug: string) => activity[slug]?.weeks.slice(-12) ?? [];
 const sum = (values: number[]) => values.reduce((a, b) => a + b, 0);
 
-export default function Directory({ tools }: { tools: Tool[] }) {
+export default function Directory({ tools, siteUrl }: { tools: Tool[]; siteUrl?: string }) {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('All categories');
   const [sort, setSort] = useState('stars');
@@ -72,6 +73,7 @@ export default function Directory({ tools }: { tools: Tool[] }) {
       <p>Find command-line tools for your agent’s next task.<br />Browse GitHub repos, inspect activity, and explore the commands.</p>
       <form className="useclis-search" id="search" role="search" onSubmit={event => { event.preventDefault(); document.getElementById('directory')?.scrollIntoView({ behavior: 'smooth' }); }}><Search size={17} /><input ref={input} aria-label="Search CLIs, commands, tasks, or GitHub repositories" value={query} onChange={event => setQuery(event.target.value)} placeholder="Search CLIs, commands, or GitHub repos…" />{query ? <button type="button" className="icon-button" aria-label="Clear search" onClick={() => setQuery('')}><X size={16} /></button> : <kbd>/</kbd>}<Button size="sm" type="submit">Explore <ArrowRight size={13} /></Button></form>
       <div className="useclis-subnav"><a href="#directory">Browse CLIs</a><span>·</span><a href="/categories/">Categories</a><span>·</span><button onClick={() => { reset(); setOnlySaved(true); document.getElementById('directory')?.scrollIntoView({ behavior: 'smooth' }); }}>Saved CLIs</button></div>
+      <AgentPrompt siteUrl={siteUrl} />
     </section>
     <section className="useclis-featured" aria-labelledby="featured-title"><div className="useclis-section-heading"><h2 id="featured-title">Featured CLIs</h2><a href="#directory">View all <ArrowRight size={13} /></a></div><div className="featured-grid">{featured.map(tool => <a className="featured-card" key={tool.slug} href={`/tools/${tool.slug}/`}><div className="featured-identity"><img src={tool.logo} alt="" width="38" height="38" /><div><h3>{tool.name}</h3><span>{tool.category}</span></div><ArrowUpRight size={15} /></div><p className="featured-command"><span>Command</span> <code>{tool.command}</code></p><div className="featured-numbers"><div><span>GitHub stars</span><strong>{number(tool.stars)}</strong></div><div><span>Commits · 12w</span><strong>{weeksFor(tool.slug).length ? number(sum(weeksFor(tool.slug))) : '—'}</strong></div></div><div className="featured-chart"><Sparkline values={weeksFor(tool.slug)} name={tool.name} height={48} /></div></a>)}</div><p className="featured-caption">Weekly commit activity over 12 weeks. Charts use an independent scale for each project.</p></section>
     <section className="useclis-leaderboard" id="directory" aria-labelledby="leaderboard-title"><div className="useclis-section-heading"><div className="leaderboard-title"><h2 id="leaderboard-title">{onlySaved ? 'Saved CLIs' : 'Leaderboard'}</h2><span>{results.length} CLIs</span></div><div className="leaderboard-filters"><select aria-label="Filter category" value={category} onChange={event => setCategory(event.target.value)}><option>All categories</option>{categories.map(name => <option key={name}>{name}</option>)}</select><select aria-label="Sort tools" value={sort} onChange={event => setSort(event.target.value)}><option value="stars">Most stars</option><option value="name">Name: A–Z</option><option value="featured">Featured first</option></select></div></div>

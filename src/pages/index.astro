@@ -3,4 +3,4 @@ import Layout from '../layouts/Layout.astro';
 import Directory from '../components/Directory';
 import { tools } from '../data/tools';
 ---
-<Layout><Directory tools={tools} client:load /></Layout>
+<Layout><Directory tools={tools} siteUrl={Astro.site?.href} client:load /></Layout>

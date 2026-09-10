@@ -37,6 +37,27 @@ Charts represent repository activity, including any other software in the same r
 
 Sources: [GitHub repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository) and [weekly participation statistics](https://docs.github.com/en/rest/metrics/statistics#get-the-weekly-commit-count).
 
+## Discovery from a coding agent
+
+The homepage has a copyable prompt that asks an agent to find CLIs for the current task and verify their official documentation. The prompt uses `SITE_URL`, falling back to `https://useclis.com`. Clipboard failures reveal and select the prompt for manual copying.
+
+Three static resources are generated from the directory's catalog on every build:
+
+- `/llms.txt`: short agent guide and catalog links, following the [llms.txt proposal](https://llmstxt.org/).
+- `/llms-full.txt`: every CLI in searchable plain-text Markdown, including commands, examples, use cases, and documentation links.
+- `/clis.json`: versioned JSON with `categories` and a `tools` array, including stable slugs, source URLs, and dated repository snapshots.
+
+All can be fetched with `curl`; no JavaScript, account, or API key is required. After deployment:
+
+```sh
+curl -fsSL https://useclis.com/llms.txt
+curl -fsSL https://useclis.com/llms-full.txt
+# With jq installed, search descriptions, use cases, and features locally:
+curl -fsSL https://useclis.com/clis.json | jq --arg q 'browser' '.tools[] | select([.name, .command, .category, .description, .useCase, .agentUse, (.features | join(" "))] | join(" ") | ascii_downcase | contains($q | ascii_downcase)) | {name, command, url, docs}'
+```
+
+These files return the full catalog; query parameters do not filter them. Agents search the downloaded text or JSON locally. The homepage's `?q=` filter runs in the browser. `llms.txt` is linked from the HTML head and the Cloudflare `Link` response header; it does not guarantee automatic discovery by every agent.
+
 ## Design system
 
 `design-system/` is AI-generated for useclis and belongs to this repository under [MIT](LICENSE). It contains tokens, React components, guidelines, and a standalone CLI preview. Inconsolata is self-hosted; commands and metrics use system monospace fonts. Third-party assets retain their [license notices](THIRD_PARTY.md).
