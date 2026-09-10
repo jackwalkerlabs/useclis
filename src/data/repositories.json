@@ -1,372 +1,372 @@
 {
   "ripgrep": {
-    "stars": 68132,
-    "license": "Unlicense",
-    "language": "Rust",
-    "checkedAt": "2026-09-09T23:50:54.753Z",
-    "source": "https://github.com/BurntSushi/ripgrep",
     "createdAt": "2016-03-11T02:02:33Z",
     "pushedAt": "2026-08-04T13:59:44Z",
-    "lastCommitAt": "2026-08-04T14:00:08Z"
+    "lastCommitAt": "2026-08-04T14:00:08Z",
+    "stars": 68141,
+    "license": "Unlicense",
+    "language": "Rust",
+    "checkedAt": "2026-09-10T11:18:04.638Z",
+    "source": "https://github.com/BurntSushi/ripgrep"
   },
   "jq": {
-    "stars": 35559,
-    "license": null,
-    "language": "C",
-    "checkedAt": "2026-09-09T23:50:54.824Z",
-    "source": "https://github.com/jqlang/jq",
     "createdAt": "2012-07-18T19:57:25Z",
     "pushedAt": "2026-09-01T06:30:47Z",
-    "lastCommitAt": "2026-09-01T06:30:46Z"
-  },
-  "github-cli": {
-    "stars": 46214,
-    "license": "MIT",
-    "language": "Go",
-    "checkedAt": "2026-09-09T23:50:54.851Z",
-    "source": "https://github.com/cli/cli",
-    "createdAt": "2019-10-03T15:24:53Z",
-    "pushedAt": "2026-09-09T18:28:09Z",
-    "lastCommitAt": "2026-09-09T18:28:06Z"
-  },
-  "agent-browser": {
-    "stars": 42312,
-    "license": "Apache-2.0",
-    "language": "Rust",
-    "checkedAt": "2026-09-09T23:50:54.889Z",
-    "source": "https://github.com/vercel-labs/agent-browser",
-    "createdAt": "2026-01-11T05:38:15Z",
-    "pushedAt": "2026-09-09T19:38:01Z",
-    "lastCommitAt": "2026-09-09T15:25:02Z"
-  },
-  "opencode": {
-    "stars": 206164,
-    "license": "MIT",
-    "language": "TypeScript",
-    "checkedAt": "2026-09-09T23:50:55.618Z",
-    "source": "https://github.com/anomalyco/opencode",
-    "createdAt": "2025-04-30T20:08:00Z",
-    "pushedAt": "2026-09-09T23:42:15Z",
-    "lastCommitAt": "2026-09-09T22:45:26Z"
-  },
-  "aider": {
-    "stars": 48858,
-    "license": "Apache-2.0",
-    "language": "Python",
-    "checkedAt": "2026-09-09T23:50:55.647Z",
-    "source": "https://github.com/Aider-AI/aider",
-    "createdAt": "2023-05-09T18:57:49Z",
-    "pushedAt": "2026-05-22T14:02:20Z",
-    "lastCommitAt": "2026-05-22T14:02:20Z"
-  },
-  "codex": {
-    "stars": 122838,
-    "license": "Apache-2.0",
-    "language": "Rust",
-    "checkedAt": "2026-09-09T23:50:55.747Z",
-    "source": "https://github.com/openai/codex",
-    "createdAt": "2025-04-13T05:37:54Z",
-    "pushedAt": "2026-09-09T23:50:41Z",
-    "lastCommitAt": "2026-09-09T23:50:28Z"
-  },
-  "gemini-cli": {
-    "stars": 106879,
-    "license": "Apache-2.0",
-    "language": "TypeScript",
-    "checkedAt": "2026-09-09T23:50:55.796Z",
-    "source": "https://github.com/google-gemini/gemini-cli",
-    "createdAt": "2025-04-17T17:04:31Z",
-    "pushedAt": "2026-09-09T01:26:07Z",
-    "lastCommitAt": "2026-09-08T22:40:34Z"
-  },
-  "llm": {
-    "stars": 12481,
-    "license": "Apache-2.0",
-    "language": "Python",
-    "checkedAt": "2026-09-09T23:50:56.554Z",
-    "source": "https://github.com/simonw/llm",
-    "createdAt": "2023-04-01T21:16:57Z",
-    "pushedAt": "2026-09-08T18:35:28Z",
-    "lastCommitAt": "2026-09-08T02:01:48Z"
-  },
-  "git": {
-    "stars": 63090,
+    "lastCommitAt": "2026-09-01T06:30:46Z",
+    "stars": 35572,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-09T23:50:56.619Z",
-    "source": "https://github.com/git/git",
+    "checkedAt": "2026-09-10T11:18:05.139Z",
+    "source": "https://github.com/jqlang/jq"
+  },
+  "github-cli": {
+    "createdAt": "2019-10-03T15:24:53Z",
+    "pushedAt": "2026-09-10T10:21:30Z",
+    "lastCommitAt": "2026-09-10T10:21:27Z",
+    "stars": 46217,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-10T11:18:03.487Z",
+    "source": "https://github.com/cli/cli"
+  },
+  "agent-browser": {
+    "createdAt": "2026-01-11T05:38:15Z",
+    "pushedAt": "2026-09-10T02:04:46Z",
+    "lastCommitAt": "2026-09-10T02:04:46Z",
+    "stars": 42341,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-10T11:18:04.188Z",
+    "source": "https://github.com/vercel-labs/agent-browser"
+  },
+  "opencode": {
+    "createdAt": "2025-04-30T20:08:00Z",
+    "pushedAt": "2026-09-10T11:17:01Z",
+    "lastCommitAt": "2026-09-10T09:25:59Z",
+    "stars": 206289,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-10T11:18:07.135Z",
+    "source": "https://github.com/anomalyco/opencode"
+  },
+  "aider": {
+    "createdAt": "2023-05-09T18:57:49Z",
+    "pushedAt": "2026-05-22T14:02:20Z",
+    "lastCommitAt": "2026-05-22T14:02:20Z",
+    "stars": 48874,
+    "license": "Apache-2.0",
+    "language": "Python",
+    "checkedAt": "2026-09-10T11:18:06.499Z",
+    "source": "https://github.com/Aider-AI/aider"
+  },
+  "codex": {
+    "createdAt": "2025-04-13T05:37:54Z",
+    "pushedAt": "2026-09-10T11:06:18Z",
+    "lastCommitAt": "2026-09-10T10:38:10Z",
+    "stars": 123009,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-10T11:18:05.556Z",
+    "source": "https://github.com/openai/codex"
+  },
+  "gemini-cli": {
+    "createdAt": "2025-04-17T17:04:31Z",
+    "pushedAt": "2026-09-10T01:26:45Z",
+    "lastCommitAt": "2026-09-08T22:40:34Z",
+    "stars": 106890,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-10T11:18:06.015Z",
+    "source": "https://github.com/google-gemini/gemini-cli"
+  },
+  "llm": {
+    "createdAt": "2023-04-01T21:16:57Z",
+    "pushedAt": "2026-09-08T18:35:28Z",
+    "lastCommitAt": "2026-09-08T02:01:48Z",
+    "stars": 12483,
+    "license": "Apache-2.0",
+    "language": "Python",
+    "checkedAt": "2026-09-10T11:18:07.675Z",
+    "source": "https://github.com/simonw/llm"
+  },
+  "git": {
     "createdAt": "2008-07-23T14:21:26Z",
     "pushedAt": "2026-09-09T22:35:00Z",
-    "lastCommitAt": "2026-09-07T16:32:06Z"
+    "lastCommitAt": "2026-09-07T16:32:06Z",
+    "stars": 63100,
+    "license": null,
+    "language": "C",
+    "checkedAt": "2026-09-10T11:18:09.506Z",
+    "source": "https://github.com/git/git"
   },
   "playwright-cli": {
-    "stars": 13193,
-    "license": "Apache-2.0",
-    "language": "JavaScript",
-    "checkedAt": "2026-09-09T23:50:56.729Z",
-    "source": "https://github.com/microsoft/playwright-cli",
     "createdAt": "2020-06-19T18:34:03Z",
     "pushedAt": "2026-09-03T19:04:51Z",
-    "lastCommitAt": "2026-09-03T19:04:51Z"
+    "lastCommitAt": "2026-09-03T19:04:51Z",
+    "stars": 13207,
+    "license": "Apache-2.0",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-10T11:18:08.328Z",
+    "source": "https://github.com/microsoft/playwright-cli"
   },
   "supabase-cli": {
+    "createdAt": "2020-11-19T06:46:55Z",
+    "pushedAt": "2026-09-10T11:10:20Z",
+    "lastCommitAt": "2026-09-10T10:32:32Z",
     "stars": 2411,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-09T23:50:57.496Z",
-    "source": "https://github.com/supabase/cli",
-    "createdAt": "2020-11-19T06:46:55Z",
-    "pushedAt": "2026-09-09T23:38:18Z",
-    "lastCommitAt": "2026-09-09T21:47:39Z"
+    "checkedAt": "2026-09-10T11:18:11.925Z",
+    "source": "https://github.com/supabase/cli"
   },
   "vercel-cli": {
-    "stars": 16225,
-    "license": "Apache-2.0",
-    "language": "TypeScript",
-    "checkedAt": "2026-09-09T23:50:57.503Z",
-    "source": "https://github.com/vercel/vercel",
     "createdAt": "2016-09-09T01:12:08Z",
     "pushedAt": "2026-09-09T23:35:29Z",
-    "lastCommitAt": "2026-09-08T18:09:19Z"
+    "lastCommitAt": "2026-09-08T18:09:19Z",
+    "stars": 16229,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-10T11:18:11.346Z",
+    "source": "https://github.com/vercel/vercel"
   },
   "git-town": {
+    "createdAt": "2014-05-15T15:44:29Z",
+    "pushedAt": "2026-07-26T19:22:59Z",
+    "lastCommitAt": "2026-07-26T19:22:57Z",
     "stars": 3373,
     "license": "MIT",
     "language": "Gherkin",
-    "checkedAt": "2026-09-09T23:50:57.532Z",
-    "source": "https://github.com/git-town/git-town",
-    "createdAt": "2014-05-15T15:44:29Z",
-    "pushedAt": "2026-07-26T19:22:59Z",
-    "lastCommitAt": "2026-07-26T19:22:57Z"
+    "checkedAt": "2026-09-10T11:18:10.141Z",
+    "source": "https://github.com/git-town/git-town"
   },
   "wrangler": {
+    "createdAt": "2021-11-10T14:45:40Z",
+    "pushedAt": "2026-09-10T11:16:09Z",
+    "lastCommitAt": "2026-09-10T11:02:48Z",
     "stars": 4522,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-09T23:50:57.550Z",
-    "source": "https://github.com/cloudflare/workers-sdk",
-    "createdAt": "2021-11-10T14:45:40Z",
-    "pushedAt": "2026-09-09T22:39:03Z",
-    "lastCommitAt": "2026-09-09T20:02:58Z"
+    "checkedAt": "2026-09-10T11:18:10.744Z",
+    "source": "https://github.com/cloudflare/workers-sdk"
   },
   "fd": {
-    "stars": 44349,
-    "license": "Apache-2.0",
-    "language": "Rust",
-    "checkedAt": "2026-09-09T23:50:58.332Z",
-    "source": "https://github.com/sharkdp/fd",
     "createdAt": "2017-05-09T21:27:10Z",
     "pushedAt": "2026-09-09T01:47:38Z",
-    "lastCommitAt": "2026-09-09T01:47:37Z"
+    "lastCommitAt": "2026-09-09T01:47:37Z",
+    "stars": 44351,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-10T11:18:13.616Z",
+    "source": "https://github.com/sharkdp/fd"
   },
   "kubectl": {
+    "createdAt": "2017-03-30T19:50:22Z",
+    "pushedAt": "2026-09-10T01:04:03Z",
+    "lastCommitAt": "2026-09-10T00:49:47Z",
     "stars": 3336,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-09T23:50:58.425Z",
-    "source": "https://github.com/kubernetes/kubectl",
-    "createdAt": "2017-03-30T19:50:22Z",
-    "pushedAt": "2026-09-09T19:00:12Z",
-    "lastCommitAt": "2026-09-09T18:28:55Z"
+    "checkedAt": "2026-09-10T11:18:13.089Z",
+    "source": "https://github.com/kubernetes/kubectl"
   },
   "ast-grep": {
-    "stars": 15829,
-    "license": "MIT",
-    "language": "Rust",
-    "checkedAt": "2026-09-09T23:50:58.431Z",
-    "source": "https://github.com/ast-grep/ast-grep",
     "createdAt": "2022-07-01T19:21:00Z",
     "pushedAt": "2026-09-09T20:31:04Z",
-    "lastCommitAt": "2026-09-04T19:14:52Z"
+    "lastCommitAt": "2026-09-04T19:14:52Z",
+    "stars": 15831,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-10T11:18:14.105Z",
+    "source": "https://github.com/ast-grep/ast-grep"
   },
   "docker-cli": {
-    "stars": 6047,
-    "license": "Apache-2.0",
-    "language": "Go",
-    "checkedAt": "2026-09-09T23:50:58.539Z",
-    "source": "https://github.com/docker/cli",
     "createdAt": "2017-04-12T05:27:42Z",
     "pushedAt": "2026-09-04T12:40:51Z",
-    "lastCommitAt": "2026-09-04T12:40:50Z"
+    "lastCommitAt": "2026-09-04T12:40:50Z",
+    "stars": 6048,
+    "license": "Apache-2.0",
+    "language": "Go",
+    "checkedAt": "2026-09-10T11:18:12.551Z",
+    "source": "https://github.com/docker/cli"
   },
   "yq": {
-    "stars": 15944,
+    "createdAt": "2015-09-26T22:14:44Z",
+    "pushedAt": "2026-09-10T03:52:39Z",
+    "lastCommitAt": "2026-08-25T10:19:22Z",
+    "stars": 15945,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-09T23:50:59.252Z",
-    "source": "https://github.com/mikefarah/yq",
-    "createdAt": "2015-09-26T22:14:44Z",
-    "pushedAt": "2026-09-03T03:52:34Z",
-    "lastCommitAt": "2026-08-25T10:19:22Z"
+    "checkedAt": "2026-09-10T11:18:15.173Z",
+    "source": "https://github.com/mikefarah/yq"
   },
   "scc": {
+    "createdAt": "2018-03-01T06:44:25Z",
+    "pushedAt": "2026-09-07T22:41:24Z",
+    "lastCommitAt": "2026-09-07T22:40:51Z",
     "stars": 8729,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-09T23:50:59.332Z",
-    "source": "https://github.com/boyter/scc",
-    "createdAt": "2018-03-01T06:44:25Z",
-    "pushedAt": "2026-09-07T22:41:24Z",
-    "lastCommitAt": "2026-09-07T22:40:51Z"
+    "checkedAt": "2026-09-10T11:18:14.661Z",
+    "source": "https://github.com/boyter/scc"
   },
   "curl": {
-    "stars": 42821,
+    "createdAt": "2010-03-18T22:32:22Z",
+    "pushedAt": "2026-09-10T09:45:12Z",
+    "lastCommitAt": "2026-09-10T09:45:05Z",
+    "stars": 42826,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-09T23:50:59.332Z",
-    "source": "https://github.com/curl/curl",
-    "createdAt": "2010-03-18T22:32:22Z",
-    "pushedAt": "2026-09-09T21:25:43Z",
-    "lastCommitAt": "2026-09-09T21:25:11Z"
+    "checkedAt": "2026-09-10T11:18:16.441Z",
+    "source": "https://github.com/curl/curl"
   },
   "httpie": {
-    "stars": 38489,
-    "license": "BSD-3-Clause",
-    "language": "Python",
-    "checkedAt": "2026-09-09T23:50:59.367Z",
-    "source": "https://github.com/httpie/cli",
     "createdAt": "2012-02-25T12:39:13Z",
     "pushedAt": "2024-12-17T17:30:35Z",
-    "lastCommitAt": "2024-12-17T17:30:35Z"
+    "lastCommitAt": "2024-12-17T17:30:35Z",
+    "stars": 38491,
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "checkedAt": "2026-09-10T11:18:15.714Z",
+    "source": "https://github.com/httpie/cli"
   },
   "pnpm": {
-    "stars": 36470,
+    "createdAt": "2016-01-28T07:40:43Z",
+    "pushedAt": "2026-09-10T11:15:13Z",
+    "lastCommitAt": "2026-09-10T10:27:58Z",
+    "stars": 36474,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-09T23:51:00.114Z",
-    "source": "https://github.com/pnpm/pnpm",
-    "createdAt": "2016-01-28T07:40:43Z",
-    "pushedAt": "2026-09-09T23:12:42Z",
-    "lastCommitAt": "2026-09-09T23:12:38Z"
+    "checkedAt": "2026-09-10T11:18:17.861Z",
+    "source": "https://github.com/pnpm/pnpm"
   },
   "uv": {
-    "stars": 89663,
+    "createdAt": "2023-10-02T20:24:11Z",
+    "pushedAt": "2026-09-10T11:03:17Z",
+    "lastCommitAt": "2026-09-10T01:16:44Z",
+    "stars": 89678,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-09T23:51:00.157Z",
-    "source": "https://github.com/astral-sh/uv",
-    "createdAt": "2023-10-02T20:24:11Z",
-    "pushedAt": "2026-09-09T23:30:05Z",
-    "lastCommitAt": "2026-09-09T23:30:03Z"
+    "checkedAt": "2026-09-10T11:18:17.118Z",
+    "source": "https://github.com/astral-sh/uv"
   },
   "bun": {
-    "stars": 95923,
+    "createdAt": "2021-04-14T00:48:17Z",
+    "pushedAt": "2026-09-10T11:17:31Z",
+    "lastCommitAt": "2026-09-09T23:23:43Z",
+    "stars": 95927,
     "license": null,
     "language": "Rust",
-    "checkedAt": "2026-09-09T23:51:00.221Z",
-    "source": "https://github.com/oven-sh/bun",
-    "createdAt": "2021-04-14T00:48:17Z",
-    "pushedAt": "2026-09-09T23:46:35Z",
-    "lastCommitAt": "2026-09-09T23:23:43Z"
+    "checkedAt": "2026-09-10T11:18:18.583Z",
+    "source": "https://github.com/oven-sh/bun"
   },
   "mise": {
-    "stars": 33712,
+    "createdAt": "2023-01-09T14:44:21Z",
+    "pushedAt": "2026-09-10T00:53:53Z",
+    "lastCommitAt": "2026-09-10T00:24:35Z",
+    "stars": 33737,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-09T23:51:00.224Z",
-    "source": "https://github.com/jdx/mise",
-    "createdAt": "2023-01-09T14:44:21Z",
-    "pushedAt": "2026-09-09T23:02:02Z",
-    "lastCommitAt": "2026-09-09T21:33:43Z"
+    "checkedAt": "2026-09-10T11:18:19.096Z",
+    "source": "https://github.com/jdx/mise"
   },
   "ruff": {
-    "stars": 49565,
+    "createdAt": "2022-08-09T17:17:44Z",
+    "pushedAt": "2026-09-10T10:39:19Z",
+    "lastCommitAt": "2026-09-10T09:20:46Z",
+    "stars": 49571,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-09T23:51:00.944Z",
-    "source": "https://github.com/astral-sh/ruff",
-    "createdAt": "2022-08-09T17:17:44Z",
-    "pushedAt": "2026-09-09T23:43:59Z",
-    "lastCommitAt": "2026-09-09T22:29:07Z"
+    "checkedAt": "2026-09-10T11:18:19.773Z",
+    "source": "https://github.com/astral-sh/ruff"
   },
   "gitleaks": {
-    "stars": 29190,
-    "license": "MIT",
-    "language": "Go",
-    "checkedAt": "2026-09-09T23:51:01.047Z",
-    "source": "https://github.com/gitleaks/gitleaks",
     "createdAt": "2018-01-27T18:19:31Z",
     "pushedAt": "2026-09-09T04:18:49Z",
-    "lastCommitAt": "2026-07-22T16:50:33Z"
+    "lastCommitAt": "2026-07-22T16:50:33Z",
+    "stars": 29203,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-10T11:18:21.623Z",
+    "source": "https://github.com/gitleaks/gitleaks"
   },
   "biome": {
-    "stars": 25751,
+    "createdAt": "2023-07-27T20:30:22Z",
+    "pushedAt": "2026-09-10T11:09:51Z",
+    "lastCommitAt": "2026-09-10T10:41:55Z",
+    "stars": 25755,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-09T23:51:01.087Z",
-    "source": "https://github.com/biomejs/biome",
-    "createdAt": "2023-07-27T20:30:22Z",
-    "pushedAt": "2026-09-09T21:10:18Z",
-    "lastCommitAt": "2026-09-09T21:08:31Z"
+    "checkedAt": "2026-09-10T11:18:20.283Z",
+    "source": "https://github.com/biomejs/biome"
   },
   "semgrep": {
-    "stars": 16569,
+    "createdAt": "2019-12-13T09:29:54Z",
+    "pushedAt": "2026-09-10T04:05:48Z",
+    "lastCommitAt": "2026-09-04T23:54:09Z",
+    "stars": 16579,
     "license": "LGPL-2.1",
     "language": "OCaml",
-    "checkedAt": "2026-09-09T23:51:01.124Z",
-    "source": "https://github.com/semgrep/semgrep",
-    "createdAt": "2019-12-13T09:29:54Z",
-    "pushedAt": "2026-09-04T23:54:12Z",
-    "lastCommitAt": "2026-09-04T23:54:09Z"
+    "checkedAt": "2026-09-10T11:18:20.941Z",
+    "source": "https://github.com/semgrep/semgrep"
   },
   "bat": {
-    "stars": 60394,
-    "license": "Apache-2.0",
-    "language": "Rust",
-    "checkedAt": "2026-09-09T23:51:01.842Z",
-    "source": "https://github.com/sharkdp/bat",
     "createdAt": "2018-04-21T10:52:23Z",
     "pushedAt": "2026-09-04T19:10:30Z",
-    "lastCommitAt": "2026-09-04T19:10:30Z"
+    "lastCommitAt": "2026-09-04T19:10:30Z",
+    "stars": 60395,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-10T11:18:23.493Z",
+    "source": "https://github.com/sharkdp/bat"
   },
   "pandoc": {
-    "stars": 46206,
+    "createdAt": "2010-03-20T20:34:23Z",
+    "pushedAt": "2026-09-10T06:30:37Z",
+    "lastCommitAt": "2026-09-10T06:30:32Z",
+    "stars": 46218,
     "license": "GPL-2.0",
     "language": "Haskell",
-    "checkedAt": "2026-09-09T23:51:01.871Z",
-    "source": "https://github.com/jgm/pandoc",
-    "createdAt": "2010-03-20T20:34:23Z",
-    "pushedAt": "2026-09-09T20:21:32Z",
-    "lastCommitAt": "2026-09-09T20:21:22Z"
+    "checkedAt": "2026-09-10T11:18:22.909Z",
+    "source": "https://github.com/jgm/pandoc"
   },
   "rclone": {
-    "stars": 59664,
-    "license": "MIT",
-    "language": "Go",
-    "checkedAt": "2026-09-09T23:51:01.939Z",
-    "source": "https://github.com/rclone/rclone",
     "createdAt": "2014-03-16T16:19:57Z",
     "pushedAt": "2026-09-09T09:38:25Z",
-    "lastCommitAt": "2026-09-09T09:38:19Z"
-  },
-  "glow": {
-    "stars": 27239,
+    "lastCommitAt": "2026-09-09T09:38:19Z",
+    "stars": 59677,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-09T23:51:02.060Z",
-    "source": "https://github.com/charmbracelet/glow",
+    "checkedAt": "2026-09-10T11:18:22.268Z",
+    "source": "https://github.com/rclone/rclone"
+  },
+  "glow": {
     "createdAt": "2019-11-04T23:34:55Z",
     "pushedAt": "2026-09-07T11:48:13Z",
-    "lastCommitAt": "2026-09-01T13:59:13Z"
+    "lastCommitAt": "2026-09-01T13:59:13Z",
+    "stars": 27244,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-10T11:18:23.983Z",
+    "source": "https://github.com/charmbracelet/glow"
   },
   "browser-harness": {
-    "stars": 17456,
-    "license": "MIT",
-    "language": "Python",
-    "checkedAt": "2026-09-09T23:54:51.437Z",
-    "source": "https://github.com/browser-use/browser-harness",
     "createdAt": "2026-04-17T01:56:15Z",
     "pushedAt": "2026-09-07T20:13:31Z",
-    "lastCommitAt": "2026-09-07T20:13:31Z"
+    "lastCommitAt": "2026-09-07T20:13:31Z",
+    "stars": 17468,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-10T11:18:08.989Z",
+    "source": "https://github.com/browser-use/browser-harness"
   },
   "firecrawl-cli": {
     "createdAt": "2026-01-07T22:19:37Z",
     "pushedAt": "2026-09-09T19:22:21Z",
     "lastCommitAt": "2026-09-02T23:26:46Z",
-    "stars": 628,
+    "stars": 629,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:08.958965+00:00",
+    "checkedAt": "2026-09-10T11:18:24.679Z",
     "source": "https://github.com/firecrawl/cli"
   },
   "peekaboo": {
@@ -376,17 +376,17 @@
     "stars": 5140,
     "license": "MIT",
     "language": "Swift",
-    "checkedAt": "2026-09-10T00:42:07.970633+00:00",
+    "checkedAt": "2026-09-10T11:18:25.285Z",
     "source": "https://github.com/openclaw/Peekaboo"
   },
   "qmd": {
     "createdAt": "2025-12-08T14:22:57Z",
     "pushedAt": "2026-09-09T20:51:56Z",
     "lastCommitAt": "2026-09-09T20:51:54Z",
-    "stars": 29636,
+    "stars": 29651,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:07.950443+00:00",
+    "checkedAt": "2026-09-10T11:18:25.751Z",
     "source": "https://github.com/tobi/qmd"
   },
   "mcporter": {
@@ -396,27 +396,27 @@
     "stars": 5001,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:07.991909+00:00",
+    "checkedAt": "2026-09-10T11:18:26.277Z",
     "source": "https://github.com/openclaw/mcporter"
   },
   "repomix": {
     "createdAt": "2024-07-13T07:11:32Z",
-    "pushedAt": "2026-09-07T12:57:42Z",
+    "pushedAt": "2026-09-10T01:21:03Z",
     "lastCommitAt": "2026-09-07T12:54:05Z",
-    "stars": 28270,
+    "stars": 28271,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:09.435966+00:00",
+    "checkedAt": "2026-09-10T11:18:26.724Z",
     "source": "https://github.com/yamadashy/repomix"
   },
   "summarize": {
     "createdAt": "2025-12-17T12:19:51Z",
     "pushedAt": "2026-09-09T05:24:02Z",
     "lastCommitAt": "2026-09-08T01:56:30Z",
-    "stars": 6607,
+    "stars": 6610,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:09.391872+00:00",
+    "checkedAt": "2026-09-10T11:18:27.302Z",
     "source": "https://github.com/steipete/summarize"
   },
   "shot-scraper": {
@@ -426,17 +426,17 @@
     "stars": 2566,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T00:42:09.603974+00:00",
+    "checkedAt": "2026-09-10T11:18:27.673Z",
     "source": "https://github.com/simonw/shot-scraper"
   },
   "google-workspace-cli": {
     "createdAt": "2026-03-02T19:46:06Z",
     "pushedAt": "2026-09-05T17:07:06Z",
     "lastCommitAt": "2026-03-31T18:51:15Z",
-    "stars": 30814,
+    "stars": 30829,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-10T00:42:10.646417+00:00",
+    "checkedAt": "2026-09-10T11:18:28.169Z",
     "source": "https://github.com/googleworkspace/cli"
   },
   "gogcli": {
@@ -446,47 +446,47 @@
     "stars": 8392,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:11.033904+00:00",
+    "checkedAt": "2026-09-10T11:18:28.773Z",
     "source": "https://github.com/openclaw/gogcli"
   },
   "linear-cli": {
     "createdAt": "2024-11-23T15:10:09Z",
     "pushedAt": "2026-09-05T17:40:10Z",
     "lastCommitAt": "2026-09-05T14:25:32Z",
-    "stars": 954,
+    "stars": 956,
     "license": "ISC",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:11.014284+00:00",
+    "checkedAt": "2026-09-10T11:18:29.130Z",
     "source": "https://github.com/schpet/linear-cli"
   },
   "beads": {
     "createdAt": "2025-10-12T03:09:46Z",
-    "pushedAt": "2026-09-10T00:31:52Z",
+    "pushedAt": "2026-09-10T06:50:53Z",
     "lastCommitAt": "2026-09-09T01:16:35Z",
-    "stars": 27008,
+    "stars": 27022,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:11.237836+00:00",
+    "checkedAt": "2026-09-10T11:18:29.784Z",
     "source": "https://github.com/gastownhall/beads"
   },
   "himalaya": {
     "createdAt": "2020-12-23T23:56:25Z",
     "pushedAt": "2026-09-08T16:28:42Z",
     "lastCommitAt": "2026-09-08T16:28:42Z",
-    "stars": 7215,
+    "stars": 7216,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-10T00:42:12.251847+00:00",
+    "checkedAt": "2026-09-10T11:18:30.496Z",
     "source": "https://github.com/pimalaya/himalaya"
   },
   "remindctl": {
     "createdAt": "2026-01-03T06:14:05Z",
     "pushedAt": "2026-09-07T10:40:46Z",
     "lastCommitAt": "2026-09-07T10:40:44Z",
-    "stars": 361,
+    "stars": 362,
     "license": "MIT",
     "language": "Swift",
-    "checkedAt": "2026-09-10T00:42:12.715989+00:00",
+    "checkedAt": "2026-09-10T11:18:31.301Z",
     "source": "https://github.com/openclaw/remindctl"
   },
   "imsg": {
@@ -496,27 +496,27 @@
     "stars": 1316,
     "license": "MIT",
     "language": "Swift",
-    "checkedAt": "2026-09-10T00:42:12.747879+00:00",
+    "checkedAt": "2026-09-10T11:18:31.814Z",
     "source": "https://github.com/openclaw/imsg"
   },
   "wacli": {
     "createdAt": "2025-12-12T12:43:35Z",
     "pushedAt": "2026-09-08T02:52:07Z",
     "lastCommitAt": "2026-09-08T02:51:43Z",
-    "stars": 2727,
+    "stars": 2728,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:13.071037+00:00",
+    "checkedAt": "2026-09-10T11:18:32.297Z",
     "source": "https://github.com/openclaw/wacli"
   },
   "sonoscli": {
     "createdAt": "2025-12-13T00:37:32Z",
     "pushedAt": "2026-09-04T11:50:06Z",
     "lastCommitAt": "2026-09-04T11:50:06Z",
-    "stars": 185,
+    "stars": 184,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:13.746973+00:00",
+    "checkedAt": "2026-09-10T11:18:32.743Z",
     "source": "https://github.com/steipete/sonoscli"
   },
   "goplaces": {
@@ -526,67 +526,67 @@
     "stars": 252,
     "license": "MIT",
     "language": "Shell",
-    "checkedAt": "2026-09-10T00:42:14.331605+00:00",
+    "checkedAt": "2026-09-10T11:18:33.263Z",
     "source": "https://github.com/openclaw/goplaces"
   },
   "railway-cli": {
     "createdAt": "2020-10-01T18:34:48Z",
-    "pushedAt": "2026-09-09T23:06:46Z",
-    "lastCommitAt": "2026-09-09T23:06:43Z",
-    "stars": 604,
+    "pushedAt": "2026-09-10T06:05:52Z",
+    "lastCommitAt": "2026-09-10T06:05:49Z",
+    "stars": 605,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-10T00:42:14.282123+00:00",
+    "checkedAt": "2026-09-10T11:18:33.712Z",
     "source": "https://github.com/railwayapp/cli"
   },
   "aws-cli": {
     "createdAt": "2012-11-20T16:07:36Z",
     "pushedAt": "2026-09-09T19:51:54Z",
     "lastCommitAt": "2026-08-27T20:03:38Z",
-    "stars": 17243,
+    "stars": 17244,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-10T00:42:14.641499+00:00",
+    "checkedAt": "2026-09-10T11:18:34.344Z",
     "source": "https://github.com/aws/aws-cli"
   },
   "azure-cli": {
     "createdAt": "2016-02-04T00:21:51Z",
-    "pushedAt": "2026-09-10T00:34:37Z",
-    "lastCommitAt": "2026-09-10T00:34:36Z",
+    "pushedAt": "2026-09-10T05:38:24Z",
+    "lastCommitAt": "2026-09-10T05:38:23Z",
     "stars": 4622,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-10T00:42:15.366254+00:00",
+    "checkedAt": "2026-09-10T11:18:35.017Z",
     "source": "https://github.com/Azure/azure-cli"
   },
   "doctl": {
     "createdAt": "2015-05-29T21:24:39Z",
-    "pushedAt": "2026-09-09T15:19:31Z",
+    "pushedAt": "2026-09-10T08:52:13Z",
     "lastCommitAt": "2026-09-08T13:37:53Z",
     "stars": 3449,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:16.154857+00:00",
+    "checkedAt": "2026-09-10T11:18:35.434Z",
     "source": "https://github.com/digitalocean/doctl"
   },
   "hcloud": {
     "createdAt": "2017-11-29T17:12:42Z",
-    "pushedAt": "2026-09-08T21:47:55Z",
-    "lastCommitAt": "2026-09-07T08:00:18Z",
+    "pushedAt": "2026-09-10T09:00:24Z",
+    "lastCommitAt": "2026-09-10T08:00:40Z",
     "stars": 1801,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:16.090010+00:00",
+    "checkedAt": "2026-09-10T11:18:36.138Z",
     "source": "https://github.com/hetznercloud/cli"
   },
   "scaleway-cli": {
     "createdAt": "2015-03-20T09:45:50Z",
-    "pushedAt": "2026-09-09T19:24:15Z",
-    "lastCommitAt": "2026-09-09T19:18:56Z",
+    "pushedAt": "2026-09-10T08:25:23Z",
+    "lastCommitAt": "2026-09-10T08:19:54Z",
     "stars": 997,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:16.279995+00:00",
+    "checkedAt": "2026-09-10T11:18:36.764Z",
     "source": "https://github.com/scaleway/scaleway-cli"
   },
   "linode-cli": {
@@ -596,7 +596,7 @@
     "stars": 440,
     "license": "BSD-3-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-10T00:42:17.055259+00:00",
+    "checkedAt": "2026-09-10T11:18:37.549Z",
     "source": "https://github.com/linode/linode-cli"
   },
   "ovhcloud-cli": {
@@ -606,37 +606,37 @@
     "stars": 175,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:17.608884+00:00",
+    "checkedAt": "2026-09-10T11:18:38.207Z",
     "source": "https://github.com/ovh/ovhcloud-cli"
   },
   "netlify-cli": {
     "createdAt": "2014-10-11T07:29:59Z",
-    "pushedAt": "2026-09-09T20:36:50Z",
+    "pushedAt": "2026-09-10T02:52:25Z",
     "lastCommitAt": "2026-09-09T17:06:52Z",
     "stars": 1915,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:17.786430+00:00",
+    "checkedAt": "2026-09-10T11:18:38.712Z",
     "source": "https://github.com/netlify/cli"
   },
   "render-cli": {
     "createdAt": "2024-10-08T16:37:58Z",
-    "pushedAt": "2026-09-10T00:01:47Z",
-    "lastCommitAt": "2026-09-09T21:42:33Z",
+    "pushedAt": "2026-09-10T03:26:33Z",
+    "lastCommitAt": "2026-09-10T03:26:31Z",
     "stars": 114,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:17.872100+00:00",
+    "checkedAt": "2026-09-10T11:18:39.142Z",
     "source": "https://github.com/render-oss/cli"
   },
   "firebase-cli": {
     "createdAt": "2013-12-23T18:53:04Z",
-    "pushedAt": "2026-09-10T00:09:17Z",
-    "lastCommitAt": "2026-09-10T00:04:42Z",
+    "pushedAt": "2026-09-10T11:01:09Z",
+    "lastCommitAt": "2026-09-10T00:53:16Z",
     "stars": 4465,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:18.616324+00:00",
+    "checkedAt": "2026-09-10T11:18:39.684Z",
     "source": "https://github.com/firebase/firebase-tools"
   },
   "neonctl": {
@@ -646,7 +646,7 @@
     "stars": 117,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:19.610252+00:00",
+    "checkedAt": "2026-09-10T11:18:40.141Z",
     "source": "https://github.com/neondatabase/neonctl"
   },
   "ecctl": {
@@ -656,17 +656,17 @@
     "stars": 58,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:19.664843+00:00",
+    "checkedAt": "2026-09-10T11:18:40.862Z",
     "source": "https://github.com/elastic/ecctl"
   },
   "stripe-cli": {
     "createdAt": "2019-06-14T00:01:21Z",
     "pushedAt": "2026-09-10T00:19:56Z",
     "lastCommitAt": "2026-09-09T22:49:54Z",
-    "stars": 2173,
+    "stars": 2174,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:19.924406+00:00",
+    "checkedAt": "2026-09-10T11:18:41.358Z",
     "source": "https://github.com/stripe/stripe-cli"
   },
   "wp-cli": {
@@ -676,47 +676,47 @@
     "stars": 5147,
     "license": "MIT",
     "language": "PHP",
-    "checkedAt": "2026-09-10T00:42:20.406150+00:00",
+    "checkedAt": "2026-09-10T11:18:41.885Z",
     "source": "https://github.com/wp-cli/wp-cli"
   },
   "shopify-cli": {
     "createdAt": "2022-06-21T13:52:40Z",
-    "pushedAt": "2026-09-10T00:37:39Z",
-    "lastCommitAt": "2026-09-09T22:03:35Z",
+    "pushedAt": "2026-09-10T11:13:47Z",
+    "lastCommitAt": "2026-09-10T09:07:15Z",
     "stars": 742,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:21.367159+00:00",
+    "checkedAt": "2026-09-10T11:18:42.555Z",
     "source": "https://github.com/Shopify/cli"
   },
   "salesforce-cli": {
     "createdAt": "2021-01-29T00:35:12Z",
-    "pushedAt": "2026-09-09T02:22:40Z",
+    "pushedAt": "2026-09-10T02:23:25Z",
     "lastCommitAt": "2026-09-02T20:56:24Z",
     "stars": 180,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:21.696620+00:00",
+    "checkedAt": "2026-09-10T11:18:43.232Z",
     "source": "https://github.com/salesforcecli/cli"
   },
   "microsoft-365-cli": {
     "createdAt": "2017-10-12T17:18:21Z",
-    "pushedAt": "2026-09-09T06:09:30Z",
+    "pushedAt": "2026-09-10T07:31:20Z",
     "lastCommitAt": "2026-09-09T06:09:21Z",
-    "stars": 1443,
+    "stars": 1445,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:21.570088+00:00",
+    "checkedAt": "2026-09-10T11:18:43.894Z",
     "source": "https://github.com/pnp/cli-microsoft365"
   },
   "twilio-cli": {
     "createdAt": "2018-09-24T21:53:19Z",
-    "pushedAt": "2026-09-09T10:37:32Z",
+    "pushedAt": "2026-09-10T11:10:35Z",
     "lastCommitAt": "2026-09-01T06:44:02Z",
     "stars": 192,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T00:42:22.278640+00:00",
+    "checkedAt": "2026-09-10T11:18:44.483Z",
     "source": "https://github.com/twilio/twilio-cli"
   },
   "algolia-cli": {
@@ -726,7 +726,7 @@
     "stars": 109,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:22.961523+00:00",
+    "checkedAt": "2026-09-10T11:18:45.082Z",
     "source": "https://github.com/algolia/cli"
   },
   "contentful-cli": {
@@ -736,97 +736,97 @@
     "stars": 361,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T00:42:24.254004+00:00",
+    "checkedAt": "2026-09-10T11:18:45.681Z",
     "source": "https://github.com/contentful/contentful-cli"
   },
   "sanity-cli": {
     "createdAt": "2025-01-14T17:58:44Z",
-    "pushedAt": "2026-09-09T19:56:12Z",
+    "pushedAt": "2026-09-10T08:51:45Z",
     "lastCommitAt": "2026-09-09T15:26:20Z",
     "stars": 8,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:23.660763+00:00",
+    "checkedAt": "2026-09-10T11:18:46.314Z",
     "source": "https://github.com/sanity-io/cli"
   },
   "podman": {
     "createdAt": "2017-11-01T15:01:27Z",
-    "pushedAt": "2026-09-09T18:58:19Z",
-    "lastCommitAt": "2026-09-09T18:58:19Z",
-    "stars": 32826,
+    "pushedAt": "2026-09-10T10:06:12Z",
+    "lastCommitAt": "2026-09-10T10:06:12Z",
+    "stars": 32827,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:23.952897+00:00",
+    "checkedAt": "2026-09-10T11:18:46.879Z",
     "source": "https://github.com/podman-container-tools/podman"
   },
   "helm": {
     "createdAt": "2015-10-06T01:07:32Z",
     "pushedAt": "2026-09-09T22:31:01Z",
     "lastCommitAt": "2026-09-09T18:42:50Z",
-    "stars": 30228,
+    "stars": 30229,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:24.467620+00:00",
+    "checkedAt": "2026-09-10T11:18:47.503Z",
     "source": "https://github.com/helm/helm"
   },
   "opentofu": {
     "createdAt": "2023-08-16T20:01:36Z",
-    "pushedAt": "2026-09-08T11:50:29Z",
+    "pushedAt": "2026-09-10T08:05:47Z",
     "lastCommitAt": "2026-09-08T10:09:48Z",
-    "stars": 30141,
+    "stars": 30149,
     "license": "MPL-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:25.369784+00:00",
+    "checkedAt": "2026-09-10T11:18:48.064Z",
     "source": "https://github.com/opentofu/opentofu"
   },
   "pulumi": {
     "createdAt": "2016-10-31T21:02:47Z",
-    "pushedAt": "2026-09-09T21:24:25Z",
-    "lastCommitAt": "2026-09-09T19:26:10Z",
-    "stars": 25658,
+    "pushedAt": "2026-09-10T10:18:44Z",
+    "lastCommitAt": "2026-09-10T09:33:37Z",
+    "stars": 25660,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:25.426089+00:00",
+    "checkedAt": "2026-09-10T11:18:48.687Z",
     "source": "https://github.com/pulumi/pulumi"
   },
   "ansible": {
     "createdAt": "2012-03-06T14:58:02Z",
     "pushedAt": "2026-09-09T19:46:47Z",
     "lastCommitAt": "2026-09-09T19:46:46Z",
-    "stars": 70620,
+    "stars": 70627,
     "license": "GPL-3.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T00:42:26.031476+00:00",
+    "checkedAt": "2026-09-10T11:18:49.128Z",
     "source": "https://github.com/ansible/ansible"
   },
   "argocd": {
     "createdAt": "2018-02-09T11:12:01Z",
-    "pushedAt": "2026-09-10T00:16:12Z",
-    "lastCommitAt": "2026-09-09T21:39:02Z",
-    "stars": 24114,
+    "pushedAt": "2026-09-10T02:41:35Z",
+    "lastCommitAt": "2026-09-10T02:41:33Z",
+    "stars": 24119,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:26.040262+00:00",
+    "checkedAt": "2026-09-10T11:18:49.854Z",
     "source": "https://github.com/argoproj/argo-cd"
   },
   "flux-cli": {
     "createdAt": "2020-04-24T09:38:21Z",
     "pushedAt": "2026-09-07T15:42:40Z",
     "lastCommitAt": "2026-09-06T12:06:50Z",
-    "stars": 8390,
+    "stars": 8393,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:27.140472+00:00",
+    "checkedAt": "2026-09-10T11:18:50.342Z",
     "source": "https://github.com/fluxcd/flux2"
   },
   "kind": {
     "createdAt": "2018-09-12T21:45:05Z",
     "pushedAt": "2026-09-04T13:08:26Z",
     "lastCommitAt": "2026-09-04T13:08:26Z",
-    "stars": 15481,
+    "stars": 15483,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:27.256098+00:00",
+    "checkedAt": "2026-09-10T11:18:50.881Z",
     "source": "https://github.com/kubernetes-sigs/kind"
   },
   "minikube": {
@@ -836,37 +836,37 @@
     "stars": 32113,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:27.570592+00:00",
+    "checkedAt": "2026-09-10T11:18:51.555Z",
     "source": "https://github.com/kubernetes/minikube"
   },
   "sops": {
     "createdAt": "2015-08-13T22:11:00Z",
     "pushedAt": "2026-09-07T19:23:55Z",
     "lastCommitAt": "2026-09-07T19:23:53Z",
-    "stars": 23071,
+    "stars": 23079,
     "license": "MPL-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:27.600955+00:00",
+    "checkedAt": "2026-09-10T11:18:51.960Z",
     "source": "https://github.com/getsops/sops"
   },
   "age": {
     "createdAt": "2019-05-18T20:44:54Z",
     "pushedAt": "2026-08-29T17:55:36Z",
     "lastCommitAt": "2026-08-29T17:40:19Z",
-    "stars": 23504,
+    "stars": 23519,
     "license": "BSD-3-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:28.563973+00:00",
+    "checkedAt": "2026-09-10T11:18:52.534Z",
     "source": "https://github.com/FiloSottile/age"
   },
   "bitwarden-cli": {
     "createdAt": "2016-03-09T23:14:01Z",
-    "pushedAt": "2026-09-09T23:54:52Z",
-    "lastCommitAt": "2026-09-09T22:48:58Z",
+    "pushedAt": "2026-09-10T10:00:08Z",
+    "lastCommitAt": "2026-09-10T03:32:28Z",
     "stars": 13761,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:28.947699+00:00",
+    "checkedAt": "2026-09-10T11:18:53.110Z",
     "source": "https://github.com/bitwarden/clients"
   },
   "doppler-cli": {
@@ -876,107 +876,107 @@
     "stars": 392,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:29.505805+00:00",
+    "checkedAt": "2026-09-10T11:18:53.832Z",
     "source": "https://github.com/DopplerHQ/cli"
   },
   "infisical-cli": {
     "createdAt": "2025-07-11T17:46:41Z",
-    "pushedAt": "2026-09-09T23:50:19Z",
+    "pushedAt": "2026-09-10T09:15:50Z",
     "lastCommitAt": "2026-09-08T18:38:35Z",
     "stars": 91,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:29.441459+00:00",
+    "checkedAt": "2026-09-10T11:18:54.564Z",
     "source": "https://github.com/Infisical/cli"
   },
   "trivy": {
     "createdAt": "2019-04-11T01:01:07Z",
-    "pushedAt": "2026-09-09T08:23:47Z",
-    "lastCommitAt": "2026-09-09T08:06:21Z",
-    "stars": 37848,
+    "pushedAt": "2026-09-10T10:01:25Z",
+    "lastCommitAt": "2026-09-10T09:40:08Z",
+    "stars": 37855,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:30.376387+00:00",
+    "checkedAt": "2026-09-10T11:18:55.160Z",
     "source": "https://github.com/aquasecurity/trivy"
   },
   "syft": {
     "createdAt": "2020-05-07T18:19:29Z",
-    "pushedAt": "2026-09-09T21:33:47Z",
-    "lastCommitAt": "2026-09-09T14:53:58Z",
-    "stars": 9544,
+    "pushedAt": "2026-09-10T02:29:45Z",
+    "lastCommitAt": "2026-09-10T02:29:44Z",
+    "stars": 9546,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:30.487344+00:00",
+    "checkedAt": "2026-09-10T11:18:55.671Z",
     "source": "https://github.com/anchore/syft"
   },
   "grype": {
     "createdAt": "2020-05-26T13:44:38Z",
     "pushedAt": "2026-09-09T15:56:45Z",
     "lastCommitAt": "2026-09-09T15:56:45Z",
-    "stars": 12865,
+    "stars": 12869,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:31.064544+00:00",
+    "checkedAt": "2026-09-10T11:18:56.210Z",
     "source": "https://github.com/anchore/grype"
   },
   "trufflehog": {
     "createdAt": "2016-12-31T05:08:12Z",
     "pushedAt": "2026-09-10T00:23:35Z",
     "lastCommitAt": "2026-09-09T21:25:38Z",
-    "stars": 27737,
+    "stars": 27742,
     "license": "AGPL-3.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:31.140083+00:00",
+    "checkedAt": "2026-09-10T11:18:56.827Z",
     "source": "https://github.com/trufflesecurity/trufflehog"
   },
   "cosign": {
     "createdAt": "2021-02-04T12:49:39Z",
     "pushedAt": "2026-09-08T19:36:46Z",
     "lastCommitAt": "2026-09-08T19:36:42Z",
-    "stars": 6290,
+    "stars": 6292,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:31.928802+00:00",
+    "checkedAt": "2026-09-10T11:18:57.357Z",
     "source": "https://github.com/sigstore/cosign"
   },
   "snyk-cli": {
     "createdAt": "2015-10-30T11:36:00Z",
-    "pushedAt": "2026-09-09T17:20:34Z",
-    "lastCommitAt": "2026-09-09T17:20:32Z",
-    "stars": 5657,
+    "pushedAt": "2026-09-10T11:14:40Z",
+    "lastCommitAt": "2026-09-10T09:46:11Z",
+    "stars": 5658,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:32.107479+00:00",
+    "checkedAt": "2026-09-10T11:18:57.989Z",
     "source": "https://github.com/snyk/cli"
   },
   "sentry-cli": {
     "createdAt": "2025-12-11T14:28:23Z",
-    "pushedAt": "2026-09-09T23:55:20Z",
+    "pushedAt": "2026-09-10T10:43:44Z",
     "lastCommitAt": "2026-09-09T18:01:12Z",
     "stars": 119,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T00:42:32.701793+00:00",
+    "checkedAt": "2026-09-10T11:18:58.454Z",
     "source": "https://github.com/getsentry/cli"
   },
   "k6": {
     "createdAt": "2016-03-21T15:30:24Z",
-    "pushedAt": "2026-09-09T23:02:33Z",
-    "lastCommitAt": "2026-09-09T18:47:05Z",
-    "stars": 31424,
+    "pushedAt": "2026-09-10T11:04:21Z",
+    "lastCommitAt": "2026-09-10T11:04:17Z",
+    "stars": 31433,
     "license": "AGPL-3.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:32.846527+00:00",
+    "checkedAt": "2026-09-10T11:18:59.119Z",
     "source": "https://github.com/grafana/k6"
   },
   "lighthouse": {
     "createdAt": "2016-03-08T01:03:11Z",
     "pushedAt": "2026-09-09T03:25:53Z",
     "lastCommitAt": "2026-09-02T14:31:33Z",
-    "stars": 30749,
+    "stars": 30754,
     "license": "Apache-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T00:42:33.513748+00:00",
+    "checkedAt": "2026-09-10T11:18:59.521Z",
     "source": "https://github.com/GoogleChrome/lighthouse"
   },
   "axe-cli": {
@@ -986,17 +986,17 @@
     "stars": 722,
     "license": "MPL-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T00:42:33.664726+00:00",
+    "checkedAt": "2026-09-10T11:18:59.994Z",
     "source": "https://github.com/dequelabs/axe-core-npm"
   },
   "duckdb-cli": {
     "createdAt": "2018-06-26T15:04:45Z",
-    "pushedAt": "2026-09-10T00:36:47Z",
-    "lastCommitAt": "2026-09-09T11:30:25Z",
-    "stars": 41107,
+    "pushedAt": "2026-09-10T09:59:37Z",
+    "lastCommitAt": "2026-09-10T07:32:10Z",
+    "stars": 41123,
     "license": "MIT",
     "language": "C++",
-    "checkedAt": "2026-09-10T00:42:34.255335+00:00",
+    "checkedAt": "2026-09-10T11:19:00.577Z",
     "source": "https://github.com/duckdb/duckdb"
   },
   "sqlite-utils": {
@@ -1006,47 +1006,47 @@
     "stars": 2167,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T00:42:34.219021+00:00",
+    "checkedAt": "2026-09-10T11:19:01.172Z",
     "source": "https://github.com/simonw/sqlite-utils"
   },
   "dbt-core": {
     "createdAt": "2016-03-10T02:38:00Z",
-    "pushedAt": "2026-09-10T00:32:22Z",
-    "lastCommitAt": "2026-09-10T00:32:20Z",
-    "stars": 13795,
+    "pushedAt": "2026-09-10T10:42:26Z",
+    "lastCommitAt": "2026-09-10T05:41:21Z",
+    "stars": 13798,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-10T00:42:35.022131+00:00",
+    "checkedAt": "2026-09-10T11:19:01.642Z",
     "source": "https://github.com/dbt-labs/dbt-core"
   },
   "sqlfluff": {
     "createdAt": "2018-11-01T23:56:04Z",
-    "pushedAt": "2026-09-09T23:53:20Z",
-    "lastCommitAt": "2026-09-09T23:44:55Z",
+    "pushedAt": "2026-09-10T10:43:41Z",
+    "lastCommitAt": "2026-09-10T10:33:39Z",
     "stars": 9866,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-10T00:42:35.228861+00:00",
+    "checkedAt": "2026-09-10T11:19:02.264Z",
     "source": "https://github.com/sqlfluff/sqlfluff"
   },
   "golang-migrate": {
     "createdAt": "2018-01-19T09:30:58Z",
     "pushedAt": "2026-09-09T05:06:21Z",
     "lastCommitAt": "2026-09-09T04:57:20Z",
-    "stars": 18904,
+    "stars": 18905,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:35.776106+00:00",
+    "checkedAt": "2026-09-10T11:19:02.910Z",
     "source": "https://github.com/golang-migrate/migrate"
   },
   "atlas": {
     "createdAt": "2021-04-30T18:56:42Z",
     "pushedAt": "2026-09-04T04:31:48Z",
     "lastCommitAt": "2026-09-04T04:31:46Z",
-    "stars": 8715,
+    "stars": 8716,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:35.892062+00:00",
+    "checkedAt": "2026-09-10T11:19:03.468Z",
     "source": "https://github.com/ariga/atlas"
   },
   "miller": {
@@ -1056,97 +1056,97 @@
     "stars": 10015,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:36.589605+00:00",
+    "checkedAt": "2026-09-10T11:19:04.123Z",
     "source": "https://github.com/johnkerl/miller"
   },
   "dolt": {
     "createdAt": "2019-07-24T17:46:25Z",
-    "pushedAt": "2026-09-10T00:39:42Z",
+    "pushedAt": "2026-09-10T11:01:09Z",
     "lastCommitAt": "2026-09-09T21:52:23Z",
-    "stars": 24405,
+    "stars": 24410,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:36.759996+00:00",
+    "checkedAt": "2026-09-10T11:19:04.674Z",
     "source": "https://github.com/dolthub/dolt"
   },
   "yt-dlp": {
     "createdAt": "2020-10-26T04:22:55Z",
     "pushedAt": "2026-08-30T13:58:45Z",
     "lastCommitAt": "2026-08-30T13:58:45Z",
-    "stars": 190000,
+    "stars": 190086,
     "license": "Unlicense",
     "language": "Python",
-    "checkedAt": "2026-09-10T00:42:37.266092+00:00",
+    "checkedAt": "2026-09-10T11:19:05.354Z",
     "source": "https://github.com/yt-dlp/yt-dlp"
   },
   "ffmpeg": {
     "createdAt": "2011-04-14T14:12:38Z",
-    "pushedAt": "2026-09-09T18:06:58Z",
-    "lastCommitAt": "2026-09-09T18:06:23Z",
-    "stars": 64081,
+    "pushedAt": "2026-09-10T02:46:01Z",
+    "lastCommitAt": "2026-09-10T02:45:44Z",
+    "stars": 64098,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-10T00:42:37.378198+00:00",
+    "checkedAt": "2026-09-10T11:19:06.083Z",
     "source": "https://github.com/FFmpeg/FFmpeg"
   },
   "imagemagick": {
     "createdAt": "2015-05-17T20:07:50Z",
-    "pushedAt": "2026-09-09T12:54:20Z",
-    "lastCommitAt": "2026-09-09T12:53:59Z",
-    "stars": 17380,
+    "pushedAt": "2026-09-10T06:35:50Z",
+    "lastCommitAt": "2026-09-10T06:35:41Z",
+    "stars": 17382,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-10T00:42:38.069815+00:00",
+    "checkedAt": "2026-09-10T11:19:06.705Z",
     "source": "https://github.com/ImageMagick/ImageMagick"
   },
   "tesseract": {
     "createdAt": "2014-08-12T18:04:59Z",
     "pushedAt": "2026-09-09T18:38:20Z",
     "lastCommitAt": "2026-09-09T18:38:20Z",
-    "stars": 76415,
+    "stars": 76422,
     "license": "Apache-2.0",
     "language": "C++",
-    "checkedAt": "2026-09-10T00:42:38.317395+00:00",
+    "checkedAt": "2026-09-10T11:19:07.395Z",
     "source": "https://github.com/tesseract-ocr/tesseract"
   },
   "ocrmypdf": {
     "createdAt": "2013-12-20T08:26:28Z",
     "pushedAt": "2026-09-08T18:26:29Z",
     "lastCommitAt": "2026-09-08T09:14:32Z",
-    "stars": 34705,
+    "stars": 34707,
     "license": "MPL-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T00:42:38.651019+00:00",
+    "checkedAt": "2026-09-10T11:19:07.987Z",
     "source": "https://github.com/ocrmypdf/OCRmyPDF"
   },
   "qpdf": {
     "createdAt": "2012-06-03T17:40:19Z",
     "pushedAt": "2026-09-06T17:06:42Z",
     "lastCommitAt": "2026-09-06T17:06:42Z",
-    "stars": 5398,
+    "stars": 5401,
     "license": "Apache-2.0",
     "language": "C++",
-    "checkedAt": "2026-09-10T00:42:39.014402+00:00",
+    "checkedAt": "2026-09-10T11:19:08.551Z",
     "source": "https://github.com/qpdf/qpdf"
   },
   "restic": {
     "createdAt": "2014-04-27T14:07:58Z",
     "pushedAt": "2026-09-01T01:43:58Z",
     "lastCommitAt": "2026-08-29T20:11:48Z",
-    "stars": 35953,
+    "stars": 35958,
     "license": "BSD-2-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-10T00:42:39.523244+00:00",
+    "checkedAt": "2026-09-10T11:19:09.227Z",
     "source": "https://github.com/restic/restic"
   },
   "just": {
     "createdAt": "2016-06-17T06:08:08Z",
     "pushedAt": "2026-09-01T20:47:57Z",
     "lastCommitAt": "2026-09-01T20:47:55Z",
-    "stars": 35708,
+    "stars": 35723,
     "license": "CC0-1.0",
     "language": "Rust",
-    "checkedAt": "2026-09-10T00:42:39.767421+00:00",
+    "checkedAt": "2026-09-10T11:19:10.089Z",
     "source": "https://github.com/casey/just"
   },
   "blucli": {
@@ -1156,7 +1156,7 @@
     "stars": 43,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:30.261Z",
+    "checkedAt": "2026-09-10T11:19:10.529Z",
     "source": "https://github.com/steipete/blucli"
   },
   "eightctl": {
@@ -1166,7 +1166,7 @@
     "stars": 96,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:30.197Z",
+    "checkedAt": "2026-09-10T11:19:11.140Z",
     "source": "https://github.com/steipete/eightctl"
   },
   "gifgrep": {
@@ -1176,7 +1176,7 @@
     "stars": 129,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:30.217Z",
+    "checkedAt": "2026-09-10T11:19:11.639Z",
     "source": "https://github.com/steipete/gifgrep"
   },
   "camsnap": {
@@ -1186,7 +1186,7 @@
     "stars": 141,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:30.226Z",
+    "checkedAt": "2026-09-10T11:19:12.218Z",
     "source": "https://github.com/steipete/camsnap"
   },
   "ordercli": {
@@ -1196,7 +1196,7 @@
     "stars": 79,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:30.233Z",
+    "checkedAt": "2026-09-10T11:19:12.894Z",
     "source": "https://github.com/steipete/ordercli"
   },
   "openhue-cli": {
@@ -1206,7 +1206,7 @@
     "stars": 148,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:30.737Z",
+    "checkedAt": "2026-09-10T11:19:13.376Z",
     "source": "https://github.com/openhue/openhue-cli"
   },
   "sag": {
@@ -1216,27 +1216,27 @@
     "stars": 580,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:30.477Z",
+    "checkedAt": "2026-09-10T11:19:14.061Z",
     "source": "https://github.com/steipete/sag"
   },
   "twitter-cli": {
     "createdAt": "2026-03-05T08:18:37Z",
     "pushedAt": "2026-05-07T15:53:22Z",
     "lastCommitAt": "2026-05-07T15:53:22Z",
-    "stars": 2904,
+    "stars": 2905,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:30.774Z",
+    "checkedAt": "2026-09-10T11:19:14.490Z",
     "source": "https://github.com/public-clis/twitter-cli"
   },
   "bilibili-cli": {
     "createdAt": "2026-03-04T09:17:54Z",
     "pushedAt": "2026-03-14T12:23:49Z",
     "lastCommitAt": "2026-03-14T12:23:47Z",
-    "stars": 1031,
+    "stars": 1032,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:30.769Z",
+    "checkedAt": "2026-09-10T11:19:15.257Z",
     "source": "https://github.com/public-clis/bilibili-cli"
   },
   "rdt-cli": {
@@ -1246,37 +1246,37 @@
     "stars": 515,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:30.771Z",
+    "checkedAt": "2026-09-10T11:19:15.813Z",
     "source": "https://github.com/public-clis/rdt-cli"
   },
   "xiaohongshu-cli": {
     "createdAt": "2026-03-08T05:34:05Z",
     "pushedAt": "2026-03-21T05:50:37Z",
     "lastCommitAt": "2026-03-21T05:50:37Z",
-    "stars": 2579,
+    "stars": 2581,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:30.840Z",
+    "checkedAt": "2026-09-10T11:19:16.339Z",
     "source": "https://github.com/jackwener/xiaohongshu-cli"
   },
   "notesmd-cli": {
     "createdAt": "2023-01-14T14:31:00Z",
     "pushedAt": "2026-09-01T07:56:11Z",
     "lastCommitAt": "2026-09-01T07:56:04Z",
-    "stars": 1579,
+    "stars": 1581,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:31.094Z",
+    "checkedAt": "2026-09-10T11:19:16.984Z",
     "source": "https://github.com/Yakitrak/notesmd-cli"
   },
   "jira-cli": {
     "createdAt": "2020-11-22T08:48:39Z",
     "pushedAt": "2026-08-19T11:07:22Z",
     "lastCommitAt": "2026-08-19T11:07:20Z",
-    "stars": 5958,
+    "stars": 5960,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:31.029Z",
+    "checkedAt": "2026-09-10T11:19:17.586Z",
     "source": "https://github.com/ankitpokhrel/jira-cli"
   },
   "todoist-cli": {
@@ -1286,17 +1286,17 @@
     "stars": 1734,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:31.312Z",
+    "checkedAt": "2026-09-10T11:19:18.098Z",
     "source": "https://github.com/sachaos/todoist"
   },
   "taskwarrior": {
     "createdAt": "2018-02-03T10:14:26Z",
     "pushedAt": "2026-09-08T05:33:07Z",
     "lastCommitAt": "2026-08-28T20:30:05Z",
-    "stars": 6055,
+    "stars": 6056,
     "license": "MIT",
     "language": "C++",
-    "checkedAt": "2026-09-10T01:28:31.149Z",
+    "checkedAt": "2026-09-10T11:19:18.643Z",
     "source": "https://github.com/GothenburgBitFactory/taskwarrior"
   },
   "khal": {
@@ -1306,7 +1306,7 @@
     "stars": 3045,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:31.332Z",
+    "checkedAt": "2026-09-10T11:19:19.300Z",
     "source": "https://github.com/pimutils/khal"
   },
   "gcalcli": {
@@ -1316,7 +1316,7 @@
     "stars": 3762,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:31.444Z",
+    "checkedAt": "2026-09-10T11:19:20.086Z",
     "source": "https://github.com/insanum/gcalcli"
   },
   "vdirsyncer": {
@@ -1326,7 +1326,7 @@
     "stars": 1873,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:31.381Z",
+    "checkedAt": "2026-09-10T11:19:20.796Z",
     "source": "https://github.com/pimutils/vdirsyncer"
   },
   "buku": {
@@ -1336,7 +1336,7 @@
     "stars": 7196,
     "license": "GPL-3.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:31.522Z",
+    "checkedAt": "2026-09-10T11:19:21.269Z",
     "source": "https://github.com/jarun/buku"
   },
   "nb": {
@@ -1346,7 +1346,7 @@
     "stars": 8401,
     "license": "AGPL-3.0",
     "language": "Shell",
-    "checkedAt": "2026-09-10T01:28:31.699Z",
+    "checkedAt": "2026-09-10T11:19:22.941Z",
     "source": "https://github.com/xwmx/nb"
   },
   "vibe-notion": {
@@ -1356,17 +1356,17 @@
     "stars": 44,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:31.830Z",
+    "checkedAt": "2026-09-10T11:19:23.700Z",
     "source": "https://github.com/devxoul/vibe-notion"
   },
   "opencli": {
     "createdAt": "2026-03-14T22:10:23Z",
     "pushedAt": "2026-08-30T17:36:26Z",
     "lastCommitAt": "2026-08-30T17:35:37Z",
-    "stars": 29147,
+    "stars": 29171,
     "license": "Apache-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T01:28:31.593Z",
+    "checkedAt": "2026-09-10T11:19:24.276Z",
     "source": "https://github.com/jackwener/OpenCLI"
   },
   "rulesync": {
@@ -1376,17 +1376,17 @@
     "stars": 1406,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:31.905Z",
+    "checkedAt": "2026-09-10T11:19:24.808Z",
     "source": "https://github.com/dyoshikawa/rulesync"
   },
   "acpx": {
     "createdAt": "2026-02-17T19:06:45Z",
     "pushedAt": "2026-09-08T03:02:27Z",
     "lastCommitAt": "2026-09-08T03:02:20Z",
-    "stars": 3232,
+    "stars": 3235,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:31.982Z",
+    "checkedAt": "2026-09-10T11:19:25.325Z",
     "source": "https://github.com/openclaw/acpx"
   },
   "discord-cli": {
@@ -1396,7 +1396,7 @@
     "stars": 129,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:31.981Z",
+    "checkedAt": "2026-09-10T11:19:25.790Z",
     "source": "https://github.com/jackwener/discord-cli"
   },
   "tg-cli": {
@@ -1406,7 +1406,7 @@
     "stars": 286,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:32.175Z",
+    "checkedAt": "2026-09-10T11:19:26.181Z",
     "source": "https://github.com/jackwener/tg-cli"
   },
   "agent-slack": {
@@ -1416,17 +1416,17 @@
     "stars": 533,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:32.382Z",
+    "checkedAt": "2026-09-10T11:19:26.580Z",
     "source": "https://github.com/stablyai/agent-slack"
   },
   "auth0-cli": {
     "createdAt": "2020-09-01T16:08:39Z",
-    "pushedAt": "2026-09-09T15:41:46Z",
-    "lastCommitAt": "2026-09-09T15:41:42Z",
+    "pushedAt": "2026-09-10T09:25:42Z",
+    "lastCommitAt": "2026-09-10T04:50:12Z",
     "stars": 340,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:32.341Z",
+    "checkedAt": "2026-09-10T11:19:27.058Z",
     "source": "https://github.com/auth0/auth0-cli"
   },
   "okta-cli": {
@@ -1436,27 +1436,27 @@
     "stars": 110,
     "license": "Apache-2.0",
     "language": "Java",
-    "checkedAt": "2026-09-10T01:28:32.504Z",
+    "checkedAt": "2026-09-10T11:19:27.722Z",
     "source": "https://github.com/okta/okta-cli"
   },
   "tailscale-cli": {
     "createdAt": "2020-01-31T22:00:03Z",
-    "pushedAt": "2026-09-10T01:12:28Z",
-    "lastCommitAt": "2026-09-09T22:35:16Z",
-    "stars": 36297,
+    "pushedAt": "2026-09-10T04:43:15Z",
+    "lastCommitAt": "2026-09-10T04:43:13Z",
+    "stars": 36326,
     "license": "BSD-3-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:32.410Z",
+    "checkedAt": "2026-09-10T11:19:28.318Z",
     "source": "https://github.com/tailscale/tailscale"
   },
   "cloudflared": {
     "createdAt": "2017-10-13T19:54:47Z",
     "pushedAt": "2026-09-09T16:29:52Z",
     "lastCommitAt": "2026-09-09T15:55:05Z",
-    "stars": 15560,
+    "stars": 15565,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:32.501Z",
+    "checkedAt": "2026-09-10T11:19:28.894Z",
     "source": "https://github.com/cloudflare/cloudflared"
   },
   "heroku-cli": {
@@ -1466,17 +1466,17 @@
     "stars": 889,
     "license": "ISC",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:32.833Z",
+    "checkedAt": "2026-09-10T11:19:29.414Z",
     "source": "https://github.com/heroku/cli"
   },
   "flyctl": {
     "createdAt": "2019-07-26T18:03:45Z",
-    "pushedAt": "2026-09-10T01:24:33Z",
-    "lastCommitAt": "2026-09-08T18:51:26Z",
+    "pushedAt": "2026-09-10T09:07:16Z",
+    "lastCommitAt": "2026-09-10T01:54:41Z",
     "stars": 1702,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:32.770Z",
+    "checkedAt": "2026-09-10T11:19:29.939Z",
     "source": "https://github.com/superfly/flyctl"
   },
   "fastly-cli": {
@@ -1486,7 +1486,7 @@
     "stars": 163,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:32.763Z",
+    "checkedAt": "2026-09-10T11:19:30.649Z",
     "source": "https://github.com/fastly/cli"
   },
   "akamai-cli": {
@@ -1496,7 +1496,7 @@
     "stars": 237,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:33.068Z",
+    "checkedAt": "2026-09-10T11:19:31.074Z",
     "source": "https://github.com/akamai/cli"
   },
   "deck": {
@@ -1506,37 +1506,37 @@
     "stars": 504,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:32.874Z",
+    "checkedAt": "2026-09-10T11:19:31.638Z",
     "source": "https://github.com/Kong/deck"
   },
   "temporal-cli": {
     "createdAt": "2022-10-30T22:31:48Z",
-    "pushedAt": "2026-09-09T22:27:54Z",
-    "lastCommitAt": "2026-09-02T17:29:03Z",
+    "pushedAt": "2026-09-10T05:53:28Z",
+    "lastCommitAt": "2026-09-10T03:59:55Z",
     "stars": 375,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:33.153Z",
+    "checkedAt": "2026-09-10T11:19:32.288Z",
     "source": "https://github.com/temporalio/cli"
   },
   "nats-cli": {
     "createdAt": "2020-12-03T11:07:49Z",
-    "pushedAt": "2026-09-09T14:48:33Z",
-    "lastCommitAt": "2026-09-09T14:48:33Z",
+    "pushedAt": "2026-09-10T09:43:58Z",
+    "lastCommitAt": "2026-09-10T09:43:58Z",
     "stars": 821,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:33.140Z",
+    "checkedAt": "2026-09-10T11:19:32.925Z",
     "source": "https://github.com/nats-io/natscli"
   },
   "n8n-cli": {
     "createdAt": "2019-06-22T09:24:21Z",
-    "pushedAt": "2026-09-09T22:47:29Z",
-    "lastCommitAt": "2026-09-09T18:59:54Z",
-    "stars": 203882,
+    "pushedAt": "2026-09-10T11:19:25Z",
+    "lastCommitAt": "2026-09-10T10:59:40Z",
+    "stars": 203915,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:33.165Z",
+    "checkedAt": "2026-09-10T11:19:33.537Z",
     "source": "https://github.com/n8n-io/n8n"
   },
   "appwrite-cli": {
@@ -1546,87 +1546,87 @@
     "stars": 100,
     "license": "BSD-3-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:33.400Z",
+    "checkedAt": "2026-09-10T11:19:34.145Z",
     "source": "https://github.com/appwrite/sdk-for-cli"
   },
   "psql": {
     "createdAt": "2010-09-21T11:35:45Z",
-    "pushedAt": "2026-09-10T01:04:28Z",
-    "lastCommitAt": "2026-09-10T01:02:06Z",
-    "stars": 22056,
+    "pushedAt": "2026-09-10T08:32:42Z",
+    "lastCommitAt": "2026-09-10T08:30:00Z",
+    "stars": 22059,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-10T01:28:33.409Z",
+    "checkedAt": "2026-09-10T11:19:34.900Z",
     "source": "https://github.com/postgres/postgres"
   },
   "redis-cli": {
     "createdAt": "2009-03-21T22:32:25Z",
     "pushedAt": "2026-09-09T19:49:32Z",
     "lastCommitAt": "2026-09-09T19:49:32Z",
-    "stars": 76291,
+    "stars": 76297,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-10T01:28:33.446Z",
+    "checkedAt": "2026-09-10T11:19:35.319Z",
     "source": "https://github.com/redis/redis"
   },
   "mongosh": {
     "createdAt": "2019-10-03T01:13:03Z",
-    "pushedAt": "2026-09-10T00:51:15Z",
-    "lastCommitAt": "2026-09-09T12:49:26Z",
+    "pushedAt": "2026-09-10T08:20:16Z",
+    "lastCommitAt": "2026-09-10T08:20:14Z",
     "stars": 401,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:33.547Z",
+    "checkedAt": "2026-09-10T11:19:35.799Z",
     "source": "https://github.com/mongodb-js/mongosh"
   },
   "mongodb-atlas-cli": {
     "createdAt": "2020-01-28T12:54:33Z",
-    "pushedAt": "2026-09-09T10:49:26Z",
+    "pushedAt": "2026-09-10T11:19:04Z",
     "lastCommitAt": "2026-09-09T10:49:24Z",
     "stars": 185,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:33.537Z",
+    "checkedAt": "2026-09-10T11:19:36.484Z",
     "source": "https://github.com/mongodb/mongodb-atlas-cli"
   },
   "snowflake-cli": {
     "createdAt": "2022-08-16T16:37:31Z",
     "pushedAt": "2026-09-09T13:33:09Z",
     "lastCommitAt": "2026-09-09T13:33:07Z",
-    "stars": 266,
+    "stars": 267,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:33.763Z",
+    "checkedAt": "2026-09-10T11:19:36.975Z",
     "source": "https://github.com/snowflakedb/snowflake-cli"
   },
   "databricks-cli": {
     "createdAt": "2022-05-13T12:12:36Z",
-    "pushedAt": "2026-09-09T23:35:01Z",
-    "lastCommitAt": "2026-09-09T23:15:17Z",
+    "pushedAt": "2026-09-10T11:05:19Z",
+    "lastCommitAt": "2026-09-10T10:29:13Z",
     "stars": 393,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:33.851Z",
+    "checkedAt": "2026-09-10T11:19:37.610Z",
     "source": "https://github.com/databricks/cli"
   },
   "confluent-cli": {
     "createdAt": "2018-04-03T10:01:20Z",
-    "pushedAt": "2026-09-10T01:25:26Z",
+    "pushedAt": "2026-09-10T07:23:30Z",
     "lastCommitAt": "2026-09-09T22:21:29Z",
     "stars": 80,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:33.778Z",
+    "checkedAt": "2026-09-10T11:19:38.276Z",
     "source": "https://github.com/confluentinc/cli"
   },
   "clickhouse-client": {
     "createdAt": "2016-06-02T08:28:18Z",
-    "pushedAt": "2026-09-10T01:17:50Z",
-    "lastCommitAt": "2026-09-09T22:51:58Z",
-    "stars": 49782,
+    "pushedAt": "2026-09-10T11:18:59Z",
+    "lastCommitAt": "2026-09-10T10:22:53Z",
+    "stars": 49794,
     "license": "Apache-2.0",
     "language": "C++",
-    "checkedAt": "2026-09-10T01:28:33.970Z",
+    "checkedAt": "2026-09-10T11:19:38.755Z",
     "source": "https://github.com/ClickHouse/ClickHouse"
   },
   "influx-cli": {
@@ -1636,37 +1636,37 @@
     "stars": 75,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:34.033Z",
+    "checkedAt": "2026-09-10T11:19:39.462Z",
     "source": "https://github.com/influxdata/influx-cli"
   },
   "usql": {
     "createdAt": "2017-03-02T13:03:21Z",
     "pushedAt": "2026-06-19T14:42:20Z",
     "lastCommitAt": "2026-04-01T00:30:48Z",
-    "stars": 10107,
+    "stars": 10108,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:34.120Z",
+    "checkedAt": "2026-09-10T11:19:40.250Z",
     "source": "https://github.com/xo/usql"
   },
   "pgcli": {
     "createdAt": "2014-10-12T17:32:33Z",
     "pushedAt": "2026-09-09T19:51:00Z",
     "lastCommitAt": "2026-09-09T19:51:00Z",
-    "stars": 13376,
+    "stars": 13378,
     "license": "BSD-3-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:34.150Z",
+    "checkedAt": "2026-09-10T11:19:40.864Z",
     "source": "https://github.com/dbcli/pgcli"
   },
   "mycli": {
     "createdAt": "2015-04-05T22:39:49Z",
     "pushedAt": "2026-09-09T20:09:42Z",
     "lastCommitAt": "2026-09-09T20:09:02Z",
-    "stars": 11978,
+    "stars": 11977,
     "license": "BSD-3-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:34.149Z",
+    "checkedAt": "2026-09-10T11:19:41.498Z",
     "source": "https://github.com/dbcli/mycli"
   },
   "litecli": {
@@ -1676,7 +1676,7 @@
     "stars": 3297,
     "license": "BSD-3-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:34.338Z",
+    "checkedAt": "2026-09-10T11:19:42.053Z",
     "source": "https://github.com/dbcli/litecli"
   },
   "csvkit": {
@@ -1686,67 +1686,67 @@
     "stars": 6411,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:34.435Z",
+    "checkedAt": "2026-09-10T11:19:42.529Z",
     "source": "https://github.com/wireservice/csvkit"
   },
   "qsv": {
     "createdAt": "2020-12-11T04:08:39Z",
-    "pushedAt": "2026-09-10T01:17:15Z",
-    "lastCommitAt": "2026-09-09T23:33:17Z",
-    "stars": 3776,
+    "pushedAt": "2026-09-10T11:19:15Z",
+    "lastCommitAt": "2026-09-10T10:32:00Z",
+    "stars": 3777,
     "license": null,
     "language": "Rust",
-    "checkedAt": "2026-09-10T01:28:34.472Z",
+    "checkedAt": "2026-09-10T11:19:43.162Z",
     "source": "https://github.com/dathere/qsv"
   },
   "jujutsu": {
     "createdAt": "2020-12-18T04:05:27Z",
-    "pushedAt": "2026-09-10T01:13:19Z",
-    "lastCommitAt": "2026-09-09T20:29:48Z",
-    "stars": 31489,
+    "pushedAt": "2026-09-10T10:40:48Z",
+    "lastCommitAt": "2026-09-10T10:16:39Z",
+    "stars": 31498,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-10T01:28:34.587Z",
+    "checkedAt": "2026-09-10T11:19:43.841Z",
     "source": "https://github.com/jj-vcs/jj"
   },
   "git-lfs": {
     "createdAt": "2013-09-22T22:03:28Z",
     "pushedAt": "2026-09-02T00:35:37Z",
     "lastCommitAt": "2026-09-02T00:35:32Z",
-    "stars": 14484,
+    "stars": 14486,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:34.726Z",
+    "checkedAt": "2026-09-10T11:19:44.426Z",
     "source": "https://github.com/git-lfs/git-lfs"
   },
   "goreleaser": {
     "createdAt": "2016-12-21T17:13:39Z",
-    "pushedAt": "2026-09-10T01:15:01Z",
-    "lastCommitAt": "2026-09-09T15:12:38Z",
-    "stars": 16025,
+    "pushedAt": "2026-09-10T06:30:38Z",
+    "lastCommitAt": "2026-09-10T02:38:11Z",
+    "stars": 16026,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:34.807Z",
+    "checkedAt": "2026-09-10T11:19:45.018Z",
     "source": "https://github.com/goreleaser/goreleaser"
   },
   "act": {
     "createdAt": "2019-01-02T19:53:43Z",
     "pushedAt": "2026-08-09T22:50:11Z",
     "lastCommitAt": "2026-06-01T03:17:32Z",
-    "stars": 71865,
+    "stars": 71871,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:34.794Z",
+    "checkedAt": "2026-09-10T11:19:45.707Z",
     "source": "https://github.com/nektos/act"
   },
   "dagger-cli": {
     "createdAt": "2019-11-20T01:31:51Z",
-    "pushedAt": "2026-09-10T01:18:17Z",
-    "lastCommitAt": "2026-09-10T01:07:45Z",
-    "stars": 16240,
+    "pushedAt": "2026-09-10T08:37:19Z",
+    "lastCommitAt": "2026-09-10T08:37:16Z",
+    "stars": 16242,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:34.888Z",
+    "checkedAt": "2026-09-10T11:19:46.437Z",
     "source": "https://github.com/dagger/dagger"
   },
   "dev-container-cli": {
@@ -1756,7 +1756,7 @@
     "stars": 2948,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:35.039Z",
+    "checkedAt": "2026-09-10T11:19:46.972Z",
     "source": "https://github.com/devcontainers/cli"
   },
   "devspace": {
@@ -1766,7 +1766,7 @@
     "stars": 5179,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:35.076Z",
+    "checkedAt": "2026-09-10T11:19:47.721Z",
     "source": "https://github.com/devspace-sh/devspace"
   },
   "garden": {
@@ -1776,7 +1776,7 @@
     "stars": 3611,
     "license": "MPL-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:35.168Z",
+    "checkedAt": "2026-09-10T11:19:48.376Z",
     "source": "https://github.com/garden-io/garden"
   },
   "k3d": {
@@ -1786,27 +1786,27 @@
     "stars": 6547,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:35.164Z",
+    "checkedAt": "2026-09-10T11:19:48.967Z",
     "source": "https://github.com/k3d-io/k3d"
   },
   "skaffold": {
     "createdAt": "2018-01-23T18:51:29Z",
-    "pushedAt": "2026-09-02T07:38:52Z",
+    "pushedAt": "2026-09-10T05:21:29Z",
     "lastCommitAt": "2026-08-31T20:30:26Z",
     "stars": 15889,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:35.304Z",
+    "checkedAt": "2026-09-10T11:19:49.696Z",
     "source": "https://github.com/GoogleContainerTools/skaffold"
   },
   "kustomize": {
     "createdAt": "2018-05-11T17:09:33Z",
     "pushedAt": "2026-09-09T21:16:42Z",
     "lastCommitAt": "2026-09-09T21:16:34Z",
-    "stars": 12158,
+    "stars": 12161,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:35.345Z",
+    "checkedAt": "2026-09-10T11:19:50.420Z",
     "source": "https://github.com/kubernetes-sigs/kustomize"
   },
   "helmfile": {
@@ -1816,27 +1816,27 @@
     "stars": 5191,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:35.478Z",
+    "checkedAt": "2026-09-10T11:19:50.937Z",
     "source": "https://github.com/helmfile/helmfile"
   },
   "kubectx": {
     "createdAt": "2017-03-30T18:06:53Z",
     "pushedAt": "2026-08-02T01:42:33Z",
     "lastCommitAt": "2026-07-26T01:51:27Z",
-    "stars": 19981,
+    "stars": 19984,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:35.466Z",
+    "checkedAt": "2026-09-10T11:19:51.526Z",
     "source": "https://github.com/ahmetb/kubectx"
   },
   "stern": {
     "createdAt": "2020-10-21T12:14:48Z",
     "pushedAt": "2026-08-19T05:46:49Z",
     "lastCommitAt": "2026-08-19T05:46:48Z",
-    "stars": 4856,
+    "stars": 4857,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:35.524Z",
+    "checkedAt": "2026-09-10T11:19:52.293Z",
     "source": "https://github.com/stern/stern"
   },
   "eslint": {
@@ -1846,47 +1846,47 @@
     "stars": 27496,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T01:28:35.790Z",
+    "checkedAt": "2026-09-10T11:19:52.910Z",
     "source": "https://github.com/eslint/eslint"
   },
   "prettier": {
     "createdAt": "2016-11-29T17:13:37Z",
     "pushedAt": "2026-09-09T08:27:39Z",
     "lastCommitAt": "2026-09-09T08:27:39Z",
-    "stars": 52240,
+    "stars": 52241,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T01:28:35.910Z",
+    "checkedAt": "2026-09-10T11:19:53.455Z",
     "source": "https://github.com/prettier/prettier"
   },
   "deno": {
     "createdAt": "2018-05-15T01:34:26Z",
     "pushedAt": "2026-09-09T08:38:58Z",
     "lastCommitAt": "2026-09-08T15:59:55Z",
-    "stars": 108398,
+    "stars": 108396,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-10T01:28:36.026Z",
+    "checkedAt": "2026-09-10T11:19:54.015Z",
     "source": "https://github.com/denoland/deno"
   },
   "npm": {
     "createdAt": "2018-07-05T23:26:52Z",
     "pushedAt": "2026-09-08T19:22:53Z",
     "lastCommitAt": "2026-09-03T17:33:50Z",
-    "stars": 10105,
+    "stars": 10107,
     "license": null,
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T01:28:36.149Z",
+    "checkedAt": "2026-09-10T11:19:54.485Z",
     "source": "https://github.com/npm/cli"
   },
   "poetry": {
     "createdAt": "2018-02-28T15:23:47Z",
     "pushedAt": "2026-09-09T15:50:58Z",
     "lastCommitAt": "2026-09-09T15:50:57Z",
-    "stars": 34294,
+    "stars": 34295,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:36.117Z",
+    "checkedAt": "2026-09-10T11:19:55.053Z",
     "source": "https://github.com/python-poetry/poetry"
   },
   "pipx": {
@@ -1896,17 +1896,17 @@
     "stars": 12957,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:36.206Z",
+    "checkedAt": "2026-09-10T11:19:55.550Z",
     "source": "https://github.com/pypa/pipx"
   },
   "task": {
     "createdAt": "2017-02-27T00:46:04Z",
-    "pushedAt": "2026-09-10T00:34:18Z",
+    "pushedAt": "2026-09-10T09:53:18Z",
     "lastCommitAt": "2026-09-09T19:51:40Z",
-    "stars": 16118,
+    "stars": 16120,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:36.275Z",
+    "checkedAt": "2026-09-10T11:19:55.970Z",
     "source": "https://github.com/go-task/task"
   },
   "watchexec": {
@@ -1916,67 +1916,67 @@
     "stars": 7176,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-10T01:28:36.478Z",
+    "checkedAt": "2026-09-10T11:19:56.631Z",
     "source": "https://github.com/watchexec/watchexec"
   },
   "hyperfine": {
     "createdAt": "2018-01-13T15:49:54Z",
     "pushedAt": "2026-04-30T08:23:25Z",
     "lastCommitAt": "2026-04-30T08:23:22Z",
-    "stars": 28829,
+    "stars": 28833,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-10T01:28:36.365Z",
+    "checkedAt": "2026-09-10T11:19:57.213Z",
     "source": "https://github.com/sharkdp/hyperfine"
   },
   "mkcert": {
     "createdAt": "2018-06-25T05:33:03Z",
     "pushedAt": "2024-08-13T13:37:46Z",
     "lastCommitAt": "2024-04-18T08:53:27Z",
-    "stars": 59565,
+    "stars": 59568,
     "license": "BSD-3-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:36.409Z",
+    "checkedAt": "2026-09-10T11:19:57.651Z",
     "source": "https://github.com/FiloSottile/mkcert"
   },
   "docling-cli": {
     "createdAt": "2024-07-09T07:50:26Z",
     "pushedAt": "2026-09-09T16:56:27Z",
     "lastCommitAt": "2026-09-09T16:56:26Z",
-    "stars": 66221,
+    "stars": 66238,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:36.689Z",
+    "checkedAt": "2026-09-10T11:19:57.992Z",
     "source": "https://github.com/docling-project/docling"
   },
   "markitdown": {
     "createdAt": "2024-11-13T19:56:40Z",
-    "pushedAt": "2026-09-09T23:34:11Z",
-    "lastCommitAt": "2026-09-09T23:34:11Z",
-    "stars": 182189,
+    "pushedAt": "2026-09-10T06:54:16Z",
+    "lastCommitAt": "2026-09-10T06:54:16Z",
+    "stars": 182305,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:36.806Z",
+    "checkedAt": "2026-09-10T11:19:58.830Z",
     "source": "https://github.com/microsoft/markitdown"
   },
   "hugo": {
     "createdAt": "2013-07-04T15:26:26Z",
-    "pushedAt": "2026-09-09T15:10:46Z",
-    "lastCommitAt": "2026-09-09T15:07:38Z",
-    "stars": 89762,
+    "pushedAt": "2026-09-10T09:40:28Z",
+    "lastCommitAt": "2026-09-10T09:40:27Z",
+    "stars": 89769,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:36.735Z",
+    "checkedAt": "2026-09-10T11:19:59.391Z",
     "source": "https://github.com/gohugoio/hugo"
   },
   "mkdocs": {
     "createdAt": "2014-01-11T21:05:21Z",
     "pushedAt": "2025-10-20T13:17:06Z",
     "lastCommitAt": "2025-10-20T13:17:06Z",
-    "stars": 22427,
+    "stars": 22428,
     "license": "BSD-2-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-10T01:28:36.917Z",
+    "checkedAt": "2026-09-10T11:19:59.923Z",
     "source": "https://github.com/mkdocs/mkdocs"
   },
   "asciidoctor": {
@@ -1986,7 +1986,7 @@
     "stars": 5213,
     "license": null,
     "language": "Ruby",
-    "checkedAt": "2026-09-10T01:28:36.917Z",
+    "checkedAt": "2026-09-10T11:20:00.616Z",
     "source": "https://github.com/asciidoctor/asciidoctor"
   },
   "quarto-cli": {
@@ -1996,67 +1996,67 @@
     "stars": 5988,
     "license": null,
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T01:28:37.113Z",
+    "checkedAt": "2026-09-10T11:20:01.240Z",
     "source": "https://github.com/quarto-dev/quarto-cli"
   },
   "marp-cli": {
     "createdAt": "2018-08-09T09:22:36Z",
     "pushedAt": "2026-09-08T14:24:15Z",
     "lastCommitAt": "2026-09-08T14:23:33Z",
-    "stars": 3812,
+    "stars": 3811,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-10T01:28:37.113Z",
+    "checkedAt": "2026-09-10T11:20:01.945Z",
     "source": "https://github.com/marp-team/marp-cli"
   },
   "mermaid-cli": {
     "createdAt": "2020-05-18T07:26:06Z",
     "pushedAt": "2026-09-07T08:53:33Z",
     "lastCommitAt": "2026-09-07T08:53:31Z",
-    "stars": 5001,
+    "stars": 5002,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-10T01:28:37.133Z",
+    "checkedAt": "2026-09-10T11:20:02.708Z",
     "source": "https://github.com/mermaid-js/mermaid-cli"
   },
   "vips-cli": {
     "createdAt": "2011-01-25T13:15:00Z",
     "pushedAt": "2026-09-06T11:18:29Z",
     "lastCommitAt": "2026-09-03T12:57:10Z",
-    "stars": 11630,
+    "stars": 11632,
     "license": "LGPL-2.1",
     "language": "C",
-    "checkedAt": "2026-09-10T01:28:37.246Z",
+    "checkedAt": "2026-09-10T11:20:03.256Z",
     "source": "https://github.com/libvips/libvips"
   },
   "exiftool": {
     "createdAt": "2018-05-09T12:13:00Z",
     "pushedAt": "2026-05-27T16:45:01Z",
     "lastCommitAt": "2026-05-27T16:44:48Z",
-    "stars": 5021,
+    "stars": 5023,
     "license": "GPL-3.0",
     "language": "Perl",
-    "checkedAt": "2026-09-10T01:28:37.265Z",
+    "checkedAt": "2026-09-10T11:20:03.718Z",
     "source": "https://github.com/exiftool/exiftool"
   },
   "whisper-cli": {
     "createdAt": "2022-09-25T18:26:37Z",
-    "pushedAt": "2026-09-08T11:35:34Z",
-    "lastCommitAt": "2026-09-08T11:35:34Z",
-    "stars": 53565,
+    "pushedAt": "2026-09-10T10:17:05Z",
+    "lastCommitAt": "2026-09-10T10:17:05Z",
+    "stars": 53576,
     "license": "MIT",
     "language": "C++",
-    "checkedAt": "2026-09-10T01:28:37.415Z",
+    "checkedAt": "2026-09-10T11:20:04.239Z",
     "source": "https://github.com/ggml-org/whisper.cpp"
   },
   "typst": {
     "createdAt": "2019-09-24T21:41:56Z",
-    "pushedAt": "2026-09-09T16:13:04Z",
+    "pushedAt": "2026-09-10T09:53:37Z",
     "lastCommitAt": "2026-09-09T16:07:34Z",
-    "stars": 55931,
+    "stars": 55937,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-10T01:28:37.540Z",
+    "checkedAt": "2026-09-10T11:20:04.818Z",
     "source": "https://github.com/typst/typst"
   },
   "mutool": {
@@ -2066,17 +2066,17 @@
     "stars": 2954,
     "license": "AGPL-3.0",
     "language": "C",
-    "checkedAt": "2026-09-10T01:28:37.489Z",
+    "checkedAt": "2026-09-10T11:20:05.455Z",
     "source": "https://github.com/ArtifexSoftware/mupdf"
   },
   "pdfcpu": {
     "createdAt": "2017-06-18T17:27:38Z",
     "pushedAt": "2026-09-07T10:03:27Z",
     "lastCommitAt": "2026-08-20T19:16:37Z",
-    "stars": 8828,
+    "stars": 8829,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-10T01:28:37.736Z",
+    "checkedAt": "2026-09-10T11:20:06.150Z",
     "source": "https://github.com/pdfcpu/pdfcpu"
   },
   "miniserve": {
@@ -2086,7 +2086,67 @@
     "stars": 7845,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-10T01:28:37.591Z",
+    "checkedAt": "2026-09-10T11:20:06.870Z",
     "source": "https://github.com/svenstaro/miniserve"
+  },
+  "openai-codex-security": {
+    "createdAt": "2026-07-13T22:00:13Z",
+    "pushedAt": "2026-09-10T06:46:19Z",
+    "lastCommitAt": "2026-09-10T06:45:43Z",
+    "stars": 10620,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-10T11:20:07.451Z",
+    "source": "https://github.com/openai/codex-security"
+  },
+  "esengine-deepseek-reasonix": {
+    "createdAt": "2026-04-21T08:27:02Z",
+    "pushedAt": "2026-09-10T10:07:40Z",
+    "lastCommitAt": "2026-09-10T10:07:39Z",
+    "stars": 35476,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-10T11:20:07.959Z",
+    "source": "https://github.com/esengine/DeepSeek-Reasonix"
+  },
+  "sigoden-aichat": {
+    "createdAt": "2023-03-03T00:29:39Z",
+    "pushedAt": "2026-02-23T11:16:42Z",
+    "lastCommitAt": "2026-02-23T11:16:27Z",
+    "stars": 10434,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-10T11:20:08.516Z",
+    "source": "https://github.com/sigoden/aichat"
+  },
+  "aliyun-aliyun-cli": {
+    "createdAt": "2015-06-30T06:21:57Z",
+    "pushedAt": "2026-09-10T08:04:51Z",
+    "lastCommitAt": "2026-09-07T04:03:26Z",
+    "stars": 1101,
+    "license": "Apache-2.0",
+    "language": "Go",
+    "checkedAt": "2026-09-10T11:20:09.149Z",
+    "source": "https://github.com/aliyun/aliyun-cli"
+  },
+  "qwenlm-qwen-code": {
+    "createdAt": "2025-06-26T01:37:46Z",
+    "pushedAt": "2026-09-10T11:19:14Z",
+    "lastCommitAt": "2026-09-10T11:15:56Z",
+    "stars": 27742,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-10T11:20:09.620Z",
+    "source": "https://github.com/QwenLM/qwen-code"
+  },
+  "mininglamp-oss-octo-cli": {
+    "createdAt": "2026-05-11T08:06:46Z",
+    "pushedAt": "2026-09-10T01:18:08Z",
+    "lastCommitAt": "2026-09-10T01:18:07Z",
+    "stars": 773,
+    "license": "Apache-2.0",
+    "language": "Go",
+    "checkedAt": "2026-09-10T11:20:10.299Z",
+    "source": "https://github.com/Mininglamp-OSS/octo-cli"
   }
 }

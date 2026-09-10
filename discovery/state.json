@@ -1,7 +1,1129 @@
 {
   "version": 1,
-  "searchPage": 1,
-  "brewOffset": 0,
-  "pending": [],
-  "candidates": {}
+  "searchPage": 2,
+  "brewOffset": 40,
+  "pending": [
+    {
+      "repo": "apache/spark",
+      "formula": "apache-spark"
+    },
+    {
+      "repo": "OpenHands/OpenHands"
+    },
+    {
+      "repo": "extension-js/extension.js"
+    },
+    {
+      "repo": "graykode/abtop"
+    },
+    {
+      "repo": "DataDog/pup"
+    },
+    {
+      "repo": "1ay1/agentty"
+    },
+    {
+      "repo": "pawamoy/aria2p"
+    },
+    {
+      "repo": "expo/eas-cli"
+    },
+    {
+      "repo": "Effect-TS/effect"
+    },
+    {
+      "repo": "Infisical/infisical"
+    },
+    {
+      "repo": "tldr-pages/tldr"
+    },
+    {
+      "repo": "supabase/cli"
+    },
+    {
+      "repo": "metalbear-co/mirrord"
+    },
+    {
+      "repo": "bobthecow/psysh"
+    },
+    {
+      "repo": "superdesigndev/treg"
+    },
+    {
+      "repo": "modem-dev/hunk"
+    },
+    {
+      "repo": "fallow-rs/fallow"
+    },
+    {
+      "repo": "Seafoam-Labs/Shelly-ALPM"
+    },
+    {
+      "repo": "harehare/mq"
+    },
+    {
+      "repo": "vinhnx/VTCode"
+    },
+    {
+      "repo": "herdrdev/herdr"
+    },
+    {
+      "repo": "vercel/vercel"
+    },
+    {
+      "repo": "dahlia/optique"
+    },
+    {
+      "repo": "trailhq/Graft"
+    },
+    {
+      "repo": "dotnet/sdk"
+    },
+    {
+      "repo": "yorukot/superfile"
+    },
+    {
+      "repo": "zenbu-labs/terminal-browser"
+    },
+    {
+      "repo": "christopherkarani/Wax"
+    },
+    {
+      "repo": "microsoft/intelligent-terminal"
+    },
+    {
+      "repo": "domainaware/parsedmarc"
+    },
+    {
+      "repo": "railwayapp/cli"
+    },
+    {
+      "repo": "listr2/listr2"
+    },
+    {
+      "repo": "bitwarden/clients"
+    },
+    {
+      "repo": "n8n-io/n8n"
+    },
+    {
+      "repo": "evalstate/fast-agent"
+    },
+    {
+      "repo": "nrwl/nx"
+    },
+    {
+      "repo": "microsoft/BuildXL"
+    },
+    {
+      "repo": "tsirysndr/music-player"
+    },
+    {
+      "repo": "schemathesis/schemathesis"
+    },
+    {
+      "repo": "simple-acme/simple-acme"
+    },
+    {
+      "repo": "Spielewoy/autoprompt-skill"
+    },
+    {
+      "repo": "Shopify/cli"
+    },
+    {
+      "repo": "aquaproj/aqua"
+    },
+    {
+      "repo": "tsedio/tsed"
+    },
+    {
+      "repo": "carapace-sh/carapace-bin"
+    },
+    {
+      "repo": "HelixDB/helix-db"
+    },
+    {
+      "repo": "1broseidon/ketch"
+    },
+    {
+      "repo": "operately/operately"
+    },
+    {
+      "repo": "restatedev/restate"
+    },
+    {
+      "repo": "pionxzh/wakaru"
+    },
+    {
+      "repo": "monosans/proxy-scraper-checker"
+    },
+    {
+      "repo": "Azure/azure-dev"
+    },
+    {
+      "repo": "gildas-lormeau/single-file-cli"
+    },
+    {
+      "repo": "dyatko/arkit"
+    },
+    {
+      "repo": "mbround18/valheim-docker"
+    },
+    {
+      "repo": "GothenburgBitFactory/timewarrior"
+    },
+    {
+      "repo": "wfxr/forgit"
+    },
+    {
+      "repo": "gptme/gptme"
+    },
+    {
+      "repo": "bradygaster/squad"
+    },
+    {
+      "repo": "reviewdog/reviewdog"
+    },
+    {
+      "repo": "streamlink/streamlink"
+    },
+    {
+      "repo": "Devolutions/UniGetUI"
+    },
+    {
+      "repo": "microsoft/winappCli"
+    },
+    {
+      "repo": "JustArchiNET/ArchiSteamFarm"
+    },
+    {
+      "repo": "tomasz-tomczyk/crit"
+    },
+    {
+      "repo": "Kilo-Org/kilocode"
+    },
+    {
+      "repo": "projectdiscovery/katana"
+    },
+    {
+      "repo": "dalance/procs"
+    },
+    {
+      "repo": "AmanVarshney01/create-better-t-stack"
+    },
+    {
+      "repo": "cloudflare/workers-sdk"
+    },
+    {
+      "repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "repo": "tukaani-project/xz"
+    },
+    {
+      "repo": "charmbracelet/bubbletea"
+    },
+    {
+      "repo": "coleam00/Archon"
+    },
+    {
+      "repo": "inngest/inngest"
+    },
+    {
+      "repo": "scaleway/scaleway-cli"
+    },
+    {
+      "repo": "codeaholicguy/ai-devkit"
+    },
+    {
+      "repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "repo": "macports/macports-ports"
+    },
+    {
+      "repo": "wavetermdev/waveterm"
+    },
+    {
+      "repo": "spicetify/cli"
+    },
+    {
+      "repo": "microsoft/winget-cli"
+    },
+    {
+      "repo": "xyproto/orbiton"
+    },
+    {
+      "repo": "clap-rs/clap"
+    },
+    {
+      "repo": "justcallmekoko/ESP32Marauder"
+    },
+    {
+      "repo": "ast-grep/ast-grep"
+    },
+    {
+      "repo": "fox0430/moe"
+    },
+    {
+      "repo": "PowerShell/PowerShell"
+    },
+    {
+      "repo": "microsoft/winget-create"
+    },
+    {
+      "repo": "jarun/nnn"
+    },
+    {
+      "repo": "leo-arch/clifm"
+    },
+    {
+      "repo": "FarGroup/FarManager"
+    },
+    {
+      "repo": "apify/mcpc"
+    },
+    {
+      "repo": "bacnet-stack/bacnet-stack"
+    },
+    {
+      "repo": "mrusme/zeit"
+    },
+    {
+      "repo": "johnkerl/miller"
+    },
+    {
+      "repo": "ravachol/kew"
+    },
+    {
+      "repo": "jolicode/castor"
+    },
+    {
+      "repo": "deadc0de6/dotdrop"
+    },
+    {
+      "repo": "Nukesor/pueue"
+    },
+    {
+      "repo": "jrnl-org/jrnl"
+    },
+    {
+      "repo": "charmbracelet/vhs"
+    },
+    {
+      "repo": "domcyrus/rustnet"
+    },
+    {
+      "repo": "tw93/Mole"
+    },
+    {
+      "repo": "kimono-koans/httm"
+    },
+    {
+      "repo": "papis/papis"
+    },
+    {
+      "repo": "visit1985/mdp"
+    },
+    {
+      "repo": "fastfetch-cli/fastfetch"
+    },
+    {
+      "repo": "shibayan/Sharprompt"
+    },
+    {
+      "repo": "Piebald-AI/tweakcc"
+    },
+    {
+      "repo": "sharkdp/fd"
+    },
+    {
+      "repo": "microsoft/terminal"
+    },
+    {
+      "repo": "jarun/buku"
+    },
+    {
+      "repo": "micro-editor/micro"
+    },
+    {
+      "repo": "sxyazi/yazi"
+    },
+    {
+      "repo": "python-cmd2/cmd2"
+    },
+    {
+      "repo": "alecthomas/kong"
+    },
+    {
+      "repo": "Canop/broot"
+    },
+    {
+      "repo": "symfony/console"
+    },
+    {
+      "repo": "digitalocean/doctl"
+    },
+    {
+      "repo": "jiaqi/jmxterm"
+    },
+    {
+      "repo": "arduino/arduino-cli"
+    },
+    {
+      "repo": "noborus/ov"
+    },
+    {
+      "repo": "vadimdemedes/ink"
+    },
+    {
+      "repo": "o2sh/onefetch"
+    },
+    {
+      "repo": "voidcosmos/npkill"
+    },
+    {
+      "repo": "hatoo/oha"
+    },
+    {
+      "repo": "fleschutz/PowerShell"
+    },
+    {
+      "repo": "sloria/doitlive"
+    },
+    {
+      "repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "repo": "bombshell-dev/clack"
+    },
+    {
+      "repo": "hetznercloud/cli"
+    },
+    {
+      "repo": "tailcallhq/forgecode"
+    },
+    {
+      "repo": "SBoudrias/Inquirer.js"
+    },
+    {
+      "repo": "go-musicfox/go-musicfox"
+    },
+    {
+      "repo": "watchexec/watchexec"
+    },
+    {
+      "repo": "bensadeh/circumflex"
+    },
+    {
+      "repo": "ovh/venom"
+    },
+    {
+      "repo": "mufeedvh/code2prompt"
+    },
+    {
+      "repo": "gookit/color"
+    },
+    {
+      "repo": "MordechaiHadad/bob"
+    },
+    {
+      "repo": "hartwork/git-delete-merged-branches"
+    },
+    {
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "repo": "jaywcjlove/linux-command"
+    },
+    {
+      "repo": "can4hou6joeng4/boss-agent-cli"
+    },
+    {
+      "repo": "Decimation/SmartImage"
+    },
+    {
+      "repo": "jarun/bcal"
+    },
+    {
+      "repo": "jhspetersson/fselect"
+    },
+    {
+      "repo": "Unitech/pm2"
+    },
+    {
+      "repo": "usagi-flow/evil-helix"
+    },
+    {
+      "repo": "sharkdp/bat"
+    },
+    {
+      "repo": "christo-auer/eilmeldung"
+    },
+    {
+      "repo": "urfave/cli"
+    },
+    {
+      "repo": "open-cli-tools/concurrently"
+    },
+    {
+      "repo": "commitizen/cz-cli"
+    },
+    {
+      "repo": "dropbox/dbxcli"
+    },
+    {
+      "repo": "majd/ipatool"
+    },
+    {
+      "repo": "ehmicky/nve"
+    },
+    {
+      "repo": "alecthomas/kingpin"
+    },
+    {
+      "repo": "Azure/azure-devops-cli-extension"
+    },
+    {
+      "repo": "bellingcat/ShadowFinder"
+    },
+    {
+      "repo": "hengyoush/kyanos"
+    },
+    {
+      "repo": "NaturalIntelligence/fast-xml-parser"
+    },
+    {
+      "repo": "beucismis/awesome-fetch"
+    },
+    {
+      "repo": "xvoland/Extract"
+    },
+    {
+      "repo": "brocode/fblog"
+    },
+    {
+      "repo": "89luca89/distrobox"
+    },
+    {
+      "repo": "mergestat/mergestat-lite"
+    },
+    {
+      "repo": "apple/swift-argument-parser"
+    },
+    {
+      "repo": "Tyrrrz/CliFx"
+    },
+    {
+      "repo": "Tyrrrz/CliWrap"
+    },
+    {
+      "repo": "svenstaro/miniserve"
+    },
+    {
+      "repo": "orhun/halp"
+    },
+    {
+      "repo": "curl/wcurl"
+    },
+    {
+      "repo": "promptfoo/promptfoo"
+    },
+    {
+      "repo": "superfly/flyctl"
+    },
+    {
+      "repo": "checkstyle/checkstyle"
+    },
+    {
+      "repo": "ImageMagick/ImageMagick"
+    },
+    {
+      "repo": "Azure/azure-cli"
+    },
+    {
+      "repo": "firebase/firebase-tools"
+    },
+    {
+      "repo": "radareorg/radare2"
+    },
+    {
+      "repo": "cronitorio/cronitor-cli"
+    },
+    {
+      "repo": "ApodexAI/FrontierAgent"
+    },
+    {
+      "repo": "chriskiehl/Gooey"
+    },
+    {
+      "repo": "opensim-org/opensim-core"
+    },
+    {
+      "repo": "NuGet/NuGet.Client"
+    },
+    {
+      "repo": "stripe/stripe-cli"
+    },
+    {
+      "repo": "chickensoft-games/GodotEnv"
+    },
+    {
+      "repo": "bitshares/bitshares-core"
+    },
+    {
+      "repo": "sibson/vncdotool"
+    },
+    {
+      "repo": "curl/curl"
+    },
+    {
+      "repo": "itchio/butler"
+    },
+    {
+      "repo": "aws/aws-cli"
+    },
+    {
+      "repo": "rizinorg/rizin"
+    },
+    {
+      "repo": "DavidAnson/markdownlint-cli2"
+    },
+    {
+      "repo": "theorzr/portablemc"
+    },
+    {
+      "repo": "cli/cli"
+    },
+    {
+      "repo": "nvie/git-toolbelt"
+    },
+    {
+      "repo": "taers232c/GAMADV-XTD3"
+    },
+    {
+      "repo": "GAM-team/GAM"
+    },
+    {
+      "repo": "mozilla/web-ext"
+    },
+    {
+      "repo": "facebook/idb"
+    },
+    {
+      "repo": "netlify/cli"
+    },
+    {
+      "repo": "linux-nvme/nvme-cli"
+    },
+    {
+      "repo": "tinygo-org/tinygo"
+    },
+    {
+      "repo": "netz98/n98-magerun2"
+    },
+    {
+      "repo": "fish-shell/fish-shell"
+    },
+    {
+      "repo": "nats-io/natscli"
+    },
+    {
+      "repo": "callowayproject/bump-my-version"
+    },
+    {
+      "repo": "VeryGoodOpenSource/very_good_cli"
+    },
+    {
+      "repo": "OpenDroneMap/ODM"
+    },
+    {
+      "repo": "warrensbox/terraform-switcher"
+    },
+    {
+      "repo": "VirtusLab/scala-cli"
+    },
+    {
+      "repo": "bit-team/backintime"
+    },
+    {
+      "repo": "kaikramer/keystore-explorer"
+    },
+    {
+      "repo": "dotnet/dev-proxy"
+    },
+    {
+      "repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "repo": "Realiserad/fish-ai"
+    },
+    {
+      "repo": "danvergara/dblab"
+    },
+    {
+      "repo": "ArduPilot/MAVProxy"
+    },
+    {
+      "repo": "jeffbski/wait-on"
+    },
+    {
+      "repo": "tox-dev/tox"
+    },
+    {
+      "repo": "junegunn/fzf"
+    },
+    {
+      "repo": "spaam/svtplay-dl"
+    },
+    {
+      "repo": "jacob-bd/gemini-notebook-mcp-cli"
+    },
+    {
+      "repo": "deviceinsight/kafkactl"
+    },
+    {
+      "repo": "drush-ops/drush"
+    },
+    {
+      "repo": "Tarsnap/tarsnap"
+    },
+    {
+      "repo": "mstange/samply"
+    },
+    {
+      "repo": "pallets/click"
+    },
+    {
+      "repo": "simonw/llm"
+    },
+    {
+      "repo": "tox-dev/pipdeptree"
+    },
+    {
+      "repo": "containers/toolbox"
+    },
+    {
+      "repo": "dart-lang/pub"
+    },
+    {
+      "repo": "oracle/oci-cli"
+    },
+    {
+      "repo": "jarro2783/cxxopts"
+    },
+    {
+      "repo": "librespeed/speedtest-cli"
+    },
+    {
+      "repo": "GothenburgBitFactory/taskwarrior"
+    },
+    {
+      "repo": "equinix-labs/otel-cli"
+    },
+    {
+      "repo": "mpv-player/mpv"
+    },
+    {
+      "repo": "flosell/trailscraper"
+    },
+    {
+      "repo": "xo/dbtpl"
+    },
+    {
+      "repo": "foundweekends/giter8"
+    },
+    {
+      "repo": "SWE-agent/mini-swe-agent"
+    },
+    {
+      "repo": "estesp/manifest-tool"
+    },
+    {
+      "repo": "CLIUtils/CLI11"
+    },
+    {
+      "repo": "Lymphatus/caesium-clt"
+    },
+    {
+      "repo": "percona/percona-toolkit"
+    }
+  ],
+  "candidates": {
+    "alexheretic/ab-av1": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "manaflow-ai/cmux": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "abseil/abseil-cpp": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "superset-sh/superset": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "beyondgrep/ack3": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "redhat-et/ripwire": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "acmesh-official/acme.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "crosspaste/crosspaste-desktop": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "acpica/acpica": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Repository unavailable or renamed"
+    },
+    "zvec-ai/zvec-grep": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dicklesworthstone/pi_agent_rust": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "api.github.com/repos/Dicklesworthstone/pi_agent_rust/git/trees/729ae5126f47c77ed65786f141f6d88b8d80fd1b: source exceeds size limit"
+    },
+    "rhysd/actionlint": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openai/codex-security": {
+      "status": "accepted",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "GitHub stars",
+      "slug": "openai-codex-security",
+      "acceptedAt": "2026-09-10T02:34:48.725Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/openai/codex-security/blob/fa5fe21cd39e5771883d87358d58c6af50db8a97/sdk/typescript/package.json",
+          "snippet": "{\"bin\":{\"codex-security\":\"./bin/codex-security.mjs\"}}",
+          "target": "sdk/typescript/bin/codex-security.mjs"
+        },
+        "installation": {
+          "url": "https://github.com/openai/codex-security/blob/fa5fe21cd39e5771883d87358d58c6af50db8a97/README.md",
+          "snippet": "npm install @openai/codex-security"
+        },
+        "usage": {
+          "url": "https://github.com/openai/codex-security/blob/fa5fe21cd39e5771883d87358d58c6af50db8a97/README.md",
+          "snippet": "codex-security scan /path/to/directory"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/openai/codex-security",
+          "snippet": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security"
+        },
+        "adoption": {
+          "stars": 10608,
+          "githubSource": "https://github.com/openai/codex-security",
+          "homebrew": null
+        },
+        "commit": "fa5fe21cd39e5771883d87358d58c6af50db8a97"
+      }
+    },
+    "ada-url/ada": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "first-fluke/oh-my-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/addlicense": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jeecgboot/jeecgboot": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "npryce/adr-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "esengine/deepseek-reasonix": {
+      "status": "accepted",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "GitHub stars",
+      "slug": "esengine-deepseek-reasonix",
+      "acceptedAt": "2026-09-10T02:34:48.725Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/esengine/DeepSeek-Reasonix/blob/82a0d3693c8f24c454c04fe18a0f43c5c1b5edf8/npm/reasonix/package.json",
+          "snippet": "{\"bin\":{\"reasonix\":\"bin/reasonix.js\"}}",
+          "target": "npm/reasonix/bin/reasonix.js"
+        },
+        "installation": {
+          "url": "https://github.com/esengine/DeepSeek-Reasonix/blob/82a0d3693c8f24c454c04fe18a0f43c5c1b5edf8/README.md",
+          "snippet": "npm i -g reasonix                  # any OS; pulls the prebuilt native binary"
+        },
+        "usage": {
+          "url": "https://github.com/esengine/DeepSeek-Reasonix/blob/82a0d3693c8f24c454c04fe18a0f43c5c1b5edf8/README.md",
+          "snippet": "reasonix run \"implement the TODOs in main.go\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/esengine/DeepSeek-Reasonix",
+          "snippet": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running."
+        },
+        "adoption": {
+          "stars": 35461,
+          "githubSource": "https://github.com/esengine/DeepSeek-Reasonix",
+          "homebrew": null
+        },
+        "commit": "82a0d3693c8f24c454c04fe18a0f43c5c1b5edf8"
+      }
+    },
+    "aflplusplus/aflplusplus": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pipedreamhq/pipedream": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "allinurl/goaccess": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "apache/maka": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "asciinema/agg": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "manavarya09/design-extract": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sigoden/aichat": {
+      "status": "accepted",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "GitHub stars",
+      "slug": "sigoden-aichat",
+      "acceptedAt": "2026-09-10T02:34:48.725Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/sigoden/aichat/blob/82976d349ad97ac9aae0655ad631dace5e2a6385/Cargo.toml",
+          "snippet": "package.name=\"aichat\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/sigoden/aichat/blob/82976d349ad97ac9aae0655ad631dace5e2a6385/README.md",
+          "snippet": "- **Rust Developers:** `cargo install aichat`"
+        },
+        "usage": {
+          "url": "https://github.com/sigoden/aichat/blob/82976d349ad97ac9aae0655ad631dace5e2a6385/README.md",
+          "snippet": "aichat hello"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/sigoden/aichat",
+          "snippet": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more."
+        },
+        "adoption": {
+          "stars": 10433,
+          "githubSource": "https://github.com/sigoden/aichat",
+          "homebrew": {
+            "repo": "sigoden/aichat",
+            "formula": "aichat",
+            "count": 284,
+            "source": "https://formulae.brew.sh/api/formula/aichat.json",
+            "generatedDate": "2026-09-10"
+          }
+        },
+        "commit": "82976d349ad97ac9aae0655ad631dace5e2a6385"
+      }
+    },
+    "ontola/atomic-server": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "agent-of-empires/agent-of-empires": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "stablyai/orca": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aliyun/aliyun-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "GitHub stars",
+      "slug": "aliyun-aliyun-cli",
+      "acceptedAt": "2026-09-10T02:34:48.725Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/aliyun-cli.json",
+          "snippet": "{\"executables\":[\"aliyun\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/aliyun/aliyun-cli/blob/f1abad5be684af82bdb976da059887b20d10aa65/README.md",
+          "snippet": "brew install aliyun-cli"
+        },
+        "usage": {
+          "url": "https://github.com/aliyun/aliyun-cli/blob/f1abad5be684af82bdb976da059887b20d10aa65/README.md",
+          "snippet": "aliyun ecs DescribeRegions"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/aliyun/aliyun-cli",
+          "snippet": "Alibaba Cloud CLI"
+        },
+        "adoption": {
+          "stars": 1101,
+          "githubSource": "https://github.com/aliyun/aliyun-cli",
+          "homebrew": {
+            "repo": "aliyun/aliyun-cli",
+            "formula": "aliyun-cli",
+            "count": 1008,
+            "source": "https://formulae.brew.sh/api/formula/aliyun-cli.json",
+            "generatedDate": "2026-09-10"
+          }
+        },
+        "commit": "f1abad5be684af82bdb976da059887b20d10aa65"
+      }
+    },
+    "vltpkg/vltpkg": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "owasp-amass/amass": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wiltodelta/remove-ai-watermarks": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "can1357/oh-my-pi": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mattmc3/antidote": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "qwenlm/qwen-code": {
+      "status": "accepted",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "GitHub stars",
+      "slug": "qwenlm-qwen-code",
+      "acceptedAt": "2026-09-10T02:34:48.725Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/QwenLM/qwen-code/blob/69db15e2342b957b453fa247b5fba7d3835fa239/package.json",
+          "snippet": "{\"bin\":{\"qwen\":\"scripts/cli-entry.js\"}}",
+          "target": "scripts/cli-entry.js"
+        },
+        "installation": {
+          "url": "https://github.com/QwenLM/qwen-code/blob/69db15e2342b957b453fa247b5fba7d3835fa239/README.md",
+          "snippet": "npm install -g @qwen-code/qwen-code@latest"
+        },
+        "usage": {
+          "url": "https://github.com/QwenLM/qwen-code/blob/69db15e2342b957b453fa247b5fba7d3835fa239/README.md",
+          "snippet": "qwen channel start"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/QwenLM/qwen-code",
+          "snippet": "An open-source AI coding agent that lives in your terminal."
+        },
+        "adoption": {
+          "stars": 27733,
+          "githubSource": "https://github.com/QwenLM/qwen-code",
+          "homebrew": null
+        },
+        "commit": "69db15e2342b957b453fa247b5fba7d3835fa239"
+      }
+    },
+    "anyenv/anyenv": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cloudposse/atmos": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apache/arrow": {
+      "status": "held",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mininglamp-oss/octo-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-10T02:34:48.725Z",
+      "reason": "GitHub stars",
+      "slug": "mininglamp-oss-octo-cli",
+      "acceptedAt": "2026-09-10T02:34:48.725Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Mininglamp-OSS/octo-cli/blob/47f4c5f0238a962c3dec61be291f4deeca5da494/npm/package.json",
+          "snippet": "{\"bin\":{\"octo-cli\":\"bin/octo-cli.js\"}}",
+          "target": "npm/bin/octo-cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/Mininglamp-OSS/octo-cli/blob/47f4c5f0238a962c3dec61be291f4deeca5da494/README.md",
+          "snippet": "npm install -g @mininglamp-oss/octo-cli"
+        },
+        "usage": {
+          "url": "https://github.com/Mininglamp-OSS/octo-cli/blob/47f4c5f0238a962c3dec61be291f4deeca5da494/README.md",
+          "snippet": "octo-cli group list"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Mininglamp-OSS/octo-cli",
+          "snippet": "Metadata-driven CLI for AI Agent Bots — 48 operations across 7 domains, structured JSON envelope I/O, zero interactive prompts."
+        },
+        "adoption": {
+          "stars": 773,
+          "githubSource": "https://github.com/Mininglamp-OSS/octo-cli",
+          "homebrew": null
+        },
+        "commit": "47f4c5f0238a962c3dec61be291f4deeca5da494"
+      }
+    }
+  },
+  "lastRunAt": "2026-09-10T02:34:48.725Z"
 }
