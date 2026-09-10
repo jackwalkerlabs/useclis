@@ -1,0 +1,8 @@
+{
+  "minStars": 500,
+  "minHomebrew30d": 100,
+  "maxPerDay": 10,
+  "maxCandidates": 40,
+  "recheckDays": 30,
+  "queries": ["topic:cli", "topic:command-line", "\"command-line\" in:description"]
+}
