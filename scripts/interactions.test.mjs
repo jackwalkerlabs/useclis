@@ -9,7 +9,7 @@ for (const key of ['window', 'document', 'navigator', 'HTMLElement', 'Element', 
 }
 globalThis.IS_REACT_ACT_ENVIRONMENT = true;
 const { createElement: h } = await import('react');
-const { render, cleanup, screen, fireEvent, act } = await import('@testing-library/react');
+const { render, cleanup, screen, fireEvent, act, within } = await import('@testing-library/react');
 const { default: userEvent } = await import('@testing-library/user-event');
 const { default: Directory } = await import('../src/components/Directory.tsx');
 const { default: ActivityChart } = await import('../src/components/ActivityChart.tsx');
@@ -30,6 +30,18 @@ afterEach(() => { cleanup(); mock.restoreAll(); });
 after(() => dom.window.close());
 const rows = () => [...document.querySelectorAll('tbody .table-project strong')].map(node => node.textContent);
 const search = () => screen.getByRole('textbox', { name: /Search CLIs/ });
+const rowFor = tool => {
+  const link = document.querySelector(`tbody .table-project[href="/tools/${tool.slug}/"]`);
+  assert.ok(link, `${tool.slug} has a directory row`);
+  return within(link.closest('tr'));
+};
+// Shared state transitions need distinct identities and an unsaved control, not
+// a growing catalog. Keep full-catalog wiring and data checks separate below.
+const bookmarkTools = ['github-cli', 'ripgrep', 'jq'].map(slug => {
+  const tool = tools.find(tool => tool.slug === slug);
+  assert.ok(tool, `${slug} is in the interaction fixture`);
+  return tool;
+});
 
 test('Homebrew ranking restores URLs, puts missing counts after zero, and links to detailed statistics', async () => {
   const user = userEvent.setup();
@@ -165,28 +177,75 @@ test('Discovery links clear filters, sort the full table, and survive reload and
   assert.equal(rows()[0], tools.at(-1).name);
 });
 
-test('All bookmark buttons persist, reload, filter, and remove their own CLI', async () => {
-  const user = userEvent.setup();
-  const first = render(h(Directory, { tools }));
-  for (const tool of tools) {
-    await user.click(screen.getByRole('button', { name: `Save ${tool.name}`, exact: true }));
-    assert.equal(screen.getByRole('button', { name: `Unsave ${tool.name}`, exact: true }).getAttribute('aria-pressed'), 'true');
+test('Every catalog row has its own bookmark label and restored saved state', () => {
+  const saved = tools.filter((_, index) => index % 2 === 0).map(tool => tool.slug);
+  localStorage.setItem('useclis-saved', JSON.stringify(saved));
+  render(h(Directory, { tools }));
+  const tableRows = [...document.querySelectorAll('tbody tr')];
+  assert.equal(tableRows.length, tools.length);
+  const bySlug = new Map(tools.map(tool => [tool.slug, tool]));
+  const seen = new Set();
+  for (const row of tableRows) {
+    const href = row.querySelector('.table-project').getAttribute('href');
+    const slug = href.split('/')[2];
+    const tool = bySlug.get(slug);
+    assert.ok(tool, href);
+    assert.ok(!seen.has(slug), `${slug} appears only once`);
+    seen.add(slug);
+    assert.equal(row.querySelector('.table-project strong').textContent, tool.name);
+    const pressed = saved.includes(slug);
+    const button = within(row).getByRole('button', { name: `${pressed ? 'Unsave' : 'Save'} ${tool.name}`, exact: true });
+    assert.equal(button.getAttribute('aria-pressed'), String(pressed), slug);
   }
-  assert.equal(JSON.parse(localStorage.getItem('useclis-saved')).length, tools.length);
+  assert.deepEqual(seen, new Set(bySlug.keys()));
+  assert.deepEqual(JSON.parse(localStorage.getItem('useclis-saved')), saved);
+});
+
+test('Bookmarks persist exact identities, reload, filter, and remove independently', async () => {
+  const user = userEvent.setup();
+  const first = render(h(Directory, { tools: bookmarkTools }));
+  // Save out of display order and leave jq unsaved to detect cross-item updates.
+  const selected = [bookmarkTools[1], bookmarkTools[0]];
+  const saved = [];
+  for (const tool of selected) {
+    await user.click(rowFor(tool).getByRole('button', { name: `Save ${tool.name}`, exact: true }));
+    saved.push(tool.slug);
+    assert.deepEqual(JSON.parse(localStorage.getItem('useclis-saved')), saved);
+    for (const item of bookmarkTools) {
+      const pressed = saved.includes(item.slug);
+      assert.equal(rowFor(item).getByRole('button', { name: `${pressed ? 'Unsave' : 'Save'} ${item.name}`, exact: true }).getAttribute('aria-pressed'), String(pressed));
+    }
+  }
   first.unmount();
   window.history.replaceState(null, '', '/?saved=1');
-  render(h(Directory, { tools }));
+  const reloaded = render(h(Directory, { tools: bookmarkTools }));
   assert.ok(screen.getByRole('heading', { name: 'Saved CLIs' }));
-  for (const tool of tools) await user.click(screen.getByRole('button', { name: `Unsave ${tool.name}`, exact: true }));
+  assert.deepEqual(new Set(rows()), new Set(selected.map(tool => tool.name)));
+  await user.selectOptions(screen.getByRole('combobox', { name: 'Sort tools' }), 'name');
+  assert.deepEqual(rows(), selected.map(tool => tool.name).sort((a, b) => a.localeCompare(b)));
+  for (const tool of selected) {
+    const button = rowFor(tool).getByRole('button', { name: `Unsave ${tool.name}`, exact: true });
+    assert.equal(button.getAttribute('aria-pressed'), 'true');
+    await user.click(button);
+    saved.splice(saved.indexOf(tool.slug), 1);
+    assert.deepEqual(JSON.parse(localStorage.getItem('useclis-saved')), saved);
+    assert.deepEqual(new Set(rows()), new Set(selected.filter(item => saved.includes(item.slug)).map(item => item.name)));
+  }
   assert.deepEqual(rows(), []);
   assert.deepEqual(JSON.parse(localStorage.getItem('useclis-saved')), []);
   assert.ok(screen.getByRole('heading', { name: 'No saved CLIs match' }));
+  reloaded.unmount();
+  render(h(Directory, { tools: bookmarkTools }));
+  assert.deepEqual(rows(), [], 'Removals survive reload');
+  await user.click(screen.getByRole('button', { name: 'Browse all CLIs' }));
+  assert.deepEqual(new Set(rows()), new Set(bookmarkTools.map(tool => tool.name)));
+  for (const tool of bookmarkTools) assert.equal(rowFor(tool).getByRole('button', { name: `Save ${tool.name}`, exact: true }).getAttribute('aria-pressed'), 'false');
 });
 
 test('Saved shortcut clears other filters; corrupt and unavailable storage do not break buttons', async () => {
   const user = userEvent.setup();
   localStorage.setItem('useclis-saved', 'invalid json');
-  render(h(Directory, { tools }));
+  render(h(Directory, { tools: bookmarkTools }));
   mock.method(window.Storage.prototype, 'setItem', () => { throw new Error('Storage denied'); });
   await user.click(screen.getByRole('button', { name: 'Save GitHub CLI', exact: true }));
   assert.match(screen.getByRole('status').textContent, /Saved for this visit/);
@@ -195,6 +254,22 @@ test('Saved shortcut clears other filters; corrupt and unavailable storage do no
   assert.deepEqual(rows(), ['GitHub CLI']);
   assert.equal(search().value, '');
   assert.equal(scrolls.at(-1), 'directory');
+  await user.click(rowFor(bookmarkTools[0]).getByRole('button', { name: 'Unsave GitHub CLI', exact: true }));
+  assert.deepEqual(rows(), []);
+  assert.ok(screen.getByRole('heading', { name: 'No saved CLIs match' }));
+});
+
+test('Unavailable storage reads still allow saving and removing for this visit', async () => {
+  mock.method(window.Storage.prototype, 'getItem', () => { throw new Error('Storage denied'); });
+  mock.method(window.Storage.prototype, 'setItem', () => { throw new Error('Storage denied'); });
+  const user = userEvent.setup();
+  render(h(Directory, { tools: bookmarkTools }));
+  await user.click(rowFor(bookmarkTools[1]).getByRole('button', { name: 'Save ripgrep', exact: true }));
+  assert.match(screen.getByRole('status').textContent, /Saved for this visit/);
+  await user.click(screen.getByRole('button', { name: 'Saved CLIs', exact: true }));
+  assert.deepEqual(rows(), ['ripgrep']);
+  await user.click(rowFor(bookmarkTools[1]).getByRole('button', { name: 'Unsave ripgrep', exact: true }));
+  assert.deepEqual(rows(), []);
 });
 
 test('Deep links restore category/search/saved/sort and ignore invalid saved IDs', () => {
@@ -219,17 +294,23 @@ test('Browser history restores filters and the slash shortcut focuses only outsi
   assert.deepEqual(rows(), ['ripgrep']);
 });
 
-test('Every CLI activity chart range shows the corresponding real total', async () => {
+test('Activity chart range controls show exact totals and weekly values', async () => {
   const user = userEvent.setup();
-  for (const tool of tools) {
-    const weeks = activity[tool.slug].weeks;
-    const view = render(h(ActivityChart, { name: tool.name, weeks, checkedAt: '2026-09-09' }));
+  const fixtures = [
+    ...bookmarkTools.slice(0, 2).map(tool => ({ name: tool.name, weeks: activity[tool.slug].weeks })),
+    { name: 'Distinct weekly values', weeks: Array.from({ length: 52 }, (_, index) => index + 1) },
+  ];
+  for (const { name, weeks } of fixtures) {
+    const view = render(h(ActivityChart, { name, weeks, checkedAt: '2026-09-09' }));
     const select = screen.getByRole('combobox', { name: 'Activity date range' });
     assert.equal(select.value, '30d');
+    assert.deepEqual([...select.options].filter(option => !option.disabled).map(option => option.value), ['7d', '30d', '3m', '6m', '12m', 'all']);
     for (const [period, range] of [['7d', 2], ['30d', 5], ['3m', 14], ['6m', 27], ['12m', 52], ['all', 52]]) {
       await user.selectOptions(select, period);
       assert.equal(select.value, period);
-      assert.ok(document.querySelector('.chart-total').textContent.startsWith(weeks.slice(-range).reduce((a, b) => a + b, 0).toLocaleString('en')));
+      const values = weeks.slice(-range);
+      assert.equal(document.querySelector('.chart-total').textContent, `${values.reduce((a, b) => a + b, 0).toLocaleString('en')} commits across ${values.length} weeks`);
+      assert.equal(screen.getByRole('img').getAttribute('aria-label'), `${name} commits across ${values.length} weekly buckets. ${values.join(', ')}`);
     }
     view.unmount();
   }
