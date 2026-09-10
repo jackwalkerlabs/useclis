@@ -9,6 +9,9 @@ const API = 'https://api.github.com';
 const BREW = 'https://formulae.brew.sh/api';
 const root = new URL('../', import.meta.url);
 const MAX_BYTES = 8_000_000;
+export class SourceTooLargeError extends Error {
+  constructor(url) { super(`${new URL(url).hostname}${new URL(url).pathname}: source exceeds size limit`); }
+}
 const freshDate = (date, now) => {
   if (typeof date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(Date.parse(date))) return false;
   const age = Date.parse(now) - Date.parse(date);
@@ -37,7 +40,7 @@ export function createClient(token, fetcher = fetch) {
     }
     if (optional && [301, 404].includes(response.status)) return null;
     if (!response.ok) throw new Error(`${host}: HTTP ${response.status}`);
-    if (Number(response.headers.get('content-length')) > MAX_BYTES) throw new Error('Source exceeds size limit');
+    if (Number(response.headers.get('content-length')) > MAX_BYTES) { await response.body?.cancel(); throw new SourceTooLargeError(url); }
     const reader = response.body.getReader();
     const chunks = [];
     let size = 0;
@@ -45,7 +48,7 @@ export function createClient(token, fetcher = fetch) {
       const { value, done } = await reader.read();
       if (done) break;
       size += value.length;
-      if (size > MAX_BYTES) { await reader.cancel(); throw new Error('Source exceeds size limit'); }
+      if (size > MAX_BYTES) { await reader.cancel(); throw new SourceTooLargeError(url); }
       chunks.push(value);
     }
     const body = Buffer.concat(chunks).toString('utf8');
@@ -73,7 +76,9 @@ export function brewCandidates(report, minimum) {
 
 async function fetchFormula(request, formula, now) {
   const source = `${BREW}/formula/${formula}.json`;
-  const data = await request(source, { optional: true });
+  let data;
+  try { data = await request(source, { optional: true }); }
+  catch (error) { if (error instanceof SourceTooLargeError) return null; throw error; }
   if (!data || data.name !== formula || data.tap !== 'homebrew/core' || data.disabled || data.deprecated) return null;
   // Source archive/head is stronger identity evidence than a marketing homepage.
   const repo = repoFromUrl(data.urls?.stable?.url) ?? repoFromUrl(data.urls?.head?.url);
@@ -180,7 +185,14 @@ export async function discover({ catalog, state, mappings, config, request, now 
     if (previous?.checkedAt && Date.parse(now) - Date.parse(previous.checkedAt) < config.recheckDays * 86400000) continue;
     checked++;
     if (candidate.formula && !candidate.brew) candidate.brew = await fetchFormula(request, candidate.formula, now);
-    const repo = await request(`${API}/repos/${candidate.repo}`, { optional: true });
+    let repo;
+    try { repo = await request(`${API}/repos/${candidate.repo}`, { optional: true }); }
+    catch (error) {
+      if (!(error instanceof SourceTooLargeError)) throw error;
+      next.candidates[key] = { status: 'held', checkedAt: now, reason: error.message };
+      outcomes.push({ repo: key, status: 'held', reason: error.message });
+      continue;
+    }
     // GitHub redirects are not followed. Renamed repositories are held until rediscovered canonically.
     if (!repo) {
       next.candidates[key] = { status: 'held', checkedAt: now, reason: 'Repository unavailable or renamed' };
@@ -190,9 +202,14 @@ export async function discover({ catalog, state, mappings, config, request, now 
     const brew = candidate.brew && { repo: candidate.brew.repo, formula: candidate.brew.formula, count: candidate.brew.count, source: candidate.brew.source, generatedDate: candidate.brew.generatedDate };
     let result = evaluateCandidate({ repo, declarations: [], docs: [], brew, config, existing: entries });
     if (result.reason === 'No matching package declaration, installation, and useful command example') {
-      const evidence = await collectEvidence(request, candidate, repo);
-      result = evaluateCandidate({ repo, ...evidence, brew, config, existing: entries });
-      if (result.evidence) result.evidence.commit = evidence.commit;
+      try {
+        const evidence = await collectEvidence(request, candidate, repo);
+        result = evaluateCandidate({ repo, ...evidence, brew, config, existing: entries });
+        if (result.evidence) result.evidence.commit = evidence.commit;
+      } catch (error) {
+        if (!(error instanceof SourceTooLargeError)) throw error;
+        result = { status: 'held', reason: error.message };
+      }
     }
     const record = { status: result.status, checkedAt: now, reason: result.reason };
     if (result.status === 'accepted') {

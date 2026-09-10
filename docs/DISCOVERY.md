@@ -15,7 +15,7 @@ A candidate must also have:
 
 No discovered packages, install scripts, Ruby formulae, or example commands are executed. TOML and JSON are parsed as data. The first implementation uses deterministic extraction, with no model key or model-generated capability claims. Descriptions are copied from the repository and features are limited to the verified command-line interface. More detailed claims require editorial evidence.
 
-The scanner checks up to eight manifests (root or shallow package directories) and four README/usage/installation documents per candidate. Generated npm binaries absent from the source tree, dynamic Python setup scripts, unsupported ecosystems, documentation only on external websites, complex shell examples, and unclear use cases are held for later review. This is deliberately bounded coverage, not an exhaustive inventory or proof that a command works on every machine.
+The scanner checks up to eight manifests (root or shallow package directories) and four README/usage/installation documents per candidate. Individual responses are limited to 8 MB: oversized candidate evidence is held, oversized formula metadata is skipped, and oversized global search/analytics responses stop collection. Generated npm binaries absent from the source tree, dynamic Python setup scripts, unsupported ecosystems, documentation only on external websites, complex shell examples, and unclear use cases are held for later review. This is deliberately bounded coverage, not an exhaustive inventory or proof that a command works on every machine.
 
 ## Discovery and records
 
