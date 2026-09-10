@@ -2183,5 +2183,1697 @@
     "featured": false,
     "website": "https://github.com/casey/just#readme",
     "docs": "https://github.com/casey/just#readme"
+  },
+  {
+    "slug": "blucli",
+    "name": "blucli",
+    "repo": "steipete/blucli",
+    "category": "Productivity & communication",
+    "command": "blu",
+    "useCase": "BluOS playback",
+    "description": "Control BluOS players, playback, queues, groups, and presets.",
+    "agentUse": "Use blu to control BluOS players, playback, queues, groups, and presets.",
+    "features": [
+      "Player discovery",
+      "Playback control",
+      "Queues and groups"
+    ],
+    "example": "blu devices",
+    "website": "https://github.com/steipete/blucli#readme",
+    "docs": "https://github.com/steipete/blucli#readme"
+  },
+  {
+    "slug": "eightctl",
+    "name": "eightctl",
+    "repo": "steipete/eightctl",
+    "category": "Productivity & communication",
+    "command": "eightctl",
+    "useCase": "Sleep pod control",
+    "description": "Retrieve Eight Sleep data and control sleep pods.",
+    "agentUse": "Use eightctl to retrieve Eight Sleep data and control sleep pods.",
+    "features": [
+      "Sleep data",
+      "Pod status",
+      "Temperature control"
+    ],
+    "example": "eightctl status",
+    "website": "https://github.com/steipete/eightctl#readme",
+    "docs": "https://github.com/steipete/eightctl#readme"
+  },
+  {
+    "slug": "gifgrep",
+    "name": "gifgrep",
+    "repo": "steipete/gifgrep",
+    "category": "Files & documents",
+    "command": "gifgrep",
+    "useCase": "GIF search",
+    "description": "Search and retrieve GIFs from the terminal.",
+    "agentUse": "Use gifgrep to search and retrieve GIFs from the terminal.",
+    "features": [
+      "GIF search",
+      "Terminal previews",
+      "GIF retrieval"
+    ],
+    "example": "gifgrep cats --max 3",
+    "website": "https://github.com/steipete/gifgrep#readme",
+    "docs": "https://github.com/steipete/gifgrep#readme"
+  },
+  {
+    "slug": "camsnap",
+    "name": "camsnap",
+    "repo": "steipete/camsnap",
+    "category": "Files & documents",
+    "command": "camsnap",
+    "useCase": "Camera capture",
+    "description": "Capture snapshots and clips from RTSP and ONVIF cameras.",
+    "agentUse": "Use camsnap to capture snapshots and clips from RTSP and ONVIF cameras.",
+    "features": [
+      "RTSP snapshots",
+      "Video clips",
+      "ONVIF discovery"
+    ],
+    "example": "camsnap discover --info",
+    "website": "https://github.com/steipete/camsnap#readme",
+    "docs": "https://github.com/steipete/camsnap#readme"
+  },
+  {
+    "slug": "ordercli",
+    "name": "ordercli",
+    "repo": "steipete/ordercli",
+    "category": "Productivity & communication",
+    "command": "ordercli",
+    "useCase": "Delivery tracking",
+    "description": "Inspect Foodora and Deliveroo orders and delivery status.",
+    "agentUse": "Use ordercli to inspect Foodora and Deliveroo orders and delivery status. Deliveroo support is a work in progress in the project documentation.",
+    "features": [
+      "Active orders",
+      "Order history",
+      "Delivery status"
+    ],
+    "example": "ordercli foodora orders",
+    "website": "https://github.com/steipete/ordercli#readme",
+    "docs": "https://github.com/steipete/ordercli#readme"
+  },
+  {
+    "slug": "openhue-cli",
+    "name": "OpenHue CLI",
+    "repo": "openhue/openhue-cli",
+    "category": "Productivity & communication",
+    "command": "openhue",
+    "useCase": "Smart lighting",
+    "description": "Discover and control Philips Hue lights and scenes.",
+    "agentUse": "Use openhue to discover and control Philips Hue lights and scenes.",
+    "features": [
+      "Bridge discovery",
+      "Light control",
+      "Scenes"
+    ],
+    "example": "openhue --help",
+    "website": "https://github.com/openhue/openhue-cli#readme",
+    "docs": "https://github.com/openhue/openhue-cli#readme"
+  },
+  {
+    "slug": "sag",
+    "name": "sag",
+    "repo": "steipete/sag",
+    "category": "Files & documents",
+    "command": "sag",
+    "useCase": "Text to speech",
+    "description": "Generate spoken audio from text.",
+    "agentUse": "Use sag to generate spoken audio from text.",
+    "features": [
+      "Speech synthesis",
+      "Voice selection",
+      "Audio files"
+    ],
+    "example": "sag voices --search english --limit 5",
+    "website": "https://github.com/steipete/sag#readme",
+    "docs": "https://github.com/steipete/sag#readme"
+  },
+  {
+    "slug": "twitter-cli",
+    "name": "twitter-cli",
+    "repo": "public-clis/twitter-cli",
+    "category": "Productivity & communication",
+    "command": "twitter",
+    "useCase": "X feeds and posts",
+    "description": "Search and interact with X feeds, posts, timelines, and bookmarks.",
+    "agentUse": "Use twitter to search and interact with X feeds, posts, timelines, and bookmarks.",
+    "features": [
+      "Feed browsing",
+      "Post search",
+      "Bookmarks"
+    ],
+    "example": "twitter feed",
+    "website": "https://github.com/public-clis/twitter-cli#readme",
+    "docs": "https://github.com/public-clis/twitter-cli#readme"
+  },
+  {
+    "slug": "bilibili-cli",
+    "name": "bilibili-cli",
+    "repo": "public-clis/bilibili-cli",
+    "category": "Productivity & communication",
+    "command": "bili",
+    "useCase": "Bilibili research",
+    "description": "Search Bilibili videos and users and retrieve video information and subtitles.",
+    "agentUse": "Use bili to search Bilibili videos and users and retrieve video information and subtitles.",
+    "features": [
+      "Video search",
+      "User profiles",
+      "Subtitles"
+    ],
+    "example": "bili --help",
+    "website": "https://github.com/public-clis/bilibili-cli#readme",
+    "docs": "https://github.com/public-clis/bilibili-cli#readme"
+  },
+  {
+    "slug": "rdt-cli",
+    "name": "rdt-cli",
+    "repo": "public-clis/rdt-cli",
+    "category": "Productivity & communication",
+    "command": "rdt",
+    "useCase": "Reddit research",
+    "description": "Search and interact with Reddit posts and export data as JSON or CSV.",
+    "agentUse": "Use rdt to search and interact with Reddit posts and export data as JSON or CSV.",
+    "features": [
+      "Post search",
+      "Post interactions",
+      "JSON and CSV export"
+    ],
+    "example": "rdt status",
+    "website": "https://github.com/public-clis/rdt-cli#readme",
+    "docs": "https://github.com/public-clis/rdt-cli#readme"
+  },
+  {
+    "slug": "xiaohongshu-cli",
+    "name": "xiaohongshu-cli",
+    "repo": "jackwener/xiaohongshu-cli",
+    "category": "Productivity & communication",
+    "command": "xhs",
+    "useCase": "Xiaohongshu research",
+    "description": "Search, read, and interact with Xiaohongshu content.",
+    "agentUse": "Use xhs to search, read, and interact with Xiaohongshu content.",
+    "features": [
+      "Content search",
+      "Note reading",
+      "Content interactions"
+    ],
+    "example": "xhs --help",
+    "website": "https://github.com/jackwener/xiaohongshu-cli#readme",
+    "docs": "https://github.com/jackwener/xiaohongshu-cli#readme"
+  },
+  {
+    "slug": "notesmd-cli",
+    "name": "notesmd-cli",
+    "repo": "Yakitrak/notesmd-cli",
+    "category": "Files & documents",
+    "command": "notesmd-cli",
+    "useCase": "Obsidian vault notes",
+    "description": "Manage Markdown notes in Obsidian vaults.",
+    "agentUse": "Use notesmd-cli to manage Markdown notes in Obsidian vaults.",
+    "features": [
+      "Markdown notes",
+      "Vault management",
+      "Note search"
+    ],
+    "example": "notesmd-cli --help",
+    "website": "https://github.com/Yakitrak/notesmd-cli#readme",
+    "docs": "https://github.com/Yakitrak/notesmd-cli#readme"
+  },
+  {
+    "slug": "jira-cli",
+    "name": "Jira CLI",
+    "repo": "ankitpokhrel/jira-cli",
+    "category": "Git & collaboration",
+    "command": "jira",
+    "useCase": "Jira issue workflows",
+    "description": "Create, search, update, and transition Jira issues.",
+    "agentUse": "Use jira to create, search, update, and transition Jira issues.",
+    "features": [
+      "Issue search",
+      "Issue creation",
+      "Status transitions"
+    ],
+    "example": "jira issue list",
+    "website": "https://github.com/ankitpokhrel/jira-cli#readme",
+    "docs": "https://github.com/ankitpokhrel/jira-cli#readme"
+  },
+  {
+    "slug": "todoist-cli",
+    "name": "Todoist CLI",
+    "repo": "sachaos/todoist",
+    "category": "Productivity & communication",
+    "command": "todoist",
+    "useCase": "Todoist tasks",
+    "description": "List, create, and complete Todoist tasks.",
+    "agentUse": "Use todoist to list, create, and complete Todoist tasks.",
+    "features": [
+      "Task lists",
+      "Task creation",
+      "Task completion"
+    ],
+    "example": "todoist --help",
+    "website": "https://github.com/sachaos/todoist#readme",
+    "docs": "https://github.com/sachaos/todoist#readme"
+  },
+  {
+    "slug": "taskwarrior",
+    "name": "Taskwarrior",
+    "repo": "GothenburgBitFactory/taskwarrior",
+    "category": "Productivity & communication",
+    "command": "task",
+    "useCase": "Task tracking",
+    "description": "Track tasks, priorities, dependencies, and due dates.",
+    "agentUse": "Use task to track tasks, priorities, dependencies, and due dates.",
+    "features": [
+      "Priorities",
+      "Dependencies",
+      "Due dates"
+    ],
+    "example": "task list",
+    "website": "https://github.com/GothenburgBitFactory/taskwarrior#readme",
+    "docs": "https://github.com/GothenburgBitFactory/taskwarrior#readme"
+  },
+  {
+    "slug": "khal",
+    "name": "khal",
+    "repo": "pimutils/khal",
+    "category": "Productivity & communication",
+    "command": "khal",
+    "useCase": "Local calendars",
+    "description": "View and manage local calendars and events.",
+    "agentUse": "Use khal to view and manage local calendars and events.",
+    "features": [
+      "Calendar views",
+      "Event management",
+      "Local storage"
+    ],
+    "example": "khal --help",
+    "website": "https://github.com/pimutils/khal#readme",
+    "docs": "https://github.com/pimutils/khal#readme"
+  },
+  {
+    "slug": "gcalcli",
+    "name": "gcalcli",
+    "repo": "insanum/gcalcli",
+    "category": "Productivity & communication",
+    "command": "gcalcli",
+    "useCase": "Google Calendar events",
+    "description": "Query and manage Google Calendar events.",
+    "agentUse": "Use gcalcli to query and manage Google Calendar events.",
+    "features": [
+      "Calendar queries",
+      "Event creation",
+      "Agenda views"
+    ],
+    "example": "gcalcli --help",
+    "website": "https://github.com/insanum/gcalcli#readme",
+    "docs": "https://github.com/insanum/gcalcli#readme"
+  },
+  {
+    "slug": "vdirsyncer",
+    "name": "vdirsyncer",
+    "repo": "pimutils/vdirsyncer",
+    "category": "Productivity & communication",
+    "command": "vdirsyncer",
+    "useCase": "Calendar synchronization",
+    "description": "Synchronize calendars and contacts between servers and local storage.",
+    "agentUse": "Use vdirsyncer to synchronize calendars and contacts between servers and local storage.",
+    "features": [
+      "Calendar sync",
+      "Contact sync",
+      "Local storage"
+    ],
+    "example": "vdirsyncer --help",
+    "website": "https://github.com/pimutils/vdirsyncer#readme",
+    "docs": "https://github.com/pimutils/vdirsyncer#readme"
+  },
+  {
+    "slug": "buku",
+    "name": "buku",
+    "repo": "jarun/buku",
+    "category": "Productivity & communication",
+    "command": "buku",
+    "useCase": "Bookmark management",
+    "description": "Store, search, and manage browser bookmarks.",
+    "agentUse": "Use buku to store, search, and manage browser bookmarks.",
+    "features": [
+      "Bookmark storage",
+      "Bookmark search",
+      "Bookmark editing"
+    ],
+    "example": "buku --help",
+    "website": "https://github.com/jarun/buku#readme",
+    "docs": "https://github.com/jarun/buku#readme"
+  },
+  {
+    "slug": "nb",
+    "name": "nb",
+    "repo": "xwmx/nb",
+    "category": "Files & documents",
+    "command": "nb",
+    "useCase": "Notes and bookmarks",
+    "description": "Create, search, archive, and synchronize notes and bookmarks.",
+    "agentUse": "Use nb to create, search, archive, and synchronize notes and bookmarks.",
+    "features": [
+      "Note creation",
+      "Content search",
+      "Synchronization"
+    ],
+    "example": "nb list",
+    "website": "https://github.com/xwmx/nb#readme",
+    "docs": "https://github.com/xwmx/nb#readme"
+  },
+  {
+    "slug": "vibe-notion",
+    "name": "Vibe Notion",
+    "repo": "devxoul/vibe-notion",
+    "category": "Productivity & communication",
+    "command": "vibe-notion",
+    "useCase": "Notion workspace management",
+    "description": "Manage Notion pages, databases, blocks, and comments.",
+    "agentUse": "Use vibe-notion to manage Notion pages, databases, blocks, and comments.",
+    "features": [
+      "Pages and blocks",
+      "Databases",
+      "Comments"
+    ],
+    "example": "vibe-notion workspace list --pretty",
+    "website": "https://github.com/devxoul/vibe-notion#readme",
+    "docs": "https://github.com/devxoul/vibe-notion#readme"
+  },
+  {
+    "slug": "opencli",
+    "name": "OpenCLI",
+    "repo": "jackwener/OpenCLI",
+    "category": "Browser automation",
+    "command": "opencli",
+    "useCase": "Website CLI access",
+    "description": "Access website functionality through CLI interfaces using browser sessions.",
+    "agentUse": "Use opencli to access website functionality through CLI interfaces using browser sessions.",
+    "features": [
+      "Website commands",
+      "Browser sessions",
+      "CLI discovery"
+    ],
+    "example": "opencli list",
+    "website": "https://github.com/jackwener/OpenCLI#readme",
+    "docs": "https://github.com/jackwener/OpenCLI#readme"
+  },
+  {
+    "slug": "rulesync",
+    "name": "rulesync",
+    "repo": "dyoshikawa/rulesync",
+    "category": "Agents & models",
+    "command": "rulesync",
+    "useCase": "Agent configuration",
+    "description": "Synchronize configuration and rules for AI coding agents.",
+    "agentUse": "Use rulesync to synchronize configuration and rules for AI coding agents.",
+    "features": [
+      "Agent rules",
+      "Configuration sync",
+      "Shared rule files"
+    ],
+    "example": "rulesync --help",
+    "website": "https://github.com/dyoshikawa/rulesync#readme",
+    "docs": "https://github.com/dyoshikawa/rulesync#readme"
+  },
+  {
+    "slug": "acpx",
+    "name": "acpx",
+    "repo": "openclaw/acpx",
+    "category": "Agents & models",
+    "command": "acpx",
+    "useCase": "Headless agent sessions",
+    "description": "Run headless stateful sessions through the Agent Client Protocol.",
+    "agentUse": "Use acpx to run headless stateful sessions through the Agent Client Protocol.",
+    "features": [
+      "Agent Client Protocol",
+      "Stateful sessions",
+      "Headless execution"
+    ],
+    "example": "acpx --help",
+    "website": "https://github.com/openclaw/acpx#readme",
+    "docs": "https://github.com/openclaw/acpx#readme"
+  },
+  {
+    "slug": "discord-cli",
+    "name": "discord-cli",
+    "repo": "jackwener/discord-cli",
+    "category": "Productivity & communication",
+    "command": "discord",
+    "useCase": "Discord message analysis",
+    "description": "Synchronize, search, and export Discord messages for local analysis.",
+    "agentUse": "Use discord to synchronize, search, and export Discord messages for local analysis.",
+    "features": [
+      "Message synchronization",
+      "Local search",
+      "Message export"
+    ],
+    "example": "discord search \"rust\" -c general --json",
+    "website": "https://github.com/jackwener/discord-cli#readme",
+    "docs": "https://github.com/jackwener/discord-cli#readme"
+  },
+  {
+    "slug": "tg-cli",
+    "name": "tg-cli",
+    "repo": "jackwener/tg-cli",
+    "category": "Productivity & communication",
+    "command": "tg",
+    "useCase": "Telegram message analysis",
+    "description": "Synchronize, search, and export Telegram messages through MTProto.",
+    "agentUse": "Use tg to synchronize, search, and export Telegram messages through MTProto.",
+    "features": [
+      "MTProto sync",
+      "Local search",
+      "Message export"
+    ],
+    "example": "tg search \"Rust\"",
+    "website": "https://github.com/jackwener/tg-cli#readme",
+    "docs": "https://github.com/jackwener/tg-cli#readme"
+  },
+  {
+    "slug": "agent-slack",
+    "name": "agent-slack",
+    "repo": "stablyai/agent-slack",
+    "category": "Productivity & communication",
+    "command": "agent-slack",
+    "useCase": "Slack agent workflows",
+    "description": "Search and manage Slack messages, channels, and documents from agent workflows.",
+    "agentUse": "Use agent-slack to search and manage Slack messages, channels, and documents from agent workflows.",
+    "features": [
+      "Message search",
+      "Channel management",
+      "Documents"
+    ],
+    "example": "agent-slack auth whoami",
+    "website": "https://github.com/stablyai/agent-slack#readme",
+    "docs": "https://github.com/stablyai/agent-slack#readme"
+  },
+  {
+    "slug": "auth0-cli",
+    "name": "Auth0 CLI",
+    "repo": "auth0/auth0-cli",
+    "category": "Security & secrets",
+    "command": "auth0",
+    "useCase": "Auth0 integrations",
+    "description": "Build, manage, and test Auth0 integrations.",
+    "agentUse": "Use auth0 to build, manage, and test Auth0 integrations.",
+    "features": [
+      "Application management",
+      "Integration setup",
+      "Integration testing"
+    ],
+    "example": "auth0 --help",
+    "website": "https://github.com/auth0/auth0-cli#readme",
+    "docs": "https://github.com/auth0/auth0-cli#readme"
+  },
+  {
+    "slug": "okta-cli",
+    "name": "Okta CLI",
+    "repo": "okta/okta-cli",
+    "category": "Security & secrets",
+    "command": "okta",
+    "useCase": "Okta integrations",
+    "description": "Bootstrap Okta organizations and application integrations.",
+    "agentUse": "Use okta to bootstrap Okta organizations and application integrations.",
+    "features": [
+      "Organization setup",
+      "Application integration",
+      "Configuration"
+    ],
+    "example": "okta --help",
+    "website": "https://github.com/okta/okta-cli#readme",
+    "docs": "https://github.com/okta/okta-cli#readme"
+  },
+  {
+    "slug": "tailscale-cli",
+    "name": "Tailscale CLI",
+    "repo": "tailscale/tailscale",
+    "category": "Cloud & deployment",
+    "command": "tailscale",
+    "useCase": "Private network access",
+    "description": "Connect devices to Tailscale and inspect network status.",
+    "agentUse": "Use tailscale to connect devices to Tailscale and inspect network status.",
+    "features": [
+      "Device connections",
+      "Network status",
+      "Peer inspection"
+    ],
+    "example": "tailscale status",
+    "website": "https://github.com/tailscale/tailscale#readme",
+    "docs": "https://github.com/tailscale/tailscale#readme"
+  },
+  {
+    "slug": "cloudflared",
+    "name": "cloudflared",
+    "repo": "cloudflare/cloudflared",
+    "category": "Cloud & deployment",
+    "command": "cloudflared",
+    "useCase": "Cloudflare tunnels",
+    "description": "Create and run Cloudflare Tunnel connections.",
+    "agentUse": "Use cloudflared to create and run Cloudflare Tunnel connections.",
+    "features": [
+      "Tunnel creation",
+      "Tunnel connections",
+      "Origin access"
+    ],
+    "example": "cloudflared --help",
+    "website": "https://github.com/cloudflare/cloudflared#readme",
+    "docs": "https://github.com/cloudflare/cloudflared#readme"
+  },
+  {
+    "slug": "heroku-cli",
+    "name": "Heroku CLI",
+    "repo": "heroku/cli",
+    "category": "Cloud & deployment",
+    "command": "heroku",
+    "useCase": "Heroku operations",
+    "description": "Deploy and manage Heroku applications and services.",
+    "agentUse": "Use heroku to deploy and manage Heroku applications and services.",
+    "features": [
+      "Application deployment",
+      "Application management",
+      "Services"
+    ],
+    "example": "heroku apps",
+    "website": "https://github.com/heroku/cli#readme",
+    "docs": "https://github.com/heroku/cli#readme"
+  },
+  {
+    "slug": "flyctl",
+    "name": "flyctl",
+    "repo": "superfly/flyctl",
+    "category": "Cloud & deployment",
+    "command": "flyctl",
+    "useCase": "Fly.io operations",
+    "description": "Deploy and operate applications on Fly.io.",
+    "agentUse": "Use flyctl to deploy and operate applications on Fly.io.",
+    "features": [
+      "Application deployment",
+      "Application status",
+      "Configuration"
+    ],
+    "example": "flyctl status",
+    "website": "https://github.com/superfly/flyctl#readme",
+    "docs": "https://github.com/superfly/flyctl#readme"
+  },
+  {
+    "slug": "fastly-cli",
+    "name": "Fastly CLI",
+    "repo": "fastly/cli",
+    "category": "Cloud & deployment",
+    "command": "fastly",
+    "useCase": "Fastly services",
+    "description": "Build, deploy, and configure Fastly services.",
+    "agentUse": "Use fastly to build, deploy, and configure Fastly services.",
+    "features": [
+      "Service configuration",
+      "Builds",
+      "Deployments"
+    ],
+    "example": "fastly --help",
+    "website": "https://github.com/fastly/cli#readme",
+    "docs": "https://github.com/fastly/cli#readme"
+  },
+  {
+    "slug": "akamai-cli",
+    "name": "Akamai CLI",
+    "repo": "akamai/cli",
+    "category": "Cloud & deployment",
+    "command": "akamai",
+    "useCase": "Akamai operations",
+    "description": "Manage Akamai products through installable command packages.",
+    "agentUse": "Use akamai to manage Akamai products through installable command packages.",
+    "features": [
+      "Command packages",
+      "Product management",
+      "Configuration"
+    ],
+    "example": "akamai --help",
+    "website": "https://github.com/akamai/cli#readme",
+    "docs": "https://github.com/akamai/cli#readme"
+  },
+  {
+    "slug": "deck",
+    "name": "decK",
+    "repo": "Kong/deck",
+    "category": "Cloud & deployment",
+    "command": "deck",
+    "useCase": "Kong configuration",
+    "description": "Manage declarative Kong Gateway configuration and detect drift.",
+    "agentUse": "Use deck to manage declarative Kong Gateway configuration and detect drift.",
+    "features": [
+      "Declarative configuration",
+      "Configuration sync",
+      "Drift detection"
+    ],
+    "example": "deck --help",
+    "website": "https://github.com/Kong/deck#readme",
+    "docs": "https://github.com/Kong/deck#readme"
+  },
+  {
+    "slug": "temporal-cli",
+    "name": "Temporal CLI",
+    "repo": "temporalio/cli",
+    "category": "Cloud & deployment",
+    "command": "temporal",
+    "useCase": "Temporal workflows",
+    "description": "Run a development server and inspect or manage Temporal workflows.",
+    "agentUse": "Use temporal to run a development server and inspect or manage Temporal workflows.",
+    "features": [
+      "Development server",
+      "Workflow inspection",
+      "Workflow management"
+    ],
+    "example": "temporal --help",
+    "website": "https://github.com/temporalio/cli#readme",
+    "docs": "https://github.com/temporalio/cli#readme"
+  },
+  {
+    "slug": "nats-cli",
+    "name": "NATS CLI",
+    "repo": "nats-io/natscli",
+    "category": "Data & APIs",
+    "command": "nats",
+    "useCase": "NATS messaging",
+    "description": "Publish messages and manage NATS streams and services.",
+    "agentUse": "Use nats to publish messages and manage NATS streams and services.",
+    "features": [
+      "Message publishing",
+      "Stream management",
+      "Service management"
+    ],
+    "example": "nats --help",
+    "website": "https://github.com/nats-io/natscli#readme",
+    "docs": "https://github.com/nats-io/natscli#readme"
+  },
+  {
+    "slug": "n8n-cli",
+    "name": "n8n CLI",
+    "repo": "n8n-io/n8n",
+    "category": "Data & APIs",
+    "command": "n8n",
+    "useCase": "n8n workflow automation",
+    "description": "Execute workflows and import or export workflows and credentials.",
+    "agentUse": "Use n8n to execute workflows and import or export workflows and credentials.",
+    "features": [
+      "Workflow execution",
+      "Workflow import",
+      "Workflow export"
+    ],
+    "example": "n8n --help",
+    "website": "https://github.com/n8n-io/n8n#readme",
+    "docs": "https://github.com/n8n-io/n8n#readme"
+  },
+  {
+    "slug": "appwrite-cli",
+    "name": "Appwrite CLI",
+    "repo": "appwrite/sdk-for-cli",
+    "category": "Cloud & deployment",
+    "command": "appwrite",
+    "useCase": "Appwrite resources",
+    "description": "Manage Appwrite projects, functions, and backend resources.",
+    "agentUse": "Use appwrite to manage Appwrite projects, functions, and backend resources.",
+    "features": [
+      "Project management",
+      "Functions",
+      "Backend resources"
+    ],
+    "example": "appwrite --help",
+    "website": "https://github.com/appwrite/sdk-for-cli#readme",
+    "docs": "https://github.com/appwrite/sdk-for-cli#readme"
+  },
+  {
+    "slug": "psql",
+    "name": "psql",
+    "repo": "postgres/postgres",
+    "category": "Data & APIs",
+    "command": "psql",
+    "useCase": "PostgreSQL queries",
+    "description": "Execute PostgreSQL queries and SQL scripts.",
+    "agentUse": "Use psql to execute PostgreSQL queries and SQL scripts.",
+    "features": [
+      "SQL queries",
+      "SQL scripts",
+      "Query output"
+    ],
+    "example": "psql --help",
+    "website": "https://github.com/postgres/postgres#readme",
+    "docs": "https://www.postgresql.org/docs/current/app-psql.html"
+  },
+  {
+    "slug": "redis-cli",
+    "name": "redis-cli",
+    "repo": "redis/redis",
+    "category": "Data & APIs",
+    "command": "redis-cli",
+    "useCase": "Redis data access",
+    "description": "Query and manage Redis data and servers.",
+    "agentUse": "Use redis-cli to query and manage Redis data and servers.",
+    "features": [
+      "Key queries",
+      "Data commands",
+      "Server administration"
+    ],
+    "example": "redis-cli --help",
+    "website": "https://github.com/redis/redis#readme",
+    "docs": "https://redis.io/docs/latest/develop/tools/cli/"
+  },
+  {
+    "slug": "mongosh",
+    "name": "mongosh",
+    "repo": "mongodb-js/mongosh",
+    "category": "Data & APIs",
+    "command": "mongosh",
+    "useCase": "MongoDB queries",
+    "description": "Execute MongoDB queries and administrative commands.",
+    "agentUse": "Use mongosh to execute MongoDB queries and administrative commands.",
+    "features": [
+      "Document queries",
+      "JavaScript scripts",
+      "Database administration"
+    ],
+    "example": "mongosh --help",
+    "website": "https://github.com/mongodb-js/mongosh#readme",
+    "docs": "https://github.com/mongodb-js/mongosh#readme"
+  },
+  {
+    "slug": "mongodb-atlas-cli",
+    "name": "MongoDB Atlas CLI",
+    "repo": "mongodb/mongodb-atlas-cli",
+    "category": "Data & APIs",
+    "command": "atlas",
+    "useCase": "Atlas cloud databases",
+    "description": "Manage MongoDB Atlas cloud database resources.",
+    "agentUse": "Use atlas to manage MongoDB Atlas cloud database resources.",
+    "features": [
+      "Cluster management",
+      "Cloud resources",
+      "Database deployments"
+    ],
+    "example": "atlas --help",
+    "website": "https://github.com/mongodb/mongodb-atlas-cli#readme",
+    "docs": "https://github.com/mongodb/mongodb-atlas-cli#readme"
+  },
+  {
+    "slug": "snowflake-cli",
+    "name": "Snowflake CLI",
+    "repo": "snowflakedb/snowflake-cli",
+    "category": "Data & APIs",
+    "command": "snow",
+    "useCase": "Snowflake workloads",
+    "description": "Run SQL and manage Snowflake developer workloads.",
+    "agentUse": "Use snow to run SQL and manage Snowflake developer workloads.",
+    "features": [
+      "SQL execution",
+      "Developer workloads",
+      "Resource management"
+    ],
+    "example": "snow --help",
+    "website": "https://github.com/snowflakedb/snowflake-cli#readme",
+    "docs": "https://github.com/snowflakedb/snowflake-cli#readme"
+  },
+  {
+    "slug": "databricks-cli",
+    "name": "Databricks CLI",
+    "repo": "databricks/cli",
+    "category": "Data & APIs",
+    "command": "databricks",
+    "useCase": "Databricks operations",
+    "description": "Manage Databricks workspaces, jobs, and deployments.",
+    "agentUse": "Use databricks to manage Databricks workspaces, jobs, and deployments.",
+    "features": [
+      "Workspace management",
+      "Jobs",
+      "Deployments"
+    ],
+    "example": "databricks --help",
+    "website": "https://github.com/databricks/cli#readme",
+    "docs": "https://github.com/databricks/cli#readme"
+  },
+  {
+    "slug": "confluent-cli",
+    "name": "Confluent CLI",
+    "repo": "confluentinc/cli",
+    "category": "Data & APIs",
+    "command": "confluent",
+    "useCase": "Confluent operations",
+    "description": "Manage Confluent Cloud and Platform resources.",
+    "agentUse": "Use confluent to manage Confluent Cloud and Platform resources.",
+    "features": [
+      "Cloud resources",
+      "Platform resources",
+      "Resource configuration"
+    ],
+    "example": "confluent --help",
+    "website": "https://github.com/confluentinc/cli#readme",
+    "docs": "https://github.com/confluentinc/cli#readme"
+  },
+  {
+    "slug": "clickhouse-client",
+    "name": "ClickHouse client",
+    "repo": "ClickHouse/ClickHouse",
+    "category": "Data & APIs",
+    "command": "clickhouse client",
+    "useCase": "ClickHouse analytics",
+    "description": "Query and load analytical data in ClickHouse.",
+    "agentUse": "Use clickhouse client to query and load analytical data in ClickHouse.",
+    "features": [
+      "Analytical SQL",
+      "Data loading",
+      "Query output"
+    ],
+    "example": "clickhouse client --help",
+    "website": "https://github.com/ClickHouse/ClickHouse#readme",
+    "docs": "https://clickhouse.com/docs/concepts/features/interfaces/client"
+  },
+  {
+    "slug": "influx-cli",
+    "name": "Influx CLI",
+    "repo": "influxdata/influx-cli",
+    "category": "Data & APIs",
+    "command": "influx",
+    "useCase": "InfluxDB v2 resources",
+    "description": "Query data and manage InfluxDB v2 resources.",
+    "agentUse": "Use influx to query data and manage InfluxDB v2 resources.",
+    "features": [
+      "Data queries",
+      "Resource management",
+      "CLI configuration"
+    ],
+    "example": "influx -h",
+    "website": "https://github.com/influxdata/influx-cli#readme",
+    "docs": "https://github.com/influxdata/influx-cli#readme"
+  },
+  {
+    "slug": "usql",
+    "name": "usql",
+    "repo": "xo/usql",
+    "category": "Data & APIs",
+    "command": "usql",
+    "useCase": "Cross-database SQL",
+    "description": "Execute SQL across multiple database systems.",
+    "agentUse": "Use usql to execute SQL across multiple database systems.",
+    "features": [
+      "SQL queries",
+      "Multiple database drivers",
+      "Interactive sessions"
+    ],
+    "example": "usql --help",
+    "website": "https://github.com/xo/usql#readme",
+    "docs": "https://github.com/xo/usql#readme"
+  },
+  {
+    "slug": "pgcli",
+    "name": "pgcli",
+    "repo": "dbcli/pgcli",
+    "category": "Data & APIs",
+    "command": "pgcli",
+    "useCase": "PostgreSQL terminal client",
+    "description": "Query PostgreSQL with a command-line SQL client.",
+    "agentUse": "Use pgcli to query PostgreSQL with a command-line SQL client.",
+    "features": [
+      "SQL queries",
+      "Completion",
+      "Syntax highlighting"
+    ],
+    "example": "pgcli --help",
+    "website": "https://github.com/dbcli/pgcli#readme",
+    "docs": "https://github.com/dbcli/pgcli#readme"
+  },
+  {
+    "slug": "mycli",
+    "name": "mycli",
+    "repo": "dbcli/mycli",
+    "category": "Data & APIs",
+    "command": "mycli",
+    "useCase": "MySQL terminal client",
+    "description": "Query MySQL and compatible databases from the terminal.",
+    "agentUse": "Use mycli to query MySQL and compatible databases from the terminal.",
+    "features": [
+      "SQL queries",
+      "Completion",
+      "Syntax highlighting"
+    ],
+    "example": "mycli --help",
+    "website": "https://github.com/dbcli/mycli#readme",
+    "docs": "https://github.com/dbcli/mycli#readme"
+  },
+  {
+    "slug": "litecli",
+    "name": "litecli",
+    "repo": "dbcli/litecli",
+    "category": "Data & APIs",
+    "command": "litecli",
+    "useCase": "SQLite terminal client",
+    "description": "Query SQLite databases from the terminal.",
+    "agentUse": "Use litecli to query SQLite databases from the terminal.",
+    "features": [
+      "SQLite queries",
+      "Completion",
+      "Syntax highlighting"
+    ],
+    "example": "litecli --help",
+    "website": "https://github.com/dbcli/litecli#readme",
+    "docs": "https://github.com/dbcli/litecli#readme"
+  },
+  {
+    "slug": "csvkit",
+    "name": "csvkit",
+    "repo": "wireservice/csvkit",
+    "category": "Data & APIs",
+    "command": "csvcut",
+    "useCase": "CSV processing",
+    "description": "Convert, inspect, query, and transform CSV data.",
+    "agentUse": "Use csvcut to convert, inspect, query, and transform CSV data.",
+    "features": [
+      "Format conversion",
+      "CSV inspection",
+      "SQL queries"
+    ],
+    "example": "csvcut --help",
+    "website": "https://github.com/wireservice/csvkit#readme",
+    "docs": "https://github.com/wireservice/csvkit#readme"
+  },
+  {
+    "slug": "qsv",
+    "name": "qsv",
+    "repo": "dathere/qsv",
+    "category": "Data & APIs",
+    "command": "qsv",
+    "useCase": "Tabular data processing",
+    "description": "Validate, filter, join, and transform tabular data.",
+    "agentUse": "Use qsv to validate, filter, join, and transform tabular data.",
+    "features": [
+      "Validation",
+      "Filtering and joins",
+      "Data transformation"
+    ],
+    "example": "qsv --help",
+    "website": "https://github.com/dathere/qsv#readme",
+    "docs": "https://github.com/dathere/qsv#readme"
+  },
+  {
+    "slug": "jujutsu",
+    "name": "Jujutsu (jj)",
+    "repo": "jj-vcs/jj",
+    "category": "Git & collaboration",
+    "command": "jj",
+    "useCase": "Git-compatible version control",
+    "description": "Manage version-control changes and Git-compatible repositories.",
+    "agentUse": "Use jj to manage version-control changes and Git-compatible repositories.",
+    "features": [
+      "Change management",
+      "Repository history",
+      "Git interoperability"
+    ],
+    "example": "jj status",
+    "website": "https://github.com/jj-vcs/jj#readme",
+    "docs": "https://github.com/jj-vcs/jj#readme"
+  },
+  {
+    "slug": "git-lfs",
+    "name": "Git LFS",
+    "repo": "git-lfs/git-lfs",
+    "category": "Git & collaboration",
+    "command": "git lfs",
+    "useCase": "Large Git files",
+    "description": "Track and transfer large files in Git repositories.",
+    "agentUse": "Use git lfs to track and transfer large files in Git repositories.",
+    "features": [
+      "Large file tracking",
+      "File transfer",
+      "Git integration"
+    ],
+    "example": "git lfs ls-files",
+    "website": "https://github.com/git-lfs/git-lfs#readme",
+    "docs": "https://github.com/git-lfs/git-lfs#readme"
+  },
+  {
+    "slug": "goreleaser",
+    "name": "GoReleaser",
+    "repo": "goreleaser/goreleaser",
+    "category": "Cloud & deployment",
+    "command": "goreleaser",
+    "useCase": "Software releases",
+    "description": "Build, package, and publish software releases.",
+    "agentUse": "Use goreleaser to build, package, and publish software releases.",
+    "features": [
+      "Release builds",
+      "Packaging",
+      "Publishing"
+    ],
+    "example": "goreleaser --help",
+    "website": "https://github.com/goreleaser/goreleaser#readme",
+    "docs": "https://github.com/goreleaser/goreleaser#readme"
+  },
+  {
+    "slug": "act",
+    "name": "act",
+    "repo": "nektos/act",
+    "category": "Testing & quality",
+    "command": "act",
+    "useCase": "Local GitHub Actions",
+    "description": "Run GitHub Actions workflows locally.",
+    "agentUse": "Use act to run GitHub Actions workflows locally.",
+    "features": [
+      "Local workflows",
+      "Job execution",
+      "Workflow debugging"
+    ],
+    "example": "act --list",
+    "website": "https://github.com/nektos/act#readme",
+    "docs": "https://github.com/nektos/act#readme"
+  },
+  {
+    "slug": "dagger-cli",
+    "name": "Dagger CLI",
+    "repo": "dagger/dagger",
+    "category": "Cloud & deployment",
+    "command": "dagger",
+    "useCase": "Delivery pipelines",
+    "description": "Execute programmable build, test, and delivery pipelines.",
+    "agentUse": "Use dagger to execute programmable build, test, and delivery pipelines.",
+    "features": [
+      "Build pipelines",
+      "Test pipelines",
+      "Delivery automation"
+    ],
+    "example": "dagger --help",
+    "website": "https://github.com/dagger/dagger#readme",
+    "docs": "https://github.com/dagger/dagger#readme"
+  },
+  {
+    "slug": "dev-container-cli",
+    "name": "Dev Container CLI",
+    "repo": "devcontainers/cli",
+    "category": "Packages & environments",
+    "command": "devcontainer",
+    "useCase": "Development containers",
+    "description": "Create and configure development containers.",
+    "agentUse": "Use devcontainer to create and configure development containers.",
+    "features": [
+      "Container creation",
+      "Development configuration",
+      "Container commands"
+    ],
+    "example": "devcontainer --help",
+    "website": "https://github.com/devcontainers/cli#readme",
+    "docs": "https://github.com/devcontainers/cli#readme"
+  },
+  {
+    "slug": "devspace",
+    "name": "DevSpace",
+    "repo": "devspace-sh/devspace",
+    "category": "Cloud & deployment",
+    "command": "devspace",
+    "useCase": "Kubernetes development",
+    "description": "Automate development and deployment workflows on Kubernetes.",
+    "agentUse": "Use devspace to automate development and deployment workflows on Kubernetes.",
+    "features": [
+      "Development automation",
+      "Deployment workflows",
+      "Debugging"
+    ],
+    "example": "devspace --help",
+    "website": "https://github.com/devspace-sh/devspace#readme",
+    "docs": "https://github.com/devspace-sh/devspace#readme"
+  },
+  {
+    "slug": "garden",
+    "name": "Garden",
+    "repo": "garden-io/garden",
+    "category": "Cloud & deployment",
+    "command": "garden",
+    "useCase": "Kubernetes builds and tests",
+    "description": "Build and test applications in Kubernetes environments.",
+    "agentUse": "Use garden to build and test applications in Kubernetes environments.",
+    "features": [
+      "Application builds",
+      "Test execution",
+      "Deployments"
+    ],
+    "example": "garden --help",
+    "website": "https://github.com/garden-io/garden#readme",
+    "docs": "https://github.com/garden-io/garden#readme"
+  },
+  {
+    "slug": "k3d",
+    "name": "k3d",
+    "repo": "k3d-io/k3d",
+    "category": "Cloud & deployment",
+    "command": "k3d",
+    "useCase": "Local k3s clusters",
+    "description": "Create and manage k3s Kubernetes clusters in Docker.",
+    "agentUse": "Use k3d to create and manage k3s Kubernetes clusters in Docker.",
+    "features": [
+      "Cluster creation",
+      "Docker integration",
+      "Cluster management"
+    ],
+    "example": "k3d cluster list",
+    "website": "https://github.com/k3d-io/k3d#readme",
+    "docs": "https://github.com/k3d-io/k3d#readme"
+  },
+  {
+    "slug": "skaffold",
+    "name": "Skaffold",
+    "repo": "GoogleContainerTools/skaffold",
+    "category": "Cloud & deployment",
+    "command": "skaffold",
+    "useCase": "Kubernetes build cycles",
+    "description": "Automate Kubernetes application build and deployment cycles.",
+    "agentUse": "Use skaffold to automate Kubernetes application build and deployment cycles.",
+    "features": [
+      "Application builds",
+      "Deployment automation",
+      "Development loops"
+    ],
+    "example": "skaffold --help",
+    "website": "https://github.com/GoogleContainerTools/skaffold#readme",
+    "docs": "https://github.com/GoogleContainerTools/skaffold#readme"
+  },
+  {
+    "slug": "kustomize",
+    "name": "Kustomize",
+    "repo": "kubernetes-sigs/kustomize",
+    "category": "Cloud & deployment",
+    "command": "kustomize",
+    "useCase": "Kubernetes manifests",
+    "description": "Customize Kubernetes manifests with overlays and patches.",
+    "agentUse": "Use kustomize to customize Kubernetes manifests with overlays and patches.",
+    "features": [
+      "Manifest overlays",
+      "Patches",
+      "Configuration rendering"
+    ],
+    "example": "kustomize build ./overlays/production",
+    "website": "https://github.com/kubernetes-sigs/kustomize#readme",
+    "docs": "https://github.com/kubernetes-sigs/kustomize#readme"
+  },
+  {
+    "slug": "helmfile",
+    "name": "Helmfile",
+    "repo": "helmfile/helmfile",
+    "category": "Cloud & deployment",
+    "command": "helmfile",
+    "useCase": "Helm release collections",
+    "description": "Declare and synchronize collections of Helm releases.",
+    "agentUse": "Use helmfile to declare and synchronize collections of Helm releases.",
+    "features": [
+      "Release declarations",
+      "Release synchronization",
+      "Environment configuration"
+    ],
+    "example": "helmfile --help",
+    "website": "https://github.com/helmfile/helmfile#readme",
+    "docs": "https://github.com/helmfile/helmfile#readme"
+  },
+  {
+    "slug": "kubectx",
+    "name": "kubectx",
+    "repo": "ahmetb/kubectx",
+    "category": "Cloud & deployment",
+    "command": "kubectx",
+    "useCase": "Kubernetes context switching",
+    "description": "Switch Kubernetes contexts and namespaces.",
+    "agentUse": "Use kubectx to switch Kubernetes contexts and namespaces.",
+    "features": [
+      "Context switching",
+      "Namespace switching",
+      "Context listing"
+    ],
+    "example": "kubectx",
+    "website": "https://github.com/ahmetb/kubectx#readme",
+    "docs": "https://github.com/ahmetb/kubectx#readme"
+  },
+  {
+    "slug": "stern",
+    "name": "stern",
+    "repo": "stern/stern",
+    "category": "Cloud & deployment",
+    "command": "stern",
+    "useCase": "Kubernetes log streaming",
+    "description": "Stream logs from multiple Kubernetes pods and containers.",
+    "agentUse": "Use stern to stream logs from multiple Kubernetes pods and containers.",
+    "features": [
+      "Multiple pods",
+      "Container logs",
+      "Log filtering"
+    ],
+    "example": "stern --help",
+    "website": "https://github.com/stern/stern#readme",
+    "docs": "https://github.com/stern/stern#readme"
+  },
+  {
+    "slug": "eslint",
+    "name": "ESLint",
+    "repo": "eslint/eslint",
+    "category": "Testing & quality",
+    "command": "eslint",
+    "useCase": "JavaScript linting",
+    "description": "Find and fix problematic JavaScript code patterns.",
+    "agentUse": "Use eslint to find and fix problematic JavaScript code patterns.",
+    "features": [
+      "Code analysis",
+      "Lint rules",
+      "Automatic fixes"
+    ],
+    "example": "eslint --help",
+    "website": "https://github.com/eslint/eslint#readme",
+    "docs": "https://github.com/eslint/eslint#readme"
+  },
+  {
+    "slug": "prettier",
+    "name": "Prettier",
+    "repo": "prettier/prettier",
+    "category": "Testing & quality",
+    "command": "prettier",
+    "useCase": "Code formatting",
+    "description": "Format source code and markup consistently.",
+    "agentUse": "Use prettier to format source code and markup consistently.",
+    "features": [
+      "Source formatting",
+      "Markup formatting",
+      "Style consistency"
+    ],
+    "example": "prettier --help",
+    "website": "https://github.com/prettier/prettier#readme",
+    "docs": "https://github.com/prettier/prettier#readme"
+  },
+  {
+    "slug": "deno",
+    "name": "Deno",
+    "repo": "denoland/deno",
+    "category": "Packages & environments",
+    "command": "deno",
+    "useCase": "JavaScript and TypeScript runtime",
+    "description": "Execute, test, and manage JavaScript and TypeScript programs.",
+    "agentUse": "Use deno to execute, test, and manage JavaScript and TypeScript programs.",
+    "features": [
+      "Program execution",
+      "Tests",
+      "Project management"
+    ],
+    "example": "deno --help",
+    "website": "https://github.com/denoland/deno#readme",
+    "docs": "https://github.com/denoland/deno#readme"
+  },
+  {
+    "slug": "npm",
+    "name": "npm",
+    "repo": "npm/cli",
+    "category": "Packages & environments",
+    "command": "npm",
+    "useCase": "JavaScript packages",
+    "description": "Manage JavaScript packages and execute project scripts.",
+    "agentUse": "Use npm to manage JavaScript packages and execute project scripts.",
+    "features": [
+      "Package management",
+      "Dependency installation",
+      "Project scripts"
+    ],
+    "example": "npm --help",
+    "website": "https://github.com/npm/cli#readme",
+    "docs": "https://github.com/npm/cli#readme"
+  },
+  {
+    "slug": "poetry",
+    "name": "Poetry",
+    "repo": "python-poetry/poetry",
+    "category": "Packages & environments",
+    "command": "poetry",
+    "useCase": "Python project packaging",
+    "description": "Manage Python dependencies, environments, and packaging.",
+    "agentUse": "Use poetry to manage Python dependencies, environments, and packaging.",
+    "features": [
+      "Dependencies",
+      "Virtual environments",
+      "Packaging"
+    ],
+    "example": "poetry --help",
+    "website": "https://github.com/python-poetry/poetry#readme",
+    "docs": "https://github.com/python-poetry/poetry#readme"
+  },
+  {
+    "slug": "pipx",
+    "name": "pipx",
+    "repo": "pypa/pipx",
+    "category": "Packages & environments",
+    "command": "pipx",
+    "useCase": "Isolated Python applications",
+    "description": "Install and run Python command-line applications in isolated environments.",
+    "agentUse": "Use pipx to install and run Python command-line applications in isolated environments.",
+    "features": [
+      "Application installation",
+      "Isolated environments",
+      "Tool execution"
+    ],
+    "example": "pipx list",
+    "website": "https://github.com/pypa/pipx#readme",
+    "docs": "https://github.com/pypa/pipx#readme"
+  },
+  {
+    "slug": "task",
+    "name": "Task",
+    "repo": "go-task/task",
+    "category": "Packages & environments",
+    "command": "task",
+    "useCase": "Taskfile automation",
+    "description": "Execute build and automation commands defined in Taskfiles.",
+    "agentUse": "Use task to execute build and automation commands defined in Taskfiles.",
+    "features": [
+      "Taskfiles",
+      "Build commands",
+      "Command automation"
+    ],
+    "example": "task --list",
+    "website": "https://github.com/go-task/task#readme",
+    "docs": "https://github.com/go-task/task#readme"
+  },
+  {
+    "slug": "watchexec",
+    "name": "watchexec",
+    "repo": "watchexec/watchexec",
+    "category": "Packages & environments",
+    "command": "watchexec",
+    "useCase": "File-triggered commands",
+    "description": "Rerun commands when watched files change.",
+    "agentUse": "Use watchexec to rerun commands when watched files change.",
+    "features": [
+      "File watching",
+      "Command reruns",
+      "Extension filters"
+    ],
+    "example": "watchexec --help",
+    "website": "https://github.com/watchexec/watchexec#readme",
+    "docs": "https://github.com/watchexec/watchexec#readme"
+  },
+  {
+    "slug": "hyperfine",
+    "name": "hyperfine",
+    "repo": "sharkdp/hyperfine",
+    "category": "Testing & quality",
+    "command": "hyperfine",
+    "useCase": "Command benchmarking",
+    "description": "Benchmark command execution and compare performance.",
+    "agentUse": "Use hyperfine to benchmark command execution and compare performance.",
+    "features": [
+      "Execution timing",
+      "Repeated measurements",
+      "Performance comparison"
+    ],
+    "example": "hyperfine 'sleep 0.3'",
+    "website": "https://github.com/sharkdp/hyperfine#readme",
+    "docs": "https://github.com/sharkdp/hyperfine#readme"
+  },
+  {
+    "slug": "mkcert",
+    "name": "mkcert",
+    "repo": "FiloSottile/mkcert",
+    "category": "Security & secrets",
+    "command": "mkcert",
+    "useCase": "Development certificates",
+    "description": "Create locally trusted certificates for development.",
+    "agentUse": "Use mkcert to create locally trusted certificates for development.",
+    "features": [
+      "Local certificates",
+      "Trust store integration",
+      "Development HTTPS"
+    ],
+    "example": "mkcert -help",
+    "website": "https://github.com/FiloSottile/mkcert#readme",
+    "docs": "https://github.com/FiloSottile/mkcert#readme"
+  },
+  {
+    "slug": "docling-cli",
+    "name": "Docling CLI",
+    "repo": "docling-project/docling",
+    "category": "Files & documents",
+    "command": "docling",
+    "useCase": "Document extraction",
+    "description": "Convert documents into structured formats for AI processing.",
+    "agentUse": "Use docling to convert documents into structured formats for AI processing.",
+    "features": [
+      "Document conversion",
+      "Structured output",
+      "AI processing"
+    ],
+    "example": "docling --help",
+    "website": "https://github.com/docling-project/docling#readme",
+    "docs": "https://github.com/docling-project/docling#readme"
+  },
+  {
+    "slug": "markitdown",
+    "name": "MarkItDown",
+    "repo": "microsoft/markitdown",
+    "category": "Files & documents",
+    "command": "markitdown",
+    "useCase": "Markdown conversion",
+    "description": "Convert documents and other files to Markdown for language-model workflows.",
+    "agentUse": "Use markitdown to convert documents and other files to Markdown for language-model workflows.",
+    "features": [
+      "Document conversion",
+      "Markdown output",
+      "Language-model inputs"
+    ],
+    "example": "markitdown document.pdf -o document.md",
+    "website": "https://github.com/microsoft/markitdown#readme",
+    "docs": "https://github.com/microsoft/markitdown#readme"
+  },
+  {
+    "slug": "hugo",
+    "name": "Hugo",
+    "repo": "gohugoio/hugo",
+    "category": "Files & documents",
+    "command": "hugo",
+    "useCase": "Static websites",
+    "description": "Build static websites from content and templates.",
+    "agentUse": "Use hugo to build static websites from content and templates.",
+    "features": [
+      "Content processing",
+      "Templates",
+      "Site generation"
+    ],
+    "example": "hugo --help",
+    "website": "https://github.com/gohugoio/hugo#readme",
+    "docs": "https://github.com/gohugoio/hugo#readme"
+  },
+  {
+    "slug": "mkdocs",
+    "name": "MkDocs",
+    "repo": "mkdocs/mkdocs",
+    "category": "Files & documents",
+    "command": "mkdocs",
+    "useCase": "Markdown documentation sites",
+    "description": "Build documentation websites from Markdown.",
+    "agentUse": "Use mkdocs to build documentation websites from Markdown.",
+    "features": [
+      "Markdown pages",
+      "Site builds",
+      "Documentation navigation"
+    ],
+    "example": "mkdocs --help",
+    "website": "https://github.com/mkdocs/mkdocs#readme",
+    "docs": "https://github.com/mkdocs/mkdocs#readme"
+  },
+  {
+    "slug": "asciidoctor",
+    "name": "Asciidoctor",
+    "repo": "asciidoctor/asciidoctor",
+    "category": "Files & documents",
+    "command": "asciidoctor",
+    "useCase": "AsciiDoc publishing",
+    "description": "Convert AsciiDoc documents to HTML and DocBook.",
+    "agentUse": "Use asciidoctor to convert AsciiDoc documents to HTML and DocBook.",
+    "features": [
+      "AsciiDoc conversion",
+      "HTML output",
+      "DocBook output"
+    ],
+    "example": "asciidoctor README.adoc",
+    "website": "https://github.com/asciidoctor/asciidoctor#readme",
+    "docs": "https://github.com/asciidoctor/asciidoctor#readme"
+  },
+  {
+    "slug": "quarto-cli",
+    "name": "Quarto CLI",
+    "repo": "quarto-dev/quarto-cli",
+    "category": "Files & documents",
+    "command": "quarto",
+    "useCase": "Technical publishing",
+    "description": "Publish technical documents, reports, books, and websites.",
+    "agentUse": "Use quarto to publish technical documents, reports, books, and websites.",
+    "features": [
+      "Reports and documents",
+      "Books",
+      "Websites"
+    ],
+    "example": "quarto --help",
+    "website": "https://github.com/quarto-dev/quarto-cli#readme",
+    "docs": "https://github.com/quarto-dev/quarto-cli#readme"
+  },
+  {
+    "slug": "marp-cli",
+    "name": "Marp CLI",
+    "repo": "marp-team/marp-cli",
+    "category": "Files & documents",
+    "command": "marp",
+    "useCase": "Markdown presentations",
+    "description": "Convert Markdown slide decks to presentation formats.",
+    "agentUse": "Use marp to convert Markdown slide decks to presentation formats.",
+    "features": [
+      "Slide decks",
+      "HTML output",
+      "Presentation export"
+    ],
+    "example": "marp slide-deck.md -o output.html",
+    "website": "https://github.com/marp-team/marp-cli#readme",
+    "docs": "https://github.com/marp-team/marp-cli#readme"
+  },
+  {
+    "slug": "mermaid-cli",
+    "name": "Mermaid CLI",
+    "repo": "mermaid-js/mermaid-cli",
+    "category": "Files & documents",
+    "command": "mmdc",
+    "useCase": "Diagram rendering",
+    "description": "Render Mermaid diagrams as image or PDF files.",
+    "agentUse": "Use mmdc to render Mermaid diagrams as image or PDF files.",
+    "features": [
+      "Mermaid diagrams",
+      "Image output",
+      "PDF output"
+    ],
+    "example": "mmdc -i input.mmd -o output.svg",
+    "website": "https://github.com/mermaid-js/mermaid-cli#readme",
+    "docs": "https://github.com/mermaid-js/mermaid-cli#readme"
+  },
+  {
+    "slug": "vips-cli",
+    "name": "vips CLI",
+    "repo": "libvips/libvips",
+    "category": "Files & documents",
+    "command": "vips",
+    "useCase": "Batch image processing",
+    "description": "Process, transform, and convert images in batch workflows.",
+    "agentUse": "Use vips to process, transform, and convert images in batch workflows.",
+    "features": [
+      "Image transforms",
+      "Format conversion",
+      "Batch workflows"
+    ],
+    "example": "vips --help",
+    "website": "https://github.com/libvips/libvips#readme",
+    "docs": "https://www.libvips.org/API/current/using-the-cli.html"
+  },
+  {
+    "slug": "exiftool",
+    "name": "ExifTool",
+    "repo": "exiftool/exiftool",
+    "category": "Files & documents",
+    "command": "exiftool",
+    "useCase": "File metadata",
+    "description": "Read, write, and edit file metadata.",
+    "agentUse": "Use exiftool to read, write, and edit file metadata.",
+    "features": [
+      "Metadata reading",
+      "Metadata writing",
+      "Metadata editing"
+    ],
+    "example": "exiftool image.jpg",
+    "website": "https://github.com/exiftool/exiftool#readme",
+    "docs": "https://github.com/exiftool/exiftool#readme"
+  },
+  {
+    "slug": "whisper-cli",
+    "name": "whisper-cli",
+    "repo": "ggml-org/whisper.cpp",
+    "category": "Files & documents",
+    "command": "whisper-cli",
+    "useCase": "Local speech transcription",
+    "description": "Transcribe audio locally using Whisper models.",
+    "agentUse": "Use whisper-cli to transcribe audio locally using Whisper models.",
+    "features": [
+      "Whisper models",
+      "Audio transcription",
+      "Local execution"
+    ],
+    "example": "whisper-cli -h",
+    "website": "https://github.com/ggml-org/whisper.cpp#readme",
+    "docs": "https://github.com/ggml-org/whisper.cpp#readme"
+  },
+  {
+    "slug": "typst",
+    "name": "Typst",
+    "repo": "typst/typst",
+    "category": "Files & documents",
+    "command": "typst",
+    "useCase": "Document typesetting",
+    "description": "Compile typeset documents from Typst source files.",
+    "agentUse": "Use typst to compile typeset documents from Typst source files.",
+    "features": [
+      "Typeset documents",
+      "Source compilation",
+      "PDF output"
+    ],
+    "example": "typst compile document.typ",
+    "website": "https://github.com/typst/typst#readme",
+    "docs": "https://github.com/typst/typst#readme"
+  },
+  {
+    "slug": "mutool",
+    "name": "mutool",
+    "repo": "ArtifexSoftware/mupdf",
+    "category": "Files & documents",
+    "command": "mutool",
+    "useCase": "PDF inspection and rendering",
+    "description": "Inspect, render, and convert PDF documents.",
+    "agentUse": "Use mutool to inspect, render, and convert PDF documents.",
+    "features": [
+      "Document inspection",
+      "Page rendering",
+      "Format conversion"
+    ],
+    "example": "mutool draw -h",
+    "website": "https://github.com/ArtifexSoftware/mupdf#readme",
+    "docs": "https://mupdf.readthedocs.io/en/latest/tools/index.html"
+  },
+  {
+    "slug": "pdfcpu",
+    "name": "pdfcpu",
+    "repo": "pdfcpu/pdfcpu",
+    "category": "Files & documents",
+    "command": "pdfcpu",
+    "useCase": "PDF processing",
+    "description": "Validate, merge, split, and process PDF files.",
+    "agentUse": "Use pdfcpu to validate, merge, split, and process PDF files.",
+    "features": [
+      "Validation",
+      "Merge and split",
+      "PDF transformations"
+    ],
+    "example": "pdfcpu help",
+    "website": "https://github.com/pdfcpu/pdfcpu#readme",
+    "docs": "https://github.com/pdfcpu/pdfcpu#readme"
+  },
+  {
+    "slug": "miniserve",
+    "name": "miniserve",
+    "repo": "svenstaro/miniserve",
+    "category": "Files & documents",
+    "command": "miniserve",
+    "useCase": "Local file serving",
+    "description": "Serve files and directories over HTTP.",
+    "agentUse": "Use miniserve to serve files and directories over HTTP.",
+    "features": [
+      "HTTP serving",
+      "Files",
+      "Directory browsing"
+    ],
+    "example": "miniserve ./public",
+    "website": "https://github.com/svenstaro/miniserve#readme",
+    "docs": "https://github.com/svenstaro/miniserve#readme"
   }
 ]

@@ -6,17 +6,17 @@ import { starWindow } from '../src/lib/star-history.mjs';
 import { tools, categories } from '../src/data/tools.ts';
 const catalog = JSON.parse(await readFile(new URL('../src/data/catalog.json', import.meta.url)));
 const sourceList = JSON.parse(await readFile(new URL('../src/data/cli-source-list.json', import.meta.url)));
-test('All 100 supplied CLIs appear exactly once with their original workflow labels', () => {
-  assert.deepEqual(sourceList.map(row => row.id), Array.from({ length: 100 }, (_, i) => String(i + 1)));
-  const documented = new Set(['1', '2', '3', '4', '5', '6', '7', '8', '10', '11', '12', '13', '14', '16', '17', '20']);
-  assert.equal(new Set(sourceList.map(row => row.github_url.toLowerCase())).size, 100);
+test('All 200 supplied CLIs appear exactly once with their original workflow labels', () => {
+  assert.deepEqual(sourceList.map(row => row.id), Array.from({ length: 200 }, (_, i) => String(i + 1)));
+  const documented = new Set(['1', '2', '3', '4', '5', '6', '7', '8', '10', '11', '12', '13', '14', '16', '17', '20', '108', '109', '110', '111', '121', '122', '123', '124', '127', '186', '187']);
+  assert.equal(new Set(sourceList.map(row => row.github_url.toLowerCase())).size, 200);
   assert.equal(new Set(tools.map(tool => tool.repo.toLowerCase())).size, tools.length);
   for (const row of sourceList) {
     const matches = tools.filter(tool => `https://github.com/${tool.repo}`.toLowerCase() === row.github_url.toLowerCase());
     assert.equal(matches.length, 1, row.cli_name);
     const tool = matches[0];
     assert.ok(row.cli_name.trim() && row.description.trim());
-    assert.equal(row.agent_ai_workflow_support, documented.has(row.id) ? 'Documented' : 'Not marked in source list');
+    assert.equal(row.agent_ai_workflow_support, documented.has(row.id) ? 'Documented' : Number(row.id) > 100 ? 'Not assessed' : 'Not marked in source list');
     assert.equal(tool.agentWorkflowSupport, row.agent_ai_workflow_support);
     assert.ok(filterTools(tools, { query: row.cli_name }).some(result => result.slug === tool.slug), `${row.cli_name} is searchable`);
   }
