@@ -56,7 +56,7 @@ jobs:
           const report = JSON.parse(await readFile('artifacts/discovery-report.json', 'utf8'));
           const counts = {};
           for (const item of report.outcomes) counts[item.status] = (counts[item.status] || 0) + 1;
-          await appendFile(process.env.GITHUB_STEP_SUMMARY, `Discovery checked ${report.outcomes.length} candidates; ${report.accepted.length} qualified.\n\n${JSON.stringify(counts)}\n`);
+          await appendFile(process.env.GITHUB_STEP_SUMMARY, `Discovery checked ${report.outcomes.length} candidates; ${report.accepted.length} qualified.\n\n${JSON.stringify(counts)}\n\n${report.message ?? ""}\n`);
           NODE
       - name: Save discovery report
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
@@ -64,15 +64,15 @@ jobs:
           name: cli-discovery-report
           path: artifacts/discovery-report.json
           retention-days: 30
-      - name: Collect metadata and avatars for the expanded catalog
-        if: ${{ !inputs.dry_run && steps.discovery.outputs.additions != '0' }}
-        run: npm run refresh
+      - name: Collect metadata and avatars for new additions
+        if: ${{ !inputs.dry_run && steps.discovery.outputs.additions > 0 }}
+        run: npm run refresh:additions
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Validate publication
-        if: ${{ !inputs.dry_run }}
+        if: ${{ !inputs.dry_run && steps.discovery.outputs.additions > 0 }}
         run: npm run build:design-system && npm run check && npm test && npm run check:design-system && npm run build && npm run check:links
-      - name: Commit validated additions and discovery evidence
+      - name: Commit additions or discovery progress
         if: ${{ !inputs.dry_run }}
         run: |
           git config user.name "github-actions[bot]"
@@ -83,9 +83,9 @@ jobs:
             # Reject concurrent human changes; never force-push or publish an unvalidated rebase.
             git push origin HEAD:main
           fi
-      # Dispatch even on an unchanged rerun, so a failed earlier dispatch is recoverable.
+      # State-only commits do not change the site. Recover failed dispatches by running ci.yml.
       - name: Publish through the main validation pipeline
-        if: ${{ !inputs.dry_run }}
+        if: ${{ !inputs.dry_run && steps.discovery.outputs.additions > 0 }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run ci.yml --ref main

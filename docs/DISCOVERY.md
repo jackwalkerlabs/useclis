@@ -1,6 +1,6 @@
 # Automatic CLI discovery
 
-Cloudflare Worker `useclis-discovery` runs daily at **07:43 UTC** and dispatches the GitHub **Discover and publish CLIs** workflow on main. GitHub performs discovery, records evidence in Git, refreshes metadata, validates the expanded site, commits qualifying additions, and dispatches the existing production pipeline. There is no public HTTP trigger. The website remains static.
+Cloudflare Worker `useclis-discovery` is configured to run **hourly at minute 43 UTC** after activation and dispatches the GitHub **Discover and publish CLIs** workflow on main. GitHub performs discovery, records evidence in Git, refreshes metadata for new entries, validates the expanded site, commits qualifying additions, and dispatches the existing production pipeline. There is no public HTTP trigger. The website remains static.
 
 ## Admission rules
 
@@ -23,7 +23,11 @@ The scanner reads three GitHub searches and a rotating slice of Homebrew/core's 
 
 `discovery/state.json` stores candidate status, check time, admission reason, observed counts, and source evidence. Repository source URLs are pinned to the inspected commit. Homebrew evidence includes the source generation date. Held candidates are eligible for another check after 30 days. A `rejected` status suppresses future consideration until manually changed. Existing accepted listings are never automatically removed because adoption later drops.
 
-Provider errors fail the run before applying discovery results. After application, metadata or validation failures prevent any commit or deployment. Discovery and daily snapshot updates share a concurrency lock. A concurrent human push causes the bot push to fail; it never force-pushes or rebases unvalidated data. Rerun the workflow against current main to recover. CI dispatch is repeated even on an unchanged rerun so interrupted publication can recover.
+Discovery stops before spending its 100-request GitHub core reserve, before the search budget drops below one remaining request, or after 600 GitHub requests in one run. Response headers track core and search budgets separately. Completed candidate decisions and admissions survive a proactive pause; the interrupted candidate remains pending without a held status. A rate-limit response discards the uncommitted batch so metadata requests do not follow it. A pause during source collection leaves source cursors unchanged for the next run. Other provider errors fail the run before applying discovery results.
+
+After application, metadata or validation failures prevent any commit or deployment. Discovery and daily snapshot updates share a concurrency lock. A concurrent human push causes the bot push to fail; it never force-pushes or rebases unvalidated data. Rerun the workflow against current main to recover.
+
+Runs with no additions commit only discovery progress and skip metadata refresh, site validation, build, and deployment. New additions use `npm run refresh:additions`, which selects the accepted slugs from the report for repository, activity, star, Homebrew, owner, and mapped download snapshots. Existing records remain unchanged except an owner shared with a new entry can be refreshed. The daily snapshot workflow continues to refresh the full catalog at 06:17 UTC. If a commit succeeds but deployment dispatch fails, run `gh workflow run ci.yml --ref main --repo jackwalkerlabs/useclis` to recover; an empty discovery rerun does not redeploy.
 
 ## Preview locally
 
@@ -37,7 +41,7 @@ Review `artifacts/discovery-report.json` for proposed entries, held reasons, and
 
 ```sh
 npm run discover -- --apply
-npm run refresh
+npm run refresh:additions
 npm run build:design-system
 npm run check
 npm test
@@ -50,7 +54,7 @@ Only the GitHub workflow commits and publishes; the local command never pushes. 
 
 ## Activate
 
-Merge the discovery workflow into main before enabling the Cloudflare schedule.
+Merge the hourly safeguards into main before enabling the Cloudflare schedule. The checked-in cron is desired configuration, not evidence that the deployed scheduler is active. The dispatch token must be installed before activation.
 
 1. Configure production deployment as described in [RELEASING.md](RELEASING.md#automatic-deployment-from-main): repository secret `CLOUDFLARE_API_TOKEN`, variable `CLOUDFLARE_ACCOUNT_ID`, and variable `CLOUDFLARE_DEPLOY_ENABLED=true`. The publishing job checks these before making changes. The account ID identifies the deployment account and is supplied through the environment instead of source code.
 2. Create a **fine-grained GitHub personal access token** restricted to `jackwalkerlabs/useclis`, with repository **Actions: Read and write** permission. No Contents write permission is needed by the scheduler. Use an appropriate expiration date and rotate before it expires. Do not reuse a broad local `gh` login token.

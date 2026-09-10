@@ -12,6 +12,12 @@ const MAX_BYTES = 8_000_000;
 export class SourceTooLargeError extends Error {
   constructor(url) { super(`${new URL(url).hostname}${new URL(url).pathname}: source exceeds size limit`); }
 }
+export class BudgetPause extends Error {
+  constructor(message, { rateLimited = false } = {}) {
+    super(message);
+    this.rateLimited = rateLimited;
+  }
+}
 const freshDate = (date, now) => {
   if (typeof date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(Date.parse(date))) return false;
   const age = Date.parse(now) - Date.parse(date);
@@ -20,6 +26,9 @@ const freshDate = (date, now) => {
 
 /** Credentials are sent only to GitHub; provider redirects cannot forward them. */
 export function createClient(token, fetcher = fetch) {
+  // Leave capacity for up to ten new-entry refreshes, the evidence commit, and dispatch.
+  const remaining = new Map();
+  let requests = 0;
   return async function request(url, { optional = false, text = false } = {}) {
     const host = new URL(url).hostname;
     if (!['api.github.com', 'formulae.brew.sh'].includes(host) || !url.startsWith('https://')) throw new Error('Unsupported source host');
@@ -29,14 +38,33 @@ export function createClient(token, fetcher = fetch) {
     };
     let response;
     for (let attempt = 0; attempt < 3; attempt++) {
+      if (host === 'api.github.com') {
+        const resource = new URL(url).pathname.startsWith('/search/') ? 'search' : 'core';
+        if (requests >= 600 || remaining.get(resource) <= (resource === 'core' ? 100 : 1)) {
+          throw new BudgetPause('GitHub request budget low; remaining candidates deferred to the next run');
+        }
+        requests++;
+      }
       try {
         response = await fetcher(url, { ...options, signal: AbortSignal.timeout(20_000) });
+        if (host === 'api.github.com') {
+          const count = response.headers.get('x-ratelimit-remaining');
+          const resource = response.headers.get('x-ratelimit-resource') ?? (new URL(url).pathname.startsWith('/search/') ? 'search' : 'core');
+          if (count !== null && /^\d+$/.test(count)) remaining.set(resource, Number(count));
+        }
         if (response.status < 500 || attempt === 2) break;
         await response.body?.cancel();
       } catch (error) {
         if (attempt === 2) throw new Error(`${host}${new URL(url).pathname}: ${error.message}`);
       }
       await delay(500 * (attempt + 1));
+    }
+    if (host === 'api.github.com') {
+      const count = response.headers.get('x-ratelimit-remaining');
+      if (response.status === 429 || (response.status === 403 && (count === '0' || response.headers.has('retry-after')))) {
+        await response.body?.cancel();
+        throw new BudgetPause(`GitHub HTTP ${response.status} rate limit; defer this run without publication`, { rateLimited: true });
+      }
     }
     if (optional && [301, 404].includes(response.status)) return null;
     if (!response.ok) throw new Error(`${host}: HTTP ${response.status}`);
@@ -173,53 +201,67 @@ export async function discover({ catalog, state, mappings, config, request, now 
   const outcomes = [];
   const available = remainingToday(next, now, config.maxPerDay);
   if (!available) return { catalog, state, mappings, accepted, outcomes, message: 'Daily publication cap reached' };
-  const found = await collectCandidates(request, next, config, now);
+  let found;
+  try { found = await collectCandidates(request, next, config, now); }
+  catch (error) {
+    if (!(error instanceof BudgetPause)) throw error;
+    return { catalog, state, mappings, accepted: [], outcomes: [], message: error.message };
+  }
   let checked = 0;
   let cursor = 0;
-  for (; cursor < found.candidates.length; cursor++) {
-    if (checked >= config.maxCandidates || accepted.length >= available) break;
-    const candidate = found.candidates[cursor];
-    const key = candidate.repo.toLowerCase();
-    const previous = next.candidates[key];
-    if (entries.some(tool => tool.repo.toLowerCase() === key) || previous?.status === 'rejected' || previous?.status === 'accepted') continue;
-    if (previous?.checkedAt && Date.parse(now) - Date.parse(previous.checkedAt) < config.recheckDays * 86400000) continue;
-    checked++;
-    if (candidate.formula && !candidate.brew) candidate.brew = await fetchFormula(request, candidate.formula, now);
-    let repo;
-    try { repo = await request(`${API}/repos/${candidate.repo}`, { optional: true }); }
-    catch (error) {
-      if (!(error instanceof SourceTooLargeError)) throw error;
-      next.candidates[key] = { status: 'held', checkedAt: now, reason: error.message };
-      outcomes.push({ repo: key, status: 'held', reason: error.message });
-      continue;
-    }
-    // GitHub redirects are not followed. Renamed repositories are held until rediscovered canonically.
-    if (!repo) {
-      next.candidates[key] = { status: 'held', checkedAt: now, reason: 'Repository unavailable or renamed' };
-      outcomes.push({ repo: key, status: 'held', reason: 'Repository unavailable or renamed' });
-      continue;
-    }
-    const brew = candidate.brew && { repo: candidate.brew.repo, formula: candidate.brew.formula, count: candidate.brew.count, source: candidate.brew.source, generatedDate: candidate.brew.generatedDate };
-    let result = evaluateCandidate({ repo, declarations: [], docs: [], brew, config, existing: entries });
-    if (result.reason === 'No matching package declaration, installation, and useful command example') {
-      try {
-        const evidence = await collectEvidence(request, candidate, repo);
-        result = evaluateCandidate({ repo, ...evidence, brew, config, existing: entries });
-        if (result.evidence) result.evidence.commit = evidence.commit;
-      } catch (error) {
+  let message;
+  try {
+    for (; cursor < found.candidates.length; cursor++) {
+      if (checked >= config.maxCandidates || accepted.length >= available) break;
+      const candidate = found.candidates[cursor];
+      const key = candidate.repo.toLowerCase();
+      const previous = next.candidates[key];
+      if (entries.some(tool => tool.repo.toLowerCase() === key) || previous?.status === 'rejected' || previous?.status === 'accepted') continue;
+      if (previous?.checkedAt && Date.parse(now) - Date.parse(previous.checkedAt) < config.recheckDays * 86400000) continue;
+      checked++;
+      if (candidate.formula && !candidate.brew) candidate.brew = await fetchFormula(request, candidate.formula, now);
+      let repo;
+      try { repo = await request(`${API}/repos/${candidate.repo}`, { optional: true }); }
+      catch (error) {
         if (!(error instanceof SourceTooLargeError)) throw error;
-        result = { status: 'held', reason: error.message };
+        next.candidates[key] = { status: 'held', checkedAt: now, reason: error.message };
+        outcomes.push({ repo: key, status: 'held', reason: error.message });
+        continue;
       }
+      // GitHub redirects are not followed. Renamed repositories are held until rediscovered canonically.
+      if (!repo) {
+        next.candidates[key] = { status: 'held', checkedAt: now, reason: 'Repository unavailable or renamed' };
+        outcomes.push({ repo: key, status: 'held', reason: 'Repository unavailable or renamed' });
+        continue;
+      }
+      const brew = candidate.brew && { repo: candidate.brew.repo, formula: candidate.brew.formula, count: candidate.brew.count, source: candidate.brew.source, generatedDate: candidate.brew.generatedDate };
+      let result = evaluateCandidate({ repo, declarations: [], docs: [], brew, config, existing: entries });
+      if (result.reason === 'No matching package declaration, installation, and useful command example') {
+        try {
+          const evidence = await collectEvidence(request, candidate, repo);
+          result = evaluateCandidate({ repo, ...evidence, brew, config, existing: entries });
+          if (result.evidence) result.evidence.commit = evidence.commit;
+        } catch (error) {
+          if (!(error instanceof SourceTooLargeError)) throw error;
+          result = { status: 'held', reason: error.message };
+        }
+      }
+      const record = { status: result.status, checkedAt: now, reason: result.reason };
+      if (result.status === 'accepted') {
+        entries.push(result.entry);
+        accepted.push(result.entry);
+        Object.assign(record, { slug: result.entry.slug, acceptedAt: now, evidence: result.evidence });
+        if (brew && !Object.values(nextMappings).some(mapping => mapping.formula === brew.formula)) nextMappings[result.entry.slug] = { formula: brew.formula, repo: repo.full_name };
+      }
+      next.candidates[key] = record;
+      outcomes.push({ repo: key, status: result.status, reason: result.reason });
     }
-    const record = { status: result.status, checkedAt: now, reason: result.reason };
-    if (result.status === 'accepted') {
-      entries.push(result.entry);
-      accepted.push(result.entry);
-      Object.assign(record, { slug: result.entry.slug, acceptedAt: now, evidence: result.evidence });
-      if (brew && !Object.values(nextMappings).some(mapping => mapping.formula === brew.formula)) nextMappings[result.entry.slug] = { formula: brew.formula, repo: repo.full_name };
-    }
-    next.candidates[key] = record;
-    outcomes.push({ repo: key, status: result.status, reason: result.reason });
+  } catch (error) {
+    if (!(error instanceof BudgetPause)) throw error;
+    // An actual rate limit leaves no safe capacity for metadata or publication.
+    // Roll back this batch and retry all its candidates next time.
+    if (error.rateLimited) return { catalog, state, mappings, accepted: [], outcomes: [], message: error.message };
+    message = error.message;
   }
   // Progress search windows only after processing the batch successfully.
   next.searchPage = found.searchPage;
@@ -229,7 +271,7 @@ export async function discover({ catalog, state, mappings, config, request, now 
     return { repo: candidate.repo, ...(formula ? { formula } : {}) };
   });
   next.lastRunAt = now;
-  return { catalog: entries, state: next, mappings: nextMappings, accepted, outcomes };
+  return { catalog: entries, state: next, mappings: nextMappings, accepted, outcomes, ...(message ? { message } : {}) };
 }
 
 async function main() {

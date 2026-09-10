@@ -1,4 +1,5 @@
 import { readFile, writeFile, rename } from 'node:fs/promises';
+import { selectRefreshEntries } from './lib/refresh-selection.mjs';
 import { downloadSources, mappingIdentity, refreshDownloadEntry, validateDownloadMappings } from '../src/lib/downloads.mjs';
 
 const read = async name => JSON.parse(await readFile(new URL(`../src/data/${name}.json`, import.meta.url)));
@@ -14,8 +15,14 @@ const now = new Date().toISOString();
 let failures = 0;
 let refreshed = 0;
 let cached = 0;
+const selected = new Set(selectRefreshEntries(Object.entries(mappings), process.env.REFRESH_SLUGS, ([slug]) => slug).map(([slug]) => slug));
 // Sequential requests keep provider load modest. Do not repeatedly query daily data.
 for (const [slug, mapping] of Object.entries(mappings)) {
+  if (!selected.has(slug)) {
+    snapshots[slug] = previous[slug] ?? {};
+    history[slug] = histories[slug] ?? {};
+    continue;
+  }
   snapshots[slug] = {};
   history[slug] = {};
   for (const source of downloadSources.filter(source => mapping[source])) {

@@ -17,6 +17,7 @@
     "snapshot-stars": "node scripts/snapshot-stars.mjs",
     "refresh-profiles": "node scripts/refresh-profiles.mjs",
     "refresh": "npm run refresh-data && npm run refresh-activity && npm run snapshot-stars && npm run refresh-homebrew && npm run refresh-profiles && npm run refresh-downloads",
+    "refresh:additions": "node scripts/refresh-additions.mjs",
     "discover": "node scripts/discover-clis.mjs",
     "deploy:discovery": "wrangler deploy --config workers/discovery/wrangler.jsonc",
     "check:links": "node scripts/check-links.mjs",
