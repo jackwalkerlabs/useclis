@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { packageCommands, formulaCommands, evaluateCandidate, remainingToday, validateConfig } from './lib/cli-evidence.mjs';
-import { brewCandidates, createClient, discover } from './discover-clis.mjs';
+import { brewCandidates, createClient, discover, SourceTooLargeError } from './discover-clis.mjs';
 import { dispatchDiscovery } from '../workers/discovery/index.mjs';
 
 const config = JSON.parse(await readFile(new URL('../discovery/config.json', import.meta.url)));
@@ -103,6 +103,7 @@ test('HTTP failures stop discovery, and GitHub credentials never reach Homebrew 
   for (const status of [301, 403, 429, 500]) {
     await assert.rejects(createClient('test', async () => new Response(null, { status }))('https://api.github.com/repos/sample/query-cli'), /HTTP/);
   }
+  await assert.rejects(createClient('test', async () => new Response('oversize', { headers: { 'content-length': '9000000' } }))('https://api.github.com/repos/sample/query-cli'), SourceTooLargeError);
 });
 
 test('Cloudflare dispatch is fixed to the main workflow and reports failed delivery', async () => {
@@ -154,6 +155,11 @@ test('End-to-end discovery pins evidence, preserves editorial data, obeys rerun 
   assert.deepEqual(result.catalog[0], catalog[0]);
   assert.deepEqual(state.candidates, {}, 'Caller state is unchanged');
   assert.equal(catalog.length, 1);
+  const oversized = await discover({ ...input, request: async url => { if (url.includes('/git/trees/')) throw new SourceTooLargeError(url); return request(url); } });
+  assert.equal(oversized.accepted.length, 0);
+  assert.equal(oversized.state.candidates['sample/query-cli'].status, 'held');
+  assert.match(oversized.state.candidates['sample/query-cli'].reason, /size limit/);
+  await assert.rejects(discover({ ...input, request: async url => { throw new SourceTooLargeError(url); } }), SourceTooLargeError, 'Oversized global discovery responses still fail closed');
   assert.equal(result.state.candidates['sample/query-cli'].evidence.commit, sha);
   assert.ok(result.accepted[0].docs.includes(sha));
   const rerun = await discover({ ...input, state: result.state, catalog: result.catalog });
