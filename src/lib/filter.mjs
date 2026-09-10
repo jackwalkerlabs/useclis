@@ -4,5 +4,8 @@ export function filterTools(tools, { query = '', category = 'All categories', so
   return tools.filter(tool => {
     const text = [tool.name, tool.sourceListName, tool.description, tool.category, tool.repo, tool.command, tool.useCase, tool.agentUse, ...(tool.features ?? [])].join(' ').toLocaleLowerCase();
     return words.every(word => text.includes(word)) && (category === 'All categories' || tool.category === category) && (!onlySaved || saved.includes(tool.slug));
-  }).sort((a, b) => sort === 'stars' ? (b.stars ?? 0) - (a.stars ?? 0) : sort === 'name' ? a.name.localeCompare(b.name) : Number(Boolean(b.featured)) - Number(Boolean(a.featured)));
+  }).sort((a, b) => {
+    if (sort === 'homebrew') return (b.homebrew?.counts['30d'] ?? -1) - (a.homebrew?.counts['30d'] ?? -1) || a.name.localeCompare(b.name);
+    return sort === 'stars' ? (b.stars ?? 0) - (a.stars ?? 0) : sort === 'name' ? a.name.localeCompare(b.name) : Number(Boolean(b.featured)) - Number(Boolean(a.featured));
+  });
 }

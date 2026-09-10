@@ -109,3 +109,22 @@
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* Keep the Homebrew signal visible when its desktop column is hidden. */
+.mobile-brew { display: none; }
+.brew-count { white-space: nowrap; }
+.brew-explanation { margin-top: 12px; font-size: 12px; line-height: 1.6; color: var(--text-muted); }
+.brew-explanation a { text-decoration: underline; }
+.leaderboard-table th.brew-column { width: 140px; }
+.leaderboard-table .brew-column button { max-width: 140px; text-align: right; justify-content: flex-end; }
+.leaderboard-table .brew-column button svg { flex-shrink: 0; }
+.leaderboard-filters select[aria-label="Sort tools"] { max-width: 200px; }
+@media (max-width: 1000px) {
+  .mobile-brew { display: block; margin: 6px 12px 0 45px; width: fit-content; font-size: 11px; color: var(--text-muted); }
+}
+@media (max-width: 760px) {
+  .mobile-brew { margin-left: 0; font-size: 11px; }
+  a.mobile-brew { padding-block: 8px; }
+  .leaderboard-filters { grid-template-columns: minmax(0, 1fr); }
+  .leaderboard-filters select[aria-label="Sort tools"] { max-width: none; }
+}
