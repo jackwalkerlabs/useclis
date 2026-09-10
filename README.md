@@ -16,7 +16,7 @@ Open http://localhost:4321. Builds use checked-in data, so no database or API ke
 ## Edit the directory
 
 - `src/data/catalog.json`: CLI entries, commands, categories, capabilities, examples, and documentation links.
-- `src/data/cli-source-list.json`: the original 100-row source list and its workflow-support labels. All 100 entries are represented in the active catalog, alongside 15 additional CLIs. “Not marked in source list” does not mean a tool lacks agent support.
+- `src/data/cli-source-list.json`: the supplied 200-row source list and its original workflow-support labels. All 200 entries are represented in the active catalog, alongside nine additional CLIs, for 209 total. Entries are matched by repository so additions already in the catalog retain their existing listings. Neither “Not marked in source list” nor “Not assessed” means a tool lacks agent support.
 - `src/data/repositories.json`: dated repository metadata and star totals from GitHub.
 - `src/data/activity.json`: 52 weekly commit counts per repository.
 - `src/data/star-snapshots.json`: daily observations of total stars. Collection began September 9, 2026. No historical totals are invented; a single observation displays its start date without a growth claim.

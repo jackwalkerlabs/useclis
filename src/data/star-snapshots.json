@@ -688,5 +688,569 @@
       "date": "2026-09-10",
       "stars": 35708
     }
+  ],
+  "blucli": [
+    {
+      "date": "2026-09-10",
+      "stars": 43
+    }
+  ],
+  "eightctl": [
+    {
+      "date": "2026-09-10",
+      "stars": 96
+    }
+  ],
+  "gifgrep": [
+    {
+      "date": "2026-09-10",
+      "stars": 129
+    }
+  ],
+  "camsnap": [
+    {
+      "date": "2026-09-10",
+      "stars": 141
+    }
+  ],
+  "ordercli": [
+    {
+      "date": "2026-09-10",
+      "stars": 79
+    }
+  ],
+  "openhue-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 148
+    }
+  ],
+  "sag": [
+    {
+      "date": "2026-09-10",
+      "stars": 580
+    }
+  ],
+  "twitter-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 2904
+    }
+  ],
+  "bilibili-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 1031
+    }
+  ],
+  "rdt-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 515
+    }
+  ],
+  "xiaohongshu-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 2579
+    }
+  ],
+  "notesmd-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 1579
+    }
+  ],
+  "jira-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 5958
+    }
+  ],
+  "todoist-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 1734
+    }
+  ],
+  "taskwarrior": [
+    {
+      "date": "2026-09-10",
+      "stars": 6055
+    }
+  ],
+  "khal": [
+    {
+      "date": "2026-09-10",
+      "stars": 3045
+    }
+  ],
+  "gcalcli": [
+    {
+      "date": "2026-09-10",
+      "stars": 3762
+    }
+  ],
+  "vdirsyncer": [
+    {
+      "date": "2026-09-10",
+      "stars": 1873
+    }
+  ],
+  "buku": [
+    {
+      "date": "2026-09-10",
+      "stars": 7196
+    }
+  ],
+  "nb": [
+    {
+      "date": "2026-09-10",
+      "stars": 8401
+    }
+  ],
+  "vibe-notion": [
+    {
+      "date": "2026-09-10",
+      "stars": 44
+    }
+  ],
+  "opencli": [
+    {
+      "date": "2026-09-10",
+      "stars": 29147
+    }
+  ],
+  "rulesync": [
+    {
+      "date": "2026-09-10",
+      "stars": 1406
+    }
+  ],
+  "acpx": [
+    {
+      "date": "2026-09-10",
+      "stars": 3232
+    }
+  ],
+  "discord-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 129
+    }
+  ],
+  "tg-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 286
+    }
+  ],
+  "agent-slack": [
+    {
+      "date": "2026-09-10",
+      "stars": 533
+    }
+  ],
+  "auth0-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 340
+    }
+  ],
+  "okta-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 110
+    }
+  ],
+  "tailscale-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 36297
+    }
+  ],
+  "cloudflared": [
+    {
+      "date": "2026-09-10",
+      "stars": 15560
+    }
+  ],
+  "heroku-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 889
+    }
+  ],
+  "flyctl": [
+    {
+      "date": "2026-09-10",
+      "stars": 1702
+    }
+  ],
+  "fastly-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 163
+    }
+  ],
+  "akamai-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 237
+    }
+  ],
+  "deck": [
+    {
+      "date": "2026-09-10",
+      "stars": 504
+    }
+  ],
+  "temporal-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 375
+    }
+  ],
+  "nats-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 821
+    }
+  ],
+  "n8n-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 203882
+    }
+  ],
+  "appwrite-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 100
+    }
+  ],
+  "psql": [
+    {
+      "date": "2026-09-10",
+      "stars": 22056
+    }
+  ],
+  "redis-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 76291
+    }
+  ],
+  "mongosh": [
+    {
+      "date": "2026-09-10",
+      "stars": 401
+    }
+  ],
+  "mongodb-atlas-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 185
+    }
+  ],
+  "snowflake-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 266
+    }
+  ],
+  "databricks-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 393
+    }
+  ],
+  "confluent-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 80
+    }
+  ],
+  "clickhouse-client": [
+    {
+      "date": "2026-09-10",
+      "stars": 49782
+    }
+  ],
+  "influx-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 75
+    }
+  ],
+  "usql": [
+    {
+      "date": "2026-09-10",
+      "stars": 10107
+    }
+  ],
+  "pgcli": [
+    {
+      "date": "2026-09-10",
+      "stars": 13376
+    }
+  ],
+  "mycli": [
+    {
+      "date": "2026-09-10",
+      "stars": 11978
+    }
+  ],
+  "litecli": [
+    {
+      "date": "2026-09-10",
+      "stars": 3297
+    }
+  ],
+  "csvkit": [
+    {
+      "date": "2026-09-10",
+      "stars": 6411
+    }
+  ],
+  "qsv": [
+    {
+      "date": "2026-09-10",
+      "stars": 3776
+    }
+  ],
+  "jujutsu": [
+    {
+      "date": "2026-09-10",
+      "stars": 31489
+    }
+  ],
+  "git-lfs": [
+    {
+      "date": "2026-09-10",
+      "stars": 14484
+    }
+  ],
+  "goreleaser": [
+    {
+      "date": "2026-09-10",
+      "stars": 16025
+    }
+  ],
+  "act": [
+    {
+      "date": "2026-09-10",
+      "stars": 71865
+    }
+  ],
+  "dagger-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 16240
+    }
+  ],
+  "dev-container-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 2948
+    }
+  ],
+  "devspace": [
+    {
+      "date": "2026-09-10",
+      "stars": 5179
+    }
+  ],
+  "garden": [
+    {
+      "date": "2026-09-10",
+      "stars": 3611
+    }
+  ],
+  "k3d": [
+    {
+      "date": "2026-09-10",
+      "stars": 6547
+    }
+  ],
+  "skaffold": [
+    {
+      "date": "2026-09-10",
+      "stars": 15889
+    }
+  ],
+  "kustomize": [
+    {
+      "date": "2026-09-10",
+      "stars": 12158
+    }
+  ],
+  "helmfile": [
+    {
+      "date": "2026-09-10",
+      "stars": 5191
+    }
+  ],
+  "kubectx": [
+    {
+      "date": "2026-09-10",
+      "stars": 19981
+    }
+  ],
+  "stern": [
+    {
+      "date": "2026-09-10",
+      "stars": 4856
+    }
+  ],
+  "eslint": [
+    {
+      "date": "2026-09-10",
+      "stars": 27496
+    }
+  ],
+  "prettier": [
+    {
+      "date": "2026-09-10",
+      "stars": 52240
+    }
+  ],
+  "deno": [
+    {
+      "date": "2026-09-10",
+      "stars": 108398
+    }
+  ],
+  "npm": [
+    {
+      "date": "2026-09-10",
+      "stars": 10105
+    }
+  ],
+  "poetry": [
+    {
+      "date": "2026-09-10",
+      "stars": 34294
+    }
+  ],
+  "pipx": [
+    {
+      "date": "2026-09-10",
+      "stars": 12957
+    }
+  ],
+  "task": [
+    {
+      "date": "2026-09-10",
+      "stars": 16118
+    }
+  ],
+  "watchexec": [
+    {
+      "date": "2026-09-10",
+      "stars": 7176
+    }
+  ],
+  "hyperfine": [
+    {
+      "date": "2026-09-10",
+      "stars": 28829
+    }
+  ],
+  "mkcert": [
+    {
+      "date": "2026-09-10",
+      "stars": 59565
+    }
+  ],
+  "docling-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 66221
+    }
+  ],
+  "markitdown": [
+    {
+      "date": "2026-09-10",
+      "stars": 182189
+    }
+  ],
+  "hugo": [
+    {
+      "date": "2026-09-10",
+      "stars": 89762
+    }
+  ],
+  "mkdocs": [
+    {
+      "date": "2026-09-10",
+      "stars": 22427
+    }
+  ],
+  "asciidoctor": [
+    {
+      "date": "2026-09-10",
+      "stars": 5213
+    }
+  ],
+  "quarto-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 5988
+    }
+  ],
+  "marp-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 3812
+    }
+  ],
+  "mermaid-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 5001
+    }
+  ],
+  "vips-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 11630
+    }
+  ],
+  "exiftool": [
+    {
+      "date": "2026-09-10",
+      "stars": 5021
+    }
+  ],
+  "whisper-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 53565
+    }
+  ],
+  "typst": [
+    {
+      "date": "2026-09-10",
+      "stars": 55931
+    }
+  ],
+  "mutool": [
+    {
+      "date": "2026-09-10",
+      "stars": 2954
+    }
+  ],
+  "pdfcpu": [
+    {
+      "date": "2026-09-10",
+      "stars": 8828
+    }
+  ],
+  "miniserve": [
+    {
+      "date": "2026-09-10",
+      "stars": 7845
+    }
   ]
 }
