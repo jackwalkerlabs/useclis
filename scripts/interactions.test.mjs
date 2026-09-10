@@ -203,6 +203,7 @@ test('Every catalog row has its own bookmark label and restored saved state', ()
 
 test('Bookmarks persist exact identities, reload, filter, and remove independently', async () => {
   const user = userEvent.setup();
+  window.history.replaceState(null, '', '/?sort=name');
   const first = render(h(Directory, { tools: bookmarkTools }));
   // Save out of display order and leave jq unsaved to detect cross-item updates.
   const selected = [bookmarkTools[1], bookmarkTools[0]];
