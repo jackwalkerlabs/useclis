@@ -77,7 +77,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add discovery/state.json src/data/catalog.json src/data/homebrew-mappings.json src/data/repositories.json src/data/activity.json src/data/star-snapshots.json src/data/homebrew.json src/data/profiles.json public/logos public/avatars design-system/_ds_manifest.json design-system/_ds_bundle.js design-system/ui_kits/web/data.js
+          git add src/data/downloads.json src/data/download-history.json discovery/state.json src/data/catalog.json src/data/homebrew-mappings.json src/data/repositories.json src/data/activity.json src/data/star-snapshots.json src/data/homebrew.json src/data/profiles.json public/logos public/avatars design-system/_ds_manifest.json design-system/_ds_bundle.js design-system/ui_kits/web/data.js
           if ! git diff --cached --quiet; then
             git commit -m "Discover CLIs and record admission evidence"
             # Reject concurrent human changes; never force-push or publish an unvalidated rebase.

@@ -115,3 +115,17 @@ Profiles follow the supplied founder-page reference: identity and profile action
 `src/data/profiles.json` stores public profile snapshots; `public/avatars/` stores their local avatars. Run `npm run refresh-profiles` to update them, or `npm run refresh-profiles -- --missing` to fetch new owners only. The full `npm run refresh` includes profile refreshes.
 
 Activity combines matching UTC week dates across available listed repositories and labels missing coverage. Profile pages are generated for every owner in the current catalog; refresh profiles after adding an owner.
+
+## Package and binary download statistics
+
+The leaderboard has a download-source selector and independent source-specific sorts. Detail pages show each mapped source with counts, source links, observation dates, and saved-data/unavailable states. Sources are never combined into total installs or unique users. The activity date dropdown controls activity only; package ranking uses 30 days, while GitHub binary ranking is explicitly cumulative.
+
+- `src/data/download-mappings.json`: 32 npm package mappings, 27 PyPI package mappings, and 10 GitHub binary-asset mappings. These are deliberately curated, not inferred from similar names. npm mappings are verified against registry repository metadata and executable declarations; PyPI mappings against project repository URLs. GitHub mappings specify anchored filename patterns reviewed against actual release assets. Unverified aliases are omitted. Add mappings explicitly when expanding coverage; automated CLI discovery does not infer them.
+- `src/data/downloads.json`: compact public snapshots consumed by static builds. npm and PyPI windows cover complete 30/90/365-day intervals ending on the reported source date. Missing days or insufficient history make a window unavailable, not zero. npm counts cover the named CLI package, excluding separate platform packages; both registries can include automated, dependency, and repeated downloads.
+- `src/data/download-history.json`: collector history, not shipped as a public route. PyPI daily observations accumulate beyond the provider's 180-day retention so an annual count can eventually be shown. GitHub keeps daily cumulative observations; counter decreases and deleted assets mean these must not be treated as an installation-event series.
+
+Run `npm run refresh-downloads` to refresh these sources; it also runs in `npm run refresh`. npm and PyPI Stats need no credentials. GitHub uses `GITHUB_TOKEN` when supplied (the existing Actions token is passed by both workflows). Requests are sequential and each mapped source is attempted at most once per UTC day, including failures, to respect daily caching and provider rate limits. Failed requests preserve the successful counts, date, and history. Invalid configuration or unreadable JSON fails the command. Both automated workflows commit download snapshots and collector history with the other data.
+
+GitHub collection paginates published, non-prerelease releases and matches selected CLI binary assets. Checksums, signatures, source archives, and unrelated products are excluded. The displayed cumulative count covers currently available matching assets; deleted assets cease to contribute. GitHub counts can overlap package-manager downloads and must not be added to them.
+
+Sources: [npm download-count API](https://github.com/npm/registry/blob/main/docs/download-counts.md), [PyPI Stats API](https://pypistats.org/api/), and [GitHub release assets API](https://docs.github.com/en/rest/releases/assets).

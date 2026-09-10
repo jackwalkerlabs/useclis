@@ -1,0 +1,426 @@
+{
+  "agent-browser": {
+    "repo": "vercel-labs/agent-browser",
+    "npm": {
+      "package": "agent-browser"
+    }
+  },
+  "codex": {
+    "repo": "openai/codex",
+    "npm": {
+      "package": "@openai/codex"
+    }
+  },
+  "gemini-cli": {
+    "repo": "google-gemini/gemini-cli",
+    "npm": {
+      "package": "@google/gemini-cli"
+    }
+  },
+  "playwright-cli": {
+    "repo": "microsoft/playwright-cli",
+    "npm": {
+      "package": "@playwright/cli"
+    }
+  },
+  "wrangler": {
+    "repo": "cloudflare/workers-sdk",
+    "npm": {
+      "package": "wrangler"
+    }
+  },
+  "vercel-cli": {
+    "repo": "vercel/vercel",
+    "npm": {
+      "package": "vercel"
+    }
+  },
+  "supabase-cli": {
+    "repo": "supabase/cli",
+    "npm": {
+      "package": "supabase"
+    }
+  },
+  "ast-grep": {
+    "repo": "ast-grep/ast-grep",
+    "npm": {
+      "package": "@ast-grep/cli"
+    }
+  },
+  "pnpm": {
+    "repo": "pnpm/pnpm",
+    "npm": {
+      "package": "pnpm"
+    }
+  },
+  "biome": {
+    "repo": "biomejs/biome",
+    "npm": {
+      "package": "@biomejs/biome"
+    }
+  },
+  "repomix": {
+    "repo": "yamadashy/repomix",
+    "npm": {
+      "package": "repomix"
+    }
+  },
+  "netlify-cli": {
+    "repo": "netlify/cli",
+    "npm": {
+      "package": "netlify-cli"
+    }
+  },
+  "firebase-cli": {
+    "repo": "firebase/firebase-tools",
+    "npm": {
+      "package": "firebase-tools"
+    }
+  },
+  "shopify-cli": {
+    "repo": "Shopify/cli",
+    "npm": {
+      "package": "@shopify/cli"
+    }
+  },
+  "salesforce-cli": {
+    "repo": "salesforcecli/cli",
+    "npm": {
+      "package": "@salesforce/cli"
+    }
+  },
+  "microsoft-365-cli": {
+    "repo": "pnp/cli-microsoft365",
+    "npm": {
+      "package": "@pnp/cli-microsoft365"
+    }
+  },
+  "twilio-cli": {
+    "repo": "twilio/twilio-cli",
+    "npm": {
+      "package": "twilio-cli"
+    }
+  },
+  "contentful-cli": {
+    "repo": "contentful/contentful-cli",
+    "npm": {
+      "package": "contentful-cli"
+    }
+  },
+  "bitwarden-cli": {
+    "repo": "bitwarden/clients",
+    "npm": {
+      "package": "@bitwarden/cli"
+    }
+  },
+  "lighthouse": {
+    "repo": "GoogleChrome/lighthouse",
+    "npm": {
+      "package": "lighthouse"
+    }
+  },
+  "axe-cli": {
+    "repo": "dequelabs/axe-core-npm",
+    "npm": {
+      "package": "@axe-core/cli"
+    }
+  },
+  "rulesync": {
+    "repo": "dyoshikawa/rulesync",
+    "npm": {
+      "package": "rulesync"
+    }
+  },
+  "acpx": {
+    "repo": "openclaw/acpx",
+    "npm": {
+      "package": "acpx"
+    }
+  },
+  "heroku-cli": {
+    "repo": "heroku/cli",
+    "npm": {
+      "package": "heroku"
+    }
+  },
+  "n8n-cli": {
+    "repo": "n8n-io/n8n",
+    "npm": {
+      "package": "n8n"
+    }
+  },
+  "appwrite-cli": {
+    "repo": "appwrite/sdk-for-cli",
+    "npm": {
+      "package": "appwrite-cli"
+    }
+  },
+  "mongosh": {
+    "repo": "mongodb-js/mongosh",
+    "npm": {
+      "package": "mongosh"
+    }
+  },
+  "dev-container-cli": {
+    "repo": "devcontainers/cli",
+    "npm": {
+      "package": "@devcontainers/cli"
+    }
+  },
+  "eslint": {
+    "repo": "eslint/eslint",
+    "npm": {
+      "package": "eslint"
+    }
+  },
+  "prettier": {
+    "repo": "prettier/prettier",
+    "npm": {
+      "package": "prettier"
+    }
+  },
+  "npm": {
+    "repo": "npm/cli",
+    "npm": {
+      "package": "npm"
+    }
+  },
+  "marp-cli": {
+    "repo": "marp-team/marp-cli",
+    "npm": {
+      "package": "@marp-team/marp-cli"
+    }
+  },
+  "aider": {
+    "repo": "Aider-AI/aider",
+    "pypi": {
+      "package": "aider-chat"
+    }
+  },
+  "llm": {
+    "repo": "simonw/llm",
+    "pypi": {
+      "package": "llm"
+    }
+  },
+  "httpie": {
+    "repo": "httpie/cli",
+    "pypi": {
+      "package": "httpie"
+    }
+  },
+  "uv": {
+    "repo": "astral-sh/uv",
+    "pypi": {
+      "package": "uv"
+    }
+  },
+  "ruff": {
+    "repo": "astral-sh/ruff",
+    "pypi": {
+      "package": "ruff"
+    }
+  },
+  "semgrep": {
+    "repo": "semgrep/semgrep",
+    "pypi": {
+      "package": "semgrep"
+    }
+  },
+  "shot-scraper": {
+    "repo": "simonw/shot-scraper",
+    "pypi": {
+      "package": "shot-scraper"
+    }
+  },
+  "aws-cli": {
+    "repo": "aws/aws-cli",
+    "pypi": {
+      "package": "awscli"
+    }
+  },
+  "azure-cli": {
+    "repo": "Azure/azure-cli",
+    "pypi": {
+      "package": "azure-cli"
+    }
+  },
+  "ansible": {
+    "repo": "ansible/ansible",
+    "pypi": {
+      "package": "ansible-core"
+    }
+  },
+  "sqlite-utils": {
+    "repo": "simonw/sqlite-utils",
+    "pypi": {
+      "package": "sqlite-utils"
+    }
+  },
+  "dbt-core": {
+    "repo": "dbt-labs/dbt-core",
+    "pypi": {
+      "package": "dbt-core"
+    }
+  },
+  "sqlfluff": {
+    "repo": "sqlfluff/sqlfluff",
+    "pypi": {
+      "package": "sqlfluff"
+    }
+  },
+  "yt-dlp": {
+    "repo": "yt-dlp/yt-dlp",
+    "pypi": {
+      "package": "yt-dlp"
+    }
+  },
+  "ocrmypdf": {
+    "repo": "ocrmypdf/OCRmyPDF",
+    "pypi": {
+      "package": "ocrmypdf"
+    }
+  },
+  "khal": {
+    "repo": "pimutils/khal",
+    "pypi": {
+      "package": "khal"
+    }
+  },
+  "gcalcli": {
+    "repo": "insanum/gcalcli",
+    "pypi": {
+      "package": "gcalcli"
+    }
+  },
+  "buku": {
+    "repo": "jarun/buku",
+    "pypi": {
+      "package": "buku"
+    }
+  },
+  "snowflake-cli": {
+    "repo": "snowflakedb/snowflake-cli",
+    "pypi": {
+      "package": "snowflake-cli"
+    }
+  },
+  "mycli": {
+    "repo": "dbcli/mycli",
+    "pypi": {
+      "package": "mycli"
+    }
+  },
+  "litecli": {
+    "repo": "dbcli/litecli",
+    "pypi": {
+      "package": "litecli"
+    }
+  },
+  "csvkit": {
+    "repo": "wireservice/csvkit",
+    "pypi": {
+      "package": "csvkit"
+    }
+  },
+  "poetry": {
+    "repo": "python-poetry/poetry",
+    "pypi": {
+      "package": "poetry"
+    }
+  },
+  "pipx": {
+    "repo": "pypa/pipx",
+    "pypi": {
+      "package": "pipx"
+    }
+  },
+  "docling-cli": {
+    "repo": "docling-project/docling",
+    "pypi": {
+      "package": "docling"
+    }
+  },
+  "markitdown": {
+    "repo": "microsoft/markitdown",
+    "pypi": {
+      "package": "markitdown"
+    }
+  },
+  "mkdocs": {
+    "repo": "mkdocs/mkdocs",
+    "pypi": {
+      "package": "mkdocs"
+    }
+  },
+  "github-cli": {
+    "repo": "cli/cli",
+    "github": {
+      "assetPattern": "^gh_[0-9][0-9.]*_(?:linux|macOS|windows)_[A-Za-z0-9]+\\.(?:tar\\.gz|zip|deb|rpm|pkg|msi)$",
+      "evidence": "https://github.com/cli/cli/releases/latest"
+    }
+  },
+  "ripgrep": {
+    "repo": "BurntSushi/ripgrep",
+    "github": {
+      "assetPattern": "^(?:ripgrep-[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-(?:msvc|gnu)|unknown-linux-[A-Za-z0-9]+)\\.(?:tar\\.gz|zip)|ripgrep_[0-9][0-9.]*-[0-9]+_[A-Za-z0-9]+\\.deb)$",
+      "evidence": "https://github.com/BurntSushi/ripgrep/releases/latest"
+    }
+  },
+  "jq": {
+    "repo": "jqlang/jq",
+    "github": {
+      "assetPattern": "^jq-(?:linux(?:32|64)|osx-amd64|win(?:32|64)\\.exe|(?:linux|macos)-[A-Za-z0-9_]+|windows-[A-Za-z0-9_]+\\.exe)$",
+      "evidence": "https://github.com/jqlang/jq/releases/latest"
+    }
+  },
+  "fd": {
+    "repo": "sharkdp/fd",
+    "github": {
+      "assetPattern": "^fd(?:-v[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-(?:msvc|gnu)|unknown-linux-[A-Za-z0-9]+)\\.(?:tar\\.gz|zip)|(?:-musl)?_[0-9][0-9.]*_[A-Za-z0-9_-]+\\.deb)$",
+      "evidence": "https://github.com/sharkdp/fd/releases/latest"
+    }
+  },
+  "bat": {
+    "repo": "sharkdp/bat",
+    "github": {
+      "assetPattern": "^bat(?:-v[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-(?:msvc|gnu)|unknown-linux-[A-Za-z0-9]+)\\.(?:tar\\.gz|zip)|(?:-musl)?_[0-9][0-9.]*_[A-Za-z0-9_-]+\\.deb)$",
+      "evidence": "https://github.com/sharkdp/bat/releases/latest"
+    }
+  },
+  "hyperfine": {
+    "repo": "sharkdp/hyperfine",
+    "github": {
+      "assetPattern": "^hyperfine(?:-v[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-(?:msvc|gnu)|unknown-linux-[A-Za-z0-9]+)\\.(?:tar\\.gz|zip)|(?:-musl)?_[0-9][0-9.]*_[A-Za-z0-9_-]+\\.deb)$",
+      "evidence": "https://github.com/sharkdp/hyperfine/releases/latest"
+    }
+  },
+  "just": {
+    "repo": "casey/just",
+    "github": {
+      "assetPattern": "^just-[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-msvc|unknown-linux-[A-Za-z0-9]+)\\.(?:tar\\.gz|zip)$",
+      "evidence": "https://github.com/casey/just/releases/latest"
+    }
+  },
+  "typst": {
+    "repo": "typst/typst",
+    "github": {
+      "assetPattern": "^typst-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-msvc|unknown-linux-[A-Za-z0-9]+)\\.(?:tar\\.xz|zip)$",
+      "evidence": "https://github.com/typst/typst/releases/latest"
+    }
+  },
+  "miniserve": {
+    "repo": "svenstaro/miniserve",
+    "github": {
+      "assetPattern": "^miniserve-[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-msvc\\.exe|unknown-(?:linux-[A-Za-z0-9]+|freebsd|illumos))$",
+      "evidence": "https://github.com/svenstaro/miniserve/releases/latest"
+    }
+  },
+  "yq": {
+    "repo": "mikefarah/yq",
+    "github": {
+      "assetPattern": "^yq_(?:darwin|freebsd|linux|netbsd|openbsd|windows)_[a-z0-9]+(?:\\.tar\\.gz|\\.zip|\\.exe)?$",
+      "evidence": "https://github.com/mikefarah/yq/releases/latest"
+    }
+  }
+}

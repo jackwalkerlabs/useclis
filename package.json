@@ -16,12 +16,13 @@
     "refresh-homebrew": "node scripts/refresh-homebrew.mjs",
     "snapshot-stars": "node scripts/snapshot-stars.mjs",
     "refresh-profiles": "node scripts/refresh-profiles.mjs",
-    "refresh": "npm run refresh-data && npm run refresh-activity && npm run snapshot-stars && npm run refresh-homebrew && npm run refresh-profiles",
+    "refresh": "npm run refresh-data && npm run refresh-activity && npm run snapshot-stars && npm run refresh-homebrew && npm run refresh-profiles && npm run refresh-downloads",
     "discover": "node scripts/discover-clis.mjs",
     "deploy:discovery": "wrangler deploy --config workers/discovery/wrangler.jsonc",
     "check:links": "node scripts/check-links.mjs",
     "build:design-system": "node scripts/build-design-system.mjs",
-    "check:design-system": "node scripts/build-design-system.mjs --check && tsc -p design-system/tsconfig.json"
+    "check:design-system": "node scripts/build-design-system.mjs --check && tsc -p design-system/tsconfig.json",
+    "refresh-downloads": "node scripts/refresh-downloads.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^6.0.5",
