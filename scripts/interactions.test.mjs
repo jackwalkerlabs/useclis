@@ -31,6 +31,39 @@ after(() => dom.window.close());
 const rows = () => [...document.querySelectorAll('tbody .table-project strong')].map(node => node.textContent);
 const search = () => screen.getByRole('textbox', { name: /Search CLIs/ });
 
+test('Homebrew ranking restores URLs, puts missing counts after zero, and links to detailed statistics', async () => {
+  const user = userEvent.setup();
+  const base = tools.find(tool => tool.slug === 'github-cli');
+  const fixture = [
+    { ...base, slug: 'missing', name: 'Missing', homebrew: null },
+    { ...base, slug: 'zero', name: 'Zero', homebrew: { ...base.homebrew, counts: { '30d': 0 } } },
+    { ...base, slug: 'popular', name: 'Popular', homebrew: { ...base.homebrew, status: 'error', counts: { '30d': 259080 } } },
+    { ...base, slug: 'unavailable', name: 'Unavailable', homebrew: { ...base.homebrew, counts: { '30d': null } } },
+  ];
+  window.history.replaceState(null, '', '/?sort=homebrew');
+  render(h(Directory, { tools: fixture }));
+  assert.deepEqual(rows(), ['Popular', 'Zero', 'Missing', 'Unavailable']);
+  assert.equal(screen.getByRole('combobox', { name: 'Sort tools' }).value, 'homebrew');
+  const link = document.querySelector('tbody .brew-count');
+  assert.equal(link.getAttribute('href'), '/tools/popular/#homebrew');
+  assert.match(link.textContent, /259\.1K/);
+  assert.match(link.title, /259,080.*Not unique users.*showing saved counts/);
+  assert.equal(document.querySelectorAll('tbody .brew-count')[1].textContent, '0');
+  assert.match(document.querySelectorAll('tbody .brew-count')[2].textContent, /^—/);
+  assert.equal(document.querySelector('tbody .mobile-brew').getAttribute('href'), link.getAttribute('href'));
+  await user.click(screen.getByRole('button', { name: 'GitHub stars' }));
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), null);
+  await user.click(screen.getByRole('button', { name: 'Brew installs · 30d' }));
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), 'homebrew');
+  assert.equal(screen.getByRole('columnheader', { name: 'Brew installs · 30d' }).getAttribute('aria-sort'), 'descending');
+  await user.selectOptions(screen.getByRole('combobox', { name: 'Sort tools' }), 'name');
+  await user.selectOptions(screen.getByRole('combobox', { name: 'Sort tools' }), 'homebrew');
+  assert.deepEqual(rows(), ['Popular', 'Zero', 'Missing', 'Unavailable']);
+  window.history.pushState(null, '', '/?sort=homebrew&q=zero');
+  act(() => window.dispatchEvent(new window.PopStateEvent('popstate')));
+  assert.deepEqual(rows(), ['Zero']);
+});
+
 test('Agent prompt copies exactly and opens a selected fallback when clipboard access fails', async () => {
   const user = userEvent.setup();
   let copied;
