@@ -4,6 +4,7 @@ import '../mobile.css';
 import '../submission.css';
 import SubmitCLI from '../components/SubmitCLI';
 import '../typography.css';
+import '../agent-prompt.css';
 import inconsolataLatin from '../../design-system/assets/fonts/inconsolata-latin-wght.woff2?url';
 interface Props { title?: string; description?: string; active?: string }
 const { title = 'useclis — CLIs for agents', description = 'Discover GitHub-backed command-line tools for AI agents. Search by task, inspect repository activity, and explore CLI commands.', active = 'Directory' } = Astro.props;
@@ -22,6 +23,7 @@ const submissionRepo = import.meta.env.PUBLIC_SUBMISSIONS_REPO?.trim() ?? 'jackw
     <meta property="og:type" content="website" />
     {canonical && <link rel="canonical" href={canonical} />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="describedby" href="/llms.txt" type="text/plain" />
     <link rel="preload" href={inconsolataLatin} as="font" type="font/woff2" crossorigin="anonymous" />
     <title>{title}</title>
   </head>

@@ -15,6 +15,8 @@ const { default: Directory } = await import('../src/components/Directory.tsx');
 const { default: ActivityChart } = await import('../src/components/ActivityChart.tsx');
 const { default: StarsPanel } = await import('../src/components/StarsPanel.tsx');
 const { default: CommandExample } = await import('../src/components/CommandExample.tsx');
+const { default: AgentPrompt } = await import('../src/components/AgentPrompt.tsx');
+const { agentPrompt } = await import('../src/lib/agent-prompt.ts');
 const { tools, categories } = await import('../src/data/tools.ts');
 const { default: activity } = await import('../src/data/activity.json', { with: { type: 'json' } });
 let scrolls;
@@ -28,6 +30,25 @@ afterEach(() => { cleanup(); mock.restoreAll(); });
 after(() => dom.window.close());
 const rows = () => [...document.querySelectorAll('tbody .table-project strong')].map(node => node.textContent);
 const search = () => screen.getByRole('textbox', { name: /Search CLIs/ });
+
+test('Agent prompt copies exactly and opens a selected fallback when clipboard access fails', async () => {
+  const user = userEvent.setup();
+  let copied;
+  mock.method(navigator.clipboard, 'writeText', async value => { copied = value; });
+  render(h(AgentPrompt, { siteUrl: 'https://directory.example/' }));
+  await user.click(screen.getByRole('button', { name: 'Copy agent prompt' }));
+  assert.equal(copied, agentPrompt('https://directory.example/'));
+  assert.match(screen.getByRole('status').textContent, /Prompt copied/);
+  mock.method(navigator.clipboard, 'writeText', async () => { throw new Error('Clipboard denied'); });
+  await user.click(screen.getByRole('button', { name: 'Copy agent prompt' }));
+  const prompt = screen.getByRole('textbox', { name: 'Agent prompt' });
+  assert.ok(prompt.closest('details').open);
+  assert.equal(document.activeElement, prompt);
+  assert.equal(prompt.selectionStart, 0);
+  assert.equal(prompt.selectionEnd, prompt.value.length);
+  assert.equal(prompt.value, copied);
+  assert.match(screen.getByRole('status').textContent, /Copy the selected prompt/);
+});
 
 test('Rebrand preserves old bookmarks and saves subsequent removals under useclis', async () => {
   localStorage.setItem('openrepo-saved', JSON.stringify(['github-cli', 'removed-project']));
