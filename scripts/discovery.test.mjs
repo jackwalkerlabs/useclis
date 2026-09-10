@@ -117,6 +117,22 @@ test('Cloudflare dispatch is fixed to the main workflow and reports failed deliv
   await assert.rejects(dispatchDiscovery(env, async () => new Response(null, { status: 403 })), /HTTP 403/);
 });
 
+test('Homebrew source rotation wraps at the real boundary and malformed source dates stop collection', async () => {
+  let endDate = '2026-09-09';
+  const request = async url => {
+    if (url.includes('/search/repositories?')) return { items: [], incomplete_results: false };
+    if (url.includes('/analytics/')) return { category: 'formula_install_on_request', end_date: endDate, formulae: Object.fromEntries(['aaa', 'bbb', 'ccc'].map(formula => [formula, [{ formula, count: '100' }]])) };
+    if (url.includes('/formula/')) return null;
+    throw new Error('Unexpected provider');
+  };
+  const input = { catalog: [], mappings: {}, config, state: { version: 1, searchPage: 1, brewOffset: 1, candidates: {} }, request, now: '2026-09-09T12:00:00Z' };
+  assert.equal((await discover(input)).state.brewOffset, 0);
+  for (const date of ['2026-99-09', '2026-02-31', '2025-09-09']) {
+    endDate = date;
+    await assert.rejects(discover(input), /Stale or invalid Homebrew report/);
+  }
+});
+
 test('End-to-end discovery pins evidence, preserves editorial data, obeys rerun limits, and is atomic on provider failure', async () => {
   const sha = 'a'.repeat(40);
   const files = { 'package.json': JSON.stringify({ name: 'query-cli', bin: { query: 'cli.js' } }), 'README.md': docs[0].text, 'cli.js': 'do not execute me' };
