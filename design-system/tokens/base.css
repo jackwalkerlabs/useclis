@@ -1,0 +1,8 @@
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--surface-page);color:var(--text-body);font:var(--text-body-default);letter-spacing:var(--tracking-body);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{margin:0;color:var(--text-strong);letter-spacing:var(--tracking-heading)}
+a{color:var(--text-link);text-decoration:none}
+a:hover{color:var(--text-brand);text-decoration:underline;text-underline-offset:3px}
+button{font-family:inherit}
+:focus-visible{outline:none;box-shadow:var(--focus-ring);border-radius:var(--radius-sm)}
+.tabular{font-variant-numeric:tabular-nums}

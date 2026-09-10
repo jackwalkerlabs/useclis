@@ -1,0 +1,44 @@
+---
+import '../styles.css';
+import '../mobile.css';
+import '../submission.css';
+import SubmitCLI from '../components/SubmitCLI';
+import '../typography.css';
+import inconsolataLatin from '../../design-system/assets/fonts/inconsolata-latin-wght.woff2?url';
+interface Props { title?: string; description?: string; active?: string }
+const { title = 'useclis — CLIs for agents', description = 'Discover GitHub-backed command-line tools for AI agents. Search by task, inspect repository activity, and explore CLI commands.', active = 'Directory' } = Astro.props;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
+const submissionRepo = import.meta.env.PUBLIC_SUBMISSIONS_REPO?.trim() ?? 'jackwalkerlabs/useclis';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f7f8" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" href={inconsolataLatin} as="font" type="font/woff2" crossorigin="anonymous" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="header">
+      <div class="container header-inner">
+        <a class="wordmark" href="/" aria-label="useclis home"><img src="/favicon.svg" alt="" width="30" height="30" />useclis<span class="wordmark-dot">.</span></a>
+        <nav aria-label="Main navigation">
+          <a class:list={{ active: active === 'Directory' }} href="/">Directory</a>
+          <a class:list={{ active: active === 'Categories' }} href="/categories/">Categories</a>
+          <a class:list={{ active: active === 'About' }} href="/about/">About</a>
+        </nav>
+        <div class="header-actions"><a class="saved-link" aria-label="Saved CLIs" href="/?saved=1#directory"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span>Saved CLIs</span></a><SubmitCLI client:load submissionRepo={submissionRepo} /></div>
+      </div>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="footer container"><div><a href="/" class="wordmark small"><img src="/favicon.svg" alt="" width="23" height="23" />useclis.</a><span>Command-line tools for agents.</span></div><div><a href="/categories/">Categories</a><a href="/about/">About the directory</a><span class="footer-note">Made for the open web <span class="green">↗</span></span></div></footer>
+  </body>
+</html>

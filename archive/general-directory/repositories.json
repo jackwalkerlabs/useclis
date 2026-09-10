@@ -1,0 +1,1002 @@
+{
+  "supabase": {
+    "stars": 108999,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:35.708Z",
+    "source": "https://github.com/supabase/supabase",
+    "createdAt": "2019-10-12T05:56:49Z",
+    "pushedAt": "2026-09-09T23:08:43Z",
+    "lastCommitAt": "2026-09-09T22:24:02Z"
+  },
+  "appflowy": {
+    "stars": 76487,
+    "license": "AGPL-3.0",
+    "language": "Dart",
+    "checkedAt": "2026-09-09T23:18:36.430Z",
+    "source": "https://github.com/AppFlowy-IO/AppFlowy",
+    "createdAt": "2021-06-16T12:56:48Z",
+    "pushedAt": "2026-09-01T07:10:47Z",
+    "lastCommitAt": "2026-06-26T02:35:45Z"
+  },
+  "plausible": {
+    "stars": 28996,
+    "license": "AGPL-3.0",
+    "language": "Elixir",
+    "checkedAt": "2026-09-09T23:18:37.191Z",
+    "source": "https://github.com/plausible/analytics",
+    "createdAt": "2018-12-04T22:33:36Z",
+    "pushedAt": "2026-09-09T22:39:00Z",
+    "lastCommitAt": "2026-09-09T13:05:03Z"
+  },
+  "cal-com": {
+    "stars": 48328,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:38.279Z",
+    "source": "https://github.com/calcom/cal.diy",
+    "createdAt": "2021-03-22T13:47:42Z",
+    "pushedAt": "2026-09-09T19:27:35Z",
+    "lastCommitAt": "2026-09-09T19:27:34Z"
+  },
+  "penpot": {
+    "stars": 59803,
+    "license": "MPL-2.0",
+    "language": "Clojure",
+    "checkedAt": "2026-09-09T23:18:38.973Z",
+    "source": "https://github.com/penpot/penpot",
+    "createdAt": "2015-12-29T22:09:07Z",
+    "pushedAt": "2026-09-09T19:23:35Z",
+    "lastCommitAt": "2026-09-09T16:27:22Z"
+  },
+  "plane": {
+    "stars": 59138,
+    "license": "AGPL-3.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:39.742Z",
+    "source": "https://github.com/makeplane/plane",
+    "createdAt": "2022-11-19T12:55:01Z",
+    "pushedAt": "2026-09-09T10:33:27Z",
+    "lastCommitAt": "2026-09-07T20:03:55Z"
+  },
+  "immich": {
+    "stars": 113713,
+    "license": "AGPL-3.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:40.487Z",
+    "source": "https://github.com/immich-app/immich",
+    "createdAt": "2022-02-03T15:56:27Z",
+    "pushedAt": "2026-09-09T22:01:03Z",
+    "lastCommitAt": "2026-09-09T18:57:21Z"
+  },
+  "bitwarden": {
+    "stars": 20105,
+    "license": null,
+    "language": "C#",
+    "checkedAt": "2026-09-09T23:18:41.249Z",
+    "source": "https://github.com/bitwarden/server",
+    "createdAt": "2015-11-23T23:45:33Z",
+    "pushedAt": "2026-09-09T23:10:10Z",
+    "lastCommitAt": "2026-09-09T21:18:32Z"
+  },
+  "ghost": {
+    "stars": 55248,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:41.911Z",
+    "source": "https://github.com/TryGhost/Ghost",
+    "createdAt": "2013-05-04T11:09:13Z",
+    "pushedAt": "2026-09-09T22:03:16Z",
+    "lastCommitAt": "2026-09-09T20:48:44Z"
+  },
+  "umami": {
+    "stars": 38707,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:42.612Z",
+    "source": "https://github.com/umami-software/umami",
+    "createdAt": "2020-07-17T07:59:00Z",
+    "pushedAt": "2026-09-09T22:26:31Z",
+    "lastCommitAt": "2026-08-20T17:38:48Z"
+  },
+  "jitsi": {
+    "stars": 29895,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:43.405Z",
+    "source": "https://github.com/jitsi/jitsi-meet",
+    "createdAt": "2013-12-16T12:51:09Z",
+    "pushedAt": "2026-09-09T13:53:35Z",
+    "lastCommitAt": "2026-09-09T13:08:33Z"
+  },
+  "appsmith": {
+    "stars": 40848,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:44.144Z",
+    "source": "https://github.com/appsmithorg/appsmith",
+    "createdAt": "2020-06-30T04:07:36Z",
+    "pushedAt": "2026-09-09T19:23:51Z",
+    "lastCommitAt": "2026-09-09T19:23:49Z"
+  },
+  "twenty": {
+    "stars": 56497,
+    "license": null,
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:44.966Z",
+    "source": "https://github.com/twentyhq/twenty",
+    "createdAt": "2022-12-01T13:04:40Z",
+    "pushedAt": "2026-09-09T22:20:22Z",
+    "lastCommitAt": "2026-09-09T20:52:54Z"
+  },
+  "excalidraw": {
+    "stars": 131515,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:18:45.773Z",
+    "source": "https://github.com/excalidraw/excalidraw",
+    "createdAt": "2020-01-02T01:04:43Z",
+    "pushedAt": "2026-09-09T14:21:25Z",
+    "lastCommitAt": "2026-09-09T12:39:59Z"
+  },
+  "chatwoot": {
+    "stars": 36639,
+    "license": null,
+    "language": "Ruby",
+    "checkedAt": "2026-09-09T23:18:46.506Z",
+    "source": "https://github.com/chatwoot/chatwoot",
+    "createdAt": "2019-08-14T06:50:51Z",
+    "pushedAt": "2026-09-09T19:59:29Z",
+    "lastCommitAt": "2026-09-09T17:51:22Z"
+  },
+  "bookstack": {
+    "stars": 19033,
+    "license": "MIT",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:18:47.174Z",
+    "source": "https://github.com/BookStackApp/BookStack",
+    "createdAt": "2015-08-29T10:26:44Z",
+    "pushedAt": "2026-09-09T09:18:48Z",
+    "lastCommitAt": "2026-09-03T12:19:07Z"
+  },
+  "joplin": {
+    "stars": 56297,
+    "license": null,
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:34:26.284Z",
+    "source": "https://github.com/laurent22/joplin",
+    "createdAt": "2017-01-16T21:49:41Z",
+    "pushedAt": "2026-09-09T22:56:19Z",
+    "lastCommitAt": "2026-09-09T17:44:42Z"
+  },
+  "logseq": {
+    "stars": 44851,
+    "license": "AGPL-3.0",
+    "language": "Clojure",
+    "checkedAt": "2026-09-09T23:34:26.330Z",
+    "source": "https://github.com/logseq/logseq",
+    "createdAt": "2020-05-23T00:06:06Z",
+    "pushedAt": "2026-09-09T16:28:56Z",
+    "lastCommitAt": "2026-09-08T09:01:32Z"
+  },
+  "affine": {
+    "stars": 72392,
+    "license": null,
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:34:26.347Z",
+    "source": "https://github.com/toeverything/AFFiNE",
+    "createdAt": "2022-07-31T18:45:21Z",
+    "pushedAt": "2026-09-09T15:01:07Z",
+    "lastCommitAt": "2026-09-09T15:01:04Z"
+  },
+  "vikunja": {
+    "stars": 5334,
+    "license": "AGPL-3.0",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:34:26.430Z",
+    "source": "https://github.com/go-vikunja/vikunja",
+    "createdAt": "2018-11-28T19:52:27Z",
+    "pushedAt": "2026-09-09T21:35:48Z",
+    "lastCommitAt": "2026-09-09T21:35:01Z"
+  },
+  "coolify": {
+    "stars": 61620,
+    "license": "Apache-2.0",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:34:27.250Z",
+    "source": "https://github.com/coollabsio/coolify",
+    "createdAt": "2021-01-25T20:54:01Z",
+    "pushedAt": "2026-09-09T20:08:46Z",
+    "lastCommitAt": "2026-09-09T04:30:32Z"
+  },
+  "dokku": {
+    "stars": 32126,
+    "license": "MIT",
+    "language": "Shell",
+    "checkedAt": "2026-09-09T23:34:27.289Z",
+    "source": "https://github.com/dokku/dokku",
+    "createdAt": "2013-06-08T10:26:57Z",
+    "pushedAt": "2026-09-09T13:54:23Z",
+    "lastCommitAt": "2026-09-09T12:52:09Z"
+  },
+  "pocketbase": {
+    "stars": 61002,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:34:27.295Z",
+    "source": "https://github.com/pocketbase/pocketbase",
+    "createdAt": "2022-07-05T06:06:21Z",
+    "pushedAt": "2026-09-07T16:58:38Z",
+    "lastCommitAt": "2026-09-06T17:14:05Z"
+  },
+  "appwrite": {
+    "stars": 57331,
+    "license": "BSD-3-Clause",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:34:27.549Z",
+    "source": "https://github.com/appwrite/appwrite",
+    "createdAt": "2019-04-08T16:36:25Z",
+    "pushedAt": "2026-09-09T22:55:28Z",
+    "lastCommitAt": "2026-09-09T19:20:49Z"
+  },
+  "posthog": {
+    "stars": 39723,
+    "license": null,
+    "language": "Python",
+    "checkedAt": "2026-09-09T23:34:28.395Z",
+    "source": "https://github.com/PostHog/posthog",
+    "createdAt": "2020-01-23T22:46:58Z",
+    "pushedAt": "2026-09-09T23:34:00Z",
+    "lastCommitAt": "2026-09-09T23:29:02Z"
+  },
+  "grafana": {
+    "stars": 76655,
+    "license": "AGPL-3.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:34:28.395Z",
+    "source": "https://github.com/grafana/grafana",
+    "createdAt": "2013-12-11T15:59:56Z",
+    "pushedAt": "2026-09-09T23:26:39Z",
+    "lastCommitAt": "2026-09-09T21:20:21Z"
+  },
+  "matomo": {
+    "stars": 21850,
+    "license": "GPL-3.0",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:34:28.444Z",
+    "source": "https://github.com/matomo-org/matomo",
+    "createdAt": "2011-03-30T21:18:17Z",
+    "pushedAt": "2026-09-09T23:31:07Z",
+    "lastCommitAt": "2026-09-09T07:39:31Z"
+  },
+  "metabase": {
+    "stars": 49163,
+    "license": null,
+    "language": "Clojure",
+    "checkedAt": "2026-09-09T23:34:28.523Z",
+    "source": "https://github.com/metabase/metabase",
+    "createdAt": "2015-02-02T19:25:47Z",
+    "pushedAt": "2026-09-09T23:30:23Z",
+    "lastCommitAt": "2026-09-09T23:13:56Z"
+  },
+  "drawio": {
+    "stars": 8024,
+    "license": "Apache-2.0",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-09T23:34:29.336Z",
+    "source": "https://github.com/jgraph/drawio",
+    "createdAt": "2016-09-06T12:59:15Z",
+    "pushedAt": "2026-09-08T15:03:26Z",
+    "lastCommitAt": "2026-09-08T15:03:15Z"
+  },
+  "freecad": {
+    "stars": 33392,
+    "license": "LGPL-2.1",
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:34:29.516Z",
+    "source": "https://github.com/FreeCAD/FreeCAD",
+    "createdAt": "2012-09-09T08:25:02Z",
+    "pushedAt": "2026-09-09T20:27:19Z",
+    "lastCommitAt": "2026-09-09T20:27:19Z"
+  },
+  "gimp": {
+    "stars": 6402,
+    "license": null,
+    "language": "C",
+    "checkedAt": "2026-09-09T23:34:29.534Z",
+    "source": "https://github.com/GNOME/gimp",
+    "createdAt": "2012-06-03T13:37:45Z",
+    "pushedAt": "2026-09-09T19:23:31Z",
+    "lastCommitAt": "2026-09-09T19:19:30Z"
+  },
+  "blender": {
+    "stars": 20204,
+    "license": null,
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:34:29.549Z",
+    "source": "https://github.com/blender/blender",
+    "createdAt": "2019-10-09T12:47:28Z",
+    "pushedAt": "2026-09-09T22:59:50Z",
+    "lastCommitAt": "2026-09-09T22:58:41Z"
+  },
+  "element": {
+    "stars": 13443,
+    "license": "AGPL-3.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:34:30.376Z",
+    "source": "https://github.com/element-hq/element-web",
+    "createdAt": "2015-07-22T05:32:15Z",
+    "pushedAt": "2026-09-09T18:55:34Z",
+    "lastCommitAt": "2026-09-09T15:36:17Z"
+  },
+  "ntfy": {
+    "stars": 34118,
+    "license": "Apache-2.0",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:34:30.384Z",
+    "source": "https://github.com/binwiederhier/ntfy",
+    "createdAt": "2021-10-23T19:25:32Z",
+    "pushedAt": "2026-09-08T21:42:49Z",
+    "lastCommitAt": "2026-08-27T20:16:48Z"
+  },
+  "mattermost": {
+    "stars": 39029,
+    "license": null,
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:34:30.475Z",
+    "source": "https://github.com/mattermost/mattermost",
+    "createdAt": "2015-06-15T06:50:02Z",
+    "pushedAt": "2026-09-09T23:03:13Z",
+    "lastCommitAt": "2026-09-09T21:46:47Z"
+  },
+  "zulip": {
+    "stars": 25875,
+    "license": "Apache-2.0",
+    "language": "Python",
+    "checkedAt": "2026-09-09T23:34:30.604Z",
+    "source": "https://github.com/zulip/zulip",
+    "createdAt": "2015-09-25T16:37:25Z",
+    "pushedAt": "2026-09-08T14:13:08Z",
+    "lastCommitAt": "2026-09-08T10:27:26Z"
+  },
+  "grav": {
+    "stars": 15663,
+    "license": "MIT",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:34:31.493Z",
+    "source": "https://github.com/getgrav/grav",
+    "createdAt": "2014-08-02T18:29:10Z",
+    "pushedAt": "2026-09-09T22:43:44Z",
+    "lastCommitAt": "2026-09-09T22:42:52Z"
+  },
+  "wordpress": {
+    "stars": 21401,
+    "license": null,
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:34:31.508Z",
+    "source": "https://github.com/WordPress/WordPress",
+    "createdAt": "2011-12-01T07:05:17Z",
+    "pushedAt": "2026-09-09T22:27:03Z",
+    "lastCommitAt": "2026-09-09T22:25:46Z"
+  },
+  "strapi": {
+    "stars": 73105,
+    "license": null,
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:34:31.533Z",
+    "source": "https://github.com/strapi/strapi",
+    "createdAt": "2015-09-30T15:34:48Z",
+    "pushedAt": "2026-09-09T16:45:43Z",
+    "lastCommitAt": "2026-09-09T16:12:13Z"
+  },
+  "payload": {
+    "stars": 44651,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:34:31.596Z",
+    "source": "https://github.com/payloadcms/payload",
+    "createdAt": "2021-01-05T18:49:45Z",
+    "pushedAt": "2026-09-09T23:14:05Z",
+    "lastCommitAt": "2026-09-09T23:14:02Z"
+  },
+  "keepassxc": {
+    "stars": 28739,
+    "license": null,
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:34:32.483Z",
+    "source": "https://github.com/keepassxreboot/keepassxc",
+    "createdAt": "2016-02-28T15:52:40Z",
+    "pushedAt": "2026-09-07T10:55:38Z",
+    "lastCommitAt": "2026-09-07T10:55:35Z"
+  },
+  "kanidm": {
+    "stars": 5357,
+    "license": "MPL-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-09T23:34:32.507Z",
+    "source": "https://github.com/kanidm/kanidm",
+    "createdAt": "2019-02-02T01:41:26Z",
+    "pushedAt": "2026-09-09T04:44:07Z",
+    "lastCommitAt": "2026-09-09T04:44:06Z"
+  },
+  "authentik": {
+    "stars": 25416,
+    "license": null,
+    "language": "Python",
+    "checkedAt": "2026-09-09T23:34:32.548Z",
+    "source": "https://github.com/goauthentik/authentik",
+    "createdAt": "2019-12-30T09:19:48Z",
+    "pushedAt": "2026-09-09T23:30:49Z",
+    "lastCommitAt": "2026-09-09T23:21:02Z"
+  },
+  "authelia": {
+    "stars": 28864,
+    "license": "Apache-2.0",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:34:32.580Z",
+    "source": "https://github.com/authelia/authelia",
+    "createdAt": "2016-12-07T00:56:57Z",
+    "pushedAt": "2026-09-09T23:28:10Z",
+    "lastCommitAt": "2026-09-09T23:23:23Z"
+  },
+  "jellyfin": {
+    "stars": 56847,
+    "license": "GPL-2.0",
+    "language": "C#",
+    "checkedAt": "2026-09-09T23:34:33.387Z",
+    "source": "https://github.com/jellyfin/jellyfin",
+    "createdAt": "2018-12-09T06:36:45Z",
+    "pushedAt": "2026-09-09T15:14:38Z",
+    "lastCommitAt": "2026-09-08T15:09:25Z"
+  },
+  "navidrome": {
+    "stars": 23428,
+    "license": "GPL-3.0",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:34:33.418Z",
+    "source": "https://github.com/navidrome/navidrome",
+    "createdAt": "2016-02-24T23:25:12Z",
+    "pushedAt": "2026-09-09T22:48:01Z",
+    "lastCommitAt": "2026-09-09T15:38:59Z"
+  },
+  "obs-studio": {
+    "stars": 76010,
+    "license": "GPL-2.0",
+    "language": "C",
+    "checkedAt": "2026-09-09T23:34:33.471Z",
+    "source": "https://github.com/obsproject/obs-studio",
+    "createdAt": "2013-10-01T02:40:31Z",
+    "pushedAt": "2026-09-09T22:11:30Z",
+    "lastCommitAt": "2026-09-09T22:11:27Z"
+  },
+  "photoprism": {
+    "stars": 40172,
+    "license": null,
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:34:33.500Z",
+    "source": "https://github.com/photoprism/photoprism",
+    "createdAt": "2018-01-27T12:00:15Z",
+    "pushedAt": "2026-09-08T00:33:26Z",
+    "lastCommitAt": "2026-09-06T11:01:05Z"
+  },
+  "cryptpad": {
+    "stars": 7899,
+    "license": "AGPL-3.0",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-09T23:40:34.899Z",
+    "source": "https://github.com/cryptpad/cryptpad",
+    "createdAt": "2014-10-31T15:46:17Z",
+    "pushedAt": "2026-09-09T12:51:17Z",
+    "lastCommitAt": "2026-05-26T11:22:19Z"
+  },
+  "standard-notes": {
+    "stars": 6626,
+    "license": "AGPL-3.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:34.904Z",
+    "source": "https://github.com/standardnotes/app",
+    "createdAt": "2016-12-05T23:31:33Z",
+    "pushedAt": "2026-09-07T15:18:30Z",
+    "lastCommitAt": "2026-09-07T15:05:45Z"
+  },
+  "trilium": {
+    "stars": 37776,
+    "license": "AGPL-3.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:34.923Z",
+    "source": "https://github.com/TriliumNext/Trilium",
+    "createdAt": "2017-05-23T00:30:20Z",
+    "pushedAt": "2026-09-09T21:25:29Z",
+    "lastCommitAt": "2026-09-09T18:39:11Z"
+  },
+  "nextcloud": {
+    "stars": 36761,
+    "license": "AGPL-3.0",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:40:34.947Z",
+    "source": "https://github.com/nextcloud/server",
+    "createdAt": "2016-06-02T07:44:14Z",
+    "pushedAt": "2026-09-09T23:03:02Z",
+    "lastCommitAt": "2026-09-09T21:58:10Z"
+  },
+  "baserow": {
+    "stars": 5844,
+    "license": null,
+    "language": "Python",
+    "checkedAt": "2026-09-09T23:40:35.821Z",
+    "source": "https://github.com/baserow/baserow",
+    "createdAt": "2020-07-20T09:32:04Z",
+    "pushedAt": "2026-09-09T16:30:35Z",
+    "lastCommitAt": "2026-09-09T15:52:17Z"
+  },
+  "leantime": {
+    "stars": 11557,
+    "license": "AGPL-3.0",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:40:35.831Z",
+    "source": "https://github.com/Leantime/leantime",
+    "createdAt": "2015-01-23T17:52:06Z",
+    "pushedAt": "2026-09-07T23:57:03Z",
+    "lastCommitAt": "2026-09-07T22:09:46Z"
+  },
+  "wekan": {
+    "stars": 21075,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-09T23:40:35.929Z",
+    "source": "https://github.com/wekan/wekan",
+    "createdAt": "2014-01-21T01:26:28Z",
+    "pushedAt": "2026-09-09T19:20:19Z",
+    "lastCommitAt": "2026-09-09T19:19:04Z"
+  },
+  "openproject": {
+    "stars": 16063,
+    "license": "GPL-3.0",
+    "language": "Ruby",
+    "checkedAt": "2026-09-09T23:40:36.049Z",
+    "source": "https://github.com/opf/openproject",
+    "createdAt": "2012-11-28T09:59:11Z",
+    "pushedAt": "2026-09-09T19:54:46Z",
+    "lastCommitAt": "2026-09-09T17:58:59Z"
+  },
+  "code-server": {
+    "stars": 79247,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:36.882Z",
+    "source": "https://github.com/coder/code-server",
+    "createdAt": "2019-02-27T16:50:41Z",
+    "pushedAt": "2026-09-09T16:18:37Z",
+    "lastCommitAt": "2026-09-08T21:24:21Z"
+  },
+  "gitea": {
+    "stars": 57915,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:40:36.882Z",
+    "source": "https://github.com/go-gitea/gitea",
+    "createdAt": "2016-11-01T02:13:26Z",
+    "pushedAt": "2026-09-09T20:42:30Z",
+    "lastCommitAt": "2026-09-09T20:42:29Z"
+  },
+  "theia": {
+    "stars": 21677,
+    "license": "EPL-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:36.925Z",
+    "source": "https://github.com/eclipse-theia/theia",
+    "createdAt": "2017-02-24T14:42:05Z",
+    "pushedAt": "2026-09-09T14:52:51Z",
+    "lastCommitAt": "2026-09-09T12:36:32Z"
+  },
+  "gogs": {
+    "stars": 47803,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:40:36.967Z",
+    "source": "https://github.com/gogs/gogs",
+    "createdAt": "2014-02-12T01:57:08Z",
+    "pushedAt": "2026-09-06T18:32:59Z",
+    "lastCommitAt": "2026-08-26T02:51:50Z"
+  },
+  "dbeaver": {
+    "stars": 51705,
+    "license": "Apache-2.0",
+    "language": "Java",
+    "checkedAt": "2026-09-09T23:40:37.793Z",
+    "source": "https://github.com/dbeaver/dbeaver",
+    "createdAt": "2015-10-21T08:26:28Z",
+    "pushedAt": "2026-09-09T19:38:56Z",
+    "lastCommitAt": "2026-09-09T18:47:27Z"
+  },
+  "hoppscotch": {
+    "stars": 80262,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:37.834Z",
+    "source": "https://github.com/hoppscotch/hoppscotch",
+    "createdAt": "2019-08-21T13:15:24Z",
+    "pushedAt": "2026-09-08T23:35:12Z",
+    "lastCommitAt": "2026-08-28T14:09:30Z"
+  },
+  "bruno": {
+    "stars": 46852,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-09T23:40:37.842Z",
+    "source": "https://github.com/usebruno/bruno",
+    "createdAt": "2022-09-27T20:51:45Z",
+    "pushedAt": "2026-09-09T17:39:32Z",
+    "lastCommitAt": "2026-09-09T17:39:31Z"
+  },
+  "insomnia": {
+    "stars": 40001,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:37.894Z",
+    "source": "https://github.com/Kong/insomnia",
+    "createdAt": "2016-04-23T03:54:26Z",
+    "pushedAt": "2026-09-09T10:08:09Z",
+    "lastCommitAt": "2026-09-09T10:08:06Z"
+  },
+  "redash": {
+    "stars": 28785,
+    "license": "BSD-2-Clause",
+    "language": "Python",
+    "checkedAt": "2026-09-09T23:40:38.778Z",
+    "source": "https://github.com/getredash/redash",
+    "createdAt": "2013-10-28T13:19:39Z",
+    "pushedAt": "2026-09-03T14:43:52Z",
+    "lastCommitAt": "2026-09-03T14:43:41Z"
+  },
+  "superset": {
+    "stars": 74697,
+    "license": "Apache-2.0",
+    "language": "Python",
+    "checkedAt": "2026-09-09T23:40:38.781Z",
+    "source": "https://github.com/apache/superset",
+    "createdAt": "2015-07-21T18:55:34Z",
+    "pushedAt": "2026-09-09T22:11:22Z",
+    "lastCommitAt": "2026-09-09T22:06:47Z"
+  },
+  "countly": {
+    "stars": 5897,
+    "license": null,
+    "language": "JavaScript",
+    "checkedAt": "2026-09-09T23:40:38.915Z",
+    "source": "https://github.com/Countly/countly-server",
+    "createdAt": "2012-05-28T18:48:40Z",
+    "pushedAt": "2026-09-09T11:00:06Z",
+    "lastCommitAt": "2026-09-09T10:59:57Z"
+  },
+  "lightdash": {
+    "stars": 6127,
+    "license": null,
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:39.002Z",
+    "source": "https://github.com/lightdash/lightdash",
+    "createdAt": "2021-03-19T09:44:40Z",
+    "pushedAt": "2026-09-09T23:30:46Z",
+    "lastCommitAt": "2026-09-09T19:40:06Z"
+  },
+  "goatcounter": {
+    "stars": 5954,
+    "license": null,
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:40:39.717Z",
+    "source": "https://github.com/arp242/goatcounter",
+    "createdAt": "2019-05-28T06:31:26Z",
+    "pushedAt": "2026-08-21T12:57:56Z",
+    "lastCommitAt": "2026-08-21T12:57:56Z"
+  },
+  "openobserve": {
+    "stars": 21705,
+    "license": "AGPL-3.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:39.813Z",
+    "source": "https://github.com/openobserve/openobserve",
+    "createdAt": "2023-02-02T03:29:51Z",
+    "pushedAt": "2026-09-09T21:28:02Z",
+    "lastCommitAt": "2026-09-09T18:25:32Z"
+  },
+  "pencil": {
+    "stars": 9862,
+    "license": "GPL-2.0",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-09T23:40:39.896Z",
+    "source": "https://github.com/evolus/pencil",
+    "createdAt": "2014-06-19T06:23:06Z",
+    "pushedAt": "2026-06-02T06:01:13Z",
+    "lastCommitAt": "2026-06-02T06:01:07Z"
+  },
+  "krita": {
+    "stars": 10342,
+    "license": "GPL-3.0",
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:40:39.930Z",
+    "source": "https://github.com/KDE/krita",
+    "createdAt": "2015-10-09T19:24:19Z",
+    "pushedAt": "2026-09-09T15:31:07Z",
+    "lastCommitAt": "2026-09-09T01:54:43Z"
+  },
+  "openscad": {
+    "stars": 10175,
+    "license": null,
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:40:40.697Z",
+    "source": "https://github.com/openscad/openscad",
+    "createdAt": "2010-11-03T20:25:33Z",
+    "pushedAt": "2026-09-09T17:12:59Z",
+    "lastCommitAt": "2026-09-09T17:12:59Z"
+  },
+  "bigbluebutton": {
+    "stars": 9216,
+    "license": "LGPL-3.0",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-09T23:40:40.744Z",
+    "source": "https://github.com/bigbluebutton/bigbluebutton",
+    "createdAt": "2010-05-25T01:42:41Z",
+    "pushedAt": "2026-09-09T17:53:05Z",
+    "lastCommitAt": "2026-09-09T13:21:22Z"
+  },
+  "mumble": {
+    "stars": 8250,
+    "license": null,
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:40:40.752Z",
+    "source": "https://github.com/mumble-voip/mumble",
+    "createdAt": "2011-02-26T01:30:08Z",
+    "pushedAt": "2026-09-09T16:50:02Z",
+    "lastCommitAt": "2026-09-09T16:41:15Z"
+  },
+  "librecad": {
+    "stars": 6342,
+    "license": null,
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:40:40.828Z",
+    "source": "https://github.com/LibreCAD/LibreCAD",
+    "createdAt": "2011-04-10T22:41:47Z",
+    "pushedAt": "2026-09-09T23:10:56Z",
+    "lastCommitAt": "2026-09-09T21:22:12Z"
+  },
+  "rocketchat": {
+    "stars": 46097,
+    "license": null,
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:41.548Z",
+    "source": "https://github.com/RocketChat/Rocket.Chat",
+    "createdAt": "2015-05-19T07:36:09Z",
+    "pushedAt": "2026-09-09T23:08:00Z",
+    "lastCommitAt": "2026-09-09T17:10:26Z"
+  },
+  "listmonk": {
+    "stars": 23340,
+    "license": "AGPL-3.0",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:40:41.565Z",
+    "source": "https://github.com/knadh/listmonk",
+    "createdAt": "2019-06-26T05:08:39Z",
+    "pushedAt": "2026-09-06T02:21:07Z",
+    "lastCommitAt": "2026-09-05T03:43:50Z"
+  },
+  "simplex": {
+    "stars": 19408,
+    "license": "AGPL-3.0",
+    "language": "Haskell",
+    "checkedAt": "2026-09-09T23:40:41.625Z",
+    "source": "https://github.com/simplex-chat/simplex-chat",
+    "createdAt": "2019-12-21T09:50:09Z",
+    "pushedAt": "2026-09-09T21:38:11Z",
+    "lastCommitAt": "2026-09-02T12:22:31Z"
+  },
+  "chaskiq": {
+    "stars": 3567,
+    "license": null,
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:41.694Z",
+    "source": "https://github.com/chaskiq/chaskiq",
+    "createdAt": "2018-05-29T06:26:06Z",
+    "pushedAt": "2026-06-30T17:20:11Z",
+    "lastCommitAt": "2026-06-30T17:20:11Z"
+  },
+  "jekyll": {
+    "stars": 51655,
+    "license": "MIT",
+    "language": "Ruby",
+    "checkedAt": "2026-09-09T23:40:42.421Z",
+    "source": "https://github.com/jekyll/jekyll",
+    "createdAt": "2008-10-20T06:29:03Z",
+    "pushedAt": "2026-08-03T17:55:37Z",
+    "lastCommitAt": "2026-08-03T17:54:43Z"
+  },
+  "hugo": {
+    "stars": 89761,
+    "license": "Apache-2.0",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:40:42.535Z",
+    "source": "https://github.com/gohugoio/hugo",
+    "createdAt": "2013-07-04T15:26:26Z",
+    "pushedAt": "2026-09-09T15:10:46Z",
+    "lastCommitAt": "2026-09-09T15:07:38Z"
+  },
+  "wiki-js": {
+    "stars": 28874,
+    "license": "AGPL-3.0",
+    "language": "Vue",
+    "checkedAt": "2026-09-09T23:40:42.595Z",
+    "source": "https://github.com/requarks/wiki",
+    "createdAt": "2016-08-16T19:35:26Z",
+    "pushedAt": "2026-09-08T23:45:13Z",
+    "lastCommitAt": "2026-09-02T06:55:05Z"
+  },
+  "docusaurus": {
+    "stars": 66211,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:42.645Z",
+    "source": "https://github.com/facebook/docusaurus",
+    "createdAt": "2017-06-20T16:13:53Z",
+    "pushedAt": "2026-09-09T02:52:31Z",
+    "lastCommitAt": "2026-09-07T14:29:10Z"
+  },
+  "vaultwarden": {
+    "stars": 67079,
+    "license": "AGPL-3.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-09T23:40:43.360Z",
+    "source": "https://github.com/dani-garcia/vaultwarden",
+    "createdAt": "2018-02-17T22:40:20Z",
+    "pushedAt": "2026-09-09T16:24:34Z",
+    "lastCommitAt": "2026-09-09T16:24:33Z"
+  },
+  "silverstripe": {
+    "stars": 516,
+    "license": "BSD-3-Clause",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:41:29.372Z",
+    "source": "https://github.com/silverstripe/silverstripe-cms",
+    "createdAt": "2011-02-02T04:01:36Z",
+    "pushedAt": "2026-09-09T00:50:09Z",
+    "lastCommitAt": "2026-09-09T00:50:08Z"
+  },
+  "mdbook": {
+    "stars": 22126,
+    "license": "MPL-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-09T23:40:43.512Z",
+    "source": "https://github.com/rust-lang/mdBook",
+    "createdAt": "2015-07-07T00:57:25Z",
+    "pushedAt": "2026-09-08T15:44:55Z",
+    "lastCommitAt": "2026-09-08T15:37:28Z"
+  },
+  "keycloak": {
+    "stars": 36688,
+    "license": "Apache-2.0",
+    "language": "Java",
+    "checkedAt": "2026-09-09T23:40:43.569Z",
+    "source": "https://github.com/keycloak/keycloak",
+    "createdAt": "2013-07-02T13:38:51Z",
+    "pushedAt": "2026-09-09T18:04:16Z",
+    "lastCommitAt": "2026-09-09T18:04:13Z"
+  },
+  "crowdsec": {
+    "stars": 14805,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:40:44.432Z",
+    "source": "https://github.com/crowdsecurity/crowdsec",
+    "createdAt": "2020-05-15T09:38:05Z",
+    "pushedAt": "2026-09-09T14:15:48Z",
+    "lastCommitAt": "2026-09-03T08:36:54Z"
+  },
+  "netbird": {
+    "stars": 29053,
+    "license": null,
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:40:44.448Z",
+    "source": "https://github.com/netbirdio/netbird",
+    "createdAt": "2021-04-14T12:27:20Z",
+    "pushedAt": "2026-09-09T23:25:44Z",
+    "lastCommitAt": "2026-09-09T13:36:37Z"
+  },
+  "wazuh": {
+    "stars": 16816,
+    "license": null,
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:40:44.516Z",
+    "source": "https://github.com/wazuh/wazuh",
+    "createdAt": "2015-08-11T17:39:03Z",
+    "pushedAt": "2026-09-09T23:31:41Z",
+    "lastCommitAt": "2026-09-04T22:42:38Z"
+  },
+  "passbolt": {
+    "stars": 6110,
+    "license": "AGPL-3.0",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:40:44.520Z",
+    "source": "https://github.com/passbolt/passbolt_api",
+    "createdAt": "2016-02-23T01:14:59Z",
+    "pushedAt": "2026-08-21T08:02:59Z",
+    "lastCommitAt": "2026-08-20T07:02:10Z"
+  },
+  "peertube": {
+    "stars": 15310,
+    "license": "AGPL-3.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-09T23:40:45.299Z",
+    "source": "https://github.com/Chocobozzz/PeerTube",
+    "createdAt": "2015-10-29T22:09:42Z",
+    "pushedAt": "2026-08-28T14:50:28Z",
+    "lastCommitAt": "2026-08-25T14:41:04Z"
+  },
+  "audiobookshelf": {
+    "stars": 14279,
+    "license": "GPL-3.0",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-09T23:40:45.328Z",
+    "source": "https://github.com/advplyr/audiobookshelf",
+    "createdAt": "2021-08-17T22:00:40Z",
+    "pushedAt": "2026-08-28T23:10:15Z",
+    "lastCommitAt": "2026-08-28T23:10:14Z"
+  },
+  "lychee": {
+    "stars": 4286,
+    "license": "MIT",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:40:45.390Z",
+    "source": "https://github.com/LycheeOrg/Lychee",
+    "createdAt": "2018-08-08T07:19:08Z",
+    "pushedAt": "2026-09-09T21:50:42Z",
+    "lastCommitAt": "2026-09-09T20:21:41Z"
+  },
+  "owncast": {
+    "stars": 11519,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-09T23:40:45.422Z",
+    "source": "https://github.com/owncast/owncast",
+    "createdAt": "2020-05-24T00:58:13Z",
+    "pushedAt": "2026-09-09T02:13:33Z",
+    "lastCommitAt": "2026-09-03T19:35:50Z"
+  },
+  "piwigo": {
+    "stars": 3851,
+    "license": "GPL-2.0",
+    "language": "PHP",
+    "checkedAt": "2026-09-09T23:40:46.220Z",
+    "source": "https://github.com/Piwigo/Piwigo",
+    "createdAt": "2015-07-25T11:32:24Z",
+    "pushedAt": "2026-09-01T10:24:21Z",
+    "lastCommitAt": "2026-09-01T10:24:21Z"
+  },
+  "shotcut": {
+    "stars": 15120,
+    "license": "GPL-3.0",
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:40:46.221Z",
+    "source": "https://github.com/mltframework/shotcut",
+    "createdAt": "2012-04-23T22:37:04Z",
+    "pushedAt": "2026-09-09T01:52:02Z",
+    "lastCommitAt": "2026-09-08T20:39:17Z"
+  },
+  "audacity": {
+    "stars": 18377,
+    "license": null,
+    "language": "C++",
+    "checkedAt": "2026-09-09T23:40:46.241Z",
+    "source": "https://github.com/audacity/audacity",
+    "createdAt": "2015-03-26T10:46:17Z",
+    "pushedAt": "2026-09-09T16:05:36Z",
+    "lastCommitAt": "2026-09-09T16:05:35Z"
+  },
+  "handbrake": {
+    "stars": 24339,
+    "license": null,
+    "language": "C",
+    "checkedAt": "2026-09-09T23:40:46.296Z",
+    "source": "https://github.com/HandBrake/HandBrake",
+    "createdAt": "2015-08-22T16:32:28Z",
+    "pushedAt": "2026-09-08T05:50:42Z",
+    "lastCommitAt": "2026-09-08T05:50:42Z"
+  }
+}
