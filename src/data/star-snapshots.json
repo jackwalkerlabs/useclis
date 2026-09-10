@@ -6,7 +6,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 68131
+      "stars": 68141
     }
   ],
   "jq": [
@@ -16,7 +16,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 35561
+      "stars": 35572
     }
   ],
   "github-cli": [
@@ -26,7 +26,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 46216
+      "stars": 46217
     }
   ],
   "agent-browser": [
@@ -36,7 +36,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 42314
+      "stars": 42341
     }
   ],
   "opencode": [
@@ -46,7 +46,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 206189
+      "stars": 206289
     }
   ],
   "aider": [
@@ -56,7 +56,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 48861
+      "stars": 48874
     }
   ],
   "codex": [
@@ -66,7 +66,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 122884
+      "stars": 123009
     }
   ],
   "gemini-cli": [
@@ -76,7 +76,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 106884
+      "stars": 106890
     }
   ],
   "llm": [
@@ -86,7 +86,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 12482
+      "stars": 12483
     }
   ],
   "git": [
@@ -96,7 +96,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 63092
+      "stars": 63100
     }
   ],
   "playwright-cli": [
@@ -106,7 +106,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 13196
+      "stars": 13207
     }
   ],
   "supabase-cli": [
@@ -126,7 +126,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 16227
+      "stars": 16229
     }
   ],
   "git-town": [
@@ -156,7 +156,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 44348
+      "stars": 44351
     }
   ],
   "kubectl": [
@@ -176,7 +176,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 15830
+      "stars": 15831
     }
   ],
   "docker-cli": [
@@ -196,7 +196,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 15944
+      "stars": 15945
     }
   ],
   "scc": [
@@ -216,7 +216,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 42822
+      "stars": 42826
     }
   ],
   "httpie": [
@@ -226,7 +226,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 38489
+      "stars": 38491
     }
   ],
   "pnpm": [
@@ -236,7 +236,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 36470
+      "stars": 36474
     }
   ],
   "uv": [
@@ -246,7 +246,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 89667
+      "stars": 89678
     }
   ],
   "bun": [
@@ -256,7 +256,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 95923
+      "stars": 95927
     }
   ],
   "mise": [
@@ -266,7 +266,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 33718
+      "stars": 33737
     }
   ],
   "ruff": [
@@ -276,7 +276,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 49567
+      "stars": 49571
     }
   ],
   "gitleaks": [
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 29191
+      "stars": 29203
     }
   ],
   "biome": [
@@ -296,7 +296,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 25752
+      "stars": 25755
     }
   ],
   "semgrep": [
@@ -306,7 +306,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 16570
+      "stars": 16579
     }
   ],
   "bat": [
@@ -316,7 +316,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 60393
+      "stars": 60395
     }
   ],
   "pandoc": [
@@ -326,7 +326,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 46208
+      "stars": 46218
     }
   ],
   "rclone": [
@@ -336,7 +336,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 59666
+      "stars": 59677
     }
   ],
   "glow": [
@@ -346,7 +346,7 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 27239
+      "stars": 27244
     }
   ],
   "browser-harness": [
@@ -356,13 +356,13 @@
     },
     {
       "date": "2026-09-10",
-      "stars": 17458
+      "stars": 17468
     }
   ],
   "firecrawl-cli": [
     {
       "date": "2026-09-10",
-      "stars": 628
+      "stars": 629
     }
   ],
   "peekaboo": [
@@ -374,25 +374,25 @@
   "qmd": [
     {
       "date": "2026-09-10",
-      "stars": 29636
+      "stars": 29651
     }
   ],
   "mcporter": [
     {
       "date": "2026-09-10",
-      "stars": 5000
+      "stars": 5001
     }
   ],
   "repomix": [
     {
       "date": "2026-09-10",
-      "stars": 28269
+      "stars": 28271
     }
   ],
   "summarize": [
     {
       "date": "2026-09-10",
-      "stars": 6607
+      "stars": 6610
     }
   ],
   "shot-scraper": [
@@ -404,7 +404,7 @@
   "google-workspace-cli": [
     {
       "date": "2026-09-10",
-      "stars": 30813
+      "stars": 30829
     }
   ],
   "gogcli": [
@@ -416,25 +416,25 @@
   "linear-cli": [
     {
       "date": "2026-09-10",
-      "stars": 954
+      "stars": 956
     }
   ],
   "beads": [
     {
       "date": "2026-09-10",
-      "stars": 27009
+      "stars": 27022
     }
   ],
   "himalaya": [
     {
       "date": "2026-09-10",
-      "stars": 7215
+      "stars": 7216
     }
   ],
   "remindctl": [
     {
       "date": "2026-09-10",
-      "stars": 361
+      "stars": 362
     }
   ],
   "imsg": [
@@ -446,13 +446,13 @@
   "wacli": [
     {
       "date": "2026-09-10",
-      "stars": 2727
+      "stars": 2728
     }
   ],
   "sonoscli": [
     {
       "date": "2026-09-10",
-      "stars": 185
+      "stars": 184
     }
   ],
   "goplaces": [
@@ -464,13 +464,13 @@
   "railway-cli": [
     {
       "date": "2026-09-10",
-      "stars": 604
+      "stars": 605
     }
   ],
   "aws-cli": [
     {
       "date": "2026-09-10",
-      "stars": 17243
+      "stars": 17244
     }
   ],
   "azure-cli": [
@@ -542,7 +542,7 @@
   "stripe-cli": [
     {
       "date": "2026-09-10",
-      "stars": 2173
+      "stars": 2174
     }
   ],
   "wp-cli": [
@@ -566,7 +566,7 @@
   "microsoft-365-cli": [
     {
       "date": "2026-09-10",
-      "stars": 1443
+      "stars": 1445
     }
   ],
   "twilio-cli": [
@@ -596,7 +596,7 @@
   "podman": [
     {
       "date": "2026-09-10",
-      "stars": 32826
+      "stars": 32827
     }
   ],
   "helm": [
@@ -608,55 +608,55 @@
   "opentofu": [
     {
       "date": "2026-09-10",
-      "stars": 30142
+      "stars": 30149
     }
   ],
   "pulumi": [
     {
       "date": "2026-09-10",
-      "stars": 25659
+      "stars": 25660
     }
   ],
   "ansible": [
     {
       "date": "2026-09-10",
-      "stars": 70619
+      "stars": 70627
     }
   ],
   "argocd": [
     {
       "date": "2026-09-10",
-      "stars": 24114
+      "stars": 24119
     }
   ],
   "flux-cli": [
     {
       "date": "2026-09-10",
-      "stars": 8390
+      "stars": 8393
     }
   ],
   "kind": [
     {
       "date": "2026-09-10",
-      "stars": 15481
+      "stars": 15483
     }
   ],
   "minikube": [
     {
       "date": "2026-09-10",
-      "stars": 32112
+      "stars": 32113
     }
   ],
   "sops": [
     {
       "date": "2026-09-10",
-      "stars": 23071
+      "stars": 23079
     }
   ],
   "age": [
     {
       "date": "2026-09-10",
-      "stars": 23505
+      "stars": 23519
     }
   ],
   "bitwarden-cli": [
@@ -680,37 +680,37 @@
   "trivy": [
     {
       "date": "2026-09-10",
-      "stars": 37849
+      "stars": 37855
     }
   ],
   "syft": [
     {
       "date": "2026-09-10",
-      "stars": 9544
+      "stars": 9546
     }
   ],
   "grype": [
     {
       "date": "2026-09-10",
-      "stars": 12865
+      "stars": 12869
     }
   ],
   "trufflehog": [
     {
       "date": "2026-09-10",
-      "stars": 27738
+      "stars": 27742
     }
   ],
   "cosign": [
     {
       "date": "2026-09-10",
-      "stars": 6290
+      "stars": 6292
     }
   ],
   "snyk-cli": [
     {
       "date": "2026-09-10",
-      "stars": 5657
+      "stars": 5658
     }
   ],
   "sentry-cli": [
@@ -722,13 +722,13 @@
   "k6": [
     {
       "date": "2026-09-10",
-      "stars": 31426
+      "stars": 31433
     }
   ],
   "lighthouse": [
     {
       "date": "2026-09-10",
-      "stars": 30750
+      "stars": 30754
     }
   ],
   "axe-cli": [
@@ -740,7 +740,7 @@
   "duckdb-cli": [
     {
       "date": "2026-09-10",
-      "stars": 41110
+      "stars": 41123
     }
   ],
   "sqlite-utils": [
@@ -752,7 +752,7 @@
   "dbt-core": [
     {
       "date": "2026-09-10",
-      "stars": 13796
+      "stars": 13798
     }
   ],
   "sqlfluff": [
@@ -764,13 +764,13 @@
   "golang-migrate": [
     {
       "date": "2026-09-10",
-      "stars": 18904
+      "stars": 18905
     }
   ],
   "atlas": [
     {
       "date": "2026-09-10",
-      "stars": 8715
+      "stars": 8716
     }
   ],
   "miller": [
@@ -782,55 +782,55 @@
   "dolt": [
     {
       "date": "2026-09-10",
-      "stars": 24405
+      "stars": 24410
     }
   ],
   "yt-dlp": [
     {
       "date": "2026-09-10",
-      "stars": 190019
+      "stars": 190086
     }
   ],
   "ffmpeg": [
     {
       "date": "2026-09-10",
-      "stars": 64084
+      "stars": 64098
     }
   ],
   "imagemagick": [
     {
       "date": "2026-09-10",
-      "stars": 17381
+      "stars": 17382
     }
   ],
   "tesseract": [
     {
       "date": "2026-09-10",
-      "stars": 76418
+      "stars": 76422
     }
   ],
   "ocrmypdf": [
     {
       "date": "2026-09-10",
-      "stars": 34705
+      "stars": 34707
     }
   ],
   "qpdf": [
     {
       "date": "2026-09-10",
-      "stars": 5399
+      "stars": 5401
     }
   ],
   "restic": [
     {
       "date": "2026-09-10",
-      "stars": 35955
+      "stars": 35958
     }
   ],
   "just": [
     {
       "date": "2026-09-10",
-      "stars": 35712
+      "stars": 35723
     }
   ],
   "blucli": [
@@ -878,13 +878,13 @@
   "twitter-cli": [
     {
       "date": "2026-09-10",
-      "stars": 2904
+      "stars": 2905
     }
   ],
   "bilibili-cli": [
     {
       "date": "2026-09-10",
-      "stars": 1031
+      "stars": 1032
     }
   ],
   "rdt-cli": [
@@ -896,19 +896,19 @@
   "xiaohongshu-cli": [
     {
       "date": "2026-09-10",
-      "stars": 2579
+      "stars": 2581
     }
   ],
   "notesmd-cli": [
     {
       "date": "2026-09-10",
-      "stars": 1579
+      "stars": 1581
     }
   ],
   "jira-cli": [
     {
       "date": "2026-09-10",
-      "stars": 5959
+      "stars": 5960
     }
   ],
   "todoist-cli": [
@@ -920,13 +920,13 @@
   "taskwarrior": [
     {
       "date": "2026-09-10",
-      "stars": 6055
+      "stars": 6056
     }
   ],
   "khal": [
     {
       "date": "2026-09-10",
-      "stars": 3044
+      "stars": 3045
     }
   ],
   "gcalcli": [
@@ -962,7 +962,7 @@
   "opencli": [
     {
       "date": "2026-09-10",
-      "stars": 29151
+      "stars": 29171
     }
   ],
   "rulesync": [
@@ -974,7 +974,7 @@
   "acpx": [
     {
       "date": "2026-09-10",
-      "stars": 3232
+      "stars": 3235
     }
   ],
   "discord-cli": [
@@ -1010,13 +1010,13 @@
   "tailscale-cli": [
     {
       "date": "2026-09-10",
-      "stars": 36299
+      "stars": 36326
     }
   ],
   "cloudflared": [
     {
       "date": "2026-09-10",
-      "stars": 15561
+      "stars": 15565
     }
   ],
   "heroku-cli": [
@@ -1064,7 +1064,7 @@
   "n8n-cli": [
     {
       "date": "2026-09-10",
-      "stars": 203883
+      "stars": 203915
     }
   ],
   "appwrite-cli": [
@@ -1076,13 +1076,13 @@
   "psql": [
     {
       "date": "2026-09-10",
-      "stars": 22058
+      "stars": 22059
     }
   ],
   "redis-cli": [
     {
       "date": "2026-09-10",
-      "stars": 76292
+      "stars": 76297
     }
   ],
   "mongosh": [
@@ -1100,7 +1100,7 @@
   "snowflake-cli": [
     {
       "date": "2026-09-10",
-      "stars": 266
+      "stars": 267
     }
   ],
   "databricks-cli": [
@@ -1118,7 +1118,7 @@
   "clickhouse-client": [
     {
       "date": "2026-09-10",
-      "stars": 49782
+      "stars": 49794
     }
   ],
   "influx-cli": [
@@ -1130,13 +1130,13 @@
   "usql": [
     {
       "date": "2026-09-10",
-      "stars": 10107
+      "stars": 10108
     }
   ],
   "pgcli": [
     {
       "date": "2026-09-10",
-      "stars": 13376
+      "stars": 13378
     }
   ],
   "mycli": [
@@ -1160,37 +1160,37 @@
   "qsv": [
     {
       "date": "2026-09-10",
-      "stars": 3776
+      "stars": 3777
     }
   ],
   "jujutsu": [
     {
       "date": "2026-09-10",
-      "stars": 31488
+      "stars": 31498
     }
   ],
   "git-lfs": [
     {
       "date": "2026-09-10",
-      "stars": 14484
+      "stars": 14486
     }
   ],
   "goreleaser": [
     {
       "date": "2026-09-10",
-      "stars": 16025
+      "stars": 16026
     }
   ],
   "act": [
     {
       "date": "2026-09-10",
-      "stars": 71866
+      "stars": 71871
     }
   ],
   "dagger-cli": [
     {
       "date": "2026-09-10",
-      "stars": 16241
+      "stars": 16242
     }
   ],
   "dev-container-cli": [
@@ -1226,7 +1226,7 @@
   "kustomize": [
     {
       "date": "2026-09-10",
-      "stars": 12158
+      "stars": 12161
     }
   ],
   "helmfile": [
@@ -1238,13 +1238,13 @@
   "kubectx": [
     {
       "date": "2026-09-10",
-      "stars": 19981
+      "stars": 19984
     }
   ],
   "stern": [
     {
       "date": "2026-09-10",
-      "stars": 4856
+      "stars": 4857
     }
   ],
   "eslint": [
@@ -1256,19 +1256,19 @@
   "prettier": [
     {
       "date": "2026-09-10",
-      "stars": 52240
+      "stars": 52241
     }
   ],
   "deno": [
     {
       "date": "2026-09-10",
-      "stars": 108397
+      "stars": 108396
     }
   ],
   "npm": [
     {
       "date": "2026-09-10",
-      "stars": 10106
+      "stars": 10107
     }
   ],
   "poetry": [
@@ -1286,7 +1286,7 @@
   "task": [
     {
       "date": "2026-09-10",
-      "stars": 16117
+      "stars": 16120
     }
   ],
   "watchexec": [
@@ -1298,37 +1298,37 @@
   "hyperfine": [
     {
       "date": "2026-09-10",
-      "stars": 28829
+      "stars": 28833
     }
   ],
   "mkcert": [
     {
       "date": "2026-09-10",
-      "stars": 59566
+      "stars": 59568
     }
   ],
   "docling-cli": [
     {
       "date": "2026-09-10",
-      "stars": 66221
+      "stars": 66238
     }
   ],
   "markitdown": [
     {
       "date": "2026-09-10",
-      "stars": 182208
+      "stars": 182305
     }
   ],
   "hugo": [
     {
       "date": "2026-09-10",
-      "stars": 89761
+      "stars": 89769
     }
   ],
   "mkdocs": [
     {
       "date": "2026-09-10",
-      "stars": 22427
+      "stars": 22428
     }
   ],
   "asciidoctor": [
@@ -1346,37 +1346,37 @@
   "marp-cli": [
     {
       "date": "2026-09-10",
-      "stars": 3812
+      "stars": 3811
     }
   ],
   "mermaid-cli": [
     {
       "date": "2026-09-10",
-      "stars": 5001
+      "stars": 5002
     }
   ],
   "vips-cli": [
     {
       "date": "2026-09-10",
-      "stars": 11630
+      "stars": 11632
     }
   ],
   "exiftool": [
     {
       "date": "2026-09-10",
-      "stars": 5021
+      "stars": 5023
     }
   ],
   "whisper-cli": [
     {
       "date": "2026-09-10",
-      "stars": 53565
+      "stars": 53576
     }
   ],
   "typst": [
     {
       "date": "2026-09-10",
-      "stars": 55932
+      "stars": 55937
     }
   ],
   "mutool": [
@@ -1388,7 +1388,7 @@
   "pdfcpu": [
     {
       "date": "2026-09-10",
-      "stars": 8828
+      "stars": 8829
     }
   ],
   "miniserve": [
@@ -1400,19 +1400,19 @@
   "openai-codex-security": [
     {
       "date": "2026-09-10",
-      "stars": 10608
+      "stars": 10620
     }
   ],
   "esengine-deepseek-reasonix": [
     {
       "date": "2026-09-10",
-      "stars": 35461
+      "stars": 35476
     }
   ],
   "sigoden-aichat": [
     {
       "date": "2026-09-10",
-      "stars": 10433
+      "stars": 10434
     }
   ],
   "aliyun-aliyun-cli": [
@@ -1424,7 +1424,7 @@
   "qwenlm-qwen-code": [
     {
       "date": "2026-09-10",
-      "stars": 27733
+      "stars": 27742
     }
   ],
   "mininglamp-oss-octo-cli": [

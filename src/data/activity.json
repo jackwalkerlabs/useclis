@@ -54,7 +54,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:03.268Z",
+    "checkedAt": "2026-09-10T11:20:11.250Z",
     "source": "https://api.github.com/repos/BurntSushi/ripgrep/stats/participation"
   },
   "jq": {
@@ -112,7 +112,7 @@
       2,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:03.416Z",
+    "checkedAt": "2026-09-10T11:20:11.481Z",
     "source": "https://api.github.com/repos/jqlang/jq/stats/participation"
   },
   "github-cli": {
@@ -170,7 +170,7 @@
       71,
       90
     ],
-    "checkedAt": "2026-09-10T02:37:02.984Z",
+    "checkedAt": "2026-09-10T11:20:10.910Z",
     "source": "https://api.github.com/repos/cli/cli/stats/participation"
   },
   "agent-browser": {
@@ -228,7 +228,7 @@
       8,
       11
     ],
-    "checkedAt": "2026-09-10T02:37:03.117Z",
+    "checkedAt": "2026-09-10T11:20:11.117Z",
     "source": "https://api.github.com/repos/vercel-labs/agent-browser/stats/participation"
   },
   "opencode": {
@@ -286,7 +286,7 @@
       63,
       59
     ],
-    "checkedAt": "2026-09-10T02:37:04.057Z",
+    "checkedAt": "2026-09-10T11:20:12.388Z",
     "source": "https://api.github.com/repos/anomalyco/opencode/stats/participation"
   },
   "aider": {
@@ -344,7 +344,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:03.909Z",
+    "checkedAt": "2026-09-10T11:20:12.136Z",
     "source": "https://api.github.com/repos/Aider-AI/aider/stats/participation"
   },
   "codex": {
@@ -402,7 +402,7 @@
       294,
       360
     ],
-    "checkedAt": "2026-09-10T02:37:03.583Z",
+    "checkedAt": "2026-09-10T11:20:11.708Z",
     "source": "https://api.github.com/repos/openai/codex/stats/participation"
   },
   "gemini-cli": {
@@ -460,7 +460,7 @@
       3,
       16
     ],
-    "checkedAt": "2026-09-10T02:37:03.748Z",
+    "checkedAt": "2026-09-10T11:20:11.960Z",
     "source": "https://api.github.com/repos/google-gemini/gemini-cli/stats/participation"
   },
   "llm": {
@@ -518,7 +518,7 @@
       8,
       10
     ],
-    "checkedAt": "2026-09-10T02:37:04.216Z",
+    "checkedAt": "2026-09-10T11:20:12.620Z",
     "source": "https://api.github.com/repos/simonw/llm/stats/participation"
   },
   "git": {
@@ -576,7 +576,7 @@
       22,
       7
     ],
-    "checkedAt": "2026-09-10T02:37:04.709Z",
+    "checkedAt": "2026-09-10T11:20:13.136Z",
     "source": "https://api.github.com/repos/git/git/stats/participation"
   },
   "playwright-cli": {
@@ -634,7 +634,7 @@
       3,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:04.353Z",
+    "checkedAt": "2026-09-10T11:20:12.762Z",
     "source": "https://api.github.com/repos/microsoft/playwright-cli/stats/participation"
   },
   "supabase-cli": {
@@ -692,7 +692,7 @@
       58,
       69
     ],
-    "checkedAt": "2026-09-10T02:37:05.380Z",
+    "checkedAt": "2026-09-10T11:20:13.898Z",
     "source": "https://api.github.com/repos/supabase/cli/stats/participation"
   },
   "vercel-cli": {
@@ -750,7 +750,7 @@
       0,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:05.251Z",
+    "checkedAt": "2026-09-10T11:20:13.742Z",
     "source": "https://api.github.com/repos/vercel/vercel/stats/participation"
   },
   "git-town": {
@@ -808,7 +808,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:04.895Z",
+    "checkedAt": "2026-09-10T11:20:13.381Z",
     "source": "https://api.github.com/repos/git-town/git-town/stats/participation"
   },
   "wrangler": {
@@ -866,7 +866,7 @@
       35,
       49
     ],
-    "checkedAt": "2026-09-10T02:37:05.073Z",
+    "checkedAt": "2026-09-10T11:20:13.606Z",
     "source": "https://api.github.com/repos/cloudflare/workers-sdk/stats/participation"
   },
   "fd": {
@@ -924,7 +924,7 @@
       6,
       3
     ],
-    "checkedAt": "2026-09-10T02:37:05.858Z",
+    "checkedAt": "2026-09-10T11:20:14.423Z",
     "source": "https://api.github.com/repos/sharkdp/fd/stats/participation"
   },
   "kubectl": {
@@ -982,7 +982,7 @@
       8,
       16
     ],
-    "checkedAt": "2026-09-10T02:37:05.673Z",
+    "checkedAt": "2026-09-10T11:20:14.277Z",
     "source": "https://api.github.com/repos/kubernetes/kubectl/stats/participation"
   },
   "ast-grep": {
@@ -1040,7 +1040,7 @@
       10,
       3
     ],
-    "checkedAt": "2026-09-10T02:37:06.035Z",
+    "checkedAt": "2026-09-10T11:20:14.841Z",
     "source": "https://api.github.com/repos/ast-grep/ast-grep/stats/participation"
   },
   "docker-cli": {
@@ -1098,7 +1098,7 @@
       54,
       28
     ],
-    "checkedAt": "2026-09-10T02:37:05.535Z",
+    "checkedAt": "2026-09-10T11:20:14.130Z",
     "source": "https://api.github.com/repos/docker/cli/stats/participation"
   },
   "yq": {
@@ -1156,7 +1156,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:06.329Z",
+    "checkedAt": "2026-09-10T11:20:15.197Z",
     "source": "https://api.github.com/repos/mikefarah/yq/stats/participation"
   },
   "scc": {
@@ -1214,7 +1214,7 @@
       5,
       3
     ],
-    "checkedAt": "2026-09-10T02:37:06.164Z",
+    "checkedAt": "2026-09-10T11:20:15.017Z",
     "source": "https://api.github.com/repos/boyter/scc/stats/participation"
   },
   "curl": {
@@ -1272,7 +1272,7 @@
       91,
       59
     ],
-    "checkedAt": "2026-09-10T02:37:06.602Z",
+    "checkedAt": "2026-09-10T11:20:15.595Z",
     "source": "https://api.github.com/repos/curl/curl/stats/participation"
   },
   "httpie": {
@@ -1330,7 +1330,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:06.464Z",
+    "checkedAt": "2026-09-10T11:20:15.335Z",
     "source": "https://api.github.com/repos/httpie/cli/stats/participation"
   },
   "pnpm": {
@@ -1388,7 +1388,7 @@
       164,
       165
     ],
-    "checkedAt": "2026-09-10T02:37:06.956Z",
+    "checkedAt": "2026-09-10T11:20:15.885Z",
     "source": "https://api.github.com/repos/pnpm/pnpm/stats/participation"
   },
   "uv": {
@@ -1446,7 +1446,7 @@
       74,
       89
     ],
-    "checkedAt": "2026-09-10T02:37:06.824Z",
+    "checkedAt": "2026-09-10T11:20:15.746Z",
     "source": "https://api.github.com/repos/astral-sh/uv/stats/participation"
   },
   "bun": {
@@ -1504,7 +1504,7 @@
       206,
       140
     ],
-    "checkedAt": "2026-09-10T02:37:07.100Z",
+    "checkedAt": "2026-09-10T11:20:16.035Z",
     "source": "https://api.github.com/repos/oven-sh/bun/stats/participation"
   },
   "mise": {
@@ -1562,7 +1562,7 @@
       179,
       206
     ],
-    "checkedAt": "2026-09-10T02:37:07.236Z",
+    "checkedAt": "2026-09-10T11:20:16.248Z",
     "source": "https://api.github.com/repos/jdx/mise/stats/participation"
   },
   "ruff": {
@@ -1620,7 +1620,7 @@
       109,
       114
     ],
-    "checkedAt": "2026-09-10T02:37:07.372Z",
+    "checkedAt": "2026-09-10T11:20:16.373Z",
     "source": "https://api.github.com/repos/astral-sh/ruff/stats/participation"
   },
   "gitleaks": {
@@ -1678,7 +1678,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:08.045Z",
+    "checkedAt": "2026-09-10T11:20:17.103Z",
     "source": "https://api.github.com/repos/gitleaks/gitleaks/stats/participation"
   },
   "biome": {
@@ -1736,7 +1736,7 @@
       61,
       66
     ],
-    "checkedAt": "2026-09-10T02:37:07.593Z",
+    "checkedAt": "2026-09-10T11:20:16.599Z",
     "source": "https://api.github.com/repos/biomejs/biome/stats/participation"
   },
   "semgrep": {
@@ -1794,7 +1794,7 @@
       8,
       5
     ],
-    "checkedAt": "2026-09-10T02:37:07.871Z",
+    "checkedAt": "2026-09-10T11:20:16.869Z",
     "source": "https://api.github.com/repos/semgrep/semgrep/stats/participation"
   },
   "bat": {
@@ -1852,7 +1852,7 @@
       13,
       8
     ],
-    "checkedAt": "2026-09-10T02:37:08.635Z",
+    "checkedAt": "2026-09-10T11:20:17.705Z",
     "source": "https://api.github.com/repos/sharkdp/bat/stats/participation"
   },
   "pandoc": {
@@ -1908,9 +1908,9 @@
       13,
       15,
       30,
-      106
+      107
     ],
-    "checkedAt": "2026-09-10T02:37:08.448Z",
+    "checkedAt": "2026-09-10T11:20:17.468Z",
     "source": "https://api.github.com/repos/jgm/pandoc/stats/participation"
   },
   "rclone": {
@@ -1968,7 +1968,7 @@
       66,
       29
     ],
-    "checkedAt": "2026-09-10T02:37:08.233Z",
+    "checkedAt": "2026-09-10T11:20:17.324Z",
     "source": "https://api.github.com/repos/rclone/rclone/stats/participation"
   },
   "glow": {
@@ -2026,7 +2026,7 @@
       1,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:08.794Z",
+    "checkedAt": "2026-09-10T11:20:17.836Z",
     "source": "https://api.github.com/repos/charmbracelet/glow/stats/participation"
   },
   "browser-harness": {
@@ -2084,7 +2084,7 @@
       47,
       45
     ],
-    "checkedAt": "2026-09-10T02:37:04.531Z",
+    "checkedAt": "2026-09-10T11:20:12.902Z",
     "source": "https://api.github.com/repos/browser-use/browser-harness/stats/participation"
   },
   "firecrawl-cli": {
@@ -2142,7 +2142,7 @@
       3,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:08.957Z",
+    "checkedAt": "2026-09-10T11:20:18.035Z",
     "source": "https://api.github.com/repos/firecrawl/cli/stats/participation"
   },
   "peekaboo": {
@@ -2200,7 +2200,7 @@
       48,
       38
     ],
-    "checkedAt": "2026-09-10T02:37:09.121Z",
+    "checkedAt": "2026-09-10T11:20:18.256Z",
     "source": "https://api.github.com/repos/openclaw/Peekaboo/stats/participation"
   },
   "qmd": {
@@ -2258,7 +2258,7 @@
       1,
       11
     ],
-    "checkedAt": "2026-09-10T02:37:09.372Z",
+    "checkedAt": "2026-09-10T11:20:18.466Z",
     "source": "https://api.github.com/repos/tobi/qmd/stats/participation"
   },
   "mcporter": {
@@ -2316,7 +2316,7 @@
       11,
       16
     ],
-    "checkedAt": "2026-09-10T02:37:09.546Z",
+    "checkedAt": "2026-09-10T11:20:18.655Z",
     "source": "https://api.github.com/repos/openclaw/mcporter/stats/participation"
   },
   "repomix": {
@@ -2374,7 +2374,7 @@
       23,
       19
     ],
-    "checkedAt": "2026-09-10T02:37:09.741Z",
+    "checkedAt": "2026-09-10T11:20:18.879Z",
     "source": "https://api.github.com/repos/yamadashy/repomix/stats/participation"
   },
   "summarize": {
@@ -2432,7 +2432,7 @@
       6,
       43
     ],
-    "checkedAt": "2026-09-10T02:37:09.869Z",
+    "checkedAt": "2026-09-10T11:20:19.076Z",
     "source": "https://api.github.com/repos/steipete/summarize/stats/participation"
   },
   "shot-scraper": {
@@ -2490,7 +2490,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:09.987Z",
+    "checkedAt": "2026-09-10T11:20:19.368Z",
     "source": "https://api.github.com/repos/simonw/shot-scraper/stats/participation"
   },
   "google-workspace-cli": {
@@ -2548,7 +2548,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:10.129Z",
+    "checkedAt": "2026-09-10T11:20:19.565Z",
     "source": "https://api.github.com/repos/googleworkspace/cli/stats/participation"
   },
   "gogcli": {
@@ -2606,7 +2606,7 @@
       18,
       20
     ],
-    "checkedAt": "2026-09-10T02:37:10.275Z",
+    "checkedAt": "2026-09-10T11:20:19.871Z",
     "source": "https://api.github.com/repos/openclaw/gogcli/stats/participation"
   },
   "linear-cli": {
@@ -2664,7 +2664,7 @@
       12,
       5
     ],
-    "checkedAt": "2026-09-10T02:37:10.484Z",
+    "checkedAt": "2026-09-10T11:20:20.088Z",
     "source": "https://api.github.com/repos/schpet/linear-cli/stats/participation"
   },
   "beads": {
@@ -2722,7 +2722,7 @@
       23,
       28
     ],
-    "checkedAt": "2026-09-10T02:37:10.658Z",
+    "checkedAt": "2026-09-10T11:20:20.450Z",
     "source": "https://api.github.com/repos/gastownhall/beads/stats/participation"
   },
   "himalaya": {
@@ -2780,7 +2780,7 @@
       5,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:10.793Z",
+    "checkedAt": "2026-09-10T11:20:20.711Z",
     "source": "https://api.github.com/repos/pimalaya/himalaya/stats/participation"
   },
   "remindctl": {
@@ -2838,7 +2838,7 @@
       3,
       11
     ],
-    "checkedAt": "2026-09-10T02:37:10.934Z",
+    "checkedAt": "2026-09-10T11:20:20.978Z",
     "source": "https://api.github.com/repos/openclaw/remindctl/stats/participation"
   },
   "imsg": {
@@ -2896,7 +2896,7 @@
       9,
       32
     ],
-    "checkedAt": "2026-09-10T02:37:11.101Z",
+    "checkedAt": "2026-09-10T11:20:21.209Z",
     "source": "https://api.github.com/repos/openclaw/imsg/stats/participation"
   },
   "wacli": {
@@ -2954,7 +2954,7 @@
       6,
       23
     ],
-    "checkedAt": "2026-09-10T02:37:11.269Z",
+    "checkedAt": "2026-09-10T11:20:21.467Z",
     "source": "https://api.github.com/repos/openclaw/wacli/stats/participation"
   },
   "sonoscli": {
@@ -3012,7 +3012,7 @@
       0,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:11.450Z",
+    "checkedAt": "2026-09-10T11:20:21.596Z",
     "source": "https://api.github.com/repos/steipete/sonoscli/stats/participation"
   },
   "goplaces": {
@@ -3070,7 +3070,7 @@
       1,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:11.647Z",
+    "checkedAt": "2026-09-10T11:20:21.773Z",
     "source": "https://api.github.com/repos/openclaw/goplaces/stats/participation"
   },
   "railway-cli": {
@@ -3128,7 +3128,7 @@
       41,
       22
     ],
-    "checkedAt": "2026-09-10T02:37:11.823Z",
+    "checkedAt": "2026-09-10T11:20:21.958Z",
     "source": "https://api.github.com/repos/railwayapp/cli/stats/participation"
   },
   "aws-cli": {
@@ -3186,7 +3186,7 @@
       3,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:11.966Z",
+    "checkedAt": "2026-09-10T11:20:22.293Z",
     "source": "https://api.github.com/repos/aws/aws-cli/stats/participation"
   },
   "azure-cli": {
@@ -3244,7 +3244,7 @@
       11,
       19
     ],
-    "checkedAt": "2026-09-10T02:37:12.114Z",
+    "checkedAt": "2026-09-10T11:20:22.470Z",
     "source": "https://api.github.com/repos/Azure/azure-cli/stats/participation"
   },
   "doctl": {
@@ -3302,7 +3302,7 @@
       3,
       2
     ],
-    "checkedAt": "2026-09-10T02:37:12.276Z",
+    "checkedAt": "2026-09-10T11:20:22.701Z",
     "source": "https://api.github.com/repos/digitalocean/doctl/stats/participation"
   },
   "hcloud": {
@@ -3360,7 +3360,7 @@
       5,
       2
     ],
-    "checkedAt": "2026-09-10T02:37:12.437Z",
+    "checkedAt": "2026-09-10T11:20:22.879Z",
     "source": "https://api.github.com/repos/hetznercloud/cli/stats/participation"
   },
   "scaleway-cli": {
@@ -3418,7 +3418,7 @@
       22,
       35
     ],
-    "checkedAt": "2026-09-10T02:37:12.672Z",
+    "checkedAt": "2026-09-10T11:20:23.119Z",
     "source": "https://api.github.com/repos/scaleway/scaleway-cli/stats/participation"
   },
   "linode-cli": {
@@ -3476,7 +3476,7 @@
       0,
       2
     ],
-    "checkedAt": "2026-09-10T02:37:12.846Z",
+    "checkedAt": "2026-09-10T11:20:23.240Z",
     "source": "https://api.github.com/repos/linode/linode-cli/stats/participation"
   },
   "ovhcloud-cli": {
@@ -3534,7 +3534,7 @@
       4,
       4
     ],
-    "checkedAt": "2026-09-10T02:37:13.015Z",
+    "checkedAt": "2026-09-10T11:20:23.468Z",
     "source": "https://api.github.com/repos/ovh/ovhcloud-cli/stats/participation"
   },
   "netlify-cli": {
@@ -3592,7 +3592,7 @@
       9,
       35
     ],
-    "checkedAt": "2026-09-10T02:37:13.349Z",
+    "checkedAt": "2026-09-10T11:20:23.646Z",
     "source": "https://api.github.com/repos/netlify/cli/stats/participation"
   },
   "render-cli": {
@@ -3650,7 +3650,7 @@
       24,
       12
     ],
-    "checkedAt": "2026-09-10T02:37:13.533Z",
+    "checkedAt": "2026-09-10T11:20:23.918Z",
     "source": "https://api.github.com/repos/render-oss/cli/stats/participation"
   },
   "firebase-cli": {
@@ -3708,7 +3708,7 @@
       29,
       17
     ],
-    "checkedAt": "2026-09-10T02:37:13.682Z",
+    "checkedAt": "2026-09-10T11:20:24.041Z",
     "source": "https://api.github.com/repos/firebase/firebase-tools/stats/participation"
   },
   "neonctl": {
@@ -3766,7 +3766,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:13.955Z",
+    "checkedAt": "2026-09-10T11:20:24.225Z",
     "source": "https://api.github.com/repos/neondatabase/neonctl/stats/participation"
   },
   "ecctl": {
@@ -3824,7 +3824,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:14.147Z",
+    "checkedAt": "2026-09-10T11:20:24.402Z",
     "source": "https://api.github.com/repos/elastic/ecctl/stats/participation"
   },
   "stripe-cli": {
@@ -3882,7 +3882,7 @@
       15,
       4
     ],
-    "checkedAt": "2026-09-10T02:37:14.364Z",
+    "checkedAt": "2026-09-10T11:20:24.548Z",
     "source": "https://api.github.com/repos/stripe/stripe-cli/stats/participation"
   },
   "wp-cli": {
@@ -3940,7 +3940,7 @@
       4,
       3
     ],
-    "checkedAt": "2026-09-10T02:37:14.523Z",
+    "checkedAt": "2026-09-10T11:20:24.711Z",
     "source": "https://api.github.com/repos/wp-cli/wp-cli/stats/participation"
   },
   "shopify-cli": {
@@ -3996,9 +3996,9 @@
       27,
       26,
       93,
-      88
+      92
     ],
-    "checkedAt": "2026-09-10T02:37:14.657Z",
+    "checkedAt": "2026-09-10T11:20:24.905Z",
     "source": "https://api.github.com/repos/Shopify/cli/stats/participation"
   },
   "salesforce-cli": {
@@ -4056,7 +4056,7 @@
       21,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:14.857Z",
+    "checkedAt": "2026-09-10T11:20:25.030Z",
     "source": "https://api.github.com/repos/salesforcecli/cli/stats/participation"
   },
   "microsoft-365-cli": {
@@ -4114,7 +4114,7 @@
       8,
       24
     ],
-    "checkedAt": "2026-09-10T02:37:15.159Z",
+    "checkedAt": "2026-09-10T11:20:25.169Z",
     "source": "https://api.github.com/repos/pnp/cli-microsoft365/stats/participation"
   },
   "twilio-cli": {
@@ -4172,7 +4172,7 @@
       1,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:15.343Z",
+    "checkedAt": "2026-09-10T11:20:25.458Z",
     "source": "https://api.github.com/repos/twilio/twilio-cli/stats/participation"
   },
   "algolia-cli": {
@@ -4230,7 +4230,7 @@
       1,
       2
     ],
-    "checkedAt": "2026-09-10T02:37:15.685Z",
+    "checkedAt": "2026-09-10T11:20:25.732Z",
     "source": "https://api.github.com/repos/algolia/cli/stats/participation"
   },
   "contentful-cli": {
@@ -4288,7 +4288,7 @@
       1,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:15.873Z",
+    "checkedAt": "2026-09-10T11:20:25.892Z",
     "source": "https://api.github.com/repos/contentful/contentful-cli/stats/participation"
   },
   "sanity-cli": {
@@ -4346,7 +4346,7 @@
       59,
       17
     ],
-    "checkedAt": "2026-09-10T02:37:16.088Z",
+    "checkedAt": "2026-09-10T11:20:26.134Z",
     "source": "https://api.github.com/repos/sanity-io/cli/stats/participation"
   },
   "podman": {
@@ -4404,7 +4404,7 @@
       50,
       65
     ],
-    "checkedAt": "2026-09-10T02:37:16.266Z",
+    "checkedAt": "2026-09-10T11:20:26.328Z",
     "source": "https://api.github.com/repos/podman-container-tools/podman/stats/participation"
   },
   "helm": {
@@ -4462,7 +4462,7 @@
       21,
       4
     ],
-    "checkedAt": "2026-09-10T02:37:16.446Z",
+    "checkedAt": "2026-09-10T11:20:26.534Z",
     "source": "https://api.github.com/repos/helm/helm/stats/participation"
   },
   "opentofu": {
@@ -4520,7 +4520,7 @@
       22,
       18
     ],
-    "checkedAt": "2026-09-10T02:37:16.668Z",
+    "checkedAt": "2026-09-10T11:20:26.749Z",
     "source": "https://api.github.com/repos/opentofu/opentofu/stats/participation"
   },
   "pulumi": {
@@ -4578,7 +4578,7 @@
       49,
       47
     ],
-    "checkedAt": "2026-09-10T02:37:16.927Z",
+    "checkedAt": "2026-09-10T11:20:27.039Z",
     "source": "https://api.github.com/repos/pulumi/pulumi/stats/participation"
   },
   "ansible": {
@@ -4636,7 +4636,7 @@
       4,
       9
     ],
-    "checkedAt": "2026-09-10T02:37:17.124Z",
+    "checkedAt": "2026-09-10T11:20:27.274Z",
     "source": "https://api.github.com/repos/ansible/ansible/stats/participation"
   },
   "argocd": {
@@ -4694,7 +4694,7 @@
       72,
       72
     ],
-    "checkedAt": "2026-09-10T02:37:17.283Z",
+    "checkedAt": "2026-09-10T11:20:27.411Z",
     "source": "https://api.github.com/repos/argoproj/argo-cd/stats/participation"
   },
   "flux-cli": {
@@ -4752,7 +4752,7 @@
       3,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:17.466Z",
+    "checkedAt": "2026-09-10T11:20:27.545Z",
     "source": "https://api.github.com/repos/fluxcd/flux2/stats/participation"
   },
   "kind": {
@@ -4810,7 +4810,7 @@
       1,
       3
     ],
-    "checkedAt": "2026-09-10T02:37:17.649Z",
+    "checkedAt": "2026-09-10T11:20:27.866Z",
     "source": "https://api.github.com/repos/kubernetes-sigs/kind/stats/participation"
   },
   "minikube": {
@@ -4868,7 +4868,7 @@
       46,
       82
     ],
-    "checkedAt": "2026-09-10T02:37:17.830Z",
+    "checkedAt": "2026-09-10T11:20:28.062Z",
     "source": "https://api.github.com/repos/kubernetes/minikube/stats/participation"
   },
   "sops": {
@@ -4926,7 +4926,7 @@
       7,
       2
     ],
-    "checkedAt": "2026-09-10T02:37:17.979Z",
+    "checkedAt": "2026-09-10T11:20:28.205Z",
     "source": "https://api.github.com/repos/getsops/sops/stats/participation"
   },
   "age": {
@@ -4984,7 +4984,7 @@
       44,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:18.183Z",
+    "checkedAt": "2026-09-10T11:20:28.434Z",
     "source": "https://api.github.com/repos/FiloSottile/age/stats/participation"
   },
   "bitwarden-cli": {
@@ -5042,7 +5042,7 @@
       67,
       78
     ],
-    "checkedAt": "2026-09-10T02:37:18.324Z",
+    "checkedAt": "2026-09-10T11:20:28.628Z",
     "source": "https://api.github.com/repos/bitwarden/clients/stats/participation"
   },
   "doppler-cli": {
@@ -5100,7 +5100,7 @@
       3,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:18.507Z",
+    "checkedAt": "2026-09-10T11:20:28.835Z",
     "source": "https://api.github.com/repos/DopplerHQ/cli/stats/participation"
   },
   "infisical-cli": {
@@ -5158,7 +5158,7 @@
       32,
       13
     ],
-    "checkedAt": "2026-09-10T02:37:18.633Z",
+    "checkedAt": "2026-09-10T11:20:29.095Z",
     "source": "https://api.github.com/repos/Infisical/cli/stats/participation"
   },
   "trivy": {
@@ -5216,7 +5216,7 @@
       6,
       17
     ],
-    "checkedAt": "2026-09-10T02:37:18.778Z",
+    "checkedAt": "2026-09-10T11:20:29.324Z",
     "source": "https://api.github.com/repos/aquasecurity/trivy/stats/participation"
   },
   "syft": {
@@ -5274,7 +5274,7 @@
       11,
       6
     ],
-    "checkedAt": "2026-09-10T02:37:18.960Z",
+    "checkedAt": "2026-09-10T11:20:29.556Z",
     "source": "https://api.github.com/repos/anchore/syft/stats/participation"
   },
   "grype": {
@@ -5332,7 +5332,7 @@
       7,
       7
     ],
-    "checkedAt": "2026-09-10T02:37:19.175Z",
+    "checkedAt": "2026-09-10T11:20:29.703Z",
     "source": "https://api.github.com/repos/anchore/grype/stats/participation"
   },
   "trufflehog": {
@@ -5390,7 +5390,7 @@
       4,
       13
     ],
-    "checkedAt": "2026-09-10T02:37:19.380Z",
+    "checkedAt": "2026-09-10T11:20:29.937Z",
     "source": "https://api.github.com/repos/trufflesecurity/trufflehog/stats/participation"
   },
   "cosign": {
@@ -5448,7 +5448,7 @@
       1,
       26
     ],
-    "checkedAt": "2026-09-10T02:37:19.582Z",
+    "checkedAt": "2026-09-10T11:20:30.125Z",
     "source": "https://api.github.com/repos/sigstore/cosign/stats/participation"
   },
   "snyk-cli": {
@@ -5506,7 +5506,7 @@
       41,
       54
     ],
-    "checkedAt": "2026-09-10T02:37:19.716Z",
+    "checkedAt": "2026-09-10T11:20:30.324Z",
     "source": "https://api.github.com/repos/snyk/cli/stats/participation"
   },
   "sentry-cli": {
@@ -5564,7 +5564,7 @@
       27,
       28
     ],
-    "checkedAt": "2026-09-10T02:37:19.886Z",
+    "checkedAt": "2026-09-10T11:20:30.560Z",
     "source": "https://api.github.com/repos/getsentry/cli/stats/participation"
   },
   "k6": {
@@ -5622,7 +5622,7 @@
       5,
       5
     ],
-    "checkedAt": "2026-09-10T02:37:20.018Z",
+    "checkedAt": "2026-09-10T11:20:30.728Z",
     "source": "https://api.github.com/repos/grafana/k6/stats/participation"
   },
   "lighthouse": {
@@ -5680,7 +5680,7 @@
       11,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:20.153Z",
+    "checkedAt": "2026-09-10T11:20:30.966Z",
     "source": "https://api.github.com/repos/GoogleChrome/lighthouse/stats/participation"
   },
   "axe-cli": {
@@ -5738,7 +5738,7 @@
       6,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:20.322Z",
+    "checkedAt": "2026-09-10T11:20:31.118Z",
     "source": "https://api.github.com/repos/dequelabs/axe-core-npm/stats/participation"
   },
   "duckdb-cli": {
@@ -5777,7 +5777,7 @@
       598,
       589,
       589,
-      527,
+      528,
       567,
       587,
       527,
@@ -5787,16 +5787,16 @@
       553,
       519,
       362,
-      465,
+      475,
       384,
       543,
       334,
       509,
       466,
-      621,
-      408
+      624,
+      429
     ],
-    "checkedAt": "2026-09-10T02:37:20.754Z",
+    "checkedAt": "2026-09-10T11:20:31.363Z",
     "source": "https://api.github.com/repos/duckdb/duckdb/stats/participation"
   },
   "sqlite-utils": {
@@ -5854,7 +5854,7 @@
       3,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:20.912Z",
+    "checkedAt": "2026-09-10T11:20:31.615Z",
     "source": "https://api.github.com/repos/simonw/sqlite-utils/stats/participation"
   },
   "dbt-core": {
@@ -5910,9 +5910,9 @@
       77,
       108,
       145,
-      152
+      153
     ],
-    "checkedAt": "2026-09-10T02:37:21.039Z",
+    "checkedAt": "2026-09-10T11:20:31.948Z",
     "source": "https://api.github.com/repos/dbt-labs/dbt-core/stats/participation"
   },
   "sqlfluff": {
@@ -5970,7 +5970,7 @@
       20,
       16
     ],
-    "checkedAt": "2026-09-10T02:37:21.210Z",
+    "checkedAt": "2026-09-10T11:20:32.207Z",
     "source": "https://api.github.com/repos/sqlfluff/sqlfluff/stats/participation"
   },
   "golang-migrate": {
@@ -6028,7 +6028,7 @@
       2,
       7
     ],
-    "checkedAt": "2026-09-10T02:37:21.388Z",
+    "checkedAt": "2026-09-10T11:20:32.442Z",
     "source": "https://api.github.com/repos/golang-migrate/migrate/stats/participation"
   },
   "atlas": {
@@ -6086,7 +6086,7 @@
       2,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:21.592Z",
+    "checkedAt": "2026-09-10T11:20:32.630Z",
     "source": "https://api.github.com/repos/ariga/atlas/stats/participation"
   },
   "miller": {
@@ -6144,7 +6144,7 @@
       2,
       4
     ],
-    "checkedAt": "2026-09-10T02:37:21.737Z",
+    "checkedAt": "2026-09-10T11:20:32.873Z",
     "source": "https://api.github.com/repos/johnkerl/miller/stats/participation"
   },
   "dolt": {
@@ -6202,7 +6202,7 @@
       90,
       69
     ],
-    "checkedAt": "2026-09-10T02:37:21.868Z",
+    "checkedAt": "2026-09-10T11:20:33.186Z",
     "source": "https://api.github.com/repos/dolthub/dolt/stats/participation"
   },
   "yt-dlp": {
@@ -6260,7 +6260,7 @@
       8,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:22.002Z",
+    "checkedAt": "2026-09-10T11:20:33.321Z",
     "source": "https://api.github.com/repos/yt-dlp/yt-dlp/stats/participation"
   },
   "ffmpeg": {
@@ -6316,9 +6316,9 @@
       99,
       81,
       48,
-      22
+      23
     ],
-    "checkedAt": "2026-09-10T02:37:22.182Z",
+    "checkedAt": "2026-09-10T11:20:33.473Z",
     "source": "https://api.github.com/repos/FFmpeg/FFmpeg/stats/participation"
   },
   "imagemagick": {
@@ -6376,7 +6376,7 @@
       45,
       68
     ],
-    "checkedAt": "2026-09-10T02:37:22.323Z",
+    "checkedAt": "2026-09-10T11:20:33.678Z",
     "source": "https://api.github.com/repos/ImageMagick/ImageMagick/stats/participation"
   },
   "tesseract": {
@@ -6434,7 +6434,7 @@
       2,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:22.460Z",
+    "checkedAt": "2026-09-10T11:20:33.868Z",
     "source": "https://api.github.com/repos/tesseract-ocr/tesseract/stats/participation"
   },
   "ocrmypdf": {
@@ -6492,7 +6492,7 @@
       15,
       4
     ],
-    "checkedAt": "2026-09-10T02:37:22.604Z",
+    "checkedAt": "2026-09-10T11:20:34.134Z",
     "source": "https://api.github.com/repos/ocrmypdf/OCRmyPDF/stats/participation"
   },
   "qpdf": {
@@ -6550,7 +6550,7 @@
       10,
       22
     ],
-    "checkedAt": "2026-09-10T02:37:22.866Z",
+    "checkedAt": "2026-09-10T11:20:34.283Z",
     "source": "https://api.github.com/repos/qpdf/qpdf/stats/participation"
   },
   "restic": {
@@ -6608,7 +6608,7 @@
       10,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:23.083Z",
+    "checkedAt": "2026-09-10T11:20:34.428Z",
     "source": "https://api.github.com/repos/restic/restic/stats/participation"
   },
   "just": {
@@ -6666,7 +6666,7 @@
       2,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:23.199Z",
+    "checkedAt": "2026-09-10T11:20:34.596Z",
     "source": "https://api.github.com/repos/casey/just/stats/participation"
   },
   "blucli": {
@@ -6724,7 +6724,7 @@
       1,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:23.383Z",
+    "checkedAt": "2026-09-10T11:20:34.878Z",
     "source": "https://api.github.com/repos/steipete/blucli/stats/participation"
   },
   "eightctl": {
@@ -6782,7 +6782,7 @@
       2,
       12
     ],
-    "checkedAt": "2026-09-10T02:37:23.510Z",
+    "checkedAt": "2026-09-10T11:20:35.069Z",
     "source": "https://api.github.com/repos/steipete/eightctl/stats/participation"
   },
   "gifgrep": {
@@ -6840,7 +6840,7 @@
       4,
       8
     ],
-    "checkedAt": "2026-09-10T02:37:23.637Z",
+    "checkedAt": "2026-09-10T11:20:35.263Z",
     "source": "https://api.github.com/repos/steipete/gifgrep/stats/participation"
   },
   "camsnap": {
@@ -6898,7 +6898,7 @@
       4,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:23.772Z",
+    "checkedAt": "2026-09-10T11:20:35.387Z",
     "source": "https://api.github.com/repos/steipete/camsnap/stats/participation"
   },
   "ordercli": {
@@ -6956,7 +6956,7 @@
       1,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:23.991Z",
+    "checkedAt": "2026-09-10T11:20:35.638Z",
     "source": "https://api.github.com/repos/steipete/ordercli/stats/participation"
   },
   "openhue-cli": {
@@ -7014,7 +7014,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:24.120Z",
+    "checkedAt": "2026-09-10T11:20:35.867Z",
     "source": "https://api.github.com/repos/openhue/openhue-cli/stats/participation"
   },
   "sag": {
@@ -7072,7 +7072,7 @@
       0,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:24.247Z",
+    "checkedAt": "2026-09-10T11:20:35.987Z",
     "source": "https://api.github.com/repos/steipete/sag/stats/participation"
   },
   "twitter-cli": {
@@ -7130,7 +7130,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:24.387Z",
+    "checkedAt": "2026-09-10T11:20:36.227Z",
     "source": "https://api.github.com/repos/public-clis/twitter-cli/stats/participation"
   },
   "bilibili-cli": {
@@ -7188,7 +7188,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:24.537Z",
+    "checkedAt": "2026-09-10T11:20:36.418Z",
     "source": "https://api.github.com/repos/public-clis/bilibili-cli/stats/participation"
   },
   "rdt-cli": {
@@ -7246,7 +7246,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:24.705Z",
+    "checkedAt": "2026-09-10T11:20:36.584Z",
     "source": "https://api.github.com/repos/public-clis/rdt-cli/stats/participation"
   },
   "xiaohongshu-cli": {
@@ -7304,7 +7304,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:24.871Z",
+    "checkedAt": "2026-09-10T11:20:37.797Z",
     "source": "https://api.github.com/repos/jackwener/xiaohongshu-cli/stats/participation"
   },
   "notesmd-cli": {
@@ -7362,7 +7362,7 @@
       4,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:25.036Z",
+    "checkedAt": "2026-09-10T11:20:38.027Z",
     "source": "https://api.github.com/repos/Yakitrak/notesmd-cli/stats/participation"
   },
   "jira-cli": {
@@ -7420,7 +7420,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:25.170Z",
+    "checkedAt": "2026-09-10T11:20:38.263Z",
     "source": "https://api.github.com/repos/ankitpokhrel/jira-cli/stats/participation"
   },
   "todoist-cli": {
@@ -7478,7 +7478,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:25.298Z",
+    "checkedAt": "2026-09-10T11:20:38.572Z",
     "source": "https://api.github.com/repos/sachaos/todoist/stats/participation"
   },
   "taskwarrior": {
@@ -7536,7 +7536,7 @@
       1,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:25.437Z",
+    "checkedAt": "2026-09-10T11:20:38.828Z",
     "source": "https://api.github.com/repos/GothenburgBitFactory/taskwarrior/stats/participation"
   },
   "khal": {
@@ -7594,7 +7594,7 @@
       1,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:25.591Z",
+    "checkedAt": "2026-09-10T11:20:39.072Z",
     "source": "https://api.github.com/repos/pimutils/khal/stats/participation"
   },
   "gcalcli": {
@@ -7652,7 +7652,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:25.763Z",
+    "checkedAt": "2026-09-10T11:20:39.255Z",
     "source": "https://api.github.com/repos/insanum/gcalcli/stats/participation"
   },
   "vdirsyncer": {
@@ -7710,7 +7710,7 @@
       0,
       15
     ],
-    "checkedAt": "2026-09-10T02:37:25.930Z",
+    "checkedAt": "2026-09-10T11:20:39.430Z",
     "source": "https://api.github.com/repos/pimutils/vdirsyncer/stats/participation"
   },
   "buku": {
@@ -7768,7 +7768,7 @@
       0,
       2
     ],
-    "checkedAt": "2026-09-10T02:37:26.080Z",
+    "checkedAt": "2026-09-10T11:20:39.604Z",
     "source": "https://api.github.com/repos/jarun/buku/stats/participation"
   },
   "nb": {
@@ -7826,7 +7826,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:26.264Z",
+    "checkedAt": "2026-09-10T11:20:39.848Z",
     "source": "https://api.github.com/repos/xwmx/nb/stats/participation"
   },
   "vibe-notion": {
@@ -7884,7 +7884,7 @@
       5,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:26.498Z",
+    "checkedAt": "2026-09-10T11:20:40.075Z",
     "source": "https://api.github.com/repos/devxoul/vibe-notion/stats/participation"
   },
   "opencli": {
@@ -7942,7 +7942,7 @@
       12,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:26.623Z",
+    "checkedAt": "2026-09-10T11:20:40.304Z",
     "source": "https://api.github.com/repos/jackwener/OpenCLI/stats/participation"
   },
   "rulesync": {
@@ -8000,7 +8000,7 @@
       313,
       195
     ],
-    "checkedAt": "2026-09-10T02:37:26.761Z",
+    "checkedAt": "2026-09-10T11:20:40.684Z",
     "source": "https://api.github.com/repos/dyoshikawa/rulesync/stats/participation"
   },
   "acpx": {
@@ -8058,7 +8058,7 @@
       10,
       28
     ],
-    "checkedAt": "2026-09-10T02:37:26.902Z",
+    "checkedAt": "2026-09-10T11:20:40.959Z",
     "source": "https://api.github.com/repos/openclaw/acpx/stats/participation"
   },
   "discord-cli": {
@@ -8116,7 +8116,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:27.039Z",
+    "checkedAt": "2026-09-10T11:20:41.081Z",
     "source": "https://api.github.com/repos/jackwener/discord-cli/stats/participation"
   },
   "tg-cli": {
@@ -8174,7 +8174,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:27.211Z",
+    "checkedAt": "2026-09-10T11:20:41.274Z",
     "source": "https://api.github.com/repos/jackwener/tg-cli/stats/participation"
   },
   "agent-slack": {
@@ -8232,7 +8232,7 @@
       7,
       3
     ],
-    "checkedAt": "2026-09-10T02:37:27.411Z",
+    "checkedAt": "2026-09-10T11:20:41.506Z",
     "source": "https://api.github.com/repos/stablyai/agent-slack/stats/participation"
   },
   "auth0-cli": {
@@ -8290,7 +8290,7 @@
       10,
       11
     ],
-    "checkedAt": "2026-09-10T02:37:27.636Z",
+    "checkedAt": "2026-09-10T11:20:41.750Z",
     "source": "https://api.github.com/repos/auth0/auth0-cli/stats/participation"
   },
   "okta-cli": {
@@ -8348,7 +8348,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:27.787Z",
+    "checkedAt": "2026-09-10T11:20:42.049Z",
     "source": "https://api.github.com/repos/okta/okta-cli/stats/participation"
   },
   "tailscale-cli": {
@@ -8404,9 +8404,9 @@
       23,
       22,
       28,
-      23
+      24
     ],
-    "checkedAt": "2026-09-10T02:37:27.923Z",
+    "checkedAt": "2026-09-10T11:20:42.289Z",
     "source": "https://api.github.com/repos/tailscale/tailscale/stats/participation"
   },
   "cloudflared": {
@@ -8464,7 +8464,7 @@
       8,
       7
     ],
-    "checkedAt": "2026-09-10T02:37:28.057Z",
+    "checkedAt": "2026-09-10T11:20:42.527Z",
     "source": "https://api.github.com/repos/cloudflare/cloudflared/stats/participation"
   },
   "heroku-cli": {
@@ -8522,7 +8522,7 @@
       2,
       6
     ],
-    "checkedAt": "2026-09-10T02:37:28.184Z",
+    "checkedAt": "2026-09-10T11:20:42.769Z",
     "source": "https://api.github.com/repos/heroku/cli/stats/participation"
   },
   "flyctl": {
@@ -8580,7 +8580,7 @@
       27,
       22
     ],
-    "checkedAt": "2026-09-10T02:37:28.326Z",
+    "checkedAt": "2026-09-10T11:20:42.973Z",
     "source": "https://api.github.com/repos/superfly/flyctl/stats/participation"
   },
   "fastly-cli": {
@@ -8638,7 +8638,7 @@
       2,
       6
     ],
-    "checkedAt": "2026-09-10T02:37:28.547Z",
+    "checkedAt": "2026-09-10T11:20:43.282Z",
     "source": "https://api.github.com/repos/fastly/cli/stats/participation"
   },
   "akamai-cli": {
@@ -8696,7 +8696,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:28.723Z",
+    "checkedAt": "2026-09-10T11:20:43.461Z",
     "source": "https://api.github.com/repos/akamai/cli/stats/participation"
   },
   "deck": {
@@ -8754,7 +8754,7 @@
       8,
       5
     ],
-    "checkedAt": "2026-09-10T02:37:28.929Z",
+    "checkedAt": "2026-09-10T11:20:43.717Z",
     "source": "https://api.github.com/repos/Kong/deck/stats/participation"
   },
   "temporal-cli": {
@@ -8812,7 +8812,7 @@
       7,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:29.129Z",
+    "checkedAt": "2026-09-10T11:20:44.014Z",
     "source": "https://api.github.com/repos/temporalio/cli/stats/participation"
   },
   "nats-cli": {
@@ -8870,7 +8870,7 @@
       0,
       17
     ],
-    "checkedAt": "2026-09-10T02:37:29.305Z",
+    "checkedAt": "2026-09-10T11:20:44.138Z",
     "source": "https://api.github.com/repos/nats-io/natscli/stats/participation"
   },
   "n8n-cli": {
@@ -8928,7 +8928,7 @@
       264,
       318
     ],
-    "checkedAt": "2026-09-10T02:37:29.441Z",
+    "checkedAt": "2026-09-10T11:20:44.320Z",
     "source": "https://api.github.com/repos/n8n-io/n8n/stats/participation"
   },
   "appwrite-cli": {
@@ -8986,7 +8986,7 @@
       1,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:29.713Z",
+    "checkedAt": "2026-09-10T11:20:44.537Z",
     "source": "https://api.github.com/repos/appwrite/sdk-for-cli/stats/participation"
   },
   "psql": {
@@ -9044,7 +9044,7 @@
       58,
       49
     ],
-    "checkedAt": "2026-09-10T02:37:29.863Z",
+    "checkedAt": "2026-09-10T11:20:44.669Z",
     "source": "https://api.github.com/repos/postgres/postgres/stats/participation"
   },
   "redis-cli": {
@@ -9102,7 +9102,7 @@
       9,
       9
     ],
-    "checkedAt": "2026-09-10T02:37:30.004Z",
+    "checkedAt": "2026-09-10T11:20:44.800Z",
     "source": "https://api.github.com/repos/redis/redis/stats/participation"
   },
   "mongosh": {
@@ -9160,7 +9160,7 @@
       3,
       14
     ],
-    "checkedAt": "2026-09-10T02:37:31.180Z",
+    "checkedAt": "2026-09-10T11:20:45.031Z",
     "source": "https://api.github.com/repos/mongodb-js/mongosh/stats/participation"
   },
   "mongodb-atlas-cli": {
@@ -9218,7 +9218,7 @@
       13,
       12
     ],
-    "checkedAt": "2026-09-10T02:37:31.535Z",
+    "checkedAt": "2026-09-10T11:20:45.257Z",
     "source": "https://api.github.com/repos/mongodb/mongodb-atlas-cli/stats/participation"
   },
   "snowflake-cli": {
@@ -9276,7 +9276,7 @@
       13,
       13
     ],
-    "checkedAt": "2026-09-10T02:37:31.743Z",
+    "checkedAt": "2026-09-10T11:20:45.389Z",
     "source": "https://api.github.com/repos/snowflakedb/snowflake-cli/stats/participation"
   },
   "databricks-cli": {
@@ -9334,7 +9334,7 @@
       55,
       78
     ],
-    "checkedAt": "2026-09-10T02:37:31.945Z",
+    "checkedAt": "2026-09-10T11:20:45.557Z",
     "source": "https://api.github.com/repos/databricks/cli/stats/participation"
   },
   "confluent-cli": {
@@ -9392,7 +9392,7 @@
       9,
       11
     ],
-    "checkedAt": "2026-09-10T02:37:32.185Z",
+    "checkedAt": "2026-09-10T11:20:45.793Z",
     "source": "https://api.github.com/repos/confluentinc/cli/stats/participation"
   },
   "clickhouse-client": {
@@ -9432,25 +9432,25 @@
       1444,
       1753,
       2026,
-      2366,
-      1544,
+      2368,
+      1546,
       1676,
       2251,
       2667,
-      2484,
-      2982,
-      2470,
-      2915,
-      3153,
-      3465,
-      3421,
-      2964,
-      3630,
-      2598,
-      2113,
-      1896
+      2486,
+      2983,
+      2474,
+      2921,
+      3154,
+      3468,
+      3430,
+      2967,
+      3655,
+      2614,
+      2148,
+      2017
     ],
-    "checkedAt": "2026-09-10T02:37:32.361Z",
+    "checkedAt": "2026-09-10T11:20:45.998Z",
     "source": "https://api.github.com/repos/ClickHouse/ClickHouse/stats/participation"
   },
   "influx-cli": {
@@ -9508,7 +9508,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:32.514Z",
+    "checkedAt": "2026-09-10T11:20:46.244Z",
     "source": "https://api.github.com/repos/influxdata/influx-cli/stats/participation"
   },
   "usql": {
@@ -9566,7 +9566,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:32.697Z",
+    "checkedAt": "2026-09-10T11:20:46.452Z",
     "source": "https://api.github.com/repos/xo/usql/stats/participation"
   },
   "pgcli": {
@@ -9624,7 +9624,7 @@
       4,
       6
     ],
-    "checkedAt": "2026-09-10T02:37:32.837Z",
+    "checkedAt": "2026-09-10T11:20:46.637Z",
     "source": "https://api.github.com/repos/dbcli/pgcli/stats/participation"
   },
   "mycli": {
@@ -9682,7 +9682,7 @@
       54,
       62
     ],
-    "checkedAt": "2026-09-10T02:37:33.061Z",
+    "checkedAt": "2026-09-10T11:20:46.851Z",
     "source": "https://api.github.com/repos/dbcli/mycli/stats/participation"
   },
   "litecli": {
@@ -9740,7 +9740,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:33.196Z",
+    "checkedAt": "2026-09-10T11:20:47.059Z",
     "source": "https://api.github.com/repos/dbcli/litecli/stats/participation"
   },
   "csvkit": {
@@ -9798,7 +9798,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:33.352Z",
+    "checkedAt": "2026-09-10T11:20:47.264Z",
     "source": "https://api.github.com/repos/wireservice/csvkit/stats/participation"
   },
   "qsv": {
@@ -9856,7 +9856,7 @@
       31,
       42
     ],
-    "checkedAt": "2026-09-10T02:37:33.654Z",
+    "checkedAt": "2026-09-10T11:20:47.502Z",
     "source": "https://api.github.com/repos/dathere/qsv/stats/participation"
   },
   "jujutsu": {
@@ -9903,7 +9903,7 @@
       21,
       10,
       17,
-      29,
+      30,
       16,
       20,
       28,
@@ -9912,9 +9912,9 @@
       16,
       29,
       22,
-      11
+      12
     ],
-    "checkedAt": "2026-09-10T02:37:33.829Z",
+    "checkedAt": "2026-09-10T11:20:47.631Z",
     "source": "https://api.github.com/repos/jj-vcs/jj/stats/participation"
   },
   "git-lfs": {
@@ -9972,7 +9972,7 @@
       16,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:33.998Z",
+    "checkedAt": "2026-09-10T11:20:47.826Z",
     "source": "https://api.github.com/repos/git-lfs/git-lfs/stats/participation"
   },
   "goreleaser": {
@@ -10030,7 +10030,7 @@
       30,
       70
     ],
-    "checkedAt": "2026-09-10T02:37:34.146Z",
+    "checkedAt": "2026-09-10T11:20:48.048Z",
     "source": "https://api.github.com/repos/goreleaser/goreleaser/stats/participation"
   },
   "act": {
@@ -10088,7 +10088,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:34.286Z",
+    "checkedAt": "2026-09-10T11:20:48.191Z",
     "source": "https://api.github.com/repos/nektos/act/stats/participation"
   },
   "dagger-cli": {
@@ -10144,9 +10144,9 @@
       103,
       87,
       78,
-      122
+      127
     ],
-    "checkedAt": "2026-09-10T02:37:34.432Z",
+    "checkedAt": "2026-09-10T11:20:48.522Z",
     "source": "https://api.github.com/repos/dagger/dagger/stats/participation"
   },
   "dev-container-cli": {
@@ -10204,7 +10204,7 @@
       8,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:34.579Z",
+    "checkedAt": "2026-09-10T11:20:48.686Z",
     "source": "https://api.github.com/repos/devcontainers/cli/stats/participation"
   },
   "devspace": {
@@ -10262,7 +10262,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:34.750Z",
+    "checkedAt": "2026-09-10T11:20:48.940Z",
     "source": "https://api.github.com/repos/devspace-sh/devspace/stats/participation"
   },
   "garden": {
@@ -10320,7 +10320,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:34.909Z",
+    "checkedAt": "2026-09-10T11:20:49.150Z",
     "source": "https://api.github.com/repos/garden-io/garden/stats/participation"
   },
   "k3d": {
@@ -10378,7 +10378,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:35.071Z",
+    "checkedAt": "2026-09-10T11:20:49.386Z",
     "source": "https://api.github.com/repos/k3d-io/k3d/stats/participation"
   },
   "skaffold": {
@@ -10436,7 +10436,7 @@
       1,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:35.270Z",
+    "checkedAt": "2026-09-10T11:20:49.604Z",
     "source": "https://api.github.com/repos/GoogleContainerTools/skaffold/stats/participation"
   },
   "kustomize": {
@@ -10494,7 +10494,7 @@
       5,
       25
     ],
-    "checkedAt": "2026-09-10T02:37:35.400Z",
+    "checkedAt": "2026-09-10T11:20:49.783Z",
     "source": "https://api.github.com/repos/kubernetes-sigs/kustomize/stats/participation"
   },
   "helmfile": {
@@ -10552,7 +10552,7 @@
       8,
       9
     ],
-    "checkedAt": "2026-09-10T02:37:35.533Z",
+    "checkedAt": "2026-09-10T11:20:50.055Z",
     "source": "https://api.github.com/repos/helmfile/helmfile/stats/participation"
   },
   "kubectx": {
@@ -10610,7 +10610,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:35.667Z",
+    "checkedAt": "2026-09-10T11:20:50.173Z",
     "source": "https://api.github.com/repos/ahmetb/kubectx/stats/participation"
   },
   "stern": {
@@ -10668,7 +10668,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:35.844Z",
+    "checkedAt": "2026-09-10T11:20:50.397Z",
     "source": "https://api.github.com/repos/stern/stern/stats/participation"
   },
   "eslint": {
@@ -10726,7 +10726,7 @@
       13,
       17
     ],
-    "checkedAt": "2026-09-10T02:37:36.015Z",
+    "checkedAt": "2026-09-10T11:20:50.618Z",
     "source": "https://api.github.com/repos/eslint/eslint/stats/participation"
   },
   "prettier": {
@@ -10784,7 +10784,7 @@
       27,
       18
     ],
-    "checkedAt": "2026-09-10T02:37:36.153Z",
+    "checkedAt": "2026-09-10T11:20:50.860Z",
     "source": "https://api.github.com/repos/prettier/prettier/stats/participation"
   },
   "deno": {
@@ -10842,7 +10842,7 @@
       23,
       19
     ],
-    "checkedAt": "2026-09-10T02:37:36.284Z",
+    "checkedAt": "2026-09-10T11:20:51.068Z",
     "source": "https://api.github.com/repos/denoland/deno/stats/participation"
   },
   "npm": {
@@ -10900,7 +10900,7 @@
       1,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:36.416Z",
+    "checkedAt": "2026-09-10T11:20:51.201Z",
     "source": "https://api.github.com/repos/npm/cli/stats/participation"
   },
   "poetry": {
@@ -10958,7 +10958,7 @@
       6,
       13
     ],
-    "checkedAt": "2026-09-10T02:37:36.557Z",
+    "checkedAt": "2026-09-10T11:20:51.366Z",
     "source": "https://api.github.com/repos/python-poetry/poetry/stats/participation"
   },
   "pipx": {
@@ -11016,7 +11016,7 @@
       13,
       3
     ],
-    "checkedAt": "2026-09-10T02:37:36.692Z",
+    "checkedAt": "2026-09-10T11:20:51.577Z",
     "source": "https://api.github.com/repos/pypa/pipx/stats/participation"
   },
   "task": {
@@ -11074,7 +11074,7 @@
       5,
       7
     ],
-    "checkedAt": "2026-09-10T02:37:36.863Z",
+    "checkedAt": "2026-09-10T11:20:51.767Z",
     "source": "https://api.github.com/repos/go-task/task/stats/participation"
   },
   "watchexec": {
@@ -11132,7 +11132,7 @@
       3,
       10
     ],
-    "checkedAt": "2026-09-10T02:37:37.114Z",
+    "checkedAt": "2026-09-10T11:20:51.920Z",
     "source": "https://api.github.com/repos/watchexec/watchexec/stats/participation"
   },
   "hyperfine": {
@@ -11190,7 +11190,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:37.617Z",
+    "checkedAt": "2026-09-10T11:20:52.056Z",
     "source": "https://api.github.com/repos/sharkdp/hyperfine/stats/participation"
   },
   "mkcert": {
@@ -11248,7 +11248,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:37.797Z",
+    "checkedAt": "2026-09-10T11:20:52.269Z",
     "source": "https://api.github.com/repos/FiloSottile/mkcert/stats/participation"
   },
   "docling-cli": {
@@ -11306,7 +11306,7 @@
       21,
       29
     ],
-    "checkedAt": "2026-09-10T02:37:37.943Z",
+    "checkedAt": "2026-09-10T11:20:52.478Z",
     "source": "https://api.github.com/repos/docling-project/docling/stats/participation"
   },
   "markitdown": {
@@ -11364,7 +11364,7 @@
       28,
       39
     ],
-    "checkedAt": "2026-09-10T02:37:38.106Z",
+    "checkedAt": "2026-09-10T11:20:52.656Z",
     "source": "https://api.github.com/repos/microsoft/markitdown/stats/participation"
   },
   "hugo": {
@@ -11422,7 +11422,7 @@
       19,
       26
     ],
-    "checkedAt": "2026-09-10T02:37:38.263Z",
+    "checkedAt": "2026-09-10T11:20:52.780Z",
     "source": "https://api.github.com/repos/gohugoio/hugo/stats/participation"
   },
   "mkdocs": {
@@ -11480,7 +11480,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:38.417Z",
+    "checkedAt": "2026-09-10T11:20:52.944Z",
     "source": "https://api.github.com/repos/mkdocs/mkdocs/stats/participation"
   },
   "asciidoctor": {
@@ -11538,7 +11538,7 @@
       1,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:38.602Z",
+    "checkedAt": "2026-09-10T11:20:53.126Z",
     "source": "https://api.github.com/repos/asciidoctor/asciidoctor/stats/participation"
   },
   "quarto-cli": {
@@ -11596,7 +11596,7 @@
       12,
       35
     ],
-    "checkedAt": "2026-09-10T02:37:38.768Z",
+    "checkedAt": "2026-09-10T11:20:53.317Z",
     "source": "https://api.github.com/repos/quarto-dev/quarto-cli/stats/participation"
   },
   "marp-cli": {
@@ -11654,7 +11654,7 @@
       0,
       19
     ],
-    "checkedAt": "2026-09-10T02:37:38.948Z",
+    "checkedAt": "2026-09-10T11:20:53.503Z",
     "source": "https://api.github.com/repos/marp-team/marp-cli/stats/participation"
   },
   "mermaid-cli": {
@@ -11712,7 +11712,7 @@
       18,
       4
     ],
-    "checkedAt": "2026-09-10T02:37:39.161Z",
+    "checkedAt": "2026-09-10T11:20:53.638Z",
     "source": "https://api.github.com/repos/mermaid-js/mermaid-cli/stats/participation"
   },
   "vips-cli": {
@@ -11770,7 +11770,7 @@
       4,
       1
     ],
-    "checkedAt": "2026-09-10T02:37:39.347Z",
+    "checkedAt": "2026-09-10T11:20:53.883Z",
     "source": "https://api.github.com/repos/libvips/libvips/stats/participation"
   },
   "exiftool": {
@@ -11828,7 +11828,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:39.510Z",
+    "checkedAt": "2026-09-10T11:20:54.073Z",
     "source": "https://api.github.com/repos/exiftool/exiftool/stats/participation"
   },
   "whisper-cli": {
@@ -11886,7 +11886,7 @@
       80,
       24
     ],
-    "checkedAt": "2026-09-10T02:37:39.640Z",
+    "checkedAt": "2026-09-10T11:20:54.311Z",
     "source": "https://api.github.com/repos/ggml-org/whisper.cpp/stats/participation"
   },
   "typst": {
@@ -11944,7 +11944,7 @@
       8,
       7
     ],
-    "checkedAt": "2026-09-10T02:37:39.781Z",
+    "checkedAt": "2026-09-10T11:20:54.568Z",
     "source": "https://api.github.com/repos/typst/typst/stats/participation"
   },
   "mutool": {
@@ -12002,7 +12002,7 @@
       13,
       6
     ],
-    "checkedAt": "2026-09-10T02:37:39.908Z",
+    "checkedAt": "2026-09-10T11:20:54.796Z",
     "source": "https://api.github.com/repos/ArtifexSoftware/mupdf/stats/participation"
   },
   "pdfcpu": {
@@ -12060,7 +12060,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:40.109Z",
+    "checkedAt": "2026-09-10T11:20:55.024Z",
     "source": "https://api.github.com/repos/pdfcpu/pdfcpu/stats/participation"
   },
   "miniserve": {
@@ -12118,7 +12118,7 @@
       1,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:40.237Z",
+    "checkedAt": "2026-09-10T11:20:55.259Z",
     "source": "https://api.github.com/repos/svenstaro/miniserve/stats/participation"
   },
   "openai-codex-security": {
@@ -12176,7 +12176,7 @@
       80,
       34
     ],
-    "checkedAt": "2026-09-10T02:37:40.393Z",
+    "checkedAt": "2026-09-10T11:20:55.467Z",
     "source": "https://api.github.com/repos/openai/codex-security/stats/participation"
   },
   "esengine-deepseek-reasonix": {
@@ -12232,9 +12232,9 @@
       256,
       273,
       261,
-      640
+      649
     ],
-    "checkedAt": "2026-09-10T02:37:40.551Z",
+    "checkedAt": "2026-09-10T11:20:55.711Z",
     "source": "https://api.github.com/repos/esengine/DeepSeek-Reasonix/stats/participation"
   },
   "sigoden-aichat": {
@@ -12292,7 +12292,7 @@
       0,
       0
     ],
-    "checkedAt": "2026-09-10T02:37:40.679Z",
+    "checkedAt": "2026-09-10T11:20:55.904Z",
     "source": "https://api.github.com/repos/sigoden/aichat/stats/participation"
   },
   "aliyun-aliyun-cli": {
@@ -12350,7 +12350,7 @@
       0,
       3
     ],
-    "checkedAt": "2026-09-10T02:37:40.885Z",
+    "checkedAt": "2026-09-10T11:20:56.043Z",
     "source": "https://api.github.com/repos/aliyun/aliyun-cli/stats/participation"
   },
   "qwenlm-qwen-code": {
@@ -12408,7 +12408,7 @@
       312,
       278
     ],
-    "checkedAt": "2026-09-10T02:37:41.234Z",
+    "checkedAt": "2026-09-10T11:20:56.280Z",
     "source": "https://api.github.com/repos/QwenLM/qwen-code/stats/participation"
   },
   "mininglamp-oss-octo-cli": {
@@ -12466,7 +12466,7 @@
       2,
       4
     ],
-    "checkedAt": "2026-09-10T02:37:41.382Z",
+    "checkedAt": "2026-09-10T11:20:56.488Z",
     "source": "https://api.github.com/repos/Mininglamp-OSS/octo-cli/stats/participation"
   }
 }
