@@ -11,31 +11,47 @@
 
 GitHub's [licensing guide](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) explains why the public repository needs an explicit open-source license.
 
-## Cloudflare Workers build
+## Production deployment
 
-Connect the public repository in Cloudflare Workers Builds and use:
+Production is the `useclis` Cloudflare Worker with the `useclis.com` custom domain declared in `wrangler.jsonc`. Cloudflare manages the domain's DNS and certificate. The account ID in that file is an identifier, not a credential.
 
-| Setting | Value |
-| --- | --- |
-| Worker name | `useclis` |
-| Root directory | repository root |
-| Node | `22.22.2` (also in `.node-version`) |
-| Build command | `npm run build` |
-| Deploy command | `npx wrangler deploy` |
-| Build environment | `SITE_URL=https://useclis.com` |
-| Submission repository | `PUBLIC_SUBMISSIONS_REPO=jackwalkerlabs/useclis` (also the app default) |
+For a manual deployment with an authenticated Wrangler session:
 
-`SITE_URL` must be a build environment variable, not just a runtime Worker variable. It produces the canonical URLs, robots sitemap reference, and sitemap. To verify locally, run `SITE_URL=https://useclis.com npm run build`, then `npm run check:links` and `npx wrangler deploy --dry-run`.
+```sh
+npm ci
+npm run check
+npm test
+npm run check:design-system
+SITE_URL=https://useclis.com npm run build
+npm run check:links
+npx wrangler deploy
+node scripts/check-http.mjs https://useclis.com
+```
 
-Build and browse a preview first. Once the domain is an active Cloudflare zone in the same account and the preview is approved, add `useclis.com` under the Worker's Settings → Domains & Routes → Custom Domain. Cloudflare provisions the associated DNS record and certificate. Check existing DNS records before making that change. Domain ownership, zone/account access, and current DNS have not been verified by this local preparation.
+`SITE_URL` is a build environment variable. It produces canonical URLs, the robots sitemap reference, and the sitemap. `PUBLIC_SUBMISSIONS_REPO` defaults to `jackwalkerlabs/useclis`.
 
-References: [Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/), [Worker custom domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
+## Automatic deployment from main
 
-## Updates after launch
+The **Validate site** workflow validates every push and pull request. After successful validation, pushes to `main` and manual runs on `main` deploy the exact build that passed validation, then compare all public files and the custom 404 response with the build. Pull requests and other branches cannot deploy. Superseded main commits are skipped, and active main runs are allowed to finish instead of being cancelled during deployment.
 
-The daily GitHub workflow refreshes checked-in snapshots and commits them with the repository token. Enable Actions and permit the intended snapshot update workflow on the default branch. Protected branches may require a PR-based approach. Confirm in Cloudflare that a bot-generated snapshot commit actually produces a deployment; do not assume the two services are connected until tested.
+Configure the repository once:
 
-The validation workflow runs on pushes and pull requests without deployment credentials. Do not add API credentials to public files or client code.
+1. Create a Cloudflare API token using the **Edit Cloudflare Workers** template, restricted to the production account and `useclis.com` zone. Follow [Cloudflare's GitHub Actions instructions](https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/).
+2. Store the token as the repository Actions secret `CLOUDFLARE_API_TOKEN`. `gh secret set CLOUDFLARE_API_TOKEN --repo jackwalkerlabs/useclis` prompts securely; do not put the value in source, logs, or chat. Local Wrangler OAuth credentials are not used by GitHub.
+3. Enable deployments and test a manual main run:
+
+   ```sh
+   gh variable set CLOUDFLARE_DEPLOY_ENABLED --body true --repo jackwalkerlabs/useclis
+   gh workflow run ci.yml --ref main --repo jackwalkerlabs/useclis
+   ```
+
+Without `CLOUDFLARE_DEPLOY_ENABLED=true`, CI still validates but skips deployment. Set it to `false` to pause automatic releases. Use one deployment system for production; a separate Cloudflare Workers Builds integration is unnecessary.
+
+The daily snapshot workflow commits refreshed data to main, then explicitly dispatches **Validate site**. This is required because [pushes made with `GITHUB_TOKEN` do not trigger another push workflow](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow). It has `actions: write` solely to dispatch that pipeline; the validation/deployment workflow retains `contents: read`. Protected branches may require a PR-based snapshot update flow.
+
+To roll back a release, use `npx wrangler deployments list` and `npx wrangler rollback <version-id>`, then revert the faulty commit on main before the next automatic deployment.
+
+References: [Worker custom domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
 
 ## Launch checks
 
