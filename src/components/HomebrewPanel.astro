@@ -1,0 +1,36 @@
+---
+import type { HomebrewSnapshot } from '../lib/homebrew.mjs';
+import { homebrewPeriods } from '../lib/homebrew.mjs';
+interface Props { formula: string; snapshot: HomebrewSnapshot | null }
+const { formula, snapshot } = Astro.props;
+const formatDate = (value: string) => new Date(value).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+const old = snapshot?.checkedAt && Date.now() - Date.parse(snapshot.checkedAt) > 7 * 86400000;
+const savedCounts = snapshot && Object.values(snapshot.counts).some(value => value !== null);
+---
+<section class="homebrew-panel" aria-label="Homebrew installation statistics">
+  <div class="homebrew-heading"><h2>Homebrew installs</h2><a href={`https://formulae.brew.sh/formula/${formula}`} target="_blank" rel="noreferrer">{formula} ↗</a></div>
+  <p class="homebrew-caption">Explicitly requested installation events</p>
+  <dl class="homebrew-counts">
+    {homebrewPeriods.map(period => <div><dt>{period.slice(0, -1)} days</dt><dd>{snapshot?.counts[period] == null ? <span class="unavailable">Unavailable</span> : snapshot.counts[period].toLocaleString('en-US')}</dd></div>)}
+  </dl>
+  <p class="homebrew-note">From Homebrew installations that report analytics. Includes package variants; counts are not unique users.</p>
+  {(!snapshot || snapshot.status === 'error') && <p class="homebrew-status">{savedCounts ? 'Latest refresh unavailable. Showing the last saved counts.' : 'Homebrew data is currently unavailable.'}</p>}
+  {snapshot?.status === 'ok' && old && <p class="homebrew-status">This saved snapshot is over a week old.</p>}
+  <p class="homebrew-source">{snapshot?.checkedAt && <>Checked <time datetime={snapshot.checkedAt}>{formatDate(snapshot.checkedAt)}</time>. </>}{snapshot?.generatedDate && <>Source dated <time datetime={snapshot.generatedDate}>{formatDate(snapshot.generatedDate)}</time>. </>}<a href="/about/#homebrew">How installs are counted ↗</a></p>
+</section>
+<style>
+  .homebrew-panel { container-type: inline-size; margin: 28px 0; padding: 22px; border: 1px solid var(--border-subtle); border-radius: 12px; background: white; }
+  .homebrew-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .homebrew-heading h2 { margin: 0; font-size: 20px; }
+  .homebrew-heading a { color: var(--green-700); font-size: 13px; overflow-wrap: anywhere; }
+  .homebrew-panel .homebrew-caption { margin: 5px 0 18px; color: var(--text-muted); font-size: 13px; }
+  .homebrew-counts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 0; }
+  .homebrew-counts dt { font-size: 12px; color: var(--text-muted); margin-bottom: 5px; }
+  .homebrew-counts dd { margin: 0; font: 600 clamp(18px, 5cqi, 24px)/1.3 var(--font-mono); letter-spacing: -.5px; white-space: nowrap; }
+  .unavailable { font: 13px var(--font-body); letter-spacing: normal; color: var(--text-muted); }
+  .homebrew-panel .homebrew-note, .homebrew-panel .homebrew-source, .homebrew-panel .homebrew-status { font-size: 12px; line-height: 1.6; color: var(--text-muted); margin: 16px 0 0; }
+  .homebrew-panel .homebrew-source { margin-top: 8px; }
+  .homebrew-panel .homebrew-status { color: var(--text-body); }
+  @container (max-width: 340px) { .homebrew-counts { grid-template-columns: 1fr; gap: 10px; } .homebrew-counts > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; } .homebrew-counts dd { font-size: 22px; } }
+  @media (max-width: 480px) { .homebrew-panel { padding: 18px 16px; } }
+</style>
