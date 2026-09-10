@@ -9,6 +9,11 @@ const API = 'https://api.github.com';
 const BREW = 'https://formulae.brew.sh/api';
 const root = new URL('../', import.meta.url);
 const MAX_BYTES = 8_000_000;
+const freshDate = (date, now) => {
+  if (typeof date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(Date.parse(date))) return false;
+  const age = Date.parse(now) - Date.parse(date);
+  return new Date(date).toISOString().slice(0, 10) === date && age >= -86400000 && age <= 7 * 86400000;
+};
 
 /** Credentials are sent only to GitHub; provider redirects cannot forward them. */
 export function createClient(token, fetcher = fetch) {
@@ -74,11 +79,14 @@ async function fetchFormula(request, formula, now) {
   const repo = repoFromUrl(data.urls?.stable?.url) ?? repoFromUrl(data.urls?.head?.url);
   if (!repo) return null;
   const count = sumInstallRequests(data.analytics?.install_on_request?.['30d']);
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(data.generated_date) || Math.abs(Date.parse(now) - Date.parse(data.generated_date)) > 7 * 86400000) return null;
+  if (!freshDate(data.generated_date, now)) return null;
   return { repo, formula, count, source, generatedDate: data.generated_date, data };
 }
 
 async function collectCandidates(request, state, config, now) {
+  // Resume the durable queue before fetching another source window. Only identities
+  // are carried forward: counts, metadata, manifests, and docs are fetched anew.
+  if (state.pending?.length) return { candidates: state.pending.map(item => ({ ...item })), searchPage: state.searchPage, brewOffset: state.brewOffset };
   const github = [];
   for (const query of config.queries) {
     const q = `${query} stars:>=${config.minStars} archived:false fork:false`;
@@ -87,11 +95,12 @@ async function collectCandidates(request, state, config, now) {
     github.push(...response.items.map(repo => ({ repo: repo.full_name })));
   }
   const report = await request(`${BREW}/analytics/install-on-request/homebrew-core/30d.json`);
-  if (Math.abs(Date.parse(now) - Date.parse(report.end_date)) > 7 * 86400000) throw new Error('Stale Homebrew report');
+  if (!freshDate(report.end_date, now)) throw new Error('Stale or invalid Homebrew report');
   const formulae = brewCandidates(report, config.minHomebrew30d);
   const brew = [];
   const start = state.brewOffset % Math.max(1, formulae.length);
-  for (const candidate of formulae.slice(start, start + config.maxCandidates)) {
+  const slice = formulae.slice(start, start + config.maxCandidates);
+  for (const candidate of slice) {
     const formula = await fetchFormula(request, candidate.formula, now);
     if (formula) brew.push({ repo: formula.repo, brew: formula });
   }
@@ -102,7 +111,7 @@ async function collectCandidates(request, state, config, now) {
     const key = candidate.repo.toLowerCase();
     if (!combined.has(key) || candidate.brew) combined.set(key, candidate);
   }
-  return { candidates: [...combined.values()], searchPage: state.searchPage % 10 + 1, brewOffset: (start + config.maxCandidates) % Math.max(1, formulae.length) };
+  return { candidates: [...combined.values()], searchPage: state.searchPage % 10 + 1, brewOffset: (start + slice.length) % Math.max(1, formulae.length) };
 }
 
 async function collectEvidence(request, candidate, repo) {
@@ -151,6 +160,7 @@ async function collectEvidence(request, candidate, repo) {
 export async function discover({ catalog, state, mappings, config, request, now = new Date().toISOString() }) {
   validateConfig(config);
   if (state.version !== 1 || !Number.isInteger(state.searchPage) || state.searchPage < 1 || state.searchPage > 10 || !Number.isSafeInteger(state.brewOffset) || state.brewOffset < 0 || !state.candidates || Array.isArray(state.candidates)) throw new Error('Invalid discovery state');
+  if (state.pending != null && (!Array.isArray(state.pending) || state.pending.length > 1000 || state.pending.some(item => !item || !/^[\w.-]+\/[\w.-]+$/.test(item.repo) || (item.formula != null && !/^[a-z0-9][a-z0-9+_.-]*$/.test(item.formula))))) throw new Error('Invalid pending candidates');
   const next = structuredClone(state);
   const entries = [...catalog];
   const nextMappings = { ...mappings };
@@ -160,13 +170,16 @@ export async function discover({ catalog, state, mappings, config, request, now 
   if (!available) return { catalog, state, mappings, accepted, outcomes, message: 'Daily publication cap reached' };
   const found = await collectCandidates(request, next, config, now);
   let checked = 0;
-  for (const candidate of found.candidates) {
+  let cursor = 0;
+  for (; cursor < found.candidates.length; cursor++) {
     if (checked >= config.maxCandidates || accepted.length >= available) break;
+    const candidate = found.candidates[cursor];
     const key = candidate.repo.toLowerCase();
     const previous = next.candidates[key];
     if (entries.some(tool => tool.repo.toLowerCase() === key) || previous?.status === 'rejected' || previous?.status === 'accepted') continue;
     if (previous?.checkedAt && Date.parse(now) - Date.parse(previous.checkedAt) < config.recheckDays * 86400000) continue;
     checked++;
+    if (candidate.formula && !candidate.brew) candidate.brew = await fetchFormula(request, candidate.formula, now);
     const repo = await request(`${API}/repos/${candidate.repo}`, { optional: true });
     // GitHub redirects are not followed. Renamed repositories are held until rediscovered canonically.
     if (!repo) {
@@ -194,6 +207,10 @@ export async function discover({ catalog, state, mappings, config, request, now 
   // Progress search windows only after processing the batch successfully.
   next.searchPage = found.searchPage;
   next.brewOffset = found.brewOffset;
+  next.pending = found.candidates.slice(cursor).map(candidate => {
+    const formula = candidate.brew?.formula ?? candidate.formula;
+    return { repo: candidate.repo, ...(formula ? { formula } : {}) };
+  });
   next.lastRunAt = now;
   return { catalog: entries, state: next, mappings: nextMappings, accepted, outcomes };
 }

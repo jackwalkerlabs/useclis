@@ -19,7 +19,7 @@ The scanner checks up to eight manifests (root or shallow package directories) a
 
 ## Discovery and records
 
-Each run reads three GitHub searches and a rotating slice of Homebrew/core's 30-day install-on-request report, then evaluates up to 40 candidates. GitHub searches rotate through ten pages sorted by update time; Homebrew rotates through qualifying formula names. Neither source guarantees complete coverage. Identity uses GitHub repository URLs from formula source archives/head URLs, never fuzzy package-name matching. Homebrew responses older than seven days are excluded; global report failure stops the run.
+The scanner reads three GitHub searches and a rotating slice of Homebrew/core's 30-day install-on-request report, then evaluates up to 40 candidates per run. Unexamined identities are saved in a pending queue and processed before another source window is fetched; their adoption counts and evidence are fetched afresh when evaluated. GitHub searches rotate through ten pages sorted by update time; Homebrew rotates through qualifying formula names. Neither source guarantees complete coverage. Identity uses GitHub repository URLs from formula source archives/head URLs, never fuzzy package-name matching. Homebrew responses older than seven days are excluded; global report failure stops source collection.
 
 `discovery/state.json` stores candidate status, check time, admission reason, observed counts, and source evidence. Repository source URLs are pinned to the inspected commit. Homebrew evidence includes the source generation date. Held candidates are eligible for another check after 30 days. A `rejected` status suppresses future consideration until manually changed. Existing accepted listings are never automatically removed because adoption later drops.
 
@@ -46,7 +46,7 @@ npm run build
 npm run check:links
 ```
 
-Only the GitHub workflow commits and publishes; the local command never pushes. GitHub manual runs accept `dry_run=true` and upload a report artifact retained for 30 days.
+Only the GitHub workflow commits and publishes; the local command never pushes. GitHub manual runs accept `dry_run=true` and upload a report artifact retained for 30 days. Both GitHub dry runs and publication run only on main; use the local command to test feature branches.
 
 ## Activate
 

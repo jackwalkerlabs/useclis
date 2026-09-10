@@ -145,4 +145,25 @@ test('End-to-end discovery pins evidence, preserves editorial data, obeys rerun 
   await assert.rejects(discover({ ...input, request: async url => { if (url.includes('/git/blobs/README.md')) throw new Error('Rate limited'); return request(url); } }), /Rate limited/);
   assert.deepEqual(state.candidates, {});
   assert.equal(catalog.length, 1);
+  // The cap must preserve identities beyond the first admission, and the next
+  // day must evaluate them with fresh metadata rather than lose a source page.
+  const secondRepo = { ...repo, name: 'second-cli', full_name: 'sample/second-cli', html_url: 'https://github.com/sample/second-cli' };
+  let secondStars = 500;
+  let searches = 0;
+  const multiple = async url => {
+    if (url.includes('/search/repositories?')) { searches++; return { items: [repo, secondRepo], incomplete_results: false }; }
+    if (url.endsWith('/repos/sample/second-cli')) return { ...secondRepo, stargazers_count: secondStars };
+    return request(url.replace('/sample/second-cli/', '/sample/query-cli/'));
+  };
+  const limited = await discover({ ...input, request: multiple, config: { ...config, maxPerDay: 1 } });
+  assert.deepEqual(limited.state.pending, [{ repo: 'sample/second-cli' }]);
+  const sameDay = await discover({ ...input, request: multiple, config: { ...config, maxPerDay: 1 }, state: limited.state, catalog: limited.catalog });
+  assert.equal(sameDay.accepted.length, 0);
+  assert.deepEqual(sameDay.state.pending, limited.state.pending);
+  secondStars = 499;
+  const nextDay = await discover({ ...input, request: multiple, config: { ...config, maxPerDay: 1 }, state: limited.state, catalog: limited.catalog, now: '2026-09-10T12:00:00Z' });
+  assert.equal(nextDay.accepted.length, 0, 'Current adoption is rechecked on queue resume');
+  assert.equal(nextDay.state.candidates['sample/second-cli'].reason, 'Below adoption thresholds');
+  assert.deepEqual(nextDay.state.pending, []);
+  assert.equal(searches, config.queries.length, 'No new source page until the pending queue is drained');
 });
