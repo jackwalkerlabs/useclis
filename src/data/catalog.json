@@ -3875,5 +3875,101 @@
     "example": "miniserve ./public",
     "website": "https://github.com/svenstaro/miniserve#readme",
     "docs": "https://github.com/svenstaro/miniserve#readme"
+  },
+  {
+    "slug": "openai-codex-security",
+    "name": "codex-security",
+    "repo": "openai/codex-security",
+    "category": "Security & secrets",
+    "command": "codex-security",
+    "useCase": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "agentUse": "Invoke codex-security from a shell for the documented use case: OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "codex-security scan /path/to/directory",
+    "website": "https://github.com/openai/codex-security",
+    "docs": "https://github.com/openai/codex-security/blob/fa5fe21cd39e5771883d87358d58c6af50db8a97/README.md"
+  },
+  {
+    "slug": "esengine-deepseek-reasonix",
+    "name": "DeepSeek-Reasonix",
+    "repo": "esengine/DeepSeek-Reasonix",
+    "category": "Agents & models",
+    "command": "reasonix",
+    "useCase": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+    "agentUse": "Invoke reasonix from a shell for the documented use case: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "reasonix run \"implement the TODOs in main.go\"",
+    "website": "https://github.com/esengine/DeepSeek-Reasonix",
+    "docs": "https://github.com/esengine/DeepSeek-Reasonix/blob/82a0d3693c8f24c454c04fe18a0f43c5c1b5edf8/README.md"
+  },
+  {
+    "slug": "sigoden-aichat",
+    "name": "aichat",
+    "repo": "sigoden/aichat",
+    "category": "Agents & models",
+    "command": "aichat",
+    "useCase": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
+    "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
+    "agentUse": "Invoke aichat from a shell for the documented use case: All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "aichat hello",
+    "website": "https://github.com/sigoden/aichat",
+    "docs": "https://github.com/sigoden/aichat/blob/82976d349ad97ac9aae0655ad631dace5e2a6385/README.md"
+  },
+  {
+    "slug": "aliyun-aliyun-cli",
+    "name": "aliyun-cli",
+    "repo": "aliyun/aliyun-cli",
+    "category": "Cloud & deployment",
+    "command": "aliyun",
+    "useCase": "Alibaba Cloud CLI",
+    "description": "Alibaba Cloud CLI",
+    "agentUse": "Invoke aliyun from a shell for the documented use case: Alibaba Cloud CLI",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "aliyun ecs DescribeRegions",
+    "website": "https://github.com/aliyun/aliyun-cli",
+    "docs": "https://github.com/aliyun/aliyun-cli/blob/f1abad5be684af82bdb976da059887b20d10aa65/README.md"
+  },
+  {
+    "slug": "qwenlm-qwen-code",
+    "name": "qwen-code",
+    "repo": "QwenLM/qwen-code",
+    "category": "Agents & models",
+    "command": "qwen",
+    "useCase": "An open-source AI coding agent that lives in your terminal.",
+    "description": "An open-source AI coding agent that lives in your terminal.",
+    "agentUse": "Invoke qwen from a shell for the documented use case: An open-source AI coding agent that lives in your terminal.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "qwen channel start",
+    "website": "https://github.com/QwenLM/qwen-code",
+    "docs": "https://github.com/QwenLM/qwen-code/blob/69db15e2342b957b453fa247b5fba7d3835fa239/README.md"
+  },
+  {
+    "slug": "mininglamp-oss-octo-cli",
+    "name": "octo-cli",
+    "repo": "Mininglamp-OSS/octo-cli",
+    "category": "Agents & models",
+    "command": "octo-cli",
+    "useCase": "Metadata-driven CLI for AI Agent Bots — 48 operations across 7 domains, structured JSON envelope I/O, zero interactive prompts.",
+    "description": "Metadata-driven CLI for AI Agent Bots — 48 operations across 7 domains, structured JSON envelope I/O, zero interactive prompts.",
+    "agentUse": "Invoke octo-cli from a shell for the documented use case: Metadata-driven CLI for AI Agent Bots — 48 operations across 7 domains, structured JSON envelope I/O, zero interactive prompts.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "octo-cli group list",
+    "website": "https://github.com/Mininglamp-OSS/octo-cli",
+    "docs": "https://github.com/Mininglamp-OSS/octo-cli/blob/47f4c5f0238a962c3dec61be291f4deeca5da494/README.md"
   }
 ]

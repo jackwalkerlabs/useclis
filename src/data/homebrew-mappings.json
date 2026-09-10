@@ -309,5 +309,13 @@
     "upstreamUrls": [
       "https://registry.npmjs.org/@google/gemini-cli"
     ]
+  },
+  "sigoden-aichat": {
+    "formula": "aichat",
+    "repo": "sigoden/aichat"
+  },
+  "aliyun-aliyun-cli": {
+    "formula": "aliyun-cli",
+    "repo": "aliyun/aliyun-cli"
   }
 }
