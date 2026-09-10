@@ -1,0 +1,1406 @@
+[
+  {
+    "slug": "supabase",
+    "name": "Supabase",
+    "repo": "supabase/supabase",
+    "website": "https://supabase.com",
+    "category": "Developer tools",
+    "alternative": "Firebase",
+    "description": "Build with a Postgres database, authentication, instant APIs, and file storage.",
+    "features": [
+      "Postgres database",
+      "Authentication",
+      "Realtime subscriptions"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "appflowy",
+    "name": "AppFlowy",
+    "repo": "AppFlowy-IO/AppFlowy",
+    "website": "https://appflowy.io",
+    "category": "Productivity",
+    "alternative": "Notion",
+    "description": "Bring your notes, tasks, and projects together in a workspace you control.",
+    "features": [
+      "Notes and documents",
+      "Project databases",
+      "Local-first workspace"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "plausible",
+    "name": "Plausible",
+    "repo": "plausible/analytics",
+    "website": "https://plausible.io",
+    "category": "Analytics",
+    "alternative": "Google Analytics",
+    "description": "Simple, lightweight website analytics built with visitor privacy in mind.",
+    "features": [
+      "Website analytics",
+      "Goal tracking",
+      "Self-hosted community edition"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "cal-com",
+    "name": "Cal.diy",
+    "repo": "calcom/cal.diy",
+    "website": "https://github.com/calcom/cal.diy",
+    "category": "Productivity",
+    "alternative": "Calendly",
+    "description": "Self-host a personal scheduling page with the community edition of Cal.com.",
+    "features": [
+      "Personal booking pages",
+      "Calendar connections",
+      "Self-hosted scheduling"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "penpot",
+    "name": "Penpot",
+    "repo": "penpot/penpot",
+    "website": "https://penpot.app",
+    "category": "Design",
+    "alternative": "Figma",
+    "description": "Design interfaces, build prototypes, and collaborate using open web standards.",
+    "features": [
+      "Interface design",
+      "Interactive prototypes",
+      "Developer handoff"
+    ]
+  },
+  {
+    "slug": "plane",
+    "name": "Plane",
+    "repo": "makeplane/plane",
+    "website": "https://plane.so",
+    "category": "Productivity",
+    "alternative": "Linear",
+    "description": "Organize issues, plan cycles, and keep your team’s projects moving forward.",
+    "features": [
+      "Issue tracking",
+      "Project cycles",
+      "Team workspaces"
+    ]
+  },
+  {
+    "slug": "immich",
+    "name": "Immich",
+    "repo": "immich-app/immich",
+    "website": "https://immich.app",
+    "category": "Media",
+    "alternative": "Google Photos",
+    "description": "Back up, organize, and rediscover your photos on your own server.",
+    "features": [
+      "Photo and video backup",
+      "Mobile apps",
+      "Photo search"
+    ]
+  },
+  {
+    "slug": "bitwarden",
+    "name": "Bitwarden",
+    "repo": "bitwarden/server",
+    "website": "https://bitwarden.com",
+    "category": "Security",
+    "alternative": "1Password",
+    "description": "Keep passwords and sensitive information in an encrypted, accessible vault.",
+    "features": [
+      "Encrypted password vault",
+      "Cross-device sync",
+      "Self-hosting"
+    ]
+  },
+  {
+    "slug": "ghost",
+    "name": "Ghost",
+    "repo": "TryGhost/Ghost",
+    "website": "https://ghost.org",
+    "category": "Publishing",
+    "alternative": "Substack",
+    "description": "Publish your work, send newsletters, and build a membership business.",
+    "features": [
+      "Web publishing",
+      "Email newsletters",
+      "Paid memberships"
+    ]
+  },
+  {
+    "slug": "umami",
+    "name": "Umami",
+    "repo": "umami-software/umami",
+    "website": "https://umami.is",
+    "category": "Analytics",
+    "alternative": "Google Analytics",
+    "description": "Understand your audience with a clean, privacy-focused analytics dashboard.",
+    "features": [
+      "Website analytics",
+      "Custom events",
+      "Shareable dashboards"
+    ]
+  },
+  {
+    "slug": "jitsi",
+    "name": "Jitsi Meet",
+    "repo": "jitsi/jitsi-meet",
+    "website": "https://jitsi.org/jitsi-meet/",
+    "category": "Communication",
+    "alternative": "Zoom",
+    "description": "Bring people together with video meetings you can run on your own infrastructure.",
+    "features": [
+      "Video meetings",
+      "Screen sharing",
+      "Self-hosted conferencing"
+    ]
+  },
+  {
+    "slug": "appsmith",
+    "name": "Appsmith",
+    "repo": "appsmithorg/appsmith",
+    "website": "https://appsmith.com",
+    "category": "Developer tools",
+    "alternative": "Retool",
+    "description": "Build internal tools by connecting your data to a visual application builder.",
+    "features": [
+      "Visual app builder",
+      "Database connectors",
+      "JavaScript logic"
+    ]
+  },
+  {
+    "slug": "twenty",
+    "name": "Twenty",
+    "repo": "twentyhq/twenty",
+    "website": "https://twenty.com",
+    "category": "Productivity",
+    "alternative": "Salesforce",
+    "description": "Manage contacts, companies, and opportunities in a flexible, modern CRM.",
+    "features": [
+      "Contact management",
+      "Sales pipelines",
+      "Custom data models"
+    ]
+  },
+  {
+    "slug": "excalidraw",
+    "name": "Excalidraw",
+    "repo": "excalidraw/excalidraw",
+    "website": "https://excalidraw.com",
+    "category": "Design",
+    "alternative": "Miro",
+    "description": "Turn an idea into a hand-drawn diagram on a simple, collaborative whiteboard.",
+    "features": [
+      "Infinite canvas",
+      "Diagramming",
+      "Live collaboration"
+    ]
+  },
+  {
+    "slug": "chatwoot",
+    "name": "Chatwoot",
+    "repo": "chatwoot/chatwoot",
+    "website": "https://chatwoot.com",
+    "category": "Communication",
+    "alternative": "Intercom",
+    "description": "Talk to your customers and manage conversations from one shared inbox.",
+    "features": [
+      "Shared inbox",
+      "Website live chat",
+      "Customer support"
+    ]
+  },
+  {
+    "slug": "bookstack",
+    "name": "BookStack",
+    "repo": "BookStackApp/BookStack",
+    "website": "https://bookstackapp.com",
+    "category": "Publishing",
+    "alternative": "Confluence",
+    "description": "Give your team’s knowledge a home with a straightforward wiki and documentation tool.",
+    "features": [
+      "Team wiki",
+      "Visual editor",
+      "Organized documentation"
+    ]
+  },
+  {
+    "slug": "joplin",
+    "name": "Joplin",
+    "repo": "laurent22/joplin",
+    "website": "https://joplinapp.org",
+    "category": "Productivity",
+    "alternative": "Evernote",
+    "description": "Keep notes, to-do lists, and clipped web pages in a notebook you can sync across devices.",
+    "features": [
+      "Markdown notes",
+      "Web clipper",
+      "Encrypted synchronization"
+    ]
+  },
+  {
+    "slug": "logseq",
+    "name": "Logseq",
+    "repo": "logseq/logseq",
+    "website": "https://logseq.com",
+    "category": "Productivity",
+    "alternative": "Roam Research",
+    "description": "Connect your notes and ideas in an outliner built around linked knowledge.",
+    "features": [
+      "Linked notes",
+      "Daily journals",
+      "Knowledge graph"
+    ]
+  },
+  {
+    "slug": "affine",
+    "name": "AFFiNE",
+    "repo": "toeverything/AFFiNE",
+    "website": "https://affine.pro",
+    "category": "Productivity",
+    "alternative": "Notion",
+    "description": "Combine documents, whiteboards, and project knowledge in one flexible workspace.",
+    "features": [
+      "Documents and notes",
+      "Whiteboard canvas",
+      "Workspace organization"
+    ]
+  },
+  {
+    "slug": "vikunja",
+    "name": "Vikunja",
+    "repo": "go-vikunja/vikunja",
+    "website": "https://vikunja.io",
+    "category": "Productivity",
+    "alternative": "Todoist",
+    "description": "Organize personal tasks and team projects with lists, boards, and reminders.",
+    "features": [
+      "Task lists",
+      "Kanban boards",
+      "Due dates and reminders"
+    ]
+  },
+  {
+    "slug": "appwrite",
+    "name": "Appwrite",
+    "repo": "appwrite/appwrite",
+    "website": "https://appwrite.io",
+    "category": "Developer tools",
+    "alternative": "Firebase",
+    "description": "Build applications with authentication, databases, file storage, and server functions.",
+    "features": [
+      "User authentication",
+      "Database APIs",
+      "File storage and functions"
+    ]
+  },
+  {
+    "slug": "coolify",
+    "name": "Coolify",
+    "repo": "coollabsio/coolify",
+    "website": "https://coolify.io",
+    "category": "Developer tools",
+    "alternative": "Heroku",
+    "description": "Deploy applications, databases, and services on servers you control.",
+    "features": [
+      "Git-based deployments",
+      "Database hosting",
+      "Self-hosted services"
+    ]
+  },
+  {
+    "slug": "pocketbase",
+    "name": "PocketBase",
+    "repo": "pocketbase/pocketbase",
+    "website": "https://pocketbase.io",
+    "category": "Developer tools",
+    "alternative": "Firebase",
+    "description": "Start with a compact backend that bundles a database, authentication, and file storage.",
+    "features": [
+      "Embedded database",
+      "Realtime subscriptions",
+      "Built-in authentication"
+    ]
+  },
+  {
+    "slug": "dokku",
+    "name": "Dokku",
+    "repo": "dokku/dokku",
+    "website": "https://dokku.com",
+    "category": "Developer tools",
+    "alternative": "Heroku",
+    "description": "Deploy applications to your own server with a small, extensible platform built on Docker.",
+    "features": [
+      "Git push deployments",
+      "Container-based hosting",
+      "Service plugins"
+    ]
+  },
+  {
+    "slug": "metabase",
+    "name": "Metabase",
+    "repo": "metabase/metabase",
+    "website": "https://metabase.com",
+    "category": "Analytics",
+    "alternative": "Tableau",
+    "description": "Explore your database, ask questions, and share business dashboards with your team.",
+    "features": [
+      "Visual query builder",
+      "SQL queries",
+      "Shared dashboards"
+    ]
+  },
+  {
+    "slug": "matomo",
+    "name": "Matomo",
+    "repo": "matomo-org/matomo",
+    "website": "https://matomo.org",
+    "category": "Analytics",
+    "alternative": "Google Analytics",
+    "description": "Analyze website traffic and campaigns while keeping control of your analytics data.",
+    "features": [
+      "Website analytics",
+      "Campaign tracking",
+      "Self-hosted reporting"
+    ]
+  },
+  {
+    "slug": "posthog",
+    "name": "PostHog",
+    "repo": "PostHog/posthog",
+    "website": "https://posthog.com",
+    "category": "Analytics",
+    "alternative": "Mixpanel",
+    "description": "Understand how people use your product with events, funnels, and session replay.",
+    "features": [
+      "Product analytics",
+      "Session replay",
+      "Feature flags"
+    ]
+  },
+  {
+    "slug": "grafana",
+    "name": "Grafana",
+    "repo": "grafana/grafana",
+    "website": "https://grafana.com",
+    "category": "Analytics",
+    "alternative": "Datadog",
+    "description": "Explore metrics, logs, and traces in dashboards connected to your observability data.",
+    "features": [
+      "Monitoring dashboards",
+      "Data source integrations",
+      "Alerting"
+    ]
+  },
+  {
+    "slug": "drawio",
+    "name": "draw.io",
+    "repo": "jgraph/drawio",
+    "website": "https://www.drawio.com",
+    "category": "Design",
+    "alternative": "Lucidchart",
+    "description": "Create flowcharts, architecture diagrams, and process maps in a visual editor.",
+    "features": [
+      "Diagram editor",
+      "Flowcharts",
+      "Architecture diagrams"
+    ]
+  },
+  {
+    "slug": "gimp",
+    "name": "GIMP",
+    "repo": "GNOME/gimp",
+    "website": "https://www.gimp.org",
+    "category": "Design",
+    "alternative": "Adobe Photoshop",
+    "description": "Edit photos and create digital artwork with a desktop image editor.",
+    "features": [
+      "Photo retouching",
+      "Layers and masks",
+      "Image composition"
+    ]
+  },
+  {
+    "slug": "blender",
+    "name": "Blender",
+    "repo": "blender/blender",
+    "website": "https://www.blender.org",
+    "category": "Design",
+    "alternative": "Autodesk Maya",
+    "description": "Create 3D models, animations, and rendered scenes in a complete production suite.",
+    "features": [
+      "3D modeling",
+      "Animation",
+      "Rendering"
+    ]
+  },
+  {
+    "slug": "freecad",
+    "name": "FreeCAD",
+    "repo": "FreeCAD/FreeCAD",
+    "website": "https://www.freecad.org",
+    "category": "Design",
+    "alternative": "Autodesk Fusion",
+    "description": "Design parametric 3D models and mechanical parts with an extensible CAD application.",
+    "features": [
+      "Parametric modeling",
+      "Mechanical design",
+      "Technical drawings"
+    ]
+  },
+  {
+    "slug": "zulip",
+    "name": "Zulip",
+    "repo": "zulip/zulip",
+    "website": "https://zulip.com",
+    "category": "Communication",
+    "alternative": "Slack",
+    "description": "Keep team conversations organized with topic-based threads inside shared channels.",
+    "features": [
+      "Topic-based chat",
+      "Team channels",
+      "Searchable conversations"
+    ]
+  },
+  {
+    "slug": "element",
+    "name": "Element",
+    "repo": "element-hq/element-web",
+    "website": "https://element.io",
+    "category": "Communication",
+    "alternative": "Microsoft Teams",
+    "description": "Chat and collaborate through Matrix with encrypted messaging and interoperable rooms.",
+    "features": [
+      "Encrypted messaging",
+      "Group conversations",
+      "Matrix federation"
+    ]
+  },
+  {
+    "slug": "mattermost",
+    "name": "Mattermost",
+    "repo": "mattermost/mattermost",
+    "website": "https://mattermost.com",
+    "category": "Communication",
+    "alternative": "Slack",
+    "description": "Bring team messaging and operational conversations onto infrastructure you manage.",
+    "features": [
+      "Team messaging",
+      "Channels and threads",
+      "Self-hosted collaboration"
+    ]
+  },
+  {
+    "slug": "ntfy",
+    "name": "ntfy",
+    "repo": "binwiederhier/ntfy",
+    "website": "https://ntfy.sh",
+    "category": "Communication",
+    "alternative": "Pushover",
+    "description": "Send push notifications to phones and desktops through a simple HTTP interface.",
+    "features": [
+      "Push notifications",
+      "HTTP publishing",
+      "Self-hosted notification server"
+    ]
+  },
+  {
+    "slug": "wordpress",
+    "name": "WordPress",
+    "repo": "WordPress/WordPress",
+    "website": "https://wordpress.org",
+    "category": "Publishing",
+    "alternative": "Webflow",
+    "description": "Publish a website or blog with an extensible content management system.",
+    "features": [
+      "Website publishing",
+      "Block editor",
+      "Themes and plugins"
+    ]
+  },
+  {
+    "slug": "strapi",
+    "name": "Strapi",
+    "repo": "strapi/strapi",
+    "website": "https://strapi.io",
+    "category": "Publishing",
+    "alternative": "Contentful",
+    "description": "Model and manage content in a headless CMS, then deliver it to your applications through APIs.",
+    "features": [
+      "Content modeling",
+      "Editorial interface",
+      "Content APIs"
+    ]
+  },
+  {
+    "slug": "payload",
+    "name": "Payload",
+    "repo": "payloadcms/payload",
+    "website": "https://payloadcms.com",
+    "category": "Publishing",
+    "alternative": "Contentful",
+    "description": "Build content-driven applications with a TypeScript CMS and configurable admin interface.",
+    "features": [
+      "Content collections",
+      "Admin interface",
+      "TypeScript configuration"
+    ]
+  },
+  {
+    "slug": "grav",
+    "name": "Grav",
+    "repo": "getgrav/grav",
+    "website": "https://getgrav.org",
+    "category": "Publishing",
+    "alternative": "Squarespace",
+    "description": "Build a website with a flat-file CMS that stores content without a traditional database.",
+    "features": [
+      "Flat-file content",
+      "Markdown publishing",
+      "Themes and plugins"
+    ]
+  },
+  {
+    "slug": "keepassxc",
+    "name": "KeePassXC",
+    "repo": "keepassxreboot/keepassxc",
+    "website": "https://keepassxc.org",
+    "category": "Security",
+    "alternative": "1Password",
+    "description": "Store passwords in an encrypted local database with a cross-platform desktop application.",
+    "features": [
+      "Encrypted password database",
+      "Browser integration",
+      "Password generation"
+    ]
+  },
+  {
+    "slug": "authelia",
+    "name": "Authelia",
+    "repo": "authelia/authelia",
+    "website": "https://www.authelia.com",
+    "category": "Security",
+    "alternative": "Auth0",
+    "description": "Protect applications behind your reverse proxy with authentication and access policies.",
+    "features": [
+      "Single sign-on",
+      "Multi-factor authentication",
+      "Access control"
+    ]
+  },
+  {
+    "slug": "authentik",
+    "name": "authentik",
+    "repo": "goauthentik/authentik",
+    "website": "https://goauthentik.io",
+    "category": "Security",
+    "alternative": "Okta",
+    "description": "Manage application access with a self-hosted identity provider and customizable login flows.",
+    "features": [
+      "Single sign-on",
+      "Identity management",
+      "Authentication flows"
+    ]
+  },
+  {
+    "slug": "kanidm",
+    "name": "Kanidm",
+    "repo": "kanidm/kanidm",
+    "website": "https://kanidm.com",
+    "category": "Security",
+    "alternative": "Microsoft Entra ID",
+    "description": "Manage identities and application access with a self-hosted identity platform.",
+    "features": [
+      "Identity directory",
+      "Single sign-on",
+      "Passkey authentication"
+    ]
+  },
+  {
+    "slug": "jellyfin",
+    "name": "Jellyfin",
+    "repo": "jellyfin/jellyfin",
+    "website": "https://jellyfin.org",
+    "category": "Media",
+    "alternative": "Plex",
+    "description": "Organize your own movies, shows, and music and stream them to your devices.",
+    "features": [
+      "Personal media library",
+      "Video streaming",
+      "Music streaming"
+    ]
+  },
+  {
+    "slug": "photoprism",
+    "name": "PhotoPrism",
+    "repo": "photoprism/photoprism",
+    "website": "https://photoprism.app",
+    "category": "Media",
+    "alternative": "Google Photos",
+    "description": "Browse, organize, and search a personal photo collection on your own server.",
+    "features": [
+      "Photo library",
+      "Image search",
+      "Self-hosted photo management"
+    ]
+  },
+  {
+    "slug": "obs-studio",
+    "name": "OBS Studio",
+    "repo": "obsproject/obs-studio",
+    "website": "https://obsproject.com",
+    "category": "Media",
+    "alternative": "XSplit",
+    "description": "Record your screen, mix video sources, and broadcast live from your desktop.",
+    "features": [
+      "Screen recording",
+      "Live streaming",
+      "Scene composition"
+    ]
+  },
+  {
+    "slug": "navidrome",
+    "name": "Navidrome",
+    "repo": "navidrome/navidrome",
+    "website": "https://navidrome.org",
+    "category": "Media",
+    "alternative": "Spotify",
+    "description": "Stream your own music collection from a personal server. Bring your own audio files.",
+    "features": [
+      "Personal music library",
+      "Browser playback",
+      "Subsonic-compatible clients"
+    ]
+  },
+  {
+    "slug": "nextcloud",
+    "name": "Nextcloud",
+    "repo": "nextcloud/server",
+    "website": "https://nextcloud.com",
+    "category": "Productivity",
+    "alternative": "Dropbox",
+    "description": "Sync and share files through a collaboration platform you can run on your own infrastructure.",
+    "features": [
+      "File synchronization",
+      "File sharing",
+      "Collaborative workspaces"
+    ]
+  },
+  {
+    "slug": "cryptpad",
+    "name": "CryptPad",
+    "repo": "cryptpad/cryptpad",
+    "website": "https://cryptpad.org",
+    "category": "Productivity",
+    "alternative": "Google Docs",
+    "description": "Work together on documents, spreadsheets, and forms with end-to-end encryption.",
+    "features": [
+      "Collaborative documents",
+      "Spreadsheets",
+      "Encrypted workspaces"
+    ]
+  },
+  {
+    "slug": "trilium",
+    "name": "Trilium Notes",
+    "repo": "TriliumNext/Trilium",
+    "website": "https://triliumnotes.org",
+    "category": "Productivity",
+    "alternative": "Microsoft OneNote",
+    "description": "Organize a personal knowledge base with hierarchical notes, links, and scripts.",
+    "features": [
+      "Hierarchical notes",
+      "Note linking",
+      "Knowledge organization"
+    ]
+  },
+  {
+    "slug": "standard-notes",
+    "name": "Standard Notes",
+    "repo": "standardnotes/app",
+    "website": "https://standardnotes.com",
+    "category": "Productivity",
+    "alternative": "Evernote",
+    "description": "Write and sync encrypted notes across devices with a focus on privacy.",
+    "features": [
+      "Encrypted notes",
+      "Cross-device sync",
+      "Note organization"
+    ]
+  },
+  {
+    "slug": "baserow",
+    "name": "Baserow",
+    "repo": "baserow/baserow",
+    "website": "https://baserow.io",
+    "category": "Productivity",
+    "alternative": "Airtable",
+    "description": "Create collaborative databases and organize structured information without writing code.",
+    "features": [
+      "No-code databases",
+      "Table views",
+      "Collaborative editing"
+    ]
+  },
+  {
+    "slug": "leantime",
+    "name": "Leantime",
+    "repo": "Leantime/leantime",
+    "website": "https://leantime.io",
+    "category": "Productivity",
+    "alternative": "Asana",
+    "description": "Plan goals, organize tasks, and track projects in a team workspace.",
+    "features": [
+      "Task management",
+      "Project planning",
+      "Goal tracking"
+    ]
+  },
+  {
+    "slug": "openproject",
+    "name": "OpenProject",
+    "repo": "opf/openproject",
+    "website": "https://openproject.org",
+    "category": "Productivity",
+    "alternative": "Jira",
+    "description": "Plan and track team projects with work packages, schedules, and agile boards.",
+    "features": [
+      "Work packages",
+      "Project schedules",
+      "Agile boards"
+    ]
+  },
+  {
+    "slug": "wekan",
+    "name": "Wekan",
+    "repo": "wekan/wekan",
+    "website": "https://wekan.github.io",
+    "category": "Productivity",
+    "alternative": "Trello",
+    "description": "Organize tasks on collaborative kanban boards you can host yourself.",
+    "features": [
+      "Kanban boards",
+      "Task cards",
+      "Team collaboration"
+    ]
+  },
+  {
+    "slug": "gitea",
+    "name": "Gitea",
+    "repo": "go-gitea/gitea",
+    "website": "https://gitea.com",
+    "category": "Developer tools",
+    "alternative": "GitHub",
+    "description": "Host Git repositories, review code, and manage issues on your own development platform.",
+    "features": [
+      "Git hosting",
+      "Code review",
+      "Issue tracking"
+    ]
+  },
+  {
+    "slug": "gogs",
+    "name": "Gogs",
+    "repo": "gogs/gogs",
+    "website": "https://gogs.io",
+    "category": "Developer tools",
+    "alternative": "GitHub",
+    "description": "Run a lightweight Git hosting service with repository browsing and collaboration tools.",
+    "features": [
+      "Git repositories",
+      "Repository browsing",
+      "Issue tracking"
+    ]
+  },
+  {
+    "slug": "code-server",
+    "name": "code-server",
+    "repo": "coder/code-server",
+    "website": "https://coder.com/docs/code-server",
+    "category": "Developer tools",
+    "alternative": "GitHub Codespaces",
+    "description": "Run VS Code in a browser using a development machine you control.",
+    "features": [
+      "Browser-based editor",
+      "Remote development",
+      "VS Code extensions"
+    ]
+  },
+  {
+    "slug": "theia",
+    "name": "Eclipse Theia",
+    "repo": "eclipse-theia/theia",
+    "website": "https://theia-ide.org",
+    "category": "Developer tools",
+    "alternative": "GitHub Codespaces",
+    "description": "Build and use extensible development environments for the browser or desktop.",
+    "features": [
+      "Browser IDE",
+      "Desktop IDE",
+      "Extensible developer tools"
+    ]
+  },
+  {
+    "slug": "dbeaver",
+    "name": "DBeaver",
+    "repo": "dbeaver/dbeaver",
+    "website": "https://dbeaver.io",
+    "category": "Developer tools",
+    "alternative": "DataGrip",
+    "description": "Browse databases, write SQL, and manage data from a desktop database client.",
+    "features": [
+      "SQL editor",
+      "Database browsing",
+      "Data export"
+    ]
+  },
+  {
+    "slug": "hoppscotch",
+    "name": "Hoppscotch",
+    "repo": "hoppscotch/hoppscotch",
+    "website": "https://hoppscotch.io",
+    "category": "Developer tools",
+    "alternative": "Postman",
+    "description": "Build and test HTTP requests with a lightweight API development workspace.",
+    "features": [
+      "API requests",
+      "Request collections",
+      "Environment variables"
+    ]
+  },
+  {
+    "slug": "bruno",
+    "name": "Bruno",
+    "repo": "usebruno/bruno",
+    "website": "https://usebruno.com",
+    "category": "Developer tools",
+    "alternative": "Postman",
+    "description": "Test APIs with request collections stored as files alongside your code.",
+    "features": [
+      "API client",
+      "File-based collections",
+      "Git-friendly workflows"
+    ]
+  },
+  {
+    "slug": "insomnia",
+    "name": "Insomnia",
+    "repo": "Kong/insomnia",
+    "website": "https://insomnia.rest",
+    "category": "Developer tools",
+    "alternative": "Postman",
+    "description": "Design, debug, and test APIs with a desktop request client.",
+    "features": [
+      "API requests",
+      "Request debugging",
+      "API testing"
+    ]
+  },
+  {
+    "slug": "superset",
+    "name": "Apache Superset",
+    "repo": "apache/superset",
+    "website": "https://superset.apache.org",
+    "category": "Analytics",
+    "alternative": "Microsoft Power BI",
+    "description": "Explore datasets and build interactive business intelligence dashboards.",
+    "features": [
+      "Data visualization",
+      "SQL exploration",
+      "Interactive dashboards"
+    ]
+  },
+  {
+    "slug": "redash",
+    "name": "Redash",
+    "repo": "getredash/redash",
+    "website": "https://redash.io",
+    "category": "Analytics",
+    "alternative": "Tableau",
+    "description": "Query data sources and turn the results into charts and shared dashboards.",
+    "features": [
+      "SQL queries",
+      "Data source connectors",
+      "Shared dashboards"
+    ]
+  },
+  {
+    "slug": "lightdash",
+    "name": "Lightdash",
+    "repo": "lightdash/lightdash",
+    "website": "https://lightdash.com",
+    "category": "Analytics",
+    "alternative": "Looker",
+    "description": "Turn dbt projects into a shared analytics workspace for exploring business metrics.",
+    "features": [
+      "dbt integration",
+      "Metric exploration",
+      "Business dashboards"
+    ]
+  },
+  {
+    "slug": "countly",
+    "name": "Countly",
+    "repo": "Countly/countly-server",
+    "website": "https://countly.com",
+    "category": "Analytics",
+    "alternative": "Mixpanel",
+    "description": "Track product usage, events, and user behavior in an analytics platform you can host.",
+    "features": [
+      "Product analytics",
+      "Event tracking",
+      "User behavior reports"
+    ]
+  },
+  {
+    "slug": "goatcounter",
+    "name": "GoatCounter",
+    "repo": "arp242/goatcounter",
+    "website": "https://goatcounter.com",
+    "category": "Analytics",
+    "alternative": "Google Analytics",
+    "description": "Measure website traffic with a lightweight analytics service focused on simplicity.",
+    "features": [
+      "Pageview tracking",
+      "Traffic reports",
+      "Self-hosted analytics"
+    ]
+  },
+  {
+    "slug": "openobserve",
+    "name": "OpenObserve",
+    "repo": "openobserve/openobserve",
+    "website": "https://openobserve.ai",
+    "category": "Analytics",
+    "alternative": "Splunk",
+    "description": "Search and analyze logs, metrics, and traces in an observability platform.",
+    "features": [
+      "Log search",
+      "Metrics analysis",
+      "Trace exploration"
+    ]
+  },
+  {
+    "slug": "pencil",
+    "name": "Pencil",
+    "repo": "evolus/pencil",
+    "website": "https://pencil.evolus.vn",
+    "category": "Design",
+    "alternative": "Balsamiq",
+    "description": "Sketch interface mockups and wireframes with a desktop prototyping tool.",
+    "features": [
+      "Wireframes",
+      "Interface mockups",
+      "Diagram shapes"
+    ]
+  },
+  {
+    "slug": "krita",
+    "name": "Krita",
+    "repo": "KDE/krita",
+    "website": "https://krita.org",
+    "category": "Design",
+    "alternative": "Adobe Photoshop",
+    "description": "Paint and illustrate digitally with customizable brushes and a layer-based workflow.",
+    "features": [
+      "Digital painting",
+      "Brush engines",
+      "Layers and masks"
+    ]
+  },
+  {
+    "slug": "librecad",
+    "name": "LibreCAD",
+    "repo": "LibreCAD/LibreCAD",
+    "website": "https://librecad.org",
+    "category": "Design",
+    "alternative": "AutoCAD",
+    "description": "Create and edit two-dimensional CAD drawings in a desktop application.",
+    "features": [
+      "2D drafting",
+      "CAD drawing tools",
+      "DXF support"
+    ]
+  },
+  {
+    "slug": "openscad",
+    "name": "OpenSCAD",
+    "repo": "openscad/openscad",
+    "website": "https://openscad.org",
+    "category": "Design",
+    "alternative": "Autodesk Fusion",
+    "description": "Create parametric 3D models by describing geometry in code.",
+    "features": [
+      "Script-based modeling",
+      "Parametric geometry",
+      "3D model export"
+    ]
+  },
+  {
+    "slug": "bigbluebutton",
+    "name": "BigBlueButton",
+    "repo": "bigbluebutton/bigbluebutton",
+    "website": "https://bigbluebutton.org",
+    "category": "Communication",
+    "alternative": "Zoom",
+    "description": "Run virtual classrooms with video, screen sharing, and teaching tools.",
+    "features": [
+      "Video conferencing",
+      "Screen sharing",
+      "Virtual classrooms"
+    ]
+  },
+  {
+    "slug": "mumble",
+    "name": "Mumble",
+    "repo": "mumble-voip/mumble",
+    "website": "https://mumble.info",
+    "category": "Communication",
+    "alternative": "TeamSpeak",
+    "description": "Talk with a group through low-latency voice chat on a server you control.",
+    "features": [
+      "Voice chat",
+      "Audio channels",
+      "Self-hosted voice server"
+    ]
+  },
+  {
+    "slug": "rocketchat",
+    "name": "Rocket.Chat",
+    "repo": "RocketChat/Rocket.Chat",
+    "website": "https://rocket.chat",
+    "category": "Communication",
+    "alternative": "Slack",
+    "description": "Bring team conversations and messaging integrations into a shared communication platform.",
+    "features": [
+      "Team messaging",
+      "Channels",
+      "Messaging integrations"
+    ]
+  },
+  {
+    "slug": "simplex",
+    "name": "SimpleX Chat",
+    "repo": "simplex-chat/simplex-chat",
+    "website": "https://simplex.chat",
+    "category": "Communication",
+    "alternative": "WhatsApp",
+    "description": "Send private messages using a chat network that does not rely on global user identifiers.",
+    "features": [
+      "Private messaging",
+      "Group chats",
+      "Encrypted communication"
+    ]
+  },
+  {
+    "slug": "chaskiq",
+    "name": "Chaskiq",
+    "repo": "chaskiq/chaskiq",
+    "website": "https://chaskiq.io",
+    "category": "Communication",
+    "alternative": "Intercom",
+    "description": "Support customers through website messaging and a shared conversation inbox.",
+    "features": [
+      "Website messaging",
+      "Shared inbox",
+      "Customer conversations"
+    ]
+  },
+  {
+    "slug": "listmonk",
+    "name": "listmonk",
+    "repo": "knadh/listmonk",
+    "website": "https://listmonk.app",
+    "category": "Communication",
+    "alternative": "Mailchimp",
+    "description": "Manage mailing lists and send newsletters from a self-hosted application.",
+    "features": [
+      "Mailing lists",
+      "Email campaigns",
+      "Subscriber management"
+    ]
+  },
+  {
+    "slug": "hugo",
+    "name": "Hugo",
+    "repo": "gohugoio/hugo",
+    "website": "https://gohugo.io",
+    "category": "Publishing",
+    "alternative": "Webflow",
+    "description": "Generate fast static websites from content files and templates.",
+    "features": [
+      "Static site generation",
+      "Content templates",
+      "Multilingual sites"
+    ]
+  },
+  {
+    "slug": "jekyll",
+    "name": "Jekyll",
+    "repo": "jekyll/jekyll",
+    "website": "https://jekyllrb.com",
+    "category": "Publishing",
+    "alternative": "Squarespace",
+    "description": "Turn Markdown content and templates into a static website or blog.",
+    "features": [
+      "Markdown publishing",
+      "Static blogs",
+      "Site templates"
+    ]
+  },
+  {
+    "slug": "docusaurus",
+    "name": "Docusaurus",
+    "repo": "facebook/docusaurus",
+    "website": "https://docusaurus.io",
+    "category": "Publishing",
+    "alternative": "GitBook",
+    "description": "Build documentation websites with search, versioned docs, and a blog.",
+    "features": [
+      "Documentation sites",
+      "Versioned documentation",
+      "Blog publishing"
+    ]
+  },
+  {
+    "slug": "wiki-js",
+    "name": "Wiki.js",
+    "repo": "requarks/wiki",
+    "website": "https://js.wiki",
+    "category": "Publishing",
+    "alternative": "Confluence",
+    "description": "Publish and organize team knowledge with a self-hosted wiki.",
+    "features": [
+      "Team documentation",
+      "Content editing",
+      "Access control"
+    ]
+  },
+  {
+    "slug": "mdbook",
+    "name": "mdBook",
+    "repo": "rust-lang/mdBook",
+    "website": "https://rust-lang.github.io/mdBook",
+    "category": "Publishing",
+    "alternative": "GitBook",
+    "description": "Create searchable online books and documentation from Markdown files.",
+    "features": [
+      "Markdown books",
+      "Documentation navigation",
+      "Built-in search"
+    ]
+  },
+  {
+    "slug": "silverstripe",
+    "name": "Silverstripe CMS",
+    "repo": "silverstripe/silverstripe-cms",
+    "website": "https://silverstripe.org",
+    "category": "Publishing",
+    "alternative": "Contentful",
+    "description": "Create and manage websites with an extensible PHP content management system.",
+    "features": [
+      "Content editing",
+      "Page management",
+      "Extensible content models"
+    ]
+  },
+  {
+    "slug": "vaultwarden",
+    "name": "Vaultwarden",
+    "repo": "dani-garcia/vaultwarden",
+    "website": "https://github.com/dani-garcia/vaultwarden",
+    "category": "Security",
+    "alternative": "1Password",
+    "description": "Run a lightweight community server compatible with Bitwarden password-manager clients.",
+    "features": [
+      "Password vault server",
+      "Bitwarden client compatibility",
+      "Self-hosted credential storage"
+    ]
+  },
+  {
+    "slug": "keycloak",
+    "name": "Keycloak",
+    "repo": "keycloak/keycloak",
+    "website": "https://keycloak.org",
+    "category": "Security",
+    "alternative": "Okta",
+    "description": "Manage application identities, authentication, and single sign-on in one platform.",
+    "features": [
+      "Single sign-on",
+      "Identity federation",
+      "User management"
+    ]
+  },
+  {
+    "slug": "passbolt",
+    "name": "Passbolt",
+    "repo": "passbolt/passbolt_api",
+    "website": "https://passbolt.com",
+    "category": "Security",
+    "alternative": "1Password",
+    "description": "Share and manage team passwords with an encrypted, self-hostable password manager.",
+    "features": [
+      "Team password sharing",
+      "Encrypted credentials",
+      "Access management"
+    ]
+  },
+  {
+    "slug": "wazuh",
+    "name": "Wazuh",
+    "repo": "wazuh/wazuh",
+    "website": "https://wazuh.com",
+    "category": "Security",
+    "alternative": "Splunk",
+    "description": "Monitor endpoints and analyze security events with a security detection platform.",
+    "features": [
+      "Endpoint monitoring",
+      "Security event analysis",
+      "Threat detection"
+    ]
+  },
+  {
+    "slug": "crowdsec",
+    "name": "CrowdSec",
+    "repo": "crowdsecurity/crowdsec",
+    "website": "https://crowdsec.net",
+    "category": "Security",
+    "alternative": "Sucuri",
+    "description": "Detect abusive behavior in logs and block malicious IPs through security integrations.",
+    "features": [
+      "Behavior detection",
+      "IP reputation",
+      "Remediation integrations"
+    ]
+  },
+  {
+    "slug": "netbird",
+    "name": "NetBird",
+    "repo": "netbirdio/netbird",
+    "website": "https://netbird.io",
+    "category": "Security",
+    "alternative": "Tailscale",
+    "description": "Connect devices through a private WireGuard network with centrally managed access.",
+    "features": [
+      "Private networking",
+      "WireGuard connections",
+      "Network access policies"
+    ]
+  },
+  {
+    "slug": "peertube",
+    "name": "PeerTube",
+    "repo": "Chocobozzz/PeerTube",
+    "website": "https://joinpeertube.org",
+    "category": "Media",
+    "alternative": "YouTube",
+    "description": "Host and share videos through a federated, self-hosted video platform.",
+    "features": [
+      "Video hosting",
+      "Federated channels",
+      "Video streaming"
+    ]
+  },
+  {
+    "slug": "owncast",
+    "name": "Owncast",
+    "repo": "owncast/owncast",
+    "website": "https://owncast.online",
+    "category": "Media",
+    "alternative": "Twitch",
+    "description": "Broadcast live video with an integrated chat on a server you own.",
+    "features": [
+      "Live streaming",
+      "Audience chat",
+      "Self-hosted broadcasts"
+    ]
+  },
+  {
+    "slug": "audiobookshelf",
+    "name": "Audiobookshelf",
+    "repo": "advplyr/audiobookshelf",
+    "website": "https://audiobookshelf.org",
+    "category": "Media",
+    "alternative": "Audible",
+    "description": "Organize and stream your own audiobook and podcast files from a personal server.",
+    "features": [
+      "Personal audiobook library",
+      "Listening progress",
+      "Podcast management"
+    ]
+  },
+  {
+    "slug": "lychee",
+    "name": "Lychee",
+    "repo": "LycheeOrg/Lychee",
+    "website": "https://lycheeorg.dev",
+    "category": "Media",
+    "alternative": "SmugMug",
+    "description": "Upload, organize, and share photo albums through a self-hosted gallery.",
+    "features": [
+      "Photo albums",
+      "Gallery sharing",
+      "Self-hosted photo library"
+    ]
+  },
+  {
+    "slug": "piwigo",
+    "name": "Piwigo",
+    "repo": "Piwigo/Piwigo",
+    "website": "https://piwigo.org",
+    "category": "Media",
+    "alternative": "SmugMug",
+    "description": "Manage and publish a photo collection with albums, permissions, and extensions.",
+    "features": [
+      "Photo galleries",
+      "Album organization",
+      "Photo access permissions"
+    ]
+  },
+  {
+    "slug": "handbrake",
+    "name": "HandBrake",
+    "repo": "HandBrake/HandBrake",
+    "website": "https://handbrake.fr",
+    "category": "Media",
+    "alternative": "Adobe Media Encoder",
+    "description": "Convert video files to common formats with a desktop video transcoder.",
+    "features": [
+      "Video transcoding",
+      "Encoding presets",
+      "Batch encoding"
+    ]
+  },
+  {
+    "slug": "audacity",
+    "name": "Audacity",
+    "repo": "audacity/audacity",
+    "website": "https://audacityteam.org",
+    "category": "Media",
+    "alternative": "Adobe Audition",
+    "description": "Record, edit, and mix audio tracks in a cross-platform desktop application.",
+    "features": [
+      "Audio recording",
+      "Multitrack editing",
+      "Audio effects"
+    ]
+  },
+  {
+    "slug": "shotcut",
+    "name": "Shotcut",
+    "repo": "mltframework/shotcut",
+    "website": "https://shotcut.org",
+    "category": "Media",
+    "alternative": "Adobe Premiere Pro",
+    "description": "Edit video with a multitrack timeline, filters, and support for many media formats.",
+    "features": [
+      "Timeline editing",
+      "Video filters",
+      "Multiformat export"
+    ]
+  }
+]

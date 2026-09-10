@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { categories, tools } from '../data/tools';
+---
+<Layout title="CLI categories | useclis" active="Categories"><div class="container"><section class="page-intro"><span class="eyebrow"><span class="status-dot" /> Explore by category</span><h1 style="margin-top:20px">Find a CLI for the task.</h1><p>Browse command-line tools for browsers, code, APIs, infrastructure, and agent workflows.</p></section><div class="category-grid">{categories.map((category, index) => <a class="category-card" href={`/?category=${encodeURIComponent(category)}#directory`}><span class="category-number">0{index + 1} ↗</span><h2>{category}</h2><span>{tools.filter(tool => tool.category === category).length} CLIs</span><p>{tools.filter(tool => tool.category === category).map(tool => tool.name).join(' · ')}</p></a>)}</div></div></Layout>

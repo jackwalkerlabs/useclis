@@ -1,0 +1,53 @@
+.submission-dialog { width: min(620px, calc(100% - 32px)); max-height: min(900px, calc(100dvh - 48px)); margin: auto; padding: 0; border: 1px solid var(--border-default); border-radius: 12px; background: var(--surface-card); color: var(--text-strong); box-shadow: 0 24px 80px #0003; overflow: hidden; }
+.submission-dialog::backdrop { background: rgb(17 21 19 / 52%); }
+.submission-shell { display: flex; flex-direction: column; max-height: min(898px, calc(100dvh - 50px)); }
+.submission-header { position: relative; padding: 25px 28px 22px; border-bottom: 1px solid var(--border-subtle); flex-shrink: 0; }
+.submission-title-row { display: flex; align-items: center; gap: 12px; padding-right: 28px; flex-wrap: wrap; }
+.submission-title-row h2 { font: 600 20px/1.4 var(--font-mono); letter-spacing: -.7px; margin: 0; }
+.submission-free { display: inline-flex; align-items: center; gap: 6px; border-radius: 20px; padding: 4px 8px; background: var(--surface-page); font: 10px var(--font-mono); color: var(--text-muted); white-space: nowrap; }
+.submission-header > p { font-size: 12px; color: var(--text-muted); margin-top: 10px; line-height: 1.6; }
+.submission-close { position: absolute; top: 17px; right: 15px; width: 32px; height: 32px; }
+.submission-form { display: flex; flex-direction: column; min-height: 0; }
+.submission-fields { overflow-y: auto; overscroll-behavior: contain; padding: 26px 28px; display: flex; flex-direction: column; gap: 24px; }
+.submission-field { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.submission-field label, .submission-group legend { font-size: 12px; font-weight: 550; }
+.submission-field label span { font-weight: 400; color: var(--text-muted); }
+.submission-field input, .submission-field select, .submission-field textarea { width: 100%; min-width: 0; border: 1px solid var(--border-default); border-radius: 7px; background: white; color: var(--text-strong); padding: 11px 12px; font: 12px/1.5 var(--font-sans); box-shadow: 0 1px 2px #00000005; }
+.submission-field textarea { resize: vertical; min-height: 88px; }
+.submission-field :is(input, textarea)::placeholder { color: var(--text-faint); opacity: 1; }
+.submission-field :is(input, select, textarea):focus-visible { outline: 2px solid var(--green-600); outline-offset: 2px; }
+.submission-field .submission-mono { font-family: var(--font-mono); }
+.submission-field > p { font-size: 11px; line-height: 1.6; color: var(--text-muted); }
+.submission-input-icon { position: relative; }
+.submission-input-icon > svg { position: absolute; top: 13px; left: 12px; color: var(--text-muted); }
+.submission-input-icon input { padding-left: 38px; }
+.submission-guidance { display: flex; align-items: flex-start; gap: 12px; background: var(--surface-page); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 15px; margin-top: -12px; }
+.submission-guidance > svg { flex-shrink: 0; margin-top: 2px; color: var(--text-muted); }
+.submission-guidance strong, .submission-listing strong { font-size: 12px; font-weight: 550; }
+.submission-guidance p, .submission-listing p { font-size: 11px; line-height: 1.8; color: var(--text-muted); margin-top: 5px; }
+.submission-group { border: 0; padding: 0; margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 16px; }
+.submission-group legend { margin-bottom: 14px; padding: 0; }
+.submission-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.submission-listing { display: flex; align-items: flex-start; gap: 11px; border: 1px dashed var(--border-default); border-radius: 9px; padding: 17px; }
+.submission-listing > strong { margin-left: auto; }
+.submission-check { display: flex; align-items: center; justify-content: center; background: var(--green-600); color: white; width: 18px; height: 18px; flex-shrink: 0; border-radius: 5px; margin-top: 1px; }
+.submission-footer { flex-shrink: 0; border-top: 1px solid var(--border-subtle); background: var(--surface-card); padding: 18px 28px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.submission-footer p { font-size: 11px; }
+.submission-footer span { font-size: 10px; color: var(--text-muted); display: block; margin-top: 4px; }
+.submission-footer .button { min-height: 42px; }
+.submission-footer .submission-notice { flex-basis: 100%; color: var(--green-700); line-height: 1.6; }
+@media (max-width: 600px) {
+  .submission-dialog { width: calc(100% - 20px); max-height: calc(100dvh - 20px); }
+  .submission-shell { max-height: calc(100dvh - 22px); }
+  .submission-header { padding: 22px 18px 18px; }
+  .submission-title-row { gap: 7px; }
+  .submission-title-row h2 { font-size: 18px; }
+  .submission-fields { padding: 22px 18px; }
+  .submission-field input, .submission-field select, .submission-field textarea { font-size: 16px; }
+  .submission-columns { grid-template-columns: 1fr; }
+  .submission-input-icon > svg { top: 16px; }
+  .submission-footer { padding: 14px 18px; }
+  .submission-footer .button { min-height: 44px; }
+  .submission-close { top: 9px; right: 6px; }
+  .header-actions .header-cta { min-height: 44px; }
+}

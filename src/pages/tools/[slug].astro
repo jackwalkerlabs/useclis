@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ActivityChart from '../../components/ActivityChart';
+import StarsPanel from '../../components/StarsPanel';
+import CommandExample from '../../components/CommandExample';
+import snapshots from '../../data/star-snapshots.json';
+import activity from '../../data/activity.json';
+import { tools } from '../../data/tools';
+export function getStaticPaths() { return tools.map(tool => ({ params: { slug: tool.slug }, props: { tool } })); }
+const { tool } = Astro.props;
+const history = activity[tool.slug as keyof typeof activity];
+const related = tools.filter(item => item.slug !== tool.slug).sort((a, b) => Number(b.category === tool.category) - Number(a.category === tool.category)).slice(0, 3);
+---
+<Layout title={`${tool.name} — ${tool.useCase} CLI for agents | useclis`} description={tool.description}>
+  <div class="container">
+    <div class="breadcrumb"><a href="/">CLIs</a><span>/</span><a href={`/?category=${encodeURIComponent(tool.category)}#directory`}>{tool.category}</a><span>/</span><span>{tool.name}</span></div>
+    <section class="detail-top"><div class="detail-identity"><img src={tool.logo} alt="" /><div><h1>{tool.name}</h1><p><code class="cli-command">{tool.command}</code><span class="cli-detail-category">{tool.category}</span></p></div></div><div class="detail-actions"><a class="button secondary" href={`https://github.com/${tool.repo}`} target="_blank" rel="noreferrer">GitHub repository ↗</a><a class="button primary" href={tool.docs} target="_blank" rel="noreferrer">Read documentation ↗</a></div></section>
+    <div class="detail-grid"><section class="detail-content"><p>{tool.description}</p><h2>For your agent</h2><p class="cli-agent-description">{tool.agentUse}</p>{tool.agentWorkflowSupport && <p class="cli-source-note">Agent/AI workflow support: <strong>{tool.agentWorkflowSupport}</strong> <a href="/about/#workflow-support">(source list)</a></p>}<h2>Example command</h2><CommandExample command={tool.example} client:load /><p class="cli-example-note">Run after following the <a href={tool.docs} target="_blank" rel="noreferrer">project’s setup instructions</a>. Local files, credentials, or a connected service may be required.</p><h2>What it does</h2><ul class="feature-list">{tool.features.map(feature => <li><span aria-hidden="true">✓</span>{feature}</li>)}</ul><div id="activity">{history && <ActivityChart weeks={history.weeks} name={tool.name} client:visible />}</div><p class="detail-note cli-source-note">Commands and capabilities are described from the <a href={tool.docs} target="_blank" rel="noreferrer">project documentation</a>. Repository statistics cover <a href={`https://github.com/${tool.repo}`} target="_blank" rel="noreferrer">{tool.repo}</a>, which may contain more than the CLI. Listing a tool does not mean every command has been tested with every agent.</p></section>
+    <StarsPanel total={tool.stars} points={snapshots[tool.slug as keyof typeof snapshots] ?? []} repo={tool.repo} license={tool.license} createdAt={tool.createdAt} lastCommitAt={tool.lastCommitAt} checkedAt={tool.checkedAt} client:visible /></div>
+    <h2 class="related-heading">More CLIs to explore</h2><div class="related-grid">{related.map(item => <a class="related-card" href={`/tools/${item.slug}/`}><img src={item.logo} alt="" loading="lazy" /><div><h3>{item.name}</h3><p>{item.useCase}</p></div><span aria-hidden="true">↗</span></a>)}</div>
+  </div>
+</Layout>
