@@ -1,7 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "useclis",
-  "account_id": "45cfe6f190ff401249e05583195e4117",
   "compatibility_date": "2026-09-09",
   "routes": [{ "pattern": "useclis.com", "custom_domain": true }],
   "assets": {

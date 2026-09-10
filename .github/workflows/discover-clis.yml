@@ -1,0 +1,91 @@
+name: Discover and publish CLIs
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Collect a report without changing the catalog
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  actions: write
+# Share the lock with snapshot refreshes so neither bot overwrites the other's data.
+concurrency:
+  group: directory-snapshots
+  cancel-in-progress: false
+jobs:
+  discover:
+    if: github.ref == 'refs/heads/main' || inputs.dry_run
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      SITE_URL: https://useclis.com
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: '.node-version'
+          cache: npm
+      - name: Check publication configuration
+        if: ${{ !inputs.dry_run }}
+        env:
+          DEPLOY_ENABLED: ${{ vars.CLOUDFLARE_DEPLOY_ENABLED }}
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ "$DEPLOY_ENABLED" != true ] || [ -z "$CF_TOKEN" ] || [ -z "$CF_ACCOUNT" ]; then
+            echo 'Configure Cloudflare deployment before enabling automatic publication. See docs/DISCOVERY.md.'
+            exit 1
+          fi
+      - run: npm ci
+      - name: Discover qualifying CLIs
+        id: discovery
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          if [ "$DRY_RUN" = true ]; then
+            npm run discover
+          else
+            npm run discover -- --apply
+          fi
+      - name: Summarize discovery
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFile, appendFile } from 'node:fs/promises';
+          const report = JSON.parse(await readFile('artifacts/discovery-report.json', 'utf8'));
+          const counts = {};
+          for (const item of report.outcomes) counts[item.status] = (counts[item.status] || 0) + 1;
+          await appendFile(process.env.GITHUB_STEP_SUMMARY, `Discovery checked ${report.outcomes.length} candidates; ${report.accepted.length} qualified.\n\n${JSON.stringify(counts)}\n`);
+          NODE
+      - name: Save discovery report
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: cli-discovery-report
+          path: artifacts/discovery-report.json
+          retention-days: 30
+      - name: Collect metadata and avatars for the expanded catalog
+        if: ${{ !inputs.dry_run && steps.discovery.outputs.additions != '0' }}
+        run: npm run refresh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Validate publication
+        if: ${{ !inputs.dry_run }}
+        run: npm run build:design-system && npm run check && npm test && npm run check:design-system && npm run build && npm run check:links
+      - name: Commit validated additions and discovery evidence
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add discovery/state.json src/data/catalog.json src/data/homebrew-mappings.json src/data/repositories.json src/data/activity.json src/data/star-snapshots.json src/data/homebrew.json src/data/profiles.json public/logos public/avatars design-system/_ds_manifest.json design-system/_ds_bundle.js design-system/ui_kits/web/data.js
+          if ! git diff --cached --quiet; then
+            git commit -m "Discover CLIs and record admission evidence"
+            # Reject concurrent human changes; never force-push or publish an unvalidated rebase.
+            git push origin HEAD:main
+          fi
+      # Dispatch even on an unchanged rerun, so a failed earlier dispatch is recoverable.
+      - name: Publish through the main validation pipeline
+        if: ${{ !inputs.dry_run }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run ci.yml --ref main

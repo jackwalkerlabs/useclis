@@ -38,7 +38,8 @@ Configure the repository once:
 
 1. Create a Cloudflare API token using the **Edit Cloudflare Workers** template, restricted to the production account and `useclis.com` zone. Follow [Cloudflare's GitHub Actions instructions](https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/).
 2. Store the token as the repository Actions secret `CLOUDFLARE_API_TOKEN`. `gh secret set CLOUDFLARE_API_TOKEN --repo jackwalkerlabs/useclis` prompts securely; do not put the value in source, logs, or chat. Local Wrangler OAuth credentials are not used by GitHub.
-3. Enable deployments and test a manual main run:
+3. Set the repository variable `CLOUDFLARE_ACCOUNT_ID` to the production account ID. It is an identifier, not an authentication token; it is supplied through the environment instead of checked-in Wrangler configuration. Local deployments can export the same variable in the shell.
+4. Enable deployments and test a manual main run:
 
    ```sh
    gh variable set CLOUDFLARE_DEPLOY_ENABLED --body true --repo jackwalkerlabs/useclis

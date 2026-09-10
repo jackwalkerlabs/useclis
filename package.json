@@ -17,6 +17,8 @@
     "snapshot-stars": "node scripts/snapshot-stars.mjs",
     "refresh-profiles": "node scripts/refresh-profiles.mjs",
     "refresh": "npm run refresh-data && npm run refresh-activity && npm run snapshot-stars && npm run refresh-homebrew && npm run refresh-profiles",
+    "discover": "node scripts/discover-clis.mjs",
+    "deploy:discovery": "wrangler deploy --config workers/discovery/wrangler.jsonc",
     "check:links": "node scripts/check-links.mjs",
     "build:design-system": "node scripts/build-design-system.mjs",
     "check:design-system": "node scripts/build-design-system.mjs --check && tsc -p design-system/tsconfig.json"
@@ -36,6 +38,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "jsdom": "^30.0.1",
+    "smol-toml": "^1.8.0",
     "tsx": "^4.23.13",
     "typescript": "^6.0.3",
     "wrangler": "^4.130.0"
