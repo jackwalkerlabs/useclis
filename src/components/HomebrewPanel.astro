@@ -7,7 +7,7 @@ const formatDate = (value: string) => new Date(value).toLocaleDateString('en-US'
 const old = snapshot?.checkedAt && Date.now() - Date.parse(snapshot.checkedAt) > 7 * 86400000;
 const savedCounts = snapshot && Object.values(snapshot.counts).some(value => value !== null);
 ---
-<section class="homebrew-panel" aria-label="Homebrew installation statistics">
+<section id="homebrew" class="homebrew-panel" aria-label="Homebrew installation statistics">
   <div class="homebrew-heading"><h2>Homebrew installs</h2><a href={`https://formulae.brew.sh/formula/${formula}`} target="_blank" rel="noreferrer">{formula} ↗</a></div>
   <p class="homebrew-caption">Explicitly requested installation events</p>
   <dl class="homebrew-counts">
