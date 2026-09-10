@@ -185,7 +185,14 @@ export async function discover({ catalog, state, mappings, config, request, now 
     if (previous?.checkedAt && Date.parse(now) - Date.parse(previous.checkedAt) < config.recheckDays * 86400000) continue;
     checked++;
     if (candidate.formula && !candidate.brew) candidate.brew = await fetchFormula(request, candidate.formula, now);
-    const repo = await request(`${API}/repos/${candidate.repo}`, { optional: true });
+    let repo;
+    try { repo = await request(`${API}/repos/${candidate.repo}`, { optional: true }); }
+    catch (error) {
+      if (!(error instanceof SourceTooLargeError)) throw error;
+      next.candidates[key] = { status: 'held', checkedAt: now, reason: error.message };
+      outcomes.push({ repo: key, status: 'held', reason: error.message });
+      continue;
+    }
     // GitHub redirects are not followed. Renamed repositories are held until rediscovered canonically.
     if (!repo) {
       next.candidates[key] = { status: 'held', checkedAt: now, reason: 'Repository unavailable or renamed' };

@@ -155,10 +155,15 @@ test('End-to-end discovery pins evidence, preserves editorial data, obeys rerun 
   assert.deepEqual(result.catalog[0], catalog[0]);
   assert.deepEqual(state.candidates, {}, 'Caller state is unchanged');
   assert.equal(catalog.length, 1);
-  const oversized = await discover({ ...input, request: async url => { if (url.includes('/git/trees/')) throw new SourceTooLargeError(url); return request(url); } });
-  assert.equal(oversized.accepted.length, 0);
-  assert.equal(oversized.state.candidates['sample/query-cli'].status, 'held');
-  assert.match(oversized.state.candidates['sample/query-cli'].reason, /size limit/);
+  for (const phase of ['tree', 'metadata']) {
+    const oversized = await discover({ ...input, request: async url => {
+      if (phase === 'tree' ? url.includes('/git/trees/') : url.endsWith('/repos/sample/query-cli')) throw new SourceTooLargeError(url);
+      return request(url);
+    } });
+    assert.equal(oversized.accepted.length, 0);
+    assert.equal(oversized.state.candidates['sample/query-cli'].status, 'held');
+    assert.match(oversized.state.candidates['sample/query-cli'].reason, /size limit/);
+  }
   await assert.rejects(discover({ ...input, request: async url => { throw new SourceTooLargeError(url); } }), SourceTooLargeError, 'Oversized global discovery responses still fail closed');
   assert.equal(result.state.candidates['sample/query-cli'].evidence.commit, sha);
   assert.ok(result.accepted[0].docs.includes(sha));
