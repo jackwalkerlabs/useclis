@@ -13,8 +13,10 @@
     "deploy": "npm run build && wrangler deploy",
     "deploy:pages": "npm run build && wrangler pages deploy dist --project-name useclis",
     "refresh-activity": "node scripts/refresh-activity.mjs",
+    "refresh-homebrew": "node scripts/refresh-homebrew.mjs",
     "snapshot-stars": "node scripts/snapshot-stars.mjs",
-    "refresh": "npm run refresh-data && npm run refresh-activity && npm run snapshot-stars",
+    "refresh-profiles": "node scripts/refresh-profiles.mjs",
+    "refresh": "npm run refresh-data && npm run refresh-activity && npm run snapshot-stars && npm run refresh-homebrew && npm run refresh-profiles",
     "check:links": "node scripts/check-links.mjs",
     "build:design-system": "node scripts/build-design-system.mjs",
     "check:design-system": "node scripts/build-design-system.mjs --check && tsc -p design-system/tsconfig.json"

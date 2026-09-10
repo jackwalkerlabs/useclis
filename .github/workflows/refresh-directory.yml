@@ -5,13 +5,17 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: directory-snapshots
   cancel-in-progress: false
 jobs:
   refresh:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      SITE_URL: https://useclis.com
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
@@ -25,11 +29,20 @@ jobs:
       - run: npm run build:design-system
       - run: npm run check && npm test && npm run build && npm run check:links
       - name: Commit updated public metadata
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/repositories.json src/data/activity.json src/data/star-snapshots.json public/logos design-system/_ds_manifest.json design-system/_ds_bundle.js design-system/ui_kits/web/data.js
+          git add src/data/repositories.json src/data/activity.json src/data/star-snapshots.json src/data/homebrew.json src/data/profiles.json public/logos public/avatars design-system/_ds_manifest.json design-system/_ds_bundle.js design-system/ui_kits/web/data.js
           if ! git diff --cached --quiet; then
             git commit -m "Update directory snapshots"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      # GITHUB_TOKEN pushes do not trigger push workflows, so explicitly validate
+      # and deploy the new main commit using the same pipeline as human pushes.
+      - name: Validate and deploy refreshed snapshots
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run ci.yml --ref main
