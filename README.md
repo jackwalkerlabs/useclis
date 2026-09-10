@@ -20,6 +20,8 @@ Open http://localhost:4321. Builds use checked-in data, so no database or API ke
 - `src/data/repositories.json`: dated repository metadata and star totals from GitHub.
 - `src/data/activity.json`: 52 weekly commit counts per repository.
 - `src/data/star-snapshots.json`: daily observations of total stars. Collection began September 9, 2026. No historical totals are invented; a single observation displays its start date without a growth claim.
+- `src/data/homebrew-mappings.json`: explicit Homebrew/core formula identities for 77 CLI listings. Mappings are checked against the catalog repository and the formula's upstream URLs. Primary formulae are used where a repository has multiple packages; casks, third-party taps, separately versioned formulae, and additional packages are excluded. Gemini CLI's npm archive identity was verified through the npm package's repository metadata.
+- `src/data/homebrew.json`: 30/90/365-day install-on-request events, summed across returned variants including HEAD. Detail pages show these counts with source links and observation/source dates. These are reporting installation events, not unique users. Missing periods show “Unavailable”; unmapped CLIs have no card. Failed provider requests preserve the previous counts and successful timestamp with a visible failure state. Builds use these snapshots without network access.
 - `public/logos/`: avatars for active repository owners, which may differ from product logos.
 
 To collect new observations:
@@ -29,7 +31,9 @@ GITHUB_TOKEN=... npm run refresh
 npm run build:design-system
 ```
 
-Provide your own token through the shell or a local secret manager; never commit it. A token is optional, but an unauthenticated full refresh exceeds GitHub's normal hourly API allowance. Failed requests preserve prior data and return an error. Pending GitHub statistics (HTTP 202) preserve previous activity for a later refresh.
+Provide your own token through the shell or a local secret manager; never commit it. A token is optional, but an unauthenticated full refresh exceeds GitHub's normal hourly API allowance. Failed GitHub requests preserve prior data and return an error. Pending GitHub statistics (HTTP 202) preserve previous activity for a later refresh.
+
+Refresh only Homebrew with `npm run refresh-homebrew` (no API key required). Its source failures are recorded and logged without failing the whole refresh, allowing successful updates and saved-data labels to publish. Invalid configuration or unreadable snapshot files fail the command. The daily workflow commits `src/data/homebrew.json` with the other snapshots. Data comes from the [Homebrew formula API](https://formulae.brew.sh/docs/api/); see [Homebrew analytics](https://docs.brew.sh/Analytics) for coverage. The three rolling windows overlap and must not be added together.
 
 Charts represent repository activity, including any other software in the same repository. Star changes include added and removed stars. Small commit charts use independent vertical scales, and the current week may be incomplete.
 
