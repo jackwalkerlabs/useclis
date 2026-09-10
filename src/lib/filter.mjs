@@ -7,6 +7,7 @@ export function filterTools(tools, { query = '', category = 'All categories', so
   }).sort((a, b) => {
     if (sort === 'recent') return (b.listedOrder ?? 0) - (a.listedOrder ?? 0);
     if (sort === 'active') return (b.weeklyCommits ?? -1) - (a.weeklyCommits ?? -1) || (b.stars ?? 0) - (a.stars ?? 0);
+    if (sort === 'homebrew') return (b.homebrew?.counts['30d'] ?? -1) - (a.homebrew?.counts['30d'] ?? -1) || a.name.localeCompare(b.name);
     return sort === 'stars' ? (b.stars ?? 0) - (a.stars ?? 0) : sort === 'name' ? a.name.localeCompare(b.name) : Number(Boolean(b.featured)) - Number(Boolean(a.featured));
   });
 }
