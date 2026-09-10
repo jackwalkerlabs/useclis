@@ -84,3 +84,11 @@ npx wrangler deploy --dry-run
 CI validates pushes and pull requests with read-only repository permissions. The daily refresh workflow updates snapshots and the design preview, validates the result, and commits using the repository token. Protected branches may require a PR-based update flow; verify that snapshot commits trigger the intended Cloudflare build.
 
 Original app code and the AI-generated design bundle are [MIT-licensed](LICENSE). Fonts, icons, avatars, and dependencies retain their separate [third-party terms](THIRD_PARTY.md).
+
+## GitHub owner profiles
+
+Profiles follow the supplied founder-page reference: identity and profile actions, four summary cards, an interactive purple area chart, CLI cards, and pastel discovery rails on wide screens. On phones, metrics use two columns and CLI cards stack. The Owners navigation and each CLI’s “By” link lead into the profiles. Share copies the profile URL and offers a selectable URL when clipboard access fails.
+
+`src/data/profiles.json` stores public profile snapshots; `public/avatars/` stores their local avatars. Run `npm run refresh-profiles` to update them, or `npm run refresh-profiles -- --missing` to fetch new owners only. The full `npm run refresh` includes profile refreshes.
+
+Activity combines matching UTC week dates across available listed repositories and labels missing coverage. Profile pages are generated for every owner in the current catalog; refresh profiles after adding an owner.
