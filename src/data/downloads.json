@@ -1,0 +1,1333 @@
+{
+  "agent-browser": {
+    "npm": {
+      "identity": "[\"npm\",\"vercel-labs/agent-browser\",{\"package\":\"agent-browser\"}]",
+      "repo": "vercel-labs/agent-browser",
+      "package": "agent-browser",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/agent-browser",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 5037062,
+        "90d": 14450951,
+        "365d": 26670718
+      },
+      "total": null
+    }
+  },
+  "codex": {
+    "npm": {
+      "identity": "[\"npm\",\"openai/codex\",{\"package\":\"@openai/codex\"}]",
+      "repo": "openai/codex",
+      "package": "@openai/codex",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@openai/codex",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 76016785,
+        "90d": 188242056,
+        "365d": 497055342
+      },
+      "total": null
+    }
+  },
+  "gemini-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"google-gemini/gemini-cli\",{\"package\":\"@google/gemini-cli\"}]",
+      "repo": "google-gemini/gemini-cli",
+      "package": "@google/gemini-cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@google/gemini-cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 1449154,
+        "90d": 5631809,
+        "365d": 27555552
+      },
+      "total": null
+    }
+  },
+  "playwright-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"microsoft/playwright-cli\",{\"package\":\"@playwright/cli\"}]",
+      "repo": "microsoft/playwright-cli",
+      "package": "@playwright/cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@playwright/cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 3233180,
+        "90d": 8950527,
+        "365d": 14470151
+      },
+      "total": null
+    }
+  },
+  "wrangler": {
+    "npm": {
+      "identity": "[\"npm\",\"cloudflare/workers-sdk\",{\"package\":\"wrangler\"}]",
+      "repo": "cloudflare/workers-sdk",
+      "package": "wrangler",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/wrangler",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 78779235,
+        "90d": 209020062,
+        "365d": 431875499
+      },
+      "total": null
+    }
+  },
+  "vercel-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"vercel/vercel\",{\"package\":\"vercel\"}]",
+      "repo": "vercel/vercel",
+      "package": "vercel",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/vercel",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 13972856,
+        "90d": 40500150,
+        "365d": 103812688
+      },
+      "total": null
+    }
+  },
+  "supabase-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"supabase/cli\",{\"package\":\"supabase\"}]",
+      "repo": "supabase/cli",
+      "package": "supabase",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/supabase",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 15201740,
+        "90d": 35881422,
+        "365d": 69449618
+      },
+      "total": null
+    }
+  },
+  "ast-grep": {
+    "npm": {
+      "identity": "[\"npm\",\"ast-grep/ast-grep\",{\"package\":\"@ast-grep/cli\"}]",
+      "repo": "ast-grep/ast-grep",
+      "package": "@ast-grep/cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@ast-grep/cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 4259929,
+        "90d": 10512604,
+        "365d": 23873187
+      },
+      "total": null
+    }
+  },
+  "pnpm": {
+    "npm": {
+      "identity": "[\"npm\",\"pnpm/pnpm\",{\"package\":\"pnpm\"}]",
+      "repo": "pnpm/pnpm",
+      "package": "pnpm",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/pnpm",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 644114080,
+        "90d": 1758396868,
+        "365d": 3746480034
+      },
+      "total": null
+    }
+  },
+  "biome": {
+    "npm": {
+      "identity": "[\"npm\",\"biomejs/biome\",{\"package\":\"@biomejs/biome\"}]",
+      "repo": "biomejs/biome",
+      "package": "@biomejs/biome",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@biomejs/biome",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 52260796,
+        "90d": 142091802,
+        "365d": 345166517
+      },
+      "total": null
+    }
+  },
+  "repomix": {
+    "npm": {
+      "identity": "[\"npm\",\"yamadashy/repomix\",{\"package\":\"repomix\"}]",
+      "repo": "yamadashy/repomix",
+      "package": "repomix",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/repomix",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 329262,
+        "90d": 988986,
+        "365d": 2682365
+      },
+      "total": null
+    }
+  },
+  "netlify-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"netlify/cli\",{\"package\":\"netlify-cli\"}]",
+      "repo": "netlify/cli",
+      "package": "netlify-cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/netlify-cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 1356641,
+        "90d": 3681651,
+        "365d": 12148801
+      },
+      "total": null
+    }
+  },
+  "firebase-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"firebase/firebase-tools\",{\"package\":\"firebase-tools\"}]",
+      "repo": "firebase/firebase-tools",
+      "package": "firebase-tools",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/firebase-tools",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 10300631,
+        "90d": 29982427,
+        "365d": 75587601
+      },
+      "total": null
+    }
+  },
+  "shopify-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"shopify/cli\",{\"package\":\"@shopify/cli\"}]",
+      "repo": "Shopify/cli",
+      "package": "@shopify/cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@shopify/cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 2048875,
+        "90d": 5790199,
+        "365d": 14683662
+      },
+      "total": null
+    }
+  },
+  "salesforce-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"salesforcecli/cli\",{\"package\":\"@salesforce/cli\"}]",
+      "repo": "salesforcecli/cli",
+      "package": "@salesforce/cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@salesforce/cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 1498787,
+        "90d": 4851662,
+        "365d": 15963656
+      },
+      "total": null
+    }
+  },
+  "microsoft-365-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"pnp/cli-microsoft365\",{\"package\":\"@pnp/cli-microsoft365\"}]",
+      "repo": "pnp/cli-microsoft365",
+      "package": "@pnp/cli-microsoft365",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@pnp/cli-microsoft365",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 100219,
+        "90d": 295450,
+        "365d": 740853
+      },
+      "total": null
+    }
+  },
+  "twilio-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"twilio/twilio-cli\",{\"package\":\"twilio-cli\"}]",
+      "repo": "twilio/twilio-cli",
+      "package": "twilio-cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/twilio-cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 70833,
+        "90d": 153483,
+        "365d": 369268
+      },
+      "total": null
+    }
+  },
+  "contentful-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"contentful/contentful-cli\",{\"package\":\"contentful-cli\"}]",
+      "repo": "contentful/contentful-cli",
+      "package": "contentful-cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/contentful-cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 311752,
+        "90d": 1091901,
+        "365d": 3802874
+      },
+      "total": null
+    }
+  },
+  "bitwarden-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"bitwarden/clients\",{\"package\":\"@bitwarden/cli\"}]",
+      "repo": "bitwarden/clients",
+      "package": "@bitwarden/cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@bitwarden/cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 197463,
+        "90d": 572586,
+        "365d": 1998852
+      },
+      "total": null
+    }
+  },
+  "lighthouse": {
+    "npm": {
+      "identity": "[\"npm\",\"googlechrome/lighthouse\",{\"package\":\"lighthouse\"}]",
+      "repo": "GoogleChrome/lighthouse",
+      "package": "lighthouse",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/lighthouse",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 16261532,
+        "90d": 48121389,
+        "365d": 134862347
+      },
+      "total": null
+    }
+  },
+  "axe-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"dequelabs/axe-core-npm\",{\"package\":\"@axe-core/cli\"}]",
+      "repo": "dequelabs/axe-core-npm",
+      "package": "@axe-core/cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@axe-core/cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 322627,
+        "90d": 970556,
+        "365d": 2372194
+      },
+      "total": null
+    }
+  },
+  "rulesync": {
+    "npm": {
+      "identity": "[\"npm\",\"dyoshikawa/rulesync\",{\"package\":\"rulesync\"}]",
+      "repo": "dyoshikawa/rulesync",
+      "package": "rulesync",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/rulesync",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 1001266,
+        "90d": 2872620,
+        "365d": 7327328
+      },
+      "total": null
+    }
+  },
+  "acpx": {
+    "npm": {
+      "identity": "[\"npm\",\"openclaw/acpx\",{\"package\":\"acpx\"}]",
+      "repo": "openclaw/acpx",
+      "package": "acpx",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/acpx",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 4061879,
+        "90d": 11435512,
+        "365d": 23883372
+      },
+      "total": null
+    }
+  },
+  "heroku-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"heroku/cli\",{\"package\":\"heroku\"}]",
+      "repo": "heroku/cli",
+      "package": "heroku",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/heroku",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 50084,
+        "90d": 139577,
+        "365d": 522577
+      },
+      "total": null
+    }
+  },
+  "n8n-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"n8n-io/n8n\",{\"package\":\"n8n\"}]",
+      "repo": "n8n-io/n8n",
+      "package": "n8n",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/n8n",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 511450,
+        "90d": 1234975,
+        "365d": 4165858
+      },
+      "total": null
+    }
+  },
+  "appwrite-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"appwrite/sdk-for-cli\",{\"package\":\"appwrite-cli\"}]",
+      "repo": "appwrite/sdk-for-cli",
+      "package": "appwrite-cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/appwrite-cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 12739,
+        "90d": 37597,
+        "365d": 94966
+      },
+      "total": null
+    }
+  },
+  "mongosh": {
+    "npm": {
+      "identity": "[\"npm\",\"mongodb-js/mongosh\",{\"package\":\"mongosh\"}]",
+      "repo": "mongodb-js/mongosh",
+      "package": "mongosh",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/mongosh",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 62558,
+        "90d": 284123,
+        "365d": 888243
+      },
+      "total": null
+    }
+  },
+  "dev-container-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"devcontainers/cli\",{\"package\":\"@devcontainers/cli\"}]",
+      "repo": "devcontainers/cli",
+      "package": "@devcontainers/cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@devcontainers/cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 1235283,
+        "90d": 3550766,
+        "365d": 11034252
+      },
+      "total": null
+    }
+  },
+  "eslint": {
+    "npm": {
+      "identity": "[\"npm\",\"eslint/eslint\",{\"package\":\"eslint\"}]",
+      "repo": "eslint/eslint",
+      "package": "eslint",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/eslint",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 617698738,
+        "90d": 1860337389,
+        "365d": 5292438247
+      },
+      "total": null
+    }
+  },
+  "prettier": {
+    "npm": {
+      "identity": "[\"npm\",\"prettier/prettier\",{\"package\":\"prettier\"}]",
+      "repo": "prettier/prettier",
+      "package": "prettier",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/prettier",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 508479813,
+        "90d": 1521458736,
+        "365d": 4287216947
+      },
+      "total": null
+    }
+  },
+  "npm": {
+    "npm": {
+      "identity": "[\"npm\",\"npm/cli\",{\"package\":\"npm\"}]",
+      "repo": "npm/cli",
+      "package": "npm",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/npm",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 61662779,
+        "90d": 194117159,
+        "365d": 594943003
+      },
+      "total": null
+    }
+  },
+  "marp-cli": {
+    "npm": {
+      "identity": "[\"npm\",\"marp-team/marp-cli\",{\"package\":\"@marp-team/marp-cli\"}]",
+      "repo": "marp-team/marp-cli",
+      "package": "@marp-team/marp-cli",
+      "source": "npm",
+      "url": "https://www.npmjs.com/package/@marp-team/marp-cli",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-06",
+      "counts": {
+        "30d": 211722,
+        "90d": 625928,
+        "365d": 1357614
+      },
+      "total": null
+    }
+  },
+  "aider": {
+    "pypi": {
+      "identity": "[\"pypi\",\"aider-ai/aider\",{\"package\":\"aider-chat\"}]",
+      "repo": "Aider-AI/aider",
+      "package": "aider-chat",
+      "source": "pypi",
+      "url": "https://pypi.org/project/aider-chat/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 535473,
+        "90d": 2198737,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "llm": {
+    "pypi": {
+      "identity": "[\"pypi\",\"simonw/llm\",{\"package\":\"llm\"}]",
+      "repo": "simonw/llm",
+      "package": "llm",
+      "source": "pypi",
+      "url": "https://pypi.org/project/llm/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 521021,
+        "90d": 1433926,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "httpie": {
+    "pypi": {
+      "identity": "[\"pypi\",\"httpie/cli\",{\"package\":\"httpie\"}]",
+      "repo": "httpie/cli",
+      "package": "httpie",
+      "source": "pypi",
+      "url": "https://pypi.org/project/httpie/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 824527,
+        "90d": 2948055,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "uv": {
+    "pypi": {
+      "identity": "[\"pypi\",\"astral-sh/uv\",{\"package\":\"uv\"}]",
+      "repo": "astral-sh/uv",
+      "package": "uv",
+      "source": "pypi",
+      "url": "https://pypi.org/project/uv/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 161400150,
+        "90d": 513634548,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "ruff": {
+    "pypi": {
+      "identity": "[\"pypi\",\"astral-sh/ruff\",{\"package\":\"ruff\"}]",
+      "repo": "astral-sh/ruff",
+      "package": "ruff",
+      "source": "pypi",
+      "url": "https://pypi.org/project/ruff/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 310846975,
+        "90d": 897830568,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "semgrep": {
+    "pypi": {
+      "identity": "[\"pypi\",\"semgrep/semgrep\",{\"package\":\"semgrep\"}]",
+      "repo": "semgrep/semgrep",
+      "package": "semgrep",
+      "source": "pypi",
+      "url": "https://pypi.org/project/semgrep/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 26573606,
+        "90d": 95796316,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "shot-scraper": {
+    "pypi": {
+      "identity": "[\"pypi\",\"simonw/shot-scraper\",{\"package\":\"shot-scraper\"}]",
+      "repo": "simonw/shot-scraper",
+      "package": "shot-scraper",
+      "source": "pypi",
+      "url": "https://pypi.org/project/shot-scraper/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 231570,
+        "90d": 521121,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "aws-cli": {
+    "pypi": {
+      "identity": "[\"pypi\",\"aws/aws-cli\",{\"package\":\"awscli\"}]",
+      "repo": "aws/aws-cli",
+      "package": "awscli",
+      "source": "pypi",
+      "url": "https://pypi.org/project/awscli/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 122375851,
+        "90d": 730089661,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "azure-cli": {
+    "pypi": {
+      "identity": "[\"pypi\",\"azure/azure-cli\",{\"package\":\"azure-cli\"}]",
+      "repo": "Azure/azure-cli",
+      "package": "azure-cli",
+      "source": "pypi",
+      "url": "https://pypi.org/project/azure-cli/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 4660101,
+        "90d": 17638707,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "ansible": {
+    "pypi": {
+      "identity": "[\"pypi\",\"ansible/ansible\",{\"package\":\"ansible-core\"}]",
+      "repo": "ansible/ansible",
+      "package": "ansible-core",
+      "source": "pypi",
+      "url": "https://pypi.org/project/ansible-core/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 14880016,
+        "90d": 50313299,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "sqlite-utils": {
+    "pypi": {
+      "identity": "[\"pypi\",\"simonw/sqlite-utils\",{\"package\":\"sqlite-utils\"}]",
+      "repo": "simonw/sqlite-utils",
+      "package": "sqlite-utils",
+      "source": "pypi",
+      "url": "https://pypi.org/project/sqlite-utils/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 1053084,
+        "90d": 3437223,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "dbt-core": {
+    "pypi": {
+      "identity": "[\"pypi\",\"dbt-labs/dbt-core\",{\"package\":\"dbt-core\"}]",
+      "repo": "dbt-labs/dbt-core",
+      "package": "dbt-core",
+      "source": "pypi",
+      "url": "https://pypi.org/project/dbt-core/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 55398593,
+        "90d": 265352531,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "sqlfluff": {
+    "pypi": {
+      "identity": "[\"pypi\",\"sqlfluff/sqlfluff\",{\"package\":\"sqlfluff\"}]",
+      "repo": "sqlfluff/sqlfluff",
+      "package": "sqlfluff",
+      "source": "pypi",
+      "url": "https://pypi.org/project/sqlfluff/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 10956142,
+        "90d": 32522429,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "yt-dlp": {
+    "pypi": {
+      "identity": "[\"pypi\",\"yt-dlp/yt-dlp\",{\"package\":\"yt-dlp\"}]",
+      "repo": "yt-dlp/yt-dlp",
+      "package": "yt-dlp",
+      "source": "pypi",
+      "url": "https://pypi.org/project/yt-dlp/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 14525256,
+        "90d": 52922619,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "ocrmypdf": {
+    "pypi": {
+      "identity": "[\"pypi\",\"ocrmypdf/ocrmypdf\",{\"package\":\"ocrmypdf\"}]",
+      "repo": "ocrmypdf/OCRmyPDF",
+      "package": "ocrmypdf",
+      "source": "pypi",
+      "url": "https://pypi.org/project/ocrmypdf/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 1227683,
+        "90d": 3316367,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "khal": {
+    "pypi": {
+      "identity": "[\"pypi\",\"pimutils/khal\",{\"package\":\"khal\"}]",
+      "repo": "pimutils/khal",
+      "package": "khal",
+      "source": "pypi",
+      "url": "https://pypi.org/project/khal/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 5570,
+        "90d": 16794,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "gcalcli": {
+    "pypi": {
+      "identity": "[\"pypi\",\"insanum/gcalcli\",{\"package\":\"gcalcli\"}]",
+      "repo": "insanum/gcalcli",
+      "package": "gcalcli",
+      "source": "pypi",
+      "url": "https://pypi.org/project/gcalcli/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 3532,
+        "90d": 15741,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "buku": {
+    "pypi": {
+      "identity": "[\"pypi\",\"jarun/buku\",{\"package\":\"buku\"}]",
+      "repo": "jarun/buku",
+      "package": "buku",
+      "source": "pypi",
+      "url": "https://pypi.org/project/buku/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 720,
+        "90d": 1868,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "snowflake-cli": {
+    "pypi": {
+      "identity": "[\"pypi\",\"snowflakedb/snowflake-cli\",{\"package\":\"snowflake-cli\"}]",
+      "repo": "snowflakedb/snowflake-cli",
+      "package": "snowflake-cli",
+      "source": "pypi",
+      "url": "https://pypi.org/project/snowflake-cli/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 920720,
+        "90d": 2961715,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "mycli": {
+    "pypi": {
+      "identity": "[\"pypi\",\"dbcli/mycli\",{\"package\":\"mycli\"}]",
+      "repo": "dbcli/mycli",
+      "package": "mycli",
+      "source": "pypi",
+      "url": "https://pypi.org/project/mycli/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 99526,
+        "90d": 328080,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "litecli": {
+    "pypi": {
+      "identity": "[\"pypi\",\"dbcli/litecli\",{\"package\":\"litecli\"}]",
+      "repo": "dbcli/litecli",
+      "package": "litecli",
+      "source": "pypi",
+      "url": "https://pypi.org/project/litecli/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 56300,
+        "90d": 219813,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "csvkit": {
+    "pypi": {
+      "identity": "[\"pypi\",\"wireservice/csvkit\",{\"package\":\"csvkit\"}]",
+      "repo": "wireservice/csvkit",
+      "package": "csvkit",
+      "source": "pypi",
+      "url": "https://pypi.org/project/csvkit/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 274725,
+        "90d": 1096650,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "poetry": {
+    "pypi": {
+      "identity": "[\"pypi\",\"python-poetry/poetry\",{\"package\":\"poetry\"}]",
+      "repo": "python-poetry/poetry",
+      "package": "poetry",
+      "source": "pypi",
+      "url": "https://pypi.org/project/poetry/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 57768745,
+        "90d": 222337645,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "pipx": {
+    "pypi": {
+      "identity": "[\"pypi\",\"pypa/pipx\",{\"package\":\"pipx\"}]",
+      "repo": "pypa/pipx",
+      "package": "pipx",
+      "source": "pypi",
+      "url": "https://pypi.org/project/pipx/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 5043033,
+        "90d": 18730271,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "docling-cli": {
+    "pypi": {
+      "identity": "[\"pypi\",\"docling-project/docling\",{\"package\":\"docling\"}]",
+      "repo": "docling-project/docling",
+      "package": "docling",
+      "source": "pypi",
+      "url": "https://pypi.org/project/docling/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 6379200,
+        "90d": 38626967,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "markitdown": {
+    "pypi": {
+      "identity": "[\"pypi\",\"microsoft/markitdown\",{\"package\":\"markitdown\"}]",
+      "repo": "microsoft/markitdown",
+      "package": "markitdown",
+      "source": "pypi",
+      "url": "https://pypi.org/project/markitdown/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 14614135,
+        "90d": 40323407,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "mkdocs": {
+    "pypi": {
+      "identity": "[\"pypi\",\"mkdocs/mkdocs\",{\"package\":\"mkdocs\"}]",
+      "repo": "mkdocs/mkdocs",
+      "package": "mkdocs",
+      "source": "pypi",
+      "url": "https://pypi.org/project/mkdocs/",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-09",
+      "counts": {
+        "30d": 15573821,
+        "90d": 49421447,
+        "365d": null
+      },
+      "total": null
+    }
+  },
+  "github-cli": {
+    "github": {
+      "identity": "[\"github\",\"cli/cli\",{\"assetPattern\":\"^gh_[0-9][0-9.]*_(?:linux|macOS|windows)_[A-Za-z0-9]+\\\\.(?:tar\\\\.gz|zip|deb|rpm|pkg|msi)$\",\"evidence\":\"https://github.com/cli/cli/releases/latest\"}]",
+      "repo": "cli/cli",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/cli/cli/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 121463698,
+      "assetCount": 3567,
+      "releaseCount": 203
+    }
+  },
+  "ripgrep": {
+    "github": {
+      "identity": "[\"github\",\"burntsushi/ripgrep\",{\"assetPattern\":\"^(?:ripgrep-[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-(?:msvc|gnu)|unknown-linux-[A-Za-z0-9]+)\\\\.(?:tar\\\\.gz|zip)|ripgrep_[0-9][0-9.]*-[0-9]+_[A-Za-z0-9]+\\\\.deb)$\",\"evidence\":\"https://github.com/BurntSushi/ripgrep/releases/latest\"}]",
+      "repo": "BurntSushi/ripgrep",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/BurntSushi/ripgrep/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 46375603,
+      "assetCount": 492,
+      "releaseCount": 63
+    }
+  },
+  "jq": {
+    "github": {
+      "identity": "[\"github\",\"jqlang/jq\",{\"assetPattern\":\"^jq-(?:linux(?:32|64)|osx-amd64|win(?:32|64)\\\\.exe|(?:linux|macos)-[A-Za-z0-9_]+|windows-[A-Za-z0-9_]+\\\\.exe)$\",\"evidence\":\"https://github.com/jqlang/jq/releases/latest\"}]",
+      "repo": "jqlang/jq",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/jqlang/jq/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 280459278,
+      "assetCount": 141,
+      "releaseCount": 9
+    }
+  },
+  "fd": {
+    "github": {
+      "identity": "[\"github\",\"sharkdp/fd\",{\"assetPattern\":\"^fd(?:-v[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-(?:msvc|gnu)|unknown-linux-[A-Za-z0-9]+)\\\\.(?:tar\\\\.gz|zip)|(?:-musl)?_[0-9][0-9.]*_[A-Za-z0-9_-]+\\\\.deb)$\",\"evidence\":\"https://github.com/sharkdp/fd/releases/latest\"}]",
+      "repo": "sharkdp/fd",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/sharkdp/fd/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 8704704,
+      "assetCount": 583,
+      "releaseCount": 36
+    }
+  },
+  "bat": {
+    "github": {
+      "identity": "[\"github\",\"sharkdp/bat\",{\"assetPattern\":\"^bat(?:-v[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-(?:msvc|gnu)|unknown-linux-[A-Za-z0-9]+)\\\\.(?:tar\\\\.gz|zip)|(?:-musl)?_[0-9][0-9.]*_[A-Za-z0-9_-]+\\\\.deb)$\",\"evidence\":\"https://github.com/sharkdp/bat/releases/latest\"}]",
+      "repo": "sharkdp/bat",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/sharkdp/bat/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 3720793,
+      "assetCount": 532,
+      "releaseCount": 43
+    }
+  },
+  "hyperfine": {
+    "github": {
+      "identity": "[\"github\",\"sharkdp/hyperfine\",{\"assetPattern\":\"^hyperfine(?:-v[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-(?:msvc|gnu)|unknown-linux-[A-Za-z0-9]+)\\\\.(?:tar\\\\.gz|zip)|(?:-musl)?_[0-9][0-9.]*_[A-Za-z0-9_-]+\\\\.deb)$\",\"evidence\":\"https://github.com/sharkdp/hyperfine/releases/latest\"}]",
+      "repo": "sharkdp/hyperfine",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/sharkdp/hyperfine/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 2235574,
+      "assetCount": 319,
+      "releaseCount": 25
+    }
+  },
+  "just": {
+    "github": {
+      "identity": "[\"github\",\"casey/just\",{\"assetPattern\":\"^just-[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-msvc|unknown-linux-[A-Za-z0-9]+)\\\\.(?:tar\\\\.gz|zip)$\",\"evidence\":\"https://github.com/casey/just/releases/latest\"}]",
+      "repo": "casey/just",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/casey/just/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 52026681,
+      "assetCount": 652,
+      "releaseCount": 93
+    }
+  },
+  "typst": {
+    "github": {
+      "identity": "[\"github\",\"typst/typst\",{\"assetPattern\":\"^typst-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-msvc|unknown-linux-[A-Za-z0-9]+)\\\\.(?:tar\\\\.xz|zip)$\",\"evidence\":\"https://github.com/typst/typst/releases/latest\"}]",
+      "repo": "typst/typst",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/typst/typst/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 2950271,
+      "assetCount": 132,
+      "releaseCount": 20
+    }
+  },
+  "miniserve": {
+    "github": {
+      "identity": "[\"github\",\"svenstaro/miniserve\",{\"assetPattern\":\"^miniserve-[0-9][0-9.]*-[A-Za-z0-9_]+-(?:apple-darwin|pc-windows-msvc\\\\.exe|unknown-(?:linux-[A-Za-z0-9]+|freebsd|illumos))$\",\"evidence\":\"https://github.com/svenstaro/miniserve/releases/latest\"}]",
+      "repo": "svenstaro/miniserve",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/svenstaro/miniserve/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 2144963,
+      "assetCount": 251,
+      "releaseCount": 18
+    }
+  },
+  "yq": {
+    "github": {
+      "identity": "[\"github\",\"mikefarah/yq\",{\"assetPattern\":\"^yq_(?:darwin|freebsd|linux|netbsd|openbsd|windows)_[a-z0-9]+(?:\\\\.tar\\\\.gz|\\\\.zip|\\\\.exe)?$\",\"evidence\":\"https://github.com/mikefarah/yq/releases/latest\"}]",
+      "repo": "mikefarah/yq",
+      "package": null,
+      "source": "github",
+      "url": "https://github.com/mikefarah/yq/releases",
+      "attemptedAt": "2026-09-10T02:51:25.700Z",
+      "status": "ok",
+      "checkedAt": "2026-09-10T02:51:25.700Z",
+      "end": "2026-09-10",
+      "counts": {
+        "30d": null,
+        "90d": null,
+        "365d": null
+      },
+      "total": 332830607,
+      "assetCount": 6088,
+      "releaseCount": 145
+    }
+  }
+}

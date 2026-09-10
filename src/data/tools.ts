@@ -4,6 +4,11 @@ import sourceList from './cli-source-list.json';
 import homebrewMappings from './homebrew-mappings.json';
 import homebrewSnapshots from './homebrew.json';
 import activity from './activity.json';
+import downloadMappings from './download-mappings.json';
+import downloadSnapshots from './downloads.json';
+import { mappingIdentity, type DownloadSnapshot } from '../lib/downloads.mjs';
+const packageMappings = downloadMappings as Record<string, any>;
+const packageSnapshots = downloadSnapshots as Record<string, Record<string, DownloadSnapshot>>;
 import type { HomebrewMapping, HomebrewSnapshot } from '../lib/homebrew.mjs';
 const brewMappings: Record<string, HomebrewMapping> = homebrewMappings;
 const brewSnapshots = homebrewSnapshots as Record<string, HomebrewSnapshot>;
@@ -16,6 +21,7 @@ export const tools = catalog.map((tool, listedOrder) => {
   const snapshot = brewSnapshots[tool.slug];
   return {
     ...tool,
+    downloads: Object.fromEntries(Object.entries(packageSnapshots[tool.slug] ?? {}).filter(([source, snapshot]) => packageMappings[tool.slug]?.repo === tool.repo && packageMappings[tool.slug]?.[source] && snapshot.identity === mappingIdentity(source, packageMappings[tool.slug]))) as Record<string, DownloadSnapshot>,
     featured: 'featured' in tool && tool.featured === true,
     ...repositories[tool.slug as keyof typeof repositories],
     listedOrder,
