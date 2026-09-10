@@ -3,12 +3,14 @@ import repositories from './repositories.json';
 import sourceList from './cli-source-list.json';
 import homebrewMappings from './homebrew-mappings.json';
 import homebrewSnapshots from './homebrew.json';
+import activity from './activity.json';
 import type { HomebrewMapping, HomebrewSnapshot } from '../lib/homebrew.mjs';
 const brewMappings: Record<string, HomebrewMapping> = homebrewMappings;
 const brewSnapshots = homebrewSnapshots as Record<string, HomebrewSnapshot>;
 export const categories = ['Agents & models', 'Browser automation', 'Git & collaboration', 'Code search', 'Data & APIs', 'Cloud & deployment', 'Packages & environments', 'Testing & quality', 'Files & documents', 'Productivity & communication', 'Security & secrets'];
 const sourceByRepo = new Map(sourceList.map(row => [row.github_url.toLowerCase(), row]));
-export const tools = catalog.map(tool => {
+// Catalog entries are appended when listed; preserve that order for discovery.
+export const tools = catalog.map((tool, listedOrder) => {
   const source = sourceByRepo.get(`https://github.com/${tool.repo}`.toLowerCase());
   const mapping = brewMappings[tool.slug]?.repo === tool.repo ? brewMappings[tool.slug] : null;
   const snapshot = brewSnapshots[tool.slug];
@@ -16,6 +18,8 @@ export const tools = catalog.map(tool => {
     ...tool,
     featured: 'featured' in tool && tool.featured === true,
     ...repositories[tool.slug as keyof typeof repositories],
+    listedOrder,
+    weeklyCommits: activity[tool.slug as keyof typeof activity]?.weeks.at(-1) ?? null,
     logo: `/logos/${tool.slug}.png`,
     sourceListName: source?.cli_name ?? null,
     agentWorkflowSupport: source?.agent_ai_workflow_support ?? null,

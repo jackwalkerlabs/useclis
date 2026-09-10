@@ -139,6 +139,32 @@ test('Every category, all sort options, star header, and Clear filters work', as
   assert.deepEqual(rows(), [...tools].sort((a, b) => b.stars - a.stars).map(tool => tool.name));
 });
 
+test('Discovery links clear filters, sort the full table, and survive reload and history', async () => {
+  const user = userEvent.setup();
+  window.history.replaceState(null, '', '/?q=jq&saved=1');
+  const first = render(h(Directory, { tools }));
+  await user.click(screen.getByRole('link', { name: 'View all recently listed' }));
+  assert.equal(search().value, '');
+  assert.equal(rows().length, tools.length);
+  assert.equal(rows()[0], tools.at(-1).name);
+  assert.equal(window.location.search, '?sort=recent');
+  assert.deepEqual(scrolls, ['directory']);
+  first.unmount();
+  render(h(Directory, { tools }));
+  assert.equal(screen.getByRole('combobox', { name: 'Sort tools' }).value, 'recent');
+  assert.equal(rows()[0], tools.at(-1).name);
+  await user.click(screen.getByRole('link', { name: 'View all most active this week' }));
+  const highest = Math.max(...Object.values(activity).map(snapshot => snapshot.weeks.at(-1)));
+  const topTool = tools.find(tool => tool.name === rows()[0]);
+  assert.equal(activity[topTool.slug].weeks.at(-1), highest);
+  assert.equal(window.location.search, '?sort=active');
+  act(() => {
+    window.history.replaceState(null, '', '/?sort=recent');
+    window.dispatchEvent(new window.PopStateEvent('popstate'));
+  });
+  assert.equal(rows()[0], tools.at(-1).name);
+});
+
 test('All bookmark buttons persist, reload, filter, and remove their own CLI', async () => {
   const user = userEvent.setup();
   const first = render(h(Directory, { tools }));
@@ -209,12 +235,13 @@ test('Every CLI activity chart range shows the corresponding real total', async 
   }
 });
 
-test('Homepage date ranges update table, featured charts, totals, and URL together', async () => {
+test('Homepage date ranges update table, totals, and URL while discovery stays weekly', async () => {
   const user = userEvent.setup();
   const fixtures = tools.filter(tool => ['github-cli', 'ripgrep'].includes(tool.slug));
   render(h(Directory, { tools: fixtures }));
   const select = screen.getByRole('combobox', { name: 'Leaderboard date range' });
   assert.equal(select.value, '30d');
+  const originalDiscovery = document.querySelector('.discovery-section').textContent;
   const originalStars = [...document.querySelectorAll('.table-stars')].map(node => node.textContent);
   for (const [period, count] of [['7d', 2], ['30d', 5], ['3m', 14], ['6m', 27], ['12m', 52], ['all', 52]]) {
     await user.selectOptions(select, period);
@@ -226,13 +253,12 @@ test('Homepage date ranges update table, featured charts, totals, and URL togeth
       assert.equal(row.querySelector('.brew-count').textContent, number(tool.homebrew?.counts['30d']), 'Homebrew keeps its explicitly labeled 30-day window when activity dates change');
       assert.equal(row.querySelector('.table-chart svg').getAttribute('aria-label'), `${tool.name}, weekly commits: ${values.join(', ')}`);
       assert.equal(row.querySelector('.mobile-activity svg').getAttribute('aria-label'), row.querySelector('.table-chart svg').getAttribute('aria-label'));
-      const featured = document.querySelector(`.featured-card[href="/tools/${tool.slug}/"]`);
-      assert.equal(featured.querySelector('.featured-numbers > div:last-child strong').textContent, number(totals[fixtures.indexOf(tool)]));
-      assert.equal(featured.querySelector('svg.sparkline').getAttribute('aria-label'), row.querySelector('.table-chart svg').getAttribute('aria-label'));
     }
     assert.equal(document.querySelector('.useclis-stats > div:last-child strong').textContent, number(totals.reduce((a, b) => a + b, 0)));
     assert.match(document.querySelector('th.activity-column').textContent, new RegExp(period === 'all' ? 'All time' : period));
     assert.deepEqual([...document.querySelectorAll('.table-stars')].map(node => node.textContent), originalStars);
+    assert.equal(document.querySelector('.discovery-section').textContent, originalDiscovery);
+    assert.equal(document.querySelector('.useclis-featured'), null);
   }
 });
 
