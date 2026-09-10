@@ -4,145 +4,6 @@
   "brewOffset": 40,
   "pending": [
     {
-      "repo": "apache/spark",
-      "formula": "apache-spark"
-    },
-    {
-      "repo": "OpenHands/OpenHands"
-    },
-    {
-      "repo": "extension-js/extension.js"
-    },
-    {
-      "repo": "graykode/abtop"
-    },
-    {
-      "repo": "DataDog/pup"
-    },
-    {
-      "repo": "1ay1/agentty"
-    },
-    {
-      "repo": "pawamoy/aria2p"
-    },
-    {
-      "repo": "expo/eas-cli"
-    },
-    {
-      "repo": "Effect-TS/effect"
-    },
-    {
-      "repo": "Infisical/infisical"
-    },
-    {
-      "repo": "tldr-pages/tldr"
-    },
-    {
-      "repo": "supabase/cli"
-    },
-    {
-      "repo": "metalbear-co/mirrord"
-    },
-    {
-      "repo": "bobthecow/psysh"
-    },
-    {
-      "repo": "superdesigndev/treg"
-    },
-    {
-      "repo": "modem-dev/hunk"
-    },
-    {
-      "repo": "fallow-rs/fallow"
-    },
-    {
-      "repo": "Seafoam-Labs/Shelly-ALPM"
-    },
-    {
-      "repo": "harehare/mq"
-    },
-    {
-      "repo": "vinhnx/VTCode"
-    },
-    {
-      "repo": "herdrdev/herdr"
-    },
-    {
-      "repo": "vercel/vercel"
-    },
-    {
-      "repo": "dahlia/optique"
-    },
-    {
-      "repo": "trailhq/Graft"
-    },
-    {
-      "repo": "dotnet/sdk"
-    },
-    {
-      "repo": "yorukot/superfile"
-    },
-    {
-      "repo": "zenbu-labs/terminal-browser"
-    },
-    {
-      "repo": "christopherkarani/Wax"
-    },
-    {
-      "repo": "microsoft/intelligent-terminal"
-    },
-    {
-      "repo": "domainaware/parsedmarc"
-    },
-    {
-      "repo": "railwayapp/cli"
-    },
-    {
-      "repo": "listr2/listr2"
-    },
-    {
-      "repo": "bitwarden/clients"
-    },
-    {
-      "repo": "n8n-io/n8n"
-    },
-    {
-      "repo": "evalstate/fast-agent"
-    },
-    {
-      "repo": "nrwl/nx"
-    },
-    {
-      "repo": "microsoft/BuildXL"
-    },
-    {
-      "repo": "tsirysndr/music-player"
-    },
-    {
-      "repo": "schemathesis/schemathesis"
-    },
-    {
-      "repo": "simple-acme/simple-acme"
-    },
-    {
-      "repo": "Spielewoy/autoprompt-skill"
-    },
-    {
-      "repo": "Shopify/cli"
-    },
-    {
-      "repo": "aquaproj/aqua"
-    },
-    {
-      "repo": "tsedio/tsed"
-    },
-    {
-      "repo": "carapace-sh/carapace-bin"
-    },
-    {
-      "repo": "HelixDB/helix-db"
-    },
-    {
       "repo": "1broseidon/ketch"
     },
     {
@@ -1123,7 +984,261 @@
         },
         "commit": "47f4c5f0238a962c3dec61be291f4deeca5da494"
       }
+    },
+    "apache/spark": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openhands/openhands": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "extension-js/extension.js": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "graykode/abtop": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "datadog/pup": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "1ay1/agentty": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pawamoy/aria2p": {
+      "status": "accepted",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "GitHub stars",
+      "slug": "pawamoy-aria2p",
+      "acceptedAt": "2026-09-10T23:50:32.585Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/pawamoy/aria2p/blob/d232c8e0da7dff2c8887fd40b03725bc138e4804/pyproject.toml",
+          "snippet": "aria2p = \"aria2p:main\"",
+          "target": "src/aria2p/__init__.py"
+        },
+        "installation": {
+          "url": "https://github.com/pawamoy/aria2p/blob/d232c8e0da7dff2c8887fd40b03725bc138e4804/README.md",
+          "snippet": "python3.6 -m pip install aria2p[tui]"
+        },
+        "usage": {
+          "url": "https://github.com/pawamoy/aria2p/blob/d232c8e0da7dff2c8887fd40b03725bc138e4804/README.md",
+          "snippet": "aria2p call pause -P b686cad55029d4df"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/pawamoy/aria2p",
+          "snippet": "Command-line tool and library to interact with an aria2c daemon process with JSON-RPC."
+        },
+        "adoption": {
+          "stars": 570,
+          "githubSource": "https://github.com/pawamoy/aria2p",
+          "homebrew": null
+        },
+        "commit": "d232c8e0da7dff2c8887fd40b03725bc138e4804"
+      }
+    },
+    "expo/eas-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "effect-ts/effect": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "infisical/infisical": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tldr-pages/tldr": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "metalbear-co/mirrord": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bobthecow/psysh": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "superdesigndev/treg": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "modem-dev/hunk": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fallow-rs/fallow": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "seafoam-labs/shelly-alpm": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "harehare/mq": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vinhnx/vtcode": {
+      "status": "accepted",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "GitHub stars",
+      "slug": "vinhnx-vtcode",
+      "acceptedAt": "2026-09-10T23:50:32.585Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/vinhnx/VTCode/blob/9883f173c917c494c7dbe98a86d15cdf5576d074/Cargo.toml",
+          "snippet": "[[bin]] name=\"vtcode\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/vinhnx/VTCode/blob/9883f173c917c494c7dbe98a86d15cdf5576d074/README.md",
+          "snippet": "# or: cargo install vtcode"
+        },
+        "usage": {
+          "url": "https://github.com/vinhnx/VTCode/blob/9883f173c917c494c7dbe98a86d15cdf5576d074/README.md",
+          "snippet": "vtcode models list"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/vinhnx/VTCode",
+          "snippet": "VT Code is an open-source Rust terminal coding agent."
+        },
+        "adoption": {
+          "stars": 838,
+          "githubSource": "https://github.com/vinhnx/VTCode",
+          "homebrew": null
+        },
+        "commit": "9883f173c917c494c7dbe98a86d15cdf5576d074"
+      }
+    },
+    "herdrdev/herdr": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dahlia/optique": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "trailhq/graft": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dotnet/sdk": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "yorukot/superfile": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zenbu-labs/terminal-browser": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "christopherkarani/wax": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/intelligent-terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "domainaware/parsedmarc": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "listr2/listr2": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "evalstate/fast-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nrwl/nx": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/buildxl": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tsirysndr/music-player": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "schemathesis/schemathesis": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "simple-acme/simple-acme": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "spielewoy/autoprompt-skill": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aquaproj/aqua": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tsedio/tsed": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "carapace-sh/carapace-bin": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "helixdb/helix-db": {
+      "status": "held",
+      "checkedAt": "2026-09-10T23:50:32.585Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-10T02:34:48.725Z"
+  "lastRunAt": "2026-09-10T23:50:32.585Z"
 }

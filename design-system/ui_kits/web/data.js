@@ -4618,6 +4618,44 @@ window.USECLIS_DATA = {
       "stars": 773,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-10T11:20:10.299Z"
+    },
+    {
+      "slug": "pawamoy-aria2p",
+      "name": "aria2p",
+      "repo": "pawamoy/aria2p",
+      "category": "Data & APIs",
+      "command": "aria2p",
+      "useCase": "Command-line tool and library to interact with an aria2c daemon process with JSON-RPC.",
+      "description": "Command-line tool and library to interact with an aria2c daemon process with JSON-RPC.",
+      "agentUse": "Invoke aria2p from a shell for the documented use case: Command-line tool and library to interact with an aria2c daemon process with JSON-RPC.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "aria2p call pause -P b686cad55029d4df",
+      "website": "https://github.com/pawamoy/aria2p",
+      "docs": "https://github.com/pawamoy/aria2p/blob/d232c8e0da7dff2c8887fd40b03725bc138e4804/README.md",
+      "stars": 570,
+      "license": "ISC",
+      "checkedAt": "2026-09-10T23:50:53.435Z"
+    },
+    {
+      "slug": "vinhnx-vtcode",
+      "name": "VTCode",
+      "repo": "vinhnx/VTCode",
+      "category": "Agents & models",
+      "command": "vtcode",
+      "useCase": "VT Code is an open-source Rust terminal coding agent.",
+      "description": "VT Code is an open-source Rust terminal coding agent.",
+      "agentUse": "Invoke vtcode from a shell for the documented use case: VT Code is an open-source Rust terminal coding agent.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "vtcode models list",
+      "website": "https://github.com/vinhnx/VTCode",
+      "docs": "https://github.com/vinhnx/VTCode/blob/9883f173c917c494c7dbe98a86d15cdf5576d074/README.md",
+      "stars": 838,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-10T23:50:54.033Z"
     }
   ],
   "categories": [
