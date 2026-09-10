@@ -16,13 +16,12 @@
     "snapshot-stars": "node scripts/snapshot-stars.mjs",
     "refresh": "npm run refresh-data && npm run refresh-activity && npm run snapshot-stars",
     "check:links": "node scripts/check-links.mjs",
-    "build:design-system": "node scripts/build-design-system.mjs"
+    "build:design-system": "node scripts/build-design-system.mjs",
+    "check:design-system": "node scripts/build-design-system.mjs --check && tsc -p design-system/tsconfig.json"
   },
   "dependencies": {
     "@astrojs/react": "^6.0.5",
     "@astrojs/sitemap": "^3.7.4",
-    "@fontsource/geist": "^5.3.0",
-    "@fontsource/geist-mono": "^5.3.0",
     "astro": "^7.3.2",
     "lucide-react": "^1.43.0",
     "react": "^19.3.0",
@@ -44,5 +43,13 @@
   },
   "engines": {
     "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackwalkerlabs/useclis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jackwalkerlabs/useclis/issues"
   }
 }

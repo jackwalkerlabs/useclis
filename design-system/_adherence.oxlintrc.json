@@ -36,8 +36,8 @@
         "message": "Raw px value \u2014 use a design-system spacing token via var()."
       },
       {
-        "selector": "Literal[value=/font-family\\s*:\\s*(?!['\\\"]?(?:Geist|Geist Mono))/i]",
-        "message": "Font not provided by the design system. Available: Geist, Geist Mono."
+        "selector": "Literal[value=/font-family\\s*:\\s*(?!['\\\"]?(?:Inconsolata|ui-monospace))/i]",
+        "message": "Font not provided by the design system. Available: Inconsolata, ui-monospace."
       },
       {
         "selector": "JSXOpeningElement[name.name='Avatar'] > JSXAttribute > JSXIdentifier[name!=/^(?:src|name|size|shape|ring|key|ref|className|style|children)$/]",
@@ -511,8 +511,8 @@
       "--press-scale": "other"
     },
     "fontFamilies": [
-      "Geist",
-      "Geist Mono"
+      "Inconsolata",
+      "ui-monospace"
     ]
   }
 }

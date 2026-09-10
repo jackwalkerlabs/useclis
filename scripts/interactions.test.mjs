@@ -52,20 +52,20 @@ test('Current useclis bookmarks take precedence over legacy bookmarks', () => {
 test('Search, Explore, Enter, clear search, empty results, and Browse all work', async () => {
   const user = userEvent.setup();
   render(h(Directory, { tools }));
-  assert.equal(rows().length, 36);
+  assert.equal(rows().length, tools.length);
   await user.type(search(), 'cli/cli');
-  assert.deepEqual(rows(), ['GitHub CLI']);
+  assert.deepEqual(new Set(rows()), new Set(['GitHub CLI', 'Salesforce CLI (sf)']));
   await user.click(screen.getByRole('button', { name: 'Explore' }));
   assert.deepEqual(scrolls, ['directory']);
   await user.click(search());
   await user.keyboard('{Enter}');
   assert.equal(scrolls.length, 2, 'Enter should submit the search and reach results');
   await user.click(screen.getByRole('button', { name: 'Clear search' }));
-  assert.equal(rows().length, 36);
+  assert.equal(rows().length, tools.length);
   await user.type(search(), 'no-such-cli-928273');
   assert.ok(screen.getByRole('heading', { name: 'No CLIs found' }));
   await user.click(screen.getByRole('button', { name: 'Browse all CLIs' }));
-  assert.equal(rows().length, 36);
+  assert.equal(rows().length, tools.length);
 });
 
 test('Every category, all sort options, star header, and Clear filters work', async () => {
@@ -85,14 +85,14 @@ test('Every category, all sort options, star header, and Clear filters work', as
   assert.deepEqual(rows(), [...tools].sort((a, b) => b.stars - a.stars).map(tool => tool.name));
 });
 
-test('All 36 bookmark buttons persist, reload, filter, and remove their own CLI', async () => {
+test('All bookmark buttons persist, reload, filter, and remove their own CLI', async () => {
   const user = userEvent.setup();
   const first = render(h(Directory, { tools }));
   for (const tool of tools) {
     await user.click(screen.getByRole('button', { name: `Save ${tool.name}`, exact: true }));
     assert.equal(screen.getByRole('button', { name: `Unsave ${tool.name}`, exact: true }).getAttribute('aria-pressed'), 'true');
   }
-  assert.equal(JSON.parse(localStorage.getItem('useclis-saved')).length, 36);
+  assert.equal(JSON.parse(localStorage.getItem('useclis-saved')).length, tools.length);
   first.unmount();
   window.history.replaceState(null, '', '/?saved=1');
   render(h(Directory, { tools }));
@@ -177,7 +177,7 @@ test('Activity supports tap, keyboard, blur, and changing range after inspection
 test('Stars keep pending history honest and inspect recorded points by touch and keyboard', () => {
   const props = { total: 110, points: [{ date: '2026-09-09', stars: 110 }], repo: 'example/cli', license: null, checkedAt: '2026-09-09' };
   const view = render(h(StarsPanel, props));
-  assert.ok(screen.getByText('Star history starts today'));
+  assert.ok(screen.getByText('Star history starts Sep 9'));
   assert.equal(screen.queryByRole('img'), null);
   view.rerender(h(StarsPanel, { ...props, points: [{ date: '2026-09-08', stars: 100 }, ...props.points] }));
   const chart = screen.getByRole('img');
@@ -207,4 +207,33 @@ test('Every copy button copies its exact command; denied clipboard selects text 
   await user.click(screen.getByRole('button', { name: 'Copy example command' }));
   assert.equal(window.getSelection().toString(), 'gh repo view cli/cli --json name');
   assert.equal(screen.getByRole('status').textContent, 'Select and copy the command');
+});
+
+test('Submission modal preserves details when closed and validates repository URLs', async () => {
+  const { default: SubmitCLI } = await import('../src/components/SubmitCLI.tsx');
+  Object.defineProperty(window.HTMLDialogElement.prototype, 'showModal', { configurable: true, value: function () { this.setAttribute('open', ''); } });
+  Object.defineProperty(window.HTMLDialogElement.prototype, 'close', { configurable: true, value: function () { this.removeAttribute('open'); } });
+  const previousFormData = globalThis.FormData;
+  globalThis.FormData = window.FormData;
+  try {
+    const user = userEvent.setup();
+    render(h(SubmitCLI));
+    const trigger = screen.getByRole('button', { name: 'Submit your CLI' });
+    await user.click(trigger);
+    assert.equal(document.body.style.overflow, 'hidden');
+    const repo = screen.getByLabelText('1. GitHub repository');
+    await user.type(repo, 'https://example.com/owner/cli');
+    fireEvent.submit(document.querySelector('.submission-form'));
+    assert.match(repo.validationMessage, /Enter a GitHub repository URL/);
+    await user.clear(repo);
+    await user.type(repo, 'https://github.com/owner/cli');
+    assert.equal(repo.validationMessage, '');
+    await user.click(screen.getByRole('button', { name: 'Close submission' }));
+    assert.equal(document.body.style.overflow, '');
+    assert.equal(document.activeElement, trigger);
+    await user.click(trigger);
+    assert.equal(screen.getByLabelText('1. GitHub repository').value, 'https://github.com/owner/cli');
+    fireEvent(document.querySelector('dialog'), new window.Event('cancel', { cancelable: true }));
+    assert.equal(document.querySelector('dialog').open, false);
+  } finally { globalThis.FormData = previousFormData; }
 });

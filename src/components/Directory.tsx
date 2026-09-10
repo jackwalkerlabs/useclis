@@ -40,7 +40,7 @@ export default function Directory({ tools }: { tools: Tool[] }) {
       }
     } catch {}
     setHydrated(true);
-    const onKey = (event: KeyboardEvent) => { if (event.key === '/' && !event.metaKey && !event.ctrlKey && !event.altKey && !['INPUT', 'TEXTAREA', 'SELECT'].includes((event.target as HTMLElement).tagName) && !(event.target as HTMLElement).isContentEditable) { event.preventDefault(); input.current?.focus(); } };
+    const onKey = (event: KeyboardEvent) => { if (!document.querySelector('dialog[open]') && event.key === '/' && !event.metaKey && !event.ctrlKey && !event.altKey && !['INPUT', 'TEXTAREA', 'SELECT'].includes((event.target as HTMLElement).tagName) && !(event.target as HTMLElement).isContentEditable) { event.preventDefault(); input.current?.focus(); } };
     window.addEventListener('keydown', onKey);
     window.addEventListener('popstate', restoreFilters);
     return () => { window.removeEventListener('keydown', onKey); window.removeEventListener('popstate', restoreFilters); };

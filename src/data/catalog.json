@@ -682,5 +682,1506 @@
     "featured": false,
     "website": "https://github.com/charmbracelet/glow#readme",
     "docs": "https://github.com/charmbracelet/glow#readme"
+  },
+  {
+    "slug": "firecrawl-cli",
+    "name": "Firecrawl CLI",
+    "repo": "firecrawl/cli",
+    "category": "Browser automation",
+    "command": "firecrawl",
+    "useCase": "Web content extraction",
+    "description": "Search, scrape, crawl, and extract web content.",
+    "agentUse": "Use firecrawl to search, scrape, crawl, and extract web content.",
+    "features": [
+      "Web search",
+      "Website crawling",
+      "Content extraction"
+    ],
+    "example": "firecrawl scrape https://example.com",
+    "featured": false,
+    "website": "https://github.com/firecrawl/cli#readme",
+    "docs": "https://github.com/firecrawl/cli#readme"
+  },
+  {
+    "slug": "peekaboo",
+    "name": "Peekaboo",
+    "repo": "openclaw/Peekaboo",
+    "category": "Productivity & communication",
+    "command": "peekaboo",
+    "useCase": "Native macOS automation",
+    "description": "Inspect and control native macOS applications.",
+    "agentUse": "Use peekaboo to inspect and control native macOS applications.",
+    "features": [
+      "Screenshots",
+      "Accessibility inspection",
+      "Application control"
+    ],
+    "example": "peekaboo see --app Finder --json",
+    "featured": false,
+    "website": "https://github.com/openclaw/Peekaboo#readme",
+    "docs": "https://github.com/openclaw/Peekaboo#readme"
+  },
+  {
+    "slug": "qmd",
+    "name": "QMD",
+    "repo": "tobi/qmd",
+    "category": "Files & documents",
+    "command": "qmd",
+    "useCase": "Search local knowledge",
+    "description": "Search local documents with keyword and semantic search.",
+    "agentUse": "Use qmd to search local documents with keyword and semantic search.",
+    "features": [
+      "Keyword search",
+      "Semantic search",
+      "Document collections"
+    ],
+    "example": "qmd search \"authentication\" --json -n 10",
+    "featured": false,
+    "website": "https://github.com/tobi/qmd#readme",
+    "docs": "https://github.com/tobi/qmd#readme"
+  },
+  {
+    "slug": "mcporter",
+    "name": "MCPorter",
+    "repo": "openclaw/mcporter",
+    "category": "Data & APIs",
+    "command": "mcporter",
+    "useCase": "MCP tool access",
+    "description": "Call MCP tools from the terminal and generate CLIs.",
+    "agentUse": "Use mcporter to call MCP tools from the terminal and generate CLIs.",
+    "features": [
+      "Server discovery",
+      "MCP tool calls",
+      "CLI generation"
+    ],
+    "example": "mcporter list",
+    "featured": false,
+    "website": "https://github.com/openclaw/mcporter#readme",
+    "docs": "https://github.com/openclaw/mcporter#readme"
+  },
+  {
+    "slug": "repomix",
+    "name": "Repomix",
+    "repo": "yamadashy/repomix",
+    "category": "Files & documents",
+    "command": "repomix",
+    "useCase": "Repository context packaging",
+    "description": "Package repositories into files for LLM context.",
+    "agentUse": "Use repomix to package repositories into files for LLM context.",
+    "features": [
+      "Repository packing",
+      "LLM context",
+      "File filtering"
+    ],
+    "example": "repomix --help",
+    "featured": false,
+    "website": "https://github.com/yamadashy/repomix#readme",
+    "docs": "https://github.com/yamadashy/repomix#readme"
+  },
+  {
+    "slug": "summarize",
+    "name": "Summarize",
+    "repo": "steipete/summarize",
+    "category": "Files & documents",
+    "command": "summarize",
+    "useCase": "Summarize source material",
+    "description": "Extract and summarize webpages, videos, podcasts, and files.",
+    "agentUse": "Use summarize to extract and summarize webpages, videos, podcasts, and files.",
+    "features": [
+      "Webpage extraction",
+      "Media transcripts",
+      "File summaries"
+    ],
+    "example": "summarize \"https://example.com\" --extract --plain",
+    "featured": false,
+    "website": "https://github.com/steipete/summarize#readme",
+    "docs": "https://github.com/steipete/summarize#readme"
+  },
+  {
+    "slug": "shot-scraper",
+    "name": "shot-scraper",
+    "repo": "simonw/shot-scraper",
+    "category": "Browser automation",
+    "command": "shot-scraper",
+    "useCase": "Website capture and scraping",
+    "description": "Capture website screenshots and scrape using JavaScript.",
+    "agentUse": "Use shot-scraper to capture website screenshots and scrape using JavaScript.",
+    "features": [
+      "Screenshots",
+      "JavaScript scraping",
+      "Browser automation"
+    ],
+    "example": "shot-scraper https://example.com/",
+    "featured": false,
+    "website": "https://github.com/simonw/shot-scraper#readme",
+    "docs": "https://github.com/simonw/shot-scraper#readme"
+  },
+  {
+    "slug": "google-workspace-cli",
+    "name": "Google Workspace CLI (gws)",
+    "repo": "googleworkspace/cli",
+    "category": "Productivity & communication",
+    "command": "gws",
+    "useCase": "Google Workspace automation",
+    "description": "Operate Gmail, Drive, Calendar, Docs, and Sheets.",
+    "agentUse": "Use gws to operate Gmail, Drive, Calendar, Docs, and Sheets.",
+    "features": [
+      "Gmail and Calendar",
+      "Drive and Docs",
+      "Sheets API"
+    ],
+    "example": "gws drive files list --params '{\"pageSize\": 5}'",
+    "featured": false,
+    "website": "https://github.com/googleworkspace/cli#readme",
+    "docs": "https://github.com/googleworkspace/cli#readme"
+  },
+  {
+    "slug": "gogcli",
+    "name": "gogcli (gog)",
+    "repo": "openclaw/gogcli",
+    "category": "Productivity & communication",
+    "command": "gog",
+    "useCase": "Google account workflows",
+    "description": "Manage Google services with structured output and account routing.",
+    "agentUse": "Use gog to manage Google services with structured output and account routing.",
+    "features": [
+      "Account routing",
+      "Structured output",
+      "Google services"
+    ],
+    "example": "gog --readonly gmail search 'is:unread newer_than:7d' --max 10 --json",
+    "featured": false,
+    "website": "https://github.com/openclaw/gogcli#readme",
+    "docs": "https://github.com/openclaw/gogcli#readme"
+  },
+  {
+    "slug": "linear-cli",
+    "name": "Linear CLI",
+    "repo": "schpet/linear-cli",
+    "category": "Git & collaboration",
+    "command": "linear",
+    "useCase": "Linear issue workflows",
+    "description": "Manage Linear issues and associated development workflows.",
+    "agentUse": "Use linear to manage Linear issues and associated development workflows.",
+    "features": [
+      "Issue search",
+      "Status updates",
+      "Branch workflows"
+    ],
+    "example": "linear issue query --search \"login bug\"",
+    "featured": false,
+    "website": "https://github.com/schpet/linear-cli#readme",
+    "docs": "https://github.com/schpet/linear-cli#readme"
+  },
+  {
+    "slug": "beads",
+    "name": "Beads (bd)",
+    "repo": "gastownhall/beads",
+    "category": "Git & collaboration",
+    "command": "bd",
+    "useCase": "Task dependency tracking",
+    "description": "Track tasks, dependencies, blockers, and project memory.",
+    "agentUse": "Use bd to track tasks, dependencies, blockers, and project memory.",
+    "features": [
+      "Task tracking",
+      "Dependency graphs",
+      "Project memory"
+    ],
+    "example": "bd ready --json",
+    "featured": false,
+    "website": "https://github.com/gastownhall/beads#readme",
+    "docs": "https://github.com/gastownhall/beads#readme"
+  },
+  {
+    "slug": "himalaya",
+    "name": "Himalaya",
+    "repo": "pimalaya/himalaya",
+    "category": "Productivity & communication",
+    "command": "himalaya",
+    "useCase": "Email workflows",
+    "description": "Read, search, organize, and send email.",
+    "agentUse": "Use himalaya to read, search, organize, and send email.",
+    "features": [
+      "Mailbox search",
+      "Message organization",
+      "Email sending"
+    ],
+    "example": "himalaya envelope list --page 2",
+    "featured": false,
+    "website": "https://github.com/pimalaya/himalaya#readme",
+    "docs": "https://github.com/pimalaya/himalaya#readme"
+  },
+  {
+    "slug": "remindctl",
+    "name": "remindctl",
+    "repo": "openclaw/remindctl",
+    "category": "Productivity & communication",
+    "command": "remindctl",
+    "useCase": "Apple Reminders workflows",
+    "description": "Create, search, update, and complete Apple Reminders.",
+    "agentUse": "Use remindctl to create, search, update, and complete Apple Reminders.",
+    "features": [
+      "Reminder search",
+      "Due dates",
+      "Task completion"
+    ],
+    "example": "remindctl search \"project\" --completed --json",
+    "featured": false,
+    "website": "https://github.com/openclaw/remindctl#readme",
+    "docs": "https://github.com/openclaw/remindctl#readme"
+  },
+  {
+    "slug": "imsg",
+    "name": "imsg",
+    "repo": "openclaw/imsg",
+    "category": "Productivity & communication",
+    "command": "imsg",
+    "useCase": "Apple Messages access",
+    "description": "Read and send messages through Apple Messages.",
+    "agentUse": "Use imsg to read and send messages through Apple Messages.",
+    "features": [
+      "Chat history",
+      "Message watching",
+      "Message sending"
+    ],
+    "example": "imsg chats --limit 10 --json",
+    "featured": false,
+    "website": "https://github.com/openclaw/imsg#readme",
+    "docs": "https://github.com/openclaw/imsg#readme"
+  },
+  {
+    "slug": "wacli",
+    "name": "wacli",
+    "repo": "openclaw/wacli",
+    "category": "Productivity & communication",
+    "command": "wacli",
+    "useCase": "WhatsApp workflows",
+    "description": "Synchronize, search, and send WhatsApp messages.",
+    "agentUse": "Use wacli to synchronize, search, and send WhatsApp messages.",
+    "features": [
+      "Message synchronization",
+      "Message search",
+      "Message sending"
+    ],
+    "example": "wacli --read-only --json messages search \"invoice\"",
+    "featured": false,
+    "website": "https://github.com/openclaw/wacli#readme",
+    "docs": "https://github.com/openclaw/wacli#readme"
+  },
+  {
+    "slug": "sonoscli",
+    "name": "sonoscli",
+    "repo": "steipete/sonoscli",
+    "category": "Productivity & communication",
+    "command": "sonos",
+    "useCase": "Sonos playback control",
+    "description": "Control Sonos speakers and playback.",
+    "agentUse": "Use sonos to control Sonos speakers and playback.",
+    "features": [
+      "Speaker discovery",
+      "Playback control",
+      "Speaker grouping"
+    ],
+    "example": "sonos --help",
+    "featured": false,
+    "website": "https://github.com/steipete/sonoscli#readme",
+    "docs": "https://github.com/steipete/sonoscli#readme"
+  },
+  {
+    "slug": "goplaces",
+    "name": "goplaces",
+    "repo": "openclaw/goplaces",
+    "category": "Data & APIs",
+    "command": "goplaces",
+    "useCase": "Google Places lookup",
+    "description": "Search places and retrieve Google Places information.",
+    "agentUse": "Use goplaces to search places and retrieve Google Places information.",
+    "features": [
+      "Place search",
+      "Place details",
+      "JSON output"
+    ],
+    "example": "goplaces search \"coffee near Central Park\" --limit 5 --json",
+    "featured": false,
+    "website": "https://github.com/openclaw/goplaces#readme",
+    "docs": "https://github.com/openclaw/goplaces#readme"
+  },
+  {
+    "slug": "railway-cli",
+    "name": "Railway CLI",
+    "repo": "railwayapp/cli",
+    "category": "Cloud & deployment",
+    "command": "railway",
+    "useCase": "Railway service operations",
+    "description": "Operate Railway projects and services.",
+    "agentUse": "Use railway to operate Railway projects and services.",
+    "features": [
+      "Project management",
+      "Service deployment",
+      "Deployment logs"
+    ],
+    "example": "railway --help",
+    "featured": false,
+    "website": "https://github.com/railwayapp/cli#readme",
+    "docs": "https://github.com/railwayapp/cli#readme"
+  },
+  {
+    "slug": "aws-cli",
+    "name": "AWS CLI",
+    "repo": "aws/aws-cli",
+    "category": "Cloud & deployment",
+    "command": "aws",
+    "useCase": "AWS resource management",
+    "description": "Manage AWS compute, storage, networking, and other services.",
+    "agentUse": "Use aws to manage AWS compute, storage, networking, and other services.",
+    "features": [
+      "Compute resources",
+      "Object storage",
+      "Service APIs"
+    ],
+    "example": "aws --version",
+    "featured": false,
+    "website": "https://github.com/aws/aws-cli#readme",
+    "docs": "https://github.com/aws/aws-cli#readme"
+  },
+  {
+    "slug": "azure-cli",
+    "name": "Azure CLI",
+    "repo": "Azure/azure-cli",
+    "category": "Cloud & deployment",
+    "command": "az",
+    "useCase": "Azure resource management",
+    "description": "Create and manage Azure resources.",
+    "agentUse": "Use az to create and manage Azure resources.",
+    "features": [
+      "Resource groups",
+      "Cloud services",
+      "Account management"
+    ],
+    "example": "az --help",
+    "featured": false,
+    "website": "https://github.com/Azure/azure-cli#readme",
+    "docs": "https://github.com/Azure/azure-cli#readme"
+  },
+  {
+    "slug": "doctl",
+    "name": "DigitalOcean (doctl)",
+    "repo": "digitalocean/doctl",
+    "category": "Cloud & deployment",
+    "command": "doctl",
+    "useCase": "DigitalOcean operations",
+    "description": "Manage droplets, databases, Kubernetes, and other resources.",
+    "agentUse": "Use doctl to manage droplets, databases, Kubernetes, and other resources.",
+    "features": [
+      "Droplets",
+      "Managed databases",
+      "Kubernetes clusters"
+    ],
+    "example": "doctl --help",
+    "featured": false,
+    "website": "https://github.com/digitalocean/doctl#readme",
+    "docs": "https://github.com/digitalocean/doctl#readme"
+  },
+  {
+    "slug": "hcloud",
+    "name": "Hetzner Cloud (hcloud)",
+    "repo": "hetznercloud/cli",
+    "category": "Cloud & deployment",
+    "command": "hcloud",
+    "useCase": "Hetzner Cloud operations",
+    "description": "Manage cloud servers, networks, volumes, and load balancers.",
+    "agentUse": "Use hcloud to manage cloud servers, networks, volumes, and load balancers.",
+    "features": [
+      "Cloud servers",
+      "Networks and volumes",
+      "Load balancers"
+    ],
+    "example": "hcloud --help",
+    "featured": false,
+    "website": "https://github.com/hetznercloud/cli#readme",
+    "docs": "https://github.com/hetznercloud/cli#readme"
+  },
+  {
+    "slug": "scaleway-cli",
+    "name": "Scaleway CLI",
+    "repo": "scaleway/scaleway-cli",
+    "category": "Cloud & deployment",
+    "command": "scw",
+    "useCase": "Scaleway resource management",
+    "description": "Manage Scaleway cloud resources.",
+    "agentUse": "Use scw to manage Scaleway cloud resources.",
+    "features": [
+      "Compute instances",
+      "Cloud resources",
+      "Resource listing"
+    ],
+    "example": "scw instance server list",
+    "featured": false,
+    "website": "https://github.com/scaleway/scaleway-cli#readme",
+    "docs": "https://github.com/scaleway/scaleway-cli#readme"
+  },
+  {
+    "slug": "linode-cli",
+    "name": "Linode CLI",
+    "repo": "linode/linode-cli",
+    "category": "Cloud & deployment",
+    "command": "linode-cli",
+    "useCase": "Linode infrastructure operations",
+    "description": "Operate Linode infrastructure through its API.",
+    "agentUse": "Use linode-cli to operate Linode infrastructure through its API.",
+    "features": [
+      "Compute instances",
+      "API access",
+      "Resource management"
+    ],
+    "example": "linode-cli --help",
+    "featured": false,
+    "website": "https://github.com/linode/linode-cli#readme",
+    "docs": "https://github.com/linode/linode-cli#readme"
+  },
+  {
+    "slug": "ovhcloud-cli",
+    "name": "OVHcloud CLI",
+    "repo": "ovh/ovhcloud-cli",
+    "category": "Cloud & deployment",
+    "command": "ovhcloud",
+    "useCase": "OVHcloud service operations",
+    "description": "Manage OVHcloud services.",
+    "agentUse": "Use ovhcloud to manage OVHcloud services.",
+    "features": [
+      "Cloud services",
+      "Resource management",
+      "Service APIs"
+    ],
+    "example": "ovhcloud --help",
+    "featured": false,
+    "website": "https://github.com/ovh/ovhcloud-cli#readme",
+    "docs": "https://github.com/ovh/ovhcloud-cli#readme"
+  },
+  {
+    "slug": "netlify-cli",
+    "name": "Netlify CLI",
+    "repo": "netlify/cli",
+    "category": "Cloud & deployment",
+    "command": "netlify",
+    "useCase": "Netlify development and deployment",
+    "description": "Develop locally and deploy Netlify sites.",
+    "agentUse": "Use netlify to develop locally and deploy Netlify sites.",
+    "features": [
+      "Local development",
+      "Site deployments",
+      "Project management"
+    ],
+    "example": "netlify --help",
+    "featured": false,
+    "website": "https://github.com/netlify/cli#readme",
+    "docs": "https://github.com/netlify/cli#readme"
+  },
+  {
+    "slug": "render-cli",
+    "name": "Render CLI",
+    "repo": "render-oss/cli",
+    "category": "Cloud & deployment",
+    "command": "render",
+    "useCase": "Render service operations",
+    "description": "Manage Render services and deployments.",
+    "agentUse": "Use render to manage Render services and deployments.",
+    "features": [
+      "Service management",
+      "Deployments",
+      "Logs"
+    ],
+    "example": "render --help",
+    "featured": false,
+    "website": "https://github.com/render-oss/cli#readme",
+    "docs": "https://render.com/docs/cli"
+  },
+  {
+    "slug": "firebase-cli",
+    "name": "Firebase CLI",
+    "repo": "firebase/firebase-tools",
+    "category": "Cloud & deployment",
+    "command": "firebase",
+    "useCase": "Firebase project workflows",
+    "description": "Deploy Firebase projects and run local emulators.",
+    "agentUse": "Use firebase to deploy Firebase projects and run local emulators.",
+    "features": [
+      "Project deployment",
+      "Local emulators",
+      "Firebase services"
+    ],
+    "example": "firebase --help",
+    "featured": false,
+    "website": "https://github.com/firebase/firebase-tools#readme",
+    "docs": "https://github.com/firebase/firebase-tools#readme"
+  },
+  {
+    "slug": "neonctl",
+    "name": "Neon CLI (neonctl)",
+    "repo": "neondatabase/neonctl",
+    "category": "Data & APIs",
+    "command": "neonctl",
+    "useCase": "Postgres database branching",
+    "description": "Manage Postgres projects and database branches.",
+    "agentUse": "Use neonctl to manage Postgres projects and database branches.",
+    "features": [
+      "Project management",
+      "Database branches",
+      "Connection strings"
+    ],
+    "example": "neonctl projects list",
+    "featured": false,
+    "website": "https://github.com/neondatabase/neonctl#readme",
+    "docs": "https://github.com/neondatabase/neonctl#readme"
+  },
+  {
+    "slug": "ecctl",
+    "name": "Elastic Cloud (ecctl)",
+    "repo": "elastic/ecctl",
+    "category": "Cloud & deployment",
+    "command": "ecctl",
+    "useCase": "Elastic Cloud operations",
+    "description": "Operate Elastic Cloud deployments through its APIs.",
+    "agentUse": "Use ecctl to operate Elastic Cloud deployments through its APIs.",
+    "features": [
+      "Deployment management",
+      "Cloud API access",
+      "Resource inspection"
+    ],
+    "example": "ecctl --help",
+    "featured": false,
+    "website": "https://github.com/elastic/ecctl#readme",
+    "docs": "https://github.com/elastic/ecctl#readme"
+  },
+  {
+    "slug": "stripe-cli",
+    "name": "Stripe CLI",
+    "repo": "stripe/stripe-cli",
+    "category": "Data & APIs",
+    "command": "stripe",
+    "useCase": "Stripe API development",
+    "description": "Manage API objects, test webhooks, inspect request logs.",
+    "agentUse": "Use stripe to manage API objects, test webhooks, inspect request logs.",
+    "features": [
+      "API objects",
+      "Webhook testing",
+      "Request logs"
+    ],
+    "example": "stripe --help",
+    "featured": false,
+    "website": "https://github.com/stripe/stripe-cli#readme",
+    "docs": "https://github.com/stripe/stripe-cli#readme"
+  },
+  {
+    "slug": "wp-cli",
+    "name": "WP-CLI",
+    "repo": "wp-cli/wp-cli",
+    "category": "Data & APIs",
+    "command": "wp",
+    "useCase": "WordPress administration",
+    "description": "Manage WordPress content, plugins, users, and configuration.",
+    "agentUse": "Use wp to manage WordPress content, plugins, users, and configuration.",
+    "features": [
+      "Content management",
+      "Plugin management",
+      "User administration"
+    ],
+    "example": "wp help",
+    "featured": false,
+    "website": "https://github.com/wp-cli/wp-cli#readme",
+    "docs": "https://github.com/wp-cli/wp-cli#readme"
+  },
+  {
+    "slug": "shopify-cli",
+    "name": "Shopify CLI",
+    "repo": "Shopify/cli",
+    "category": "Cloud & deployment",
+    "command": "shopify",
+    "useCase": "Shopify development",
+    "description": "Build and deploy Shopify apps, themes, and storefronts.",
+    "agentUse": "Use shopify to build and deploy Shopify apps, themes, and storefronts.",
+    "features": [
+      "App development",
+      "Theme workflows",
+      "Storefront deployment"
+    ],
+    "example": "shopify --help",
+    "featured": false,
+    "website": "https://github.com/Shopify/cli#readme",
+    "docs": "https://github.com/Shopify/cli#readme"
+  },
+  {
+    "slug": "salesforce-cli",
+    "name": "Salesforce CLI (sf)",
+    "repo": "salesforcecli/cli",
+    "category": "Cloud & deployment",
+    "command": "sf",
+    "useCase": "Salesforce development",
+    "description": "Develop, test, and deploy Salesforce projects.",
+    "agentUse": "Use sf to develop, test, and deploy Salesforce projects.",
+    "features": [
+      "Project development",
+      "Test execution",
+      "Deployment workflows"
+    ],
+    "example": "sf --help",
+    "featured": false,
+    "website": "https://github.com/salesforcecli/cli#readme",
+    "docs": "https://github.com/salesforcecli/cli#readme"
+  },
+  {
+    "slug": "microsoft-365-cli",
+    "name": "CLI for Microsoft 365",
+    "repo": "pnp/cli-microsoft365",
+    "category": "Productivity & communication",
+    "command": "m365",
+    "useCase": "Microsoft 365 administration",
+    "description": "Manage Microsoft 365 and SharePoint resources.",
+    "agentUse": "Use m365 to manage Microsoft 365 and SharePoint resources.",
+    "features": [
+      "SharePoint sites",
+      "Microsoft 365 resources",
+      "Structured output"
+    ],
+    "example": "m365 spo site get --help",
+    "featured": false,
+    "website": "https://github.com/pnp/cli-microsoft365#readme",
+    "docs": "https://github.com/pnp/cli-microsoft365#readme"
+  },
+  {
+    "slug": "twilio-cli",
+    "name": "Twilio CLI",
+    "repo": "twilio/twilio-cli",
+    "category": "Data & APIs",
+    "command": "twilio",
+    "useCase": "Twilio API workflows",
+    "description": "Operate Twilio APIs and communications resources.",
+    "agentUse": "Use twilio to operate Twilio APIs and communications resources.",
+    "features": [
+      "API access",
+      "Communications resources",
+      "Account workflows"
+    ],
+    "example": "twilio --help",
+    "featured": false,
+    "website": "https://github.com/twilio/twilio-cli#readme",
+    "docs": "https://github.com/twilio/twilio-cli#readme"
+  },
+  {
+    "slug": "algolia-cli",
+    "name": "Algolia CLI",
+    "repo": "algolia/cli",
+    "category": "Data & APIs",
+    "command": "algolia",
+    "useCase": "Search index management",
+    "description": "Manage search indices, records, and configuration.",
+    "agentUse": "Use algolia to manage search indices, records, and configuration.",
+    "features": [
+      "Search indices",
+      "Record management",
+      "Index configuration"
+    ],
+    "example": "algolia --help",
+    "featured": false,
+    "website": "https://github.com/algolia/cli#readme",
+    "docs": "https://github.com/algolia/cli#readme"
+  },
+  {
+    "slug": "contentful-cli",
+    "name": "Contentful CLI",
+    "repo": "contentful/contentful-cli",
+    "category": "Data & APIs",
+    "command": "contentful",
+    "useCase": "Contentful content operations",
+    "description": "Manage spaces and import, export, or migrate content.",
+    "agentUse": "Use contentful to manage spaces and import, export, or migrate content.",
+    "features": [
+      "Space management",
+      "Content import and export",
+      "Content migration"
+    ],
+    "example": "contentful space --help",
+    "featured": false,
+    "website": "https://github.com/contentful/contentful-cli#readme",
+    "docs": "https://github.com/contentful/contentful-cli#readme"
+  },
+  {
+    "slug": "sanity-cli",
+    "name": "Sanity CLI",
+    "repo": "sanity-io/cli",
+    "category": "Data & APIs",
+    "command": "sanity",
+    "useCase": "Sanity project management",
+    "description": "Manage datasets, validate schemas, and deploy projects.",
+    "agentUse": "Use sanity to manage datasets, validate schemas, and deploy projects.",
+    "features": [
+      "Dataset management",
+      "Schema validation",
+      "Project deployment"
+    ],
+    "example": "sanity --help",
+    "featured": false,
+    "website": "https://github.com/sanity-io/cli#readme",
+    "docs": "https://github.com/sanity-io/cli#readme"
+  },
+  {
+    "slug": "podman",
+    "name": "Podman",
+    "repo": "podman-container-tools/podman",
+    "category": "Cloud & deployment",
+    "command": "podman",
+    "useCase": "Container and pod management",
+    "description": "Build and manage containers and pods.",
+    "agentUse": "Use podman to build and manage containers and pods.",
+    "features": [
+      "Container images",
+      "Container execution",
+      "Pod management"
+    ],
+    "example": "podman --help",
+    "featured": false,
+    "website": "https://github.com/podman-container-tools/podman#readme",
+    "docs": "https://github.com/podman-container-tools/podman#readme"
+  },
+  {
+    "slug": "helm",
+    "name": "Helm",
+    "repo": "helm/helm",
+    "category": "Cloud & deployment",
+    "command": "helm",
+    "useCase": "Kubernetes package management",
+    "description": "Install, upgrade, and manage Kubernetes applications.",
+    "agentUse": "Use helm to install, upgrade, and manage Kubernetes applications.",
+    "features": [
+      "Chart installation",
+      "Release upgrades",
+      "Application management"
+    ],
+    "example": "helm --help",
+    "featured": false,
+    "website": "https://github.com/helm/helm#readme",
+    "docs": "https://github.com/helm/helm#readme"
+  },
+  {
+    "slug": "opentofu",
+    "name": "OpenTofu",
+    "repo": "opentofu/opentofu",
+    "category": "Cloud & deployment",
+    "command": "tofu",
+    "useCase": "Infrastructure provisioning",
+    "description": "Plan and provision infrastructure from configuration.",
+    "agentUse": "Use tofu to plan and provision infrastructure from configuration.",
+    "features": [
+      "Infrastructure plans",
+      "Resource provisioning",
+      "Configuration workflows"
+    ],
+    "example": "tofu --help",
+    "featured": false,
+    "website": "https://github.com/opentofu/opentofu#readme",
+    "docs": "https://github.com/opentofu/opentofu#readme"
+  },
+  {
+    "slug": "pulumi",
+    "name": "Pulumi",
+    "repo": "pulumi/pulumi",
+    "category": "Cloud & deployment",
+    "command": "pulumi",
+    "useCase": "Infrastructure as code",
+    "description": "Provision infrastructure using programming languages.",
+    "agentUse": "Use pulumi to provision infrastructure using programming languages.",
+    "features": [
+      "Programming language support",
+      "Infrastructure previews",
+      "Resource provisioning"
+    ],
+    "example": "pulumi --help",
+    "featured": false,
+    "website": "https://github.com/pulumi/pulumi#readme",
+    "docs": "https://github.com/pulumi/pulumi#readme"
+  },
+  {
+    "slug": "ansible",
+    "name": "Ansible",
+    "repo": "ansible/ansible",
+    "category": "Cloud & deployment",
+    "command": "ansible",
+    "useCase": "Server configuration automation",
+    "description": "Configure servers and execute deployment playbooks.",
+    "agentUse": "Use ansible to configure servers and execute deployment playbooks.",
+    "features": [
+      "Server configuration",
+      "Inventory management",
+      "Deployment playbooks"
+    ],
+    "example": "ansible --help",
+    "featured": false,
+    "website": "https://github.com/ansible/ansible#readme",
+    "docs": "https://github.com/ansible/ansible#readme"
+  },
+  {
+    "slug": "argocd",
+    "name": "Argo CD CLI",
+    "repo": "argoproj/argo-cd",
+    "category": "Cloud & deployment",
+    "command": "argocd",
+    "useCase": "Kubernetes deployment synchronization",
+    "description": "Synchronize and manage Kubernetes application deployments.",
+    "agentUse": "Use argocd to synchronize and manage Kubernetes application deployments.",
+    "features": [
+      "Application synchronization",
+      "Deployment status",
+      "GitOps workflows"
+    ],
+    "example": "argocd --help",
+    "featured": false,
+    "website": "https://github.com/argoproj/argo-cd#readme",
+    "docs": "https://github.com/argoproj/argo-cd#readme"
+  },
+  {
+    "slug": "flux-cli",
+    "name": "Flux CLI",
+    "repo": "fluxcd/flux2",
+    "category": "Cloud & deployment",
+    "command": "flux",
+    "useCase": "GitOps delivery management",
+    "description": "Bootstrap and manage GitOps delivery workflows.",
+    "agentUse": "Use flux to bootstrap and manage GitOps delivery workflows.",
+    "features": [
+      "Cluster bootstrap",
+      "Delivery reconciliation",
+      "GitOps resources"
+    ],
+    "example": "flux --help",
+    "featured": false,
+    "website": "https://github.com/fluxcd/flux2#readme",
+    "docs": "https://github.com/fluxcd/flux2#readme"
+  },
+  {
+    "slug": "kind",
+    "name": "kind",
+    "repo": "kubernetes-sigs/kind",
+    "category": "Cloud & deployment",
+    "command": "kind",
+    "useCase": "Disposable Kubernetes clusters",
+    "description": "Create disposable Kubernetes clusters for testing.",
+    "agentUse": "Use kind to create disposable Kubernetes clusters for testing.",
+    "features": [
+      "Local clusters",
+      "Container-based nodes",
+      "Test environments"
+    ],
+    "example": "kind --help",
+    "featured": false,
+    "website": "https://github.com/kubernetes-sigs/kind#readme",
+    "docs": "https://github.com/kubernetes-sigs/kind#readme"
+  },
+  {
+    "slug": "minikube",
+    "name": "minikube",
+    "repo": "kubernetes/minikube",
+    "category": "Cloud & deployment",
+    "command": "minikube",
+    "useCase": "Local Kubernetes environments",
+    "description": "Run and manage local Kubernetes environments.",
+    "agentUse": "Use minikube to run and manage local Kubernetes environments.",
+    "features": [
+      "Local clusters",
+      "Cluster management",
+      "Development environments"
+    ],
+    "example": "minikube --help",
+    "featured": false,
+    "website": "https://github.com/kubernetes/minikube#readme",
+    "docs": "https://github.com/kubernetes/minikube#readme"
+  },
+  {
+    "slug": "sops",
+    "name": "SOPS",
+    "repo": "getsops/sops",
+    "category": "Security & secrets",
+    "command": "sops",
+    "useCase": "Encrypted configuration",
+    "description": "Encrypt and decrypt configuration and secret files.",
+    "agentUse": "Use sops to encrypt and decrypt configuration and secret files.",
+    "features": [
+      "Configuration encryption",
+      "Secret file editing",
+      "Decryption"
+    ],
+    "example": "sops --help",
+    "featured": false,
+    "website": "https://github.com/getsops/sops#readme",
+    "docs": "https://github.com/getsops/sops#readme"
+  },
+  {
+    "slug": "age",
+    "name": "age",
+    "repo": "FiloSottile/age",
+    "category": "Security & secrets",
+    "command": "age",
+    "useCase": "File encryption",
+    "description": "Encrypt and decrypt files in shell workflows.",
+    "agentUse": "Use age to encrypt and decrypt files in shell workflows.",
+    "features": [
+      "File encryption",
+      "File decryption",
+      "Shell workflows"
+    ],
+    "example": "age --help",
+    "featured": false,
+    "website": "https://github.com/FiloSottile/age#readme",
+    "docs": "https://github.com/FiloSottile/age#readme"
+  },
+  {
+    "slug": "bitwarden-cli",
+    "name": "Bitwarden CLI",
+    "repo": "bitwarden/clients",
+    "category": "Security & secrets",
+    "command": "bw",
+    "useCase": "Password vault automation",
+    "description": "Access and manage vault items programmatically.",
+    "agentUse": "Use bw to access and manage vault items programmatically.",
+    "features": [
+      "Vault item access",
+      "Vault synchronization",
+      "Item management"
+    ],
+    "example": "bw --help",
+    "featured": false,
+    "website": "https://github.com/bitwarden/clients#readme",
+    "docs": "https://bitwarden.com/help/cli/"
+  },
+  {
+    "slug": "doppler-cli",
+    "name": "Doppler CLI",
+    "repo": "DopplerHQ/cli",
+    "category": "Security & secrets",
+    "command": "doppler",
+    "useCase": "Application secret delivery",
+    "description": "Retrieve and inject secrets into applications.",
+    "agentUse": "Use doppler to retrieve and inject secrets into applications.",
+    "features": [
+      "Secret retrieval",
+      "Environment injection",
+      "Project configuration"
+    ],
+    "example": "doppler --help",
+    "featured": false,
+    "website": "https://github.com/DopplerHQ/cli#readme",
+    "docs": "https://github.com/DopplerHQ/cli#readme"
+  },
+  {
+    "slug": "infisical-cli",
+    "name": "Infisical CLI",
+    "repo": "Infisical/cli",
+    "category": "Security & secrets",
+    "command": "infisical",
+    "useCase": "Application secrets management",
+    "description": "Inject, export, and manage application secrets.",
+    "agentUse": "Use infisical to inject, export, and manage application secrets.",
+    "features": [
+      "Secret injection",
+      "Secret export",
+      "Environment management"
+    ],
+    "example": "infisical --help",
+    "featured": false,
+    "website": "https://github.com/Infisical/cli#readme",
+    "docs": "https://github.com/Infisical/cli#readme"
+  },
+  {
+    "slug": "trivy",
+    "name": "Trivy",
+    "repo": "aquasecurity/trivy",
+    "category": "Testing & quality",
+    "command": "trivy",
+    "useCase": "Container and repository security",
+    "description": "Scan containers and repositories for security issues.",
+    "agentUse": "Use trivy to scan containers and repositories for security issues.",
+    "features": [
+      "Vulnerability scanning",
+      "Misconfiguration checks",
+      "Repository scanning"
+    ],
+    "example": "trivy --help",
+    "featured": false,
+    "website": "https://github.com/aquasecurity/trivy#readme",
+    "docs": "https://github.com/aquasecurity/trivy#readme"
+  },
+  {
+    "slug": "syft",
+    "name": "Syft",
+    "repo": "anchore/syft",
+    "category": "Testing & quality",
+    "command": "syft",
+    "useCase": "Software inventory generation",
+    "description": "Generate software bills of materials.",
+    "agentUse": "Use syft to generate software bills of materials.",
+    "features": [
+      "SBOM generation",
+      "Image analysis",
+      "Filesystem analysis"
+    ],
+    "example": "syft --help",
+    "featured": false,
+    "website": "https://github.com/anchore/syft#readme",
+    "docs": "https://github.com/anchore/syft#readme"
+  },
+  {
+    "slug": "grype",
+    "name": "Grype",
+    "repo": "anchore/grype",
+    "category": "Testing & quality",
+    "command": "grype",
+    "useCase": "Vulnerability detection",
+    "description": "Find vulnerabilities in images and filesystems.",
+    "agentUse": "Use grype to find vulnerabilities in images and filesystems.",
+    "features": [
+      "Image scanning",
+      "Filesystem scanning",
+      "Vulnerability reports"
+    ],
+    "example": "grype --help",
+    "featured": false,
+    "website": "https://github.com/anchore/grype#readme",
+    "docs": "https://github.com/anchore/grype#readme"
+  },
+  {
+    "slug": "trufflehog",
+    "name": "TruffleHog",
+    "repo": "trufflesecurity/trufflehog",
+    "category": "Testing & quality",
+    "command": "trufflehog",
+    "useCase": "Exposed credential detection",
+    "description": "Find and verify exposed credentials.",
+    "agentUse": "Use trufflehog to find and verify exposed credentials.",
+    "features": [
+      "Credential discovery",
+      "Secret verification",
+      "Repository scanning"
+    ],
+    "example": "trufflehog --help",
+    "featured": false,
+    "website": "https://github.com/trufflesecurity/trufflehog#readme",
+    "docs": "https://github.com/trufflesecurity/trufflehog#readme"
+  },
+  {
+    "slug": "cosign",
+    "name": "Cosign",
+    "repo": "sigstore/cosign",
+    "category": "Security & secrets",
+    "command": "cosign",
+    "useCase": "Artifact signature verification",
+    "description": "Sign and verify container images and artifacts.",
+    "agentUse": "Use cosign to sign and verify container images and artifacts.",
+    "features": [
+      "Image signing",
+      "Artifact signatures",
+      "Signature verification"
+    ],
+    "example": "cosign --help",
+    "featured": false,
+    "website": "https://github.com/sigstore/cosign#readme",
+    "docs": "https://github.com/sigstore/cosign#readme"
+  },
+  {
+    "slug": "snyk-cli",
+    "name": "Snyk CLI",
+    "repo": "snyk/cli",
+    "category": "Testing & quality",
+    "command": "snyk",
+    "useCase": "Project security scanning",
+    "description": "Scan projects for security vulnerabilities.",
+    "agentUse": "Use snyk to scan projects for security vulnerabilities.",
+    "features": [
+      "Dependency scanning",
+      "Container scanning",
+      "Security reports"
+    ],
+    "example": "snyk --help",
+    "featured": false,
+    "website": "https://github.com/snyk/cli#readme",
+    "docs": "https://github.com/snyk/cli#readme"
+  },
+  {
+    "slug": "sentry-cli",
+    "name": "Sentry CLI",
+    "repo": "getsentry/cli",
+    "category": "Testing & quality",
+    "command": "sentry",
+    "useCase": "Sentry issue investigation",
+    "description": "Interact with Sentry from the terminal.",
+    "agentUse": "Use sentry to interact with Sentry from the terminal.",
+    "features": [
+      "Issue inspection",
+      "Event details",
+      "Project access"
+    ],
+    "example": "sentry --help",
+    "featured": false,
+    "website": "https://github.com/getsentry/cli#readme",
+    "docs": "https://github.com/getsentry/cli/tree/main/packages/cli#readme"
+  },
+  {
+    "slug": "k6",
+    "name": "k6",
+    "repo": "grafana/k6",
+    "category": "Testing & quality",
+    "command": "k6",
+    "useCase": "Load and performance testing",
+    "description": "Execute load tests and measure performance.",
+    "agentUse": "Use k6 to execute load tests and measure performance.",
+    "features": [
+      "Load test execution",
+      "Performance metrics",
+      "Scripted scenarios"
+    ],
+    "example": "k6 --help",
+    "featured": false,
+    "website": "https://github.com/grafana/k6#readme",
+    "docs": "https://github.com/grafana/k6#readme"
+  },
+  {
+    "slug": "lighthouse",
+    "name": "Lighthouse",
+    "repo": "GoogleChrome/lighthouse",
+    "category": "Testing & quality",
+    "command": "lighthouse",
+    "useCase": "Website quality audits",
+    "description": "Audit website performance, accessibility, and best practices.",
+    "agentUse": "Use lighthouse to audit website performance, accessibility, and best practices.",
+    "features": [
+      "Performance audits",
+      "Accessibility audits",
+      "Best-practice checks"
+    ],
+    "example": "lighthouse https://example.com",
+    "featured": false,
+    "website": "https://github.com/GoogleChrome/lighthouse#readme",
+    "docs": "https://github.com/GoogleChrome/lighthouse#readme"
+  },
+  {
+    "slug": "axe-cli",
+    "name": "axe CLI",
+    "repo": "dequelabs/axe-core-npm",
+    "category": "Testing & quality",
+    "command": "axe",
+    "useCase": "Web accessibility checks",
+    "description": "Run automated web accessibility checks.",
+    "agentUse": "Use axe to run automated web accessibility checks.",
+    "features": [
+      "Accessibility rules",
+      "Page testing",
+      "Violation reports"
+    ],
+    "example": "axe https://example.com",
+    "featured": false,
+    "website": "https://github.com/dequelabs/axe-core-npm#readme",
+    "docs": "https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli#readme"
+  },
+  {
+    "slug": "duckdb-cli",
+    "name": "DuckDB CLI",
+    "repo": "duckdb/duckdb",
+    "category": "Data & APIs",
+    "command": "duckdb",
+    "useCase": "Analytical SQL queries",
+    "description": "Query CSV, Parquet, and other data using SQL.",
+    "agentUse": "Use duckdb to query CSV, Parquet, and other data using SQL.",
+    "features": [
+      "CSV queries",
+      "Parquet queries",
+      "Embedded SQL"
+    ],
+    "example": "duckdb -c \"SELECT 42;\"",
+    "featured": false,
+    "website": "https://github.com/duckdb/duckdb#readme",
+    "docs": "https://github.com/duckdb/duckdb#readme"
+  },
+  {
+    "slug": "sqlite-utils",
+    "name": "sqlite-utils",
+    "repo": "simonw/sqlite-utils",
+    "category": "Data & APIs",
+    "command": "sqlite-utils",
+    "useCase": "SQLite data workflows",
+    "description": "Create, query, and transform SQLite databases.",
+    "agentUse": "Use sqlite-utils to create, query, and transform SQLite databases.",
+    "features": [
+      "Database creation",
+      "SQL queries",
+      "Data transformation"
+    ],
+    "example": "sqlite-utils --help",
+    "featured": false,
+    "website": "https://github.com/simonw/sqlite-utils#readme",
+    "docs": "https://github.com/simonw/sqlite-utils#readme"
+  },
+  {
+    "slug": "dbt-core",
+    "name": "dbt Core",
+    "repo": "dbt-labs/dbt-core",
+    "category": "Data & APIs",
+    "command": "dbt",
+    "useCase": "SQL data transformations",
+    "description": "Build and test SQL data transformations.",
+    "agentUse": "Use dbt to build and test SQL data transformations.",
+    "features": [
+      "SQL models",
+      "Transformation builds",
+      "Data tests"
+    ],
+    "example": "dbt --help",
+    "featured": false,
+    "website": "https://github.com/dbt-labs/dbt-core#readme",
+    "docs": "https://github.com/dbt-labs/dbt-core#readme"
+  },
+  {
+    "slug": "sqlfluff",
+    "name": "SQLFluff",
+    "repo": "sqlfluff/sqlfluff",
+    "category": "Testing & quality",
+    "command": "sqlfluff",
+    "useCase": "SQL linting and formatting",
+    "description": "Lint and format SQL across dialects.",
+    "agentUse": "Use sqlfluff to lint and format SQL across dialects.",
+    "features": [
+      "SQL linting",
+      "SQL formatting",
+      "Multiple dialects"
+    ],
+    "example": "sqlfluff --help",
+    "featured": false,
+    "website": "https://github.com/sqlfluff/sqlfluff#readme",
+    "docs": "https://github.com/sqlfluff/sqlfluff#readme"
+  },
+  {
+    "slug": "golang-migrate",
+    "name": "golang-migrate",
+    "repo": "golang-migrate/migrate",
+    "category": "Data & APIs",
+    "command": "migrate",
+    "useCase": "Database migration execution",
+    "description": "Apply and roll back database migrations.",
+    "agentUse": "Use migrate to apply and roll back database migrations.",
+    "features": [
+      "Migration application",
+      "Migration rollback",
+      "Database drivers"
+    ],
+    "example": "migrate -help",
+    "featured": false,
+    "website": "https://github.com/golang-migrate/migrate#readme",
+    "docs": "https://github.com/golang-migrate/migrate#readme"
+  },
+  {
+    "slug": "atlas",
+    "name": "Atlas",
+    "repo": "ariga/atlas",
+    "category": "Data & APIs",
+    "command": "atlas",
+    "useCase": "Schema inspection and migration",
+    "description": "Inspect schemas and plan database migrations.",
+    "agentUse": "Use atlas to inspect schemas and plan database migrations.",
+    "features": [
+      "Schema inspection",
+      "Schema diffs",
+      "Migration planning"
+    ],
+    "example": "atlas --help",
+    "featured": false,
+    "website": "https://github.com/ariga/atlas#readme",
+    "docs": "https://github.com/ariga/atlas#readme"
+  },
+  {
+    "slug": "miller",
+    "name": "Miller (mlr)",
+    "repo": "johnkerl/miller",
+    "category": "Data & APIs",
+    "command": "mlr",
+    "useCase": "Tabular data processing",
+    "description": "Filter, join, aggregate, and transform tabular data.",
+    "agentUse": "Use mlr to filter, join, aggregate, and transform tabular data.",
+    "features": [
+      "Record filtering",
+      "Joins and aggregation",
+      "Data transformation"
+    ],
+    "example": "mlr --help",
+    "featured": false,
+    "website": "https://github.com/johnkerl/miller#readme",
+    "docs": "https://github.com/johnkerl/miller#readme"
+  },
+  {
+    "slug": "dolt",
+    "name": "Dolt",
+    "repo": "dolthub/dolt",
+    "category": "Data & APIs",
+    "command": "dolt",
+    "useCase": "Versioned database workflows",
+    "description": "Branch, diff, merge, and query versioned databases.",
+    "agentUse": "Use dolt to branch, diff, merge, and query versioned databases.",
+    "features": [
+      "SQL queries",
+      "Database branching",
+      "Database diffs and merges"
+    ],
+    "example": "dolt --help",
+    "featured": false,
+    "website": "https://github.com/dolthub/dolt#readme",
+    "docs": "https://github.com/dolthub/dolt#readme"
+  },
+  {
+    "slug": "yt-dlp",
+    "name": "yt-dlp",
+    "repo": "yt-dlp/yt-dlp",
+    "category": "Files & documents",
+    "command": "yt-dlp",
+    "useCase": "Video metadata and media retrieval",
+    "description": "Retrieve video metadata, subtitles, and media.",
+    "agentUse": "Use yt-dlp to retrieve video metadata, subtitles, and media.",
+    "features": [
+      "Video metadata",
+      "Subtitle retrieval",
+      "Media downloads"
+    ],
+    "example": "yt-dlp --help",
+    "featured": false,
+    "website": "https://github.com/yt-dlp/yt-dlp#readme",
+    "docs": "https://github.com/yt-dlp/yt-dlp#readme"
+  },
+  {
+    "slug": "ffmpeg",
+    "name": "FFmpeg",
+    "repo": "FFmpeg/FFmpeg",
+    "category": "Files & documents",
+    "command": "ffmpeg",
+    "useCase": "Audio and video processing",
+    "description": "Convert, trim, combine, and process audio and video.",
+    "agentUse": "Use ffmpeg to convert, trim, combine, and process audio and video.",
+    "features": [
+      "Media conversion",
+      "Trimming and combining",
+      "Audio processing"
+    ],
+    "example": "ffmpeg -h",
+    "featured": false,
+    "website": "https://github.com/FFmpeg/FFmpeg#readme",
+    "docs": "https://github.com/FFmpeg/FFmpeg#readme"
+  },
+  {
+    "slug": "imagemagick",
+    "name": "ImageMagick",
+    "repo": "ImageMagick/ImageMagick",
+    "category": "Files & documents",
+    "command": "magick",
+    "useCase": "Image processing",
+    "description": "Resize, convert, composite, and process images.",
+    "agentUse": "Use magick to resize, convert, composite, and process images.",
+    "features": [
+      "Image resizing",
+      "Format conversion",
+      "Image composition"
+    ],
+    "example": "magick -help",
+    "featured": false,
+    "website": "https://github.com/ImageMagick/ImageMagick#readme",
+    "docs": "https://github.com/ImageMagick/ImageMagick#readme"
+  },
+  {
+    "slug": "tesseract",
+    "name": "Tesseract",
+    "repo": "tesseract-ocr/tesseract",
+    "category": "Files & documents",
+    "command": "tesseract",
+    "useCase": "Image text extraction",
+    "description": "Extract text from images using OCR.",
+    "agentUse": "Use tesseract to extract text from images using OCR.",
+    "features": [
+      "Optical character recognition",
+      "Image input",
+      "Text output"
+    ],
+    "example": "tesseract --help",
+    "featured": false,
+    "website": "https://github.com/tesseract-ocr/tesseract#readme",
+    "docs": "https://github.com/tesseract-ocr/tesseract#readme"
+  },
+  {
+    "slug": "ocrmypdf",
+    "name": "OCRmyPDF",
+    "repo": "ocrmypdf/OCRmyPDF",
+    "category": "Files & documents",
+    "command": "ocrmypdf",
+    "useCase": "Searchable scanned PDFs",
+    "description": "Add searchable text to scanned PDFs.",
+    "agentUse": "Use ocrmypdf to add searchable text to scanned PDFs.",
+    "features": [
+      "PDF OCR",
+      "Searchable text layers",
+      "Scanned documents"
+    ],
+    "example": "ocrmypdf --help",
+    "featured": false,
+    "website": "https://github.com/ocrmypdf/OCRmyPDF#readme",
+    "docs": "https://github.com/ocrmypdf/OCRmyPDF#readme"
+  },
+  {
+    "slug": "qpdf",
+    "name": "qpdf",
+    "repo": "qpdf/qpdf",
+    "category": "Files & documents",
+    "command": "qpdf",
+    "useCase": "PDF inspection and transformation",
+    "description": "Inspect, split, merge, and transform PDF files.",
+    "agentUse": "Use qpdf to inspect, split, merge, and transform PDF files.",
+    "features": [
+      "PDF inspection",
+      "Splitting and merging",
+      "PDF transformations"
+    ],
+    "example": "qpdf --help",
+    "featured": false,
+    "website": "https://github.com/qpdf/qpdf#readme",
+    "docs": "https://github.com/qpdf/qpdf#readme"
+  },
+  {
+    "slug": "restic",
+    "name": "restic",
+    "repo": "restic/restic",
+    "category": "Files & documents",
+    "command": "restic",
+    "useCase": "Encrypted backup workflows",
+    "description": "Create, verify, and restore encrypted backups.",
+    "agentUse": "Use restic to create, verify, and restore encrypted backups.",
+    "features": [
+      "Encrypted backups",
+      "Backup verification",
+      "File restoration"
+    ],
+    "example": "restic --help",
+    "featured": false,
+    "website": "https://github.com/restic/restic#readme",
+    "docs": "https://github.com/restic/restic#readme"
+  },
+  {
+    "slug": "just",
+    "name": "just",
+    "repo": "casey/just",
+    "category": "Packages & environments",
+    "command": "just",
+    "useCase": "Project command execution",
+    "description": "Execute predefined project commands and workflows.",
+    "agentUse": "Use just to execute predefined project commands and workflows.",
+    "features": [
+      "Task recipes",
+      "Project commands",
+      "Shell workflows"
+    ],
+    "example": "just --list",
+    "featured": false,
+    "website": "https://github.com/casey/just#readme",
+    "docs": "https://github.com/casey/just#readme"
   }
 ]

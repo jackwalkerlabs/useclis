@@ -1,0 +1,73 @@
+/* useclis homepage type scale.
+   Loaded after layout styles so older breakpoint rules cannot shrink the text. */
+body { font-size: 1rem; line-height: 1.5; }
+
+.useclis-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.025em;
+}
+.useclis-hero > p { font-size: 1rem; line-height: 1.5; }
+.header nav a, .saved-link, .button,
+.useclis-search input, .useclis-subnav,
+.useclis-subnav a, .useclis-subnav button {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+.useclis-search button { font-size: .875rem !important; line-height: 1.25rem !important; }
+.source-badge { font-size: .75rem; line-height: 1rem; }
+
+.useclis-section-heading h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  letter-spacing: normal;
+}
+.useclis-featured .useclis-section-heading h2 {
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+.useclis-section-heading > a { font-size: .75rem; line-height: 1rem; }
+.featured-identity h3 { font-size: .875rem; font-weight: 700; line-height: 1.25; letter-spacing: normal; }
+.featured-identity > div > span { font-size: .625rem; line-height: 1.5; }
+.featured-numbers span {
+  font-size: .5625rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.featured-numbers strong {
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: normal;
+}
+.featured-command code { font-size: .75rem; line-height: 1rem; }
+
+.leaderboard-table th, .leaderboard-table th button,
+.leaderboard-table td, .leaderboard-table .rank,
+.leaderboard-table .commit-count, .table-stars,
+.leaderboard-filters select {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+.leaderboard-table tbody tr:nth-child(-n+3) .rank { font-size: 1.25rem; line-height: 1.75rem; }
+.table-project strong { font-size: .875rem; font-weight: 500; line-height: 1.25rem; }
+.table-project > span > span, .cli-command, .mobile-command {
+  font-size: .75rem;
+  line-height: 1rem;
+}
+.table-stars { font-weight: 600; }
+
+@media (width < 48rem) {
+  .useclis-hero h1 { font-size: 1.875rem; line-height: 2.25rem; }
+  .useclis-hero > p { font-size: .875rem; line-height: 1.25rem; }
+  .useclis-subnav, .useclis-subnav a, .useclis-subnav button { font-size: .75rem; line-height: 1rem; }
+  .useclis-leaderboard .useclis-section-heading h2,
+  .useclis-categories .useclis-section-heading h2 { font-size: 1rem; line-height: 1.5rem; }
+  /* Keep touch inputs at 16px to avoid focus zoom on iOS. */
+  .useclis-search input, .leaderboard-filters select { font-size: 1rem; line-height: 1.5rem; }
+}

@@ -214,5 +214,479 @@
       "date": "2026-09-09",
       "stars": 17456
     }
+  ],
+  "firecrawl-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 628
+    }
+  ],
+  "peekaboo": [
+    {
+      "date": "2026-09-10",
+      "stars": 5140
+    }
+  ],
+  "qmd": [
+    {
+      "date": "2026-09-10",
+      "stars": 29636
+    }
+  ],
+  "mcporter": [
+    {
+      "date": "2026-09-10",
+      "stars": 5001
+    }
+  ],
+  "repomix": [
+    {
+      "date": "2026-09-10",
+      "stars": 28270
+    }
+  ],
+  "summarize": [
+    {
+      "date": "2026-09-10",
+      "stars": 6607
+    }
+  ],
+  "shot-scraper": [
+    {
+      "date": "2026-09-10",
+      "stars": 2566
+    }
+  ],
+  "google-workspace-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 30814
+    }
+  ],
+  "gogcli": [
+    {
+      "date": "2026-09-10",
+      "stars": 8392
+    }
+  ],
+  "linear-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 954
+    }
+  ],
+  "beads": [
+    {
+      "date": "2026-09-10",
+      "stars": 27008
+    }
+  ],
+  "himalaya": [
+    {
+      "date": "2026-09-10",
+      "stars": 7215
+    }
+  ],
+  "remindctl": [
+    {
+      "date": "2026-09-10",
+      "stars": 361
+    }
+  ],
+  "imsg": [
+    {
+      "date": "2026-09-10",
+      "stars": 1316
+    }
+  ],
+  "wacli": [
+    {
+      "date": "2026-09-10",
+      "stars": 2727
+    }
+  ],
+  "sonoscli": [
+    {
+      "date": "2026-09-10",
+      "stars": 185
+    }
+  ],
+  "goplaces": [
+    {
+      "date": "2026-09-10",
+      "stars": 252
+    }
+  ],
+  "railway-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 604
+    }
+  ],
+  "aws-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 17243
+    }
+  ],
+  "azure-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 4622
+    }
+  ],
+  "doctl": [
+    {
+      "date": "2026-09-10",
+      "stars": 3449
+    }
+  ],
+  "hcloud": [
+    {
+      "date": "2026-09-10",
+      "stars": 1801
+    }
+  ],
+  "scaleway-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 997
+    }
+  ],
+  "linode-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 440
+    }
+  ],
+  "ovhcloud-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 175
+    }
+  ],
+  "netlify-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 1915
+    }
+  ],
+  "render-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 114
+    }
+  ],
+  "firebase-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 4465
+    }
+  ],
+  "neonctl": [
+    {
+      "date": "2026-09-10",
+      "stars": 117
+    }
+  ],
+  "ecctl": [
+    {
+      "date": "2026-09-10",
+      "stars": 58
+    }
+  ],
+  "stripe-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 2173
+    }
+  ],
+  "wp-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 5147
+    }
+  ],
+  "shopify-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 742
+    }
+  ],
+  "salesforce-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 180
+    }
+  ],
+  "microsoft-365-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 1443
+    }
+  ],
+  "twilio-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 192
+    }
+  ],
+  "algolia-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 109
+    }
+  ],
+  "contentful-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 361
+    }
+  ],
+  "sanity-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 8
+    }
+  ],
+  "podman": [
+    {
+      "date": "2026-09-10",
+      "stars": 32826
+    }
+  ],
+  "helm": [
+    {
+      "date": "2026-09-10",
+      "stars": 30228
+    }
+  ],
+  "opentofu": [
+    {
+      "date": "2026-09-10",
+      "stars": 30141
+    }
+  ],
+  "pulumi": [
+    {
+      "date": "2026-09-10",
+      "stars": 25658
+    }
+  ],
+  "ansible": [
+    {
+      "date": "2026-09-10",
+      "stars": 70620
+    }
+  ],
+  "argocd": [
+    {
+      "date": "2026-09-10",
+      "stars": 24114
+    }
+  ],
+  "flux-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 8390
+    }
+  ],
+  "kind": [
+    {
+      "date": "2026-09-10",
+      "stars": 15481
+    }
+  ],
+  "minikube": [
+    {
+      "date": "2026-09-10",
+      "stars": 32113
+    }
+  ],
+  "sops": [
+    {
+      "date": "2026-09-10",
+      "stars": 23071
+    }
+  ],
+  "age": [
+    {
+      "date": "2026-09-10",
+      "stars": 23504
+    }
+  ],
+  "bitwarden-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 13761
+    }
+  ],
+  "doppler-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 392
+    }
+  ],
+  "infisical-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 91
+    }
+  ],
+  "trivy": [
+    {
+      "date": "2026-09-10",
+      "stars": 37848
+    }
+  ],
+  "syft": [
+    {
+      "date": "2026-09-10",
+      "stars": 9544
+    }
+  ],
+  "grype": [
+    {
+      "date": "2026-09-10",
+      "stars": 12865
+    }
+  ],
+  "trufflehog": [
+    {
+      "date": "2026-09-10",
+      "stars": 27737
+    }
+  ],
+  "cosign": [
+    {
+      "date": "2026-09-10",
+      "stars": 6290
+    }
+  ],
+  "snyk-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 5657
+    }
+  ],
+  "sentry-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 119
+    }
+  ],
+  "k6": [
+    {
+      "date": "2026-09-10",
+      "stars": 31424
+    }
+  ],
+  "lighthouse": [
+    {
+      "date": "2026-09-10",
+      "stars": 30749
+    }
+  ],
+  "axe-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 722
+    }
+  ],
+  "duckdb-cli": [
+    {
+      "date": "2026-09-10",
+      "stars": 41107
+    }
+  ],
+  "sqlite-utils": [
+    {
+      "date": "2026-09-10",
+      "stars": 2167
+    }
+  ],
+  "dbt-core": [
+    {
+      "date": "2026-09-10",
+      "stars": 13795
+    }
+  ],
+  "sqlfluff": [
+    {
+      "date": "2026-09-10",
+      "stars": 9866
+    }
+  ],
+  "golang-migrate": [
+    {
+      "date": "2026-09-10",
+      "stars": 18904
+    }
+  ],
+  "atlas": [
+    {
+      "date": "2026-09-10",
+      "stars": 8715
+    }
+  ],
+  "miller": [
+    {
+      "date": "2026-09-10",
+      "stars": 10015
+    }
+  ],
+  "dolt": [
+    {
+      "date": "2026-09-10",
+      "stars": 24405
+    }
+  ],
+  "yt-dlp": [
+    {
+      "date": "2026-09-10",
+      "stars": 190000
+    }
+  ],
+  "ffmpeg": [
+    {
+      "date": "2026-09-10",
+      "stars": 64081
+    }
+  ],
+  "imagemagick": [
+    {
+      "date": "2026-09-10",
+      "stars": 17380
+    }
+  ],
+  "tesseract": [
+    {
+      "date": "2026-09-10",
+      "stars": 76415
+    }
+  ],
+  "ocrmypdf": [
+    {
+      "date": "2026-09-10",
+      "stars": 34705
+    }
+  ],
+  "qpdf": [
+    {
+      "date": "2026-09-10",
+      "stars": 5398
+    }
+  ],
+  "restic": [
+    {
+      "date": "2026-09-10",
+      "stars": 35953
+    }
+  ],
+  "just": [
+    {
+      "date": "2026-09-10",
+      "stars": 35708
+    }
   ]
 }

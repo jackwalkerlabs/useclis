@@ -1,91 +1,82 @@
 # useclis
 
-A simple directory of GitHub-backed CLIs for agents using the useclis design system. Built with Astro and React, with static pages ready for Cloudflare Workers or Pages.
+A directory of command-line tools for agents, built with Astro and React. Search by command, task, or repository; explore dated GitHub statistics; and save CLIs in your browser. The app builds to static files for Cloudflare Workers or Pages.
 
 ## Run locally
 
-Use Node 22.22.2 from `.node-version` (the test suite also supports Node 24.15+ or 26+).
+Use Node 22.22.2 from `.node-version`, or another version allowed by `package.json`.
 
 ```sh
 npm ci
 npm run dev -- --port 4321
 ```
 
-Open http://localhost:4321. The app includes a searchable, filterable leaderboard, featured listings, browser-local bookmarks, category pages, 36 CLI pages, and repository charts. No database or runtime API keys are needed.
+Open http://localhost:4321. Builds use checked-in data, so no database or API keys are required.
 
-## Cloudflare
+## Edit the directory
 
-The default `wrangler.jsonc` deploys `dist` as static Workers assets. No adapter or server runtime is necessary.
+- `src/data/catalog.json`: CLI entries, commands, categories, capabilities, examples, and documentation links.
+- `src/data/cli-source-list.json`: the original 100-row source list and its workflow-support labels. All 100 entries are represented in the active catalog, alongside 15 additional CLIs. “Not marked in source list” does not mean a tool lacks agent support.
+- `src/data/repositories.json`: dated repository metadata and star totals from GitHub.
+- `src/data/activity.json`: 52 weekly commit counts per repository.
+- `src/data/star-snapshots.json`: daily observations of total stars. Collection began September 9, 2026. No historical totals are invented; a single observation displays its start date without a growth claim.
+- `public/logos/`: avatars for active repository owners, which may differ from product logos.
+
+To collect new observations:
 
 ```sh
-npm run build
-npx wrangler deploy --dry-run
-npm run deploy
+GITHUB_TOKEN=... npm run refresh
+npm run build:design-system
 ```
 
-For Git integration, use build command `npm run build` and deploy command `npx wrangler deploy`. Set `SITE_URL` to your production origin (for example `https://useclis.com`) to generate canonical URLs and the sitemap. Change the Worker name in `wrangler.jsonc` if desired. Authenticate Wrangler in your own terminal for deployment.
+Provide your own token through the shell or a local secret manager; never commit it. A token is optional, but an unauthenticated full refresh exceeds GitHub's normal hourly API allowance. Failed requests preserve prior data and return an error. Pending GitHub statistics (HTTP 202) preserve previous activity for a later refresh.
 
-Cloudflare Pages also supports the static output: use `npm run build`, output directory `dist`, and Node 22.22.2. The optional `npm run deploy:pages` targets a Pages project named `useclis`.
+Charts represent repository activity, including any other software in the same repository. Star changes include added and removed stars. Small commit charts use independent vertical scales, and the current week may be incomplete.
 
-Reference: [Astro on Cloudflare](https://docs.astro.build/en/guides/deploy/cloudflare/), [Cloudflare static assets](https://developers.cloudflare.com/workers/static-assets/).
+`archive/` preserves earlier catalog data, unused avatars, and old font notices. It is excluded from the deployed site. See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution requirements.
 
-## Data and charts
+Sources: [GitHub repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository) and [weekly participation statistics](https://docs.github.com/en/rest/metrics/statistics#get-the-weekly-commit-count).
 
-- `src/data/catalog.json`: CLI names, GitHub repositories, command entry points, agent use cases, documentation, features, and example commands. Add or edit CLI listings here.
-- `src/data/repositories.json`: GitHub API snapshots of stars, detected core license, language, creation date, and latest default-branch commit date.
-- `src/data/activity.json`: 52 weekly commit totals from GitHub's participation endpoint. Small charts show the latest 12 weeks; detail charts offer 12, 26, and 52 weeks. Each small chart uses an independent vertical scale.
-- `src/data/star-snapshots.json`: actual daily total-star observations. Collection started September 9, 2026. No historical totals have been invented. A single observation shows “Star history starts today.” Two or more dates show a green/red chart, net change, and percentage change. Windows shorter than 30 days are labeled with their actual start date.
-- `public/logos`: locally stored GitHub organization/user avatars. These are repository-owner avatars, not necessarily product logos.
+## Design system
 
-Refresh data manually:
+`design-system/` is AI-generated for useclis and belongs to this repository under [MIT](LICENSE). It contains tokens, React components, guidelines, and a standalone CLI preview. Inconsolata is self-hosted; commands and metrics use system monospace fonts. Third-party assets retain their [license notices](THIRD_PARTY.md).
 
-```sh
-npm run refresh
-```
+After editing components, catalog data, or repository snapshots, run `npm run build:design-system`. CI checks that generated previews match their sources. See the [design guide](design-system/readme.md) for details. Homepage type sizes live in `src/typography.css`, loaded after layout and mobile rules.
 
-Set `GITHUB_TOKEN` locally if you need authenticated GitHub API limits. Never expose the token in client code. API failures preserve prior metadata, and builds use checked-in data without requiring GitHub access.
+## CLI submissions
 
-`.github/workflows/refresh-directory.yml` runs this refresh daily after it is pushed to GitHub and Actions is enabled. It commits snapshots to the repository; connect the repository to Cloudflare to publish updated static pages. The workflow needs permission to commit to the default branch. Protected branches may need a PR-based update workflow instead. No remote repository or deployment has been created by this setup.
+The header form prepares a public GitHub issue. Visitors review and submit it on GitHub; the site does not request OAuth access or post on their behalf. Submissions default to `jackwalkerlabs/useclis`, which must exist with Issues enabled.
 
-The initial attempt to obtain historical stargazer timestamps failed: REST returned 401/404, and GraphQL returned empty edges despite a nonzero total. OSS Insight disclosed incomplete recent star-event ingestion, so those historical counts are deliberately not used. Daily total snapshots include both added and removed stars and are the source for net growth.
+Set the build variable `PUBLIC_SUBMISSIONS_REPO=owner/repository` to use a different destination. Set it explicitly to an empty string to offer Markdown draft downloads instead. The form preserves entered details when dismissed during the current page visit.
 
-The previous 100 general software listings and metadata are preserved under `archive/general-directory/`. They are excluded from active pages and data refreshes. The active catalog contains only CLI entries. Browser Harness points to `browser-use/browser-harness`, the dedicated CLI, rather than the Browser Use Python library repository. Repository metrics can cover a monorepo or mirror, not just the listed binary.
+Bookmarks stay in local browser storage. Existing bookmarks from the app's earlier name are migrated automatically.
 
-Sources: [GitHub repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository), [GitHub statistics API](https://docs.github.com/en/rest/metrics/statistics#get-the-weekly-commit-count), [GitHub stargazers API](https://docs.github.com/en/rest/activity/starring#list-stargazers), [OSS Insight data notice](https://ossinsight.io/).
-
-## Design
-
-`design-system/` contains the useclis tokens, React components, brand guidelines, and interactive CLI examples. The app imports its color, type, spacing, radius, elevation, and motion tokens and its Button component. Fonts are self-hosted Geist and Geist Mono. See the [design system guide](design-system/readme.md) and [third-party materials](THIRD_PARTY.md) for the kit's origin and redistribution status.
-
-The homepage combines featured CLI cards, a searchable leaderboard, and category links. Detail pages show agent use cases, copyable example commands, and source documentation. Phone layouts use a swipeable card rail, compact leaderboard, and wrapped actions. Real Chrome desktop/mobile validation remains pending the CUA existing-profile grant.
-
-The app uses `useclis-saved` for browser bookmarks and imports earlier `openrepo-saved` bookmarks when the new key is absent.
-
-## Validation
+## Validate
 
 ```sh
-npm test
 npm run check
+npm test
+npm run check:design-system
 npm run build
 npm run check:links
 npx wrangler deploy --dry-run
-# In another terminal, start the production runtime on a free port:
-npx wrangler dev --local --port 50865
-node scripts/check-http.mjs http://localhost:50865
 ```
 
-The tests cover command/repository/task search, category and saved-filter intersections, CLI metadata requirements, numeric ranking, star-window calculations (including losses, short history, and zero baselines), metadata provenance, and local logo availability. Link validation checks generated routes and assets. `sharp` is overridden to `^0.35.4` to avoid the vulnerable version in Wrangler's development dependency tree.
+Tests cover catalog coverage, filtering, bookmarks, charts, command copying, submissions, and data-refresh failure handling. Component tests use jsdom and do not prove visual rendering or native browser behavior. Check desktop/mobile layout, keyboard navigation, and the submission dialog in a real browser before launch.
 
-### Functional audit — September 9, 2026
+For a production HTTP check, run `npx wrangler dev --local --port 50865` in another terminal, then `node scripts/check-http.mjs http://localhost:50865`. The checker verifies exact build contents and the custom 404 page.
 
-18 automated tests pass. The React interaction suite mounts the real components in jsdom and exercises search/Enter/Explore, every category and sorting mode, bookmarks for every CLI, persistence and storage failures, saved filters, URL restoration and browser-history events, chart ranges and pointer/keyboard input, and every copy-command button with clipboard success/failure. These are component tests, not browser rendering or device tests.
+## Publish and deploy
 
-Fixed search submission on Enter, sort preservation in shared links, and restoring filters from browser-history events. Local link checks now cover hash anchors, React hydration modules, button names, duplicate IDs, and image alternatives. The production HTTP checker compares served files byte-for-byte with the current build and verifies the custom 404 response, refusing a URL that belongs to another app.
+Set `SITE_URL=https://useclis.com` in the build environment to generate canonical URLs and a sitemap. The Worker serves `dist` as static assets:
 
-The Cloudflare local runtime passed the file/404 checks; deployment dry run passed. All 36 documentation destinations and 36 GitHub repository links returned HTTP 200. Real Chrome click-through and mobile visual/touch verification remain pending because CUA refuses attachment without the user-configured existing-profile grant. No deployment was performed.
+```sh
+SITE_URL=https://useclis.com npm run build
+npx wrangler deploy --dry-run
+```
 
-## Open-source release preparation
+`npm run deploy` builds and deploys the Worker. `npm run deploy:pages` targets a Pages project named `useclis`. Authenticate with Cloudflare in your own terminal. See [release and deployment instructions](docs/RELEASING.md) before publishing the repository or domain.
 
-The repository is being prepared for its first public release. The app license and redistribution terms for the supplied design bundle are pending; do not treat this checkout as fully licensed yet. See [release/deployment steps](docs/RELEASING.md), [contribution guide](CONTRIBUTING.md), and [third-party materials](THIRD_PARTY.md).
+CI validates pushes and pull requests with read-only repository permissions. The daily refresh workflow updates snapshots and the design preview, validates the result, and commits using the repository token. Protected branches may require a PR-based update flow; verify that snapshot commits trigger the intended Cloudflare build.
 
-CI validates pull requests and pushes without secrets. The intended production domain is `https://useclis.com`; no repository has been published and no domain deployment has been created.
+Original app code and the AI-generated design bundle are [MIT-licensed](LICENSE). Fonts, icons, avatars, and dependencies retain their separate [third-party terms](THIRD_PARTY.md).

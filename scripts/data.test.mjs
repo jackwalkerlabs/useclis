@@ -3,11 +3,29 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { filterTools } from '../src/lib/filter.mjs';
 import { starWindow } from '../src/lib/star-history.mjs';
+import { tools, categories } from '../src/data/tools.ts';
 const catalog = JSON.parse(await readFile(new URL('../src/data/catalog.json', import.meta.url)));
-const metadata = JSON.parse(await readFile(new URL('../src/data/repositories.json', import.meta.url)));
-const tools = catalog.map(tool => ({ ...tool, ...metadata[tool.slug] }));
+const sourceList = JSON.parse(await readFile(new URL('../src/data/cli-source-list.json', import.meta.url)));
+test('All 100 supplied CLIs appear exactly once with their original workflow labels', () => {
+  assert.deepEqual(sourceList.map(row => row.id), Array.from({ length: 100 }, (_, i) => String(i + 1)));
+  const documented = new Set(['1', '2', '3', '4', '5', '6', '7', '8', '10', '11', '12', '13', '14', '16', '17', '20']);
+  assert.equal(new Set(sourceList.map(row => row.github_url.toLowerCase())).size, 100);
+  assert.equal(new Set(tools.map(tool => tool.repo.toLowerCase())).size, tools.length);
+  for (const row of sourceList) {
+    const matches = tools.filter(tool => `https://github.com/${tool.repo}`.toLowerCase() === row.github_url.toLowerCase());
+    assert.equal(matches.length, 1, row.cli_name);
+    const tool = matches[0];
+    assert.ok(row.cli_name.trim() && row.description.trim());
+    assert.equal(row.agent_ai_workflow_support, documented.has(row.id) ? 'Documented' : 'Not marked in source list');
+    assert.equal(tool.agentWorkflowSupport, row.agent_ai_workflow_support);
+    assert.ok(filterTools(tools, { query: row.cli_name }).some(result => result.slug === tool.slug), `${row.cli_name} is searchable`);
+  }
+  for (const tool of tools.filter(tool => tool.sourceListName === null)) {
+    assert.equal(tool.agentWorkflowSupport, null, 'CLIs outside the supplied list have no inferred support label');
+  }
+});
 test('Search finds CLI commands and GitHub repositories without case sensitivity', () => {
-  assert.deepEqual(filterTools(tools, { query: 'CLI/CLI' }).map(tool => tool.slug), ['github-cli']);
+  assert.deepEqual(filterTools(tools, { query: 'CLI/CLI' }).map(tool => tool.slug), ['github-cli', 'salesforce-cli']);
   assert.deepEqual(filterTools(tools, { query: 'wrangler' }).map(tool => tool.slug), ['wrangler']);
   assert.ok(filterTools(tools, { query: 'JSON' }).some(tool => tool.slug === 'jq'));
 });
@@ -46,6 +64,7 @@ test('Star history does not divide by zero or interpolate missing days', () => {
 test('Every CLI has an entry point, example, source, metadata, and local logo', async () => {
   assert.equal(new Set(catalog.map(tool => tool.slug)).size, catalog.length);
   for (const tool of tools) {
+    assert.ok(categories.includes(tool.category), `${tool.name} has a filterable category`);
     assert.ok(tool.command?.trim());
     assert.ok(tool.example?.includes(tool.command.split(' ')[0]));
     assert.ok(tool.useCase && tool.agentUse);

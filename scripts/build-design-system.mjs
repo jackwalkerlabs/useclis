@@ -3,6 +3,14 @@ import { createHash } from 'node:crypto';
 import ts from 'typescript';
 
 const root = new URL('../design-system/', import.meta.url);
+const checkOnly = process.argv.includes('--check');
+const stale = [];
+async function emit(path, contents) {
+  const url = new URL(path, root);
+  if (!checkOnly) return writeFile(url, contents);
+  const previous = await readFile(url, 'utf8').catch(() => '');
+  if (previous !== contents) stale.push(path);
+}
 const manifest = JSON.parse(await readFile(new URL('_ds_manifest.json', root)));
 const sourceHashes = {};
 const chunks = [];
@@ -40,10 +48,15 @@ for (const entry of manifest.startingPoints) {
   if (entry.name === 'SourceBadge') Object.assign(entry, { section: 'Data', subtitle: 'Repository data source' });
 }
 const metadata = { format: 4, namespace: manifest.namespace, components, sourceHashes, inlinedExternals: [], unexposedExports: [] };
-await writeFile(new URL('_ds_manifest.json', root), JSON.stringify(manifest, null, 2) + '\n');
-await writeFile(new URL('_ds_bundle.js', root), `/* @ds-bundle: ${JSON.stringify(metadata)} */\nwindow.UseclisDesignSystem = {};\n${chunks.join('\n')}\n`);
+await emit('_ds_manifest.json', JSON.stringify(manifest, null, 2) + '\n');
+await emit('_ds_bundle.js', `/* @ds-bundle: ${JSON.stringify(metadata)} */\nwindow.UseclisDesignSystem = {};\n${chunks.join('\n')}\n`);
 const catalog = JSON.parse(await readFile(new URL('../src/data/catalog.json', import.meta.url)));
 const repositories = JSON.parse(await readFile(new URL('../src/data/repositories.json', import.meta.url)));
 const tools = catalog.map(tool => ({ ...tool, stars: repositories[tool.slug]?.stars ?? null, license: repositories[tool.slug]?.license ?? null, checkedAt: repositories[tool.slug]?.checkedAt ?? null }));
-await writeFile(new URL('ui_kits/web/data.js', root), `// Generated from the checked-in catalog and repository snapshots.\nwindow.USECLIS_DATA = ${JSON.stringify({ tools, categories: [...new Set(tools.map(tool => tool.category))] }, null, 2)};\n`);
-console.log(`Built ${components.length} useclis components and ${tools.length} CLI preview entries.`);
+await emit('ui_kits/web/data.js', `// Generated from the checked-in catalog and repository snapshots.\nwindow.USECLIS_DATA = ${JSON.stringify({ tools, categories: [...new Set(tools.map(tool => tool.category))] }, null, 2)};\n`);
+if (stale.length) {
+  console.error(`Stale design-system files: ${stale.join(', ')}. Run npm run build:design-system.`);
+  process.exitCode = 1;
+} else {
+  console.log(`${checkOnly ? 'Verified' : 'Built'} ${components.length} useclis components and ${tools.length} CLI preview entries.`);
+}

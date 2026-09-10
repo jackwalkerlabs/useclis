@@ -2,10 +2,10 @@
 
 ## Before making the repository public
 
-- Choose the app license and add its full text as `LICENSE`. MIT is proposed, awaiting the owner's choice.
-- Confirm permission to redistribute the supplied `design-system/` bundle, or replace it with independently authored implementation files. See [third-party materials](../THIRD_PARTY.md).
-- Choose the GitHub owner and create the public `useclis` repository. This checkout currently has no remote; the initial commit contains no app files.
-- Review files before the first commit. Credentials, build output, local validation artifacts, and dependencies are ignored. The initial pattern scan found no matching token/private-key/personal-path patterns; that scan is not a guarantee.
+- useclis code and the AI-generated `design-system/` bundle belong to this repository and use MIT; the full license is in `LICENSE`. Preserve the separate [third-party notices](../THIRD_PARTY.md).
+- Use `jackwalkerlabs/useclis` with Issues enabled for submissions. For forks without an issue destination, set `PUBLIC_SUBMISSIONS_REPO` to an empty value to offer draft downloads.
+- Push only `main` for the intended single-commit initial history; local recovery branches contain earlier snapshots.
+- Review files and Git history before the first public push. Credentials, build output, local validation artifacts, and dependencies are ignored. The initial pattern scan found no matching token/private-key/personal-path patterns; that scan is not a guarantee.
 - Finish the real-browser desktop/mobile check. Automated component tests and production HTTP checks pass, but Chrome access is currently blocked by the local CUA grant.
 - Branding is `useclis` across the app, package, Worker, and design system. Existing Openrepo bookmarks migrate to the new browser storage key.
 
@@ -23,6 +23,7 @@ Connect the public repository in Cloudflare Workers Builds and use:
 | Build command | `npm run build` |
 | Deploy command | `npx wrangler deploy` |
 | Build environment | `SITE_URL=https://useclis.com` |
+| Submission repository | `PUBLIC_SUBMISSIONS_REPO=jackwalkerlabs/useclis` (also the app default) |
 
 `SITE_URL` must be a build environment variable, not just a runtime Worker variable. It produces the canonical URLs, robots sitemap reference, and sitemap. To verify locally, run `SITE_URL=https://useclis.com npm run build`, then `npm run check:links` and `npx wrangler deploy --dry-run`.
 
@@ -38,4 +39,4 @@ The validation workflow runs on pushes and pull requests without deployment cred
 
 ## Launch checks
 
-Verify HTTPS, homepage search/filter/save, a CLI detail page and copy button, mobile navigation, the 404 response, canonical URLs, `/sitemap-index.xml`, `/robots.txt`, and snapshot freshness on useclis.com. Publishing the repository and deploying the domain are separate actions; neither has happened yet.
+Verify HTTPS, homepage search/filter/save, a CLI detail page and copy button, mobile navigation, the 404 response, canonical URLs, `/sitemap-index.xml`, `/robots.txt`, and snapshot freshness on useclis.com. Publishing the repository and deploying the domain are separate actions; publishing alone does not deploy the site.
