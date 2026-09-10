@@ -128,3 +128,7 @@
   .leaderboard-filters { grid-template-columns: minmax(0, 1fr); }
   .leaderboard-filters select[aria-label="Sort tools"] { max-width: none; }
 }
+
+/* Source selection remains usable alongside sorting and activity dates. */
+.useclis-leaderboard > .useclis-section-heading { flex-wrap: wrap; }
+.leaderboard-filters { flex-wrap: wrap; justify-content: flex-end; min-width: 0; }

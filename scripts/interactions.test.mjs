@@ -43,6 +43,42 @@ const bookmarkTools = ['github-cli', 'ripgrep', 'jq'].map(slug => {
   return tool;
 });
 
+test('Download source selection keeps counts, ranking, URLs and mobile detail links aligned', async () => {
+  const user = userEvent.setup();
+  const fixture = ['wrangler', 'aider', 'github-cli'].map(slug => tools.find(tool => tool.slug === slug));
+  window.history.replaceState(null, '', '/?sort=npm&downloads=pypi');
+  render(h(Directory, { tools: fixture }));
+  const source = screen.getByRole('combobox', { name: 'Download source' });
+  const sort = screen.getByRole('combobox', { name: 'Sort tools' });
+  assert.equal(source.value, 'npm');
+  assert.equal(rows()[0], 'Wrangler');
+  assert.equal(document.querySelector('tbody a.brew-count').getAttribute('href'), '/tools/wrangler/#downloads-npm');
+  assert.equal(document.querySelector('tbody a.mobile-brew').getAttribute('href'), '/tools/wrangler/#downloads-npm');
+  await user.selectOptions(source, 'pypi');
+  assert.equal(sort.value, 'pypi');
+  assert.equal(rows()[0], 'Aider');
+  assert.equal(new URLSearchParams(window.location.search).get('downloads'), 'pypi');
+  await user.selectOptions(sort, 'github');
+  assert.equal(source.value, 'github');
+  assert.equal(rows()[0], 'GitHub CLI');
+  assert.match(document.querySelector('.brew-column button').textContent, /GitHub binary downloads · cumulative/);
+  assert.match(document.querySelector('tbody a.brew-count').title, /cumulative/);
+  await user.selectOptions(sort, 'stars');
+  await user.selectOptions(source, 'npm');
+  assert.equal(sort.value, 'stars');
+  fireEvent.click(document.querySelector('.brew-column button'));
+  assert.equal(sort.value, 'npm');
+  await act(async () => {
+    window.history.pushState(null, '', '/?downloads=github');
+    window.dispatchEvent(new window.PopStateEvent('popstate'));
+  });
+  assert.equal(sort.value, 'stars');
+  assert.equal(source.value, 'github');
+  cleanup();
+  render(h(Directory, { tools: fixture }));
+  assert.equal(screen.getByRole('combobox', { name: 'Download source' }).value, 'github');
+});
+
 test('Homebrew ranking restores URLs, puts missing counts after zero, and links to detailed statistics', async () => {
   const user = userEvent.setup();
   const base = tools.find(tool => tool.slug === 'github-cli');
