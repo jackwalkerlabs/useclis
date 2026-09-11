@@ -4979,6 +4979,44 @@ window.USECLIS_DATA = {
       "stars": 767,
       "license": "GPL-2.0",
       "checkedAt": "2026-09-11T19:44:34.335Z"
+    },
+    {
+      "slug": "letsfg-letsfg",
+      "name": "LetsFG",
+      "repo": "LetsFG/LetsFG",
+      "category": "Agents & models",
+      "command": "letsfg",
+      "useCase": "Agent-native flight & hotel search and booking — MCP server, CLI, and Python/JS SDKs. Hundreds of airlines plus the major booking sites, with per-flight reliability history. Free-cancellation hotel rates: hold the room with a small upfront charge, then pay the balance later by link, up to the hotel's own deadline.",
+      "description": "Agent-native flight & hotel search and booking — MCP server, CLI, and Python/JS SDKs. Hundreds of airlines plus the major booking sites, with per-flight reliability history. Free-cancellation hotel rates: hold the room with a small upfront charge, then pay the balance later by link, up to the hotel's own deadline.",
+      "agentUse": "Invoke letsfg from a shell for the documented use case: Agent-native flight & hotel search and booking — MCP server, CLI, and Python/JS SDKs. Hundreds of airlines plus the major booking sites, with per-flight reliability history. Free-cancellation hotel rates: hold the room with a small upfront charge, then pay the balance later by link, up to the hotel's own deadline.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "letsfg search LHR BCN 2026-06-15",
+      "website": "https://github.com/LetsFG/LetsFG",
+      "docs": "https://github.com/LetsFG/LetsFG/blob/7023e687c16aa6ecf7e7d9e12b97af09e3626b4c/README.md",
+      "stars": 2004,
+      "license": null,
+      "checkedAt": "2026-09-11T21:44:01.568Z"
+    },
+    {
+      "slug": "auriti-labs-geo-optimizer-skill",
+      "name": "geo-optimizer-skill",
+      "repo": "Auriti-Labs/geo-optimizer-skill",
+      "category": "Agents & models",
+      "command": "geo",
+      "useCase": "Open-source Answer Engine Optimization (AEO) & Generative Engine Optimization (GEO) toolkit — audit, optimize & track whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site. AI SEO / LLM SEO. CLI, Python, MCP, Astro.",
+      "description": "Open-source Answer Engine Optimization (AEO) & Generative Engine Optimization (GEO) toolkit — audit, optimize & track whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site. AI SEO / LLM SEO. CLI, Python, MCP, Astro.",
+      "agentUse": "Invoke geo from a shell for the documented use case: Open-source Answer Engine Optimization (AEO) & Generative Engine Optimization (GEO) toolkit — audit, optimize & track whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site. AI SEO / LLM SEO. CLI, Python, MCP, Astro.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "geo audit --url https://yoursite.com",
+      "website": "https://github.com/Auriti-Labs/geo-optimizer-skill",
+      "docs": "https://github.com/Auriti-Labs/geo-optimizer-skill/blob/463ad7097e8585cb8c9969a03dd12fde78827454/README.md",
+      "stars": 791,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T21:44:02.260Z"
     }
   ],
   "categories": [

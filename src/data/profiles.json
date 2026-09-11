@@ -2598,5 +2598,31 @@
     "createdAt": "2009-08-21T05:08:07Z",
     "checkedAt": "2026-09-11T19:44:41.282Z",
     "source": "https://github.com/wez"
+  },
+  "letsfg": {
+    "login": "LetsFG",
+    "name": "LetsFG",
+    "type": "Organization",
+    "bio": "Make everyone feel like they're your only customer",
+    "location": "United States of America",
+    "website": "https://letsfg.co/",
+    "followers": 10,
+    "publicRepos": 1,
+    "createdAt": "2025-07-09T09:35:10Z",
+    "checkedAt": "2026-09-11T21:44:04.332Z",
+    "source": "https://github.com/LetsFG"
+  },
+  "auriti-labs": {
+    "login": "Auriti-Labs",
+    "name": "Auriti Labs",
+    "type": "Organization",
+    "bio": "Open-source AI infrastructure. GEO visibility + persistent memory systems.",
+    "location": "Italy",
+    "website": "https://auritidesign.it",
+    "followers": 16,
+    "publicRepos": 7,
+    "createdAt": "2026-02-25T08:14:16Z",
+    "checkedAt": "2026-09-11T21:44:04.694Z",
+    "source": "https://github.com/Auriti-Labs"
   }
 }

@@ -4,160 +4,6 @@
   "brewOffset": 80,
   "pending": [
     {
-      "repo": "jdx/aube",
-      "formula": "aube"
-    },
-    {
-      "repo": "can4hou6joeng4/boss-agent-cli"
-    },
-    {
-      "repo": "mvanhorn/cli-printing-press"
-    },
-    {
-      "repo": "longbridge/longbridge-terminal"
-    },
-    {
-      "repo": "MorpheApp/morphe-desktop"
-    },
-    {
-      "repo": "HUANGCHIHHUNGLeo/claude-real-video"
-    },
-    {
-      "repo": "borkdude/jet"
-    },
-    {
-      "repo": "continuedev/continue"
-    },
-    {
-      "repo": "LetsFG/LetsFG"
-    },
-    {
-      "repo": "agentrhq/webcmd"
-    },
-    {
-      "repo": "AltimateAI/altimate-code"
-    },
-    {
-      "repo": "AtomicBot-ai/atomic-agent"
-    },
-    {
-      "repo": "jeecgboot/JeecgBoot"
-    },
-    {
-      "repo": "KnockOutEZ/wigolo"
-    },
-    {
-      "repo": "ivan-hc/AM"
-    },
-    {
-      "repo": "MemTensor/memmy-agent"
-    },
-    {
-      "repo": "tomasz-tomczyk/crit"
-    },
-    {
-      "repo": "shadcn-labs/termcn"
-    },
-    {
-      "repo": "oomol-lab/open-connector"
-    },
-    {
-      "repo": "gptme/gptme"
-    },
-    {
-      "repo": "kenryu42/cc-safety-net"
-    },
-    {
-      "repo": "HiThink-Tech/Financial-API"
-    },
-    {
-      "repo": "GitoxideLabs/gitoxide"
-    },
-    {
-      "repo": "bitrise-io/bitrise"
-    },
-    {
-      "repo": "emanuele-em/proxelar"
-    },
-    {
-      "repo": "SynkraAI/aiox-core"
-    },
-    {
-      "repo": "docker/cli"
-    },
-    {
-      "repo": "tuna-f1sh/cyme"
-    },
-    {
-      "repo": "UI5/cli"
-    },
-    {
-      "repo": "atomicstrata/llm-wiki-compiler"
-    },
-    {
-      "repo": "dahlia/optique"
-    },
-    {
-      "repo": "Mininglamp-OSS/octo-cli"
-    },
-    {
-      "repo": "Bayselonarrend/OpenIntegrations"
-    },
-    {
-      "repo": "knowsuchagency/mcp2cli"
-    },
-    {
-      "repo": "projectdiscovery/httpx"
-    },
-    {
-      "repo": "tqdm/tqdm"
-    },
-    {
-      "repo": "Storybloq/storybloq"
-    },
-    {
-      "repo": "topgrade-rs/topgrade"
-    },
-    {
-      "repo": "darkroomengineering/satus"
-    },
-    {
-      "repo": "qawolf/cli"
-    },
-    {
-      "repo": "kucherenko/jscpd"
-    },
-    {
-      "repo": "noborus/ov"
-    },
-    {
-      "repo": "unkn0wn-root/resterm"
-    },
-    {
-      "repo": "AaronL725/grok-register"
-    },
-    {
-      "repo": "vinhnx/VTCode"
-    },
-    {
-      "repo": "microsoft/BuildXL"
-    },
-    {
-      "repo": "sherlock-project/sherlock"
-    },
-    {
-      "repo": "career-ops-hq/career-ops"
-    },
-    {
-      "repo": "Manavarya09/design-extract"
-    },
-    {
-      "repo": "kdabir/has"
-    },
-    {
-      "repo": "Auriti-Labs/geo-optimizer-skill"
-    },
-    {
       "repo": "beetbox/beets"
     },
     {
@@ -3009,7 +2855,261 @@
       "status": "held",
       "checkedAt": "2026-09-11T19:43:50.709Z",
       "reason": "Possible graphical application or launcher"
+    },
+    "jdx/aube": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Repository unavailable or renamed"
+    },
+    "mvanhorn/cli-printing-press": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "longbridge/longbridge-terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "morpheapp/morphe-desktop": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "huangchihhungleo/claude-real-video": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "borkdude/jet": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "continuedev/continue": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "letsfg/letsfg": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "GitHub stars",
+      "slug": "letsfg-letsfg",
+      "acceptedAt": "2026-09-11T21:43:33.440Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/LetsFG/LetsFG/blob/7023e687c16aa6ecf7e7d9e12b97af09e3626b4c/sdk/python/pyproject.toml",
+          "snippet": "letsfg = \"letsfg.cli:main\"",
+          "target": "sdk/python/letsfg/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/LetsFG/LetsFG/blob/7023e687c16aa6ecf7e7d9e12b97af09e3626b4c/README.md",
+          "snippet": "pip install letsfg"
+        },
+        "usage": {
+          "url": "https://github.com/LetsFG/LetsFG/blob/7023e687c16aa6ecf7e7d9e12b97af09e3626b4c/README.md",
+          "snippet": "letsfg search LHR BCN 2026-06-15"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/LetsFG/LetsFG",
+          "snippet": "Agent-native flight & hotel search and booking — MCP server, CLI, and Python/JS SDKs. Hundreds of airlines plus the major booking sites, with per-flight reliability history. Free-cancellation hotel rates: hold the room with a small upfront charge, then pay the balance later by link, up to the hotel's own deadline."
+        },
+        "adoption": {
+          "stars": 2004,
+          "githubSource": "https://github.com/LetsFG/LetsFG",
+          "homebrew": null
+        },
+        "commit": "7023e687c16aa6ecf7e7d9e12b97af09e3626b4c"
+      }
+    },
+    "agentrhq/webcmd": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "altimateai/altimate-code": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "atomicbot-ai/atomic-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "knockoutez/wigolo": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ivan-hc/am": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "memtensor/memmy-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "shadcn-labs/termcn": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "oomol-lab/open-connector": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kenryu42/cc-safety-net": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hithink-tech/financial-api": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gitoxidelabs/gitoxide": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bitrise-io/bitrise": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "emanuele-em/proxelar": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "synkraai/aiox-core": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tuna-f1sh/cyme": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ui5/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "atomicstrata/llm-wiki-compiler": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bayselonarrend/openintegrations": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "knowsuchagency/mcp2cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "projectdiscovery/httpx": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tqdm/tqdm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "storybloq/storybloq": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "topgrade-rs/topgrade": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "darkroomengineering/satus": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "qawolf/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kucherenko/jscpd": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "unkn0wn-root/resterm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "aaronl725/grok-register": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "sherlock-project/sherlock": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "career-ops-hq/career-ops": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kdabir/has": {
+      "status": "held",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "auriti-labs/geo-optimizer-skill": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T21:43:33.440Z",
+      "reason": "GitHub stars",
+      "slug": "auriti-labs-geo-optimizer-skill",
+      "acceptedAt": "2026-09-11T21:43:33.440Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Auriti-Labs/geo-optimizer-skill/blob/463ad7097e8585cb8c9969a03dd12fde78827454/pyproject.toml",
+          "snippet": "geo = \"geo_optimizer.cli.main:cli\"",
+          "target": "src/geo_optimizer/cli/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/Auriti-Labs/geo-optimizer-skill/blob/463ad7097e8585cb8c9969a03dd12fde78827454/README.md",
+          "snippet": "pip install geo-optimizer-skill"
+        },
+        "usage": {
+          "url": "https://github.com/Auriti-Labs/geo-optimizer-skill/blob/463ad7097e8585cb8c9969a03dd12fde78827454/README.md",
+          "snippet": "geo audit --url https://yoursite.com"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Auriti-Labs/geo-optimizer-skill",
+          "snippet": "Open-source Answer Engine Optimization (AEO) & Generative Engine Optimization (GEO) toolkit — audit, optimize & track whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site. AI SEO / LLM SEO. CLI, Python, MCP, Astro."
+        },
+        "adoption": {
+          "stars": 791,
+          "githubSource": "https://github.com/Auriti-Labs/geo-optimizer-skill",
+          "homebrew": null
+        },
+        "commit": "463ad7097e8585cb8c9969a03dd12fde78827454"
+      }
     }
   },
-  "lastRunAt": "2026-09-11T19:43:50.709Z"
+  "lastRunAt": "2026-09-11T21:43:33.440Z"
 }
