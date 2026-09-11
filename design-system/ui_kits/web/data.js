@@ -5036,6 +5036,44 @@ window.USECLIS_DATA = {
       "stars": 690,
       "license": "MIT",
       "checkedAt": "2026-09-11T22:43:45.933Z"
+    },
+    {
+      "slug": "git-bahn-git-graph",
+      "name": "git-graph",
+      "repo": "git-bahn/git-graph",
+      "category": "Git & collaboration",
+      "command": "git-graph",
+      "useCase": "Command line tool to show clear git graphs arranged for your branching model",
+      "description": "Command line tool to show clear git graphs arranged for your branching model",
+      "agentUse": "Invoke git-graph from a shell for the documented use case: Command line tool to show clear git graphs arranged for your branching model",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "git-graph --model simple",
+      "website": "https://github.com/git-bahn/git-graph",
+      "docs": "https://github.com/git-bahn/git-graph/blob/aff556afb1272f12828eb66f47d3ec17c10416e5/README.md",
+      "stars": 977,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T23:43:42.340Z"
+    },
+    {
+      "slug": "kislyuk-yq",
+      "name": "yq",
+      "repo": "kislyuk/yq",
+      "category": "Data & APIs",
+      "command": "yq",
+      "useCase": "Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents",
+      "description": "Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents",
+      "agentUse": "Invoke yq from a shell for the documented use case: Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "yq -y .Resources.ElasticLoadBalancer",
+      "website": "https://github.com/kislyuk/yq",
+      "docs": "https://github.com/kislyuk/yq/blob/ff9fc4b18d0bcbfb7758ff82bf1f36b60020b48a/README.rst",
+      "stars": 2975,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-11T23:43:42.806Z"
     }
   ],
   "categories": [

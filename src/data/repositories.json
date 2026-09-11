@@ -2368,5 +2368,25 @@
     "language": "Rust",
     "checkedAt": "2026-09-11T22:43:45.933Z",
     "source": "https://github.com/Epistates/treemd"
+  },
+  "git-bahn-git-graph": {
+    "createdAt": "2020-12-07T22:40:35Z",
+    "pushedAt": "2026-08-06T21:34:02Z",
+    "lastCommitAt": "2026-08-06T21:25:03Z",
+    "stars": 977,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-11T23:43:42.340Z",
+    "source": "https://github.com/git-bahn/git-graph"
+  },
+  "kislyuk-yq": {
+    "createdAt": "2017-01-13T21:30:19Z",
+    "pushedAt": "2026-07-11T17:52:40Z",
+    "lastCommitAt": "2026-07-11T17:52:25Z",
+    "stars": 2975,
+    "license": "Apache-2.0",
+    "language": "Python",
+    "checkedAt": "2026-09-11T23:43:42.806Z",
+    "source": "https://github.com/kislyuk/yq"
   }
 }

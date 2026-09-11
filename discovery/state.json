@@ -4,132 +4,6 @@
   "brewOffset": 80,
   "pending": [
     {
-      "repo": "bellingcat/telegram-phone-number-checker"
-    },
-    {
-      "repo": "mivano/azure-cost-cli"
-    },
-    {
-      "repo": "c4spar/cliffy"
-    },
-    {
-      "repo": "remkop/picocli"
-    },
-    {
-      "repo": "jarun/imgp"
-    },
-    {
-      "repo": "jarun/ddgr"
-    },
-    {
-      "repo": "CommandCodeAI/command-code"
-    },
-    {
-      "repo": "malxau/yori"
-    },
-    {
-      "repo": "vapor/console-kit"
-    },
-    {
-      "repo": "vi/websocat"
-    },
-    {
-      "repo": "laravel-zero/laravel-zero"
-    },
-    {
-      "repo": "gerardog/gsudo"
-    },
-    {
-      "repo": "bgreenwell/lstr"
-    },
-    {
-      "repo": "git-bahn/git-graph"
-    },
-    {
-      "repo": "eza-community/eza"
-    },
-    {
-      "repo": "BurntSushi/ripgrep"
-    },
-    {
-      "repo": "wfxr/csview"
-    },
-    {
-      "repo": "python-poetry/cleo"
-    },
-    {
-      "repo": "Taywee/args"
-    },
-    {
-      "repo": "BurntSushi/bttf"
-    },
-    {
-      "repo": "toolleeo/awesome-cli-apps-in-a-csv"
-    },
-    {
-      "repo": "acrazing/dpdm"
-    },
-    {
-      "repo": "shenwei356/csvtk"
-    },
-    {
-      "repo": "bfgroup/Lyra"
-    },
-    {
-      "repo": "facebookincubator/fastmod"
-    },
-    {
-      "repo": "denisidoro/navi"
-    },
-    {
-      "repo": "git-town/git-town"
-    },
-    {
-      "repo": "lasantosr/intelli-shell"
-    },
-    {
-      "repo": "sindresorhus/yoctocolors"
-    },
-    {
-      "repo": "sindresorhus/meow"
-    },
-    {
-      "repo": "sindresorhus/conf"
-    },
-    {
-      "repo": "mrusme/neonmodem"
-    },
-    {
-      "repo": "cdleon/awesome-terminals"
-    },
-    {
-      "repo": "anthonyraymond/joal"
-    },
-    {
-      "repo": "learnbyexample/scripting_course"
-    },
-    {
-      "repo": "JosephLai241/URS"
-    },
-    {
-      "repo": "kislyuk/yq"
-    },
-    {
-      "repo": "spf13/cobra"
-    },
-    {
-      "repo": "go-shiori/shiori"
-    },
-    {
-      "repo": "lirantal/nodejs-cli-apps-best-practices"
-    },
-    {
-      "repo": "nosarthur/gita"
-    },
-    {
-      "repo": "humbug/php-scoper"
-    },
-    {
       "repo": "jrswab/axe"
     },
     {
@@ -3180,7 +3054,261 @@
       "status": "held",
       "checkedAt": "2026-09-11T22:43:31.776Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "bellingcat/telegram-phone-number-checker": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mivano/azure-cost-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "c4spar/cliffy": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "remkop/picocli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jarun/imgp": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jarun/ddgr": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "commandcodeai/command-code": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "malxau/yori": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vapor/console-kit": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vi/websocat": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "laravel-zero/laravel-zero": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gerardog/gsudo": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bgreenwell/lstr": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "git-bahn/git-graph": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "GitHub stars",
+      "slug": "git-bahn-git-graph",
+      "acceptedAt": "2026-09-11T23:43:28.624Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/git-bahn/git-graph/blob/aff556afb1272f12828eb66f47d3ec17c10416e5/Cargo.toml",
+          "snippet": "package.name=\"git-graph\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/git-bahn/git-graph/blob/aff556afb1272f12828eb66f47d3ec17c10416e5/README.md",
+          "snippet": "cargo install git-graph"
+        },
+        "usage": {
+          "url": "https://github.com/git-bahn/git-graph/blob/aff556afb1272f12828eb66f47d3ec17c10416e5/README.md",
+          "snippet": "git-graph --model simple"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/git-bahn/git-graph",
+          "snippet": "Command line tool to show clear git graphs arranged for your branching model"
+        },
+        "adoption": {
+          "stars": 977,
+          "githubSource": "https://github.com/git-bahn/git-graph",
+          "homebrew": null
+        },
+        "commit": "aff556afb1272f12828eb66f47d3ec17c10416e5"
+      }
+    },
+    "eza-community/eza": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wfxr/csview": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "python-poetry/cleo": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "taywee/args": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "burntsushi/bttf": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "toolleeo/awesome-cli-apps-in-a-csv": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "acrazing/dpdm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "shenwei356/csvtk": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bfgroup/lyra": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "facebookincubator/fastmod": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "denisidoro/navi": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lasantosr/intelli-shell": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sindresorhus/yoctocolors": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sindresorhus/meow": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sindresorhus/conf": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mrusme/neonmodem": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cdleon/awesome-terminals": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "anthonyraymond/joal": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "learnbyexample/scripting_course": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "josephlai241/urs": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kislyuk/yq": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "GitHub stars",
+      "slug": "kislyuk-yq",
+      "acceptedAt": "2026-09-11T23:43:28.624Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/kislyuk/yq/blob/ff9fc4b18d0bcbfb7758ff82bf1f36b60020b48a/pyproject.toml",
+          "snippet": "yq = \"yq:cli\"",
+          "target": "yq/__init__.py"
+        },
+        "installation": {
+          "url": "https://github.com/kislyuk/yq/blob/ff9fc4b18d0bcbfb7758ff82bf1f36b60020b48a/README.rst",
+          "snippet": "pip install yq"
+        },
+        "usage": {
+          "url": "https://github.com/kislyuk/yq/blob/ff9fc4b18d0bcbfb7758ff82bf1f36b60020b48a/README.rst",
+          "snippet": "yq -y .Resources.ElasticLoadBalancer"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kislyuk/yq",
+          "snippet": "Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents"
+        },
+        "adoption": {
+          "stars": 2975,
+          "githubSource": "https://github.com/kislyuk/yq",
+          "homebrew": null
+        },
+        "commit": "ff9fc4b18d0bcbfb7758ff82bf1f36b60020b48a"
+      }
+    },
+    "spf13/cobra": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "go-shiori/shiori": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lirantal/nodejs-cli-apps-best-practices": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nosarthur/gita": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "humbug/php-scoper": {
+      "status": "held",
+      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-11T22:43:31.776Z"
+  "lastRunAt": "2026-09-11T23:43:28.624Z"
 }
