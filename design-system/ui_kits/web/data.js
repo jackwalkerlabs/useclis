@@ -4865,6 +4865,120 @@ window.USECLIS_DATA = {
       "stars": 3021,
       "license": "MIT",
       "checkedAt": "2026-09-11T18:44:00.811Z"
+    },
+    {
+      "slug": "openosint-openosint",
+      "name": "OpenOSINT",
+      "repo": "OpenOSINT/OpenOSINT",
+      "category": "Agents & models",
+      "command": "openosint",
+      "useCase": "AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 19 tools. Works with Claude, GPT-4, or local models. For authorized security research only.",
+      "description": "AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 19 tools. Works with Claude, GPT-4, or local models. For authorized security research only.",
+      "agentUse": "Invoke openosint from a shell for the documented use case: AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 19 tools. Works with Claude, GPT-4, or local models. For authorized security research only.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "openosint web",
+      "website": "https://github.com/OpenOSINT/OpenOSINT",
+      "docs": "https://github.com/OpenOSINT/OpenOSINT/blob/6bfd34b622346983e4bb3410688c0a516cc9397c/README.md",
+      "stars": 1558,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T19:44:29.461Z"
+    },
+    {
+      "slug": "rorkai-app-store-connect-cli",
+      "name": "App-Store-Connect-CLI",
+      "repo": "rorkai/App-Store-Connect-CLI",
+      "category": "Data & APIs",
+      "command": "asc",
+      "useCase": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+      "agentUse": "Invoke asc from a shell for the documented use case: Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "asc install-skills",
+      "website": "https://github.com/rorkai/App-Store-Connect-CLI",
+      "docs": "https://github.com/rorkai/App-Store-Connect-CLI/blob/21af85d7d87e364a188bcb9e062522517de4cd6a/README.md",
+      "stars": 7197,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T19:44:30.123Z"
+    },
+    {
+      "slug": "q00-ouroboros",
+      "name": "ouroboros",
+      "repo": "Q00/ouroboros",
+      "category": "Agents & models",
+      "command": "ooo",
+      "useCase": "Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 14 runtimes: Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, Kiro and more.",
+      "description": "Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 14 runtimes: Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, Kiro and more.",
+      "agentUse": "Invoke ooo from a shell for the documented use case: Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 14 runtimes: Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, Kiro and more.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ooo setup",
+      "website": "https://github.com/Q00/ouroboros",
+      "docs": "https://github.com/Q00/ouroboros/blob/1c96832803add472b7b1ec6a01d92a266c60cd82/README.md",
+      "stars": 5809,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T19:44:30.696Z"
+    },
+    {
+      "slug": "mindmuxai-brain-md",
+      "name": "brain.md",
+      "repo": "mindmuxai/brain.md",
+      "category": "Files & documents",
+      "command": "brain",
+      "useCase": "A persistent, file-based memory layer for coding agents — give Claude Code, Codex & others a project brain (durable decisions, requirements, constraints) via a zero-dependency CLI.",
+      "description": "A persistent, file-based memory layer for coding agents — give Claude Code, Codex & others a project brain (durable decisions, requirements, constraints) via a zero-dependency CLI.",
+      "agentUse": "Invoke brain from a shell for the documented use case: A persistent, file-based memory layer for coding agents — give Claude Code, Codex & others a project brain (durable decisions, requirements, constraints) via a zero-dependency CLI.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "brain setup -y",
+      "website": "https://github.com/mindmuxai/brain.md",
+      "docs": "https://github.com/mindmuxai/brain.md/blob/8064f3334cfa465129d42668ba271ef71a53dc71/README.md",
+      "stars": 541,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-11T19:44:31.877Z"
+    },
+    {
+      "slug": "astronomer-astro-cli",
+      "name": "astro-cli",
+      "repo": "astronomer/astro-cli",
+      "category": "Cloud & deployment",
+      "command": "astro",
+      "useCase": "CLI that makes it easy to create, test and deploy Airflow DAGs to Astronomer",
+      "description": "CLI that makes it easy to create, test and deploy Airflow DAGs to Astronomer",
+      "agentUse": "Invoke astro from a shell for the documented use case: CLI that makes it easy to create, test and deploy Airflow DAGs to Astronomer",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "astro dev init",
+      "website": "https://github.com/astronomer/astro-cli",
+      "docs": "https://github.com/astronomer/astro-cli/blob/25bbf2d1c16a4e01b040738a965177014fc1ff2b/README.md",
+      "stars": 460,
+      "license": null,
+      "checkedAt": "2026-09-11T19:44:33.109Z"
+    },
+    {
+      "slug": "wez-atomicparsley",
+      "name": "atomicparsley",
+      "repo": "wez/atomicparsley",
+      "category": "Files & documents",
+      "command": "AtomicParsley",
+      "useCase": "AtomicParsley is a lightweight command line program for reading, parsing and setting metadata into MPEG-4 files, in particular, iTunes-style metadata.",
+      "description": "AtomicParsley is a lightweight command line program for reading, parsing and setting metadata into MPEG-4 files, in particular, iTunes-style metadata.",
+      "agentUse": "Invoke AtomicParsley from a shell for the documented use case: AtomicParsley is a lightweight command line program for reading, parsing and setting metadata into MPEG-4 files, in particular, iTunes-style metadata.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "AtomicParsley quick help for setting iTunes-style metadata into MPEG-4 files.",
+      "website": "https://github.com/wez/atomicparsley",
+      "docs": "https://github.com/wez/atomicparsley/blob/1ca825de2b92d0eadf29b2f7d781399796528b7c/README.md",
+      "stars": 767,
+      "license": "GPL-2.0",
+      "checkedAt": "2026-09-11T19:44:34.335Z"
     }
   ],
   "categories": [

@@ -317,5 +317,17 @@
   "aliyun-aliyun-cli": {
     "formula": "aliyun-cli",
     "repo": "aliyun/aliyun-cli"
+  },
+  "rorkai-app-store-connect-cli": {
+    "formula": "asc",
+    "repo": "rorkai/App-Store-Connect-CLI"
+  },
+  "astronomer-astro-cli": {
+    "formula": "astro",
+    "repo": "astronomer/astro-cli"
+  },
+  "wez-atomicparsley": {
+    "formula": "atomicparsley",
+    "repo": "wez/atomicparsley"
   }
 }

@@ -1104,5 +1104,47 @@
     "checkedAt": "2026-09-10T11:20:58.991Z",
     "generatedDate": "2026-09-10",
     "status": "ok"
+  },
+  "rorkai-app-store-connect-cli": {
+    "formula": "asc",
+    "repo": "rorkai/App-Store-Connect-CLI",
+    "source": "https://formulae.brew.sh/api/formula/asc.json",
+    "attemptedAt": "2026-09-11T19:44:36.591Z",
+    "counts": {
+      "30d": 2281,
+      "90d": 5788,
+      "365d": 11294
+    },
+    "checkedAt": "2026-09-11T19:44:36.591Z",
+    "generatedDate": "2026-09-11",
+    "status": "ok"
+  },
+  "astronomer-astro-cli": {
+    "formula": "astro",
+    "repo": "astronomer/astro-cli",
+    "source": "https://formulae.brew.sh/api/formula/astro.json",
+    "attemptedAt": "2026-09-11T19:44:36.626Z",
+    "counts": {
+      "30d": 442,
+      "90d": 2069,
+      "365d": 8456
+    },
+    "checkedAt": "2026-09-11T19:44:36.626Z",
+    "generatedDate": "2026-09-11",
+    "status": "ok"
+  },
+  "wez-atomicparsley": {
+    "formula": "atomicparsley",
+    "repo": "wez/atomicparsley",
+    "source": "https://formulae.brew.sh/api/formula/atomicparsley.json",
+    "attemptedAt": "2026-09-11T19:44:36.627Z",
+    "counts": {
+      "30d": 129,
+      "90d": 448,
+      "365d": 2013
+    },
+    "checkedAt": "2026-09-11T19:44:36.627Z",
+    "generatedDate": "2026-09-11",
+    "status": "ok"
   }
 }

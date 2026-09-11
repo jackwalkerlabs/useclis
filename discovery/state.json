@@ -1,8 +1,814 @@
 {
   "version": 1,
-  "searchPage": 2,
-  "brewOffset": 40,
-  "pending": [],
+  "searchPage": 3,
+  "brewOffset": 80,
+  "pending": [
+    {
+      "repo": "jdx/aube",
+      "formula": "aube"
+    },
+    {
+      "repo": "can4hou6joeng4/boss-agent-cli"
+    },
+    {
+      "repo": "mvanhorn/cli-printing-press"
+    },
+    {
+      "repo": "longbridge/longbridge-terminal"
+    },
+    {
+      "repo": "MorpheApp/morphe-desktop"
+    },
+    {
+      "repo": "HUANGCHIHHUNGLeo/claude-real-video"
+    },
+    {
+      "repo": "borkdude/jet"
+    },
+    {
+      "repo": "continuedev/continue"
+    },
+    {
+      "repo": "LetsFG/LetsFG"
+    },
+    {
+      "repo": "agentrhq/webcmd"
+    },
+    {
+      "repo": "AltimateAI/altimate-code"
+    },
+    {
+      "repo": "AtomicBot-ai/atomic-agent"
+    },
+    {
+      "repo": "jeecgboot/JeecgBoot"
+    },
+    {
+      "repo": "KnockOutEZ/wigolo"
+    },
+    {
+      "repo": "ivan-hc/AM"
+    },
+    {
+      "repo": "MemTensor/memmy-agent"
+    },
+    {
+      "repo": "tomasz-tomczyk/crit"
+    },
+    {
+      "repo": "shadcn-labs/termcn"
+    },
+    {
+      "repo": "oomol-lab/open-connector"
+    },
+    {
+      "repo": "gptme/gptme"
+    },
+    {
+      "repo": "kenryu42/cc-safety-net"
+    },
+    {
+      "repo": "HiThink-Tech/Financial-API"
+    },
+    {
+      "repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "repo": "bitrise-io/bitrise"
+    },
+    {
+      "repo": "emanuele-em/proxelar"
+    },
+    {
+      "repo": "SynkraAI/aiox-core"
+    },
+    {
+      "repo": "docker/cli"
+    },
+    {
+      "repo": "tuna-f1sh/cyme"
+    },
+    {
+      "repo": "UI5/cli"
+    },
+    {
+      "repo": "atomicstrata/llm-wiki-compiler"
+    },
+    {
+      "repo": "dahlia/optique"
+    },
+    {
+      "repo": "Mininglamp-OSS/octo-cli"
+    },
+    {
+      "repo": "Bayselonarrend/OpenIntegrations"
+    },
+    {
+      "repo": "knowsuchagency/mcp2cli"
+    },
+    {
+      "repo": "projectdiscovery/httpx"
+    },
+    {
+      "repo": "tqdm/tqdm"
+    },
+    {
+      "repo": "Storybloq/storybloq"
+    },
+    {
+      "repo": "topgrade-rs/topgrade"
+    },
+    {
+      "repo": "darkroomengineering/satus"
+    },
+    {
+      "repo": "qawolf/cli"
+    },
+    {
+      "repo": "kucherenko/jscpd"
+    },
+    {
+      "repo": "noborus/ov"
+    },
+    {
+      "repo": "unkn0wn-root/resterm"
+    },
+    {
+      "repo": "AaronL725/grok-register"
+    },
+    {
+      "repo": "vinhnx/VTCode"
+    },
+    {
+      "repo": "microsoft/BuildXL"
+    },
+    {
+      "repo": "sherlock-project/sherlock"
+    },
+    {
+      "repo": "career-ops-hq/career-ops"
+    },
+    {
+      "repo": "Manavarya09/design-extract"
+    },
+    {
+      "repo": "kdabir/has"
+    },
+    {
+      "repo": "Auriti-Labs/geo-optimizer-skill"
+    },
+    {
+      "repo": "beetbox/beets"
+    },
+    {
+      "repo": "vilaca/awesome-k8s-tools"
+    },
+    {
+      "repo": "crafter-station/petdex"
+    },
+    {
+      "repo": "pypa/hatch"
+    },
+    {
+      "repo": "1jehuang/jcode"
+    },
+    {
+      "repo": "xiufengsun/TokenTracker"
+    },
+    {
+      "repo": "dotenvx/dotenvx"
+    },
+    {
+      "repo": "pikpikcu/airecon"
+    },
+    {
+      "repo": "railwayapp/cli"
+    },
+    {
+      "repo": "thClaws/thClaws"
+    },
+    {
+      "repo": "yifanfeng97/Hyper-Extract"
+    },
+    {
+      "repo": "mtkennerly/ludusavi"
+    },
+    {
+      "repo": "iOfficeAI/OfficeCLI"
+    },
+    {
+      "repo": "Epistates/treemd"
+    },
+    {
+      "repo": "FPGAwars/apio"
+    },
+    {
+      "repo": "open-cli-tools/concurrently"
+    },
+    {
+      "repo": "suzuki-shunsuke/pinact"
+    },
+    {
+      "repo": "KeyValueSoftwareSystems/agent-opfor"
+    },
+    {
+      "repo": "leo-arch/clifm"
+    },
+    {
+      "repo": "agentforce314/clawcodex"
+    },
+    {
+      "repo": "mergestat/mergestat-lite"
+    },
+    {
+      "repo": "apple/swift-argument-parser"
+    },
+    {
+      "repo": "Tyrrrz/CliFx"
+    },
+    {
+      "repo": "Tyrrrz/CliWrap"
+    },
+    {
+      "repo": "svenstaro/miniserve"
+    },
+    {
+      "repo": "orhun/halp"
+    },
+    {
+      "repo": "curl/wcurl"
+    },
+    {
+      "repo": "tavianator/bfs"
+    },
+    {
+      "repo": "cmderdev/cmder"
+    },
+    {
+      "repo": "Hejsil/zig-clap"
+    },
+    {
+      "repo": "macports/macports-base"
+    },
+    {
+      "repo": "ascii-boxes/boxes"
+    },
+    {
+      "repo": "blacknon/hwatch"
+    },
+    {
+      "repo": "julienXX/terminal-notifier"
+    },
+    {
+      "repo": "sveinbjornt/hear"
+    },
+    {
+      "repo": "orhun/menyoki"
+    },
+    {
+      "repo": "kellyjonbrazil/jc"
+    },
+    {
+      "repo": "cacjs/cac"
+    },
+    {
+      "repo": "sammy-ette/Hilbish"
+    },
+    {
+      "repo": "simeg/eureka"
+    },
+    {
+      "repo": "wp-cli/php-cli-tools"
+    },
+    {
+      "repo": "antonmedv/fx"
+    },
+    {
+      "repo": "commitizen/cz-conventional-changelog"
+    },
+    {
+      "repo": "MacPaw/cleanmymac-cli"
+    },
+    {
+      "repo": "xwmx/nb"
+    },
+    {
+      "repo": "Vanilla-OS/apx"
+    },
+    {
+      "repo": "sayanarijit/xplr"
+    },
+    {
+      "repo": "gbevin/SendMIDI"
+    },
+    {
+      "repo": "ynqa/jnv"
+    },
+    {
+      "repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "repo": "keith/reminders-cli"
+    },
+    {
+      "repo": "schollz/progressbar"
+    },
+    {
+      "repo": "bellingcat/telegram-phone-number-checker"
+    },
+    {
+      "repo": "mivano/azure-cost-cli"
+    },
+    {
+      "repo": "c4spar/cliffy"
+    },
+    {
+      "repo": "remkop/picocli"
+    },
+    {
+      "repo": "jarun/imgp"
+    },
+    {
+      "repo": "jarun/ddgr"
+    },
+    {
+      "repo": "CommandCodeAI/command-code"
+    },
+    {
+      "repo": "malxau/yori"
+    },
+    {
+      "repo": "vapor/console-kit"
+    },
+    {
+      "repo": "vi/websocat"
+    },
+    {
+      "repo": "laravel-zero/laravel-zero"
+    },
+    {
+      "repo": "gerardog/gsudo"
+    },
+    {
+      "repo": "bgreenwell/lstr"
+    },
+    {
+      "repo": "git-bahn/git-graph"
+    },
+    {
+      "repo": "eza-community/eza"
+    },
+    {
+      "repo": "BurntSushi/ripgrep"
+    },
+    {
+      "repo": "wfxr/csview"
+    },
+    {
+      "repo": "python-poetry/cleo"
+    },
+    {
+      "repo": "Taywee/args"
+    },
+    {
+      "repo": "BurntSushi/bttf"
+    },
+    {
+      "repo": "toolleeo/awesome-cli-apps-in-a-csv"
+    },
+    {
+      "repo": "acrazing/dpdm"
+    },
+    {
+      "repo": "shenwei356/csvtk"
+    },
+    {
+      "repo": "bfgroup/Lyra"
+    },
+    {
+      "repo": "facebookincubator/fastmod"
+    },
+    {
+      "repo": "denisidoro/navi"
+    },
+    {
+      "repo": "git-town/git-town"
+    },
+    {
+      "repo": "lasantosr/intelli-shell"
+    },
+    {
+      "repo": "sindresorhus/yoctocolors"
+    },
+    {
+      "repo": "sindresorhus/meow"
+    },
+    {
+      "repo": "sindresorhus/conf"
+    },
+    {
+      "repo": "mrusme/neonmodem"
+    },
+    {
+      "repo": "cdleon/awesome-terminals"
+    },
+    {
+      "repo": "anthonyraymond/joal"
+    },
+    {
+      "repo": "learnbyexample/scripting_course"
+    },
+    {
+      "repo": "JosephLai241/URS"
+    },
+    {
+      "repo": "kislyuk/yq"
+    },
+    {
+      "repo": "spf13/cobra"
+    },
+    {
+      "repo": "go-shiori/shiori"
+    },
+    {
+      "repo": "lirantal/nodejs-cli-apps-best-practices"
+    },
+    {
+      "repo": "nosarthur/gita"
+    },
+    {
+      "repo": "humbug/php-scoper"
+    },
+    {
+      "repo": "jrswab/axe"
+    },
+    {
+      "repo": "natemcmaster/CommandLineUtils"
+    },
+    {
+      "repo": "skywind3000/vim-quickui"
+    },
+    {
+      "repo": "sigoden/dufs"
+    },
+    {
+      "repo": "sigoden/argc"
+    },
+    {
+      "repo": "box-project/box"
+    },
+    {
+      "repo": "tarka/xcp"
+    },
+    {
+      "repo": "guptarohit/asciigraph"
+    },
+    {
+      "repo": "xo/usql"
+    },
+    {
+      "repo": "PatrickF1/fzf.fish"
+    },
+    {
+      "repo": "DanielSWolf/rhubarb-lip-sync"
+    },
+    {
+      "repo": "rust-shell-script/rust_cmd_lib"
+    },
+    {
+      "repo": "sstadick/hck"
+    },
+    {
+      "repo": "kaelzhang/shell-safe-rm"
+    },
+    {
+      "repo": "jotaen/klog"
+    },
+    {
+      "repo": "felangel/mason"
+    },
+    {
+      "repo": "hroptatyr/dateutils"
+    },
+    {
+      "repo": "arsham/figurine"
+    },
+    {
+      "repo": "wookayin/gpustat"
+    },
+    {
+      "repo": "Aider-AI/aider"
+    },
+    {
+      "repo": "rahiel/telegram-send"
+    },
+    {
+      "repo": "claudiodangelis/qrcp"
+    },
+    {
+      "repo": "hardikvasa/google-images-download"
+    },
+    {
+      "repo": "agauniyal/rang"
+    },
+    {
+      "repo": "naggie/dstask"
+    },
+    {
+      "repo": "ms-jpq/sad"
+    },
+    {
+      "repo": "jrnl-org/jrnl"
+    },
+    {
+      "repo": "warrensbox/terraform-switcher"
+    },
+    {
+      "repo": "bit-team/backintime"
+    },
+    {
+      "repo": "papis/papis"
+    },
+    {
+      "repo": "visit1985/mdp"
+    },
+    {
+      "repo": "shibayan/Sharprompt"
+    },
+    {
+      "repo": "danvergara/dblab"
+    },
+    {
+      "repo": "nicklockwood/SwiftFormat"
+    },
+    {
+      "repo": "Adamant-im/adamant-console"
+    },
+    {
+      "repo": "dotnet/command-line-api"
+    },
+    {
+      "repo": "jeffbski/wait-on"
+    },
+    {
+      "repo": "tox-dev/tox"
+    },
+    {
+      "repo": "spaam/svtplay-dl"
+    },
+    {
+      "repo": "jacob-bd/gemini-notebook-mcp-cli"
+    },
+    {
+      "repo": "deviceinsight/kafkactl"
+    },
+    {
+      "repo": "drush-ops/drush"
+    },
+    {
+      "repo": "Tarsnap/tarsnap"
+    },
+    {
+      "repo": "alecthomas/kong"
+    },
+    {
+      "repo": "simonw/llm"
+    },
+    {
+      "repo": "tox-dev/pipdeptree"
+    },
+    {
+      "repo": "containers/toolbox"
+    },
+    {
+      "repo": "digitalocean/doctl"
+    },
+    {
+      "repo": "jiaqi/jmxterm"
+    },
+    {
+      "repo": "oracle/oci-cli"
+    },
+    {
+      "repo": "jarro2783/cxxopts"
+    },
+    {
+      "repo": "librespeed/speedtest-cli"
+    },
+    {
+      "repo": "ARM-software/astc-encoder"
+    },
+    {
+      "repo": "equinix-labs/otel-cli"
+    },
+    {
+      "repo": "flosell/trailscraper"
+    },
+    {
+      "repo": "xo/dbtpl"
+    },
+    {
+      "repo": "foundweekends/giter8"
+    },
+    {
+      "repo": "SWE-agent/mini-swe-agent"
+    },
+    {
+      "repo": "estesp/manifest-tool"
+    },
+    {
+      "repo": "CLIUtils/CLI11"
+    },
+    {
+      "repo": "Lymphatus/caesium-clt"
+    },
+    {
+      "repo": "percona/percona-toolkit"
+    },
+    {
+      "repo": "igorshubovych/markdownlint-cli"
+    },
+    {
+      "repo": "PaulJuliusMartinez/jless"
+    },
+    {
+      "repo": "waf/CSharpRepl"
+    },
+    {
+      "repo": "copier-org/copier"
+    },
+    {
+      "repo": "fioncat/otree"
+    },
+    {
+      "repo": "rust-av/Av1an"
+    },
+    {
+      "repo": "pdfcpu/pdfcpu"
+    },
+    {
+      "repo": "mermaid-js/mermaid-cli"
+    },
+    {
+      "repo": "afc163/fanyi"
+    },
+    {
+      "repo": "sferik/x-cli"
+    },
+    {
+      "repo": "hartwork/git-delete-merged-branches"
+    },
+    {
+      "repo": "lakinduakash/linux-wifi-hotspot"
+    },
+    {
+      "repo": "boredazfcuk/docker-icloudpd"
+    },
+    {
+      "repo": "packwiz/packwiz"
+    },
+    {
+      "repo": "termux/termux-api"
+    },
+    {
+      "repo": "tinode/chat"
+    },
+    {
+      "repo": "cachix/cachix"
+    },
+    {
+      "repo": "mkideal/cli"
+    },
+    {
+      "repo": "howeyc/ledger"
+    },
+    {
+      "repo": "agarrharr/awesome-cli-apps"
+    },
+    {
+      "repo": "grpc-ecosystem/grpc-health-probe"
+    },
+    {
+      "repo": "tizonia/tizonia-openmax-il"
+    },
+    {
+      "repo": "schpet/linear-cli"
+    },
+    {
+      "repo": "googleworkspace/cli"
+    },
+    {
+      "repo": "cookpete/auto-changelog"
+    },
+    {
+      "repo": "cs50/submit50"
+    },
+    {
+      "repo": "ledger/ledger"
+    },
+    {
+      "repo": "mkb79/audible-cli"
+    },
+    {
+      "repo": "magmax/python-inquirer"
+    },
+    {
+      "repo": "sibprogrammer/xq"
+    },
+    {
+      "repo": "mikf/gallery-dl"
+    },
+    {
+      "repo": "urfave/cli"
+    },
+    {
+      "repo": "buo/homebrew-cask-upgrade"
+    },
+    {
+      "repo": "fossology/fossology"
+    },
+    {
+      "repo": "commitizen/cz-cli"
+    },
+    {
+      "repo": "majd/ipatool"
+    },
+    {
+      "repo": "jasonrbriggs/stomp.py"
+    },
+    {
+      "repo": "haidaraM/ansible-playbook-grapher"
+    },
+    {
+      "repo": "coherentgraphics/cpdf-binaries"
+    },
+    {
+      "repo": "osmcode/osmium-tool"
+    },
+    {
+      "repo": "Yubico/yubikey-manager"
+    },
+    {
+      "repo": "alecthomas/kingpin"
+    },
+    {
+      "repo": "Urigo/graphql-cli"
+    },
+    {
+      "repo": "cloudflare/cf-terraforming"
+    },
+    {
+      "repo": "fullstorydev/grpcurl"
+    },
+    {
+      "repo": "curl/trurl"
+    },
+    {
+      "repo": "fastapi/fastapi-cli"
+    },
+    {
+      "repo": "acheronfail/repgrep"
+    },
+    {
+      "repo": "brocode/fblog"
+    },
+    {
+      "repo": "knadh/koanf"
+    },
+    {
+      "repo": "hexdigest/gowrap"
+    },
+    {
+      "repo": "JEG2/highline"
+    },
+    {
+      "repo": "cutechess/cutechess"
+    },
+    {
+      "repo": "abey79/vpype"
+    },
+    {
+      "repo": "cognidox/OfficeToPDF"
+    },
+    {
+      "repo": "kardolus/chatgpt-cli"
+    },
+    {
+      "repo": "fortio/fortio"
+    },
+    {
+      "repo": "hyperjumptech/monika"
+    },
+    {
+      "repo": "jkfran/killport"
+    },
+    {
+      "repo": "ad-si/Transity"
+    },
+    {
+      "repo": "mr-karan/doggo"
+    }
+  ],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -1823,7 +2629,387 @@
       "status": "held",
       "checkedAt": "2026-09-11T18:43:50.739Z",
       "reason": "Terminal use case needs classification"
+    },
+    "chainguard-dev/apko": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ibotpeaches/apktool": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/apm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "medialab/xan": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "appium/appium": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gmickel/flow-next": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ximion/appstream": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mbrt/gmailctl": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "miurahr/aqtinstall": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "miurahr/py7zr": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "argoproj/argo-workflows": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "modelcontextprotocol/inspector": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "p-h-c/phc-winner-argon2": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openosint/openosint": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "GitHub stars",
+      "slug": "openosint-openosint",
+      "acceptedAt": "2026-09-11T19:43:50.709Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/OpenOSINT/OpenOSINT/blob/6bfd34b622346983e4bb3410688c0a516cc9397c/pyproject.toml",
+          "snippet": "openosint = \"openosint.cli:main\"",
+          "target": "openosint/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/OpenOSINT/OpenOSINT/blob/6bfd34b622346983e4bb3410688c0a516cc9397c/README.md",
+          "snippet": "pip install openosint"
+        },
+        "usage": {
+          "url": "https://github.com/OpenOSINT/OpenOSINT/blob/6bfd34b622346983e4bb3410688c0a516cc9397c/README.md",
+          "snippet": "openosint web"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/OpenOSINT/OpenOSINT",
+          "snippet": "AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 19 tools. Works with Claude, GPT-4, or local models. For authorized security research only."
+        },
+        "adoption": {
+          "stars": 1558,
+          "githubSource": "https://github.com/OpenOSINT/OpenOSINT",
+          "homebrew": null
+        },
+        "commit": "6bfd34b622346983e4bb3410688c0a516cc9397c"
+      }
+    },
+    "aria2/aria2": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "floatpane/matcha": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "alexellis/arkade": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "royhills/arp-scan": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "marve10s/better-fullstack": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "thomashabets/arping": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "azat-io/actions-up": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rorkai/app-store-connect-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "GitHub stars",
+      "slug": "rorkai-app-store-connect-cli",
+      "acceptedAt": "2026-09-11T19:43:50.709Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/asc.json",
+          "snippet": "{\"executables\":[\"asc\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/rorkai/App-Store-Connect-CLI/blob/21af85d7d87e364a188bcb9e062522517de4cd6a/README.md",
+          "snippet": "brew install asc"
+        },
+        "usage": {
+          "url": "https://github.com/rorkai/App-Store-Connect-CLI/blob/21af85d7d87e364a188bcb9e062522517de4cd6a/README.md",
+          "snippet": "asc install-skills"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/rorkai/App-Store-Connect-CLI",
+          "snippet": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more"
+        },
+        "adoption": {
+          "stars": 7197,
+          "githubSource": "https://github.com/rorkai/App-Store-Connect-CLI",
+          "homebrew": {
+            "repo": "rorkai/App-Store-Connect-CLI",
+            "formula": "asc",
+            "count": 2281,
+            "source": "https://formulae.brew.sh/api/formula/asc.json",
+            "generatedDate": "2026-09-11"
+          }
+        },
+        "commit": "21af85d7d87e364a188bcb9e062522517de4cd6a"
+      }
+    },
+    "gammasoft71/xtd": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "asciidoc-py/asciidoc-py": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "manojmallick/sigmap": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "asciinema/asciinema": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "asdf-vm/asdf": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "asimovmac/asimov": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "q00/ouroboros": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "GitHub stars",
+      "slug": "q00-ouroboros",
+      "acceptedAt": "2026-09-11T19:43:50.709Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Q00/ouroboros/blob/1c96832803add472b7b1ec6a01d92a266c60cd82/pyproject.toml",
+          "snippet": "ooo = \"ouroboros.cli.main:app\"",
+          "target": "src/ouroboros/cli/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/Q00/ouroboros/blob/1c96832803add472b7b1ec6a01d92a266c60cd82/docs/getting-started.md",
+          "snippet": "pip install ouroboros-ai"
+        },
+        "usage": {
+          "url": "https://github.com/Q00/ouroboros/blob/1c96832803add472b7b1ec6a01d92a266c60cd82/README.md",
+          "snippet": "ooo setup"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Q00/ouroboros",
+          "snippet": "Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 14 runtimes: Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, Kiro and more."
+        },
+        "adoption": {
+          "stars": 5809,
+          "githubSource": "https://github.com/Q00/ouroboros",
+          "homebrew": null
+        },
+        "commit": "1c96832803add472b7b1ec6a01d92a266c60cd82"
+      }
+    },
+    "chriskohlhoff/asio": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tigicion/dao-code": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "assimp/assimp": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mindmuxai/brain.md": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "GitHub stars",
+      "slug": "mindmuxai-brain-md",
+      "acceptedAt": "2026-09-11T19:43:50.709Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mindmuxai/brain.md/blob/8064f3334cfa465129d42668ba271ef71a53dc71/package.json",
+          "snippet": "{\"bin\":{\"brain\":\"bin/brain.mjs\"}}",
+          "target": "bin/brain.mjs"
+        },
+        "installation": {
+          "url": "https://github.com/mindmuxai/brain.md/blob/8064f3334cfa465129d42668ba271ef71a53dc71/README.md",
+          "snippet": "npm install -g @mindmux/brain-md"
+        },
+        "usage": {
+          "url": "https://github.com/mindmuxai/brain.md/blob/8064f3334cfa465129d42668ba271ef71a53dc71/README.md",
+          "snippet": "brain setup -y"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mindmuxai/brain.md",
+          "snippet": "A persistent, file-based memory layer for coding agents — give Claude Code, Codex & others a project brain (durable decisions, requirements, constraints) via a zero-dependency CLI."
+        },
+        "adoption": {
+          "stars": 541,
+          "githubSource": "https://github.com/mindmuxai/brain.md",
+          "homebrew": null
+        },
+        "commit": "8064f3334cfa465129d42668ba271ef71a53dc71"
+      }
+    },
+    "voidenhq/voiden": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "astronomer/astro-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Homebrew install-on-request",
+      "slug": "astronomer-astro-cli",
+      "acceptedAt": "2026-09-11T19:43:50.709Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/astro.json",
+          "snippet": "{\"executables\":[\"astro\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/astronomer/astro-cli/blob/25bbf2d1c16a4e01b040738a965177014fc1ff2b/README.md",
+          "snippet": "brew install astro"
+        },
+        "usage": {
+          "url": "https://github.com/astronomer/astro-cli/blob/25bbf2d1c16a4e01b040738a965177014fc1ff2b/README.md",
+          "snippet": "astro dev init"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/astronomer/astro-cli",
+          "snippet": "CLI that makes it easy to create, test and deploy Airflow DAGs to Astronomer"
+        },
+        "adoption": {
+          "stars": 460,
+          "githubSource": "https://github.com/astronomer/astro-cli",
+          "homebrew": {
+            "repo": "astronomer/astro-cli",
+            "formula": "astro",
+            "count": 442,
+            "source": "https://formulae.brew.sh/api/formula/astro.json",
+            "generatedDate": "2026-09-11"
+          }
+        },
+        "commit": "25bbf2d1c16a4e01b040738a965177014fc1ff2b"
+      }
+    },
+    "raskrebs/sonar": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "cipi-sh/cipi": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wez/atomicparsley": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "GitHub stars",
+      "slug": "wez-atomicparsley",
+      "acceptedAt": "2026-09-11T19:43:50.709Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/atomicparsley.json",
+          "snippet": "{\"executables\":[\"AtomicParsley\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/wez/atomicparsley/blob/1ca825de2b92d0eadf29b2f7d781399796528b7c/README.md",
+          "snippet": "$ brew install atomicparsley"
+        },
+        "usage": {
+          "url": "https://github.com/wez/atomicparsley/blob/1ca825de2b92d0eadf29b2f7d781399796528b7c/README.md",
+          "snippet": "AtomicParsley quick help for setting iTunes-style metadata into MPEG-4 files."
+        },
+        "description": {
+          "url": "https://api.github.com/repos/wez/atomicparsley",
+          "snippet": "AtomicParsley is a lightweight command line program for reading, parsing and setting metadata into MPEG-4 files, in particular, iTunes-style metadata."
+        },
+        "adoption": {
+          "stars": 767,
+          "githubSource": "https://github.com/wez/atomicparsley",
+          "homebrew": {
+            "repo": "wez/atomicparsley",
+            "formula": "atomicparsley",
+            "count": 129,
+            "source": "https://formulae.brew.sh/api/formula/atomicparsley.json",
+            "generatedDate": "2026-09-11"
+          }
+        },
+        "commit": "1ca825de2b92d0eadf29b2f7d781399796528b7c"
+      }
+    },
+    "atuinsh/atuin": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "automattic/studio": {
+      "status": "held",
+      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "reason": "Possible graphical application or launcher"
     }
   },
-  "lastRunAt": "2026-09-11T18:43:50.739Z"
+  "lastRunAt": "2026-09-11T19:43:50.709Z"
 }

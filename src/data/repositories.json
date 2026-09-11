@@ -2278,5 +2278,65 @@
     "language": "Rust",
     "checkedAt": "2026-09-11T18:44:00.811Z",
     "source": "https://github.com/tox-dev/pipdeptree"
+  },
+  "openosint-openosint": {
+    "createdAt": "2026-05-06T11:12:42Z",
+    "pushedAt": "2026-09-11T13:25:07Z",
+    "lastCommitAt": "2026-09-08T18:09:20Z",
+    "stars": 1558,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-11T19:44:29.461Z",
+    "source": "https://github.com/OpenOSINT/OpenOSINT"
+  },
+  "rorkai-app-store-connect-cli": {
+    "createdAt": "2026-01-20T11:17:23Z",
+    "pushedAt": "2026-09-11T18:25:56Z",
+    "lastCommitAt": "2026-09-11T18:25:56Z",
+    "stars": 7197,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-11T19:44:30.123Z",
+    "source": "https://github.com/rorkai/App-Store-Connect-CLI"
+  },
+  "q00-ouroboros": {
+    "createdAt": "2026-01-14T01:14:04Z",
+    "pushedAt": "2026-09-11T12:32:43Z",
+    "lastCommitAt": "2026-09-10T13:03:02Z",
+    "stars": 5809,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-11T19:44:30.696Z",
+    "source": "https://github.com/Q00/ouroboros"
+  },
+  "mindmuxai-brain-md": {
+    "createdAt": "2026-06-18T06:45:01Z",
+    "pushedAt": "2026-09-11T11:50:05Z",
+    "lastCommitAt": "2026-09-11T11:49:57Z",
+    "stars": 541,
+    "license": "Apache-2.0",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-11T19:44:31.877Z",
+    "source": "https://github.com/mindmuxai/brain.md"
+  },
+  "astronomer-astro-cli": {
+    "createdAt": "2018-02-07T19:49:43Z",
+    "pushedAt": "2026-09-11T07:29:51Z",
+    "lastCommitAt": "2026-09-10T19:20:42Z",
+    "stars": 460,
+    "license": null,
+    "language": "Go",
+    "checkedAt": "2026-09-11T19:44:33.109Z",
+    "source": "https://github.com/astronomer/astro-cli"
+  },
+  "wez-atomicparsley": {
+    "createdAt": "2011-03-12T23:13:08Z",
+    "pushedAt": "2024-12-04T22:10:32Z",
+    "lastCommitAt": "2024-12-04T22:10:31Z",
+    "stars": 767,
+    "license": "GPL-2.0",
+    "language": "C++",
+    "checkedAt": "2026-09-11T19:44:34.335Z",
+    "source": "https://github.com/wez/atomicparsley"
   }
 }

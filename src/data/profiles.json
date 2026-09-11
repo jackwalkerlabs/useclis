@@ -2520,5 +2520,83 @@
     "createdAt": "2016-07-07T21:19:53Z",
     "checkedAt": "2026-09-11T18:44:02.156Z",
     "source": "https://github.com/tox-dev"
+  },
+  "openosint": {
+    "login": "OpenOSINT",
+    "name": "OpenOSINT",
+    "type": "Organization",
+    "bio": "AI-powered OSINT agent for the terminal. Investigate emails, usernames, domains and more using Claude, GPT-5 or local models.",
+    "location": "Italy",
+    "website": "openosint.tech",
+    "followers": 62,
+    "publicRepos": 1,
+    "createdAt": "2026-05-05T15:37:35Z",
+    "checkedAt": "2026-09-11T19:44:38.066Z",
+    "source": "https://github.com/OpenOSINT"
+  },
+  "rorkai": {
+    "login": "rorkai",
+    "name": "Rork",
+    "type": "Organization",
+    "bio": null,
+    "location": "San Francisco, CA",
+    "website": "https://rork.com",
+    "followers": 199,
+    "publicRepos": 27,
+    "createdAt": "2024-09-13T14:31:27Z",
+    "checkedAt": "2026-09-11T19:44:38.917Z",
+    "source": "https://github.com/rorkai"
+  },
+  "q00": {
+    "login": "Q00",
+    "name": "Q00",
+    "type": "User",
+    "bio": "SNUT adjunct professor  |                               \r\nouroboros lead                 |                           \r\n@zep-us Tech Lead\r\n\r\n",
+    "location": "seoul",
+    "website": "https://wpti.dev",
+    "followers": 661,
+    "publicRepos": 172,
+    "createdAt": "2017-08-23T02:01:51Z",
+    "checkedAt": "2026-09-11T19:44:39.499Z",
+    "source": "https://github.com/Q00"
+  },
+  "mindmuxai": {
+    "login": "mindmuxai",
+    "name": "MindMux.ai",
+    "type": "Organization",
+    "bio": "Your project remembers. The project brain for builders and agents.",
+    "location": null,
+    "website": "https://mindmux.ai",
+    "followers": 15,
+    "publicRepos": 5,
+    "createdAt": "2026-01-08T03:10:33Z",
+    "checkedAt": "2026-09-11T19:44:39.937Z",
+    "source": "https://github.com/mindmuxai"
+  },
+  "astronomer": {
+    "login": "astronomer",
+    "name": "Astronomer",
+    "type": "Organization",
+    "bio": "Modern Data Orchestration, powered by Apache Airflow",
+    "location": "Globally distributed",
+    "website": "https://astronomer.io",
+    "followers": 814,
+    "publicRepos": 354,
+    "createdAt": "2015-05-14T18:05:00Z",
+    "checkedAt": "2026-09-11T19:44:40.810Z",
+    "source": "https://github.com/astronomer"
+  },
+  "wez": {
+    "login": "wez",
+    "name": "Wez Furlong",
+    "type": "User",
+    "bio": null,
+    "location": "UK",
+    "website": "https://wezfurlong.org",
+    "followers": 3910,
+    "publicRepos": 132,
+    "createdAt": "2009-08-21T05:08:07Z",
+    "checkedAt": "2026-09-11T19:44:41.282Z",
+    "source": "https://github.com/wez"
   }
 }
