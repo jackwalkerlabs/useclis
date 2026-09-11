@@ -4656,6 +4656,25 @@ window.USECLIS_DATA = {
       "stars": 838,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-10T23:50:54.033Z"
+    },
+    {
+      "slug": "gptme-gptme",
+      "name": "gptme",
+      "repo": "gptme/gptme",
+      "category": "Agents & models",
+      "command": "gptme",
+      "useCase": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!",
+      "description": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!",
+      "agentUse": "Invoke gptme from a shell for the documented use case: Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "gptme 'write an impressive and colorful particle effect using three.js to particles.html'",
+      "website": "https://github.com/gptme/gptme",
+      "docs": "https://github.com/gptme/gptme/blob/31a3853900a1621751b119cd9562d2fbcddbe74f/README.md",
+      "stars": 4411,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T15:38:11.016Z"
     }
   ],
   "categories": [

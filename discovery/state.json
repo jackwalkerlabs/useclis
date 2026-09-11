@@ -4,135 +4,6 @@
   "brewOffset": 40,
   "pending": [
     {
-      "repo": "1broseidon/ketch"
-    },
-    {
-      "repo": "operately/operately"
-    },
-    {
-      "repo": "restatedev/restate"
-    },
-    {
-      "repo": "pionxzh/wakaru"
-    },
-    {
-      "repo": "monosans/proxy-scraper-checker"
-    },
-    {
-      "repo": "Azure/azure-dev"
-    },
-    {
-      "repo": "gildas-lormeau/single-file-cli"
-    },
-    {
-      "repo": "dyatko/arkit"
-    },
-    {
-      "repo": "mbround18/valheim-docker"
-    },
-    {
-      "repo": "GothenburgBitFactory/timewarrior"
-    },
-    {
-      "repo": "wfxr/forgit"
-    },
-    {
-      "repo": "gptme/gptme"
-    },
-    {
-      "repo": "bradygaster/squad"
-    },
-    {
-      "repo": "reviewdog/reviewdog"
-    },
-    {
-      "repo": "streamlink/streamlink"
-    },
-    {
-      "repo": "Devolutions/UniGetUI"
-    },
-    {
-      "repo": "microsoft/winappCli"
-    },
-    {
-      "repo": "JustArchiNET/ArchiSteamFarm"
-    },
-    {
-      "repo": "tomasz-tomczyk/crit"
-    },
-    {
-      "repo": "Kilo-Org/kilocode"
-    },
-    {
-      "repo": "projectdiscovery/katana"
-    },
-    {
-      "repo": "dalance/procs"
-    },
-    {
-      "repo": "AmanVarshney01/create-better-t-stack"
-    },
-    {
-      "repo": "cloudflare/workers-sdk"
-    },
-    {
-      "repo": "ohmyzsh/ohmyzsh"
-    },
-    {
-      "repo": "tukaani-project/xz"
-    },
-    {
-      "repo": "charmbracelet/bubbletea"
-    },
-    {
-      "repo": "coleam00/Archon"
-    },
-    {
-      "repo": "inngest/inngest"
-    },
-    {
-      "repo": "scaleway/scaleway-cli"
-    },
-    {
-      "repo": "codeaholicguy/ai-devkit"
-    },
-    {
-      "repo": "Comfy-Org/comfy-cli"
-    },
-    {
-      "repo": "macports/macports-ports"
-    },
-    {
-      "repo": "wavetermdev/waveterm"
-    },
-    {
-      "repo": "spicetify/cli"
-    },
-    {
-      "repo": "microsoft/winget-cli"
-    },
-    {
-      "repo": "xyproto/orbiton"
-    },
-    {
-      "repo": "clap-rs/clap"
-    },
-    {
-      "repo": "justcallmekoko/ESP32Marauder"
-    },
-    {
-      "repo": "ast-grep/ast-grep"
-    },
-    {
-      "repo": "fox0430/moe"
-    },
-    {
-      "repo": "PowerShell/PowerShell"
-    },
-    {
-      "repo": "microsoft/winget-create"
-    },
-    {
       "repo": "jarun/nnn"
     },
     {
@@ -1238,7 +1109,234 @@
       "status": "held",
       "checkedAt": "2026-09-10T23:50:32.585Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "1broseidon/ketch": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "operately/operately": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "restatedev/restate": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pionxzh/wakaru": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "monosans/proxy-scraper-checker": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "azure/azure-dev": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gildas-lormeau/single-file-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dyatko/arkit": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mbround18/valheim-docker": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gothenburgbitfactory/timewarrior": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wfxr/forgit": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gptme/gptme": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "GitHub stars",
+      "slug": "gptme-gptme",
+      "acceptedAt": "2026-09-11T15:37:48.248Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/gptme/gptme/blob/31a3853900a1621751b119cd9562d2fbcddbe74f/pyproject.toml",
+          "snippet": "gptme = \"gptme.cli.main:main\"",
+          "target": "gptme/cli/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/gptme/gptme/blob/31a3853900a1621751b119cd9562d2fbcddbe74f/README.md",
+          "snippet": "pipx install gptme  # MCP support included by default"
+        },
+        "usage": {
+          "url": "https://github.com/gptme/gptme/blob/31a3853900a1621751b119cd9562d2fbcddbe74f/README.md",
+          "snippet": "gptme 'write an impressive and colorful particle effect using three.js to particles.html'"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/gptme/gptme",
+          "snippet": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!"
+        },
+        "adoption": {
+          "stars": 4411,
+          "githubSource": "https://github.com/gptme/gptme",
+          "homebrew": null
+        },
+        "commit": "31a3853900a1621751b119cd9562d2fbcddbe74f"
+      }
+    },
+    "bradygaster/squad": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "reviewdog/reviewdog": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "streamlink/streamlink": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "devolutions/unigetui": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/winappcli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "justarchinet/archisteamfarm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tomasz-tomczyk/crit": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kilo-org/kilocode": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "projectdiscovery/katana": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dalance/procs": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "amanvarshney01/create-better-t-stack": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ohmyzsh/ohmyzsh": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tukaani-project/xz": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "charmbracelet/bubbletea": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "coleam00/archon": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "inngest/inngest": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "codeaholicguy/ai-devkit": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "comfy-org/comfy-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "macports/macports-ports": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wavetermdev/waveterm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "spicetify/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "microsoft/winget-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "xyproto/orbiton": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "clap-rs/clap": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "justcallmekoko/esp32marauder": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fox0430/moe": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "powershell/powershell": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/winget-create": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:37:48.248Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-10T23:50:32.585Z"
+  "lastRunAt": "2026-09-11T15:37:48.248Z"
 }

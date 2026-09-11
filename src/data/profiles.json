@@ -2377,5 +2377,18 @@
     "createdAt": "2011-10-03T01:05:57Z",
     "checkedAt": "2026-09-10T23:50:56.017Z",
     "source": "https://github.com/vinhnx"
+  },
+  "gptme": {
+    "login": "gptme",
+    "name": "gptme",
+    "type": "Organization",
+    "bio": "Your agent in your terminal, equipped with local tools: writes and runs code, uses the terminal, browses the web, uses your computer, vision.",
+    "location": null,
+    "website": "https://gptme.org/",
+    "followers": 72,
+    "publicRepos": 17,
+    "createdAt": "2024-01-20T14:17:11Z",
+    "checkedAt": "2026-09-11T15:38:12.631Z",
+    "source": "https://github.com/gptme"
   }
 }

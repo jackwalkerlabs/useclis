@@ -2168,5 +2168,15 @@
     "language": "Rust",
     "checkedAt": "2026-09-10T23:50:54.033Z",
     "source": "https://github.com/vinhnx/VTCode"
+  },
+  "gptme-gptme": {
+    "createdAt": "2023-03-24T16:25:01Z",
+    "pushedAt": "2026-09-11T14:54:01Z",
+    "lastCommitAt": "2026-09-11T09:16:09Z",
+    "stars": 4411,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-11T15:38:11.016Z",
+    "source": "https://github.com/gptme/gptme"
   }
 }
