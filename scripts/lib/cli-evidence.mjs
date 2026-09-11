@@ -21,7 +21,7 @@ export function validateConfig(config) {
   for (const key of ['minStars', 'minHomebrew30d', 'maxPerDay', 'maxCandidates', 'recheckDays']) {
     if (!Number.isSafeInteger(config[key]) || config[key] < 1) throw new Error(`Invalid discovery ${key}`);
   }
-  if (config.maxPerDay > 10 || config.maxCandidates > 100) throw new Error('Discovery limits exceed supported bounds');
+  if (config.maxPerDay > 50 || config.maxCandidates > 100) throw new Error('Discovery limits exceed supported bounds');
   if (!Array.isArray(config.queries) || !config.queries.length || config.queries.length > 5 || config.queries.some(q => typeof q !== 'string' || !q.trim())) throw new Error('Invalid discovery queries');
   return config;
 }

@@ -86,8 +86,12 @@ test('Homebrew discovery counts install-on-request events across valid variants,
 
 test('A rerun shares the UTC daily cap and rejected entries do not consume it', () => {
   const state = { candidates: { a: { acceptedAt: '2026-09-09T01:00:00Z' }, b: { acceptedAt: '2026-09-08T23:59:59Z' }, c: { status: 'rejected' } } };
-  assert.equal(remainingToday(state, '2026-09-09T23:00:00Z', 10), 9);
-  assert.throws(() => validateConfig({ ...config, maxPerDay: 11 }));
+  assert.equal(remainingToday(state, '2026-09-09T23:00:00Z', config.maxPerDay), 49);
+  const full = { candidates: Object.fromEntries(Array.from({ length: 50 }, (_, i) => [i, { acceptedAt: '2026-09-09T01:00:00Z' }])) };
+  assert.equal(remainingToday(full, '2026-09-09T23:59:59Z', config.maxPerDay), 0);
+  assert.equal(remainingToday(full, '2026-09-10T00:00:00Z', config.maxPerDay), 50);
+  assert.doesNotThrow(() => validateConfig({ ...config, maxPerDay: 50 }));
+  assert.throws(() => validateConfig({ ...config, maxPerDay: 51 }));
   assert.throws(() => validateConfig({ ...config, minStars: 0 }));
 });
 

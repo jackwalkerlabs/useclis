@@ -4,7 +4,7 @@ Cloudflare Worker `useclis-discovery` is configured to run **hourly at minute 43
 
 ## Admission rules
 
-`discovery/config.json` configures the starting thresholds: **500 GitHub stars OR 100 Homebrew install-on-request events in 30 days**, with at most **10 additions per UTC day** across reruns. These are adoption filters, not compatibility or safety certifications. Homebrew counts reporting installation events, not unique users. Absence from Homebrew does not block the GitHub route. Admission uses current provider responses, never cached old counts.
+`discovery/config.json` configures the starting thresholds: **500 GitHub stars OR 100 Homebrew install-on-request events in 30 days**, with at most **50 additions per UTC day** across reruns. These are adoption filters, not compatibility or safety certifications. Homebrew counts reporting installation events, not unique users. Absence from Homebrew does not block the GitHub route. Admission uses current provider responses, never cached old counts.
 
 A candidate must also have:
 

@@ -70,7 +70,7 @@ After editing components, catalog data, or repository snapshots, run `npm run bu
 
 ## CLI submissions
 
-Daily automated discovery is implemented separately from submissions. Candidates need 500+ GitHub stars **or** 100+ Homebrew install-on-request events in 30 days, verified executable declarations and documented usage, and passing site validation. Up to ten qualifying additions can publish per UTC day. Run `npm run discover` for a report without changing the catalog. See [discovery setup, evidence rules, and operations](docs/DISCOVERY.md) for Cloudflare scheduling and required credentials.
+Hourly automated discovery is implemented separately from submissions. Candidates need 500+ GitHub stars **or** 100+ Homebrew install-on-request events in 30 days, verified executable declarations and documented usage, and passing site validation. Up to 50 qualifying additions can publish per UTC day. Run `npm run discover` for a report without changing the catalog. See [discovery setup, evidence rules, and operations](docs/DISCOVERY.md) for Cloudflare scheduling and required credentials.
 
 The header form prepares a public GitHub issue. Visitors review and submit it on GitHub; the site does not request OAuth access or post on their behalf. Submissions default to `jackwalkerlabs/useclis`, which must exist with Issues enabled.
 
