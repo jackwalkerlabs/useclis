@@ -4713,6 +4713,63 @@ window.USECLIS_DATA = {
       "stars": 1778,
       "license": "GPL-3.0",
       "checkedAt": "2026-09-11T15:44:18.770Z"
+    },
+    {
+      "slug": "mufeedvh-code2prompt",
+      "name": "code2prompt",
+      "repo": "mufeedvh/code2prompt",
+      "category": "Agents & models",
+      "command": "code2prompt",
+      "useCase": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+      "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+      "agentUse": "Invoke code2prompt from a shell for the documented use case: A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "code2prompt .",
+      "website": "https://github.com/mufeedvh/code2prompt",
+      "docs": "https://github.com/mufeedvh/code2prompt/blob/66585136062c04275ddd5a01c5518a4d78c4aa76/README.md",
+      "stars": 7649,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T16:44:15.834Z"
+    },
+    {
+      "slug": "can4hou6joeng4-boss-agent-cli",
+      "name": "boss-agent-cli",
+      "repo": "can4hou6joeng4/boss-agent-cli",
+      "category": "Data & APIs",
+      "command": "boss",
+      "useCase": "🤖 Local-assist BOSS Zhipin CLI for AI agents — search, welfare filtering, shortlist, JSON-envelope output; low-risk & compliant by default.",
+      "description": "🤖 Local-assist BOSS Zhipin CLI for AI agents — search, welfare filtering, shortlist, JSON-envelope output; low-risk & compliant by default.",
+      "agentUse": "Invoke boss from a shell for the documented use case: 🤖 Local-assist BOSS Zhipin CLI for AI agents — search, welfare filtering, shortlist, JSON-envelope output; low-risk & compliant by default.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "boss hr candidates \"Python\" --city 101010100",
+      "website": "https://github.com/can4hou6joeng4/boss-agent-cli",
+      "docs": "https://github.com/can4hou6joeng4/boss-agent-cli/blob/69e54c4f13a3ab07c1e4315cc061317d34b12c6e/README.md",
+      "stars": 1940,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T16:44:16.669Z"
+    },
+    {
+      "slug": "brocode-fblog",
+      "name": "fblog",
+      "repo": "brocode/fblog",
+      "category": "Data & APIs",
+      "command": "fblog",
+      "useCase": "Small command-line JSON Log viewer",
+      "description": "Small command-line JSON Log viewer",
+      "agentUse": "Invoke fblog from a shell for the documented use case: Small command-line JSON Log viewer",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fblog -f 'process == \"rust\" and fu == \"bower\"'",
+      "website": "https://github.com/brocode/fblog",
+      "docs": "https://github.com/brocode/fblog/blob/7a899abb5f77e63dccb33a9f3208ee23db302920/README.md",
+      "stars": 568,
+      "license": "WTFPL",
+      "checkedAt": "2026-09-11T16:44:17.421Z"
     }
   ],
   "categories": [

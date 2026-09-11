@@ -4,147 +4,6 @@
   "brewOffset": 40,
   "pending": [
     {
-      "repo": "go-musicfox/go-musicfox"
-    },
-    {
-      "repo": "watchexec/watchexec"
-    },
-    {
-      "repo": "bensadeh/circumflex"
-    },
-    {
-      "repo": "ovh/venom"
-    },
-    {
-      "repo": "mufeedvh/code2prompt"
-    },
-    {
-      "repo": "gookit/color"
-    },
-    {
-      "repo": "MordechaiHadad/bob"
-    },
-    {
-      "repo": "hartwork/git-delete-merged-branches"
-    },
-    {
-      "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
-    },
-    {
-      "repo": "jaywcjlove/linux-command"
-    },
-    {
-      "repo": "can4hou6joeng4/boss-agent-cli"
-    },
-    {
-      "repo": "Decimation/SmartImage"
-    },
-    {
-      "repo": "jarun/bcal"
-    },
-    {
-      "repo": "jhspetersson/fselect"
-    },
-    {
-      "repo": "Unitech/pm2"
-    },
-    {
-      "repo": "usagi-flow/evil-helix"
-    },
-    {
-      "repo": "sharkdp/bat"
-    },
-    {
-      "repo": "christo-auer/eilmeldung"
-    },
-    {
-      "repo": "urfave/cli"
-    },
-    {
-      "repo": "open-cli-tools/concurrently"
-    },
-    {
-      "repo": "commitizen/cz-cli"
-    },
-    {
-      "repo": "dropbox/dbxcli"
-    },
-    {
-      "repo": "majd/ipatool"
-    },
-    {
-      "repo": "ehmicky/nve"
-    },
-    {
-      "repo": "alecthomas/kingpin"
-    },
-    {
-      "repo": "Azure/azure-devops-cli-extension"
-    },
-    {
-      "repo": "bellingcat/ShadowFinder"
-    },
-    {
-      "repo": "hengyoush/kyanos"
-    },
-    {
-      "repo": "NaturalIntelligence/fast-xml-parser"
-    },
-    {
-      "repo": "beucismis/awesome-fetch"
-    },
-    {
-      "repo": "xvoland/Extract"
-    },
-    {
-      "repo": "brocode/fblog"
-    },
-    {
-      "repo": "89luca89/distrobox"
-    },
-    {
-      "repo": "mergestat/mergestat-lite"
-    },
-    {
-      "repo": "apple/swift-argument-parser"
-    },
-    {
-      "repo": "Tyrrrz/CliFx"
-    },
-    {
-      "repo": "Tyrrrz/CliWrap"
-    },
-    {
-      "repo": "svenstaro/miniserve"
-    },
-    {
-      "repo": "orhun/halp"
-    },
-    {
-      "repo": "curl/wcurl"
-    },
-    {
-      "repo": "promptfoo/promptfoo"
-    },
-    {
-      "repo": "superfly/flyctl"
-    },
-    {
-      "repo": "checkstyle/checkstyle"
-    },
-    {
-      "repo": "ImageMagick/ImageMagick"
-    },
-    {
-      "repo": "Azure/azure-cli"
-    },
-    {
-      "repo": "firebase/firebase-tools"
-    },
-    {
-      "repo": "radareorg/radare2"
-    },
-    {
       "repo": "cronitorio/cronitor-cli"
     },
     {
@@ -1455,7 +1314,288 @@
       "status": "held",
       "checkedAt": "2026-09-11T15:43:52.976Z",
       "reason": "Terminal use case needs classification"
+    },
+    "go-musicfox/go-musicfox": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bensadeh/circumflex": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ovh/venom": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mufeedvh/code2prompt": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "GitHub stars",
+      "slug": "mufeedvh-code2prompt",
+      "acceptedAt": "2026-09-11T16:43:51.396Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mufeedvh/code2prompt/blob/66585136062c04275ddd5a01c5518a4d78c4aa76/crates/code2prompt/Cargo.toml",
+          "snippet": "[[bin]] name=\"code2prompt\" path=\"src/main.rs\"",
+          "target": "crates/code2prompt/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/mufeedvh/code2prompt/blob/66585136062c04275ddd5a01c5518a4d78c4aa76/README.md",
+          "snippet": "cargo install code2prompt"
+        },
+        "usage": {
+          "url": "https://github.com/mufeedvh/code2prompt/blob/66585136062c04275ddd5a01c5518a4d78c4aa76/README.md",
+          "snippet": "code2prompt ."
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mufeedvh/code2prompt",
+          "snippet": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting."
+        },
+        "adoption": {
+          "stars": 7649,
+          "githubSource": "https://github.com/mufeedvh/code2prompt",
+          "homebrew": null
+        },
+        "commit": "66585136062c04275ddd5a01c5518a4d78c4aa76"
+      }
+    },
+    "gookit/color": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mordechaihadad/bob": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hartwork/git-delete-merged-branches": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jaywcjlove/linux-command": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "can4hou6joeng4/boss-agent-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "GitHub stars",
+      "slug": "can4hou6joeng4-boss-agent-cli",
+      "acceptedAt": "2026-09-11T16:43:51.396Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/can4hou6joeng4/boss-agent-cli/blob/69e54c4f13a3ab07c1e4315cc061317d34b12c6e/pyproject.toml",
+          "snippet": "boss = \"boss_agent_cli.main:cli\"",
+          "target": "src/boss_agent_cli/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/can4hou6joeng4/boss-agent-cli/blob/69e54c4f13a3ab07c1e4315cc061317d34b12c6e/README.md",
+          "snippet": "uv tool install boss-agent-cli"
+        },
+        "usage": {
+          "url": "https://github.com/can4hou6joeng4/boss-agent-cli/blob/69e54c4f13a3ab07c1e4315cc061317d34b12c6e/README.md",
+          "snippet": "boss hr candidates \"Python\" --city 101010100"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/can4hou6joeng4/boss-agent-cli",
+          "snippet": "🤖 Local-assist BOSS Zhipin CLI for AI agents — search, welfare filtering, shortlist, JSON-envelope output; low-risk & compliant by default."
+        },
+        "adoption": {
+          "stars": 1940,
+          "githubSource": "https://github.com/can4hou6joeng4/boss-agent-cli",
+          "homebrew": null
+        },
+        "commit": "69e54c4f13a3ab07c1e4315cc061317d34b12c6e"
+      }
+    },
+    "decimation/smartimage": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jarun/bcal": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jhspetersson/fselect": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "unitech/pm2": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "usagi-flow/evil-helix": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "christo-auer/eilmeldung": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "urfave/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "open-cli-tools/concurrently": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "commitizen/cz-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dropbox/dbxcli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "majd/ipatool": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ehmicky/nve": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "alecthomas/kingpin": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "azure/azure-devops-cli-extension": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "bellingcat/shadowfinder": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hengyoush/kyanos": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "naturalintelligence/fast-xml-parser": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "beucismis/awesome-fetch": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "xvoland/extract": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "brocode/fblog": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "GitHub stars",
+      "slug": "brocode-fblog",
+      "acceptedAt": "2026-09-11T16:43:51.396Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/brocode/fblog/blob/7a899abb5f77e63dccb33a9f3208ee23db302920/Cargo.toml",
+          "snippet": "package.name=\"fblog\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/brocode/fblog/blob/7a899abb5f77e63dccb33a9f3208ee23db302920/README.md",
+          "snippet": "cargo install fblog"
+        },
+        "usage": {
+          "url": "https://github.com/brocode/fblog/blob/7a899abb5f77e63dccb33a9f3208ee23db302920/README.md",
+          "snippet": "fblog -f 'process == \"rust\" and fu == \"bower\"'"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/brocode/fblog",
+          "snippet": "Small command-line JSON Log viewer"
+        },
+        "adoption": {
+          "stars": 568,
+          "githubSource": "https://github.com/brocode/fblog",
+          "homebrew": null
+        },
+        "commit": "7a899abb5f77e63dccb33a9f3208ee23db302920"
+      }
+    },
+    "89luca89/distrobox": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mergestat/mergestat-lite": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apple/swift-argument-parser": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tyrrrz/clifx": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tyrrrz/cliwrap": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "orhun/halp": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "curl/wcurl": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "promptfoo/promptfoo": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "checkstyle/checkstyle": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "radareorg/radare2": {
+      "status": "held",
+      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-11T15:43:52.976Z"
+  "lastRunAt": "2026-09-11T16:43:51.396Z"
 }
