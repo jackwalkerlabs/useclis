@@ -4,144 +4,6 @@
   "brewOffset": 40,
   "pending": [
     {
-      "repo": "cronitorio/cronitor-cli"
-    },
-    {
-      "repo": "ApodexAI/FrontierAgent"
-    },
-    {
-      "repo": "chriskiehl/Gooey"
-    },
-    {
-      "repo": "opensim-org/opensim-core"
-    },
-    {
-      "repo": "NuGet/NuGet.Client"
-    },
-    {
-      "repo": "stripe/stripe-cli"
-    },
-    {
-      "repo": "chickensoft-games/GodotEnv"
-    },
-    {
-      "repo": "bitshares/bitshares-core"
-    },
-    {
-      "repo": "sibson/vncdotool"
-    },
-    {
-      "repo": "curl/curl"
-    },
-    {
-      "repo": "itchio/butler"
-    },
-    {
-      "repo": "aws/aws-cli"
-    },
-    {
-      "repo": "rizinorg/rizin"
-    },
-    {
-      "repo": "DavidAnson/markdownlint-cli2"
-    },
-    {
-      "repo": "theorzr/portablemc"
-    },
-    {
-      "repo": "cli/cli"
-    },
-    {
-      "repo": "nvie/git-toolbelt"
-    },
-    {
-      "repo": "taers232c/GAMADV-XTD3"
-    },
-    {
-      "repo": "GAM-team/GAM"
-    },
-    {
-      "repo": "mozilla/web-ext"
-    },
-    {
-      "repo": "facebook/idb"
-    },
-    {
-      "repo": "netlify/cli"
-    },
-    {
-      "repo": "linux-nvme/nvme-cli"
-    },
-    {
-      "repo": "tinygo-org/tinygo"
-    },
-    {
-      "repo": "netz98/n98-magerun2"
-    },
-    {
-      "repo": "fish-shell/fish-shell"
-    },
-    {
-      "repo": "nats-io/natscli"
-    },
-    {
-      "repo": "callowayproject/bump-my-version"
-    },
-    {
-      "repo": "VeryGoodOpenSource/very_good_cli"
-    },
-    {
-      "repo": "OpenDroneMap/ODM"
-    },
-    {
-      "repo": "warrensbox/terraform-switcher"
-    },
-    {
-      "repo": "VirtusLab/scala-cli"
-    },
-    {
-      "repo": "bit-team/backintime"
-    },
-    {
-      "repo": "kaikramer/keystore-explorer"
-    },
-    {
-      "repo": "dotnet/dev-proxy"
-    },
-    {
-      "repo": "ScoopInstaller/Scoop"
-    },
-    {
-      "repo": "Realiserad/fish-ai"
-    },
-    {
-      "repo": "danvergara/dblab"
-    },
-    {
-      "repo": "ArduPilot/MAVProxy"
-    },
-    {
-      "repo": "jeffbski/wait-on"
-    },
-    {
-      "repo": "tox-dev/tox"
-    },
-    {
-      "repo": "junegunn/fzf"
-    },
-    {
-      "repo": "spaam/svtplay-dl"
-    },
-    {
-      "repo": "jacob-bd/gemini-notebook-mcp-cli"
-    },
-    {
-      "repo": "deviceinsight/kafkactl"
-    },
-    {
-      "repo": "drush-ops/drush"
-    },
-    {
       "repo": "Tarsnap/tarsnap"
     },
     {
@@ -1595,7 +1457,315 @@
       "status": "held",
       "checkedAt": "2026-09-11T16:43:51.396Z",
       "reason": "Terminal use case needs classification"
+    },
+    "cronitorio/cronitor-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "apodexai/frontieragent": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chriskiehl/gooey": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "opensim-org/opensim-core": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nuget/nuget.client": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chickensoft-games/godotenv": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bitshares/bitshares-core": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sibson/vncdotool": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "itchio/butler": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rizinorg/rizin": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "davidanson/markdownlint-cli2": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "GitHub stars",
+      "slug": "davidanson-markdownlint-cli2",
+      "acceptedAt": "2026-09-11T17:43:49.743Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/DavidAnson/markdownlint-cli2/blob/55d5a6c74127a24f4c369611ee0d3e972b7097ab/package.json",
+          "snippet": "{\"bin\":{\"markdownlint-cli2\":\"./markdownlint-cli2-bin.mjs\"}}",
+          "target": "markdownlint-cli2-bin.mjs"
+        },
+        "installation": {
+          "url": "https://github.com/DavidAnson/markdownlint-cli2/blob/55d5a6c74127a24f4c369611ee0d3e972b7097ab/README.md",
+          "snippet": "npm install markdownlint-cli2 --global"
+        },
+        "usage": {
+          "url": "https://github.com/DavidAnson/markdownlint-cli2/blob/55d5a6c74127a24f4c369611ee0d3e972b7097ab/README.md",
+          "snippet": "markdownlint-cli2 --config package.json --configPointer /markdownlint-cli2 \"*.md\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/DavidAnson/markdownlint-cli2",
+          "snippet": "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library"
+        },
+        "adoption": {
+          "stars": 917,
+          "githubSource": "https://github.com/DavidAnson/markdownlint-cli2",
+          "homebrew": null
+        },
+        "commit": "55d5a6c74127a24f4c369611ee0d3e972b7097ab"
+      }
+    },
+    "theorzr/portablemc": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nvie/git-toolbelt": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "taers232c/gamadv-xtd3": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gam-team/gam": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mozilla/web-ext": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "GitHub stars",
+      "slug": "mozilla-web-ext",
+      "acceptedAt": "2026-09-11T17:43:49.743Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mozilla/web-ext/blob/f1fd305c3071ec6cf2806f66de13bcf21e6f053c/package.json",
+          "snippet": "{\"bin\":{\"web-ext\":\"bin/web-ext.js\"}}",
+          "target": "bin/web-ext.js"
+        },
+        "installation": {
+          "url": "https://github.com/mozilla/web-ext/blob/f1fd305c3071ec6cf2806f66de13bcf21e6f053c/README.md",
+          "snippet": "npm install --global web-ext"
+        },
+        "usage": {
+          "url": "https://github.com/mozilla/web-ext/blob/f1fd305c3071ec6cf2806f66de13bcf21e6f053c/README.md",
+          "snippet": "web-ext build --help"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mozilla/web-ext",
+          "snippet": "A command line tool to help build, run, and test web extensions"
+        },
+        "adoption": {
+          "stars": 3134,
+          "githubSource": "https://github.com/mozilla/web-ext",
+          "homebrew": null
+        },
+        "commit": "f1fd305c3071ec6cf2806f66de13bcf21e6f053c"
+      }
+    },
+    "facebook/idb": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "linux-nvme/nvme-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tinygo-org/tinygo": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "netz98/n98-magerun2": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fish-shell/fish-shell": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "callowayproject/bump-my-version": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "verygoodopensource/very_good_cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "opendronemap/odm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "warrensbox/terraform-switcher": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "virtuslab/scala-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bit-team/backintime": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "kaikramer/keystore-explorer": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "dotnet/dev-proxy": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "scoopinstaller/scoop": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "realiserad/fish-ai": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "danvergara/dblab": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ardupilot/mavproxy": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jeffbski/wait-on": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "GitHub stars",
+      "slug": "jeffbski-wait-on",
+      "acceptedAt": "2026-09-11T17:43:49.743Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/jeffbski/wait-on/blob/30ec1418bf53e4aed39a06cc2806302d758167a7/package.json",
+          "snippet": "{\"bin\":{\"wait-on\":\"bin/wait-on\"}}",
+          "target": "bin/wait-on"
+        },
+        "installation": {
+          "url": "https://github.com/jeffbski/wait-on/blob/30ec1418bf53e4aed39a06cc2806302d758167a7/README.md",
+          "snippet": "npm install wait-on # local version"
+        },
+        "usage": {
+          "url": "https://github.com/jeffbski/wait-on/blob/30ec1418bf53e4aed39a06cc2806302d758167a7/README.md",
+          "snippet": "wait-on is a command line utility which will wait for files, ports,"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/jeffbski/wait-on",
+          "snippet": "wait-on is a cross-platform command line utility and Node.js API which will wait for files, ports, sockets, and http(s) resources to become available"
+        },
+        "adoption": {
+          "stars": 1979,
+          "githubSource": "https://github.com/jeffbski/wait-on",
+          "homebrew": null
+        },
+        "commit": "30ec1418bf53e4aed39a06cc2806302d758167a7"
+      }
+    },
+    "tox-dev/tox": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "junegunn/fzf": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "spaam/svtplay-dl": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jacob-bd/gemini-notebook-mcp-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "GitHub stars",
+      "slug": "jacob-bd-gemini-notebook-mcp-cli",
+      "acceptedAt": "2026-09-11T17:43:49.743Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/jacob-bd/gemini-notebook-mcp-cli/blob/03f7812c243f4d6ff732e2a485e6b9d35540f660/pyproject.toml",
+          "snippet": "nlm = \"notebooklm_tools.cli.main:cli_main\"",
+          "target": "src/notebooklm_tools/cli/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/jacob-bd/gemini-notebook-mcp-cli/blob/03f7812c243f4d6ff732e2a485e6b9d35540f660/README.md",
+          "snippet": "uv tool install notebooklm-mcp-cli"
+        },
+        "usage": {
+          "url": "https://github.com/jacob-bd/gemini-notebook-mcp-cli/blob/03f7812c243f4d6ff732e2a485e6b9d35540f660/README.md",
+          "snippet": "nlm setup add claude-code"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/jacob-bd/gemini-notebook-mcp-cli",
+          "snippet": "Programmatic access to Gemini Notebook - via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills."
+        },
+        "adoption": {
+          "stars": 6061,
+          "githubSource": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
+          "homebrew": null
+        },
+        "commit": "03f7812c243f4d6ff732e2a485e6b9d35540f660"
+      }
+    },
+    "deviceinsight/kafkactl": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "drush-ops/drush": {
+      "status": "held",
+      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-11T16:43:51.396Z"
+  "lastRunAt": "2026-09-11T17:43:49.743Z"
 }

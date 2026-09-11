@@ -4770,6 +4770,82 @@ window.USECLIS_DATA = {
       "stars": 568,
       "license": "WTFPL",
       "checkedAt": "2026-09-11T16:44:17.421Z"
+    },
+    {
+      "slug": "davidanson-markdownlint-cli2",
+      "name": "markdownlint-cli2",
+      "repo": "DavidAnson/markdownlint-cli2",
+      "category": "Files & documents",
+      "command": "markdownlint-cli2",
+      "useCase": "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library",
+      "description": "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library",
+      "agentUse": "Invoke markdownlint-cli2 from a shell for the documented use case: A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "markdownlint-cli2 --config package.json --configPointer /markdownlint-cli2 \"*.md\"",
+      "website": "https://github.com/DavidAnson/markdownlint-cli2",
+      "docs": "https://github.com/DavidAnson/markdownlint-cli2/blob/55d5a6c74127a24f4c369611ee0d3e972b7097ab/README.md",
+      "stars": 917,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T17:44:12.346Z"
+    },
+    {
+      "slug": "mozilla-web-ext",
+      "name": "web-ext",
+      "repo": "mozilla/web-ext",
+      "category": "Testing & quality",
+      "command": "web-ext",
+      "useCase": "A command line tool to help build, run, and test web extensions",
+      "description": "A command line tool to help build, run, and test web extensions",
+      "agentUse": "Invoke web-ext from a shell for the documented use case: A command line tool to help build, run, and test web extensions",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "web-ext build --help",
+      "website": "https://github.com/mozilla/web-ext",
+      "docs": "https://github.com/mozilla/web-ext/blob/f1fd305c3071ec6cf2806f66de13bcf21e6f053c/README.md",
+      "stars": 3134,
+      "license": "MPL-2.0",
+      "checkedAt": "2026-09-11T17:44:12.859Z"
+    },
+    {
+      "slug": "jeffbski-wait-on",
+      "name": "wait-on",
+      "repo": "jeffbski/wait-on",
+      "category": "Data & APIs",
+      "command": "wait-on",
+      "useCase": "wait-on is a cross-platform command line utility and Node.js API which will wait for files, ports, sockets, and http(s) resources to become available",
+      "description": "wait-on is a cross-platform command line utility and Node.js API which will wait for files, ports, sockets, and http(s) resources to become available",
+      "agentUse": "Invoke wait-on from a shell for the documented use case: wait-on is a cross-platform command line utility and Node.js API which will wait for files, ports, sockets, and http(s) resources to become available",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "wait-on is a command line utility which will wait for files, ports,",
+      "website": "https://github.com/jeffbski/wait-on",
+      "docs": "https://github.com/jeffbski/wait-on/blob/30ec1418bf53e4aed39a06cc2806302d758167a7/README.md",
+      "stars": 1979,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T17:44:13.288Z"
+    },
+    {
+      "slug": "jacob-bd-gemini-notebook-mcp-cli",
+      "name": "gemini-notebook-mcp-cli",
+      "repo": "jacob-bd/gemini-notebook-mcp-cli",
+      "category": "Agents & models",
+      "command": "nlm",
+      "useCase": "Programmatic access to Gemini Notebook - via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.",
+      "description": "Programmatic access to Gemini Notebook - via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.",
+      "agentUse": "Invoke nlm from a shell for the documented use case: Programmatic access to Gemini Notebook - via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "nlm setup add claude-code",
+      "website": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
+      "docs": "https://github.com/jacob-bd/gemini-notebook-mcp-cli/blob/03f7812c243f4d6ff732e2a485e6b9d35540f660/README.md",
+      "stars": 6061,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T17:44:13.864Z"
     }
   ],
   "categories": [

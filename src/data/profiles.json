@@ -2455,5 +2455,57 @@
     "createdAt": "2016-01-08T15:15:49Z",
     "checkedAt": "2026-09-11T16:44:20.688Z",
     "source": "https://github.com/brocode"
+  },
+  "davidanson": {
+    "login": "DavidAnson",
+    "name": "David Anson",
+    "type": "User",
+    "bio": "I work at Microsoft where I've helped build client, server, and web applications. I contribute to open-source software.",
+    "location": null,
+    "website": "https://dlaa.me",
+    "followers": 745,
+    "publicRepos": 37,
+    "createdAt": "2012-06-07T19:59:17Z",
+    "checkedAt": "2026-09-11T17:44:16.159Z",
+    "source": "https://github.com/DavidAnson"
+  },
+  "mozilla": {
+    "login": "mozilla",
+    "name": "Mozilla",
+    "type": "Organization",
+    "bio": "This technology could fall into the right hands.",
+    "location": "Mountain View, California",
+    "website": "https://www.mozilla.org/",
+    "followers": 10790,
+    "publicRepos": 2570,
+    "createdAt": "2009-09-26T08:22:18Z",
+    "checkedAt": "2026-09-11T17:44:16.353Z",
+    "source": "https://github.com/mozilla"
+  },
+  "jeffbski": {
+    "login": "jeffbski",
+    "name": "Jeff Barczewski",
+    "type": "User",
+    "bio": null,
+    "location": "St. Louis, MO (USA)",
+    "website": "http://codewinds.com/",
+    "followers": 231,
+    "publicRepos": 134,
+    "createdAt": "2008-04-07T21:17:30Z",
+    "checkedAt": "2026-09-11T17:44:16.661Z",
+    "source": "https://github.com/jeffbski"
+  },
+  "jacob-bd": {
+    "login": "jacob-bd",
+    "name": "Jacob BD",
+    "type": "User",
+    "bio": "I am learning to code with AI. Cursor, Claude, v0, and Replit are my best dev buddies. ",
+    "location": "Toronto, ON, Canada",
+    "website": "https://t.me/genaispot",
+    "followers": 373,
+    "publicRepos": 19,
+    "createdAt": "2019-02-14T18:22:29Z",
+    "checkedAt": "2026-09-11T17:44:16.915Z",
+    "source": "https://github.com/jacob-bd"
   }
 }

@@ -2228,5 +2228,45 @@
     "language": "Rust",
     "checkedAt": "2026-09-11T16:44:17.421Z",
     "source": "https://github.com/brocode/fblog"
+  },
+  "davidanson-markdownlint-cli2": {
+    "createdAt": "2020-07-03T04:54:15Z",
+    "pushedAt": "2026-09-11T16:00:32Z",
+    "lastCommitAt": "2026-08-29T23:12:41Z",
+    "stars": 917,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-11T17:44:12.346Z",
+    "source": "https://github.com/DavidAnson/markdownlint-cli2"
+  },
+  "mozilla-web-ext": {
+    "createdAt": "2016-02-01T18:08:32Z",
+    "pushedAt": "2026-09-11T08:26:05Z",
+    "lastCommitAt": "2026-09-11T08:23:28Z",
+    "stars": 3134,
+    "license": "MPL-2.0",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-11T17:44:12.859Z",
+    "source": "https://github.com/mozilla/web-ext"
+  },
+  "jeffbski-wait-on": {
+    "createdAt": "2015-07-23T15:14:24Z",
+    "pushedAt": "2026-09-09T02:32:47Z",
+    "lastCommitAt": "2026-07-21T20:49:37Z",
+    "stars": 1979,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-11T17:44:13.288Z",
+    "source": "https://github.com/jeffbski/wait-on"
+  },
+  "jacob-bd-gemini-notebook-mcp-cli": {
+    "createdAt": "2025-12-23T02:07:42Z",
+    "pushedAt": "2026-09-08T23:11:47Z",
+    "lastCommitAt": "2026-09-08T23:11:45Z",
+    "stars": 6061,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-11T17:44:13.864Z",
+    "source": "https://github.com/jacob-bd/gemini-notebook-mcp-cli"
   }
 }
