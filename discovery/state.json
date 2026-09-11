@@ -4,162 +4,6 @@
   "brewOffset": 80,
   "pending": [
     {
-      "repo": "beetbox/beets"
-    },
-    {
-      "repo": "vilaca/awesome-k8s-tools"
-    },
-    {
-      "repo": "crafter-station/petdex"
-    },
-    {
-      "repo": "pypa/hatch"
-    },
-    {
-      "repo": "1jehuang/jcode"
-    },
-    {
-      "repo": "xiufengsun/TokenTracker"
-    },
-    {
-      "repo": "dotenvx/dotenvx"
-    },
-    {
-      "repo": "pikpikcu/airecon"
-    },
-    {
-      "repo": "railwayapp/cli"
-    },
-    {
-      "repo": "thClaws/thClaws"
-    },
-    {
-      "repo": "yifanfeng97/Hyper-Extract"
-    },
-    {
-      "repo": "mtkennerly/ludusavi"
-    },
-    {
-      "repo": "iOfficeAI/OfficeCLI"
-    },
-    {
-      "repo": "Epistates/treemd"
-    },
-    {
-      "repo": "FPGAwars/apio"
-    },
-    {
-      "repo": "open-cli-tools/concurrently"
-    },
-    {
-      "repo": "suzuki-shunsuke/pinact"
-    },
-    {
-      "repo": "KeyValueSoftwareSystems/agent-opfor"
-    },
-    {
-      "repo": "leo-arch/clifm"
-    },
-    {
-      "repo": "agentforce314/clawcodex"
-    },
-    {
-      "repo": "mergestat/mergestat-lite"
-    },
-    {
-      "repo": "apple/swift-argument-parser"
-    },
-    {
-      "repo": "Tyrrrz/CliFx"
-    },
-    {
-      "repo": "Tyrrrz/CliWrap"
-    },
-    {
-      "repo": "svenstaro/miniserve"
-    },
-    {
-      "repo": "orhun/halp"
-    },
-    {
-      "repo": "curl/wcurl"
-    },
-    {
-      "repo": "tavianator/bfs"
-    },
-    {
-      "repo": "cmderdev/cmder"
-    },
-    {
-      "repo": "Hejsil/zig-clap"
-    },
-    {
-      "repo": "macports/macports-base"
-    },
-    {
-      "repo": "ascii-boxes/boxes"
-    },
-    {
-      "repo": "blacknon/hwatch"
-    },
-    {
-      "repo": "julienXX/terminal-notifier"
-    },
-    {
-      "repo": "sveinbjornt/hear"
-    },
-    {
-      "repo": "orhun/menyoki"
-    },
-    {
-      "repo": "kellyjonbrazil/jc"
-    },
-    {
-      "repo": "cacjs/cac"
-    },
-    {
-      "repo": "sammy-ette/Hilbish"
-    },
-    {
-      "repo": "simeg/eureka"
-    },
-    {
-      "repo": "wp-cli/php-cli-tools"
-    },
-    {
-      "repo": "antonmedv/fx"
-    },
-    {
-      "repo": "commitizen/cz-conventional-changelog"
-    },
-    {
-      "repo": "MacPaw/cleanmymac-cli"
-    },
-    {
-      "repo": "xwmx/nb"
-    },
-    {
-      "repo": "Vanilla-OS/apx"
-    },
-    {
-      "repo": "sayanarijit/xplr"
-    },
-    {
-      "repo": "gbevin/SendMIDI"
-    },
-    {
-      "repo": "ynqa/jnv"
-    },
-    {
-      "repo": "ankitpokhrel/jira-cli"
-    },
-    {
-      "repo": "keith/reminders-cli"
-    },
-    {
-      "repo": "schollz/progressbar"
-    },
-    {
       "repo": "bellingcat/telegram-phone-number-checker"
     },
     {
@@ -3109,7 +2953,234 @@
         },
         "commit": "463ad7097e8585cb8c9969a03dd12fde78827454"
       }
+    },
+    "beetbox/beets": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vilaca/awesome-k8s-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "crafter-station/petdex": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pypa/hatch": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "1jehuang/jcode": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xiufengsun/tokentracker": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dotenvx/dotenvx": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pikpikcu/airecon": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "thclaws/thclaws": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "yifanfeng97/hyper-extract": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mtkennerly/ludusavi": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "iofficeai/officecli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "epistates/treemd": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "GitHub stars",
+      "slug": "epistates-treemd",
+      "acceptedAt": "2026-09-11T22:43:31.776Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Epistates/treemd/blob/adb907df7d7aa94fb8c0c113cd9d33c86eb784d4/Cargo.toml",
+          "snippet": "[[bin]] name=\"treemd\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/Epistates/treemd/blob/adb907df7d7aa94fb8c0c113cd9d33c86eb784d4/README.md",
+          "snippet": "cargo install treemd"
+        },
+        "usage": {
+          "url": "https://github.com/Epistates/treemd/blob/adb907df7d7aa94fb8c0c113cd9d33c86eb784d4/README.md",
+          "snippet": "treemd -l README.md"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Epistates/treemd",
+          "snippet": "A (TUI/CLI) markdown navigator with tree-based structural navigation."
+        },
+        "adoption": {
+          "stars": 690,
+          "githubSource": "https://github.com/Epistates/treemd",
+          "homebrew": null
+        },
+        "commit": "adb907df7d7aa94fb8c0c113cd9d33c86eb784d4"
+      }
+    },
+    "fpgawars/apio": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "suzuki-shunsuke/pinact": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "keyvaluesoftwaresystems/agent-opfor": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "agentforce314/clawcodex": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tavianator/bfs": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cmderdev/cmder": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "hejsil/zig-clap": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "macports/macports-base": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ascii-boxes/boxes": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "blacknon/hwatch": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "julienxx/terminal-notifier": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sveinbjornt/hear": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "orhun/menyoki": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kellyjonbrazil/jc": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cacjs/cac": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sammy-ette/hilbish": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "simeg/eureka": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "wp-cli/php-cli-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "antonmedv/fx": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "commitizen/cz-conventional-changelog": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "macpaw/cleanmymac-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vanilla-os/apx": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sayanarijit/xplr": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gbevin/sendmidi": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ynqa/jnv": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "keith/reminders-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "schollz/progressbar": {
+      "status": "held",
+      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-11T21:43:33.440Z"
+  "lastRunAt": "2026-09-11T22:43:31.776Z"
 }

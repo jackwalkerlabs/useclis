@@ -4307,5 +4307,21 @@
     "example": "geo audit --url https://yoursite.com",
     "website": "https://github.com/Auriti-Labs/geo-optimizer-skill",
     "docs": "https://github.com/Auriti-Labs/geo-optimizer-skill/blob/463ad7097e8585cb8c9969a03dd12fde78827454/README.md"
+  },
+  {
+    "slug": "epistates-treemd",
+    "name": "treemd",
+    "repo": "Epistates/treemd",
+    "category": "Files & documents",
+    "command": "treemd",
+    "useCase": "A (TUI/CLI) markdown navigator with tree-based structural navigation.",
+    "description": "A (TUI/CLI) markdown navigator with tree-based structural navigation.",
+    "agentUse": "Invoke treemd from a shell for the documented use case: A (TUI/CLI) markdown navigator with tree-based structural navigation.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "treemd -l README.md",
+    "website": "https://github.com/Epistates/treemd",
+    "docs": "https://github.com/Epistates/treemd/blob/adb907df7d7aa94fb8c0c113cd9d33c86eb784d4/README.md"
   }
 ]

@@ -5017,6 +5017,25 @@ window.USECLIS_DATA = {
       "stars": 791,
       "license": "MIT",
       "checkedAt": "2026-09-11T21:44:02.260Z"
+    },
+    {
+      "slug": "epistates-treemd",
+      "name": "treemd",
+      "repo": "Epistates/treemd",
+      "category": "Files & documents",
+      "command": "treemd",
+      "useCase": "A (TUI/CLI) markdown navigator with tree-based structural navigation.",
+      "description": "A (TUI/CLI) markdown navigator with tree-based structural navigation.",
+      "agentUse": "Invoke treemd from a shell for the documented use case: A (TUI/CLI) markdown navigator with tree-based structural navigation.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "treemd -l README.md",
+      "website": "https://github.com/Epistates/treemd",
+      "docs": "https://github.com/Epistates/treemd/blob/adb907df7d7aa94fb8c0c113cd9d33c86eb784d4/README.md",
+      "stars": 690,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T22:43:45.933Z"
     }
   ],
   "categories": [

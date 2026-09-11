@@ -2358,5 +2358,15 @@
     "language": "Python",
     "checkedAt": "2026-09-11T21:44:02.260Z",
     "source": "https://github.com/Auriti-Labs/geo-optimizer-skill"
+  },
+  "epistates-treemd": {
+    "createdAt": "2025-11-08T03:51:32Z",
+    "pushedAt": "2026-09-11T01:41:04Z",
+    "lastCommitAt": "2026-09-11T01:41:02Z",
+    "stars": 690,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-11T22:43:45.933Z",
+    "source": "https://github.com/Epistates/treemd"
   }
 }
