@@ -2148,5 +2148,25 @@
     "language": "Go",
     "checkedAt": "2026-09-10T11:20:10.299Z",
     "source": "https://github.com/Mininglamp-OSS/octo-cli"
+  },
+  "pawamoy-aria2p": {
+    "createdAt": "2018-12-13T22:21:39Z",
+    "pushedAt": "2026-09-10T16:09:34Z",
+    "lastCommitAt": "2026-09-10T16:09:31Z",
+    "stars": 570,
+    "license": "ISC",
+    "language": "Python",
+    "checkedAt": "2026-09-10T23:50:53.435Z",
+    "source": "https://github.com/pawamoy/aria2p"
+  },
+  "vinhnx-vtcode": {
+    "createdAt": "2025-08-29T09:01:48Z",
+    "pushedAt": "2026-09-10T11:21:18Z",
+    "lastCommitAt": "2026-09-10T11:21:14Z",
+    "stars": 838,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-10T23:50:54.033Z",
+    "source": "https://github.com/vinhnx/VTCode"
   }
 }
