@@ -5,7 +5,8 @@ export async function dispatchDiscovery(env, fetcher = fetch) {
   if (!/^[\w.-]+\/[\w.-]+$/.test(env.GITHUB_REPOSITORY)) throw new Error('Invalid repository');
   const response = await fetcher(`https://api.github.com/repos/${env.GITHUB_REPOSITORY}/actions/workflows/discover-clis.yml/dispatches`, {
     method: 'POST',
-    redirect: 'error',
+    // Workers supports follow/manual only. Reject redirects via the 204 check below.
+    redirect: 'manual',
     signal: AbortSignal.timeout(20_000),
     headers: {
       Authorization: `Bearer ${env.GITHUB_DISPATCH_TOKEN}`,

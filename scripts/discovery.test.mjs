@@ -115,11 +115,12 @@ test('Cloudflare dispatch is fixed to the main workflow and reports failed deliv
   await dispatchDiscovery(env, async (url, options) => {
     assert.equal(url, 'https://api.github.com/repos/sample/catalog/actions/workflows/discover-clis.yml/dispatches');
     assert.deepEqual(JSON.parse(options.body), { ref: 'main' });
-    assert.equal(options.redirect, 'error');
+    assert.equal(options.redirect, 'manual');
     return new Response(null, { status: 204 });
   });
   await assert.rejects(dispatchDiscovery({}, async () => { throw new Error('Should not fetch'); }), /Missing/);
   await assert.rejects(dispatchDiscovery(env, async () => new Response(null, { status: 403 })), /HTTP 403/);
+  await assert.rejects(dispatchDiscovery(env, async () => new Response(null, { status: 302, headers: { Location: 'https://other.example/' } })), /HTTP 302/);
 });
 
 test('Discovery reserves core budget, tracks search separately, and bounds requests even without rate headers', async () => {
