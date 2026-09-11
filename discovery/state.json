@@ -2,71 +2,7 @@
   "version": 1,
   "searchPage": 2,
   "brewOffset": 40,
-  "pending": [
-    {
-      "repo": "Tarsnap/tarsnap"
-    },
-    {
-      "repo": "mstange/samply"
-    },
-    {
-      "repo": "pallets/click"
-    },
-    {
-      "repo": "simonw/llm"
-    },
-    {
-      "repo": "tox-dev/pipdeptree"
-    },
-    {
-      "repo": "containers/toolbox"
-    },
-    {
-      "repo": "dart-lang/pub"
-    },
-    {
-      "repo": "oracle/oci-cli"
-    },
-    {
-      "repo": "jarro2783/cxxopts"
-    },
-    {
-      "repo": "librespeed/speedtest-cli"
-    },
-    {
-      "repo": "GothenburgBitFactory/taskwarrior"
-    },
-    {
-      "repo": "equinix-labs/otel-cli"
-    },
-    {
-      "repo": "mpv-player/mpv"
-    },
-    {
-      "repo": "flosell/trailscraper"
-    },
-    {
-      "repo": "xo/dbtpl"
-    },
-    {
-      "repo": "foundweekends/giter8"
-    },
-    {
-      "repo": "SWE-agent/mini-swe-agent"
-    },
-    {
-      "repo": "estesp/manifest-tool"
-    },
-    {
-      "repo": "CLIUtils/CLI11"
-    },
-    {
-      "repo": "Lymphatus/caesium-clt"
-    },
-    {
-      "repo": "percona/percona-toolkit"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -1765,7 +1701,129 @@
       "status": "held",
       "checkedAt": "2026-09-11T17:43:49.743Z",
       "reason": "Terminal use case needs classification"
+    },
+    "tarsnap/tarsnap": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mstange/samply": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pallets/click": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tox-dev/pipdeptree": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "GitHub stars",
+      "slug": "tox-dev-pipdeptree",
+      "acceptedAt": "2026-09-11T18:43:50.739Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/tox-dev/pipdeptree/blob/c59bf3c5f2a7fb9d0a0bed924c4adb47e6ad8fb5/pyproject.toml",
+          "snippet": "pipdeptree = \"pipdeptree._runner:main\"",
+          "target": "src/pipdeptree/_runner.py"
+        },
+        "installation": {
+          "url": "https://github.com/tox-dev/pipdeptree/blob/c59bf3c5f2a7fb9d0a0bed924c4adb47e6ad8fb5/README.md",
+          "snippet": "pip install pipdeptree"
+        },
+        "usage": {
+          "url": "https://github.com/tox-dev/pipdeptree/blob/c59bf3c5f2a7fb9d0a0bed924c4adb47e6ad8fb5/README.md",
+          "snippet": "pipdeptree --reverse --packages markupsafe"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/tox-dev/pipdeptree",
+          "snippet": "A command line utility to display dependency tree of the installed Python packages"
+        },
+        "adoption": {
+          "stars": 3021,
+          "githubSource": "https://github.com/tox-dev/pipdeptree",
+          "homebrew": null
+        },
+        "commit": "c59bf3c5f2a7fb9d0a0bed924c4adb47e6ad8fb5"
+      }
+    },
+    "containers/toolbox": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dart-lang/pub": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "oracle/oci-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jarro2783/cxxopts": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "librespeed/speedtest-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "equinix-labs/otel-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mpv-player/mpv": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "flosell/trailscraper": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "xo/dbtpl": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "foundweekends/giter8": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "swe-agent/mini-swe-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "estesp/manifest-tool": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cliutils/cli11": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lymphatus/caesium-clt": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "percona/percona-toolkit": {
+      "status": "held",
+      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-11T17:43:49.743Z"
+  "lastRunAt": "2026-09-11T18:43:50.739Z"
 }

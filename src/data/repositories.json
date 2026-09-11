@@ -2268,5 +2268,15 @@
     "language": "Python",
     "checkedAt": "2026-09-11T17:44:13.864Z",
     "source": "https://github.com/jacob-bd/gemini-notebook-mcp-cli"
+  },
+  "tox-dev-pipdeptree": {
+    "createdAt": "2014-02-02T17:45:23Z",
+    "pushedAt": "2026-09-08T18:23:12Z",
+    "lastCommitAt": "2026-09-08T18:23:09Z",
+    "stars": 3021,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-11T18:44:00.811Z",
+    "source": "https://github.com/tox-dev/pipdeptree"
   }
 }

@@ -4163,5 +4163,21 @@
     "example": "nlm setup add claude-code",
     "website": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
     "docs": "https://github.com/jacob-bd/gemini-notebook-mcp-cli/blob/03f7812c243f4d6ff732e2a485e6b9d35540f660/README.md"
+  },
+  {
+    "slug": "tox-dev-pipdeptree",
+    "name": "pipdeptree",
+    "repo": "tox-dev/pipdeptree",
+    "category": "Packages & environments",
+    "command": "pipdeptree",
+    "useCase": "A command line utility to display dependency tree of the installed Python packages",
+    "description": "A command line utility to display dependency tree of the installed Python packages",
+    "agentUse": "Invoke pipdeptree from a shell for the documented use case: A command line utility to display dependency tree of the installed Python packages",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "pipdeptree --reverse --packages markupsafe",
+    "website": "https://github.com/tox-dev/pipdeptree",
+    "docs": "https://github.com/tox-dev/pipdeptree/blob/c59bf3c5f2a7fb9d0a0bed924c4adb47e6ad8fb5/README.md"
   }
 ]

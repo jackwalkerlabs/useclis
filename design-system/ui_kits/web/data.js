@@ -4846,6 +4846,25 @@ window.USECLIS_DATA = {
       "stars": 6061,
       "license": "MIT",
       "checkedAt": "2026-09-11T17:44:13.864Z"
+    },
+    {
+      "slug": "tox-dev-pipdeptree",
+      "name": "pipdeptree",
+      "repo": "tox-dev/pipdeptree",
+      "category": "Packages & environments",
+      "command": "pipdeptree",
+      "useCase": "A command line utility to display dependency tree of the installed Python packages",
+      "description": "A command line utility to display dependency tree of the installed Python packages",
+      "agentUse": "Invoke pipdeptree from a shell for the documented use case: A command line utility to display dependency tree of the installed Python packages",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "pipdeptree --reverse --packages markupsafe",
+      "website": "https://github.com/tox-dev/pipdeptree",
+      "docs": "https://github.com/tox-dev/pipdeptree/blob/c59bf3c5f2a7fb9d0a0bed924c4adb47e6ad8fb5/README.md",
+      "stars": 3021,
+      "license": "MIT",
+      "checkedAt": "2026-09-11T18:44:00.811Z"
     }
   ],
   "categories": [
