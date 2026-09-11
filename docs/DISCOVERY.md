@@ -78,7 +78,7 @@ Merge the hourly safeguards into main before enabling the Cloudflare schedule. T
    npm run deploy:discovery
    ```
 
-Cloudflare cron changes may take up to 15 minutes to propagate. Verify a scheduled invocation in Workers logs, its corresponding GitHub discovery run, the following production CI run, and the live catalog. A successful dispatch alone does not mean publication succeeded. No deployment credentials belong in Worker `vars`, the catalog, source evidence, logs, or chat.
+Cloudflare cron changes may take up to 15 minutes to propagate. Verify a scheduled invocation in Workers logs, its corresponding GitHub discovery run, the following production CI run, and the live catalog. A successful dispatch alone does not mean publication succeeded. A manual GitHub workflow run also does not test the Cloudflare handler: use `wrangler dev --remote --test-scheduled --config workers/discovery/wrangler.jsonc` and invoke its local `/__scheduled` route to test that handler in Cloudflare's runtime with the deployed secret. This triggers a real discovery run. Do not claim hourly operation is verified until an actual cron invocation succeeds. No deployment credentials belong in Worker `vars`, the catalog, source evidence, logs, or chat.
 
 ## Pause and recover
 
