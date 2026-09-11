@@ -2178,5 +2178,25 @@
     "language": "Python",
     "checkedAt": "2026-09-11T15:38:11.016Z",
     "source": "https://github.com/gptme/gptme"
+  },
+  "apify-mcpc": {
+    "createdAt": "2025-12-09T03:00:11Z",
+    "pushedAt": "2026-09-10T15:07:39Z",
+    "lastCommitAt": "2026-09-10T12:39:56Z",
+    "stars": 804,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-11T15:44:18.175Z",
+    "source": "https://github.com/apify/mcpc"
+  },
+  "papis-papis": {
+    "createdAt": "2017-02-21T14:52:50Z",
+    "pushedAt": "2026-09-09T08:17:55Z",
+    "lastCommitAt": "2026-09-09T08:17:55Z",
+    "stars": 1778,
+    "license": "GPL-3.0",
+    "language": "HTML",
+    "checkedAt": "2026-09-11T15:44:18.770Z",
+    "source": "https://github.com/papis/papis"
   }
 }

@@ -4675,6 +4675,44 @@ window.USECLIS_DATA = {
       "stars": 4411,
       "license": "MIT",
       "checkedAt": "2026-09-11T15:38:11.016Z"
+    },
+    {
+      "slug": "apify-mcpc",
+      "name": "mcpc",
+      "repo": "apify/mcpc",
+      "category": "Data & APIs",
+      "command": "mcpc",
+      "useCase": "A universal CLI client for MCP. mcpc supports persistent sessions, stdio/HTTP, OAuth 2.1, tasks, JSON output for code mode, proxy for AI sandboxes, x402, and more.",
+      "description": "A universal CLI client for MCP. mcpc supports persistent sessions, stdio/HTTP, OAuth 2.1, tasks, JSON output for code mode, proxy for AI sandboxes, x402, and more.",
+      "agentUse": "Invoke mcpc from a shell for the documented use case: A universal CLI client for MCP. mcpc supports persistent sessions, stdio/HTTP, OAuth 2.1, tasks, JSON output for code mode, proxy for AI sandboxes, x402, and more.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mcpc connect mcp.apify.com @test",
+      "website": "https://github.com/apify/mcpc",
+      "docs": "https://github.com/apify/mcpc/blob/ab880f909662893accebe92c2b76408f2dfdf387/README.md",
+      "stars": 804,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-11T15:44:18.175Z"
+    },
+    {
+      "slug": "papis-papis",
+      "name": "papis",
+      "repo": "papis/papis",
+      "category": "Files & documents",
+      "command": "papis",
+      "useCase": "Powerful and highly extensible command-line based document and bibliography manager.",
+      "description": "Powerful and highly extensible command-line based document and bibliography manager.",
+      "agentUse": "Invoke papis from a shell for the documented use case: Powerful and highly extensible command-line based document and bibliography manager.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "papis explore",
+      "website": "https://github.com/papis/papis",
+      "docs": "https://github.com/papis/papis/blob/69b90609a18846ae594b7882fd317509bd01547f/README.rst",
+      "stars": 1778,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-11T15:44:18.770Z"
     }
   ],
   "categories": [

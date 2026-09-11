@@ -4,141 +4,6 @@
   "brewOffset": 40,
   "pending": [
     {
-      "repo": "jarun/nnn"
-    },
-    {
-      "repo": "leo-arch/clifm"
-    },
-    {
-      "repo": "FarGroup/FarManager"
-    },
-    {
-      "repo": "apify/mcpc"
-    },
-    {
-      "repo": "bacnet-stack/bacnet-stack"
-    },
-    {
-      "repo": "mrusme/zeit"
-    },
-    {
-      "repo": "johnkerl/miller"
-    },
-    {
-      "repo": "ravachol/kew"
-    },
-    {
-      "repo": "jolicode/castor"
-    },
-    {
-      "repo": "deadc0de6/dotdrop"
-    },
-    {
-      "repo": "Nukesor/pueue"
-    },
-    {
-      "repo": "jrnl-org/jrnl"
-    },
-    {
-      "repo": "charmbracelet/vhs"
-    },
-    {
-      "repo": "domcyrus/rustnet"
-    },
-    {
-      "repo": "tw93/Mole"
-    },
-    {
-      "repo": "kimono-koans/httm"
-    },
-    {
-      "repo": "papis/papis"
-    },
-    {
-      "repo": "visit1985/mdp"
-    },
-    {
-      "repo": "fastfetch-cli/fastfetch"
-    },
-    {
-      "repo": "shibayan/Sharprompt"
-    },
-    {
-      "repo": "Piebald-AI/tweakcc"
-    },
-    {
-      "repo": "sharkdp/fd"
-    },
-    {
-      "repo": "microsoft/terminal"
-    },
-    {
-      "repo": "jarun/buku"
-    },
-    {
-      "repo": "micro-editor/micro"
-    },
-    {
-      "repo": "sxyazi/yazi"
-    },
-    {
-      "repo": "python-cmd2/cmd2"
-    },
-    {
-      "repo": "alecthomas/kong"
-    },
-    {
-      "repo": "Canop/broot"
-    },
-    {
-      "repo": "symfony/console"
-    },
-    {
-      "repo": "digitalocean/doctl"
-    },
-    {
-      "repo": "jiaqi/jmxterm"
-    },
-    {
-      "repo": "arduino/arduino-cli"
-    },
-    {
-      "repo": "noborus/ov"
-    },
-    {
-      "repo": "vadimdemedes/ink"
-    },
-    {
-      "repo": "o2sh/onefetch"
-    },
-    {
-      "repo": "voidcosmos/npkill"
-    },
-    {
-      "repo": "hatoo/oha"
-    },
-    {
-      "repo": "fleschutz/PowerShell"
-    },
-    {
-      "repo": "sloria/doitlive"
-    },
-    {
-      "repo": "ajeetdsouza/zoxide"
-    },
-    {
-      "repo": "bombshell-dev/clack"
-    },
-    {
-      "repo": "hetznercloud/cli"
-    },
-    {
-      "repo": "tailcallhq/forgecode"
-    },
-    {
-      "repo": "SBoudrias/Inquirer.js"
-    },
-    {
       "repo": "go-musicfox/go-musicfox"
     },
     {
@@ -1336,7 +1201,261 @@
       "status": "held",
       "checkedAt": "2026-09-11T15:37:48.248Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jarun/nnn": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "leo-arch/clifm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fargroup/farmanager": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apify/mcpc": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "GitHub stars",
+      "slug": "apify-mcpc",
+      "acceptedAt": "2026-09-11T15:43:52.976Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/apify/mcpc/blob/ab880f909662893accebe92c2b76408f2dfdf387/package.json",
+          "snippet": "{\"bin\":{\"mcpc\":\"bin/mcpc\"}}",
+          "target": "bin/mcpc"
+        },
+        "installation": {
+          "url": "https://github.com/apify/mcpc/blob/ab880f909662893accebe92c2b76408f2dfdf387/README.md",
+          "snippet": "npm install -g @apify/mcpc"
+        },
+        "usage": {
+          "url": "https://github.com/apify/mcpc/blob/ab880f909662893accebe92c2b76408f2dfdf387/README.md",
+          "snippet": "mcpc connect mcp.apify.com @test"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/apify/mcpc",
+          "snippet": "A universal CLI client for MCP. mcpc supports persistent sessions, stdio/HTTP, OAuth 2.1, tasks, JSON output for code mode, proxy for AI sandboxes, x402, and more."
+        },
+        "adoption": {
+          "stars": 804,
+          "githubSource": "https://github.com/apify/mcpc",
+          "homebrew": null
+        },
+        "commit": "ab880f909662893accebe92c2b76408f2dfdf387"
+      }
+    },
+    "bacnet-stack/bacnet-stack": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mrusme/zeit": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ravachol/kew": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jolicode/castor": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "deadc0de6/dotdrop": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nukesor/pueue": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jrnl-org/jrnl": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "charmbracelet/vhs": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "domcyrus/rustnet": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tw93/mole": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kimono-koans/httm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "papis/papis": {
+      "status": "accepted",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "GitHub stars",
+      "slug": "papis-papis",
+      "acceptedAt": "2026-09-11T15:43:52.976Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/papis/papis/blob/69b90609a18846ae594b7882fd317509bd01547f/pyproject.toml",
+          "snippet": "papis = \"papis.commands.default:run\"",
+          "target": "papis/commands/default.py"
+        },
+        "installation": {
+          "url": "https://github.com/papis/papis/blob/69b90609a18846ae594b7882fd317509bd01547f/README.rst",
+          "snippet": "pip install papis"
+        },
+        "usage": {
+          "url": "https://github.com/papis/papis/blob/69b90609a18846ae594b7882fd317509bd01547f/README.rst",
+          "snippet": "papis explore"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/papis/papis",
+          "snippet": "Powerful and highly extensible command-line based document and bibliography manager."
+        },
+        "adoption": {
+          "stars": 1778,
+          "githubSource": "https://github.com/papis/papis",
+          "homebrew": null
+        },
+        "commit": "69b90609a18846ae594b7882fd317509bd01547f"
+      }
+    },
+    "visit1985/mdp": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fastfetch-cli/fastfetch": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "shibayan/sharprompt": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "piebald-ai/tweakcc": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "micro-editor/micro": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sxyazi/yazi": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "python-cmd2/cmd2": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "alecthomas/kong": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "canop/broot": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "symfony/console": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jiaqi/jmxterm": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "arduino/arduino-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "noborus/ov": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vadimdemedes/ink": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "o2sh/onefetch": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "voidcosmos/npkill": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hatoo/oha": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fleschutz/powershell": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sloria/doitlive": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ajeetdsouza/zoxide": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bombshell-dev/clack": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tailcallhq/forgecode": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sboudrias/inquirer.js": {
+      "status": "held",
+      "checkedAt": "2026-09-11T15:43:52.976Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-11T15:37:48.248Z"
+  "lastRunAt": "2026-09-11T15:43:52.976Z"
 }

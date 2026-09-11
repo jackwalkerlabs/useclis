@@ -2390,5 +2390,31 @@
     "createdAt": "2024-01-20T14:17:11Z",
     "checkedAt": "2026-09-11T15:38:12.631Z",
     "source": "https://github.com/gptme"
+  },
+  "apify": {
+    "login": "apify",
+    "name": "Apify",
+    "type": "Organization",
+    "bio": "Put the web to work.",
+    "location": null,
+    "website": "https://apify.com/",
+    "followers": 2309,
+    "publicRepos": 261,
+    "createdAt": "2016-12-15T10:36:52Z",
+    "checkedAt": "2026-09-11T15:44:20.629Z",
+    "source": "https://github.com/apify"
+  },
+  "papis": {
+    "login": "papis",
+    "name": "Papis",
+    "type": "Organization",
+    "bio": null,
+    "location": "Earth",
+    "website": null,
+    "followers": 10,
+    "publicRepos": 25,
+    "createdAt": "2018-02-09T22:55:56Z",
+    "checkedAt": "2026-09-11T15:44:20.932Z",
+    "source": "https://github.com/papis"
   }
 }
