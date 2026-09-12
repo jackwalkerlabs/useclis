@@ -5074,6 +5074,25 @@ window.USECLIS_DATA = {
       "stars": 2975,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-11T23:43:42.806Z"
+    },
+    {
+      "slug": "rahiel-telegram-send",
+      "name": "telegram-send",
+      "repo": "rahiel/telegram-send",
+      "category": "Files & documents",
+      "command": "telegram-send",
+      "useCase": "Send messages and files over Telegram from the command-line.",
+      "description": "Send messages and files over Telegram from the command-line.",
+      "agentUse": "Invoke telegram-send from a shell for the documented use case: Send messages and files over Telegram from the command-line.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "telegram-send --format markdown \"Only the *bold* use _italics_\"",
+      "website": "https://github.com/rahiel/telegram-send",
+      "docs": "https://github.com/rahiel/telegram-send/blob/f5466fc2b8b8b9aaa55dd28fb80b6ae138b578d8/README.md",
+      "stars": 1014,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-12T00:43:48.233Z"
     }
   ],
   "categories": [

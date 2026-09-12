@@ -2663,5 +2663,18 @@
     "createdAt": "2011-06-20T15:37:14Z",
     "checkedAt": "2026-09-11T23:43:44.286Z",
     "source": "https://github.com/kislyuk"
+  },
+  "rahiel": {
+    "login": "rahiel",
+    "name": "Rahiel Kasim",
+    "type": "User",
+    "bio": "﷽",
+    "location": "The Netherlands",
+    "website": null,
+    "followers": 91,
+    "publicRepos": 18,
+    "createdAt": "2014-03-03T12:57:06Z",
+    "checkedAt": "2026-09-12T00:43:49.661Z",
+    "source": "https://github.com/rahiel"
   }
 }

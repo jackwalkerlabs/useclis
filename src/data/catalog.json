@@ -4355,5 +4355,21 @@
     "example": "yq -y .Resources.ElasticLoadBalancer",
     "website": "https://github.com/kislyuk/yq",
     "docs": "https://github.com/kislyuk/yq/blob/ff9fc4b18d0bcbfb7758ff82bf1f36b60020b48a/README.rst"
+  },
+  {
+    "slug": "rahiel-telegram-send",
+    "name": "telegram-send",
+    "repo": "rahiel/telegram-send",
+    "category": "Files & documents",
+    "command": "telegram-send",
+    "useCase": "Send messages and files over Telegram from the command-line.",
+    "description": "Send messages and files over Telegram from the command-line.",
+    "agentUse": "Invoke telegram-send from a shell for the documented use case: Send messages and files over Telegram from the command-line.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "telegram-send --format markdown \"Only the *bold* use _italics_\"",
+    "website": "https://github.com/rahiel/telegram-send",
+    "docs": "https://github.com/rahiel/telegram-send/blob/f5466fc2b8b8b9aaa55dd28fb80b6ae138b578d8/README.md"
   }
 ]

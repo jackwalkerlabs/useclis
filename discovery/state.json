@@ -4,237 +4,6 @@
   "brewOffset": 80,
   "pending": [
     {
-      "repo": "jrswab/axe"
-    },
-    {
-      "repo": "natemcmaster/CommandLineUtils"
-    },
-    {
-      "repo": "skywind3000/vim-quickui"
-    },
-    {
-      "repo": "sigoden/dufs"
-    },
-    {
-      "repo": "sigoden/argc"
-    },
-    {
-      "repo": "box-project/box"
-    },
-    {
-      "repo": "tarka/xcp"
-    },
-    {
-      "repo": "guptarohit/asciigraph"
-    },
-    {
-      "repo": "xo/usql"
-    },
-    {
-      "repo": "PatrickF1/fzf.fish"
-    },
-    {
-      "repo": "DanielSWolf/rhubarb-lip-sync"
-    },
-    {
-      "repo": "rust-shell-script/rust_cmd_lib"
-    },
-    {
-      "repo": "sstadick/hck"
-    },
-    {
-      "repo": "kaelzhang/shell-safe-rm"
-    },
-    {
-      "repo": "jotaen/klog"
-    },
-    {
-      "repo": "felangel/mason"
-    },
-    {
-      "repo": "hroptatyr/dateutils"
-    },
-    {
-      "repo": "arsham/figurine"
-    },
-    {
-      "repo": "wookayin/gpustat"
-    },
-    {
-      "repo": "Aider-AI/aider"
-    },
-    {
-      "repo": "rahiel/telegram-send"
-    },
-    {
-      "repo": "claudiodangelis/qrcp"
-    },
-    {
-      "repo": "hardikvasa/google-images-download"
-    },
-    {
-      "repo": "agauniyal/rang"
-    },
-    {
-      "repo": "naggie/dstask"
-    },
-    {
-      "repo": "ms-jpq/sad"
-    },
-    {
-      "repo": "jrnl-org/jrnl"
-    },
-    {
-      "repo": "warrensbox/terraform-switcher"
-    },
-    {
-      "repo": "bit-team/backintime"
-    },
-    {
-      "repo": "papis/papis"
-    },
-    {
-      "repo": "visit1985/mdp"
-    },
-    {
-      "repo": "shibayan/Sharprompt"
-    },
-    {
-      "repo": "danvergara/dblab"
-    },
-    {
-      "repo": "nicklockwood/SwiftFormat"
-    },
-    {
-      "repo": "Adamant-im/adamant-console"
-    },
-    {
-      "repo": "dotnet/command-line-api"
-    },
-    {
-      "repo": "jeffbski/wait-on"
-    },
-    {
-      "repo": "tox-dev/tox"
-    },
-    {
-      "repo": "spaam/svtplay-dl"
-    },
-    {
-      "repo": "jacob-bd/gemini-notebook-mcp-cli"
-    },
-    {
-      "repo": "deviceinsight/kafkactl"
-    },
-    {
-      "repo": "drush-ops/drush"
-    },
-    {
-      "repo": "Tarsnap/tarsnap"
-    },
-    {
-      "repo": "alecthomas/kong"
-    },
-    {
-      "repo": "simonw/llm"
-    },
-    {
-      "repo": "tox-dev/pipdeptree"
-    },
-    {
-      "repo": "containers/toolbox"
-    },
-    {
-      "repo": "digitalocean/doctl"
-    },
-    {
-      "repo": "jiaqi/jmxterm"
-    },
-    {
-      "repo": "oracle/oci-cli"
-    },
-    {
-      "repo": "jarro2783/cxxopts"
-    },
-    {
-      "repo": "librespeed/speedtest-cli"
-    },
-    {
-      "repo": "ARM-software/astc-encoder"
-    },
-    {
-      "repo": "equinix-labs/otel-cli"
-    },
-    {
-      "repo": "flosell/trailscraper"
-    },
-    {
-      "repo": "xo/dbtpl"
-    },
-    {
-      "repo": "foundweekends/giter8"
-    },
-    {
-      "repo": "SWE-agent/mini-swe-agent"
-    },
-    {
-      "repo": "estesp/manifest-tool"
-    },
-    {
-      "repo": "CLIUtils/CLI11"
-    },
-    {
-      "repo": "Lymphatus/caesium-clt"
-    },
-    {
-      "repo": "percona/percona-toolkit"
-    },
-    {
-      "repo": "igorshubovych/markdownlint-cli"
-    },
-    {
-      "repo": "PaulJuliusMartinez/jless"
-    },
-    {
-      "repo": "waf/CSharpRepl"
-    },
-    {
-      "repo": "copier-org/copier"
-    },
-    {
-      "repo": "fioncat/otree"
-    },
-    {
-      "repo": "rust-av/Av1an"
-    },
-    {
-      "repo": "pdfcpu/pdfcpu"
-    },
-    {
-      "repo": "mermaid-js/mermaid-cli"
-    },
-    {
-      "repo": "afc163/fanyi"
-    },
-    {
-      "repo": "sferik/x-cli"
-    },
-    {
-      "repo": "hartwork/git-delete-merged-branches"
-    },
-    {
-      "repo": "lakinduakash/linux-wifi-hotspot"
-    },
-    {
-      "repo": "boredazfcuk/docker-icloudpd"
-    },
-    {
-      "repo": "packwiz/packwiz"
-    },
-    {
-      "repo": "termux/termux-api"
-    },
-    {
       "repo": "tinode/chat"
     },
     {
@@ -3308,7 +3077,234 @@
       "status": "held",
       "checkedAt": "2026-09-11T23:43:28.624Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "jrswab/axe": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "natemcmaster/commandlineutils": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "skywind3000/vim-quickui": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sigoden/dufs": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sigoden/argc": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "box-project/box": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tarka/xcp": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "guptarohit/asciigraph": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "patrickf1/fzf.fish": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "danielswolf/rhubarb-lip-sync": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rust-shell-script/rust_cmd_lib": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sstadick/hck": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kaelzhang/shell-safe-rm": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jotaen/klog": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "felangel/mason": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hroptatyr/dateutils": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "arsham/figurine": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wookayin/gpustat": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rahiel/telegram-send": {
+      "status": "accepted",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "GitHub stars",
+      "slug": "rahiel-telegram-send",
+      "acceptedAt": "2026-09-12T00:43:29.989Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/rahiel/telegram-send/blob/f5466fc2b8b8b9aaa55dd28fb80b6ae138b578d8/pyproject.toml",
+          "snippet": "telegram-send = \"telegram_send.telegram_send:main\"",
+          "target": "telegram_send/telegram_send.py"
+        },
+        "installation": {
+          "url": "https://github.com/rahiel/telegram-send/blob/f5466fc2b8b8b9aaa55dd28fb80b6ae138b578d8/README.md",
+          "snippet": "pipx install telegram-send"
+        },
+        "usage": {
+          "url": "https://github.com/rahiel/telegram-send/blob/f5466fc2b8b8b9aaa55dd28fb80b6ae138b578d8/README.md",
+          "snippet": "telegram-send --format markdown \"Only the *bold* use _italics_\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/rahiel/telegram-send",
+          "snippet": "Send messages and files over Telegram from the command-line."
+        },
+        "adoption": {
+          "stars": 1014,
+          "githubSource": "https://github.com/rahiel/telegram-send",
+          "homebrew": null
+        },
+        "commit": "f5466fc2b8b8b9aaa55dd28fb80b6ae138b578d8"
+      }
+    },
+    "claudiodangelis/qrcp": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hardikvasa/google-images-download": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "agauniyal/rang": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "naggie/dstask": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ms-jpq/sad": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nicklockwood/swiftformat": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "adamant-im/adamant-console": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dotnet/command-line-api": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "arm-software/astc-encoder": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "igorshubovych/markdownlint-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pauljuliusmartinez/jless": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "waf/csharprepl": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "copier-org/copier": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fioncat/otree": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rust-av/av1an": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "afc163/fanyi": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sferik/x-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lakinduakash/linux-wifi-hotspot": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "boredazfcuk/docker-icloudpd": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "packwiz/packwiz": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "termux/termux-api": {
+      "status": "held",
+      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-11T23:43:28.624Z"
+  "lastRunAt": "2026-09-12T00:43:29.989Z"
 }

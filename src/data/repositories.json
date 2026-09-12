@@ -2388,5 +2388,15 @@
     "language": "Python",
     "checkedAt": "2026-09-11T23:43:42.806Z",
     "source": "https://github.com/kislyuk/yq"
+  },
+  "rahiel-telegram-send": {
+    "createdAt": "2016-04-24T10:52:45Z",
+    "pushedAt": "2026-05-19T22:36:22Z",
+    "lastCommitAt": "2026-01-27T13:05:15Z",
+    "stars": 1014,
+    "license": "GPL-3.0",
+    "language": "Python",
+    "checkedAt": "2026-09-12T00:43:48.233Z",
+    "source": "https://github.com/rahiel/telegram-send"
   }
 }
