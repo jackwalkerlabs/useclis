@@ -5150,6 +5150,63 @@ window.USECLIS_DATA = {
       "stars": 532,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-13T23:42:34.029Z"
+    },
+    {
+      "slug": "geekjourneyx-md2wechat-skill",
+      "name": "md2wechat-skill",
+      "repo": "geekjourneyx/md2wechat-skill",
+      "category": "Files & documents",
+      "command": "md2wechat",
+      "useCase": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理、多平台发布",
+      "description": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理、多平台发布",
+      "agentUse": "Invoke md2wechat from a shell for the documented use case: Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理、多平台发布",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "md2wechat inspect article.md --json",
+      "website": "https://github.com/geekjourneyx/md2wechat-skill",
+      "docs": "https://github.com/geekjourneyx/md2wechat-skill/blob/342cc66b492bd2bcf5039920e3cc52bd44a9bf0e/README.md",
+      "stars": 3644,
+      "license": null,
+      "checkedAt": "2026-09-13T23:44:57.251Z"
+    },
+    {
+      "slug": "aws-aws-sam-cli",
+      "name": "aws-sam-cli",
+      "repo": "aws/aws-sam-cli",
+      "category": "Cloud & deployment",
+      "command": "sam",
+      "useCase": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
+      "description": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
+      "agentUse": "Invoke sam from a shell for the documented use case: CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "sam init",
+      "website": "https://github.com/aws/aws-sam-cli",
+      "docs": "https://github.com/aws/aws-sam-cli/blob/5b20d0ec502e167ba37d2f1e8c6aa92c843ede5d/README.md",
+      "stars": 6732,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-13T23:44:57.912Z"
+    },
+    {
+      "slug": "iwe-org-iwe",
+      "name": "iwe",
+      "repo": "iwe-org/iwe",
+      "category": "Files & documents",
+      "command": "iwe",
+      "useCase": "Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents",
+      "description": "Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents",
+      "agentUse": "Invoke iwe from a shell for the documented use case: Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "iwe find --fuzzy auth",
+      "website": "https://github.com/iwe-org/iwe",
+      "docs": "https://github.com/iwe-org/iwe/blob/4fd184731e8a80ca1886cfdfc6eee6d227834068/README.md",
+      "stars": 1641,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-13T23:44:58.425Z"
     }
   ],
   "categories": [

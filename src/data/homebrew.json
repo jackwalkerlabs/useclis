@@ -1146,5 +1146,19 @@
     "checkedAt": "2026-09-11T19:44:36.627Z",
     "generatedDate": "2026-09-11",
     "status": "ok"
+  },
+  "aws-aws-sam-cli": {
+    "formula": "aws-sam-cli",
+    "repo": "aws/aws-sam-cli",
+    "source": "https://formulae.brew.sh/api/formula/aws-sam-cli.json",
+    "attemptedAt": "2026-09-13T23:44:59.853Z",
+    "counts": {
+      "30d": 2120,
+      "90d": 15503,
+      "365d": 80854
+    },
+    "checkedAt": "2026-09-13T23:44:59.853Z",
+    "generatedDate": "2026-09-13",
+    "status": "ok"
   }
 }

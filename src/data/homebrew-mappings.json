@@ -329,5 +329,9 @@
   "wez-atomicparsley": {
     "formula": "atomicparsley",
     "repo": "wez/atomicparsley"
+  },
+  "aws-aws-sam-cli": {
+    "formula": "aws-sam-cli",
+    "repo": "aws/aws-sam-cli"
   }
 }

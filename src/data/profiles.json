@@ -578,10 +578,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://amazon.com/aws",
-    "followers": 16723,
+    "followers": 16770,
     "publicRepos": 552,
     "createdAt": "2012-08-28T05:37:55Z",
-    "checkedAt": "2026-09-10T11:21:15.729Z",
+    "checkedAt": "2026-09-13T23:45:00.986Z",
     "source": "https://github.com/aws"
   },
   "azure": {
@@ -2715,5 +2715,31 @@
     "createdAt": "2017-12-06T00:25:11Z",
     "checkedAt": "2026-09-13T23:42:35.868Z",
     "source": "https://github.com/acheronfail"
+  },
+  "geekjourneyx": {
+    "login": "geekjourneyx",
+    "name": "geekjourney",
+    "type": "User",
+    "bio": "AI Builder |  Harness Engineer",
+    "location": "china",
+    "website": "https://jieni.ai",
+    "followers": 290,
+    "publicRepos": 174,
+    "createdAt": "2016-12-07T01:11:52Z",
+    "checkedAt": "2026-09-13T23:45:00.528Z",
+    "source": "https://github.com/geekjourneyx"
+  },
+  "iwe-org": {
+    "login": "iwe-org",
+    "name": "IWE",
+    "type": "Organization",
+    "bio": null,
+    "location": "United States of America",
+    "website": "https://iwe.md",
+    "followers": 21,
+    "publicRepos": 15,
+    "createdAt": "2024-02-20T23:36:43Z",
+    "checkedAt": "2026-09-13T23:45:01.339Z",
+    "source": "https://github.com/iwe-org"
   }
 }

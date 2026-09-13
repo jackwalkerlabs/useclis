@@ -2428,5 +2428,35 @@
     "language": "Rust",
     "checkedAt": "2026-09-13T23:42:34.029Z",
     "source": "https://github.com/acheronfail/repgrep"
+  },
+  "geekjourneyx-md2wechat-skill": {
+    "createdAt": "2026-01-11T06:36:13Z",
+    "pushedAt": "2026-09-12T15:53:21Z",
+    "lastCommitAt": "2026-09-12T15:53:12Z",
+    "stars": 3644,
+    "license": null,
+    "language": "Go",
+    "checkedAt": "2026-09-13T23:44:57.251Z",
+    "source": "https://github.com/geekjourneyx/md2wechat-skill"
+  },
+  "aws-aws-sam-cli": {
+    "createdAt": "2017-05-23T18:16:23Z",
+    "pushedAt": "2026-09-11T19:43:41Z",
+    "lastCommitAt": "2026-09-11T16:54:28Z",
+    "stars": 6732,
+    "license": "Apache-2.0",
+    "language": "Python",
+    "checkedAt": "2026-09-13T23:44:57.912Z",
+    "source": "https://github.com/aws/aws-sam-cli"
+  },
+  "iwe-org-iwe": {
+    "createdAt": "2024-09-20T01:38:23Z",
+    "pushedAt": "2026-09-12T15:38:53Z",
+    "lastCommitAt": "2026-09-12T15:38:51Z",
+    "stars": 1641,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-13T23:44:58.425Z",
+    "source": "https://github.com/iwe-org/iwe"
   }
 }

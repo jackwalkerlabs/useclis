@@ -1,8 +1,857 @@
 {
   "version": 1,
-  "searchPage": 3,
-  "brewOffset": 80,
-  "pending": [],
+  "searchPage": 4,
+  "brewOffset": 120,
+  "pending": [
+    {
+      "repo": "Azure/azure-storage-azcopy",
+      "formula": "azcopy"
+    },
+    {
+      "repo": "chrisryugj/kordoc"
+    },
+    {
+      "repo": "Azure/azure-cli",
+      "formula": "azure-cli"
+    },
+    {
+      "repo": "aisk/pick"
+    },
+    {
+      "repo": "Azure/azure-dev",
+      "formula": "azure-dev"
+    },
+    {
+      "repo": "Harry-kp/vortix"
+    },
+    {
+      "repo": "BLAKE3-team/BLAKE3",
+      "formula": "b3sum"
+    },
+    {
+      "repo": "mnemon-dev/mnemon"
+    },
+    {
+      "repo": "MrLesk/Backlog.md",
+      "formula": "backlog-md"
+    },
+    {
+      "repo": "wait4x/wait4x"
+    },
+    {
+      "repo": "K9i-0/ccpocket"
+    },
+    {
+      "repo": "box-cli-maker/box-cli-maker"
+    },
+    {
+      "repo": "foresterre/cargo-msrv"
+    },
+    {
+      "repo": "Automattic/studio"
+    },
+    {
+      "repo": "tmux-python/tmuxp"
+    },
+    {
+      "repo": "tmux-python/libtmux"
+    },
+    {
+      "repo": "eat-pray-ai/yutu"
+    },
+    {
+      "repo": "rockbenben/subtitle-translator"
+    },
+    {
+      "repo": "darkroomengineering/satus"
+    },
+    {
+      "repo": "lvgl/lvgl_pro"
+    },
+    {
+      "repo": "SynkraAI/aiox-core"
+    },
+    {
+      "repo": "tomasz-tomczyk/crit"
+    },
+    {
+      "repo": "ihabunek/toot"
+    },
+    {
+      "repo": "zk-org/zk"
+    },
+    {
+      "repo": "version-fox/vfox"
+    },
+    {
+      "repo": "AdnanHodzic/auto-cpufreq"
+    },
+    {
+      "repo": "MemTensor/memmy-agent"
+    },
+    {
+      "repo": "PipedreamHQ/pipedream"
+    },
+    {
+      "repo": "Orange-OpenSource/hurl"
+    },
+    {
+      "repo": "harbur/captain"
+    },
+    {
+      "repo": "fujiapple852/trippy"
+    },
+    {
+      "repo": "extension-js/extension.js"
+    },
+    {
+      "repo": "noborus/ov"
+    },
+    {
+      "repo": "JordanCoin/codemap"
+    },
+    {
+      "repo": "microsoft/BuildXL"
+    },
+    {
+      "repo": "marcosnils/bin"
+    },
+    {
+      "repo": "pallets/click"
+    },
+    {
+      "repo": "TestSprite/testsprite-cli"
+    },
+    {
+      "repo": "leo-arch/clifm"
+    },
+    {
+      "repo": "Gitlawb/openclaude"
+    },
+    {
+      "repo": "sxyazi/yazi"
+    },
+    {
+      "repo": "python-cmd2/cmd2"
+    },
+    {
+      "repo": "dominikwilkowski/cfonts"
+    },
+    {
+      "repo": "dotenvx/dotenvx"
+    },
+    {
+      "repo": "restatedev/restate"
+    },
+    {
+      "repo": "equinix-labs/otel-cli"
+    },
+    {
+      "repo": "pamburus/hl"
+    },
+    {
+      "repo": "leoafarias/fvm"
+    },
+    {
+      "repo": "microsoft/inshellisense"
+    },
+    {
+      "repo": "JimmXinu/FanFicFare"
+    },
+    {
+      "repo": "Exiv2/exiv2"
+    },
+    {
+      "repo": "getsentry/sentry-cli"
+    },
+    {
+      "repo": "zenbu-labs/terminal-browser"
+    },
+    {
+      "repo": "Devolutions/UniGetUI"
+    },
+    {
+      "repo": "jline/jline3"
+    },
+    {
+      "repo": "oclif/oclif"
+    },
+    {
+      "repo": "simple-acme/simple-acme"
+    },
+    {
+      "repo": "projectdiscovery/katana"
+    },
+    {
+      "repo": "alexpasmantier/television"
+    },
+    {
+      "repo": "ifixai-ai/iFixAi"
+    },
+    {
+      "repo": "operately/operately"
+    },
+    {
+      "repo": "elringus/sprite-dicing"
+    },
+    {
+      "repo": "zenbu-labs/terminal-code"
+    },
+    {
+      "repo": "mufeedvh/code2prompt"
+    },
+    {
+      "repo": "cli/cli"
+    },
+    {
+      "repo": "unjs/consola"
+    },
+    {
+      "repo": "rvben/rumdl"
+    },
+    {
+      "repo": "dvorka/hstr"
+    },
+    {
+      "repo": "generalaction/emdash"
+    },
+    {
+      "repo": "nestjs/nest-cli"
+    },
+    {
+      "repo": "NativeScript/nativescript-cli"
+    },
+    {
+      "repo": "metalbear-co/mirrord"
+    },
+    {
+      "repo": "netlify/cli"
+    },
+    {
+      "repo": "hetznercloud/cli"
+    },
+    {
+      "repo": "Shopify/cli"
+    },
+    {
+      "repo": "angular/angular-cli"
+    },
+    {
+      "repo": "webpack/webpack-cli"
+    },
+    {
+      "repo": "kadevin/ilab-conjure"
+    },
+    {
+      "repo": "scaleway/scaleway-cli"
+    },
+    {
+      "repo": "medialab/xan"
+    },
+    {
+      "repo": "1ay1/agentty"
+    },
+    {
+      "repo": "Slackadays/Clipboard"
+    },
+    {
+      "repo": "sharkdp/pastel"
+    },
+    {
+      "repo": "sharkdp/hexyl"
+    },
+    {
+      "repo": "sharkdp/hyperfine"
+    },
+    {
+      "repo": "tbillington/kondo"
+    },
+    {
+      "repo": "ferrislucas/promptr"
+    },
+    {
+      "repo": "Svetlitski/fcp"
+    },
+    {
+      "repo": "greymd/teip"
+    },
+    {
+      "repo": "xgi/castero"
+    },
+    {
+      "repo": "p-gen/smenu"
+    },
+    {
+      "repo": "http-party/http-server"
+    },
+    {
+      "repo": "kblin/ncbi-genome-download"
+    },
+    {
+      "repo": "mevdschee/2048.c"
+    },
+    {
+      "repo": "ndd7xv/heh"
+    },
+    {
+      "repo": "xero/figlet-fonts"
+    },
+    {
+      "repo": "jwlodek/py_cui"
+    },
+    {
+      "repo": "kareman/SwiftShell"
+    },
+    {
+      "repo": "nikolassv/bartib"
+    },
+    {
+      "repo": "OrkoHunter/keep"
+    },
+    {
+      "repo": "vadimdemedes/pastel"
+    },
+    {
+      "repo": "olets/zsh-abbr"
+    },
+    {
+      "repo": "knqyf263/pet"
+    },
+    {
+      "repo": "sts10/rust-command-line-utilities"
+    },
+    {
+      "repo": "ynqa/sig"
+    },
+    {
+      "repo": "mikaelmello/inquire"
+    },
+    {
+      "repo": "chmln/sd"
+    },
+    {
+      "repo": "bvanhoekelen/performance"
+    },
+    {
+      "repo": "jmathai/elodie"
+    },
+    {
+      "repo": "sharkdp/diskus"
+    },
+    {
+      "repo": "minicli/minicli"
+    },
+    {
+      "repo": "mpvnet-player/mpv.net"
+    },
+    {
+      "repo": "noisrucer/girok"
+    },
+    {
+      "repo": "harelba/q"
+    },
+    {
+      "repo": "makew0rld/didder"
+    },
+    {
+      "repo": "0k/shyaml"
+    },
+    {
+      "repo": "ajaxray/geek-life"
+    },
+    {
+      "repo": "tio/tio"
+    },
+    {
+      "repo": "ajalt/clikt"
+    },
+    {
+      "repo": "nolze/msoffcrypto-tool"
+    },
+    {
+      "repo": "trinib/Linux-Bash-Commands"
+    },
+    {
+      "repo": "hauntsaninja/pyp"
+    },
+    {
+      "repo": "RichiH/vcsh"
+    },
+    {
+      "repo": "learnbyexample/cli-computing"
+    },
+    {
+      "repo": "chubin/cheat.sh"
+    },
+    {
+      "repo": "learnbyexample/learn_gnuawk"
+    },
+    {
+      "repo": "cristalhq/aconfig"
+    },
+    {
+      "repo": "mouredev/hello-bash-shell"
+    },
+    {
+      "repo": "bilal-fazlani/commanddotnet"
+    },
+    {
+      "repo": "mixn/carbon-now-cli"
+    },
+    {
+      "repo": "oniony/TMSU"
+    },
+    {
+      "repo": "aksakalli/gtop"
+    },
+    {
+      "repo": "klaudiosinani/qoa"
+    },
+    {
+      "repo": "ayoisaiah/focus"
+    },
+    {
+      "repo": "leejarvis/slop"
+    },
+    {
+      "repo": "plandex-ai/plandex"
+    },
+    {
+      "repo": "sindresorhus/terminal-link"
+    },
+    {
+      "repo": "emilyanncr/Windows-Post-Exploitation"
+    },
+    {
+      "repo": "61418/aws-sso-util"
+    },
+    {
+      "repo": "alexhallam/tv"
+    },
+    {
+      "repo": "vet-run/vet"
+    },
+    {
+      "repo": "mayuki/Kurukuru"
+    },
+    {
+      "repo": "c-bata/go-prompt"
+    },
+    {
+      "repo": "fabiofalci/sconsify"
+    },
+    {
+      "repo": "adam-mcdaniel/dune"
+    },
+    {
+      "repo": "MehediH/Bulksplash"
+    },
+    {
+      "repo": "Scriptim/bash-prompt-generator"
+    },
+    {
+      "repo": "gulpjs/liftoff"
+    },
+    {
+      "repo": "kellyjonbrazil/jello"
+    },
+    {
+      "repo": "Nriver/Episode-ReName"
+    },
+    {
+      "repo": "terkelg/prompts"
+    },
+    {
+      "repo": "mifi/editly"
+    },
+    {
+      "repo": "gitbito/CLI"
+    },
+    {
+      "repo": "kharvd/gpt-cli"
+    },
+    {
+      "repo": "ConEmu/ConEmu"
+    },
+    {
+      "repo": "gsquire/topngx"
+    },
+    {
+      "repo": "piqnt/svgexport"
+    },
+    {
+      "repo": "ajeetdsouza/clidle"
+    },
+    {
+      "repo": "Macchina-CLI/macchina"
+    },
+    {
+      "repo": "alichtman/stronghold"
+    },
+    {
+      "repo": "efugier/smartcat"
+    },
+    {
+      "repo": "benibela/xidel"
+    },
+    {
+      "repo": "hnarayanan/shpotify"
+    },
+    {
+      "repo": "balta2ar/brotab"
+    },
+    {
+      "repo": "adishavit/argh"
+    },
+    {
+      "repo": "ad4mx/spinoff"
+    },
+    {
+      "repo": "achillesrasquinha/pipupgrade"
+    },
+    {
+      "repo": "ruyadorno/ipt"
+    },
+    {
+      "repo": "trakBan/spongebob-cli"
+    },
+    {
+      "repo": "sharkdp/shell-functools"
+    },
+    {
+      "repo": "trimstray/sandmap"
+    },
+    {
+      "repo": "sindresorhus/figures"
+    },
+    {
+      "repo": "p-ranav/structopt"
+    },
+    {
+      "repo": "lukeed/sade"
+    },
+    {
+      "repo": "ogham/exa"
+    },
+    {
+      "repo": "cabal-club/cabal-cli"
+    },
+    {
+      "repo": "ibraheemdev/modern-unix"
+    },
+    {
+      "repo": "faressoft/terminalizer"
+    },
+    {
+      "repo": "hedyhli/starcli"
+    },
+    {
+      "repo": "NaiboWang/CommandlineConfig"
+    },
+    {
+      "repo": "kyclark/command-line-rust"
+    },
+    {
+      "repo": "JEG2/highline"
+    },
+    {
+      "repo": "cutechess/cutechess"
+    },
+    {
+      "repo": "Tyrrrz/CliFx"
+    },
+    {
+      "repo": "Tyrrrz/CliWrap"
+    },
+    {
+      "repo": "abey79/vpype"
+    },
+    {
+      "repo": "cognidox/OfficeToPDF"
+    },
+    {
+      "repo": "kardolus/chatgpt-cli"
+    },
+    {
+      "repo": "fortio/fortio"
+    },
+    {
+      "repo": "hyperjumptech/monika"
+    },
+    {
+      "repo": "jkfran/killport"
+    },
+    {
+      "repo": "ad-si/Transity"
+    },
+    {
+      "repo": "mr-karan/doggo"
+    },
+    {
+      "repo": "charmbracelet/soft-serve"
+    },
+    {
+      "repo": "tj/commander.js"
+    },
+    {
+      "repo": "jqlang/jq"
+    },
+    {
+      "repo": "eafer/rdrview"
+    },
+    {
+      "repo": "intoolswetrust/jd-cli"
+    },
+    {
+      "repo": "Hejsil/zig-clap"
+    },
+    {
+      "repo": "mas-cli/mas"
+    },
+    {
+      "repo": "macports/macports-base"
+    },
+    {
+      "repo": "liljencrantz/crush"
+    },
+    {
+      "repo": "ajalt/mordant"
+    },
+    {
+      "repo": "eyeblech/cinecli"
+    },
+    {
+      "repo": "exercism/cli"
+    },
+    {
+      "repo": "yt-dlp/yt-dlp"
+    },
+    {
+      "repo": "ascii-boxes/boxes"
+    },
+    {
+      "repo": "julienXX/terminal-notifier"
+    },
+    {
+      "repo": "jpmml/jpmml-sklearn"
+    },
+    {
+      "repo": "moul/http2curl"
+    },
+    {
+      "repo": "sveinbjornt/hear"
+    },
+    {
+      "repo": "ayoisaiah/f2"
+    },
+    {
+      "repo": "c-blake/cligen"
+    },
+    {
+      "repo": "orhun/menyoki"
+    },
+    {
+      "repo": "google/clasp"
+    },
+    {
+      "repo": "cacjs/cac"
+    },
+    {
+      "repo": "yoshiko-pg/difit"
+    },
+    {
+      "repo": "meganz/MEGAcmd"
+    },
+    {
+      "repo": "wp-cli/php-cli-tools"
+    },
+    {
+      "repo": "aviator-co/av"
+    },
+    {
+      "repo": "idank/explainshell"
+    },
+    {
+      "repo": "Licoy/fetch-github-hosts"
+    },
+    {
+      "repo": "utiso/dorkbot"
+    },
+    {
+      "repo": "jjjake/internetarchive"
+    },
+    {
+      "repo": "CryptoDmitry/Ghost-Agent"
+    },
+    {
+      "repo": "laravel/prompts"
+    },
+    {
+      "repo": "bashly-framework/bashly"
+    },
+    {
+      "repo": "Klemen1337/node-thermal-printer"
+    },
+    {
+      "repo": "vividvilla/csvtotable"
+    },
+    {
+      "repo": "r-lib/cli"
+    },
+    {
+      "repo": "internet-development/www-server-mono"
+    },
+    {
+      "repo": "gbevin/SendMIDI"
+    },
+    {
+      "repo": "casey/intermodal"
+    },
+    {
+      "repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
+    },
+    {
+      "repo": "webtorrent/webtorrent-cli"
+    },
+    {
+      "repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "repo": "sleuthkit/sleuthkit"
+    },
+    {
+      "repo": "mssun/passforios"
+    },
+    {
+      "repo": "tmbo/questionary"
+    },
+    {
+      "repo": "remkop/picocli"
+    },
+    {
+      "repo": "shadawck/awesome-cli-frameworks"
+    },
+    {
+      "repo": "tobya/DocTo"
+    },
+    {
+      "repo": "vi/websocat"
+    },
+    {
+      "repo": "dbohdan/structured-text-tools"
+    },
+    {
+      "repo": "cc1a2b/JShunter"
+    },
+    {
+      "repo": "adamabdelhamed/PowerArgs"
+    },
+    {
+      "repo": "gruntwork-io/git-xargs"
+    },
+    {
+      "repo": "Textualize/rich-cli"
+    },
+    {
+      "repo": "pcb2gcode/pcb2gcode"
+    },
+    {
+      "repo": "motdotla/node-lambda"
+    },
+    {
+      "repo": "tldr-pages/tldr-python-client"
+    },
+    {
+      "repo": "alan-turing-institute/CleverCSV"
+    },
+    {
+      "repo": "jpsim/SourceKitten"
+    },
+    {
+      "repo": "normen/whatscli"
+    },
+    {
+      "repo": "EasyEngine/easyengine"
+    },
+    {
+      "repo": "GameServerManagers/LinuxGSM"
+    },
+    {
+      "repo": "git-bahn/git-graph"
+    },
+    {
+      "repo": "bugaevc/wl-clipboard"
+    },
+    {
+      "repo": "home-assistant-ecosystem/home-assistant-cli"
+    },
+    {
+      "repo": "nunomaduro/termwind"
+    },
+    {
+      "repo": "nunomaduro/collision"
+    },
+    {
+      "repo": "python-poetry/cleo"
+    },
+    {
+      "repo": "BurntSushi/bttf"
+    },
+    {
+      "repo": "glomatico/gamdl"
+    },
+    {
+      "repo": "commander-rb/commander"
+    },
+    {
+      "repo": "rehmatworks/gplaydl"
+    },
+    {
+      "repo": "francescofugazzi/3dgsconverter"
+    },
+    {
+      "repo": "ben-z/findphone"
+    },
+    {
+      "repo": "Martchus/tageditor"
+    },
+    {
+      "repo": "broadinstitute/picard"
+    },
+    {
+      "repo": "elliotblackburn/mdpdf"
+    },
+    {
+      "repo": "GoogleChromeLabs/bubblewrap"
+    },
+    {
+      "repo": "sisong/HDiffPatch"
+    },
+    {
+      "repo": "google/yamlfmt"
+    },
+    {
+      "repo": "toolleeo/awesome-cli-apps-in-a-csv"
+    },
+    {
+      "repo": "bfgroup/Lyra"
+    },
+    {
+      "repo": "denisidoro/navi"
+    },
+    {
+      "repo": "GoogleCloudPlatform/gsutil"
+    },
+    {
+      "repo": "Gu1llaum-3/sshm"
+    },
+    {
+      "repo": "RedMadRobot/figma-export"
+    },
+    {
+      "repo": "prompt-toolkit/python-prompt-toolkit"
+    }
+  ],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -3441,7 +4290,294 @@
       "status": "held",
       "checkedAt": "2026-09-13T23:42:06.208Z",
       "reason": "Terminal use case needs classification"
+    },
+    "wyattblue/auto-editor": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wting/autojump": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "avrdudes/avrdude": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "onetrueawk/awk": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/aws-c-auth": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "brianpugh/cyclopts": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/aws-c-cal": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jia-ethan/codex-keysmith": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/aws-c-common": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aome510/spotify-player": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "awslabs/aws-c-compression": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/aws-c-event-stream": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "resonatehq/resonate": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/aws-c-http": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mayersscott/rkn-block-checker": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/aws-c-io": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xiaomimimo/mimo-code": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/aws-c-mqtt": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "carloscuesta/gitmoji-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "awslabs/aws-c-s3": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "evomap/evolver": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/aws-c-sdkutils": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "0xmassi/webclaw": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "awslabs/aws-checksums": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kubernetes-sigs/aws-iam-authenticator": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "geekjourneyx/md2wechat-skill": {
+      "status": "accepted",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "GitHub stars",
+      "slug": "geekjourneyx-md2wechat-skill",
+      "acceptedAt": "2026-09-13T23:44:22.249Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/geekjourneyx/md2wechat-skill/blob/342cc66b492bd2bcf5039920e3cc52bd44a9bf0e/package.json",
+          "snippet": "{\"bin\":{\"md2wechat\":\"scripts/run.js\"}}",
+          "target": "scripts/run.js"
+        },
+        "installation": {
+          "url": "https://github.com/geekjourneyx/md2wechat-skill/blob/342cc66b492bd2bcf5039920e3cc52bd44a9bf0e/README.md",
+          "snippet": "npm install -g @geekjourneyx/md2wechat"
+        },
+        "usage": {
+          "url": "https://github.com/geekjourneyx/md2wechat-skill/blob/342cc66b492bd2bcf5039920e3cc52bd44a9bf0e/README.md",
+          "snippet": "md2wechat inspect article.md --json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/geekjourneyx/md2wechat-skill",
+          "snippet": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理、多平台发布"
+        },
+        "adoption": {
+          "stars": 3644,
+          "githubSource": "https://github.com/geekjourneyx/md2wechat-skill",
+          "homebrew": null
+        },
+        "commit": "342cc66b492bd2bcf5039920e3cc52bd44a9bf0e"
+      }
+    },
+    "ekristen/aws-nuke": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aws/aws-sam-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "GitHub stars",
+      "slug": "aws-aws-sam-cli",
+      "acceptedAt": "2026-09-13T23:44:22.249Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/aws-sam-cli.json",
+          "snippet": "{\"executables\":[\"sam\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/aws-sam-cli",
+          "snippet": "brew install aws-sam-cli"
+        },
+        "usage": {
+          "url": "https://github.com/aws/aws-sam-cli/blob/5b20d0ec502e167ba37d2f1e8c6aa92c843ede5d/README.md",
+          "snippet": "sam init"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/aws/aws-sam-cli",
+          "snippet": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+        },
+        "adoption": {
+          "stars": 6732,
+          "githubSource": "https://github.com/aws/aws-sam-cli",
+          "homebrew": {
+            "repo": "aws/aws-sam-cli",
+            "formula": "aws-sam-cli",
+            "count": 2120,
+            "source": "https://formulae.brew.sh/api/formula/aws-sam-cli.json",
+            "generatedDate": "2026-09-13"
+          }
+        },
+        "commit": "5b20d0ec502e167ba37d2f1e8c6aa92c843ede5d"
+      }
+    },
+    "iwe-org/iwe": {
+      "status": "accepted",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "GitHub stars",
+      "slug": "iwe-org-iwe",
+      "acceptedAt": "2026-09-13T23:44:22.249Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/iwe-org/iwe/blob/4fd184731e8a80ca1886cfdfc6eee6d227834068/npm/iwe/package.json",
+          "snippet": "{\"bin\":{\"iwe\":\"bin/iwe.js\"}}",
+          "target": "npm/iwe/bin/iwe.js"
+        },
+        "installation": {
+          "url": "https://github.com/iwe-org/iwe/blob/4fd184731e8a80ca1886cfdfc6eee6d227834068/README.md",
+          "snippet": "npm install -g @iwe-org/iwe"
+        },
+        "usage": {
+          "url": "https://github.com/iwe-org/iwe/blob/4fd184731e8a80ca1886cfdfc6eee6d227834068/README.md",
+          "snippet": "iwe find --fuzzy auth"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/iwe-org/iwe",
+          "snippet": "Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents"
+        },
+        "adoption": {
+          "stars": 1641,
+          "githubSource": "https://github.com/iwe-org/iwe",
+          "homebrew": null
+        },
+        "commit": "4fd184731e8a80ca1886cfdfc6eee6d227834068"
+      }
+    },
+    "aws/aws-sdk-cpp": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "oleksandrchekhovskyi/hax": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "synfinatic/aws-sso-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "chojs23/concord": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "byteness/aws-vault": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "iffse/pay-respects": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nao1215/gup": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "okigan/awscurl": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kepano/defuddle": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "axel-download-accelerator/axel": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "chinapandaman/pypdfform": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:44:22.249Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-13T23:42:06.208Z"
+  "lastRunAt": "2026-09-13T23:44:22.249Z"
 }
