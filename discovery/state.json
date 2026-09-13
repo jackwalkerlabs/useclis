@@ -2,146 +2,7 @@
   "version": 1,
   "searchPage": 3,
   "brewOffset": 80,
-  "pending": [
-    {
-      "repo": "tinode/chat"
-    },
-    {
-      "repo": "cachix/cachix"
-    },
-    {
-      "repo": "mkideal/cli"
-    },
-    {
-      "repo": "howeyc/ledger"
-    },
-    {
-      "repo": "agarrharr/awesome-cli-apps"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-health-probe"
-    },
-    {
-      "repo": "tizonia/tizonia-openmax-il"
-    },
-    {
-      "repo": "schpet/linear-cli"
-    },
-    {
-      "repo": "googleworkspace/cli"
-    },
-    {
-      "repo": "cookpete/auto-changelog"
-    },
-    {
-      "repo": "cs50/submit50"
-    },
-    {
-      "repo": "ledger/ledger"
-    },
-    {
-      "repo": "mkb79/audible-cli"
-    },
-    {
-      "repo": "magmax/python-inquirer"
-    },
-    {
-      "repo": "sibprogrammer/xq"
-    },
-    {
-      "repo": "mikf/gallery-dl"
-    },
-    {
-      "repo": "urfave/cli"
-    },
-    {
-      "repo": "buo/homebrew-cask-upgrade"
-    },
-    {
-      "repo": "fossology/fossology"
-    },
-    {
-      "repo": "commitizen/cz-cli"
-    },
-    {
-      "repo": "majd/ipatool"
-    },
-    {
-      "repo": "jasonrbriggs/stomp.py"
-    },
-    {
-      "repo": "haidaraM/ansible-playbook-grapher"
-    },
-    {
-      "repo": "coherentgraphics/cpdf-binaries"
-    },
-    {
-      "repo": "osmcode/osmium-tool"
-    },
-    {
-      "repo": "Yubico/yubikey-manager"
-    },
-    {
-      "repo": "alecthomas/kingpin"
-    },
-    {
-      "repo": "Urigo/graphql-cli"
-    },
-    {
-      "repo": "cloudflare/cf-terraforming"
-    },
-    {
-      "repo": "fullstorydev/grpcurl"
-    },
-    {
-      "repo": "curl/trurl"
-    },
-    {
-      "repo": "fastapi/fastapi-cli"
-    },
-    {
-      "repo": "acheronfail/repgrep"
-    },
-    {
-      "repo": "brocode/fblog"
-    },
-    {
-      "repo": "knadh/koanf"
-    },
-    {
-      "repo": "hexdigest/gowrap"
-    },
-    {
-      "repo": "JEG2/highline"
-    },
-    {
-      "repo": "cutechess/cutechess"
-    },
-    {
-      "repo": "abey79/vpype"
-    },
-    {
-      "repo": "cognidox/OfficeToPDF"
-    },
-    {
-      "repo": "kardolus/chatgpt-cli"
-    },
-    {
-      "repo": "fortio/fortio"
-    },
-    {
-      "repo": "hyperjumptech/monika"
-    },
-    {
-      "repo": "jkfran/killport"
-    },
-    {
-      "repo": "ad-si/Transity"
-    },
-    {
-      "repo": "mr-karan/doggo"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -3304,7 +3165,283 @@
       "status": "held",
       "checkedAt": "2026-09-12T00:43:29.989Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tinode/chat": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cachix/cachix": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mkideal/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "howeyc/ledger": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "agarrharr/awesome-cli-apps": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "grpc-ecosystem/grpc-health-probe": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tizonia/tizonia-openmax-il": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cookpete/auto-changelog": {
+      "status": "accepted",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "GitHub stars",
+      "slug": "cookpete-auto-changelog",
+      "acceptedAt": "2026-09-13T23:42:06.208Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/cookpete/auto-changelog/blob/3c33a5b48ee27bc7141c9c7b6471a9f24af6b119/package.json",
+          "snippet": "{\"bin\":{\"auto-changelog\":\"./src/index.js\"}}",
+          "target": "src/index.js"
+        },
+        "installation": {
+          "url": "https://github.com/cookpete/auto-changelog/blob/3c33a5b48ee27bc7141c9c7b6471a9f24af6b119/README.md",
+          "snippet": "npm install -g auto-changelog"
+        },
+        "usage": {
+          "url": "https://github.com/cookpete/auto-changelog/blob/3c33a5b48ee27bc7141c9c7b6471a9f24af6b119/README.md",
+          "snippet": "auto-changelog --output HISTORY.md --template keepachangelog"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/cookpete/auto-changelog",
+          "snippet": "Command line tool for generating a changelog from git tags and commit history"
+        },
+        "adoption": {
+          "stars": 1398,
+          "githubSource": "https://github.com/cookpete/auto-changelog",
+          "homebrew": null
+        },
+        "commit": "3c33a5b48ee27bc7141c9c7b6471a9f24af6b119"
+      }
+    },
+    "cs50/submit50": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ledger/ledger": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mkb79/audible-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "GitHub stars",
+      "slug": "mkb79-audible-cli",
+      "acceptedAt": "2026-09-13T23:42:06.208Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mkb79/audible-cli/blob/274539eba80a63ddccb79a9ec4f59b2fe911e232/pyproject.toml",
+          "snippet": "audible = \"audible_cli:main\"",
+          "target": "src/audible_cli/__init__.py"
+        },
+        "installation": {
+          "url": "https://github.com/mkb79/audible-cli/blob/274539eba80a63ddccb79a9ec4f59b2fe911e232/README.md",
+          "snippet": "uv tool install audible-cli"
+        },
+        "usage": {
+          "url": "https://github.com/mkb79/audible-cli/blob/274539eba80a63ddccb79a9ec4f59b2fe911e232/README.md",
+          "snippet": "audible quickstart"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mkb79/audible-cli",
+          "snippet": "A command line interface for audible package. With the cli you can download your Audible books, cover, chapter files. "
+        },
+        "adoption": {
+          "stars": 796,
+          "githubSource": "https://github.com/mkb79/audible-cli",
+          "homebrew": null
+        },
+        "commit": "274539eba80a63ddccb79a9ec4f59b2fe911e232"
+      }
+    },
+    "magmax/python-inquirer": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sibprogrammer/xq": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mikf/gallery-dl": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "buo/homebrew-cask-upgrade": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fossology/fossology": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jasonrbriggs/stomp.py": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "haidaram/ansible-playbook-grapher": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "coherentgraphics/cpdf-binaries": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "osmcode/osmium-tool": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "yubico/yubikey-manager": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "urigo/graphql-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "cloudflare/cf-terraforming": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fullstorydev/grpcurl": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "curl/trurl": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fastapi/fastapi-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "acheronfail/repgrep": {
+      "status": "accepted",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "GitHub stars",
+      "slug": "acheronfail-repgrep",
+      "acceptedAt": "2026-09-13T23:42:06.208Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/acheronfail/repgrep/blob/64d444576a2c15a8c703e5e2bbf11957122498cf/Cargo.toml",
+          "snippet": "[[bin]] name=\"rgr\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/acheronfail/repgrep/blob/64d444576a2c15a8c703e5e2bbf11957122498cf/README.md",
+          "snippet": "cargo install repgrep"
+        },
+        "usage": {
+          "url": "https://github.com/acheronfail/repgrep/blob/64d444576a2c15a8c703e5e2bbf11957122498cf/README.md",
+          "snippet": "rgr 'old_name' -r 'new_name'"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/acheronfail/repgrep",
+          "snippet": "An interactive replacer for ripgrep that makes it easy to find and replace across files on the command line."
+        },
+        "adoption": {
+          "stars": 532,
+          "githubSource": "https://github.com/acheronfail/repgrep",
+          "homebrew": null
+        },
+        "commit": "64d444576a2c15a8c703e5e2bbf11957122498cf"
+      }
+    },
+    "knadh/koanf": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hexdigest/gowrap": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jeg2/highline": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "cutechess/cutechess": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "abey79/vpype": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "cognidox/officetopdf": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kardolus/chatgpt-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fortio/fortio": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hyperjumptech/monika": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jkfran/killport": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ad-si/transity": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mr-karan/doggo": {
+      "status": "held",
+      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-12T00:43:29.989Z"
+  "lastRunAt": "2026-09-13T23:42:06.208Z"
 }

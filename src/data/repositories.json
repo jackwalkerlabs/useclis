@@ -2398,5 +2398,35 @@
     "language": "Python",
     "checkedAt": "2026-09-12T00:43:48.233Z",
     "source": "https://github.com/rahiel/telegram-send"
+  },
+  "cookpete-auto-changelog": {
+    "createdAt": "2015-12-31T11:39:47Z",
+    "pushedAt": "2026-09-05T05:15:47Z",
+    "lastCommitAt": "2026-09-05T05:13:21Z",
+    "stars": 1398,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-13T23:42:33.088Z",
+    "source": "https://github.com/cookpete/auto-changelog"
+  },
+  "mkb79-audible-cli": {
+    "createdAt": "2020-09-02T12:47:08Z",
+    "pushedAt": "2026-09-11T23:24:36Z",
+    "lastCommitAt": "2026-09-01T13:59:44Z",
+    "stars": 796,
+    "license": "AGPL-3.0",
+    "language": "Python",
+    "checkedAt": "2026-09-13T23:42:33.607Z",
+    "source": "https://github.com/mkb79/audible-cli"
+  },
+  "acheronfail-repgrep": {
+    "createdAt": "2020-06-20T23:58:19Z",
+    "pushedAt": "2026-09-02T12:00:57Z",
+    "lastCommitAt": "2026-09-02T11:57:27Z",
+    "stars": 532,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-13T23:42:34.029Z",
+    "source": "https://github.com/acheronfail/repgrep"
   }
 }

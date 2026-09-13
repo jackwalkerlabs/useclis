@@ -5093,6 +5093,63 @@ window.USECLIS_DATA = {
       "stars": 1014,
       "license": "GPL-3.0",
       "checkedAt": "2026-09-12T00:43:48.233Z"
+    },
+    {
+      "slug": "cookpete-auto-changelog",
+      "name": "auto-changelog",
+      "repo": "cookpete/auto-changelog",
+      "category": "Git & collaboration",
+      "command": "auto-changelog",
+      "useCase": "Command line tool for generating a changelog from git tags and commit history",
+      "description": "Command line tool for generating a changelog from git tags and commit history",
+      "agentUse": "Invoke auto-changelog from a shell for the documented use case: Command line tool for generating a changelog from git tags and commit history",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "auto-changelog --output HISTORY.md --template keepachangelog",
+      "website": "https://github.com/cookpete/auto-changelog",
+      "docs": "https://github.com/cookpete/auto-changelog/blob/3c33a5b48ee27bc7141c9c7b6471a9f24af6b119/README.md",
+      "stars": 1398,
+      "license": "MIT",
+      "checkedAt": "2026-09-13T23:42:33.088Z"
+    },
+    {
+      "slug": "mkb79-audible-cli",
+      "name": "audible-cli",
+      "repo": "mkb79/audible-cli",
+      "category": "Files & documents",
+      "command": "audible",
+      "useCase": "A command line interface for audible package. With the cli you can download your Audible books, cover, chapter files. ",
+      "description": "A command line interface for audible package. With the cli you can download your Audible books, cover, chapter files. ",
+      "agentUse": "Invoke audible from a shell for the documented use case: A command line interface for audible package. With the cli you can download your Audible books, cover, chapter files. ",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "audible quickstart",
+      "website": "https://github.com/mkb79/audible-cli",
+      "docs": "https://github.com/mkb79/audible-cli/blob/274539eba80a63ddccb79a9ec4f59b2fe911e232/README.md",
+      "stars": 796,
+      "license": "AGPL-3.0",
+      "checkedAt": "2026-09-13T23:42:33.607Z"
+    },
+    {
+      "slug": "acheronfail-repgrep",
+      "name": "repgrep",
+      "repo": "acheronfail/repgrep",
+      "category": "Files & documents",
+      "command": "rgr",
+      "useCase": "An interactive replacer for ripgrep that makes it easy to find and replace across files on the command line.",
+      "description": "An interactive replacer for ripgrep that makes it easy to find and replace across files on the command line.",
+      "agentUse": "Invoke rgr from a shell for the documented use case: An interactive replacer for ripgrep that makes it easy to find and replace across files on the command line.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "rgr 'old_name' -r 'new_name'",
+      "website": "https://github.com/acheronfail/repgrep",
+      "docs": "https://github.com/acheronfail/repgrep/blob/64d444576a2c15a8c703e5e2bbf11957122498cf/README.md",
+      "stars": 532,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-13T23:42:34.029Z"
     }
   ],
   "categories": [

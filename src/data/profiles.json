@@ -2676,5 +2676,44 @@
     "createdAt": "2014-03-03T12:57:06Z",
     "checkedAt": "2026-09-12T00:43:49.661Z",
     "source": "https://github.com/rahiel"
+  },
+  "cookpete": {
+    "login": "cookpete",
+    "name": "Pete Cook",
+    "type": "User",
+    "bio": null,
+    "location": "United Kingdom",
+    "website": "cookpete.com",
+    "followers": 558,
+    "publicRepos": 33,
+    "createdAt": "2012-07-05T08:04:26Z",
+    "checkedAt": "2026-09-13T23:42:35.500Z",
+    "source": "https://github.com/cookpete"
+  },
+  "mkb79": {
+    "login": "mkb79",
+    "name": "mkb79",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 31,
+    "publicRepos": 16,
+    "createdAt": "2018-06-18T18:49:47Z",
+    "checkedAt": "2026-09-13T23:42:35.684Z",
+    "source": "https://github.com/mkb79"
+  },
+  "acheronfail": {
+    "login": "acheronfail",
+    "name": "acheronfail",
+    "type": "User",
+    "bio": "If you're looking here for my email then I don't think you really know git.",
+    "location": null,
+    "website": null,
+    "followers": 64,
+    "publicRepos": 147,
+    "createdAt": "2017-12-06T00:25:11Z",
+    "checkedAt": "2026-09-13T23:42:35.868Z",
+    "source": "https://github.com/acheronfail"
   }
 }
