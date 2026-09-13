@@ -42,6 +42,15 @@ const bookmarkTools = ['github-cli', 'ripgrep', 'jq'].map(slug => {
   assert.ok(tool, `${slug} is in the interaction fixture`);
   return tool;
 });
+// Discovery can add another result whose description mentions ripgrep. Exercise
+// that overlap without tying history assertions to the growing live catalog.
+const historyTools = [...bookmarkTools, {
+  ...bookmarkTools[2],
+  slug: 'search-companion', name: 'Companion CLI', repo: 'example/search-companion',
+  command: 'companion', description: 'An interactive replacer for ripgrep.',
+  useCase: 'Replace text', agentUse: 'Replace text from a shell',
+  features: ['Command-line interface'], stars: 0, featured: false,
+}];
 
 test('Download source selection keeps counts, ranking, URLs and mobile detail links aligned', async () => {
   const user = userEvent.setup();
@@ -320,7 +329,7 @@ test('Deep links restore category/search/saved/sort and ignore invalid saved IDs
 
 test('Browser history restores filters and the slash shortcut focuses only outside text inputs', async () => {
   const user = userEvent.setup();
-  render(h(Directory, { tools }));
+  render(h(Directory, { tools: historyTools }));
   await user.keyboard('/');
   assert.equal(document.activeElement, search());
   await user.type(search(), 'cli/cli');
@@ -328,7 +337,7 @@ test('Browser history restores filters and the slash shortcut focuses only outsi
   window.history.pushState(null, '', '/?q=ripgrep');
   act(() => window.dispatchEvent(new window.PopStateEvent('popstate')));
   assert.equal(search().value, 'ripgrep');
-  assert.deepEqual(rows(), ['ripgrep']);
+  assert.deepEqual(rows(), ['ripgrep', 'Companion CLI']);
 });
 
 test('Activity chart range controls show exact totals and weekly values', async () => {
@@ -382,21 +391,21 @@ test('Homepage date ranges update table, totals, and URL while discovery stays w
 
 test('Homepage restores ranges on reload and history, and rejects unsupported periods', async () => {
   window.history.replaceState(null, '', '/?q=ripgrep&period=6m&sort=name');
-  const view = render(h(Directory, { tools }));
+  const view = render(h(Directory, { tools: historyTools }));
   const select = screen.getByRole('combobox', { name: 'Leaderboard date range' });
   assert.equal(select.value, '6m');
-  assert.deepEqual(rows(), ['ripgrep']);
+  assert.deepEqual(rows(), ['Companion CLI', 'ripgrep']);
   await userEvent.setup().selectOptions(select, '7d');
   assert.equal(new URLSearchParams(window.location.search).get('q'), 'ripgrep');
   assert.equal(new URLSearchParams(window.location.search).get('sort'), 'name');
   window.history.pushState(null, '', '/?period=all');
   act(() => window.dispatchEvent(new window.PopStateEvent('popstate')));
   assert.equal(select.value, 'all');
-  assert.equal(rows().length, tools.length);
+  assert.equal(rows().length, historyTools.length);
   view.unmount();
   for (const period of ['24h', 'invalid']) {
     window.history.replaceState(null, '', `/?period=${period}`);
-    const invalid = render(h(Directory, { tools }));
+    const invalid = render(h(Directory, { tools: historyTools }));
     assert.equal(screen.getByRole('combobox', { name: 'Leaderboard date range' }).value, '30d');
     assert.equal(new URLSearchParams(window.location.search).get('period'), null);
     invalid.unmount();
