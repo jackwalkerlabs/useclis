@@ -4515,5 +4515,69 @@
     "example": "cabal --new",
     "website": "https://github.com/cabal-club/cabal-cli",
     "docs": "https://github.com/cabal-club/cabal-cli/blob/d310fadd1209983f438e5a6b7f93b507c503781e/README.md"
+  },
+  {
+    "slug": "vividvilla-csvtotable",
+    "name": "csvtotable",
+    "repo": "vividvilla/csvtotable",
+    "category": "Data & APIs",
+    "command": "csvtotable",
+    "useCase": "Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, filters, and sorting",
+    "description": "Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, filters, and sorting",
+    "agentUse": "Invoke csvtotable from a shell for the documented use case: Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, filters, and sorting",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "csvtotable input.csv page.html",
+    "website": "https://github.com/vividvilla/csvtotable",
+    "docs": "https://github.com/vividvilla/csvtotable/blob/b523461605af7b8a844c1537371b5d2732945892/README.md"
+  },
+  {
+    "slug": "casey-intermodal",
+    "name": "intermodal",
+    "repo": "casey/intermodal",
+    "category": "Files & documents",
+    "command": "imdl",
+    "useCase": "command-line utility for BitTorrent torrent file creation, verification, and more",
+    "description": "command-line utility for BitTorrent torrent file creation, verification, and more",
+    "agentUse": "Invoke imdl from a shell for the documented use case: command-line utility for BitTorrent torrent file creation, verification, and more",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "imdl torrent create",
+    "website": "https://github.com/casey/intermodal",
+    "docs": "https://github.com/casey/intermodal/blob/f2dc19537fe389ddf5485fa7a6b7fe14858846fa/README.md"
+  },
+  {
+    "slug": "motdotla-node-lambda",
+    "name": "node-lambda",
+    "repo": "motdotla/node-lambda",
+    "category": "Cloud & deployment",
+    "command": "node-lambda",
+    "useCase": "Command line tool to locally run and deploy your node.js application to Amazon Lambda",
+    "description": "Command line tool to locally run and deploy your node.js application to Amazon Lambda",
+    "agentUse": "Invoke node-lambda from a shell for the documented use case: Command line tool to locally run and deploy your node.js application to Amazon Lambda",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "node-lambda run",
+    "website": "https://github.com/motdotla/node-lambda",
+    "docs": "https://github.com/motdotla/node-lambda/blob/48b0a35fc779bd0104e5b359f6b4e150d863cee0/README.md"
+  },
+  {
+    "slug": "alan-turing-institute-clevercsv",
+    "name": "CleverCSV",
+    "repo": "alan-turing-institute/CleverCSV",
+    "category": "Data & APIs",
+    "command": "clevercsv",
+    "useCase": "CleverCSV is a Python package for handling messy CSV files. It provides a drop-in replacement for the builtin CSV module with improved dialect detection, and comes with a handy command line application for working with CSV files.",
+    "description": "CleverCSV is a Python package for handling messy CSV files. It provides a drop-in replacement for the builtin CSV module with improved dialect detection, and comes with a handy command line application for working with CSV files.",
+    "agentUse": "Invoke clevercsv from a shell for the documented use case: CleverCSV is a Python package for handling messy CSV files. It provides a drop-in replacement for the builtin CSV module with improved dialect detection, and comes with a handy command line application for working with CSV files.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "clevercsv detect ./imdb.csv",
+    "website": "https://github.com/alan-turing-institute/CleverCSV",
+    "docs": "https://github.com/alan-turing-institute/CleverCSV/blob/e80acaa5c324889416a5727ad9929d5b2f8bccb6/README.md"
   }
 ]

@@ -5264,6 +5264,82 @@ window.USECLIS_DATA = {
       "stars": 525,
       "license": null,
       "checkedAt": "2026-09-14T03:44:39.169Z"
+    },
+    {
+      "slug": "vividvilla-csvtotable",
+      "name": "csvtotable",
+      "repo": "vividvilla/csvtotable",
+      "category": "Data & APIs",
+      "command": "csvtotable",
+      "useCase": "Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, filters, and sorting",
+      "description": "Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, filters, and sorting",
+      "agentUse": "Invoke csvtotable from a shell for the documented use case: Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, filters, and sorting",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "csvtotable input.csv page.html",
+      "website": "https://github.com/vividvilla/csvtotable",
+      "docs": "https://github.com/vividvilla/csvtotable/blob/b523461605af7b8a844c1537371b5d2732945892/README.md",
+      "stars": 1183,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T04:44:39.687Z"
+    },
+    {
+      "slug": "casey-intermodal",
+      "name": "intermodal",
+      "repo": "casey/intermodal",
+      "category": "Files & documents",
+      "command": "imdl",
+      "useCase": "command-line utility for BitTorrent torrent file creation, verification, and more",
+      "description": "command-line utility for BitTorrent torrent file creation, verification, and more",
+      "agentUse": "Invoke imdl from a shell for the documented use case: command-line utility for BitTorrent torrent file creation, verification, and more",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "imdl torrent create",
+      "website": "https://github.com/casey/intermodal",
+      "docs": "https://github.com/casey/intermodal/blob/f2dc19537fe389ddf5485fa7a6b7fe14858846fa/README.md",
+      "stars": 659,
+      "license": "CC0-1.0",
+      "checkedAt": "2026-09-14T04:44:40.136Z"
+    },
+    {
+      "slug": "motdotla-node-lambda",
+      "name": "node-lambda",
+      "repo": "motdotla/node-lambda",
+      "category": "Cloud & deployment",
+      "command": "node-lambda",
+      "useCase": "Command line tool to locally run and deploy your node.js application to Amazon Lambda",
+      "description": "Command line tool to locally run and deploy your node.js application to Amazon Lambda",
+      "agentUse": "Invoke node-lambda from a shell for the documented use case: Command line tool to locally run and deploy your node.js application to Amazon Lambda",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "node-lambda run",
+      "website": "https://github.com/motdotla/node-lambda",
+      "docs": "https://github.com/motdotla/node-lambda/blob/48b0a35fc779bd0104e5b359f6b4e150d863cee0/README.md",
+      "stars": 1352,
+      "license": "BSD-2-Clause",
+      "checkedAt": "2026-09-14T04:44:40.576Z"
+    },
+    {
+      "slug": "alan-turing-institute-clevercsv",
+      "name": "CleverCSV",
+      "repo": "alan-turing-institute/CleverCSV",
+      "category": "Data & APIs",
+      "command": "clevercsv",
+      "useCase": "CleverCSV is a Python package for handling messy CSV files. It provides a drop-in replacement for the builtin CSV module with improved dialect detection, and comes with a handy command line application for working with CSV files.",
+      "description": "CleverCSV is a Python package for handling messy CSV files. It provides a drop-in replacement for the builtin CSV module with improved dialect detection, and comes with a handy command line application for working with CSV files.",
+      "agentUse": "Invoke clevercsv from a shell for the documented use case: CleverCSV is a Python package for handling messy CSV files. It provides a drop-in replacement for the builtin CSV module with improved dialect detection, and comes with a handy command line application for working with CSV files.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "clevercsv detect ./imdb.csv",
+      "website": "https://github.com/alan-turing-institute/CleverCSV",
+      "docs": "https://github.com/alan-turing-institute/CleverCSV/blob/e80acaa5c324889416a5727ad9929d5b2f8bccb6/README.md",
+      "stars": 1334,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T04:44:40.972Z"
     }
   ],
   "categories": [

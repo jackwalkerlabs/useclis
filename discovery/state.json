@@ -4,150 +4,6 @@
   "brewOffset": 120,
   "pending": [
     {
-      "repo": "c-blake/cligen"
-    },
-    {
-      "repo": "orhun/menyoki"
-    },
-    {
-      "repo": "google/clasp"
-    },
-    {
-      "repo": "cacjs/cac"
-    },
-    {
-      "repo": "yoshiko-pg/difit"
-    },
-    {
-      "repo": "meganz/MEGAcmd"
-    },
-    {
-      "repo": "wp-cli/php-cli-tools"
-    },
-    {
-      "repo": "aviator-co/av"
-    },
-    {
-      "repo": "idank/explainshell"
-    },
-    {
-      "repo": "Licoy/fetch-github-hosts"
-    },
-    {
-      "repo": "utiso/dorkbot"
-    },
-    {
-      "repo": "jjjake/internetarchive"
-    },
-    {
-      "repo": "CryptoDmitry/Ghost-Agent"
-    },
-    {
-      "repo": "laravel/prompts"
-    },
-    {
-      "repo": "bashly-framework/bashly"
-    },
-    {
-      "repo": "Klemen1337/node-thermal-printer"
-    },
-    {
-      "repo": "vividvilla/csvtotable"
-    },
-    {
-      "repo": "r-lib/cli"
-    },
-    {
-      "repo": "internet-development/www-server-mono"
-    },
-    {
-      "repo": "gbevin/SendMIDI"
-    },
-    {
-      "repo": "casey/intermodal"
-    },
-    {
-      "repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
-    },
-    {
-      "repo": "webtorrent/webtorrent-cli"
-    },
-    {
-      "repo": "ankitpokhrel/jira-cli"
-    },
-    {
-      "repo": "sleuthkit/sleuthkit"
-    },
-    {
-      "repo": "mssun/passforios"
-    },
-    {
-      "repo": "tmbo/questionary"
-    },
-    {
-      "repo": "remkop/picocli"
-    },
-    {
-      "repo": "shadawck/awesome-cli-frameworks"
-    },
-    {
-      "repo": "tobya/DocTo"
-    },
-    {
-      "repo": "vi/websocat"
-    },
-    {
-      "repo": "dbohdan/structured-text-tools"
-    },
-    {
-      "repo": "cc1a2b/JShunter"
-    },
-    {
-      "repo": "adamabdelhamed/PowerArgs"
-    },
-    {
-      "repo": "gruntwork-io/git-xargs"
-    },
-    {
-      "repo": "Textualize/rich-cli"
-    },
-    {
-      "repo": "pcb2gcode/pcb2gcode"
-    },
-    {
-      "repo": "motdotla/node-lambda"
-    },
-    {
-      "repo": "tldr-pages/tldr-python-client"
-    },
-    {
-      "repo": "alan-turing-institute/CleverCSV"
-    },
-    {
-      "repo": "jpsim/SourceKitten"
-    },
-    {
-      "repo": "normen/whatscli"
-    },
-    {
-      "repo": "EasyEngine/easyengine"
-    },
-    {
-      "repo": "GameServerManagers/LinuxGSM"
-    },
-    {
-      "repo": "git-bahn/git-graph"
-    },
-    {
-      "repo": "bugaevc/wl-clipboard"
-    },
-    {
-      "repo": "home-assistant-ecosystem/home-assistant-cli"
-    },
-    {
-      "repo": "nunomaduro/termwind"
-    },
-    {
       "repo": "nunomaduro/collision"
     },
     {
@@ -4817,7 +4673,315 @@
       "status": "held",
       "checkedAt": "2026-09-14T03:44:21.644Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "c-blake/cligen": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "google/clasp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "yoshiko-pg/difit": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "meganz/megacmd": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "aviator-co/av": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "idank/explainshell": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "licoy/fetch-github-hosts": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "utiso/dorkbot": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jjjake/internetarchive": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cryptodmitry/ghost-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "laravel/prompts": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bashly-framework/bashly": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "klemen1337/node-thermal-printer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vividvilla/csvtotable": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "GitHub stars",
+      "slug": "vividvilla-csvtotable",
+      "acceptedAt": "2026-09-14T04:44:19.190Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/vividvilla/csvtotable/blob/b523461605af7b8a844c1537371b5d2732945892/npm/package.json",
+          "snippet": "{\"bin\":{\"csvtotable\":\"bin/csvtotable.js\"}}",
+          "target": "npm/bin/csvtotable.js"
+        },
+        "installation": {
+          "url": "https://github.com/vividvilla/csvtotable/blob/b523461605af7b8a844c1537371b5d2732945892/README.md",
+          "snippet": "npm install --global @vividvilla/csvtotable     # or install globally"
+        },
+        "usage": {
+          "url": "https://github.com/vividvilla/csvtotable/blob/b523461605af7b8a844c1537371b5d2732945892/README.md",
+          "snippet": "csvtotable input.csv page.html"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/vividvilla/csvtotable",
+          "snippet": "Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, filters, and sorting"
+        },
+        "adoption": {
+          "stars": 1183,
+          "githubSource": "https://github.com/vividvilla/csvtotable",
+          "homebrew": null
+        },
+        "commit": "b523461605af7b8a844c1537371b5d2732945892"
+      }
+    },
+    "r-lib/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "internet-development/www-server-mono": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "casey/intermodal": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "GitHub stars",
+      "slug": "casey-intermodal",
+      "acceptedAt": "2026-09-14T04:44:19.190Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/casey/intermodal/blob/f2dc19537fe389ddf5485fa7a6b7fe14858846fa/Cargo.toml",
+          "snippet": "package.name=\"imdl\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/casey/intermodal/blob/f2dc19537fe389ddf5485fa7a6b7fe14858846fa/README.md",
+          "snippet": "| [Various](https://forge.rust-lang.org/release/platform-support.html) | [Cargo](https://www.rust-lang.org)                 | [imdl](https://crates.io/crates/imdl)                                                             | `cargo install imdl`                                                                  |"
+        },
+        "usage": {
+          "url": "https://github.com/casey/intermodal/blob/f2dc19537fe389ddf5485fa7a6b7fe14858846fa/README.md",
+          "snippet": "imdl torrent create"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/casey/intermodal",
+          "snippet": "command-line utility for BitTorrent torrent file creation, verification, and more"
+        },
+        "adoption": {
+          "stars": 659,
+          "githubSource": "https://github.com/casey/intermodal",
+          "homebrew": null
+        },
+        "commit": "f2dc19537fe389ddf5485fa7a6b7fe14858846fa"
+      }
+    },
+    "montrealcorpustools/montreal-forced-aligner": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "webtorrent/webtorrent-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sleuthkit/sleuthkit": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mssun/passforios": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tmbo/questionary": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "shadawck/awesome-cli-frameworks": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tobya/docto": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dbohdan/structured-text-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "cc1a2b/jshunter": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "adamabdelhamed/powerargs": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gruntwork-io/git-xargs": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "textualize/rich-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pcb2gcode/pcb2gcode": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "motdotla/node-lambda": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "GitHub stars",
+      "slug": "motdotla-node-lambda",
+      "acceptedAt": "2026-09-14T04:44:19.190Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/motdotla/node-lambda/blob/48b0a35fc779bd0104e5b359f6b4e150d863cee0/package.json",
+          "snippet": "{\"bin\":{\"node-lambda\":\"./bin/node-lambda\"}}",
+          "target": "bin/node-lambda"
+        },
+        "installation": {
+          "url": "https://github.com/motdotla/node-lambda/blob/48b0a35fc779bd0104e5b359f6b4e150d863cee0/README.md",
+          "snippet": "$ npm install -g node-lambda"
+        },
+        "usage": {
+          "url": "https://github.com/motdotla/node-lambda/blob/48b0a35fc779bd0104e5b359f6b4e150d863cee0/README.md",
+          "snippet": "node-lambda run"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/motdotla/node-lambda",
+          "snippet": "Command line tool to locally run and deploy your node.js application to Amazon Lambda"
+        },
+        "adoption": {
+          "stars": 1352,
+          "githubSource": "https://github.com/motdotla/node-lambda",
+          "homebrew": null
+        },
+        "commit": "48b0a35fc779bd0104e5b359f6b4e150d863cee0"
+      }
+    },
+    "tldr-pages/tldr-python-client": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "alan-turing-institute/clevercsv": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "GitHub stars",
+      "slug": "alan-turing-institute-clevercsv",
+      "acceptedAt": "2026-09-14T04:44:19.190Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/alan-turing-institute/CleverCSV/blob/e80acaa5c324889416a5727ad9929d5b2f8bccb6/pyproject.toml",
+          "snippet": "clevercsv = \"clevercsv.__main__:main\"",
+          "target": "clevercsv/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/alan-turing-institute/CleverCSV/blob/e80acaa5c324889416a5727ad9929d5b2f8bccb6/README.md",
+          "snippet": "$ pip install clevercsv[full]"
+        },
+        "usage": {
+          "url": "https://github.com/alan-turing-institute/CleverCSV/blob/e80acaa5c324889416a5727ad9929d5b2f8bccb6/README.md",
+          "snippet": "clevercsv detect ./imdb.csv"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/alan-turing-institute/CleverCSV",
+          "snippet": "CleverCSV is a Python package for handling messy CSV files. It provides a drop-in replacement for the builtin CSV module with improved dialect detection, and comes with a handy command line application for working with CSV files."
+        },
+        "adoption": {
+          "stars": 1334,
+          "githubSource": "https://github.com/alan-turing-institute/CleverCSV",
+          "homebrew": null
+        },
+        "commit": "e80acaa5c324889416a5727ad9929d5b2f8bccb6"
+      }
+    },
+    "jpsim/sourcekitten": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "normen/whatscli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "easyengine/easyengine": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gameservermanagers/linuxgsm": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bugaevc/wl-clipboard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "home-assistant-ecosystem/home-assistant-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nunomaduro/termwind": {
+      "status": "held",
+      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T03:44:21.644Z"
+  "lastRunAt": "2026-09-14T04:44:19.190Z"
 }

@@ -1319,10 +1319,10 @@
     "bio": "😻A N A R C H O ー ネ コ バ ス 😻",
     "location": "The Blue Planet",
     "website": "https://rodarmor.com",
-    "followers": 3732,
+    "followers": 3735,
     "publicRepos": 312,
     "createdAt": "2008-03-02T09:58:31Z",
-    "checkedAt": "2026-09-10T11:21:36.329Z",
+    "checkedAt": "2026-09-14T04:44:42.824Z",
     "source": "https://github.com/casey"
   },
   "openhue": {
@@ -2780,5 +2780,44 @@
     "createdAt": "2018-05-16T11:08:24Z",
     "checkedAt": "2026-09-14T03:44:40.706Z",
     "source": "https://github.com/cabal-club"
+  },
+  "vividvilla": {
+    "login": "vividvilla",
+    "name": "Vivek Rajendran",
+    "type": "User",
+    "bio": "Full stack developer @zerodha\r\n",
+    "location": "Bengaluru",
+    "website": "https://vivekr.dev",
+    "followers": 512,
+    "publicRepos": 77,
+    "createdAt": "2011-04-07T15:09:07Z",
+    "checkedAt": "2026-09-14T04:44:42.647Z",
+    "source": "https://github.com/vividvilla"
+  },
+  "motdotla": {
+    "login": "motdotla",
+    "name": "Scott Motte",
+    "type": "User",
+    "bio": "Creator of `dotenv` and `dotenvx`.",
+    "location": "LA & SF",
+    "website": "https://mot.la",
+    "followers": 1202,
+    "publicRepos": 275,
+    "createdAt": "2008-03-26T01:13:18Z",
+    "checkedAt": "2026-09-14T04:44:42.990Z",
+    "source": "https://github.com/motdotla"
+  },
+  "alan-turing-institute": {
+    "login": "alan-turing-institute",
+    "name": "The Alan Turing Institute",
+    "type": "Organization",
+    "bio": "The UK's national institute for data science and artificial intelligence.",
+    "location": null,
+    "website": "https://turing.ac.uk",
+    "followers": 1015,
+    "publicRepos": 669,
+    "createdAt": "2016-04-06T09:38:19Z",
+    "checkedAt": "2026-09-14T04:44:43.165Z",
+    "source": "https://github.com/alan-turing-institute"
   }
 }
