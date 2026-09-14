@@ -2,32 +2,7 @@
   "version": 1,
   "searchPage": 6,
   "brewOffset": 200,
-  "pending": [
-    {
-      "repo": "ayoisaiah/focus"
-    },
-    {
-      "repo": "insanum/gcalcli"
-    },
-    {
-      "repo": "s3tools/s3cmd"
-    },
-    {
-      "repo": "lowleveldesign/wtrace"
-    },
-    {
-      "repo": "sudofox/shell-mommy"
-    },
-    {
-      "repo": "umutphp/awesome-cli"
-    },
-    {
-      "repo": "jacobsalmela/tccutil"
-    },
-    {
-      "repo": "ambionics/phpggc"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -7370,7 +7345,37 @@
       "status": "held",
       "checkedAt": "2026-09-14T15:44:25.426Z",
       "reason": "Terminal use case needs classification"
+    },
+    "s3tools/s3cmd": {
+      "status": "held",
+      "checkedAt": "2026-09-14T16:44:23.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lowleveldesign/wtrace": {
+      "status": "held",
+      "checkedAt": "2026-09-14T16:44:23.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sudofox/shell-mommy": {
+      "status": "held",
+      "checkedAt": "2026-09-14T16:44:23.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "umutphp/awesome-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T16:44:23.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jacobsalmela/tccutil": {
+      "status": "held",
+      "checkedAt": "2026-09-14T16:44:23.350Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ambionics/phpggc": {
+      "status": "held",
+      "checkedAt": "2026-09-14T16:44:23.350Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T15:44:25.426Z"
+  "lastRunAt": "2026-09-14T16:44:23.350Z"
 }
