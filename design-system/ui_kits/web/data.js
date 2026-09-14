@@ -5701,6 +5701,63 @@ window.USECLIS_DATA = {
       "stars": 7414,
       "license": "GPL-3.0",
       "checkedAt": "2026-09-14T15:44:52.060Z"
+    },
+    {
+      "slug": "chenhg5-cc-connect",
+      "name": "cc-connect",
+      "repo": "chenhg5/cc-connect",
+      "category": "Productivity & communication",
+      "command": "cc-connect",
+      "useCase": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.",
+      "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.",
+      "agentUse": "Invoke cc-connect from a shell for the documented use case: Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "cc-connect doctor user-isolation",
+      "website": "https://github.com/chenhg5/cc-connect",
+      "docs": "https://github.com/chenhg5/cc-connect/blob/757b4df059d537eacb84dd0c955b5e7ede205420/README.md",
+      "stars": 15493,
+      "license": null,
+      "checkedAt": "2026-09-14T17:44:50.869Z"
+    },
+    {
+      "slug": "pchalasani-claude-code-tools",
+      "name": "claude-code-tools",
+      "repo": "pchalasani/claude-code-tools",
+      "category": "Productivity & communication",
+      "command": "aichat",
+      "useCase": "Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.",
+      "description": "Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.",
+      "agentUse": "Invoke aichat from a shell for the documented use case: Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "aichat search \"authentication bug fix\"",
+      "website": "https://github.com/pchalasani/claude-code-tools",
+      "docs": "https://github.com/pchalasani/claude-code-tools/blob/ee0f3099c05c50141feff2559193c0af1fb81ec7/plugins/aichat/README.md",
+      "stars": 1999,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T17:44:51.564Z"
+    },
+    {
+      "slug": "bgreenwell-xleak",
+      "name": "xleak",
+      "repo": "bgreenwell/xleak",
+      "category": "Data & APIs",
+      "command": "xleak",
+      "useCase": "A fast terminal Excel viewer with an interactive TUI. Features full-text search, formula display, lazy loading for large files, clipboard support, and export to CSV/JSON. Built with Rust and ratatui.",
+      "description": "A fast terminal Excel viewer with an interactive TUI. Features full-text search, formula display, lazy loading for large files, clipboard support, and export to CSV/JSON. Built with Rust and ratatui.",
+      "agentUse": "Invoke xleak from a shell for the documented use case: A fast terminal Excel viewer with an interactive TUI. Features full-text search, formula display, lazy loading for large files, clipboard support, and export to CSV/JSON. Built with Rust and ratatui.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "xleak quarterly-report.xlsx -i",
+      "website": "https://github.com/bgreenwell/xleak",
+      "docs": "https://github.com/bgreenwell/xleak/blob/ef6560c8e16815e2e74acf3973c0a5958a2c6523/README.md",
+      "stars": 1487,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T17:44:52.122Z"
     }
   ],
   "categories": [

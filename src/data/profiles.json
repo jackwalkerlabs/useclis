@@ -3066,5 +3066,44 @@
     "createdAt": "2011-06-17T10:39:11Z",
     "checkedAt": "2026-09-14T15:44:54.812Z",
     "source": "https://github.com/timvisee"
+  },
+  "chenhg5": {
+    "login": "chenhg5",
+    "name": "cg33",
+    "type": "User",
+    "bio": "行百里者半九十",
+    "location": "GuangZhou",
+    "website": null,
+    "followers": 599,
+    "publicRepos": 109,
+    "createdAt": "2013-05-05T07:43:23Z",
+    "checkedAt": "2026-09-14T17:44:54.614Z",
+    "source": "https://github.com/chenhg5"
+  },
+  "pchalasani": {
+    "login": "pchalasani",
+    "name": "Prasad Chalasani",
+    "type": "User",
+    "bio": "LLM/ML research/practice.\r\n\r\nBuilding langroid, the easiest way to develop LLM-agent-oriented systems.\r\nhttps://github.com/langroid/langroid",
+    "location": "Pittsburgh, PA",
+    "website": "https://github.com/langroid/langroid",
+    "followers": 335,
+    "publicRepos": 61,
+    "createdAt": "2011-01-09T16:27:01Z",
+    "checkedAt": "2026-09-14T17:44:54.890Z",
+    "source": "https://github.com/pchalasani"
+  },
+  "bgreenwell": {
+    "login": "bgreenwell",
+    "name": "Brandon Greenwell",
+    "type": "User",
+    "bio": "Director, Responsible AI at 84.51° and Adjunct Instructor at the University of Cincinnati.",
+    "location": "Cincinnati, Ohio",
+    "website": null,
+    "followers": 407,
+    "publicRepos": 152,
+    "createdAt": "2013-03-05T16:02:31Z",
+    "checkedAt": "2026-09-14T17:44:55.231Z",
+    "source": "https://github.com/bgreenwell"
   }
 }

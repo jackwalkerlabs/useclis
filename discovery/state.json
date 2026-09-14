@@ -1,8 +1,513 @@
 {
   "version": 1,
-  "searchPage": 6,
-  "brewOffset": 200,
-  "pending": [],
+  "searchPage": 7,
+  "brewOffset": 240,
+  "pending": [
+    {
+      "repo": "ewels/rich-click"
+    },
+    {
+      "repo": "gookit/color"
+    },
+    {
+      "repo": "projectdiscovery/cloudlist"
+    },
+    {
+      "repo": "kwakseongjae/oh-my-design"
+    },
+    {
+      "repo": "1jehuang/mermaid-rs-renderer"
+    },
+    {
+      "repo": "brandonyoungdev/tldx"
+    },
+    {
+      "repo": "hartwork/git-delete-merged-branches"
+    },
+    {
+      "repo": "charmbracelet/glamour"
+    },
+    {
+      "repo": "pavdmyt/yaspin"
+    },
+    {
+      "repo": "XAMPPRocky/tokei"
+    },
+    {
+      "repo": "privatenumber/tasuku"
+    },
+    {
+      "repo": "RoggeOhta/awesome-codex-cli"
+    },
+    {
+      "repo": "devspace-sh/devspace"
+    },
+    {
+      "repo": "todotxt/todo.txt-cli"
+    },
+    {
+      "repo": "iannuttall/seo"
+    },
+    {
+      "repo": "lindell/multi-gitter"
+    },
+    {
+      "repo": "showwin/speedtest-go"
+    },
+    {
+      "repo": "beyondgrep/ack3"
+    },
+    {
+      "repo": "charmbracelet/bubbles"
+    },
+    {
+      "repo": "rasterio/rasterio"
+    },
+    {
+      "repo": "kiryano/Scout"
+    },
+    {
+      "repo": "PHPCSStandards/PHP_CodeSniffer"
+    },
+    {
+      "repo": "schpet/linear-cli"
+    },
+    {
+      "repo": "googleworkspace/cli"
+    },
+    {
+      "repo": "sveltejs/cli"
+    },
+    {
+      "repo": "prettier/pretty-quick"
+    },
+    {
+      "repo": "afar1/fieldtheory-cli"
+    },
+    {
+      "repo": "jarun/bcal"
+    },
+    {
+      "repo": "zhiburt/tabled"
+    },
+    {
+      "repo": "next-hat/nanocl"
+    },
+    {
+      "repo": "buyukakyuz/install-nothing"
+    },
+    {
+      "repo": "ducaale/xh"
+    },
+    {
+      "repo": "amalshaji/portr"
+    },
+    {
+      "repo": "jhspetersson/fselect"
+    },
+    {
+      "repo": "jreleaser/jreleaser"
+    },
+    {
+      "repo": "fiso64/sockseek"
+    },
+    {
+      "repo": "mergestat/mergestat-lite"
+    },
+    {
+      "repo": "usagi-flow/evil-helix"
+    },
+    {
+      "repo": "postcss/postcss-cli"
+    },
+    {
+      "repo": "sharkdp/bat"
+    },
+    {
+      "repo": "apideck-libraries/portman"
+    },
+    {
+      "repo": "openfaas/faas-cli"
+    },
+    {
+      "repo": "petergyang/human-review"
+    },
+    {
+      "repo": "flozz/rivalcfg"
+    },
+    {
+      "repo": "roninoss/create-expo-stack"
+    },
+    {
+      "repo": "pimutils/vdirsyncer"
+    },
+    {
+      "repo": "rbardini/resumed"
+    },
+    {
+      "repo": "dropbox/dbxcli"
+    },
+    {
+      "repo": "supreme-gg-gg/instagram-cli"
+    },
+    {
+      "repo": "asdf-vm/asdf"
+    },
+    {
+      "repo": "stoplightio/prism"
+    },
+    {
+      "repo": "alecthomas/kingpin"
+    },
+    {
+      "repo": "elirantutia/vibeyard"
+    },
+    {
+      "repo": "Illusionna/LocalTransfer"
+    },
+    {
+      "repo": "Urigo/graphql-cli"
+    },
+    {
+      "repo": "pixop/video-compare"
+    },
+    {
+      "repo": "l0ng-ai/papr"
+    },
+    {
+      "repo": "z-shell/zi"
+    },
+    {
+      "repo": "fengshao1227/ccg-workflow"
+    },
+    {
+      "repo": "HemmeligOrg/Hemmelig.app"
+    },
+    {
+      "repo": "ykdojo/claude-code-tips"
+    },
+    {
+      "repo": "stormzhang/ai-coding-guide"
+    },
+    {
+      "repo": "Kuberwastaken/claurst"
+    },
+    {
+      "repo": "fastapi/fastapi-cli"
+    },
+    {
+      "repo": "taiki-e/cargo-hack"
+    },
+    {
+      "repo": "tanaikech/goodls"
+    },
+    {
+      "repo": "moul/quicssh"
+    },
+    {
+      "repo": "simonw/sqlite-utils"
+    },
+    {
+      "repo": "basak/glacier-cli"
+    },
+    {
+      "repo": "cofyc/argparse"
+    },
+    {
+      "repo": "inotify-tools/inotify-tools"
+    },
+    {
+      "repo": "codingo/Interlace"
+    },
+    {
+      "repo": "sindresorhus/dark-mode"
+    },
+    {
+      "repo": "nschloe/tiptop"
+    },
+    {
+      "repo": "prasmussen/chrome-cli"
+    },
+    {
+      "repo": "Gabriella439/bench"
+    },
+    {
+      "repo": "danburzo/percollate"
+    },
+    {
+      "repo": "alebcay/awesome-shell"
+    },
+    {
+      "repo": "andrey-pohilko/registry-cli"
+    },
+    {
+      "repo": "vet-run/vet"
+    },
+    {
+      "repo": "MScholtes/VirtualDesktop"
+    },
+    {
+      "repo": "tejas-raskar/noted.md"
+    },
+    {
+      "repo": "Xonshiz/comic-dl"
+    },
+    {
+      "repo": "wow-signal-dev/metadata-remote"
+    },
+    {
+      "repo": "codingmoh/open-codex"
+    },
+    {
+      "repo": "adamtornhill/code-maat"
+    },
+    {
+      "repo": "docopt/docopt"
+    },
+    {
+      "repo": "gnebbia/kb"
+    },
+    {
+      "repo": "wix/AppleSimulatorUtils"
+    },
+    {
+      "repo": "MehediH/Bulksplash"
+    },
+    {
+      "repo": "gulpjs/liftoff"
+    },
+    {
+      "repo": "Doriandarko/deepseek-engineer"
+    },
+    {
+      "repo": "pomdtr/sunbeam"
+    },
+    {
+      "repo": "mifi/editly"
+    },
+    {
+      "repo": "silenceper/gowatch"
+    },
+    {
+      "repo": "gitbito/CLI"
+    },
+    {
+      "repo": "lastpass/lastpass-cli"
+    },
+    {
+      "repo": "kharvd/gpt-cli"
+    },
+    {
+      "repo": "NUKnightLab/sql-mysteries"
+    },
+    {
+      "repo": "theketchio/ketch"
+    },
+    {
+      "repo": "texworld/betterbib"
+    },
+    {
+      "repo": "piqnt/svgexport"
+    },
+    {
+      "repo": "tyilo/insert_dylib"
+    },
+    {
+      "repo": "tom-doerr/zsh_codex"
+    },
+    {
+      "repo": "YiNNx/cmd-wrapped"
+    },
+    {
+      "repo": "samg/timetrap"
+    },
+    {
+      "repo": "davetron5000/gli"
+    },
+    {
+      "repo": "scelis/twine"
+    },
+    {
+      "repo": "wting/autojump"
+    },
+    {
+      "repo": "benibela/xidel"
+    },
+    {
+      "repo": "eth-p/bat-extras"
+    },
+    {
+      "repo": "acmephp/acmephp"
+    },
+    {
+      "repo": "srsudar/eg"
+    },
+    {
+      "repo": "oleander/git-fame-rb"
+    },
+    {
+      "repo": "hnarayanan/shpotify"
+    },
+    {
+      "repo": "pedrozath/coltrane"
+    },
+    {
+      "repo": "balta2ar/brotab"
+    },
+    {
+      "repo": "t3l3machus/toxssin"
+    },
+    {
+      "repo": "astrand/xclip"
+    },
+    {
+      "repo": "openstreetmap/osmosis"
+    },
+    {
+      "repo": "httpie/cli"
+    },
+    {
+      "repo": "Doriandarko/o1-engineer"
+    },
+    {
+      "repo": "nchammas/flintrock"
+    },
+    {
+      "repo": "Doriandarko/claude-engineer"
+    },
+    {
+      "repo": "aliyun/ossutil"
+    },
+    {
+      "repo": "soimort/translate-shell"
+    },
+    {
+      "repo": "wez/atomicparsley"
+    },
+    {
+      "repo": "Paradoxis/Flask-Unsign"
+    },
+    {
+      "repo": "IngoMeyer441/simple-term-menu"
+    },
+    {
+      "repo": "p-ranav/structopt"
+    },
+    {
+      "repo": "mikehadlow/AsmSpy"
+    },
+    {
+      "repo": "Gbox4/tstock"
+    },
+    {
+      "repo": "coolcode/tomato-clock"
+    },
+    {
+      "repo": "hedyhli/starcli"
+    },
+    {
+      "repo": "NaiboWang/CommandlineConfig"
+    },
+    {
+      "repo": "SpatiumPortae/portal"
+    },
+    {
+      "repo": "barryclark/jekyll-now"
+    },
+    {
+      "repo": "rsc/2fa"
+    },
+    {
+      "repo": "kyclark/command-line-rust"
+    },
+    {
+      "repo": "manifoldco/promptui"
+    },
+    {
+      "repo": "ssllabs/ssllabs-scan"
+    },
+    {
+      "repo": "mridgers/clink"
+    },
+    {
+      "repo": "jdberry/tag"
+    },
+    {
+      "repo": "jessevdk/go-flags"
+    },
+    {
+      "repo": "magnific0/wondershaper"
+    },
+    {
+      "repo": "bloomreach/s4cmd"
+    },
+    {
+      "repo": "gruntjs/grunt-cli"
+    },
+    {
+      "repo": "piotrmurach/tty-prompt"
+    },
+    {
+      "repo": "dirk-thomas/vcstool"
+    },
+    {
+      "repo": "edenhill/kcat"
+    },
+    {
+      "repo": "deweller/switchaudio-osx"
+    },
+    {
+      "repo": "bmatzelle/gow"
+    },
+    {
+      "repo": "docopt/docopts"
+    },
+    {
+      "repo": "jlevy/the-art-of-command-line"
+    },
+    {
+      "repo": "genuinetools/reg"
+    },
+    {
+      "repo": "maaslalani/invoice"
+    },
+    {
+      "repo": "altdesktop/playerctl"
+    },
+    {
+      "repo": "dwtkns/gdal-cheat-sheet"
+    },
+    {
+      "repo": "jakehilborn/displayplacer"
+    },
+    {
+      "repo": "GitbookIO/gitbook-cli"
+    },
+    {
+      "repo": "JohnSundell/ShellOut"
+    },
+    {
+      "repo": "karan/joe"
+    },
+    {
+      "repo": "muellan/clipp"
+    },
+    {
+      "repo": "ogham/dog"
+    },
+    {
+      "repo": "flatiron/prompt"
+    },
+    {
+      "repo": "morgant/tools-osx"
+    },
+    {
+      "repo": "vadimdemedes/ink-ui"
+    },
+    {
+      "repo": "httpie/http-prompt"
+    }
+  ],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -7375,7 +7880,294 @@
       "status": "held",
       "checkedAt": "2026-09-14T16:44:23.350Z",
       "reason": "Terminal use case needs classification"
+    },
+    "lu-zero/cargo-c": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "embarkstudios/cargo-deny": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "taiki-e/cargo-llvm-cov": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nextest-rs/nextest": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rust-cross/cargo-zigbuild": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "carthage/carthage": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cask/cask": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ccbrown/iocraft": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "catchorg/catch2": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "topydo/topydo": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "karlstav/cava": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "chenhg5/cc-connect": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "GitHub stars",
+      "slug": "chenhg5-cc-connect",
+      "acceptedAt": "2026-09-14T17:44:24.786Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/chenhg5/cc-connect/blob/757b4df059d537eacb84dd0c955b5e7ede205420/npm/package.json",
+          "snippet": "{\"bin\":{\"cc-connect\":\"run.js\"}}",
+          "target": "npm/run.js"
+        },
+        "installation": {
+          "url": "https://github.com/chenhg5/cc-connect/blob/757b4df059d537eacb84dd0c955b5e7ede205420/README.md",
+          "snippet": "npm install -g cc-connect"
+        },
+        "usage": {
+          "url": "https://github.com/chenhg5/cc-connect/blob/757b4df059d537eacb84dd0c955b5e7ede205420/README.md",
+          "snippet": "cc-connect doctor user-isolation"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/chenhg5/cc-connect",
+          "snippet": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms."
+        },
+        "adoption": {
+          "stars": 15493,
+          "githubSource": "https://github.com/chenhg5/cc-connect",
+          "homebrew": {
+            "repo": "chenhg5/cc-connect",
+            "formula": "cc-connect",
+            "count": 180,
+            "source": "https://formulae.brew.sh/api/formula/cc-connect.json",
+            "generatedDate": "2026-09-14"
+          }
+        },
+        "commit": "757b4df059d537eacb84dd0c955b5e7ede205420"
+      }
+    },
+    "saladday/cc-switch-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "houseabsolute/ubi": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ccache/ccache": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lucc/khard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "maskray/ccls": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pchalasani/claude-code-tools": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "GitHub stars",
+      "slug": "pchalasani-claude-code-tools",
+      "acceptedAt": "2026-09-14T17:44:24.786Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/pchalasani/claude-code-tools/blob/ee0f3099c05c50141feff2559193c0af1fb81ec7/pyproject.toml",
+          "snippet": "aichat = \"claude_code_tools.aichat:main\"",
+          "target": "claude_code_tools/aichat.py"
+        },
+        "installation": {
+          "url": "https://github.com/pchalasani/claude-code-tools/blob/ee0f3099c05c50141feff2559193c0af1fb81ec7/plugins/aichat/README.md",
+          "snippet": "uv tool install claude-code-tools   # Python package"
+        },
+        "usage": {
+          "url": "https://github.com/pchalasani/claude-code-tools/blob/ee0f3099c05c50141feff2559193c0af1fb81ec7/plugins/aichat/README.md",
+          "snippet": "aichat search \"authentication bug fix\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/pchalasani/claude-code-tools",
+          "snippet": "Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents."
+        },
+        "adoption": {
+          "stars": 1999,
+          "githubSource": "https://github.com/pchalasani/claude-code-tools",
+          "homebrew": null
+        },
+        "commit": "ee0f3099c05c50141feff2559193c0af1fb81ec7"
+      }
+    },
+    "ccusage/ccusage": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xdagiz/xytz": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "certbot/certbot": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "leibnitz27/cfr": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "srod/node-minify": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cgal/cgal": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "0xjuanma/golazo": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "hpjansson/chafa": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "miniscruff/changie": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "python-jsonschema/check-jsonschema": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "davidesantangelo/krep": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "giuspen/cherrytree": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "giammarco-ferranti/deja": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "twpayne/chezmoi": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "projectdiscovery/chaos-client": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ashinn/chibi-scheme": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "acoustid/chromaprint": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gxr404/yuque-dl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "postmodern/chruby": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bgreenwell/xleak": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "GitHub stars",
+      "slug": "bgreenwell-xleak",
+      "acceptedAt": "2026-09-14T17:44:24.786Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/bgreenwell/xleak/blob/ef6560c8e16815e2e74acf3973c0a5958a2c6523/Cargo.toml",
+          "snippet": "package.name=\"xleak\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/bgreenwell/xleak/blob/ef6560c8e16815e2e74acf3973c0a5958a2c6523/README.md",
+          "snippet": "cargo install xleak"
+        },
+        "usage": {
+          "url": "https://github.com/bgreenwell/xleak/blob/ef6560c8e16815e2e74acf3973c0a5958a2c6523/README.md",
+          "snippet": "xleak quarterly-report.xlsx -i"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/bgreenwell/xleak",
+          "snippet": "A fast terminal Excel viewer with an interactive TUI. Features full-text search, formula display, lazy loading for large files, clipboard support, and export to CSV/JSON. Built with Rust and ratatui."
+        },
+        "adoption": {
+          "stars": 1487,
+          "githubSource": "https://github.com/bgreenwell/xleak",
+          "homebrew": null
+        },
+        "commit": "ef6560c8e16815e2e74acf3973c0a5958a2c6523"
+      }
+    },
+    "keidarcy/e1s": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mistweaverco/kulala.nvim": {
+      "status": "held",
+      "checkedAt": "2026-09-14T17:44:24.786Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-14T16:44:23.350Z"
+  "lastRunAt": "2026-09-14T17:44:24.786Z"
 }

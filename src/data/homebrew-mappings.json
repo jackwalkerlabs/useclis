@@ -333,5 +333,9 @@
   "aws-aws-sam-cli": {
     "formula": "aws-sam-cli",
     "repo": "aws/aws-sam-cli"
+  },
+  "chenhg5-cc-connect": {
+    "formula": "cc-connect",
+    "repo": "chenhg5/cc-connect"
   }
 }

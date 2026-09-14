@@ -1160,5 +1160,19 @@
     "checkedAt": "2026-09-13T23:44:59.853Z",
     "generatedDate": "2026-09-13",
     "status": "ok"
+  },
+  "chenhg5-cc-connect": {
+    "formula": "cc-connect",
+    "repo": "chenhg5/cc-connect",
+    "source": "https://formulae.brew.sh/api/formula/cc-connect.json",
+    "attemptedAt": "2026-09-14T17:44:53.748Z",
+    "counts": {
+      "30d": 180,
+      "90d": 779,
+      "365d": 1736
+    },
+    "checkedAt": "2026-09-14T17:44:53.748Z",
+    "generatedDate": "2026-09-14",
+    "status": "ok"
   }
 }

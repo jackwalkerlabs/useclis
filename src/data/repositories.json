@@ -2718,5 +2718,35 @@
     "language": "Rust",
     "checkedAt": "2026-09-14T15:44:52.060Z",
     "source": "https://github.com/timvisee/ffsend"
+  },
+  "chenhg5-cc-connect": {
+    "createdAt": "2026-02-28T02:39:39Z",
+    "pushedAt": "2026-09-12T02:33:26Z",
+    "lastCommitAt": "2026-09-10T12:21:41Z",
+    "stars": 15493,
+    "license": null,
+    "language": "Go",
+    "checkedAt": "2026-09-14T17:44:50.869Z",
+    "source": "https://github.com/chenhg5/cc-connect"
+  },
+  "pchalasani-claude-code-tools": {
+    "createdAt": "2025-07-30T20:10:38Z",
+    "pushedAt": "2026-09-07T17:56:05Z",
+    "lastCommitAt": "2026-09-06T22:15:13Z",
+    "stars": 1999,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-14T17:44:51.564Z",
+    "source": "https://github.com/pchalasani/claude-code-tools"
+  },
+  "bgreenwell-xleak": {
+    "createdAt": "2025-11-06T12:51:31Z",
+    "pushedAt": "2026-09-07T09:28:47Z",
+    "lastCommitAt": "2026-08-09T19:03:23Z",
+    "stars": 1487,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-14T17:44:52.122Z",
+    "source": "https://github.com/bgreenwell/xleak"
   }
 }
