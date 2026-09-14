@@ -4,147 +4,6 @@
   "brewOffset": 160,
   "pending": [
     {
-      "repo": "adtac/climate"
-    },
-    {
-      "repo": "spolu/warp"
-    },
-    {
-      "repo": "sananth12/ImageScraper"
-    },
-    {
-      "repo": "sindresorhus/yoctocolors"
-    },
-    {
-      "repo": "indexzero/nconf"
-    },
-    {
-      "repo": "dnote/dnote"
-    },
-    {
-      "repo": "Backblaze/B2_Command_Line_Tool"
-    },
-    {
-      "repo": "vjeantet/alerter"
-    },
-    {
-      "repo": "gotify/cli"
-    },
-    {
-      "repo": "rust-fuzz/cargo-fuzz"
-    },
-    {
-      "repo": "jasonacox/tinytuya"
-    },
-    {
-      "repo": "jifunks/botany"
-    },
-    {
-      "repo": "guard/guard"
-    },
-    {
-      "repo": "killercup/cargo-edit"
-    },
-    {
-      "repo": "radude/rentry"
-    },
-    {
-      "repo": "anthonyraymond/joal"
-    },
-    {
-      "repo": "75lb/command-line-args"
-    },
-    {
-      "repo": "zhongwencool/observer_cli"
-    },
-    {
-      "repo": "jenkinsci/jenkinsfile-runner"
-    },
-    {
-      "repo": "JosephLai241/URS"
-    },
-    {
-      "repo": "kislyuk/yq"
-    },
-    {
-      "repo": "ionic-team/ionic-cli"
-    },
-    {
-      "repo": "nadermx/backgroundremover"
-    },
-    {
-      "repo": "console-rs/dialoguer"
-    },
-    {
-      "repo": "VirusTotal/vt-cli"
-    },
-    {
-      "repo": "raphaelmansuy/code2prompt"
-    },
-    {
-      "repo": "daeuniverse/gg"
-    },
-    {
-      "repo": "rails/thor"
-    },
-    {
-      "repo": "terryyin/translate-python"
-    },
-    {
-      "repo": "YS-L/csvlens"
-    },
-    {
-      "repo": "nexus-xyz/nexus-cli"
-    },
-    {
-      "repo": "dannote/figma-use"
-    },
-    {
-      "repo": "TheR1D/shell_gpt"
-    },
-    {
-      "repo": "natemcmaster/CommandLineUtils"
-    },
-    {
-      "repo": "google/python-fire"
-    },
-    {
-      "repo": "spotify2tidal/spotify_to_tidal"
-    },
-    {
-      "repo": "natesales/q"
-    },
-    {
-      "repo": "facebook/wdt"
-    },
-    {
-      "repo": "react-native-community/cli"
-    },
-    {
-      "repo": "aria2/aria2"
-    },
-    {
-      "repo": "ageitgey/face_recognition"
-    },
-    {
-      "repo": "humblepenguinn/envio"
-    },
-    {
-      "repo": "welaika/wordmove"
-    },
-    {
-      "repo": "red-data-tools/YouPlot"
-    },
-    {
-      "repo": "guptarohit/asciigraph"
-    },
-    {
-      "repo": "defunkt/gist"
-    },
-    {
-      "repo": "parvardegr/sharing"
-    },
-    {
       "repo": "clitic/vsd"
     },
     {
@@ -6042,7 +5901,288 @@
       "status": "held",
       "checkedAt": "2026-09-14T08:44:22.215Z",
       "reason": "Terminal use case needs classification"
+    },
+    "adtac/climate": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "spolu/warp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sananth12/imagescraper": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "indexzero/nconf": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dnote/dnote": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "backblaze/b2_command_line_tool": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "GitHub stars",
+      "slug": "backblaze-b2-command-line-tool",
+      "acceptedAt": "2026-09-14T09:44:19.179Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Backblaze/B2_Command_Line_Tool/blob/87e3e14c1f238b46e554073ac8c8be9511089f0d/pyproject.toml",
+          "snippet": "b2 = \"b2._internal.b2v4.__main__:main\"",
+          "target": "b2/_internal/b2v4/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/Backblaze/B2_Command_Line_Tool/blob/87e3e14c1f238b46e554073ac8c8be9511089f0d/README.md",
+          "snippet": "pip install b2[full]"
+        },
+        "usage": {
+          "url": "https://github.com/Backblaze/B2_Command_Line_Tool/blob/87e3e14c1f238b46e554073ac8c8be9511089f0d/README.md",
+          "snippet": "b2 account                Account management subcommands."
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Backblaze/B2_Command_Line_Tool",
+          "snippet": "The command-line tool that gives easy access to all of the capabilities of B2 Cloud Storage"
+        },
+        "adoption": {
+          "stars": 630,
+          "githubSource": "https://github.com/Backblaze/B2_Command_Line_Tool",
+          "homebrew": null
+        },
+        "commit": "87e3e14c1f238b46e554073ac8c8be9511089f0d"
+      }
+    },
+    "vjeantet/alerter": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gotify/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rust-fuzz/cargo-fuzz": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jasonacox/tinytuya": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jifunks/botany": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "guard/guard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "killercup/cargo-edit": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "radude/rentry": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "75lb/command-line-args": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "zhongwencool/observer_cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jenkinsci/jenkinsfile-runner": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ionic-team/ionic-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nadermx/backgroundremover": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "console-rs/dialoguer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "virustotal/vt-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "raphaelmansuy/code2prompt": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "GitHub stars",
+      "slug": "raphaelmansuy-code2prompt",
+      "acceptedAt": "2026-09-14T09:44:19.179Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/raphaelmansuy/code2prompt/blob/1af498e7905b1fc5fdd9ff25156fc64548d5a608/pyproject.toml",
+          "snippet": "code2prompt = \"code2prompt.main:cli\"",
+          "target": "code2prompt/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/raphaelmansuy/code2prompt/blob/1af498e7905b1fc5fdd9ff25156fc64548d5a608/README.md",
+          "snippet": "pip install code2prompt"
+        },
+        "usage": {
+          "url": "https://github.com/raphaelmansuy/code2prompt/blob/1af498e7905b1fc5fdd9ff25156fc64548d5a608/README.md",
+          "snippet": "code2prompt --path /path/to/your/script.py"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/raphaelmansuy/code2prompt",
+          "snippet": "Code2Prompt is a powerful command-line tool that simplifies the process of providing context to Large Language Models (LLMs) by generating a comprehensive Markdown file containing the content of your codebase. ⭐ If you find Code2Prompt useful, consider giving us a star on GitHub! It helps us reach more developers and improve the tool. ⭐ "
+        },
+        "adoption": {
+          "stars": 883,
+          "githubSource": "https://github.com/raphaelmansuy/code2prompt",
+          "homebrew": null
+        },
+        "commit": "1af498e7905b1fc5fdd9ff25156fc64548d5a608"
+      }
+    },
+    "daeuniverse/gg": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rails/thor": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "terryyin/translate-python": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ys-l/csvlens": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nexus-xyz/nexus-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dannote/figma-use": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ther1d/shell_gpt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "google/python-fire": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "spotify2tidal/spotify_to_tidal": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "natesales/q": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "facebook/wdt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "react-native-community/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ageitgey/face_recognition": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "humblepenguinn/envio": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "welaika/wordmove": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "red-data-tools/youplot": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "defunkt/gist": {
+      "status": "held",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "parvardegr/sharing": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "reason": "GitHub stars",
+      "slug": "parvardegr-sharing",
+      "acceptedAt": "2026-09-14T09:44:19.179Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/parvardegr/sharing/blob/e103cc3124227f42ea1e31f138560cbe7c031904/package.json",
+          "snippet": "{\"bin\":{\"sharing\":\"./bin/index.js\"}}",
+          "target": "bin/index.js"
+        },
+        "installation": {
+          "url": "https://github.com/parvardegr/sharing/blob/e103cc3124227f42ea1e31f138560cbe7c031904/README.md",
+          "snippet": "npm install -g easy-sharing"
+        },
+        "usage": {
+          "url": "https://github.com/parvardegr/sharing/blob/e103cc3124227f42ea1e31f138560cbe7c031904/README.md",
+          "snippet": "sharing /path/to/file-or-directory"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/parvardegr/sharing",
+          "snippet": "Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app"
+        },
+        "adoption": {
+          "stars": 1837,
+          "githubSource": "https://github.com/parvardegr/sharing",
+          "homebrew": null
+        },
+        "commit": "e103cc3124227f42ea1e31f138560cbe7c031904"
+      }
     }
   },
-  "lastRunAt": "2026-09-14T08:44:22.215Z"
+  "lastRunAt": "2026-09-14T09:44:19.179Z"
 }

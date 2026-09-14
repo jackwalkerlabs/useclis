@@ -2578,5 +2578,35 @@
     "language": "JavaScript",
     "checkedAt": "2026-09-14T08:44:37.640Z",
     "source": "https://github.com/dat-ecosystem/dat"
+  },
+  "backblaze-b2-command-line-tool": {
+    "createdAt": "2015-11-16T18:22:50Z",
+    "pushedAt": "2026-07-24T20:11:07Z",
+    "lastCommitAt": "2026-07-06T16:43:13Z",
+    "stars": 630,
+    "license": null,
+    "language": "Python",
+    "checkedAt": "2026-09-14T09:44:40.502Z",
+    "source": "https://github.com/Backblaze/B2_Command_Line_Tool"
+  },
+  "raphaelmansuy-code2prompt": {
+    "createdAt": "2024-03-19T03:41:00Z",
+    "pushedAt": "2026-07-07T05:03:08Z",
+    "lastCommitAt": "2026-07-07T05:02:38Z",
+    "stars": 883,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-14T09:44:40.932Z",
+    "source": "https://github.com/raphaelmansuy/code2prompt"
+  },
+  "parvardegr-sharing": {
+    "createdAt": "2022-10-05T11:05:12Z",
+    "pushedAt": "2026-06-17T16:50:59Z",
+    "lastCommitAt": "2026-06-17T16:48:58Z",
+    "stars": 1837,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-14T09:44:41.566Z",
+    "source": "https://github.com/parvardegr/sharing"
   }
 }

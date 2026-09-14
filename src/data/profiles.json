@@ -2884,5 +2884,44 @@
     "createdAt": "2021-01-06T19:53:51Z",
     "checkedAt": "2026-09-14T08:44:39.113Z",
     "source": "https://github.com/dat-ecosystem"
+  },
+  "backblaze": {
+    "login": "Backblaze",
+    "name": "Backblaze",
+    "type": "Organization",
+    "bio": "Backblaze Cloud Backup & Cloud Storage",
+    "location": "San Mateo, California, USA",
+    "website": "https://www.backblaze.com",
+    "followers": 133,
+    "publicRepos": 18,
+    "createdAt": "2014-12-23T19:40:54Z",
+    "checkedAt": "2026-09-14T09:44:43.141Z",
+    "source": "https://github.com/Backblaze"
+  },
+  "raphaelmansuy": {
+    "login": "raphaelmansuy",
+    "name": "Raphael MANSUY",
+    "type": "User",
+    "bio": "CTO - ELITIZON Ltd\r\n\r\n🍵  Green Tea addict\r\n\r\n🚀  Maker \r\n\r\n 📚 Life learner\r\n",
+    "location": "Hong Kong SAR",
+    "website": "https://www.elitizon.com",
+    "followers": 315,
+    "publicRepos": 175,
+    "createdAt": "2011-08-25T03:13:02Z",
+    "checkedAt": "2026-09-14T09:44:43.379Z",
+    "source": "https://github.com/raphaelmansuy"
+  },
+  "parvardegr": {
+    "login": "parvardegr",
+    "name": "Amin Rostami",
+    "type": "User",
+    "bio": "Software Craftsman",
+    "location": null,
+    "website": null,
+    "followers": 53,
+    "publicRepos": 19,
+    "createdAt": "2014-10-29T17:34:51Z",
+    "checkedAt": "2026-09-14T09:44:43.604Z",
+    "source": "https://github.com/parvardegr"
   }
 }

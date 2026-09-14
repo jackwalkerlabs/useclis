@@ -5435,6 +5435,63 @@ window.USECLIS_DATA = {
       "stars": 8225,
       "license": "BSD-3-Clause",
       "checkedAt": "2026-09-14T08:44:37.640Z"
+    },
+    {
+      "slug": "backblaze-b2-command-line-tool",
+      "name": "B2_Command_Line_Tool",
+      "repo": "Backblaze/B2_Command_Line_Tool",
+      "category": "Cloud & deployment",
+      "command": "b2",
+      "useCase": "The command-line tool that gives easy access to all of the capabilities of B2 Cloud Storage",
+      "description": "The command-line tool that gives easy access to all of the capabilities of B2 Cloud Storage",
+      "agentUse": "Invoke b2 from a shell for the documented use case: The command-line tool that gives easy access to all of the capabilities of B2 Cloud Storage",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "b2 account                Account management subcommands.",
+      "website": "https://github.com/Backblaze/B2_Command_Line_Tool",
+      "docs": "https://github.com/Backblaze/B2_Command_Line_Tool/blob/87e3e14c1f238b46e554073ac8c8be9511089f0d/README.md",
+      "stars": 630,
+      "license": null,
+      "checkedAt": "2026-09-14T09:44:40.502Z"
+    },
+    {
+      "slug": "raphaelmansuy-code2prompt",
+      "name": "code2prompt",
+      "repo": "raphaelmansuy/code2prompt",
+      "category": "Git & collaboration",
+      "command": "code2prompt",
+      "useCase": "Code2Prompt is a powerful command-line tool that simplifies the process of providing context to Large Language Models (LLMs) by generating a comprehensive Markdown file containing the content of your codebase. ⭐ If you find Code2Prompt useful, consider giving us a star on GitHub! It helps us reach more developers and improve the tool. ⭐ ",
+      "description": "Code2Prompt is a powerful command-line tool that simplifies the process of providing context to Large Language Models (LLMs) by generating a comprehensive Markdown file containing the content of your codebase. ⭐ If you find Code2Prompt useful, consider giving us a star on GitHub! It helps us reach more developers and improve the tool. ⭐ ",
+      "agentUse": "Invoke code2prompt from a shell for the documented use case: Code2Prompt is a powerful command-line tool that simplifies the process of providing context to Large Language Models (LLMs) by generating a comprehensive Markdown file containing the content of your codebase. ⭐ If you find Code2Prompt useful, consider giving us a star on GitHub! It helps us reach more developers and improve the tool. ⭐ ",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "code2prompt --path /path/to/your/script.py",
+      "website": "https://github.com/raphaelmansuy/code2prompt",
+      "docs": "https://github.com/raphaelmansuy/code2prompt/blob/1af498e7905b1fc5fdd9ff25156fc64548d5a608/README.md",
+      "stars": 883,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T09:44:40.932Z"
+    },
+    {
+      "slug": "parvardegr-sharing",
+      "name": "sharing",
+      "repo": "parvardegr/sharing",
+      "category": "Files & documents",
+      "command": "sharing",
+      "useCase": "Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app",
+      "description": "Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app",
+      "agentUse": "Invoke sharing from a shell for the documented use case: Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "sharing /path/to/file-or-directory",
+      "website": "https://github.com/parvardegr/sharing",
+      "docs": "https://github.com/parvardegr/sharing/blob/e103cc3124227f42ea1e31f138560cbe7c031904/README.md",
+      "stars": 1837,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T09:44:41.566Z"
     }
   ],
   "categories": [
