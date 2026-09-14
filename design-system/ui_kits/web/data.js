@@ -5340,6 +5340,25 @@ window.USECLIS_DATA = {
       "stars": 1334,
       "license": "MIT",
       "checkedAt": "2026-09-14T04:44:40.972Z"
+    },
+    {
+      "slug": "rehmatworks-gplaydl",
+      "name": "gplaydl",
+      "repo": "rehmatworks/gplaydl",
+      "category": "Files & documents",
+      "command": "gplaydl",
+      "useCase": "Command Line Google Play APK downloader. Download APK files to your PC directly from Google Play Store.",
+      "description": "Command Line Google Play APK downloader. Download APK files to your PC directly from Google Play Store.",
+      "agentUse": "Invoke gplaydl from a shell for the documented use case: Command Line Google Play APK downloader. Download APK files to your PC directly from Google Play Store.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "gplaydl link",
+      "website": "https://github.com/rehmatworks/gplaydl",
+      "docs": "https://github.com/rehmatworks/gplaydl/blob/7c3d87f20a5f61f6cfa7446683bb4c698bfa2396/readme.md",
+      "stars": 642,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T05:44:26.297Z"
     }
   ],
   "categories": [

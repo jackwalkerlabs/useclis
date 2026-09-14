@@ -2,71 +2,7 @@
   "version": 1,
   "searchPage": 4,
   "brewOffset": 120,
-  "pending": [
-    {
-      "repo": "nunomaduro/collision"
-    },
-    {
-      "repo": "python-poetry/cleo"
-    },
-    {
-      "repo": "BurntSushi/bttf"
-    },
-    {
-      "repo": "glomatico/gamdl"
-    },
-    {
-      "repo": "commander-rb/commander"
-    },
-    {
-      "repo": "rehmatworks/gplaydl"
-    },
-    {
-      "repo": "francescofugazzi/3dgsconverter"
-    },
-    {
-      "repo": "ben-z/findphone"
-    },
-    {
-      "repo": "Martchus/tageditor"
-    },
-    {
-      "repo": "broadinstitute/picard"
-    },
-    {
-      "repo": "elliotblackburn/mdpdf"
-    },
-    {
-      "repo": "GoogleChromeLabs/bubblewrap"
-    },
-    {
-      "repo": "sisong/HDiffPatch"
-    },
-    {
-      "repo": "google/yamlfmt"
-    },
-    {
-      "repo": "toolleeo/awesome-cli-apps-in-a-csv"
-    },
-    {
-      "repo": "bfgroup/Lyra"
-    },
-    {
-      "repo": "denisidoro/navi"
-    },
-    {
-      "repo": "GoogleCloudPlatform/gsutil"
-    },
-    {
-      "repo": "Gu1llaum-3/sshm"
-    },
-    {
-      "repo": "RedMadRobot/figma-export"
-    },
-    {
-      "repo": "prompt-toolkit/python-prompt-toolkit"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -4981,7 +4917,114 @@
       "status": "held",
       "checkedAt": "2026-09-14T04:44:19.190Z",
       "reason": "Terminal use case needs classification"
+    },
+    "nunomaduro/collision": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "glomatico/gamdl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "commander-rb/commander": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rehmatworks/gplaydl": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "GitHub stars",
+      "slug": "rehmatworks-gplaydl",
+      "acceptedAt": "2026-09-14T05:44:17.671Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/rehmatworks/gplaydl/blob/7c3d87f20a5f61f6cfa7446683bb4c698bfa2396/pyproject.toml",
+          "snippet": "gplaydl = \"gplaydl.cli:app\"",
+          "target": "gplaydl/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/rehmatworks/gplaydl/blob/7c3d87f20a5f61f6cfa7446683bb4c698bfa2396/readme.md",
+          "snippet": "pip install gplaydl"
+        },
+        "usage": {
+          "url": "https://github.com/rehmatworks/gplaydl/blob/7c3d87f20a5f61f6cfa7446683bb4c698bfa2396/readme.md",
+          "snippet": "gplaydl link"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/rehmatworks/gplaydl",
+          "snippet": "Command Line Google Play APK downloader. Download APK files to your PC directly from Google Play Store."
+        },
+        "adoption": {
+          "stars": 642,
+          "githubSource": "https://github.com/rehmatworks/gplaydl",
+          "homebrew": null
+        },
+        "commit": "7c3d87f20a5f61f6cfa7446683bb4c698bfa2396"
+      }
+    },
+    "francescofugazzi/3dgsconverter": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ben-z/findphone": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "martchus/tageditor": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "broadinstitute/picard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "elliotblackburn/mdpdf": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "googlechromelabs/bubblewrap": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sisong/hdiffpatch": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "google/yamlfmt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "googlecloudplatform/gsutil": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gu1llaum-3/sshm": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "redmadrobot/figma-export": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "prompt-toolkit/python-prompt-toolkit": {
+      "status": "held",
+      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T04:44:19.190Z"
+  "lastRunAt": "2026-09-14T05:44:17.671Z"
 }

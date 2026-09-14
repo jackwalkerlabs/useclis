@@ -2819,5 +2819,18 @@
     "createdAt": "2016-04-06T09:38:19Z",
     "checkedAt": "2026-09-14T04:44:43.165Z",
     "source": "https://github.com/alan-turing-institute"
+  },
+  "rehmatworks": {
+    "login": "rehmatworks",
+    "name": "Rehmat Alam",
+    "type": "User",
+    "bio": "Rehmat Alam is a Python developer from Gilgit-Baltistan, Pakistan. He works on backend development, Unix servers, automation, and web applications.",
+    "location": "Pakistan",
+    "website": "https://rehmat.works",
+    "followers": 105,
+    "publicRepos": 56,
+    "createdAt": "2016-11-18T12:19:34Z",
+    "checkedAt": "2026-09-14T05:44:27.590Z",
+    "source": "https://github.com/rehmatworks"
   }
 }

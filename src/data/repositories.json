@@ -2528,5 +2528,15 @@
     "language": "Python",
     "checkedAt": "2026-09-14T04:44:40.972Z",
     "source": "https://github.com/alan-turing-institute/CleverCSV"
+  },
+  "rehmatworks-gplaydl": {
+    "createdAt": "2018-06-21T08:12:25Z",
+    "pushedAt": "2026-08-01T11:49:18Z",
+    "lastCommitAt": "2026-08-01T11:46:39Z",
+    "stars": 642,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-14T05:44:26.297Z",
+    "source": "https://github.com/rehmatworks/gplaydl"
   }
 }

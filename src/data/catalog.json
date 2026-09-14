@@ -4579,5 +4579,21 @@
     "example": "clevercsv detect ./imdb.csv",
     "website": "https://github.com/alan-turing-institute/CleverCSV",
     "docs": "https://github.com/alan-turing-institute/CleverCSV/blob/e80acaa5c324889416a5727ad9929d5b2f8bccb6/README.md"
+  },
+  {
+    "slug": "rehmatworks-gplaydl",
+    "name": "gplaydl",
+    "repo": "rehmatworks/gplaydl",
+    "category": "Files & documents",
+    "command": "gplaydl",
+    "useCase": "Command Line Google Play APK downloader. Download APK files to your PC directly from Google Play Store.",
+    "description": "Command Line Google Play APK downloader. Download APK files to your PC directly from Google Play Store.",
+    "agentUse": "Invoke gplaydl from a shell for the documented use case: Command Line Google Play APK downloader. Download APK files to your PC directly from Google Play Store.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "gplaydl link",
+    "website": "https://github.com/rehmatworks/gplaydl",
+    "docs": "https://github.com/rehmatworks/gplaydl/blob/7c3d87f20a5f61f6cfa7446683bb4c698bfa2396/readme.md"
   }
 ]
