@@ -4,165 +4,6 @@
   "brewOffset": 280,
   "pending": [
     {
-      "repo": "hukkin/mdformat"
-    },
-    {
-      "repo": "drowe67/codec2",
-      "formula": "codec2"
-    },
-    {
-      "repo": "projectdiscovery/uncover"
-    },
-    {
-      "repo": "coder/coder",
-      "formula": "coder"
-    },
-    {
-      "repo": "ovh/shai"
-    },
-    {
-      "repo": "agentclientprotocol/codex-acp",
-      "formula": "codex-acp"
-    },
-    {
-      "repo": "vulnersCom/getsploit"
-    },
-    {
-      "repo": "abiosoft/colima",
-      "formula": "colima"
-    },
-    {
-      "repo": "UfoMiao/zcf"
-    },
-    {
-      "repo": "colmap/colmap",
-      "formula": "colmap"
-    },
-    {
-      "repo": "apconw/Aix-DB"
-    },
-    {
-      "repo": "commitizen-tools/commitizen",
-      "formula": "commitizen"
-    },
-    {
-      "repo": "jackwener/OpenCLI"
-    },
-    {
-      "repo": "eyeblech/cinecli"
-    },
-    {
-      "repo": "nottelabs/reverse-api-engineer"
-    },
-    {
-      "repo": "yt-dlp/yt-dlp"
-    },
-    {
-      "repo": "Benexl/yt-x"
-    },
-    {
-      "repo": "rest-sh/restish"
-    },
-    {
-      "repo": "yusukebe/gh-markdown-preview"
-    },
-    {
-      "repo": "seachicken/gh-poi"
-    },
-    {
-      "repo": "privatenumber/tsx"
-    },
-    {
-      "repo": "noborus/trdsql"
-    },
-    {
-      "repo": "j178/chatgpt"
-    },
-    {
-      "repo": "quantumsheep/sshs"
-    },
-    {
-      "repo": "google/clasp"
-    },
-    {
-      "repo": "cacjs/cac"
-    },
-    {
-      "repo": "warpdotdev/themes"
-    },
-    {
-      "repo": "yashlamba/handwrite"
-    },
-    {
-      "repo": "sammy-ette/Hilbish"
-    },
-    {
-      "repo": "simeg/eureka"
-    },
-    {
-      "repo": "unjs/std-env"
-    },
-    {
-      "repo": "saulpw/visidata"
-    },
-    {
-      "repo": "PyCQA/isort"
-    },
-    {
-      "repo": "svg/svgo"
-    },
-    {
-      "repo": "Albert-Weasker/niubi_guard"
-    },
-    {
-      "repo": "wp-cli/php-cli-tools"
-    },
-    {
-      "repo": "Icinga/icingaweb2"
-    },
-    {
-      "repo": "amanusk/s-tui"
-    },
-    {
-      "repo": "neur0map/glazepkg"
-    },
-    {
-      "repo": "antonmedv/fx"
-    },
-    {
-      "repo": "MacPaw/cleanmymac-cli"
-    },
-    {
-      "repo": "Everduin94/better-commits"
-    },
-    {
-      "repo": "xwmx/nb"
-    },
-    {
-      "repo": "avencera/rustywind"
-    },
-    {
-      "repo": "codesenberg/bombardier"
-    },
-    {
-      "repo": "lightonai/next-plaid"
-    },
-    {
-      "repo": "Drovosek01/adobe-packager"
-    },
-    {
-      "repo": "natecraddock/zf"
-    },
-    {
-      "repo": "carvel-dev/kapp"
-    },
-    {
-      "repo": "ComposeGears/Valkyrie"
-    },
-    {
-      "repo": "Anil-matcha/awesome-dsh-plugin"
-    },
-    {
       "repo": "carvel-dev/ytt"
     },
     {
@@ -9130,7 +8971,207 @@
       "status": "held",
       "checkedAt": "2026-09-14T22:44:18.530Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "hukkin/mdformat": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "drowe67/codec2": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "projectdiscovery/uncover": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "coder/coder": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ovh/shai": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "agentclientprotocol/codex-acp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vulnerscom/getsploit": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "abiosoft/colima": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ufomiao/zcf": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "colmap/colmap": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apconw/aix-db": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "commitizen-tools/commitizen": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nottelabs/reverse-api-engineer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "benexl/yt-x": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "rest-sh/restish": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "yusukebe/gh-markdown-preview": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "seachicken/gh-poi": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "privatenumber/tsx": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "noborus/trdsql": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "j178/chatgpt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "quantumsheep/sshs": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "warpdotdev/themes": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "yashlamba/handwrite": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "unjs/std-env": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "saulpw/visidata": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pycqa/isort": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "svg/svgo": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "albert-weasker/niubi_guard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "icinga/icingaweb2": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "amanusk/s-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "neur0map/glazepkg": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "everduin94/better-commits": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "avencera/rustywind": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "codesenberg/bombardier": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lightonai/next-plaid": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "drovosek01/adobe-packager": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "natecraddock/zf": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "carvel-dev/kapp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "composegears/valkyrie": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "anil-matcha/awesome-dsh-plugin": {
+      "status": "held",
+      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-14T22:44:18.530Z"
+  "lastRunAt": "2026-09-14T23:44:21.493Z"
 }
