@@ -4611,5 +4611,37 @@
     "example": "surf go \"https://example.com\"",
     "website": "https://github.com/nicobailon/surf-cli",
     "docs": "https://github.com/nicobailon/surf-cli/blob/56faa5aec29763de0866e212e5e1fb39a9dd1d79/README.md"
+  },
+  {
+    "slug": "mklement0-fileicon",
+    "name": "fileicon",
+    "repo": "mklement0/fileicon",
+    "category": "Files & documents",
+    "command": "fileicon",
+    "useCase": "macOS CLI for managing custom icons for files and folders",
+    "description": "macOS CLI for managing custom icons for files and folders",
+    "agentUse": "Invoke fileicon from a shell for the documented use case: macOS CLI for managing custom icons for files and folders",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "fileicon set foo img.png",
+    "website": "https://github.com/mklement0/fileicon",
+    "docs": "https://github.com/mklement0/fileicon/blob/361ef41e18fa975a396fb5a8316e78d97a0ee081/README.md"
+  },
+  {
+    "slug": "ruyadorno-ntl",
+    "name": "ntl",
+    "repo": "ruyadorno/ntl",
+    "category": "Data & APIs",
+    "command": "ntl",
+    "useCase": "Node Task List: Interactive cli to list and run package.json scripts",
+    "description": "Node Task List: Interactive cli to list and run package.json scripts",
+    "agentUse": "Invoke ntl from a shell for the documented use case: Node Task List: Interactive cli to list and run package.json scripts",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "ntl ./my-node-project",
+    "website": "https://github.com/ruyadorno/ntl",
+    "docs": "https://github.com/ruyadorno/ntl/blob/7f4126c3a2f6cc77fc36c6e3a93af14122ce22df/README.md"
   }
 ]

@@ -2548,5 +2548,25 @@
     "language": "TypeScript",
     "checkedAt": "2026-09-14T06:44:48.015Z",
     "source": "https://github.com/nicobailon/surf-cli"
+  },
+  "mklement0-fileicon": {
+    "createdAt": "2015-08-03T20:19:01Z",
+    "pushedAt": "2026-09-10T11:08:14Z",
+    "lastCommitAt": "2026-09-10T11:08:07Z",
+    "stars": 535,
+    "license": null,
+    "language": "Shell",
+    "checkedAt": "2026-09-14T07:44:33.862Z",
+    "source": "https://github.com/mklement0/fileicon"
+  },
+  "ruyadorno-ntl": {
+    "createdAt": "2016-02-08T06:15:25Z",
+    "pushedAt": "2024-05-23T13:18:51Z",
+    "lastCommitAt": "2020-07-31T04:51:46Z",
+    "stars": 962,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-14T07:44:34.518Z",
+    "source": "https://github.com/ruyadorno/ntl"
   }
 }

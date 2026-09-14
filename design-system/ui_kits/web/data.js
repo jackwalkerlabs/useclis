@@ -5378,6 +5378,44 @@ window.USECLIS_DATA = {
       "stars": 615,
       "license": "MIT",
       "checkedAt": "2026-09-14T06:44:48.015Z"
+    },
+    {
+      "slug": "mklement0-fileicon",
+      "name": "fileicon",
+      "repo": "mklement0/fileicon",
+      "category": "Files & documents",
+      "command": "fileicon",
+      "useCase": "macOS CLI for managing custom icons for files and folders",
+      "description": "macOS CLI for managing custom icons for files and folders",
+      "agentUse": "Invoke fileicon from a shell for the documented use case: macOS CLI for managing custom icons for files and folders",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fileicon set foo img.png",
+      "website": "https://github.com/mklement0/fileicon",
+      "docs": "https://github.com/mklement0/fileicon/blob/361ef41e18fa975a396fb5a8316e78d97a0ee081/README.md",
+      "stars": 535,
+      "license": null,
+      "checkedAt": "2026-09-14T07:44:33.862Z"
+    },
+    {
+      "slug": "ruyadorno-ntl",
+      "name": "ntl",
+      "repo": "ruyadorno/ntl",
+      "category": "Data & APIs",
+      "command": "ntl",
+      "useCase": "Node Task List: Interactive cli to list and run package.json scripts",
+      "description": "Node Task List: Interactive cli to list and run package.json scripts",
+      "agentUse": "Invoke ntl from a shell for the documented use case: Node Task List: Interactive cli to list and run package.json scripts",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ntl ./my-node-project",
+      "website": "https://github.com/ruyadorno/ntl",
+      "docs": "https://github.com/ruyadorno/ntl/blob/7f4126c3a2f6cc77fc36c6e3a93af14122ce22df/README.md",
+      "stars": 962,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T07:44:34.518Z"
     }
   ],
   "categories": [

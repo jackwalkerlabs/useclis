@@ -4,141 +4,6 @@
   "brewOffset": 160,
   "pending": [
     {
-      "repo": "dundee/gdu"
-    },
-    {
-      "repo": "numtide/treefmt"
-    },
-    {
-      "repo": "yoanbernabeu/grepai"
-    },
-    {
-      "repo": "mangiucugna/json_repair"
-    },
-    {
-      "repo": "mklement0/fileicon"
-    },
-    {
-      "repo": "orf/gping"
-    },
-    {
-      "repo": "lance0/ttl"
-    },
-    {
-      "repo": "frain-dev/convoy"
-    },
-    {
-      "repo": "pgplex/pgschema"
-    },
-    {
-      "repo": "AstraeLabs/VibraVid"
-    },
-    {
-      "repo": "phlx0/drift"
-    },
-    {
-      "repo": "sparklabx/drawio-ai-kit"
-    },
-    {
-      "repo": "SecureAuthCorp/oauth2c"
-    },
-    {
-      "repo": "MicrosoftDocs/mcp"
-    },
-    {
-      "repo": "SBoudrias/Inquirer.js"
-    },
-    {
-      "repo": "prettier/prettier-eslint-cli"
-    },
-    {
-      "repo": "anmol098/npx_card"
-    },
-    {
-      "repo": "hatoo/oha"
-    },
-    {
-      "repo": "ix-infrastructure/Ix"
-    },
-    {
-      "repo": "mikefarah/yq"
-    },
-    {
-      "repo": "vltpkg/vltpkg"
-    },
-    {
-      "repo": "DataDog/pup"
-    },
-    {
-      "repo": "manifoldco/promptui"
-    },
-    {
-      "repo": "davydany/sultan"
-    },
-    {
-      "repo": "lmammino/jwt-cracker"
-    },
-    {
-      "repo": "MarketingPipeline/Termino.js"
-    },
-    {
-      "repo": "bcicen/ctop"
-    },
-    {
-      "repo": "hugapi/hug"
-    },
-    {
-      "repo": "BrainMaestro/composer-git-hooks"
-    },
-    {
-      "repo": "enquirer/enquirer"
-    },
-    {
-      "repo": "vercel/micro-dev"
-    },
-    {
-      "repo": "JohnSundell/ShellOut"
-    },
-    {
-      "repo": "muellan/clipp"
-    },
-    {
-      "repo": "ogham/dog"
-    },
-    {
-      "repo": "morgant/tools-osx"
-    },
-    {
-      "repo": "ruyadorno/ntl"
-    },
-    {
-      "repo": "solidiquis/erdtree"
-    },
-    {
-      "repo": "lptstr/winfetch"
-    },
-    {
-      "repo": "TheZoraiz/ascii-image-converter"
-    },
-    {
-      "repo": "bellingcat/instagram-location-search"
-    },
-    {
-      "repo": "d0c-s4vage/lookatme"
-    },
-    {
-      "repo": "peci1/nvidia-htop"
-    },
-    {
-      "repo": "cdown/srt"
-    },
-    {
-      "repo": "zonemeen/musicn"
-    },
-    {
-      "repo": "lemnos/theme.sh"
-    },
-    {
       "repo": "lukeed/mri"
     },
     {
@@ -5816,7 +5681,261 @@
       "status": "held",
       "checkedAt": "2026-09-14T06:44:23.175Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "dundee/gdu": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "numtide/treefmt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yoanbernabeu/grepai": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mangiucugna/json_repair": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mklement0/fileicon": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "GitHub stars",
+      "slug": "mklement0-fileicon",
+      "acceptedAt": "2026-09-14T07:44:19.259Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mklement0/fileicon/blob/361ef41e18fa975a396fb5a8316e78d97a0ee081/package.json",
+          "snippet": "{\"bin\":{\"fileicon\":\"bin/fileicon\"}}",
+          "target": "bin/fileicon"
+        },
+        "installation": {
+          "url": "https://github.com/mklement0/fileicon/blob/361ef41e18fa975a396fb5a8316e78d97a0ee081/README.md",
+          "snippet": "[sudo] npm install fileicon -g"
+        },
+        "usage": {
+          "url": "https://github.com/mklement0/fileicon/blob/361ef41e18fa975a396fb5a8316e78d97a0ee081/README.md",
+          "snippet": "fileicon set foo img.png"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mklement0/fileicon",
+          "snippet": "macOS CLI for managing custom icons for files and folders"
+        },
+        "adoption": {
+          "stars": 535,
+          "githubSource": "https://github.com/mklement0/fileicon",
+          "homebrew": null
+        },
+        "commit": "361ef41e18fa975a396fb5a8316e78d97a0ee081"
+      }
+    },
+    "orf/gping": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lance0/ttl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "frain-dev/convoy": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pgplex/pgschema": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "astraelabs/vibravid": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "phlx0/drift": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sparklabx/drawio-ai-kit": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "secureauthcorp/oauth2c": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "microsoftdocs/mcp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "prettier/prettier-eslint-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "anmol098/npx_card": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ix-infrastructure/ix": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "manifoldco/promptui": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "davydany/sultan": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lmammino/jwt-cracker": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "marketingpipeline/termino.js": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bcicen/ctop": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hugapi/hug": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "brainmaestro/composer-git-hooks": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "enquirer/enquirer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vercel/micro-dev": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "johnsundell/shellout": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "muellan/clipp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ogham/dog": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "morgant/tools-osx": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ruyadorno/ntl": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "GitHub stars",
+      "slug": "ruyadorno-ntl",
+      "acceptedAt": "2026-09-14T07:44:19.259Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ruyadorno/ntl/blob/7f4126c3a2f6cc77fc36c6e3a93af14122ce22df/package.json",
+          "snippet": "{\"bin\":{\"ntl\":\"cli.js\"}}",
+          "target": "cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/ruyadorno/ntl/blob/7f4126c3a2f6cc77fc36c6e3a93af14122ce22df/README.md",
+          "snippet": "$ npm install -g ntl"
+        },
+        "usage": {
+          "url": "https://github.com/ruyadorno/ntl/blob/7f4126c3a2f6cc77fc36c6e3a93af14122ce22df/README.md",
+          "snippet": "ntl ./my-node-project"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ruyadorno/ntl",
+          "snippet": "Node Task List: Interactive cli to list and run package.json scripts"
+        },
+        "adoption": {
+          "stars": 962,
+          "githubSource": "https://github.com/ruyadorno/ntl",
+          "homebrew": null
+        },
+        "commit": "7f4126c3a2f6cc77fc36c6e3a93af14122ce22df"
+      }
+    },
+    "solidiquis/erdtree": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lptstr/winfetch": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "thezoraiz/ascii-image-converter": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bellingcat/instagram-location-search": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "d0c-s4vage/lookatme": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "peci1/nvidia-htop": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cdown/srt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zonemeen/musicn": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lemnos/theme.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T07:44:19.259Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T06:44:23.175Z"
+  "lastRunAt": "2026-09-14T07:44:19.259Z"
 }
