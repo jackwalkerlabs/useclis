@@ -5758,6 +5758,44 @@ window.USECLIS_DATA = {
       "stars": 1487,
       "license": "MIT",
       "checkedAt": "2026-09-14T17:44:52.122Z"
+    },
+    {
+      "slug": "afar1-fieldtheory-cli",
+      "name": "fieldtheory-cli",
+      "repo": "afar1/fieldtheory-cli",
+      "category": "Agents & models",
+      "command": "ft",
+      "useCase": "Field Theory CLI for bookmarks, Library, commands, and agent workflows",
+      "description": "Field Theory CLI for bookmarks, Library, commands, and agent workflows",
+      "agentUse": "Invoke ft from a shell for the documented use case: Field Theory CLI for bookmarks, Library, commands, and agent workflows",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ft sync",
+      "website": "https://github.com/afar1/fieldtheory-cli",
+      "docs": "https://github.com/afar1/fieldtheory-cli/blob/542c1167c127a788940731a2ef60493f0f522533/README.md",
+      "stars": 2021,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T18:44:40.484Z"
+    },
+    {
+      "slug": "rbardini-resumed",
+      "name": "resumed",
+      "repo": "rbardini/resumed",
+      "category": "Data & APIs",
+      "command": "resumed",
+      "useCase": "👔 Lightweight JSON Resume builder, no-frills alternative to resume-cli",
+      "description": "👔 Lightweight JSON Resume builder, no-frills alternative to resume-cli",
+      "agentUse": "Invoke resumed from a shell for the documented use case: 👔 Lightweight JSON Resume builder, no-frills alternative to resume-cli",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "resumed render --help",
+      "website": "https://github.com/rbardini/resumed",
+      "docs": "https://github.com/rbardini/resumed/blob/18d31f04c52f02dd9518b5cf743b4f84e6d75075/README.md",
+      "stars": 549,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T18:44:41.126Z"
     }
   ],
   "categories": [

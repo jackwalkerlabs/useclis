@@ -3105,5 +3105,31 @@
     "createdAt": "2013-03-05T16:02:31Z",
     "checkedAt": "2026-09-14T17:44:55.231Z",
     "source": "https://github.com/bgreenwell"
+  },
+  "afar1": {
+    "login": "afar1",
+    "name": "Andrew Farah",
+    "type": "User",
+    "bio": "density.io,\r\n\r\nfieldtheory.dev,\r\n\r\nonboard.computer",
+    "location": null,
+    "website": null,
+    "followers": 58,
+    "publicRepos": 9,
+    "createdAt": "2023-05-27T16:38:47Z",
+    "checkedAt": "2026-09-14T18:44:42.842Z",
+    "source": "https://github.com/afar1"
+  },
+  "rbardini": {
+    "login": "rbardini",
+    "name": "Rafael Bardini",
+    "type": "User",
+    "bio": null,
+    "location": "Amsterdam",
+    "website": "https://rbardini.com",
+    "followers": 139,
+    "publicRepos": 29,
+    "createdAt": "2011-06-24T22:26:46Z",
+    "checkedAt": "2026-09-14T18:44:43.186Z",
+    "source": "https://github.com/rbardini"
   }
 }

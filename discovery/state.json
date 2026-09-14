@@ -4,174 +4,6 @@
   "brewOffset": 240,
   "pending": [
     {
-      "repo": "ewels/rich-click"
-    },
-    {
-      "repo": "gookit/color"
-    },
-    {
-      "repo": "projectdiscovery/cloudlist"
-    },
-    {
-      "repo": "kwakseongjae/oh-my-design"
-    },
-    {
-      "repo": "1jehuang/mermaid-rs-renderer"
-    },
-    {
-      "repo": "brandonyoungdev/tldx"
-    },
-    {
-      "repo": "hartwork/git-delete-merged-branches"
-    },
-    {
-      "repo": "charmbracelet/glamour"
-    },
-    {
-      "repo": "pavdmyt/yaspin"
-    },
-    {
-      "repo": "XAMPPRocky/tokei"
-    },
-    {
-      "repo": "privatenumber/tasuku"
-    },
-    {
-      "repo": "RoggeOhta/awesome-codex-cli"
-    },
-    {
-      "repo": "devspace-sh/devspace"
-    },
-    {
-      "repo": "todotxt/todo.txt-cli"
-    },
-    {
-      "repo": "iannuttall/seo"
-    },
-    {
-      "repo": "lindell/multi-gitter"
-    },
-    {
-      "repo": "showwin/speedtest-go"
-    },
-    {
-      "repo": "beyondgrep/ack3"
-    },
-    {
-      "repo": "charmbracelet/bubbles"
-    },
-    {
-      "repo": "rasterio/rasterio"
-    },
-    {
-      "repo": "kiryano/Scout"
-    },
-    {
-      "repo": "PHPCSStandards/PHP_CodeSniffer"
-    },
-    {
-      "repo": "schpet/linear-cli"
-    },
-    {
-      "repo": "googleworkspace/cli"
-    },
-    {
-      "repo": "sveltejs/cli"
-    },
-    {
-      "repo": "prettier/pretty-quick"
-    },
-    {
-      "repo": "afar1/fieldtheory-cli"
-    },
-    {
-      "repo": "jarun/bcal"
-    },
-    {
-      "repo": "zhiburt/tabled"
-    },
-    {
-      "repo": "next-hat/nanocl"
-    },
-    {
-      "repo": "buyukakyuz/install-nothing"
-    },
-    {
-      "repo": "ducaale/xh"
-    },
-    {
-      "repo": "amalshaji/portr"
-    },
-    {
-      "repo": "jhspetersson/fselect"
-    },
-    {
-      "repo": "jreleaser/jreleaser"
-    },
-    {
-      "repo": "fiso64/sockseek"
-    },
-    {
-      "repo": "mergestat/mergestat-lite"
-    },
-    {
-      "repo": "usagi-flow/evil-helix"
-    },
-    {
-      "repo": "postcss/postcss-cli"
-    },
-    {
-      "repo": "sharkdp/bat"
-    },
-    {
-      "repo": "apideck-libraries/portman"
-    },
-    {
-      "repo": "openfaas/faas-cli"
-    },
-    {
-      "repo": "petergyang/human-review"
-    },
-    {
-      "repo": "flozz/rivalcfg"
-    },
-    {
-      "repo": "roninoss/create-expo-stack"
-    },
-    {
-      "repo": "pimutils/vdirsyncer"
-    },
-    {
-      "repo": "rbardini/resumed"
-    },
-    {
-      "repo": "dropbox/dbxcli"
-    },
-    {
-      "repo": "supreme-gg-gg/instagram-cli"
-    },
-    {
-      "repo": "asdf-vm/asdf"
-    },
-    {
-      "repo": "stoplightio/prism"
-    },
-    {
-      "repo": "alecthomas/kingpin"
-    },
-    {
-      "repo": "elirantutia/vibeyard"
-    },
-    {
-      "repo": "Illusionna/LocalTransfer"
-    },
-    {
-      "repo": "Urigo/graphql-cli"
-    },
-    {
-      "repo": "pixop/video-compare"
-    },
-    {
       "repo": "l0ng-ai/papr"
     },
     {
@@ -8167,7 +7999,261 @@
       "status": "held",
       "checkedAt": "2026-09-14T17:44:24.786Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "ewels/rich-click": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "projectdiscovery/cloudlist": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kwakseongjae/oh-my-design": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "1jehuang/mermaid-rs-renderer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "brandonyoungdev/tldx": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "charmbracelet/glamour": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pavdmyt/yaspin": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "xampprocky/tokei": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "privatenumber/tasuku": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "roggeohta/awesome-codex-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "todotxt/todo.txt-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "iannuttall/seo": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lindell/multi-gitter": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "showwin/speedtest-go": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "charmbracelet/bubbles": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rasterio/rasterio": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kiryano/scout": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "phpcsstandards/php_codesniffer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sveltejs/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "prettier/pretty-quick": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "afar1/fieldtheory-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "GitHub stars",
+      "slug": "afar1-fieldtheory-cli",
+      "acceptedAt": "2026-09-14T18:44:21.153Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/afar1/fieldtheory-cli/blob/542c1167c127a788940731a2ef60493f0f522533/package.json",
+          "snippet": "{\"bin\":{\"ft\":\"bin/ft.mjs\"}}",
+          "target": "bin/ft.mjs"
+        },
+        "installation": {
+          "url": "https://github.com/afar1/fieldtheory-cli/blob/542c1167c127a788940731a2ef60493f0f522533/README.md",
+          "snippet": "npm install -g fieldtheory"
+        },
+        "usage": {
+          "url": "https://github.com/afar1/fieldtheory-cli/blob/542c1167c127a788940731a2ef60493f0f522533/README.md",
+          "snippet": "ft sync"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/afar1/fieldtheory-cli",
+          "snippet": "Field Theory CLI for bookmarks, Library, commands, and agent workflows"
+        },
+        "adoption": {
+          "stars": 2021,
+          "githubSource": "https://github.com/afar1/fieldtheory-cli",
+          "homebrew": null
+        },
+        "commit": "542c1167c127a788940731a2ef60493f0f522533"
+      }
+    },
+    "zhiburt/tabled": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "next-hat/nanocl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "buyukakyuz/install-nothing": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ducaale/xh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "amalshaji/portr": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jreleaser/jreleaser": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fiso64/sockseek": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "postcss/postcss-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "apideck-libraries/portman": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openfaas/faas-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "petergyang/human-review": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "flozz/rivalcfg": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "roninoss/create-expo-stack": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rbardini/resumed": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "GitHub stars",
+      "slug": "rbardini-resumed",
+      "acceptedAt": "2026-09-14T18:44:21.153Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/rbardini/resumed/blob/18d31f04c52f02dd9518b5cf743b4f84e6d75075/package.json",
+          "snippet": "{\"bin\":{\"resumed\":\"./bin/resumed.js\"}}",
+          "target": "bin/resumed.js"
+        },
+        "installation": {
+          "url": "https://github.com/rbardini/resumed/blob/18d31f04c52f02dd9518b5cf743b4f84e6d75075/README.md",
+          "snippet": "npm install resumed jsonresume-theme-even # or your theme of choice"
+        },
+        "usage": {
+          "url": "https://github.com/rbardini/resumed/blob/18d31f04c52f02dd9518b5cf743b4f84e6d75075/README.md",
+          "snippet": "resumed render --help"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/rbardini/resumed",
+          "snippet": "👔 Lightweight JSON Resume builder, no-frills alternative to resume-cli"
+        },
+        "adoption": {
+          "stars": 549,
+          "githubSource": "https://github.com/rbardini/resumed",
+          "homebrew": null
+        },
+        "commit": "18d31f04c52f02dd9518b5cf743b4f84e6d75075"
+      }
+    },
+    "supreme-gg-gg/instagram-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "stoplightio/prism": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "elirantutia/vibeyard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "illusionna/localtransfer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pixop/video-compare": {
+      "status": "held",
+      "checkedAt": "2026-09-14T18:44:21.153Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-14T17:44:24.786Z"
+  "lastRunAt": "2026-09-14T18:44:21.153Z"
 }

@@ -4931,5 +4931,37 @@
     "example": "xleak quarterly-report.xlsx -i",
     "website": "https://github.com/bgreenwell/xleak",
     "docs": "https://github.com/bgreenwell/xleak/blob/ef6560c8e16815e2e74acf3973c0a5958a2c6523/README.md"
+  },
+  {
+    "slug": "afar1-fieldtheory-cli",
+    "name": "fieldtheory-cli",
+    "repo": "afar1/fieldtheory-cli",
+    "category": "Agents & models",
+    "command": "ft",
+    "useCase": "Field Theory CLI for bookmarks, Library, commands, and agent workflows",
+    "description": "Field Theory CLI for bookmarks, Library, commands, and agent workflows",
+    "agentUse": "Invoke ft from a shell for the documented use case: Field Theory CLI for bookmarks, Library, commands, and agent workflows",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "ft sync",
+    "website": "https://github.com/afar1/fieldtheory-cli",
+    "docs": "https://github.com/afar1/fieldtheory-cli/blob/542c1167c127a788940731a2ef60493f0f522533/README.md"
+  },
+  {
+    "slug": "rbardini-resumed",
+    "name": "resumed",
+    "repo": "rbardini/resumed",
+    "category": "Data & APIs",
+    "command": "resumed",
+    "useCase": "👔 Lightweight JSON Resume builder, no-frills alternative to resume-cli",
+    "description": "👔 Lightweight JSON Resume builder, no-frills alternative to resume-cli",
+    "agentUse": "Invoke resumed from a shell for the documented use case: 👔 Lightweight JSON Resume builder, no-frills alternative to resume-cli",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "resumed render --help",
+    "website": "https://github.com/rbardini/resumed",
+    "docs": "https://github.com/rbardini/resumed/blob/18d31f04c52f02dd9518b5cf743b4f84e6d75075/README.md"
   }
 ]
