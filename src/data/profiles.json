@@ -2767,5 +2767,18 @@
     "createdAt": "2011-08-26T16:16:07Z",
     "checkedAt": "2026-09-14T01:44:35.613Z",
     "source": "https://github.com/nikolassv"
+  },
+  "cabal-club": {
+    "login": "cabal-club",
+    "name": "cabal",
+    "type": "Organization",
+    "bio": "decentralized local-first peer-to-peer group chat (like IRC/Slack) ",
+    "location": "npm i -g cabal",
+    "website": "https://cabal.codeberg.page",
+    "followers": 162,
+    "publicRepos": 31,
+    "createdAt": "2018-05-16T11:08:24Z",
+    "checkedAt": "2026-09-14T03:44:40.706Z",
+    "source": "https://github.com/cabal-club"
   }
 }

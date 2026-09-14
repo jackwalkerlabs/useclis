@@ -2478,5 +2478,15 @@
     "language": "Rust",
     "checkedAt": "2026-09-14T01:44:33.757Z",
     "source": "https://github.com/nikolassv/bartib"
+  },
+  "cabal-club-cabal-cli": {
+    "createdAt": "2018-05-19T15:46:12Z",
+    "pushedAt": "2024-09-22T21:55:07Z",
+    "lastCommitAt": "2024-09-01T23:59:12Z",
+    "stars": 525,
+    "license": null,
+    "language": "JavaScript",
+    "checkedAt": "2026-09-14T03:44:39.169Z",
+    "source": "https://github.com/cabal-club/cabal-cli"
   }
 }

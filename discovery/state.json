@@ -4,183 +4,6 @@
   "brewOffset": 120,
   "pending": [
     {
-      "repo": "kharvd/gpt-cli"
-    },
-    {
-      "repo": "ConEmu/ConEmu"
-    },
-    {
-      "repo": "gsquire/topngx"
-    },
-    {
-      "repo": "piqnt/svgexport"
-    },
-    {
-      "repo": "ajeetdsouza/clidle"
-    },
-    {
-      "repo": "Macchina-CLI/macchina"
-    },
-    {
-      "repo": "alichtman/stronghold"
-    },
-    {
-      "repo": "efugier/smartcat"
-    },
-    {
-      "repo": "benibela/xidel"
-    },
-    {
-      "repo": "hnarayanan/shpotify"
-    },
-    {
-      "repo": "balta2ar/brotab"
-    },
-    {
-      "repo": "adishavit/argh"
-    },
-    {
-      "repo": "ad4mx/spinoff"
-    },
-    {
-      "repo": "achillesrasquinha/pipupgrade"
-    },
-    {
-      "repo": "ruyadorno/ipt"
-    },
-    {
-      "repo": "trakBan/spongebob-cli"
-    },
-    {
-      "repo": "sharkdp/shell-functools"
-    },
-    {
-      "repo": "trimstray/sandmap"
-    },
-    {
-      "repo": "sindresorhus/figures"
-    },
-    {
-      "repo": "p-ranav/structopt"
-    },
-    {
-      "repo": "lukeed/sade"
-    },
-    {
-      "repo": "ogham/exa"
-    },
-    {
-      "repo": "cabal-club/cabal-cli"
-    },
-    {
-      "repo": "ibraheemdev/modern-unix"
-    },
-    {
-      "repo": "faressoft/terminalizer"
-    },
-    {
-      "repo": "hedyhli/starcli"
-    },
-    {
-      "repo": "NaiboWang/CommandlineConfig"
-    },
-    {
-      "repo": "kyclark/command-line-rust"
-    },
-    {
-      "repo": "JEG2/highline"
-    },
-    {
-      "repo": "cutechess/cutechess"
-    },
-    {
-      "repo": "Tyrrrz/CliFx"
-    },
-    {
-      "repo": "Tyrrrz/CliWrap"
-    },
-    {
-      "repo": "abey79/vpype"
-    },
-    {
-      "repo": "cognidox/OfficeToPDF"
-    },
-    {
-      "repo": "kardolus/chatgpt-cli"
-    },
-    {
-      "repo": "fortio/fortio"
-    },
-    {
-      "repo": "hyperjumptech/monika"
-    },
-    {
-      "repo": "jkfran/killport"
-    },
-    {
-      "repo": "ad-si/Transity"
-    },
-    {
-      "repo": "mr-karan/doggo"
-    },
-    {
-      "repo": "charmbracelet/soft-serve"
-    },
-    {
-      "repo": "tj/commander.js"
-    },
-    {
-      "repo": "jqlang/jq"
-    },
-    {
-      "repo": "eafer/rdrview"
-    },
-    {
-      "repo": "intoolswetrust/jd-cli"
-    },
-    {
-      "repo": "Hejsil/zig-clap"
-    },
-    {
-      "repo": "mas-cli/mas"
-    },
-    {
-      "repo": "macports/macports-base"
-    },
-    {
-      "repo": "liljencrantz/crush"
-    },
-    {
-      "repo": "ajalt/mordant"
-    },
-    {
-      "repo": "eyeblech/cinecli"
-    },
-    {
-      "repo": "exercism/cli"
-    },
-    {
-      "repo": "yt-dlp/yt-dlp"
-    },
-    {
-      "repo": "ascii-boxes/boxes"
-    },
-    {
-      "repo": "julienXX/terminal-notifier"
-    },
-    {
-      "repo": "jpmml/jpmml-sklearn"
-    },
-    {
-      "repo": "moul/http2curl"
-    },
-    {
-      "repo": "sveinbjornt/hear"
-    },
-    {
-      "repo": "ayoisaiah/f2"
-    },
-    {
       "repo": "c-blake/cligen"
     },
     {
@@ -4767,7 +4590,234 @@
       "status": "held",
       "checkedAt": "2026-09-14T02:44:19.106Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kharvd/gpt-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "conemu/conemu": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gsquire/topngx": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "piqnt/svgexport": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ajeetdsouza/clidle": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "macchina-cli/macchina": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "alichtman/stronghold": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "efugier/smartcat": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "benibela/xidel": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hnarayanan/shpotify": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "balta2ar/brotab": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "adishavit/argh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ad4mx/spinoff": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "achillesrasquinha/pipupgrade": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ruyadorno/ipt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "trakban/spongebob-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sharkdp/shell-functools": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "trimstray/sandmap": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sindresorhus/figures": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "p-ranav/structopt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lukeed/sade": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ogham/exa": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cabal-club/cabal-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "GitHub stars",
+      "slug": "cabal-club-cabal-cli",
+      "acceptedAt": "2026-09-14T03:44:21.644Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/cabal-club/cabal-cli/blob/d310fadd1209983f438e5a6b7f93b507c503781e/package.json",
+          "snippet": "{\"bin\":{\"cabal\":\"cli.js\"}}",
+          "target": "cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/cabal-club/cabal-cli/blob/d310fadd1209983f438e5a6b7f93b507c503781e/README.md",
+          "snippet": "$ npm install --global cabal"
+        },
+        "usage": {
+          "url": "https://github.com/cabal-club/cabal-cli/blob/d310fadd1209983f438e5a6b7f93b507c503781e/README.md",
+          "snippet": "cabal --new"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/cabal-club/cabal-cli",
+          "snippet": "Terminal client for Cabal, the p2p chat platform."
+        },
+        "adoption": {
+          "stars": 525,
+          "githubSource": "https://github.com/cabal-club/cabal-cli",
+          "homebrew": null
+        },
+        "commit": "d310fadd1209983f438e5a6b7f93b507c503781e"
+      }
+    },
+    "ibraheemdev/modern-unix": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "faressoft/terminalizer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "hedyhli/starcli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "naibowang/commandlineconfig": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kyclark/command-line-rust": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "charmbracelet/soft-serve": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tj/commander.js": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "eafer/rdrview": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "intoolswetrust/jd-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mas-cli/mas": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "liljencrantz/crush": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ajalt/mordant": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "eyeblech/cinecli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "exercism/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jpmml/jpmml-sklearn": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "moul/http2curl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ayoisaiah/f2": {
+      "status": "held",
+      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-14T02:44:19.106Z"
+  "lastRunAt": "2026-09-14T03:44:21.644Z"
 }

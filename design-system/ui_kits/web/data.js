@@ -5245,6 +5245,25 @@ window.USECLIS_DATA = {
       "stars": 847,
       "license": "GPL-3.0",
       "checkedAt": "2026-09-14T01:44:33.757Z"
+    },
+    {
+      "slug": "cabal-club-cabal-cli",
+      "name": "cabal-cli",
+      "repo": "cabal-club/cabal-cli",
+      "category": "Productivity & communication",
+      "command": "cabal",
+      "useCase": "Terminal client for Cabal, the p2p chat platform.",
+      "description": "Terminal client for Cabal, the p2p chat platform.",
+      "agentUse": "Invoke cabal from a shell for the documented use case: Terminal client for Cabal, the p2p chat platform.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "cabal --new",
+      "website": "https://github.com/cabal-club/cabal-cli",
+      "docs": "https://github.com/cabal-club/cabal-cli/blob/d310fadd1209983f438e5a6b7f93b507c503781e/README.md",
+      "stars": 525,
+      "license": null,
+      "checkedAt": "2026-09-14T03:44:39.169Z"
     }
   ],
   "categories": [

@@ -4499,5 +4499,21 @@
     "example": "bartib -f /home/username/activities.bartib report",
     "website": "https://github.com/nikolassv/bartib",
     "docs": "https://github.com/nikolassv/bartib/blob/6b39bc0afb27a4143439604615e645e3050f7d06/README.md"
+  },
+  {
+    "slug": "cabal-club-cabal-cli",
+    "name": "cabal-cli",
+    "repo": "cabal-club/cabal-cli",
+    "category": "Productivity & communication",
+    "command": "cabal",
+    "useCase": "Terminal client for Cabal, the p2p chat platform.",
+    "description": "Terminal client for Cabal, the p2p chat platform.",
+    "agentUse": "Invoke cabal from a shell for the documented use case: Terminal client for Cabal, the p2p chat platform.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "cabal --new",
+    "website": "https://github.com/cabal-club/cabal-cli",
+    "docs": "https://github.com/cabal-club/cabal-cli/blob/d310fadd1209983f438e5a6b7f93b507c503781e/README.md"
   }
 ]
