@@ -2768,5 +2768,15 @@
     "language": "TypeScript",
     "checkedAt": "2026-09-14T18:44:41.126Z",
     "source": "https://github.com/rbardini/resumed"
+  },
+  "danburzo-percollate": {
+    "createdAt": "2018-09-28T16:32:56Z",
+    "pushedAt": "2025-08-29T18:07:40Z",
+    "lastCommitAt": "2025-08-29T18:07:34Z",
+    "stars": 4676,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-14T19:44:38.346Z",
+    "source": "https://github.com/danburzo/percollate"
   }
 }

@@ -5796,6 +5796,25 @@ window.USECLIS_DATA = {
       "stars": 549,
       "license": "MIT",
       "checkedAt": "2026-09-14T18:44:41.126Z"
+    },
+    {
+      "slug": "danburzo-percollate",
+      "name": "percollate",
+      "repo": "danburzo/percollate",
+      "category": "Files & documents",
+      "command": "percollate",
+      "useCase": "A command-line tool to turn web pages into readable PDF, EPUB, HTML, or Markdown docs.",
+      "description": "A command-line tool to turn web pages into readable PDF, EPUB, HTML, or Markdown docs.",
+      "agentUse": "Invoke percollate from a shell for the documented use case: A command-line tool to turn web pages into readable PDF, EPUB, HTML, or Markdown docs.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "percollate pdf https://example.com -o my-example.pdf",
+      "website": "https://github.com/danburzo/percollate",
+      "docs": "https://github.com/danburzo/percollate/blob/09932540ae6df6178591a2e5531e1df70ff31c33/README.md",
+      "stars": 4676,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T19:44:38.346Z"
     }
   ],
   "categories": [

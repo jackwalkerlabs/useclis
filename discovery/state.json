@@ -4,153 +4,6 @@
   "brewOffset": 240,
   "pending": [
     {
-      "repo": "l0ng-ai/papr"
-    },
-    {
-      "repo": "z-shell/zi"
-    },
-    {
-      "repo": "fengshao1227/ccg-workflow"
-    },
-    {
-      "repo": "HemmeligOrg/Hemmelig.app"
-    },
-    {
-      "repo": "ykdojo/claude-code-tips"
-    },
-    {
-      "repo": "stormzhang/ai-coding-guide"
-    },
-    {
-      "repo": "Kuberwastaken/claurst"
-    },
-    {
-      "repo": "fastapi/fastapi-cli"
-    },
-    {
-      "repo": "taiki-e/cargo-hack"
-    },
-    {
-      "repo": "tanaikech/goodls"
-    },
-    {
-      "repo": "moul/quicssh"
-    },
-    {
-      "repo": "simonw/sqlite-utils"
-    },
-    {
-      "repo": "basak/glacier-cli"
-    },
-    {
-      "repo": "cofyc/argparse"
-    },
-    {
-      "repo": "inotify-tools/inotify-tools"
-    },
-    {
-      "repo": "codingo/Interlace"
-    },
-    {
-      "repo": "sindresorhus/dark-mode"
-    },
-    {
-      "repo": "nschloe/tiptop"
-    },
-    {
-      "repo": "prasmussen/chrome-cli"
-    },
-    {
-      "repo": "Gabriella439/bench"
-    },
-    {
-      "repo": "danburzo/percollate"
-    },
-    {
-      "repo": "alebcay/awesome-shell"
-    },
-    {
-      "repo": "andrey-pohilko/registry-cli"
-    },
-    {
-      "repo": "vet-run/vet"
-    },
-    {
-      "repo": "MScholtes/VirtualDesktop"
-    },
-    {
-      "repo": "tejas-raskar/noted.md"
-    },
-    {
-      "repo": "Xonshiz/comic-dl"
-    },
-    {
-      "repo": "wow-signal-dev/metadata-remote"
-    },
-    {
-      "repo": "codingmoh/open-codex"
-    },
-    {
-      "repo": "adamtornhill/code-maat"
-    },
-    {
-      "repo": "docopt/docopt"
-    },
-    {
-      "repo": "gnebbia/kb"
-    },
-    {
-      "repo": "wix/AppleSimulatorUtils"
-    },
-    {
-      "repo": "MehediH/Bulksplash"
-    },
-    {
-      "repo": "gulpjs/liftoff"
-    },
-    {
-      "repo": "Doriandarko/deepseek-engineer"
-    },
-    {
-      "repo": "pomdtr/sunbeam"
-    },
-    {
-      "repo": "mifi/editly"
-    },
-    {
-      "repo": "silenceper/gowatch"
-    },
-    {
-      "repo": "gitbito/CLI"
-    },
-    {
-      "repo": "lastpass/lastpass-cli"
-    },
-    {
-      "repo": "kharvd/gpt-cli"
-    },
-    {
-      "repo": "NUKnightLab/sql-mysteries"
-    },
-    {
-      "repo": "theketchio/ketch"
-    },
-    {
-      "repo": "texworld/betterbib"
-    },
-    {
-      "repo": "piqnt/svgexport"
-    },
-    {
-      "repo": "tyilo/insert_dylib"
-    },
-    {
-      "repo": "tom-doerr/zsh_codex"
-    },
-    {
-      "repo": "YiNNx/cmd-wrapped"
-    },
-    {
       "repo": "samg/timetrap"
     },
     {
@@ -8253,7 +8106,234 @@
       "status": "held",
       "checkedAt": "2026-09-14T18:44:21.153Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "l0ng-ai/papr": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "z-shell/zi": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fengshao1227/ccg-workflow": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hemmeligorg/hemmelig.app": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ykdojo/claude-code-tips": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "stormzhang/ai-coding-guide": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kuberwastaken/claurst": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "taiki-e/cargo-hack": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tanaikech/goodls": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "moul/quicssh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "basak/glacier-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "cofyc/argparse": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "inotify-tools/inotify-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "codingo/interlace": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sindresorhus/dark-mode": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nschloe/tiptop": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "prasmussen/chrome-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gabriella439/bench": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "danburzo/percollate": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "GitHub stars",
+      "slug": "danburzo-percollate",
+      "acceptedAt": "2026-09-14T19:44:19.656Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/danburzo/percollate/blob/09932540ae6df6178591a2e5531e1df70ff31c33/package.json",
+          "snippet": "{\"bin\":{\"percollate\":\"./cli.js\"}}",
+          "target": "cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/danburzo/percollate/blob/09932540ae6df6178591a2e5531e1df70ff31c33/README.md",
+          "snippet": "npm install -g percollate"
+        },
+        "usage": {
+          "url": "https://github.com/danburzo/percollate/blob/09932540ae6df6178591a2e5531e1df70ff31c33/README.md",
+          "snippet": "percollate pdf https://example.com -o my-example.pdf"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/danburzo/percollate",
+          "snippet": "A command-line tool to turn web pages into readable PDF, EPUB, HTML, or Markdown docs."
+        },
+        "adoption": {
+          "stars": 4676,
+          "githubSource": "https://github.com/danburzo/percollate",
+          "homebrew": null
+        },
+        "commit": "09932540ae6df6178591a2e5531e1df70ff31c33"
+      }
+    },
+    "alebcay/awesome-shell": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "andrey-pohilko/registry-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mscholtes/virtualdesktop": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tejas-raskar/noted.md": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "xonshiz/comic-dl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "wow-signal-dev/metadata-remote": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "codingmoh/open-codex": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "adamtornhill/code-maat": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "docopt/docopt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gnebbia/kb": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "wix/applesimulatorutils": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "doriandarko/deepseek-engineer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pomdtr/sunbeam": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "silenceper/gowatch": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lastpass/lastpass-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nuknightlab/sql-mysteries": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "theketchio/ketch": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "texworld/betterbib": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tyilo/insert_dylib": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tom-doerr/zsh_codex": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "yinnx/cmd-wrapped": {
+      "status": "held",
+      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T18:44:21.153Z"
+  "lastRunAt": "2026-09-14T19:44:19.656Z"
 }

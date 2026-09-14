@@ -3131,5 +3131,18 @@
     "createdAt": "2011-06-24T22:26:46Z",
     "checkedAt": "2026-09-14T18:44:43.186Z",
     "source": "https://github.com/rbardini"
+  },
+  "danburzo": {
+    "login": "danburzo",
+    "name": "Dan Burzo",
+    "type": "User",
+    "bio": "Designer, tool maker, web platform enthusiast, amateur archivist.",
+    "location": "Cluj, Romania",
+    "website": "https://danburzo.ro",
+    "followers": 275,
+    "publicRepos": 29,
+    "createdAt": "2010-02-17T16:08:05Z",
+    "checkedAt": "2026-09-14T19:44:39.716Z",
+    "source": "https://github.com/danburzo"
   }
 }
