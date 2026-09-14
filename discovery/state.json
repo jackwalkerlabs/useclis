@@ -2,44 +2,7 @@
   "version": 1,
   "searchPage": 7,
   "brewOffset": 240,
-  "pending": [
-    {
-      "repo": "altdesktop/playerctl"
-    },
-    {
-      "repo": "dwtkns/gdal-cheat-sheet"
-    },
-    {
-      "repo": "jakehilborn/displayplacer"
-    },
-    {
-      "repo": "GitbookIO/gitbook-cli"
-    },
-    {
-      "repo": "JohnSundell/ShellOut"
-    },
-    {
-      "repo": "karan/joe"
-    },
-    {
-      "repo": "muellan/clipp"
-    },
-    {
-      "repo": "ogham/dog"
-    },
-    {
-      "repo": "flatiron/prompt"
-    },
-    {
-      "repo": "morgant/tools-osx"
-    },
-    {
-      "repo": "vadimdemedes/ink-ui"
-    },
-    {
-      "repo": "httpie/http-prompt"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -8380,7 +8343,47 @@
       "status": "held",
       "checkedAt": "2026-09-14T20:44:18.759Z",
       "reason": "Terminal use case needs classification"
+    },
+    "altdesktop/playerctl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T21:44:20.281Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dwtkns/gdal-cheat-sheet": {
+      "status": "held",
+      "checkedAt": "2026-09-14T21:44:20.281Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jakehilborn/displayplacer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T21:44:20.281Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gitbookio/gitbook-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T21:44:20.281Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "karan/joe": {
+      "status": "held",
+      "checkedAt": "2026-09-14T21:44:20.281Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "flatiron/prompt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T21:44:20.281Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vadimdemedes/ink-ui": {
+      "status": "held",
+      "checkedAt": "2026-09-14T21:44:20.281Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "httpie/http-prompt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T21:44:20.281Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-14T20:44:18.759Z"
+  "lastRunAt": "2026-09-14T21:44:20.281Z"
 }
