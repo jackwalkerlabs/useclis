@@ -2538,5 +2538,15 @@
     "language": "Python",
     "checkedAt": "2026-09-14T05:44:26.297Z",
     "source": "https://github.com/rehmatworks/gplaydl"
+  },
+  "nicobailon-surf-cli": {
+    "createdAt": "2025-12-28T09:05:24Z",
+    "pushedAt": "2026-09-13T15:13:21Z",
+    "lastCommitAt": "2026-09-10T20:47:06Z",
+    "stars": 615,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-14T06:44:48.015Z",
+    "source": "https://github.com/nicobailon/surf-cli"
   }
 }

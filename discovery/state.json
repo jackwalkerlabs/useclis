@@ -1,8 +1,573 @@
 {
   "version": 1,
-  "searchPage": 4,
-  "brewOffset": 120,
-  "pending": [],
+  "searchPage": 5,
+  "brewOffset": 160,
+  "pending": [
+    {
+      "repo": "dundee/gdu"
+    },
+    {
+      "repo": "numtide/treefmt"
+    },
+    {
+      "repo": "yoanbernabeu/grepai"
+    },
+    {
+      "repo": "mangiucugna/json_repair"
+    },
+    {
+      "repo": "mklement0/fileicon"
+    },
+    {
+      "repo": "orf/gping"
+    },
+    {
+      "repo": "lance0/ttl"
+    },
+    {
+      "repo": "frain-dev/convoy"
+    },
+    {
+      "repo": "pgplex/pgschema"
+    },
+    {
+      "repo": "AstraeLabs/VibraVid"
+    },
+    {
+      "repo": "phlx0/drift"
+    },
+    {
+      "repo": "sparklabx/drawio-ai-kit"
+    },
+    {
+      "repo": "SecureAuthCorp/oauth2c"
+    },
+    {
+      "repo": "MicrosoftDocs/mcp"
+    },
+    {
+      "repo": "SBoudrias/Inquirer.js"
+    },
+    {
+      "repo": "prettier/prettier-eslint-cli"
+    },
+    {
+      "repo": "anmol098/npx_card"
+    },
+    {
+      "repo": "hatoo/oha"
+    },
+    {
+      "repo": "ix-infrastructure/Ix"
+    },
+    {
+      "repo": "mikefarah/yq"
+    },
+    {
+      "repo": "vltpkg/vltpkg"
+    },
+    {
+      "repo": "DataDog/pup"
+    },
+    {
+      "repo": "manifoldco/promptui"
+    },
+    {
+      "repo": "davydany/sultan"
+    },
+    {
+      "repo": "lmammino/jwt-cracker"
+    },
+    {
+      "repo": "MarketingPipeline/Termino.js"
+    },
+    {
+      "repo": "bcicen/ctop"
+    },
+    {
+      "repo": "hugapi/hug"
+    },
+    {
+      "repo": "BrainMaestro/composer-git-hooks"
+    },
+    {
+      "repo": "enquirer/enquirer"
+    },
+    {
+      "repo": "vercel/micro-dev"
+    },
+    {
+      "repo": "JohnSundell/ShellOut"
+    },
+    {
+      "repo": "muellan/clipp"
+    },
+    {
+      "repo": "ogham/dog"
+    },
+    {
+      "repo": "morgant/tools-osx"
+    },
+    {
+      "repo": "ruyadorno/ntl"
+    },
+    {
+      "repo": "solidiquis/erdtree"
+    },
+    {
+      "repo": "lptstr/winfetch"
+    },
+    {
+      "repo": "TheZoraiz/ascii-image-converter"
+    },
+    {
+      "repo": "bellingcat/instagram-location-search"
+    },
+    {
+      "repo": "d0c-s4vage/lookatme"
+    },
+    {
+      "repo": "peci1/nvidia-htop"
+    },
+    {
+      "repo": "cdown/srt"
+    },
+    {
+      "repo": "zonemeen/musicn"
+    },
+    {
+      "repo": "lemnos/theme.sh"
+    },
+    {
+      "repo": "lukeed/mri"
+    },
+    {
+      "repo": "jawher/mow.cli"
+    },
+    {
+      "repo": "CITGuru/PyInquirer"
+    },
+    {
+      "repo": "commandlineparser/commandline"
+    },
+    {
+      "repo": "sqshq/sampler"
+    },
+    {
+      "repo": "jarulraj/sqlcheck"
+    },
+    {
+      "repo": "donnemartin/gitsome"
+    },
+    {
+      "repo": "ZacharyPatten/Towel"
+    },
+    {
+      "repo": "mattallty/Caporal.js"
+    },
+    {
+      "repo": "ChestnutHeng/Wudao-dict"
+    },
+    {
+      "repo": "mkchoi212/fac"
+    },
+    {
+      "repo": "XiaoMi/soar"
+    },
+    {
+      "repo": "you-dont-need/You-Dont-Need-GUI"
+    },
+    {
+      "repo": "NayamAmarshe/please"
+    },
+    {
+      "repo": "npkgz/cli-progress"
+    },
+    {
+      "repo": "michaelmacinnis/oh"
+    },
+    {
+      "repo": "timothycrosley/portray"
+    },
+    {
+      "repo": "bcicen/grmon"
+    },
+    {
+      "repo": "daleroberts/itermplot"
+    },
+    {
+      "repo": "nilaoda/N_m3u8DL-CLI"
+    },
+    {
+      "repo": "gammons/ultralist"
+    },
+    {
+      "repo": "dat-ecosystem/dat"
+    },
+    {
+      "repo": "chmln/handlr"
+    },
+    {
+      "repo": "keepcosmos/terjira"
+    },
+    {
+      "repo": "dataproofer/Dataproofer"
+    },
+    {
+      "repo": "dcmoura/spyql"
+    },
+    {
+      "repo": "xuxiaodong/usingcli-book"
+    },
+    {
+      "repo": "ldn-softdev/jtc"
+    },
+    {
+      "repo": "eBay/tsv-utils"
+    },
+    {
+      "repo": "grpc-ecosystem/polyglot"
+    },
+    {
+      "repo": "2mol/pboy"
+    },
+    {
+      "repo": "xwmx/bash-boilerplate"
+    },
+    {
+      "repo": "nschloe/termplotlib"
+    },
+    {
+      "repo": "richrd/suplemon"
+    },
+    {
+      "repo": "nsomar/Swiftline"
+    },
+    {
+      "repo": "jakeheis/SwiftCLI"
+    },
+    {
+      "repo": "Fakerr/git-recall"
+    },
+    {
+      "repo": "kren1/tosheets"
+    },
+    {
+      "repo": "neverpanic/google-font-download"
+    },
+    {
+      "repo": "nsomar/Guaka"
+    },
+    {
+      "repo": "adtac/climate"
+    },
+    {
+      "repo": "spolu/warp"
+    },
+    {
+      "repo": "sananth12/ImageScraper"
+    },
+    {
+      "repo": "sindresorhus/yoctocolors"
+    },
+    {
+      "repo": "indexzero/nconf"
+    },
+    {
+      "repo": "dnote/dnote"
+    },
+    {
+      "repo": "Backblaze/B2_Command_Line_Tool"
+    },
+    {
+      "repo": "vjeantet/alerter"
+    },
+    {
+      "repo": "gotify/cli"
+    },
+    {
+      "repo": "rust-fuzz/cargo-fuzz"
+    },
+    {
+      "repo": "jasonacox/tinytuya"
+    },
+    {
+      "repo": "jifunks/botany"
+    },
+    {
+      "repo": "guard/guard"
+    },
+    {
+      "repo": "killercup/cargo-edit"
+    },
+    {
+      "repo": "radude/rentry"
+    },
+    {
+      "repo": "anthonyraymond/joal"
+    },
+    {
+      "repo": "75lb/command-line-args"
+    },
+    {
+      "repo": "zhongwencool/observer_cli"
+    },
+    {
+      "repo": "jenkinsci/jenkinsfile-runner"
+    },
+    {
+      "repo": "JosephLai241/URS"
+    },
+    {
+      "repo": "kislyuk/yq"
+    },
+    {
+      "repo": "ionic-team/ionic-cli"
+    },
+    {
+      "repo": "nadermx/backgroundremover"
+    },
+    {
+      "repo": "console-rs/dialoguer"
+    },
+    {
+      "repo": "VirusTotal/vt-cli"
+    },
+    {
+      "repo": "raphaelmansuy/code2prompt"
+    },
+    {
+      "repo": "daeuniverse/gg"
+    },
+    {
+      "repo": "rails/thor"
+    },
+    {
+      "repo": "terryyin/translate-python"
+    },
+    {
+      "repo": "YS-L/csvlens"
+    },
+    {
+      "repo": "nexus-xyz/nexus-cli"
+    },
+    {
+      "repo": "dannote/figma-use"
+    },
+    {
+      "repo": "TheR1D/shell_gpt"
+    },
+    {
+      "repo": "natemcmaster/CommandLineUtils"
+    },
+    {
+      "repo": "google/python-fire"
+    },
+    {
+      "repo": "spotify2tidal/spotify_to_tidal"
+    },
+    {
+      "repo": "natesales/q"
+    },
+    {
+      "repo": "facebook/wdt"
+    },
+    {
+      "repo": "react-native-community/cli"
+    },
+    {
+      "repo": "aria2/aria2"
+    },
+    {
+      "repo": "ageitgey/face_recognition"
+    },
+    {
+      "repo": "humblepenguinn/envio"
+    },
+    {
+      "repo": "welaika/wordmove"
+    },
+    {
+      "repo": "red-data-tools/YouPlot"
+    },
+    {
+      "repo": "guptarohit/asciigraph"
+    },
+    {
+      "repo": "defunkt/gist"
+    },
+    {
+      "repo": "parvardegr/sharing"
+    },
+    {
+      "repo": "clitic/vsd"
+    },
+    {
+      "repo": "DanielSWolf/rhubarb-lip-sync"
+    },
+    {
+      "repo": "rust-shell-script/rust_cmd_lib"
+    },
+    {
+      "repo": "nojhan/colout"
+    },
+    {
+      "repo": "dutchcoders/transfer.sh"
+    },
+    {
+      "repo": "ninxsoft/mist-cli"
+    },
+    {
+      "repo": "linux-sunxi/sunxi-tools"
+    },
+    {
+      "repo": "fuelen/owl"
+    },
+    {
+      "repo": "klattimer/LGWebOSRemote"
+    },
+    {
+      "repo": "hroptatyr/dateutils"
+    },
+    {
+      "repo": "ReVanced/revanced-cli"
+    },
+    {
+      "repo": "etetoolkit/ete"
+    },
+    {
+      "repo": "ameshkov/dnslookup"
+    },
+    {
+      "repo": "Automattic/browser-repl"
+    },
+    {
+      "repo": "icloud-photos-downloader/icloud_photos_downloader"
+    },
+    {
+      "repo": "wookayin/gpustat"
+    },
+    {
+      "repo": "allthemusicllc/atm-cli"
+    },
+    {
+      "repo": "nicfit/eyeD3"
+    },
+    {
+      "repo": "pimutils/todoman"
+    },
+    {
+      "repo": "laurikari/tre"
+    },
+    {
+      "repo": "linkedin/shiv"
+    },
+    {
+      "repo": "rahiel/telegram-send"
+    },
+    {
+      "repo": "cheat/cheat"
+    },
+    {
+      "repo": "einaregilsson/beanstalk-deploy"
+    },
+    {
+      "repo": "istanbuljs/nyc"
+    },
+    {
+      "repo": "cli-guidelines/cli-guidelines"
+    },
+    {
+      "repo": "sveinbjornt/Platypus"
+    },
+    {
+      "repo": "clearbluejar/ghidriff"
+    },
+    {
+      "repo": "PGYER/fir-cli"
+    },
+    {
+      "repo": "onevcat/FengNiao"
+    },
+    {
+      "repo": "minamijoyo/hcledit"
+    },
+    {
+      "repo": "EFForg/apkeep"
+    },
+    {
+      "repo": "leventcz/laravel-top"
+    },
+    {
+      "repo": "sharkdp/pastel"
+    },
+    {
+      "repo": "sharkdp/hexyl"
+    },
+    {
+      "repo": "sharkdp/hyperfine"
+    },
+    {
+      "repo": "ipinfo/cli"
+    },
+    {
+      "repo": "barnybug/cli53"
+    },
+    {
+      "repo": "lavie/runlike"
+    },
+    {
+      "repo": "glomatico/votify"
+    },
+    {
+      "repo": "guywaldman/magic-cli"
+    },
+    {
+      "repo": "Tencent/feflow"
+    },
+    {
+      "repo": "nashsu/AutoCLI"
+    },
+    {
+      "repo": "cli-table/cli-table3"
+    },
+    {
+      "repo": "sandreas/m4b-tool"
+    },
+    {
+      "repo": "http-party/http-server"
+    },
+    {
+      "repo": "cbeust/jcommander"
+    },
+    {
+      "repo": "gleitz/howdoi"
+    },
+    {
+      "repo": "RedSiege/C2concealer"
+    },
+    {
+      "repo": "arqbackup/arq_restore"
+    },
+    {
+      "repo": "bkirwi/decline"
+    },
+    {
+      "repo": "iqlusioninc/abscissa"
+    },
+    {
+      "repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "repo": "bmc/daemonize"
+    },
+    {
+      "repo": "garybernhardt/selecta"
+    },
+    {
+      "repo": "gautamkrishnar/socli"
+    }
+  ],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -5024,7 +5589,234 @@
       "status": "held",
       "checkedAt": "2026-09-14T05:44:17.671Z",
       "reason": "Terminal use case needs classification"
+    },
+    "imsnif/bandwhich": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "baresip/baresip": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rcaloras/bash-preexec": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fph/bastet": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bats-core/bats-core": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bazelbuild/bazel": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tinder/bazel-diff": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bazelbuild/bazelisk": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "valkyrie00/bold-brew": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "samtools/bcftools": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hessu/bchunk": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dicklesworthstone/beads_viewer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rizsotto/bear": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bettercap/bettercap": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "betterleaks/betterleaks": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "plk/biber": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "webassembly/binaryen": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/rnx-kit": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "refirmlabs/binwalk": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bitwuzla/bitwuzla": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dimo414/bkt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "psf/black": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/bloaty": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "michel-kraemer/zsh-patina": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "boyter/cs": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dadbodgeoff/drift": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "proxysoul/empryo": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kepano/obsidian-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "github/gh-stack": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "plopjs/plop": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nicobailon/surf-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "GitHub stars",
+      "slug": "nicobailon-surf-cli",
+      "acceptedAt": "2026-09-14T06:44:23.175Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/nicobailon/surf-cli/blob/56faa5aec29763de0866e212e5e1fb39a9dd1d79/package.json",
+          "snippet": "{\"bin\":{\"surf\":\"native/cli.cjs\"}}",
+          "target": "native/cli.cjs"
+        },
+        "installation": {
+          "url": "https://github.com/nicobailon/surf-cli/blob/56faa5aec29763de0866e212e5e1fb39a9dd1d79/README.md",
+          "snippet": "npm install -g surf-cli"
+        },
+        "usage": {
+          "url": "https://github.com/nicobailon/surf-cli/blob/56faa5aec29763de0866e212e5e1fb39a9dd1d79/README.md",
+          "snippet": "surf go \"https://example.com\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/nicobailon/surf-cli",
+          "snippet": "The CLI for AI agents to control Chrome. Zero config, agent-agnostic, battle-tested."
+        },
+        "adoption": {
+          "stars": 615,
+          "githubSource": "https://github.com/nicobailon/surf-cli",
+          "homebrew": null
+        },
+        "commit": "56faa5aec29763de0866e212e5e1fb39a9dd1d79"
+      }
+    },
+    "514-labs/dnsglobe": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "anthropics/anthropic-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dicklesworthstone/destructive_command_guard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "runkids/skillshare": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "microsoft/procdump-for-linux": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lukasmasuch/best-of-python": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "raphire/win11debloat": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jdepoix/youtube-transcript-api": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jqueryscript/awesome-claude-code": {
+      "status": "held",
+      "checkedAt": "2026-09-14T06:44:23.175Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-14T05:44:17.671Z"
+  "lastRunAt": "2026-09-14T06:44:23.175Z"
 }

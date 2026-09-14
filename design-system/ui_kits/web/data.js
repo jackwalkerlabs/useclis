@@ -5359,6 +5359,25 @@ window.USECLIS_DATA = {
       "stars": 642,
       "license": "MIT",
       "checkedAt": "2026-09-14T05:44:26.297Z"
+    },
+    {
+      "slug": "nicobailon-surf-cli",
+      "name": "surf-cli",
+      "repo": "nicobailon/surf-cli",
+      "category": "Agents & models",
+      "command": "surf",
+      "useCase": "The CLI for AI agents to control Chrome. Zero config, agent-agnostic, battle-tested.",
+      "description": "The CLI for AI agents to control Chrome. Zero config, agent-agnostic, battle-tested.",
+      "agentUse": "Invoke surf from a shell for the documented use case: The CLI for AI agents to control Chrome. Zero config, agent-agnostic, battle-tested.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "surf go \"https://example.com\"",
+      "website": "https://github.com/nicobailon/surf-cli",
+      "docs": "https://github.com/nicobailon/surf-cli/blob/56faa5aec29763de0866e212e5e1fb39a9dd1d79/README.md",
+      "stars": 615,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T06:44:48.015Z"
     }
   ],
   "categories": [

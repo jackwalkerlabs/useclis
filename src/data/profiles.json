@@ -2832,5 +2832,18 @@
     "createdAt": "2016-11-18T12:19:34Z",
     "checkedAt": "2026-09-14T05:44:27.590Z",
     "source": "https://github.com/rehmatworks"
+  },
+  "nicobailon": {
+    "login": "nicobailon",
+    "name": "Nico Bailon",
+    "type": "User",
+    "bio": "Senior Agent Engineer @ Pika Labs",
+    "location": "Vancouver, BC",
+    "website": "https://pika.art",
+    "followers": 2011,
+    "publicRepos": 132,
+    "createdAt": "2012-12-04T04:29:28Z",
+    "checkedAt": "2026-09-14T06:44:49.472Z",
+    "source": "https://github.com/nicobailon"
   }
 }
