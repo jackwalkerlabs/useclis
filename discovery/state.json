@@ -4,144 +4,6 @@
   "brewOffset": 200,
   "pending": [
     {
-      "repo": "ajeetdsouza/zoxide"
-    },
-    {
-      "repo": "eidelen/DicomToMesh"
-    },
-    {
-      "repo": "databricks/click"
-    },
-    {
-      "repo": "aleksandr-m/gitflow-maven-plugin"
-    },
-    {
-      "repo": "facebookincubator/FBX2glTF"
-    },
-    {
-      "repo": "lcoutodemos/clui-cc"
-    },
-    {
-      "repo": "artiebits/fake-git-history"
-    },
-    {
-      "repo": "nikolassv/bartib"
-    },
-    {
-      "repo": "mkaz/termgraph"
-    },
-    {
-      "repo": "lavv17/lftp"
-    },
-    {
-      "repo": "Munter/subfont"
-    },
-    {
-      "repo": "ismaelgv/rnr"
-    },
-    {
-      "repo": "dineshba/tf-summarize"
-    },
-    {
-      "repo": "iflow-ai/iflow-cli"
-    },
-    {
-      "repo": "open-pomodoro/openpomodoro-cli"
-    },
-    {
-      "repo": "nferraz/st"
-    },
-    {
-      "repo": "kokorin/Jaffree"
-    },
-    {
-      "repo": "resurrecting-open-source-projects/scrot"
-    },
-    {
-      "repo": "knqyf263/pet"
-    },
-    {
-      "repo": "run-llama/semtools"
-    },
-    {
-      "repo": "astanin/python-tabulate"
-    },
-    {
-      "repo": "clojure/tools.cli"
-    },
-    {
-      "repo": "sts10/rust-command-line-utilities"
-    },
-    {
-      "repo": "AnWeber/httpyac"
-    },
-    {
-      "repo": "krzysztof-o/spritesheet.js"
-    },
-    {
-      "repo": "MarcoLucidi01/ytcast"
-    },
-    {
-      "repo": "nefarius/Injector"
-    },
-    {
-      "repo": "guarinogabriel/Mac-CLI"
-    },
-    {
-      "repo": "pemistahl/grex"
-    },
-    {
-      "repo": "scrapy/scrapyd-client"
-    },
-    {
-      "repo": "ToaHartor/GI-cutscenes"
-    },
-    {
-      "repo": "microsoft/appcenter-cli"
-    },
-    {
-      "repo": "hueristiq/xurlfind3r"
-    },
-    {
-      "repo": "bvanhoekelen/performance"
-    },
-    {
-      "repo": "zkonduit/ezkl"
-    },
-    {
-      "repo": "ytdl-org/youtube-dl"
-    },
-    {
-      "repo": "Shopify/krane"
-    },
-    {
-      "repo": "Softcatala/whisper-ctranslate2"
-    },
-    {
-      "repo": "ahmadawais/corona-cli"
-    },
-    {
-      "repo": "AppraiseQA/appraise"
-    },
-    {
-      "repo": "minicli/minicli"
-    },
-    {
-      "repo": "sindresorhus/emoj"
-    },
-    {
-      "repo": "fraserxu/electron-pdf"
-    },
-    {
-      "repo": "localstack/awscli-local"
-    },
-    {
-      "repo": "sunnyyoung/WeChatTweak"
-    },
-    {
-      "repo": "mansuf/mangadex-downloader"
-    },
-    {
       "repo": "rcoh/angle-grinder"
     },
     {
@@ -7084,7 +6946,288 @@
       "status": "held",
       "checkedAt": "2026-09-14T13:44:21.937Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "eidelen/dicomtomesh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "databricks/click": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "aleksandr-m/gitflow-maven-plugin": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "facebookincubator/fbx2gltf": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lcoutodemos/clui-cc": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "artiebits/fake-git-history": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mkaz/termgraph": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lavv17/lftp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "munter/subfont": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ismaelgv/rnr": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "GitHub stars",
+      "slug": "ismaelgv-rnr",
+      "acceptedAt": "2026-09-14T14:44:26.478Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ismaelgv/rnr/blob/111c425a8110072e7eae08266ac57df0b6f2b664/Cargo.toml",
+          "snippet": "package.name=\"rnr\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/ismaelgv/rnr/blob/111c425a8110072e7eae08266ac57df0b6f2b664/README.md",
+          "snippet": "cargo install rnr"
+        },
+        "usage": {
+          "url": "https://github.com/ismaelgv/rnr/blob/111c425a8110072e7eae08266ac57df0b6f2b664/README.md",
+          "snippet": "rnr regex -f file renamed ./file-01.txt ./one/file-02.txt ./one/file-03.txt"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ismaelgv/rnr",
+          "snippet": "A command-line tool to batch rename files and directories"
+        },
+        "adoption": {
+          "stars": 596,
+          "githubSource": "https://github.com/ismaelgv/rnr",
+          "homebrew": null
+        },
+        "commit": "111c425a8110072e7eae08266ac57df0b6f2b664"
+      }
+    },
+    "dineshba/tf-summarize": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "iflow-ai/iflow-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "open-pomodoro/openpomodoro-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nferraz/st": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kokorin/jaffree": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "resurrecting-open-source-projects/scrot": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "run-llama/semtools": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "GitHub stars",
+      "slug": "run-llama-semtools",
+      "acceptedAt": "2026-09-14T14:44:26.478Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/run-llama/semtools/blob/fe7f6d260fdc0128768fcfea0e8d624d6f304739/package.json",
+          "snippet": "{\"bin\":{\"semtools\":\"cli/semtools.js\"}}",
+          "target": "cli/semtools.js"
+        },
+        "installation": {
+          "url": "https://github.com/run-llama/semtools/blob/fe7f6d260fdc0128768fcfea0e8d624d6f304739/README.md",
+          "snippet": "npm i -g @llamaindex/semtools"
+        },
+        "usage": {
+          "url": "https://github.com/run-llama/semtools/blob/fe7f6d260fdc0128768fcfea0e8d624d6f304739/README.md",
+          "snippet": "semtools parse my_dir/*.pdf"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/run-llama/semtools",
+          "snippet": "Semantic search and document parsing tools for the command line"
+        },
+        "adoption": {
+          "stars": 1867,
+          "githubSource": "https://github.com/run-llama/semtools",
+          "homebrew": null
+        },
+        "commit": "fe7f6d260fdc0128768fcfea0e8d624d6f304739"
+      }
+    },
+    "astanin/python-tabulate": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "clojure/tools.cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "anweber/httpyac": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "krzysztof-o/spritesheet.js": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "marcolucidi01/ytcast": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nefarius/injector": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "guarinogabriel/mac-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pemistahl/grex": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "scrapy/scrapyd-client": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "toahartor/gi-cutscenes": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "microsoft/appcenter-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "hueristiq/xurlfind3r": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "zkonduit/ezkl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ytdl-org/youtube-dl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "shopify/krane": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "softcatala/whisper-ctranslate2": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ahmadawais/corona-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "appraiseqa/appraise": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sindresorhus/emoj": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fraserxu/electron-pdf": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "GitHub stars",
+      "slug": "fraserxu-electron-pdf",
+      "acceptedAt": "2026-09-14T14:44:26.478Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/fraserxu/electron-pdf/blob/77a9ad817fcd7af50473b169680cdec1cbf384f1/package.json",
+          "snippet": "{\"bin\":{\"electron-pdf\":\"cli.js\"}}",
+          "target": "cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/fraserxu/electron-pdf/blob/77a9ad817fcd7af50473b169680cdec1cbf384f1/README.md",
+          "snippet": "npm install electron-pdf"
+        },
+        "usage": {
+          "url": "https://github.com/fraserxu/electron-pdf/blob/77a9ad817fcd7af50473b169680cdec1cbf384f1/README.md",
+          "snippet": "electron-pdf ..."
+        },
+        "description": {
+          "url": "https://api.github.com/repos/fraserxu/electron-pdf",
+          "snippet": "📄 A command line tool to generate PDF from URL, HTML or Markdown files."
+        },
+        "adoption": {
+          "stars": 1292,
+          "githubSource": "https://github.com/fraserxu/electron-pdf",
+          "homebrew": null
+        },
+        "commit": "77a9ad817fcd7af50473b169680cdec1cbf384f1"
+      }
+    },
+    "localstack/awscli-local": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sunnyyoung/wechattweak": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mansuf/mangadex-downloader": {
+      "status": "held",
+      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T13:44:21.937Z"
+  "lastRunAt": "2026-09-14T14:44:26.478Z"
 }

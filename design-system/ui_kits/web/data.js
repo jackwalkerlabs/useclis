@@ -5587,6 +5587,63 @@ window.USECLIS_DATA = {
       "stars": 3495,
       "license": null,
       "checkedAt": "2026-09-14T13:44:46.977Z"
+    },
+    {
+      "slug": "ismaelgv-rnr",
+      "name": "rnr",
+      "repo": "ismaelgv/rnr",
+      "category": "Files & documents",
+      "command": "rnr",
+      "useCase": "A command-line tool to batch rename files and directories",
+      "description": "A command-line tool to batch rename files and directories",
+      "agentUse": "Invoke rnr from a shell for the documented use case: A command-line tool to batch rename files and directories",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "rnr regex -f file renamed ./file-01.txt ./one/file-02.txt ./one/file-03.txt",
+      "website": "https://github.com/ismaelgv/rnr",
+      "docs": "https://github.com/ismaelgv/rnr/blob/111c425a8110072e7eae08266ac57df0b6f2b664/README.md",
+      "stars": 596,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T14:44:58.688Z"
+    },
+    {
+      "slug": "run-llama-semtools",
+      "name": "semtools",
+      "repo": "run-llama/semtools",
+      "category": "Files & documents",
+      "command": "semtools",
+      "useCase": "Semantic search and document parsing tools for the command line",
+      "description": "Semantic search and document parsing tools for the command line",
+      "agentUse": "Invoke semtools from a shell for the documented use case: Semantic search and document parsing tools for the command line",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "semtools parse my_dir/*.pdf",
+      "website": "https://github.com/run-llama/semtools",
+      "docs": "https://github.com/run-llama/semtools/blob/fe7f6d260fdc0128768fcfea0e8d624d6f304739/README.md",
+      "stars": 1867,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T14:44:59.215Z"
+    },
+    {
+      "slug": "fraserxu-electron-pdf",
+      "name": "electron-pdf",
+      "repo": "fraserxu/electron-pdf",
+      "category": "Files & documents",
+      "command": "electron-pdf",
+      "useCase": "📄 A command line tool to generate PDF from URL, HTML or Markdown files.",
+      "description": "📄 A command line tool to generate PDF from URL, HTML or Markdown files.",
+      "agentUse": "Invoke electron-pdf from a shell for the documented use case: 📄 A command line tool to generate PDF from URL, HTML or Markdown files.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "electron-pdf ...",
+      "website": "https://github.com/fraserxu/electron-pdf",
+      "docs": "https://github.com/fraserxu/electron-pdf/blob/77a9ad817fcd7af50473b169680cdec1cbf384f1/README.md",
+      "stars": 1292,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T14:44:59.949Z"
     }
   ],
   "categories": [

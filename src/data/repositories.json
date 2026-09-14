@@ -2658,5 +2658,35 @@
     "language": "Python",
     "checkedAt": "2026-09-14T13:44:46.977Z",
     "source": "https://github.com/SeemSeam/claude_codex_bridge"
+  },
+  "ismaelgv-rnr": {
+    "createdAt": "2018-07-11T15:48:44Z",
+    "pushedAt": "2026-03-21T10:55:26Z",
+    "lastCommitAt": "2026-02-14T21:20:58Z",
+    "stars": 596,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-14T14:44:58.688Z",
+    "source": "https://github.com/ismaelgv/rnr"
+  },
+  "run-llama-semtools": {
+    "createdAt": "2025-08-23T21:56:09Z",
+    "pushedAt": "2026-03-11T14:30:50Z",
+    "lastCommitAt": "2026-03-11T14:29:17Z",
+    "stars": 1867,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-14T14:44:59.215Z",
+    "source": "https://github.com/run-llama/semtools"
+  },
+  "fraserxu-electron-pdf": {
+    "createdAt": "2015-08-19T15:47:51Z",
+    "pushedAt": "2026-02-12T19:52:35Z",
+    "lastCommitAt": "2026-02-12T19:50:07Z",
+    "stars": 1292,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-14T14:44:59.949Z",
+    "source": "https://github.com/fraserxu/electron-pdf"
   }
 }

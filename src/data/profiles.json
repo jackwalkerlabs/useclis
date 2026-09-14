@@ -2988,5 +2988,44 @@
     "createdAt": "2017-06-05T15:04:16Z",
     "checkedAt": "2026-09-14T13:44:48.681Z",
     "source": "https://github.com/SeemSeam"
+  },
+  "ismaelgv": {
+    "login": "ismaelgv",
+    "name": "Ismael González Valverde",
+    "type": "User",
+    "bio": "Simplify, rinse and repeat.",
+    "location": "Seville, Spain",
+    "website": null,
+    "followers": 15,
+    "publicRepos": 9,
+    "createdAt": "2014-08-18T09:47:42Z",
+    "checkedAt": "2026-09-14T14:45:01.684Z",
+    "source": "https://github.com/ismaelgv"
+  },
+  "run-llama": {
+    "login": "run-llama",
+    "name": "LlamaIndex",
+    "type": "Organization",
+    "bio": null,
+    "location": "United States of America",
+    "website": "https://llamaindex.ai",
+    "followers": 4205,
+    "publicRepos": 150,
+    "createdAt": "2023-04-14T02:40:56Z",
+    "checkedAt": "2026-09-14T14:45:02.033Z",
+    "source": "https://github.com/run-llama"
+  },
+  "fraserxu": {
+    "login": "fraserxu",
+    "name": "Fraser Xu",
+    "type": "User",
+    "bio": ":New: Add a bio.",
+    "location": "Melbourne ",
+    "website": "https://fraserxu.dev",
+    "followers": 479,
+    "publicRepos": 189,
+    "createdAt": "2011-11-09T14:26:36Z",
+    "checkedAt": "2026-09-14T14:45:02.297Z",
+    "source": "https://github.com/fraserxu"
   }
 }
