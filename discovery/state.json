@@ -4,156 +4,6 @@
   "brewOffset": 120,
   "pending": [
     {
-      "repo": "mufeedvh/code2prompt"
-    },
-    {
-      "repo": "cli/cli"
-    },
-    {
-      "repo": "unjs/consola"
-    },
-    {
-      "repo": "rvben/rumdl"
-    },
-    {
-      "repo": "dvorka/hstr"
-    },
-    {
-      "repo": "generalaction/emdash"
-    },
-    {
-      "repo": "nestjs/nest-cli"
-    },
-    {
-      "repo": "NativeScript/nativescript-cli"
-    },
-    {
-      "repo": "metalbear-co/mirrord"
-    },
-    {
-      "repo": "netlify/cli"
-    },
-    {
-      "repo": "hetznercloud/cli"
-    },
-    {
-      "repo": "Shopify/cli"
-    },
-    {
-      "repo": "angular/angular-cli"
-    },
-    {
-      "repo": "webpack/webpack-cli"
-    },
-    {
-      "repo": "kadevin/ilab-conjure"
-    },
-    {
-      "repo": "scaleway/scaleway-cli"
-    },
-    {
-      "repo": "medialab/xan"
-    },
-    {
-      "repo": "1ay1/agentty"
-    },
-    {
-      "repo": "Slackadays/Clipboard"
-    },
-    {
-      "repo": "sharkdp/pastel"
-    },
-    {
-      "repo": "sharkdp/hexyl"
-    },
-    {
-      "repo": "sharkdp/hyperfine"
-    },
-    {
-      "repo": "tbillington/kondo"
-    },
-    {
-      "repo": "ferrislucas/promptr"
-    },
-    {
-      "repo": "Svetlitski/fcp"
-    },
-    {
-      "repo": "greymd/teip"
-    },
-    {
-      "repo": "xgi/castero"
-    },
-    {
-      "repo": "p-gen/smenu"
-    },
-    {
-      "repo": "http-party/http-server"
-    },
-    {
-      "repo": "kblin/ncbi-genome-download"
-    },
-    {
-      "repo": "mevdschee/2048.c"
-    },
-    {
-      "repo": "ndd7xv/heh"
-    },
-    {
-      "repo": "xero/figlet-fonts"
-    },
-    {
-      "repo": "jwlodek/py_cui"
-    },
-    {
-      "repo": "kareman/SwiftShell"
-    },
-    {
-      "repo": "nikolassv/bartib"
-    },
-    {
-      "repo": "OrkoHunter/keep"
-    },
-    {
-      "repo": "vadimdemedes/pastel"
-    },
-    {
-      "repo": "olets/zsh-abbr"
-    },
-    {
-      "repo": "knqyf263/pet"
-    },
-    {
-      "repo": "sts10/rust-command-line-utilities"
-    },
-    {
-      "repo": "ynqa/sig"
-    },
-    {
-      "repo": "mikaelmello/inquire"
-    },
-    {
-      "repo": "chmln/sd"
-    },
-    {
-      "repo": "bvanhoekelen/performance"
-    },
-    {
-      "repo": "jmathai/elodie"
-    },
-    {
-      "repo": "sharkdp/diskus"
-    },
-    {
-      "repo": "minicli/minicli"
-    },
-    {
-      "repo": "mpvnet-player/mpv.net"
-    },
-    {
-      "repo": "noisrucer/girok"
-    },
-    {
       "repo": "harelba/q"
     },
     {
@@ -4583,7 +4433,261 @@
       "status": "held",
       "checkedAt": "2026-09-14T00:44:18.483Z",
       "reason": "Terminal use case needs classification"
+    },
+    "unjs/consola": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rvben/rumdl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dvorka/hstr": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "generalaction/emdash": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nestjs/nest-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nativescript/nativescript-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "angular/angular-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "webpack/webpack-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kadevin/ilab-conjure": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "slackadays/clipboard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sharkdp/pastel": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sharkdp/hexyl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tbillington/kondo": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ferrislucas/promptr": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "svetlitski/fcp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "greymd/teip": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xgi/castero": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "p-gen/smenu": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "http-party/http-server": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "GitHub stars",
+      "slug": "http-party-http-server",
+      "acceptedAt": "2026-09-14T01:44:19.653Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/http-party/http-server/blob/0d3b7bb5b6e8a59fd450ae2dca65870009cfcd8b/package.json",
+          "snippet": "{\"bin\":{\"http-server\":\"./bin/http-server\"}}",
+          "target": "bin/http-server"
+        },
+        "installation": {
+          "url": "https://github.com/http-party/http-server/blob/0d3b7bb5b6e8a59fd450ae2dca65870009cfcd8b/README.md",
+          "snippet": "npm install --global http-server"
+        },
+        "usage": {
+          "url": "https://github.com/http-party/http-server/blob/0d3b7bb5b6e8a59fd450ae2dca65870009cfcd8b/README.md",
+          "snippet": "http-server --proxy http://localhost:8080?"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/http-party/http-server",
+          "snippet": "A simple, zero-configuration, command-line http server"
+        },
+        "adoption": {
+          "stars": 14234,
+          "githubSource": "https://github.com/http-party/http-server",
+          "homebrew": null
+        },
+        "commit": "0d3b7bb5b6e8a59fd450ae2dca65870009cfcd8b"
+      }
+    },
+    "kblin/ncbi-genome-download": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mevdschee/2048.c": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ndd7xv/heh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "xero/figlet-fonts": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jwlodek/py_cui": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kareman/swiftshell": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nikolassv/bartib": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "GitHub stars",
+      "slug": "nikolassv-bartib",
+      "acceptedAt": "2026-09-14T01:44:19.653Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/nikolassv/bartib/blob/6b39bc0afb27a4143439604615e645e3050f7d06/Cargo.toml",
+          "snippet": "package.name=\"bartib\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/nikolassv/bartib/blob/6b39bc0afb27a4143439604615e645e3050f7d06/README.md",
+          "snippet": "cargo install bartib"
+        },
+        "usage": {
+          "url": "https://github.com/nikolassv/bartib/blob/6b39bc0afb27a4143439604615e645e3050f7d06/README.md",
+          "snippet": "bartib -f /home/username/activities.bartib report"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/nikolassv/bartib",
+          "snippet": "A simple timetracker for the command line. It saves a log of all tracked activities as a plaintext file and allows you to create flexible reports."
+        },
+        "adoption": {
+          "stars": 847,
+          "githubSource": "https://github.com/nikolassv/bartib",
+          "homebrew": null
+        },
+        "commit": "6b39bc0afb27a4143439604615e645e3050f7d06"
+      }
+    },
+    "orkohunter/keep": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vadimdemedes/pastel": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "olets/zsh-abbr": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "knqyf263/pet": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sts10/rust-command-line-utilities": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ynqa/sig": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mikaelmello/inquire": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "chmln/sd": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bvanhoekelen/performance": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jmathai/elodie": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sharkdp/diskus": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "minicli/minicli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mpvnet-player/mpv.net": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "noisrucer/girok": {
+      "status": "held",
+      "checkedAt": "2026-09-14T01:44:19.653Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T00:44:18.483Z"
+  "lastRunAt": "2026-09-14T01:44:19.653Z"
 }

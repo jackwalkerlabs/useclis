@@ -5207,6 +5207,44 @@ window.USECLIS_DATA = {
       "stars": 1641,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-13T23:44:58.425Z"
+    },
+    {
+      "slug": "http-party-http-server",
+      "name": "http-server",
+      "repo": "http-party/http-server",
+      "category": "Data & APIs",
+      "command": "http-server",
+      "useCase": "A simple, zero-configuration, command-line http server",
+      "description": "A simple, zero-configuration, command-line http server",
+      "agentUse": "Invoke http-server from a shell for the documented use case: A simple, zero-configuration, command-line http server",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "http-server --proxy http://localhost:8080?",
+      "website": "https://github.com/http-party/http-server",
+      "docs": "https://github.com/http-party/http-server/blob/0d3b7bb5b6e8a59fd450ae2dca65870009cfcd8b/README.md",
+      "stars": 14234,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T01:44:33.160Z"
+    },
+    {
+      "slug": "nikolassv-bartib",
+      "name": "bartib",
+      "repo": "nikolassv/bartib",
+      "category": "Files & documents",
+      "command": "bartib",
+      "useCase": "A simple timetracker for the command line. It saves a log of all tracked activities as a plaintext file and allows you to create flexible reports.",
+      "description": "A simple timetracker for the command line. It saves a log of all tracked activities as a plaintext file and allows you to create flexible reports.",
+      "agentUse": "Invoke bartib from a shell for the documented use case: A simple timetracker for the command line. It saves a log of all tracked activities as a plaintext file and allows you to create flexible reports.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "bartib -f /home/username/activities.bartib report",
+      "website": "https://github.com/nikolassv/bartib",
+      "docs": "https://github.com/nikolassv/bartib/blob/6b39bc0afb27a4143439604615e645e3050f7d06/README.md",
+      "stars": 847,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-14T01:44:33.757Z"
     }
   ],
   "categories": [
