@@ -4,126 +4,6 @@
   "brewOffset": 120,
   "pending": [
     {
-      "repo": "harelba/q"
-    },
-    {
-      "repo": "makew0rld/didder"
-    },
-    {
-      "repo": "0k/shyaml"
-    },
-    {
-      "repo": "ajaxray/geek-life"
-    },
-    {
-      "repo": "tio/tio"
-    },
-    {
-      "repo": "ajalt/clikt"
-    },
-    {
-      "repo": "nolze/msoffcrypto-tool"
-    },
-    {
-      "repo": "trinib/Linux-Bash-Commands"
-    },
-    {
-      "repo": "hauntsaninja/pyp"
-    },
-    {
-      "repo": "RichiH/vcsh"
-    },
-    {
-      "repo": "learnbyexample/cli-computing"
-    },
-    {
-      "repo": "chubin/cheat.sh"
-    },
-    {
-      "repo": "learnbyexample/learn_gnuawk"
-    },
-    {
-      "repo": "cristalhq/aconfig"
-    },
-    {
-      "repo": "mouredev/hello-bash-shell"
-    },
-    {
-      "repo": "bilal-fazlani/commanddotnet"
-    },
-    {
-      "repo": "mixn/carbon-now-cli"
-    },
-    {
-      "repo": "oniony/TMSU"
-    },
-    {
-      "repo": "aksakalli/gtop"
-    },
-    {
-      "repo": "klaudiosinani/qoa"
-    },
-    {
-      "repo": "ayoisaiah/focus"
-    },
-    {
-      "repo": "leejarvis/slop"
-    },
-    {
-      "repo": "plandex-ai/plandex"
-    },
-    {
-      "repo": "sindresorhus/terminal-link"
-    },
-    {
-      "repo": "emilyanncr/Windows-Post-Exploitation"
-    },
-    {
-      "repo": "61418/aws-sso-util"
-    },
-    {
-      "repo": "alexhallam/tv"
-    },
-    {
-      "repo": "vet-run/vet"
-    },
-    {
-      "repo": "mayuki/Kurukuru"
-    },
-    {
-      "repo": "c-bata/go-prompt"
-    },
-    {
-      "repo": "fabiofalci/sconsify"
-    },
-    {
-      "repo": "adam-mcdaniel/dune"
-    },
-    {
-      "repo": "MehediH/Bulksplash"
-    },
-    {
-      "repo": "Scriptim/bash-prompt-generator"
-    },
-    {
-      "repo": "gulpjs/liftoff"
-    },
-    {
-      "repo": "kellyjonbrazil/jello"
-    },
-    {
-      "repo": "Nriver/Episode-ReName"
-    },
-    {
-      "repo": "terkelg/prompts"
-    },
-    {
-      "repo": "mifi/editly"
-    },
-    {
-      "repo": "gitbito/CLI"
-    },
-    {
       "repo": "kharvd/gpt-cli"
     },
     {
@@ -4687,7 +4567,207 @@
       "status": "held",
       "checkedAt": "2026-09-14T01:44:19.653Z",
       "reason": "Terminal use case needs classification"
+    },
+    "harelba/q": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "makew0rld/didder": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "0k/shyaml": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ajaxray/geek-life": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tio/tio": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ajalt/clikt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nolze/msoffcrypto-tool": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "trinib/linux-bash-commands": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hauntsaninja/pyp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "richih/vcsh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "learnbyexample/cli-computing": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "chubin/cheat.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "learnbyexample/learn_gnuawk": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cristalhq/aconfig": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mouredev/hello-bash-shell": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bilal-fazlani/commanddotnet": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mixn/carbon-now-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "oniony/tmsu": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aksakalli/gtop": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "klaudiosinani/qoa": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ayoisaiah/focus": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "leejarvis/slop": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "plandex-ai/plandex": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sindresorhus/terminal-link": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "emilyanncr/windows-post-exploitation": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "61418/aws-sso-util": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "alexhallam/tv": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vet-run/vet": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mayuki/kurukuru": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "c-bata/go-prompt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fabiofalci/sconsify": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "adam-mcdaniel/dune": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mehedih/bulksplash": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "scriptim/bash-prompt-generator": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gulpjs/liftoff": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kellyjonbrazil/jello": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nriver/episode-rename": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "terkelg/prompts": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mifi/editly": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gitbito/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-14T01:44:19.653Z"
+  "lastRunAt": "2026-09-14T02:44:19.106Z"
 }
