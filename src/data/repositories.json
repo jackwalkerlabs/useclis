@@ -2608,5 +2608,45 @@
     "language": "JavaScript",
     "checkedAt": "2026-09-14T09:44:41.566Z",
     "source": "https://github.com/parvardegr/sharing"
+  },
+  "etetoolkit-ete": {
+    "createdAt": "2010-11-13T16:04:25Z",
+    "pushedAt": "2026-06-01T22:06:01Z",
+    "lastCommitAt": "2026-06-01T22:02:38Z",
+    "stars": 885,
+    "license": "GPL-3.0",
+    "language": "Python",
+    "checkedAt": "2026-09-14T10:44:42.487Z",
+    "source": "https://github.com/etetoolkit/ete"
+  },
+  "automattic-browser-repl": {
+    "createdAt": "2014-02-14T00:28:56Z",
+    "pushedAt": "2026-06-01T00:02:31Z",
+    "lastCommitAt": "2026-06-01T00:02:23Z",
+    "stars": 730,
+    "license": null,
+    "language": "JavaScript",
+    "checkedAt": "2026-09-14T10:44:43.163Z",
+    "source": "https://github.com/Automattic/browser-repl"
+  },
+  "efforg-apkeep": {
+    "createdAt": "2021-04-27T03:49:42Z",
+    "pushedAt": "2026-05-04T23:41:21Z",
+    "lastCommitAt": "2026-05-04T23:40:52Z",
+    "stars": 2060,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-14T10:44:43.598Z",
+    "source": "https://github.com/EFForg/apkeep"
+  },
+  "lavie-runlike": {
+    "createdAt": "2015-06-04T05:12:31Z",
+    "pushedAt": "2026-04-27T14:03:20Z",
+    "lastCommitAt": "2025-02-25T21:20:24Z",
+    "stars": 2942,
+    "license": null,
+    "language": "Python",
+    "checkedAt": "2026-09-14T10:44:44.168Z",
+    "source": "https://github.com/lavie/runlike"
   }
 }

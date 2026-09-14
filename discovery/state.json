@@ -4,153 +4,6 @@
   "brewOffset": 160,
   "pending": [
     {
-      "repo": "clitic/vsd"
-    },
-    {
-      "repo": "DanielSWolf/rhubarb-lip-sync"
-    },
-    {
-      "repo": "rust-shell-script/rust_cmd_lib"
-    },
-    {
-      "repo": "nojhan/colout"
-    },
-    {
-      "repo": "dutchcoders/transfer.sh"
-    },
-    {
-      "repo": "ninxsoft/mist-cli"
-    },
-    {
-      "repo": "linux-sunxi/sunxi-tools"
-    },
-    {
-      "repo": "fuelen/owl"
-    },
-    {
-      "repo": "klattimer/LGWebOSRemote"
-    },
-    {
-      "repo": "hroptatyr/dateutils"
-    },
-    {
-      "repo": "ReVanced/revanced-cli"
-    },
-    {
-      "repo": "etetoolkit/ete"
-    },
-    {
-      "repo": "ameshkov/dnslookup"
-    },
-    {
-      "repo": "Automattic/browser-repl"
-    },
-    {
-      "repo": "icloud-photos-downloader/icloud_photos_downloader"
-    },
-    {
-      "repo": "wookayin/gpustat"
-    },
-    {
-      "repo": "allthemusicllc/atm-cli"
-    },
-    {
-      "repo": "nicfit/eyeD3"
-    },
-    {
-      "repo": "pimutils/todoman"
-    },
-    {
-      "repo": "laurikari/tre"
-    },
-    {
-      "repo": "linkedin/shiv"
-    },
-    {
-      "repo": "rahiel/telegram-send"
-    },
-    {
-      "repo": "cheat/cheat"
-    },
-    {
-      "repo": "einaregilsson/beanstalk-deploy"
-    },
-    {
-      "repo": "istanbuljs/nyc"
-    },
-    {
-      "repo": "cli-guidelines/cli-guidelines"
-    },
-    {
-      "repo": "sveinbjornt/Platypus"
-    },
-    {
-      "repo": "clearbluejar/ghidriff"
-    },
-    {
-      "repo": "PGYER/fir-cli"
-    },
-    {
-      "repo": "onevcat/FengNiao"
-    },
-    {
-      "repo": "minamijoyo/hcledit"
-    },
-    {
-      "repo": "EFForg/apkeep"
-    },
-    {
-      "repo": "leventcz/laravel-top"
-    },
-    {
-      "repo": "sharkdp/pastel"
-    },
-    {
-      "repo": "sharkdp/hexyl"
-    },
-    {
-      "repo": "sharkdp/hyperfine"
-    },
-    {
-      "repo": "ipinfo/cli"
-    },
-    {
-      "repo": "barnybug/cli53"
-    },
-    {
-      "repo": "lavie/runlike"
-    },
-    {
-      "repo": "glomatico/votify"
-    },
-    {
-      "repo": "guywaldman/magic-cli"
-    },
-    {
-      "repo": "Tencent/feflow"
-    },
-    {
-      "repo": "nashsu/AutoCLI"
-    },
-    {
-      "repo": "cli-table/cli-table3"
-    },
-    {
-      "repo": "sandreas/m4b-tool"
-    },
-    {
-      "repo": "http-party/http-server"
-    },
-    {
-      "repo": "cbeust/jcommander"
-    },
-    {
-      "repo": "gleitz/howdoi"
-    },
-    {
-      "repo": "RedSiege/C2concealer"
-    },
-    {
       "repo": "arqbackup/arq_restore"
     },
     {
@@ -6182,7 +6035,315 @@
         },
         "commit": "e103cc3124227f42ea1e31f138560cbe7c031904"
       }
+    },
+    "clitic/vsd": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nojhan/colout": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dutchcoders/transfer.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ninxsoft/mist-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "linux-sunxi/sunxi-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fuelen/owl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "klattimer/lgwebosremote": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "revanced/revanced-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "etetoolkit/ete": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "GitHub stars",
+      "slug": "etetoolkit-ete",
+      "acceptedAt": "2026-09-14T10:44:21.422Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/etetoolkit/ete/blob/9562dfb6a02795dfda3975be5025f83b8dc884b1/pyproject.toml",
+          "snippet": "ete4 = \"ete4.tools.ete:main\"",
+          "target": "ete4/tools/ete.py"
+        },
+        "installation": {
+          "url": "https://github.com/etetoolkit/ete/blob/9562dfb6a02795dfda3975be5025f83b8dc884b1/README.md",
+          "snippet": "pip install ete4"
+        },
+        "usage": {
+          "url": "https://github.com/etetoolkit/ete/blob/9562dfb6a02795dfda3975be5025f83b8dc884b1/README.md",
+          "snippet": "ete4 explore -t my_tree.nw"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/etetoolkit/ete",
+          "snippet": "Python package for building, comparing, annotating, manipulating and visualising trees. It provides a comprehensive API and a collection of command line tools, including utilities to work with the NCBI taxonomy tree. "
+        },
+        "adoption": {
+          "stars": 885,
+          "githubSource": "https://github.com/etetoolkit/ete",
+          "homebrew": null
+        },
+        "commit": "9562dfb6a02795dfda3975be5025f83b8dc884b1"
+      }
+    },
+    "ameshkov/dnslookup": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "automattic/browser-repl": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "GitHub stars",
+      "slug": "automattic-browser-repl",
+      "acceptedAt": "2026-09-14T10:44:21.422Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Automattic/browser-repl/blob/df580ef7dac49a8cc74a93342ce877a0f3a65535/package.json",
+          "snippet": "{\"bin\":{\"repl\":\"./repl.js\"}}",
+          "target": "repl.js"
+        },
+        "installation": {
+          "url": "https://github.com/Automattic/browser-repl/blob/df580ef7dac49a8cc74a93342ce877a0f3a65535/Readme.md",
+          "snippet": "$ npm install -g browser-repl"
+        },
+        "usage": {
+          "url": "https://github.com/Automattic/browser-repl/blob/df580ef7dac49a8cc74a93342ce877a0f3a65535/Readme.md",
+          "snippet": "repl ie6"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Automattic/browser-repl",
+          "snippet": "Launch a repl on your command line to any browser in the cloud."
+        },
+        "adoption": {
+          "stars": 730,
+          "githubSource": "https://github.com/Automattic/browser-repl",
+          "homebrew": null
+        },
+        "commit": "df580ef7dac49a8cc74a93342ce877a0f3a65535"
+      }
+    },
+    "icloud-photos-downloader/icloud_photos_downloader": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "allthemusicllc/atm-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nicfit/eyed3": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pimutils/todoman": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "laurikari/tre": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "linkedin/shiv": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cheat/cheat": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "einaregilsson/beanstalk-deploy": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "istanbuljs/nyc": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "cli-guidelines/cli-guidelines": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sveinbjornt/platypus": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "clearbluejar/ghidriff": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pgyer/fir-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "onevcat/fengniao": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "minamijoyo/hcledit": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "efforg/apkeep": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "GitHub stars",
+      "slug": "efforg-apkeep",
+      "acceptedAt": "2026-09-14T10:44:21.422Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/EFForg/apkeep/blob/0a60a4af03444ae237fa018848623ff9cd8b6119/Cargo.toml",
+          "snippet": "package.name=\"apkeep\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/EFForg/apkeep/blob/0a60a4af03444ae237fa018848623ff9cd8b6119/README.md",
+          "snippet": "cargo install apkeep"
+        },
+        "usage": {
+          "url": "https://github.com/EFForg/apkeep/blob/0a60a4af03444ae237fa018848623ff9cd8b6119/README.md",
+          "snippet": "apkeep -a com.instagram.android ."
+        },
+        "description": {
+          "url": "https://api.github.com/repos/EFForg/apkeep",
+          "snippet": "A command-line tool for downloading APK files from various sources"
+        },
+        "adoption": {
+          "stars": 2060,
+          "githubSource": "https://github.com/EFForg/apkeep",
+          "homebrew": null
+        },
+        "commit": "0a60a4af03444ae237fa018848623ff9cd8b6119"
+      }
+    },
+    "leventcz/laravel-top": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ipinfo/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "barnybug/cli53": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lavie/runlike": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "GitHub stars",
+      "slug": "lavie-runlike",
+      "acceptedAt": "2026-09-14T10:44:21.422Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/lavie/runlike/blob/91e74d35890a2ba831f9d34c9dc8b8135bb95676/pyproject.toml",
+          "snippet": "runlike = \"runlike.runlike:main\"",
+          "target": "runlike/runlike.py"
+        },
+        "installation": {
+          "url": "https://github.com/lavie/runlike/blob/91e74d35890a2ba831f9d34c9dc8b8135bb95676/README.md",
+          "snippet": "$ pip install runlike"
+        },
+        "usage": {
+          "url": "https://github.com/lavie/runlike/blob/91e74d35890a2ba831f9d34c9dc8b8135bb95676/README.md",
+          "snippet": "runlike YOUR-CONTAINER"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/lavie/runlike",
+          "snippet": "Given an existing docker container, prints the command line necessary to run a copy of it."
+        },
+        "adoption": {
+          "stars": 2942,
+          "githubSource": "https://github.com/lavie/runlike",
+          "homebrew": null
+        },
+        "commit": "91e74d35890a2ba831f9d34c9dc8b8135bb95676"
+      }
+    },
+    "glomatico/votify": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "guywaldman/magic-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tencent/feflow": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nashsu/autocli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "cli-table/cli-table3": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sandreas/m4b-tool": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cbeust/jcommander": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gleitz/howdoi": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "redsiege/c2concealer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T09:44:19.179Z"
+  "lastRunAt": "2026-09-14T10:44:21.422Z"
 }

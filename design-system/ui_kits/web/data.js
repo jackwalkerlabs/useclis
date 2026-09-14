@@ -5492,6 +5492,82 @@ window.USECLIS_DATA = {
       "stars": 1837,
       "license": "MIT",
       "checkedAt": "2026-09-14T09:44:41.566Z"
+    },
+    {
+      "slug": "etetoolkit-ete",
+      "name": "ete",
+      "repo": "etetoolkit/ete",
+      "category": "Data & APIs",
+      "command": "ete4",
+      "useCase": "Python package for building, comparing, annotating, manipulating and visualising trees. It provides a comprehensive API and a collection of command line tools, including utilities to work with the NCBI taxonomy tree. ",
+      "description": "Python package for building, comparing, annotating, manipulating and visualising trees. It provides a comprehensive API and a collection of command line tools, including utilities to work with the NCBI taxonomy tree. ",
+      "agentUse": "Invoke ete4 from a shell for the documented use case: Python package for building, comparing, annotating, manipulating and visualising trees. It provides a comprehensive API and a collection of command line tools, including utilities to work with the NCBI taxonomy tree. ",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ete4 explore -t my_tree.nw",
+      "website": "https://github.com/etetoolkit/ete",
+      "docs": "https://github.com/etetoolkit/ete/blob/9562dfb6a02795dfda3975be5025f83b8dc884b1/README.md",
+      "stars": 885,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-14T10:44:42.487Z"
+    },
+    {
+      "slug": "automattic-browser-repl",
+      "name": "browser-repl",
+      "repo": "Automattic/browser-repl",
+      "category": "Cloud & deployment",
+      "command": "repl",
+      "useCase": "Launch a repl on your command line to any browser in the cloud.",
+      "description": "Launch a repl on your command line to any browser in the cloud.",
+      "agentUse": "Invoke repl from a shell for the documented use case: Launch a repl on your command line to any browser in the cloud.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "repl ie6",
+      "website": "https://github.com/Automattic/browser-repl",
+      "docs": "https://github.com/Automattic/browser-repl/blob/df580ef7dac49a8cc74a93342ce877a0f3a65535/Readme.md",
+      "stars": 730,
+      "license": null,
+      "checkedAt": "2026-09-14T10:44:43.163Z"
+    },
+    {
+      "slug": "efforg-apkeep",
+      "name": "apkeep",
+      "repo": "EFForg/apkeep",
+      "category": "Files & documents",
+      "command": "apkeep",
+      "useCase": "A command-line tool for downloading APK files from various sources",
+      "description": "A command-line tool for downloading APK files from various sources",
+      "agentUse": "Invoke apkeep from a shell for the documented use case: A command-line tool for downloading APK files from various sources",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "apkeep -a com.instagram.android .",
+      "website": "https://github.com/EFForg/apkeep",
+      "docs": "https://github.com/EFForg/apkeep/blob/0a60a4af03444ae237fa018848623ff9cd8b6119/README.md",
+      "stars": 2060,
+      "license": "MIT",
+      "checkedAt": "2026-09-14T10:44:43.598Z"
+    },
+    {
+      "slug": "lavie-runlike",
+      "name": "runlike",
+      "repo": "lavie/runlike",
+      "category": "Cloud & deployment",
+      "command": "runlike",
+      "useCase": "Given an existing docker container, prints the command line necessary to run a copy of it.",
+      "description": "Given an existing docker container, prints the command line necessary to run a copy of it.",
+      "agentUse": "Invoke runlike from a shell for the documented use case: Given an existing docker container, prints the command line necessary to run a copy of it.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "runlike YOUR-CONTAINER",
+      "website": "https://github.com/lavie/runlike",
+      "docs": "https://github.com/lavie/runlike/blob/91e74d35890a2ba831f9d34c9dc8b8135bb95676/README.md",
+      "stars": 2942,
+      "license": null,
+      "checkedAt": "2026-09-14T10:44:44.168Z"
     }
   ],
   "categories": [

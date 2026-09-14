@@ -2923,5 +2923,57 @@
     "createdAt": "2014-10-29T17:34:51Z",
     "checkedAt": "2026-09-14T09:44:43.604Z",
     "source": "https://github.com/parvardegr"
+  },
+  "etetoolkit": {
+    "login": "etetoolkit",
+    "name": "ETE Toolkit",
+    "type": "Organization",
+    "bio": "A Python framework for the analysis and visualization of trees.",
+    "location": null,
+    "website": "http://etetoolkit.org",
+    "followers": 40,
+    "publicRepos": 16,
+    "createdAt": "2016-01-31T08:56:02Z",
+    "checkedAt": "2026-09-14T10:44:46.338Z",
+    "source": "https://github.com/etetoolkit"
+  },
+  "automattic": {
+    "login": "Automattic",
+    "name": "Automattic",
+    "type": "Organization",
+    "bio": "We are passionate about making the web a better place.",
+    "location": "Worldwide",
+    "website": "https://automattic.com",
+    "followers": 3336,
+    "publicRepos": 1402,
+    "createdAt": "2011-07-01T02:45:15Z",
+    "checkedAt": "2026-09-14T10:44:46.685Z",
+    "source": "https://github.com/Automattic"
+  },
+  "efforg": {
+    "login": "EFForg",
+    "name": "Electronic Frontier Foundation",
+    "type": "Organization",
+    "bio": null,
+    "location": "San Francisco",
+    "website": "https://www.eff.org/",
+    "followers": 1696,
+    "publicRepos": 107,
+    "createdAt": "2012-08-09T01:26:53Z",
+    "checkedAt": "2026-09-14T10:44:46.993Z",
+    "source": "https://github.com/EFForg"
+  },
+  "lavie": {
+    "login": "lavie",
+    "name": "assaf",
+    "type": "User",
+    "bio": "PGP: 8521 A389 FD0F B051 951B  F838 EB2F 2DF5 D9B9 E053",
+    "location": null,
+    "website": "https://assaf.io",
+    "followers": 48,
+    "publicRepos": 82,
+    "createdAt": "2010-03-30T14:44:01Z",
+    "checkedAt": "2026-09-14T10:44:47.332Z",
+    "source": "https://github.com/lavie"
   }
 }
