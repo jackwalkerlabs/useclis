@@ -4,200 +4,6 @@
   "brewOffset": 120,
   "pending": [
     {
-      "repo": "Azure/azure-storage-azcopy",
-      "formula": "azcopy"
-    },
-    {
-      "repo": "chrisryugj/kordoc"
-    },
-    {
-      "repo": "Azure/azure-cli",
-      "formula": "azure-cli"
-    },
-    {
-      "repo": "aisk/pick"
-    },
-    {
-      "repo": "Azure/azure-dev",
-      "formula": "azure-dev"
-    },
-    {
-      "repo": "Harry-kp/vortix"
-    },
-    {
-      "repo": "BLAKE3-team/BLAKE3",
-      "formula": "b3sum"
-    },
-    {
-      "repo": "mnemon-dev/mnemon"
-    },
-    {
-      "repo": "MrLesk/Backlog.md",
-      "formula": "backlog-md"
-    },
-    {
-      "repo": "wait4x/wait4x"
-    },
-    {
-      "repo": "K9i-0/ccpocket"
-    },
-    {
-      "repo": "box-cli-maker/box-cli-maker"
-    },
-    {
-      "repo": "foresterre/cargo-msrv"
-    },
-    {
-      "repo": "Automattic/studio"
-    },
-    {
-      "repo": "tmux-python/tmuxp"
-    },
-    {
-      "repo": "tmux-python/libtmux"
-    },
-    {
-      "repo": "eat-pray-ai/yutu"
-    },
-    {
-      "repo": "rockbenben/subtitle-translator"
-    },
-    {
-      "repo": "darkroomengineering/satus"
-    },
-    {
-      "repo": "lvgl/lvgl_pro"
-    },
-    {
-      "repo": "SynkraAI/aiox-core"
-    },
-    {
-      "repo": "tomasz-tomczyk/crit"
-    },
-    {
-      "repo": "ihabunek/toot"
-    },
-    {
-      "repo": "zk-org/zk"
-    },
-    {
-      "repo": "version-fox/vfox"
-    },
-    {
-      "repo": "AdnanHodzic/auto-cpufreq"
-    },
-    {
-      "repo": "MemTensor/memmy-agent"
-    },
-    {
-      "repo": "PipedreamHQ/pipedream"
-    },
-    {
-      "repo": "Orange-OpenSource/hurl"
-    },
-    {
-      "repo": "harbur/captain"
-    },
-    {
-      "repo": "fujiapple852/trippy"
-    },
-    {
-      "repo": "extension-js/extension.js"
-    },
-    {
-      "repo": "noborus/ov"
-    },
-    {
-      "repo": "JordanCoin/codemap"
-    },
-    {
-      "repo": "microsoft/BuildXL"
-    },
-    {
-      "repo": "marcosnils/bin"
-    },
-    {
-      "repo": "pallets/click"
-    },
-    {
-      "repo": "TestSprite/testsprite-cli"
-    },
-    {
-      "repo": "leo-arch/clifm"
-    },
-    {
-      "repo": "Gitlawb/openclaude"
-    },
-    {
-      "repo": "sxyazi/yazi"
-    },
-    {
-      "repo": "python-cmd2/cmd2"
-    },
-    {
-      "repo": "dominikwilkowski/cfonts"
-    },
-    {
-      "repo": "dotenvx/dotenvx"
-    },
-    {
-      "repo": "restatedev/restate"
-    },
-    {
-      "repo": "equinix-labs/otel-cli"
-    },
-    {
-      "repo": "pamburus/hl"
-    },
-    {
-      "repo": "leoafarias/fvm"
-    },
-    {
-      "repo": "microsoft/inshellisense"
-    },
-    {
-      "repo": "JimmXinu/FanFicFare"
-    },
-    {
-      "repo": "Exiv2/exiv2"
-    },
-    {
-      "repo": "getsentry/sentry-cli"
-    },
-    {
-      "repo": "zenbu-labs/terminal-browser"
-    },
-    {
-      "repo": "Devolutions/UniGetUI"
-    },
-    {
-      "repo": "jline/jline3"
-    },
-    {
-      "repo": "oclif/oclif"
-    },
-    {
-      "repo": "simple-acme/simple-acme"
-    },
-    {
-      "repo": "projectdiscovery/katana"
-    },
-    {
-      "repo": "alexpasmantier/television"
-    },
-    {
-      "repo": "ifixai-ai/iFixAi"
-    },
-    {
-      "repo": "operately/operately"
-    },
-    {
-      "repo": "elringus/sprite-dicing"
-    },
-    {
-      "repo": "zenbu-labs/terminal-code"
-    },
-    {
       "repo": "mufeedvh/code2prompt"
     },
     {
@@ -4577,7 +4383,207 @@
       "status": "held",
       "checkedAt": "2026-09-13T23:44:22.249Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "azure/azure-storage-azcopy": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "chrisryugj/kordoc": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "aisk/pick": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "harry-kp/vortix": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "blake3-team/blake3": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mnemon-dev/mnemon": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mrlesk/backlog.md": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wait4x/wait4x": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "k9i-0/ccpocket": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "box-cli-maker/box-cli-maker": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "foresterre/cargo-msrv": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tmux-python/tmuxp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tmux-python/libtmux": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "eat-pray-ai/yutu": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rockbenben/subtitle-translator": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lvgl/lvgl_pro": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ihabunek/toot": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "zk-org/zk": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "version-fox/vfox": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "adnanhodzic/auto-cpufreq": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "orange-opensource/hurl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "harbur/captain": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fujiapple852/trippy": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jordancoin/codemap": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "marcosnils/bin": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "testsprite/testsprite-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gitlawb/openclaude": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dominikwilkowski/cfonts": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pamburus/hl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "leoafarias/fvm": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "microsoft/inshellisense": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jimmxinu/fanficfare": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "exiv2/exiv2": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "getsentry/sentry-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jline/jline3": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "oclif/oclif": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "alexpasmantier/television": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ifixai-ai/ifixai": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "elringus/sprite-dicing": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zenbu-labs/terminal-code": {
+      "status": "held",
+      "checkedAt": "2026-09-14T00:44:18.483Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-13T23:44:22.249Z"
+  "lastRunAt": "2026-09-14T00:44:18.483Z"
 }
