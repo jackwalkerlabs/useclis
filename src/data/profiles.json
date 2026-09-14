@@ -2871,5 +2871,18 @@
     "createdAt": "2010-03-11T21:20:40Z",
     "checkedAt": "2026-09-14T07:44:36.610Z",
     "source": "https://github.com/ruyadorno"
+  },
+  "dat-ecosystem": {
+    "login": "dat-ecosystem",
+    "name": "Dat Ecosystem",
+    "type": "Organization",
+    "bio": "Dat Ecosystem (https://opencollective.com/dat) is comprised of many groups with shared values bulding on top of the https://docs.holepunch.to stack",
+    "location": "https://discord.gg/egsvGc9TkQ",
+    "website": "https://dat-ecosystem.org",
+    "followers": 126,
+    "publicRepos": 23,
+    "createdAt": "2021-01-06T19:53:51Z",
+    "checkedAt": "2026-09-14T08:44:39.113Z",
+    "source": "https://github.com/dat-ecosystem"
   }
 }

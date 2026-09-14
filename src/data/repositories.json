@@ -2568,5 +2568,15 @@
     "language": "JavaScript",
     "checkedAt": "2026-09-14T07:44:34.518Z",
     "source": "https://github.com/ruyadorno/ntl"
+  },
+  "dat-ecosystem-dat": {
+    "createdAt": "2013-06-27T03:12:34Z",
+    "pushedAt": "2023-05-07T20:39:11Z",
+    "lastCommitAt": "2023-05-07T20:39:10Z",
+    "stars": 8225,
+    "license": "BSD-3-Clause",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-14T08:44:37.640Z",
+    "source": "https://github.com/dat-ecosystem/dat"
   }
 }

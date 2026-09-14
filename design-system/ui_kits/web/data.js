@@ -5416,6 +5416,25 @@ window.USECLIS_DATA = {
       "stars": 962,
       "license": "MIT",
       "checkedAt": "2026-09-14T07:44:34.518Z"
+    },
+    {
+      "slug": "dat-ecosystem-dat",
+      "name": "dat",
+      "repo": "dat-ecosystem/dat",
+      "category": "Files & documents",
+      "command": "dat",
+      "useCase": ":floppy_disk: peer-to-peer sharing & live syncronization of files via command line",
+      "description": ":floppy_disk: peer-to-peer sharing & live syncronization of files via command line",
+      "agentUse": "Invoke dat from a shell for the documented use case: :floppy_disk: peer-to-peer sharing & live syncronization of files via command line",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "dat v13.5.0",
+      "website": "https://github.com/dat-ecosystem/dat",
+      "docs": "https://github.com/dat-ecosystem/dat/blob/14885d660adc01e19c84dc69f2a9ab3990b6584e/README.md",
+      "stars": 8225,
+      "license": "BSD-3-Clause",
+      "checkedAt": "2026-09-14T08:44:37.640Z"
     }
   ],
   "categories": [

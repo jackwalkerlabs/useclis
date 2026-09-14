@@ -4,126 +4,6 @@
   "brewOffset": 160,
   "pending": [
     {
-      "repo": "lukeed/mri"
-    },
-    {
-      "repo": "jawher/mow.cli"
-    },
-    {
-      "repo": "CITGuru/PyInquirer"
-    },
-    {
-      "repo": "commandlineparser/commandline"
-    },
-    {
-      "repo": "sqshq/sampler"
-    },
-    {
-      "repo": "jarulraj/sqlcheck"
-    },
-    {
-      "repo": "donnemartin/gitsome"
-    },
-    {
-      "repo": "ZacharyPatten/Towel"
-    },
-    {
-      "repo": "mattallty/Caporal.js"
-    },
-    {
-      "repo": "ChestnutHeng/Wudao-dict"
-    },
-    {
-      "repo": "mkchoi212/fac"
-    },
-    {
-      "repo": "XiaoMi/soar"
-    },
-    {
-      "repo": "you-dont-need/You-Dont-Need-GUI"
-    },
-    {
-      "repo": "NayamAmarshe/please"
-    },
-    {
-      "repo": "npkgz/cli-progress"
-    },
-    {
-      "repo": "michaelmacinnis/oh"
-    },
-    {
-      "repo": "timothycrosley/portray"
-    },
-    {
-      "repo": "bcicen/grmon"
-    },
-    {
-      "repo": "daleroberts/itermplot"
-    },
-    {
-      "repo": "nilaoda/N_m3u8DL-CLI"
-    },
-    {
-      "repo": "gammons/ultralist"
-    },
-    {
-      "repo": "dat-ecosystem/dat"
-    },
-    {
-      "repo": "chmln/handlr"
-    },
-    {
-      "repo": "keepcosmos/terjira"
-    },
-    {
-      "repo": "dataproofer/Dataproofer"
-    },
-    {
-      "repo": "dcmoura/spyql"
-    },
-    {
-      "repo": "xuxiaodong/usingcli-book"
-    },
-    {
-      "repo": "ldn-softdev/jtc"
-    },
-    {
-      "repo": "eBay/tsv-utils"
-    },
-    {
-      "repo": "grpc-ecosystem/polyglot"
-    },
-    {
-      "repo": "2mol/pboy"
-    },
-    {
-      "repo": "xwmx/bash-boilerplate"
-    },
-    {
-      "repo": "nschloe/termplotlib"
-    },
-    {
-      "repo": "richrd/suplemon"
-    },
-    {
-      "repo": "nsomar/Swiftline"
-    },
-    {
-      "repo": "jakeheis/SwiftCLI"
-    },
-    {
-      "repo": "Fakerr/git-recall"
-    },
-    {
-      "repo": "kren1/tosheets"
-    },
-    {
-      "repo": "neverpanic/google-font-download"
-    },
-    {
-      "repo": "nsomar/Guaka"
-    },
-    {
       "repo": "adtac/climate"
     },
     {
@@ -5935,7 +5815,234 @@
       "status": "held",
       "checkedAt": "2026-09-14T07:44:19.259Z",
       "reason": "Terminal use case needs classification"
+    },
+    "lukeed/mri": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jawher/mow.cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "citguru/pyinquirer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "commandlineparser/commandline": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sqshq/sampler": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jarulraj/sqlcheck": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "donnemartin/gitsome": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "zacharypatten/towel": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mattallty/caporal.js": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "chestnutheng/wudao-dict": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mkchoi212/fac": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xiaomi/soar": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "you-dont-need/you-dont-need-gui": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "nayamamarshe/please": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "npkgz/cli-progress": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "michaelmacinnis/oh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "timothycrosley/portray": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bcicen/grmon": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "daleroberts/itermplot": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nilaoda/n_m3u8dl-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gammons/ultralist": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dat-ecosystem/dat": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "GitHub stars",
+      "slug": "dat-ecosystem-dat",
+      "acceptedAt": "2026-09-14T08:44:22.215Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/dat-ecosystem/dat/blob/14885d660adc01e19c84dc69f2a9ab3990b6584e/package.json",
+          "snippet": "{\"bin\":{\"dat\":\"bin/cli.js\"}}",
+          "target": "bin/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/dat-ecosystem/dat/blob/14885d660adc01e19c84dc69f2a9ab3990b6584e/README.md",
+          "snippet": "> npm install -g dat"
+        },
+        "usage": {
+          "url": "https://github.com/dat-ecosystem/dat/blob/14885d660adc01e19c84dc69f2a9ab3990b6584e/README.md",
+          "snippet": "dat v13.5.0"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/dat-ecosystem/dat",
+          "snippet": ":floppy_disk: peer-to-peer sharing & live syncronization of files via command line"
+        },
+        "adoption": {
+          "stars": 8225,
+          "githubSource": "https://github.com/dat-ecosystem/dat",
+          "homebrew": null
+        },
+        "commit": "14885d660adc01e19c84dc69f2a9ab3990b6584e"
+      }
+    },
+    "chmln/handlr": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "keepcosmos/terjira": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dataproofer/dataproofer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dcmoura/spyql": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "xuxiaodong/usingcli-book": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ldn-softdev/jtc": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ebay/tsv-utils": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "grpc-ecosystem/polyglot": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "2mol/pboy": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "xwmx/bash-boilerplate": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nschloe/termplotlib": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "richrd/suplemon": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nsomar/swiftline": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jakeheis/swiftcli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fakerr/git-recall": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kren1/tosheets": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "neverpanic/google-font-download": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nsomar/guaka": {
+      "status": "held",
+      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T07:44:19.259Z"
+  "lastRunAt": "2026-09-14T08:44:22.215Z"
 }

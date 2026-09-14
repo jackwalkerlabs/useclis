@@ -4643,5 +4643,21 @@
     "example": "ntl ./my-node-project",
     "website": "https://github.com/ruyadorno/ntl",
     "docs": "https://github.com/ruyadorno/ntl/blob/7f4126c3a2f6cc77fc36c6e3a93af14122ce22df/README.md"
+  },
+  {
+    "slug": "dat-ecosystem-dat",
+    "name": "dat",
+    "repo": "dat-ecosystem/dat",
+    "category": "Files & documents",
+    "command": "dat",
+    "useCase": ":floppy_disk: peer-to-peer sharing & live syncronization of files via command line",
+    "description": ":floppy_disk: peer-to-peer sharing & live syncronization of files via command line",
+    "agentUse": "Invoke dat from a shell for the documented use case: :floppy_disk: peer-to-peer sharing & live syncronization of files via command line",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "dat v13.5.0",
+    "website": "https://github.com/dat-ecosystem/dat",
+    "docs": "https://github.com/dat-ecosystem/dat/blob/14885d660adc01e19c84dc69f2a9ab3990b6584e/README.md"
   }
 ]
