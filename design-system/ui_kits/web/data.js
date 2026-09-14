@@ -5568,6 +5568,25 @@ window.USECLIS_DATA = {
       "stars": 2942,
       "license": null,
       "checkedAt": "2026-09-14T10:44:44.168Z"
+    },
+    {
+      "slug": "seemseam-claude-codex-bridge",
+      "name": "claude_codex_bridge",
+      "repo": "SeemSeam/claude_codex_bridge",
+      "category": "Agents & models",
+      "command": "ccb",
+      "useCase": "Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents",
+      "description": "Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents",
+      "agentUse": "Invoke ccb from a shell for the documented use case: Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ccb --print-version",
+      "website": "https://github.com/SeemSeam/claude_codex_bridge",
+      "docs": "https://github.com/SeemSeam/claude_codex_bridge/blob/20ac0ec58c17375bab2ce3bb75fa2efcc5bd8cf6/README.md",
+      "stars": 3495,
+      "license": null,
+      "checkedAt": "2026-09-14T13:44:46.977Z"
     }
   ],
   "categories": [

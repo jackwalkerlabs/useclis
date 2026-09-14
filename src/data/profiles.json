@@ -2975,5 +2975,18 @@
     "createdAt": "2010-03-30T14:44:01Z",
     "checkedAt": "2026-09-14T10:44:47.332Z",
     "source": "https://github.com/lavie"
+  },
+  "seemseam": {
+    "login": "SeemSeam",
+    "name": "SeemSeam",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 59,
+    "publicRepos": 61,
+    "createdAt": "2017-06-05T15:04:16Z",
+    "checkedAt": "2026-09-14T13:44:48.681Z",
+    "source": "https://github.com/SeemSeam"
   }
 }

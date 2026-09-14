@@ -4,180 +4,6 @@
   "brewOffset": 200,
   "pending": [
     {
-      "repo": "playcanvas/splat-transform"
-    },
-    {
-      "repo": "vultr/vultr-cli"
-    },
-    {
-      "repo": "promptdriven/pdd"
-    },
-    {
-      "repo": "charmbracelet/vhs"
-    },
-    {
-      "repo": "SeemSeam/claude_codex_bridge"
-    },
-    {
-      "repo": "kimono-koans/httm"
-    },
-    {
-      "repo": "SAP/jenkins-library"
-    },
-    {
-      "repo": "LiuMengxuan04/MiniCode"
-    },
-    {
-      "repo": "alvarorichard/GoAnime"
-    },
-    {
-      "repo": "shibayan/Sharprompt"
-    },
-    {
-      "repo": "LeyckerS/moondownloader"
-    },
-    {
-      "repo": "gitleaks/gitleaks"
-    },
-    {
-      "repo": "danvergara/dblab"
-    },
-    {
-      "repo": "Adamant-im/adamant-console"
-    },
-    {
-      "repo": "eli64s/readme-ai"
-    },
-    {
-      "repo": "mono0926/LicensePlist"
-    },
-    {
-      "repo": "sebastiancarlos/beachpatrol"
-    },
-    {
-      "repo": "ignite/cli"
-    },
-    {
-      "repo": "alexellis/arkade"
-    },
-    {
-      "repo": "sharkdp/fd"
-    },
-    {
-      "repo": "tox-dev/tox"
-    },
-    {
-      "repo": "bencoveney/barrelsby"
-    },
-    {
-      "repo": "jarun/buku"
-    },
-    {
-      "repo": "deviceinsight/kafkactl"
-    },
-    {
-      "repo": "pypa/pipx"
-    },
-    {
-      "repo": "yamafaktory/jql"
-    },
-    {
-      "repo": "BlockchainCommons/Learning-Bitcoin-from-the-Command-Line"
-    },
-    {
-      "repo": "bahdotsh/wrkflw"
-    },
-    {
-      "repo": "pimalaya/himalaya"
-    },
-    {
-      "repo": "martinpaljak/GlobalPlatformPro"
-    },
-    {
-      "repo": "zapier/zapier-platform"
-    },
-    {
-      "repo": "go-flutter-desktop/hover"
-    },
-    {
-      "repo": "homeport/termshot"
-    },
-    {
-      "repo": "TheOrcDev/shadscan"
-    },
-    {
-      "repo": "marp-team/marp-cli"
-    },
-    {
-      "repo": "absolute-version/commit-and-tag-version"
-    },
-    {
-      "repo": "realiti4/claude-swap"
-    },
-    {
-      "repo": "ZupIT/horusec"
-    },
-    {
-      "repo": "kubecolor/kubecolor"
-    },
-    {
-      "repo": "chuspeeism/dashi-taskboard"
-    },
-    {
-      "repo": "fastapi/typer"
-    },
-    {
-      "repo": "voidcosmos/npkill"
-    },
-    {
-      "repo": "erickochen/purple"
-    },
-    {
-      "repo": "dlvhdr/gh-dash"
-    },
-    {
-      "repo": "oracle/oci-cli"
-    },
-    {
-      "repo": "tddworks/baguette"
-    },
-    {
-      "repo": "mahmoud/glom"
-    },
-    {
-      "repo": "antoniorodr/cronboard"
-    },
-    {
-      "repo": "aliyun/aliyun-cli"
-    },
-    {
-      "repo": "peternaame-boop/ytm-player"
-    },
-    {
-      "repo": "Arthur-Ficial/apfel"
-    },
-    {
-      "repo": "r14dd/patent"
-    },
-    {
-      "repo": "sloria/doitlive"
-    },
-    {
-      "repo": "s3rgeym/hh-applicant-tool"
-    },
-    {
-      "repo": "x-cmd/x-cmd"
-    },
-    {
-      "repo": "lusingander/serie"
-    },
-    {
-      "repo": "sequelize/cli"
-    },
-    {
-      "repo": "scaffdog/scaffdog"
-    },
-    {
       "repo": "ajeetdsouza/zoxide"
     },
     {
@@ -7031,7 +6857,234 @@
       "status": "held",
       "checkedAt": "2026-09-14T12:44:22.966Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "playcanvas/splat-transform": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vultr/vultr-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "promptdriven/pdd": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "seemseam/claude_codex_bridge": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "GitHub stars",
+      "slug": "seemseam-claude-codex-bridge",
+      "acceptedAt": "2026-09-14T13:44:21.937Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/SeemSeam/claude_codex_bridge/blob/20ac0ec58c17375bab2ce3bb75fa2efcc5bd8cf6/package.json",
+          "snippet": "{\"bin\":{\"ccb\":\"bin/ccb.js\"}}",
+          "target": "bin/ccb.js"
+        },
+        "installation": {
+          "url": "https://github.com/SeemSeam/claude_codex_bridge/blob/20ac0ec58c17375bab2ce3bb75fa2efcc5bd8cf6/README.md",
+          "snippet": "npm install -g @seemseam/ccb@latest"
+        },
+        "usage": {
+          "url": "https://github.com/SeemSeam/claude_codex_bridge/blob/20ac0ec58c17375bab2ce3bb75fa2efcc5bd8cf6/README.md",
+          "snippet": "ccb --print-version"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/SeemSeam/claude_codex_bridge",
+          "snippet": "Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents"
+        },
+        "adoption": {
+          "stars": 3495,
+          "githubSource": "https://github.com/SeemSeam/claude_codex_bridge",
+          "homebrew": null
+        },
+        "commit": "20ac0ec58c17375bab2ce3bb75fa2efcc5bd8cf6"
+      }
+    },
+    "sap/jenkins-library": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "liumengxuan04/minicode": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "alvarorichard/goanime": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "leyckers/moondownloader": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "eli64s/readme-ai": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mono0926/licenseplist": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sebastiancarlos/beachpatrol": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ignite/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bencoveney/barrelsby": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yamafaktory/jql": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "blockchaincommons/learning-bitcoin-from-the-command-line": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bahdotsh/wrkflw": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "martinpaljak/globalplatformpro": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zapier/zapier-platform": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "go-flutter-desktop/hover": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "homeport/termshot": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "theorcdev/shadscan": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "absolute-version/commit-and-tag-version": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "realiti4/claude-swap": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zupit/horusec": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kubecolor/kubecolor": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "chuspeeism/dashi-taskboard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fastapi/typer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "erickochen/purple": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dlvhdr/gh-dash": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tddworks/baguette": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mahmoud/glom": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "antoniorodr/cronboard": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "peternaame-boop/ytm-player": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "arthur-ficial/apfel": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "r14dd/patent": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "s3rgeym/hh-applicant-tool": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "x-cmd/x-cmd": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lusingander/serie": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sequelize/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "scaffdog/scaffdog": {
+      "status": "held",
+      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-14T12:44:22.966Z"
+  "lastRunAt": "2026-09-14T13:44:21.937Z"
 }

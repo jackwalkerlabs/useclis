@@ -2648,5 +2648,15 @@
     "language": "Python",
     "checkedAt": "2026-09-14T10:44:44.168Z",
     "source": "https://github.com/lavie/runlike"
+  },
+  "seemseam-claude-codex-bridge": {
+    "createdAt": "2025-10-25T13:23:08Z",
+    "pushedAt": "2026-09-09T09:05:21Z",
+    "lastCommitAt": "2026-09-09T09:05:16Z",
+    "stars": 3495,
+    "license": null,
+    "language": "Python",
+    "checkedAt": "2026-09-14T13:44:46.977Z",
+    "source": "https://github.com/SeemSeam/claude_codex_bridge"
   }
 }
