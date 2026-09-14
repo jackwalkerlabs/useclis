@@ -4,159 +4,6 @@
   "brewOffset": 240,
   "pending": [
     {
-      "repo": "samg/timetrap"
-    },
-    {
-      "repo": "davetron5000/gli"
-    },
-    {
-      "repo": "scelis/twine"
-    },
-    {
-      "repo": "wting/autojump"
-    },
-    {
-      "repo": "benibela/xidel"
-    },
-    {
-      "repo": "eth-p/bat-extras"
-    },
-    {
-      "repo": "acmephp/acmephp"
-    },
-    {
-      "repo": "srsudar/eg"
-    },
-    {
-      "repo": "oleander/git-fame-rb"
-    },
-    {
-      "repo": "hnarayanan/shpotify"
-    },
-    {
-      "repo": "pedrozath/coltrane"
-    },
-    {
-      "repo": "balta2ar/brotab"
-    },
-    {
-      "repo": "t3l3machus/toxssin"
-    },
-    {
-      "repo": "astrand/xclip"
-    },
-    {
-      "repo": "openstreetmap/osmosis"
-    },
-    {
-      "repo": "httpie/cli"
-    },
-    {
-      "repo": "Doriandarko/o1-engineer"
-    },
-    {
-      "repo": "nchammas/flintrock"
-    },
-    {
-      "repo": "Doriandarko/claude-engineer"
-    },
-    {
-      "repo": "aliyun/ossutil"
-    },
-    {
-      "repo": "soimort/translate-shell"
-    },
-    {
-      "repo": "wez/atomicparsley"
-    },
-    {
-      "repo": "Paradoxis/Flask-Unsign"
-    },
-    {
-      "repo": "IngoMeyer441/simple-term-menu"
-    },
-    {
-      "repo": "p-ranav/structopt"
-    },
-    {
-      "repo": "mikehadlow/AsmSpy"
-    },
-    {
-      "repo": "Gbox4/tstock"
-    },
-    {
-      "repo": "coolcode/tomato-clock"
-    },
-    {
-      "repo": "hedyhli/starcli"
-    },
-    {
-      "repo": "NaiboWang/CommandlineConfig"
-    },
-    {
-      "repo": "SpatiumPortae/portal"
-    },
-    {
-      "repo": "barryclark/jekyll-now"
-    },
-    {
-      "repo": "rsc/2fa"
-    },
-    {
-      "repo": "kyclark/command-line-rust"
-    },
-    {
-      "repo": "manifoldco/promptui"
-    },
-    {
-      "repo": "ssllabs/ssllabs-scan"
-    },
-    {
-      "repo": "mridgers/clink"
-    },
-    {
-      "repo": "jdberry/tag"
-    },
-    {
-      "repo": "jessevdk/go-flags"
-    },
-    {
-      "repo": "magnific0/wondershaper"
-    },
-    {
-      "repo": "bloomreach/s4cmd"
-    },
-    {
-      "repo": "gruntjs/grunt-cli"
-    },
-    {
-      "repo": "piotrmurach/tty-prompt"
-    },
-    {
-      "repo": "dirk-thomas/vcstool"
-    },
-    {
-      "repo": "edenhill/kcat"
-    },
-    {
-      "repo": "deweller/switchaudio-osx"
-    },
-    {
-      "repo": "bmatzelle/gow"
-    },
-    {
-      "repo": "docopt/docopts"
-    },
-    {
-      "repo": "jlevy/the-art-of-command-line"
-    },
-    {
-      "repo": "genuinetools/reg"
-    },
-    {
-      "repo": "maaslalani/invoice"
-    },
-    {
       "repo": "altdesktop/playerctl"
     },
     {
@@ -8333,7 +8180,207 @@
       "status": "held",
       "checkedAt": "2026-09-14T19:44:19.656Z",
       "reason": "Terminal use case needs classification"
+    },
+    "samg/timetrap": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "davetron5000/gli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "scelis/twine": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "eth-p/bat-extras": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "acmephp/acmephp": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "srsudar/eg": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "oleander/git-fame-rb": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pedrozath/coltrane": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "t3l3machus/toxssin": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "astrand/xclip": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "openstreetmap/osmosis": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "doriandarko/o1-engineer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nchammas/flintrock": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "doriandarko/claude-engineer": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "aliyun/ossutil": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "soimort/translate-shell": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "paradoxis/flask-unsign": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ingomeyer441/simple-term-menu": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mikehadlow/asmspy": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gbox4/tstock": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "coolcode/tomato-clock": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "spatiumportae/portal": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "barryclark/jekyll-now": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rsc/2fa": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ssllabs/ssllabs-scan": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mridgers/clink": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jdberry/tag": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jessevdk/go-flags": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "magnific0/wondershaper": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bloomreach/s4cmd": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gruntjs/grunt-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "piotrmurach/tty-prompt": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dirk-thomas/vcstool": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "edenhill/kcat": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "deweller/switchaudio-osx": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bmatzelle/gow": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "docopt/docopts": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jlevy/the-art-of-command-line": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "genuinetools/reg": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "maaslalani/invoice": {
+      "status": "held",
+      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T19:44:19.656Z"
+  "lastRunAt": "2026-09-14T20:44:18.759Z"
 }
