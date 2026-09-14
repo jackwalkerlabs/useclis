@@ -2,29 +2,7 @@
   "version": 1,
   "searchPage": 5,
   "brewOffset": 160,
-  "pending": [
-    {
-      "repo": "arqbackup/arq_restore"
-    },
-    {
-      "repo": "bkirwi/decline"
-    },
-    {
-      "repo": "iqlusioninc/abscissa"
-    },
-    {
-      "repo": "cookiecutter/cookiecutter"
-    },
-    {
-      "repo": "bmc/daemonize"
-    },
-    {
-      "repo": "garybernhardt/selecta"
-    },
-    {
-      "repo": "gautamkrishnar/socli"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -6343,7 +6321,42 @@
       "status": "held",
       "checkedAt": "2026-09-14T10:44:21.422Z",
       "reason": "Terminal use case needs classification"
+    },
+    "arqbackup/arq_restore": {
+      "status": "held",
+      "checkedAt": "2026-09-14T11:44:22.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bkirwi/decline": {
+      "status": "held",
+      "checkedAt": "2026-09-14T11:44:22.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "iqlusioninc/abscissa": {
+      "status": "held",
+      "checkedAt": "2026-09-14T11:44:22.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "cookiecutter/cookiecutter": {
+      "status": "held",
+      "checkedAt": "2026-09-14T11:44:22.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bmc/daemonize": {
+      "status": "held",
+      "checkedAt": "2026-09-14T11:44:22.776Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "garybernhardt/selecta": {
+      "status": "held",
+      "checkedAt": "2026-09-14T11:44:22.776Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gautamkrishnar/socli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T11:44:22.776Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T10:44:21.422Z"
+  "lastRunAt": "2026-09-14T11:44:22.776Z"
 }
