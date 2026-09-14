@@ -4835,5 +4835,53 @@
     "example": "electron-pdf ...",
     "website": "https://github.com/fraserxu/electron-pdf",
     "docs": "https://github.com/fraserxu/electron-pdf/blob/77a9ad817fcd7af50473b169680cdec1cbf384f1/README.md"
+  },
+  {
+    "slug": "chen-zexi-vllm-cli",
+    "name": "vllm-cli",
+    "repo": "Chen-zexi/vllm-cli",
+    "category": "Agents & models",
+    "command": "vllm-cli",
+    "useCase": "A command-line interface tool for serving LLM using vLLM.",
+    "description": "A command-line interface tool for serving LLM using vLLM.",
+    "agentUse": "Invoke vllm-cli from a shell for the documented use case: A command-line interface tool for serving LLM using vLLM.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "vllm-cli serve --shortcut my-gpt-server",
+    "website": "https://github.com/Chen-zexi/vllm-cli",
+    "docs": "https://github.com/Chen-zexi/vllm-cli/blob/36356b611f28eea6470557a43e09ace0f4a38533/README.md"
+  },
+  {
+    "slug": "bhouston-mycoder",
+    "name": "mycoder",
+    "repo": "bhouston/mycoder",
+    "category": "Agents & models",
+    "command": "mycoder",
+    "useCase": "Simple to install, powerful command-line based AI agent system for coding.",
+    "description": "Simple to install, powerful command-line based AI agent system for coding.",
+    "agentUse": "Invoke mycoder from a shell for the documented use case: Simple to install, powerful command-line based AI agent system for coding.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "mycoder -i",
+    "website": "https://github.com/bhouston/mycoder",
+    "docs": "https://github.com/bhouston/mycoder/blob/774e068e5daefab9c18bac898521d238dd12c794/README.md"
+  },
+  {
+    "slug": "timvisee-ffsend",
+    "name": "ffsend",
+    "repo": "timvisee/ffsend",
+    "category": "Files & documents",
+    "command": "ffsend",
+    "useCase": ":mailbox_with_mail: Easily and securely share files from the command line. A fully featured Firefox Send client.",
+    "description": ":mailbox_with_mail: Easily and securely share files from the command line. A fully featured Firefox Send client.",
+    "agentUse": "Invoke ffsend from a shell for the documented use case: :mailbox_with_mail: Easily and securely share files from the command line. A fully featured Firefox Send client.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "ffsend upload my-file.txt",
+    "website": "https://github.com/timvisee/ffsend",
+    "docs": "https://github.com/timvisee/ffsend/blob/85aae2f3e83a6c956c1ee7e22b416650e1c04db2/README.md"
   }
 ]

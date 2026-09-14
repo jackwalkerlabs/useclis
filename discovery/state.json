@@ -4,144 +4,6 @@
   "brewOffset": 200,
   "pending": [
     {
-      "repo": "rcoh/angle-grinder"
-    },
-    {
-      "repo": "makew0rld/didder"
-    },
-    {
-      "repo": "akemin-dayo/simject"
-    },
-    {
-      "repo": "Prayag2/konsave"
-    },
-    {
-      "repo": "0k/shyaml"
-    },
-    {
-      "repo": "ajaxray/geek-life"
-    },
-    {
-      "repo": "tellerops/teller"
-    },
-    {
-      "repo": "Chen-zexi/vllm-cli"
-    },
-    {
-      "repo": "Keyang/node-csvtojson"
-    },
-    {
-      "repo": "NotJoeMartinez/yt-fts"
-    },
-    {
-      "repo": "fastn-stack/kulfi"
-    },
-    {
-      "repo": "ajalt/clikt"
-    },
-    {
-      "repo": "firecracker-microvm/firectl"
-    },
-    {
-      "repo": "remorses/tuitube"
-    },
-    {
-      "repo": "jehiah/json2csv"
-    },
-    {
-      "repo": "FontCustom/fontcustom"
-    },
-    {
-      "repo": "bhouston/mycoder"
-    },
-    {
-      "repo": "dulikaifazr/Cougar-CLI"
-    },
-    {
-      "repo": "kcrawford/dockutil"
-    },
-    {
-      "repo": "natemcmaster/dotnet-serve"
-    },
-    {
-      "repo": "pwittchen/spotify-cli-linux"
-    },
-    {
-      "repo": "learnbyexample/cli-computing"
-    },
-    {
-      "repo": "daniele77/cli"
-    },
-    {
-      "repo": "ReimuNotMoe/ydotool"
-    },
-    {
-      "repo": "f/mcptools"
-    },
-    {
-      "repo": "sirwart/ripsecrets"
-    },
-    {
-      "repo": "bartobri/no-more-secrets"
-    },
-    {
-      "repo": "regolith-labs/ore-cli-legacy"
-    },
-    {
-      "repo": "terryso/nof1-tracker"
-    },
-    {
-      "repo": "philippta/flyscrape"
-    },
-    {
-      "repo": "infinitered/gluegun"
-    },
-    {
-      "repo": "gphotosuploader/gphotos-uploader-cli"
-    },
-    {
-      "repo": "timvisee/ffsend"
-    },
-    {
-      "repo": "Shopify/themekit"
-    },
-    {
-      "repo": "go-jira/jira"
-    },
-    {
-      "repo": "Ch00k/ffmpy"
-    },
-    {
-      "repo": "MrRio/shellwrap"
-    },
-    {
-      "repo": "zackelia/bclm"
-    },
-    {
-      "repo": "fieu/discord.sh"
-    },
-    {
-      "repo": "klaudiosinani/taskbook"
-    },
-    {
-      "repo": "klaudiosinani/qoa"
-    },
-    {
-      "repo": "fent/node-ytdl"
-    },
-    {
-      "repo": "sindresorhus/capture-website-cli"
-    },
-    {
-      "repo": "DocNow/twarc"
-    },
-    {
-      "repo": "cr-marcstevens/sha1collisiondetection"
-    },
-    {
-      "repo": "leahneukirchen/nq"
-    },
-    {
       "repo": "ayoisaiah/focus"
     },
     {
@@ -7227,7 +7089,288 @@
       "status": "held",
       "checkedAt": "2026-09-14T14:44:26.478Z",
       "reason": "Terminal use case needs classification"
+    },
+    "rcoh/angle-grinder": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "akemin-dayo/simject": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "prayag2/konsave": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tellerops/teller": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chen-zexi/vllm-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "GitHub stars",
+      "slug": "chen-zexi-vllm-cli",
+      "acceptedAt": "2026-09-14T15:44:25.426Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Chen-zexi/vllm-cli/blob/36356b611f28eea6470557a43e09ace0f4a38533/pyproject.toml",
+          "snippet": "vllm-cli = \"vllm_cli.__main__:main\"",
+          "target": "src/vllm_cli/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/Chen-zexi/vllm-cli/blob/36356b611f28eea6470557a43e09ace0f4a38533/README.md",
+          "snippet": "pip install vllm-cli"
+        },
+        "usage": {
+          "url": "https://github.com/Chen-zexi/vllm-cli/blob/36356b611f28eea6470557a43e09ace0f4a38533/README.md",
+          "snippet": "vllm-cli serve --shortcut my-gpt-server"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Chen-zexi/vllm-cli",
+          "snippet": "A command-line interface tool for serving LLM using vLLM."
+        },
+        "adoption": {
+          "stars": 505,
+          "githubSource": "https://github.com/Chen-zexi/vllm-cli",
+          "homebrew": null
+        },
+        "commit": "36356b611f28eea6470557a43e09ace0f4a38533"
+      }
+    },
+    "keyang/node-csvtojson": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "notjoemartinez/yt-fts": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fastn-stack/kulfi": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "firecracker-microvm/firectl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "remorses/tuitube": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jehiah/json2csv": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fontcustom/fontcustom": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bhouston/mycoder": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "GitHub stars",
+      "slug": "bhouston-mycoder",
+      "acceptedAt": "2026-09-14T15:44:25.426Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/bhouston/mycoder/blob/774e068e5daefab9c18bac898521d238dd12c794/packages/cli/package.json",
+          "snippet": "{\"bin\":{\"mycoder\":\"./bin/cli.js\"}}",
+          "target": "packages/cli/bin/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/bhouston/mycoder/blob/774e068e5daefab9c18bac898521d238dd12c794/README.md",
+          "snippet": "npm install -g mycoder"
+        },
+        "usage": {
+          "url": "https://github.com/bhouston/mycoder/blob/774e068e5daefab9c18bac898521d238dd12c794/README.md",
+          "snippet": "mycoder -i"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/bhouston/mycoder",
+          "snippet": "Simple to install, powerful command-line based AI agent system for coding."
+        },
+        "adoption": {
+          "stars": 567,
+          "githubSource": "https://github.com/bhouston/mycoder",
+          "homebrew": null
+        },
+        "commit": "774e068e5daefab9c18bac898521d238dd12c794"
+      }
+    },
+    "dulikaifazr/cougar-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kcrawford/dockutil": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "natemcmaster/dotnet-serve": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pwittchen/spotify-cli-linux": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "daniele77/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "reimunotmoe/ydotool": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "f/mcptools": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sirwart/ripsecrets": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bartobri/no-more-secrets": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "regolith-labs/ore-cli-legacy": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "terryso/nof1-tracker": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "philippta/flyscrape": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "infinitered/gluegun": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gphotosuploader/gphotos-uploader-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "timvisee/ffsend": {
+      "status": "accepted",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "GitHub stars",
+      "slug": "timvisee-ffsend",
+      "acceptedAt": "2026-09-14T15:44:25.426Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/timvisee/ffsend/blob/85aae2f3e83a6c956c1ee7e22b416650e1c04db2/Cargo.toml",
+          "snippet": "[[bin]] name=\"ffsend\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/timvisee/ffsend/blob/85aae2f3e83a6c956c1ee7e22b416650e1c04db2/README.md",
+          "snippet": "cargo install ffsend -f"
+        },
+        "usage": {
+          "url": "https://github.com/timvisee/ffsend/blob/85aae2f3e83a6c956c1ee7e22b416650e1c04db2/README.md",
+          "snippet": "ffsend upload my-file.txt"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/timvisee/ffsend",
+          "snippet": ":mailbox_with_mail: Easily and securely share files from the command line. A fully featured Firefox Send client."
+        },
+        "adoption": {
+          "stars": 7414,
+          "githubSource": "https://github.com/timvisee/ffsend",
+          "homebrew": null
+        },
+        "commit": "85aae2f3e83a6c956c1ee7e22b416650e1c04db2"
+      }
+    },
+    "shopify/themekit": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "go-jira/jira": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ch00k/ffmpy": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mrrio/shellwrap": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "zackelia/bclm": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fieu/discord.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "klaudiosinani/taskbook": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fent/node-ytdl": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sindresorhus/capture-website-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "docnow/twarc": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cr-marcstevens/sha1collisiondetection": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "leahneukirchen/nq": {
+      "status": "held",
+      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-14T14:44:26.478Z"
+  "lastRunAt": "2026-09-14T15:44:25.426Z"
 }
