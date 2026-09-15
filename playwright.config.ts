@@ -5,6 +5,7 @@ const baseURL = process.env.SMOKE_BASE_URL || (local ? 'http://127.0.0.1:4179' :
 
 export default defineConfig({
   testDir: './tests/smoke',
+  globalSetup: './tests/smoke/preflight.ts',
   timeout: 45_000,
   globalTimeout: 180_000,
   expect: { timeout: 10_000 },

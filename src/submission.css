@@ -60,3 +60,8 @@
   .submission-label-full { display: none; }
   .submission-label-short { display: inline; }
 }
+
+@media (max-width: 380px) {
+  .header-inner { column-gap: 8px; }
+  .header-actions .header-cta { padding-inline: 6px; }
+}

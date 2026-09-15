@@ -34,6 +34,8 @@ test('homepage count, exact search, category filtering and phone layout', async 
   await search(page).fill('ripgrep');
   await search(page).press('Enter');
   await expect(ripgrepRow(page)).toBeVisible();
+  await expect(page.locator('tbody a.table-project[href="/tools/jq/"]')).toHaveCount(0);
+  expect(await page.locator('tbody tr').count(), 'Search must exclude nonmatching CLIs').toBeLessThan(tools.length);
   await expect(page).toHaveURL(/q=ripgrep/);
   await expect(search(page)).toHaveValue('ripgrep');
   await page.getByRole('button', { name: 'Clear search', exact: true }).click();
@@ -96,15 +98,6 @@ test('agent endpoints, deployed version and missing-page response', async ({ req
     } else {
       expect(body).toContain('/clis.json');
     }
-  }
-  if (process.env.SMOKE_EXPECTED_SHA) {
-    await expect(async () => {
-      const response = await request.get('/build-info.json');
-      expect(response.status()).toBe(200);
-      const build = await response.json();
-      expect(build.commit).toBe(process.env.SMOKE_EXPECTED_SHA);
-      expect(build.catalogCount).toBe(tools.length);
-    }).toPass({ timeout: 30_000, intervals: [1_000, 3_000, 5_000] });
   }
   const missing = await request.get('/useclis-smoke-missing-route/');
   expect(missing.status(), 'Unknown routes must return HTTP 404').toBe(404);
