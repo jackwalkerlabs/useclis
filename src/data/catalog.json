@@ -5059,5 +5059,21 @@
     "example": "ghgrab https://github.com/rust-lang/rust",
     "website": "https://github.com/abhixdd/ghgrab",
     "docs": "https://github.com/abhixdd/ghgrab/blob/bd8b4337025d79cd3220768fdde79d1132edf4c0/README.md"
+  },
+  {
+    "slug": "bgreenwell-doxx",
+    "name": "doxx",
+    "repo": "bgreenwell/doxx",
+    "category": "Files & documents",
+    "command": "doxx",
+    "useCase": "Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!",
+    "description": "Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!",
+    "agentUse": "Invoke doxx from a shell for the documented use case: Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "doxx report.docx",
+    "website": "https://github.com/bgreenwell/doxx",
+    "docs": "https://github.com/bgreenwell/doxx/blob/062819a10f423f2b2ce52be6d264e9069b1b9a40/README.md"
   }
 ]

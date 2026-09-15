@@ -4,149 +4,6 @@
   "brewOffset": 320,
   "pending": [
     {
-      "repo": "z3z1ma/dbt-osmosis"
-    },
-    {
-      "repo": "qarmin/czkawka",
-      "formula": "czkawka"
-    },
-    {
-      "repo": "dooit-org/dooit"
-    },
-    {
-      "repo": "zeromq/czmq",
-      "formula": "czmq"
-    },
-    {
-      "repo": "adamreisnz/replace-in-file"
-    },
-    {
-      "repo": "yoheimuta/protolint"
-    },
-    {
-      "repo": "momozi1996/momo-code"
-    },
-    {
-      "repo": "gobackup/gobackup"
-    },
-    {
-      "repo": "shadawck/awesome-cli-frameworks"
-    },
-    {
-      "repo": "asciinema/asciinema"
-    },
-    {
-      "repo": "google/zx"
-    },
-    {
-      "repo": "mco-org/mco"
-    },
-    {
-      "repo": "github/gh-skyline"
-    },
-    {
-      "repo": "amberframework/amber"
-    },
-    {
-      "repo": "vi/websocat"
-    },
-    {
-      "repo": "GaoSSR/best-claude-hud"
-    },
-    {
-      "repo": "jdalrymple/gitbeaker"
-    },
-    {
-      "repo": "wfxr/tmux-fzf-url"
-    },
-    {
-      "repo": "dbohdan/structured-text-tools"
-    },
-    {
-      "repo": "wasm-bindgen/wasm-pack"
-    },
-    {
-      "repo": "kubermatic/fubectl"
-    },
-    {
-      "repo": "laravel-zero/laravel-zero"
-    },
-    {
-      "repo": "gruntwork-io/git-xargs"
-    },
-    {
-      "repo": "Veirt/weathr"
-    },
-    {
-      "repo": "mattrobenolt/jinja2-cli"
-    },
-    {
-      "repo": "maticzav/emma-cli"
-    },
-    {
-      "repo": "frappe/bench"
-    },
-    {
-      "repo": "westpoint-io/lazyrsync"
-    },
-    {
-      "repo": "ofek/pyapp"
-    },
-    {
-      "repo": "bgreenwell/lstr"
-    },
-    {
-      "repo": "bgreenwell/doxx"
-    },
-    {
-      "repo": "Stan-breaks/ytsurf"
-    },
-    {
-      "repo": "Helvesec/rmux"
-    },
-    {
-      "repo": "291-Group/LAN-Orangutan"
-    },
-    {
-      "repo": "EdJoPaTo/mqttui"
-    },
-    {
-      "repo": "m1ckc3s/claude-status-bar"
-    },
-    {
-      "repo": "gpakosz/.tmux"
-    },
-    {
-      "repo": "msoap/shell2http"
-    },
-    {
-      "repo": "Railly/tinte"
-    },
-    {
-      "repo": "WordOps/WordOps"
-    },
-    {
-      "repo": "videolabs/mirrorbits"
-    },
-    {
-      "repo": "one2nc/cloudlens"
-    },
-    {
-      "repo": "antfu-collective/ni"
-    },
-    {
-      "repo": "yeqown/go-qrcode"
-    },
-    {
-      "repo": "RevylAI/greenlight"
-    },
-    {
-      "repo": "alexandremendoncaalvaro/CorridorKey-Runtime"
-    },
-    {
-      "repo": "darkrishabh/agent-skills-eval"
-    },
-    {
       "repo": "Tenderly/tenderly-cli"
     },
     {
@@ -10112,7 +9969,234 @@
       "status": "held",
       "checkedAt": "2026-09-15T03:44:23.175Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "z3z1ma/dbt-osmosis": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "qarmin/czkawka": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dooit-org/dooit": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zeromq/czmq": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "adamreisnz/replace-in-file": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yoheimuta/protolint": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "momozi1996/momo-code": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gobackup/gobackup": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "google/zx": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mco-org/mco": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "github/gh-skyline": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "amberframework/amber": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gaossr/best-claude-hud": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jdalrymple/gitbeaker": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "wfxr/tmux-fzf-url": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "wasm-bindgen/wasm-pack": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kubermatic/fubectl": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "veirt/weathr": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mattrobenolt/jinja2-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "maticzav/emma-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "frappe/bench": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "westpoint-io/lazyrsync": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ofek/pyapp": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bgreenwell/doxx": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "GitHub stars",
+      "slug": "bgreenwell-doxx",
+      "acceptedAt": "2026-09-15T04:44:21.268Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/bgreenwell/doxx/blob/062819a10f423f2b2ce52be6d264e9069b1b9a40/Cargo.toml",
+          "snippet": "package.name=\"doxx\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/bgreenwell/doxx/blob/062819a10f423f2b2ce52be6d264e9069b1b9a40/README.md",
+          "snippet": "cargo install doxx"
+        },
+        "usage": {
+          "url": "https://github.com/bgreenwell/doxx/blob/062819a10f423f2b2ce52be6d264e9069b1b9a40/README.md",
+          "snippet": "doxx report.docx"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/bgreenwell/doxx",
+          "snippet": "Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!"
+        },
+        "adoption": {
+          "stars": 3752,
+          "githubSource": "https://github.com/bgreenwell/doxx",
+          "homebrew": null
+        },
+        "commit": "062819a10f423f2b2ce52be6d264e9069b1b9a40"
+      }
+    },
+    "stan-breaks/ytsurf": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "helvesec/rmux": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "291-group/lan-orangutan": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "edjopato/mqttui": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "m1ckc3s/claude-status-bar": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gpakosz/.tmux": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "msoap/shell2http": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "railly/tinte": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wordops/wordops": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "videolabs/mirrorbits": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "one2nc/cloudlens": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "antfu-collective/ni": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yeqown/go-qrcode": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "revylai/greenlight": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "alexandremendoncaalvaro/corridorkey-runtime": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "darkrishabh/agent-skills-eval": {
+      "status": "held",
+      "checkedAt": "2026-09-15T04:44:21.268Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-15T03:44:23.175Z"
+  "lastRunAt": "2026-09-15T04:44:21.268Z"
 }

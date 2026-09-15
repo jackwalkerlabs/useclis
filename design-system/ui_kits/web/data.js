@@ -5910,6 +5910,25 @@ window.USECLIS_DATA = {
       "stars": 1398,
       "license": "MIT",
       "checkedAt": "2026-09-15T03:44:50.046Z"
+    },
+    {
+      "slug": "bgreenwell-doxx",
+      "name": "doxx",
+      "repo": "bgreenwell/doxx",
+      "category": "Files & documents",
+      "command": "doxx",
+      "useCase": "Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!",
+      "description": "Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!",
+      "agentUse": "Invoke doxx from a shell for the documented use case: Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "doxx report.docx",
+      "website": "https://github.com/bgreenwell/doxx",
+      "docs": "https://github.com/bgreenwell/doxx/blob/062819a10f423f2b2ce52be6d264e9069b1b9a40/README.md",
+      "stars": 3752,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T04:44:35.333Z"
     }
   ],
   "categories": [
