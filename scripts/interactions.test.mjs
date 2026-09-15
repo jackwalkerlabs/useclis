@@ -204,15 +204,28 @@ test('Search defaults to relevance and preserves explicit metrics through edits,
   await user.selectOptions(sort(), 'relevance');
   assert.deepEqual(rows(), ['ripgrep', 'Companion CLI']);
   assert.equal(new URLSearchParams(window.location.search).get('sort'), 'relevance');
+  await user.click(screen.getByRole('button', { name: 'Clear search' }));
+  assert.equal(sort().value, 'stars');
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), null);
+  assert.equal(screen.queryByRole('option', { name: 'Most relevant' }), null);
+  fireEvent.change(search(), { target: { value: '   ' } });
+  assert.equal(sort().value, 'stars');
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), null);
+  fireEvent.change(search(), { target: { value: 'ripgrep' } });
+  assert.equal(sort().value, 'relevance');
+  assert.deepEqual(rows(), ['ripgrep', 'Companion CLI']);
   for (const [url, expectedSort, names] of [
     ['/?q=rg', 'relevance', ['ripgrep']],
+    ['/?q=ripgrep&sort=relevance', 'relevance', ['ripgrep', 'Companion CLI']],
     ['/?q=ripgrep&sort=stars', 'stars', ['Companion CLI', 'ripgrep']],
     ['/?q=ripgrep&sort=invalid', 'relevance', ['ripgrep', 'Companion CLI']],
+    ['/?sort=relevance', 'stars', null],
     ['/', 'stars', null],
   ]) {
     act(() => { window.history.pushState(null, '', url); window.dispatchEvent(new window.PopStateEvent('popstate')); });
     assert.equal(sort().value, expectedSort);
     if (names) assert.deepEqual(rows(), names);
+    if (url === '/?sort=relevance') assert.equal(new URLSearchParams(window.location.search).get('sort'), null);
   }
 });
 

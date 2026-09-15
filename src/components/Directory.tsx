@@ -18,7 +18,9 @@ export default function Directory({ tools, siteUrl }: { tools: Tool[]; siteUrl?:
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('All categories');
   const [selectedSort, setSort] = useState('');
-  const sort = selectedSort || (query.trim() ? 'relevance' : 'stars');
+  // Relevance has no meaning without a query; preserve all other explicit sorts.
+  const explicitSort = selectedSort === 'relevance' && !query.trim() ? '' : selectedSort;
+  const sort = explicitSort || (query.trim() ? 'relevance' : 'stars');
   const [downloadSource, setDownloadSource] = useState('homebrew');
   const metricLabel = downloadSource === 'homebrew' ? 'Brew installs · 30d' : `${downloadLabels[downloadSource as keyof typeof downloadLabels]} · ${downloadSource === 'github' ? 'cumulative' : '30d'}`;
   const [range, setRange] = useState<DateRange>('30d');
@@ -70,11 +72,11 @@ export default function Directory({ tools, siteUrl }: { tools: Tool[]; siteUrl?:
     query ? url.searchParams.set('q', query) : url.searchParams.delete('q');
     category !== 'All categories' ? url.searchParams.set('category', category) : url.searchParams.delete('category');
     onlySaved ? url.searchParams.set('saved', '1') : url.searchParams.delete('saved');
-    selectedSort ? url.searchParams.set('sort', selectedSort) : url.searchParams.delete('sort');
+    explicitSort ? url.searchParams.set('sort', explicitSort) : url.searchParams.delete('sort');
     downloadSource !== 'homebrew' ? url.searchParams.set('downloads', downloadSource) : url.searchParams.delete('downloads');
     range !== '30d' ? url.searchParams.set('period', range) : url.searchParams.delete('period');
     window.history.replaceState(null, '', url);
-  }, [query, category, onlySaved, selectedSort, range, downloadSource, hydrated]);
+  }, [query, category, onlySaved, explicitSort, range, downloadSource, hydrated]);
   useEffect(() => { if (!notice) return; const timer = setTimeout(() => setNotice(''), 2600); return () => clearTimeout(timer); }, [notice]);
   const toggleSave = (tool: Tool) => {
     const next = saved.includes(tool.slug) ? saved.filter(slug => slug !== tool.slug) : [...saved, tool.slug];
