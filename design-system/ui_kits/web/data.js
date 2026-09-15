@@ -6138,6 +6138,44 @@ window.USECLIS_DATA = {
       "stars": 1502,
       "license": "MIT",
       "checkedAt": "2026-09-15T16:45:00.309Z"
+    },
+    {
+      "slug": "taverntesting-tavern",
+      "name": "tavern",
+      "repo": "taverntesting/tavern",
+      "category": "Data & APIs",
+      "command": "tavern-ci",
+      "useCase": "A command-line tool and Python library and Pytest plugin for automated testing of RESTful APIs, with a simple, concise and flexible YAML-based syntax",
+      "description": "A command-line tool and Python library and Pytest plugin for automated testing of RESTful APIs, with a simple, concise and flexible YAML-based syntax",
+      "agentUse": "Invoke tavern-ci from a shell for the documented use case: A command-line tool and Python library and Pytest plugin for automated testing of RESTful APIs, with a simple, concise and flexible YAML-based syntax",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "tavern-ci --stdout test_minimal.tavern.yaml",
+      "website": "https://github.com/taverntesting/tavern",
+      "docs": "https://github.com/taverntesting/tavern/blob/b9c6d89c466e1d8065d6ed6f01a9cd3960d9aa68/README.md",
+      "stars": 1160,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T17:44:47.507Z"
+    },
+    {
+      "slug": "ezyang-ghstack",
+      "name": "ghstack",
+      "repo": "ezyang/ghstack",
+      "category": "Git & collaboration",
+      "command": "ghstack",
+      "useCase": "Submit stacked diffs to GitHub on the command line",
+      "description": "Submit stacked diffs to GitHub on the command line",
+      "agentUse": "Invoke ghstack from a shell for the documented use case: Submit stacked diffs to GitHub on the command line",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ghstack -m MESSAGE",
+      "website": "https://github.com/ezyang/ghstack",
+      "docs": "https://github.com/ezyang/ghstack/blob/f6e21c56531026a58024cf32eadcbc5c06d1c006/README.md",
+      "stars": 1019,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T17:44:48.182Z"
     }
   ],
   "categories": [

@@ -2,245 +2,7 @@
   "version": 1,
   "searchPage": 3,
   "brewOffset": 480,
-  "pending": [
-    {
-      "repo": "cardano-foundation/cardano-wallet"
-    },
-    {
-      "repo": "chriskiehl/Gooey"
-    },
-    {
-      "repo": "pallets/click"
-    },
-    {
-      "repo": "mkb79/audible-cli"
-    },
-    {
-      "repo": "cloudflare/cf-terraforming"
-    },
-    {
-      "repo": "equinix-labs/otel-cli"
-    },
-    {
-      "repo": "microsoft/inshellisense"
-    },
-    {
-      "repo": "getml/reflect-cpp"
-    },
-    {
-      "repo": "modesty/pdf2json"
-    },
-    {
-      "repo": "sdkman/sdkman-cli"
-    },
-    {
-      "repo": "Tarsnap/tarsnap"
-    },
-    {
-      "repo": "da-luce/astroterm"
-    },
-    {
-      "repo": "alfg/ffmpeg-commander"
-    },
-    {
-      "repo": "adbar/trafilatura"
-    },
-    {
-      "repo": "vadimdemedes/ink"
-    },
-    {
-      "repo": "aws-solutions-library-samples/cloud-intelligence-dashboards-framework"
-    },
-    {
-      "repo": "opensim-org/opensim-core"
-    },
-    {
-      "repo": "taverntesting/tavern"
-    },
-    {
-      "repo": "postmanlabs/newman"
-    },
-    {
-      "repo": "kdabir/has"
-    },
-    {
-      "repo": "ezyang/ghstack"
-    },
-    {
-      "repo": "vrc-get/vrc-get"
-    },
-    {
-      "repo": "GAM-team/got-your-back"
-    },
-    {
-      "repo": "jupyter-book/mystmd"
-    },
-    {
-      "repo": "bitshares/bitshares-core"
-    },
-    {
-      "repo": "npm/documentation"
-    },
-    {
-      "repo": "beucismis/awesome-fetch"
-    },
-    {
-      "repo": "jrnl-org/jrnl"
-    },
-    {
-      "repo": "pawamoy/aria2p"
-    },
-    {
-      "repo": "GPSBabel/gpsbabel"
-    },
-    {
-      "repo": "jiaqi/jmxterm"
-    },
-    {
-      "repo": "librespeed/speedtest-cli"
-    },
-    {
-      "repo": "lesovsky/pgcenter"
-    },
-    {
-      "repo": "jscad/OpenJSCAD.org"
-    },
-    {
-      "repo": "SBoudrias/Inquirer.js"
-    },
-    {
-      "repo": "chickensoft-games/GodotEnv"
-    },
-    {
-      "repo": "theorzr/portablemc"
-    },
-    {
-      "repo": "nvie/git-toolbelt"
-    },
-    {
-      "repo": "microsoft/winget-create"
-    },
-    {
-      "repo": "taers232c/GAMADV-XTD3"
-    },
-    {
-      "repo": "mrusme/zeit"
-    },
-    {
-      "repo": "netz98/n98-magerun2"
-    },
-    {
-      "repo": "callowayproject/bump-my-version"
-    },
-    {
-      "repo": "vultr/vultr-cli"
-    },
-    {
-      "repo": "bit-team/backintime"
-    },
-    {
-      "repo": "visit1985/mdp"
-    },
-    {
-      "repo": "shibayan/Sharprompt"
-    },
-    {
-      "repo": "danvergara/dblab"
-    },
-    {
-      "repo": "nicklockwood/SwiftFormat"
-    },
-    {
-      "repo": "Adamant-im/adamant-console"
-    },
-    {
-      "repo": "spaam/svtplay-dl"
-    },
-    {
-      "repo": "deviceinsight/kafkactl"
-    },
-    {
-      "repo": "alecthomas/kong"
-    },
-    {
-      "repo": "simonw/llm"
-    },
-    {
-      "repo": "containers/toolbox"
-    },
-    {
-      "repo": "jarro2783/cxxopts"
-    },
-    {
-      "repo": "ARM-software/astc-encoder"
-    },
-    {
-      "repo": "xo/dbtpl"
-    },
-    {
-      "repo": "python-poetry/cleo"
-    },
-    {
-      "repo": "estesp/manifest-tool"
-    },
-    {
-      "repo": "CLIUtils/CLI11"
-    },
-    {
-      "repo": "Lymphatus/caesium-clt"
-    },
-    {
-      "repo": "percona/percona-toolkit"
-    },
-    {
-      "repo": "PaulJuliusMartinez/jless"
-    },
-    {
-      "repo": "copier-org/copier"
-    },
-    {
-      "repo": "fioncat/otree"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-health-probe"
-    },
-    {
-      "repo": "boredazfcuk/docker-icloudpd"
-    },
-    {
-      "repo": "packwiz/packwiz"
-    },
-    {
-      "repo": "termux/termux-api"
-    },
-    {
-      "repo": "cachix/cachix"
-    },
-    {
-      "repo": "mkideal/cli"
-    },
-    {
-      "repo": "howeyc/ledger"
-    },
-    {
-      "repo": "tizonia/tizonia-openmax-il"
-    },
-    {
-      "repo": "cookpete/auto-changelog"
-    },
-    {
-      "repo": "cs50/submit50"
-    },
-    {
-      "repo": "ledger/ledger"
-    },
-    {
-      "repo": "magmax/python-inquirer"
-    },
-    {
-      "repo": "buo/homebrew-cask-upgrade"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -12364,7 +12126,146 @@
       "status": "held",
       "checkedAt": "2026-09-15T16:44:25.222Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cardano-foundation/cardano-wallet": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "getml/reflect-cpp": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "modesty/pdf2json": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sdkman/sdkman-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "alfg/ffmpeg-commander": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "adbar/trafilatura": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "aws-solutions-library-samples/cloud-intelligence-dashboards-framework": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "taverntesting/tavern": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "GitHub stars",
+      "slug": "taverntesting-tavern",
+      "acceptedAt": "2026-09-15T17:44:22.713Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/taverntesting/tavern/blob/b9c6d89c466e1d8065d6ed6f01a9cd3960d9aa68/pyproject.toml",
+          "snippet": "tavern-ci = \"tavern.entry:main\"",
+          "target": "tavern/entry.py"
+        },
+        "installation": {
+          "url": "https://github.com/taverntesting/tavern/blob/b9c6d89c466e1d8065d6ed6f01a9cd3960d9aa68/README.md",
+          "snippet": "First up run `pip install tavern`."
+        },
+        "usage": {
+          "url": "https://github.com/taverntesting/tavern/blob/b9c6d89c466e1d8065d6ed6f01a9cd3960d9aa68/README.md",
+          "snippet": "tavern-ci --stdout test_minimal.tavern.yaml"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/taverntesting/tavern",
+          "snippet": "A command-line tool and Python library and Pytest plugin for automated testing of RESTful APIs, with a simple, concise and flexible YAML-based syntax"
+        },
+        "adoption": {
+          "stars": 1160,
+          "githubSource": "https://github.com/taverntesting/tavern",
+          "homebrew": null
+        },
+        "commit": "b9c6d89c466e1d8065d6ed6f01a9cd3960d9aa68"
+      }
+    },
+    "postmanlabs/newman": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ezyang/ghstack": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "GitHub stars",
+      "slug": "ezyang-ghstack",
+      "acceptedAt": "2026-09-15T17:44:22.713Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ezyang/ghstack/blob/f6e21c56531026a58024cf32eadcbc5c06d1c006/pyproject.toml",
+          "snippet": "ghstack = \"ghstack.cli:main\"",
+          "target": "src/ghstack/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/ezyang/ghstack/blob/f6e21c56531026a58024cf32eadcbc5c06d1c006/README.md",
+          "snippet": "uv tool install ghstack"
+        },
+        "usage": {
+          "url": "https://github.com/ezyang/ghstack/blob/f6e21c56531026a58024cf32eadcbc5c06d1c006/README.md",
+          "snippet": "ghstack -m MESSAGE"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ezyang/ghstack",
+          "snippet": "Submit stacked diffs to GitHub on the command line"
+        },
+        "adoption": {
+          "stars": 1019,
+          "githubSource": "https://github.com/ezyang/ghstack",
+          "homebrew": null
+        },
+        "commit": "f6e21c56531026a58024cf32eadcbc5c06d1c006"
+      }
+    },
+    "vrc-get/vrc-get": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "gam-team/got-your-back": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jupyter-book/mystmd": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "npm/documentation": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gpsbabel/gpsbabel": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "lesovsky/pgcenter": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jscad/openjscad.org": {
+      "status": "held",
+      "checkedAt": "2026-09-15T17:44:22.713Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-15T16:44:25.222Z"
+  "lastRunAt": "2026-09-15T17:44:22.713Z"
 }
