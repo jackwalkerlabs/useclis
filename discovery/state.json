@@ -4,149 +4,6 @@
   "brewOffset": 400,
   "pending": [
     {
-      "repo": "auriamg/macdylibbundler",
-      "formula": "dylibbundler"
-    },
-    {
-      "repo": "Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI"
-    },
-    {
-      "repo": "Canop/dysk",
-      "formula": "dysk"
-    },
-    {
-      "repo": "Achno/gowall"
-    },
-    {
-      "repo": "win-acme/win-acme"
-    },
-    {
-      "repo": "retypeapp/retype"
-    },
-    {
-      "repo": "ahmadawais/ramadan-cli"
-    },
-    {
-      "repo": "julien040/gut"
-    },
-    {
-      "repo": "babarot/gomi"
-    },
-    {
-      "repo": "infinitered/ignite"
-    },
-    {
-      "repo": "Bahaaio/pomo"
-    },
-    {
-      "repo": "kargnas/damn-my-slow-kt"
-    },
-    {
-      "repo": "fuelen/owl"
-    },
-    {
-      "repo": "felangel/mason"
-    },
-    {
-      "repo": "langwatch/better-agents"
-    },
-    {
-      "repo": "inlife/nexrender"
-    },
-    {
-      "repo": "ReVanced/revanced-cli"
-    },
-    {
-      "repo": "rgcr/m-cli"
-    },
-    {
-      "repo": "loxy0devlp/RedTiger-Tools"
-    },
-    {
-      "repo": "rohitg00/skillkit"
-    },
-    {
-      "repo": "expo/expo-github-action"
-    },
-    {
-      "repo": "shotgun-sh/shotgun"
-    },
-    {
-      "repo": "instill-ai/instill-core"
-    },
-    {
-      "repo": "alajmo/sake"
-    },
-    {
-      "repo": "lorryjovens-hub/claude-code-rust"
-    },
-    {
-      "repo": "Siriusmart/youtube-tui"
-    },
-    {
-      "repo": "enulus/OpenPackage"
-    },
-    {
-      "repo": "exiftool/exiftool"
-    },
-    {
-      "repo": "EwenQuim/entropy"
-    },
-    {
-      "repo": "stefanmaric/g"
-    },
-    {
-      "repo": "daniel3303/ClaudeCodeStatusLine"
-    },
-    {
-      "repo": "Owloops/updo"
-    },
-    {
-      "repo": "rsalmei/alive-progress"
-    },
-    {
-      "repo": "rawnly/splash-cli"
-    },
-    {
-      "repo": "mfontanini/presenterm"
-    },
-    {
-      "repo": "Aider-AI/aider"
-    },
-    {
-      "repo": "MagicCube/helixent"
-    },
-    {
-      "repo": "alajmo/mani"
-    },
-    {
-      "repo": "docsagent/docsagent"
-    },
-    {
-      "repo": "shinshin86/oh-my-logo"
-    },
-    {
-      "repo": "claudiodangelis/qrcp"
-    },
-    {
-      "repo": "dankamongmen/notcurses"
-    },
-    {
-      "repo": "afshinm/zerobox"
-    },
-    {
-      "repo": "agauniyal/rang"
-    },
-    {
-      "repo": "kainctl/isd"
-    },
-    {
-      "repo": "DuanYan007/markitdown"
-    },
-    {
-      "repo": "sclevine/yj"
-    },
-    {
       "repo": "Krasjet/pdf.tocgen"
     },
     {
@@ -11502,7 +11359,207 @@
       "status": "held",
       "checkedAt": "2026-09-15T11:49:09.864Z",
       "reason": "Terminal use case needs classification"
+    },
+    "auriamg/macdylibbundler": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dokhacgiakhoa/agent-skills-4-vibe-coding-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "canop/dysk": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "achno/gowall": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "win-acme/win-acme": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "retypeapp/retype": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ahmadawais/ramadan-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "julien040/gut": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "babarot/gomi": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "infinitered/ignite": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bahaaio/pomo": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kargnas/damn-my-slow-kt": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "langwatch/better-agents": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "inlife/nexrender": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rgcr/m-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "loxy0devlp/redtiger-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rohitg00/skillkit": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "expo/expo-github-action": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "shotgun-sh/shotgun": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "instill-ai/instill-core": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "alajmo/sake": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lorryjovens-hub/claude-code-rust": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "siriusmart/youtube-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "enulus/openpackage": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ewenquim/entropy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "stefanmaric/g": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "daniel3303/claudecodestatusline": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "owloops/updo": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rsalmei/alive-progress": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rawnly/splash-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mfontanini/presenterm": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "magiccube/helixent": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "alajmo/mani": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "docsagent/docsagent": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "shinshin86/oh-my-logo": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dankamongmen/notcurses": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "afshinm/zerobox": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kainctl/isd": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "duanyan007/markitdown": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sclevine/yj": {
+      "status": "held",
+      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-15T11:49:09.864Z"
+  "lastRunAt": "2026-09-15T12:44:27.350Z"
 }
