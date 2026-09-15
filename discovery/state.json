@@ -4,150 +4,6 @@
   "brewOffset": 320,
   "pending": [
     {
-      "repo": "Tenderly/tenderly-cli"
-    },
-    {
-      "repo": "astahmer/openapi-zod-client"
-    },
-    {
-      "repo": "jkwill87/mnamer"
-    },
-    {
-      "repo": "Sinholms/setup-gateway"
-    },
-    {
-      "repo": "home-assistant-ecosystem/home-assistant-cli"
-    },
-    {
-      "repo": "brettcannon/python-launcher"
-    },
-    {
-      "repo": "vladkens/macmon"
-    },
-    {
-      "repo": "nunomaduro/collision"
-    },
-    {
-      "repo": "nunomaduro/phpinsights"
-    },
-    {
-      "repo": "BurntSushi/ripgrep"
-    },
-    {
-      "repo": "asciimoo/wuzz"
-    },
-    {
-      "repo": "junedomingo/react-native-rename"
-    },
-    {
-      "repo": "iojw/socialscan"
-    },
-    {
-      "repo": "freref/fancy-cat"
-    },
-    {
-      "repo": "PabloLec/RecoverPy"
-    },
-    {
-      "repo": "Taywee/args"
-    },
-    {
-      "repo": "BurntSushi/bttf"
-    },
-    {
-      "repo": "JohannesKaufmann/html-to-markdown"
-    },
-    {
-      "repo": "bjarneo/ku"
-    },
-    {
-      "repo": "mifi/ezshare"
-    },
-    {
-      "repo": "simeji/jid"
-    },
-    {
-      "repo": "CodeBendKit/codeseek"
-    },
-    {
-      "repo": "eliukblau/pixterm"
-    },
-    {
-      "repo": "remarshal-project/remarshal"
-    },
-    {
-      "repo": "dalibo/pg_activity"
-    },
-    {
-      "repo": "brocode/fw"
-    },
-    {
-      "repo": "imsnif/bandwhich"
-    },
-    {
-      "repo": "svenfuchs/gem-release"
-    },
-    {
-      "repo": "Bengerthelorf/macIconChanger"
-    },
-    {
-      "repo": "0xs34n/blockchain-cli"
-    },
-    {
-      "repo": "pobrn/mktorrent"
-    },
-    {
-      "repo": "AloneMonkey/MonkeyDev"
-    },
-    {
-      "repo": "jorgebucaran/autopair.fish"
-    },
-    {
-      "repo": "travist/makemeasandwich.js"
-    },
-    {
-      "repo": "2mol/pboy"
-    },
-    {
-      "repo": "hypriot/flash"
-    },
-    {
-      "repo": "VladimirMarkelov/clui"
-    },
-    {
-      "repo": "airlift/airline"
-    },
-    {
-      "repo": "donnemartin/haxor-news"
-    },
-    {
-      "repo": "sirupsen/zk"
-    },
-    {
-      "repo": "kylef/Commander"
-    },
-    {
-      "repo": "stathissideris/ditaa"
-    },
-    {
-      "repo": "lucidrains/deep-daze"
-    },
-    {
-      "repo": "callstack/haul"
-    },
-    {
-      "repo": "pindexis/qfc"
-    },
-    {
-      "repo": "xwmx/bash-boilerplate"
-    },
-    {
-      "repo": "lucidrains/big-sleep"
-    },
-    {
-      "repo": "frostney/react-native-create-library"
-    },
-    {
       "repo": "JakePartusch/serverlessui"
     },
     {
@@ -10196,7 +10052,207 @@
       "status": "held",
       "checkedAt": "2026-09-15T04:44:21.268Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "tenderly/tenderly-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "astahmer/openapi-zod-client": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jkwill87/mnamer": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sinholms/setup-gateway": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "brettcannon/python-launcher": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vladkens/macmon": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nunomaduro/phpinsights": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "asciimoo/wuzz": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "junedomingo/react-native-rename": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "iojw/socialscan": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "freref/fancy-cat": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pablolec/recoverpy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "johanneskaufmann/html-to-markdown": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bjarneo/ku": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mifi/ezshare": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "simeji/jid": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "codebendkit/codeseek": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "eliukblau/pixterm": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "remarshal-project/remarshal": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dalibo/pg_activity": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "brocode/fw": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "svenfuchs/gem-release": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bengerthelorf/maciconchanger": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "0xs34n/blockchain-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pobrn/mktorrent": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "alonemonkey/monkeydev": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jorgebucaran/autopair.fish": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "travist/makemeasandwich.js": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hypriot/flash": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vladimirmarkelov/clui": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "airlift/airline": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "donnemartin/haxor-news": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sirupsen/zk": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kylef/commander": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "stathissideris/ditaa": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lucidrains/deep-daze": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "callstack/haul": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pindexis/qfc": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lucidrains/big-sleep": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "frostney/react-native-create-library": {
+      "status": "held",
+      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-15T04:44:21.268Z"
+  "lastRunAt": "2026-09-15T05:44:18.625Z"
 }
