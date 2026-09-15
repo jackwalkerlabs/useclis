@@ -5891,6 +5891,25 @@ window.USECLIS_DATA = {
       "stars": 1561,
       "license": null,
       "checkedAt": "2026-09-15T01:44:41.073Z"
+    },
+    {
+      "slug": "abhixdd-ghgrab",
+      "name": "ghgrab",
+      "repo": "abhixdd/ghgrab",
+      "category": "Git & collaboration",
+      "command": "ghgrab",
+      "useCase": "A simple, pretty terminal tool that lets you browse and download files from GitHub, GitLab, Codeberg, Gitea, and Forgejo without leaving your CLI.",
+      "description": "A simple, pretty terminal tool that lets you browse and download files from GitHub, GitLab, Codeberg, Gitea, and Forgejo without leaving your CLI.",
+      "agentUse": "Invoke ghgrab from a shell for the documented use case: A simple, pretty terminal tool that lets you browse and download files from GitHub, GitLab, Codeberg, Gitea, and Forgejo without leaving your CLI.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ghgrab https://github.com/rust-lang/rust",
+      "website": "https://github.com/abhixdd/ghgrab",
+      "docs": "https://github.com/abhixdd/ghgrab/blob/bd8b4337025d79cd3220768fdde79d1132edf4c0/README.md",
+      "stars": 1398,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T03:44:50.046Z"
     }
   ],
   "categories": [

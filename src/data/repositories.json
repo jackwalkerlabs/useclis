@@ -2818,5 +2818,15 @@
     "language": "JavaScript",
     "checkedAt": "2026-09-15T01:44:41.073Z",
     "source": "https://github.com/trentm/json"
+  },
+  "abhixdd-ghgrab": {
+    "createdAt": "2025-12-14T09:39:55Z",
+    "pushedAt": "2026-08-16T11:04:13Z",
+    "lastCommitAt": "2026-08-16T11:04:05Z",
+    "stars": 1398,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-15T03:44:50.046Z",
+    "source": "https://github.com/abhixdd/ghgrab"
   }
 }

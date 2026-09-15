@@ -3196,5 +3196,18 @@
     "createdAt": "2009-01-15T18:20:48Z",
     "checkedAt": "2026-09-15T01:44:42.607Z",
     "source": "https://github.com/trentm"
+  },
+  "abhixdd": {
+    "login": "abhixdd",
+    "name": "Abhinav A",
+    "type": "User",
+    "bio": "I am just a Normal Person Like You.",
+    "location": "Mars",
+    "website": "https://abhix.me/",
+    "followers": 65,
+    "publicRepos": 20,
+    "createdAt": "2020-09-18T14:58:36Z",
+    "checkedAt": "2026-09-15T03:44:51.990Z",
+    "source": "https://github.com/abhixdd"
   }
 }

@@ -5043,5 +5043,21 @@
     "example": "json -ga",
     "website": "https://github.com/trentm/json",
     "docs": "https://github.com/trentm/json/blob/a8baa02b5d6fc5f0c16521372ee89674a4706d82/README.md"
+  },
+  {
+    "slug": "abhixdd-ghgrab",
+    "name": "ghgrab",
+    "repo": "abhixdd/ghgrab",
+    "category": "Git & collaboration",
+    "command": "ghgrab",
+    "useCase": "A simple, pretty terminal tool that lets you browse and download files from GitHub, GitLab, Codeberg, Gitea, and Forgejo without leaving your CLI.",
+    "description": "A simple, pretty terminal tool that lets you browse and download files from GitHub, GitLab, Codeberg, Gitea, and Forgejo without leaving your CLI.",
+    "agentUse": "Invoke ghgrab from a shell for the documented use case: A simple, pretty terminal tool that lets you browse and download files from GitHub, GitLab, Codeberg, Gitea, and Forgejo without leaving your CLI.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "ghgrab https://github.com/rust-lang/rust",
+    "website": "https://github.com/abhixdd/ghgrab",
+    "docs": "https://github.com/abhixdd/ghgrab/blob/bd8b4337025d79cd3220768fdde79d1132edf4c0/README.md"
   }
 ]
