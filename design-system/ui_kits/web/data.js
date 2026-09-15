@@ -5815,6 +5815,63 @@ window.USECLIS_DATA = {
       "stars": 4676,
       "license": "MIT",
       "checkedAt": "2026-09-14T19:44:38.346Z"
+    },
+    {
+      "slug": "pathintegral-institute-mcpm-sh",
+      "name": "mcpm.sh",
+      "repo": "pathintegral-institute/mcpm.sh",
+      "category": "Packages & environments",
+      "command": "mcpm",
+      "useCase": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
+      "description": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
+      "agentUse": "Invoke mcpm from a shell for the documented use case: CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mcpm ls",
+      "website": "https://github.com/pathintegral-institute/mcpm.sh",
+      "docs": "https://github.com/pathintegral-institute/mcpm.sh/blob/6a92e54c748766973add4b8c153fcc85738d2d89/README.md",
+      "stars": 999,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T00:44:42.941Z"
+    },
+    {
+      "slug": "vstorm-co-pydantic-deepagents",
+      "name": "pydantic-deepagents",
+      "repo": "vstorm-co/pydantic-deepagents",
+      "category": "Agents & models",
+      "command": "pydantic-deep",
+      "useCase": "Open-source, self-hosted Claude Code - a terminal AI assistant and the Python framework behind it. Tool-calling, sandboxed execution, multi-agent teams, skills, checkpoints, unlimited context - on Pydantic AI, any model.",
+      "description": "Open-source, self-hosted Claude Code - a terminal AI assistant and the Python framework behind it. Tool-calling, sandboxed execution, multi-agent teams, skills, checkpoints, unlimited context - on Pydantic AI, any model.",
+      "agentUse": "Invoke pydantic-deep from a shell for the documented use case: Open-source, self-hosted Claude Code - a terminal AI assistant and the Python framework behind it. Tool-calling, sandboxed execution, multi-agent teams, skills, checkpoints, unlimited context - on Pydantic AI, any model.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "pydantic-deep tui --model openrouter:anthropic/claude-opus-4-6",
+      "website": "https://github.com/vstorm-co/pydantic-deepagents",
+      "docs": "https://github.com/vstorm-co/pydantic-deepagents/blob/32b57ba6df24c744537b9b9080394ead6fc02c10/README.md",
+      "stars": 1062,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T00:44:43.627Z"
+    },
+    {
+      "slug": "zhengqbbb-cz-git",
+      "name": "cz-git",
+      "repo": "Zhengqbbb/cz-git",
+      "category": "Git & collaboration",
+      "command": "czg",
+      "useCase": "cz-git | czg  🛠️ DX first and more engineered, lightweight, customizable, standard output format Commitizen adapter and CLI",
+      "description": "cz-git | czg  🛠️ DX first and more engineered, lightweight, customizable, standard output format Commitizen adapter and CLI",
+      "agentUse": "Invoke czg from a shell for the documented use case: cz-git | czg  🛠️ DX first and more engineered, lightweight, customizable, standard output format Commitizen adapter and CLI",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "czg - Interactive Commitizen CLI that generate standardized git commit message",
+      "website": "https://github.com/Zhengqbbb/cz-git",
+      "docs": "https://github.com/Zhengqbbb/cz-git/blob/da546923ce5b5ae19c0456c40d3ac708ea60d193/packages/cli/README.md",
+      "stars": 1527,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T00:44:44.164Z"
     }
   ],
   "categories": [

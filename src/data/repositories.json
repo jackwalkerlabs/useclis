@@ -2778,5 +2778,35 @@
     "language": "JavaScript",
     "checkedAt": "2026-09-14T19:44:38.346Z",
     "source": "https://github.com/danburzo/percollate"
+  },
+  "pathintegral-institute-mcpm-sh": {
+    "createdAt": "2025-03-21T10:16:41Z",
+    "pushedAt": "2026-08-22T16:02:39Z",
+    "lastCommitAt": "2026-05-22T04:59:35Z",
+    "stars": 999,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-15T00:44:42.941Z",
+    "source": "https://github.com/pathintegral-institute/mcpm.sh"
+  },
+  "vstorm-co-pydantic-deepagents": {
+    "createdAt": "2025-11-29T14:36:36Z",
+    "pushedAt": "2026-08-22T14:57:43Z",
+    "lastCommitAt": "2026-08-05T17:11:47Z",
+    "stars": 1062,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-15T00:44:43.627Z",
+    "source": "https://github.com/vstorm-co/pydantic-deepagents"
+  },
+  "zhengqbbb-cz-git": {
+    "createdAt": "2022-02-15T07:17:04Z",
+    "pushedAt": "2026-08-22T02:43:43Z",
+    "lastCommitAt": "2026-08-22T02:43:33Z",
+    "stars": 1527,
+    "license": "MIT",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-15T00:44:44.164Z",
+    "source": "https://github.com/Zhengqbbb/cz-git"
   }
 }

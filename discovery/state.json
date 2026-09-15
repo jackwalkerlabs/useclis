@@ -4,159 +4,6 @@
   "brewOffset": 280,
   "pending": [
     {
-      "repo": "carvel-dev/ytt"
-    },
-    {
-      "repo": "DnsChanger/dnsChanger-desktop"
-    },
-    {
-      "repo": "aws/amazon-q-developer-cli"
-    },
-    {
-      "repo": "bashly-framework/bashly"
-    },
-    {
-      "repo": "drasimwagan/mdv"
-    },
-    {
-      "repo": "vividvilla/csvtotable"
-    },
-    {
-      "repo": "pls-rs/pls"
-    },
-    {
-      "repo": "ihabunek/twitch-dl"
-    },
-    {
-      "repo": "r-lib/cli"
-    },
-    {
-      "repo": "timhartmann7/omnyssh"
-    },
-    {
-      "repo": "pathintegral-institute/mcpm.sh"
-    },
-    {
-      "repo": "vstorm-co/pydantic-deepagents"
-    },
-    {
-      "repo": "privatenumber/mac-ocr"
-    },
-    {
-      "repo": "shobcoder/shob"
-    },
-    {
-      "repo": "grodowski/undercover"
-    },
-    {
-      "repo": "altsem/gitu"
-    },
-    {
-      "repo": "Zhengqbbb/cz-git"
-    },
-    {
-      "repo": "ozwaldorf/lutgen-rs"
-    },
-    {
-      "repo": "chaqchase/lla"
-    },
-    {
-      "repo": "NiklasRosenstein/pydoc-markdown"
-    },
-    {
-      "repo": "casey/intermodal"
-    },
-    {
-      "repo": "variety/variety"
-    },
-    {
-      "repo": "str4d/rage"
-    },
-    {
-      "repo": "AMAP-ML/LongHorizon-Harness"
-    },
-    {
-      "repo": "madlabsinc/mevn-cli"
-    },
-    {
-      "repo": "dob323/session-kit"
-    },
-    {
-      "repo": "gnomeria/usbtree"
-    },
-    {
-      "repo": "webtorrent/webtorrent-cli"
-    },
-    {
-      "repo": "cookiy-ai/user-research-skill"
-    },
-    {
-      "repo": "lptstr/winfetch"
-    },
-    {
-      "repo": "MarcoEidinger/SwiftPlantUML"
-    },
-    {
-      "repo": "jeroenjanssens/data-science-at-the-command-line"
-    },
-    {
-      "repo": "ericchiang/pup"
-    },
-    {
-      "repo": "npryce/adr-tools"
-    },
-    {
-      "repo": "tokland/youtube-upload"
-    },
-    {
-      "repo": "ijoshsmith/json2swift"
-    },
-    {
-      "repo": "phacility/arcanist"
-    },
-    {
-      "repo": "TheZoraiz/ascii-image-converter"
-    },
-    {
-      "repo": "fgeller/kt"
-    },
-    {
-      "repo": "davetron5000/optparse-plus"
-    },
-    {
-      "repo": "donnemartin/saws"
-    },
-    {
-      "repo": "defunkt/github-gem"
-    },
-    {
-      "repo": "marcwebbie/passpie"
-    },
-    {
-      "repo": "agermanidis/autosub"
-    },
-    {
-      "repo": "lukesampson/psutils"
-    },
-    {
-      "repo": "nriley/brightness"
-    },
-    {
-      "repo": "CITGuru/PyInquirer"
-    },
-    {
-      "repo": "commandlineparser/commandline"
-    },
-    {
-      "repo": "dbcli/mssql-cli"
-    },
-    {
-      "repo": "akamhy/waybackpy"
-    },
-    {
-      "repo": "jcsalterego/historian"
-    },
-    {
       "repo": "donnemartin/gitsome"
     },
     {
@@ -9171,7 +9018,288 @@
       "status": "held",
       "checkedAt": "2026-09-14T23:44:21.493Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "carvel-dev/ytt": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dnschanger/dnschanger-desktop": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aws/amazon-q-developer-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "drasimwagan/mdv": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pls-rs/pls": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ihabunek/twitch-dl": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "timhartmann7/omnyssh": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pathintegral-institute/mcpm.sh": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "GitHub stars",
+      "slug": "pathintegral-institute-mcpm-sh",
+      "acceptedAt": "2026-09-15T00:44:19.861Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/pathintegral-institute/mcpm.sh/blob/6a92e54c748766973add4b8c153fcc85738d2d89/pyproject.toml",
+          "snippet": "mcpm = \"mcpm.cli:main\"",
+          "target": "src/mcpm/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/pathintegral-institute/mcpm.sh/blob/6a92e54c748766973add4b8c153fcc85738d2d89/README.md",
+          "snippet": "pipx install mcpm"
+        },
+        "usage": {
+          "url": "https://github.com/pathintegral-institute/mcpm.sh/blob/6a92e54c748766973add4b8c153fcc85738d2d89/README.md",
+          "snippet": "mcpm ls"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/pathintegral-institute/mcpm.sh",
+          "snippet": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features."
+        },
+        "adoption": {
+          "stars": 999,
+          "githubSource": "https://github.com/pathintegral-institute/mcpm.sh",
+          "homebrew": null
+        },
+        "commit": "6a92e54c748766973add4b8c153fcc85738d2d89"
+      }
+    },
+    "vstorm-co/pydantic-deepagents": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "GitHub stars",
+      "slug": "vstorm-co-pydantic-deepagents",
+      "acceptedAt": "2026-09-15T00:44:19.861Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/vstorm-co/pydantic-deepagents/blob/32b57ba6df24c744537b9b9080394ead6fc02c10/pyproject.toml",
+          "snippet": "pydantic-deep = \"apps.cli.main:app\"",
+          "target": "apps/cli/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/vstorm-co/pydantic-deepagents/blob/32b57ba6df24c744537b9b9080394ead6fc02c10/README.md",
+          "snippet": "pip install pydantic-deep"
+        },
+        "usage": {
+          "url": "https://github.com/vstorm-co/pydantic-deepagents/blob/32b57ba6df24c744537b9b9080394ead6fc02c10/README.md",
+          "snippet": "pydantic-deep tui --model openrouter:anthropic/claude-opus-4-6"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/vstorm-co/pydantic-deepagents",
+          "snippet": "Open-source, self-hosted Claude Code - a terminal AI assistant and the Python framework behind it. Tool-calling, sandboxed execution, multi-agent teams, skills, checkpoints, unlimited context - on Pydantic AI, any model."
+        },
+        "adoption": {
+          "stars": 1062,
+          "githubSource": "https://github.com/vstorm-co/pydantic-deepagents",
+          "homebrew": null
+        },
+        "commit": "32b57ba6df24c744537b9b9080394ead6fc02c10"
+      }
+    },
+    "privatenumber/mac-ocr": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "shobcoder/shob": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "grodowski/undercover": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "altsem/gitu": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zhengqbbb/cz-git": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "GitHub stars",
+      "slug": "zhengqbbb-cz-git",
+      "acceptedAt": "2026-09-15T00:44:19.861Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Zhengqbbb/cz-git/blob/da546923ce5b5ae19c0456c40d3ac708ea60d193/packages/cli/package.json",
+          "snippet": "{\"bin\":{\"czg\":\"bin/index.js\"}}",
+          "target": "packages/cli/bin/index.js"
+        },
+        "installation": {
+          "url": "https://github.com/Zhengqbbb/cz-git/blob/da546923ce5b5ae19c0456c40d3ac708ea60d193/README.md",
+          "snippet": "$ npm i -g czg"
+        },
+        "usage": {
+          "url": "https://github.com/Zhengqbbb/cz-git/blob/da546923ce5b5ae19c0456c40d3ac708ea60d193/packages/cli/README.md",
+          "snippet": "czg - Interactive Commitizen CLI that generate standardized git commit message"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Zhengqbbb/cz-git",
+          "snippet": "cz-git | czg  🛠️ DX first and more engineered, lightweight, customizable, standard output format Commitizen adapter and CLI"
+        },
+        "adoption": {
+          "stars": 1527,
+          "githubSource": "https://github.com/Zhengqbbb/cz-git",
+          "homebrew": null
+        },
+        "commit": "da546923ce5b5ae19c0456c40d3ac708ea60d193"
+      }
+    },
+    "ozwaldorf/lutgen-rs": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "chaqchase/lla": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "niklasrosenstein/pydoc-markdown": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "variety/variety": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "str4d/rage": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "amap-ml/longhorizon-harness": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "madlabsinc/mevn-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dob323/session-kit": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "gnomeria/usbtree": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "cookiy-ai/user-research-skill": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "marcoeidinger/swiftplantuml": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jeroenjanssens/data-science-at-the-command-line": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ericchiang/pup": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tokland/youtube-upload": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ijoshsmith/json2swift": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "phacility/arcanist": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fgeller/kt": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "davetron5000/optparse-plus": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "donnemartin/saws": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "defunkt/github-gem": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "marcwebbie/passpie": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "agermanidis/autosub": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lukesampson/psutils": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dbcli/mssql-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "akamhy/waybackpy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jcsalterego/historian": {
+      "status": "held",
+      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-14T23:44:21.493Z"
+  "lastRunAt": "2026-09-15T00:44:19.861Z"
 }
