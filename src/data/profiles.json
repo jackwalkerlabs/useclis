@@ -3235,5 +3235,31 @@
     "createdAt": "2009-12-08T00:01:53Z",
     "checkedAt": "2026-09-15T06:44:42.582Z",
     "source": "https://github.com/jeremyfa"
+  },
+  "kerma": {
+    "login": "kerma",
+    "name": "kerma",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 24,
+    "publicRepos": 68,
+    "createdAt": "2011-04-17T18:33:49Z",
+    "checkedAt": "2026-09-15T08:44:48.454Z",
+    "source": "https://github.com/kerma"
+  },
+  "vshulcz": {
+    "login": "vshulcz",
+    "name": "Vlad Shulcz",
+    "type": "User",
+    "bio": "Backend engineer · HSE student · Python/Go · K8s · distributed systems · building prod-grade OSS tools",
+    "location": "Moscow",
+    "website": null,
+    "followers": 54,
+    "publicRepos": 54,
+    "createdAt": "2022-02-13T20:01:17Z",
+    "checkedAt": "2026-09-15T08:44:48.812Z",
+    "source": "https://github.com/vshulcz"
   }
 }

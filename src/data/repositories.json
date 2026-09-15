@@ -2858,5 +2858,25 @@
     "language": "CoffeeScript",
     "checkedAt": "2026-09-15T06:44:40.791Z",
     "source": "https://github.com/jeremyfa/yaml.js"
+  },
+  "kerma-defaultbrowser": {
+    "createdAt": "2014-07-01T18:42:27Z",
+    "pushedAt": "2024-09-04T07:12:43Z",
+    "lastCommitAt": "2024-09-04T07:12:43Z",
+    "stars": 362,
+    "license": "MIT",
+    "language": "Objective-C",
+    "checkedAt": "2026-09-15T08:44:45.768Z",
+    "source": "https://github.com/kerma/defaultbrowser"
+  },
+  "vshulcz-deja-vu": {
+    "createdAt": "2026-07-14T07:45:44Z",
+    "pushedAt": "2026-09-15T08:44:14Z",
+    "lastCommitAt": "2026-09-15T07:57:55Z",
+    "stars": 815,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-15T08:44:46.610Z",
+    "source": "https://github.com/vshulcz/deja-vu"
   }
 }

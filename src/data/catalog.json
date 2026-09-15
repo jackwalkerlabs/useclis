@@ -5107,5 +5107,37 @@
     "example": "yaml2json myfile.yml",
     "website": "https://github.com/jeremyfa/yaml.js",
     "docs": "https://github.com/jeremyfa/yaml.js/blob/efe8ce18704ae43383e4177aa7de1a2619bd4e67/README.md"
+  },
+  {
+    "slug": "kerma-defaultbrowser",
+    "name": "defaultbrowser",
+    "repo": "kerma/defaultbrowser",
+    "category": "Data & APIs",
+    "command": "defaultbrowser",
+    "useCase": "Command line tool for getting and setting a default browser (HTTP handler) in macOS",
+    "description": "Command line tool for getting and setting a default browser (HTTP handler) in macOS",
+    "agentUse": "Invoke defaultbrowser from a shell for the documented use case: Command line tool for getting and setting a default browser (HTTP handler) in macOS",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "defaultbrowser chrome",
+    "website": "https://github.com/kerma/defaultbrowser",
+    "docs": "https://github.com/kerma/defaultbrowser/blob/ad812c4e678a1e1f04cc44b8ab6d1ed5b8733359/README.md"
+  },
+  {
+    "slug": "vshulcz-deja-vu",
+    "name": "deja-vu",
+    "repo": "vshulcz/deja-vu",
+    "category": "Agents & models",
+    "command": "deja",
+    "useCase": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 20 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary.",
+    "description": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 20 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary.",
+    "agentUse": "Invoke deja from a shell for the documented use case: One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 20 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "deja embed",
+    "website": "https://github.com/vshulcz/deja-vu",
+    "docs": "https://github.com/vshulcz/deja-vu/blob/20d163819ff2f3cde395c94ace23438c961b57b7/README.md"
   }
 ]

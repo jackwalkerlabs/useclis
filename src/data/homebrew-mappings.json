@@ -337,5 +337,13 @@
   "chenhg5-cc-connect": {
     "formula": "cc-connect",
     "repo": "chenhg5/cc-connect"
+  },
+  "kerma-defaultbrowser": {
+    "formula": "defaultbrowser",
+    "repo": "kerma/defaultbrowser"
+  },
+  "vshulcz-deja-vu": {
+    "formula": "deja-vu",
+    "repo": "vshulcz/deja-vu"
   }
 }

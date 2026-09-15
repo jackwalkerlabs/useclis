@@ -1,8 +1,243 @@
 {
   "version": 1,
-  "searchPage": 9,
-  "brewOffset": 320,
-  "pending": [],
+  "searchPage": 10,
+  "brewOffset": 360,
+  "pending": [
+    {
+      "repo": "DNSControl/dnscontrol",
+      "formula": "dnscontrol"
+    },
+    {
+      "repo": "lirantal/dockly"
+    },
+    {
+      "repo": "DNSCrypt/dnscrypt-proxy",
+      "formula": "dnscrypt-proxy"
+    },
+    {
+      "repo": "Zouuup/landrun"
+    },
+    {
+      "repo": "projectdiscovery/dnsx",
+      "formula": "dnsx"
+    },
+    {
+      "repo": "8go/matrix-commander"
+    },
+    {
+      "repo": "sergi0g/cup"
+    },
+    {
+      "repo": "jackielii/skhd.zig"
+    },
+    {
+      "repo": "karust/openserp"
+    },
+    {
+      "repo": "jamubc/gemini-mcp-tool"
+    },
+    {
+      "repo": "shekohex/opencode-pty"
+    },
+    {
+      "repo": "wfxr/code-minimap"
+    },
+    {
+      "repo": "sindresorhus/meow"
+    },
+    {
+      "repo": "gotify/cli"
+    },
+    {
+      "repo": "dungngminh/simutil"
+    },
+    {
+      "repo": "mrusme/neonmodem"
+    },
+    {
+      "repo": "Azure/static-web-apps-cli"
+    },
+    {
+      "repo": "yaojingang/yao-geo-skills"
+    },
+    {
+      "repo": "Code-with-Beto/snapai"
+    },
+    {
+      "repo": "codesnap-rs/codesnap"
+    },
+    {
+      "repo": "sohaha/zlsgo"
+    },
+    {
+      "repo": "mattrighetti/envelope"
+    },
+    {
+      "repo": "nikolaeu/numi"
+    },
+    {
+      "repo": "jifunks/botany"
+    },
+    {
+      "repo": "ThatOneCalculator/NerdFetch"
+    },
+    {
+      "repo": "jnsahaj/lumen"
+    },
+    {
+      "repo": "conventional-changelog/standard-version"
+    },
+    {
+      "repo": "paulilaaso/lue"
+    },
+    {
+      "repo": "archfz/cypress-terminal-report"
+    },
+    {
+      "repo": "GoogleCloudPlatform/kubectl-ai"
+    },
+    {
+      "repo": "killercup/cargo-edit"
+    },
+    {
+      "repo": "radude/rentry"
+    },
+    {
+      "repo": "coderofsalvation/kanban.bash"
+    },
+    {
+      "repo": "kha7iq/pingme"
+    },
+    {
+      "repo": "Myriad-Dreamin/shiroa"
+    },
+    {
+      "repo": "jenkinsci/jenkinsfile-runner"
+    },
+    {
+      "repo": "privatenumber/cleye"
+    },
+    {
+      "repo": "kislyuk/yq"
+    },
+    {
+      "repo": "filiparag/wikiman"
+    },
+    {
+      "repo": "Textualize/textual"
+    },
+    {
+      "repo": "zackees/transcribe-anything"
+    },
+    {
+      "repo": "spf13/cobra"
+    },
+    {
+      "repo": "jsrepojs/jsrepo"
+    },
+    {
+      "repo": "ionic-team/ionic-cli"
+    },
+    {
+      "repo": "TheYahya/enola"
+    },
+    {
+      "repo": "boostsecurityio/poutine"
+    },
+    {
+      "repo": "Esubaalew/run"
+    },
+    {
+      "repo": "dvcoolarun/web2pdf"
+    },
+    {
+      "repo": "lirantal/nodejs-cli-apps-best-practices"
+    },
+    {
+      "repo": "guyfedwards/nom"
+    },
+    {
+      "repo": "oskvr37/tiddl"
+    },
+    {
+      "repo": "tvrzna/emptty"
+    },
+    {
+      "repo": "raphaelmansuy/code2prompt"
+    },
+    {
+      "repo": "nosarthur/gita"
+    },
+    {
+      "repo": "Dark-Alex-17/managarr"
+    },
+    {
+      "repo": "superagent-ai/grok-cli"
+    },
+    {
+      "repo": "robinmoisson/staticrypt"
+    },
+    {
+      "repo": "QuiiBz/sherif"
+    },
+    {
+      "repo": "bergside/typeui"
+    },
+    {
+      "repo": "lune-org/lune"
+    },
+    {
+      "repo": "jrswab/axe"
+    },
+    {
+      "repo": "Corsinvest/cv4pve-autosnap"
+    },
+    {
+      "repo": "dannote/figma-use"
+    },
+    {
+      "repo": "TheR1D/shell_gpt"
+    },
+    {
+      "repo": "jo1gi/audiobook-dl"
+    },
+    {
+      "repo": "google/python-fire"
+    },
+    {
+      "repo": "wfxr/tmux-power"
+    },
+    {
+      "repo": "vercel/serve"
+    },
+    {
+      "repo": "emersion/mako"
+    },
+    {
+      "repo": "dpnkrpl/radio-active"
+    },
+    {
+      "repo": "mohsen1/yek"
+    },
+    {
+      "repo": "2aronS/Duel-Agents"
+    },
+    {
+      "repo": "mnapoli/silly"
+    },
+    {
+      "repo": "joeynyc/hermes-skins"
+    },
+    {
+      "repo": "Arindam200/cc-lens"
+    },
+    {
+      "repo": "brennercruvinel/CCPlugins"
+    },
+    {
+      "repo": "iosifache/annas-mcp"
+    }
+  ],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -10394,7 +10629,273 @@
       "status": "held",
       "checkedAt": "2026-09-15T07:44:22.876Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "d2lang/d2": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "artginzburg/sudo-touchid": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dagucloud/dagu": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "trasta298/keifu": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hahwul/dalfox": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "integrii/flaggy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sass/dart-sass": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dart-lang/sdk": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "halfzebra/create-elm-app": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "amacneil/dbmate": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "t-troll/alienfx-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "t8y2/dbx": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "tenox7/ttyplot": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dcmtk/dcmtk": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yb2460/harness-anything": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "houseofmvps/codesight": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kerma/defaultbrowser": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Homebrew install-on-request",
+      "slug": "kerma-defaultbrowser",
+      "acceptedAt": "2026-09-15T08:44:23.550Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/defaultbrowser.json",
+          "snippet": "{\"executables\":[\"defaultbrowser\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/defaultbrowser",
+          "snippet": "brew install defaultbrowser"
+        },
+        "usage": {
+          "url": "https://github.com/kerma/defaultbrowser/blob/ad812c4e678a1e1f04cc44b8ab6d1ed5b8733359/README.md",
+          "snippet": "defaultbrowser chrome"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kerma/defaultbrowser",
+          "snippet": "Command line tool for getting and setting a default browser (HTTP handler) in macOS"
+        },
+        "adoption": {
+          "stars": 362,
+          "githubSource": "https://github.com/kerma/defaultbrowser",
+          "homebrew": {
+            "repo": "kerma/defaultbrowser",
+            "formula": "defaultbrowser",
+            "count": 174,
+            "source": "https://formulae.brew.sh/api/formula/defaultbrowser.json",
+            "generatedDate": "2026-09-15"
+          }
+        },
+        "commit": "ad812c4e678a1e1f04cc44b8ab6d1ed5b8733359"
+      }
+    },
+    "athityakumar/colorls": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vshulcz/deja-vu": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "GitHub stars",
+      "slug": "vshulcz-deja-vu",
+      "acceptedAt": "2026-09-15T08:44:23.550Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/vshulcz/deja-vu/blob/20d163819ff2f3cde395c94ace23438c961b57b7/npm/package.json",
+          "snippet": "{\"bin\":{\"deja\":\"bin/deja\"}}",
+          "target": "npm/bin/deja"
+        },
+        "installation": {
+          "url": "https://github.com/vshulcz/deja-vu/blob/20d163819ff2f3cde395c94ace23438c961b57b7/npm/README.md",
+          "snippet": "npm install -g @vshulcz/deja-vu                    # then: deja install --auto"
+        },
+        "usage": {
+          "url": "https://github.com/vshulcz/deja-vu/blob/20d163819ff2f3cde395c94ace23438c961b57b7/README.md",
+          "snippet": "deja embed"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/vshulcz/deja-vu",
+          "snippet": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 20 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary."
+        },
+        "adoption": {
+          "stars": 815,
+          "githubSource": "https://github.com/vshulcz/deja-vu",
+          "homebrew": {
+            "repo": "vshulcz/deja-vu",
+            "formula": "deja-vu",
+            "count": 136,
+            "source": "https://formulae.brew.sh/api/formula/deja-vu.json",
+            "generatedDate": "2026-09-15"
+          }
+        },
+        "commit": "20d163819ff2f3cde395c94ace23438c961b57b7"
+      }
+    },
+    "wbopan/moffee": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "go-delve/delve": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dependency-check/dependencycheck": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "freeok/so-novel": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yelp/detect-secrets": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "chalk/chalk": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "detekt/detekt": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pxb1988/dex2jar": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "caliber-ai-org/ai-setup": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rolinh/dfc": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "obitouka/instagramprivsniffer": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "so-fancy/diff-so-fancy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "readbeyond/aeneas": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wilfred/difftastic": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "direnv/direnv": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "extractpdf4j/extractpdf4j": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "matthart1983/diskwatch": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "almanaccode/codealmanac": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "leo4815162342/dukascopy-node": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "wagoodman/dive": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rupeshs/fastsdcpu": {
+      "status": "held",
+      "checkedAt": "2026-09-15T08:44:23.550Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-15T07:44:22.876Z"
+  "lastRunAt": "2026-09-15T08:44:23.550Z"
 }

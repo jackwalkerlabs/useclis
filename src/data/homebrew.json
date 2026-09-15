@@ -1174,5 +1174,33 @@
     "checkedAt": "2026-09-14T17:44:53.748Z",
     "generatedDate": "2026-09-14",
     "status": "ok"
+  },
+  "kerma-defaultbrowser": {
+    "formula": "defaultbrowser",
+    "repo": "kerma/defaultbrowser",
+    "source": "https://formulae.brew.sh/api/formula/defaultbrowser.json",
+    "attemptedAt": "2026-09-15T08:44:47.685Z",
+    "counts": {
+      "30d": 174,
+      "90d": 550,
+      "365d": 1836
+    },
+    "checkedAt": "2026-09-15T08:44:47.685Z",
+    "generatedDate": "2026-09-15",
+    "status": "ok"
+  },
+  "vshulcz-deja-vu": {
+    "formula": "deja-vu",
+    "repo": "vshulcz/deja-vu",
+    "source": "https://formulae.brew.sh/api/formula/deja-vu.json",
+    "attemptedAt": "2026-09-15T08:44:47.722Z",
+    "counts": {
+      "30d": 136,
+      "90d": 136,
+      "365d": 136
+    },
+    "checkedAt": "2026-09-15T08:44:47.722Z",
+    "generatedDate": "2026-09-15",
+    "status": "ok"
   }
 }
