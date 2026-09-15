@@ -18,3 +18,9 @@
   .agent-prompt-heading button { width: 100%; }
   .agent-prompt-resources textarea { font-size: 1rem; }
 }
+
+.useclis-hero > .hero-intro { max-width: 520px; margin-inline: auto; }
+.agent-prompt-example { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-subtle); font-size: .875rem; line-height: 1.5; color: var(--text-muted); }
+.agent-prompt-example strong { color: var(--text-body); font-weight: 600; }
+.agent-prompt-example a { text-decoration: underline; text-underline-offset: 3px; }
+.agent-prompt-example code { display: block; margin-top: 8px; color: var(--text-strong); font-family: var(--font-mono); font-size: .75rem; overflow-wrap: anywhere; }
