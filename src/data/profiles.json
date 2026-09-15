@@ -3209,5 +3209,31 @@
     "createdAt": "2020-09-18T14:58:36Z",
     "checkedAt": "2026-09-15T03:44:51.990Z",
     "source": "https://github.com/abhixdd"
+  },
+  "jakepartusch": {
+    "login": "JakePartusch",
+    "name": "Jake Partusch",
+    "type": "User",
+    "bio": "Engineering Lead at @mongodb ",
+    "location": "Omaha, NE",
+    "website": null,
+    "followers": 58,
+    "publicRepos": 69,
+    "createdAt": "2014-01-16T22:08:37Z",
+    "checkedAt": "2026-09-15T06:44:42.325Z",
+    "source": "https://github.com/JakePartusch"
+  },
+  "jeremyfa": {
+    "login": "jeremyfa",
+    "name": "Jérémy Faivre",
+    "type": "User",
+    "bio": "Making @ceramic-engine, apps and games.",
+    "location": "Paris",
+    "website": "https://jeremyfa.com",
+    "followers": 143,
+    "publicRepos": 144,
+    "createdAt": "2009-12-08T00:01:53Z",
+    "checkedAt": "2026-09-15T06:44:42.582Z",
+    "source": "https://github.com/jeremyfa"
   }
 }

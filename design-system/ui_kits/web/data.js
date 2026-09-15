@@ -5929,6 +5929,44 @@ window.USECLIS_DATA = {
       "stars": 3752,
       "license": "MIT",
       "checkedAt": "2026-09-15T04:44:35.333Z"
+    },
+    {
+      "slug": "jakepartusch-serverlessui",
+      "name": "serverlessui",
+      "repo": "JakePartusch/serverlessui",
+      "category": "Cloud & deployment",
+      "command": "sui",
+      "useCase": "A command-line utility for deploying serverless applications to AWS. Complete with custom domains, deploy previews, TypeScript support, and more.",
+      "description": "A command-line utility for deploying serverless applications to AWS. Complete with custom domains, deploy previews, TypeScript support, and more.",
+      "agentUse": "Invoke sui from a shell for the documented use case: A command-line utility for deploying serverless applications to AWS. Complete with custom domains, deploy previews, TypeScript support, and more.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "sui deploy --dir=\"dist\"",
+      "website": "https://github.com/JakePartusch/serverlessui",
+      "docs": "https://github.com/JakePartusch/serverlessui/blob/c28e57a72e4428af50dc42997f47a90f5f0dffb7/README.md",
+      "stars": 551,
+      "license": null,
+      "checkedAt": "2026-09-15T06:44:40.213Z"
+    },
+    {
+      "slug": "jeremyfa-yaml-js",
+      "name": "yaml.js",
+      "repo": "jeremyfa/yaml.js",
+      "category": "Data & APIs",
+      "command": "yaml2json",
+      "useCase": "Standalone JavaScript YAML 1.2 Parser & Encoder. Works under node.js and all major browsers. Also brings command line YAML/JSON conversion tools.",
+      "description": "Standalone JavaScript YAML 1.2 Parser & Encoder. Works under node.js and all major browsers. Also brings command line YAML/JSON conversion tools.",
+      "agentUse": "Invoke yaml2json from a shell for the documented use case: Standalone JavaScript YAML 1.2 Parser & Encoder. Works under node.js and all major browsers. Also brings command line YAML/JSON conversion tools.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "yaml2json myfile.yml",
+      "website": "https://github.com/jeremyfa/yaml.js",
+      "docs": "https://github.com/jeremyfa/yaml.js/blob/efe8ce18704ae43383e4177aa7de1a2619bd4e67/README.md",
+      "stars": 884,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T06:44:40.791Z"
     }
   ],
   "categories": [
