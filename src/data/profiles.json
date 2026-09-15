@@ -1098,10 +1098,10 @@
     "bio": "Grafana Labs is behind leading open source projects Grafana and Loki, and the creator of the first open & composable observability platform.",
     "location": "Sweden",
     "website": "https://grafana.com",
-    "followers": 7300,
+    "followers": 7331,
     "publicRepos": 590,
     "createdAt": "2014-04-06T12:22:57Z",
-    "checkedAt": "2026-09-10T11:21:30.404Z",
+    "checkedAt": "2026-09-15T20:44:51.928Z",
     "source": "https://github.com/grafana"
   },
   "googlechrome": {
@@ -3404,5 +3404,57 @@
     "createdAt": "2012-06-27T12:01:06Z",
     "checkedAt": "2026-09-15T19:44:29.070Z",
     "source": "https://github.com/ozeranskii"
+  },
+  "skardyy": {
+    "login": "Skardyy",
+    "name": "Meron Bossin",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 23,
+    "publicRepos": 46,
+    "createdAt": "2021-04-02T17:31:42Z",
+    "checkedAt": "2026-09-15T20:44:52.170Z",
+    "source": "https://github.com/Skardyy"
+  },
+  "unhappychoice": {
+    "login": "unhappychoice",
+    "name": "Yuji Ueki",
+    "type": "User",
+    "bio": "\r\n    ＼ Software Engineer ／\r\n\r\n",
+    "location": "Tokyo, Japan",
+    "website": "https://unhappychoice.com",
+    "followers": 3694,
+    "publicRepos": 55,
+    "createdAt": "2013-10-04T05:40:46Z",
+    "checkedAt": "2026-09-15T20:44:52.406Z",
+    "source": "https://github.com/unhappychoice"
+  },
+  "ivanmurzak": {
+    "login": "IvanMurzak",
+    "name": "Ivan Murzak",
+    "type": "User",
+    "bio": "AI inference. Making AI better. Integrating AI into production pipelines. Developing AI agents. Working with 3D Graphics and real-time physics. Full stack, 0-1.",
+    "location": "Redmond, WA, United States",
+    "website": "https://ivan-murzak.com",
+    "followers": 452,
+    "publicRepos": 134,
+    "createdAt": "2014-10-10T13:13:39Z",
+    "checkedAt": "2026-09-15T20:44:52.668Z",
+    "source": "https://github.com/IvanMurzak"
+  },
+  "gitguardian": {
+    "login": "GitGuardian",
+    "name": "GitGuardian",
+    "type": "Organization",
+    "bio": "GitGuardian is a developer-first solution scanning GitHub activity in real-time for API secret tokens, database credentials, certificates, ...",
+    "location": "France",
+    "website": "https://gitguardian.com",
+    "followers": 940,
+    "publicRepos": 36,
+    "createdAt": "2017-04-12T15:02:16Z",
+    "checkedAt": "2026-09-15T20:44:52.921Z",
+    "source": "https://github.com/GitGuardian"
   }
 }

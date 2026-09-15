@@ -1230,5 +1230,33 @@
     "checkedAt": "2026-09-15T14:44:47.364Z",
     "generatedDate": "2026-09-15",
     "status": "ok"
+  },
+  "grafana-gcx": {
+    "formula": "gcx",
+    "repo": "grafana/gcx",
+    "source": "https://formulae.brew.sh/api/formula/gcx.json",
+    "attemptedAt": "2026-09-15T20:44:51.373Z",
+    "counts": {
+      "30d": 344,
+      "90d": 629,
+      "365d": 629
+    },
+    "checkedAt": "2026-09-15T20:44:51.373Z",
+    "generatedDate": "2026-09-15",
+    "status": "ok"
+  },
+  "gitguardian-ggshield": {
+    "formula": "ggshield",
+    "repo": "GitGuardian/ggshield",
+    "source": "https://formulae.brew.sh/api/formula/ggshield.json",
+    "attemptedAt": "2026-09-15T20:44:51.409Z",
+    "counts": {
+      "30d": 392,
+      "90d": 1843,
+      "365d": 6825
+    },
+    "checkedAt": "2026-09-15T20:44:51.409Z",
+    "generatedDate": "2026-09-15",
+    "status": "ok"
   }
 }

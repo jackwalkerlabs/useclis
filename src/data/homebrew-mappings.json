@@ -353,5 +353,13 @@
   "elio-fm-elio": {
     "formula": "elio",
     "repo": "elio-fm/elio"
+  },
+  "grafana-gcx": {
+    "formula": "gcx",
+    "repo": "grafana/gcx"
+  },
+  "gitguardian-ggshield": {
+    "formula": "ggshield",
+    "repo": "GitGuardian/ggshield"
   }
 }

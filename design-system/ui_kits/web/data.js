@@ -6214,6 +6214,101 @@ window.USECLIS_DATA = {
       "stars": 811,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-15T19:44:27.381Z"
+    },
+    {
+      "slug": "grafana-gcx",
+      "name": "gcx",
+      "repo": "grafana/gcx",
+      "category": "Cloud & deployment",
+      "command": "gcx",
+      "useCase": "A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.",
+      "description": "A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.",
+      "agentUse": "Invoke gcx from a shell for the documented use case: A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "gcx metrics query -d grafanacloud-usage 'grafanacloud_org_metrics_billable_series'  --since 24h  --step 1h",
+      "website": "https://github.com/grafana/gcx",
+      "docs": "https://github.com/grafana/gcx/blob/5e10fc84a699a1c17518203c5665f71d2fe8c6a7/README.md",
+      "stars": 605,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-15T20:44:47.565Z"
+    },
+    {
+      "slug": "skardyy-mcat",
+      "name": "mcat",
+      "repo": "Skardyy/mcat",
+      "category": "Files & documents",
+      "command": "mcat",
+      "useCase": "Terminal image, video, PDF, and Markdown viewer",
+      "description": "Terminal image, video, PDF, and Markdown viewer",
+      "agentUse": "Invoke mcat from a shell for the documented use case: Terminal image, video, PDF, and Markdown viewer",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mcat file.docx file.pdf -o inline",
+      "website": "https://github.com/Skardyy/mcat",
+      "docs": "https://github.com/Skardyy/mcat/blob/3cdf3e50a71e4cafcb04a7e7538355bf4304a276/README.md",
+      "stars": 1410,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T20:44:48.053Z"
+    },
+    {
+      "slug": "unhappychoice-gitlogue",
+      "name": "gitlogue",
+      "repo": "unhappychoice/gitlogue",
+      "category": "Git & collaboration",
+      "command": "gitlogue",
+      "useCase": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
+      "description": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
+      "agentUse": "Invoke gitlogue from a shell for the documented use case: A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "gitlogue --commit abc123",
+      "website": "https://github.com/unhappychoice/gitlogue",
+      "docs": "https://github.com/unhappychoice/gitlogue/blob/db2df596e2dd83b219c3378920460896f30cdb15/README.md",
+      "stars": 4980,
+      "license": "ISC",
+      "checkedAt": "2026-09-15T20:44:48.588Z"
+    },
+    {
+      "slug": "ivanmurzak-unity-mcp",
+      "name": "Unity-MCP",
+      "repo": "IvanMurzak/Unity-MCP",
+      "category": "Testing & quality",
+      "command": "unity-mcp-cli",
+      "useCase": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
+      "description": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
+      "agentUse": "Invoke unity-mcp-cli from a shell for the documented use case: AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "unity-mcp-cli install-plugin ./MyUnityProject",
+      "website": "https://github.com/IvanMurzak/Unity-MCP",
+      "docs": "https://github.com/IvanMurzak/Unity-MCP/blob/39a4bb329285523428813cc0a1e79eb8945f6f1f/README.md",
+      "stars": 4273,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-15T20:44:49.216Z"
+    },
+    {
+      "slug": "gitguardian-ggshield",
+      "name": "ggshield",
+      "repo": "GitGuardian/ggshield",
+      "category": "Git & collaboration",
+      "command": "ggshield",
+      "useCase": "Detect and validate 500+ types of hardcoded secrets with advanced checks. Use it as a pre-commit hook, GitHub Action, or CLI for proactive secret detection and security.",
+      "description": "Detect and validate 500+ types of hardcoded secrets with advanced checks. Use it as a pre-commit hook, GitHub Action, or CLI for proactive secret detection and security.",
+      "agentUse": "Invoke ggshield from a shell for the documented use case: Detect and validate 500+ types of hardcoded secrets with advanced checks. Use it as a pre-commit hook, GitHub Action, or CLI for proactive secret detection and security.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ggshield --config-path path/to/.gitguardian.yaml config migrate",
+      "website": "https://github.com/GitGuardian/ggshield",
+      "docs": "https://github.com/GitGuardian/ggshield/blob/6f310346304be713f9afa49529f42918d10846c7/README.md",
+      "stars": 1996,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T20:44:49.815Z"
     }
   ],
   "categories": [
