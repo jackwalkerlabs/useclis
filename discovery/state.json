@@ -1,8 +1,236 @@
 {
   "version": 1,
-  "searchPage": 10,
-  "brewOffset": 360,
-  "pending": [],
+  "searchPage": 1,
+  "brewOffset": 400,
+  "pending": [
+    {
+      "repo": "auriamg/macdylibbundler",
+      "formula": "dylibbundler"
+    },
+    {
+      "repo": "Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI"
+    },
+    {
+      "repo": "Canop/dysk",
+      "formula": "dysk"
+    },
+    {
+      "repo": "Achno/gowall"
+    },
+    {
+      "repo": "win-acme/win-acme"
+    },
+    {
+      "repo": "retypeapp/retype"
+    },
+    {
+      "repo": "ahmadawais/ramadan-cli"
+    },
+    {
+      "repo": "julien040/gut"
+    },
+    {
+      "repo": "babarot/gomi"
+    },
+    {
+      "repo": "infinitered/ignite"
+    },
+    {
+      "repo": "Bahaaio/pomo"
+    },
+    {
+      "repo": "kargnas/damn-my-slow-kt"
+    },
+    {
+      "repo": "fuelen/owl"
+    },
+    {
+      "repo": "felangel/mason"
+    },
+    {
+      "repo": "langwatch/better-agents"
+    },
+    {
+      "repo": "inlife/nexrender"
+    },
+    {
+      "repo": "ReVanced/revanced-cli"
+    },
+    {
+      "repo": "rgcr/m-cli"
+    },
+    {
+      "repo": "loxy0devlp/RedTiger-Tools"
+    },
+    {
+      "repo": "rohitg00/skillkit"
+    },
+    {
+      "repo": "expo/expo-github-action"
+    },
+    {
+      "repo": "shotgun-sh/shotgun"
+    },
+    {
+      "repo": "instill-ai/instill-core"
+    },
+    {
+      "repo": "alajmo/sake"
+    },
+    {
+      "repo": "lorryjovens-hub/claude-code-rust"
+    },
+    {
+      "repo": "Siriusmart/youtube-tui"
+    },
+    {
+      "repo": "enulus/OpenPackage"
+    },
+    {
+      "repo": "exiftool/exiftool"
+    },
+    {
+      "repo": "EwenQuim/entropy"
+    },
+    {
+      "repo": "stefanmaric/g"
+    },
+    {
+      "repo": "daniel3303/ClaudeCodeStatusLine"
+    },
+    {
+      "repo": "Owloops/updo"
+    },
+    {
+      "repo": "rsalmei/alive-progress"
+    },
+    {
+      "repo": "rawnly/splash-cli"
+    },
+    {
+      "repo": "mfontanini/presenterm"
+    },
+    {
+      "repo": "Aider-AI/aider"
+    },
+    {
+      "repo": "MagicCube/helixent"
+    },
+    {
+      "repo": "alajmo/mani"
+    },
+    {
+      "repo": "docsagent/docsagent"
+    },
+    {
+      "repo": "shinshin86/oh-my-logo"
+    },
+    {
+      "repo": "claudiodangelis/qrcp"
+    },
+    {
+      "repo": "dankamongmen/notcurses"
+    },
+    {
+      "repo": "afshinm/zerobox"
+    },
+    {
+      "repo": "agauniyal/rang"
+    },
+    {
+      "repo": "kainctl/isd"
+    },
+    {
+      "repo": "DuanYan007/markitdown"
+    },
+    {
+      "repo": "sclevine/yj"
+    },
+    {
+      "repo": "Krasjet/pdf.tocgen"
+    },
+    {
+      "repo": "zu1k/nali"
+    },
+    {
+      "repo": "naggie/dstask"
+    },
+    {
+      "repo": "ms-jpq/sad"
+    },
+    {
+      "repo": "emersion/slurp"
+    },
+    {
+      "repo": "pythops/tenere"
+    },
+    {
+      "repo": "FrancescoStabile/numasec"
+    },
+    {
+      "repo": "gildas-lormeau/SingleFileZ"
+    },
+    {
+      "repo": "yigitkonur/cli-continues"
+    },
+    {
+      "repo": "Slackadays/Clipboard"
+    },
+    {
+      "repo": "minamijoyo/hcledit"
+    },
+    {
+      "repo": "hofstadter-io/hof"
+    },
+    {
+      "repo": "greymd/tmux-xpanes"
+    },
+    {
+      "repo": "php-tui/php-tui"
+    },
+    {
+      "repo": "leventcz/laravel-top"
+    },
+    {
+      "repo": "akd-io/create-next-stack"
+    },
+    {
+      "repo": "randy3k/radian"
+    },
+    {
+      "repo": "sharkdp/pastel"
+    },
+    {
+      "repo": "kaifcodec/ytconverter"
+    },
+    {
+      "repo": "sharkdp/hyperfine"
+    },
+    {
+      "repo": "bubblelabai/BubbleLab"
+    },
+    {
+      "repo": "nakabonne/pbgopy"
+    },
+    {
+      "repo": "ipinfo/cli"
+    },
+    {
+      "repo": "six-ddc/plow"
+    },
+    {
+      "repo": "glomatico/votify"
+    },
+    {
+      "repo": "securisec/chepy"
+    },
+    {
+      "repo": "sorin-ionescu/prezto"
+    },
+    {
+      "repo": "tbillington/kondo"
+    }
+  ],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -11014,7 +11242,267 @@
       "status": "held",
       "checkedAt": "2026-09-15T10:44:19.634Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "docbook/xslt10-stylesheets": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "iagooar/qqqa": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "campfirein/byterover-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "docker/docker-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "docker/buildx": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "retlehs/quien": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "docker/compose": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vercel-labs/opensrc": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "docker/docker-credential-helpers": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/amazon-ecr-credential-helper": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "shayonj/pg-osc": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "moby/moby": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jmuncor/tokentap": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "my-claude-utils/clsh": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "mbailey/bash-my-aws": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "openlightingproject/ola": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "joncampbell123/dosbox-x": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dotnet/dotnet": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tt-a1i/hive": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "facebook/dotslash": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dtnewman/zev": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "doxygen/doxygen": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rtlzeromemory/rezi": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dprint/dprint": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "avajs/ava": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "immanuwell/dockerfile-roast": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "amir20/dtop": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "GitHub stars",
+      "slug": "amir20-dtop",
+      "acceptedAt": "2026-09-15T11:49:09.864Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/amir20/dtop/blob/1861b18996cdc4daaacb835d097ece8c3456b5cb/Cargo.toml",
+          "snippet": "package.name=\"dtop\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/amir20/dtop/blob/1861b18996cdc4daaacb835d097ece8c3456b5cb/README.md",
+          "snippet": "cargo install dtop"
+        },
+        "usage": {
+          "url": "https://github.com/amir20/dtop/blob/1861b18996cdc4daaacb835d097ece8c3456b5cb/README.md",
+          "snippet": "dtop --icons nerd"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/amir20/dtop",
+          "snippet": "Terminal dashboard for Docker monitoring across multiple hosts with Dozzle integration."
+        },
+        "adoption": {
+          "stars": 1419,
+          "githubSource": "https://github.com/amir20/dtop",
+          "homebrew": {
+            "repo": "amir20/dtop",
+            "formula": "dtop",
+            "count": 246,
+            "source": "https://formulae.brew.sh/api/formula/dtop.json",
+            "generatedDate": "2026-09-15"
+          }
+        },
+        "commit": "1861b18996cdc4daaacb835d097ece8c3456b5cb"
+      }
+    },
+    "arcangel0/eva": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "byron/dua-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "0xranx/opencontext": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "iterate-ch/cyberduck": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "trugamr/wol": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "fujiwarachoki/moneyprinterv2": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "muesli/duf": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "timmoth/rackpeek": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bootandy/dust": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "massgen/massgen": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "GitHub stars",
+      "slug": "massgen-massgen",
+      "acceptedAt": "2026-09-15T11:49:09.864Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/pyproject.toml",
+          "snippet": "massgen = \"massgen.cli:cli_main\"",
+          "target": "massgen/cli/__init__.py"
+        },
+        "installation": {
+          "url": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/README.md",
+          "snippet": "pip install massgen==0.1.97"
+        },
+        "usage": {
+          "url": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/README.md",
+          "snippet": "massgen --display rich \"Your question\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/massgen/MassGen",
+          "snippet": "🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Discord: discord.massgen.ai"
+        },
+        "adoption": {
+          "stars": 1129,
+          "githubSource": "https://github.com/massgen/MassGen",
+          "homebrew": null
+        },
+        "commit": "007bd8579298d7dc3ff2a43c378e27a284902f22"
+      }
+    },
+    "jrnxf/thokr": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mgieseki/dvisvgm": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vyfor/rattles": {
+      "status": "held",
+      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-15T10:44:19.634Z"
+  "lastRunAt": "2026-09-15T11:49:09.864Z"
 }

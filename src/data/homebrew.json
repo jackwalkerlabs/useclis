@@ -1202,5 +1202,19 @@
     "checkedAt": "2026-09-15T08:44:47.722Z",
     "generatedDate": "2026-09-15",
     "status": "ok"
+  },
+  "amir20-dtop": {
+    "formula": "dtop",
+    "repo": "amir20/dtop",
+    "source": "https://formulae.brew.sh/api/formula/dtop.json",
+    "attemptedAt": "2026-09-15T11:49:32.805Z",
+    "counts": {
+      "30d": 246,
+      "90d": 854,
+      "365d": 1692
+    },
+    "checkedAt": "2026-09-15T11:49:32.805Z",
+    "generatedDate": "2026-09-15",
+    "status": "ok"
   }
 }

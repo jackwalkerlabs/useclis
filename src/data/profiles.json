@@ -3287,5 +3287,31 @@
     "createdAt": "2025-08-08T21:36:52Z",
     "checkedAt": "2026-09-15T09:44:37.989Z",
     "source": "https://github.com/paulilaaso"
+  },
+  "amir20": {
+    "login": "amir20",
+    "name": "Amir Raminfar",
+    "type": "User",
+    "bio": "I build things people don't need. ",
+    "location": "San Francisco, CA",
+    "website": "https://amirraminfar.me/",
+    "followers": 1533,
+    "publicRepos": 74,
+    "createdAt": "2010-04-30T17:00:19Z",
+    "checkedAt": "2026-09-15T11:49:33.435Z",
+    "source": "https://github.com/amir20"
+  },
+  "massgen": {
+    "login": "massgen",
+    "name": "massgen",
+    "type": "Organization",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 19,
+    "publicRepos": 6,
+    "createdAt": "2025-10-29T19:59:03Z",
+    "checkedAt": "2026-09-15T11:49:33.723Z",
+    "source": "https://github.com/massgen"
   }
 }

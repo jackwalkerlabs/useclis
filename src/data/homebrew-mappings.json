@@ -345,5 +345,9 @@
   "vshulcz-deja-vu": {
     "formula": "deja-vu",
     "repo": "vshulcz/deja-vu"
+  },
+  "amir20-dtop": {
+    "formula": "dtop",
+    "repo": "amir20/dtop"
   }
 }

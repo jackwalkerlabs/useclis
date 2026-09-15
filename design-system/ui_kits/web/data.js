@@ -6043,6 +6043,44 @@ window.USECLIS_DATA = {
       "stars": 808,
       "license": "GPL-3.0",
       "checkedAt": "2026-09-15T09:44:36.398Z"
+    },
+    {
+      "slug": "amir20-dtop",
+      "name": "dtop",
+      "repo": "amir20/dtop",
+      "category": "Cloud & deployment",
+      "command": "dtop",
+      "useCase": "Terminal dashboard for Docker monitoring across multiple hosts with Dozzle integration.",
+      "description": "Terminal dashboard for Docker monitoring across multiple hosts with Dozzle integration.",
+      "agentUse": "Invoke dtop from a shell for the documented use case: Terminal dashboard for Docker monitoring across multiple hosts with Dozzle integration.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "dtop --icons nerd",
+      "website": "https://github.com/amir20/dtop",
+      "docs": "https://github.com/amir20/dtop/blob/1861b18996cdc4daaacb835d097ece8c3456b5cb/README.md",
+      "stars": 1419,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T11:49:31.290Z"
+    },
+    {
+      "slug": "massgen-massgen",
+      "name": "MassGen",
+      "repo": "massgen/MassGen",
+      "category": "Agents & models",
+      "command": "massgen",
+      "useCase": "🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Discord: discord.massgen.ai",
+      "description": "🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Discord: discord.massgen.ai",
+      "agentUse": "Invoke massgen from a shell for the documented use case: 🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Discord: discord.massgen.ai",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "massgen --display rich \"Your question\"",
+      "website": "https://github.com/massgen/MassGen",
+      "docs": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/README.md",
+      "stars": 1129,
+      "license": null,
+      "checkedAt": "2026-09-15T11:49:31.765Z"
     }
   ],
   "categories": [

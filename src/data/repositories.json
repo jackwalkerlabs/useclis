@@ -2898,5 +2898,25 @@
     "language": "Python",
     "checkedAt": "2026-09-15T09:44:36.398Z",
     "source": "https://github.com/paulilaaso/lue"
+  },
+  "amir20-dtop": {
+    "createdAt": "2025-06-20T21:52:23Z",
+    "pushedAt": "2026-09-10T13:35:28Z",
+    "lastCommitAt": "2026-09-10T13:35:27Z",
+    "stars": 1419,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-15T11:49:31.290Z",
+    "source": "https://github.com/amir20/dtop"
+  },
+  "massgen-massgen": {
+    "createdAt": "2025-07-18T06:36:13Z",
+    "pushedAt": "2026-06-12T18:38:37Z",
+    "lastCommitAt": "2026-06-12T17:54:24Z",
+    "stars": 1129,
+    "license": null,
+    "language": "Python",
+    "checkedAt": "2026-09-15T11:49:31.765Z",
+    "source": "https://github.com/massgen/MassGen"
   }
 }
