@@ -5027,5 +5027,21 @@
     "example": "czg - Interactive Commitizen CLI that generate standardized git commit message",
     "website": "https://github.com/Zhengqbbb/cz-git",
     "docs": "https://github.com/Zhengqbbb/cz-git/blob/da546923ce5b5ae19c0456c40d3ac708ea60d193/packages/cli/README.md"
+  },
+  {
+    "slug": "trentm-json",
+    "name": "json",
+    "repo": "trentm/json",
+    "category": "Data & APIs",
+    "command": "json",
+    "useCase": "A \"json\" command for massaging JSON on your Unix command line.",
+    "description": "A \"json\" command for massaging JSON on your Unix command line.",
+    "agentUse": "Invoke json from a shell for the documented use case: A \"json\" command for massaging JSON on your Unix command line.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "json -ga",
+    "website": "https://github.com/trentm/json",
+    "docs": "https://github.com/trentm/json/blob/a8baa02b5d6fc5f0c16521372ee89674a4706d82/README.md"
   }
 ]

@@ -5872,6 +5872,25 @@ window.USECLIS_DATA = {
       "stars": 1527,
       "license": "MIT",
       "checkedAt": "2026-09-15T00:44:44.164Z"
+    },
+    {
+      "slug": "trentm-json",
+      "name": "json",
+      "repo": "trentm/json",
+      "category": "Data & APIs",
+      "command": "json",
+      "useCase": "A \"json\" command for massaging JSON on your Unix command line.",
+      "description": "A \"json\" command for massaging JSON on your Unix command line.",
+      "agentUse": "Invoke json from a shell for the documented use case: A \"json\" command for massaging JSON on your Unix command line.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "json -ga",
+      "website": "https://github.com/trentm/json",
+      "docs": "https://github.com/trentm/json/blob/a8baa02b5d6fc5f0c16521372ee89674a4706d82/README.md",
+      "stars": 1561,
+      "license": null,
+      "checkedAt": "2026-09-15T01:44:41.073Z"
     }
   ],
   "categories": [

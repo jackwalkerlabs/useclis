@@ -2808,5 +2808,15 @@
     "language": "TypeScript",
     "checkedAt": "2026-09-15T00:44:44.164Z",
     "source": "https://github.com/Zhengqbbb/cz-git"
+  },
+  "trentm-json": {
+    "createdAt": "2011-02-11T00:35:08Z",
+    "pushedAt": "2024-01-23T13:41:38Z",
+    "lastCommitAt": "2021-04-27T05:10:48Z",
+    "stars": 1561,
+    "license": null,
+    "language": "JavaScript",
+    "checkedAt": "2026-09-15T01:44:41.073Z",
+    "source": "https://github.com/trentm/json"
   }
 }

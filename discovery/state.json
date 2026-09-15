@@ -4,141 +4,6 @@
   "brewOffset": 280,
   "pending": [
     {
-      "repo": "donnemartin/gitsome"
-    },
-    {
-      "repo": "ha7ilm/csdr"
-    },
-    {
-      "repo": "coala/coala"
-    },
-    {
-      "repo": "mislav/hub"
-    },
-    {
-      "repo": "trentm/json"
-    },
-    {
-      "repo": "eclipse-paho/paho.mqtt-spy"
-    },
-    {
-      "repo": "bitly/data_hacks"
-    },
-    {
-      "repo": "pstadler/ticker.sh"
-    },
-    {
-      "repo": "mrowa44/emojify"
-    },
-    {
-      "repo": "TeXitoi/structopt"
-    },
-    {
-      "repo": "bugen/pypipe"
-    },
-    {
-      "repo": "mattallty/Caporal.js"
-    },
-    {
-      "repo": "tidwall/jj"
-    },
-    {
-      "repo": "hvdwolf/jExifToolGUI"
-    },
-    {
-      "repo": "docopt/docopt.go"
-    },
-    {
-      "repo": "lukaszlach/docker-tc"
-    },
-    {
-      "repo": "yuki-koyama/blender-cli-rendering"
-    },
-    {
-      "repo": "kristianperkins/x_x"
-    },
-    {
-      "repo": "finestructure/Arena"
-    },
-    {
-      "repo": "sjl/t"
-    },
-    {
-      "repo": "npkgz/cli-progress"
-    },
-    {
-      "repo": "na-ka-na/ExcelCompare"
-    },
-    {
-      "repo": "railsware/bozon"
-    },
-    {
-      "repo": "clibs/entr"
-    },
-    {
-      "repo": "arc90/git-sweep"
-    },
-    {
-      "repo": "libnet/nemesis"
-    },
-    {
-      "repo": "six-ddc/httpflow"
-    },
-    {
-      "repo": "veltman/clmystery"
-    },
-    {
-      "repo": "pdfkit/pdfkit"
-    },
-    {
-      "repo": "muesli/gitty"
-    },
-    {
-      "repo": "Narasimha1997/fake-sms"
-    },
-    {
-      "repo": "bcicen/grmon"
-    },
-    {
-      "repo": "solusipse/fiche"
-    },
-    {
-      "repo": "TaoK/PoorMansTSqlFormatter"
-    },
-    {
-      "repo": "moretension/duti"
-    },
-    {
-      "repo": "jmespath/jp"
-    },
-    {
-      "repo": "chanify/chanify"
-    },
-    {
-      "repo": "elixir-mogrify/mogrify"
-    },
-    {
-      "repo": "architv/soccer-cli"
-    },
-    {
-      "repo": "mptre/pick"
-    },
-    {
-      "repo": "dat-ecosystem/dat"
-    },
-    {
-      "repo": "OneLoneCoder/CommandLineFPS"
-    },
-    {
-      "repo": "astorm/pestle"
-    },
-    {
-      "repo": "nurdtechie98/drive-cli"
-    },
-    {
-      "repo": "thom4parisot/crx"
-    },
-    {
       "repo": "freedmand/textra"
     },
     {
@@ -9299,7 +9164,234 @@
       "status": "held",
       "checkedAt": "2026-09-15T00:44:19.861Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ha7ilm/csdr": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "coala/coala": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mislav/hub": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "trentm/json": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "GitHub stars",
+      "slug": "trentm-json",
+      "acceptedAt": "2026-09-15T01:44:17.914Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/trentm/json/blob/a8baa02b5d6fc5f0c16521372ee89674a4706d82/package.json",
+          "snippet": "{\"bin\":{\"json\":\"./lib/json.js\"}}",
+          "target": "lib/json.js"
+        },
+        "installation": {
+          "url": "https://github.com/trentm/json/blob/a8baa02b5d6fc5f0c16521372ee89674a4706d82/README.md",
+          "snippet": "2. `npm install -g json`"
+        },
+        "usage": {
+          "url": "https://github.com/trentm/json/blob/a8baa02b5d6fc5f0c16521372ee89674a4706d82/README.md",
+          "snippet": "json -ga"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/trentm/json",
+          "snippet": "A \"json\" command for massaging JSON on your Unix command line."
+        },
+        "adoption": {
+          "stars": 1561,
+          "githubSource": "https://github.com/trentm/json",
+          "homebrew": null
+        },
+        "commit": "a8baa02b5d6fc5f0c16521372ee89674a4706d82"
+      }
+    },
+    "eclipse-paho/paho.mqtt-spy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "bitly/data_hacks": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pstadler/ticker.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mrowa44/emojify": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "texitoi/structopt": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bugen/pypipe": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tidwall/jj": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hvdwolf/jexiftoolgui": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "docopt/docopt.go": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lukaszlach/docker-tc": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "yuki-koyama/blender-cli-rendering": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kristianperkins/x_x": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "finestructure/arena": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sjl/t": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "na-ka-na/excelcompare": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "railsware/bozon": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "clibs/entr": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "arc90/git-sweep": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "libnet/nemesis": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "six-ddc/httpflow": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "veltman/clmystery": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "pdfkit/pdfkit": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "muesli/gitty": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "narasimha1997/fake-sms": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "solusipse/fiche": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "taok/poormanstsqlformatter": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "moretension/duti": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jmespath/jp": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chanify/chanify": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "elixir-mogrify/mogrify": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "architv/soccer-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mptre/pick": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "onelonecoder/commandlinefps": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "astorm/pestle": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nurdtechie98/drive-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "thom4parisot/crx": {
+      "status": "held",
+      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-15T00:44:19.861Z"
+  "lastRunAt": "2026-09-15T01:44:17.914Z"
 }
