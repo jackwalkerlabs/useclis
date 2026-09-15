@@ -6176,6 +6176,25 @@ window.USECLIS_DATA = {
       "stars": 1019,
       "license": "MIT",
       "checkedAt": "2026-09-15T17:44:48.182Z"
+    },
+    {
+      "slug": "cranot-roam-code",
+      "name": "roam-code",
+      "repo": "Cranot/roam-code",
+      "category": "Data & APIs",
+      "command": "roam",
+      "useCase": "Local codebase intelligence CLI + MCP server for AI coding agents: SQLite code graph, 28 languages, 287 commands, 246 MCP tools, change-safety gates, audit evidence, zero API keys.",
+      "description": "Local codebase intelligence CLI + MCP server for AI coding agents: SQLite code graph, 28 languages, 287 commands, 246 MCP tools, change-safety gates, audit evidence, zero API keys.",
+      "agentUse": "Invoke roam from a shell for the documented use case: Local codebase intelligence CLI + MCP server for AI coding agents: SQLite code graph, 28 languages, 287 commands, 246 MCP tools, change-safety gates, audit evidence, zero API keys.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "roam init",
+      "website": "https://github.com/Cranot/roam-code",
+      "docs": "https://github.com/Cranot/roam-code/blob/09cdcb6f19ce5fab1a947d1b32e42d1dfbb5395b/README.md",
+      "stars": 518,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-15T18:44:39.872Z"
     }
   ],
   "categories": [
