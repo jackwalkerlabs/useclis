@@ -349,5 +349,9 @@
   "amir20-dtop": {
     "formula": "dtop",
     "repo": "amir20/dtop"
+  },
+  "elio-fm-elio": {
+    "formula": "elio",
+    "repo": "elio-fm/elio"
   }
 }

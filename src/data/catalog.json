@@ -5203,5 +5203,21 @@
     "example": "massgen --display rich \"Your question\"",
     "website": "https://github.com/massgen/MassGen",
     "docs": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/README.md"
+  },
+  {
+    "slug": "elio-fm-elio",
+    "name": "elio",
+    "repo": "elio-fm/elio",
+    "category": "Files & documents",
+    "command": "elio",
+    "useCase": "Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support",
+    "description": "Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support",
+    "agentUse": "Invoke elio from a shell for the documented use case: Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "elio shell install",
+    "website": "https://github.com/elio-fm/elio",
+    "docs": "https://github.com/elio-fm/elio/blob/ff9e89b5ca2bbe1de40d76b7f2e819565cb21181/README.md"
   }
 ]

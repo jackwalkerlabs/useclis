@@ -6081,6 +6081,25 @@ window.USECLIS_DATA = {
       "stars": 1129,
       "license": null,
       "checkedAt": "2026-09-15T11:49:31.765Z"
+    },
+    {
+      "slug": "elio-fm-elio",
+      "name": "elio",
+      "repo": "elio-fm/elio",
+      "category": "Files & documents",
+      "command": "elio",
+      "useCase": "Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support",
+      "description": "Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support",
+      "agentUse": "Invoke elio from a shell for the documented use case: Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "elio shell install",
+      "website": "https://github.com/elio-fm/elio",
+      "docs": "https://github.com/elio-fm/elio/blob/ff9e89b5ca2bbe1de40d76b7f2e819565cb21181/README.md",
+      "stars": 861,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T14:44:46.135Z"
     }
   ],
   "categories": [

@@ -3313,5 +3313,18 @@
     "createdAt": "2025-10-29T19:59:03Z",
     "checkedAt": "2026-09-15T11:49:33.723Z",
     "source": "https://github.com/massgen"
+  },
+  "elio-fm": {
+    "login": "elio-fm",
+    "name": "elio",
+    "type": "Organization",
+    "bio": "Batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support ",
+    "location": null,
+    "website": "https://elio-fm.github.io/",
+    "followers": 5,
+    "publicRepos": 4,
+    "createdAt": "2026-04-11T16:43:15Z",
+    "checkedAt": "2026-09-15T14:44:48.130Z",
+    "source": "https://github.com/elio-fm"
   }
 }

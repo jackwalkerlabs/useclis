@@ -1216,5 +1216,19 @@
     "checkedAt": "2026-09-15T11:49:32.805Z",
     "generatedDate": "2026-09-15",
     "status": "ok"
+  },
+  "elio-fm-elio": {
+    "formula": "elio",
+    "repo": "elio-fm/elio",
+    "source": "https://formulae.brew.sh/api/formula/elio.json",
+    "attemptedAt": "2026-09-15T14:44:47.364Z",
+    "counts": {
+      "30d": 102,
+      "90d": 525,
+      "365d": 682
+    },
+    "checkedAt": "2026-09-15T14:44:47.364Z",
+    "generatedDate": "2026-09-15",
+    "status": "ok"
   }
 }
