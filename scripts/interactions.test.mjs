@@ -362,9 +362,14 @@ test('Activity chart range controls show exact totals and weekly values', async 
   }
 });
 
-test('Homepage date ranges update table, totals, and URL while discovery stays weekly', async () => {
+test('Homepage date ranges update table, totals, and URL while discovery stays weekly', async (t) => {
   const user = userEvent.setup();
   const fixtures = tools.filter(tool => ['github-cli', 'ripgrep'].includes(tool.slug));
+  // Anchor the imported activity fixtures, which Directory also reads, so daily
+  // refresh dates cannot change the expected overlapping weekly bucket counts.
+  const checkedDates = fixtures.map(tool => [tool.slug, activity[tool.slug].checkedAt]);
+  t.after(() => { for (const [slug, checkedAt] of checkedDates) activity[slug].checkedAt = checkedAt; });
+  for (const tool of fixtures) activity[tool.slug].checkedAt = '2026-09-09';
   render(h(Directory, { tools: fixtures }));
   const select = screen.getByRole('combobox', { name: 'Leaderboard date range' });
   assert.equal(select.value, '30d');
