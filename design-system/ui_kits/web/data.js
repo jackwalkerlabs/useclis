@@ -6005,6 +6005,44 @@ window.USECLIS_DATA = {
       "stars": 815,
       "license": "MIT",
       "checkedAt": "2026-09-15T08:44:46.610Z"
+    },
+    {
+      "slug": "jnsahaj-lumen",
+      "name": "lumen",
+      "repo": "jnsahaj/lumen",
+      "category": "Git & collaboration",
+      "command": "lumen",
+      "useCase": "Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI",
+      "description": "Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI",
+      "agentUse": "Invoke lumen from a shell for the documented use case: Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lumen diff",
+      "website": "https://github.com/jnsahaj/lumen",
+      "docs": "https://github.com/jnsahaj/lumen/blob/f60038908c66ef25be09d52c76334570fcfb67d0/README.md",
+      "stars": 2863,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T09:44:35.806Z"
+    },
+    {
+      "slug": "paulilaaso-lue",
+      "name": "lue",
+      "repo": "paulilaaso/lue",
+      "category": "Files & documents",
+      "command": "lue",
+      "useCase": "Terminal eBook Reader with Audiobook-Quality Text-to-Speech — Supports EPUB, PDF, DOCX, HTML, RTF, TXT, and MD.",
+      "description": "Terminal eBook Reader with Audiobook-Quality Text-to-Speech — Supports EPUB, PDF, DOCX, HTML, RTF, TXT, and MD.",
+      "agentUse": "Invoke lue from a shell for the documented use case: Terminal eBook Reader with Audiobook-Quality Text-to-Speech — Supports EPUB, PDF, DOCX, HTML, RTF, TXT, and MD.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lue --guide",
+      "website": "https://github.com/paulilaaso/lue",
+      "docs": "https://github.com/paulilaaso/lue/blob/e7948addadf3e089b97b460e6262074ce8597bf3/README.md",
+      "stars": 808,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-15T09:44:36.398Z"
     }
   ],
   "categories": [

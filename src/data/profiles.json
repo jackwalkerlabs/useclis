@@ -3261,5 +3261,31 @@
     "createdAt": "2022-02-13T20:01:17Z",
     "checkedAt": "2026-09-15T08:44:48.812Z",
     "source": "https://github.com/vshulcz"
+  },
+  "jnsahaj": {
+    "login": "jnsahaj",
+    "name": "Sahaj Jain",
+    "type": "User",
+    "bio": "Software engineer @vercel",
+    "location": null,
+    "website": "iamsahaj.xyz",
+    "followers": 509,
+    "publicRepos": 44,
+    "createdAt": "2021-04-07T16:42:57Z",
+    "checkedAt": "2026-09-15T09:44:37.741Z",
+    "source": "https://github.com/jnsahaj"
+  },
+  "paulilaaso": {
+    "login": "paulilaaso",
+    "name": "pauli",
+    "type": "User",
+    "bio": null,
+    "location": "helsinki, finland",
+    "website": null,
+    "followers": 39,
+    "publicRepos": 5,
+    "createdAt": "2025-08-08T21:36:52Z",
+    "checkedAt": "2026-09-15T09:44:37.989Z",
+    "source": "https://github.com/paulilaaso"
   }
 }

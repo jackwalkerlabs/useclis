@@ -2878,5 +2878,25 @@
     "language": "Go",
     "checkedAt": "2026-09-15T08:44:46.610Z",
     "source": "https://github.com/vshulcz/deja-vu"
+  },
+  "jnsahaj-lumen": {
+    "createdAt": "2024-10-28T17:42:55Z",
+    "pushedAt": "2026-07-16T22:10:23Z",
+    "lastCommitAt": "2026-07-16T22:10:22Z",
+    "stars": 2863,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-15T09:44:35.806Z",
+    "source": "https://github.com/jnsahaj/lumen"
+  },
+  "paulilaaso-lue": {
+    "createdAt": "2025-08-16T14:07:49Z",
+    "pushedAt": "2026-07-16T07:23:16Z",
+    "lastCommitAt": "2026-07-16T07:20:59Z",
+    "stars": 808,
+    "license": "GPL-3.0",
+    "language": "Python",
+    "checkedAt": "2026-09-15T09:44:36.398Z",
+    "source": "https://github.com/paulilaaso/lue"
   }
 }

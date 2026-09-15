@@ -5139,5 +5139,37 @@
     "example": "deja embed",
     "website": "https://github.com/vshulcz/deja-vu",
     "docs": "https://github.com/vshulcz/deja-vu/blob/20d163819ff2f3cde395c94ace23438c961b57b7/README.md"
+  },
+  {
+    "slug": "jnsahaj-lumen",
+    "name": "lumen",
+    "repo": "jnsahaj/lumen",
+    "category": "Git & collaboration",
+    "command": "lumen",
+    "useCase": "Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI",
+    "description": "Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI",
+    "agentUse": "Invoke lumen from a shell for the documented use case: Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "lumen diff",
+    "website": "https://github.com/jnsahaj/lumen",
+    "docs": "https://github.com/jnsahaj/lumen/blob/f60038908c66ef25be09d52c76334570fcfb67d0/README.md"
+  },
+  {
+    "slug": "paulilaaso-lue",
+    "name": "lue",
+    "repo": "paulilaaso/lue",
+    "category": "Files & documents",
+    "command": "lue",
+    "useCase": "Terminal eBook Reader with Audiobook-Quality Text-to-Speech — Supports EPUB, PDF, DOCX, HTML, RTF, TXT, and MD.",
+    "description": "Terminal eBook Reader with Audiobook-Quality Text-to-Speech — Supports EPUB, PDF, DOCX, HTML, RTF, TXT, and MD.",
+    "agentUse": "Invoke lue from a shell for the documented use case: Terminal eBook Reader with Audiobook-Quality Text-to-Speech — Supports EPUB, PDF, DOCX, HTML, RTF, TXT, and MD.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "lue --guide",
+    "website": "https://github.com/paulilaaso/lue",
+    "docs": "https://github.com/paulilaaso/lue/blob/e7948addadf3e089b97b460e6262074ce8597bf3/README.md"
   }
 ]

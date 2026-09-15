@@ -4,162 +4,6 @@
   "brewOffset": 360,
   "pending": [
     {
-      "repo": "DNSControl/dnscontrol",
-      "formula": "dnscontrol"
-    },
-    {
-      "repo": "lirantal/dockly"
-    },
-    {
-      "repo": "DNSCrypt/dnscrypt-proxy",
-      "formula": "dnscrypt-proxy"
-    },
-    {
-      "repo": "Zouuup/landrun"
-    },
-    {
-      "repo": "projectdiscovery/dnsx",
-      "formula": "dnsx"
-    },
-    {
-      "repo": "8go/matrix-commander"
-    },
-    {
-      "repo": "sergi0g/cup"
-    },
-    {
-      "repo": "jackielii/skhd.zig"
-    },
-    {
-      "repo": "karust/openserp"
-    },
-    {
-      "repo": "jamubc/gemini-mcp-tool"
-    },
-    {
-      "repo": "shekohex/opencode-pty"
-    },
-    {
-      "repo": "wfxr/code-minimap"
-    },
-    {
-      "repo": "sindresorhus/meow"
-    },
-    {
-      "repo": "gotify/cli"
-    },
-    {
-      "repo": "dungngminh/simutil"
-    },
-    {
-      "repo": "mrusme/neonmodem"
-    },
-    {
-      "repo": "Azure/static-web-apps-cli"
-    },
-    {
-      "repo": "yaojingang/yao-geo-skills"
-    },
-    {
-      "repo": "Code-with-Beto/snapai"
-    },
-    {
-      "repo": "codesnap-rs/codesnap"
-    },
-    {
-      "repo": "sohaha/zlsgo"
-    },
-    {
-      "repo": "mattrighetti/envelope"
-    },
-    {
-      "repo": "nikolaeu/numi"
-    },
-    {
-      "repo": "jifunks/botany"
-    },
-    {
-      "repo": "ThatOneCalculator/NerdFetch"
-    },
-    {
-      "repo": "jnsahaj/lumen"
-    },
-    {
-      "repo": "conventional-changelog/standard-version"
-    },
-    {
-      "repo": "paulilaaso/lue"
-    },
-    {
-      "repo": "archfz/cypress-terminal-report"
-    },
-    {
-      "repo": "GoogleCloudPlatform/kubectl-ai"
-    },
-    {
-      "repo": "killercup/cargo-edit"
-    },
-    {
-      "repo": "radude/rentry"
-    },
-    {
-      "repo": "coderofsalvation/kanban.bash"
-    },
-    {
-      "repo": "kha7iq/pingme"
-    },
-    {
-      "repo": "Myriad-Dreamin/shiroa"
-    },
-    {
-      "repo": "jenkinsci/jenkinsfile-runner"
-    },
-    {
-      "repo": "privatenumber/cleye"
-    },
-    {
-      "repo": "kislyuk/yq"
-    },
-    {
-      "repo": "filiparag/wikiman"
-    },
-    {
-      "repo": "Textualize/textual"
-    },
-    {
-      "repo": "zackees/transcribe-anything"
-    },
-    {
-      "repo": "spf13/cobra"
-    },
-    {
-      "repo": "jsrepojs/jsrepo"
-    },
-    {
-      "repo": "ionic-team/ionic-cli"
-    },
-    {
-      "repo": "TheYahya/enola"
-    },
-    {
-      "repo": "boostsecurityio/poutine"
-    },
-    {
-      "repo": "Esubaalew/run"
-    },
-    {
-      "repo": "dvcoolarun/web2pdf"
-    },
-    {
-      "repo": "lirantal/nodejs-cli-apps-best-practices"
-    },
-    {
-      "repo": "guyfedwards/nom"
-    },
-    {
-      "repo": "oskvr37/tiddl"
-    },
-    {
       "repo": "tvrzna/emptty"
     },
     {
@@ -10895,7 +10739,261 @@
       "status": "held",
       "checkedAt": "2026-09-15T08:44:23.550Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "dnscontrol/dnscontrol": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lirantal/dockly": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dnscrypt/dnscrypt-proxy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zouuup/landrun": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "projectdiscovery/dnsx": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "8go/matrix-commander": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sergi0g/cup": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jackielii/skhd.zig": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "karust/openserp": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jamubc/gemini-mcp-tool": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "shekohex/opencode-pty": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wfxr/code-minimap": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dungngminh/simutil": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "azure/static-web-apps-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "yaojingang/yao-geo-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "code-with-beto/snapai": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "codesnap-rs/codesnap": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sohaha/zlsgo": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mattrighetti/envelope": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nikolaeu/numi": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "thatonecalculator/nerdfetch": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jnsahaj/lumen": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "GitHub stars",
+      "slug": "jnsahaj-lumen",
+      "acceptedAt": "2026-09-15T09:44:18.633Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/jnsahaj/lumen/blob/f60038908c66ef25be09d52c76334570fcfb67d0/Cargo.toml",
+          "snippet": "package.name=\"lumen\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/jnsahaj/lumen/blob/f60038908c66ef25be09d52c76334570fcfb67d0/README.md",
+          "snippet": "cargo install lumen"
+        },
+        "usage": {
+          "url": "https://github.com/jnsahaj/lumen/blob/f60038908c66ef25be09d52c76334570fcfb67d0/README.md",
+          "snippet": "lumen diff"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/jnsahaj/lumen",
+          "snippet": "Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI"
+        },
+        "adoption": {
+          "stars": 2863,
+          "githubSource": "https://github.com/jnsahaj/lumen",
+          "homebrew": null
+        },
+        "commit": "f60038908c66ef25be09d52c76334570fcfb67d0"
+      }
+    },
+    "conventional-changelog/standard-version": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "paulilaaso/lue": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "GitHub stars",
+      "slug": "paulilaaso-lue",
+      "acceptedAt": "2026-09-15T09:44:18.633Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/paulilaaso/lue/blob/e7948addadf3e089b97b460e6262074ce8597bf3/pyproject.toml",
+          "snippet": "lue = \"lue.__main__:cli\"",
+          "target": "lue/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/paulilaaso/lue/blob/e7948addadf3e089b97b460e6262074ce8597bf3/README.md",
+          "snippet": "pip install lue-reader"
+        },
+        "usage": {
+          "url": "https://github.com/paulilaaso/lue/blob/e7948addadf3e089b97b460e6262074ce8597bf3/README.md",
+          "snippet": "lue --guide"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/paulilaaso/lue",
+          "snippet": "Terminal eBook Reader with Audiobook-Quality Text-to-Speech — Supports EPUB, PDF, DOCX, HTML, RTF, TXT, and MD."
+        },
+        "adoption": {
+          "stars": 808,
+          "githubSource": "https://github.com/paulilaaso/lue",
+          "homebrew": null
+        },
+        "commit": "e7948addadf3e089b97b460e6262074ce8597bf3"
+      }
+    },
+    "archfz/cypress-terminal-report": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "googlecloudplatform/kubectl-ai": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "coderofsalvation/kanban.bash": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kha7iq/pingme": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "myriad-dreamin/shiroa": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "privatenumber/cleye": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "filiparag/wikiman": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "textualize/textual": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zackees/transcribe-anything": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jsrepojs/jsrepo": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "theyahya/enola": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "boostsecurityio/poutine": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "esubaalew/run": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dvcoolarun/web2pdf": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "guyfedwards/nom": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "oskvr37/tiddl": {
+      "status": "held",
+      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-15T08:44:23.550Z"
+  "lastRunAt": "2026-09-15T09:44:18.633Z"
 }
