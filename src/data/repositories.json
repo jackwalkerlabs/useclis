@@ -2928,5 +2928,25 @@
     "language": "Rust",
     "checkedAt": "2026-09-15T14:44:46.135Z",
     "source": "https://github.com/elio-fm/elio"
+  },
+  "sheeki03-tirith": {
+    "createdAt": "2026-02-02T04:33:47Z",
+    "pushedAt": "2026-09-15T09:28:06Z",
+    "lastCommitAt": "2026-09-15T09:28:05Z",
+    "stars": 2723,
+    "license": "AGPL-3.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-15T16:44:59.577Z",
+    "source": "https://github.com/sheeki03/tirith"
+  },
+  "fujibee-agmsg": {
+    "createdAt": "2026-04-02T20:43:41Z",
+    "pushedAt": "2026-09-15T08:52:43Z",
+    "lastCommitAt": "2026-09-15T07:41:53Z",
+    "stars": 1502,
+    "license": "MIT",
+    "language": "Shell",
+    "checkedAt": "2026-09-15T16:45:00.309Z",
+    "source": "https://github.com/fujibee/agmsg"
   }
 }

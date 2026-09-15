@@ -3326,5 +3326,31 @@
     "createdAt": "2026-04-11T16:43:15Z",
     "checkedAt": "2026-09-15T14:44:48.130Z",
     "source": "https://github.com/elio-fm"
+  },
+  "sheeki03": {
+    "login": "sheeki03",
+    "name": "Sheeki",
+    "type": "User",
+    "bio": "side project hoarder",
+    "location": null,
+    "website": null,
+    "followers": 55,
+    "publicRepos": 47,
+    "createdAt": "2018-01-31T18:04:48Z",
+    "checkedAt": "2026-09-15T16:45:02.107Z",
+    "source": "https://github.com/sheeki03"
+  },
+  "fujibee": {
+    "login": "fujibee",
+    "name": "fujibee",
+    "type": "User",
+    "bio": "Serial Entrepreneur | AI | VR | web3",
+    "location": null,
+    "website": null,
+    "followers": 91,
+    "publicRepos": 19,
+    "createdAt": "2008-12-18T00:23:24Z",
+    "checkedAt": "2026-09-15T16:45:02.547Z",
+    "source": "https://github.com/fujibee"
   }
 }

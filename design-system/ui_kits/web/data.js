@@ -6100,6 +6100,44 @@ window.USECLIS_DATA = {
       "stars": 861,
       "license": "MIT",
       "checkedAt": "2026-09-15T14:44:46.135Z"
+    },
+    {
+      "slug": "sheeki03-tirith",
+      "name": "tirith",
+      "repo": "sheeki03/tirith",
+      "category": "Security & secrets",
+      "command": "tirith",
+      "useCase": "Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, data exfiltration, and malicious AI skills/configs before they execute.",
+      "description": "Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, data exfiltration, and malicious AI skills/configs before they execute.",
+      "agentUse": "Invoke tirith from a shell for the documented use case: Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, data exfiltration, and malicious AI skills/configs before they execute.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "tirith scan evil_skill.py",
+      "website": "https://github.com/sheeki03/tirith",
+      "docs": "https://github.com/sheeki03/tirith/blob/9bfc275ee6296a32881ca41df924060335b7c8e6/README.md",
+      "stars": 2723,
+      "license": "AGPL-3.0",
+      "checkedAt": "2026-09-15T16:44:59.577Z"
+    },
+    {
+      "slug": "fujibee-agmsg",
+      "name": "agmsg",
+      "repo": "fujibee/agmsg",
+      "category": "Productivity & communication",
+      "command": "agmsg",
+      "useCase": "Cross-vendor messaging for CLI AI coding agents — let Claude Code, Codex, Gemini & Copilot talk to each other in one team. Bash + SQLite, no daemon, no framework.",
+      "description": "Cross-vendor messaging for CLI AI coding agents — let Claude Code, Codex, Gemini & Copilot talk to each other in one team. Bash + SQLite, no daemon, no framework.",
+      "agentUse": "Invoke agmsg from a shell for the documented use case: Cross-vendor messaging for CLI AI coding agents — let Claude Code, Codex, Gemini & Copilot talk to each other in one team. Bash + SQLite, no daemon, no framework.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "agmsg plugin trust",
+      "website": "https://github.com/fujibee/agmsg",
+      "docs": "https://github.com/fujibee/agmsg/blob/a9866620043136a133b9c9ebb0570ce05a035413/README.md",
+      "stars": 1502,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T16:45:00.309Z"
     }
   ],
   "categories": [
