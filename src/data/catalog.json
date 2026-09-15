@@ -5299,5 +5299,21 @@
     "example": "roam init",
     "website": "https://github.com/Cranot/roam-code",
     "docs": "https://github.com/Cranot/roam-code/blob/09cdcb6f19ce5fab1a947d1b32e42d1dfbb5395b/README.md"
+  },
+  {
+    "slug": "ozeranskii-httptap",
+    "name": "httptap",
+    "repo": "ozeranskii/httptap",
+    "category": "Data & APIs",
+    "command": "httptap",
+    "useCase": "Rich-powered CLI that breaks each HTTP request into DNS, connect, TLS, wait, and transfer phases with waterfall timelines, compact summaries, or metrics-only output.",
+    "description": "Rich-powered CLI that breaks each HTTP request into DNS, connect, TLS, wait, and transfer phases with waterfall timelines, compact summaries, or metrics-only output.",
+    "agentUse": "Invoke httptap from a shell for the documented use case: Rich-powered CLI that breaks each HTTP request into DNS, connect, TLS, wait, and transfer phases with waterfall timelines, compact summaries, or metrics-only output.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "httptap https://httpbin.io/get",
+    "website": "https://github.com/ozeranskii/httptap",
+    "docs": "https://github.com/ozeranskii/httptap/blob/afd0ce726d3cf190fd90c4b58d01885ca94ad5a9/README.md"
   }
 ]

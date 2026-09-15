@@ -3391,5 +3391,18 @@
     "createdAt": "2018-11-01T19:33:14Z",
     "checkedAt": "2026-09-15T18:44:41.078Z",
     "source": "https://github.com/Cranot"
+  },
+  "ozeranskii": {
+    "login": "ozeranskii",
+    "name": "Sergei Ozeranskii",
+    "type": "User",
+    "bio": "Principal Engineer | Python Developer",
+    "location": "Spain, Valencia",
+    "website": "https://ozeranskii.ru",
+    "followers": 54,
+    "publicRepos": 9,
+    "createdAt": "2012-06-27T12:01:06Z",
+    "checkedAt": "2026-09-15T19:44:29.070Z",
+    "source": "https://github.com/ozeranskii"
   }
 }

@@ -6195,6 +6195,25 @@ window.USECLIS_DATA = {
       "stars": 518,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-15T18:44:39.872Z"
+    },
+    {
+      "slug": "ozeranskii-httptap",
+      "name": "httptap",
+      "repo": "ozeranskii/httptap",
+      "category": "Data & APIs",
+      "command": "httptap",
+      "useCase": "Rich-powered CLI that breaks each HTTP request into DNS, connect, TLS, wait, and transfer phases with waterfall timelines, compact summaries, or metrics-only output.",
+      "description": "Rich-powered CLI that breaks each HTTP request into DNS, connect, TLS, wait, and transfer phases with waterfall timelines, compact summaries, or metrics-only output.",
+      "agentUse": "Invoke httptap from a shell for the documented use case: Rich-powered CLI that breaks each HTTP request into DNS, connect, TLS, wait, and transfer phases with waterfall timelines, compact summaries, or metrics-only output.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "httptap https://httpbin.io/get",
+      "website": "https://github.com/ozeranskii/httptap",
+      "docs": "https://github.com/ozeranskii/httptap/blob/afd0ce726d3cf190fd90c4b58d01885ca94ad5a9/README.md",
+      "stars": 811,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-15T19:44:27.381Z"
     }
   ],
   "categories": [
