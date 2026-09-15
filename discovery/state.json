@@ -2,92 +2,7 @@
   "version": 1,
   "searchPage": 1,
   "brewOffset": 400,
-  "pending": [
-    {
-      "repo": "Krasjet/pdf.tocgen"
-    },
-    {
-      "repo": "zu1k/nali"
-    },
-    {
-      "repo": "naggie/dstask"
-    },
-    {
-      "repo": "ms-jpq/sad"
-    },
-    {
-      "repo": "emersion/slurp"
-    },
-    {
-      "repo": "pythops/tenere"
-    },
-    {
-      "repo": "FrancescoStabile/numasec"
-    },
-    {
-      "repo": "gildas-lormeau/SingleFileZ"
-    },
-    {
-      "repo": "yigitkonur/cli-continues"
-    },
-    {
-      "repo": "Slackadays/Clipboard"
-    },
-    {
-      "repo": "minamijoyo/hcledit"
-    },
-    {
-      "repo": "hofstadter-io/hof"
-    },
-    {
-      "repo": "greymd/tmux-xpanes"
-    },
-    {
-      "repo": "php-tui/php-tui"
-    },
-    {
-      "repo": "leventcz/laravel-top"
-    },
-    {
-      "repo": "akd-io/create-next-stack"
-    },
-    {
-      "repo": "randy3k/radian"
-    },
-    {
-      "repo": "sharkdp/pastel"
-    },
-    {
-      "repo": "kaifcodec/ytconverter"
-    },
-    {
-      "repo": "sharkdp/hyperfine"
-    },
-    {
-      "repo": "bubblelabai/BubbleLab"
-    },
-    {
-      "repo": "nakabonne/pbgopy"
-    },
-    {
-      "repo": "ipinfo/cli"
-    },
-    {
-      "repo": "six-ddc/plow"
-    },
-    {
-      "repo": "glomatico/votify"
-    },
-    {
-      "repo": "securisec/chepy"
-    },
-    {
-      "repo": "sorin-ionescu/prezto"
-    },
-    {
-      "repo": "tbillington/kondo"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -11559,7 +11474,97 @@
       "status": "held",
       "checkedAt": "2026-09-15T12:44:27.350Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "krasjet/pdf.tocgen": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zu1k/nali": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "emersion/slurp": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pythops/tenere": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "francescostabile/numasec": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gildas-lormeau/singlefilez": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yigitkonur/cli-continues": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hofstadter-io/hof": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "greymd/tmux-xpanes": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "php-tui/php-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "akd-io/create-next-stack": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "randy3k/radian": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kaifcodec/ytconverter": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "bubblelabai/bubblelab": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nakabonne/pbgopy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "six-ddc/plow": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "securisec/chepy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sorin-ionescu/prezto": {
+      "status": "held",
+      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-15T12:44:27.350Z"
+  "lastRunAt": "2026-09-15T13:44:20.973Z"
 }
