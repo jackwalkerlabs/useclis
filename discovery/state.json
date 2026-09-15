@@ -2,35 +2,7 @@
   "version": 1,
   "searchPage": 9,
   "brewOffset": 320,
-  "pending": [
-    {
-      "repo": "gsscoder/commandline"
-    },
-    {
-      "repo": "protream/iquery"
-    },
-    {
-      "repo": "yasintoy/Slack-Gitsin"
-    },
-    {
-      "repo": "tj/serve"
-    },
-    {
-      "repo": "tj/pomo"
-    },
-    {
-      "repo": "diafygi/gnu-pricing"
-    },
-    {
-      "repo": "rupa/sprunge"
-    },
-    {
-      "repo": "tj/commander"
-    },
-    {
-      "repo": "nodejitsu/jitsu"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -10377,7 +10349,52 @@
       "status": "held",
       "checkedAt": "2026-09-15T06:44:21.087Z",
       "reason": "Terminal use case needs classification"
+    },
+    "gsscoder/commandline": {
+      "status": "held",
+      "checkedAt": "2026-09-15T07:44:22.876Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "protream/iquery": {
+      "status": "held",
+      "checkedAt": "2026-09-15T07:44:22.876Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "yasintoy/slack-gitsin": {
+      "status": "held",
+      "checkedAt": "2026-09-15T07:44:22.876Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tj/serve": {
+      "status": "held",
+      "checkedAt": "2026-09-15T07:44:22.876Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tj/pomo": {
+      "status": "held",
+      "checkedAt": "2026-09-15T07:44:22.876Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "diafygi/gnu-pricing": {
+      "status": "held",
+      "checkedAt": "2026-09-15T07:44:22.876Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rupa/sprunge": {
+      "status": "held",
+      "checkedAt": "2026-09-15T07:44:22.876Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tj/commander": {
+      "status": "held",
+      "checkedAt": "2026-09-15T07:44:22.876Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nodejitsu/jitsu": {
+      "status": "held",
+      "checkedAt": "2026-09-15T07:44:22.876Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-15T06:44:21.087Z"
+  "lastRunAt": "2026-09-15T07:44:22.876Z"
 }
