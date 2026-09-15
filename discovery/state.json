@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 6,
-  "brewOffset": 600,
+  "searchPage": 7,
+  "brewOffset": 640,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -13154,7 +13154,97 @@
       "status": "held",
       "checkedAt": "2026-09-15T22:44:19.564Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "hangxie/parquet-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "oj/gobuster": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "go-nv/goenv": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mvdan/gofumpt": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "golang/tools": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "golangci/golangci-lint": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/google-java-format": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/googletest": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pressly/goose": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gopasspw/gopass": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "securego/gosec": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "go-gost/gost": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gotestyourself/gotestsum": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "acaudwell/gource": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vmware/govmomi": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "golang/vuln": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gpac/gpac": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gradle/gradle-completion": {
+      "status": "held",
+      "checkedAt": "2026-09-15T23:44:17.616Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-15T22:44:19.564Z"
+  "lastRunAt": "2026-09-15T23:44:17.616Z"
 }
