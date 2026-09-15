@@ -27,9 +27,27 @@ jobs:
       - run: npm run check:design-system
       - run: npm run build
       - run: npm run check:links
+      - name: Install smoke-test browser
+        run: npx playwright install --with-deps chromium
+      - name: Smoke test the built site
+        run: npm run test:smoke
+        env:
+          SMOKE_LOCAL: '1'
+          SMOKE_EXPECTED_SHA: ${{ github.sha }}
+      - name: Save built-site smoke report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: built-site-smoke
+          path: |
+            artifacts/smoke-report/
+            artifacts/smoke-results/
+          retention-days: 14
+          if-no-files-found: ignore
       - run: npx wrangler deploy --dry-run
       - run: npx wrangler deploy --dry-run --config workers/discovery/wrangler.jsonc
       - name: Deploy current main to useclis.com
+        id: deploy
         if: >-
           github.ref == 'refs/heads/main' &&
           (github.event_name == 'push' || github.event_name == 'workflow_dispatch') &&
@@ -45,16 +63,20 @@ jobs:
             exit 0
           fi
           npx wrangler deploy
-          # Edge locations can briefly serve the preceding version after deploy.
-          for attempt in 1 2 3 4 5 6; do
-            if node scripts/check-http.mjs https://useclis.com > "$RUNNER_TEMP/production-check.log" 2>&1; then
-              cat "$RUNNER_TEMP/production-check.log"
-              exit 0
-            fi
-            if [ "$attempt" -lt 6 ]; then
-              echo "Waiting for deployment propagation (attempt $attempt/6)."
-              sleep 15
-            fi
-          done
-          cat "$RUNNER_TEMP/production-check.log"
-          exit 1
+          echo "deployed=true" >> "$GITHUB_OUTPUT"
+      - name: Smoke test production
+        if: steps.deploy.outputs.deployed == 'true'
+        run: npm run test:smoke
+        env:
+          SMOKE_BASE_URL: https://useclis.com
+          SMOKE_EXPECTED_SHA: ${{ github.sha }}
+      - name: Save production smoke report
+        if: always() && steps.deploy.outputs.deployed == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: production-smoke
+          path: |
+            artifacts/smoke-report/
+            artifacts/smoke-results/
+          retention-days: 14
+          if-no-files-found: ignore

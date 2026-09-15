@@ -51,3 +51,12 @@
   .submission-close { top: 9px; right: 6px; }
   .header-actions .header-cta { min-height: 44px; }
 }
+
+/* Keep the submission entry point reachable in the compact phone header. */
+.submission-label-short { display: none; }
+@media (max-width: 760px) {
+  .header-actions { gap: 8px; }
+  .header-actions .header-cta { display: inline-flex; min-height: 44px; gap: 5px; padding: 8px; font-size: 11px; }
+  .submission-label-full { display: none; }
+  .submission-label-short { display: inline; }
+}
