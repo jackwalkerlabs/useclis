@@ -6309,6 +6309,25 @@ window.USECLIS_DATA = {
       "stars": 1996,
       "license": "MIT",
       "checkedAt": "2026-09-15T20:44:49.815Z"
+    },
+    {
+      "slug": "gitui-org-gitui",
+      "name": "gitui",
+      "repo": "gitui-org/gitui",
+      "category": "Git & collaboration",
+      "command": "gitui",
+      "useCase": "Blazing 💥 fast terminal-ui for git written in rust 🦀",
+      "description": "Blazing 💥 fast terminal-ui for git written in rust 🦀",
+      "agentUse": "Invoke gitui from a shell for the documented use case: Blazing 💥 fast terminal-ui for git written in rust 🦀",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "gitui -l",
+      "website": "https://github.com/gitui-org/gitui",
+      "docs": "https://github.com/gitui-org/gitui/blob/2fa693cb6ed431b21ebc300dd02e83c2476699ce/README.md",
+      "stars": 22496,
+      "license": "MIT",
+      "checkedAt": "2026-09-15T22:44:45.128Z"
     }
   ],
   "categories": [

@@ -3456,5 +3456,18 @@
     "createdAt": "2017-04-12T15:02:16Z",
     "checkedAt": "2026-09-15T20:44:52.921Z",
     "source": "https://github.com/GitGuardian"
+  },
+  "gitui-org": {
+    "login": "gitui-org",
+    "name": "gitui-org",
+    "type": "Organization",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 48,
+    "publicRepos": 3,
+    "createdAt": "2025-02-21T08:05:48Z",
+    "checkedAt": "2026-09-15T22:44:46.781Z",
+    "source": "https://github.com/gitui-org"
   }
 }

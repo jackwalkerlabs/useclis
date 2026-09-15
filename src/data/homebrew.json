@@ -1258,5 +1258,19 @@
     "checkedAt": "2026-09-15T20:44:51.409Z",
     "generatedDate": "2026-09-15",
     "status": "ok"
+  },
+  "gitui-org-gitui": {
+    "formula": "gitui",
+    "repo": "gitui-org/gitui",
+    "source": "https://formulae.brew.sh/api/formula/gitui.json",
+    "attemptedAt": "2026-09-15T22:44:45.996Z",
+    "counts": {
+      "30d": 264,
+      "90d": 1084,
+      "365d": 10305
+    },
+    "checkedAt": "2026-09-15T22:44:45.996Z",
+    "generatedDate": "2026-09-15",
+    "status": "ok"
   }
 }

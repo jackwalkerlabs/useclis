@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 5,
-  "brewOffset": 560,
+  "searchPage": 6,
+  "brewOffset": 600,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -13016,7 +13016,145 @@
       "status": "held",
       "checkedAt": "2026-09-15T21:44:22.715Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "tj/git-extras": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "newren/git-filter-repo": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gittower/git-flow-next": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hallettj/git-format-staged": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "git-pkgs/git-pkgs": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sobolevn/git-secret": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "awslabs/git-secrets": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "abhinav/git-spice": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "huggingface/xet-core": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "go-gitea/gitea": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "github/github-mcp-server": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gitui-org/gitui": {
+      "status": "accepted",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "GitHub stars",
+      "slug": "gitui-org-gitui",
+      "acceptedAt": "2026-09-15T22:44:19.564Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/gitui-org/gitui/blob/2fa693cb6ed431b21ebc300dd02e83c2476699ce/Cargo.toml",
+          "snippet": "package.name=\"gitui\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/gitui-org/gitui/blob/2fa693cb6ed431b21ebc300dd02e83c2476699ce/README.md",
+          "snippet": "The simplest way to start playing around with `gitui` is to have `cargo` build and install it with `cargo install gitui --locked`. If you are not familiar with rust and cargo: [Getting Started with Rust](https://doc.rust-lang.org/book/ch01-00-getting-started.html)"
+        },
+        "usage": {
+          "url": "https://github.com/gitui-org/gitui/blob/2fa693cb6ed431b21ebc300dd02e83c2476699ce/README.md",
+          "snippet": "gitui -l"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/gitui-org/gitui",
+          "snippet": "Blazing 💥 fast terminal-ui for git written in rust 🦀"
+        },
+        "adoption": {
+          "stars": 22496,
+          "githubSource": "https://github.com/gitui-org/gitui",
+          "homebrew": {
+            "repo": "gitui-org/gitui",
+            "formula": "gitui",
+            "count": 264,
+            "source": "https://formulae.brew.sh/api/formula/gitui.json",
+            "generatedDate": "2026-09-15"
+          }
+        },
+        "commit": "2fa693cb6ed431b21ebc300dd02e83c2476699ce"
+      }
+    },
+    "gittools/gitversion": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nicolargo/glances": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gleam-lang/gleam": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nigels-com/glew": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "glfw/glfw": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "g-truc/glm": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "khronosgroup/glslang": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "greyclab/gmic": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "genymobile/gnirehtet": {
+      "status": "held",
+      "checkedAt": "2026-09-15T22:44:19.564Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-15T21:44:22.715Z"
+  "lastRunAt": "2026-09-15T22:44:19.564Z"
 }

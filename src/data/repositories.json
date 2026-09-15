@@ -3038,5 +3038,15 @@
     "language": "Python",
     "checkedAt": "2026-09-15T20:44:49.815Z",
     "source": "https://github.com/GitGuardian/ggshield"
+  },
+  "gitui-org-gitui": {
+    "createdAt": "2020-03-16T14:38:01Z",
+    "pushedAt": "2026-08-04T08:27:21Z",
+    "lastCommitAt": "2026-07-31T10:39:02Z",
+    "stars": 22496,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-15T22:44:45.128Z",
+    "source": "https://github.com/gitui-org/gitui"
   }
 }

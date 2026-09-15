@@ -361,5 +361,9 @@
   "gitguardian-ggshield": {
     "formula": "ggshield",
     "repo": "GitGuardian/ggshield"
+  },
+  "gitui-org-gitui": {
+    "formula": "gitui",
+    "repo": "gitui-org/gitui"
   }
 }
