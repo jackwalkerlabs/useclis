@@ -2,566 +2,7 @@
   "version": 1,
   "searchPage": 2,
   "brewOffset": 440,
-  "pending": [
-    {
-      "repo": "wp-cli/wp-cli"
-    },
-    {
-      "repo": "ix-infrastructure/Ix"
-    },
-    {
-      "repo": "Hmbown/Codewhale"
-    },
-    {
-      "repo": "dotenvx/dotenvx"
-    },
-    {
-      "repo": "docker/cli"
-    },
-    {
-      "repo": "SAP/jenkins-library"
-    },
-    {
-      "repo": "erickochen/purple"
-    },
-    {
-      "repo": "ratatui/ratatui"
-    },
-    {
-      "repo": "mvanhorn/cli-printing-press"
-    },
-    {
-      "repo": "volcengine/SearchCLI"
-    },
-    {
-      "repo": "continuedev/continue"
-    },
-    {
-      "repo": "unstablebuild/rune"
-    },
-    {
-      "repo": "raskrebs/sonar"
-    },
-    {
-      "repo": "XiaomiMiMo/MiMo-Code"
-    },
-    {
-      "repo": "DataDog/pup"
-    },
-    {
-      "repo": "generalaction/emdash"
-    },
-    {
-      "repo": "LargeModGames/spotatui"
-    },
-    {
-      "repo": "KnockOutEZ/wigolo"
-    },
-    {
-      "repo": "macports/macports-ports"
-    },
-    {
-      "repo": "fastfetch-cli/fastfetch"
-    },
-    {
-      "repo": "Piebald-AI/tweakcc"
-    },
-    {
-      "repo": "spicetify/cli"
-    },
-    {
-      "repo": "clap-rs/clap"
-    },
-    {
-      "repo": "watchexec/watchexec"
-    },
-    {
-      "repo": "apify/mcpc"
-    },
-    {
-      "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
-    },
-    {
-      "repo": "wookayin/gpustat"
-    },
-    {
-      "repo": "microsoft/intelligent-terminal"
-    },
-    {
-      "repo": "sharkdp/fd"
-    },
-    {
-      "repo": "tw93/Mole"
-    },
-    {
-      "repo": "can4hou6joeng4/boss-agent-cli"
-    },
-    {
-      "repo": "jarun/buku"
-    },
-    {
-      "repo": "denisidoro/navi"
-    },
-    {
-      "repo": "arduino/arduino-cli"
-    },
-    {
-      "repo": "hetznercloud/cli"
-    },
-    {
-      "repo": "justcallmekoko/ESP32Marauder"
-    },
-    {
-      "repo": "noborus/ov"
-    },
-    {
-      "repo": "kellyjonbrazil/jc"
-    },
-    {
-      "repo": "open-cli-tools/concurrently"
-    },
-    {
-      "repo": "PowerShell/PowerShell"
-    },
-    {
-      "repo": "micro-editor/micro"
-    },
-    {
-      "repo": "Comfy-Org/comfy-cli"
-    },
-    {
-      "repo": "rust-shell-script/rust_cmd_lib"
-    },
-    {
-      "repo": "thomas-mauran/chess-tui"
-    },
-    {
-      "repo": "bacnet-stack/bacnet-stack"
-    },
-    {
-      "repo": "apple/swift-argument-parser"
-    },
-    {
-      "repo": "xvoland/Extract"
-    },
-    {
-      "repo": "ajeetdsouza/zoxide"
-    },
-    {
-      "repo": "microsoft/winget-cli"
-    },
-    {
-      "repo": "FarGroup/FarManager"
-    },
-    {
-      "repo": "fox0430/moe"
-    },
-    {
-      "repo": "hengyoush/kyanos"
-    },
-    {
-      "repo": "microsoft/terminal"
-    },
-    {
-      "repo": "python-cmd2/cmd2"
-    },
-    {
-      "repo": "dropbox/dbxcli"
-    },
-    {
-      "repo": "cmderdev/cmder"
-    },
-    {
-      "repo": "toolleeo/awesome-cli-apps-in-a-csv"
-    },
-    {
-      "repo": "urfave/cli"
-    },
-    {
-      "repo": "johnkerl/miller"
-    },
-    {
-      "repo": "ynqa/jnv"
-    },
-    {
-      "repo": "domcyrus/rustnet"
-    },
-    {
-      "repo": "bensadeh/circumflex"
-    },
-    {
-      "repo": "digitalocean/doctl"
-    },
-    {
-      "repo": "89luca89/distrobox"
-    },
-    {
-      "repo": "NaturalIntelligence/fast-xml-parser"
-    },
-    {
-      "repo": "o2sh/onefetch"
-    },
-    {
-      "repo": "majd/ipatool"
-    },
-    {
-      "repo": "Canop/broot"
-    },
-    {
-      "repo": "papis/papis"
-    },
-    {
-      "repo": "tailcallhq/forgecode"
-    },
-    {
-      "repo": "bombshell-dev/clack"
-    },
-    {
-      "repo": "c4spar/cliffy"
-    },
-    {
-      "repo": "ehmicky/nve"
-    },
-    {
-      "repo": "allinurl/goaccess"
-    },
-    {
-      "repo": "jotaen/klog"
-    },
-    {
-      "repo": "Vanilla-OS/apx"
-    },
-    {
-      "repo": "symfony/console"
-    },
-    {
-      "repo": "ravachol/kew"
-    },
-    {
-      "repo": "xo/usql"
-    },
-    {
-      "repo": "ast-grep/ast-grep"
-    },
-    {
-      "repo": "MordechaiHadad/bob"
-    },
-    {
-      "repo": "wfxr/csview"
-    },
-    {
-      "repo": "xyproto/orbiton"
-    },
-    {
-      "repo": "git-town/git-town"
-    },
-    {
-      "repo": "dotnet/command-line-api"
-    },
-    {
-      "repo": "christo-auer/eilmeldung"
-    },
-    {
-      "repo": "sxyazi/yazi"
-    },
-    {
-      "repo": "mufeedvh/code2prompt"
-    },
-    {
-      "repo": "da-luce/astroterm"
-    },
-    {
-      "repo": "vadimdemedes/ink"
-    },
-    {
-      "repo": "jcubic/jquery.terminal"
-    },
-    {
-      "repo": "beucismis/awesome-fetch"
-    },
-    {
-      "repo": "jrnl-org/jrnl"
-    },
-    {
-      "repo": "orf/gping"
-    },
-    {
-      "repo": "SBoudrias/Inquirer.js"
-    },
-    {
-      "repo": "wavetermdev/waveterm"
-    },
-    {
-      "repo": "hatoo/oha"
-    },
-    {
-      "repo": "microsoft/winget-create"
-    },
-    {
-      "repo": "mrusme/zeit"
-    },
-    {
-      "repo": "deadc0de6/dotdrop"
-    },
-    {
-      "repo": "Nukesor/pueue"
-    },
-    {
-      "repo": "charmbracelet/vhs"
-    },
-    {
-      "repo": "kimono-koans/httm"
-    },
-    {
-      "repo": "visit1985/mdp"
-    },
-    {
-      "repo": "shibayan/Sharprompt"
-    },
-    {
-      "repo": "alecthomas/kong"
-    },
-    {
-      "repo": "jiaqi/jmxterm"
-    },
-    {
-      "repo": "voidcosmos/npkill"
-    },
-    {
-      "repo": "fleschutz/PowerShell"
-    },
-    {
-      "repo": "sloria/doitlive"
-    },
-    {
-      "repo": "python-poetry/cleo"
-    },
-    {
-      "repo": "go-musicfox/go-musicfox"
-    },
-    {
-      "repo": "ovh/venom"
-    },
-    {
-      "repo": "firebase/firebase-tools"
-    },
-    {
-      "repo": "liljencrantz/crush"
-    },
-    {
-      "repo": "promptfoo/promptfoo"
-    },
-    {
-      "repo": "facebook/idb"
-    },
-    {
-      "repo": "tox-dev/pipdeptree"
-    },
-    {
-      "repo": "rizinorg/rizin"
-    },
-    {
-      "repo": "OpenDroneMap/ODM"
-    },
-    {
-      "repo": "nats-io/natscli"
-    },
-    {
-      "repo": "checkstyle/checkstyle"
-    },
-    {
-      "repo": "linux-nvme/nvme-cli"
-    },
-    {
-      "repo": "ApodexAI/FrontierAgent"
-    },
-    {
-      "repo": "Backblaze/B2_Command_Line_Tool"
-    },
-    {
-      "repo": "ArduPilot/MAVProxy"
-    },
-    {
-      "repo": "dart-lang/pub"
-    },
-    {
-      "repo": "oracle/oci-cli"
-    },
-    {
-      "repo": "jqlang/jq"
-    },
-    {
-      "repo": "mozilla/web-ext"
-    },
-    {
-      "repo": "microsoft/winappCli"
-    },
-    {
-      "repo": "curl/curl"
-    },
-    {
-      "repo": "fish-shell/fish-shell"
-    },
-    {
-      "repo": "ScoopInstaller/Scoop"
-    },
-    {
-      "repo": "itchio/butler"
-    },
-    {
-      "repo": "mikefarah/yq"
-    },
-    {
-      "repo": "Azure/azure-cli"
-    },
-    {
-      "repo": "GothenburgBitFactory/taskwarrior"
-    },
-    {
-      "repo": "GAM-team/GAM"
-    },
-    {
-      "repo": "tox-dev/tox"
-    },
-    {
-      "repo": "mstange/samply"
-    },
-    {
-      "repo": "ImageMagick/ImageMagick"
-    },
-    {
-      "repo": "flosell/trailscraper"
-    },
-    {
-      "repo": "cloudfoundry/cli"
-    },
-    {
-      "repo": "libbitcoin/libbitcoin-explorer"
-    },
-    {
-      "repo": "sleuthkit/sleuthkit"
-    },
-    {
-      "repo": "stripe/stripe-cli"
-    },
-    {
-      "repo": "Azure/azure-functions-core-tools"
-    },
-    {
-      "repo": "NuGet/NuGet.Client"
-    },
-    {
-      "repo": "SWE-agent/mini-swe-agent"
-    },
-    {
-      "repo": "ember-cli/ember-cli"
-    },
-    {
-      "repo": "googleworkspace/cli"
-    },
-    {
-      "repo": "aws/aws-cli"
-    },
-    {
-      "repo": "console-rs/indicatif"
-    },
-    {
-      "repo": "igorshubovych/markdownlint-cli"
-    },
-    {
-      "repo": "superfly/flyctl"
-    },
-    {
-      "repo": "andreafrancia/trash-cli"
-    },
-    {
-      "repo": "intoolswetrust/jd-cli"
-    },
-    {
-      "repo": "utiso/dorkbot"
-    },
-    {
-      "repo": "pcb2gcode/pcb2gcode"
-    },
-    {
-      "repo": "NativeScript/nativescript-cli"
-    },
-    {
-      "repo": "sferik/x-cli"
-    },
-    {
-      "repo": "waf/CSharpRepl"
-    },
-    {
-      "repo": "webpack/webpack-cli"
-    },
-    {
-      "repo": "XcodesOrg/xcodes"
-    },
-    {
-      "repo": "rust-av/Av1an"
-    },
-    {
-      "repo": "fortio/fortio"
-    },
-    {
-      "repo": "mas-cli/mas"
-    },
-    {
-      "repo": "sibson/vncdotool"
-    },
-    {
-      "repo": "sibprogrammer/xq"
-    },
-    {
-      "repo": "tinygo-org/tinygo"
-    },
-    {
-      "repo": "pdfcpu/pdfcpu"
-    },
-    {
-      "repo": "dotnet/dev-proxy"
-    },
-    {
-      "repo": "warrensbox/terraform-switcher"
-    },
-    {
-      "repo": "lduchosal/ipnetwork"
-    },
-    {
-      "repo": "radareorg/radare2"
-    },
-    {
-      "repo": "mermaid-js/mermaid-cli"
-    },
-    {
-      "repo": "chrisant996/clink"
-    },
-    {
-      "repo": "floatpane/matcha"
-    },
-    {
-      "repo": "Realiserad/fish-ai"
-    },
-    {
-      "repo": "mpv-player/mpv"
-    },
-    {
-      "repo": "tj/commander.js"
-    },
-    {
-      "repo": "junegunn/fzf"
-    },
-    {
-      "repo": "jacob-bd/gemini-notebook-mcp-cli"
-    },
-    {
-      "repo": "DavidAnson/markdownlint-cli2"
-    },
-    {
-      "repo": "jeffbski/wait-on"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -12356,7 +11797,82 @@
       "status": "held",
       "checkedAt": "2026-09-15T14:44:21.242Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "hmbown/codewhale": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ratatui/ratatui": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "unstablebuild/rune": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "largemodgames/spotatui": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "thomas-mauran/chess-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "da-luce/astroterm": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jcubic/jquery.terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "libbitcoin/libbitcoin-explorer": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "azure/azure-functions-core-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ember-cli/ember-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "console-rs/indicatif": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "andreafrancia/trash-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "xcodesorg/xcodes": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lduchosal/ipnetwork": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chrisant996/clink": {
+      "status": "held",
+      "checkedAt": "2026-09-15T15:44:22.551Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-15T14:44:21.242Z"
+  "lastRunAt": "2026-09-15T15:44:22.551Z"
 }
