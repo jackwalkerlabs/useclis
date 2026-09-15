@@ -2,107 +2,7 @@
   "version": 1,
   "searchPage": 8,
   "brewOffset": 280,
-  "pending": [
-    {
-      "repo": "freedmand/textra"
-    },
-    {
-      "repo": "fabianonline/telegram.sh"
-    },
-    {
-      "repo": "genuinetools/weather"
-    },
-    {
-      "repo": "MultiPoolMiner/MultiPoolMiner"
-    },
-    {
-      "repo": "unused/airstream"
-    },
-    {
-      "repo": "santinic/how2"
-    },
-    {
-      "repo": "sagarkarira/coronavirus-tracker-cli"
-    },
-    {
-      "repo": "geo-data/cesium-terrain-builder"
-    },
-    {
-      "repo": "Tatamo/atcoder-cli"
-    },
-    {
-      "repo": "simon-engledew/gocmdpev"
-    },
-    {
-      "repo": "holman/boom"
-    },
-    {
-      "repo": "micha/resty"
-    },
-    {
-      "repo": "thisredone/rb"
-    },
-    {
-      "repo": "advboxes/AdvBox"
-    },
-    {
-      "repo": "nuta/nsh"
-    },
-    {
-      "repo": "philcryer/lipsync"
-    },
-    {
-      "repo": "ali-rantakari/trash"
-    },
-    {
-      "repo": "piotrmurach/tty"
-    },
-    {
-      "repo": "manrajgrover/football-cli"
-    },
-    {
-      "repo": "nishanths/license"
-    },
-    {
-      "repo": "dcmoura/spyql"
-    },
-    {
-      "repo": "jorgebastida/glue"
-    },
-    {
-      "repo": "kfix/ddcctl"
-    },
-    {
-      "repo": "owenthereal/gh"
-    },
-    {
-      "repo": "eBay/tsv-utils"
-    },
-    {
-      "repo": "iKevinY/EulerPy"
-    },
-    {
-      "repo": "grpc-ecosystem/polyglot"
-    },
-    {
-      "repo": "lzfse/lzfse"
-    },
-    {
-      "repo": "mcastorina/graph-cli"
-    },
-    {
-      "repo": "chrippa/livestreamer"
-    },
-    {
-      "repo": "matthew1000/gstreamer-cheat-sheet"
-    },
-    {
-      "repo": "phmullins/awesome-macos-commandline"
-    },
-    {
-      "repo": "KKBOX/CompassApp"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -9391,7 +9291,157 @@
       "status": "held",
       "checkedAt": "2026-09-15T01:44:17.914Z",
       "reason": "Terminal use case needs classification"
+    },
+    "freedmand/textra": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fabianonline/telegram.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "genuinetools/weather": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "multipoolminer/multipoolminer": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "unused/airstream": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "santinic/how2": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sagarkarira/coronavirus-tracker-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "geo-data/cesium-terrain-builder": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tatamo/atcoder-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "simon-engledew/gocmdpev": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "holman/boom": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "micha/resty": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "thisredone/rb": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "advboxes/advbox": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nuta/nsh": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "philcryer/lipsync": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ali-rantakari/trash": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "piotrmurach/tty": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "manrajgrover/football-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "nishanths/license": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jorgebastida/glue": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kfix/ddcctl": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "owenthereal/gh": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ikeviny/eulerpy": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "lzfse/lzfse": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mcastorina/graph-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chrippa/livestreamer": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "matthew1000/gstreamer-cheat-sheet": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "phmullins/awesome-macos-commandline": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "kkbox/compassapp": {
+      "status": "held",
+      "checkedAt": "2026-09-15T02:44:21.193Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-15T01:44:17.914Z"
+  "lastRunAt": "2026-09-15T02:44:21.193Z"
 }
