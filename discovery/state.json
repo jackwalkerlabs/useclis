@@ -2,86 +2,7 @@
   "version": 1,
   "searchPage": 10,
   "brewOffset": 360,
-  "pending": [
-    {
-      "repo": "tvrzna/emptty"
-    },
-    {
-      "repo": "raphaelmansuy/code2prompt"
-    },
-    {
-      "repo": "nosarthur/gita"
-    },
-    {
-      "repo": "Dark-Alex-17/managarr"
-    },
-    {
-      "repo": "superagent-ai/grok-cli"
-    },
-    {
-      "repo": "robinmoisson/staticrypt"
-    },
-    {
-      "repo": "QuiiBz/sherif"
-    },
-    {
-      "repo": "bergside/typeui"
-    },
-    {
-      "repo": "lune-org/lune"
-    },
-    {
-      "repo": "jrswab/axe"
-    },
-    {
-      "repo": "Corsinvest/cv4pve-autosnap"
-    },
-    {
-      "repo": "dannote/figma-use"
-    },
-    {
-      "repo": "TheR1D/shell_gpt"
-    },
-    {
-      "repo": "jo1gi/audiobook-dl"
-    },
-    {
-      "repo": "google/python-fire"
-    },
-    {
-      "repo": "wfxr/tmux-power"
-    },
-    {
-      "repo": "vercel/serve"
-    },
-    {
-      "repo": "emersion/mako"
-    },
-    {
-      "repo": "dpnkrpl/radio-active"
-    },
-    {
-      "repo": "mohsen1/yek"
-    },
-    {
-      "repo": "2aronS/Duel-Agents"
-    },
-    {
-      "repo": "mnapoli/silly"
-    },
-    {
-      "repo": "joeynyc/hermes-skins"
-    },
-    {
-      "repo": "Arindam200/cc-lens"
-    },
-    {
-      "repo": "brennercruvinel/CCPlugins"
-    },
-    {
-      "repo": "iosifache/annas-mcp"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -10993,7 +10914,107 @@
       "status": "held",
       "checkedAt": "2026-09-15T09:44:18.633Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "tvrzna/emptty": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "dark-alex-17/managarr": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "superagent-ai/grok-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "robinmoisson/staticrypt": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "quiibz/sherif": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bergside/typeui": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lune-org/lune": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "corsinvest/cv4pve-autosnap": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jo1gi/audiobook-dl": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "wfxr/tmux-power": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vercel/serve": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "emersion/mako": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dpnkrpl/radio-active": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mohsen1/yek": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "2arons/duel-agents": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mnapoli/silly": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "joeynyc/hermes-skins": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "arindam200/cc-lens": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "brennercruvinel/ccplugins": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "iosifache/annas-mcp": {
+      "status": "held",
+      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-15T09:44:18.633Z"
+  "lastRunAt": "2026-09-15T10:44:19.634Z"
 }
