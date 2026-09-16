@@ -1342,5 +1342,33 @@
     "checkedAt": "2026-09-16T04:44:46.184Z",
     "generatedDate": "2026-09-16",
     "status": "ok"
+  },
+  "gokcehan-lf": {
+    "formula": "lf",
+    "repo": "gokcehan/lf",
+    "source": "https://formulae.brew.sh/api/formula/lf.json",
+    "attemptedAt": "2026-09-16T05:44:44.713Z",
+    "counts": {
+      "30d": 192,
+      "90d": 1066,
+      "365d": 6787
+    },
+    "checkedAt": "2026-09-16T05:44:44.713Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
+  },
+  "janosmiko-lfk": {
+    "formula": "lfk",
+    "repo": "janosmiko/lfk",
+    "source": "https://formulae.brew.sh/api/formula/lfk.json",
+    "attemptedAt": "2026-09-16T05:44:44.750Z",
+    "counts": {
+      "30d": 246,
+      "90d": 405,
+      "365d": 405
+    },
+    "checkedAt": "2026-09-16T05:44:44.750Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
   }
 }

@@ -5491,5 +5491,37 @@
     "example": "ipfs init --profile=unixfs-v1-2025",
     "website": "https://github.com/ipfs/kubo",
     "docs": "https://github.com/ipfs/kubo/blob/dcde4a4c38c58aad5942e579cbec5ac963fbfea6/README.md"
+  },
+  {
+    "slug": "gokcehan-lf",
+    "name": "lf",
+    "repo": "gokcehan/lf",
+    "category": "Files & documents",
+    "command": "lf",
+    "useCase": "Terminal file manager",
+    "description": "Terminal file manager",
+    "agentUse": "Invoke lf from a shell for the documented use case: Terminal file manager",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "lf -help",
+    "website": "https://github.com/gokcehan/lf",
+    "docs": "https://github.com/gokcehan/lf/blob/9ecf9ac6600764a478f8d0f7971e0f5c348773be/README.md"
+  },
+  {
+    "slug": "janosmiko-lfk",
+    "name": "lfk",
+    "repo": "janosmiko/lfk",
+    "category": "Cloud & deployment",
+    "command": "lfk",
+    "useCase": "⚡ LFK is a lightning-fast, keyboard-focused, yazi-inspired terminal user interface for navigating and managing Kubernetes clusters. Built for speed and efficiency, it brings a three-column Miller columns layout with an owner-based resource hierarchy to your terminal.",
+    "description": "⚡ LFK is a lightning-fast, keyboard-focused, yazi-inspired terminal user interface for navigating and managing Kubernetes clusters. Built for speed and efficiency, it brings a three-column Miller columns layout with an owner-based resource hierarchy to your terminal.",
+    "agentUse": "Invoke lfk from a shell for the documented use case: ⚡ LFK is a lightning-fast, keyboard-focused, yazi-inspired terminal user interface for navigating and managing Kubernetes clusters. Built for speed and efficiency, it brings a three-column Miller columns layout with an owner-based resource hierarchy to your terminal.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "lfk --demo",
+    "website": "https://github.com/janosmiko/lfk",
+    "docs": "https://github.com/janosmiko/lfk/blob/9b9ef71b87c230baf248f10b755c7696124fef8b/README.md"
   }
 ]

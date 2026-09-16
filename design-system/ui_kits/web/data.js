@@ -6423,6 +6423,44 @@ window.USECLIS_DATA = {
       "stars": 17139,
       "license": null,
       "checkedAt": "2026-09-16T04:44:45.039Z"
+    },
+    {
+      "slug": "gokcehan-lf",
+      "name": "lf",
+      "repo": "gokcehan/lf",
+      "category": "Files & documents",
+      "command": "lf",
+      "useCase": "Terminal file manager",
+      "description": "Terminal file manager",
+      "agentUse": "Invoke lf from a shell for the documented use case: Terminal file manager",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lf -help",
+      "website": "https://github.com/gokcehan/lf",
+      "docs": "https://github.com/gokcehan/lf/blob/9ecf9ac6600764a478f8d0f7971e0f5c348773be/README.md",
+      "stars": 9512,
+      "license": "MIT",
+      "checkedAt": "2026-09-16T05:44:43.021Z"
+    },
+    {
+      "slug": "janosmiko-lfk",
+      "name": "lfk",
+      "repo": "janosmiko/lfk",
+      "category": "Cloud & deployment",
+      "command": "lfk",
+      "useCase": "⚡ LFK is a lightning-fast, keyboard-focused, yazi-inspired terminal user interface for navigating and managing Kubernetes clusters. Built for speed and efficiency, it brings a three-column Miller columns layout with an owner-based resource hierarchy to your terminal.",
+      "description": "⚡ LFK is a lightning-fast, keyboard-focused, yazi-inspired terminal user interface for navigating and managing Kubernetes clusters. Built for speed and efficiency, it brings a three-column Miller columns layout with an owner-based resource hierarchy to your terminal.",
+      "agentUse": "Invoke lfk from a shell for the documented use case: ⚡ LFK is a lightning-fast, keyboard-focused, yazi-inspired terminal user interface for navigating and managing Kubernetes clusters. Built for speed and efficiency, it brings a three-column Miller columns layout with an owner-based resource hierarchy to your terminal.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lfk --demo",
+      "website": "https://github.com/janosmiko/lfk",
+      "docs": "https://github.com/janosmiko/lfk/blob/9b9ef71b87c230baf248f10b755c7696124fef8b/README.md",
+      "stars": 892,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-16T05:44:43.530Z"
     }
   ],
   "categories": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 2,
-  "brewOffset": 840,
+  "searchPage": 3,
+  "brewOffset": 880,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -13994,7 +13994,228 @@
       "status": "held",
       "checkedAt": "2026-09-16T04:44:21.445Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "ldc-developers/ldc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "launchdarkly/ldcli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "procursusteam/ldid": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rivolink/leaf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "evilmartians/lefthook": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "frostming/legit": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "go-acme/lego": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "technomancy/leiningen": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "danbloomberg/leptonica": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gwsw/less": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/leveldb": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gokcehan/lf": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "GitHub stars",
+      "slug": "gokcehan-lf",
+      "acceptedAt": "2026-09-16T05:44:23.279Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/lf.json",
+          "snippet": "{\"executables\":[\"lf\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/lf",
+          "snippet": "brew install lf"
+        },
+        "usage": {
+          "url": "https://github.com/gokcehan/lf/blob/9ecf9ac6600764a478f8d0f7971e0f5c348773be/README.md",
+          "snippet": "lf -help"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/gokcehan/lf",
+          "snippet": "Terminal file manager"
+        },
+        "adoption": {
+          "stars": 9512,
+          "githubSource": "https://github.com/gokcehan/lf",
+          "homebrew": {
+            "repo": "gokcehan/lf",
+            "formula": "lf",
+            "count": 192,
+            "source": "https://formulae.brew.sh/api/formula/lf.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "9ecf9ac6600764a478f8d0f7971e0f5c348773be"
+      }
+    },
+    "getagentseal/codeburn": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "janosmiko/lfk": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "GitHub stars",
+      "slug": "janosmiko-lfk",
+      "acceptedAt": "2026-09-16T05:44:23.279Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/lfk.json",
+          "snippet": "{\"executables\":[\"lfk\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/lfk",
+          "snippet": "brew install lfk"
+        },
+        "usage": {
+          "url": "https://github.com/janosmiko/lfk/blob/9b9ef71b87c230baf248f10b755c7696124fef8b/README.md",
+          "snippet": "lfk --demo"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/janosmiko/lfk",
+          "snippet": "⚡ LFK is a lightning-fast, keyboard-focused, yazi-inspired terminal user interface for navigating and managing Kubernetes clusters. Built for speed and efficiency, it brings a three-column Miller columns layout with an owner-based resource hierarchy to your terminal."
+        },
+        "adoption": {
+          "stars": 892,
+          "githubSource": "https://github.com/janosmiko/lfk",
+          "homebrew": {
+            "repo": "janosmiko/lfk",
+            "formula": "lfk",
+            "count": 246,
+            "source": "https://formulae.brew.sh/api/formula/lfk.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "9b9ef71b87c230baf248f10b755c7696124fef8b"
+      }
+    },
+    "libass/libass": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aomediacodec/libavif": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "blake2/libb2": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "strukturag/libde265": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ebiggers/libdeflate": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libevent/libevent": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libexif/libexif": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wolfcw/libfaketime": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libffi/libffi": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yubico/libfido2": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libgit2/libgit2": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "strukturag/libheif": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "the-open-engine/zeroshot": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sirmalloc/ccstatusline": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ojuschugh1/sqz": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cytostack/openwolf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "obsidianmd/knap": {
+      "status": "held",
+      "checkedAt": "2026-09-16T05:44:23.279Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T04:44:21.445Z"
+  "lastRunAt": "2026-09-16T05:44:23.279Z"
 }
