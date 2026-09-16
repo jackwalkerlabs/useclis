@@ -14,10 +14,13 @@ async function scenario(script, fetchBody, repository = {}) {
   const previous = { example: { stars: 10, checkedAt: '2026-09-01T00:00:00Z', weeks: Array(52).fill(3), source: 'https://github.com/example/cli', repositoryId: 100, ...repository } };
   try {
     await mkdir(join(root, 'scripts/lib'), { recursive: true });
+    await copyFile(new URL('./lib/retry-read.mjs', import.meta.url), join(root, 'scripts/lib/retry-read.mjs'));
     await copyFile(new URL('./lib/refresh-selection.mjs', import.meta.url), join(root, 'scripts/lib/refresh-selection.mjs'));
     await copyFile(new URL('./lib/deferred-activity.mjs', import.meta.url), join(root, 'scripts/lib/deferred-activity.mjs'));
     await copyFile(new URL('./lib/repository-identity.mjs', import.meta.url), join(root, 'scripts/lib/repository-identity.mjs'));
     await mkdir(join(root, 'src/data'), { recursive: true });
+    await mkdir(join(root, 'public/logos'), { recursive: true });
+    await writeFile(join(root, 'public/logos/example.png'), 'saved logo');
     await copyFile(new URL(`./${script}.mjs`, import.meta.url), join(root, 'scripts', `${script}.mjs`));
     await writeFile(join(root, 'src/data/catalog.json'), JSON.stringify([{ slug: 'example', name: 'Example', repo: 'example/cli' }]));
     for (const file of ['activity', 'repositories']) await writeFile(join(root, `src/data/${file}.json`), JSON.stringify(previous));
@@ -62,16 +65,16 @@ test('Successful activity refresh records the GitHub source and complete weekly 
   assert.equal(output.example.source, 'https://api.github.com/repos/example/cli/stats/participation');
 });
 
-test('Avatar failure does not partially replace repository metadata', async () => {
+test('Avatar failure retains the saved image without discarding fresh repository metadata', async () => {
   const { exitCode, output, previous } = await scenario('refresh-data', `
     if (String(url).includes('/commits?')) return Response.json([{ commit: { committer: { date: '2026-09-09T00:00:00Z' } } }]);
     if (String(url).includes('avatars.example')) return new Response(null, { status: 500 });
     return Response.json({ id: 100, full_name: 'example/cli', stargazers_count: 99, html_url: 'https://github.com/example/cli', owner: { avatar_url: 'https://avatars.example/user' } });
   `);
-  assert.equal(exitCode, 1);
-  assert.equal(output.example.stars, previous.example.stars);
-  assert.equal(output.example.checkedAt, previous.example.checkedAt);
-  assert.equal(output.example.status, 'error');
+  assert.equal(exitCode, 0);
+  assert.equal(output.example.stars, 99);
+  assert.notEqual(output.example.checkedAt, previous.example.checkedAt);
+  assert.equal(output.example.status, 'ok');
 });
 
 test('Repository refresh builds a valid avatar URL and commits complete metadata', async () => {
