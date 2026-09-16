@@ -129,8 +129,8 @@ test('An unchanged pushed_at reuses the last commit observation while freshly ch
   const { exitCode, output } = await scenario('refresh-data', `
     if (String(url).includes('/commits?')) throw new Error('Unnecessary commit request');
     if (String(url).includes('avatars.example')) return new Response('image bytes');
-    return Response.json({ id: 100, full_name: 'example/cli', pushed_at: '${pushedAt}', stargazers_count: 99, html_url: 'https://github.com/example/cli', owner: { avatar_url: 'https://avatars.example/user' } });
-  `, { source: 'https://github.com/example/cli', pushedAt, lastCommitAt: pushedAt });
+    return Response.json({ id: 100, full_name: 'example/cli', default_branch: 'main', pushed_at: '${pushedAt}', stargazers_count: 99, html_url: 'https://github.com/example/cli', owner: { avatar_url: 'https://avatars.example/user' } });
+  `, { source: 'https://github.com/example/cli', defaultBranch: 'main', pushedAt, lastCommitAt: pushedAt });
   assert.equal(exitCode, 0);
   assert.equal(output.example.lastCommitAt, pushedAt);
   assert.equal(output.example.stars, 99);
@@ -156,4 +156,16 @@ test('Deferred activity retry recovers a real 202 then 200 response', async () =
   assert.equal(exitCode, 0);
   assert.equal(output.example.status, 'ok');
   assert.deepEqual(output.example.weeks, Array(52).fill(7));
+});
+
+
+test('Changing the default branch invalidates a cached commit even without a push', async () => {
+  const { exitCode, output } = await scenario('refresh-data', `
+    if (String(url).includes('/commits?')) return Response.json([{commit: {committer: {date: '2026-09-02T00:00:00Z'}}}]);
+    if (String(url).includes('avatars.example')) return new Response('image bytes');
+    return Response.json({id:100, full_name:'example/cli', default_branch:'stable', pushed_at:'2026-09-09T00:00:00Z', stargazers_count:99, html_url:'https://github.com/example/cli', owner:{avatar_url:'https://avatars.example/user'}});
+  `, {source:'https://github.com/example/cli', defaultBranch:'main', pushedAt:'2026-09-09T00:00:00Z', lastCommitAt:'2026-09-09T00:00:00Z'});
+  assert.equal(exitCode, 0);
+  assert.equal(output.example.defaultBranch, 'stable');
+  assert.equal(output.example.lastCommitAt, '2026-09-02T00:00:00Z');
 });
