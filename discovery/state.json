@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 3,
-  "brewOffset": 880,
+  "searchPage": 4,
+  "brewOffset": 920,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -14215,7 +14215,97 @@
       "status": "held",
       "checkedAt": "2026-09-16T05:44:23.279Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "libimobiledevice/libimobiledevice": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libimobiledevice/libirecovery": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "maxmind/libmaxminddb": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "stephane/libmodbus": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nghttp2/nghttp2": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ngtcp2/nghttp3": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ngtcp2/ngtcp2": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "the-tcpdump-group/libpcap": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libimobiledevice/libplist": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pnggroup/libpng": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rockdaboot/libpsl": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "host-oman/libraqm": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libraw/libraw": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "confluentinc/librdkafka": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "steve-m/librtlsdr": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libsndfile/libsndfile": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jedisct1/libsodium": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libssh2/libssh2": {
+      "status": "held",
+      "checkedAt": "2026-09-16T06:44:24.457Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T05:44:23.279Z"
+  "lastRunAt": "2026-09-16T06:44:24.457Z"
 }
