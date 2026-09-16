@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 7,
-  "brewOffset": 1440,
+  "searchPage": 8,
+  "brewOffset": 1480,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -15867,7 +15867,137 @@
       "status": "held",
       "checkedAt": "2026-09-16T19:44:19.118Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "linebender/resvg": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "minfrin/retry": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "phiresky/ripgrep-all": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hanslub42/rlwrap": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "facebook/rocksdb": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rojo-rbx/rojo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "root-project/root": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rootless-containers/rootlesskit": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rpm-software-management/rpm": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mac-cain13/r.swift": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rsyncproject/rsync": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "merbanan/rtl_433": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rakshasa/rtorrent": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ruby/ruby": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rbenv/ruby-build": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "postmodern/ruby-install": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "shopify/ruby-lsp": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "runmedev/runme": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rust-lang/rust": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rust-lang/rust-analyzer": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rustls/rustls-ffi": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bee-san/rustscan": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rust-lang/rustup": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aws/s2n-tls": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "versent/saml2aws": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "samtools/samtools": {
+      "status": "held",
+      "checkedAt": "2026-09-16T20:44:17.233Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T19:44:19.118Z"
+  "lastRunAt": "2026-09-16T20:44:17.233Z"
 }
