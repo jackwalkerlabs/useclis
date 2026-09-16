@@ -76,7 +76,7 @@ export default function Directory({ tools, siteUrl }: { tools: Tool[]; siteUrl?:
   useEffect(() => { if (!notice) return; const timer = setTimeout(() => setNotice(''), 2600); return () => clearTimeout(timer); }, [notice]);
   const toggleSave = (tool: Tool) => {
     const result = toggleSaved(tool.slug);
-    setNotice(result.persisted ? `${tool.name} ${result.isSaved ? 'saved' : 'removed from saved tools'}` : 'Saved for this visit. Browser storage is unavailable.');
+    setNotice(result.persisted ? `${tool.name} ${result.isSaved ? 'saved' : 'removed from saved tools'}` : 'Saved for this page only. Browser storage is unavailable.');
   };
   const results = filterTools(tools, { query, category, sort, onlySaved, saved }) as Tool[];
   const suggestions = results.length ? [] : searchRecovery(tools, query);

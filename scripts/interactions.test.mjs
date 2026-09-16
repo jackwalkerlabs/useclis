@@ -366,7 +366,7 @@ test('Saved shortcut preserves other filters; corrupt and unavailable storage do
   render(h(Directory, { tools: bookmarkTools }));
   mock.method(window.Storage.prototype, 'setItem', () => { throw new Error('Storage denied'); });
   await user.click(screen.getByRole('button', { name: 'Save GitHub CLI', exact: true }));
-  assert.match(screen.getByRole('status').textContent, /Saved for this visit/);
+  assert.match(screen.getByRole('status').textContent, /Saved for this page only/);
   await user.type(search(), 'nonmatching');
   await user.click(screen.getByRole('button', { name: 'Saved CLIs', exact: true }));
   assert.deepEqual(rows(), []);
@@ -379,13 +379,13 @@ test('Saved shortcut preserves other filters; corrupt and unavailable storage do
   assert.ok(screen.getByRole('heading', { name: 'No saved CLIs match' }));
 });
 
-test('Unavailable storage reads still allow saving and removing for this visit', async () => {
+test('Unavailable storage reads still allow saving and removing for this page only', async () => {
   mock.method(window.Storage.prototype, 'getItem', () => { throw new Error('Storage denied'); });
   mock.method(window.Storage.prototype, 'setItem', () => { throw new Error('Storage denied'); });
   const user = userEvent.setup();
   render(h(Directory, { tools: bookmarkTools }));
   await user.click(rowFor(bookmarkTools[1]).getByRole('button', { name: 'Save ripgrep', exact: true }));
-  assert.match(screen.getByRole('status').textContent, /Saved for this visit/);
+  assert.match(screen.getByRole('status').textContent, /Saved for this page only/);
   await user.click(screen.getByRole('button', { name: 'Saved CLIs', exact: true }));
   assert.deepEqual(rows(), ['ripgrep']);
   await user.click(rowFor(bookmarkTools[1]).getByRole('button', { name: 'Unsave ripgrep', exact: true }));
@@ -714,7 +714,7 @@ test('Detail bookmarks retain readable legacy data when storage writes are refus
   render(h(SaveTool,{slug:'ripgrep',name:'ripgrep'}));
   await userEvent.setup().click(screen.getByRole('button',{name:'Unsave ripgrep'}));
   assert.equal(screen.getByRole('button',{name:'Save ripgrep'}).getAttribute('aria-pressed'),'false');
-  assert.match(screen.getByRole('status').textContent,/removed for this visit.*storage is unavailable/);
+  assert.match(screen.getByRole('status').textContent,/removed for this page only.*storage is unavailable/);
 });
 
 test('Empty task search preserves query, offers honest broader terms, and resets to the catalog', async () => {
@@ -732,4 +732,16 @@ test('Empty task search preserves query, offers honest broader terms, and resets
   assert.match(document.querySelector('.empty-state').textContent,/may not be covered/);
   await user.click(screen.getByRole('button',{name:'Browse all CLIs'}));
   assert.equal(search().value,''); assert.equal(rows().length,fixture.length);
+});
+
+
+test('Unavailable storage accurately limits detail bookmark feedback to the current page', async () => {
+  mock.method(window.Storage.prototype,'getItem',()=>{throw new Error('Storage denied');});
+  mock.method(window.Storage.prototype,'setItem',()=>{throw new Error('Storage denied');});
+  const detail=render(h(SaveTool,{slug:'ripgrep',name:'ripgrep'}));
+  await userEvent.setup().click(screen.getByRole('button',{name:'Save ripgrep'}));
+  assert.match(screen.getByRole('status').textContent,/saved for this page only/);
+  detail.unmount();
+  render(h(SaveTool,{slug:'ripgrep',name:'ripgrep'}));
+  assert.equal(screen.getByRole('button',{name:'Save ripgrep'}).getAttribute('aria-pressed'),'false');
 });
