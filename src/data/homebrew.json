@@ -1370,5 +1370,19 @@
     "checkedAt": "2026-09-16T05:44:44.750Z",
     "generatedDate": "2026-09-16",
     "status": "ok"
+  },
+  "mistralai-mistral-vibe": {
+    "formula": "mistral-vibe",
+    "repo": "mistralai/mistral-vibe",
+    "source": "https://formulae.brew.sh/api/formula/mistral-vibe.json",
+    "attemptedAt": "2026-09-16T10:44:32.768Z",
+    "counts": {
+      "30d": 776,
+      "90d": 4134,
+      "365d": 12614
+    },
+    "checkedAt": "2026-09-16T10:44:32.768Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
   }
 }

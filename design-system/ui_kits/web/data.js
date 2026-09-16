@@ -6461,6 +6461,25 @@ window.USECLIS_DATA = {
       "stars": 892,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-16T05:44:43.530Z"
+    },
+    {
+      "slug": "mistralai-mistral-vibe",
+      "name": "mistral-vibe",
+      "repo": "mistralai/mistral-vibe",
+      "category": "Agents & models",
+      "command": "vibe",
+      "useCase": "Minimal CLI coding agent by Mistral",
+      "description": "Minimal CLI coding agent by Mistral",
+      "agentUse": "Invoke vibe from a shell for the documented use case: Minimal CLI coding agent by Mistral",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "vibe --agent plan",
+      "website": "https://github.com/mistralai/mistral-vibe",
+      "docs": "https://github.com/mistralai/mistral-vibe/blob/d4b3223bbd74f83cbc08da4b9c3776c8ad196955/README.md",
+      "stars": 4956,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-16T10:44:31.993Z"
     }
   ],
   "categories": [

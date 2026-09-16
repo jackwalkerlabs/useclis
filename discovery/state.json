@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 7,
-  "brewOffset": 1040,
+  "searchPage": 8,
+  "brewOffset": 1080,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -14645,7 +14645,140 @@
       "status": "held",
       "checkedAt": "2026-09-16T09:44:24.905Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "nodejs/merve": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mesonbuild/meson": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kdeldycke/meta-package-manager": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mamba-org/mamba": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "micronaut-projects/micronaut-starter": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "micropython/micropython": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "midnightcommander/mc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "metacubex/mihomo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/mimalloc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "grafana/mimir": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tdewolff/minify": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jedisct1/minisign": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "miniupnp/miniupnp": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yonaskolb/mint": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mistralai/mistral-vibe": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "GitHub stars",
+      "slug": "mistralai-mistral-vibe",
+      "acceptedAt": "2026-09-16T10:44:19.693Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mistralai/mistral-vibe/blob/d4b3223bbd74f83cbc08da4b9c3776c8ad196955/pyproject.toml",
+          "snippet": "vibe = \"vibe.cli.entrypoint:main\"",
+          "target": "vibe/cli/entrypoint.py"
+        },
+        "installation": {
+          "url": "https://github.com/mistralai/mistral-vibe/blob/d4b3223bbd74f83cbc08da4b9c3776c8ad196955/README.md",
+          "snippet": "uv tool install mistral-vibe"
+        },
+        "usage": {
+          "url": "https://github.com/mistralai/mistral-vibe/blob/d4b3223bbd74f83cbc08da4b9c3776c8ad196955/README.md",
+          "snippet": "vibe --agent plan"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mistralai/mistral-vibe",
+          "snippet": "Minimal CLI coding agent by Mistral"
+        },
+        "adoption": {
+          "stars": 4956,
+          "githubSource": "https://github.com/mistralai/mistral-vibe",
+          "homebrew": {
+            "repo": "mistralai/mistral-vibe",
+            "formula": "mistral-vibe",
+            "count": 776,
+            "source": "https://formulae.brew.sh/api/formula/mistral-vibe.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "d4b3223bbd74f83cbc08da4b9c3776c8ad196955"
+      }
+    },
+    "mltframework/mlt": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ml-explore/mlx": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ml-explore/mlx-c": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ml-explore/mlx-lm": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "soedinglab/mmseqs2": {
+      "status": "held",
+      "checkedAt": "2026-09-16T10:44:19.693Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T09:44:24.905Z"
+  "lastRunAt": "2026-09-16T10:44:19.693Z"
 }

@@ -393,5 +393,9 @@
   "janosmiko-lfk": {
     "formula": "lfk",
     "repo": "janosmiko/lfk"
+  },
+  "mistralai-mistral-vibe": {
+    "formula": "mistral-vibe",
+    "repo": "mistralai/mistral-vibe"
   }
 }

@@ -4678,5 +4678,20 @@
     "repositoryId": 1182344976,
     "attemptedAt": "2026-09-16T05:44:43.103Z",
     "status": "ok"
+  },
+  "mistralai-mistral-vibe": {
+    "defaultBranch": "main",
+    "createdAt": "2025-12-08T18:56:59Z",
+    "pushedAt": "2026-09-15T14:01:33Z",
+    "lastCommitAt": "2026-09-13T06:34:04Z",
+    "stars": 4956,
+    "license": "Apache-2.0",
+    "language": "Python",
+    "checkedAt": "2026-09-16T10:44:31.993Z",
+    "source": "https://github.com/mistralai/mistral-vibe",
+    "canonicalSource": "https://github.com/mistralai/mistral-vibe",
+    "repositoryId": 1112533539,
+    "attemptedAt": "2026-09-16T10:44:31.488Z",
+    "status": "ok"
   }
 }
