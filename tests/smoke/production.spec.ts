@@ -139,6 +139,7 @@ test('Empty search offers broader catalog terms without claiming a task solution
   await search(page).fill('pdf zxxwqqnotacli');
   await expect(page.locator('.empty-state')).toContainText('not verified solutions');
   await expect(search(page)).toHaveValue('pdf zxxwqqnotacli');
+  await page.locator('.empty-state').scrollIntoViewIfNeeded();
   await page.screenshot({path:testInfo.outputPath('empty-search-recovery.png')});
   await page.getByRole('link',{name:/Search “pdf”/}).click();
   await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
