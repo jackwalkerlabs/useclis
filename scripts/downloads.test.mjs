@@ -117,3 +117,17 @@ test('Checked-in mappings and snapshots remain attached to catalog repositories'
     for(const value of [...Object.values(snapshot.counts),snapshot.total])assert.ok(value===null||(Number.isSafeInteger(value)&&value>=0));
   }
 });
+
+test('GitHub release pagination has a finite per-source request budget and retains last-good totals', async () => {
+  const saved = (await refreshDownloadEntry('github', mapping, undefined, undefined, async () => response([release([asset(1)])]), now)).snapshot;
+  let calls = 0;
+  const result = await refreshDownloadEntry('github', mapping, saved, undefined, async () => {
+    calls++;
+    return response([], { link: '<https://api.github.com/next>; rel="next"' });
+  }, '2026-09-11T00:00:00Z');
+  assert.equal(calls, 40);
+  assert.match(result.error, /request budget exceeded/);
+  assert.equal(result.snapshot.total, saved.total);
+  assert.equal(result.snapshot.checkedAt, saved.checkedAt);
+  assert.equal(result.snapshot.status, 'error');
+});

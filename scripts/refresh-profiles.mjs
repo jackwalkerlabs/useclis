@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 
 import { selectRefreshEntries } from './lib/refresh-selection.mjs';
 const catalog = selectRefreshEntries(JSON.parse(await readFile(new URL('../src/data/catalog.json', import.meta.url))));
@@ -9,6 +9,14 @@ await mkdir(new URL('../public/avatars/', import.meta.url), { recursive: true })
 const owners = [...new Set(catalog.map(tool => tool.repo.split('/')[0].toLowerCase()))];
 for (const owner of owners) {
   if (process.argv.includes('--missing') && profiles[owner]) continue;
+  const age = Date.now() - Date.parse(profiles[owner]?.checkedAt ?? '');
+  if (age >= 0 && age < 7 * 86400000) {
+    try {
+      await access(new URL(`../public/avatars/${owner}.png`, import.meta.url));
+      console.log(`${owner}: reusing owner profile checked within seven days`);
+      continue;
+    } catch {}
+  }
   try {
     const response = await fetch(`https://api.github.com/users/${owner}`, {
       headers: { Accept: 'application/vnd.github+json', ...(process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}) },

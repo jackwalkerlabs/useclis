@@ -13,21 +13,28 @@ jobs:
   refresh:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 210
     env:
       SITE_URL: https://useclis.com
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version-file: '.node-version'
           cache: npm
       - run: npm ci
-      - run: npm run refresh
+      # Collect every provider even if one fails. Publish validated last-good data
+      # and failure flags, then fail the run visibly after publication dispatch.
+      - name: Collect snapshots
+        id: collect
+        continue-on-error: true
+        run: node scripts/refresh-directory.mjs
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - run: npm run build:design-system
-      - run: npm run check && npm test && npm run build && npm run check:links
+      - run: npm run check && npm test && npm run check:design-system && npm run build && npm run check:links
       - name: Commit updated public metadata
         id: commit
         run: |
@@ -36,7 +43,8 @@ jobs:
           git add src/data/downloads.json src/data/download-history.json src/data/repositories.json src/data/activity.json src/data/star-snapshots.json src/data/homebrew.json src/data/profiles.json public/logos public/avatars design-system/_ds_manifest.json design-system/_ds_bundle.js design-system/ui_kits/web/data.js
           if ! git diff --cached --quiet; then
             git commit -m "Update directory snapshots"
-            git push
+            # Never overwrite or rebase unvalidated concurrent human changes.
+            git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
       # GITHUB_TOKEN pushes do not trigger push workflows, so explicitly validate
@@ -46,3 +54,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run ci.yml --ref main
+      - name: Report provider freshness
+        if: always()
+        run: node scripts/check-refresh-health.mjs
+      - name: Report collection failure
+        if: always() && steps.collect.outcome == 'failure'
+        run: |
+          echo '::error::A collection step failed; validated saved data was retained. Review collection logs and publication steps.'
+          exit 1

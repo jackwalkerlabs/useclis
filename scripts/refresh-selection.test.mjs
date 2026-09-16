@@ -27,6 +27,8 @@ test('Real refresh pipeline selects new entries and preserves all existing snaps
     for (const dir of ['scripts/lib', 'src/data', 'src/lib', 'public/logos', 'public/avatars', 'artifacts']) await mkdir(join(root, dir), { recursive: true });
     for (const script of scripts) await copyFile(new URL(`./${script}.mjs`, import.meta.url), join(root, `scripts/${script}.mjs`));
     await copyFile(new URL('./refresh-additions.mjs', import.meta.url), join(root, 'scripts/refresh-additions.mjs'));
+    await copyFile(new URL('./lib/deferred-activity.mjs', import.meta.url), join(root, 'scripts/lib/deferred-activity.mjs'));
+    await copyFile(new URL('./lib/repository-identity.mjs', import.meta.url), join(root, 'scripts/lib/repository-identity.mjs'));
     await copyFile(new URL('./lib/refresh-selection.mjs', import.meta.url), join(root, 'scripts/lib/refresh-selection.mjs'));
     await copyFile(new URL('../src/lib/homebrew.mjs', import.meta.url), join(root, 'src/lib/homebrew.mjs'));
     await copyFile(new URL('../src/lib/downloads.mjs', import.meta.url), join(root, 'src/lib/downloads.mjs'));
@@ -49,7 +51,7 @@ test('Real refresh pipeline selects new entries and preserves all existing snaps
         if (url.includes('/users/')) return Response.json({ login: owner, type: 'User', followers: 1, avatar_url: 'https://avatars.example/' + owner + '?v=1' });
         if (url.includes('/stats/participation')) return Response.json({ all: Array(52).fill(5) });
         if (url.includes('/commits?')) return Response.json([{ commit: { committer: { date: '2026-09-10T00:00:00Z' } } }]);
-        return Response.json({ stargazers_count: 99, html_url: 'https://github.com/' + owner + '/cli', owner: { avatar_url: 'https://avatars.example/' + owner } });
+        return Response.json({ id: owner === 'old' ? 1 : 2, full_name: owner + '/cli', stargazers_count: 99, html_url: 'https://github.com/' + owner + '/cli', owner: { avatar_url: 'https://avatars.example/' + owner } });
       };
       for (const script of ${JSON.stringify(scripts)}) await import(${JSON.stringify(pathToFileURL(join(root, 'scripts/')).href)} + script + '.mjs');
       await (await import('node:fs/promises')).writeFile(${JSON.stringify(join(root, 'calls.json'))}, JSON.stringify(calls));
@@ -71,7 +73,8 @@ test('Real refresh pipeline selects new entries and preserves all existing snaps
     for (const dir of ['logos', 'avatars']) assert.equal(await readFile(join(root, `public/${dir}/old.png`), 'utf8'), 'existing image');
     await run(process.execPath, ['--input-type=module', '--eval', code], { env, timeout: 10000 });
     const dailyCalls = JSON.parse(await readFile(join(root, 'calls.json')));
-    assert.equal(dailyCalls.length, 15, 'Daily refresh covers both entries, caching the already-fetched new download observation');
+    assert.equal(dailyCalls.length, 13, 'Daily refresh covers both entries, caching the new download observation and weekly owner profile/avatar');
+    assert.ok(!dailyCalls.some(url => url.includes('/users/new')), 'A freshly checked owner profile is reused');
     assert.ok(dailyCalls.some(url => url.includes('/old/cli/releases?')), 'Daily refresh still fetches existing download mappings');
   } finally { await rm(root, { recursive: true, force: true }); }
 });

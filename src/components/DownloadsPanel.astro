@@ -1,4 +1,5 @@
 ---
+import SnapshotFreshness from './SnapshotFreshness';
 import { downloadSources, downloadLabels, type DownloadSnapshot } from '../lib/downloads.mjs';
 interface Props { downloads: Partial<Record<string, DownloadSnapshot>> }
 const { downloads } = Astro.props;
@@ -16,8 +17,9 @@ const date = (value: string) => new Date(value).toLocaleDateString('en-US', { mo
     </dl>
     <p>{github ? `Downloads of selected binaries from published, non-prerelease releases${snapshot.assetCount != null ? ` (${snapshot.assetCount} assets across ${snapshot.releaseCount} releases)` : ''}. Excludes source archives, checksums, and signatures. Deleted assets are no longer included. These are cumulative counts, not downloads over the last 30 days.` : source === 'pypi' ? 'Package downloads excluding known mirrors. Includes automated and dependency downloads. Annual counts appear once a complete year of daily data is available.' : 'Package downloads, including automated and dependency downloads. Counts cover the mapped CLI package, excluding separate platform packages.'}</p>
     <p>Downloads are not unique users or confirmed installations. Sources can overlap and should not be added together.</p>
-    {snapshot.status === 'error' && <p class="downloads-status">{available ? 'Latest refresh unavailable. Showing the last saved counts.' : 'Download data is currently unavailable.'}</p>}
-    {snapshot.status === 'ok' && old && <p class="downloads-status">This saved snapshot is over a week old.</p>}
+    {github && <SnapshotFreshness snapshot={snapshot} label="GitHub release downloads" renderedAt={Date.now()} client:load />}
+    {!github && snapshot.status === 'error' && <p class="downloads-status">{available ? 'Latest refresh unavailable. Showing the last saved counts.' : 'Download data is currently unavailable.'}</p>}
+    {!github && snapshot.status === 'ok' && old && <p class="downloads-status">This saved snapshot is over a week old.</p>}
     <p>{snapshot.checkedAt && <>Checked <time datetime={snapshot.checkedAt}>{date(snapshot.checkedAt)}</time>. </>}{snapshot.end && <> {github ? 'Snapshot' : 'Periods end'} <time datetime={snapshot.end}>{date(snapshot.end)}</time>. </>}<a href="/about/#downloads">How downloads are counted ↗</a></p>
   </section>;
 })}
