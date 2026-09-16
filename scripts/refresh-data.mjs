@@ -1,4 +1,5 @@
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
+import { replaceFile } from './lib/atomic-file.mjs';
 import { readWithRetry } from './lib/retry-read.mjs';
 import { repositoryIdentity } from './lib/repository-identity.mjs';
 import { selectRefreshEntries } from './lib/refresh-selection.mjs';
@@ -30,7 +31,7 @@ for (const tool of catalog) {
       const logoUrl = new URL(repo.owner.avatar_url);
       logoUrl.searchParams.set('s', '96');
       const logo = await readWithRetry(logoUrl, {}, response => response.arrayBuffer());
-      await writeFile(logoPath, Buffer.from(logo));
+      await replaceFile(logoPath, Buffer.from(logo));
     } catch (error) {
       // An optional image refresh must not discard successfully checked metrics.
       console.warn(`${tool.name}: logo refresh failed (${error.message}); retaining any saved image.`);

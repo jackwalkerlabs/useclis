@@ -14,6 +14,7 @@ async function scenario(script, fetchBody, repository = {}) {
   const previous = { example: { stars: 10, checkedAt: '2026-09-01T00:00:00Z', weeks: Array(52).fill(3), source: 'https://github.com/example/cli', repositoryId: 100, ...repository } };
   try {
     await mkdir(join(root, 'scripts/lib'), { recursive: true });
+    await copyFile(new URL('./lib/atomic-file.mjs', import.meta.url), join(root, 'scripts/lib/atomic-file.mjs'));
     await copyFile(new URL('./lib/retry-read.mjs', import.meta.url), join(root, 'scripts/lib/retry-read.mjs'));
     await copyFile(new URL('./lib/refresh-selection.mjs', import.meta.url), join(root, 'scripts/lib/refresh-selection.mjs'));
     await copyFile(new URL('./lib/deferred-activity.mjs', import.meta.url), join(root, 'scripts/lib/deferred-activity.mjs'));

@@ -32,6 +32,8 @@ The collector now reuses lastCommitAt only after freshly checking that GitHub pu
 
 ## Transient repository reads and logos
 
-Repository metadata, commit and logo reads retry timeouts, selected connection failures, HTTP408 and HTTP500/502/503/504 at most twice, waiting one then three seconds. The process shares at most20 additional attempts. Each attempt gets a fresh timeout and includes reading the response body. Authentication, secondary rate limits, invalid JSON and identity/validation errors are not retried by this layer; primary quota resets still use the daily collector policy.
+Repository metadata, commit and logo reads retry timeouts, selected connection failures, HTTP 408 and HTTP 500/502/503/504 at most twice, waiting one then three seconds. The process shares at most 20 additional attempts. Each attempt gets a fresh timeout and includes reading the response body. Authentication, secondary rate limits, invalid JSON and identity/validation errors are not retried by this layer; primary quota resets still use the daily collector policy.
 
 A logo refresh failure retains the saved local image and emits a warning without discarding successfully checked repository statistics. A missing required local logo still fails validation/publication. This separates optional image availability from metric freshness.
+
+Logo replacements are written to a temporary sibling and atomically renamed, preserving the last-good file if downloading or writing fails.
