@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
+import { agentProfiles } from '../src/lib/tool-workflows';
 import { tools } from '../src/data/tools.ts';
 import { GET as jsonRoute } from '../src/pages/clis.json.ts';
 import { GET as textRoute } from '../src/pages/llms-full.txt.ts';
@@ -17,7 +18,8 @@ test('Agent JSON includes every listing, its source documentation, and dated sna
     const tool = catalog.tools.find(tool => tool.slug === source.slug);
     assert.equal(tool.url, `https://directory.example/tools/${source.slug}/`);
     assert.equal(tool.repository, `https://github.com/${source.repo}`);
-    for (const key of ['name', 'docs', 'command', 'description', 'useCase', 'agentUse', 'example', 'features', 'agentWorkflowSupport']) assert.deepEqual(tool[key], source[key]);
+    for (const key of ['name', 'docs', 'command', 'description', 'useCase', 'agentUse', 'features', 'agentWorkflowSupport']) assert.deepEqual(tool[key], source[key]);
+    assert.equal(tool.example, agentProfiles[source.slug]?.workflow.commands.join('\n') ?? source.example);
     assert.equal(tool.repositorySnapshot.checkedAt, source.checkedAt ?? null);
     assert.equal(tool.repositorySnapshot.license, source.license ?? null);
   }
@@ -34,7 +36,8 @@ test('Plain-text catalog exposes every CLI without HTML or browser hydration', a
     assert.ok(text.includes(`## ${tool.name}\n`));
     assert.ok(text.includes(`https://useclis.com/tools/${tool.slug}/`));
     assert.ok(text.includes(tool.docs));
-    assert.ok(text.includes(tool.example));
+    assert.ok(text.includes(agentProfiles[tool.slug]?.workflow.commands.join('\n') ?? tool.example));
+    if (agentProfiles[tool.slug]) assert.ok(text.includes('```sh\n' + agentProfiles[tool.slug].workflow.commands.join('\n') + '\n```')); 
   }
 });
 
@@ -49,4 +52,24 @@ test('Agent guide and copyable prompt point to curl-accessible resources on the 
   assert.ok(prompt.includes('https://directory.example/llms.txt'));
   assert.ok(prompt.includes('https://directory.example/llms-full.txt'));
   assert.ok(prompt.includes('curl -fsSL'));
+});
+
+test('Reviewed profiles expose dated official evidence and useful workflows in both catalogs', async () => {
+  const catalog = await (await jsonRoute({})).json();
+  const text = await (await textRoute({})).text();
+  for (const slug of ['ripgrep', 'agent-browser']) {
+    const tool = catalog.tools.find(tool => tool.slug === slug);
+    const profile = tool.agentProfile;
+    assert.match(profile.verification, /not been execution-tested/);
+    assert.equal(Object.keys(profile.capabilities).length, 5);
+    for (const evidence of [...Object.values(profile.capabilities), profile.workflow.setup, profile.workflow.expected]) {
+      assert.ok(Number.isFinite(Date.parse(evidence.checkedAt)));
+      assert.match(evidence.source, /^https:\/\/(github\.com|agent-browser\.dev)\//);
+      assert.ok(text.includes(evidence.source));
+    }
+    assert.ok(profile.workflow.commands.length > 0);
+    assert.ok(!tool.example.endsWith('--help'));
+    assert.ok(text.includes(profile.workflow.title));
+  }
+  assert.equal(catalog.tools.find(tool => tool.slug === 'jq').agentProfile, null);
 });
