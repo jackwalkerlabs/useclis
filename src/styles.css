@@ -30,3 +30,5 @@ html{scroll-behavior:smooth;scroll-padding-top:85px}body{font-size:14px}button,i
 
 .search-suggestions { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 18px 0; }
 .empty-state p { overflow-wrap: anywhere; }
+
+.detail-actions { align-items: flex-start; }

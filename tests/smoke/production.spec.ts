@@ -138,6 +138,9 @@ test('Detail Save and Unsave persist with consistent Saved filter navigation', a
   await page.reload();
   await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
   await expect(page.getByRole('button',{name:'Unsave ripgrep',exact:true})).toHaveAttribute('aria-pressed','true');
+  const saveBounds = await page.getByRole('button',{name:'Unsave ripgrep',exact:true}).boundingBox();
+  expect(saveBounds?.height).toBeLessThanOrEqual(56);
+  expect(saveBounds?.height).toBeGreaterThanOrEqual((page.viewportSize()?.width ?? 1280) < 768 ? 44 : 38);
   await page.screenshot({path:testInfo.outputPath('detail-saved.png')});
   await page.getByRole('link',{name:'Saved CLIs',exact:true}).click();
   await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);

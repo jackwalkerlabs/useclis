@@ -81,7 +81,8 @@
   .detail-identity p { display: flex; flex-wrap: wrap; gap: 8px; }
   .cli-detail-category { margin-left: 0; }
   .detail-actions { width: 100%; flex-wrap: wrap; }
-  .detail-actions .button { flex: 1 1 180px; min-height: 44px; }
+  .detail-actions > .button, .detail-actions .detail-save { flex: 1 1 180px; min-height: 44px; }
+  .detail-actions .detail-save .button { min-height: 44px; }
   .stars-panel { padding: 20px 16px; }
   .stars-details dt, .stars-details dd { font-size: 13px; }
   .stars-details dt { white-space: normal; }
