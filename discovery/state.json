@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 2,
-  "brewOffset": 1240,
+  "searchPage": 3,
+  "brewOffset": 1280,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -15301,7 +15301,127 @@
       "status": "held",
       "checkedAt": "2026-09-16T14:44:22.122Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "open-telemetry/opentelemetry-cpp": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openvinotoolkit/openvino": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "operator-framework/operator-sdk": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/or-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "oras-project/oras": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mtrojnar/osslsigncode": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/osv-scanner": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lavoiesl/osx-cpu-temp": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "darthsim/overmind": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "oxipng/oxipng": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mrjackwills/oxker": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "oxc-project/oxc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "p11-glue/p11-kit": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "p7zip-project/p7zip": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jolars/panache": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lierdakil/pandoc-crossref": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "parchive/par2cmdline": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apache/parquet-java": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nixos/patchelf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ssut/payload-dumper-go": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pointcloudlibrary/pcl": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pcre2project/pcre2": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nik012003/ripdrag": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pdal/pdal": {
+      "status": "held",
+      "checkedAt": "2026-09-16T15:44:23.115Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T14:44:22.122Z"
+  "lastRunAt": "2026-09-16T15:44:23.115Z"
 }
