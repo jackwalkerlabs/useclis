@@ -5539,5 +5539,21 @@
     "example": "vibe --agent plan",
     "website": "https://github.com/mistralai/mistral-vibe",
     "docs": "https://github.com/mistralai/mistral-vibe/blob/d4b3223bbd74f83cbc08da4b9c3776c8ad196955/README.md"
+  },
+  {
+    "slug": "google-oauth2l",
+    "name": "oauth2l",
+    "repo": "google/oauth2l",
+    "category": "Data & APIs",
+    "command": "oauth2l",
+    "useCase": "oauth2l (\"oauth tool\") is a simple CLI for interacting with Google API authentication.",
+    "description": "oauth2l (\"oauth tool\") is a simple CLI for interacting with Google API authentication.",
+    "agentUse": "Invoke oauth2l from a shell for the documented use case: oauth2l (\"oauth tool\") is a simple CLI for interacting with Google API authentication.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "oauth2l fetch --scope userinfo.email,cloud-platform",
+    "website": "https://github.com/google/oauth2l",
+    "docs": "https://github.com/google/oauth2l/blob/fca8a31aed945c1f4275fe82bceb08a0a6e05dcc/README.md"
   }
 ]

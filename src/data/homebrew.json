@@ -1384,5 +1384,19 @@
     "checkedAt": "2026-09-16T11:35:30.801Z",
     "generatedDate": "2026-09-16",
     "status": "ok"
+  },
+  "google-oauth2l": {
+    "formula": "oauth2l",
+    "repo": "google/oauth2l",
+    "source": "https://formulae.brew.sh/api/formula/oauth2l.json",
+    "attemptedAt": "2026-09-16T13:44:45.946Z",
+    "counts": {
+      "30d": 202,
+      "90d": 825,
+      "365d": 2885
+    },
+    "checkedAt": "2026-09-16T13:44:45.946Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
   }
 }

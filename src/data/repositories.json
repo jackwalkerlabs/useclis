@@ -4693,5 +4693,20 @@
     "repositoryId": 1112533539,
     "attemptedAt": "2026-09-16T11:34:11.370Z",
     "status": "ok"
+  },
+  "google-oauth2l": {
+    "defaultBranch": "master",
+    "createdAt": "2016-03-31T06:18:20Z",
+    "pushedAt": "2026-09-01T17:30:16Z",
+    "lastCommitAt": "2026-09-01T17:30:15Z",
+    "stars": 737,
+    "license": "Apache-2.0",
+    "language": "Go",
+    "checkedAt": "2026-09-16T13:44:45.030Z",
+    "source": "https://github.com/google/oauth2l",
+    "canonicalSource": "https://github.com/google/oauth2l",
+    "repositoryId": 55125415,
+    "attemptedAt": "2026-09-16T13:44:44.436Z",
+    "status": "ok"
   }
 }

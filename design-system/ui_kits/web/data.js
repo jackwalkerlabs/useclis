@@ -6480,6 +6480,25 @@ window.USECLIS_DATA = {
       "stars": 4956,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-16T11:34:11.927Z"
+    },
+    {
+      "slug": "google-oauth2l",
+      "name": "oauth2l",
+      "repo": "google/oauth2l",
+      "category": "Data & APIs",
+      "command": "oauth2l",
+      "useCase": "oauth2l (\"oauth tool\") is a simple CLI for interacting with Google API authentication.",
+      "description": "oauth2l (\"oauth tool\") is a simple CLI for interacting with Google API authentication.",
+      "agentUse": "Invoke oauth2l from a shell for the documented use case: oauth2l (\"oauth tool\") is a simple CLI for interacting with Google API authentication.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "oauth2l fetch --scope userinfo.email,cloud-platform",
+      "website": "https://github.com/google/oauth2l",
+      "docs": "https://github.com/google/oauth2l/blob/fca8a31aed945c1f4275fe82bceb08a0a6e05dcc/README.md",
+      "stars": 737,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-16T13:44:45.030Z"
     }
   ],
   "categories": [

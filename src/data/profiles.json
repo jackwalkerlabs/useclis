@@ -3573,5 +3573,18 @@
     "createdAt": "2023-05-02T14:22:16Z",
     "checkedAt": "2026-09-16T10:44:33.305Z",
     "source": "https://github.com/mistralai"
+  },
+  "google": {
+    "login": "google",
+    "name": "Google",
+    "type": "Organization",
+    "bio": "Google ❤️ Open Source",
+    "location": "United States of America",
+    "website": "https://opensource.google/",
+    "followers": 78651,
+    "publicRepos": 2904,
+    "createdAt": "2012-01-18T01:30:18Z",
+    "checkedAt": "2026-09-16T13:44:46.756Z",
+    "source": "https://github.com/google"
   }
 }

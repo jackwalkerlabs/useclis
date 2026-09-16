@@ -397,5 +397,9 @@
   "mistralai-mistral-vibe": {
     "formula": "mistral-vibe",
     "repo": "mistralai/mistral-vibe"
+  },
+  "google-oauth2l": {
+    "formula": "oauth2l",
+    "repo": "google/oauth2l"
   }
 }

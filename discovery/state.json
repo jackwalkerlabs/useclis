@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 10,
-  "brewOffset": 1160,
+  "searchPage": 1,
+  "brewOffset": 1200,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -14983,7 +14983,165 @@
       "status": "held",
       "checkedAt": "2026-09-16T12:44:20.268Z",
       "reason": "Terminal use case needs classification"
+    },
+    "nginx/nginx": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sullo/nikto": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nim-lang/nim": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ninja-build/ninja": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nlohmann/json": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nanomsg/nng": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nodejs/node": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "prometheus/node_exporter": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nodenv/node-build": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hokaccha/nodebrew": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nodenv/nodenv": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nolabs-ai/nono": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kirtan-shah/nowplaying-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "binwiederhier/ntfy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "projectdiscovery/nuclei": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sharkdp/numbat": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "numpy/numpy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nushell/nushell": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "networkupstools/nut": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nvm-sh/nvm": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "syllo/nvtop": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "oasdiff/oasdiff": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/oauth2l": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "GitHub stars",
+      "slug": "google-oauth2l",
+      "acceptedAt": "2026-09-16T13:44:24.655Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/oauth2l.json",
+          "snippet": "{\"executables\":[\"oauth2l\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/google/oauth2l/blob/fca8a31aed945c1f4275fe82bceb08a0a6e05dcc/README.md",
+          "snippet": "$ brew install oauth2l"
+        },
+        "usage": {
+          "url": "https://github.com/google/oauth2l/blob/fca8a31aed945c1f4275fe82bceb08a0a6e05dcc/README.md",
+          "snippet": "oauth2l fetch --scope userinfo.email,cloud-platform"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/google/oauth2l",
+          "snippet": "oauth2l (\"oauth tool\") is a simple CLI for interacting with Google API authentication."
+        },
+        "adoption": {
+          "stars": 737,
+          "githubSource": "https://github.com/google/oauth2l",
+          "homebrew": {
+            "repo": "google/oauth2l",
+            "formula": "oauth2l",
+            "count": 202,
+            "source": "https://formulae.brew.sh/api/formula/oauth2l.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "fca8a31aed945c1f4275fe82bceb08a0a6e05dcc"
+      }
+    },
+    "h4ckf0r0day/obscura": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ocaml/ocaml": {
+      "status": "held",
+      "checkedAt": "2026-09-16T13:44:24.655Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T12:44:20.268Z"
+  "lastRunAt": "2026-09-16T13:44:24.655Z"
 }
