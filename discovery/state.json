@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 3,
-  "brewOffset": 1280,
+  "searchPage": 4,
+  "brewOffset": 1320,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -15421,7 +15421,122 @@
       "status": "held",
       "checkedAt": "2026-09-16T15:44:23.115Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "dawbarton/pdf2svg": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pdm-project/pdm": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "perl/perl5": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dimitri/pgloader": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pgvector/pgvector": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "php/php-src": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "php-cs-fixer/php-cs-fixer": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "phpstan/phpstan": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "phrase/phrase-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "icculus/physfs": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "raspberrypi/picotool": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "php/pie": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "madler/pigz": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "python-pillow/pillow": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gpgtools/pinentry": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pypa/pipenv": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pipeseroni/pipes.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "prefix-dev/pixi": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mastercard/pkcs11-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pkgconf/pkgconf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apple/pkl": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "plantuml/plantuml": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "platformio/platformio-core": {
+      "status": "held",
+      "checkedAt": "2026-09-16T16:44:55.233Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T15:44:23.115Z"
+  "lastRunAt": "2026-09-16T16:44:55.233Z"
 }
