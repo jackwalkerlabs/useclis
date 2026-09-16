@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 4,
-  "brewOffset": 1320,
+  "searchPage": 5,
+  "brewOffset": 1360,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -15536,7 +15536,127 @@
       "status": "held",
       "checkedAt": "2026-09-16T16:44:55.233Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "pmd/pmd": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openpmix/openpmix": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "protomaps/go-pmtiles": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jcsalterego/pngpaste": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kornelski/pngquant": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pocketbase/pocketbase": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "containers/podman-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "portaudio/portaudio": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "postgrest/postgrest": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "romkatv/powerlevel10k": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "chaos/powerman": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pre-commit/pre-commit": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "j178/prek": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "premake/premake-core": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "osgeo/proj": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "prometheus/prometheus": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "moonrepo/proto": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "protocolbuffers/protobuf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "protobuf-c/protobuf-c": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "protocolbuffers/protobuf-go": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "grpc/grpc-java": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "grpc/grpc-web": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "protocolbuffers/protobuf-javascript": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aannoo/hcom": {
+      "status": "held",
+      "checkedAt": "2026-09-16T17:44:25.552Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-16T16:44:55.233Z"
+  "lastRunAt": "2026-09-16T17:44:25.552Z"
 }
