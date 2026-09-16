@@ -34,7 +34,8 @@ for (const [slug, mapping] of Object.entries(mappings)) {
       cached++;
       continue;
     }
-    const result = await refreshDownloadEntry(source, mapping, saved, retained, fetch, now, process.env.GITHUB_TOKEN);
+    const result = await refreshDownloadEntry(source, mapping, saved, retained, fetch, new Date().toISOString(), process.env.GITHUB_TOKEN);
+    if (!result.error) result.snapshot.checkedAt = new Date().toISOString();
     snapshots[slug][source] = result.snapshot;
     history[slug][source] = result.history;
     if (result.error) { failures++; console.warn(`${slug}/${source}: ${result.error}; retaining any saved observation.`); }

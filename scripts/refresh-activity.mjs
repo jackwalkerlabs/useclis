@@ -8,10 +8,11 @@ try { data = JSON.parse(await readFile(path)); } catch {}
 for (const tool of catalog) {
   const source = `https://api.github.com/repos/${tool.repo}/stats/participation`;
   const metadata = repositories[tool.slug];
-  const canonicalSource = metadata?.source === `https://github.com/${tool.repo}` && Number.isSafeInteger(metadata.repositoryId)
-    ? `https://api.github.com/repositories/${metadata.repositoryId}/stats/participation` : source;
+  const canonicalSource = metadata?.source === `https://github.com/${tool.repo}` && Number.isSafeInteger(metadata.repositoryId) && metadata.repositoryId > 0
+    ? `https://api.github.com/repositories/${metadata.repositoryId}/stats/participation` : null;
   const attemptedAt = new Date().toISOString();
   try {
+    if (!canonicalSource) throw new Error('A validated numeric repository identity is required before refreshing activity');
     const response = await fetch(canonicalSource, { signal: AbortSignal.timeout(15_000), headers: { Accept: 'application/vnd.github+json', ...(process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}) } });
     // GitHub returns 202 while calculating statistics for a repository.
     if (response.status === 202) {

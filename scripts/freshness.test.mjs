@@ -19,6 +19,7 @@ test('Snapshot freshness has deterministic inclusive boundaries and failed, pend
   for (const checkedAt of [null, 'invalid', '2026-09-16T00:00:00Z']) assert.equal(snapshotFreshness({ checkedAt }, 'github', now), 'unavailable');
   assert.equal(snapshotFreshness({ checkedAt, generatedDate: '2026-09-12' }, 'homebrew', now), 'stale');
   assert.equal(snapshotFreshness({ checkedAt, generatedDate: '2026-09-13' }, 'homebrew', now), 'fresh');
+  assert.equal(snapshotFreshness({ checkedAt }, 'homebrew', now), 'stale');
 });
 test('Real dbt identity redirect preserves joins and rejects replaced repositories', () => {
   const api = { id: 53548867, full_name: 'dbt-labs/dbt', html_url: 'https://github.com/dbt-labs/dbt' };

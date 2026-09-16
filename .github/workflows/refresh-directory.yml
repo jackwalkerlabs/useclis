@@ -13,7 +13,7 @@ jobs:
   refresh:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 150
     env:
       SITE_URL: https://useclis.com
     steps:
@@ -30,12 +30,7 @@ jobs:
       - name: Collect snapshots
         id: collect
         continue-on-error: true
-        run: |
-          failed=0
-          for script in refresh-data refresh-activity snapshot-stars refresh-homebrew refresh-profiles refresh-downloads; do
-            npm run "$script" || failed=1
-          done
-          exit "$failed"
+        run: node scripts/refresh-directory.mjs
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - run: npm run build:design-system

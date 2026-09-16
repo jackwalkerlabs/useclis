@@ -15,10 +15,17 @@ for (const tool of catalog) {
     const repo = await response.json();
     const identity = repositoryIdentity(repo, tool.repo, previous[tool.slug]);
     if (!Number.isSafeInteger(repo.stargazers_count) || repo.stargazers_count < 0) throw new Error('Invalid star count');
-    const commitResponse = await fetch(`https://api.github.com/repositories/${repo.id}/commits?per_page=1`, { signal: AbortSignal.timeout(15_000), headers: { Accept: 'application/vnd.github+json', ...(process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}) } });
-    if (!commitResponse.ok) throw new Error(`Commit API returned ${commitResponse.status}`);
-    const commits = await commitResponse.json();
-    const next = { createdAt: repo.created_at, pushedAt: repo.pushed_at, lastCommitAt: commits[0]?.commit?.committer?.date ?? null, stars: repo.stargazers_count, license: repo.license?.spdx_id === 'NOASSERTION' ? null : repo.license?.spdx_id ?? null, language: repo.language, checkedAt: new Date().toISOString(), ...identity, attemptedAt, status: 'ok' };
+    let lastCommitAt = previous[tool.slug]?.lastCommitAt;
+    const unchangedPush = Number.isFinite(Date.parse(repo.pushed_at)) && previous[tool.slug]?.pushedAt === repo.pushed_at
+      && previous[tool.slug]?.source === identity.source && previous[tool.slug]?.repositoryId === repo.id && lastCommitAt !== undefined;
+    if (!unchangedPush) {
+      const commitResponse = await fetch(`https://api.github.com/repositories/${repo.id}/commits?per_page=1`, { signal: AbortSignal.timeout(15_000), headers: { Accept: 'application/vnd.github+json', ...(process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}) } });
+      if (!commitResponse.ok) throw new Error(`Commit API returned ${commitResponse.status}`);
+      const commits = await commitResponse.json();
+      if (!Array.isArray(commits)) throw new Error('Invalid commit response');
+      lastCommitAt = commits[0]?.commit?.committer?.date ?? null;
+    }
+    const next = { createdAt: repo.created_at, pushedAt: repo.pushed_at, lastCommitAt, stars: repo.stargazers_count, license: repo.license?.spdx_id === 'NOASSERTION' ? null : repo.license?.spdx_id ?? null, language: repo.language, checkedAt: new Date().toISOString(), ...identity, attemptedAt, status: 'ok' };
     const logoUrl = new URL(repo.owner.avatar_url);
     logoUrl.searchParams.set('s', '96');
     const logo = await fetch(logoUrl, { signal: AbortSignal.timeout(15_000) });

@@ -72,7 +72,8 @@ test('Real refresh pipeline selects new entries and preserves all existing snaps
     for (const dir of ['logos', 'avatars']) assert.equal(await readFile(join(root, `public/${dir}/old.png`), 'utf8'), 'existing image');
     await run(process.execPath, ['--input-type=module', '--eval', code], { env, timeout: 10000 });
     const dailyCalls = JSON.parse(await readFile(join(root, 'calls.json')));
-    assert.equal(dailyCalls.length, 15, 'Daily refresh covers both entries, caching the already-fetched new download observation');
+    assert.equal(dailyCalls.length, 13, 'Daily refresh covers both entries, caching the new download observation and weekly owner profile/avatar');
+    assert.ok(!dailyCalls.some(url => url.includes('/users/new')), 'A freshly checked owner profile is reused');
     assert.ok(dailyCalls.some(url => url.includes('/old/cli/releases?')), 'Daily refresh still fetches existing download mappings');
   } finally { await rm(root, { recursive: true, force: true }); }
 });

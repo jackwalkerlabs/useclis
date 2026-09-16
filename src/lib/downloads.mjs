@@ -72,7 +72,9 @@ export async function refreshDownloadEntry(source, mapping, previous, history, f
   const name = mapping[source].package;
   const url = source === 'npm' ? `https://www.npmjs.com/package/${name}` : source === 'pypi' ? `https://pypi.org/project/${name}/` : `https://github.com/${mapping.repo}/releases`;
   const base = { identity, repo: mapping.repo, package: name ?? null, source, url, attemptedAt: now };
+  let githubRequests = 0;
   const request = async url => {
+    if (source === 'github' && ++githubRequests > 40) throw new Error('GitHub pagination request budget exceeded');
     const response = await fetcher(url, { signal: AbortSignal.timeout(25000), headers: { 'User-Agent': 'useclis-download-statistics (https://useclis.com/about/)', ...(new URL(url).hostname === 'api.github.com' ? { Accept: 'application/vnd.github+json', ...(token ? { Authorization: `Bearer ${token}` } : {}) } : {}) } });
     if (!response.ok) throw new Error(`${source} returned HTTP ${response.status}`);
     return { data: await response.json(), next: /<[^>]+>;\s*rel="next"/.test(response.headers.get('link') ?? '') };

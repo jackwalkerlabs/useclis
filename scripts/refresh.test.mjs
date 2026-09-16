@@ -11,7 +11,7 @@ const run = promisify(execFile);
 // Execute the real refresh scripts against a temporary catalog and mocked HTTP.
 async function scenario(script, fetchBody, repository = {}) {
   const root = await mkdtemp(join(tmpdir(), 'useclis-refresh-'));
-  const previous = { example: { stars: 10, checkedAt: '2026-09-01T00:00:00Z', weeks: Array(52).fill(3), ...repository } };
+  const previous = { example: { stars: 10, checkedAt: '2026-09-01T00:00:00Z', weeks: Array(52).fill(3), source: 'https://github.com/example/cli', repositoryId: 100, ...repository } };
   try {
     await mkdir(join(root, 'scripts/lib'), { recursive: true });
     await copyFile(new URL('./lib/refresh-selection.mjs', import.meta.url), join(root, 'scripts/lib/refresh-selection.mjs'));
@@ -93,7 +93,7 @@ test('Canonical GitHub rename succeeds while preserving catalog source provenanc
     if (String(url).includes('/commits?')) return Response.json([]);
     if (String(url).includes('avatars.example')) return new Response('image bytes');
     return Response.json({ id: 53548867, full_name: 'dbt-labs/dbt', stargazers_count: 99, html_url: 'https://github.com/dbt-labs/dbt', owner: { avatar_url: 'https://avatars.example/user' } });
-  `);
+  `, { repositoryId: undefined });
   assert.equal(exitCode, 0);
   assert.equal(output.example.source, 'https://github.com/example/cli');
   assert.equal(output.example.canonicalSource, 'https://github.com/dbt-labs/dbt');
@@ -120,5 +120,27 @@ test('Reused repository names preserve last-good metadata and ID with a failed a
   assert.equal(output.example.repositoryId, 53548867);
   assert.equal(output.example.stars, 10);
   assert.equal(output.example.checkedAt, '2026-09-01T00:00:00Z');
+  assert.equal(output.example.status, 'error');
+});
+
+test('An unchanged pushed_at reuses the last commit observation while freshly checking metadata', async () => {
+  const pushedAt = '2026-09-09T00:00:00Z';
+  const { exitCode, output } = await scenario('refresh-data', `
+    if (String(url).includes('/commits?')) throw new Error('Unnecessary commit request');
+    if (String(url).includes('avatars.example')) return new Response('image bytes');
+    return Response.json({ id: 100, full_name: 'example/cli', pushed_at: '${pushedAt}', stargazers_count: 99, html_url: 'https://github.com/example/cli', owner: { avatar_url: 'https://avatars.example/user' } });
+  `, { source: 'https://github.com/example/cli', pushedAt, lastCommitAt: pushedAt });
+  assert.equal(exitCode, 0);
+  assert.equal(output.example.lastCommitAt, pushedAt);
+  assert.equal(output.example.stars, 99);
+  assert.notEqual(output.example.checkedAt, '2026-09-01T00:00:00Z');
+});
+
+
+test('Failed first identity migration cannot overwrite activity from a reused catalog name', async () => {
+  const { exitCode, output, previous } = await scenario('refresh-activity', `throw new Error('Legacy name must not be queried');`, { repositoryId: undefined, status: 'error' });
+  assert.equal(exitCode, 1);
+  assert.deepEqual(output.example.weeks, previous.example.weeks);
+  assert.equal(output.example.checkedAt, previous.example.checkedAt);
   assert.equal(output.example.status, 'error');
 });

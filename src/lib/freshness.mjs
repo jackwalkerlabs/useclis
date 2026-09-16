@@ -8,8 +8,8 @@ export function snapshotFreshness(snapshot, provider = 'github', now = Date.now(
   if (!Number.isFinite(checked) || checked > now) return 'unavailable';
   if (snapshot?.status === 'error') return 'failed';
   if (now - checked > freshnessWindowHours * 3600000) return 'stale';
-  if (provider === 'homebrew' && snapshot?.generatedDate) {
-    const generated = Date.parse(snapshot.generatedDate);
+  if (provider === 'homebrew') {
+    const generated = Date.parse(snapshot?.generatedDate ?? '');
     if (!Number.isFinite(generated) || generated > now || now - generated > homebrewSourceWindowHours * 3600000) return 'stale';
   }
   return snapshot?.status === 'pending' ? 'pending' : 'fresh';
