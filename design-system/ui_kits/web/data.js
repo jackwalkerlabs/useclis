@@ -6404,6 +6404,25 @@ window.USECLIS_DATA = {
       "stars": 254,
       "license": "MIT",
       "checkedAt": "2026-09-16T03:44:45.701Z"
+    },
+    {
+      "slug": "ipfs-kubo",
+      "name": "kubo",
+      "repo": "ipfs/kubo",
+      "category": "Data & APIs",
+      "command": "ipfs",
+      "useCase": "IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API",
+      "description": "IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API",
+      "agentUse": "Invoke ipfs from a shell for the documented use case: IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ipfs init --profile=unixfs-v1-2025",
+      "website": "https://github.com/ipfs/kubo",
+      "docs": "https://github.com/ipfs/kubo/blob/dcde4a4c38c58aad5942e579cbec5ac963fbfea6/README.md",
+      "stars": 17139,
+      "license": null,
+      "checkedAt": "2026-09-16T04:44:45.039Z"
     }
   ],
   "categories": [

@@ -1328,5 +1328,19 @@
     "checkedAt": "2026-09-16T03:44:47.117Z",
     "generatedDate": "2026-09-16",
     "status": "ok"
+  },
+  "ipfs-kubo": {
+    "formula": "kubo",
+    "repo": "ipfs/kubo",
+    "source": "https://formulae.brew.sh/api/formula/kubo.json",
+    "attemptedAt": "2026-09-16T04:44:46.184Z",
+    "counts": {
+      "30d": 134,
+      "90d": 667,
+      "365d": 2532
+    },
+    "checkedAt": "2026-09-16T04:44:46.184Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
   }
 }

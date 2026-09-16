@@ -381,5 +381,9 @@
   "keeper-security-commander": {
     "formula": "keeper-commander",
     "repo": "Keeper-Security/Commander"
+  },
+  "ipfs-kubo": {
+    "formula": "kubo",
+    "repo": "ipfs/kubo"
   }
 }

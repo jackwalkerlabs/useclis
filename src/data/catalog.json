@@ -5475,5 +5475,21 @@
     "example": "keeper shell",
     "website": "https://github.com/Keeper-Security/Commander",
     "docs": "https://github.com/Keeper-Security/Commander/blob/faef1b3c9771619e6ed0e7558fc5d98679c95a7c/README.md"
+  },
+  {
+    "slug": "ipfs-kubo",
+    "name": "kubo",
+    "repo": "ipfs/kubo",
+    "category": "Data & APIs",
+    "command": "ipfs",
+    "useCase": "IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API",
+    "description": "IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API",
+    "agentUse": "Invoke ipfs from a shell for the documented use case: IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "ipfs init --profile=unixfs-v1-2025",
+    "website": "https://github.com/ipfs/kubo",
+    "docs": "https://github.com/ipfs/kubo/blob/dcde4a4c38c58aad5942e579cbec5ac963fbfea6/README.md"
   }
 ]

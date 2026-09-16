@@ -4633,5 +4633,20 @@
     "repositoryId": 41707343,
     "attemptedAt": "2026-09-16T03:44:45.173Z",
     "status": "ok"
+  },
+  "ipfs-kubo": {
+    "defaultBranch": "master",
+    "createdAt": "2014-06-26T08:14:34Z",
+    "pushedAt": "2026-09-15T14:43:39Z",
+    "lastCommitAt": "2026-09-15T00:51:56Z",
+    "stars": 17139,
+    "license": null,
+    "language": "Go",
+    "checkedAt": "2026-09-16T04:44:45.039Z",
+    "source": "https://github.com/ipfs/kubo",
+    "canonicalSource": "https://github.com/ipfs/kubo",
+    "repositoryId": 21233191,
+    "attemptedAt": "2026-09-16T04:44:44.451Z",
+    "status": "ok"
   }
 }

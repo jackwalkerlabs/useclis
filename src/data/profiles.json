@@ -3521,5 +3521,18 @@
     "createdAt": "2013-05-13T23:31:52Z",
     "checkedAt": "2026-09-16T03:44:48.472Z",
     "source": "https://github.com/Keeper-Security"
+  },
+  "ipfs": {
+    "login": "ipfs",
+    "name": "IPFS Project",
+    "type": "Organization",
+    "bio": "A peer-to-peer hypermedia protocol",
+    "location": "United States of America",
+    "website": "https://ipfs.tech",
+    "followers": 3161,
+    "publicRepos": 226,
+    "createdAt": "2015-01-14T19:44:43Z",
+    "checkedAt": "2026-09-16T04:44:46.918Z",
+    "source": "https://github.com/ipfs"
   }
 }

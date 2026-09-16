@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 1,
-  "brewOffset": 800,
+  "searchPage": 2,
+  "brewOffset": 840,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -13811,7 +13811,190 @@
       "status": "held",
       "checkedAt": "2026-09-16T03:44:23.971Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "danielrobbins/keychain": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "keystone-engine/keystone": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "checkmarx/kics": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mongodb/kingfisher": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kopia/kopia": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "kubernetes/kops": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jetbrains/kotlin": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fwcd/kotlin-language-server": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kubernetes-sigs/krew": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "code-yeongyu/lazycodex": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ktlint/ktlint": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "stackrox/kube-linter": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jonmosco/kube-ps1": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yannh/kubeconform": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "int128/kubelogin": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kubernetes/kubernetes": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kubescape/kubescape": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bitnami/sealed-secrets": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kubie-org/kubie": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ipfs/kubo": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "GitHub stars",
+      "slug": "ipfs-kubo",
+      "acceptedAt": "2026-09-16T04:44:21.445Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/kubo.json",
+          "snippet": "{\"executables\":[\"ipfs\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/kubo",
+          "snippet": "brew install kubo"
+        },
+        "usage": {
+          "url": "https://github.com/ipfs/kubo/blob/dcde4a4c38c58aad5942e579cbec5ac963fbfea6/README.md",
+          "snippet": "ipfs init --profile=unixfs-v1-2025"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ipfs/kubo",
+          "snippet": "IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API"
+        },
+        "adoption": {
+          "stars": 17139,
+          "githubSource": "https://github.com/ipfs/kubo",
+          "homebrew": {
+            "repo": "ipfs/kubo",
+            "formula": "kubo",
+            "count": 134,
+            "source": "https://formulae.brew.sh/api/formula/kubo.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "dcde4a4c38c58aad5942e579cbec5ac963fbfea6"
+      }
+    },
+    "kyverno/kyverno": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lammps/lammps": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "languagetool-org/languagetool": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "reference-lapack/lapack": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cmhughes/latexindent.pl": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jesseduffield/lazydocker": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jorgerojas26/lazysql": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "adembc/lazyssh": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "linux-test-project/lcov": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "blacklanternsecurity/bbot": {
+      "status": "held",
+      "checkedAt": "2026-09-16T04:44:21.445Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T03:44:23.971Z"
+  "lastRunAt": "2026-09-16T04:44:21.445Z"
 }
