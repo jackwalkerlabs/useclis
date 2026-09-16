@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 4,
-  "brewOffset": 920,
+  "searchPage": 5,
+  "brewOffset": 960,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -14305,7 +14305,102 @@
       "status": "held",
       "checkedAt": "2026-09-16T06:44:24.457Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "arvidn/libtorrent": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pupnp/pupnp": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libusb/libusb": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libimobiledevice/libusbmuxd": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libuv/libuv": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "georgmartius/vid.stab": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "netflix/vmaf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libvnc/libvncserver": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "webmproject/libvpx": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "warmcat/libwebsockets": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xkbcommon/libxkbcommon": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lsh123/xmlsec": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yaml/libyaml": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apache/skywalking-eyes": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lima-vm/lima": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "liquibase/liquibase": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "livekit/livekit": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "livekit/livekit-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ggml-org/llama.cpp": {
+      "status": "held",
+      "checkedAt": "2026-09-16T07:44:19.774Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T06:44:24.457Z"
+  "lastRunAt": "2026-09-16T07:44:19.774Z"
 }
