@@ -655,3 +655,20 @@ test('Share copies the profile URL and offers a selectable link if clipboard fai
   await user.click(input);
   assert.equal(input.selectionEnd - input.selectionStart, copied[0].length);
 });
+
+test('Empty task search preserves query, offers honest broader terms, and resets to the catalog', async () => {
+  const user = userEvent.setup();
+  const fixture = [{...bookmarkTools[0],slug:'pdf-example',name:'PDF CLI',command:'pdf',description:'Read PDF files',useCase:'Read PDF',agentUse:'Read PDF',features:['PDF'],repo:'example/pdf'}];
+  render(h(Directory, {tools:fixture}));
+  fireEvent.change(search(), {target:{value:'convert pdf to markdown'}});
+  assert.equal(search().value,'convert pdf to markdown');
+  const recovery = document.querySelector('.empty-state');
+  assert.ok(recovery); assert.match(recovery.textContent,/not verified solutions/);
+  const pdf = within(recovery).getByRole('link',{name:/Search “pdf”/});
+  assert.equal(pdf.getAttribute('href'),'/?q=pdf#directory');
+  fireEvent.change(search(), {target:{value:'glorbulator zxxwqq'}});
+  assert.equal(document.querySelectorAll('.search-suggestions a').length,0);
+  assert.match(document.querySelector('.empty-state').textContent,/may not be covered/);
+  await user.click(screen.getByRole('button',{name:'Browse all CLIs'}));
+  assert.equal(search().value,''); assert.equal(rows().length,fixture.length);
+});
