@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 9,
-  "brewOffset": 1120,
+  "searchPage": 10,
+  "brewOffset": 1160,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -14873,7 +14873,117 @@
       "status": "held",
       "checkedAt": "2026-09-16T11:44:22.559Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "mydumper/mydumper": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "python/mypy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tj/n": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gfx-rs/wgpu": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "netwide-assembler/nasm": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nats-io/nats-server": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tencent/ncnn": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hrkfdn/ncspot": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "slackhq/nebula": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "neovide/neovide": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "neovim/neovim": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "equalsraf/neovim-qt": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "net-snmp/net-snmp": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "unidata/netcdf-c": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "netdata/netdata": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nethack/nethack": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "raboof/nethogs": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "matthart1983/netwatch": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "heymaikol/network-doctor": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "newrelic/newrelic-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "newrelic/infrastructure-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nxtrace/ntrace-core": {
+      "status": "held",
+      "checkedAt": "2026-09-16T12:44:20.268Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-16T11:44:22.559Z"
+  "lastRunAt": "2026-09-16T12:44:20.268Z"
 }
