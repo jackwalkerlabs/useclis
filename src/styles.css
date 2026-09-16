@@ -27,3 +27,6 @@ html{scroll-behavior:smooth;scroll-padding-top:85px}body{font-size:14px}button,i
 
 .detail-save { display: flex; flex-direction: column; gap: 6px; }
 .detail-save-status { max-width: 220px; font-size: 12px; line-height: 1.4; }
+
+.search-suggestions { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 18px 0; }
+.empty-state p { overflow-wrap: anywhere; }

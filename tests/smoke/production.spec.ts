@@ -132,3 +132,22 @@ test('Detail Save and Unsave persist with consistent Saved filter navigation', a
   await page.reload();
   await expect(page.getByRole('heading',{name:'No saved CLIs match',exact:true})).toBeVisible();
 });
+
+
+test('Empty search offers broader catalog terms without claiming a task solution', async ({page}, testInfo) => {
+  await home(page);
+  await search(page).fill('pdf zxxwqqnotacli');
+  await expect(page.locator('.empty-state')).toContainText('not verified solutions');
+  await expect(search(page)).toHaveValue('pdf zxxwqqnotacli');
+  await page.screenshot({path:testInfo.outputPath('empty-search-recovery.png')});
+  await page.getByRole('link',{name:/Search “pdf”/}).click();
+  await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+  await expect(search(page)).toHaveValue('pdf');
+  expect(await page.locator('tbody tr').count()).toBeGreaterThan(0);
+  await search(page).fill('zxxwqqnotacli');
+  await expect(page.locator('.search-suggestions a')).toHaveCount(0);
+  await expect(page.locator('.empty-state')).toContainText('may not be covered');
+  await page.getByRole('button',{name:'Browse all CLIs',exact:true}).click();
+  await expect(search(page)).toHaveValue('');
+  expect(await page.locator('tbody tr').count()).toBeGreaterThan(0);
+});
