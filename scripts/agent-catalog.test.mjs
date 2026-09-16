@@ -37,6 +37,7 @@ test('Plain-text catalog exposes every CLI without HTML or browser hydration', a
     assert.ok(text.includes(`https://useclis.com/tools/${tool.slug}/`));
     assert.ok(text.includes(tool.docs));
     assert.ok(text.includes(agentProfiles[tool.slug]?.workflow.commands.join('\n') ?? tool.example));
+    if (agentProfiles[tool.slug]) assert.ok(text.includes('```sh\n' + agentProfiles[tool.slug].workflow.commands.join('\n') + '\n```')); 
   }
 });
 
