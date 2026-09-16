@@ -1,0 +1,24 @@
+---
+import { agentProfiles } from '../lib/tool-workflows';
+import ToolWorkflow from './ToolWorkflow';
+const { tool } = Astro.props;
+const profile = agentProfiles[tool.slug];
+---
+{profile ? <>
+  <section class="agent-capabilities" aria-label="Agent capabilities and setup">
+    <h2>Agent capabilities and setup</h2>
+    <p class="cli-source-note">{profile.verification}. Sources checked <time datetime={profile.reviewedAt}>{profile.reviewedAt}</time>.</p>
+    <dl>{Object.entries(profile.capabilities).map(([label, evidence]) => <div><dt>{label}</dt><dd>{evidence.text} <a href={evidence.source}>Official source ↗</a></dd></div>)}</dl>
+  </section>
+  <ToolWorkflow name={tool.name} docs={tool.docs} profile={profile} client:load />
+</> : <p class="cli-source-note">Agent capability details have not yet been reviewed. <a href={tool.docs}>Check the official documentation ↗</a></p>}
+<style>
+  .agent-capabilities dl { display: grid; gap: 14px; }
+  .agent-capabilities dt { font-weight: 700; }
+  .agent-capabilities dd { margin: 4px 0 0; line-height: 1.6; }
+  :global(.tool-workflow) { margin: 28px 0; padding: 20px; border: 1px solid var(--border, #dce0e4); border-radius: 12px; background: white; }
+  :global(.tool-workflow pre) { white-space: pre-wrap; overflow-wrap: anywhere; padding: 14px; background: #f6f7f8; border-radius: 6px; font-size: 14px; }
+  :global(.tool-workflow textarea) { width: 100%; box-sizing: border-box; margin-top: 10px; padding: 12px; font: inherit; }
+  :global(.tool-workflow details) { margin-top: 12px; }
+  :global(.tool-workflow p) { overflow-wrap: anywhere; }
+</style>

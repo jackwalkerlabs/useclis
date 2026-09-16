@@ -1,0 +1,110 @@
+{
+  "ripgrep": {
+    "reviewedAt": "2026-09-16",
+    "verification": "Documentation reviewed; this example has not been execution-tested by useclis",
+    "capabilities": {
+      "Structured output": {
+        "text": "The --json flag emits a stream of JSON messages for search results.",
+        "source": "https://github.com/BurntSushi/ripgrep/blob/master/crates/core/flags/defs.rs",
+        "checkedAt": "2026-09-16"
+      },
+      "Unattended use": {
+        "text": "A pattern and explicit path can be supplied as command arguments, without an interactive search interface.",
+        "source": "https://github.com/BurntSushi/ripgrep/blob/master/README.md",
+        "checkedAt": "2026-09-16"
+      },
+      "Authentication": {
+        "text": "This local-file example needs filesystem read access; it does not use a service login.",
+        "source": "https://github.com/BurntSushi/ripgrep/blob/master/README.md",
+        "checkedAt": "2026-09-16"
+      },
+      "Platforms": {
+        "text": "Windows, macOS and Linux.",
+        "source": "https://github.com/BurntSushi/ripgrep/blob/master/README.md",
+        "checkedAt": "2026-09-16"
+      },
+      "Limitations": {
+        "text": "Search skips ignored, hidden and binary files by default.",
+        "source": "https://github.com/BurntSushi/ripgrep/blob/master/README.md",
+        "checkedAt": "2026-09-16"
+      }
+    },
+    "workflow": {
+      "title": "Find TODO markers in a project as JSON",
+      "setup": {
+        "text": "Install ripgrep using the official instructions and confirm rg is available in your shell.",
+        "source": "https://github.com/BurntSushi/ripgrep/blob/master/README.md",
+        "checkedAt": "2026-09-16"
+      },
+      "commands": [
+        "rg --json --fixed-strings TODO ."
+      ],
+      "expected": {
+        "text": "JSON messages describe matching lines. Exit status 0 means a match, 1 means no match, and 2 indicates an error.",
+        "source": "https://github.com/BurntSushi/ripgrep/blob/master/crates/core/flags/doc/template.rg.1",
+        "checkedAt": "2026-09-16"
+      },
+      "context": "Run from the project directory you intend to inspect. The dot means that directory; default ignore rules still apply.",
+      "sources": [
+        "https://github.com/BurntSushi/ripgrep/blob/master/README.md",
+        "https://github.com/BurntSushi/ripgrep/blob/master/crates/core/flags/defs.rs",
+        "https://github.com/BurntSushi/ripgrep/blob/master/crates/core/flags/doc/template.rg.1"
+      ]
+    }
+  },
+  "agent-browser": {
+    "reviewedAt": "2026-09-16",
+    "verification": "Documentation reviewed; this example has not been execution-tested by useclis",
+    "capabilities": {
+      "Structured output": {
+        "text": "Use --json for output intended for scripts.",
+        "source": "https://agent-browser.dev/commands",
+        "checkedAt": "2026-09-16"
+      },
+      "Unattended use": {
+        "text": "The default browser mode is headless; commands can be issued from scripts.",
+        "source": "https://agent-browser.dev/commands",
+        "checkedAt": "2026-09-16"
+      },
+      "Authentication": {
+        "text": "Public-page reading needs no site login. Protected sites need separately authorized authentication state.",
+        "source": "https://agent-browser.dev/sessions",
+        "checkedAt": "2026-09-16"
+      },
+      "Platforms": {
+        "text": "Installation instructions cover macOS, Windows and Linux; Linux may need additional browser dependencies.",
+        "source": "https://agent-browser.dev/installation",
+        "checkedAt": "2026-09-16"
+      },
+      "Limitations": {
+        "text": "Element references come from page snapshots; inspect the current page before choosing controls.",
+        "source": "https://agent-browser.dev/quick-start",
+        "checkedAt": "2026-09-16"
+      }
+    },
+    "workflow": {
+      "title": "Read the title of a public web page",
+      "setup": {
+        "text": "Install agent-browser and its browser using the official installation instructions. Confirm browser launch is allowed for your task.",
+        "source": "https://agent-browser.dev/installation",
+        "checkedAt": "2026-09-16"
+      },
+      "commands": [
+        "agent-browser --session useclis-example open https://example.com",
+        "agent-browser --session useclis-example --json get title",
+        "agent-browser --session useclis-example close"
+      ],
+      "expected": {
+        "text": "The title command returns the page title as JSON; the final command closes the example session.",
+        "source": "https://agent-browser.dev/commands",
+        "checkedAt": "2026-09-16"
+      },
+      "context": "This example starts a named browser session and visits example.com. Use a fresh session name if useclis-example is already in use. It does not log in or submit forms.",
+      "sources": [
+        "https://agent-browser.dev/installation",
+        "https://agent-browser.dev/commands",
+        "https://agent-browser.dev/sessions"
+      ]
+    }
+  }
+}
