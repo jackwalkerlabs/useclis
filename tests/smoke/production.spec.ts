@@ -103,3 +103,24 @@ test('agent endpoints, deployed version and missing-page response', async ({ req
   expect(missing.status(), 'Unknown routes must return HTTP 404').toBe(404);
   expect(await missing.text()).toContain('useclis');
 });
+
+test('reviewed profiles expose useful workflows and copy the selected CLI prompt', async ({ page, context }, testInfo) => {
+  await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+  for (const slug of ['ripgrep', 'agent-browser']) {
+    const response = await page.goto(`/tools/${slug}/`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+    await expect(page.getByRole('heading', {name: 'Agent capabilities and setup'})).toBeVisible();
+    const workflow = page.getByRole('region', {name: `${slug} workflow`});
+    await expect(workflow.getByRole('heading', {name: 'Try a useful task'})).toBeVisible();
+    await workflow.getByRole('button', {name: 'Copy prompt for this CLI'}).click();
+    await expect(workflow.getByRole('status')).toHaveText('Prompt copied. Paste it into your agent.');
+    const copied = await page.evaluate(() => navigator.clipboard.readText());
+    expect(copied).toBe(await workflow.locator('textarea').inputValue());
+    expect(copied).toContain(slug);
+    expect(copied).toContain('Do not install software, access credentials');
+    expect(copied).toContain('not been execution-tested');
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+    await page.screenshot({path:testInfo.outputPath(`${slug}-workflow.png`),fullPage:true});
+  }
+});

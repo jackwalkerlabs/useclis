@@ -1,3 +1,4 @@
+import { agentProfiles } from './tool-workflows';
 import { categories, tools } from '../data/tools';
 import { defaultSiteUrl } from './agent-prompt';
 
@@ -22,6 +23,7 @@ export function agentCatalog(siteUrl: string | URL = defaultSiteUrl) {
       features: tool.features,
       example: tool.example,
       agentWorkflowSupport: tool.agentWorkflowSupport,
+      agentProfile: agentProfiles[tool.slug] ?? null,
       repositorySnapshot: {
         stars: tool.stars ?? null,
         license: tool.license ?? null,
@@ -45,6 +47,15 @@ export function agentCatalogMarkdown(siteUrl?: string | URL) {
     `- Agent use: ${tool.agentUse}`,
     `- Features: ${tool.features.join('; ')}`,
     `- Example (illustrative): \`${tool.example}\``,
+    ...(tool.agentProfile ? [
+      `- Capability review: ${tool.agentProfile.reviewedAt}; ${tool.agentProfile.verification}`,
+      ...Object.entries(tool.agentProfile.capabilities).map(([label, evidence]) => `- ${label}: ${evidence.text} Source: ${evidence.source} (checked ${evidence.checkedAt})`),
+      `- Workflow: ${tool.agentProfile.workflow.title}`,
+      `- Setup: ${tool.agentProfile.workflow.setup.text} Source: ${tool.agentProfile.workflow.setup.source}`,
+      `- Context: ${tool.agentProfile.workflow.context}`,
+      tool.agentProfile.workflow.commands.join('\n'),
+      `- Expected: ${tool.agentProfile.workflow.expected.text} Source: ${tool.agentProfile.workflow.expected.source}`,
+    ] : ['- Agent capabilities: Not yet reviewed']),
     `- Agent workflow label: ${tool.agentWorkflowSupport ?? 'Not in source list'}`,
     `- Repository stars: ${tool.repositorySnapshot.stars ?? 'Unknown'}; license: ${tool.repositorySnapshot.license ?? 'Unknown'}; checked: ${tool.repositorySnapshot.checkedAt ?? 'Unknown'}`,
   ].join('\n')).join('\n\n') + '\n';

@@ -1,0 +1,35 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { JSDOM } from 'jsdom';
+import { agentProfiles, toolWorkflowPrompt } from '../src/lib/tool-workflows.ts';
+const dom = new JSDOM('<html><body></body></html>', {url: 'https://useclis.com/'});
+for (const key of ['window','document','navigator','HTMLElement','Element','Node','MutationObserver']) Object.defineProperty(globalThis,key,{value:key==='window'?dom.window:dom.window[key],configurable:true});
+globalThis.IS_REACT_ACT_ENVIRONMENT = true;
+const {createElement:h}=await import('react');
+const {render,screen,cleanup}=await import('@testing-library/react');
+const {default:userEvent}=await import('@testing-library/user-event');
+const {default:ToolWorkflow}=await import('../src/components/ToolWorkflow.tsx');
+test('CLI prompt copy includes the selected task, setup, sources and authorization boundaries', async () => {
+  const user=userEvent.setup();
+  const profile=agentProfiles['agent-browser'];
+  render(h(ToolWorkflow,{name:'agent-browser',docs:'https://agent-browser.dev',profile}));
+  await user.click(screen.getByRole('button',{name:'Copy prompt for this CLI'}));
+  const copied=await navigator.clipboard.readText();
+  assert.equal(copied,toolWorkflowPrompt('agent-browser','https://agent-browser.dev',profile));
+  for (const command of profile.workflow.commands) assert.ok(copied.includes(command));
+  assert.match(copied,/Do not install software, access credentials, launch or attach browsers/);
+  assert.match(screen.getByRole('status').textContent,/Prompt copied/);
+  cleanup();
+});
+test('Clipboard refusal reveals selectable prompt without reporting copy success', async () => {
+  const user=userEvent.setup();
+  navigator.clipboard.writeText=async()=>{throw new Error('denied');};
+  render(h(ToolWorkflow,{name:'ripgrep',docs:'https://github.com/BurntSushi/ripgrep',profile:agentProfiles.ripgrep}));
+  await user.click(screen.getByRole('button',{name:'Copy prompt for this CLI'}));
+  const text=screen.getByRole('textbox',{name:'Prompt for ripgrep'});
+  assert.equal(text.closest('details').open,true);
+  assert.equal(document.activeElement,text);
+  assert.equal(text.selectionEnd,text.value.length);
+  assert.equal(screen.getByRole('status').textContent,'Copy the selected prompt.');
+  cleanup();dom.window.close();
+});

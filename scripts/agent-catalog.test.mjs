@@ -50,3 +50,23 @@ test('Agent guide and copyable prompt point to curl-accessible resources on the 
   assert.ok(prompt.includes('https://directory.example/llms-full.txt'));
   assert.ok(prompt.includes('curl -fsSL'));
 });
+
+test('Reviewed profiles expose dated official evidence and useful workflows in both catalogs', async () => {
+  const catalog = await (await jsonRoute({})).json();
+  const text = await (await textRoute({})).text();
+  for (const slug of ['ripgrep', 'agent-browser']) {
+    const tool = catalog.tools.find(tool => tool.slug === slug);
+    const profile = tool.agentProfile;
+    assert.match(profile.verification, /not been execution-tested/);
+    assert.equal(Object.keys(profile.capabilities).length, 5);
+    for (const evidence of [...Object.values(profile.capabilities), profile.workflow.setup, profile.workflow.expected]) {
+      assert.ok(Number.isFinite(Date.parse(evidence.checkedAt)));
+      assert.match(evidence.source, /^https:\/\/(github\.com|agent-browser\.dev)\//);
+      assert.ok(text.includes(evidence.source));
+    }
+    assert.ok(profile.workflow.commands.length > 0);
+    assert.ok(!tool.example.endsWith('--help'));
+    assert.ok(text.includes(profile.workflow.title));
+  }
+  assert.equal(catalog.tools.find(tool => tool.slug === 'jq').agentProfile, null);
+});
