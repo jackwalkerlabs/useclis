@@ -63,8 +63,8 @@ export default function SubmitCLI({ submissionRepo = '' }: Props) {
   }
 
   return <>
-    <button ref={trigger} type="button" className="button primary header-cta" aria-haspopup="dialog" onClick={() => { dialog.current?.showModal(); setOpen(true); setNotice(''); }}>
-      <Plus size={14} aria-hidden="true" /> Submit your CLI
+    <button ref={trigger} type="button" className="button primary header-cta" aria-label="Submit your CLI" aria-haspopup="dialog" onClick={() => { dialog.current?.showModal(); setOpen(true); setNotice(''); }}>
+      <Plus size={14} aria-hidden="true" /><span className="submission-label-full">Submit your CLI</span><span className="submission-label-short" aria-hidden="true">Submit CLI</span>
     </button>
     <dialog ref={dialog} className="submission-dialog" aria-labelledby="submission-title" aria-describedby="submission-description" onCancel={event => { event.preventDefault(); close(); }} onClose={() => setOpen(false)} onClick={event => { if (event.target === event.currentTarget) { const bounds = event.currentTarget.getBoundingClientRect(); if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) close(); } }}>
       <div className="submission-shell">
