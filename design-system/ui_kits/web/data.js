@@ -6537,6 +6537,25 @@ window.USECLIS_DATA = {
       "stars": 5333,
       "license": "MIT",
       "checkedAt": "2026-09-16T19:44:32.325Z"
+    },
+    {
+      "slug": "asamk-signal-cli",
+      "name": "signal-cli",
+      "repo": "AsamK/signal-cli",
+      "category": "Data & APIs",
+      "command": "signal-cli",
+      "useCase": "signal-cli provides an unofficial commandline, JSON-RPC and dbus interface for the Signal messenger.",
+      "description": "signal-cli provides an unofficial commandline, JSON-RPC and dbus interface for the Signal messenger.",
+      "agentUse": "Invoke signal-cli from a shell for the documented use case: signal-cli provides an unofficial commandline, JSON-RPC and dbus interface for the Signal messenger.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "signal-cli -a ACCOUNT register --voice",
+      "website": "https://github.com/AsamK/signal-cli",
+      "docs": "https://github.com/AsamK/signal-cli/blob/a255a7fecfe80452fde83c1709086fcbf900716a/README.md",
+      "stars": 4912,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-16T22:44:21.582Z"
     }
   ],
   "categories": [

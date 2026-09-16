@@ -5587,5 +5587,21 @@
     "example": "rainfrog --url sqlite:///rainfrog.sqlite3",
     "website": "https://github.com/achristmascarl/rainfrog",
     "docs": "https://github.com/achristmascarl/rainfrog/blob/d8b0c8d08e6473415bcab8171159a25049be699c/README.md"
+  },
+  {
+    "slug": "asamk-signal-cli",
+    "name": "signal-cli",
+    "repo": "AsamK/signal-cli",
+    "category": "Data & APIs",
+    "command": "signal-cli",
+    "useCase": "signal-cli provides an unofficial commandline, JSON-RPC and dbus interface for the Signal messenger.",
+    "description": "signal-cli provides an unofficial commandline, JSON-RPC and dbus interface for the Signal messenger.",
+    "agentUse": "Invoke signal-cli from a shell for the documented use case: signal-cli provides an unofficial commandline, JSON-RPC and dbus interface for the Signal messenger.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "signal-cli -a ACCOUNT register --voice",
+    "website": "https://github.com/AsamK/signal-cli",
+    "docs": "https://github.com/AsamK/signal-cli/blob/a255a7fecfe80452fde83c1709086fcbf900716a/README.md"
   }
 ]

@@ -1426,5 +1426,19 @@
     "checkedAt": "2026-09-16T19:44:33.167Z",
     "generatedDate": "2026-09-16",
     "status": "ok"
+  },
+  "asamk-signal-cli": {
+    "formula": "signal-cli",
+    "repo": "AsamK/signal-cli",
+    "source": "https://formulae.brew.sh/api/formula/signal-cli.json",
+    "attemptedAt": "2026-09-16T22:44:22.444Z",
+    "counts": {
+      "30d": 373,
+      "90d": 2108,
+      "365d": 10576
+    },
+    "checkedAt": "2026-09-16T22:44:22.444Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
   }
 }

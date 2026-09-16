@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 9,
-  "brewOffset": 1520,
+  "searchPage": 10,
+  "brewOffset": 1560,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -16117,7 +16117,165 @@
       "status": "held",
       "checkedAt": "2026-09-16T21:44:08.720Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "shellspec/shellspec": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mvdan/sh": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "asamk/signal-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "GitHub stars",
+      "slug": "asamk-signal-cli",
+      "acceptedAt": "2026-09-16T22:44:08.172Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/signal-cli.json",
+          "snippet": "{\"executables\":[\"signal-cli\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/signal-cli",
+          "snippet": "brew install signal-cli"
+        },
+        "usage": {
+          "url": "https://github.com/AsamK/signal-cli/blob/a255a7fecfe80452fde83c1709086fcbf900716a/README.md",
+          "snippet": "signal-cli -a ACCOUNT register --voice"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/AsamK/signal-cli",
+          "snippet": "signal-cli provides an unofficial commandline, JSON-RPC and dbus interface for the Signal messenger."
+        },
+        "adoption": {
+          "stars": 4912,
+          "githubSource": "https://github.com/AsamK/signal-cli",
+          "homebrew": {
+            "repo": "AsamK/signal-cli",
+            "formula": "signal-cli",
+            "count": 373,
+            "source": "https://formulae.brew.sh/api/formula/signal-cli.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "a255a7fecfe80452fde83c1709086fcbf900716a"
+      }
+    },
+    "simdjson/simdjson": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "simdutf/simdutf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "anestisb/android-simg2img": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sagernet/sing-box": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "python-sip/sip": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "skim-rs/skim": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "skiptools/skipstone": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "podman-container-tools/skopeo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mtoyoda/sl": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rusq/slackdump": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rootless-containers/slirp4netns": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "smlnj/smlnj": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "canonical/snapd": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/snappy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lima-vm/socket_vmnet": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "anza-xyz/agave": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "castwide/solargraph": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "argotorg/solidity": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "theopfr/somo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sonarsource/sonar-scanner-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "valeriansaliou/sonic": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "krzysztofzablocki/sourcery": {
+      "status": "held",
+      "checkedAt": "2026-09-16T22:44:08.172Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T21:44:08.720Z"
+  "lastRunAt": "2026-09-16T22:44:08.172Z"
 }

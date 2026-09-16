@@ -409,5 +409,9 @@
   "achristmascarl-rainfrog": {
     "formula": "rainfrog",
     "repo": "achristmascarl/rainfrog"
+  },
+  "asamk-signal-cli": {
+    "formula": "signal-cli",
+    "repo": "AsamK/signal-cli"
   }
 }

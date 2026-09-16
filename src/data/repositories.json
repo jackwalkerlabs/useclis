@@ -4738,5 +4738,20 @@
     "repositoryId": 801100155,
     "attemptedAt": "2026-09-16T19:44:31.695Z",
     "status": "ok"
+  },
+  "asamk-signal-cli": {
+    "defaultBranch": "master",
+    "createdAt": "2015-05-11T10:49:42Z",
+    "pushedAt": "2026-09-14T12:19:32Z",
+    "lastCommitAt": "2026-09-14T12:19:27Z",
+    "stars": 4912,
+    "license": "GPL-3.0",
+    "language": "Java",
+    "checkedAt": "2026-09-16T22:44:21.582Z",
+    "source": "https://github.com/AsamK/signal-cli",
+    "canonicalSource": "https://github.com/AsamK/signal-cli",
+    "repositoryId": 35418187,
+    "attemptedAt": "2026-09-16T22:44:21.085Z",
+    "status": "ok"
   }
 }

@@ -3612,5 +3612,18 @@
     "createdAt": "2018-10-10T09:11:47Z",
     "checkedAt": "2026-09-16T19:44:33.899Z",
     "source": "https://github.com/achristmascarl"
+  },
+  "asamk": {
+    "login": "AsamK",
+    "name": "Sebastian Scheibner",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 127,
+    "publicRepos": 50,
+    "createdAt": "2012-09-13T16:55:57Z",
+    "checkedAt": "2026-09-16T22:44:23.061Z",
+    "source": "https://github.com/AsamK"
   }
 }
