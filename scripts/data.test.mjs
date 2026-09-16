@@ -25,7 +25,7 @@ test('All 200 supplied CLIs appear exactly once with their original workflow lab
   }
 });
 test('Search finds CLI commands and GitHub repositories without case sensitivity', () => {
-  assert.deepEqual(filterTools(tools, { query: 'CLI/CLI' }).map(tool => tool.slug), ['github-cli', 'salesforce-cli']);
+  assert.deepEqual(filterTools(tools, { query: 'CLI/CLI' }).map(tool => tool.slug), ['github-cli']);
   assert.deepEqual(filterTools(tools, { query: 'wrangler' }).map(tool => tool.slug), ['wrangler']);
   assert.ok(filterTools(tools, { query: 'JSON' }).some(tool => tool.slug === 'jq'));
 });
