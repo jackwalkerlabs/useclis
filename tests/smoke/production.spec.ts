@@ -103,3 +103,32 @@ test('agent endpoints, deployed version and missing-page response', async ({ req
   expect(missing.status(), 'Unknown routes must return HTTP 404').toBe(404);
   expect(await missing.text()).toContain('useclis');
 });
+
+
+test('Detail Save and Unsave persist with consistent Saved filter navigation', async ({page},testInfo) => {
+  await home(page);
+  await search(page).fill('ripgrep');
+  await page.getByRole('combobox',{name:'Sort tools'}).selectOption('name');
+  await page.getByRole('combobox',{name:'Download source'}).selectOption('npm');
+  await ripgrepRow(page).locator('a.table-project').click();
+  await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+  await page.getByRole('button',{name:'Save ripgrep',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Unsave ripgrep',exact:true})).toHaveAttribute('aria-pressed','true');
+  await page.reload();
+  await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+  await expect(page.getByRole('button',{name:'Unsave ripgrep',exact:true})).toHaveAttribute('aria-pressed','true');
+  await page.screenshot({path:testInfo.outputPath('detail-saved.png')});
+  await page.getByRole('link',{name:'Saved CLIs',exact:true}).click();
+  await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+  await expect(search(page)).toHaveValue('ripgrep');
+  await expect(page.getByRole('combobox',{name:'Sort tools'})).toHaveValue('name');
+  await expect(page.getByRole('combobox',{name:'Download source'})).toHaveValue('npm');
+  await expect(ripgrepRow(page)).toBeVisible();
+  await ripgrepRow(page).locator('a.table-project').click();
+  await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+  await page.getByRole('button',{name:'Unsave ripgrep',exact:true}).click();
+  await page.getByRole('link',{name:'Saved CLIs',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'No saved CLIs match',exact:true})).toBeVisible();
+  await page.reload();
+  await expect(page.getByRole('heading',{name:'No saved CLIs match',exact:true})).toBeVisible();
+});
