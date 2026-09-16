@@ -1,4 +1,3 @@
-import { agentProfiles } from '../lib/tool-workflows';
 import catalog from './catalog.json';
 import repositories from './repositories.json';
 import sourceList from './cli-source-list.json';
@@ -28,7 +27,6 @@ export const tools = catalog.map((tool, listedOrder) => {
     listedOrder,
     weeklyCommits: activity[tool.slug as keyof typeof activity]?.weeks.at(-1) ?? null,
     logo: `/logos/${tool.slug}.png`,
-    example: agentProfiles[tool.slug]?.workflow.commands[0] ?? tool.example,
     sourceListName: source?.cli_name ?? null,
     agentWorkflowSupport: source?.agent_ai_workflow_support ?? null,
     homebrewFormula: mapping?.formula ?? null,

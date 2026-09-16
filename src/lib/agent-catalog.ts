@@ -21,7 +21,7 @@ export function agentCatalog(siteUrl: string | URL = defaultSiteUrl) {
       useCase: tool.useCase,
       agentUse: tool.agentUse,
       features: tool.features,
-      example: tool.example,
+      example: agentProfiles[tool.slug]?.workflow.commands.join('\n') ?? tool.example,
       agentWorkflowSupport: tool.agentWorkflowSupport,
       agentProfile: agentProfiles[tool.slug] ?? null,
       repositorySnapshot: {
