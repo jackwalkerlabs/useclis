@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 8,
-  "brewOffset": 680,
+  "searchPage": 9,
+  "brewOffset": 720,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -13372,7 +13372,122 @@
       "status": "held",
       "checkedAt": "2026-09-16T00:44:17.092Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "rakyll/hey": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "huggingface/huggingface_hub": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "libusb/hidapi": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "redis/hiredis": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jdx/hk": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "simonmichael/hledger": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Repository unavailable or renamed"
+    },
+    "mgdm/htmlq": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "htop-dev/htop": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xroche/httrack": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cilium/hubble": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hunspell/hunspell": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "open-mpi/hwloc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vanhauser-thc/thc-hydra": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apernet/hysteria": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Repository unavailable or renamed"
+    },
+    "bazelbuild/bazel-watcher": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ibdecodable/iblinter": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dkaluta/icalbuddy64": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "steveicarus/iverilog": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libimobiledevice/ideviceinstaller": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rharder/imagesnap": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "imapsync/imapsync": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "academysoftwarefoundation/imath": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "reagentx/imessage-exporter": {
+      "status": "held",
+      "checkedAt": "2026-09-16T01:44:23.208Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T00:44:17.092Z"
+  "lastRunAt": "2026-09-16T01:44:23.208Z"
 }
