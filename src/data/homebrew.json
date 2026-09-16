@@ -1286,5 +1286,47 @@
     "checkedAt": "2026-09-16T00:44:32.588Z",
     "generatedDate": "2026-09-15",
     "status": "ok"
+  },
+  "derailed-k9s": {
+    "formula": "k9s",
+    "repo": "derailed/k9s",
+    "source": "https://formulae.brew.sh/api/formula/k9s.json",
+    "attemptedAt": "2026-09-16T03:44:47.080Z",
+    "counts": {
+      "30d": 7572,
+      "90d": 32429,
+      "365d": 194241
+    },
+    "checkedAt": "2026-09-16T03:44:47.080Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
+  },
+  "kenn-io-kata": {
+    "formula": "kata",
+    "repo": "kenn-io/kata",
+    "source": "https://formulae.brew.sh/api/formula/kata.json",
+    "attemptedAt": "2026-09-16T03:44:47.116Z",
+    "counts": {
+      "30d": 109,
+      "90d": 185,
+      "365d": 185
+    },
+    "checkedAt": "2026-09-16T03:44:47.116Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
+  },
+  "keeper-security-commander": {
+    "formula": "keeper-commander",
+    "repo": "Keeper-Security/Commander",
+    "source": "https://formulae.brew.sh/api/formula/keeper-commander.json",
+    "attemptedAt": "2026-09-16T03:44:47.117Z",
+    "counts": {
+      "30d": 101,
+      "90d": 658,
+      "365d": 2621
+    },
+    "checkedAt": "2026-09-16T03:44:47.117Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
   }
 }

@@ -369,5 +369,17 @@
   "tconbeer-harlequin": {
     "formula": "harlequin",
     "repo": "tconbeer/harlequin"
+  },
+  "derailed-k9s": {
+    "formula": "k9s",
+    "repo": "derailed/k9s"
+  },
+  "kenn-io-kata": {
+    "formula": "kata",
+    "repo": "kenn-io/kata"
+  },
+  "keeper-security-commander": {
+    "formula": "keeper-commander",
+    "repo": "Keeper-Security/Commander"
   }
 }

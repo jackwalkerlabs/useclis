@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 10,
-  "brewOffset": 760,
+  "searchPage": 1,
+  "brewOffset": 800,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -13602,7 +13602,216 @@
       "status": "held",
       "checkedAt": "2026-09-16T02:44:18.882Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "jenv/jenv": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jfrog/jfrog-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "idursun/jjui": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jpmens/jo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libjpeg-turbo/libjpeg-turbo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libjxl/libjxl": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tjko/jpegoptim": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "json-c/json-c": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "open-source-parsers/jsoncpp": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/jsonnet": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "julialang/julia": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "julialang/juliaup": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "terror/just-lsp": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "k8sgpt-ai/k8sgpt": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "derailed/k9s": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "GitHub stars",
+      "slug": "derailed-k9s",
+      "acceptedAt": "2026-09-16T03:44:23.971Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/k9s.json",
+          "snippet": "{\"executables\":[\"k9s\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/k9s",
+          "snippet": "brew install k9s"
+        },
+        "usage": {
+          "url": "https://github.com/derailed/k9s/blob/bb55b2ab513c5bdae3028c66ec9a01b523aeb08e/README.md",
+          "snippet": "k9s info"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/derailed/k9s",
+          "snippet": "🐶 Kubernetes CLI To Manage Your Clusters In Style!"
+        },
+        "adoption": {
+          "stars": 34597,
+          "githubSource": "https://github.com/derailed/k9s",
+          "homebrew": {
+            "repo": "derailed/k9s",
+            "formula": "k9s",
+            "count": 7572,
+            "source": "https://formulae.brew.sh/api/formula/k9s.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "bb55b2ab513c5bdae3028c66ec9a01b523aeb08e"
+      }
+    },
+    "akuity/kargo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kenn-io/kata": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Homebrew install-on-request",
+      "slug": "kenn-io-kata",
+      "acceptedAt": "2026-09-16T03:44:23.971Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/kata.json",
+          "snippet": "{\"executables\":[\"kata\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/kenn-io/kata/blob/ee97ebab58bea84cee0063092569b9968da88bac/README.md",
+          "snippet": "brew install kata"
+        },
+        "usage": {
+          "url": "https://github.com/kenn-io/kata/blob/ee97ebab58bea84cee0063092569b9968da88bac/README.md",
+          "snippet": "kata quickstart --format contract"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kenn-io/kata",
+          "snippet": "Local-first issue tracking for AI-assisted software work, with an agent-friendly CLI and human-facing TUI"
+        },
+        "adoption": {
+          "stars": 439,
+          "githubSource": "https://github.com/kenn-io/kata",
+          "homebrew": {
+            "repo": "kenn-io/kata",
+            "formula": "kata",
+            "count": 109,
+            "source": "https://formulae.brew.sh/api/formula/kata.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "ee97ebab58bea84cee0063092569b9968da88bac"
+      }
+    },
+    "lightvector/katago": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "simonkagstrom/kcov": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/keep-sorted": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "keeper-security/commander": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Homebrew install-on-request",
+      "slug": "keeper-security-commander",
+      "acceptedAt": "2026-09-16T03:44:23.971Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/keeper-commander.json",
+          "snippet": "{\"executables\":[\"keeper\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/keeper-commander",
+          "snippet": "brew install keeper-commander"
+        },
+        "usage": {
+          "url": "https://github.com/Keeper-Security/Commander/blob/faef1b3c9771619e6ed0e7558fc5d98679c95a7c/README.md",
+          "snippet": "keeper shell"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Keeper-Security/Commander",
+          "snippet": "Keeper Commander is a python-based CLI and SDK interface to the Keeper Security platform. Provides administrative controls, reporting, import/export and vault management."
+        },
+        "adoption": {
+          "stars": 254,
+          "githubSource": "https://github.com/Keeper-Security/Commander",
+          "homebrew": {
+            "repo": "Keeper-Security/Commander",
+            "formula": "keeper-commander",
+            "count": 101,
+            "source": "https://formulae.brew.sh/api/formula/keeper-commander.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "faef1b3c9771619e6ed0e7558fc5d98679c95a7c"
+      }
+    },
+    "keploy/keploy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T03:44:23.971Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T02:44:18.882Z"
+  "lastRunAt": "2026-09-16T03:44:23.971Z"
 }

@@ -5427,5 +5427,53 @@
     "example": "harlequin \"path/to/duck.db\" \"another_duck.db\"",
     "website": "https://github.com/tconbeer/harlequin",
     "docs": "https://github.com/tconbeer/harlequin/blob/590e16aaada1accfef7fa1e2fbf9f41c130ad4ab/README.md"
+  },
+  {
+    "slug": "derailed-k9s",
+    "name": "k9s",
+    "repo": "derailed/k9s",
+    "category": "Cloud & deployment",
+    "command": "k9s",
+    "useCase": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+    "description": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+    "agentUse": "Invoke k9s from a shell for the documented use case: 🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "k9s info",
+    "website": "https://github.com/derailed/k9s",
+    "docs": "https://github.com/derailed/k9s/blob/bb55b2ab513c5bdae3028c66ec9a01b523aeb08e/README.md"
+  },
+  {
+    "slug": "kenn-io-kata",
+    "name": "kata",
+    "repo": "kenn-io/kata",
+    "category": "Agents & models",
+    "command": "kata",
+    "useCase": "Local-first issue tracking for AI-assisted software work, with an agent-friendly CLI and human-facing TUI",
+    "description": "Local-first issue tracking for AI-assisted software work, with an agent-friendly CLI and human-facing TUI",
+    "agentUse": "Invoke kata from a shell for the documented use case: Local-first issue tracking for AI-assisted software work, with an agent-friendly CLI and human-facing TUI",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "kata quickstart --format contract",
+    "website": "https://github.com/kenn-io/kata",
+    "docs": "https://github.com/kenn-io/kata/blob/ee97ebab58bea84cee0063092569b9968da88bac/README.md"
+  },
+  {
+    "slug": "keeper-security-commander",
+    "name": "Commander",
+    "repo": "Keeper-Security/Commander",
+    "category": "Security & secrets",
+    "command": "keeper",
+    "useCase": "Keeper Commander is a python-based CLI and SDK interface to the Keeper Security platform. Provides administrative controls, reporting, import/export and vault management.",
+    "description": "Keeper Commander is a python-based CLI and SDK interface to the Keeper Security platform. Provides administrative controls, reporting, import/export and vault management.",
+    "agentUse": "Invoke keeper from a shell for the documented use case: Keeper Commander is a python-based CLI and SDK interface to the Keeper Security platform. Provides administrative controls, reporting, import/export and vault management.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "keeper shell",
+    "website": "https://github.com/Keeper-Security/Commander",
+    "docs": "https://github.com/Keeper-Security/Commander/blob/faef1b3c9771619e6ed0e7558fc5d98679c95a7c/README.md"
   }
 ]

@@ -3482,5 +3482,44 @@
     "createdAt": "2011-04-02T20:54:07Z",
     "checkedAt": "2026-09-16T00:44:33.316Z",
     "source": "https://github.com/tconbeer"
+  },
+  "derailed": {
+    "login": "derailed",
+    "name": "Fernand Galiana",
+    "type": "User",
+    "bio": "Owner of Imhotep Software a consultancy specializing in architecture, cloud operations, software development and corporate training for GO and Kubernetes ",
+    "location": "Colorado, US",
+    "website": "imhotep.io",
+    "followers": 1862,
+    "publicRepos": 63,
+    "createdAt": "2008-03-28T05:22:07Z",
+    "checkedAt": "2026-09-16T03:44:47.767Z",
+    "source": "https://github.com/derailed"
+  },
+  "kenn-io": {
+    "login": "kenn-io",
+    "name": "Kenn Software",
+    "type": "Organization",
+    "bio": "Development and knowledge systems for the agentic era",
+    "location": null,
+    "website": "https://kenn.io",
+    "followers": 201,
+    "publicRepos": 16,
+    "createdAt": "2026-02-06T14:36:48Z",
+    "checkedAt": "2026-09-16T03:44:48.133Z",
+    "source": "https://github.com/kenn-io"
+  },
+  "keeper-security": {
+    "login": "Keeper-Security",
+    "name": "Keeper Security",
+    "type": "Organization",
+    "bio": "Creators of the leading privileged access management platform securing organizations against data breaches and cyber threats.",
+    "location": "Chicago, IL",
+    "website": "https://keepersecurity.com",
+    "followers": 160,
+    "publicRepos": 65,
+    "createdAt": "2013-05-13T23:31:52Z",
+    "checkedAt": "2026-09-16T03:44:48.472Z",
+    "source": "https://github.com/Keeper-Security"
   }
 }
