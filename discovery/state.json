@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 7,
-  "brewOffset": 640,
+  "searchPage": 8,
+  "brewOffset": 680,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -13244,7 +13244,135 @@
       "status": "held",
       "checkedAt": "2026-09-15T23:44:17.616Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "grafana/grafana": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "grafana/alloy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fwdcloudsec/granted": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "silnrsi/graphite": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "garabik/grc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tomnomnom/gron": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "groonga/groonga": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "grpc/grpc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fullstorydev/grpcui": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "charmbracelet/gum": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "greatscottgadgets/hackrf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "handbrake/handbrake": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "harfbuzz/harfbuzz": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tconbeer/harlequin": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "GitHub stars",
+      "slug": "tconbeer-harlequin",
+      "acceptedAt": "2026-09-16T00:44:17.092Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/tconbeer/harlequin/blob/590e16aaada1accfef7fa1e2fbf9f41c130ad4ab/pyproject.toml",
+          "snippet": "harlequin = \"harlequin.cli:harlequin\"",
+          "target": "src/harlequin/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/tconbeer/harlequin/blob/590e16aaada1accfef7fa1e2fbf9f41c130ad4ab/README.md",
+          "snippet": "uv tool install harlequin"
+        },
+        "usage": {
+          "url": "https://github.com/tconbeer/harlequin/blob/590e16aaada1accfef7fa1e2fbf9f41c130ad4ab/README.md",
+          "snippet": "harlequin \"path/to/duck.db\" \"another_duck.db\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/tconbeer/harlequin",
+          "snippet": "The SQL IDE for Your Terminal."
+        },
+        "adoption": {
+          "stars": 6401,
+          "githubSource": "https://github.com/tconbeer/harlequin",
+          "homebrew": {
+            "repo": "tconbeer/harlequin",
+            "formula": "harlequin",
+            "count": 464,
+            "source": "https://formulae.brew.sh/api/formula/harlequin.json",
+            "generatedDate": "2026-09-15"
+          }
+        },
+        "commit": "590e16aaada1accfef7fa1e2fbf9f41c130ad4ab"
+      }
+    },
+    "automattic/harper": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hashcat/hashcat": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "commercialhaskell/stack": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zerbea/hcxtools": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kalil0321/reverse-api-engineer": {
+      "status": "held",
+      "checkedAt": "2026-09-16T00:44:17.092Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-15T23:44:17.616Z"
+  "lastRunAt": "2026-09-16T00:44:17.092Z"
 }

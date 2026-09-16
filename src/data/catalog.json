@@ -5411,5 +5411,21 @@
     "example": "gitui -l",
     "website": "https://github.com/gitui-org/gitui",
     "docs": "https://github.com/gitui-org/gitui/blob/2fa693cb6ed431b21ebc300dd02e83c2476699ce/README.md"
+  },
+  {
+    "slug": "tconbeer-harlequin",
+    "name": "harlequin",
+    "repo": "tconbeer/harlequin",
+    "category": "Data & APIs",
+    "command": "harlequin",
+    "useCase": "The SQL IDE for Your Terminal.",
+    "description": "The SQL IDE for Your Terminal.",
+    "agentUse": "Invoke harlequin from a shell for the documented use case: The SQL IDE for Your Terminal.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "harlequin \"path/to/duck.db\" \"another_duck.db\"",
+    "website": "https://github.com/tconbeer/harlequin",
+    "docs": "https://github.com/tconbeer/harlequin/blob/590e16aaada1accfef7fa1e2fbf9f41c130ad4ab/README.md"
   }
 ]

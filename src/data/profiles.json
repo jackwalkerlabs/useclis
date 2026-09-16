@@ -3469,5 +3469,18 @@
     "createdAt": "2025-02-21T08:05:48Z",
     "checkedAt": "2026-09-15T22:44:46.781Z",
     "source": "https://github.com/gitui-org"
+  },
+  "tconbeer": {
+    "login": "tconbeer",
+    "name": "Ted Conbeer",
+    "type": "User",
+    "bio": "Analyst and Data Exec.\r\nCreator of sqlfmt + harlequin.",
+    "location": "Boulder, CO",
+    "website": "tedconbeer.com",
+    "followers": 210,
+    "publicRepos": 46,
+    "createdAt": "2011-04-02T20:54:07Z",
+    "checkedAt": "2026-09-16T00:44:33.316Z",
+    "source": "https://github.com/tconbeer"
   }
 }

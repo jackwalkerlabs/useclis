@@ -6328,6 +6328,25 @@ window.USECLIS_DATA = {
       "stars": 22496,
       "license": "MIT",
       "checkedAt": "2026-09-16T00:14:58.063Z"
+    },
+    {
+      "slug": "tconbeer-harlequin",
+      "name": "harlequin",
+      "repo": "tconbeer/harlequin",
+      "category": "Data & APIs",
+      "command": "harlequin",
+      "useCase": "The SQL IDE for Your Terminal.",
+      "description": "The SQL IDE for Your Terminal.",
+      "agentUse": "Invoke harlequin from a shell for the documented use case: The SQL IDE for Your Terminal.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "harlequin \"path/to/duck.db\" \"another_duck.db\"",
+      "website": "https://github.com/tconbeer/harlequin",
+      "docs": "https://github.com/tconbeer/harlequin/blob/590e16aaada1accfef7fa1e2fbf9f41c130ad4ab/README.md",
+      "stars": 6401,
+      "license": "MIT",
+      "checkedAt": "2026-09-16T00:44:31.711Z"
     }
   ],
   "categories": [

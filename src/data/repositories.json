@@ -4573,5 +4573,20 @@
     "repositoryId": 247725846,
     "attemptedAt": "2026-09-16T00:14:57.719Z",
     "status": "ok"
+  },
+  "tconbeer-harlequin": {
+    "defaultBranch": "main",
+    "createdAt": "2023-05-02T15:44:31Z",
+    "pushedAt": "2026-09-15T23:15:35Z",
+    "lastCommitAt": "2026-09-15T17:39:08Z",
+    "stars": 6401,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-16T00:44:31.711Z",
+    "source": "https://github.com/tconbeer/harlequin",
+    "canonicalSource": "https://github.com/tconbeer/harlequin",
+    "repositoryId": 635393461,
+    "attemptedAt": "2026-09-16T00:44:31.189Z",
+    "status": "ok"
   }
 }

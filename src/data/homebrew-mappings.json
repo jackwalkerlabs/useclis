@@ -365,5 +365,9 @@
   "gitui-org-gitui": {
     "formula": "gitui",
     "repo": "gitui-org/gitui"
+  },
+  "tconbeer-harlequin": {
+    "formula": "harlequin",
+    "repo": "tconbeer/harlequin"
   }
 }
