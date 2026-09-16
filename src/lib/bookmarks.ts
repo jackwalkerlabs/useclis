@@ -6,7 +6,7 @@ function readSaved(): string[] {
     const current = localStorage.getItem(key);
     const value: unknown = JSON.parse(current ?? localStorage.getItem('openrepo-saved') ?? '[]');
     const slugs = Array.isArray(value) ? [...new Set(value.filter((item): item is string => typeof item === 'string'))] : [];
-    if (current === null) localStorage.setItem(key, JSON.stringify(slugs));
+    if (current === null) { try { localStorage.setItem(key, JSON.stringify(slugs)); } catch {} }
     return slugs;
   } catch { return []; }
 }

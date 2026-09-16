@@ -706,3 +706,13 @@ test('Both Saved entry points preserve identical filter context and browser hist
   assert.equal(new URL(href,window.location.origin).searchParams.get('period'),'3m');
   assert.equal(new URL(href,window.location.origin).searchParams.get('saved'),'1');
 });
+
+
+test('Detail bookmarks retain readable legacy data when storage writes are refused', async () => {
+  localStorage.setItem('openrepo-saved','["ripgrep"]');
+  mock.method(window.Storage.prototype,'setItem',()=>{throw new Error('Storage denied');});
+  render(h(SaveTool,{slug:'ripgrep',name:'ripgrep'}));
+  await userEvent.setup().click(screen.getByRole('button',{name:'Unsave ripgrep'}));
+  assert.equal(screen.getByRole('button',{name:'Save ripgrep'}).getAttribute('aria-pressed'),'false');
+  assert.match(screen.getByRole('status').textContent,/removed for this visit.*storage is unavailable/);
+});
