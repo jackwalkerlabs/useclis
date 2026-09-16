@@ -27,6 +27,7 @@ test('Real refresh pipeline selects new entries and preserves all existing snaps
     for (const dir of ['scripts/lib', 'src/data', 'src/lib', 'public/logos', 'public/avatars', 'artifacts']) await mkdir(join(root, dir), { recursive: true });
     for (const script of scripts) await copyFile(new URL(`./${script}.mjs`, import.meta.url), join(root, `scripts/${script}.mjs`));
     await copyFile(new URL('./refresh-additions.mjs', import.meta.url), join(root, 'scripts/refresh-additions.mjs'));
+    await copyFile(new URL('./lib/deferred-activity.mjs', import.meta.url), join(root, 'scripts/lib/deferred-activity.mjs'));
     await copyFile(new URL('./lib/repository-identity.mjs', import.meta.url), join(root, 'scripts/lib/repository-identity.mjs'));
     await copyFile(new URL('./lib/refresh-selection.mjs', import.meta.url), join(root, 'scripts/lib/refresh-selection.mjs'));
     await copyFile(new URL('../src/lib/homebrew.mjs', import.meta.url), join(root, 'src/lib/homebrew.mjs'));

@@ -1,5 +1,5 @@
 /** A shared, finite primary-quota wait budget for one daily collection process. */
-export function createGithubFetch({ fetcher = fetch, now = Date.now, sleep = ms => new Promise(resolve => setTimeout(resolve, ms)), maxWaitMs = 125 * 60_000, notice = console.log } = {}) {
+export function createGithubFetch({ fetcher = fetch, now = Date.now, sleep = ms => new Promise(resolve => setTimeout(resolve, ms)), maxWaitMs = 185 * 60_000, notice = console.log } = {}) {
   let remaining = null;
   let reset = null;
   let waited = 0;

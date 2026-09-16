@@ -1,11 +1,12 @@
 import { readFile, writeFile } from 'node:fs/promises';
+import { refreshWithDeferredRetries } from './lib/deferred-activity.mjs';
 import { selectRefreshEntries } from './lib/refresh-selection.mjs';
 const catalog = selectRefreshEntries(JSON.parse(await readFile(new URL('../src/data/catalog.json', import.meta.url))));
 const path = new URL('../src/data/activity.json', import.meta.url);
 const repositories = JSON.parse(await readFile(new URL('../src/data/repositories.json', import.meta.url)));
 let data = {};
 try { data = JSON.parse(await readFile(path)); } catch {}
-for (const tool of catalog) {
+await refreshWithDeferredRetries(catalog, async tool => {
   const source = `https://api.github.com/repos/${tool.repo}/stats/participation`;
   const metadata = repositories[tool.slug];
   const canonicalSource = metadata?.source === `https://github.com/${tool.repo}` && Number.isSafeInteger(metadata.repositoryId) && metadata.repositoryId > 0
@@ -17,7 +18,7 @@ for (const tool of catalog) {
     // GitHub returns 202 while calculating statistics for a repository.
     if (response.status === 202) {
       if (data[tool.slug]) data[tool.slug] = { ...data[tool.slug], attemptedAt, status: 'pending' };
-      console.log(`${tool.name}: statistics pending, preserving existing history`); continue;
+      console.log(`${tool.name}: statistics pending, preserving existing history`); return true;
     }
     if (response.status !== 200) throw new Error(`GitHub returned ${response.status}`);
     const result = await response.json();
@@ -27,5 +28,5 @@ for (const tool of catalog) {
   } catch (error) {
     if (data[tool.slug]) data[tool.slug] = { ...data[tool.slug], attemptedAt, status: 'error' };
     console.error(`${tool.name}: ${error.message}. Keeping existing history.`); process.exitCode = 1; }
-}
+});
 await writeFile(path, JSON.stringify(data, null, 2) + '\n');

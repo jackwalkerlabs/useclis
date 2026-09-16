@@ -15,12 +15,13 @@ async function scenario(script, fetchBody, repository = {}) {
   try {
     await mkdir(join(root, 'scripts/lib'), { recursive: true });
     await copyFile(new URL('./lib/refresh-selection.mjs', import.meta.url), join(root, 'scripts/lib/refresh-selection.mjs'));
+    await copyFile(new URL('./lib/deferred-activity.mjs', import.meta.url), join(root, 'scripts/lib/deferred-activity.mjs'));
     await copyFile(new URL('./lib/repository-identity.mjs', import.meta.url), join(root, 'scripts/lib/repository-identity.mjs'));
     await mkdir(join(root, 'src/data'), { recursive: true });
     await copyFile(new URL(`./${script}.mjs`, import.meta.url), join(root, 'scripts', `${script}.mjs`));
     await writeFile(join(root, 'src/data/catalog.json'), JSON.stringify([{ slug: 'example', name: 'Example', repo: 'example/cli' }]));
     for (const file of ['activity', 'repositories']) await writeFile(join(root, `src/data/${file}.json`), JSON.stringify(previous));
-    const code = `globalThis.fetch = async (url, options) => {
+    const code = `const realSetTimeout = setTimeout; globalThis.setTimeout = fn => realSetTimeout(fn, 0); globalThis.fetch = async (url, options) => {
       if (!(options?.signal instanceof AbortSignal)) throw new Error('Request is missing its timeout signal');
       ${fetchBody}
     }; await import(${JSON.stringify(pathToFileURL(join(root, 'scripts', `${script}.mjs`)).href)});`;
@@ -143,4 +144,16 @@ test('Failed first identity migration cannot overwrite activity from a reused ca
   assert.deepEqual(output.example.weeks, previous.example.weeks);
   assert.equal(output.example.checkedAt, previous.example.checkedAt);
   assert.equal(output.example.status, 'error');
+});
+
+test('Deferred activity retry recovers a real 202 then 200 response', async () => {
+  const { exitCode, output } = await scenario('refresh-activity', `
+    globalThis.attempts = (globalThis.attempts ?? 0) + 1;
+    if (globalThis.attempts === 1) return new Response(null, {status: 202});
+    if (globalThis.attempts > 2) throw new Error('Retried after success');
+    return Response.json({all: Array(52).fill(7)});
+  `);
+  assert.equal(exitCode, 0);
+  assert.equal(output.example.status, 'ok');
+  assert.deepEqual(output.example.weeks, Array(52).fill(7));
 });
