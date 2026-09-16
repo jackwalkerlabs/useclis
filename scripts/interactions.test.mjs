@@ -109,7 +109,7 @@ test('Homebrew ranking restores URLs, puts missing counts after zero, and links 
   assert.match(document.querySelectorAll('tbody .brew-count')[2].textContent, /^—/);
   assert.equal(document.querySelector('tbody .mobile-brew').getAttribute('href'), link.getAttribute('href'));
   await user.click(screen.getByRole('button', { name: 'GitHub stars' }));
-  assert.equal(new URLSearchParams(window.location.search).get('sort'), null);
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), 'stars');
   await user.click(screen.getByRole('button', { name: 'Brew installs · 30d' }));
   assert.equal(new URLSearchParams(window.location.search).get('sort'), 'homebrew');
   assert.equal(screen.getByRole('columnheader', { name: 'Brew installs · 30d' }).getAttribute('aria-sort'), 'descending');
@@ -162,21 +162,92 @@ test('Current useclis bookmarks take precedence over legacy bookmarks', () => {
 
 test('Search, Explore, Enter, clear search, empty results, and Browse all work', async () => {
   const user = userEvent.setup();
-  render(h(Directory, { tools }));
-  assert.equal(rows().length, tools.length);
-  await user.type(search(), 'cli/cli');
-  assert.deepEqual(new Set(rows()), new Set(['GitHub CLI', 'Salesforce CLI (sf)']));
+  render(h(Directory, { tools: historyTools }));
+  assert.equal(rows().length, historyTools.length);
+  await user.type(search(), 'https://github.com/cli/cli.git/#readme');
+  assert.deepEqual(rows(), ['GitHub CLI']);
   await user.click(screen.getByRole('button', { name: 'Explore' }));
   assert.deepEqual(scrolls, ['directory']);
   await user.click(search());
   await user.keyboard('{Enter}');
   assert.equal(scrolls.length, 2, 'Enter should submit the search and reach results');
   await user.click(screen.getByRole('button', { name: 'Clear search' }));
-  assert.equal(rows().length, tools.length);
+  assert.equal(rows().length, historyTools.length);
   await user.type(search(), 'no-such-cli-928273');
   assert.ok(screen.getByRole('heading', { name: 'No CLIs found' }));
   await user.click(screen.getByRole('button', { name: 'Browse all CLIs' }));
-  assert.equal(rows().length, tools.length);
+  assert.equal(rows().length, historyTools.length);
+});
+
+test('Search defaults to relevance and preserves explicit metrics through edits, reload, and history', async () => {
+  const user = userEvent.setup();
+  const fixture = historyTools.map(tool => tool.slug === 'search-companion' ? { ...tool, stars: 9999999 } : tool);
+  const first = render(h(Directory, { tools: fixture }));
+  const sort = () => screen.getByRole('combobox', { name: 'Sort tools' });
+  assert.equal(sort().value, 'stars');
+  fireEvent.change(search(), { target: { value: 'ripgrep' } });
+  assert.equal(sort().value, 'relevance');
+  assert.deepEqual(rows(), ['ripgrep', 'Companion CLI']);
+  assert.ok(rowFor(fixture.at(-1)).getByText('Description: An interactive replacer for ripgrep.'));
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), null);
+  await user.click(screen.getByRole('button', { name: 'GitHub stars' }));
+  assert.deepEqual(rows(), ['Companion CLI', 'ripgrep']);
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), 'stars');
+  await user.click(screen.getByRole('button', { name: 'Clear search' }));
+  assert.equal(sort().value, 'stars');
+  fireEvent.change(search(), { target: { value: 'ripgrep' } });
+  assert.equal(sort().value, 'stars');
+  first.unmount();
+  render(h(Directory, { tools: fixture }));
+  assert.equal(sort().value, 'stars');
+  assert.deepEqual(rows(), ['Companion CLI', 'ripgrep']);
+  await user.selectOptions(sort(), 'relevance');
+  assert.deepEqual(rows(), ['ripgrep', 'Companion CLI']);
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), 'relevance');
+  await user.click(screen.getByRole('button', { name: 'Clear search' }));
+  assert.equal(sort().value, 'stars');
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), null);
+  assert.equal(screen.queryByRole('option', { name: 'Most relevant' }), null);
+  fireEvent.change(search(), { target: { value: '   ' } });
+  assert.equal(sort().value, 'stars');
+  assert.equal(new URLSearchParams(window.location.search).get('sort'), null);
+  fireEvent.change(search(), { target: { value: 'ripgrep' } });
+  assert.equal(sort().value, 'relevance');
+  assert.deepEqual(rows(), ['ripgrep', 'Companion CLI']);
+  for (const [url, expectedSort, names] of [
+    ['/?q=rg', 'relevance', ['ripgrep']],
+    ['/?q=ripgrep&sort=relevance', 'relevance', ['ripgrep', 'Companion CLI']],
+    ['/?q=ripgrep&sort=stars', 'stars', ['Companion CLI', 'ripgrep']],
+    ['/?q=ripgrep&sort=invalid', 'relevance', ['ripgrep', 'Companion CLI']],
+    ['/?sort=relevance', 'stars', null],
+    ['/', 'stars', null],
+  ]) {
+    act(() => { window.history.pushState(null, '', url); window.dispatchEvent(new window.PopStateEvent('popstate')); });
+    assert.equal(sort().value, expectedSort);
+    if (names) assert.deepEqual(rows(), names);
+    if (url === '/?sort=relevance') assert.equal(new URLSearchParams(window.location.search).get('sort'), null);
+  }
+});
+
+test('Task and repository searches compose category, bookmarks, and clearing without broadening results', async () => {
+  const user = userEvent.setup();
+  const fixture = ['ripgrep', 'fd', 'ast-grep', 'scc', 'github-cli'].map(slug => tools.find(tool => tool.slug === slug));
+  localStorage.setItem('useclis-saved', JSON.stringify(['ast-grep', 'github-cli']));
+  window.history.replaceState(null, '', '/?q=search+code&saved=1&category=Code+search');
+  render(h(Directory, { tools: fixture }));
+  assert.deepEqual(rows(), ['ast-grep']);
+  await user.click(screen.getByRole('button', { name: 'Clear filters' }));
+  assert.equal(rows().length, fixture.length);
+  assert.equal(screen.getByRole('combobox', { name: 'Sort tools' }).value, 'stars');
+  fireEvent.change(search(), { target: { value: 'search code' } });
+  assert.deepEqual(rows(), ['ripgrep', 'ast-grep']);
+  await user.selectOptions(screen.getByRole('combobox', { name: 'Filter category' }), 'Git & collaboration');
+  assert.deepEqual(rows(), []);
+  fireEvent.change(search(), { target: { value: 'https://github.com/cli/cli/' } });
+  assert.deepEqual(rows(), ['GitHub CLI']);
+  assert.equal(new URLSearchParams(window.location.search).get('q'), 'https://github.com/cli/cli/');
+  fireEvent.change(search(), { target: { value: 'quantum banana toaster' } });
+  assert.ok(screen.getByRole('heading', { name: 'No CLIs found' }));
 });
 
 test('Every category, all sort options, star header, and Clear filters work', async () => {
