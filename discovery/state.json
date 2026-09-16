@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 5,
-  "brewOffset": 1360,
+  "searchPage": 6,
+  "brewOffset": 1400,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -15656,7 +15656,120 @@
       "status": "held",
       "checkedAt": "2026-09-16T17:44:25.552Z",
       "reason": "Terminal use case needs classification"
+    },
+    "protonpass/pass-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "prowler-cloud/prowler": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rofl0r/proxychains-ng": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "planetscale/cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "GitHub stars",
+      "slug": "planetscale-cli",
+      "acceptedAt": "2026-09-16T18:44:18.713Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/pscale.json",
+          "snippet": "{\"executables\":[\"pscale\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/pscale",
+          "snippet": "brew install pscale"
+        },
+        "usage": {
+          "url": "https://github.com/planetscale/cli/blob/1ce2d69f74a829010de40e67a43e4b07471bbeb2/README.md",
+          "snippet": "pscale deploy-request list my-db --org my-org"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/planetscale/cli",
+          "snippet": "The CLI for PlanetScale Database"
+        },
+        "adoption": {
+          "stars": 666,
+          "githubSource": "https://github.com/planetscale/cli",
+          "homebrew": {
+            "repo": "planetscale/cli",
+            "formula": "pscale",
+            "count": 279,
+            "source": "https://formulae.brew.sh/api/formula/pscale.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "1ce2d69f74a829010de40e67a43e4b07471bbeb2"
+      }
+    },
+    "fredhucht/pstree": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zeux/pugixml": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sindresorhus/pure": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pygobject/pycairo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pybind/pybind11": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pyenv/pyenv": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pyenv/pyenv-virtualenv": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pygments/pygments": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pyinstaller/pyinstaller": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pypa/build": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "python-lsp/python-lsp-server": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pytorch/pytorch": {
+      "status": "held",
+      "checkedAt": "2026-09-16T18:44:18.713Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T17:44:25.552Z"
+  "lastRunAt": "2026-09-16T18:44:18.713Z"
 }

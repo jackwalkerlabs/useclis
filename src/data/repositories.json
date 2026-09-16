@@ -4708,5 +4708,20 @@
     "repositoryId": 55125415,
     "attemptedAt": "2026-09-16T18:28:50.816Z",
     "status": "ok"
+  },
+  "planetscale-cli": {
+    "defaultBranch": "main",
+    "createdAt": "2020-12-01T17:15:55Z",
+    "pushedAt": "2026-09-16T17:56:38Z",
+    "lastCommitAt": "2026-09-16T17:55:38Z",
+    "stars": 666,
+    "license": "Apache-2.0",
+    "language": "Go",
+    "checkedAt": "2026-09-16T18:44:30.669Z",
+    "source": "https://github.com/planetscale/cli",
+    "canonicalSource": "https://github.com/planetscale/cli",
+    "repositoryId": 317614271,
+    "attemptedAt": "2026-09-16T18:44:29.933Z",
+    "status": "ok"
   }
 }

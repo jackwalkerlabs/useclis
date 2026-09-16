@@ -3586,5 +3586,18 @@
     "createdAt": "2012-01-18T01:30:18Z",
     "checkedAt": "2026-09-16T13:44:46.756Z",
     "source": "https://github.com/google"
+  },
+  "planetscale": {
+    "login": "planetscale",
+    "name": "PlanetScale",
+    "type": "Organization",
+    "bio": "The fastest and most reliable MySQL and Postgres database platform.",
+    "location": "United States of America",
+    "website": "https://planetscale.com",
+    "followers": 1402,
+    "publicRepos": 155,
+    "createdAt": "2018-01-19T20:42:45Z",
+    "checkedAt": "2026-09-16T18:44:32.068Z",
+    "source": "https://github.com/planetscale"
   }
 }

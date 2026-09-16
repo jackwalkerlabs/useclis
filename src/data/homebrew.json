@@ -1398,5 +1398,19 @@
     "checkedAt": "2026-09-16T18:29:55.971Z",
     "generatedDate": "2026-09-16",
     "status": "ok"
+  },
+  "planetscale-cli": {
+    "formula": "pscale",
+    "repo": "planetscale/cli",
+    "source": "https://formulae.brew.sh/api/formula/pscale.json",
+    "attemptedAt": "2026-09-16T18:44:31.495Z",
+    "counts": {
+      "30d": 279,
+      "90d": 884,
+      "365d": 2316
+    },
+    "checkedAt": "2026-09-16T18:44:31.495Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
   }
 }

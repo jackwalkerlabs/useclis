@@ -401,5 +401,9 @@
   "google-oauth2l": {
     "formula": "oauth2l",
     "repo": "google/oauth2l"
+  },
+  "planetscale-cli": {
+    "formula": "pscale",
+    "repo": "planetscale/cli"
   }
 }

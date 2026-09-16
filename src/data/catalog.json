@@ -5555,5 +5555,21 @@
     "example": "oauth2l fetch --scope userinfo.email,cloud-platform",
     "website": "https://github.com/google/oauth2l",
     "docs": "https://github.com/google/oauth2l/blob/fca8a31aed945c1f4275fe82bceb08a0a6e05dcc/README.md"
+  },
+  {
+    "slug": "planetscale-cli",
+    "name": "cli",
+    "repo": "planetscale/cli",
+    "category": "Data & APIs",
+    "command": "pscale",
+    "useCase": "The CLI for PlanetScale Database",
+    "description": "The CLI for PlanetScale Database",
+    "agentUse": "Invoke pscale from a shell for the documented use case: The CLI for PlanetScale Database",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "pscale deploy-request list my-db --org my-org",
+    "website": "https://github.com/planetscale/cli",
+    "docs": "https://github.com/planetscale/cli/blob/1ce2d69f74a829010de40e67a43e4b07471bbeb2/README.md"
   }
 ]

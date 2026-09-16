@@ -6499,6 +6499,25 @@ window.USECLIS_DATA = {
       "stars": 737,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-16T18:28:51.047Z"
+    },
+    {
+      "slug": "planetscale-cli",
+      "name": "cli",
+      "repo": "planetscale/cli",
+      "category": "Data & APIs",
+      "command": "pscale",
+      "useCase": "The CLI for PlanetScale Database",
+      "description": "The CLI for PlanetScale Database",
+      "agentUse": "Invoke pscale from a shell for the documented use case: The CLI for PlanetScale Database",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "pscale deploy-request list my-db --org my-org",
+      "website": "https://github.com/planetscale/cli",
+      "docs": "https://github.com/planetscale/cli/blob/1ce2d69f74a829010de40e67a43e4b07471bbeb2/README.md",
+      "stars": 666,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-16T18:44:30.669Z"
     }
   ],
   "categories": [
