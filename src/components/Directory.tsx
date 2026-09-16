@@ -1,3 +1,5 @@
+import { useBookmarks } from '../lib/bookmarks';
+import { directoryStateKey, directoryStateEvent, openSavedHere } from '../lib/saved-navigation';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowDown, ArrowRight, Bookmark, Check, Search, X } from 'lucide-react';
 import { Button } from '../../design-system/components/core/Button.jsx';
@@ -32,7 +34,7 @@ export default function Directory({ tools, siteUrl }: { tools: Tool[]; siteUrl?:
     slug, activityWindow(history.weeks, range, history.checkedAt).map(point => point.value),
   ])), [range]);
   const weeksFor = (slug: string) => activityValues[slug] ?? [];
-  const [saved, setSaved] = useState<string[]>([]);
+  const { saved, toggleSaved } = useBookmarks();
   const [onlySaved, setOnlySaved] = useState(false);
   const [notice, setNotice] = useState('');
   const [hydrated, setHydrated] = useState(false);
@@ -52,16 +54,6 @@ export default function Directory({ tools, siteUrl }: { tools: Tool[]; siteUrl?:
       setRange(initialRange?.value ?? '30d');
     };
     restoreFilters();
-    try {
-      const current = localStorage.getItem('useclis-saved');
-      // Preserve bookmarks made before the app was renamed.
-      const value: unknown = JSON.parse(current ?? localStorage.getItem('openrepo-saved') ?? '[]');
-      if (Array.isArray(value)) {
-        const bookmarks = value.filter((item): item is string => typeof item === 'string' && tools.some(tool => tool.slug === item));
-        setSaved(bookmarks);
-        if (current === null) localStorage.setItem('useclis-saved', JSON.stringify(bookmarks));
-      }
-    } catch {}
     setHydrated(true);
     const onKey = (event: KeyboardEvent) => { if (!document.querySelector('dialog[open]') && event.key === '/' && !event.metaKey && !event.ctrlKey && !event.altKey && !['INPUT', 'TEXTAREA', 'SELECT'].includes((event.target as HTMLElement).tagName) && !(event.target as HTMLElement).isContentEditable) { event.preventDefault(); input.current?.focus(); } };
     window.addEventListener('keydown', onKey);
@@ -78,13 +70,13 @@ export default function Directory({ tools, siteUrl }: { tools: Tool[]; siteUrl?:
     downloadSource !== 'homebrew' ? url.searchParams.set('downloads', downloadSource) : url.searchParams.delete('downloads');
     range !== '30d' ? url.searchParams.set('period', range) : url.searchParams.delete('period');
     window.history.replaceState(null, '', url);
+    try { window.sessionStorage.setItem(directoryStateKey, url.search); } catch {}
+    window.dispatchEvent(new window.Event(directoryStateEvent));
   }, [query, category, onlySaved, explicitSort, range, downloadSource, hydrated]);
   useEffect(() => { if (!notice) return; const timer = setTimeout(() => setNotice(''), 2600); return () => clearTimeout(timer); }, [notice]);
   const toggleSave = (tool: Tool) => {
-    const next = saved.includes(tool.slug) ? saved.filter(slug => slug !== tool.slug) : [...saved, tool.slug];
-    setSaved(next);
-    try { localStorage.setItem('useclis-saved', JSON.stringify(next)); setNotice(next.includes(tool.slug) ? `${tool.name} saved` : `${tool.name} removed from saved tools`); }
-    catch { setNotice('Saved for this visit. Browser storage is unavailable.'); }
+    const result = toggleSaved(tool.slug);
+    setNotice(result.persisted ? `${tool.name} ${result.isSaved ? 'saved' : 'removed from saved tools'}` : 'Saved for this page only. Browser storage is unavailable.');
   };
   const results = filterTools(tools, { query, category, sort, onlySaved, saved }) as Tool[];
   const suggestions = results.length ? [] : searchRecovery(tools, query);
@@ -101,7 +93,7 @@ export default function Directory({ tools, siteUrl }: { tools: Tool[]; siteUrl?:
     <section className="useclis-hero">
       <HeroIntro count={tools.length} />
       <form className="useclis-search" id="search" role="search" onSubmit={event => { event.preventDefault(); document.getElementById('directory')?.scrollIntoView({ behavior: 'smooth' }); }}><Search size={17} /><input ref={input} aria-label="Search CLIs, commands, tasks, or GitHub repositories" value={query} onChange={event => setQuery(event.target.value)} placeholder="Search CLIs, commands, or GitHub repos…" />{query ? <button type="button" className="icon-button" aria-label="Clear search" onClick={() => setQuery('')}><X size={16} /></button> : <kbd>/</kbd>}<Button size="sm" type="submit">Explore <ArrowRight size={13} /></Button></form>
-      <div className="useclis-subnav"><a href="#directory">Browse CLIs</a><span>·</span><a href="/categories/">Categories</a><span>·</span><button onClick={() => { reset(); setOnlySaved(true); document.getElementById('directory')?.scrollIntoView({ behavior: 'smooth' }); }}>Saved CLIs</button></div>
+      <div className="useclis-subnav"><a href="#directory">Browse CLIs</a><span>·</span><a href="/categories/">Categories</a><span>·</span><button onClick={openSavedHere}>Saved CLIs</button></div>
       <AgentPrompt siteUrl={siteUrl} exampleTool={tools.find(tool => tool.slug === 'jq')} />
     </section>
     <DiscoveryRail title="Recently listed" id="recently-listed-title" tools={recentlyListed} sort="recent" onViewAll={viewCollection} />

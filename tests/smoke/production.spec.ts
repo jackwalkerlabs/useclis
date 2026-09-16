@@ -126,11 +126,44 @@ test('reviewed profiles expose useful workflows and copy the selected CLI prompt
 });
 
 
+test('Detail Save and Unsave persist with consistent Saved filter navigation', async ({page},testInfo) => {
+  await home(page);
+  await search(page).fill('ripgrep');
+  await page.getByRole('combobox',{name:'Sort tools'}).selectOption('name');
+  await page.getByRole('combobox',{name:'Download source'}).selectOption('npm');
+  await ripgrepRow(page).locator('a.table-project').click();
+  await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+  await page.getByRole('button',{name:'Save ripgrep',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Unsave ripgrep',exact:true})).toHaveAttribute('aria-pressed','true');
+  await page.reload();
+  await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+  await expect(page.getByRole('button',{name:'Unsave ripgrep',exact:true})).toHaveAttribute('aria-pressed','true');
+  const saveBounds = await page.getByRole('button',{name:'Unsave ripgrep',exact:true}).boundingBox();
+  expect(saveBounds?.height).toBeLessThanOrEqual(56);
+  expect(saveBounds?.height).toBeGreaterThanOrEqual((page.viewportSize()?.width ?? 1280) < 768 ? 44 : 38);
+  await page.screenshot({path:testInfo.outputPath('detail-saved.png')});
+  await page.getByRole('link',{name:'Saved CLIs',exact:true}).click();
+  await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+  await expect(search(page)).toHaveValue('ripgrep');
+  await expect(page.getByRole('combobox',{name:'Sort tools'})).toHaveValue('name');
+  await expect(page.getByRole('combobox',{name:'Download source'})).toHaveValue('npm');
+  await expect(ripgrepRow(page)).toBeVisible();
+  await ripgrepRow(page).locator('a.table-project').click();
+  await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);
+  await page.getByRole('button',{name:'Unsave ripgrep',exact:true}).click();
+  await page.getByRole('link',{name:'Saved CLIs',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'No saved CLIs match',exact:true})).toBeVisible();
+  await page.reload();
+  await expect(page.getByRole('heading',{name:'No saved CLIs match',exact:true})).toBeVisible();
+});
+
+
 test('Empty search offers broader catalog terms without claiming a task solution', async ({page}, testInfo) => {
   await home(page);
   await search(page).fill('pdf zxxwqqnotacli');
   await expect(page.locator('.empty-state')).toContainText('not verified solutions');
   await expect(search(page)).toHaveValue('pdf zxxwqqnotacli');
+  await page.locator('.empty-state').scrollIntoViewIfNeeded();
   await page.screenshot({path:testInfo.outputPath('empty-search-recovery.png')});
   await page.getByRole('link',{name:/Search “pdf”/}).click();
   await expect(page.locator('astro-island[client="load"][ssr]')).toHaveCount(0);

@@ -25,5 +25,10 @@ html{scroll-behavior:smooth;scroll-padding-top:85px}body{font-size:14px}button,i
 
 .cli-owner-link{display:inline-block;font-size:12px;margin-left:12px;text-decoration:underline;text-underline-offset:3px}@media(max-width:760px){.cli-owner-link{margin-left:0}}
 
+.detail-save { display: flex; flex-direction: column; gap: 6px; }
+.detail-save-status { max-width: 220px; font-size: 12px; line-height: 1.4; }
+
 .search-suggestions { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 18px 0; }
 .empty-state p { overflow-wrap: anywhere; }
+
+.detail-actions { align-items: flex-start; }
