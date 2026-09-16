@@ -3599,5 +3599,18 @@
     "createdAt": "2018-01-19T20:42:45Z",
     "checkedAt": "2026-09-16T18:44:32.068Z",
     "source": "https://github.com/planetscale"
+  },
+  "achristmascarl": {
+    "login": "achristmascarl",
+    "name": "Carl",
+    "type": "User",
+    "bio": "`never open your mouth until you know what ${theShot} is`",
+    "location": "New York, NY",
+    "website": "blog.carl.so",
+    "followers": 72,
+    "publicRepos": 42,
+    "createdAt": "2018-10-10T09:11:47Z",
+    "checkedAt": "2026-09-16T19:44:33.899Z",
+    "source": "https://github.com/achristmascarl"
   }
 }

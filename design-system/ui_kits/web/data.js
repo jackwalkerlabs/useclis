@@ -6518,6 +6518,25 @@ window.USECLIS_DATA = {
       "stars": 666,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-16T18:44:30.669Z"
+    },
+    {
+      "slug": "achristmascarl-rainfrog",
+      "name": "rainfrog",
+      "repo": "achristmascarl/rainfrog",
+      "category": "Data & APIs",
+      "command": "rainfrog",
+      "useCase": "🐸 a database tool for the terminal",
+      "description": "🐸 a database tool for the terminal",
+      "agentUse": "Invoke rainfrog from a shell for the documented use case: 🐸 a database tool for the terminal",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "rainfrog --url sqlite:///rainfrog.sqlite3",
+      "website": "https://github.com/achristmascarl/rainfrog",
+      "docs": "https://github.com/achristmascarl/rainfrog/blob/d8b0c8d08e6473415bcab8171159a25049be699c/README.md",
+      "stars": 5333,
+      "license": "MIT",
+      "checkedAt": "2026-09-16T19:44:32.325Z"
     }
   ],
   "categories": [

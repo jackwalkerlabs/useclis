@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 6,
-  "brewOffset": 1400,
+  "searchPage": 7,
+  "brewOffset": 1440,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -15769,7 +15769,105 @@
       "status": "held",
       "checkedAt": "2026-09-16T18:44:18.713Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "qhull/qhull": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "fukuchi/libqrencode": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "quickjs-ng/quickjs": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rabbitmq/rabbitmq-server": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "achristmascarl/rainfrog": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "GitHub stars",
+      "slug": "achristmascarl-rainfrog",
+      "acceptedAt": "2026-09-16T19:44:19.118Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/achristmascarl/rainfrog/blob/d8b0c8d08e6473415bcab8171159a25049be699c/Cargo.toml",
+          "snippet": "package.name=\"rainfrog\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/achristmascarl/rainfrog/blob/d8b0c8d08e6473415bcab8171159a25049be699c/README.md",
+          "snippet": "cargo install rainfrog --locked"
+        },
+        "usage": {
+          "url": "https://github.com/achristmascarl/rainfrog/blob/d8b0c8d08e6473415bcab8171159a25049be699c/README.md",
+          "snippet": "rainfrog --url sqlite:///rainfrog.sqlite3"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/achristmascarl/rainfrog",
+          "snippet": "🐸 a database tool for the terminal"
+        },
+        "adoption": {
+          "stars": 5333,
+          "githubSource": "https://github.com/achristmascarl/rainfrog",
+          "homebrew": {
+            "repo": "achristmascarl/rainfrog",
+            "formula": "rainfrog",
+            "count": 271,
+            "source": "https://formulae.brew.sh/api/formula/rainfrog.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "d8b0c8d08e6473415bcab8171159a25049be699c"
+      }
+    },
+    "rancher/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ranger/ranger": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "raysan5/raylib": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rbenv/rbenv": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/re2": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "skvadrik/re2c": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "regclient/regclient": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ap/rename": {
+      "status": "held",
+      "checkedAt": "2026-09-16T19:44:19.118Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T18:44:18.713Z"
+  "lastRunAt": "2026-09-16T19:44:19.118Z"
 }

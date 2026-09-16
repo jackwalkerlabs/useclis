@@ -405,5 +405,9 @@
   "planetscale-cli": {
     "formula": "pscale",
     "repo": "planetscale/cli"
+  },
+  "achristmascarl-rainfrog": {
+    "formula": "rainfrog",
+    "repo": "achristmascarl/rainfrog"
   }
 }

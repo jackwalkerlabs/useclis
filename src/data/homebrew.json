@@ -1412,5 +1412,19 @@
     "checkedAt": "2026-09-16T18:44:31.495Z",
     "generatedDate": "2026-09-16",
     "status": "ok"
+  },
+  "achristmascarl-rainfrog": {
+    "formula": "rainfrog",
+    "repo": "achristmascarl/rainfrog",
+    "source": "https://formulae.brew.sh/api/formula/rainfrog.json",
+    "attemptedAt": "2026-09-16T19:44:33.167Z",
+    "counts": {
+      "30d": 271,
+      "90d": 971,
+      "365d": 3122
+    },
+    "checkedAt": "2026-09-16T19:44:33.167Z",
+    "generatedDate": "2026-09-16",
+    "status": "ok"
   }
 }

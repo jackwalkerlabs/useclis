@@ -5571,5 +5571,21 @@
     "example": "pscale deploy-request list my-db --org my-org",
     "website": "https://github.com/planetscale/cli",
     "docs": "https://github.com/planetscale/cli/blob/1ce2d69f74a829010de40e67a43e4b07471bbeb2/README.md"
+  },
+  {
+    "slug": "achristmascarl-rainfrog",
+    "name": "rainfrog",
+    "repo": "achristmascarl/rainfrog",
+    "category": "Data & APIs",
+    "command": "rainfrog",
+    "useCase": "🐸 a database tool for the terminal",
+    "description": "🐸 a database tool for the terminal",
+    "agentUse": "Invoke rainfrog from a shell for the documented use case: 🐸 a database tool for the terminal",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "rainfrog --url sqlite:///rainfrog.sqlite3",
+    "website": "https://github.com/achristmascarl/rainfrog",
+    "docs": "https://github.com/achristmascarl/rainfrog/blob/d8b0c8d08e6473415bcab8171159a25049be699c/README.md"
   }
 ]
