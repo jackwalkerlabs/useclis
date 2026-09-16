@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 6,
-  "brewOffset": 1000,
+  "searchPage": 7,
+  "brewOffset": 1040,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -14535,7 +14535,117 @@
       "status": "held",
       "checkedAt": "2026-09-16T08:44:21.465Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "mamedev/mame": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "manimcommunity/manim": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mariadb-corporation/mariadb-connector-c": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kovetskiy/mark": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "artempyanykh/marksman": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "robertdavidgraham/masscan": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pyo3/maturin": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mbed-tls/mbedtls": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sooperset/mcp-atlassian": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "grafana/mcp-grafana": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "modelcontextprotocol/registry": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "googleapis/mcp-toolbox": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "solworktech/md2pdf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rust-lang/mdbook": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mdbtools/mdbtools": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "birsax2/mdcat": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ungive/media-control": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "mediaarea/mediainfo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bluenviron/mediamtx": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "meilisearch/meilisearch": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "chainguard-dev/melange": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "memcached/memcached": {
+      "status": "held",
+      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T08:44:21.465Z"
+  "lastRunAt": "2026-09-16T09:44:24.905Z"
 }
