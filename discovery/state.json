@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 8,
-  "brewOffset": 1080,
+  "searchPage": 9,
+  "brewOffset": 1120,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -14778,7 +14778,102 @@
       "status": "held",
       "checkedAt": "2026-09-16T10:44:19.693Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "vektra/mockery": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "uber/mockolo": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "reyamira/models": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "rentzsch/mogenerator": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rui314/mold": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "khronosgroup/moltenvk": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mongodb/mongo-c-driver": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "moonrepo/moon": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "walles/moor": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mobile-shell/mosh": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mozilla/mozjpeg": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "musicplayerdaemon/mpd": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pmodels/mpich": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mruby/mruby": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "msgpack/msgpack-c": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "traviscross/mtr": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "djcb/mu": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "raviqqe/muffet": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "facebook/mvfst": {
+      "status": "held",
+      "checkedAt": "2026-09-16T11:44:22.559Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T10:44:19.693Z"
+  "lastRunAt": "2026-09-16T11:44:22.559Z"
 }
