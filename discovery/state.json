@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 8,
-  "brewOffset": 1480,
+  "searchPage": 9,
+  "brewOffset": 1520,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -15997,7 +15997,127 @@
       "status": "held",
       "checkedAt": "2026-09-16T20:44:17.233Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "facebook/sapling": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sbt/sbt": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "scala/scala3": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mozilla/sccache": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "scipy/scipy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "genymobile/scrcpy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libsdl-org/sdl12-compat": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libsdl-org/sdl_image": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libsdl-org/sdl_mixer": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libsdl-org/sdl_ttf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libsdl-org/sdl2-compat": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libsdl-org/sdl": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "seaweedfs/seaweedfs": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "seleniumhq/selenium": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ataraxy-labs/sem": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "joshmedeski/sesh": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ip7z/7zip": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sfml/sfml": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/shaderc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "shadowsocks/shadowsocks-rust": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mikebrady/shairport-sync": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "neurobin/shc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rossmacarthur/sheldon": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "koalaman/shellcheck": {
+      "status": "held",
+      "checkedAt": "2026-09-16T21:44:08.720Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T20:44:17.233Z"
+  "lastRunAt": "2026-09-16T21:44:08.720Z"
 }
