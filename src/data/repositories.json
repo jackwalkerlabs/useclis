@@ -4753,5 +4753,20 @@
     "repositoryId": 35418187,
     "attemptedAt": "2026-09-16T22:44:21.085Z",
     "status": "ok"
+  },
+  "microsoft-go-sqlcmd": {
+    "defaultBranch": "main",
+    "createdAt": "2021-06-14T18:47:18Z",
+    "pushedAt": "2026-09-11T17:23:00Z",
+    "lastCommitAt": "2026-09-01T08:54:39Z",
+    "stars": 595,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-16T23:44:21.386Z",
+    "source": "https://github.com/microsoft/go-sqlcmd",
+    "canonicalSource": "https://github.com/microsoft/go-sqlcmd",
+    "repositoryId": 376924587,
+    "attemptedAt": "2026-09-16T23:44:20.753Z",
+    "status": "ok"
   }
 }

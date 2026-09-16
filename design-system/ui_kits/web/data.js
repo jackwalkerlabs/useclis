@@ -6556,6 +6556,25 @@ window.USECLIS_DATA = {
       "stars": 4912,
       "license": "GPL-3.0",
       "checkedAt": "2026-09-16T22:44:21.582Z"
+    },
+    {
+      "slug": "microsoft-go-sqlcmd",
+      "name": "go-sqlcmd",
+      "repo": "microsoft/go-sqlcmd",
+      "category": "Data & APIs",
+      "command": "sqlcmd",
+      "useCase": "The new sqlcmd, CLI for SQL Server and Azure SQL (winget install sqlcmd / sqlcmd create mssql / sqlcmd open ads)",
+      "description": "The new sqlcmd, CLI for SQL Server and Azure SQL (winget install sqlcmd / sqlcmd create mssql / sqlcmd open ads)",
+      "agentUse": "Invoke sqlcmd from a shell for the documented use case: The new sqlcmd, CLI for SQL Server and Azure SQL (winget install sqlcmd / sqlcmd create mssql / sqlcmd open ads)",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "sqlcmd create mssql --accept-eula --using https://aka.ms/AdventureWorksLT.bak",
+      "website": "https://github.com/microsoft/go-sqlcmd",
+      "docs": "https://github.com/microsoft/go-sqlcmd/blob/b359e41049c45e9533fee320e37764096febc3c4/README.md",
+      "stars": 595,
+      "license": "MIT",
+      "checkedAt": "2026-09-16T23:44:21.386Z"
     }
   ],
   "categories": [

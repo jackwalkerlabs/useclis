@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 10,
-  "brewOffset": 1560,
+  "searchPage": 1,
+  "brewOffset": 1600,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -16275,7 +16275,175 @@
       "status": "held",
       "checkedAt": "2026-09-16T22:44:08.172Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "spaceship-prompt/spaceship-prompt": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "libspatialindex/libspatialindex": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gabime/spdlog": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "github/spec-kit": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sphinx-doc/sphinx": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "khronosgroup/spirv-headers": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "khronosgroup/spirv-llvm-translator": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "khronosgroup/spirv-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xvzc/spoofdpi": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sqlc-dev/sqlc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sqlcipher/sqlcipher": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/go-sqlcmd": {
+      "status": "accepted",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "GitHub stars",
+      "slug": "microsoft-go-sqlcmd",
+      "acceptedAt": "2026-09-16T23:44:06.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/sqlcmd.json",
+          "snippet": "{\"executables\":[\"sqlcmd\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/microsoft/go-sqlcmd/blob/b359e41049c45e9533fee320e37764096febc3c4/README.md",
+          "snippet": "| `brew install sqlcmd` | `brew upgrade sqlcmd` |"
+        },
+        "usage": {
+          "url": "https://github.com/microsoft/go-sqlcmd/blob/b359e41049c45e9533fee320e37764096febc3c4/README.md",
+          "snippet": "sqlcmd create mssql --accept-eula --using https://aka.ms/AdventureWorksLT.bak"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/microsoft/go-sqlcmd",
+          "snippet": "The new sqlcmd, CLI for SQL Server and Azure SQL (winget install sqlcmd / sqlcmd create mssql / sqlcmd open ads)"
+        },
+        "adoption": {
+          "stars": 595,
+          "githubSource": "https://github.com/microsoft/go-sqlcmd",
+          "homebrew": {
+            "repo": "microsoft/go-sqlcmd",
+            "formula": "sqlcmd",
+            "count": 1885,
+            "source": "https://formulae.brew.sh/api/formula/sqlcmd.json",
+            "generatedDate": "2026-09-16"
+          }
+        },
+        "commit": "b359e41049c45e9533fee320e37764096febc3c4"
+      }
+    },
+    "sqlmapproject/sqlmap": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "transact-rs/sqlx": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "plougher/squashfs-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "squid-cache/squid": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "haivision/srt": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openssh/openssh-portable": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sshuttle/sshuttle": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rbsec/sslscan": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "starship/starship": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dominikh/go-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "turbot/steampipe": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "smallstep/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "stlink-org/stlink": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "official-stockfish/stockfish": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "strace/strace": {
+      "status": "held",
+      "checkedAt": "2026-09-16T23:44:06.841Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T22:44:08.172Z"
+  "lastRunAt": "2026-09-16T23:44:06.841Z"
 }

@@ -413,5 +413,9 @@
   "asamk-signal-cli": {
     "formula": "signal-cli",
     "repo": "AsamK/signal-cli"
+  },
+  "microsoft-go-sqlcmd": {
+    "formula": "sqlcmd",
+    "repo": "microsoft/go-sqlcmd"
   }
 }

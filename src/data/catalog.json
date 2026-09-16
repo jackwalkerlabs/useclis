@@ -5603,5 +5603,21 @@
     "example": "signal-cli -a ACCOUNT register --voice",
     "website": "https://github.com/AsamK/signal-cli",
     "docs": "https://github.com/AsamK/signal-cli/blob/a255a7fecfe80452fde83c1709086fcbf900716a/README.md"
+  },
+  {
+    "slug": "microsoft-go-sqlcmd",
+    "name": "go-sqlcmd",
+    "repo": "microsoft/go-sqlcmd",
+    "category": "Data & APIs",
+    "command": "sqlcmd",
+    "useCase": "The new sqlcmd, CLI for SQL Server and Azure SQL (winget install sqlcmd / sqlcmd create mssql / sqlcmd open ads)",
+    "description": "The new sqlcmd, CLI for SQL Server and Azure SQL (winget install sqlcmd / sqlcmd create mssql / sqlcmd open ads)",
+    "agentUse": "Invoke sqlcmd from a shell for the documented use case: The new sqlcmd, CLI for SQL Server and Azure SQL (winget install sqlcmd / sqlcmd create mssql / sqlcmd open ads)",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "sqlcmd create mssql --accept-eula --using https://aka.ms/AdventureWorksLT.bak",
+    "website": "https://github.com/microsoft/go-sqlcmd",
+    "docs": "https://github.com/microsoft/go-sqlcmd/blob/b359e41049c45e9533fee320e37764096febc3c4/README.md"
   }
 ]
