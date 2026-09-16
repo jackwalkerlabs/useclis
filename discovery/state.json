@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 9,
-  "brewOffset": 720,
+  "searchPage": 10,
+  "brewOffset": 760,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -13487,7 +13487,122 @@
       "status": "held",
       "checkedAt": "2026-09-16T01:44:23.208Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "simulot/immich-go": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "include-what-you-use/include-what-you-use": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lxc/incus": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "influxdata/influxdb": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "infracost/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "dscharrer/innoextract": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ios-control/ios-deploy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "google/ios-webkit-debug-proxy": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kjokjo/ipcalc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "esnet/iperf": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "coin-or/ipopt": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "brona/iproute2mac": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "blacktop/ipsw": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ipython/ipython": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "irssi/irssi": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "istio/istio": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jackett/jackett": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "skylot/jadx": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "akheron/jansson": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "01mf02/jaq": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jasper-software/jasper": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jemalloc/jemalloc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jenkinsci/jenkins": {
+      "status": "held",
+      "checkedAt": "2026-09-16T02:44:18.882Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T01:44:23.208Z"
+  "lastRunAt": "2026-09-16T02:44:18.882Z"
 }
