@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 1,
-  "brewOffset": 1200,
+  "searchPage": 2,
+  "brewOffset": 1240,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -15141,7 +15141,167 @@
       "status": "held",
       "checkedAt": "2026-09-16T13:44:24.655Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "odin-lang/odin": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jandedobbeleer/oh-my-posh": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "okta/okta-aws-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "ollama/ollama": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kkos/oniguruma": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "onnx/onnx": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/onnxruntime": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "open-policy-agent/opa": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ocaml/opam": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openbabel/openbabel": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "alibaba/open-code-review": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "open-mpi/ompi": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openocd-org/openocd": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openai/whisper": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kcat/openal-soft": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openapitools/openapi-generator": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openbao/openbao": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openmathlib/openblas": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "open-cascade-sas/occt": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "byvoid/opencc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "academysoftwarefoundation/opencolorio": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "opencv/opencv": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "savoirfairelinux/opendht": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "academysoftwarefoundation/openexr": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "adrienverge/openfortivpn": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "academysoftwarefoundation/openimageio": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openjdk/jdk26u": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "uclouvain/openjpeg": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "opensc/opensc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "opensearch-project/opensearch": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "openshift/oc": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "openslide/openslide": {
+      "status": "held",
+      "checkedAt": "2026-09-16T14:44:22.122Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-16T13:44:24.655Z"
+  "lastRunAt": "2026-09-16T14:44:22.122Z"
 }
