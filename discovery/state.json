@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 3,
-  "brewOffset": 1680,
+  "searchPage": 4,
+  "brewOffset": 1720,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -16723,7 +16723,137 @@
       "status": "held",
       "checkedAt": "2026-09-17T01:44:09.621Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "old-man-programmer/tree": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tree-sitter/tree-sitter": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tsl0922/ttyd": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "agavra/tuicr": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "astral-sh/ty": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/typescript": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "genivia/ugrep": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ettusresearch/uhd": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mvp/uhubctl": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "macpaw/xadmaster": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nlnetlabs/unbound": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yairm210/unciv": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "neovim/unibilium": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "bcpierce00/unison": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "universal-ctags/ctags": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "lurcher/unixodbc": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "unpaper/unpaper": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "twogood/unshield": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "upx/upx": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jdx/usage": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nemtrif/utfcpp": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "juliastrings/utf8proc": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "uutils/coreutils": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "uutils/diffutils": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "uutils/findutils": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "kludex/uvicorn": {
+      "status": "held",
+      "checkedAt": "2026-09-17T02:44:16.781Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T01:44:09.621Z"
+  "lastRunAt": "2026-09-17T02:44:16.781Z"
 }
