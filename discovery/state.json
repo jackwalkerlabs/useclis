@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 1,
-  "brewOffset": 520,
+  "searchPage": 2,
+  "brewOffset": 560,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17389,7 +17389,12 @@
       "status": "held",
       "checkedAt": "2026-09-17T13:44:07.281Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "kofigumbs/multi": {
+      "status": "held",
+      "checkedAt": "2026-09-17T20:44:06.488Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T19:44:10.190Z"
+  "lastRunAt": "2026-09-17T20:44:06.488Z"
 }
