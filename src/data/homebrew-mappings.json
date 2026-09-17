@@ -417,5 +417,9 @@
   "microsoft-go-sqlcmd": {
     "formula": "sqlcmd",
     "repo": "microsoft/go-sqlcmd"
+  },
+  "max-sixty-worktrunk": {
+    "formula": "worktrunk",
+    "repo": "max-sixty/worktrunk"
   }
 }

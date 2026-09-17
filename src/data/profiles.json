@@ -3625,5 +3625,18 @@
     "createdAt": "2012-09-13T16:55:57Z",
     "checkedAt": "2026-09-16T22:44:23.061Z",
     "source": "https://github.com/AsamK"
+  },
+  "max-sixty": {
+    "login": "max-sixty",
+    "name": "Maximilian Roos",
+    "type": "User",
+    "bio": "Developer of worktrunk, prql, xarray & insta.\r\n\r\nAlso pytest-accept and numbagg.\r\n\r\n\r\nYou can give me feedback at feedback.maxroos.com",
+    "location": "Los Angeles",
+    "website": null,
+    "followers": 1879,
+    "publicRepos": 93,
+    "createdAt": "2013-10-08T05:44:10Z",
+    "checkedAt": "2026-09-17T04:44:18.656Z",
+    "source": "https://github.com/max-sixty"
   }
 }

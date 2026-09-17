@@ -1454,5 +1454,19 @@
     "checkedAt": "2026-09-16T23:44:22.185Z",
     "generatedDate": "2026-09-16",
     "status": "ok"
+  },
+  "max-sixty-worktrunk": {
+    "formula": "worktrunk",
+    "repo": "max-sixty/worktrunk",
+    "source": "https://formulae.brew.sh/api/formula/worktrunk.json",
+    "attemptedAt": "2026-09-17T04:44:18.100Z",
+    "counts": {
+      "30d": 1648,
+      "90d": 8946,
+      "365d": 24180
+    },
+    "checkedAt": "2026-09-17T04:44:18.100Z",
+    "generatedDate": "2026-09-17",
+    "status": "ok"
   }
 }

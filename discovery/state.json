@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 5,
-  "brewOffset": 1760,
+  "searchPage": 6,
+  "brewOffset": 1800,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -16988,7 +16988,135 @@
       "status": "held",
       "checkedAt": "2026-09-17T03:44:07.546Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "wakatime/wakatime-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "jpoliv/wakeonlan": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "facebook/wangle": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bytecodealliance/wasm-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "wasmerio/wasmer": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "bytecodealliance/wasmtime": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "facebook/watchman": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ataraxy-labs/weave": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "webpack/webpack": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "weechat/weechat": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "argmaxinc/argmax-oss-swift": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "rfc1036/whois": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "winetricks/winetricks": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "google/woff2": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "max-sixty/worktrunk": {
+      "status": "accepted",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "GitHub stars",
+      "slug": "max-sixty-worktrunk",
+      "acceptedAt": "2026-09-17T04:44:05.431Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/worktrunk.json",
+          "snippet": "{\"executables\":[\"wt\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/max-sixty/worktrunk/blob/acf50b72589f09cba1d2af3cd507d5963ddbf584/README.md",
+          "snippet": "brew install worktrunk && wt config shell install"
+        },
+        "usage": {
+          "url": "https://github.com/max-sixty/worktrunk/blob/acf50b72589f09cba1d2af3cd507d5963ddbf584/README.md",
+          "snippet": "wt switch --create feature-auth"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/max-sixty/worktrunk",
+          "snippet": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
+        },
+        "adoption": {
+          "stars": 7936,
+          "githubSource": "https://github.com/max-sixty/worktrunk",
+          "homebrew": {
+            "repo": "max-sixty/worktrunk",
+            "formula": "worktrunk",
+            "count": 1648,
+            "source": "https://formulae.brew.sh/api/formula/worktrunk.json",
+            "generatedDate": "2026-09-17"
+          }
+        },
+        "commit": "acf50b72589f09cba1d2af3cd507d5963ddbf584"
+      }
+    },
+    "wg/wrk": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "erebe/wstunnel": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wxmaxima-developers/wxmaxima": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "wxwidgets/wxwidgets": {
+      "status": "held",
+      "checkedAt": "2026-09-17T04:44:05.431Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T03:44:07.546Z"
+  "lastRunAt": "2026-09-17T04:44:05.431Z"
 }

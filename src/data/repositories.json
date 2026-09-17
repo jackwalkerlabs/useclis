@@ -4768,5 +4768,20 @@
     "repositoryId": 376924587,
     "attemptedAt": "2026-09-16T23:44:20.753Z",
     "status": "ok"
+  },
+  "max-sixty-worktrunk": {
+    "defaultBranch": "main",
+    "createdAt": "2025-10-17T22:13:14Z",
+    "pushedAt": "2026-09-17T03:36:44Z",
+    "lastCommitAt": "2026-09-17T03:14:39Z",
+    "stars": 7936,
+    "license": null,
+    "language": "Rust",
+    "checkedAt": "2026-09-17T04:44:17.403Z",
+    "source": "https://github.com/max-sixty/worktrunk",
+    "canonicalSource": "https://github.com/max-sixty/worktrunk",
+    "repositoryId": 1078528927,
+    "attemptedAt": "2026-09-17T04:44:16.977Z",
+    "status": "ok"
   }
 }

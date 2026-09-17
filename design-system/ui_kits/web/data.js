@@ -6575,6 +6575,25 @@ window.USECLIS_DATA = {
       "stars": 595,
       "license": "MIT",
       "checkedAt": "2026-09-16T23:44:21.386Z"
+    },
+    {
+      "slug": "max-sixty-worktrunk",
+      "name": "worktrunk",
+      "repo": "max-sixty/worktrunk",
+      "category": "Agents & models",
+      "command": "wt",
+      "useCase": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "agentUse": "Invoke wt from a shell for the documented use case: Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "wt switch --create feature-auth",
+      "website": "https://github.com/max-sixty/worktrunk",
+      "docs": "https://github.com/max-sixty/worktrunk/blob/acf50b72589f09cba1d2af3cd507d5963ddbf584/README.md",
+      "stars": 7936,
+      "license": null,
+      "checkedAt": "2026-09-17T04:44:17.403Z"
     }
   ],
   "categories": [
