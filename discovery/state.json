@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 6,
-  "brewOffset": 320,
+  "searchPage": 7,
+  "brewOffset": 360,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17391,5 +17391,5 @@
       "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T14:44:06.702Z"
+  "lastRunAt": "2026-09-17T15:44:09.602Z"
 }
