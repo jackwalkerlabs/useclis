@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 2,
-  "brewOffset": 1640,
+  "searchPage": 3,
+  "brewOffset": 1680,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -16593,7 +16593,137 @@
       "status": "held",
       "checkedAt": "2026-09-17T00:44:12.214Z",
       "reason": "Possible graphical application or launcher"
+    },
+    "tex-live/texlive-source": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tfutils/tfenv": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "minamijoyo/tfmigrate": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "aquasecurity/tfsec": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "minamijoyo/tfupdate": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tgenv/tgenv": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ggreer/the_silver_searcher": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nvbn/thefuck": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "laramies/theharvester": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apache/thrift": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "htacg/tidy-html5": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jonas/tig": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tigervnc/tigervnc": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tilt-dev/tilt": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hzeller/timg": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "myriad-dreamin/tinymist": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tinyproxy/tinyproxy": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "felt/tippecanoe": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tldr-pages/tlrc": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tmux/tmux": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tmuxinator/tmuxinator": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "stabldev/torrra": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tmuxpack/tpack": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "traefik/traefik": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "elasticdog/transcrypt": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "transmission/transmission": {
+      "status": "held",
+      "checkedAt": "2026-09-17T01:44:09.621Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T00:44:12.214Z"
+  "lastRunAt": "2026-09-17T01:44:09.621Z"
 }
