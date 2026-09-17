@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 4,
-  "brewOffset": 240,
+  "searchPage": 5,
+  "brewOffset": 280,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17374,7 +17374,22 @@
       "status": "held",
       "checkedAt": "2026-09-17T10:44:28.689Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "conan-io/conan": {
+      "status": "held",
+      "checkedAt": "2026-09-17T13:44:07.281Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "open-policy-agent/conftest": {
+      "status": "held",
+      "checkedAt": "2026-09-17T13:44:07.281Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apple/container": {
+      "status": "held",
+      "checkedAt": "2026-09-17T13:44:07.281Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T12:44:04.772Z"
+  "lastRunAt": "2026-09-17T13:44:07.281Z"
 }
