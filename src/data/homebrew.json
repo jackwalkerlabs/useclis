@@ -1468,5 +1468,19 @@
     "checkedAt": "2026-09-17T04:44:18.100Z",
     "generatedDate": "2026-09-17",
     "status": "ok"
+  },
+  "ldomaradzki-xcsift": {
+    "formula": "xcsift",
+    "repo": "ldomaradzki/xcsift",
+    "source": "https://formulae.brew.sh/api/formula/xcsift.json",
+    "attemptedAt": "2026-09-17T05:44:24.979Z",
+    "counts": {
+      "30d": 114,
+      "90d": 234,
+      "365d": 943
+    },
+    "checkedAt": "2026-09-17T05:44:24.979Z",
+    "generatedDate": "2026-09-17",
+    "status": "ok"
   }
 }

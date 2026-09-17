@@ -5635,5 +5635,21 @@
     "example": "wt switch --create feature-auth",
     "website": "https://github.com/max-sixty/worktrunk",
     "docs": "https://github.com/max-sixty/worktrunk/blob/acf50b72589f09cba1d2af3cd507d5963ddbf584/README.md"
+  },
+  {
+    "slug": "ldomaradzki-xcsift",
+    "name": "xcsift",
+    "repo": "ldomaradzki/xcsift",
+    "category": "Data & APIs",
+    "command": "xcsift",
+    "useCase": "A Swift command-line tool that parses xcodebuild output into token-efficient JSON for coding agents.",
+    "description": "A Swift command-line tool that parses xcodebuild output into token-efficient JSON for coding agents.",
+    "agentUse": "Invoke xcsift from a shell for the documented use case: A Swift command-line tool that parses xcodebuild output into token-efficient JSON for coding agents.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "xcsift mcp",
+    "website": "https://github.com/ldomaradzki/xcsift",
+    "docs": "https://github.com/ldomaradzki/xcsift/blob/f9f1228bab78c99c16b1800e12208e7e57c875cb/README.md"
   }
 ]

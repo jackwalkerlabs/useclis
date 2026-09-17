@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 6,
-  "brewOffset": 1800,
+  "searchPage": 7,
+  "brewOffset": 1840,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17116,7 +17116,140 @@
       "status": "held",
       "checkedAt": "2026-09-17T04:44:05.431Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "multicorewareinc/x265": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cpisciotta/xcbeautify": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mobilenativefoundation/xclogparser": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "solawing/xcode-build-server": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "a7ex/xcresultparser": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ldomaradzki/xcsift": {
+      "status": "accepted",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Homebrew install-on-request",
+      "slug": "ldomaradzki-xcsift",
+      "acceptedAt": "2026-09-17T05:44:07.781Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/xcsift.json",
+          "snippet": "{\"executables\":[\"xcsift\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/ldomaradzki/xcsift/blob/f9f1228bab78c99c16b1800e12208e7e57c875cb/README.md",
+          "snippet": "brew install xcsift"
+        },
+        "usage": {
+          "url": "https://github.com/ldomaradzki/xcsift/blob/f9f1228bab78c99c16b1800e12208e7e57c875cb/README.md",
+          "snippet": "xcsift mcp"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ldomaradzki/xcsift",
+          "snippet": "A Swift command-line tool that parses xcodebuild output into token-efficient JSON for coding agents."
+        },
+        "adoption": {
+          "stars": 469,
+          "githubSource": "https://github.com/ldomaradzki/xcsift",
+          "homebrew": {
+            "repo": "ldomaradzki/xcsift",
+            "formula": "xcsift",
+            "count": 114,
+            "source": "https://formulae.brew.sh/api/formula/xcsift.json",
+            "generatedDate": "2026-09-17"
+          }
+        },
+        "commit": "f9f1228bab78c99c16b1800e12208e7e57c875cb"
+      }
+    },
+    "xctesthtmlreport/xctesthtmlreport": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jmacd/xdelta": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jordansissel/xdotool": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xmake-io/xmake": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xmrig/xmrig": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xonsh/xonsh": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "xtls/xray-core": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "cyan4973/xxhash": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jbeder/yaml-cpp": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "adrienverge/yamllint": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "virustotal/yara": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yarnpkg/yarn": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yasm/yasm": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "yosyshq/yosys": {
+      "status": "held",
+      "checkedAt": "2026-09-17T05:44:07.781Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T04:44:05.431Z"
+  "lastRunAt": "2026-09-17T05:44:07.781Z"
 }

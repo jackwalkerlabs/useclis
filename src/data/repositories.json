@@ -4783,5 +4783,20 @@
     "repositoryId": 1078528927,
     "attemptedAt": "2026-09-17T04:44:16.977Z",
     "status": "ok"
+  },
+  "ldomaradzki-xcsift": {
+    "defaultBranch": "master",
+    "createdAt": "2025-07-10T19:38:00Z",
+    "pushedAt": "2026-09-12T17:48:56Z",
+    "lastCommitAt": "2026-09-12T17:48:54Z",
+    "stars": 469,
+    "license": "MIT",
+    "language": "Swift",
+    "checkedAt": "2026-09-17T05:44:23.950Z",
+    "source": "https://github.com/ldomaradzki/xcsift",
+    "canonicalSource": "https://github.com/ldomaradzki/xcsift",
+    "repositoryId": 1017599209,
+    "attemptedAt": "2026-09-17T05:44:23.326Z",
+    "status": "ok"
   }
 }

@@ -6594,6 +6594,25 @@ window.USECLIS_DATA = {
       "stars": 7936,
       "license": null,
       "checkedAt": "2026-09-17T04:44:17.403Z"
+    },
+    {
+      "slug": "ldomaradzki-xcsift",
+      "name": "xcsift",
+      "repo": "ldomaradzki/xcsift",
+      "category": "Data & APIs",
+      "command": "xcsift",
+      "useCase": "A Swift command-line tool that parses xcodebuild output into token-efficient JSON for coding agents.",
+      "description": "A Swift command-line tool that parses xcodebuild output into token-efficient JSON for coding agents.",
+      "agentUse": "Invoke xcsift from a shell for the documented use case: A Swift command-line tool that parses xcodebuild output into token-efficient JSON for coding agents.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "xcsift mcp",
+      "website": "https://github.com/ldomaradzki/xcsift",
+      "docs": "https://github.com/ldomaradzki/xcsift/blob/f9f1228bab78c99c16b1800e12208e7e57c875cb/README.md",
+      "stars": 469,
+      "license": "MIT",
+      "checkedAt": "2026-09-17T05:44:23.950Z"
     }
   ],
   "categories": [

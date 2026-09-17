@@ -421,5 +421,9 @@
   "max-sixty-worktrunk": {
     "formula": "worktrunk",
     "repo": "max-sixty/worktrunk"
+  },
+  "ldomaradzki-xcsift": {
+    "formula": "xcsift",
+    "repo": "ldomaradzki/xcsift"
   }
 }
