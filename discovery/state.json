@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 7,
-  "brewOffset": 1840,
+  "searchPage": 8,
+  "brewOffset": 0,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17249,7 +17249,117 @@
       "status": "held",
       "checkedAt": "2026-09-17T05:44:07.781Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "rupa/z": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "z3prover/z3": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mchehab/zbar": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zeek/zeek": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zellij-org/zellij": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "zeromq/libzmq": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zimfw/zimfw": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "sekrit-twc/zimg": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zdharma-continuum/zinit": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zizmorcore/zizmor": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "madler/zlib": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zigtools/zls": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "getzola/zola": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "patriceckhart/zot": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "marlonrichert/zsh-autocomplete": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zsh-users/zsh-autosuggestions": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zsh-users/zsh-completions": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zdharma-continuum/fast-syntax-highlighting": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zsh-users/zsh-history-substring-search": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zsh-users/zsh-syntax-highlighting": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zhlynn/zsign": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "facebook/zstd": {
+      "status": "held",
+      "checkedAt": "2026-09-17T06:44:11.280Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T05:44:07.781Z"
+  "lastRunAt": "2026-09-17T06:44:11.280Z"
 }
