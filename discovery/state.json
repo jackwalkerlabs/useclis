@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 1,
-  "brewOffset": 1600,
+  "searchPage": 2,
+  "brewOffset": 1640,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -16443,7 +16443,157 @@
       "status": "held",
       "checkedAt": "2026-09-16T23:44:06.841Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "colinianking/stress-ng": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "strongswan/strongswan": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "johnnymorganz/stylua": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "projectdiscovery/subfinder": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apache/subversion": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mystenlabs/sui": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "drtimothyaldendavis/suitesparse": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "llnl/sundials": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "supervisor/supervisor": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "swagger-api/swagger-codegen": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "swi-prolog/swipl-devel": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "swiftlang/swift": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "swiftlang/swift-format": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apple/swift-protobuf": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mxcl/swift-sh": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "swiftgen/swiftgen": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "realm/swiftlint": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "swiftlang/swiftly": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "swig/swig": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "stefanberger/swtpm": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "symfony-cli/symfony-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "syncthing/syncthing": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "syslog-ng/syslog-ng": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "matthart1983/syswatch": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "ta-lib/ta-lib": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "shshemi/tabiew": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "termio-sh/termio": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "taglib/taglib": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tailscale/tailcat": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "jakubmelka/pdf4qt": {
+      "status": "held",
+      "checkedAt": "2026-09-17T00:44:12.214Z",
+      "reason": "Possible graphical application or launcher"
     }
   },
-  "lastRunAt": "2026-09-16T23:44:06.841Z"
+  "lastRunAt": "2026-09-17T00:44:12.214Z"
 }
