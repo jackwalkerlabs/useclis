@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 4,
-  "brewOffset": 640,
+  "searchPage": 5,
+  "brewOffset": 680,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17426,7 +17426,22 @@
         },
         "commit": "abc1bec9e2710be7c712d24894d5c9c2e64f03c8"
       }
+    },
+    "hdfgroup/hdf5": {
+      "status": "held",
+      "checkedAt": "2026-09-17T23:44:08.408Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "helix-editor/helix": {
+      "status": "held",
+      "checkedAt": "2026-09-17T23:44:08.408Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "nousresearch/hermes-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-17T23:44:08.408Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T22:44:09.030Z"
+  "lastRunAt": "2026-09-17T23:44:08.408Z"
 }
