@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 4,
-  "brewOffset": 1720,
+  "searchPage": 5,
+  "brewOffset": 1760,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -16853,7 +16853,142 @@
       "status": "held",
       "checkedAt": "2026-09-17T02:44:16.781Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "v2fly/v2ray-core": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "v8/v8": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vale-cli/vale": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "valkey-io/valkey": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vapor/toolbox": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "vapoursynth/vapoursynth": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "varnish/varnish": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apache/jackrabbit-filevault": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "microsoft/vcpkg-tool": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tsenart/vegeta": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "velero-io/velero": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "verapdf/verapdf-apps": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Possible graphical application or launcher"
+    },
+    "verilator/verilator": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "crc-org/vfkit": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vgmstream/vgmstream": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vim/vim": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "virt-manager/virt-manager": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "pypa/virtualenv": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "voidzero-dev/vite-plus": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "atanunq/viu": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "sharkdp/vivid": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vlang/v": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "volta-cli/volta": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "khronosgroup/vulkan-headers": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "khronosgroup/vulkan-loader": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "khronosgroup/vulkan-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "webassembly/wabt": {
+      "status": "held",
+      "checkedAt": "2026-09-17T03:44:07.546Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T02:44:16.781Z"
+  "lastRunAt": "2026-09-17T03:44:07.546Z"
 }
