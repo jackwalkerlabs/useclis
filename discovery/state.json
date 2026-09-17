@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 1,
-  "brewOffset": 120,
+  "searchPage": 2,
+  "brewOffset": 160,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17369,7 +17369,12 @@
       "status": "held",
       "checkedAt": "2026-09-17T09:44:06.935Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "tommy0103/obelisk": {
+      "status": "held",
+      "checkedAt": "2026-09-17T10:44:28.689Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T09:44:06.935Z"
+  "lastRunAt": "2026-09-17T10:44:28.689Z"
 }
