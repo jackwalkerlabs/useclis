@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 8,
-  "brewOffset": 0,
+  "searchPage": 9,
+  "brewOffset": 40,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17359,7 +17359,12 @@
       "status": "held",
       "checkedAt": "2026-09-17T06:44:11.280Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "rjvb/afsctool": {
+      "status": "held",
+      "checkedAt": "2026-09-17T07:44:06.325Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-17T06:44:11.280Z"
+  "lastRunAt": "2026-09-17T07:44:06.325Z"
 }
