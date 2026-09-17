@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 3,
-  "brewOffset": 600,
+  "searchPage": 4,
+  "brewOffset": 640,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17394,7 +17394,39 @@
       "status": "held",
       "checkedAt": "2026-09-17T20:44:06.488Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "unlinearity/cli-wechat-bridge": {
+      "status": "accepted",
+      "checkedAt": "2026-09-17T22:44:09.030Z",
+      "reason": "GitHub stars",
+      "slug": "unlinearity-cli-wechat-bridge",
+      "acceptedAt": "2026-09-17T22:44:09.030Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge/blob/abc1bec9e2710be7c712d24894d5c9c2e64f03c8/package.json",
+          "snippet": "{\"bin\":{\"wechat-codex\":\"bin/wechat-codex.mjs\"}}",
+          "target": "bin/wechat-codex.mjs"
+        },
+        "installation": {
+          "url": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge/blob/abc1bec9e2710be7c712d24894d5c9c2e64f03c8/README.md",
+          "snippet": "npm install -g cli-wechat-bridge@latest"
+        },
+        "usage": {
+          "url": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge/blob/abc1bec9e2710be7c712d24894d5c9c2e64f03c8/README.md",
+          "snippet": "wechat-codex --timeout-ms 30000"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/UNLINEARITY/CLI-WeChat-Bridge",
+          "snippet": "将 AI 命令行工具以最为原生的方式，集成到微信 ClawBot / 企业微信 bot 中，目前支持集成 Codex、Claude Code、OpenCode、Pi Agent。 支持微信和本地终端线程（thread/session）共享、双向对话，支持将本地文件传输至微信，微信也支持发送文件到终端。现已支持多 cli 切换、微信表情绑定指令、双向 /resume 对话恢复。"
+        },
+        "adoption": {
+          "stars": 500,
+          "githubSource": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge",
+          "homebrew": null
+        },
+        "commit": "abc1bec9e2710be7c712d24894d5c9c2e64f03c8"
+      }
     }
   },
-  "lastRunAt": "2026-09-17T21:44:04.674Z"
+  "lastRunAt": "2026-09-17T22:44:09.030Z"
 }

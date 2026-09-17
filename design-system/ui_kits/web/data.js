@@ -6613,6 +6613,25 @@ window.USECLIS_DATA = {
       "stars": 469,
       "license": "MIT",
       "checkedAt": "2026-09-17T11:41:56.102Z"
+    },
+    {
+      "slug": "unlinearity-cli-wechat-bridge",
+      "name": "CLI-WeChat-Bridge",
+      "repo": "UNLINEARITY/CLI-WeChat-Bridge",
+      "category": "Agents & models",
+      "command": "wechat-codex",
+      "useCase": "将 AI 命令行工具以最为原生的方式，集成到微信 ClawBot / 企业微信 bot 中，目前支持集成 Codex、Claude Code、OpenCode、Pi Agent。 支持微信和本地终端线程（thread/session）共享、双向对话，支持将本地文件传输至微信，微信也支持发送文件到终端。现已支持多 cli 切换、微信表情绑定指令、双向 /resume 对话恢复。",
+      "description": "将 AI 命令行工具以最为原生的方式，集成到微信 ClawBot / 企业微信 bot 中，目前支持集成 Codex、Claude Code、OpenCode、Pi Agent。 支持微信和本地终端线程（thread/session）共享、双向对话，支持将本地文件传输至微信，微信也支持发送文件到终端。现已支持多 cli 切换、微信表情绑定指令、双向 /resume 对话恢复。",
+      "agentUse": "Invoke wechat-codex from a shell for the documented use case: 将 AI 命令行工具以最为原生的方式，集成到微信 ClawBot / 企业微信 bot 中，目前支持集成 Codex、Claude Code、OpenCode、Pi Agent。 支持微信和本地终端线程（thread/session）共享、双向对话，支持将本地文件传输至微信，微信也支持发送文件到终端。现已支持多 cli 切换、微信表情绑定指令、双向 /resume 对话恢复。",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "wechat-codex --timeout-ms 30000",
+      "website": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge",
+      "docs": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge/blob/abc1bec9e2710be7c712d24894d5c9c2e64f03c8/README.md",
+      "stars": 500,
+      "license": "AGPL-3.0",
+      "checkedAt": "2026-09-17T22:44:23.181Z"
     }
   ],
   "categories": [
