@@ -4813,5 +4813,20 @@
     "repositoryId": 1189593001,
     "attemptedAt": "2026-09-18T11:15:27.349Z",
     "status": "ok"
+  },
+  "nostacks-ekphos": {
+    "defaultBranch": "main",
+    "createdAt": "2025-12-15T11:06:31Z",
+    "pushedAt": "2026-09-15T03:15:22Z",
+    "lastCommitAt": "2026-09-15T03:14:58Z",
+    "stars": 995,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-18T19:44:24.918Z",
+    "source": "https://github.com/nostacks/ekphos",
+    "canonicalSource": "https://github.com/nostacks/ekphos",
+    "repositoryId": 1116772709,
+    "attemptedAt": "2026-09-18T19:44:24.291Z",
+    "status": "ok"
   }
 }

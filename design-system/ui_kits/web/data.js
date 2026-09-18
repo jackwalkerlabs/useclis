@@ -6632,6 +6632,25 @@ window.USECLIS_DATA = {
       "stars": 498,
       "license": "AGPL-3.0",
       "checkedAt": "2026-09-18T11:15:27.820Z"
+    },
+    {
+      "slug": "nostacks-ekphos",
+      "name": "ekphos",
+      "repo": "nostacks/ekphos",
+      "category": "Files & documents",
+      "command": "ekphos",
+      "useCase": "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
+      "description": "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
+      "agentUse": "Invoke ekphos from a shell for the documented use case: A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ekphos --reset",
+      "website": "https://github.com/nostacks/ekphos",
+      "docs": "https://github.com/nostacks/ekphos/blob/6520fc0fcd9be8b3200af2c3b11086d54ac6b596/README.md",
+      "stars": 995,
+      "license": "MIT",
+      "checkedAt": "2026-09-18T19:44:24.918Z"
     }
   ],
   "categories": [

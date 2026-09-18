@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 4,
-  "brewOffset": 1440,
+  "searchPage": 5,
+  "brewOffset": 1480,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17476,7 +17476,39 @@
       "status": "held",
       "checkedAt": "2026-09-18T17:44:09.985Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "nostacks/ekphos": {
+      "status": "accepted",
+      "checkedAt": "2026-09-18T19:44:09.499Z",
+      "reason": "GitHub stars",
+      "slug": "nostacks-ekphos",
+      "acceptedAt": "2026-09-18T19:44:09.499Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/nostacks/ekphos/blob/6520fc0fcd9be8b3200af2c3b11086d54ac6b596/Cargo.toml",
+          "snippet": "package.name=\"ekphos\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/nostacks/ekphos/blob/6520fc0fcd9be8b3200af2c3b11086d54ac6b596/README.md",
+          "snippet": "cargo install ekphos"
+        },
+        "usage": {
+          "url": "https://github.com/nostacks/ekphos/blob/6520fc0fcd9be8b3200af2c3b11086d54ac6b596/README.md",
+          "snippet": "ekphos --reset"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/nostacks/ekphos",
+          "snippet": "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian"
+        },
+        "adoption": {
+          "stars": 995,
+          "githubSource": "https://github.com/nostacks/ekphos",
+          "homebrew": null
+        },
+        "commit": "6520fc0fcd9be8b3200af2c3b11086d54ac6b596"
+      }
     }
   },
-  "lastRunAt": "2026-09-18T18:44:10.037Z"
+  "lastRunAt": "2026-09-18T19:44:09.499Z"
 }

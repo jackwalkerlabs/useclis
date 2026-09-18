@@ -5667,5 +5667,21 @@
     "example": "wechat-codex --timeout-ms 30000",
     "website": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge",
     "docs": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge/blob/abc1bec9e2710be7c712d24894d5c9c2e64f03c8/README.md"
+  },
+  {
+    "slug": "nostacks-ekphos",
+    "name": "ekphos",
+    "repo": "nostacks/ekphos",
+    "category": "Files & documents",
+    "command": "ekphos",
+    "useCase": "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
+    "description": "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
+    "agentUse": "Invoke ekphos from a shell for the documented use case: A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "ekphos --reset",
+    "website": "https://github.com/nostacks/ekphos",
+    "docs": "https://github.com/nostacks/ekphos/blob/6520fc0fcd9be8b3200af2c3b11086d54ac6b596/README.md"
   }
 ]
