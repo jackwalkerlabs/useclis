@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 8,
-  "brewOffset": 1200,
+  "searchPage": 9,
+  "brewOffset": 1240,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17453,5 +17453,5 @@
       "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-18T12:44:06.455Z"
+  "lastRunAt": "2026-09-18T13:44:11.806Z"
 }
