@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 1,
-  "brewOffset": 920,
+  "searchPage": 2,
+  "brewOffset": 960,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17441,7 +17441,12 @@
       "status": "held",
       "checkedAt": "2026-09-17T23:44:08.408Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "dadoum/sideloader": {
+      "status": "held",
+      "checkedAt": "2026-09-18T06:44:05.323Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-18T05:44:07.841Z"
+  "lastRunAt": "2026-09-18T06:44:05.323Z"
 }
