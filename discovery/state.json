@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 8,
-  "brewOffset": 1600,
+  "searchPage": 9,
+  "brewOffset": 1640,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17593,7 +17593,32 @@
       "status": "held",
       "checkedAt": "2026-09-18T22:44:05.385Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "hashicorp/terraform-ls": {
+      "status": "held",
+      "checkedAt": "2026-09-18T23:44:08.707Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "hashicorp/terraform-mcp-server": {
+      "status": "held",
+      "checkedAt": "2026-09-18T23:44:08.707Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "env0/terratag": {
+      "status": "held",
+      "checkedAt": "2026-09-18T23:44:08.707Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "tesseract-ocr/tessdata_fast": {
+      "status": "held",
+      "checkedAt": "2026-09-18T23:44:08.707Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "testssl/testssl.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-18T23:44:08.707Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-18T22:44:05.385Z"
+  "lastRunAt": "2026-09-18T23:44:08.707Z"
 }
