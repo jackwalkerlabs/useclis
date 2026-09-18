@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 6,
-  "brewOffset": 1520,
+  "searchPage": 7,
+  "brewOffset": 1560,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17510,5 +17510,5 @@
       }
     }
   },
-  "lastRunAt": "2026-09-18T20:44:09.231Z"
+  "lastRunAt": "2026-09-18T21:44:04.509Z"
 }
