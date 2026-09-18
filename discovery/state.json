@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 7,
-  "brewOffset": 1560,
+  "searchPage": 8,
+  "brewOffset": 1600,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17508,7 +17508,92 @@
         },
         "commit": "6520fc0fcd9be8b3200af2c3b11086d54ac6b596"
       }
+    },
+    "thoughtworks/talisman": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "siderolabs/talos": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tamasfe/taplo": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "uxlfoundation/onetbb": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "the-tcpdump-group/tcpdump": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mkirchner/tcping": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "appneta/tcpreplay": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "mct/tcptraceroute": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tealdeer-rs/tealdeer": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tectonic-typesetting/tectonic": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tektoncd/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Terminal use case needs classification"
+    },
+    "influxdata/telegraf": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "iyear/tdl": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "gravitational/teleport": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "apple-oss-distributions/remote_cmds": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "tofuutils/tenv": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "terraform-docs/terraform-docs": {
+      "status": "held",
+      "checkedAt": "2026-09-18T22:44:05.385Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-18T21:44:04.509Z"
+  "lastRunAt": "2026-09-18T22:44:05.385Z"
 }
