@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 1,
-  "brewOffset": 1320,
+  "searchPage": 2,
+  "brewOffset": 1360,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17451,7 +17451,17 @@
       "status": "held",
       "checkedAt": "2026-09-18T09:44:05.455Z",
       "reason": "Terminal use case needs classification"
+    },
+    "yashsinghcodes/wik": {
+      "status": "held",
+      "checkedAt": "2026-09-18T16:44:07.131Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "renezander030/capcut-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-18T16:44:07.131Z",
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-18T15:44:05.128Z"
+  "lastRunAt": "2026-09-18T16:44:07.131Z"
 }
