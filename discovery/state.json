@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 4,
-  "brewOffset": 1040,
+  "searchPage": 5,
+  "brewOffset": 1080,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17446,7 +17446,12 @@
       "status": "held",
       "checkedAt": "2026-09-18T06:44:05.323Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "only-cli/oc": {
+      "status": "held",
+      "checkedAt": "2026-09-18T09:44:05.455Z",
+      "reason": "Terminal use case needs classification"
     }
   },
-  "lastRunAt": "2026-09-18T08:44:07.511Z"
+  "lastRunAt": "2026-09-18T09:44:05.455Z"
 }
