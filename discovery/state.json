@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 2,
-  "brewOffset": 1360,
+  "searchPage": 3,
+  "brewOffset": 1400,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17461,7 +17461,22 @@
       "status": "held",
       "checkedAt": "2026-09-18T16:44:07.131Z",
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rocq-prover/rocq": {
+      "status": "held",
+      "checkedAt": "2026-09-18T17:44:09.985Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "zeromake/docker-debug": {
+      "status": "held",
+      "checkedAt": "2026-09-18T17:44:09.985Z",
+      "reason": "Description does not clearly identify a CLI"
+    },
+    "vannvan/yuque-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-18T17:44:09.985Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-18T16:44:07.131Z"
+  "lastRunAt": "2026-09-18T17:44:09.985Z"
 }
