@@ -18,6 +18,7 @@ Twelve tests cover four flows at desktop (1280px), phone (390px) and small phone
 - A representative detail page exposes its repository/docs links; saving, navigating, reloading, and removing a CLI work.
 - The submission form opens and closes by pointer and keyboard, including the phone header. The test never continues to GitHub or creates an issue.
 - `llms.txt`, `llms-full.txt`, and `clis.json` contain real catalog content; a missing route returns HTTP 404. Deployment runs also check the exact built commit.
+- The [agent API contract](AGENT-API.md) passes against the served files: correct status and content type, parseable and untruncated output, every listing exactly once, and a JSON field-extraction task resolving to jq. This HTTP-only test runs once, at desktop width.
 
 Assertions use stable identities and current endpoint data, not star rankings or fixed catalog sizes. Each test has a 45-second timeout and the suite is bounded to three minutes, with one retry in CI for transient deployment propagation. This is Chromium viewport coverage, not physical-device or Safari testing.
 

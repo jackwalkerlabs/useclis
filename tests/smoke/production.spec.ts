@@ -217,3 +217,57 @@ test('share metadata and preview image are complete on home and tool pages', asy
     await expect(page.locator('head meta[property="og:type"]'), path).toHaveAttribute('content', type);
   }
 });
+
+// Public agent API contract (docs/AGENT-API.md): every surface must be complete,
+// parseable, mutually consistent, and able to resolve a known task without the UI.
+test('agent API surfaces are complete, parseable and resolve a known task', async ({ request }, testInfo) => {
+  test.skip(testInfo.project.name !== 'desktop', 'HTTP-only contract; one viewport is enough');
+  const { agentSurfaces, findToolsForTask, jsonExtractionFixture, validateAgentApi } = await import('../../scripts/lib/agent-api-contract.mjs');
+  const bodies: Record<string, string> = {};
+  for (const { path, contentType } of agentSurfaces) {
+    const response = await request.get(path);
+    expect(response.status(), path).toBe(200);
+    expect(response.headers()['content-type'], path).toContain(contentType);
+    bodies[path] = await response.text();
+    expect(bodies[path].length, `${path} must not be empty`).toBeGreaterThan(200);
+  }
+  const { errors, catalog } = validateAgentApi({
+    guide: bodies['/llms.txt'], full: bodies['/llms-full.txt'], json: bodies['/clis.json'],
+    siteUrl: process.env.SMOKE_SITE_URL || 'https://useclis.com',
+  });
+  expect(errors).toEqual([]);
+  expect(findToolsForTask(catalog, jsonExtractionFixture.task)[0]?.slug).toBe(jsonExtractionFixture.expectedSlug);
+});
+
+test('GitHub stars heading reverses to ascending order and back', async ({page}) => {
+  await home(page);
+  const header = page.getByRole('columnheader', {name: /GitHub stars/});
+  const starCounts = async () => (await page.locator('tbody .table-stars').allTextContents()).slice(0, 5).map(text => Number(text.replace(/,/g, '')));
+  await header.getByRole('button').click();
+  await expect(header).toHaveAttribute('aria-sort', 'ascending');
+  await expect(page).toHaveURL(/sort=stars&order=asc/);
+  const ascending = await starCounts();
+  expect(ascending).toEqual([...ascending].sort((a, b) => a - b));
+  await header.getByRole('button').press('Enter');
+  await expect(header).toHaveAttribute('aria-sort', 'descending');
+  const descending = await starCounts();
+  expect(descending).toEqual([...descending].sort((a, b) => b - a));
+});
+
+test('Discovery card metric labels stay separated at tablet and phone widths', async ({page}) => {
+  for (const width of [768, 900, 390]) {
+    await page.setViewportSize({width, height: 1024});
+    await home(page);
+    // Measure rendered label text, not grid cells, so touching labels fail even when cells do not overlap.
+    const gaps = await page.evaluate(() => [...document.querySelectorAll('.discovery-metrics')].flatMap(list => {
+      const boxes = [...list.querySelectorAll('dt')].map(label => {
+        const range = document.createRange();
+        range.selectNodeContents(label);
+        return range.getBoundingClientRect();
+      });
+      return boxes.slice(1).map((box, index) => Math.abs(box.top - boxes[index].top) > 2 ? Infinity : box.left - boxes[index].right);
+    }));
+    expect(gaps.length, `${width}px discovery cards`).toBeGreaterThan(0);
+    expect(Math.min(...gaps), `${width}px metric label gap`).toBeGreaterThanOrEqual(8);
+  }
+});
