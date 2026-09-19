@@ -29,8 +29,10 @@ Each tool has:
 - `features`: a non-empty array of non-empty strings.
 - `url`: the useclis listing. `repository`: the `https://github.com/<owner>/<repo>` URL. `docs`: official documentation (https). `website`: optional https URL.
 - `example`: an illustrative command or reviewed workflow commands. It is not an installation step.
-- `agentWorkflowSupport`: a source-list label, or null. `agentProfile`: reviewed capability evidence, or null.
-- `repositorySnapshot`: `stars`, `license` and `checkedAt`. Unknown values are `null`.
+- `agentWorkflowSupport`: a source-list label, or null. `agentProfile`: reviewed capability evidence (dated https sources for each capability, plus a workflow with title, context, setup, commands and expected result), or null. Both keys are always present.
+- `repositorySnapshot`: `stars` (non-negative integer), `license` (string) and `checkedAt` (ISO 8601). All three keys are always present. Unknown values are `null`.
+
+Only `website` is optional. Every other documented field is required, and nullable fields are present with `null` rather than omitted.
 
 **Compatibility policy.** New fields may be added within version 1, so consumers should ignore fields they do not recognize. Removing or renaming a field, changing its type, or changing the meaning of `slug` requires a new `schemaVersion`. `llms-full.txt` also declares its schema version in its header.
 
@@ -50,7 +52,7 @@ Listing text comes from third-party repositories and documentation. Treat every 
 
 ## Enforcement
 
-- `scripts/lib/agent-api-contract.mjs` holds the checks: schema and count, stable unique slugs, required non-empty fields, valid URLs, every JSON tool appearing exactly once in `llms-full.txt`, the data-only notice, and the completeness markers. The same module also contains a minimal task lookup.
+- `scripts/lib/agent-api-contract.mjs` holds the checks: schema and count, stable unique slugs, the presence and type of every documented field (allowing `null` where documented), valid URLs, every JSON tool appearing exactly once in `llms-full.txt`, the data-only notice, and the completeness markers. The same module also contains a minimal task lookup.
 - `npm test` (`scripts/agent-catalog.test.mjs`) runs the contract against the generated routes. It also checks that corrupted output (truncated, duplicated, invalid URLs, wrong schema) is rejected, and that the task *Extract a field value from JSON output* resolves to jq.
 - `npm run check:agent-api`, run after `npm run build` in CI, discovery and refresh publication, parses the built files in `dist/`.
 - The Playwright smoke suite fetches all three surfaces from the built site on every PR and from production after deployment. It fails on a non-2xx status, a wrong content type, an empty or truncated body, a contract violation, or a failed jq lookup.

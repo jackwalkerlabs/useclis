@@ -112,6 +112,37 @@ test('Agent contract rejects truncated, duplicated, stale-count, and invalid out
   assert.ok(errorsFor({ json: JSON.stringify({ ...catalog, schemaVersion: 2 }) }).some(error => /schemaVersion/.test(error)));
 });
 
+test('Agent contract rejects every removed or retyped documented schema field', async () => {
+  const valid = await bodies(new URL('https://directory.example/'));
+  const catalog = JSON.parse(valid.json);
+  const profiled = catalog.tools.findIndex(tool => tool.agentProfile);
+  const cases = [
+    [c => { delete c.description; }, /description is empty/],
+    [c => { c.guidance = 3; }, /guidance is empty/],
+    [c => { delete c.tools[0].example; }, /example is empty/],
+    [c => { delete c.tools[0].agentWorkflowSupport; }, /agentWorkflowSupport is missing/],
+    [c => { c.tools[0].agentWorkflowSupport = true; }, /agentWorkflowSupport must be/],
+    [c => { delete c.tools[0].agentProfile; }, /agentProfile is missing/],
+    [c => { c.tools[profiled].agentProfile = 'reviewed'; }, /agentProfile must be/],
+    [c => { c.tools[profiled].agentProfile.workflow.commands = []; }, /workflow\.commands/],
+    [c => { c.tools[profiled].agentProfile.workflow.setup.source = 'ftp://x'; }, /workflow\.setup/],
+    [c => { delete c.tools[0].repositorySnapshot.stars; }, /repositorySnapshot\.stars is missing/],
+    [c => { c.tools[0].repositorySnapshot.stars = '35k'; }, /stars must be/],
+    [c => { c.tools[0].repositorySnapshot.license = 0; }, /license must be/],
+    [c => { delete c.tools[0].repositorySnapshot; }, /repositorySnapshot is missing/],
+  ];
+  for (const [mutate, pattern] of cases) {
+    const changed = structuredClone(catalog);
+    mutate(changed);
+    const errors = contract.validateAgentApi({ ...valid, json: JSON.stringify(changed) }).errors;
+    assert.ok(errors.some(error => pattern.test(error)), `${pattern} in ${errors.join('; ')}`);
+  }
+  const nullable = structuredClone(catalog);
+  Object.assign(nullable.tools[0], { agentWorkflowSupport: null, agentProfile: null });
+  Object.assign(nullable.tools[0].repositorySnapshot, { stars: null, license: null, checkedAt: null });
+  assert.deepEqual(contract.validateAgentApi({ ...valid, json: JSON.stringify(nullable) }).errors, []);
+});
+
 test('An agent can resolve a JSON field extraction task to jq from the published catalog alone', async () => {
   const { catalog } = contract.validateAgentApi(await bodies(new URL('https://useclis.com/')));
   const [match] = contract.findToolsForTask(catalog, contract.jsonExtractionFixture.task);

@@ -15,6 +15,24 @@ const httpsUrl = value => {
   try { return new URL(value).protocol === 'https:'; } catch { return false; }
 };
 const isoDate = value => value === null || (typeof value === 'string' && Number.isFinite(Date.parse(value)));
+const nullable = (value, check) => value === null || check(value);
+const evidence = value => value !== null && typeof value === 'object' && text(value.text) && httpsUrl(value.source) && isoDate(value.checkedAt ?? null);
+
+/** Reviewed capability evidence; null means not yet reviewed. */
+function profileErrors(profile) {
+  if (profile === null) return [];
+  if (typeof profile !== 'object') return ['agentProfile must be an object or null'];
+  const errors = [];
+  if (!text(profile.reviewedAt) || !isoDate(profile.reviewedAt)) errors.push('agentProfile.reviewedAt is not a date');
+  if (!text(profile.verification)) errors.push('agentProfile.verification is empty');
+  const capabilities = Object.values(profile.capabilities ?? {});
+  if (!capabilities.length || !capabilities.every(evidence)) errors.push('agentProfile.capabilities must be dated https evidence');
+  const workflow = profile.workflow ?? {};
+  for (const key of ['title', 'context']) if (!text(workflow[key])) errors.push(`agentProfile.workflow.${key} is empty`);
+  for (const key of ['setup', 'expected']) if (!evidence(workflow[key])) errors.push(`agentProfile.workflow.${key} must be https evidence`);
+  if (!Array.isArray(workflow.commands) || !workflow.commands.length || !workflow.commands.every(text)) errors.push('agentProfile.workflow.commands must be non-empty strings');
+  return errors;
+}
 
 /**
  * @param {{ guide: string, full: string, json: string, siteUrl: string | URL }} bodies Raw response bodies.
@@ -33,6 +51,7 @@ export function validateAgentApi({ guide, full, json, siteUrl }) {
   if (!Array.isArray(catalog.tools) || catalog.tools.length === 0) return { errors: [...errors, 'clis.json has no tools'], catalog };
   if (catalog.toolCount !== catalog.tools.length) fail(`clis.json toolCount ${catalog.toolCount} differs from ${catalog.tools.length} tools`);
   if (!text(catalog.dataNotice) || !/not instructions/i.test(catalog.dataNotice)) fail('clis.json is missing its data-only notice');
+  for (const key of ['description', 'guidance']) if (!text(catalog[key])) fail(`clis.json ${key} is empty`);
   if (!Array.isArray(catalog.categories) || !catalog.categories.every(text)) fail('clis.json categories must be non-empty strings');
   const { repositoryCheckedFrom: from, repositoryCheckedTo: to } = catalog.snapshot ?? {};
   if (!isoDate(from) || !isoDate(to) || (from && to && from > to)) fail(`clis.json snapshot dates are invalid: ${from} to ${to}`);
@@ -43,14 +62,25 @@ export function validateAgentApi({ guide, full, json, siteUrl }) {
     if (typeof tool.slug !== 'string' || !/^[a-z0-9][a-z0-9-]*$/.test(tool.slug)) fail(`${id}: slug is not a stable lowercase identifier`);
     if (slugs.has(tool.slug)) fail(`${id}: duplicate slug`);
     slugs.add(tool.slug);
-    for (const key of ['name', 'command', 'category', 'description', 'useCase', 'agentUse']) if (!text(tool[key])) fail(`${id}: ${key} is empty`);
+    for (const key of ['name', 'command', 'category', 'description', 'useCase', 'agentUse', 'example']) if (!text(tool[key])) fail(`${id}: ${key} is empty`);
+    // Nullable fields must still be present: a missing key is a schema change, not an unknown value.
+    for (const key of ['agentWorkflowSupport', 'agentProfile']) if (!(key in tool)) fail(`${id}: ${key} is missing`);
+    if (!nullable(tool.agentWorkflowSupport ?? null, text)) fail(`${id}: agentWorkflowSupport must be a string or null`);
+    for (const error of profileErrors(tool.agentProfile ?? null)) fail(`${id}: ${error}`);
+    const snapshot = tool.repositorySnapshot;
+    if (snapshot === null || typeof snapshot !== 'object') fail(`${id}: repositorySnapshot is missing`);
+    else {
+      for (const key of ['stars', 'license', 'checkedAt']) if (!(key in snapshot)) fail(`${id}: repositorySnapshot.${key} is missing`);
+      if (!nullable(snapshot.stars ?? null, value => Number.isInteger(value) && value >= 0)) fail(`${id}: repositorySnapshot.stars must be a non-negative integer or null`);
+      if (!nullable(snapshot.license ?? null, text)) fail(`${id}: repositorySnapshot.license must be a string or null`);
+    }
     if (catalog.categories?.length && !catalog.categories.includes(tool.category)) fail(`${id}: category ${tool.category} is not listed`);
     if (tool.url !== new URL(`/tools/${tool.slug}/`, site).href) fail(`${id}: listing URL ${tool.url} does not match the site`);
     if (!/^https:\/\/github\.com\/[^/\s]+\/[^/\s]+$/.test(tool.repository ?? '')) fail(`${id}: repository ${tool.repository} is not a GitHub repository URL`);
     if (!httpsUrl(tool.docs)) fail(`${id}: docs ${tool.docs} is not an https URL`);
     if (tool.website != null && !httpsUrl(tool.website)) fail(`${id}: website ${tool.website} is not an https URL`);
     if (!Array.isArray(tool.features) || !tool.features.length || !tool.features.every(text)) fail(`${id}: features must be non-empty strings`);
-    if (!isoDate(tool.repositorySnapshot?.checkedAt ?? null)) fail(`${id}: repositorySnapshot.checkedAt is not a date`);
+    if (!isoDate(snapshot?.checkedAt ?? null)) fail(`${id}: repositorySnapshot.checkedAt is not a date`);
   }
 
   const count = catalog.tools.length;
