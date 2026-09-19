@@ -26,13 +26,25 @@ test('Homepage uses the supplied catalog count and keeps a literal sentence sepa
   }
 });
 
-test('Homepage example uses the actual jq listing, docs and command, and omits it if absent', () => {
-  const jq = tools.find(tool => tool.slug === 'jq');
-  assert.ok(jq);
-  const example = hero(tools).querySelector('.agent-prompt-example');
-  assert.match(example.textContent, /Read the package name from JSON/);
-  assert.equal(example.querySelector('code').textContent, jq.example);
-  assert.equal(example.querySelector(`a[href="/tools/${jq.slug}/"]`).textContent, jq.name);
-  assert.ok(example.querySelector(`a[href="${jq.docs}"]`));
-  assert.equal(hero(tools.filter(tool => tool.slug !== 'jq')).querySelector('.agent-prompt-example'), null);
+test('Homepage shows three catalog-backed task examples across categories and drops drifted ones', async () => {
+  const { homepageExamples, resolveHomepageExamples } = await import('../src/lib/homepage-examples.ts');
+  const resolved = resolveHomepageExamples(tools);
+  assert.equal(resolved.length, homepageExamples.length, 'every homepage example still matches its catalog record');
+  assert.ok(resolved.length >= 3);
+  assert.equal(new Set(resolved.map(example => example.tool.category)).size, resolved.length, 'examples span different categories');
+  const items = [...hero(tools).querySelectorAll('.agent-prompt-examples li')];
+  assert.equal(items.length, resolved.length);
+  resolved.forEach(({ task, tool }, index) => {
+    const item = items[index];
+    assert.match(item.querySelector('.agent-prompt-task').textContent, new RegExp(task));
+    assert.equal(item.querySelector('code').textContent, tool.example);
+    assert.equal(item.querySelector(`a[href="/tools/${tool.slug}/"]`).textContent, tool.name);
+    assert.ok(item.querySelector(`a[href="${tool.docs}"]`));
+  });
+  assert.match(hero(tools).querySelector('.agent-prompt-why').textContent, /official docs/);
+  assert.match(hero(tools).querySelector('.agent-prompt-caveat').textContent, /not a guarantee/);
+  // A changed command that no longer supports the task text is dropped, not shown.
+  const drifted = tools.map(tool => tool.slug === 'jq' ? { ...tool, example: 'jq --help' } : tool);
+  assert.deepEqual(resolveHomepageExamples(drifted).map(example => example.tool.slug), resolved.map(example => example.tool.slug).filter(slug => slug !== 'jq'));
+  assert.equal(hero(tools.filter(tool => !homepageExamples.some(example => example.slug === tool.slug))).querySelector('.agent-prompt-examples'), null);
 });
