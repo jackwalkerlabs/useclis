@@ -8,6 +8,7 @@ import '../typography.css';
 import '../discovery.css';
 import '../date-range.css';
 import '../agent-prompt.css';
+import { contributingGuide, sourceRepository } from '../lib/project-links';
 import inconsolataLatin from '../../design-system/assets/fonts/inconsolata-latin-wght.woff2?url';
 interface Props { title?: string; description?: string; active?: string }
 const { title = 'useclis — CLIs for agents', description = 'Discover GitHub-backed command-line tools for AI agents. Search by task, inspect repository activity, and explore CLI commands.', active = 'Directory' } = Astro.props;
@@ -40,11 +41,12 @@ const submissionRepo = import.meta.env.PUBLIC_SUBMISSIONS_REPO?.trim() ?? 'jackw
           <a class:list={{ active: active === 'Categories' }} href="/categories/">Categories</a>
           <a class:list={{ active: active === 'Owners' }} href="/github/">Owners</a>
           <a class:list={{ active: active === 'About' }} href="/about/">About</a>
+          <a class="nav-source" href={sourceRepository} rel="noreferrer" aria-label="useclis source on GitHub">GitHub</a>
         </nav>
         <div class="header-actions"><SavedLink client:load /><SubmitCLI client:load submissionRepo={submissionRepo} /></div>
       </div>
     </header>
     <main id="main"><slot /></main>
-    <footer class="footer container"><div><a href="/" class="wordmark small"><img src="/favicon.svg" alt="" width="23" height="23" />useclis.</a><span>Command-line tools for agents.</span></div><div><a href="/categories/">Categories</a><a href="/about/">About the directory</a><span class="footer-note">Made for the open web <span class="green">↗</span></span></div></footer>
+    <footer class="footer container"><div><a href="/" class="wordmark small"><img src="/favicon.svg" alt="" width="23" height="23" />useclis.</a><span>Command-line tools for agents.</span></div><div><a href="/categories/">Categories</a><a href="/about/">About the directory</a><a href={sourceRepository} rel="noreferrer">Source on GitHub</a><a href={contributingGuide} rel="noreferrer">Contribute</a><span class="footer-note">Made for the open web <span class="green">↗</span></span></div></footer>
   </body>
 </html>
