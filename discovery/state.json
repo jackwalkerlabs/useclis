@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "searchPage": 5,
-  "brewOffset": 480,
+  "searchPage": 6,
+  "brewOffset": 520,
   "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
@@ -17618,7 +17618,12 @@
       "status": "held",
       "checkedAt": "2026-09-18T23:44:08.707Z",
       "reason": "Description does not clearly identify a CLI"
+    },
+    "paladini/harness-score": {
+      "status": "held",
+      "checkedAt": "2026-09-19T16:44:07.089Z",
+      "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-19T15:44:06.755Z"
+  "lastRunAt": "2026-09-19T16:44:07.089Z"
 }
