@@ -34,7 +34,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - run: npm run build:design-system
-      - run: npm run check && npm test && npm run check:design-system && npm run build && npm run check:links
+      - run: npm run check && npm test && npm run check:design-system && npm run build && npm run check:links && npm run check:agent-api
       - name: Commit updated public metadata
         id: commit
         run: |

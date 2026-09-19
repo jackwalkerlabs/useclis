@@ -6,6 +6,8 @@ import { GET as jsonRoute } from '../src/pages/clis.json.ts';
 import { GET as textRoute } from '../src/pages/llms-full.txt.ts';
 import { GET as guideRoute } from '../src/pages/llms.txt.ts';
 import { agentPrompt } from '../src/lib/agent-prompt.ts';
+import { catalogEndMarker, dataNotice } from '../src/lib/agent-catalog.ts';
+import * as contract from './lib/agent-api-contract.mjs';
 
 test('Agent JSON includes every listing, its source documentation, and dated snapshots', async () => {
   const response = await jsonRoute({ site: new URL('https://directory.example/') });
@@ -72,4 +74,49 @@ test('Reviewed profiles expose dated official evidence and useful workflows in b
     assert.ok(text.includes(profile.workflow.title));
   }
   assert.equal(catalog.tools.find(tool => tool.slug === 'jq').agentProfile, null);
+});
+
+const bodies = async site => ({
+  guide: await (await guideRoute({ site })).text(),
+  full: await (await textRoute({ site })).text(),
+  json: await (await jsonRoute({ site })).text(),
+  siteUrl: site,
+});
+
+test('Agent surfaces satisfy the documented public contract for every active listing', async () => {
+  const site = new URL('https://directory.example/');
+  const { errors, catalog } = contract.validateAgentApi(await bodies(site));
+  assert.deepEqual(errors, []);
+  assert.deepEqual(catalog.tools.map(tool => tool.slug).sort(), tools.map(tool => tool.slug).sort());
+  assert.equal(catalogEndMarker(tools.length), contract.catalogEndMarker(tools.length));
+  assert.equal(catalog.dataNotice, dataNotice);
+  const checked = tools.map(tool => tool.checkedAt).sort();
+  assert.deepEqual(catalog.snapshot, { repositoryCheckedFrom: checked[0], repositoryCheckedTo: checked.at(-1) });
+});
+
+test('Agent contract rejects truncated, duplicated, stale-count, and invalid output', async () => {
+  const site = new URL('https://directory.example/');
+  const valid = await bodies(site);
+  const errorsFor = changes => contract.validateAgentApi({ ...valid, ...changes }).errors;
+  assert.match(errorsFor({ json: valid.json.slice(0, -200) })[0], /not valid JSON/);
+  assert.ok(errorsFor({ full: valid.full.slice(0, valid.full.length / 2) }).some(error => /truncated/.test(error)));
+  assert.ok(errorsFor({ guide: valid.guide.slice(0, -40) }).some(error => /truncated/.test(error)));
+  const catalog = JSON.parse(valid.json);
+  const duplicated = { ...catalog, tools: [...catalog.tools, catalog.tools[0]], toolCount: catalog.tools.length + 1 };
+  assert.ok(errorsFor({ json: JSON.stringify(duplicated) }).some(error => /duplicate slug/.test(error)));
+  assert.ok(errorsFor({ json: JSON.stringify({ ...catalog, toolCount: 1 }) }).some(error => /toolCount/.test(error)));
+  const broken = structuredClone(catalog);
+  Object.assign(broken.tools[0], { command: ' ', docs: 'http://insecure.example/', url: 'https://elsewhere.example/tools/x/' });
+  const brokenErrors = errorsFor({ json: JSON.stringify(broken) });
+  for (const pattern of [/command is empty/, /docs .* https/, /listing URL/]) assert.ok(brokenErrors.some(error => pattern.test(error)), String(pattern));
+  assert.ok(errorsFor({ json: JSON.stringify({ ...catalog, schemaVersion: 2 }) }).some(error => /schemaVersion/.test(error)));
+});
+
+test('An agent can resolve a JSON field extraction task to jq from the published catalog alone', async () => {
+  const { catalog } = contract.validateAgentApi(await bodies(new URL('https://useclis.com/')));
+  const [match] = contract.findToolsForTask(catalog, contract.jsonExtractionFixture.task);
+  assert.equal(match.slug, contract.jsonExtractionFixture.expectedSlug);
+  assert.equal(match.command, 'jq');
+  assert.equal(match.url, 'https://useclis.com/tools/jq/');
+  assert.match(match.docs, /^https:\/\//);
 });

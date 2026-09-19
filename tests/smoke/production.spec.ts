@@ -176,3 +176,24 @@ test('Empty search offers broader catalog terms without claiming a task solution
   await expect(search(page)).toHaveValue('');
   expect(await page.locator('tbody tr').count()).toBeGreaterThan(0);
 });
+
+// Public agent API contract (docs/AGENT-API.md): every surface must be complete,
+// parseable, mutually consistent, and able to resolve a known task without the UI.
+test('agent API surfaces are complete, parseable and resolve a known task', async ({ request }, testInfo) => {
+  test.skip(testInfo.project.name !== 'desktop', 'HTTP-only contract; one viewport is enough');
+  const { agentSurfaces, findToolsForTask, jsonExtractionFixture, validateAgentApi } = await import('../../scripts/lib/agent-api-contract.mjs');
+  const bodies: Record<string, string> = {};
+  for (const { path, contentType } of agentSurfaces) {
+    const response = await request.get(path);
+    expect(response.status(), path).toBe(200);
+    expect(response.headers()['content-type'], path).toContain(contentType);
+    bodies[path] = await response.text();
+    expect(bodies[path].length, `${path} must not be empty`).toBeGreaterThan(200);
+  }
+  const { errors, catalog } = validateAgentApi({
+    guide: bodies['/llms.txt'], full: bodies['/llms-full.txt'], json: bodies['/clis.json'],
+    siteUrl: process.env.SMOKE_SITE_URL || 'https://useclis.com',
+  });
+  expect(errors).toEqual([]);
+  expect(findToolsForTask(catalog, jsonExtractionFixture.task)[0]?.slug).toBe(jsonExtractionFixture.expectedSlug);
+});
