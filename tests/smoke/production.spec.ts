@@ -190,4 +190,21 @@ test('GitHub stars heading reverses to ascending order and back', async ({page})
   await expect(header).toHaveAttribute('aria-sort', 'descending');
   const descending = await starCounts();
   expect(descending).toEqual([...descending].sort((a, b) => b - a));
+
+test('Discovery card metric labels stay separated at tablet and phone widths', async ({page}) => {
+  for (const width of [768, 900, 390]) {
+    await page.setViewportSize({width, height: 1024});
+    await home(page);
+    // Measure rendered label text, not grid cells, so touching labels fail even when cells do not overlap.
+    const gaps = await page.evaluate(() => [...document.querySelectorAll('.discovery-metrics')].flatMap(list => {
+      const boxes = [...list.querySelectorAll('dt')].map(label => {
+        const range = document.createRange();
+        range.selectNodeContents(label);
+        return range.getBoundingClientRect();
+      });
+      return boxes.slice(1).map((box, index) => Math.abs(box.top - boxes[index].top) > 2 ? Infinity : box.left - boxes[index].right);
+    }));
+    expect(gaps.length, `${width}px discovery cards`).toBeGreaterThan(0);
+    expect(Math.min(...gaps), `${width}px metric label gap`).toBeGreaterThanOrEqual(8);
+  }
 });
