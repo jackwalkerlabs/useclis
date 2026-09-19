@@ -330,3 +330,20 @@ test('Reviewed tool profiles lead with task fit and explained alternatives befor
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
   }
 });
+
+test('Homepage shows the agent workflow with three task examples linked to listings and docs', async ({page}, testInfo) => {
+  await home(page);
+  await expect(page.getByRole('button', {name: 'Copy agent prompt'})).toBeVisible();
+  const examples = page.locator('.agent-prompt-examples li');
+  await expect(examples).toHaveCount(3);
+  for (const example of await examples.all()) {
+    await expect(example.locator('a[href^="/tools/"]')).toBeVisible();
+    await expect(example.getByRole('link', {name: /Official docs/})).toHaveAttribute('href', /^https:\/\//);
+    await expect(example.locator('code')).not.toBeEmpty();
+  }
+  await expect(page.locator('.agent-prompt-caveat')).toContainText('not a guarantee');
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+  await page.locator('.agent-prompt').screenshot({path: testInfo.outputPath('agent-workflow.png')});
+  await examples.first().locator('a[href^="/tools/"]').click();
+  await expect(page).toHaveURL(/\/tools\/jq\/$/);
+});
