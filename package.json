@@ -25,6 +25,7 @@
     "build:design-system": "node scripts/build-design-system.mjs",
     "check:design-system": "node scripts/build-design-system.mjs --check && tsc -p design-system/tsconfig.json",
     "refresh-downloads": "node scripts/refresh-downloads.mjs",
+    "build:share-image": "node scripts/build-share-image.mjs",
     "test:smoke": "playwright test"
   },
   "dependencies": {
