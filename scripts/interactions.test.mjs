@@ -122,6 +122,63 @@ test('Homebrew ranking restores URLs, puts missing counts after zero, and links 
   assert.deepEqual(rows(), ['Zero']);
 });
 
+test('Metric headings toggle ascending order in sync with the sort menu, URL, reload and filters', async () => {
+  const user = userEvent.setup();
+  const base = tools.find(tool => tool.slug === 'github-cli');
+  const fixture = [
+    { ...base, slug: 'high', name: 'High', stars: 300, homebrew: { ...base.homebrew, counts: { '30d': 30 } } },
+    { ...base, slug: 'low', name: 'Low', stars: 100, homebrew: { ...base.homebrew, counts: { '30d': 10 } } },
+    { ...base, slug: 'mid', name: 'Mid', stars: 200, category: 'Other category', homebrew: { ...base.homebrew, counts: { '30d': null } } },
+  ];
+  const { unmount } = render(h(Directory, { tools: fixture }));
+  const menu = () => screen.getByRole('combobox', { name: 'Sort tools' });
+  const stars = () => screen.getByRole('columnheader', { name: /GitHub stars/ });
+  const brew = () => screen.getByRole('columnheader', { name: /Brew installs/ });
+  const params = () => new URLSearchParams(window.location.search);
+  assert.deepEqual(rows(), ['High', 'Mid', 'Low']);
+  assert.equal(stars().getAttribute('aria-sort'), 'descending');
+  await user.click(within(stars()).getByRole('button'));
+  assert.deepEqual(rows(), ['Low', 'Mid', 'High']);
+  assert.equal(stars().getAttribute('aria-sort'), 'ascending');
+  assert.equal(menu().value, 'stars-asc');
+  assert.equal(params().get('sort'), 'stars');
+  assert.equal(params().get('order'), 'asc');
+  assert.equal(document.querySelector('tbody .rank').textContent, '1', 'medals only mark the highest counts');
+  // Keyboard activation reverses back to descending.
+  within(stars()).getByRole('button').focus();
+  await user.keyboard('{Enter}');
+  assert.deepEqual(rows(), ['High', 'Mid', 'Low']);
+  assert.equal(stars().getAttribute('aria-sort'), 'descending');
+  assert.equal(params().get('order'), null);
+  // Switching metric starts highest first; unavailable Homebrew counts stay last both ways.
+  await user.click(within(brew()).getByRole('button'));
+  assert.deepEqual(rows(), ['High', 'Low', 'Mid']);
+  assert.equal(stars().getAttribute('aria-sort'), 'none');
+  await user.keyboard(' ');
+  assert.deepEqual(rows(), ['Low', 'High', 'Mid']);
+  assert.equal(brew().getAttribute('aria-sort'), 'ascending');
+  assert.equal(menu().value, 'homebrew-asc');
+  await user.selectOptions(menu(), 'stars-asc');
+  assert.deepEqual(rows(), ['Low', 'Mid', 'High']);
+  assert.equal(stars().getAttribute('aria-sort'), 'ascending');
+  await user.selectOptions(screen.getByRole('combobox', { name: 'Filter category' }), base.category);
+  await user.type(search(), 'gh');
+  assert.equal(menu().value, 'stars-asc', 'an explicit sort survives a new query');
+  assert.deepEqual(rows(), ['Low', 'High']);
+  unmount();
+  render(h(Directory, { tools: fixture }));
+  assert.equal(menu().value, 'stars-asc');
+  assert.deepEqual(rows(), ['Low', 'High']);
+  await user.selectOptions(menu(), 'name');
+  assert.equal(params().get('order'), null, 'fixed-order sorts drop the direction');
+  cleanup();
+  window.history.replaceState(null, '', '/?sort=stars&order=asc&saved=1');
+  localStorage.setItem('useclis-saved', JSON.stringify(['high', 'low']));
+  render(h(Directory, { tools: fixture }));
+  assert.deepEqual(rows(), ['Low', 'High']);
+  assert.equal(stars().getAttribute('aria-sort'), 'ascending');
+});
+
 test('Agent prompt copies exactly and opens a selected fallback when clipboard access fails', async () => {
   const user = userEvent.setup();
   let copied;
