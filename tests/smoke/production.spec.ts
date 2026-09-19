@@ -176,3 +176,25 @@ test('Empty search offers broader catalog terms without claiming a task solution
   await expect(search(page)).toHaveValue('');
   expect(await page.locator('tbody tr').count()).toBeGreaterThan(0);
 });
+
+test('Source repository and contribution path are one click from the homepage', async ({page, request}) => {
+  const source = 'https://github.com/jackwalkerlabs/useclis';
+  await home(page);
+  const footerSource = page.locator('footer.footer').getByRole('link', {name: 'Source on GitHub', exact: true});
+  await expect(footerSource).toHaveAttribute('href', source);
+  await expect(footerSource).toBeVisible();
+  const headerSource = page.getByRole('navigation', {name: 'Main navigation'}).getByRole('link', {name: 'useclis source on GitHub'});
+  // The smallest phones rely on the footer link; the header has room from 380px.
+  if ((page.viewportSize()?.width ?? 1280) >= 380) await expect(headerSource).toHaveAttribute('href', source);
+  await page.goto('/about/');
+  const openSource = page.locator('#open-source ~ ul').first();
+  const contributing = openSource.getByRole('link', {name: 'contributing guide'});
+  const issues = openSource.getByRole('link', {name: 'issue tracker'});
+  await expect(contributing).toHaveAttribute('href', `${source}/blob/main/CONTRIBUTING.md`);
+  await expect(issues).toHaveAttribute('href', `${source}/issues`);
+  await expect(openSource).toContainText('Submit your CLI');
+  // A broken source or contribution destination must block deployment.
+  for (const url of [source, `${source}/blob/main/CONTRIBUTING.md`, `${source}/issues`]) {
+    expect((await request.get(url)).status(), url).toBe(200);
+  }
+});

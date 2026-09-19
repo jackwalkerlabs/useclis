@@ -133,3 +133,8 @@
 /* Source selection remains usable alongside sorting and activity dates. */
 .useclis-leaderboard > .useclis-section-heading { flex-wrap: wrap; }
 .leaderboard-filters { flex-wrap: wrap; justify-content: flex-end; min-width: 0; }
+/* Five nav items do not fit the smallest phones; the footer keeps the source link. */
+@media (max-width: 379px) { .header nav .nav-source { display: none; } }
+/* Narrow tablets keep the single-row header: tighten spacing and show Saved as its
+   labelled icon, as phones do, so the source link fits without wrapping. */
+@media (min-width: 761px) and (max-width: 900px) { .header-inner { gap: 16px; } .header nav { gap: 18px; } .saved-link span { display: none; } }
