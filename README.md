@@ -62,6 +62,8 @@ curl -fsSL https://useclis.com/clis.json | jq --arg q 'browser' '.tools[] | sele
 
 These files return the full catalog; query parameters do not filter them. Agents search the downloaded text or JSON locally. The homepage's `?q=` filter runs in the browser. `llms.txt` is linked from the HTML head and the Cloudflare `Link` response header; it does not guarantee automatic discovery by every agent.
 
+These three files are a public compatibility contract. See [the agent API contract](docs/AGENT-API.md) for content types, the JSON schema version, freshness and caching, and the tests that enforce them.
+
 ## Design system
 
 `design-system/` is AI-generated for useclis and belongs to this repository under [MIT](LICENSE). It contains tokens, React components, guidelines, and a standalone CLI preview. Inconsolata is self-hosted; commands and metrics use system monospace fonts. Third-party assets retain their [license notices](THIRD_PARTY.md).
