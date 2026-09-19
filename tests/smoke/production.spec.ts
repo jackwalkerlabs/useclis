@@ -177,6 +177,21 @@ test('Empty search offers broader catalog terms without claiming a task solution
   expect(await page.locator('tbody tr').count()).toBeGreaterThan(0);
 });
 
+test('GitHub stars heading reverses to ascending order and back', async ({page}) => {
+  await home(page);
+  const header = page.getByRole('columnheader', {name: /GitHub stars/});
+  const starCounts = async () => (await page.locator('tbody .table-stars').allTextContents()).slice(0, 5).map(text => Number(text.replace(/,/g, '')));
+  await header.getByRole('button').click();
+  await expect(header).toHaveAttribute('aria-sort', 'ascending');
+  await expect(page).toHaveURL(/sort=stars&order=asc/);
+  const ascending = await starCounts();
+  expect(ascending).toEqual([...ascending].sort((a, b) => a - b));
+  await header.getByRole('button').press('Enter');
+  await expect(header).toHaveAttribute('aria-sort', 'descending');
+  const descending = await starCounts();
+  expect(descending).toEqual([...descending].sort((a, b) => b - a));
+});
+
 test('Discovery card metric labels stay separated at tablet and phone widths', async ({page}) => {
   for (const width of [768, 900, 390]) {
     await page.setViewportSize({width, height: 1024});

@@ -61,6 +61,24 @@ test('Search composes category/bookmarks and preserves explicit sorts and unknow
   ];
   for (const sort of ['active', 'homebrew']) assert.equal(filterTools(samples, { query: 'sample', sort })[0].name, 'Zero');
   assert.equal(filterTools(samples, { query: 'sample', sort: 'stars' })[0].name, 'Unknown');
+  const ranked = [
+    { name: 'Missing', command: 'sample' },
+    { name: 'Low', command: 'sample', stars: 5, homebrew: { counts: { '30d': 5 } }, downloads: { npm: { counts: { '30d': 5 } }, github: { total: 5 } } },
+    { name: 'Zero', command: 'sample', stars: 0, homebrew: { counts: { '30d': 0 } }, downloads: { npm: { counts: { '30d': 0 } }, github: { total: 0 } } },
+    { name: 'High', command: 'sample', stars: 50, homebrew: { counts: { '30d': null } }, downloads: { npm: { counts: { '30d': 50 } }, github: { total: 50 } } },
+  ];
+  const order = (sort, direction) => filterTools(ranked, { sort, direction }).map(tool => tool.name);
+  assert.deepEqual(order('stars', 'asc'), ['Zero', 'Low', 'High', 'Missing']);
+  assert.deepEqual(order('stars', 'desc'), ['High', 'Low', 'Zero', 'Missing']);
+  for (const sort of ['npm', 'github']) {
+    assert.deepEqual(order(sort, 'asc'), ['Zero', 'Low', 'High', 'Missing'], sort);
+    assert.deepEqual(order(sort, 'desc'), ['High', 'Low', 'Zero', 'Missing'], sort);
+  }
+  // Unavailable Homebrew counts (null or unmapped) stay last, alphabetically, in both directions.
+  assert.deepEqual(order('homebrew', 'asc'), ['Zero', 'Low', 'High', 'Missing']);
+  assert.deepEqual(order('homebrew', 'desc'), ['Low', 'Zero', 'High', 'Missing']);
+  assert.deepEqual(order('pypi', 'asc'), order('pypi', 'desc'));
+  assert.deepEqual(order('name', 'asc'), order('name', 'desc'));
   const before = [...searchTools];
   filterTools(searchTools, { query: 'search code' });
   assert.deepEqual(searchTools, before);
