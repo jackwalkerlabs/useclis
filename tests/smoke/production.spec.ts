@@ -176,3 +176,39 @@ test('Empty search offers broader catalog terms without claiming a task solution
   await expect(search(page)).toHaveValue('');
   expect(await page.locator('tbody tr').count()).toBeGreaterThan(0);
 });
+
+test('share metadata and preview image are complete on home and tool pages', async ({ page, request }) => {
+  const descriptions: string[] = [];
+  for (const path of ['/', '/tools/ripgrep/']) {
+    const response = await page.goto(path);
+    expect(response?.status(), path).toBe(200);
+    const meta = (key: string) => page.locator(`head meta[property="${key}"], head meta[name="${key}"]`).first().getAttribute('content');
+    const title = await page.title();
+    expect(await meta('og:title'), path).toBe(title);
+    expect(await meta('twitter:title'), path).toBe(title);
+    const description = await meta('description');
+    expect(description, path).toBeTruthy();
+    descriptions.push(description!);
+    expect(await meta('og:description'), path).toBe(description);
+    expect(await meta('twitter:description'), path).toBe(description);
+    expect(await meta('twitter:card'), path).toBe('summary_large_image');
+    const url = new URL((await meta('og:url'))!);
+    expect(url.protocol, path).toBe('https:');
+    expect(url.pathname, path).toBe(path);
+    const canonical = await page.locator('head link[rel="canonical"]').getAttribute('href');
+    if (canonical) expect(canonical, path).toBe(url.href);
+    const image = new URL((await meta('og:image'))!);
+    expect(image.protocol, path).toBe('https:');
+    expect(await meta('twitter:image'), path).toBe(image.href);
+    expect(await meta('og:image:width'), path).toBe('1200');
+    expect(await meta('og:image:height'), path).toBe('630');
+    expect((await meta('og:image:alt'))?.length, path).toBeGreaterThan(20);
+    // Fetch from the deployment under test; the tag itself names the production host.
+    const png = await request.get(image.pathname);
+    expect(png.status(), image.pathname).toBe(200);
+    expect(png.headers()['content-type']).toContain('image/png');
+    const bytes = await png.body();
+    expect([bytes.readUInt32BE(16), bytes.readUInt32BE(20)], 'PNG dimensions').toEqual([1200, 630]);
+  }
+  expect(descriptions[1], 'Tool pages override the shared description').not.toBe(descriptions[0]);
+});

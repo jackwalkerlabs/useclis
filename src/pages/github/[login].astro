@@ -15,7 +15,7 @@ const recommendations = tools.filter(tool => ownerKey(tool.repo) !== profile.key
 const rails = [recommendations.slice(0, 4), recommendations.slice(4)];
 const dateLabel = (date: string) => new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 ---
-<Layout title={`${profile.name} (@${profile.login}) — GitHub ${profile.type === 'User' ? 'developer' : 'organization'} | useclis`} description={`Explore ${profile.listings.length} CLIs from ${profile.name}, their GitHub stars, and weekly repository activity.`} active="Owners">
+<Layout title={`${profile.name} (@${profile.login}) — GitHub ${profile.type === 'User' ? 'developer' : 'organization'} | useclis`} description={`Explore ${profile.listings.length} CLIs from ${profile.name}, their GitHub stars, and weekly repository activity.`} type="profile" active="Owners">
   <div class="profile-shell">
     {rails.map((rail, index) => <aside class:list={['profile-rail', index === 0 ? 'profile-rail-left' : 'profile-rail-right']} aria-label={index === 0 ? 'Featured CLIs' : 'More CLIs to explore'}><p>{index === 0 ? 'Discover a CLI' : 'More to explore'}</p>{rail.map((tool, i) => <a class={`profile-promo profile-promo-${(i + index * 2) % 5}`} href={`/tools/${tool.slug}/`}><img src={tool.logo} alt="" width="32" height="32" loading="lazy" /><strong>{tool.name}</strong><span>{tool.useCase}</span><code>{tool.command}</code></a>)}</aside>)}
     <div class="profile-main">
