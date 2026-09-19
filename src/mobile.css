@@ -138,3 +138,5 @@
 /* Narrow tablets keep the single-row header: tighten spacing and show Saved as its
    labelled icon, as phones do, so the source link fits without wrapping. */
 @media (min-width: 761px) and (max-width: 900px) { .header-inner { gap: 16px; } .header nav { gap: 18px; } .saved-link span { display: none; } }
+/* Tool pages with a task-fit review lead with that decision, not repository statistics. */
+@media (max-width: 760px) { .has-task-fit .stars-panel { order: 1; } }

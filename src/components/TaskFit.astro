@@ -1,0 +1,41 @@
+---
+import { fitAlternatives, type TaskFit } from '../lib/task-fit';
+import { agentProfiles } from '../lib/tool-workflows';
+import { tools } from '../data/tools';
+import type { Tool } from '../data/tools';
+interface Props { tool: Tool; fit: TaskFit }
+const { tool, fit } = Astro.props;
+const alternatives = fitAlternatives(fit, tools);
+---
+<section class="task-fit" aria-labelledby="task-fit-title">
+  <h2 id="task-fit-title">Is {tool.name} the right tool?</h2>
+  <dl>
+    <div><dt>Best for</dt><dd>{fit.bestFor.text} <a href={fit.bestFor.source} target="_blank" rel="noreferrer">Official source ↗</a></dd></div>
+    <div><dt>Look elsewhere when</dt><dd>{fit.lookElsewhere.text} <a href={fit.lookElsewhere.source} target="_blank" rel="noreferrer">Official source ↗</a></dd></div>
+  </dl>
+  {alternatives.length > 0 && <>
+    <h3>Compared with related CLIs</h3>
+    <ul class="task-fit-alternatives">{alternatives.map(({ tool: other, text, source }) => <li>
+      <a class="task-fit-name" href={`/tools/${other.slug}/`}><img src={other.logo} alt="" width="24" height="24" loading="lazy" />{other.name}</a>
+      <p>{text} <a href={source} target="_blank" rel="noreferrer">Official source ↗</a></p>
+    </li>)}</ul>
+  </>}
+  <p class="task-fit-next">{agentProfiles[tool.slug] && <a href="#tool-workflow">Try a documented task below</a>}<a href={tool.docs} target="_blank" rel="noreferrer">Read the official docs ↗</a></p>
+  <p class="cli-source-note">Summarized from each project's own documentation, checked <time datetime={fit.reviewedAt}>{fit.reviewedAt}</time>. Not execution-tested by useclis.</p>
+</section>
+<style>
+  .task-fit { margin: 20px 0 8px; padding: 20px; border: 1px solid var(--border-subtle); border-radius: 12px; background: white; }
+  .task-fit h2 { margin-top: 0; }
+  .task-fit dl { display: grid; gap: 14px; margin: 12px 0 0; }
+  .task-fit dt { font-weight: 700; }
+  .task-fit dd { margin: 4px 0 0; line-height: 1.6; }
+  .task-fit h3 { margin: 20px 0 10px; font-size: 1rem; }
+  .task-fit-alternatives { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
+  .task-fit-alternatives li { padding-top: 12px; border-top: 1px solid var(--border-subtle); }
+  .task-fit-name { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; min-height: 32px; }
+  .task-fit-name img { border: 1px solid var(--border-subtle); border-radius: 6px; }
+  .task-fit-alternatives p { margin: 4px 0 0; line-height: 1.6; }
+  .task-fit-next { display: flex; flex-wrap: wrap; gap: 8px 12px; margin-top: 18px; }
+  .task-fit-next a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+  .task-fit dd a, .task-fit-alternatives p a { white-space: nowrap; }
+</style>
