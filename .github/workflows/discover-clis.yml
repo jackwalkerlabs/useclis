@@ -73,7 +73,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Validate publication
         if: ${{ !inputs.dry_run && steps.discovery.outputs.additions > 0 }}
-        run: npm run build:design-system && npm run check && npm test && npm run check:design-system && npm run build && npm run check:links
+        run: npm run build:design-system && npm run check && npm test && npm run check:design-system && npm run build && npm run check:links && npm run check:agent-api
       - name: Commit additions or discovery progress
         if: ${{ !inputs.dry_run }}
         run: |

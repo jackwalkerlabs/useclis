@@ -62,6 +62,8 @@ curl -fsSL https://useclis.com/clis.json | jq --arg q 'browser' '.tools[] | sele
 
 These files return the full catalog; query parameters do not filter them. Agents search the downloaded text or JSON locally. The homepage's `?q=` filter runs in the browser. `llms.txt` is linked from the HTML head and the Cloudflare `Link` response header; it does not guarantee automatic discovery by every agent.
 
+These three files are a public compatibility contract. See [the agent API contract](docs/AGENT-API.md) for content types, the JSON schema version, freshness and caching, and the tests that enforce them.
+
 ## Design system
 
 `design-system/` is AI-generated for useclis and belongs to this repository under [MIT](LICENSE). It contains tokens, React components, guidelines, and a standalone CLI preview. Inconsolata is self-hosted; commands and metrics use system monospace fonts. Third-party assets retain their [license notices](THIRD_PARTY.md).
@@ -118,7 +120,7 @@ Activity combines matching UTC week dates across available listed repositories a
 
 ## Package and binary download statistics
 
-The leaderboard has a download-source selector and independent source-specific sorts. Detail pages show each mapped source with counts, source links, observation dates, and saved-data/unavailable states. Sources are never combined into total installs or unique users. The activity date dropdown controls activity only; package ranking uses 30 days, while GitHub binary ranking is explicitly cumulative.
+The leaderboard has a download-source selector and independent source-specific sorts. Detail pages show each mapped source with counts, source links, observation dates, and saved-data/unavailable states. Sources are never combined into total installs or unique users. The activity date dropdown controls activity only; package ranking uses 30 days, while GitHub binary ranking is explicitly cumulative. Stars and every download source sort highest first by default; activating the active column heading again (or choosing a “Fewest …” option) reverses to lowest first, stored as `order=asc` in the URL. CLIs with unavailable counts always sort after every known count, in either direction, and are never treated as zero.
 
 - `src/data/download-mappings.json`: 32 npm package mappings, 27 PyPI package mappings, and 10 GitHub binary-asset mappings. These are deliberately curated, not inferred from similar names. npm mappings are verified against registry repository metadata and executable declarations; PyPI mappings against project repository URLs. GitHub mappings specify anchored filename patterns reviewed against actual release assets. Unverified aliases are omitted. Add mappings explicitly when expanding coverage; automated CLI discovery does not infer them.
 - `src/data/downloads.json`: compact public snapshots consumed by static builds. npm and PyPI windows cover complete 30/90/365-day intervals ending on the reported source date. Missing days or insufficient history make a window unavailable, not zero. npm counts cover the named CLI package, excluding separate platform packages; both registries can include automated, dependency, and repeated downloads.

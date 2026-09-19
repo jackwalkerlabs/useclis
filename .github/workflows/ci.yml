@@ -27,6 +27,7 @@ jobs:
       - run: npm run check:design-system
       - run: npm run build
       - run: npm run check:links
+      - run: npm run check:agent-api
       - name: Install smoke-test browser
         run: npx playwright install --with-deps chromium
       - name: Smoke test the built site
