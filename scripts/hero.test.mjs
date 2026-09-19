@@ -26,23 +26,24 @@ test('Homepage uses the supplied catalog count and keeps a literal sentence sepa
   }
 });
 
-test('Homepage shows three catalog-backed task examples across categories and drops drifted ones', async () => {
+test('Homepage offers catalog-backed task examples across categories and drops drifted ones', async () => {
   const { homepageExamples, resolveHomepageExamples } = await import('../src/lib/homepage-examples.ts');
   const resolved = resolveHomepageExamples(tools);
   assert.equal(resolved.length, homepageExamples.length, 'every homepage example still matches its catalog record');
   assert.ok(resolved.length >= 3);
   assert.equal(new Set(resolved.map(example => example.tool.category)).size, resolved.length, 'examples span different categories');
-  const items = [...hero(tools).querySelectorAll('.agent-prompt-examples li')];
-  assert.equal(items.length, resolved.length);
-  resolved.forEach(({ task, tool }, index) => {
-    const item = items[index];
-    assert.equal(item.querySelector('.agent-prompt-task').textContent, `“${task}”`);
-    assert.equal(item.querySelector('code').textContent, tool.example);
-    assert.equal(item.querySelector(`a[href="/tools/${tool.slug}/"]`).textContent, tool.name);
-    assert.ok(item.querySelector(`a[href="${tool.docs}"]`));
-  });
-  assert.match(hero(tools).querySelector('.agent-prompt-why').textContent, /official docs/);
-  assert.match(hero(tools).querySelector('.agent-prompt-caveat').textContent, /not a guarantee/);
+  const section = hero(tools);
+  const chips = [...section.querySelectorAll('.agent-prompt-chips button')];
+  assert.deepEqual(chips.map(chip => chip.textContent), resolved.map(example => example.label));
+  assert.equal(chips[0].getAttribute('aria-pressed'), 'true');
+  const [first] = resolved;
+  const result = section.querySelector('.agent-prompt-result');
+  assert.equal(result.querySelector('.agent-prompt-task').textContent, `“${first.task}”`);
+  assert.equal(result.querySelector('code').textContent, `$ ${first.tool.example}`);
+  assert.equal(result.querySelector(`a[href="/tools/${first.tool.slug}/"]`).textContent, first.tool.name);
+  assert.ok(result.querySelector(`a[href="${first.tool.docs}"]`));
+  assert.match(section.querySelector('.agent-prompt-heading p').textContent, /official docs/);
+  assert.match(section.querySelector('.agent-prompt-caveat').textContent, /guarantee/);
   // A changed command that no longer supports the task text is dropped, not shown.
   const drifted = tools.map(tool => tool.slug === 'jq' ? { ...tool, example: 'jq --help' } : tool);
   assert.deepEqual(resolveHomepageExamples(drifted).map(example => example.tool.slug), resolved.map(example => example.tool.slug).filter(slug => slug !== 'jq'));

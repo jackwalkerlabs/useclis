@@ -183,6 +183,23 @@ test('Metric headings toggle ascending order in sync with the sort menu, URL, re
   assert.equal(stars().getAttribute('aria-sort'), 'ascending');
 });
 
+test('Example task chips switch the shown tool, command and docs', async () => {
+  const user = userEvent.setup();
+  const { resolveHomepageExamples } = await import('../src/lib/homepage-examples.ts');
+  const examples = resolveHomepageExamples(tools);
+  render(h(Directory, { tools }));
+  const group = screen.getByRole('group', { name: 'Example tasks' });
+  for (const example of examples) {
+    const chip = within(group).getByRole('button', { name: example.label });
+    await user.click(chip);
+    assert.equal(chip.getAttribute('aria-pressed'), 'true');
+    const result = document.querySelector('.agent-prompt-result');
+    assert.equal(result.querySelector('code').textContent, `$ ${example.tool.example}`);
+    assert.equal(result.querySelector('a').getAttribute('href'), `/tools/${example.tool.slug}/`);
+  }
+  assert.equal(within(group).getAllByRole('button').filter(chip => chip.getAttribute('aria-pressed') === 'true').length, 1);
+});
+
 test('Agent prompt copies exactly and opens a selected fallback when clipboard access fails', async () => {
   const user = userEvent.setup();
   let copied;
