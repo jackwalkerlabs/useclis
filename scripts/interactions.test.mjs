@@ -158,6 +158,10 @@ test('Metric headings toggle ascending order in sync with the sort menu, URL, re
   assert.deepEqual(rows(), ['Low', 'High', 'Mid']);
   assert.equal(brew().getAttribute('aria-sort'), 'ascending');
   assert.equal(menu().value, 'homebrew-asc');
+  // A newly selected download source is a new metric, so it also starts highest first.
+  await user.selectOptions(screen.getByRole('combobox', { name: 'Download source' }), 'npm');
+  assert.equal(menu().value, 'npm');
+  assert.equal(params().get('order'), null);
   await user.selectOptions(menu(), 'stars-asc');
   assert.deepEqual(rows(), ['Low', 'Mid', 'High']);
   assert.equal(stars().getAttribute('aria-sort'), 'ascending');
