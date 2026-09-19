@@ -42,8 +42,18 @@ export function searchMatch(tool, query) {
   return null;
 }
 
-/** @param {any[]} tools @param {{query?: string, category?: string, sort?: string, onlySaved?: boolean, saved?: string[]}} [options] */
-export function filterTools(tools, { query = '', category = 'All categories', sort, onlySaved = false, saved = [] } = {}) {
+const metrics = {
+  stars: tool => tool.stars,
+  homebrew: tool => tool.homebrew?.counts?.['30d'],
+  npm: tool => tool.downloads?.npm?.counts?.['30d'],
+  pypi: tool => tool.downloads?.pypi?.counts?.['30d'],
+  github: tool => tool.downloads?.github?.total,
+};
+/** Sorts that can run in either direction; every other sort has one fixed order. */
+export const numericSorts = Object.keys(metrics);
+
+/** @param {any[]} tools @param {{query?: string, category?: string, sort?: string, direction?: 'asc' | 'desc', onlySaved?: boolean, saved?: string[]}} [options] */
+export function filterTools(tools, { query = '', category = 'All categories', sort, direction = 'desc', onlySaved = false, saved = [] } = {}) {
   const searching = Boolean(normalize(query));
   const ordering = sort ?? (searching ? 'relevance' : 'featured');
   const matches = new Map();
@@ -57,11 +67,15 @@ export function filterTools(tools, { query = '', category = 'All categories', so
     if (ordering === 'relevance') return (matches.get(b) - matches.get(a)) || (b.stars ?? 0) - (a.stars ?? 0) || a.name.localeCompare(b.name);
     if (ordering === 'recent') return (b.listedOrder ?? 0) - (a.listedOrder ?? 0);
     if (ordering === 'active') return (b.weeklyCommits ?? -1) - (a.weeklyCommits ?? -1) || (b.stars ?? 0) - (a.stars ?? 0);
-    if (['npm', 'pypi', 'github'].includes(ordering)) {
-      const metric = tool => ordering === 'github' ? tool.downloads?.github?.total : tool.downloads?.[ordering]?.counts?.['30d'];
-      return (metric(b) ?? -1) - (metric(a) ?? -1) || a.name.localeCompare(b.name);
+    if (Object.hasOwn(metrics, ordering)) {
+      const value = tool => { const count = metrics[ordering](tool); return typeof count === 'number' ? count : null; };
+      const [first, second] = [value(a), value(b)];
+      // Download ties read alphabetically; star ties keep catalog order.
+      const tie = () => ordering === 'stars' ? 0 : a.name.localeCompare(b.name);
+      // Unavailable data is never zero: it follows every known count in both directions.
+      if (first === null || second === null) return Number(first === null) - Number(second === null) || tie();
+      return (direction === 'asc' ? first - second : second - first) || tie();
     }
-    if (ordering === 'homebrew') return (b.homebrew?.counts['30d'] ?? -1) - (a.homebrew?.counts['30d'] ?? -1) || a.name.localeCompare(b.name);
-    return ordering === 'stars' ? (b.stars ?? 0) - (a.stars ?? 0) : ordering === 'name' ? a.name.localeCompare(b.name) : Number(Boolean(b.featured)) - Number(Boolean(a.featured));
+    return ordering === 'name' ? a.name.localeCompare(b.name) : Number(Boolean(b.featured)) - Number(Boolean(a.featured));
   });
 }
