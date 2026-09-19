@@ -177,6 +177,46 @@ test('Empty search offers broader catalog terms without claiming a task solution
   expect(await page.locator('tbody tr').count()).toBeGreaterThan(0);
 });
 
+test('Source repository and contribution path are one click from the homepage', async ({page, request, baseURL}, testInfo) => {
+  const source = 'https://github.com/jackwalkerlabs/useclis';
+  await home(page);
+  const footerSource = page.locator('footer.footer').getByRole('link', {name: 'Source on GitHub', exact: true});
+  await expect(footerSource).toHaveAttribute('href', source);
+  await expect(footerSource).toBeVisible();
+  const headerSource = page.getByRole('navigation', {name: 'Main navigation'}).getByRole('link', {name: 'useclis source on GitHub'});
+  // The smallest phones rely on the footer link; the header has room from 380px.
+  if ((page.viewportSize()?.width ?? 1280) >= 380) {
+    await expect(headerSource).toBeVisible();
+    await expect(headerSource).toHaveAttribute('href', source);
+  }
+  await page.goto('/about/');
+  const openSource = page.locator('#open-source ~ ul').first();
+  const contributing = openSource.getByRole('link', {name: 'contributing guide'});
+  const issues = openSource.getByRole('link', {name: 'issue tracker'});
+  await expect(contributing).toHaveAttribute('href', `${source}/blob/main/CONTRIBUTING.md`);
+  await expect(issues).toHaveAttribute('href', `${source}/issues`);
+  await expect(openSource).toContainText('Submit your CLI');
+  // A broken source or contribution destination must block deployment, but PR builds
+  // should not depend on github.com availability: check once, against production only.
+  if (testInfo.project.name !== 'desktop' || /127\.0\.0\.1|localhost/.test(baseURL ?? '')) return;
+  for (const url of [source, `${source}/blob/main/CONTRIBUTING.md`, `${source}/issues`]) {
+    await expect.poll(async () => (await request.get(url, {timeout: 15_000}).catch(() => null))?.status(), {
+      message: url, intervals: [2_000, 5_000, 10_000], timeout: 40_000,
+    }).toBe(200);
+  }
+});
+
+test('Narrow-tablet header keeps the source link on one row without overflow', async ({page}) => {
+  for (const width of [761, 800, 900]) {
+    await page.setViewportSize({width, height: 900});
+    await home(page);
+    const header = page.locator('header.header');
+    await expect(page.getByRole('navigation', {name: 'Main navigation'}).getByRole('link', {name: 'useclis source on GitHub'})).toBeVisible();
+    expect((await header.boundingBox())?.height, `${width}px header height`).toBeLessThanOrEqual(61);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${width}px overflow`).toBe(true);
+  }
+});
+
 test('share metadata and preview image are complete on home and tool pages', async ({ page, request }) => {
   const descriptions: string[] = [];
   for (const path of ['/', '/tools/ripgrep/']) {
