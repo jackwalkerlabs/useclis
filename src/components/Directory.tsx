@@ -11,6 +11,7 @@ import { activityWindow, dateRanges, type DateRange } from '../lib/date-ranges';
 import { Sparkline } from './ActivityChart';
 import activityData from '../data/activity.json';
 import AgentPrompt from './AgentPrompt';
+import { resolveHomepageExamples } from '../lib/homepage-examples';
 import HeroIntro from './HeroIntro';
 import DiscoveryRail from './DiscoveryRail';
 import DownloadCount from './DownloadCount';
@@ -103,7 +104,7 @@ export default function Directory({ tools, siteUrl }: { tools: Tool[]; siteUrl?:
       <HeroIntro count={tools.length} />
       <form className="useclis-search" id="search" role="search" onSubmit={event => { event.preventDefault(); document.getElementById('directory')?.scrollIntoView({ behavior: 'smooth' }); }}><Search size={17} /><input ref={input} aria-label="Search CLIs, commands, tasks, or GitHub repositories" value={query} onChange={event => setQuery(event.target.value)} placeholder="Search CLIs, commands, or GitHub repos…" />{query ? <button type="button" className="icon-button" aria-label="Clear search" onClick={() => setQuery('')}><X size={16} /></button> : <kbd>/</kbd>}<Button size="sm" type="submit">Explore <ArrowRight size={13} /></Button></form>
       <div className="useclis-subnav"><a href="#directory">Browse CLIs</a><span>·</span><a href="/categories/">Categories</a><span>·</span><button onClick={openSavedHere}>Saved CLIs</button></div>
-      <AgentPrompt siteUrl={siteUrl} exampleTool={tools.find(tool => tool.slug === 'jq')} />
+      <AgentPrompt siteUrl={siteUrl} examples={resolveHomepageExamples(tools)} />
     </section>
     <DiscoveryRail title="Recently listed" id="recently-listed-title" tools={recentlyListed} sort="recent" onViewAll={viewCollection} />
     {mostActive.length > 0 && <DiscoveryRail title="Most active this week" id="most-active-title" tools={mostActive} sort="active" onViewAll={viewCollection} caption="Ranked by commits in the latest week of each repository’s GitHub activity snapshot." />}
