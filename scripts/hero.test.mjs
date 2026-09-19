@@ -36,7 +36,7 @@ test('Homepage shows three catalog-backed task examples across categories and dr
   assert.equal(items.length, resolved.length);
   resolved.forEach(({ task, tool }, index) => {
     const item = items[index];
-    assert.match(item.querySelector('.agent-prompt-task').textContent, new RegExp(task));
+    assert.equal(item.querySelector('.agent-prompt-task').textContent, `“${task}”`);
     assert.equal(item.querySelector('code').textContent, tool.example);
     assert.equal(item.querySelector(`a[href="/tools/${tool.slug}/"]`).textContent, tool.name);
     assert.ok(item.querySelector(`a[href="${tool.docs}"]`));
