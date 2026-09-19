@@ -190,6 +190,7 @@ test('GitHub stars heading reverses to ascending order and back', async ({page})
   await expect(header).toHaveAttribute('aria-sort', 'descending');
   const descending = await starCounts();
   expect(descending).toEqual([...descending].sort((a, b) => b - a));
+});
 
 test('Discovery card metric labels stay separated at tablet and phone widths', async ({page}) => {
   for (const width of [768, 900, 390]) {
