@@ -3,7 +3,12 @@ import { test } from 'node:test';
 import { fitAlternatives, taskFits } from '../src/lib/task-fit.ts';
 import { tools } from '../src/data/tools.ts';
 
-const repoOf = url => new URL(url).pathname.split('/').slice(1, 3).join('/').toLowerCase();
+const repoOf = value => {
+  const url = new URL(value);
+  assert.equal(url.protocol, 'https:', value);
+  assert.equal(url.hostname, 'github.com', value);
+  return url.pathname.split('/').slice(1, 3).join('/').toLowerCase();
+};
 
 test('Task-fit reviews cite each project\'s own repository and compare listed CLIs', () => {
   assert.ok(taskFits.ripgrep && taskFits['agent-browser'], 'the reviewed profiles from #16 have task-fit content');

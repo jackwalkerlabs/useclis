@@ -1,5 +1,6 @@
 ---
 import { fitAlternatives, type TaskFit } from '../lib/task-fit';
+import { agentProfiles } from '../lib/tool-workflows';
 import { tools } from '../data/tools';
 import type { Tool } from '../data/tools';
 interface Props { tool: Tool; fit: TaskFit }
@@ -19,7 +20,7 @@ const alternatives = fitAlternatives(fit, tools);
       <p>{text} <a href={source} target="_blank" rel="noreferrer">Official source ↗</a></p>
     </li>)}</ul>
   </>}
-  <p class="task-fit-next"><a href="#tool-workflow">Try a documented task below</a><a href={tool.docs} target="_blank" rel="noreferrer">Read the official docs ↗</a></p>
+  <p class="task-fit-next">{agentProfiles[tool.slug] && <a href="#tool-workflow">Try a documented task below</a>}<a href={tool.docs} target="_blank" rel="noreferrer">Read the official docs ↗</a></p>
   <p class="cli-source-note">Summarized from each project's own documentation, checked <time datetime={fit.reviewedAt}>{fit.reviewedAt}</time>. Not execution-tested by useclis.</p>
 </section>
 <style>
