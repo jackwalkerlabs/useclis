@@ -1,0 +1,53 @@
+{
+  "ripgrep": {
+    "reviewedAt": "2026-09-19",
+    "bestFor": {
+      "text": "Searching file contents with regular expressions across a project. It recurses by default and skips .gitignore'd, hidden and binary files, so results stay focused on source.",
+      "source": "https://github.com/BurntSushi/ripgrep/blob/master/README.md"
+    },
+    "lookElsewhere": {
+      "text": "You need a portable, POSIX-standard tool that is already on every machine. ripgrep's own README recommends grep for that job.",
+      "source": "https://github.com/BurntSushi/ripgrep/blob/master/README.md#why-shouldnt-i-use-ripgrep"
+    },
+    "alternatives": [
+      {
+        "slug": "ast-grep",
+        "text": "Choose ast-grep to match code by syntax (abstract syntax tree nodes) instead of text, for example to find or rewrite a call pattern.",
+        "source": "https://github.com/ast-grep/ast-grep/blob/main/README.md"
+      },
+      {
+        "slug": "fd",
+        "text": "Choose fd to find files and directories by name. It matches file names, not file contents.",
+        "source": "https://github.com/sharkdp/fd/blob/master/README.md"
+      }
+    ]
+  },
+  "agent-browser": {
+    "reviewedAt": "2026-09-19",
+    "bestFor": {
+      "text": "Driving a real browser step by step from shell commands: take an accessibility snapshot, then click or fill elements using the refs it returns.",
+      "source": "https://github.com/vercel-labs/agent-browser/blob/main/README.md"
+    },
+    "lookElsewhere": {
+      "text": "You only need a page's content or a single capture. agent-browser works through a sequence of browser commands and downloads Chrome for Testing on first install.",
+      "source": "https://github.com/vercel-labs/agent-browser/blob/main/README.md"
+    },
+    "alternatives": [
+      {
+        "slug": "playwright-cli",
+        "text": "Playwright CLI also targets coding agents, exposing Playwright through concise commands. Its README points to Playwright MCP instead for long-running loops that need persistent browser context.",
+        "source": "https://github.com/microsoft/playwright-cli/blob/main/README.md"
+      },
+      {
+        "slug": "shot-scraper",
+        "text": "Choose shot-scraper for one-command screenshots, video demos, or JavaScript-based scraping of a page.",
+        "source": "https://github.com/simonw/shot-scraper/blob/main/README.md"
+      },
+      {
+        "slug": "firecrawl-cli",
+        "text": "Firecrawl CLI searches, scrapes, crawls and maps sites through the hosted Firecrawl service, which requires authentication.",
+        "source": "https://github.com/firecrawl/cli/blob/main/README.md"
+      }
+    ]
+  }
+}

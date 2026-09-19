@@ -9,7 +9,7 @@ export default function ToolWorkflow({ name, docs, profile }: { name: string; do
     try { await navigator.clipboard.writeText(prompt); setMessage('Prompt copied. Paste it into your agent.'); }
     catch { if (preview.current) preview.current.open = true; text.current?.focus(); text.current?.select(); setMessage('Copy the selected prompt.'); }
   }
-  return <section className="tool-workflow" aria-label={`${name} workflow`}>
+  return <section className="tool-workflow" id="tool-workflow" aria-label={`${name} workflow`}>
     <h2>Try a useful task</h2><h3>{profile.workflow.title}</h3>
     <p><strong>Before you start:</strong> {profile.workflow.setup.text} <a href={profile.workflow.setup.source}>Setup instructions ↗</a></p>
     <p>{profile.workflow.context}</p>

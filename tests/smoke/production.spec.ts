@@ -311,3 +311,22 @@ test('Discovery card metric labels stay separated at tablet and phone widths', a
     expect(Math.min(...gaps), `${width}px metric label gap`).toBeGreaterThanOrEqual(8);
   }
 });
+
+test('Reviewed tool profiles lead with task fit and explained alternatives before statistics', async ({page}) => {
+  for (const slug of ['ripgrep', 'agent-browser']) {
+    const response = await page.goto(`/tools/${slug}/`);
+    expect(response?.status()).toBe(200);
+    const fit = page.getByRole('region', {name: /right tool\?$/});
+    await expect(fit).toBeVisible();
+    await expect(fit.getByText('Best for', {exact: true})).toBeVisible();
+    await expect(fit.getByText('Look elsewhere when', {exact: true})).toBeVisible();
+    expect(await fit.locator('.task-fit-alternatives li').count()).toBeGreaterThanOrEqual(2);
+    await expect(fit.getByRole('link', {name: 'Try a documented task below'})).toHaveAttribute('href', '#tool-workflow');
+    await expect(page.locator('#tool-workflow')).toHaveCount(1);
+    const [fitTop, statsTop, activityTop] = await page.evaluate(() => ['.task-fit', '.stars-panel', '#activity'].map(selector => document.querySelector(selector)!.getBoundingClientRect().top));
+    expect(fitTop, 'task fit precedes repository activity').toBeLessThan(activityTop);
+    // Desktop shows statistics in a side column; on phones the stack must lead with task fit.
+    if ((page.viewportSize()?.width ?? 1280) <= 760) expect(fitTop, 'task fit precedes stars on phones').toBeLessThan(statsTop);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+  }
+});
