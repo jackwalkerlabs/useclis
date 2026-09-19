@@ -331,19 +331,23 @@ test('Reviewed tool profiles lead with task fit and explained alternatives befor
   }
 });
 
-test('Homepage shows the agent workflow with three task examples linked to listings and docs', async ({page}, testInfo) => {
+test('Homepage agent section switches task examples linked to listings and docs', async ({page}, testInfo) => {
   await home(page);
-  await expect(page.getByRole('button', {name: 'Copy agent prompt'})).toBeVisible();
-  const examples = page.locator('.agent-prompt-examples li');
-  await expect(examples).toHaveCount(3);
-  for (const example of await examples.all()) {
-    await expect(example.locator('a[href^="/tools/"]')).toBeVisible();
-    await expect(example.getByRole('link', {name: /Official docs/})).toHaveAttribute('href', /^https:\/\//);
-    await expect(example.locator('code')).not.toBeEmpty();
+  const section = page.locator('.agent-prompt');
+  await expect(section.getByRole('button', {name: 'Copy agent prompt'})).toBeVisible();
+  const chips = section.getByRole('group', {name: 'Example tasks'}).getByRole('button');
+  expect(await chips.count()).toBeGreaterThanOrEqual(3);
+  const result = section.locator('.agent-prompt-result');
+  const commands = new Set<string>();
+  for (const chip of await chips.all()) {
+    await chip.click();
+    await expect(chip).toHaveAttribute('aria-pressed', 'true');
+    await expect(result.locator('a[href^="/tools/"]')).toBeVisible();
+    await expect(result.getByRole('link', {name: /Docs/})).toHaveAttribute('href', /^https:\/\//);
+    commands.add((await result.locator('code').textContent()) ?? '');
   }
-  await expect(page.locator('.agent-prompt-caveat')).toContainText('not a guarantee');
+  expect(commands.size, 'each task shows its own command').toBe(await chips.count());
+  await expect(section.locator('.agent-prompt-caveat')).toContainText('guarantee');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
-  await page.locator('.agent-prompt').screenshot({path: testInfo.outputPath('agent-workflow.png')});
-  await examples.first().locator('a[href^="/tools/"]').click();
-  await expect(page).toHaveURL(/\/tools\/jq\/$/);
+  await section.screenshot({path: testInfo.outputPath('agent-workflow.png')});
 });

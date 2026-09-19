@@ -20,16 +20,21 @@
 }
 
 .useclis-hero > .hero-intro { max-width: 520px; margin-inline: auto; }
-.agent-prompt-why { margin-top: 12px; font-size: .875rem; line-height: 1.5; color: var(--text-muted); }
-.agent-prompt-examples { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-subtle); }
-.agent-prompt-examples h3 { margin: 0; font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); }
-.agent-prompt-examples ol { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 8px 0 0; padding: 0; list-style: none; }
-.agent-prompt-examples li { display: flex; flex-direction: column; gap: 6px; min-width: 0; padding: 12px; border: 1px solid var(--border-subtle); border-radius: var(--radius-control); background: var(--surface-page); font-size: .8125rem; line-height: 1.45; }
+.agent-prompt-examples { margin-top: 12px; }
+.agent-prompt-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.agent-prompt-chips button { min-height: 32px; padding: 4px 10px; border: 1px solid var(--border-subtle); border-radius: 999px; background: var(--surface-page); color: var(--text-muted); font-size: .75rem; cursor: pointer; }
+.agent-prompt-chips button:hover { color: var(--text-strong); border-color: var(--border-default); }
+.agent-prompt-chips button[aria-pressed="true"] { background: var(--text-strong); border-color: var(--text-strong); color: white; }
+.agent-prompt-chips button:focus-visible { outline: 2px solid var(--green-600); outline-offset: 2px; }
+.agent-prompt-result { margin-top: 8px; padding: 10px 12px; border-radius: var(--radius-control); background: var(--surface-page); font-size: .8125rem; line-height: 1.5; }
 .agent-prompt-task { color: var(--text-body); font-weight: 600; }
-.agent-prompt-tool { color: var(--text-muted); }
-.agent-prompt-tool a { color: var(--text-strong); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
-.agent-prompt-tool > span:last-child { margin-left: 4px; font-size: .75rem; }
-.agent-prompt-examples code { color: var(--text-strong); font-family: var(--font-mono); font-size: .75rem; overflow-wrap: anywhere; }
-.agent-prompt-docs { margin-top: auto; padding-block: 6px; font-size: .75rem; color: var(--text-muted); text-decoration: underline; text-underline-offset: 3px; }
-.agent-prompt-caveat { margin-top: 8px; font-size: .75rem; line-height: 1.5; color: var(--text-muted); }
-@media (width < 48rem) { .agent-prompt-examples ol { grid-template-columns: 1fr; } .agent-prompt-docs { min-height: 44px; display: inline-flex; align-items: center; } }
+.agent-prompt-result a { color: var(--text-strong); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.agent-prompt-result .agent-prompt-docs { display: inline-flex; align-items: center; gap: 2px; margin-left: 6px; color: var(--text-muted); font-weight: 400; font-size: .75rem; }
+.agent-prompt-result code { display: block; margin-top: 4px; color: var(--text-strong); font-family: var(--font-mono); font-size: .75rem; overflow-wrap: anywhere; }
+.agent-prompt-result code > span { color: var(--green-600); }
+.agent-prompt-caveat { flex-basis: 100%; }
+/* Phones keep the chips on one scrollable row instead of stacking. */
+@media (width < 48rem) {
+  .agent-prompt-chips { flex-wrap: nowrap; gap: 8px; overflow-x: auto; margin-inline: -16px; padding: 2px 16px 4px; scrollbar-width: none; }
+  .agent-prompt-chips button { flex-shrink: 0; min-height: 44px; }
+}
