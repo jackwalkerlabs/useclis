@@ -8,6 +8,7 @@ import { tools } from '../src/data/tools.ts';
 test('Share card shows only catalog commands and matches its declared dimensions', async () => {
   for (const command of cardCommands) assert.ok(tools.some(tool => tool.command === command), `${command} is listed`);
   const png = await readFile(new URL(`../public${defaultShareImage.path}`, import.meta.url));
+  assert.equal(defaultShareImage.type, 'image/png');
   assert.equal(png.subarray(1, 4).toString(), 'PNG');
   assert.deepEqual([png.readUInt32BE(16), png.readUInt32BE(20)], [defaultShareImage.width, defaultShareImage.height]);
   assert.ok(png.length < 300_000, 'share image stays small enough for link unfurlers');
@@ -19,4 +20,10 @@ test('Shared layout emits complete Open Graph and X card metadata without remote
     assert.match(layout, new RegExp(`"${tag}"`), tag);
   }
   assert.doesNotMatch(layout, /<(?:script|link|img)[^>]+(?:src|href)="https?:/, 'no third-party pixels, scripts, or fonts');
+  assert.match(layout, /"og:image:type" content=\{image\.type\}/, 'image MIME type follows the override');
+});
+
+test('Owner pages mark only individual users as Open Graph profiles', async () => {
+  const page = await readFile(new URL('../src/pages/github/[login].astro', import.meta.url), 'utf8');
+  assert.match(page, /type=\{profile\.type === 'User' \? 'profile' : 'website'\}/);
 });

@@ -206,9 +206,14 @@ test('share metadata and preview image are complete on home and tool pages', asy
     // Fetch from the deployment under test; the tag itself names the production host.
     const png = await request.get(image.pathname);
     expect(png.status(), image.pathname).toBe(200);
-    expect(png.headers()['content-type']).toContain('image/png');
+    expect(png.headers()['content-type']).toContain(await meta('og:image:type'));
     const bytes = await png.body();
     expect([bytes.readUInt32BE(16), bytes.readUInt32BE(20)], 'PNG dimensions').toEqual([1200, 630]);
   }
   expect(descriptions[1], 'Tool pages override the shared description').not.toBe(descriptions[0]);
+  // og:type=profile describes a person; organizations remain websites.
+  for (const [path, type] of [['/github/burntsushi/', 'profile'], ['/github/jqlang/', 'website']]) {
+    expect((await page.goto(path))?.status(), path).toBe(200);
+    await expect(page.locator('head meta[property="og:type"]'), path).toHaveAttribute('content', type);
+  }
 });
