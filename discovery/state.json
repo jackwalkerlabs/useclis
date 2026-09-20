@@ -4,63 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "Canop/termimad"
-    },
-    {
-      "repo": "RoggeOhta/awesome-codex-cli"
-    },
-    {
-      "repo": "AmmarAbouZor/tui-journal"
-    },
-    {
-      "repo": "tizonia/tizonia-openmax-il"
-    },
-    {
-      "repo": "iAmCorey/kooky"
-    },
-    {
-      "repo": "alchaincyf/fanbox"
-    },
-    {
-      "repo": "tui-cs/TerminalGuiDesigner"
-    },
-    {
-      "repo": "meszmate/zigzag"
-    },
-    {
-      "repo": "termbox/termbox2"
-    },
-    {
-      "repo": "ericfreese/rat"
-    },
-    {
-      "repo": "wiscaksono/site"
-    },
-    {
-      "repo": "ohmybash/oh-my-bash"
-    },
-    {
-      "repo": "ggozad/oterm"
-    },
-    {
-      "repo": "spaceship-prompt/spaceship-prompt"
-    },
-    {
-      "repo": "tonyantony300/dashbeam"
-    },
-    {
-      "repo": "GMSSH/GMSSH"
-    },
-    {
-      "repo": "orbitalquark/textadept"
-    },
-    {
-      "repo": "alacritty/alacritty"
-    },
-    {
-      "repo": "maxcurzi/tplay"
-    },
-    {
       "repo": "ajalt/mordant"
     },
     {
@@ -4405,7 +4348,8 @@
     },
     "tizonia/tizonia-openmax-il": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "cookpete/auto-changelog": {
@@ -9158,8 +9102,9 @@
     },
     "roggeohta/awesome-codex-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "todotxt/todo.txt-cli": {
       "status": "held",
@@ -14553,8 +14498,9 @@
     },
     "ericfreese/rat": {
       "status": "held",
-      "checkedAt": "2026-09-15T16:44:25.222Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "yonaskolb/xcodegen": {
       "status": "held",
@@ -18908,8 +18854,9 @@
     },
     "spaceship-prompt/spaceship-prompt": {
       "status": "held",
-      "checkedAt": "2026-09-16T23:44:06.841Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "libspatialindex/libspatialindex": {
       "status": "held",
@@ -20467,7 +20414,124 @@
       "checkedAt": "2026-09-20T07:44:08.016Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "canop/termimad": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ammarabouzor/tui-journal": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "iamcorey/kooky": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "alchaincyf/fanbox": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tui-cs/terminalguidesigner": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "meszmate/zigzag": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "termbox/termbox2": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "wiscaksono/site": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ohmybash/oh-my-bash": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ggozad/oterm": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tonyantony300/dashbeam": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gmssh/gmssh": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "orbitalquark/textadept": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "alacritty/alacritty": {
+      "status": "held",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "maxcurzi/tplay": {
+      "status": "accepted",
+      "checkedAt": "2026-09-20T08:44:26.742Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "maxcurzi-tplay",
+      "acceptedAt": "2026-09-20T08:44:26.742Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/maxcurzi/tplay/blob/c62dca0da1696e57eb9726cfe08354311587fb7f/Cargo.toml",
+          "snippet": "[[bin]] name=\"tplay\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/maxcurzi/tplay/blob/c62dca0da1696e57eb9726cfe08354311587fb7f/README.md",
+          "snippet": "cargo install tplay         # fresh install"
+        },
+        "usage": {
+          "url": "https://github.com/maxcurzi/tplay/blob/c62dca0da1696e57eb9726cfe08354311587fb7f/README.md",
+          "snippet": "tplay ./image.png"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/maxcurzi/tplay",
+          "snippet": "A terminal ASCII media player. View images, gifs, videos, webcam, YouTube, etc.. directly in the terminal as ASCII art."
+        },
+        "adoption": {
+          "stars": 684,
+          "githubSource": "https://github.com/maxcurzi/tplay",
+          "homebrew": null
+        },
+        "commit": "c62dca0da1696e57eb9726cfe08354311587fb7f"
+      }
     }
   },
-  "lastRunAt": "2026-09-20T07:44:08.016Z"
+  "lastRunAt": "2026-09-20T08:44:26.742Z"
 }

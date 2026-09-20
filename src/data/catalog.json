@@ -6467,5 +6467,21 @@
     "example": "jiratui ui",
     "website": "https://github.com/whyisdifficult/jiratui",
     "docs": "https://github.com/whyisdifficult/jiratui/blob/de1edf1988e666df778e623efa9d9799cd5863a1/README.md"
+  },
+  {
+    "slug": "maxcurzi-tplay",
+    "name": "tplay",
+    "repo": "maxcurzi/tplay",
+    "category": "Terminal utilities",
+    "command": "tplay",
+    "useCase": "A terminal ASCII media player. View images, gifs, videos, webcam, YouTube, etc.. directly in the terminal as ASCII art.",
+    "description": "A terminal ASCII media player. View images, gifs, videos, webcam, YouTube, etc.. directly in the terminal as ASCII art.",
+    "agentUse": "Invoke tplay from a shell for the documented use case: A terminal ASCII media player. View images, gifs, videos, webcam, YouTube, etc.. directly in the terminal as ASCII art.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "tplay ./image.png",
+    "website": "https://github.com/maxcurzi/tplay",
+    "docs": "https://github.com/maxcurzi/tplay/blob/c62dca0da1696e57eb9726cfe08354311587fb7f/README.md"
   }
 ]

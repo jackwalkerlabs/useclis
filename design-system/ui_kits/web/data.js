@@ -7582,6 +7582,25 @@ window.USECLIS_DATA = {
       "stars": 1698,
       "license": "MIT",
       "checkedAt": "2026-09-20T06:44:51.871Z"
+    },
+    {
+      "slug": "maxcurzi-tplay",
+      "name": "tplay",
+      "repo": "maxcurzi/tplay",
+      "category": "Terminal utilities",
+      "command": "tplay",
+      "useCase": "A terminal ASCII media player. View images, gifs, videos, webcam, YouTube, etc.. directly in the terminal as ASCII art.",
+      "description": "A terminal ASCII media player. View images, gifs, videos, webcam, YouTube, etc.. directly in the terminal as ASCII art.",
+      "agentUse": "Invoke tplay from a shell for the documented use case: A terminal ASCII media player. View images, gifs, videos, webcam, YouTube, etc.. directly in the terminal as ASCII art.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "tplay ./image.png",
+      "website": "https://github.com/maxcurzi/tplay",
+      "docs": "https://github.com/maxcurzi/tplay/blob/c62dca0da1696e57eb9726cfe08354311587fb7f/README.md",
+      "stars": 684,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T08:44:48.379Z"
     }
   ],
   "categories": [

@@ -4249,5 +4249,18 @@
     "createdAt": "2019-07-09T10:04:29Z",
     "checkedAt": "2026-09-20T06:44:54.899Z",
     "source": "https://github.com/whyisdifficult"
+  },
+  "maxcurzi": {
+    "login": "maxcurzi",
+    "name": "Max Curzi",
+    "type": "User",
+    "bio": null,
+    "location": "Cambridge (UK)",
+    "website": null,
+    "followers": 7,
+    "publicRepos": 14,
+    "createdAt": "2017-07-11T17:07:28Z",
+    "checkedAt": "2026-09-20T08:44:49.764Z",
+    "source": "https://github.com/maxcurzi"
   }
 }

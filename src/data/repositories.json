@@ -5563,5 +5563,20 @@
     "repositoryId": 1031945919,
     "attemptedAt": "2026-09-20T06:44:51.526Z",
     "status": "ok"
+  },
+  "maxcurzi-tplay": {
+    "defaultBranch": "main",
+    "createdAt": "2023-04-04T09:25:30Z",
+    "pushedAt": "2026-08-31T07:36:41Z",
+    "lastCommitAt": "2026-08-31T06:42:19Z",
+    "stars": 684,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-20T08:44:48.379Z",
+    "source": "https://github.com/maxcurzi/tplay",
+    "canonicalSource": "https://github.com/maxcurzi/tplay",
+    "repositoryId": 623391325,
+    "attemptedAt": "2026-09-20T08:44:47.830Z",
+    "status": "ok"
   }
 }
