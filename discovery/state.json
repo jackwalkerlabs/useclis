@@ -4,144 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "1jehuang/mermaid-rs-renderer"
-    },
-    {
-      "repo": "taiki-e/cargo-llvm-cov"
-    },
-    {
-      "repo": "privatenumber/tasuku"
-    },
-    {
-      "repo": "lindell/multi-gitter"
-    },
-    {
-      "repo": "rasterio/rasterio"
-    },
-    {
-      "repo": "afar1/fieldtheory-cli"
-    },
-    {
-      "repo": "zhiburt/tabled"
-    },
-    {
-      "repo": "buyukakyuz/install-nothing"
-    },
-    {
-      "repo": "jreleaser/jreleaser"
-    },
-    {
-      "repo": "fiso64/sockseek"
-    },
-    {
-      "repo": "usagi-flow/evil-helix"
-    },
-    {
-      "repo": "flozz/rivalcfg"
-    },
-    {
-      "repo": "pimutils/vdirsyncer"
-    },
-    {
-      "repo": "supreme-gg-gg/instagram-cli"
-    },
-    {
-      "repo": "elirantutia/vibeyard"
-    },
-    {
-      "repo": "Urigo/graphql-cli"
-    },
-    {
-      "repo": "pixop/video-compare"
-    },
-    {
-      "repo": "HemmeligOrg/Hemmelig.app"
-    },
-    {
-      "repo": "stormzhang/ai-coding-guide"
-    },
-    {
-      "repo": "simonw/sqlite-utils"
-    },
-    {
-      "repo": "jfernandez/bpftop"
-    },
-    {
-      "repo": "Tyrrrz/CliFx"
-    },
-    {
-      "repo": "dlvhdr/diffnav"
-    },
-    {
-      "repo": "vbauerster/mpb"
-    },
-    {
-      "repo": "fsociety-team/fsociety"
-    },
-    {
-      "repo": "apconw/Aix-DB"
-    },
-    {
-      "repo": "kalil0321/reverse-api-engineer"
-    },
-    {
-      "repo": "Benexl/yt-x"
-    },
-    {
-      "repo": "rest-sh/restish"
-    },
-    {
-      "repo": "seachicken/gh-poi"
-    },
-    {
-      "repo": "noborus/trdsql"
-    },
-    {
-      "repo": "quantumsheep/sshs"
-    },
-    {
-      "repo": "warpdotdev/themes"
-    },
-    {
-      "repo": "Albert-Weasker/niubi_guard"
-    },
-    {
-      "repo": "MacPaw/cleanmymac-cli"
-    },
-    {
-      "repo": "Everduin94/better-commits"
-    },
-    {
-      "repo": "carvel-dev/kapp"
-    },
-    {
-      "repo": "carvel-dev/ytt"
-    },
-    {
-      "repo": "DnsChanger/dnsChanger-desktop"
-    },
-    {
-      "repo": "aws/amazon-q-developer-cli"
-    },
-    {
-      "repo": "bashly-framework/bashly"
-    },
-    {
-      "repo": "vividvilla/csvtotable"
-    },
-    {
-      "repo": "pathintegral-institute/mcpm.sh"
-    },
-    {
-      "repo": "altsem/gitu"
-    },
-    {
-      "repo": "Zhengqbbb/cz-git"
-    },
-    {
-      "repo": "chaqchase/lla"
-    },
-    {
       "repo": "variety/variety"
     },
     {
@@ -3005,8 +2867,9 @@
     },
     "usagi-flow/evil-helix": {
       "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "christo-auer/eilmeldung": {
       "status": "held",
@@ -3127,8 +2990,9 @@
     },
     "tyrrrz/clifx": {
       "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "tyrrrz/cliwrap": {
       "status": "held",
@@ -4447,7 +4311,8 @@
     },
     "macpaw/cleanmymac-cli": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "vanilla-os/apx": {
@@ -5152,8 +5017,9 @@
     },
     "urigo/graphql-cli": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cloudflare/cf-terraforming": {
       "status": "held",
@@ -6525,8 +6391,9 @@
     },
     "bashly-framework/bashly": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "klemen1337/node-thermal-printer": {
       "status": "held",
@@ -9277,8 +9144,9 @@
     },
     "taiki-e/cargo-llvm-cov": {
       "status": "held",
-      "checkedAt": "2026-09-14T17:44:24.786Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "nextest-rs/nextest": {
       "status": "held",
@@ -9569,9 +9437,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "1jehuang/mermaid-rs-renderer": {
-      "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "1jehuang-mermaid-rs-renderer",
+      "acceptedAt": "2026-09-20T02:44:02.773Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/1jehuang/mermaid-rs-renderer/blob/3726ccbffe0e8032361eb9668694b24f77858060/Cargo.toml",
+          "snippet": "package.name=\"mermaid-rs-renderer\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/1jehuang/mermaid-rs-renderer/blob/3726ccbffe0e8032361eb9668694b24f77858060/README.md",
+          "snippet": "cargo install mermaid-rs-renderer"
+        },
+        "usage": {
+          "url": "https://github.com/1jehuang/mermaid-rs-renderer/blob/3726ccbffe0e8032361eb9668694b24f77858060/README.md",
+          "snippet": "mermaid-rs-renderer = \"0.3.1\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/1jehuang/mermaid-rs-renderer",
+          "snippet": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli."
+        },
+        "adoption": {
+          "stars": 1722,
+          "githubSource": "https://github.com/1jehuang/mermaid-rs-renderer",
+          "homebrew": null
+        },
+        "commit": "3726ccbffe0e8032361eb9668694b24f77858060"
+      }
     },
     "brandonyoungdev/tldx": {
       "status": "held",
@@ -9595,8 +9491,9 @@
     },
     "privatenumber/tasuku": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "roggeohta/awesome-codex-cli": {
       "status": "held",
@@ -9615,8 +9512,9 @@
     },
     "lindell/multi-gitter": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "showwin/speedtest-go": {
       "status": "held",
@@ -9630,8 +9528,9 @@
     },
     "rasterio/rasterio": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "kiryano/scout": {
       "status": "held",
@@ -9687,8 +9586,9 @@
     },
     "zhiburt/tabled": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "next-hat/nanocl": {
       "status": "held",
@@ -9697,8 +9597,9 @@
     },
     "buyukakyuz/install-nothing": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ducaale/xh": {
       "status": "held",
@@ -9712,13 +9613,15 @@
     },
     "jreleaser/jreleaser": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "fiso64/sockseek": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "postcss/postcss-cli": {
       "status": "held",
@@ -9742,8 +9645,9 @@
     },
     "flozz/rivalcfg": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "roninoss/create-expo-stack": {
       "status": "held",
@@ -9784,8 +9688,9 @@
     },
     "supreme-gg-gg/instagram-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "stoplightio/prism": {
       "status": "held",
@@ -9794,8 +9699,9 @@
     },
     "elirantutia/vibeyard": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "illusionna/localtransfer": {
       "status": "held",
@@ -9804,8 +9710,9 @@
     },
     "pixop/video-compare": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "l0ng-ai/papr": {
       "status": "held",
@@ -9825,8 +9732,9 @@
     },
     "hemmeligorg/hemmelig.app": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ykdojo/claude-code-tips": {
       "status": "held",
@@ -9835,8 +9743,9 @@
     },
     "stormzhang/ai-coding-guide": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "kuberwastaken/claurst": {
       "status": "held",
@@ -10300,8 +10209,9 @@
     },
     "jfernandez/bpftop": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cisco-talos/clamav": {
       "status": "held",
@@ -10357,8 +10267,9 @@
     },
     "dlvhdr/diffnav": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "aldanial/cloc": {
       "status": "held",
@@ -10455,8 +10366,9 @@
     },
     "vbauerster/mpb": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cert-manager/cmctl": {
       "status": "held",
@@ -10491,8 +10403,9 @@
     },
     "fsociety-team/fsociety": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bartolli/codanna": {
       "status": "held",
@@ -10617,9 +10530,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "apconw/aix-db": {
-      "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "apconw-aix-db",
+      "acceptedAt": "2026-09-20T02:44:02.773Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/apconw/Aix-DB/blob/27aab1ecc2e28f482be6a2f6069a12c44acbebb6/aix-db-cli/package.json",
+          "snippet": "{\"bin\":{\"aix-db-cli\":\"bin/aix-db-cli.js\"}}",
+          "target": "aix-db-cli/bin/aix-db-cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/apconw/Aix-DB/blob/27aab1ecc2e28f482be6a2f6069a12c44acbebb6/README.md",
+          "snippet": "npm install -g @apconw/aix-db-cli"
+        },
+        "usage": {
+          "url": "https://github.com/apconw/Aix-DB/blob/27aab1ecc2e28f482be6a2f6069a12c44acbebb6/README.md",
+          "snippet": "aix-db-cli datasources"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/apconw/Aix-DB",
+          "snippet": "Aix-DB 基于 LangChain/LangGraph 框架，结合 MCP Skills 多智能体协作架构，实现自然语言到数据洞察的端到端转换。"
+        },
+        "adoption": {
+          "stars": 2246,
+          "githubSource": "https://github.com/apconw/Aix-DB",
+          "homebrew": null
+        },
+        "commit": "27aab1ecc2e28f482be6a2f6069a12c44acbebb6"
+      }
     },
     "commitizen-tools/commitizen": {
       "status": "held",
@@ -10633,12 +10574,14 @@
     },
     "benexl/yt-x": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "rest-sh/restish": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "yusukebe/gh-markdown-preview": {
@@ -10649,8 +10592,9 @@
     },
     "seachicken/gh-poi": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "privatenumber/tsx": {
       "status": "held",
@@ -10659,7 +10603,8 @@
     },
     "noborus/trdsql": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "j178/chatgpt": {
@@ -10670,12 +10615,14 @@
     },
     "quantumsheep/sshs": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "warpdotdev/themes": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
       "reason": "Archived, disabled, forked, private, or template repository"
     },
     "yashlamba/handwrite": {
@@ -10707,8 +10654,9 @@
     },
     "albert-weasker/niubi_guard": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "icinga/icingaweb2": {
       "status": "held",
@@ -10728,8 +10676,9 @@
     },
     "everduin94/better-commits": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "avencera/rustywind": {
       "status": "held",
@@ -10787,8 +10736,9 @@
     },
     "carvel-dev/kapp": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "composegears/valkyrie": {
       "status": "held",
@@ -10803,17 +10753,20 @@
     },
     "carvel-dev/ytt": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dnschanger/dnschanger-desktop": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "aws/amazon-q-developer-cli": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "drasimwagan/mdv": {
@@ -10946,8 +10899,9 @@
     },
     "altsem/gitu": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "zhengqbbb/cz-git": {
       "status": "accepted",
@@ -10988,9 +10942,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "chaqchase/lla": {
-      "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "chaqchase-lla",
+      "acceptedAt": "2026-09-20T02:44:02.773Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/chaqchase/lla/blob/d8c8c7775bd7692e6488fc47fbc6be4759785372/lla/Cargo.toml",
+          "snippet": "package.name=\"lla\"; src/main.rs",
+          "target": "lla/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/chaqchase/lla/blob/d8c8c7775bd7692e6488fc47fbc6be4759785372/README.md",
+          "snippet": "| Cargo | `cargo install lla` |"
+        },
+        "usage": {
+          "url": "https://github.com/chaqchase/lla/blob/d8c8c7775bd7692e6488fc47fbc6be4759785372/README.md",
+          "snippet": "lla init"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/chaqchase/lla",
+          "snippet": "blazing fast `ls` replacement with superpowers"
+        },
+        "adoption": {
+          "stars": 1223,
+          "githubSource": "https://github.com/chaqchase/lla",
+          "homebrew": null
+        },
+        "commit": "d8c8c7775bd7692e6488fc47fbc6be4759785372"
+      }
     },
     "niklasrosenstein/pydoc-markdown": {
       "status": "held",
@@ -15720,9 +15702,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "kalil0321/reverse-api-engineer": {
-      "status": "held",
-      "checkedAt": "2026-09-16T00:44:17.092Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T02:44:02.773Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "kalil0321-reverse-api-engineer",
+      "acceptedAt": "2026-09-20T02:44:02.773Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/kalil0321/reverse-api-engineer/blob/83308ef3103a4d8d7aa11bb8de7f2cf05ed256d8/pyproject.toml",
+          "snippet": "reverse-api-engineer = \"reverse_api.cli:main\"",
+          "target": "src/reverse_api/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/kalil0321/reverse-api-engineer/blob/83308ef3103a4d8d7aa11bb8de7f2cf05ed256d8/README.md",
+          "snippet": "uv tool install reverse-api-engineer   # or: pip install reverse-api-engineer"
+        },
+        "usage": {
+          "url": "https://github.com/kalil0321/reverse-api-engineer/blob/83308ef3103a4d8d7aa11bb8de7f2cf05ed256d8/README.md",
+          "snippet": "reverse-api-engineer list --json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kalil0321/reverse-api-engineer",
+          "snippet": "The agent that turns websites into APIs!"
+        },
+        "adoption": {
+          "stars": 1174,
+          "githubSource": "https://github.com/kalil0321/reverse-api-engineer",
+          "homebrew": null
+        },
+        "commit": "83308ef3103a4d8d7aa11bb8de7f2cf05ed256d8"
+      }
     },
     "rakyll/hey": {
       "status": "held",
@@ -20062,5 +20072,5 @@
       "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-20T01:44:05.858Z"
+  "lastRunAt": "2026-09-20T02:44:02.773Z"
 }

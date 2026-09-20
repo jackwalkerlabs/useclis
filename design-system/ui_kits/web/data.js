@@ -7031,6 +7031,82 @@ window.USECLIS_DATA = {
       "stars": 679,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-20T01:44:46.668Z"
+    },
+    {
+      "slug": "1jehuang-mermaid-rs-renderer",
+      "name": "mermaid-rs-renderer",
+      "repo": "1jehuang/mermaid-rs-renderer",
+      "category": "Terminal utilities",
+      "command": "mermaid-rs-renderer",
+      "useCase": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli.",
+      "description": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli.",
+      "agentUse": "Invoke mermaid-rs-renderer from a shell for the documented use case: A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mermaid-rs-renderer = \"0.3.1\"",
+      "website": "https://github.com/1jehuang/mermaid-rs-renderer",
+      "docs": "https://github.com/1jehuang/mermaid-rs-renderer/blob/3726ccbffe0e8032361eb9668694b24f77858060/README.md",
+      "stars": 1722,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T02:44:58.821Z"
+    },
+    {
+      "slug": "apconw-aix-db",
+      "name": "Aix-DB",
+      "repo": "apconw/Aix-DB",
+      "category": "Terminal utilities",
+      "command": "aix-db-cli",
+      "useCase": "Aix-DB 基于 LangChain/LangGraph 框架，结合 MCP Skills 多智能体协作架构，实现自然语言到数据洞察的端到端转换。",
+      "description": "Aix-DB 基于 LangChain/LangGraph 框架，结合 MCP Skills 多智能体协作架构，实现自然语言到数据洞察的端到端转换。",
+      "agentUse": "Invoke aix-db-cli from a shell for the documented use case: Aix-DB 基于 LangChain/LangGraph 框架，结合 MCP Skills 多智能体协作架构，实现自然语言到数据洞察的端到端转换。",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "aix-db-cli datasources",
+      "website": "https://github.com/apconw/Aix-DB",
+      "docs": "https://github.com/apconw/Aix-DB/blob/27aab1ecc2e28f482be6a2f6069a12c44acbebb6/README.md",
+      "stars": 2246,
+      "license": null,
+      "checkedAt": "2026-09-20T02:44:59.412Z"
+    },
+    {
+      "slug": "kalil0321-reverse-api-engineer",
+      "name": "reverse-api-engineer",
+      "repo": "kalil0321/reverse-api-engineer",
+      "category": "Agents & models",
+      "command": "reverse-api-engineer",
+      "useCase": "The agent that turns websites into APIs!",
+      "description": "The agent that turns websites into APIs!",
+      "agentUse": "Invoke reverse-api-engineer from a shell for the documented use case: The agent that turns websites into APIs!",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "reverse-api-engineer list --json",
+      "website": "https://github.com/kalil0321/reverse-api-engineer",
+      "docs": "https://github.com/kalil0321/reverse-api-engineer/blob/83308ef3103a4d8d7aa11bb8de7f2cf05ed256d8/README.md",
+      "stars": 1174,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T02:45:00.052Z"
+    },
+    {
+      "slug": "chaqchase-lla",
+      "name": "lla",
+      "repo": "chaqchase/lla",
+      "category": "Terminal utilities",
+      "command": "lla",
+      "useCase": "blazing fast `ls` replacement with superpowers",
+      "description": "blazing fast `ls` replacement with superpowers",
+      "agentUse": "Invoke lla from a shell for the documented use case: blazing fast `ls` replacement with superpowers",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lla init",
+      "website": "https://github.com/chaqchase/lla",
+      "docs": "https://github.com/chaqchase/lla/blob/d8c8c7775bd7692e6488fc47fbc6be4759785372/README.md",
+      "stars": 1223,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T02:45:00.843Z"
     }
   ],
   "categories": [

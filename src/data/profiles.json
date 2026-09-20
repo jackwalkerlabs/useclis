@@ -3898,5 +3898,57 @@
     "createdAt": "2019-10-10T15:43:53Z",
     "checkedAt": "2026-09-20T01:44:49.287Z",
     "source": "https://github.com/oskvr37"
+  },
+  "1jehuang": {
+    "login": "1jehuang",
+    "name": "Jeremy Huang",
+    "type": "User",
+    "bio": "Founder of Jcode",
+    "location": "SF",
+    "website": "Jcode.sh",
+    "followers": 873,
+    "publicRepos": 59,
+    "createdAt": "2021-11-13T19:12:10Z",
+    "checkedAt": "2026-09-20T02:45:02.961Z",
+    "source": "https://github.com/1jehuang"
+  },
+  "apconw": {
+    "login": "apconw",
+    "name": "AiAdventurer",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 42,
+    "publicRepos": 27,
+    "createdAt": "2015-07-15T04:12:02Z",
+    "checkedAt": "2026-09-20T02:45:03.535Z",
+    "source": "https://github.com/apconw"
+  },
+  "kalil0321": {
+    "login": "kalil0321",
+    "name": "kalil0321",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": "kalil0321.com",
+    "followers": 58,
+    "publicRepos": 16,
+    "createdAt": "2021-10-15T04:31:12Z",
+    "checkedAt": "2026-09-20T02:45:03.965Z",
+    "source": "https://github.com/kalil0321"
+  },
+  "chaqchase": {
+    "login": "chaqchase",
+    "name": "Mohamed Achaq",
+    "type": "User",
+    "bio": "Sr. Software Engineer",
+    "location": "Morocco",
+    "website": "https://chaqchase.com",
+    "followers": 107,
+    "publicRepos": 43,
+    "createdAt": "2021-10-20T13:27:35Z",
+    "checkedAt": "2026-09-20T02:45:04.407Z",
+    "source": "https://github.com/chaqchase"
   }
 }
