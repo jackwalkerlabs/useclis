@@ -12,7 +12,7 @@ const packageSnapshots = downloadSnapshots as Record<string, Record<string, Down
 import type { HomebrewMapping, HomebrewSnapshot } from '../lib/homebrew.mjs';
 const brewMappings: Record<string, HomebrewMapping> = homebrewMappings;
 const brewSnapshots = homebrewSnapshots as Record<string, HomebrewSnapshot>;
-export const categories = ['Agents & models', 'Browser automation', 'Git & collaboration', 'Code search', 'Data & APIs', 'Cloud & deployment', 'Packages & environments', 'Testing & quality', 'Files & documents', 'Productivity & communication', 'Security & secrets'];
+export const categories = ['Agents & models', 'Browser automation', 'Git & collaboration', 'Code search', 'Data & APIs', 'Cloud & deployment', 'Packages & environments', 'Testing & quality', 'Files & documents', 'Productivity & communication', 'Security & secrets', 'Terminal utilities'];
 const sourceByRepo = new Map(sourceList.map(row => [row.github_url.toLowerCase(), row]));
 // Catalog entries are appended when listed; preserve that order for discovery.
 export const tools = catalog.map((tool, listedOrder) => {
