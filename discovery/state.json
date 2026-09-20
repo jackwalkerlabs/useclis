@@ -4,130 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "yashlamba/handwrite"
-    },
-    {
-      "repo": "rockdaboot/libpsl",
-      "formula": "libpsl"
-    },
-    {
-      "repo": "simeg/eureka"
-    },
-    {
-      "repo": "unjs/std-env"
-    },
-    {
-      "repo": "neur0map/glazepkg"
-    },
-    {
-      "repo": "lightonai/next-plaid"
-    },
-    {
-      "repo": "ComposeGears/Valkyrie"
-    },
-    {
-      "repo": "ihabunek/twitch-dl"
-    },
-    {
-      "repo": "r-lib/cli"
-    },
-    {
-      "repo": "privatenumber/mac-ocr"
-    },
-    {
-      "repo": "ozwaldorf/lutgen-rs"
-    },
-    {
-      "repo": "NiklasRosenstein/pydoc-markdown"
-    },
-    {
-      "repo": "casey/intermodal"
-    },
-    {
-      "repo": "madlabsinc/mevn-cli"
-    },
-    {
-      "repo": "dob323/session-kit"
-    },
-    {
-      "repo": "gnomeria/usbtree"
-    },
-    {
-      "repo": "baairon/soundcli"
-    },
-    {
-      "repo": "TreborNamor/TradingView-Machine-Learning-GUI"
-    },
-    {
-      "repo": "j178/leetgo"
-    },
-    {
-      "repo": "OtterMind/Nubase"
-    },
-    {
-      "repo": "lightpohl/podcast-dl"
-    },
-    {
-      "repo": "SUPERCILEX/fuc"
-    },
-    {
-      "repo": "blob42/gosuki"
-    },
-    {
-      "repo": "z3z1ma/dbt-osmosis"
-    },
-    {
-      "repo": "adamreisnz/replace-in-file"
-    },
-    {
-      "repo": "mco-org/mco"
-    },
-    {
-      "repo": "wfxr/tmux-fzf-url"
-    },
-    {
-      "repo": "mattrobenolt/jinja2-cli"
-    },
-    {
-      "repo": "westpoint-io/lazyrsync"
-    },
-    {
-      "repo": "Stan-breaks/ytsurf"
-    },
-    {
-      "repo": "291-Group/LAN-Orangutan"
-    },
-    {
-      "repo": "EdJoPaTo/mqttui"
-    },
-    {
-      "repo": "Railly/tinte"
-    },
-    {
-      "repo": "videolabs/mirrorbits"
-    },
-    {
-      "repo": "one2nc/cloudlens"
-    },
-    {
-      "repo": "yeqown/go-qrcode"
-    },
-    {
-      "repo": "alexandremendoncaalvaro/CorridorKey-Runtime"
-    },
-    {
-      "repo": "darkrishabh/agent-skills-eval"
-    },
-    {
-      "repo": "Tenderly/tenderly-cli"
-    },
-    {
-      "repo": "Sinholms/setup-gateway"
-    },
-    {
-      "repo": "home-assistant-ecosystem/home-assistant-cli"
-    },
-    {
       "repo": "brettcannon/python-launcher"
     },
     {
@@ -4675,8 +4551,9 @@
     },
     "simeg/eureka": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "wp-cli/php-cli-tools": {
       "status": "held",
@@ -6785,8 +6662,9 @@
     },
     "r-lib/cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "internet-development/www-server-mono": {
       "status": "held",
@@ -6985,9 +6863,37 @@
       "reason": "Terminal use case needs classification"
     },
     "home-assistant-ecosystem/home-assistant-cli": {
-      "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "home-assistant-ecosystem-home-assistant-cli",
+      "acceptedAt": "2026-09-20T00:44:03.051Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/home-assistant-ecosystem/home-assistant-cli/blob/6174dd8de76ccd034576ba73e295d354a96fd12d/pyproject.toml",
+          "snippet": "hass-cli = \"homeassistant_cli.cli:run\"",
+          "target": "homeassistant_cli/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/home-assistant-ecosystem/home-assistant-cli/blob/6174dd8de76ccd034576ba73e295d354a96fd12d/README.rst",
+          "snippet": "$ pip install homeassistant-cli"
+        },
+        "usage": {
+          "url": "https://github.com/home-assistant-ecosystem/home-assistant-cli/blob/6174dd8de76ccd034576ba73e295d354a96fd12d/README.rst",
+          "snippet": "hass-cli template"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/home-assistant-ecosystem/home-assistant-cli",
+          "snippet": ":computer: Command-line tool for Home Assistant"
+        },
+        "adoption": {
+          "stars": 597,
+          "githubSource": "https://github.com/home-assistant-ecosystem/home-assistant-cli",
+          "homebrew": null
+        },
+        "commit": "6174dd8de76ccd034576ba73e295d354a96fd12d"
+      }
     },
     "nunomaduro/termwind": {
       "status": "held",
@@ -10866,13 +10772,15 @@
     },
     "yashlamba/handwrite": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "unjs/std-env": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "saulpw/visidata": {
       "status": "held",
@@ -10906,8 +10814,9 @@
     },
     "neur0map/glazepkg": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "everduin94/better-commits": {
       "status": "held",
@@ -10925,9 +10834,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "lightonai/next-plaid": {
-      "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "lightonai-next-plaid",
+      "acceptedAt": "2026-09-20T00:44:03.051Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/lightonai/next-plaid/blob/00e26aae0006b322727db277672211d9a0e3ccec/colgrep/Cargo.toml",
+          "snippet": "[[bin]] name=\"colgrep\" path=\"src/main.rs\"",
+          "target": "colgrep/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/lightonai/next-plaid/blob/00e26aae0006b322727db277672211d9a0e3ccec/colgrep/README.md",
+          "snippet": "cargo install colgrep"
+        },
+        "usage": {
+          "url": "https://github.com/lightonai/next-plaid/blob/00e26aae0006b322727db277672211d9a0e3ccec/README.md",
+          "snippet": "colgrep \"database connection pooling\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/lightonai/next-plaid",
+          "snippet": "NextPlaid, ColGREP: Multi-vector search, from database to coding agents."
+        },
+        "adoption": {
+          "stars": 546,
+          "githubSource": "https://github.com/lightonai/next-plaid",
+          "homebrew": null
+        },
+        "commit": "00e26aae0006b322727db277672211d9a0e3ccec"
+      }
     },
     "drovosek01/adobe-packager": {
       "status": "held",
@@ -10947,8 +10884,9 @@
     },
     "composegears/valkyrie": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "anil-matcha/awesome-dsh-plugin": {
       "status": "held",
@@ -10981,9 +10919,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "ihabunek/twitch-dl": {
-      "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ihabunek-twitch-dl",
+      "acceptedAt": "2026-09-20T00:44:03.051Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ihabunek/twitch-dl/blob/a8232c6dae5795d52ce4646099fcd3ec03976cda/pyproject.toml",
+          "snippet": "twitch-dl = \"twitchdl.cli:cli\"",
+          "target": "twitchdl/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/ihabunek/twitch-dl/blob/a8232c6dae5795d52ce4646099fcd3ec03976cda/docs/installation.md",
+          "snippet": "pipx install twitch-dl"
+        },
+        "usage": {
+          "url": "https://github.com/ihabunek/twitch-dl/blob/a8232c6dae5795d52ce4646099fcd3ec03976cda/README.md",
+          "snippet": "twitch-dl videos bananasaurus_rex"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ihabunek/twitch-dl",
+          "snippet": "CLI tool for downloading videos from Twitch."
+        },
+        "adoption": {
+          "stars": 762,
+          "githubSource": "https://github.com/ihabunek/twitch-dl",
+          "homebrew": null
+        },
+        "commit": "a8232c6dae5795d52ce4646099fcd3ec03976cda"
+      }
     },
     "timhartmann7/omnyssh": {
       "status": "held",
@@ -11056,8 +11022,9 @@
     },
     "privatenumber/mac-ocr": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "shobcoder/shob": {
       "status": "held",
@@ -11108,8 +11075,9 @@
     },
     "ozwaldorf/lutgen-rs": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "chaqchase/lla": {
       "status": "held",
@@ -11118,8 +11086,9 @@
     },
     "niklasrosenstein/pydoc-markdown": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "variety/variety": {
       "status": "held",
@@ -11138,18 +11107,21 @@
     },
     "madlabsinc/mevn-cli": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dob323/session-kit": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "gnomeria/usbtree": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cookiy-ai/user-research-skill": {
       "status": "held",
@@ -11620,8 +11592,9 @@
     },
     "baairon/soundcli": {
       "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "landing-ai/ade-cli": {
       "status": "held",
@@ -11649,9 +11622,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "trebornamor/tradingview-machine-learning-gui": {
-      "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "trebornamor-tradingview-machine-learning-gui",
+      "acceptedAt": "2026-09-20T00:44:03.051Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI/blob/04439529bab93a2b82a6777d3d0e6d28ffc1b19c/pyproject.toml",
+          "snippet": "tradingview-backtest = \"hyperview.cli:main\"",
+          "target": "hyperview/cli/__init__.py"
+        },
+        "installation": {
+          "url": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI/blob/04439529bab93a2b82a6777d3d0e6d28ffc1b19c/README.md",
+          "snippet": "pipx install tradingview-backtest"
+        },
+        "usage": {
+          "url": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI/blob/04439529bab93a2b82a6777d3d0e6d28ffc1b19c/README.md",
+          "snippet": "tradingview-backtest download-data --pairs NASDAQ:NFLX NASDAQ:AAPL --timeframe 1h --session extended"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/TreborNamor/TradingView-Machine-Learning-GUI",
+          "snippet": "HyperView is a terminal-first TradingView strategy lab for downloading market data, backtesting Python strategies with Pine-like behavior, and optimizing SL/TP parameters."
+        },
+        "adoption": {
+          "stars": 991,
+          "githubSource": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI",
+          "homebrew": null
+        },
+        "commit": "04439529bab93a2b82a6777d3d0e6d28ffc1b19c"
+      }
     },
     "yhirose/cpp-httplib": {
       "status": "held",
@@ -11660,8 +11661,9 @@
     },
     "j178/leetgo": {
       "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cppcheck-opensource/cppcheck": {
       "status": "held",
@@ -11670,8 +11672,9 @@
     },
     "ottermind/nubase": {
       "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "zeromq/cppzmq": {
       "status": "held",
@@ -11690,8 +11693,9 @@
     },
     "lightpohl/podcast-dl": {
       "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "google/go-containerregistry": {
       "status": "held",
@@ -11749,9 +11753,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "supercilex/fuc": {
-      "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "supercilex-fuc",
+      "acceptedAt": "2026-09-20T00:44:03.051Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/SUPERCILEX/fuc/blob/789ac5dbc11fb5b5df4844274d9e9b7f15536798/cpz/Cargo.toml",
+          "snippet": "package.name=\"cpz\"; src/main.rs",
+          "target": "cpz/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/SUPERCILEX/fuc/blob/789ac5dbc11fb5b5df4844274d9e9b7f15536798/cpz/README.md",
+          "snippet": "$ cargo install cpz"
+        },
+        "usage": {
+          "url": "https://github.com/SUPERCILEX/fuc/blob/789ac5dbc11fb5b5df4844274d9e9b7f15536798/cpz/README.md",
+          "snippet": "cpz from to"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/SUPERCILEX/fuc",
+          "snippet": "Modern, performance focused unix commands"
+        },
+        "adoption": {
+          "stars": 533,
+          "githubSource": "https://github.com/SUPERCILEX/fuc",
+          "homebrew": null
+        },
+        "commit": "789ac5dbc11fb5b5df4844274d9e9b7f15536798"
+      }
     },
     "weidai11/cryptopp": {
       "status": "held",
@@ -11817,8 +11849,9 @@
     },
     "blob42/gosuki": {
       "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rs/curlie": {
       "status": "held",
@@ -11842,8 +11875,9 @@
     },
     "z3z1ma/dbt-osmosis": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "qarmin/czkawka": {
       "status": "held",
@@ -11862,8 +11896,9 @@
     },
     "adamreisnz/replace-in-file": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "yoheimuta/protolint": {
       "status": "held",
@@ -11887,8 +11922,9 @@
     },
     "mco-org/mco": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "github/gh-skyline": {
       "status": "held",
@@ -11912,8 +11948,9 @@
     },
     "wfxr/tmux-fzf-url": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "wasm-bindgen/wasm-pack": {
       "status": "held",
@@ -11931,9 +11968,37 @@
       "reason": "Terminal use case needs classification"
     },
     "mattrobenolt/jinja2-cli": {
-      "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "mattrobenolt-jinja2-cli",
+      "acceptedAt": "2026-09-20T00:44:03.051Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mattrobenolt/jinja2-cli/blob/de1ec69e451f411effe16898e61c7effc4af4529/pyproject.toml",
+          "snippet": "jinja2 = \"jinja2cli:main\"",
+          "target": "jinja2cli/__init__.py"
+        },
+        "installation": {
+          "url": "https://github.com/mattrobenolt/jinja2-cli/blob/de1ec69e451f411effe16898e61c7effc4af4529/README.md",
+          "snippet": "$ uv tool install jinja2-cli"
+        },
+        "usage": {
+          "url": "https://github.com/mattrobenolt/jinja2-cli/blob/de1ec69e451f411effe16898e61c7effc4af4529/README.md",
+          "snippet": "jinja2 template.j2 data.json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mattrobenolt/jinja2-cli",
+          "snippet": "The CLI for Jinja2"
+        },
+        "adoption": {
+          "stars": 610,
+          "githubSource": "https://github.com/mattrobenolt/jinja2-cli",
+          "homebrew": null
+        },
+        "commit": "de1ec69e451f411effe16898e61c7effc4af4529"
+      }
     },
     "maticzav/emma-cli": {
       "status": "held",
@@ -11946,9 +12011,37 @@
       "reason": "Terminal use case needs classification"
     },
     "westpoint-io/lazyrsync": {
-      "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "westpoint-io-lazyrsync",
+      "acceptedAt": "2026-09-20T00:44:03.051Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/westpoint-io/lazyrsync/blob/e30d96b4c7d167b6db535931db2230afd619aa93/Cargo.toml",
+          "snippet": "package.name=\"lazyrsync\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/westpoint-io/lazyrsync/blob/e30d96b4c7d167b6db535931db2230afd619aa93/README.md",
+          "snippet": "cargo install lazyrsync      # crates.io"
+        },
+        "usage": {
+          "url": "https://github.com/westpoint-io/lazyrsync/blob/e30d96b4c7d167b6db535931db2230afd619aa93/README.md",
+          "snippet": "lazyrsync run backups"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/westpoint-io/lazyrsync",
+          "snippet": "🦀 A friendly terminal UI for rsync, written in Rust. Reusable profiles, an honest dry-run diff, and live progress, even over SSH."
+        },
+        "adoption": {
+          "stars": 854,
+          "githubSource": "https://github.com/westpoint-io/lazyrsync",
+          "homebrew": null
+        },
+        "commit": "e30d96b4c7d167b6db535931db2230afd619aa93"
+      }
     },
     "ofek/pyapp": {
       "status": "held",
@@ -11989,8 +12082,9 @@
     },
     "stan-breaks/ytsurf": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "helvesec/rmux": {
       "status": "held",
@@ -11999,13 +12093,15 @@
     },
     "291-group/lan-orangutan": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "edjopato/mqttui": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "m1ckc3s/claude-status-bar": {
       "status": "held",
@@ -12024,8 +12120,9 @@
     },
     "railly/tinte": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "wordops/wordops": {
       "status": "held",
@@ -12034,13 +12131,15 @@
     },
     "videolabs/mirrorbits": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "one2nc/cloudlens": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "antfu-collective/ni": {
       "status": "held",
@@ -12049,8 +12148,9 @@
     },
     "yeqown/go-qrcode": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "revylai/greenlight": {
       "status": "held",
@@ -12059,18 +12159,21 @@
     },
     "alexandremendoncaalvaro/corridorkey-runtime": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "darkrishabh/agent-skills-eval": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "tenderly/tenderly-cli": {
       "status": "held",
-      "checkedAt": "2026-09-15T05:44:18.625Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "astahmer/openapi-zod-client": {
       "status": "held",
@@ -12084,7 +12187,8 @@
     },
     "sinholms/setup-gateway": {
       "status": "held",
-      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "brettcannon/python-launcher": {
@@ -16524,8 +16628,9 @@
     },
     "rockdaboot/libpsl": {
       "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:44:03.051Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "host-oman/libraqm": {
       "status": "held",
@@ -19881,5 +19986,5 @@
       "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-20T00:25:23.374Z"
+  "lastRunAt": "2026-09-20T00:44:03.051Z"
 }

@@ -6784,6 +6784,139 @@ window.USECLIS_DATA = {
       "stars": 636,
       "license": "LGPL-2.1",
       "checkedAt": "2026-09-20T00:26:24.747Z"
+    },
+    {
+      "slug": "lightonai-next-plaid",
+      "name": "next-plaid",
+      "repo": "lightonai/next-plaid",
+      "category": "Code search",
+      "command": "colgrep",
+      "useCase": "NextPlaid, ColGREP: Multi-vector search, from database to coding agents.",
+      "description": "NextPlaid, ColGREP: Multi-vector search, from database to coding agents.",
+      "agentUse": "Invoke colgrep from a shell for the documented use case: NextPlaid, ColGREP: Multi-vector search, from database to coding agents.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "colgrep \"database connection pooling\"",
+      "website": "https://github.com/lightonai/next-plaid",
+      "docs": "https://github.com/lightonai/next-plaid/blob/00e26aae0006b322727db277672211d9a0e3ccec/README.md",
+      "stars": 546,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-20T00:44:50.478Z"
+    },
+    {
+      "slug": "ihabunek-twitch-dl",
+      "name": "twitch-dl",
+      "repo": "ihabunek/twitch-dl",
+      "category": "Terminal utilities",
+      "command": "twitch-dl",
+      "useCase": "CLI tool for downloading videos from Twitch.",
+      "description": "CLI tool for downloading videos from Twitch.",
+      "agentUse": "Invoke twitch-dl from a shell for the documented use case: CLI tool for downloading videos from Twitch.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "twitch-dl videos bananasaurus_rex",
+      "website": "https://github.com/ihabunek/twitch-dl",
+      "docs": "https://github.com/ihabunek/twitch-dl/blob/a8232c6dae5795d52ce4646099fcd3ec03976cda/README.md",
+      "stars": 762,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-20T00:44:51.213Z"
+    },
+    {
+      "slug": "trebornamor-tradingview-machine-learning-gui",
+      "name": "TradingView-Machine-Learning-GUI",
+      "repo": "TreborNamor/TradingView-Machine-Learning-GUI",
+      "category": "Terminal utilities",
+      "command": "tradingview-backtest",
+      "useCase": "HyperView is a terminal-first TradingView strategy lab for downloading market data, backtesting Python strategies with Pine-like behavior, and optimizing SL/TP parameters.",
+      "description": "HyperView is a terminal-first TradingView strategy lab for downloading market data, backtesting Python strategies with Pine-like behavior, and optimizing SL/TP parameters.",
+      "agentUse": "Invoke tradingview-backtest from a shell for the documented use case: HyperView is a terminal-first TradingView strategy lab for downloading market data, backtesting Python strategies with Pine-like behavior, and optimizing SL/TP parameters.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "tradingview-backtest download-data --pairs NASDAQ:NFLX NASDAQ:AAPL --timeframe 1h --session extended",
+      "website": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI",
+      "docs": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI/blob/04439529bab93a2b82a6777d3d0e6d28ffc1b19c/README.md",
+      "stars": 991,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T00:44:51.908Z"
+    },
+    {
+      "slug": "supercilex-fuc",
+      "name": "fuc",
+      "repo": "SUPERCILEX/fuc",
+      "category": "Files & documents",
+      "command": "cpz",
+      "useCase": "Modern, performance focused unix commands",
+      "description": "Modern, performance focused unix commands",
+      "agentUse": "Invoke cpz from a shell for the documented use case: Modern, performance focused unix commands",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "cpz from to",
+      "website": "https://github.com/SUPERCILEX/fuc",
+      "docs": "https://github.com/SUPERCILEX/fuc/blob/789ac5dbc11fb5b5df4844274d9e9b7f15536798/cpz/README.md",
+      "stars": 533,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-20T00:44:52.672Z"
+    },
+    {
+      "slug": "mattrobenolt-jinja2-cli",
+      "name": "jinja2-cli",
+      "repo": "mattrobenolt/jinja2-cli",
+      "category": "Data & APIs",
+      "command": "jinja2",
+      "useCase": "The CLI for Jinja2",
+      "description": "The CLI for Jinja2",
+      "agentUse": "Invoke jinja2 from a shell for the documented use case: The CLI for Jinja2",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "jinja2 template.j2 data.json",
+      "website": "https://github.com/mattrobenolt/jinja2-cli",
+      "docs": "https://github.com/mattrobenolt/jinja2-cli/blob/de1ec69e451f411effe16898e61c7effc4af4529/README.md",
+      "stars": 610,
+      "license": "BSD-2-Clause",
+      "checkedAt": "2026-09-20T00:44:53.337Z"
+    },
+    {
+      "slug": "westpoint-io-lazyrsync",
+      "name": "lazyrsync",
+      "repo": "westpoint-io/lazyrsync",
+      "category": "Files & documents",
+      "command": "lazyrsync",
+      "useCase": "🦀 A friendly terminal UI for rsync, written in Rust. Reusable profiles, an honest dry-run diff, and live progress, even over SSH.",
+      "description": "🦀 A friendly terminal UI for rsync, written in Rust. Reusable profiles, an honest dry-run diff, and live progress, even over SSH.",
+      "agentUse": "Invoke lazyrsync from a shell for the documented use case: 🦀 A friendly terminal UI for rsync, written in Rust. Reusable profiles, an honest dry-run diff, and live progress, even over SSH.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lazyrsync run backups",
+      "website": "https://github.com/westpoint-io/lazyrsync",
+      "docs": "https://github.com/westpoint-io/lazyrsync/blob/e30d96b4c7d167b6db535931db2230afd619aa93/README.md",
+      "stars": 854,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T00:44:53.950Z"
+    },
+    {
+      "slug": "home-assistant-ecosystem-home-assistant-cli",
+      "name": "home-assistant-cli",
+      "repo": "home-assistant-ecosystem/home-assistant-cli",
+      "category": "Terminal utilities",
+      "command": "hass-cli",
+      "useCase": ":computer: Command-line tool for Home Assistant",
+      "description": ":computer: Command-line tool for Home Assistant",
+      "agentUse": "Invoke hass-cli from a shell for the documented use case: :computer: Command-line tool for Home Assistant",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "hass-cli template",
+      "website": "https://github.com/home-assistant-ecosystem/home-assistant-cli",
+      "docs": "https://github.com/home-assistant-ecosystem/home-assistant-cli/blob/6174dd8de76ccd034576ba73e295d354a96fd12d/README.rst",
+      "stars": 597,
+      "license": null,
+      "checkedAt": "2026-09-20T00:44:54.578Z"
     }
   ],
   "categories": [
