@@ -3846,5 +3846,57 @@
     "createdAt": "2020-06-12T07:02:29Z",
     "checkedAt": "2026-09-20T00:44:59.326Z",
     "source": "https://github.com/home-assistant-ecosystem"
+  },
+  "remarshal-project": {
+    "login": "remarshal-project",
+    "name": "Remarshal Project",
+    "type": "Organization",
+    "bio": "Remarshal is a CBOR/JSON/MsgPack/TOML/YAML format converter",
+    "location": null,
+    "website": null,
+    "followers": 2,
+    "publicRepos": 1,
+    "createdAt": "2022-11-30T10:07:24Z",
+    "checkedAt": "2026-09-20T01:44:48.694Z",
+    "source": "https://github.com/remarshal-project"
+  },
+  "codesnap-rs": {
+    "login": "codesnap-rs",
+    "name": "codesnap-rs",
+    "type": "Organization",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 2,
+    "publicRepos": 6,
+    "createdAt": "2025-03-15T09:00:14Z",
+    "checkedAt": "2026-09-20T01:44:48.860Z",
+    "source": "https://github.com/codesnap-rs"
+  },
+  "esubaalew": {
+    "login": "Esubaalew",
+    "name": "Esubalew Chekol ",
+    "type": "User",
+    "bio": "A Fullstack Software Engineer and AI enthusiast.\r\n",
+    "location": "Addis Ababa, Ethiopia",
+    "website": "esubalew.et",
+    "followers": 90,
+    "publicRepos": 168,
+    "createdAt": "2022-05-30T14:24:52Z",
+    "checkedAt": "2026-09-20T01:44:49.035Z",
+    "source": "https://github.com/Esubaalew"
+  },
+  "oskvr37": {
+    "login": "oskvr37",
+    "name": "Oskar Dudziński",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 15,
+    "publicRepos": 12,
+    "createdAt": "2019-10-10T15:43:53Z",
+    "checkedAt": "2026-09-20T01:44:49.287Z",
+    "source": "https://github.com/oskvr37"
   }
 }

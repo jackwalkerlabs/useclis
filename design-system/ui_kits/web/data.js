@@ -6917,6 +6917,120 @@ window.USECLIS_DATA = {
       "stars": 597,
       "license": null,
       "checkedAt": "2026-09-20T00:44:54.578Z"
+    },
+    {
+      "slug": "burntsushi-bttf",
+      "name": "bttf",
+      "repo": "BurntSushi/bttf",
+      "category": "Terminal utilities",
+      "command": "bttf",
+      "useCase": "A command line tool for datetime arithmetic, parsing, formatting and more.",
+      "description": "A command line tool for datetime arithmetic, parsing, formatting and more.",
+      "agentUse": "Invoke bttf from a shell for the documented use case: A command line tool for datetime arithmetic, parsing, formatting and more.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "bttf time fmt -f rfc3339 now",
+      "website": "https://github.com/BurntSushi/bttf",
+      "docs": "https://github.com/BurntSushi/bttf/blob/fa8b5433f5a4d879d5cd3165d460533f91ecd667/README.md",
+      "stars": 768,
+      "license": "Unlicense",
+      "checkedAt": "2026-09-20T01:44:44.465Z"
+    },
+    {
+      "slug": "remarshal-project-remarshal",
+      "name": "remarshal",
+      "repo": "remarshal-project/remarshal",
+      "category": "Data & APIs",
+      "command": "remarshal",
+      "useCase": "Convert between CBOR, JSON, MessagePack, TOML, and YAML 1.1 & 1.2",
+      "description": "Convert between CBOR, JSON, MessagePack, TOML, and YAML 1.1 & 1.2",
+      "agentUse": "Invoke remarshal from a shell for the documented use case: Convert between CBOR, JSON, MessagePack, TOML, and YAML 1.1 & 1.2",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "remarshal test.toml --to json",
+      "website": "https://github.com/remarshal-project/remarshal",
+      "docs": "https://github.com/remarshal-project/remarshal/blob/2300f5dfc39411020c86ade0d202aaea2897ccf0/README.md",
+      "stars": 553,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T01:44:44.888Z"
+    },
+    {
+      "slug": "brocode-fw",
+      "name": "fw",
+      "repo": "brocode/fw",
+      "category": "Git & collaboration",
+      "command": "fw",
+      "useCase": "workspace productivity booster",
+      "description": "workspace productivity booster",
+      "agentUse": "Invoke fw from a shell for the documented use case: workspace productivity booster",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fw setup DIR",
+      "website": "https://github.com/brocode/fw",
+      "docs": "https://github.com/brocode/fw/blob/0623107be9590251dc89c71d167bf20292cb339e/doc/usage.md",
+      "stars": 565,
+      "license": "WTFPL",
+      "checkedAt": "2026-09-20T01:44:45.334Z"
+    },
+    {
+      "slug": "codesnap-rs-codesnap",
+      "name": "codesnap",
+      "repo": "codesnap-rs/codesnap",
+      "category": "Terminal utilities",
+      "command": "codesnap",
+      "useCase": "🦀️📸 Pure Rust tool to generate beautiful code snapshots, provide CLI and Library",
+      "description": "🦀️📸 Pure Rust tool to generate beautiful code snapshots, provide CLI and Library",
+      "agentUse": "Invoke codesnap from a shell for the documented use case: 🦀️📸 Pure Rust tool to generate beautiful code snapshots, provide CLI and Library",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "codesnap -f ./code_snippet.hs -o \"./output.png\"",
+      "website": "https://github.com/codesnap-rs/codesnap",
+      "docs": "https://github.com/codesnap-rs/codesnap/blob/3f6282fe16601125b72e07d7de5270bd8690a37b/README.md",
+      "stars": 570,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T01:44:45.751Z"
+    },
+    {
+      "slug": "esubaalew-run",
+      "name": "run",
+      "repo": "Esubaalew/run",
+      "category": "Terminal utilities",
+      "command": "run",
+      "useCase": "Universal multi-language runner and smart REPL written in Rust.",
+      "description": "Universal multi-language runner and smart REPL written in Rust.",
+      "agentUse": "Invoke run from a shell for the documented use case: Universal multi-language runner and smart REPL written in Rust.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "run v2 --help",
+      "website": "https://github.com/Esubaalew/run",
+      "docs": "https://github.com/Esubaalew/run/blob/78210629399e1a0d26488cd5b0df39ff669f9799/README.md",
+      "stars": 939,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-20T01:44:46.144Z"
+    },
+    {
+      "slug": "oskvr37-tiddl",
+      "name": "tiddl",
+      "repo": "oskvr37/tiddl",
+      "category": "Terminal utilities",
+      "command": "tiddl",
+      "useCase": "Download Tidal tracks, videos, albums, playlists & artists! Tidal downloader that supports master quality.",
+      "description": "Download Tidal tracks, videos, albums, playlists & artists! Tidal downloader that supports master quality.",
+      "agentUse": "Invoke tiddl from a shell for the documented use case: Download Tidal tracks, videos, albums, playlists & artists! Tidal downloader that supports master quality.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "tiddl download",
+      "website": "https://github.com/oskvr37/tiddl",
+      "docs": "https://github.com/oskvr37/tiddl/blob/f5c8e9658032d79be61ea1c0a5a782fe310d8546/README.md",
+      "stars": 679,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-20T01:44:46.668Z"
     }
   ],
   "categories": [
