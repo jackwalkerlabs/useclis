@@ -4,5 +4,21 @@
   "maxPerDay": 50,
   "maxCandidates": 40,
   "recheckDays": 30,
-  "queries": ["topic:cli", "topic:command-line", "\"command-line\" in:description"]
+  "rulesVersion": 2,
+  "queries": [
+    "topic:cli stars:500..999",
+    "topic:cli stars:1000..2999",
+    "topic:cli stars:>=3000",
+    "topic:command-line stars:500..1499",
+    "topic:command-line stars:>=1500",
+    "topic:command-line-tool",
+    "topic:cli-tool",
+    "topic:cli-app",
+    "topic:terminal",
+    "topic:tui",
+    "topic:developer-tools",
+    "\"command-line\" in:description",
+    "\"cli tool\" in:description",
+    "\"terminal\" in:description stars:500..1999"
+  ]
 }

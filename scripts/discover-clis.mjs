@@ -9,6 +9,7 @@ const API = 'https://api.github.com';
 const BREW = 'https://formulae.brew.sh/api';
 const root = new URL('../', import.meta.url);
 const MAX_BYTES = 8_000_000;
+const MAX_PENDING = 900;
 export class SourceTooLargeError extends Error {
   constructor(url) { super(`${new URL(url).hostname}${new URL(url).pathname}: source exceeds size limit`); }
 }
@@ -122,7 +123,8 @@ async function collectCandidates(request, state, config, now) {
   if (state.pending?.length) return { candidates: state.pending.map(item => ({ ...item })), searchPage: state.searchPage, brewOffset: state.brewOffset };
   const github = [];
   for (const query of config.queries) {
-    const q = `${query} stars:>=${config.minStars} archived:false fork:false`;
+    // Star-sliced queries carry their own floor so each slice stays under the 1000-result search cap.
+    const q = `${query}${/\bstars:/.test(query) ? '' : ` stars:>=${config.minStars}`} archived:false fork:false`;
     const response = await request(`${API}/search/repositories?q=${encodeURIComponent(q)}&sort=updated&order=desc&per_page=100&page=${state.searchPage}`);
     if (!Array.isArray(response.items) || response.incomplete_results) throw new Error('Incomplete GitHub search');
     github.push(...response.items.map(repo => ({ repo: repo.full_name })));
@@ -144,7 +146,8 @@ async function collectCandidates(request, state, config, now) {
     const key = candidate.repo.toLowerCase();
     if (!combined.has(key) || candidate.brew) combined.set(key, candidate);
   }
-  return { candidates: [...combined.values()], searchPage: state.searchPage % 10 + 1, brewOffset: (start + slice.length) % Math.max(1, formulae.length) };
+  // Keep the durable queue inside its stored bound; dropped repositories return on a later page.
+  return { candidates: [...combined.values()].slice(0, MAX_PENDING), searchPage: state.searchPage % 10 + 1, brewOffset: (start + slice.length) % Math.max(1, formulae.length) };
 }
 
 async function collectEvidence(request, candidate, repo) {
@@ -217,20 +220,22 @@ export async function discover({ catalog, state, mappings, config, request, now 
       const key = candidate.repo.toLowerCase();
       const previous = next.candidates[key];
       if (entries.some(tool => tool.repo.toLowerCase() === key) || previous?.status === 'rejected' || previous?.status === 'accepted') continue;
-      if (previous?.checkedAt && Date.parse(now) - Date.parse(previous.checkedAt) < config.recheckDays * 86400000) continue;
+      // Candidates held under superseded rules are reconsidered at once; the wait applies to current ones.
+      const current = previous?.rulesVersion === config.rulesVersion;
+      if (current && previous.checkedAt && Date.parse(now) - Date.parse(previous.checkedAt) < config.recheckDays * 86400000) continue;
       checked++;
       if (candidate.formula && !candidate.brew) candidate.brew = await fetchFormula(request, candidate.formula, now);
       let repo;
       try { repo = await request(`${API}/repos/${candidate.repo}`, { optional: true }); }
       catch (error) {
         if (!(error instanceof SourceTooLargeError)) throw error;
-        next.candidates[key] = { status: 'held', checkedAt: now, reason: error.message };
+        next.candidates[key] = { status: 'held', checkedAt: now, rulesVersion: config.rulesVersion, reason: error.message };
         outcomes.push({ repo: key, status: 'held', reason: error.message });
         continue;
       }
       // GitHub redirects are not followed. Renamed repositories are held until rediscovered canonically.
       if (!repo) {
-        next.candidates[key] = { status: 'held', checkedAt: now, reason: 'Repository unavailable or renamed' };
+        next.candidates[key] = { status: 'held', checkedAt: now, rulesVersion: config.rulesVersion, reason: 'Repository unavailable or renamed' };
         outcomes.push({ repo: key, status: 'held', reason: 'Repository unavailable or renamed' });
         continue;
       }
@@ -246,7 +251,7 @@ export async function discover({ catalog, state, mappings, config, request, now 
           result = { status: 'held', reason: error.message };
         }
       }
-      const record = { status: result.status, checkedAt: now, reason: result.reason };
+      const record = { status: result.status, checkedAt: now, rulesVersion: config.rulesVersion, reason: result.reason };
       if (result.status === 'accepted') {
         entries.push(result.entry);
         accepted.push(result.entry);
