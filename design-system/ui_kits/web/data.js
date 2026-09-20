@@ -7468,6 +7468,120 @@ window.USECLIS_DATA = {
       "stars": 3056,
       "license": "GPL-3.0",
       "checkedAt": "2026-09-20T05:45:00.774Z"
+    },
+    {
+      "slug": "conventional-changelog-standard-version",
+      "name": "standard-version",
+      "repo": "conventional-changelog/standard-version",
+      "category": "Git & collaboration",
+      "command": "standard-version",
+      "useCase": ":trophy: Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org",
+      "description": ":trophy: Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org",
+      "agentUse": "Invoke standard-version from a shell for the documented use case: :trophy: Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "standard-version --first-release",
+      "website": "https://github.com/conventional-changelog/standard-version",
+      "docs": "https://github.com/conventional-changelog/standard-version/blob/d70752c463991d34fa192e0332d7e4efacad78ba/README.md",
+      "stars": 7982,
+      "license": "ISC",
+      "checkedAt": "2026-09-20T06:44:49.852Z"
+    },
+    {
+      "slug": "robinmoisson-staticrypt",
+      "name": "staticrypt",
+      "repo": "robinmoisson/staticrypt",
+      "category": "Security & secrets",
+      "command": "staticrypt",
+      "useCase": "Password protect a static HTML page, decrypted in-browser in JS with no dependency. No server logic needed.",
+      "description": "Password protect a static HTML page, decrypted in-browser in JS with no dependency. No server logic needed.",
+      "agentUse": "Invoke staticrypt from a shell for the documented use case: Password protect a static HTML page, decrypted in-browser in JS with no dependency. No server logic needed.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "staticrypt test.html",
+      "website": "https://github.com/robinmoisson/staticrypt",
+      "docs": "https://github.com/robinmoisson/staticrypt/blob/3594426d316af37dcd94f3e0ffb0c9cd6c3c5d9f/README.md",
+      "stars": 8041,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T06:44:50.292Z"
+    },
+    {
+      "slug": "campfirein-byterover-cli",
+      "name": "byterover-cli",
+      "repo": "campfirein/byterover-cli",
+      "category": "Agents & models",
+      "command": "brv",
+      "useCase": "ByteRover CLI (brv) - The portable memory layer for  autonomous coding agents (formerly Cipher)",
+      "description": "ByteRover CLI (brv) - The portable memory layer for  autonomous coding agents (formerly Cipher)",
+      "agentUse": "Invoke brv from a shell for the documented use case: ByteRover CLI (brv) - The portable memory layer for  autonomous coding agents (formerly Cipher)",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "brv settings list",
+      "website": "https://github.com/campfirein/byterover-cli",
+      "docs": "https://github.com/campfirein/byterover-cli/blob/1052ac1a5dd0fde4da8693d4712064f7876c269c/README.md",
+      "stars": 4966,
+      "license": null,
+      "checkedAt": "2026-09-20T06:44:50.726Z"
+    },
+    {
+      "slug": "sharkdp-vivid",
+      "name": "vivid",
+      "repo": "sharkdp/vivid",
+      "category": "Terminal utilities",
+      "command": "vivid",
+      "useCase": "A themeable LS_COLORS generator with a rich filetype datebase",
+      "description": "A themeable LS_COLORS generator with a rich filetype datebase",
+      "agentUse": "Invoke vivid from a shell for the documented use case: A themeable LS_COLORS generator with a rich filetype datebase",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "vivid generate path/to/my_theme.yml",
+      "website": "https://github.com/sharkdp/vivid",
+      "docs": "https://github.com/sharkdp/vivid/blob/cdadaeeda1366ce1979a94192220748e248cde00/README.md",
+      "stars": 2266,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-20T06:44:51.062Z"
+    },
+    {
+      "slug": "pvolok-dekit",
+      "name": "dekit",
+      "repo": "pvolok/dekit",
+      "category": "Terminal utilities",
+      "command": "dekit",
+      "useCase": "Run multiple commands in parallel",
+      "description": "Run multiple commands in parallel",
+      "agentUse": "Invoke dekit from a shell for the documented use case: Run multiple commands in parallel",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "dekit mprocs ...",
+      "website": "https://github.com/pvolok/dekit",
+      "docs": "https://github.com/pvolok/dekit/blob/775ac72a1b65f3201f08bb6ac567462df7069a47/README.md",
+      "stars": 2725,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T06:44:51.401Z"
+    },
+    {
+      "slug": "whyisdifficult-jiratui",
+      "name": "jiratui",
+      "repo": "whyisdifficult/jiratui",
+      "category": "Terminal utilities",
+      "command": "jiratui",
+      "useCase": "A Textual User Interface for interacting with Atlassian Jira from your shell",
+      "description": "A Textual User Interface for interacting with Atlassian Jira from your shell",
+      "agentUse": "Invoke jiratui from a shell for the documented use case: A Textual User Interface for interacting with Atlassian Jira from your shell",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "jiratui ui",
+      "website": "https://github.com/whyisdifficult/jiratui",
+      "docs": "https://github.com/whyisdifficult/jiratui/blob/de1edf1988e666df778e623efa9d9799cd5863a1/README.md",
+      "stars": 1698,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T06:44:51.871Z"
     }
   ],
   "categories": [

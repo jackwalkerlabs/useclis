@@ -4184,5 +4184,70 @@
     "createdAt": "2019-09-09T14:33:12Z",
     "checkedAt": "2026-09-20T05:45:06.922Z",
     "source": "https://github.com/Veirt"
+  },
+  "conventional-changelog": {
+    "login": "conventional-changelog",
+    "name": "conventional-changelog",
+    "type": "Organization",
+    "bio": "Tools to generate changelogs and release notes from a project's commit messages and metadata.",
+    "location": null,
+    "website": null,
+    "followers": 503,
+    "publicRepos": 12,
+    "createdAt": "2015-12-26T10:32:40Z",
+    "checkedAt": "2026-09-20T06:44:53.890Z",
+    "source": "https://github.com/conventional-changelog"
+  },
+  "robinmoisson": {
+    "login": "robinmoisson",
+    "name": "Robin Moisson",
+    "type": "User",
+    "bio": null,
+    "location": "Lyon",
+    "website": "https://translateabook.com",
+    "followers": 105,
+    "publicRepos": 22,
+    "createdAt": "2013-10-11T12:10:51Z",
+    "checkedAt": "2026-09-20T06:44:54.331Z",
+    "source": "https://github.com/robinmoisson"
+  },
+  "campfirein": {
+    "login": "campfirein",
+    "name": "campfirein",
+    "type": "Organization",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 93,
+    "publicRepos": 11,
+    "createdAt": "2024-08-23T00:15:44Z",
+    "checkedAt": "2026-09-20T06:44:54.537Z",
+    "source": "https://github.com/campfirein"
+  },
+  "pvolok": {
+    "login": "pvolok",
+    "name": "Pavel Volokitin",
+    "type": "User",
+    "bio": null,
+    "location": "Netherlands",
+    "website": null,
+    "followers": 66,
+    "publicRepos": 42,
+    "createdAt": "2012-07-21T04:29:39Z",
+    "checkedAt": "2026-09-20T06:44:54.720Z",
+    "source": "https://github.com/pvolok"
+  },
+  "whyisdifficult": {
+    "login": "whyisdifficult",
+    "name": "GT",
+    "type": "User",
+    "bio": "Telling computers what to do since 1996",
+    "location": "Amsterdam",
+    "website": null,
+    "followers": 33,
+    "publicRepos": 3,
+    "createdAt": "2019-07-09T10:04:29Z",
+    "checkedAt": "2026-09-20T06:44:54.899Z",
+    "source": "https://github.com/whyisdifficult"
   }
 }
