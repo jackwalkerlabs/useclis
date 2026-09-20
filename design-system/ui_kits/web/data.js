@@ -6651,6 +6651,139 @@ window.USECLIS_DATA = {
       "stars": 999,
       "license": "MIT",
       "checkedAt": "2026-09-19T11:00:01.925Z"
+    },
+    {
+      "slug": "alexpovel-srgn",
+      "name": "srgn",
+      "repo": "alexpovel/srgn",
+      "category": "Code search",
+      "command": "srgn",
+      "useCase": "A grep-like tool which understands source code syntax and allows for manipulation in addition to search",
+      "description": "A grep-like tool which understands source code syntax and allows for manipulation in addition to search",
+      "agentUse": "Invoke srgn from a shell for the documented use case: A grep-like tool which understands source code syntax and allows for manipulation in addition to search",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "srgn --python 'class' 'age'",
+      "website": "https://github.com/alexpovel/srgn",
+      "docs": "https://github.com/alexpovel/srgn/blob/8574ea123ceef25fdbd77245dbbb2986761b6252/README.md",
+      "stars": 912,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T00:26:21.117Z"
+    },
+    {
+      "slug": "libimobiledevice-libirecovery",
+      "name": "libirecovery",
+      "repo": "libimobiledevice/libirecovery",
+      "category": "Terminal utilities",
+      "command": "irecovery",
+      "useCase": "Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux",
+      "description": "Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux",
+      "agentUse": "Invoke irecovery from a shell for the documented use case: Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "irecovery --shell",
+      "website": "https://github.com/libimobiledevice/libirecovery",
+      "docs": "https://github.com/libimobiledevice/libirecovery/blob/93c117c29b1f6669bc4ceca8b84e1df06449fe33/README.md",
+      "stars": 652,
+      "license": "LGPL-2.1",
+      "checkedAt": "2026-09-20T00:26:21.695Z"
+    },
+    {
+      "slug": "orhun-halp",
+      "name": "halp",
+      "repo": "orhun/halp",
+      "category": "Terminal utilities",
+      "command": "halp",
+      "useCase": "A CLI tool to get help with CLI tools 🐙",
+      "description": "A CLI tool to get help with CLI tools 🐙",
+      "agentUse": "Invoke halp from a shell for the documented use case: A CLI tool to get help with CLI tools 🐙",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "halp cli_tool",
+      "website": "https://github.com/orhun/halp",
+      "docs": "https://github.com/orhun/halp/blob/80797eaa0706f6fdfcf5d2905bba52961ebda738/README.md",
+      "stars": 769,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-20T00:26:22.242Z"
+    },
+    {
+      "slug": "flatkey-ai-flatkey-cli",
+      "name": "flatkey-cli",
+      "repo": "flatkey-ai/flatkey-cli",
+      "category": "Terminal utilities",
+      "command": "flatkey",
+      "useCase": "Flatkey media generation CLI for images, videos, audio, text, credits, and model discovery.",
+      "description": "Flatkey media generation CLI for images, videos, audio, text, credits, and model discovery.",
+      "agentUse": "Invoke flatkey from a shell for the documented use case: Flatkey media generation CLI for images, videos, audio, text, credits, and model discovery.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "flatkey image generate --prompt \"editorial cover, neon city at dawn\" -o cover.png",
+      "website": "https://github.com/flatkey-ai/flatkey-cli",
+      "docs": "https://github.com/flatkey-ai/flatkey-cli/blob/c3d94ea3c3879c650c9ed8f95e038948010ba649/README.md",
+      "stars": 910,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T00:26:22.897Z"
+    },
+    {
+      "slug": "hukkin-mdformat",
+      "name": "mdformat",
+      "repo": "hukkin/mdformat",
+      "category": "Testing & quality",
+      "command": "mdformat",
+      "useCase": "CommonMark compliant Markdown formatter",
+      "description": "CommonMark compliant Markdown formatter",
+      "agentUse": "Invoke mdformat from a shell for the documented use case: CommonMark compliant Markdown formatter",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mdformat README.md CHANGELOG.md",
+      "website": "https://github.com/hukkin/mdformat",
+      "docs": "https://github.com/hukkin/mdformat/blob/56b24ef0c6cfdab501844925971204f858185547/README.md",
+      "stars": 823,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T00:26:23.482Z"
+    },
+    {
+      "slug": "eyeblech-cinecli",
+      "name": "cinecli",
+      "repo": "eyeblech/cinecli",
+      "category": "Data & APIs",
+      "command": "cinecli",
+      "useCase": "CineCLI is a cross-platform command-line movie browser built with Python.",
+      "description": "CineCLI is a cross-platform command-line movie browser built with Python.",
+      "agentUse": "Invoke cinecli from a shell for the documented use case: CineCLI is a cross-platform command-line movie browser built with Python.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "cinecli search matrix",
+      "website": "https://github.com/eyeblech/cinecli",
+      "docs": "https://github.com/eyeblech/cinecli/blob/1a812e42785eb9f58224f0cc7d8c58fc4b395739/README.md",
+      "stars": 779,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T00:26:24.255Z"
+    },
+    {
+      "slug": "libimobiledevice-libplist",
+      "name": "libplist",
+      "repo": "libimobiledevice/libplist",
+      "category": "Terminal utilities",
+      "command": "plistutil",
+      "useCase": "A library to handle Apple Property List format in binary or XML",
+      "description": "A library to handle Apple Property List format in binary or XML",
+      "agentUse": "Invoke plistutil from a shell for the documented use case: A library to handle Apple Property List format in binary or XML",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "plistutil -i foobar.plist -o output.plist",
+      "website": "https://github.com/libimobiledevice/libplist",
+      "docs": "https://github.com/libimobiledevice/libplist/blob/32428abacb909988e8e960a8845a6430b17b6a60/README.md",
+      "stars": 636,
+      "license": "LGPL-2.1",
+      "checkedAt": "2026-09-20T00:26:24.747Z"
     }
   ],
   "categories": [
@@ -6664,6 +6797,7 @@ window.USECLIS_DATA = {
     "Testing & quality",
     "Files & documents",
     "Productivity & communication",
-    "Security & secrets"
+    "Security & secrets",
+    "Terminal utilities"
   ]
 };

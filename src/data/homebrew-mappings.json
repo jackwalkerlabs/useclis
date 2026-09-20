@@ -425,5 +425,13 @@
   "ldomaradzki-xcsift": {
     "formula": "xcsift",
     "repo": "ldomaradzki/xcsift"
+  },
+  "libimobiledevice-libirecovery": {
+    "formula": "libirecovery",
+    "repo": "libimobiledevice/libirecovery"
+  },
+  "libimobiledevice-libplist": {
+    "formula": "libplist",
+    "repo": "libimobiledevice/libplist"
   }
 }

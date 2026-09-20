@@ -3677,5 +3677,83 @@
     "createdAt": "2026-07-23T10:35:40Z",
     "checkedAt": "2026-09-18T19:44:26.560Z",
     "source": "https://github.com/nostacks"
+  },
+  "alexpovel": {
+    "login": "alexpovel",
+    "name": "Alex Povel",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 63,
+    "publicRepos": 55,
+    "createdAt": "2019-03-22T09:01:48Z",
+    "checkedAt": "2026-09-20T00:26:27.373Z",
+    "source": "https://github.com/alexpovel"
+  },
+  "libimobiledevice": {
+    "login": "libimobiledevice",
+    "name": "libimobiledevice",
+    "type": "Organization",
+    "bio": "A cross-platform protocol library to access iOS devices",
+    "location": "Germany",
+    "website": "https://libimobiledevice.org",
+    "followers": 1117,
+    "publicRepos": 13,
+    "createdAt": "2013-02-13T13:39:33Z",
+    "checkedAt": "2026-09-20T00:26:27.590Z",
+    "source": "https://github.com/libimobiledevice"
+  },
+  "orhun": {
+    "login": "orhun",
+    "name": "Orhun Parmaksız",
+    "type": "User",
+    "bio": "Terminal Chef @ratatui | Rust Developer Advocate @JetBrains |\r\nMaintainer @archlinux btw  ",
+    "location": "Berlin, Germany",
+    "website": "orhun.dev",
+    "followers": 5424,
+    "publicRepos": 537,
+    "createdAt": "2016-12-05T15:47:47Z",
+    "checkedAt": "2026-09-20T00:26:28.010Z",
+    "source": "https://github.com/orhun"
+  },
+  "flatkey-ai": {
+    "login": "flatkey-ai",
+    "name": "flatkey.ai",
+    "type": "Organization",
+    "bio": null,
+    "location": "United States of America",
+    "website": null,
+    "followers": 2,
+    "publicRepos": 4,
+    "createdAt": "2026-06-18T13:10:17Z",
+    "checkedAt": "2026-09-20T00:26:28.289Z",
+    "source": "https://github.com/flatkey-ai"
+  },
+  "hukkin": {
+    "login": "hukkin",
+    "name": "Taneli Hukkinen",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 81,
+    "publicRepos": 69,
+    "createdAt": "2013-01-15T12:43:18Z",
+    "checkedAt": "2026-09-20T00:26:28.531Z",
+    "source": "https://github.com/hukkin"
+  },
+  "eyeblech": {
+    "login": "eyeblech",
+    "name": "0xRoy",
+    "type": "User",
+    "bio": "\"I'm so lazy, I try to automate everything — including my life.\"",
+    "location": null,
+    "website": null,
+    "followers": 44,
+    "publicRepos": 35,
+    "createdAt": "2021-01-30T15:21:06Z",
+    "checkedAt": "2026-09-20T00:26:28.834Z",
+    "source": "https://github.com/eyeblech"
   }
 }

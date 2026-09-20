@@ -7138,5 +7138,47 @@
       "date": "2026-09-19",
       "stars": 999
     }
+  ],
+  "alexpovel-srgn": [
+    {
+      "date": "2026-09-20",
+      "stars": 912
+    }
+  ],
+  "libimobiledevice-libirecovery": [
+    {
+      "date": "2026-09-20",
+      "stars": 652
+    }
+  ],
+  "orhun-halp": [
+    {
+      "date": "2026-09-20",
+      "stars": 769
+    }
+  ],
+  "flatkey-ai-flatkey-cli": [
+    {
+      "date": "2026-09-20",
+      "stars": 910
+    }
+  ],
+  "hukkin-mdformat": [
+    {
+      "date": "2026-09-20",
+      "stars": 823
+    }
+  ],
+  "eyeblech-cinecli": [
+    {
+      "date": "2026-09-20",
+      "stars": 779
+    }
+  ],
+  "libimobiledevice-libplist": [
+    {
+      "date": "2026-09-20",
+      "stars": 636
+    }
   ]
 }

@@ -1482,5 +1482,33 @@
     "checkedAt": "2026-09-19T11:01:01.021Z",
     "generatedDate": "2026-09-19",
     "status": "ok"
+  },
+  "libimobiledevice-libirecovery": {
+    "formula": "libirecovery",
+    "repo": "libimobiledevice/libirecovery",
+    "source": "https://formulae.brew.sh/api/formula/libirecovery.json",
+    "attemptedAt": "2026-09-20T00:26:26.635Z",
+    "counts": {
+      "30d": 716,
+      "90d": 2709,
+      "365d": 6219
+    },
+    "checkedAt": "2026-09-20T00:26:26.635Z",
+    "generatedDate": "2026-09-19",
+    "status": "ok"
+  },
+  "libimobiledevice-libplist": {
+    "formula": "libplist",
+    "repo": "libimobiledevice/libplist",
+    "source": "https://formulae.brew.sh/api/formula/libplist.json",
+    "attemptedAt": "2026-09-20T00:26:26.678Z",
+    "counts": {
+      "30d": 222,
+      "90d": 835,
+      "365d": 2955
+    },
+    "checkedAt": "2026-09-20T00:26:26.678Z",
+    "generatedDate": "2026-09-19",
+    "status": "ok"
   }
 }

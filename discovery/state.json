@@ -1,8 +1,2023 @@
 {
   "version": 1,
-  "searchPage": 3,
-  "brewOffset": 800,
-  "pending": [],
+  "searchPage": 4,
+  "brewOffset": 840,
+  "pending": [
+    {
+      "repo": "yashlamba/handwrite"
+    },
+    {
+      "repo": "rockdaboot/libpsl",
+      "formula": "libpsl"
+    },
+    {
+      "repo": "simeg/eureka"
+    },
+    {
+      "repo": "unjs/std-env"
+    },
+    {
+      "repo": "neur0map/glazepkg"
+    },
+    {
+      "repo": "lightonai/next-plaid"
+    },
+    {
+      "repo": "ComposeGears/Valkyrie"
+    },
+    {
+      "repo": "ihabunek/twitch-dl"
+    },
+    {
+      "repo": "r-lib/cli"
+    },
+    {
+      "repo": "privatenumber/mac-ocr"
+    },
+    {
+      "repo": "ozwaldorf/lutgen-rs"
+    },
+    {
+      "repo": "NiklasRosenstein/pydoc-markdown"
+    },
+    {
+      "repo": "casey/intermodal"
+    },
+    {
+      "repo": "madlabsinc/mevn-cli"
+    },
+    {
+      "repo": "dob323/session-kit"
+    },
+    {
+      "repo": "gnomeria/usbtree"
+    },
+    {
+      "repo": "baairon/soundcli"
+    },
+    {
+      "repo": "TreborNamor/TradingView-Machine-Learning-GUI"
+    },
+    {
+      "repo": "j178/leetgo"
+    },
+    {
+      "repo": "OtterMind/Nubase"
+    },
+    {
+      "repo": "lightpohl/podcast-dl"
+    },
+    {
+      "repo": "SUPERCILEX/fuc"
+    },
+    {
+      "repo": "blob42/gosuki"
+    },
+    {
+      "repo": "z3z1ma/dbt-osmosis"
+    },
+    {
+      "repo": "adamreisnz/replace-in-file"
+    },
+    {
+      "repo": "mco-org/mco"
+    },
+    {
+      "repo": "wfxr/tmux-fzf-url"
+    },
+    {
+      "repo": "mattrobenolt/jinja2-cli"
+    },
+    {
+      "repo": "westpoint-io/lazyrsync"
+    },
+    {
+      "repo": "Stan-breaks/ytsurf"
+    },
+    {
+      "repo": "291-Group/LAN-Orangutan"
+    },
+    {
+      "repo": "EdJoPaTo/mqttui"
+    },
+    {
+      "repo": "Railly/tinte"
+    },
+    {
+      "repo": "videolabs/mirrorbits"
+    },
+    {
+      "repo": "one2nc/cloudlens"
+    },
+    {
+      "repo": "yeqown/go-qrcode"
+    },
+    {
+      "repo": "alexandremendoncaalvaro/CorridorKey-Runtime"
+    },
+    {
+      "repo": "darkrishabh/agent-skills-eval"
+    },
+    {
+      "repo": "Tenderly/tenderly-cli"
+    },
+    {
+      "repo": "Sinholms/setup-gateway"
+    },
+    {
+      "repo": "home-assistant-ecosystem/home-assistant-cli"
+    },
+    {
+      "repo": "brettcannon/python-launcher"
+    },
+    {
+      "repo": "freref/fancy-cat"
+    },
+    {
+      "repo": "BurntSushi/bttf"
+    },
+    {
+      "repo": "mifi/ezshare"
+    },
+    {
+      "repo": "CodeBendKit/codeseek"
+    },
+    {
+      "repo": "remarshal-project/remarshal"
+    },
+    {
+      "repo": "brocode/fw"
+    },
+    {
+      "repo": "svenfuchs/gem-release"
+    },
+    {
+      "repo": "Bengerthelorf/macIconChanger"
+    },
+    {
+      "repo": "artginzburg/sudo-touchid"
+    },
+    {
+      "repo": "trasta298/keifu"
+    },
+    {
+      "repo": "integrii/flaggy"
+    },
+    {
+      "repo": "bfgroup/Lyra"
+    },
+    {
+      "repo": "T-Troll/alienfx-tools"
+    },
+    {
+      "repo": "AlmanacCode/codealmanac"
+    },
+    {
+      "repo": "Leo4815162342/dukascopy-node"
+    },
+    {
+      "repo": "8go/matrix-commander"
+    },
+    {
+      "repo": "jackielii/skhd.zig"
+    },
+    {
+      "repo": "wfxr/code-minimap"
+    },
+    {
+      "repo": "gotify/cli"
+    },
+    {
+      "repo": "mrusme/neonmodem"
+    },
+    {
+      "repo": "Azure/static-web-apps-cli"
+    },
+    {
+      "repo": "yaojingang/yao-geo-skills"
+    },
+    {
+      "repo": "codesnap-rs/codesnap"
+    },
+    {
+      "repo": "mattrighetti/envelope"
+    },
+    {
+      "repo": "jifunks/botany"
+    },
+    {
+      "repo": "ThatOneCalculator/NerdFetch"
+    },
+    {
+      "repo": "paulilaaso/lue"
+    },
+    {
+      "repo": "archfz/cypress-terminal-report"
+    },
+    {
+      "repo": "coderofsalvation/kanban.bash"
+    },
+    {
+      "repo": "kha7iq/pingme"
+    },
+    {
+      "repo": "Myriad-Dreamin/shiroa"
+    },
+    {
+      "repo": "jsrepojs/jsrepo"
+    },
+    {
+      "repo": "TheYahya/enola"
+    },
+    {
+      "repo": "boostsecurityio/poutine"
+    },
+    {
+      "repo": "Esubaalew/run"
+    },
+    {
+      "repo": "guyfedwards/nom"
+    },
+    {
+      "repo": "oskvr37/tiddl"
+    },
+    {
+      "repo": "tvrzna/emptty"
+    },
+    {
+      "repo": "raphaelmansuy/code2prompt"
+    },
+    {
+      "repo": "ovh/venom"
+    },
+    {
+      "repo": "mistweaverco/kulala.nvim"
+    },
+    {
+      "repo": "1jehuang/mermaid-rs-renderer"
+    },
+    {
+      "repo": "taiki-e/cargo-llvm-cov"
+    },
+    {
+      "repo": "privatenumber/tasuku"
+    },
+    {
+      "repo": "lindell/multi-gitter"
+    },
+    {
+      "repo": "rasterio/rasterio"
+    },
+    {
+      "repo": "afar1/fieldtheory-cli"
+    },
+    {
+      "repo": "zhiburt/tabled"
+    },
+    {
+      "repo": "buyukakyuz/install-nothing"
+    },
+    {
+      "repo": "jreleaser/jreleaser"
+    },
+    {
+      "repo": "fiso64/sockseek"
+    },
+    {
+      "repo": "usagi-flow/evil-helix"
+    },
+    {
+      "repo": "flozz/rivalcfg"
+    },
+    {
+      "repo": "pimutils/vdirsyncer"
+    },
+    {
+      "repo": "supreme-gg-gg/instagram-cli"
+    },
+    {
+      "repo": "elirantutia/vibeyard"
+    },
+    {
+      "repo": "Urigo/graphql-cli"
+    },
+    {
+      "repo": "pixop/video-compare"
+    },
+    {
+      "repo": "HemmeligOrg/Hemmelig.app"
+    },
+    {
+      "repo": "stormzhang/ai-coding-guide"
+    },
+    {
+      "repo": "simonw/sqlite-utils"
+    },
+    {
+      "repo": "jfernandez/bpftop"
+    },
+    {
+      "repo": "Tyrrrz/CliFx"
+    },
+    {
+      "repo": "dlvhdr/diffnav"
+    },
+    {
+      "repo": "vbauerster/mpb"
+    },
+    {
+      "repo": "fsociety-team/fsociety"
+    },
+    {
+      "repo": "apconw/Aix-DB"
+    },
+    {
+      "repo": "kalil0321/reverse-api-engineer"
+    },
+    {
+      "repo": "Benexl/yt-x"
+    },
+    {
+      "repo": "rest-sh/restish"
+    },
+    {
+      "repo": "seachicken/gh-poi"
+    },
+    {
+      "repo": "noborus/trdsql"
+    },
+    {
+      "repo": "quantumsheep/sshs"
+    },
+    {
+      "repo": "warpdotdev/themes"
+    },
+    {
+      "repo": "Albert-Weasker/niubi_guard"
+    },
+    {
+      "repo": "MacPaw/cleanmymac-cli"
+    },
+    {
+      "repo": "Everduin94/better-commits"
+    },
+    {
+      "repo": "carvel-dev/kapp"
+    },
+    {
+      "repo": "carvel-dev/ytt"
+    },
+    {
+      "repo": "DnsChanger/dnsChanger-desktop"
+    },
+    {
+      "repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "repo": "bashly-framework/bashly"
+    },
+    {
+      "repo": "vividvilla/csvtotable"
+    },
+    {
+      "repo": "pathintegral-institute/mcpm.sh"
+    },
+    {
+      "repo": "altsem/gitu"
+    },
+    {
+      "repo": "Zhengqbbb/cz-git"
+    },
+    {
+      "repo": "chaqchase/lla"
+    },
+    {
+      "repo": "variety/variety"
+    },
+    {
+      "repo": "AMAP-ML/LongHorizon-Harness"
+    },
+    {
+      "repo": "webtorrent/webtorrent-cli"
+    },
+    {
+      "repo": "cookiy-ai/user-research-skill"
+    },
+    {
+      "repo": "landing-ai/ade-cli"
+    },
+    {
+      "repo": "poetaman/arttime"
+    },
+    {
+      "repo": "guhcostan/mac-cleaner-cli"
+    },
+    {
+      "repo": "MoizIbnYousaf/ai-agent-skills"
+    },
+    {
+      "repo": "mike-engel/jwt-cli"
+    },
+    {
+      "repo": "mivano/azure-cost-cli"
+    },
+    {
+      "repo": "standardagents/dmux"
+    },
+    {
+      "repo": "jarun/imgp"
+    },
+    {
+      "repo": "dooit-org/dooit"
+    },
+    {
+      "repo": "gobackup/gobackup"
+    },
+    {
+      "repo": "shadawck/awesome-cli-frameworks"
+    },
+    {
+      "repo": "github/gh-skyline"
+    },
+    {
+      "repo": "amberframework/amber"
+    },
+    {
+      "repo": "GaoSSR/best-claude-hud"
+    },
+    {
+      "repo": "jdalrymple/gitbeaker"
+    },
+    {
+      "repo": "kubermatic/fubectl"
+    },
+    {
+      "repo": "gruntwork-io/git-xargs"
+    },
+    {
+      "repo": "maticzav/emma-cli"
+    },
+    {
+      "repo": "frappe/bench"
+    },
+    {
+      "repo": "ofek/pyapp"
+    },
+    {
+      "repo": "bgreenwell/lstr"
+    },
+    {
+      "repo": "Helvesec/rmux"
+    },
+    {
+      "repo": "msoap/shell2http"
+    },
+    {
+      "repo": "WordOps/WordOps"
+    },
+    {
+      "repo": "RevylAI/greenlight"
+    },
+    {
+      "repo": "astahmer/openapi-zod-client"
+    },
+    {
+      "repo": "jkwill87/mnamer"
+    },
+    {
+      "repo": "vladkens/macmon"
+    },
+    {
+      "repo": "junedomingo/react-native-rename"
+    },
+    {
+      "repo": "iojw/socialscan"
+    },
+    {
+      "repo": "PabloLec/RecoverPy"
+    },
+    {
+      "repo": "Taywee/args"
+    },
+    {
+      "repo": "eliukblau/pixterm"
+    },
+    {
+      "repo": "facebookincubator/fastmod"
+    },
+    {
+      "repo": "tenox7/ttyplot"
+    },
+    {
+      "repo": "yb2460/harness-anything"
+    },
+    {
+      "repo": "Houseofmvps/codesight"
+    },
+    {
+      "repo": "wbopan/moffee"
+    },
+    {
+      "repo": "lasantosr/intelli-shell"
+    },
+    {
+      "repo": "sachaos/todoist"
+    },
+    {
+      "repo": "readbeyond/aeneas"
+    },
+    {
+      "repo": "rupeshs/fastsdcpu"
+    },
+    {
+      "repo": "Zouuup/landrun"
+    },
+    {
+      "repo": "sergi0g/cup"
+    },
+    {
+      "repo": "karust/openserp"
+    },
+    {
+      "repo": "jamubc/gemini-mcp-tool"
+    },
+    {
+      "repo": "dungngminh/simutil"
+    },
+    {
+      "repo": "Code-with-Beto/snapai"
+    },
+    {
+      "repo": "bombshell-dev/clack"
+    },
+    {
+      "repo": "yonaskolb/XcodeGen"
+    },
+    {
+      "repo": "agarrharr/awesome-cli-apps"
+    },
+    {
+      "repo": "flow-typed/flow-typed"
+    },
+    {
+      "repo": "charmbracelet/lipgloss"
+    },
+    {
+      "repo": "geekjourneyx/md2wechat-skill"
+    },
+    {
+      "repo": "tmux-python/tmuxp"
+    },
+    {
+      "repo": "version-fox/vfox"
+    },
+    {
+      "repo": "AdnanHodzic/auto-cpufreq"
+    },
+    {
+      "repo": "pallets/click"
+    },
+    {
+      "repo": "oclif/oclif"
+    },
+    {
+      "repo": "tqdm/tqdm"
+    },
+    {
+      "repo": "mtkennerly/ludusavi"
+    },
+    {
+      "repo": "BlockchainCommons/Learning-Bitcoin-from-the-Command-Line"
+    },
+    {
+      "repo": "plopjs/plop"
+    },
+    {
+      "repo": "bobthecow/psysh"
+    },
+    {
+      "repo": "Raphire/Win11Debloat"
+    },
+    {
+      "repo": "jdepoix/youtube-transcript-api"
+    },
+    {
+      "repo": "hatoo/oha"
+    },
+    {
+      "repo": "sindresorhus/np"
+    },
+    {
+      "repo": "fuxicodex/Fuxi"
+    },
+    {
+      "repo": "wuyoscar/GPT-Image2-Skill"
+    },
+    {
+      "repo": "charmbracelet/vhs"
+    },
+    {
+      "repo": "gitleaks/gitleaks"
+    },
+    {
+      "repo": "danvergara/dblab"
+    },
+    {
+      "repo": "bahdotsh/wrkflw"
+    },
+    {
+      "repo": "pimalaya/himalaya"
+    },
+    {
+      "repo": "marp-team/marp-cli"
+    },
+    {
+      "repo": "voidcosmos/npkill"
+    },
+    {
+      "repo": "dlvhdr/gh-dash"
+    },
+    {
+      "repo": "sloria/doitlive"
+    },
+    {
+      "repo": "PaulJuliusMartinez/jless"
+    },
+    {
+      "repo": "XAMPPRocky/tokei"
+    },
+    {
+      "repo": "todotxt/todo.txt-cli"
+    },
+    {
+      "repo": "charmbracelet/bubbles"
+    },
+    {
+      "repo": "ducaale/xh"
+    },
+    {
+      "repo": "jhspetersson/fselect"
+    },
+    {
+      "repo": "mergestat/mergestat-lite"
+    },
+    {
+      "repo": "sharkdp/bat"
+    },
+    {
+      "repo": "asdf-vm/asdf"
+    },
+    {
+      "repo": "alecthomas/kingpin"
+    },
+    {
+      "repo": "ykdojo/claude-code-tips"
+    },
+    {
+      "repo": "Kuberwastaken/claurst"
+    },
+    {
+      "repo": "arxanas/git-branchless"
+    },
+    {
+      "repo": "Tyrrrz/CliWrap"
+    },
+    {
+      "repo": "svenstaro/genact"
+    },
+    {
+      "repo": "projectdiscovery/uncover"
+    },
+    {
+      "repo": "UfoMiao/zcf"
+    },
+    {
+      "repo": "jackwener/OpenCLI"
+    },
+    {
+      "repo": "privatenumber/tsx"
+    },
+    {
+      "repo": "google/clasp"
+    },
+    {
+      "repo": "PyCQA/isort"
+    },
+    {
+      "repo": "svg/svgo"
+    },
+    {
+      "repo": "antonmedv/fx"
+    },
+    {
+      "repo": "xwmx/nb"
+    },
+    {
+      "repo": "codesenberg/bombardier"
+    },
+    {
+      "repo": "str4d/rage"
+    },
+    {
+      "repo": "smtg-ai/claude-squad"
+    },
+    {
+      "repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "repo": "TomWright/dasel"
+    },
+    {
+      "repo": "remkop/picocli"
+    },
+    {
+      "repo": "sachaos/viddy"
+    },
+    {
+      "repo": "jarun/ddgr"
+    },
+    {
+      "repo": "pranshuparmar/witr"
+    },
+    {
+      "repo": "CommandCodeAI/command-code"
+    },
+    {
+      "repo": "asciinema/asciinema"
+    },
+    {
+      "repo": "google/zx"
+    },
+    {
+      "repo": "vi/websocat"
+    },
+    {
+      "repo": "dbohdan/structured-text-tools"
+    },
+    {
+      "repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "repo": "laravel-zero/laravel-zero"
+    },
+    {
+      "repo": "Veirt/weathr"
+    },
+    {
+      "repo": "bgreenwell/doxx"
+    },
+    {
+      "repo": "gpakosz/.tmux"
+    },
+    {
+      "repo": "nunomaduro/collision"
+    },
+    {
+      "repo": "BurntSushi/ripgrep"
+    },
+    {
+      "repo": "asciimoo/wuzz"
+    },
+    {
+      "repo": "JohannesKaufmann/html-to-markdown"
+    },
+    {
+      "repo": "simeji/jid"
+    },
+    {
+      "repo": "dalibo/pg_activity"
+    },
+    {
+      "repo": "imsnif/bandwhich"
+    },
+    {
+      "repo": "athityakumar/colorls"
+    },
+    {
+      "repo": "freeok/so-novel"
+    },
+    {
+      "repo": "dnote/dnote"
+    },
+    {
+      "repo": "lirantal/dockly"
+    },
+    {
+      "repo": "sindresorhus/meow"
+    },
+    {
+      "repo": "nikolaeu/numi"
+    },
+    {
+      "repo": "conventional-changelog/standard-version"
+    },
+    {
+      "repo": "GoogleCloudPlatform/kubectl-ai"
+    },
+    {
+      "repo": "killercup/cargo-edit"
+    },
+    {
+      "repo": "Textualize/textual"
+    },
+    {
+      "repo": "spf13/cobra"
+    },
+    {
+      "repo": "lirantal/nodejs-cli-apps-best-practices"
+    },
+    {
+      "repo": "superagent-ai/grok-cli"
+    },
+    {
+      "repo": "robinmoisson/staticrypt"
+    },
+    {
+      "repo": "TheR1D/shell_gpt"
+    },
+    {
+      "repo": "google/python-fire"
+    },
+    {
+      "repo": "vercel/serve"
+    },
+    {
+      "repo": "emersion/mako"
+    },
+    {
+      "repo": "campfirein/byterover-cli"
+    },
+    {
+      "repo": "listr2/listr2"
+    },
+    {
+      "repo": "orhun/ratty"
+    },
+    {
+      "repo": "graykode/abtop"
+    },
+    {
+      "repo": "sharkdp/vivid"
+    },
+    {
+      "repo": "cheggaaa/pb"
+    },
+    {
+      "repo": "crossterm-rs/crossterm"
+    },
+    {
+      "repo": "salt-die/batgrl"
+    },
+    {
+      "repo": "pvolok/dekit"
+    },
+    {
+      "repo": "whyisdifficult/jiratui"
+    },
+    {
+      "repo": "mierak/rmpc"
+    },
+    {
+      "repo": "Canop/bacon"
+    },
+    {
+      "repo": "ilai-deutel/kibi"
+    },
+    {
+      "repo": "aannoo/hcom"
+    },
+    {
+      "repo": "ehmicky/nve"
+    },
+    {
+      "repo": "nickjj/dotfriedrice"
+    },
+    {
+      "repo": "webdiscus/ansis"
+    },
+    {
+      "repo": "Bash-it/bash-it"
+    },
+    {
+      "repo": "xtermjs/xterm.js"
+    },
+    {
+      "repo": "asciinema/asciinema-player"
+    },
+    {
+      "repo": "wfxr/csview"
+    },
+    {
+      "repo": "ayn2op/discordo"
+    },
+    {
+      "repo": "rusiaaman/wcgw"
+    },
+    {
+      "repo": "aisk/pick"
+    },
+    {
+      "repo": "dotnet/command-line-api"
+    },
+    {
+      "repo": "wojciech-graj/doom-ascii"
+    },
+    {
+      "repo": "zenbu-labs/terminal-code"
+    },
+    {
+      "repo": "da-luce/astroterm"
+    },
+    {
+      "repo": "control-theory/gonzo"
+    },
+    {
+      "repo": "kdabir/has"
+    },
+    {
+      "repo": "michel-kraemer/zsh-patina"
+    },
+    {
+      "repo": "metaspartan/mactop"
+    },
+    {
+      "repo": "jiaqi/jmxterm"
+    },
+    {
+      "repo": "phlx0/drift"
+    },
+    {
+      "repo": "dwmkerr/effective-shell"
+    },
+    {
+      "repo": "wavetermdev/waveterm"
+    },
+    {
+      "repo": "anmol098/npx_card"
+    },
+    {
+      "repo": "pls-rs/pls"
+    },
+    {
+      "repo": "oh-my-fish/oh-my-fish"
+    },
+    {
+      "repo": "gyscos/cursive"
+    },
+    {
+      "repo": "ceccopierangiolieugenio/pyTermTk"
+    },
+    {
+      "repo": "paulmillr/dotfiles"
+    },
+    {
+      "repo": "tclahr/uac"
+    },
+    {
+      "repo": "LiuMengxuan04/MiniCode"
+    },
+    {
+      "repo": "sebastiancarlos/beachpatrol"
+    },
+    {
+      "repo": "tammoippen/plotille"
+    },
+    {
+      "repo": "elfmz/far2l"
+    },
+    {
+      "repo": "peternaame-boop/ytm-player"
+    },
+    {
+      "repo": "ccbrown/iocraft"
+    },
+    {
+      "repo": "NHAS/reverse_ssh"
+    },
+    {
+      "repo": "chubin/wttr.in"
+    },
+    {
+      "repo": "0xjuanma/golazo"
+    },
+    {
+      "repo": "go-musicfox/go-musicfox"
+    },
+    {
+      "repo": "gnome-terminator/terminator"
+    },
+    {
+      "repo": "freekmurze/dotfiles"
+    },
+    {
+      "repo": "keidarcy/e1s"
+    },
+    {
+      "repo": "moson-mo/pacseek"
+    },
+    {
+      "repo": "jiawesoft/jiascheduler"
+    },
+    {
+      "repo": "SpartanJ/ecode"
+    },
+    {
+      "repo": "okbob/pspg"
+    },
+    {
+      "repo": "Canop/termimad"
+    },
+    {
+      "repo": "RoggeOhta/awesome-codex-cli"
+    },
+    {
+      "repo": "AmmarAbouZor/tui-journal"
+    },
+    {
+      "repo": "tizonia/tizonia-openmax-il"
+    },
+    {
+      "repo": "iAmCorey/kooky"
+    },
+    {
+      "repo": "alchaincyf/fanbox"
+    },
+    {
+      "repo": "tui-cs/TerminalGuiDesigner"
+    },
+    {
+      "repo": "meszmate/zigzag"
+    },
+    {
+      "repo": "termbox/termbox2"
+    },
+    {
+      "repo": "ericfreese/rat"
+    },
+    {
+      "repo": "wiscaksono/site"
+    },
+    {
+      "repo": "ohmybash/oh-my-bash"
+    },
+    {
+      "repo": "ggozad/oterm"
+    },
+    {
+      "repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "repo": "tonyantony300/dashbeam"
+    },
+    {
+      "repo": "GMSSH/GMSSH"
+    },
+    {
+      "repo": "orbitalquark/textadept"
+    },
+    {
+      "repo": "alacritty/alacritty"
+    },
+    {
+      "repo": "maxcurzi/tplay"
+    },
+    {
+      "repo": "ajalt/mordant"
+    },
+    {
+      "repo": "PeonPing/peon-ping"
+    },
+    {
+      "repo": "rcaloras/bashhub-client"
+    },
+    {
+      "repo": "anufrievroman/calcure"
+    },
+    {
+      "repo": "pythops/oryx"
+    },
+    {
+      "repo": "blacknon/hwatch"
+    },
+    {
+      "repo": "pythops/bluetui"
+    },
+    {
+      "repo": "magiblot/turbo"
+    },
+    {
+      "repo": "pythops/impala"
+    },
+    {
+      "repo": "vue-terminal/vue-termui"
+    },
+    {
+      "repo": "furkan/dockerlings"
+    },
+    {
+      "repo": "matterhorn-chat/matterhorn"
+    },
+    {
+      "repo": "mrjackwills/oxker"
+    },
+    {
+      "repo": "Macmod/godap"
+    },
+    {
+      "repo": "jacek-kurlit/pik"
+    },
+    {
+      "repo": "kraanzu/smassh"
+    },
+    {
+      "repo": "browser-use/terminal"
+    },
+    {
+      "repo": "Strophox/tetro-tui"
+    },
+    {
+      "repo": "gitui-org/gitui"
+    },
+    {
+      "repo": "Lifailon/lazyjournal"
+    },
+    {
+      "repo": "orhun/systeroid"
+    },
+    {
+      "repo": "veeso/tui-realm"
+    },
+    {
+      "repo": "kavehtehrani/cloudflare-speed-cli"
+    },
+    {
+      "repo": "sammcj/gollama"
+    },
+    {
+      "repo": "JustAman62/undercut-f1"
+    },
+    {
+      "repo": "sup-heliotrope/sup"
+    },
+    {
+      "repo": "JFreegman/toxic"
+    },
+    {
+      "repo": "josueBarretogit/manga-tui"
+    },
+    {
+      "repo": "laixintao/pingtop"
+    },
+    {
+      "repo": "pterm/pterm"
+    },
+    {
+      "repo": "filiparag/wikiman"
+    },
+    {
+      "repo": "aaronjanse/3mux"
+    },
+    {
+      "repo": "joeynyc/hermes-hud"
+    },
+    {
+      "repo": "ratatui/ratzilla"
+    },
+    {
+      "repo": "peterbrittain/asciimatics"
+    },
+    {
+      "repo": "makew0rld/amfora"
+    },
+    {
+      "repo": "karimknaebel/turm"
+    },
+    {
+      "repo": "bluetuith-org/bluetuith"
+    },
+    {
+      "repo": "GiorgosXou/TUIFIManager"
+    },
+    {
+      "repo": "skywind3000/vim-quickui"
+    },
+    {
+      "repo": "achannarasappa/ticker"
+    },
+    {
+      "repo": "Textualize/rich"
+    },
+    {
+      "repo": "red-data-tools/YouPlot"
+    },
+    {
+      "repo": "vinibiavatti1/TuiCss"
+    },
+    {
+      "repo": "RtlZeroMemory/Rezi"
+    },
+    {
+      "repo": "orhun/flawz"
+    },
+    {
+      "repo": "jrnxf/thokr"
+    },
+    {
+      "repo": "vyfor/rattles"
+    },
+    {
+      "repo": "nemuTUI/nemu"
+    },
+    {
+      "repo": "Bahaaio/pomo"
+    },
+    {
+      "repo": "fuelen/owl"
+    },
+    {
+      "repo": "P403n1x87/austin-tui"
+    },
+    {
+      "repo": "maria-rcks/t1code"
+    },
+    {
+      "repo": "yassinebridi/serpl"
+    },
+    {
+      "repo": "Siriusmart/youtube-tui"
+    },
+    {
+      "repo": "batrachianai/toad"
+    },
+    {
+      "repo": "tarkah/tickrs"
+    },
+    {
+      "repo": "kainctl/isd"
+    },
+    {
+      "repo": "zaghaghi/openapi-tui"
+    },
+    {
+      "repo": "ccgauche/ytermusic"
+    },
+    {
+      "repo": "ms-jpq/sad"
+    },
+    {
+      "repo": "pythops/tenere"
+    },
+    {
+      "repo": "hofstadter-io/hof"
+    },
+    {
+      "repo": "php-tui/php-tui"
+    },
+    {
+      "repo": "paul-nameless/tg"
+    },
+    {
+      "repo": "lusingander/stu"
+    },
+    {
+      "repo": "curlpipe/ox"
+    },
+    {
+      "repo": "juftin/browsr"
+    },
+    {
+      "repo": "xgi/castero"
+    },
+    {
+      "repo": "p-gen/smenu"
+    },
+    {
+      "repo": "max-niederman/ttyper"
+    },
+    {
+      "repo": "Broderick-Westrope/tetrigo"
+    },
+    {
+      "repo": "aome510/hackernews-TUI"
+    },
+    {
+      "repo": "jwlodek/py_cui"
+    },
+    {
+      "repo": "darrenburns/posting"
+    },
+    {
+      "repo": "productdevbook/port-killer"
+    },
+    {
+      "repo": "microsoft/rnx-kit"
+    },
+    {
+      "repo": "gglucass/headroom-desktop"
+    },
+    {
+      "repo": "Jarvis322/macos-sysdata"
+    },
+    {
+      "repo": "ix-infrastructure/Ix"
+    },
+    {
+      "repo": "zdk/lowfat"
+    },
+    {
+      "repo": "childrentime/reactuse"
+    },
+    {
+      "repo": "kubenetworks/kubevpn"
+    },
+    {
+      "repo": "ossillate-inc/packj"
+    },
+    {
+      "repo": "shinpr/claude-code-workflows"
+    },
+    {
+      "repo": "microsoft/HydraLab"
+    },
+    {
+      "repo": "0xsline/awesome-deepseek-harness"
+    },
+    {
+      "repo": "abhinav/git-spice"
+    },
+    {
+      "repo": "proxysoul/Empryo"
+    },
+    {
+      "repo": "jarun/bcal"
+    },
+    {
+      "repo": "promptdriven/pdd"
+    },
+    {
+      "repo": "tradecatlabs/vibe-coding-cn"
+    },
+    {
+      "repo": "elixirs/faker"
+    },
+    {
+      "repo": "vercel-labs/opensrc"
+    },
+    {
+      "repo": "Fast-Editor/Lynkr"
+    },
+    {
+      "repo": "maildev/maildev"
+    },
+    {
+      "repo": "zzet/gortex"
+    },
+    {
+      "repo": "raskrebs/sonar"
+    },
+    {
+      "repo": "CorentinTh/it-tools"
+    },
+    {
+      "repo": "ApeWorX/ape"
+    },
+    {
+      "repo": "universal-tool-calling-protocol/python-utcp"
+    },
+    {
+      "repo": "hoppscotch/hoppscotch"
+    },
+    {
+      "repo": "jrswab/axe"
+    },
+    {
+      "repo": "tzachbon/smart-ralph"
+    },
+    {
+      "repo": "xiufengsun/TokenTracker"
+    },
+    {
+      "repo": "macbre/phantomas"
+    },
+    {
+      "repo": "stackryze/FreeDomains"
+    },
+    {
+      "repo": "xpf0000/FlyEnv"
+    },
+    {
+      "repo": "sayanarijit/xplr"
+    },
+    {
+      "repo": "levnikolaevich/claude-code-skills"
+    },
+    {
+      "repo": "lennney/stop-that-shit"
+    },
+    {
+      "repo": "lintsinghua/DeepAudit"
+    },
+    {
+      "repo": "memorax-ai/memorax-code"
+    },
+    {
+      "repo": "manojmallick/sigmap"
+    },
+    {
+      "repo": "oliver-kriska/claude-elixir-phoenix"
+    },
+    {
+      "repo": "universal-ctags/ctags"
+    },
+    {
+      "repo": "KKKKhazix/khazix-skills"
+    },
+    {
+      "repo": "eli64s/readme-ai"
+    },
+    {
+      "repo": "AI-Builder-Club/skills"
+    },
+    {
+      "repo": "rio-labs/rio"
+    },
+    {
+      "repo": "atlassian/atlassian-mcp-server"
+    },
+    {
+      "repo": "regexident/cargo-modules"
+    },
+    {
+      "repo": "ojuschugh1/sqz"
+    },
+    {
+      "repo": "AnswerDotAI/nbdev"
+    },
+    {
+      "repo": "FrancyJGLisboa/agent-skills-platform"
+    },
+    {
+      "repo": "cytostack/openwolf"
+    },
+    {
+      "repo": "aminkheddache-dotcom/Ptero"
+    },
+    {
+      "repo": "timholy/Revise.jl"
+    },
+    {
+      "repo": "liaohch3/claude-tap"
+    },
+    {
+      "repo": "watchexec/watchexec"
+    },
+    {
+      "repo": "paladini/harness-score"
+    },
+    {
+      "repo": "txn2/kubefwd"
+    },
+    {
+      "repo": "sivchari/kumo"
+    },
+    {
+      "repo": "Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins"
+    },
+    {
+      "repo": "cocojojo5213/Dev-Janitor"
+    },
+    {
+      "repo": "d2lang/d2"
+    },
+    {
+      "repo": "tach-org/tach"
+    },
+    {
+      "repo": "ShawnPana/phone-harness"
+    },
+    {
+      "repo": "riponcm/projectmem"
+    },
+    {
+      "repo": "BradGroux/veritas-kanban"
+    },
+    {
+      "repo": "surrealdb/surrealdb"
+    },
+    {
+      "repo": "argilla-io/argilla"
+    },
+    {
+      "repo": "SWE-agent/SWE-agent"
+    },
+    {
+      "repo": "Lightning-AI/LitServe"
+    },
+    {
+      "repo": "treeverse/dvc"
+    },
+    {
+      "repo": "python-cmd2/cmd2"
+    },
+    {
+      "repo": "digitalsamba/claude-code-video-toolkit"
+    },
+    {
+      "repo": "foss42/apidash"
+    },
+    {
+      "repo": "teaql/teaql-agent-kit"
+    },
+    {
+      "repo": "DietrichGebert/ponytail"
+    },
+    {
+      "repo": "hyhmrright/brooks-lint"
+    },
+    {
+      "repo": "crafter-station/petdex"
+    },
+    {
+      "repo": "dailydotdev/daily"
+    },
+    {
+      "repo": "itigges22/ATLAS"
+    },
+    {
+      "repo": "httptoolkit/httptoolkit-desktop"
+    },
+    {
+      "repo": "unhappychoice/gitlogue"
+    },
+    {
+      "repo": "public-api-lists/public-api-lists"
+    },
+    {
+      "repo": "yoanbernabeu/grepai"
+    },
+    {
+      "repo": "waybarrios/opencode-power-pack"
+    },
+    {
+      "repo": "Tiger3807861189/J-Space-Cognition-Suite"
+    },
+    {
+      "repo": "brandonyoungdev/tldx"
+    },
+    {
+      "repo": "amplifthq/opentag"
+    },
+    {
+      "repo": "micahkepe/jsongrep"
+    },
+    {
+      "repo": "glauth/glauth"
+    },
+    {
+      "repo": "darrenhinde/OpenAgentsControl"
+    },
+    {
+      "repo": "Ataraxy-Labs/sem"
+    },
+    {
+      "repo": "rafal-qa/slopo"
+    },
+    {
+      "repo": "sourcey/sourcey"
+    },
+    {
+      "repo": "amalshaji/portr"
+    },
+    {
+      "repo": "Mirascope/mirascope"
+    },
+    {
+      "repo": "Tura-AI/tura"
+    },
+    {
+      "repo": "Owloops/claude-powerline"
+    },
+    {
+      "repo": "kaochenlong/spectra-app"
+    },
+    {
+      "repo": "spaam/svtplay-dl"
+    },
+    {
+      "repo": "deviceinsight/kafkactl"
+    },
+    {
+      "repo": "containers/toolbox"
+    },
+    {
+      "repo": "ARM-software/astc-encoder"
+    },
+    {
+      "repo": "xo/dbtpl"
+    },
+    {
+      "repo": "python-poetry/cleo"
+    },
+    {
+      "repo": "fioncat/otree"
+    },
+    {
+      "repo": "afc163/fanyi"
+    },
+    {
+      "repo": "hartwork/git-delete-merged-branches"
+    },
+    {
+      "repo": "grpc-ecosystem/grpc-health-probe"
+    },
+    {
+      "repo": "boredazfcuk/docker-icloudpd"
+    },
+    {
+      "repo": "packwiz/packwiz"
+    },
+    {
+      "repo": "mkideal/cli"
+    },
+    {
+      "repo": "howeyc/ledger"
+    },
+    {
+      "repo": "cookpete/auto-changelog"
+    },
+    {
+      "repo": "cs50/submit50"
+    },
+    {
+      "repo": "ledger/ledger"
+    },
+    {
+      "repo": "magmax/python-inquirer"
+    },
+    {
+      "repo": "buo/homebrew-cask-upgrade"
+    },
+    {
+      "repo": "commitizen/cz-cli"
+    },
+    {
+      "repo": "jasonrbriggs/stomp.py"
+    },
+    {
+      "repo": "haidaraM/ansible-playbook-grapher"
+    },
+    {
+      "repo": "coherentgraphics/cpdf-binaries"
+    },
+    {
+      "repo": "osmcode/osmium-tool"
+    },
+    {
+      "repo": "fullstorydev/grpcurl"
+    },
+    {
+      "repo": "curl/trurl"
+    },
+    {
+      "repo": "acheronfail/repgrep"
+    },
+    {
+      "repo": "brocode/fblog"
+    },
+    {
+      "repo": "knadh/koanf"
+    },
+    {
+      "repo": "hexdigest/gowrap"
+    },
+    {
+      "repo": "JEG2/highline"
+    },
+    {
+      "repo": "cutechess/cutechess"
+    },
+    {
+      "repo": "abey79/vpype"
+    },
+    {
+      "repo": "cognidox/OfficeToPDF"
+    },
+    {
+      "repo": "jkfran/killport"
+    },
+    {
+      "repo": "mr-karan/doggo"
+    },
+    {
+      "repo": "charmbracelet/soft-serve"
+    },
+    {
+      "repo": "Hejsil/zig-clap"
+    },
+    {
+      "repo": "exercism/cli"
+    },
+    {
+      "repo": "ascii-boxes/boxes"
+    },
+    {
+      "repo": "julienXX/terminal-notifier"
+    },
+    {
+      "repo": "jpmml/jpmml-sklearn"
+    },
+    {
+      "repo": "sveinbjornt/hear"
+    },
+    {
+      "repo": "ayoisaiah/f2"
+    },
+    {
+      "repo": "c-blake/cligen"
+    },
+    {
+      "repo": "orhun/menyoki"
+    },
+    {
+      "repo": "yoshiko-pg/difit"
+    },
+    {
+      "repo": "idank/explainshell"
+    },
+    {
+      "repo": "Licoy/fetch-github-hosts"
+    },
+    {
+      "repo": "CryptoDmitry/Ghost-Agent"
+    },
+    {
+      "repo": "laravel/prompts"
+    },
+    {
+      "repo": "Klemen1337/node-thermal-printer"
+    },
+    {
+      "repo": "internet-development/www-server-mono"
+    },
+    {
+      "repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
+    },
+    {
+      "repo": "mssun/passforios"
+    },
+    {
+      "repo": "tmbo/questionary"
+    },
+    {
+      "repo": "tobya/DocTo"
+    },
+    {
+      "repo": "cc1a2b/JShunter"
+    },
+    {
+      "repo": "adamabdelhamed/PowerArgs"
+    },
+    {
+      "repo": "Textualize/rich-cli"
+    },
+    {
+      "repo": "motdotla/node-lambda"
+    },
+    {
+      "repo": "tldr-pages/tldr-python-client"
+    },
+    {
+      "repo": "alan-turing-institute/CleverCSV"
+    },
+    {
+      "repo": "jpsim/SourceKitten"
+    },
+    {
+      "repo": "normen/whatscli"
+    },
+    {
+      "repo": "EasyEngine/easyengine"
+    },
+    {
+      "repo": "GameServerManagers/LinuxGSM"
+    },
+    {
+      "repo": "git-bahn/git-graph"
+    },
+    {
+      "repo": "bugaevc/wl-clipboard"
+    },
+    {
+      "repo": "glomatico/gamdl"
+    },
+    {
+      "repo": "commander-rb/commander"
+    },
+    {
+      "repo": "rehmatworks/gplaydl"
+    },
+    {
+      "repo": "tempestphp/highlight"
+    },
+    {
+      "repo": "nfzerox/VirtualMacOniPad"
+    },
+    {
+      "repo": "owo-colors/owo-colors"
+    },
+    {
+      "repo": "thephpleague/climate"
+    },
+    {
+      "repo": "ttytm/wthrr-the-weathercrab"
+    },
+    {
+      "repo": "JCluzet/Grademe"
+    },
+    {
+      "repo": "zhenorzz/goploy"
+    },
+    {
+      "repo": "ShawnPana/smux"
+    },
+    {
+      "repo": "Linus-Mussmaecher/rucola"
+    },
+    {
+      "repo": "kju4q/ai-weekend-builds"
+    },
+    {
+      "repo": "vil/H4X-Tools"
+    },
+    {
+      "repo": "imxv/Pretty-mermaid-skills"
+    },
+    {
+      "repo": "RohitKushvaha01/ReTerminal"
+    },
+    {
+      "repo": "rylena/sshdesk"
+    },
+    {
+      "repo": "andresgongora/synth-shell"
+    },
+    {
+      "repo": "sjurba/rebase-editor"
+    },
+    {
+      "repo": "m4tt72/terminal"
+    },
+    {
+      "repo": "yandanp/Connexio"
+    },
+    {
+      "repo": "gurgeous/tennis"
+    },
+    {
+      "repo": "OffcierCia/Crypto-OpSec-SelfGuard-RoadMap"
+    },
+    {
+      "repo": "zulip/zulip-terminal"
+    },
+    {
+      "repo": "trzsz/trzsz-go"
+    },
+    {
+      "repo": "JuliusBrussee/caveman-code"
+    },
+    {
+      "repo": "suitedaces/computer-agent"
+    },
+    {
+      "repo": "kilianc/rtail"
+    },
+    {
+      "repo": "joeroe/risotto"
+    },
+    {
+      "repo": "usewhale/Whale"
+    },
+    {
+      "repo": "sassman/t-rec-rs"
+    },
+    {
+      "repo": "ChrisTitusTech/powershell-profile"
+    },
+    {
+      "repo": "ghostty-org/ghostling"
+    },
+    {
+      "repo": "opendev-to/opendev"
+    },
+    {
+      "repo": "termstandard/colors"
+    },
+    {
+      "repo": "asbru-cm/asbru-cm"
+    },
+    {
+      "repo": "cosmos72/twin"
+    },
+    {
+      "repo": "china-qijizhifeng/agentic-harness-engineering"
+    },
+    {
+      "repo": "MicrosoftDocs/terminal"
+    },
+    {
+      "repo": "pazz/alot"
+    },
+    {
+      "repo": "Ylianst/MeshCommander"
+    },
+    {
+      "repo": "fcambus/ansiweather"
+    },
+    {
+      "repo": "hasegawa-tomoki/php-terminal-nes-emulator"
+    },
+    {
+      "repo": "libtcod/libtcod"
+    },
+    {
+      "repo": "kyokomi/emoji"
+    },
+    {
+      "repo": "siduck/st"
+    },
+    {
+      "repo": "rse/stmux"
+    },
+    {
+      "repo": "kai-morich/SimpleUsbTerminal"
+    },
+    {
+      "repo": "pablostanley/yoinks"
+    },
+    {
+      "repo": "mptre/yank"
+    },
+    {
+      "repo": "0xhckr/ghostty-shaders"
+    },
+    {
+      "repo": "sindresorhus/terminal-image"
+    },
+    {
+      "repo": "Chleba/netscanner"
+    },
+    {
+      "repo": "coder/boo"
+    },
+    {
+      "repo": "npcole/npyscreen"
+    },
+    {
+      "repo": "S-Sigdel/vimhjkl"
+    },
+    {
+      "repo": "fenetikm/falcon"
+    },
+    {
+      "repo": "dpnkrpl/radio-active"
+    },
+    {
+      "repo": "xaspx/hermes-control-interface"
+    },
+    {
+      "repo": "kholia/xvc-pico"
+    },
+    {
+      "repo": "ku1ik/rainbow"
+    },
+    {
+      "repo": "Morantron/tmux-fingers"
+    },
+    {
+      "repo": "jmuncor/tokentap"
+    },
+    {
+      "repo": "bhauman/rebel-readline"
+    },
+    {
+      "repo": "my-claude-utils/clsh"
+    },
+    {
+      "repo": "willothy/flatten.nvim"
+    },
+    {
+      "repo": "dtnewman/zev"
+    },
+    {
+      "repo": "justskiv/goschedviz"
+    },
+    {
+      "repo": "penso/arbor"
+    },
+    {
+      "repo": "massgen/MassGen"
+    }
+  ],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -1370,9 +3385,37 @@
       "reason": "Terminal use case needs classification"
     },
     "orhun/halp": {
-      "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "orhun-halp",
+      "acceptedAt": "2026-09-20T00:25:23.374Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/orhun/halp/blob/80797eaa0706f6fdfcf5d2905bba52961ebda738/Cargo.toml",
+          "snippet": "package.name=\"halp\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/orhun/halp/blob/80797eaa0706f6fdfcf5d2905bba52961ebda738/README.md",
+          "snippet": "cargo install halp"
+        },
+        "usage": {
+          "url": "https://github.com/orhun/halp/blob/80797eaa0706f6fdfcf5d2905bba52961ebda738/README.md",
+          "snippet": "halp cli_tool"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/orhun/halp",
+          "snippet": "A CLI tool to get help with CLI tools 🐙"
+        },
+        "adoption": {
+          "stars": 769,
+          "githubSource": "https://github.com/orhun/halp",
+          "homebrew": null
+        },
+        "commit": "80797eaa0706f6fdfcf5d2905bba52961ebda738"
+      }
     },
     "curl/wcurl": {
       "status": "held",
@@ -3347,8 +5390,9 @@
     },
     "fastapi/fastapi-cli": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "acheronfail/repgrep": {
       "status": "accepted",
@@ -3414,7 +5458,8 @@
     },
     "kardolus/chatgpt-cli": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "fortio/fortio": {
@@ -3424,7 +5469,8 @@
     },
     "hyperjumptech/monika": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "jkfran/killport": {
@@ -3434,8 +5480,9 @@
     },
     "ad-si/transity": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mr-karan/doggo": {
       "status": "held",
@@ -4562,8 +6609,9 @@
     },
     "eafer/rdrview": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "intoolswetrust/jd-cli": {
       "status": "held",
@@ -4586,9 +6634,37 @@
       "reason": "Terminal use case needs classification"
     },
     "eyeblech/cinecli": {
-      "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "eyeblech-cinecli",
+      "acceptedAt": "2026-09-20T00:25:23.374Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/eyeblech/cinecli/blob/1a812e42785eb9f58224f0cc7d8c58fc4b395739/pyproject.toml",
+          "snippet": "cinecli = \"cinecli.cli:app\"",
+          "target": "cinecli/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/eyeblech/cinecli/blob/1a812e42785eb9f58224f0cc7d8c58fc4b395739/README.md",
+          "snippet": "pip install cinecli"
+        },
+        "usage": {
+          "url": "https://github.com/eyeblech/cinecli/blob/1a812e42785eb9f58224f0cc7d8c58fc4b395739/README.md",
+          "snippet": "cinecli search matrix"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/eyeblech/cinecli",
+          "snippet": "CineCLI is a cross-platform command-line movie browser built with Python."
+        },
+        "adoption": {
+          "stars": 779,
+          "githubSource": "https://github.com/eyeblech/cinecli",
+          "homebrew": null
+        },
+        "commit": "1a812e42785eb9f58224f0cc7d8c58fc4b395739"
+      }
     },
     "exercism/cli": {
       "status": "held",
@@ -7919,7 +9995,8 @@
     },
     "l0ng-ai/papr": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "z-shell/zi": {
@@ -7954,12 +10031,14 @@
     },
     "taiki-e/cargo-hack": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "tanaikech/goodls": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "moul/quicssh": {
@@ -8396,7 +10475,8 @@
     },
     "earwig/git-repo-updater": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "circleci-public/circleci-cli": {
@@ -8416,8 +10496,9 @@
     },
     "llvm/llvm-project": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "api.github.com/repos/llvm/llvm-project/git/trees/e31da6ab711d043a785b340d6d9add76debd237d: source exceeds size limit"
     },
     "arxanas/git-branchless": {
       "status": "held",
@@ -8451,8 +10532,9 @@
     },
     "projectwallace/wallace-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "router-for-me/cliproxyapi": {
       "status": "held",
@@ -8490,9 +10572,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "alexpovel/srgn": {
-      "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "alexpovel-srgn",
+      "acceptedAt": "2026-09-20T00:25:23.374Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/alexpovel/srgn/blob/8574ea123ceef25fdbd77245dbbb2986761b6252/Cargo.toml",
+          "snippet": "package.name=\"srgn\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/alexpovel/srgn/blob/8574ea123ceef25fdbd77245dbbb2986761b6252/README.md",
+          "snippet": "3. Run `cargo install srgn`"
+        },
+        "usage": {
+          "url": "https://github.com/alexpovel/srgn/blob/8574ea123ceef25fdbd77245dbbb2986761b6252/README.md",
+          "snippet": "srgn --python 'class' 'age'"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/alexpovel/srgn",
+          "snippet": "A grep-like tool which understands source code syntax and allows for manipulation in addition to search"
+        },
+        "adoption": {
+          "stars": 912,
+          "githubSource": "https://github.com/alexpovel/srgn",
+          "homebrew": null
+        },
+        "commit": "8574ea123ceef25fdbd77245dbbb2986761b6252"
+      }
     },
     "aws-cloudformation/cloudformation-guard": {
       "status": "held",
@@ -8556,8 +10666,9 @@
     },
     "asheroto/winget-install": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cocogitto/cocogitto": {
       "status": "held",
@@ -8575,9 +10686,37 @@
       "reason": "Terminal use case needs classification"
     },
     "flatkey-ai/flatkey-cli": {
-      "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "flatkey-ai-flatkey-cli",
+      "acceptedAt": "2026-09-20T00:25:23.374Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/flatkey-ai/flatkey-cli/blob/c3d94ea3c3879c650c9ed8f95e038948010ba649/package.json",
+          "snippet": "{\"bin\":{\"flatkey\":\"bin/flatkey.js\"}}",
+          "target": "bin/flatkey.js"
+        },
+        "installation": {
+          "url": "https://github.com/flatkey-ai/flatkey-cli/blob/c3d94ea3c3879c650c9ed8f95e038948010ba649/README.md",
+          "snippet": "npm install -g @flatkey-ai/cli"
+        },
+        "usage": {
+          "url": "https://github.com/flatkey-ai/flatkey-cli/blob/c3d94ea3c3879c650c9ed8f95e038948010ba649/README.md",
+          "snippet": "flatkey image generate --prompt \"editorial cover, neon city at dawn\" -o cover.png"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/flatkey-ai/flatkey-cli",
+          "snippet": "Flatkey media generation CLI for images, videos, audio, text, credits, and model discovery."
+        },
+        "adoption": {
+          "stars": 910,
+          "githubSource": "https://github.com/flatkey-ai/flatkey-cli",
+          "homebrew": null
+        },
+        "commit": "c3d94ea3c3879c650c9ed8f95e038948010ba649"
+      }
     },
     "microsoft/vscode": {
       "status": "held",
@@ -8585,9 +10724,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "hukkin/mdformat": {
-      "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "hukkin-mdformat",
+      "acceptedAt": "2026-09-20T00:25:23.374Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/hukkin/mdformat/blob/56b24ef0c6cfdab501844925971204f858185547/pyproject.toml",
+          "snippet": "mdformat = \"mdformat.__main__:run\"",
+          "target": "src/mdformat/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/hukkin/mdformat/blob/56b24ef0c6cfdab501844925971204f858185547/README.md",
+          "snippet": "pipx install mdformat"
+        },
+        "usage": {
+          "url": "https://github.com/hukkin/mdformat/blob/56b24ef0c6cfdab501844925971204f858185547/README.md",
+          "snippet": "mdformat README.md CHANGELOG.md"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/hukkin/mdformat",
+          "snippet": "CommonMark compliant Markdown formatter"
+        },
+        "adoption": {
+          "stars": 823,
+          "githubSource": "https://github.com/hukkin/mdformat",
+          "homebrew": null
+        },
+        "commit": "56b24ef0c6cfdab501844925971204f858185547"
+      }
     },
     "drowe67/codec2": {
       "status": "held",
@@ -8606,8 +10773,9 @@
     },
     "ovh/shai": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
     },
     "agentclientprotocol/codex-acp": {
       "status": "held",
@@ -8661,7 +10829,8 @@
     },
     "yusukebe/gh-markdown-preview": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "seachicken/gh-poi": {
@@ -8681,8 +10850,9 @@
     },
     "j178/chatgpt": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "quantumsheep/sshs": {
       "status": "held",
@@ -8766,8 +10936,9 @@
     },
     "natecraddock/zf": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "carvel-dev/kapp": {
       "status": "held",
@@ -14148,48 +16319,57 @@
     },
     "strukturag/libde265": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ebiggers/libdeflate": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "libevent/libevent": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "libexif/libexif": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "wolfcw/libfaketime": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "libffi/libffi": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "yubico/libfido2": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "libgit2/libgit2": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "strukturag/libheif": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "the-open-engine/zeroshot": {
       "status": "held",
@@ -14218,53 +16398,129 @@
     },
     "libimobiledevice/libimobiledevice": {
       "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "libimobiledevice/libirecovery": {
-      "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "libimobiledevice-libirecovery",
+      "acceptedAt": "2026-09-20T00:25:23.374Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/libirecovery.json",
+          "snippet": "{\"executables\":[\"irecovery\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/libirecovery",
+          "snippet": "brew install libirecovery"
+        },
+        "usage": {
+          "url": "https://github.com/libimobiledevice/libirecovery/blob/93c117c29b1f6669bc4ceca8b84e1df06449fe33/README.md",
+          "snippet": "irecovery --shell"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/libimobiledevice/libirecovery",
+          "snippet": "Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux"
+        },
+        "adoption": {
+          "stars": 652,
+          "githubSource": "https://github.com/libimobiledevice/libirecovery",
+          "homebrew": {
+            "repo": "libimobiledevice/libirecovery",
+            "formula": "libirecovery",
+            "count": 716,
+            "source": "https://formulae.brew.sh/api/formula/libirecovery.json",
+            "generatedDate": "2026-09-19"
+          }
+        },
+        "commit": "93c117c29b1f6669bc4ceca8b84e1df06449fe33"
+      }
     },
     "maxmind/libmaxminddb": {
       "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "stephane/libmodbus": {
       "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "nghttp2/nghttp2": {
       "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ngtcp2/nghttp3": {
       "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ngtcp2/ngtcp2": {
       "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "the-tcpdump-group/libpcap": {
       "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "libimobiledevice/libplist": {
-      "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "libimobiledevice-libplist",
+      "acceptedAt": "2026-09-20T00:25:23.374Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/libplist.json",
+          "snippet": "{\"executables\":[\"plistutil\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/libplist",
+          "snippet": "brew install libplist"
+        },
+        "usage": {
+          "url": "https://github.com/libimobiledevice/libplist/blob/32428abacb909988e8e960a8845a6430b17b6a60/README.md",
+          "snippet": "plistutil -i foobar.plist -o output.plist"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/libimobiledevice/libplist",
+          "snippet": "A library to handle Apple Property List format in binary or XML"
+        },
+        "adoption": {
+          "stars": 636,
+          "githubSource": "https://github.com/libimobiledevice/libplist",
+          "homebrew": {
+            "repo": "libimobiledevice/libplist",
+            "formula": "libplist",
+            "count": 222,
+            "source": "https://formulae.brew.sh/api/formula/libplist.json",
+            "generatedDate": "2026-09-19"
+          }
+        },
+        "commit": "32428abacb909988e8e960a8845a6430b17b6a60"
+      }
     },
     "pnggroup/libpng": {
       "status": "held",
-      "checkedAt": "2026-09-16T06:44:24.457Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T00:25:23.374Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rockdaboot/libpsl": {
       "status": "held",
@@ -17625,5 +19881,5 @@
       "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-19T23:44:05.959Z"
+  "lastRunAt": "2026-09-20T00:25:23.374Z"
 }
