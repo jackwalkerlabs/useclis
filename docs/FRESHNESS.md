@@ -14,6 +14,8 @@ The daily job runs every collection step even after a provider fails. It validat
 
 The independent `Monitor directory freshness` workflow runs every six hours and on manual dispatch. It checks the latest completed daily run, a successful daily run started within 36 hours, and every mapped provider snapshot in main. Failures produce a red Actions check and a per-tool job summary. It needs only Actions/content read permissions, no new credentials or external service. It shares GitHub's scheduling failure domain, so it cannot report a total Actions outage; maintainers must inspect Actions and the visible timestamps. Existing repository notification preferences control any GitHub notifications.
 
+The same workflow checks CLI discovery, which reports success whether or not it admits anything: it reads `discovery/state.json` and fails when no run was recorded within three hours, or when no candidate was admitted within three days. A quiet funnel is the expected failure here — exhausted search windows or admission rules that no current candidate can satisfy — so recovery usually means widening `discovery/config.json` queries or the admission rules and raising `rulesVersion` so existing holds are judged again.
+
 Recovery: inspect the failed daily run and monitor summaries, repair the underlying problem, dispatch `refresh-directory.yml` on main, and verify the generated `ci.yml` deployment run. A green refresh run means collection/validation/push/dispatch succeeded; it does not prove the asynchronous deployment completed. Dispatch `monitor-freshness.yml` after recovery and verify live timestamps separately.
 
 ## Concurrency and release verification

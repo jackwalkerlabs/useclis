@@ -9,3 +9,22 @@ export function refreshRunHealth(runs, now = Date.now()) {
   if (!Number.isFinite(checked) || checked > now || now - checked > freshnessWindowHours * 3600000) problems.push(`No successful daily refresh started within ${freshnessWindowHours} hours`);
   return problems;
 }
+
+// Discovery reports success even when it admits nothing, so silence is the signal to watch.
+export const discoveryRunWindowHours = 3;
+export const discoveryAdmissionWindowDays = 3;
+export function discoveryHealth(state, now = Date.now()) {
+  const problems = [];
+  const lastRun = Date.parse(state?.lastRunAt ?? '');
+  if (!Number.isFinite(lastRun) || lastRun > now || now - lastRun > discoveryRunWindowHours * 3600000) {
+    problems.push(`No discovery run recorded within ${discoveryRunWindowHours} hours`);
+  }
+  const admissions = Object.values(state?.candidates ?? {})
+    .map(candidate => Date.parse(candidate?.acceptedAt ?? ''))
+    .filter(time => Number.isFinite(time) && time <= now);
+  const latest = admissions.length ? Math.max(...admissions) : null;
+  if (latest === null || now - latest > discoveryAdmissionWindowDays * 86400000) {
+    problems.push(`Discovery admitted no CLI within ${discoveryAdmissionWindowDays} days; its sources or rules may be exhausted`);
+  }
+  return problems;
+}

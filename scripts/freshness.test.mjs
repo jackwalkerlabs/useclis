@@ -5,7 +5,7 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { snapshotFreshness } from '../src/lib/freshness.mjs';
 import SnapshotFreshness from '../src/components/SnapshotFreshness.tsx';
 import { repositoryIdentity } from './lib/repository-identity.mjs';
-import { refreshRunHealth } from './lib/refresh-monitor.mjs';
+import { refreshRunHealth, discoveryHealth, discoveryRunWindowHours, discoveryAdmissionWindowDays } from './lib/refresh-monitor.mjs';
 import repositories from '../src/data/repositories.json' with { type: 'json' };
 import homebrew from '../src/data/homebrew.json' with { type: 'json' };
 const now = Date.parse('2026-09-15T12:00:00Z');
@@ -52,4 +52,20 @@ test('Monitor detects failed, cancelled, never-successful and overdue jobs witho
   assert.equal(refreshRunHealth([{ ...success, head_branch: 'feature' }], now).length, 1);
   for (const conclusion of ['failure', 'cancelled']) assert.equal(refreshRunHealth([success, { ...success, id: 2, created_at: '2026-09-15T06:17:00Z', conclusion }], now).length, 1);
   assert.deepEqual(refreshRunHealth([success, { ...success, id: 2, created_at: '2026-09-15T06:17:00Z', status: 'in_progress', conclusion: null }], now), []);
+});
+
+test('Discovery monitoring separates a stopped job from a running job that admits nothing', () => {
+  const state = { lastRunAt: '2026-09-15T11:00:00Z', candidates: { a: { status: 'accepted', acceptedAt: '2026-09-14T12:00:00Z' }, b: { status: 'held' } } };
+  assert.deepEqual(discoveryHealth(state, now), []);
+  const stopped = { ...state, lastRunAt: '2026-09-15T08:59:59Z' };
+  assert.deepEqual(discoveryHealth(stopped, now), [`No discovery run recorded within ${discoveryRunWindowHours} hours`]);
+  for (const lastRunAt of [undefined, 'invalid', '2026-09-15T12:00:01Z']) {
+    assert.equal(discoveryHealth({ ...state, lastRunAt }, now).length, 1, 'Missing, unparsable, and future run times all count as stopped');
+  }
+  // A green run history hides an exhausted funnel; the last admission is the real signal.
+  const quiet = { ...state, candidates: { a: { status: 'accepted', acceptedAt: '2026-09-12T11:59:59Z' } } };
+  assert.deepEqual(discoveryHealth(quiet, now), [`Discovery admitted no CLI within ${discoveryAdmissionWindowDays} days; its sources or rules may be exhausted`]);
+  assert.equal(discoveryHealth({ ...state, candidates: {} }, now).length, 1);
+  assert.equal(discoveryHealth({ ...state, candidates: { a: { acceptedAt: '2026-09-20T00:00:00Z' } } }, now).length, 1, 'A future admission is not evidence of a working run');
+  assert.equal(discoveryHealth(undefined, now).length, 2);
 });
