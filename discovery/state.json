@@ -4,126 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "wfxr/csview"
-    },
-    {
-      "repo": "ayn2op/discordo"
-    },
-    {
-      "repo": "rusiaaman/wcgw"
-    },
-    {
-      "repo": "aisk/pick"
-    },
-    {
-      "repo": "dotnet/command-line-api"
-    },
-    {
-      "repo": "wojciech-graj/doom-ascii"
-    },
-    {
-      "repo": "zenbu-labs/terminal-code"
-    },
-    {
-      "repo": "da-luce/astroterm"
-    },
-    {
-      "repo": "control-theory/gonzo"
-    },
-    {
-      "repo": "kdabir/has"
-    },
-    {
-      "repo": "michel-kraemer/zsh-patina"
-    },
-    {
-      "repo": "metaspartan/mactop"
-    },
-    {
-      "repo": "jiaqi/jmxterm"
-    },
-    {
-      "repo": "phlx0/drift"
-    },
-    {
-      "repo": "dwmkerr/effective-shell"
-    },
-    {
-      "repo": "wavetermdev/waveterm"
-    },
-    {
-      "repo": "anmol098/npx_card"
-    },
-    {
-      "repo": "pls-rs/pls"
-    },
-    {
-      "repo": "oh-my-fish/oh-my-fish"
-    },
-    {
-      "repo": "gyscos/cursive"
-    },
-    {
-      "repo": "ceccopierangiolieugenio/pyTermTk"
-    },
-    {
-      "repo": "paulmillr/dotfiles"
-    },
-    {
-      "repo": "tclahr/uac"
-    },
-    {
-      "repo": "LiuMengxuan04/MiniCode"
-    },
-    {
-      "repo": "sebastiancarlos/beachpatrol"
-    },
-    {
-      "repo": "tammoippen/plotille"
-    },
-    {
-      "repo": "elfmz/far2l"
-    },
-    {
-      "repo": "peternaame-boop/ytm-player"
-    },
-    {
-      "repo": "ccbrown/iocraft"
-    },
-    {
-      "repo": "NHAS/reverse_ssh"
-    },
-    {
-      "repo": "chubin/wttr.in"
-    },
-    {
-      "repo": "0xjuanma/golazo"
-    },
-    {
-      "repo": "go-musicfox/go-musicfox"
-    },
-    {
-      "repo": "gnome-terminator/terminator"
-    },
-    {
-      "repo": "freekmurze/dotfiles"
-    },
-    {
-      "repo": "keidarcy/e1s"
-    },
-    {
-      "repo": "moson-mo/pacseek"
-    },
-    {
-      "repo": "jiawesoft/jiascheduler"
-    },
-    {
-      "repo": "SpartanJ/ecode"
-    },
-    {
-      "repo": "okbob/pspg"
-    },
-    {
       "repo": "Canop/termimad"
     },
     {
@@ -1933,8 +1813,9 @@
     },
     "wavetermdev/waveterm": {
       "status": "held",
-      "checkedAt": "2026-09-11T15:37:48.248Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "spicetify/cli": {
       "status": "held",
@@ -2168,8 +2049,9 @@
     },
     "jiaqi/jmxterm": {
       "status": "held",
-      "checkedAt": "2026-09-11T15:43:52.976Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "arduino/arduino-cli": {
       "status": "held",
@@ -2291,8 +2173,9 @@
     },
     "go-musicfox/go-musicfox": {
       "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bensadeh/circumflex": {
       "status": "held",
@@ -3667,8 +3550,9 @@
     },
     "kdabir/has": {
       "status": "held",
-      "checkedAt": "2026-09-11T21:43:33.440Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "auriti-labs/geo-optimizer-skill": {
       "status": "accepted",
@@ -4072,7 +3956,8 @@
     },
     "wfxr/csview": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "python-poetry/cleo": {
@@ -4417,8 +4302,9 @@
     },
     "dotnet/command-line-api": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "arm-software/astc-encoder": {
       "status": "held",
@@ -5067,8 +4953,9 @@
     },
     "aisk/pick": {
       "status": "held",
-      "checkedAt": "2026-09-14T00:44:18.483Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "harry-kp/vortix": {
       "status": "held",
@@ -5256,8 +5143,9 @@
     },
     "zenbu-labs/terminal-code": {
       "status": "held",
-      "checkedAt": "2026-09-14T00:44:18.483Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "unjs/consola": {
       "status": "held",
@@ -6565,8 +6453,9 @@
     },
     "michel-kraemer/zsh-patina": {
       "status": "held",
-      "checkedAt": "2026-09-14T06:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "boyter/cs": {
       "status": "held",
@@ -6784,8 +6673,9 @@
     },
     "phlx0/drift": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sparklabx/drawio-ai-kit": {
       "status": "held",
@@ -6809,8 +6699,9 @@
     },
     "anmol098/npx_card": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ix-infrastructure/ix": {
       "status": "held",
@@ -8100,8 +7991,9 @@
     },
     "liumengxuan04/minicode": {
       "status": "held",
-      "checkedAt": "2026-09-14T13:44:21.937Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "alvarorichard/goanime": {
       "status": "held",
@@ -8125,8 +8017,9 @@
     },
     "sebastiancarlos/beachpatrol": {
       "status": "held",
-      "checkedAt": "2026-09-14T13:44:21.937Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ignite/cli": {
       "status": "held",
@@ -8238,8 +8131,9 @@
     },
     "peternaame-boop/ytm-player": {
       "status": "held",
-      "checkedAt": "2026-09-14T13:44:21.937Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "arthur-ficial/apfel": {
       "status": "held",
@@ -8906,8 +8800,9 @@
     },
     "ccbrown/iocraft": {
       "status": "held",
-      "checkedAt": "2026-09-14T17:44:24.786Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "catchorg/catch2": {
       "status": "held",
@@ -9051,8 +8946,9 @@
     },
     "0xjuanma/golazo": {
       "status": "held",
-      "checkedAt": "2026-09-14T17:44:24.786Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "hpjansson/chafa": {
       "status": "held",
@@ -9148,8 +9044,9 @@
     },
     "keidarcy/e1s": {
       "status": "held",
-      "checkedAt": "2026-09-14T17:44:24.786Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mistweaverco/kulala.nvim": {
       "status": "held",
@@ -10662,8 +10559,9 @@
     },
     "pls-rs/pls": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ihabunek/twitch-dl": {
       "status": "accepted",
@@ -14380,8 +14278,9 @@
     },
     "da-luce/astroterm": {
       "status": "held",
-      "checkedAt": "2026-09-15T15:44:22.551Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jcubic/jquery.terminal": {
       "status": "held",
@@ -17242,8 +17141,9 @@
     },
     "metaspartan/mactop": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "macvim-dev/macvim": {
       "status": "held",
@@ -20447,7 +20347,127 @@
       "checkedAt": "2026-09-20T06:44:04.642Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ayn2op/discordo": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rusiaaman/wcgw": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "wojciech-graj/doom-ascii": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "control-theory/gonzo": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dwmkerr/effective-shell": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "oh-my-fish/oh-my-fish": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gyscos/cursive": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ceccopierangiolieugenio/pytermtk": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "paulmillr/dotfiles": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tclahr/uac": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tammoippen/plotille": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "elfmz/far2l": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nhas/reverse_ssh": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chubin/wttr.in": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gnome-terminator/terminator": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "freekmurze/dotfiles": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "moson-mo/pacseek": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jiawesoft/jiascheduler": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "spartanj/ecode": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "okbob/pspg": {
+      "status": "held",
+      "checkedAt": "2026-09-20T07:44:08.016Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-20T06:44:04.642Z"
+  "lastRunAt": "2026-09-20T07:44:08.016Z"
 }
