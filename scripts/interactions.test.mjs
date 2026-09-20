@@ -19,6 +19,7 @@ const { default: AgentPrompt } = await import('../src/components/AgentPrompt.tsx
 const { agentPrompt } = await import('../src/lib/agent-prompt.ts');
 const { tools, categories, number } = await import('../src/data/tools.ts');
 const { default: activity } = await import('../src/data/activity.json', { with: { type: 'json' } });
+const { activityWindow } = await import('../src/lib/date-ranges.ts');
 let scrolls;
 beforeEach(() => {
   window.history.replaceState(null, '', '/');
@@ -514,26 +515,25 @@ test('Activity chart range controls show exact totals and weekly values', async 
   }
 });
 
-test('Homepage date ranges update table, totals, and URL while discovery stays weekly', async (t) => {
+test('Homepage date ranges update table, totals, and URL while discovery stays weekly', async () => {
   const user = userEvent.setup();
   const fixtures = tools.filter(tool => ['github-cli', 'ripgrep'].includes(tool.slug));
-  // Anchor the imported activity fixtures, which Directory also reads, so daily
-  // refresh dates cannot change the expected overlapping weekly bucket counts.
-  const checkedDates = fixtures.map(tool => [tool.slug, activity[tool.slug].checkedAt]);
-  t.after(() => { for (const [slug, checkedAt] of checkedDates) activity[slug].checkedAt = checkedAt; });
-  for (const tool of fixtures) activity[tool.slug].checkedAt = '2026-09-09';
+  // Expected buckets come from the shared window helper against each snapshot's own
+  // date, because a daily refresh moves the latest bucket between weekdays. Fixed
+  // bucket counts per range are covered exhaustively in date-ranges.test.mjs.
+  const windowFor = (slug, period) => activityWindow(activity[slug].weeks, period, activity[slug].checkedAt).map(point => point.value);
   render(h(Directory, { tools: fixtures }));
   const select = screen.getByRole('combobox', { name: 'Leaderboard date range' });
   assert.equal(select.value, '30d');
   const originalDiscovery = document.querySelector('.discovery-section').textContent;
   const originalStars = [...document.querySelectorAll('.table-stars')].map(node => node.textContent);
-  for (const [period, count] of [['7d', 2], ['30d', 5], ['3m', 14], ['6m', 27], ['12m', 52], ['all', 52]]) {
+  for (const period of ['7d', '30d', '3m', '6m', '12m', 'all']) {
     await user.selectOptions(select, period);
     assert.equal(new URLSearchParams(window.location.search).get('period'), period === '30d' ? null : period);
-    const totals = fixtures.map(tool => activity[tool.slug].weeks.slice(-count).reduce((a, b) => a + b, 0));
+    const totals = fixtures.map(tool => windowFor(tool.slug, period).reduce((a, b) => a + b, 0));
     for (const tool of fixtures) {
       const row = document.querySelector(`.table-project[href="/tools/${tool.slug}/"]`).closest('tr');
-      const values = activity[tool.slug].weeks.slice(-count);
+      const values = windowFor(tool.slug, period);
       assert.equal(row.querySelector('.brew-count').textContent, number(tool.homebrew?.counts['30d']), 'Homebrew keeps its explicitly labeled 30-day window when activity dates change');
       assert.equal(row.querySelector('.table-chart svg').getAttribute('aria-label'), `${tool.name}, weekly commits: ${values.join(', ')}`);
       assert.equal(row.querySelector('.mobile-activity svg').getAttribute('aria-label'), row.querySelector('.table-chart svg').getAttribute('aria-label'));
@@ -544,6 +544,8 @@ test('Homepage date ranges update table, totals, and URL while discovery stays w
     assert.equal(document.querySelector('.discovery-section').textContent, originalDiscovery);
     assert.equal(document.querySelector('.useclis-featured'), null);
   }
+  // A shorter range must actually narrow the series, so matching the helper is not vacuous.
+  assert.ok(windowFor('github-cli', '7d').length < windowFor('github-cli', '12m').length);
 });
 
 test('Homepage restores ranges on reload and history, and rejects unsupported periods', async () => {

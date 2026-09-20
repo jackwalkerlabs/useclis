@@ -4,6 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { packageCommands, formulaCommands, evaluateCandidate, remainingToday, validateConfig } from './lib/cli-evidence.mjs';
 import { brewCandidates, createClient, discover, SourceTooLargeError, BudgetPause } from './discover-clis.mjs';
 import { dispatchDiscovery } from '../workers/discovery/index.mjs';
+import { discoveryHealth } from './lib/refresh-monitor.mjs';
 import { categories } from '../src/data/tools.ts';
 
 const config = JSON.parse(await readFile(new URL('../discovery/config.json', import.meta.url)));
@@ -320,4 +321,16 @@ test('Discovery configuration bounds the query set, the rules version, and the d
   const result = await discover({ catalog: [], mappings: {}, config: { ...config, queries: ['topic:cli stars:500..999', 'topic:terminal'] }, state: { version: 1, searchPage: 1, brewOffset: 0, candidates: {} }, request, now: '2026-09-09T12:00:00Z' });
   assert.deepEqual(queries, ['topic:cli stars:500..999 archived:false fork:false', `topic:terminal stars:>=${config.minStars} archived:false fork:false`]);
   assert.ok(result.state.pending.length <= 900, 'The stored queue stays inside its validated bound');
+});
+
+test('A capped day still records that discovery ran, so monitoring reads it as alive', async () => {
+  const now = '2026-09-09T12:00:00Z';
+  const candidates = Object.fromEntries(Array.from({ length: config.maxPerDay }, (_, i) => [`sample/tool-${i}`, { status: 'accepted', acceptedAt: now, rulesVersion: config.rulesVersion }]));
+  const state = { version: 1, searchPage: 1, brewOffset: 0, candidates, lastRunAt: '2026-09-09T11:00:00Z' };
+  const result = await discover({ catalog: [], mappings: {}, config, state, now, request: async () => { throw new Error('A capped run must not reach any provider'); } });
+  assert.equal(result.message, 'Daily publication cap reached');
+  assert.equal(result.state.lastRunAt, now);
+  assert.deepEqual({ ...result.state, lastRunAt: state.lastRunAt }, state, 'Nothing but the run time changes');
+  assert.equal(state.lastRunAt, '2026-09-09T11:00:00Z', 'Caller state is unchanged');
+  assert.deepEqual(discoveryHealth(result.state, Date.parse('2026-09-09T13:00:00Z')), []);
 });
