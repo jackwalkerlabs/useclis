@@ -203,7 +203,8 @@ export async function discover({ catalog, state, mappings, config, request, now 
   const accepted = [];
   const outcomes = [];
   const available = remainingToday(next, now, config.maxPerDay);
-  if (!available) return { catalog, state, mappings, accepted, outcomes, message: 'Daily publication cap reached' };
+  // Record the attempt so a capped day still reads as a living job, not a stopped one.
+  if (!available) return { catalog, state: { ...next, lastRunAt: now }, mappings, accepted, outcomes, message: 'Daily publication cap reached' };
   let found;
   try { found = await collectCandidates(request, next, config, now); }
   catch (error) {
