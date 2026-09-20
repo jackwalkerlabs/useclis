@@ -5188,5 +5188,50 @@
     "repositoryId": 672935720,
     "attemptedAt": "2026-09-20T02:45:00.423Z",
     "status": "ok"
+  },
+  "webtorrent-webtorrent-cli": {
+    "defaultBranch": "master",
+    "createdAt": "2016-03-11T05:49:36Z",
+    "pushedAt": "2026-08-19T22:16:04Z",
+    "lastCommitAt": "2026-08-19T15:52:54Z",
+    "stars": 1370,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-20T03:44:54.705Z",
+    "source": "https://github.com/webtorrent/webtorrent-cli",
+    "canonicalSource": "https://github.com/webtorrent/webtorrent-cli",
+    "repositoryId": 53643073,
+    "attemptedAt": "2026-09-20T03:44:54.145Z",
+    "status": "ok"
+  },
+  "mike-engel-jwt-cli": {
+    "defaultBranch": "main",
+    "createdAt": "2017-03-06T06:38:12Z",
+    "pushedAt": "2026-08-17T12:02:41Z",
+    "lastCommitAt": "2026-08-10T12:37:07Z",
+    "stars": 1511,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-20T03:44:55.324Z",
+    "source": "https://github.com/mike-engel/jwt-cli",
+    "canonicalSource": "https://github.com/mike-engel/jwt-cli",
+    "repositoryId": 84038847,
+    "attemptedAt": "2026-09-20T03:44:54.922Z",
+    "status": "ok"
+  },
+  "helvesec-rmux": {
+    "defaultBranch": "main",
+    "createdAt": "2026-05-15T15:22:10Z",
+    "pushedAt": "2026-08-09T22:38:33Z",
+    "lastCommitAt": "2026-08-08T15:07:04Z",
+    "stars": 2642,
+    "license": null,
+    "language": "Rust",
+    "checkedAt": "2026-09-20T03:44:55.886Z",
+    "source": "https://github.com/Helvesec/rmux",
+    "canonicalSource": "https://github.com/Helvesec/rmux",
+    "repositoryId": 1239918790,
+    "attemptedAt": "2026-09-20T03:44:55.515Z",
+    "status": "ok"
   }
 }

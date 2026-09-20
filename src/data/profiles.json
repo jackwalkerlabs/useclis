@@ -3950,5 +3950,44 @@
     "createdAt": "2021-10-20T13:27:35Z",
     "checkedAt": "2026-09-20T02:45:04.407Z",
     "source": "https://github.com/chaqchase"
+  },
+  "webtorrent": {
+    "login": "webtorrent",
+    "name": "WebTorrent",
+    "type": "Organization",
+    "bio": "⚡️⚡️⚡️ Streaming torrent client for the web, Node.js, Mac, Windows, & Linux.",
+    "location": "npm install webtorrent",
+    "website": "https://webtorrent.io",
+    "followers": 617,
+    "publicRepos": 38,
+    "createdAt": "2013-10-29T02:52:39Z",
+    "checkedAt": "2026-09-20T03:44:57.569Z",
+    "source": "https://github.com/webtorrent"
+  },
+  "mike-engel": {
+    "login": "mike-engel",
+    "name": "Mike Engel",
+    "type": "User",
+    "bio": "Developer and designer of various things",
+    "location": "Munich, DE",
+    "website": "https://mike-engel.com",
+    "followers": 130,
+    "publicRepos": 75,
+    "createdAt": "2010-11-02T16:22:48Z",
+    "checkedAt": "2026-09-20T03:44:57.932Z",
+    "source": "https://github.com/mike-engel"
+  },
+  "helvesec": {
+    "login": "Helvesec",
+    "name": "Helvesec",
+    "type": "Organization",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 21,
+    "publicRepos": 8,
+    "createdAt": "2026-05-15T14:50:15Z",
+    "checkedAt": "2026-09-20T03:44:58.247Z",
+    "source": "https://github.com/Helvesec"
   }
 }

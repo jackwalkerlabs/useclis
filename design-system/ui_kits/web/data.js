@@ -7107,6 +7107,63 @@ window.USECLIS_DATA = {
       "stars": 1223,
       "license": "MIT",
       "checkedAt": "2026-09-20T02:45:00.843Z"
+    },
+    {
+      "slug": "webtorrent-webtorrent-cli",
+      "name": "webtorrent-cli",
+      "repo": "webtorrent/webtorrent-cli",
+      "category": "Terminal utilities",
+      "command": "webtorrent",
+      "useCase": "WebTorrent, the streaming torrent client. For the command line.",
+      "description": "WebTorrent, the streaming torrent client. For the command line.",
+      "agentUse": "Invoke webtorrent from a shell for the documented use case: WebTorrent, the streaming torrent client. For the command line.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "webtorrent download \"magnet:...\" --vlc",
+      "website": "https://github.com/webtorrent/webtorrent-cli",
+      "docs": "https://github.com/webtorrent/webtorrent-cli/blob/9f28def6ec0d62e8a0f061c8d31ad1b46cd71c5c/README.md",
+      "stars": 1370,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T03:44:54.705Z"
+    },
+    {
+      "slug": "mike-engel-jwt-cli",
+      "name": "jwt-cli",
+      "repo": "mike-engel/jwt-cli",
+      "category": "Data & APIs",
+      "command": "jwt",
+      "useCase": "A super fast CLI tool to decode and encode JWTs built in Rust",
+      "description": "A super fast CLI tool to decode and encode JWTs built in Rust",
+      "agentUse": "Invoke jwt from a shell for the documented use case: A super fast CLI tool to decode and encode JWTs built in Rust",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "jwt decode -",
+      "website": "https://github.com/mike-engel/jwt-cli",
+      "docs": "https://github.com/mike-engel/jwt-cli/blob/6b203a2fc73b09ab50159c2be64939fe76422b6c/README.md",
+      "stars": 1511,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T03:44:55.324Z"
+    },
+    {
+      "slug": "helvesec-rmux",
+      "name": "rmux",
+      "repo": "Helvesec/rmux",
+      "category": "Agents & models",
+      "command": "rmux",
+      "useCase": "Universal Rust multiplexer with a typed SDK — drive any CLI or TUI app from code. Native on Linux, macOS, and Windows.",
+      "description": "Universal Rust multiplexer with a typed SDK — drive any CLI or TUI app from code. Native on Linux, macOS, and Windows.",
+      "agentUse": "Invoke rmux from a shell for the documented use case: Universal Rust multiplexer with a typed SDK — drive any CLI or TUI app from code. Native on Linux, macOS, and Windows.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "rmux list-commands",
+      "website": "https://github.com/Helvesec/rmux",
+      "docs": "https://github.com/Helvesec/rmux/blob/1f4571e74f36be0c033c6294d1616c7d3a6fbda1/README.md",
+      "stars": 2642,
+      "license": null,
+      "checkedAt": "2026-09-20T03:44:55.886Z"
     }
   ],
   "categories": [

@@ -7282,5 +7282,23 @@
       "date": "2026-09-20",
       "stars": 1223
     }
+  ],
+  "webtorrent-webtorrent-cli": [
+    {
+      "date": "2026-09-20",
+      "stars": 1370
+    }
+  ],
+  "mike-engel-jwt-cli": [
+    {
+      "date": "2026-09-20",
+      "stars": 1511
+    }
+  ],
+  "helvesec-rmux": [
+    {
+      "date": "2026-09-20",
+      "stars": 2642
+    }
   ]
 }
