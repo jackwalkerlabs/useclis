@@ -4,141 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "Houseofmvps/codesight"
-    },
-    {
-      "repo": "wbopan/moffee"
-    },
-    {
-      "repo": "lasantosr/intelli-shell"
-    },
-    {
-      "repo": "sachaos/todoist"
-    },
-    {
-      "repo": "readbeyond/aeneas"
-    },
-    {
-      "repo": "rupeshs/fastsdcpu"
-    },
-    {
-      "repo": "Zouuup/landrun"
-    },
-    {
-      "repo": "sergi0g/cup"
-    },
-    {
-      "repo": "karust/openserp"
-    },
-    {
-      "repo": "jamubc/gemini-mcp-tool"
-    },
-    {
-      "repo": "dungngminh/simutil"
-    },
-    {
-      "repo": "Code-with-Beto/snapai"
-    },
-    {
-      "repo": "bombshell-dev/clack"
-    },
-    {
-      "repo": "yonaskolb/XcodeGen"
-    },
-    {
-      "repo": "agarrharr/awesome-cli-apps"
-    },
-    {
-      "repo": "flow-typed/flow-typed"
-    },
-    {
-      "repo": "charmbracelet/lipgloss"
-    },
-    {
-      "repo": "geekjourneyx/md2wechat-skill"
-    },
-    {
-      "repo": "tmux-python/tmuxp"
-    },
-    {
-      "repo": "version-fox/vfox"
-    },
-    {
-      "repo": "AdnanHodzic/auto-cpufreq"
-    },
-    {
-      "repo": "pallets/click"
-    },
-    {
-      "repo": "oclif/oclif"
-    },
-    {
-      "repo": "tqdm/tqdm"
-    },
-    {
-      "repo": "mtkennerly/ludusavi"
-    },
-    {
-      "repo": "BlockchainCommons/Learning-Bitcoin-from-the-Command-Line"
-    },
-    {
-      "repo": "plopjs/plop"
-    },
-    {
-      "repo": "bobthecow/psysh"
-    },
-    {
-      "repo": "Raphire/Win11Debloat"
-    },
-    {
-      "repo": "jdepoix/youtube-transcript-api"
-    },
-    {
-      "repo": "hatoo/oha"
-    },
-    {
-      "repo": "sindresorhus/np"
-    },
-    {
-      "repo": "fuxicodex/Fuxi"
-    },
-    {
-      "repo": "wuyoscar/GPT-Image2-Skill"
-    },
-    {
-      "repo": "charmbracelet/vhs"
-    },
-    {
-      "repo": "gitleaks/gitleaks"
-    },
-    {
-      "repo": "danvergara/dblab"
-    },
-    {
-      "repo": "bahdotsh/wrkflw"
-    },
-    {
-      "repo": "pimalaya/himalaya"
-    },
-    {
-      "repo": "marp-team/marp-cli"
-    },
-    {
-      "repo": "voidcosmos/npkill"
-    },
-    {
-      "repo": "dlvhdr/gh-dash"
-    },
-    {
-      "repo": "sloria/doitlive"
-    },
-    {
-      "repo": "PaulJuliusMartinez/jless"
-    },
-    {
-      "repo": "XAMPPRocky/tokei"
-    },
-    {
       "repo": "todotxt/todo.txt-cli"
     },
     {
@@ -1974,8 +1839,9 @@
     },
     "bobthecow/psysh": {
       "status": "held",
-      "checkedAt": "2026-09-10T23:50:32.585Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "superdesigndev/treg": {
       "status": "held",
@@ -2450,8 +2316,9 @@
     },
     "charmbracelet/vhs": {
       "status": "held",
-      "checkedAt": "2026-09-11T15:43:52.976Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "domcyrus/rustnet": {
       "status": "held",
@@ -2582,13 +2449,42 @@
     },
     "voidcosmos/npkill": {
       "status": "held",
-      "checkedAt": "2026-09-11T15:43:52.976Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "hatoo/oha": {
-      "status": "held",
-      "checkedAt": "2026-09-11T15:43:52.976Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "hatoo-oha",
+      "acceptedAt": "2026-09-20T04:44:06.279Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/hatoo/oha/blob/0d6d370ed37108385d79a4ce34c0b8a8d7c9b6fe/Cargo.toml",
+          "snippet": "package.name=\"oha\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/hatoo/oha/blob/0d6d370ed37108385d79a4ce34c0b8a8d7c9b6fe/README.md",
+          "snippet": "cargo install oha"
+        },
+        "usage": {
+          "url": "https://github.com/hatoo/oha/blob/0d6d370ed37108385d79a4ce34c0b8a8d7c9b6fe/README.md",
+          "snippet": "oha -n 10 --burst-delay 2s --burst-rate 4"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/hatoo/oha",
+          "snippet": "Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation."
+        },
+        "adoption": {
+          "stars": 10552,
+          "githubSource": "https://github.com/hatoo/oha",
+          "homebrew": null
+        },
+        "commit": "0d6d370ed37108385d79a4ce34c0b8a8d7c9b6fe"
+      }
     },
     "fleschutz/powershell": {
       "status": "held",
@@ -2596,9 +2492,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "sloria/doitlive": {
-      "status": "held",
-      "checkedAt": "2026-09-11T15:43:52.976Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "sloria-doitlive",
+      "acceptedAt": "2026-09-20T04:44:06.279Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/sloria/doitlive/blob/168333b454bc4bf95c1a9f0e4c3aa3f07c1768d1/pyproject.toml",
+          "snippet": "doitlive = \"doitlive.cli:cli\"",
+          "target": "src/doitlive/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/sloria/doitlive/blob/168333b454bc4bf95c1a9f0e4c3aa3f07c1768d1/README.rst",
+          "snippet": "$ pip install doitlive"
+        },
+        "usage": {
+          "url": "https://github.com/sloria/doitlive/blob/168333b454bc4bf95c1a9f0e4c3aa3f07c1768d1/README.rst",
+          "snippet": "doitlive play session.sh"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/sloria/doitlive",
+          "snippet": "Because sometimes you need to do it live"
+        },
+        "adoption": {
+          "stars": 3582,
+          "githubSource": "https://github.com/sloria/doitlive",
+          "homebrew": null
+        },
+        "commit": "168333b454bc4bf95c1a9f0e4c3aa3f07c1768d1"
+      }
     },
     "ajeetdsouza/zoxide": {
       "status": "held",
@@ -2607,8 +2531,9 @@
     },
     "bombshell-dev/clack": {
       "status": "held",
-      "checkedAt": "2026-09-11T15:43:52.976Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "tailcallhq/forgecode": {
       "status": "held",
@@ -3143,7 +3068,8 @@
     },
     "danvergara/dblab": {
       "status": "held",
-      "checkedAt": "2026-09-11T17:43:49.743Z",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "ardupilot/mavproxy": {
@@ -3252,8 +3178,9 @@
     },
     "pallets/click": {
       "status": "held",
-      "checkedAt": "2026-09-11T18:43:50.739Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "tox-dev/pipdeptree": {
       "status": "accepted",
@@ -3911,8 +3838,9 @@
     },
     "tqdm/tqdm": {
       "status": "held",
-      "checkedAt": "2026-09-11T21:43:33.440Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "storybloq/storybloq": {
       "status": "held",
@@ -4048,8 +3976,9 @@
     },
     "mtkennerly/ludusavi": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "iofficeai/officecli": {
       "status": "held",
@@ -4413,8 +4342,9 @@
     },
     "lasantosr/intelli-shell": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sindresorhus/yoctocolors": {
       "status": "held",
@@ -4688,7 +4618,8 @@
     },
     "pauljuliusmartinez/jless": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "waf/csharprepl": {
@@ -4763,8 +4694,9 @@
     },
     "agarrharr/awesome-cli-apps": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "grpc-ecosystem/grpc-health-probe": {
       "status": "held",
@@ -5366,8 +5298,9 @@
     },
     "tmux-python/tmuxp": {
       "status": "held",
-      "checkedAt": "2026-09-14T00:44:18.483Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "tmux-python/libtmux": {
       "status": "held",
@@ -5401,13 +5334,15 @@
     },
     "version-fox/vfox": {
       "status": "held",
-      "checkedAt": "2026-09-14T00:44:18.483Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "adnanhodzic/auto-cpufreq": {
       "status": "held",
-      "checkedAt": "2026-09-14T00:44:18.483Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "orange-opensource/hurl": {
       "status": "held",
@@ -5486,8 +5421,9 @@
     },
     "oclif/oclif": {
       "status": "held",
-      "checkedAt": "2026-09-14T00:44:18.483Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "alexpasmantier/television": {
       "status": "held",
@@ -6840,9 +6776,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "plopjs/plop": {
-      "status": "held",
-      "checkedAt": "2026-09-14T06:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "plopjs-plop",
+      "acceptedAt": "2026-09-20T04:44:06.279Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/plopjs/plop/blob/0c90e7ef93ffa5f40b10fe8f53d3cc23adee5a8e/packages/plop/package.json",
+          "snippet": "{\"bin\":{\"plop\":\"./bin/plop.js\"}}",
+          "target": "packages/plop/bin/plop.js"
+        },
+        "installation": {
+          "url": "https://github.com/plopjs/plop/blob/0c90e7ef93ffa5f40b10fe8f53d3cc23adee5a8e/README.md",
+          "snippet": "$ npm install -g plop"
+        },
+        "usage": {
+          "url": "https://github.com/plopjs/plop/blob/0c90e7ef93ffa5f40b10fe8f53d3cc23adee5a8e/README.md",
+          "snippet": "plop component \"my component\" react"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/plopjs/plop",
+          "snippet": "Consistency Made Simple"
+        },
+        "adoption": {
+          "stars": 7673,
+          "githubSource": "https://github.com/plopjs/plop",
+          "homebrew": null
+        },
+        "commit": "0c90e7ef93ffa5f40b10fe8f53d3cc23adee5a8e"
+      }
     },
     "nicobailon/surf-cli": {
       "status": "accepted",
@@ -6908,13 +6872,15 @@
     },
     "raphire/win11debloat": {
       "status": "held",
-      "checkedAt": "2026-09-14T06:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jdepoix/youtube-transcript-api": {
       "status": "held",
-      "checkedAt": "2026-09-14T06:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jqueryscript/awesome-claude-code": {
       "status": "held",
@@ -8169,9 +8135,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "sindresorhus/np": {
-      "status": "held",
-      "checkedAt": "2026-09-14T12:44:22.966Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "sindresorhus-np",
+      "acceptedAt": "2026-09-20T04:44:06.279Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/sindresorhus/np/blob/591e003bfc57371cfb8236694e8d784ae5d6fe5f/package.json",
+          "snippet": "{\"bin\":{\"np\":\"./source/cli.js\"}}",
+          "target": "source/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/sindresorhus/np/blob/591e003bfc57371cfb8236694e8d784ae5d6fe5f/readme.md",
+          "snippet": "npm install --global np"
+        },
+        "usage": {
+          "url": "https://github.com/sindresorhus/np/blob/591e003bfc57371cfb8236694e8d784ae5d6fe5f/readme.md",
+          "snippet": "np patch"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/sindresorhus/np",
+          "snippet": "A better `npm publish`"
+        },
+        "adoption": {
+          "stars": 7712,
+          "githubSource": "https://github.com/sindresorhus/np",
+          "homebrew": null
+        },
+        "commit": "591e003bfc57371cfb8236694e8d784ae5d6fe5f"
+      }
     },
     "capstone-engine/capstone": {
       "status": "held",
@@ -8180,7 +8174,8 @@
     },
     "fuxicodex/fuxi": {
       "status": "held",
-      "checkedAt": "2026-09-14T12:44:22.966Z",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "cargo-bins/cargo-binstall": {
@@ -8205,8 +8200,9 @@
     },
     "wuyoscar/gpt-image2-skill": {
       "status": "held",
-      "checkedAt": "2026-09-14T12:44:22.966Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "alpbahadur/49-ide": {
       "status": "held",
@@ -8327,13 +8323,15 @@
     },
     "blockchaincommons/learning-bitcoin-from-the-command-line": {
       "status": "held",
-      "checkedAt": "2026-09-14T13:44:21.937Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bahdotsh/wrkflw": {
       "status": "held",
-      "checkedAt": "2026-09-14T13:44:21.937Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "martinpaljak/globalplatformpro": {
       "status": "held",
@@ -8397,7 +8395,8 @@
     },
     "dlvhdr/gh-dash": {
       "status": "held",
-      "checkedAt": "2026-09-14T13:44:21.937Z",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "tddworks/baguette": {
@@ -9400,9 +9399,37 @@
       "reason": "Terminal use case needs classification"
     },
     "xampprocky/tokei": {
-      "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "xampprocky-tokei",
+      "acceptedAt": "2026-09-20T04:44:06.279Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/XAMPPRocky/tokei/blob/c14f744716272fadeb27a74443cdffa0af35f82f/Cargo.toml",
+          "snippet": "package.name=\"tokei\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/XAMPPRocky/tokei/blob/c14f744716272fadeb27a74443cdffa0af35f82f/README.md",
+          "snippet": "cargo install tokei"
+        },
+        "usage": {
+          "url": "https://github.com/XAMPPRocky/tokei/blob/c14f744716272fadeb27a74443cdffa0af35f82f/README.md",
+          "snippet": "tokei ./foo"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/XAMPPRocky/tokei",
+          "snippet": "Count your code, quickly."
+        },
+        "adoption": {
+          "stars": 14924,
+          "githubSource": "https://github.com/XAMPPRocky/tokei",
+          "homebrew": null
+        },
+        "commit": "c14f744716272fadeb27a74443cdffa0af35f82f"
+      }
     },
     "privatenumber/tasuku": {
       "status": "held",
@@ -12704,8 +12731,9 @@
     },
     "houseofmvps/codesight": {
       "status": "held",
-      "checkedAt": "2026-09-15T08:44:23.550Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "kerma/defaultbrowser": {
       "status": "accepted",
@@ -12789,9 +12817,37 @@
       }
     },
     "wbopan/moffee": {
-      "status": "held",
-      "checkedAt": "2026-09-15T08:44:23.550Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "wbopan-moffee",
+      "acceptedAt": "2026-09-20T04:44:06.279Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/wbopan/moffee/blob/0dbc4e691e9dc455262fdab00a5563b890b7046f/pyproject.toml",
+          "snippet": "moffee = \"moffee.cli:cli\"",
+          "target": "moffee/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/wbopan/moffee/blob/0dbc4e691e9dc455262fdab00a5563b890b7046f/README.md",
+          "snippet": "pipx install moffee"
+        },
+        "usage": {
+          "url": "https://github.com/wbopan/moffee/blob/0dbc4e691e9dc455262fdab00a5563b890b7046f/README.md",
+          "snippet": "moffee automatically breaks pages and chooses titles based on context."
+        },
+        "description": {
+          "url": "https://api.github.com/repos/wbopan/moffee",
+          "snippet": "moffee: Make Markdown Ready to Present"
+        },
+        "adoption": {
+          "stars": 1330,
+          "githubSource": "https://github.com/wbopan/moffee",
+          "homebrew": null
+        },
+        "commit": "0dbc4e691e9dc455262fdab00a5563b890b7046f"
+      }
     },
     "go-delve/delve": {
       "status": "held",
@@ -12850,8 +12906,9 @@
     },
     "readbeyond/aeneas": {
       "status": "held",
-      "checkedAt": "2026-09-15T08:44:23.550Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "wilfred/difftastic": {
       "status": "held",
@@ -12892,8 +12949,9 @@
     },
     "rupeshs/fastsdcpu": {
       "status": "held",
-      "checkedAt": "2026-09-15T08:44:23.550Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dnscontrol/dnscontrol": {
       "status": "held",
@@ -12912,8 +12970,9 @@
     },
     "zouuup/landrun": {
       "status": "held",
-      "checkedAt": "2026-09-15T09:44:18.633Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "projectdiscovery/dnsx": {
       "status": "held",
@@ -12928,8 +12987,9 @@
     },
     "sergi0g/cup": {
       "status": "held",
-      "checkedAt": "2026-09-15T09:44:18.633Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jackielii/skhd.zig": {
       "status": "held",
@@ -12939,12 +12999,14 @@
     },
     "karust/openserp": {
       "status": "held",
-      "checkedAt": "2026-09-15T09:44:18.633Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jamubc/gemini-mcp-tool": {
       "status": "held",
-      "checkedAt": "2026-09-15T09:44:18.633Z",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "shekohex/opencode-pty": {
@@ -12960,8 +13022,9 @@
     },
     "dungngminh/simutil": {
       "status": "held",
-      "checkedAt": "2026-09-15T09:44:18.633Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "azure/static-web-apps-cli": {
       "status": "held",
@@ -12976,9 +13039,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "code-with-beto/snapai": {
-      "status": "held",
-      "checkedAt": "2026-09-15T09:44:18.633Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "code-with-beto-snapai",
+      "acceptedAt": "2026-09-20T04:44:06.279Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Code-with-Beto/snapai/blob/a60d5393287cbf46794507e6ee0ff54d689d5976/package.json",
+          "snippet": "{\"bin\":{\"snapai\":\"./bin/snapai.js\"}}",
+          "target": "bin/snapai.js"
+        },
+        "installation": {
+          "url": "https://github.com/Code-with-Beto/snapai/blob/a60d5393287cbf46794507e6ee0ff54d689d5976/README.md",
+          "snippet": "npm install -g snapai"
+        },
+        "usage": {
+          "url": "https://github.com/Code-with-Beto/snapai/blob/a60d5393287cbf46794507e6ee0ff54d689d5976/README.md",
+          "snippet": "snapai icon"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Code-with-Beto/snapai",
+          "snippet": "AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using OpenAI's latest models."
+        },
+        "adoption": {
+          "stars": 1933,
+          "githubSource": "https://github.com/Code-with-Beto/snapai",
+          "homebrew": null
+        },
+        "commit": "a60d5393287cbf46794507e6ee0ff54d689d5976"
+      }
     },
     "codesnap-rs/codesnap": {
       "status": "accepted",
@@ -14438,8 +14529,9 @@
     },
     "yonaskolb/xcodegen": {
       "status": "held",
-      "checkedAt": "2026-09-15T16:44:25.222Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bramp/ffmpeg-cli-wrapper": {
       "status": "held",
@@ -15323,8 +15415,9 @@
     },
     "flow-typed/flow-typed": {
       "status": "held",
-      "checkedAt": "2026-09-15T21:44:22.715Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "1password/typeshare": {
       "status": "held",
@@ -15333,8 +15426,9 @@
     },
     "charmbracelet/lipgloss": {
       "status": "held",
-      "checkedAt": "2026-09-15T21:44:22.715Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T04:44:06.279Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "projectdiscovery/cdncheck": {
       "status": "held",
@@ -20073,5 +20167,5 @@
       "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-20T03:44:08.511Z"
+  "lastRunAt": "2026-09-20T04:44:06.279Z"
 }

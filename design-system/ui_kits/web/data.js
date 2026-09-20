@@ -7164,6 +7164,139 @@ window.USECLIS_DATA = {
       "stars": 2642,
       "license": null,
       "checkedAt": "2026-09-20T03:44:55.886Z"
+    },
+    {
+      "slug": "wbopan-moffee",
+      "name": "moffee",
+      "repo": "wbopan/moffee",
+      "category": "Files & documents",
+      "command": "moffee",
+      "useCase": "moffee: Make Markdown Ready to Present",
+      "description": "moffee: Make Markdown Ready to Present",
+      "agentUse": "Invoke moffee from a shell for the documented use case: moffee: Make Markdown Ready to Present",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "moffee automatically breaks pages and chooses titles based on context.",
+      "website": "https://github.com/wbopan/moffee",
+      "docs": "https://github.com/wbopan/moffee/blob/0dbc4e691e9dc455262fdab00a5563b890b7046f/README.md",
+      "stars": 1330,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T04:44:57.616Z"
+    },
+    {
+      "slug": "code-with-beto-snapai",
+      "name": "snapai",
+      "repo": "Code-with-Beto/snapai",
+      "category": "Terminal utilities",
+      "command": "snapai",
+      "useCase": "AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using OpenAI's latest models.",
+      "description": "AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using OpenAI's latest models.",
+      "agentUse": "Invoke snapai from a shell for the documented use case: AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using OpenAI's latest models.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "snapai icon",
+      "website": "https://github.com/Code-with-Beto/snapai",
+      "docs": "https://github.com/Code-with-Beto/snapai/blob/a60d5393287cbf46794507e6ee0ff54d689d5976/README.md",
+      "stars": 1933,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T04:44:58.423Z"
+    },
+    {
+      "slug": "plopjs-plop",
+      "name": "plop",
+      "repo": "plopjs/plop",
+      "category": "Terminal utilities",
+      "command": "plop",
+      "useCase": "Consistency Made Simple",
+      "description": "Consistency Made Simple",
+      "agentUse": "Invoke plop from a shell for the documented use case: Consistency Made Simple",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "plop component \"my component\" react",
+      "website": "https://github.com/plopjs/plop",
+      "docs": "https://github.com/plopjs/plop/blob/0c90e7ef93ffa5f40b10fe8f53d3cc23adee5a8e/README.md",
+      "stars": 7673,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T04:44:59.228Z"
+    },
+    {
+      "slug": "hatoo-oha",
+      "name": "oha",
+      "repo": "hatoo/oha",
+      "category": "Data & APIs",
+      "command": "oha",
+      "useCase": "Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.",
+      "description": "Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.",
+      "agentUse": "Invoke oha from a shell for the documented use case: Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "oha -n 10 --burst-delay 2s --burst-rate 4",
+      "website": "https://github.com/hatoo/oha",
+      "docs": "https://github.com/hatoo/oha/blob/0d6d370ed37108385d79a4ce34c0b8a8d7c9b6fe/README.md",
+      "stars": 10552,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T04:45:00.042Z"
+    },
+    {
+      "slug": "sindresorhus-np",
+      "name": "np",
+      "repo": "sindresorhus/np",
+      "category": "Terminal utilities",
+      "command": "np",
+      "useCase": "A better `npm publish`",
+      "description": "A better `npm publish`",
+      "agentUse": "Invoke np from a shell for the documented use case: A better `npm publish`",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "np patch",
+      "website": "https://github.com/sindresorhus/np",
+      "docs": "https://github.com/sindresorhus/np/blob/591e003bfc57371cfb8236694e8d784ae5d6fe5f/readme.md",
+      "stars": 7712,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T04:45:00.701Z"
+    },
+    {
+      "slug": "sloria-doitlive",
+      "name": "doitlive",
+      "repo": "sloria/doitlive",
+      "category": "Terminal utilities",
+      "command": "doitlive",
+      "useCase": "Because sometimes you need to do it live",
+      "description": "Because sometimes you need to do it live",
+      "agentUse": "Invoke doitlive from a shell for the documented use case: Because sometimes you need to do it live",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "doitlive play session.sh",
+      "website": "https://github.com/sloria/doitlive",
+      "docs": "https://github.com/sloria/doitlive/blob/168333b454bc4bf95c1a9f0e4c3aa3f07c1768d1/README.rst",
+      "stars": 3582,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T04:45:01.164Z"
+    },
+    {
+      "slug": "xampprocky-tokei",
+      "name": "tokei",
+      "repo": "XAMPPRocky/tokei",
+      "category": "Terminal utilities",
+      "command": "tokei",
+      "useCase": "Count your code, quickly.",
+      "description": "Count your code, quickly.",
+      "agentUse": "Invoke tokei from a shell for the documented use case: Count your code, quickly.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "tokei ./foo",
+      "website": "https://github.com/XAMPPRocky/tokei",
+      "docs": "https://github.com/XAMPPRocky/tokei/blob/c14f744716272fadeb27a74443cdffa0af35f82f/README.md",
+      "stars": 14924,
+      "license": null,
+      "checkedAt": "2026-09-20T04:45:01.889Z"
     }
   ],
   "categories": [
