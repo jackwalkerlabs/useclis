@@ -7,11 +7,11 @@
     "stars": 68467,
     "license": "Unlicense",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:13.859Z",
+    "checkedAt": "2026-09-20T17:44:51.519Z",
     "source": "https://github.com/BurntSushi/ripgrep",
     "canonicalSource": "https://github.com/BurntSushi/ripgrep",
     "repositoryId": 53631945,
-    "attemptedAt": "2026-09-20T17:28:13.648Z",
+    "attemptedAt": "2026-09-20T17:44:51.280Z",
     "status": "ok"
   },
   "jq": {
@@ -22,11 +22,11 @@
     "stars": 35647,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-20T17:28:14.141Z",
+    "checkedAt": "2026-09-20T17:44:51.737Z",
     "source": "https://github.com/jqlang/jq",
     "canonicalSource": "https://github.com/jqlang/jq",
     "repositoryId": 5101141,
-    "attemptedAt": "2026-09-20T17:28:13.871Z",
+    "attemptedAt": "2026-09-20T17:44:51.528Z",
     "status": "ok"
   },
   "github-cli": {
@@ -37,11 +37,11 @@
     "stars": 46341,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:13.150Z",
+    "checkedAt": "2026-09-20T17:44:50.999Z",
     "source": "https://github.com/cli/cli",
     "canonicalSource": "https://github.com/cli/cli",
     "repositoryId": 212613049,
-    "attemptedAt": "2026-09-20T17:28:12.762Z",
+    "attemptedAt": "2026-09-20T17:44:50.738Z",
     "status": "ok"
   },
   "agent-browser": {
@@ -49,29 +49,29 @@
     "createdAt": "2026-01-11T05:38:15Z",
     "pushedAt": "2026-09-18T22:18:42Z",
     "lastCommitAt": "2026-09-18T22:18:41Z",
-    "stars": 42923,
+    "stars": 42924,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:13.635Z",
+    "checkedAt": "2026-09-20T17:44:51.270Z",
     "source": "https://github.com/vercel-labs/agent-browser",
     "canonicalSource": "https://github.com/vercel-labs/agent-browser",
     "repositoryId": 1132001614,
-    "attemptedAt": "2026-09-20T17:28:13.289Z",
+    "attemptedAt": "2026-09-20T17:44:51.070Z",
     "status": "ok"
   },
   "opencode": {
     "defaultBranch": "dev",
     "createdAt": "2025-04-30T20:08:00Z",
-    "pushedAt": "2026-09-20T17:25:05Z",
-    "lastCommitAt": "2026-09-20T17:00:07Z",
-    "stars": 208832,
+    "pushedAt": "2026-09-20T17:43:06Z",
+    "lastCommitAt": "2026-09-20T17:43:04Z",
+    "stars": 208833,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:15.854Z",
+    "checkedAt": "2026-09-20T17:44:52.912Z",
     "source": "https://github.com/anomalyco/opencode",
     "canonicalSource": "https://github.com/anomalyco/opencode",
     "repositoryId": 975734319,
-    "attemptedAt": "2026-09-20T17:28:15.399Z",
+    "attemptedAt": "2026-09-20T17:44:52.576Z",
     "status": "ok"
   },
   "aider": {
@@ -79,29 +79,29 @@
     "createdAt": "2023-05-09T18:57:49Z",
     "pushedAt": "2026-05-22T14:02:20Z",
     "lastCommitAt": "2026-05-22T14:02:20Z",
-    "stars": 49081,
+    "stars": 49082,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:15.277Z",
+    "checkedAt": "2026-09-20T17:44:52.566Z",
     "source": "https://github.com/Aider-AI/aider",
     "canonicalSource": "https://github.com/Aider-AI/aider",
     "repositoryId": 638629097,
-    "attemptedAt": "2026-09-20T17:28:15.065Z",
+    "attemptedAt": "2026-09-20T17:44:52.357Z",
     "status": "ok"
   },
   "codex": {
     "defaultBranch": "main",
     "createdAt": "2025-04-13T05:37:54Z",
-    "pushedAt": "2026-09-20T17:25:31Z",
-    "lastCommitAt": "2026-09-20T17:25:15Z",
+    "pushedAt": "2026-09-20T17:37:03Z",
+    "lastCommitAt": "2026-09-20T17:36:48Z",
     "stars": 125493,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:14.602Z",
+    "checkedAt": "2026-09-20T17:44:52.159Z",
     "source": "https://github.com/openai/codex",
     "canonicalSource": "https://github.com/openai/codex",
     "repositoryId": 965415649,
-    "attemptedAt": "2026-09-20T17:28:14.152Z",
+    "attemptedAt": "2026-09-20T17:44:51.746Z",
     "status": "ok"
   },
   "gemini-cli": {
@@ -112,11 +112,11 @@
     "stars": 107097,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:15.054Z",
+    "checkedAt": "2026-09-20T17:44:52.349Z",
     "source": "https://github.com/google-gemini/gemini-cli",
     "canonicalSource": "https://github.com/google-gemini/gemini-cli",
     "repositoryId": 968197216,
-    "attemptedAt": "2026-09-20T17:28:14.615Z",
+    "attemptedAt": "2026-09-20T17:44:52.167Z",
     "status": "ok"
   },
   "llm": {
@@ -127,11 +127,11 @@
     "stars": 12533,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:16.251Z",
+    "checkedAt": "2026-09-20T17:44:53.072Z",
     "source": "https://github.com/simonw/llm",
     "canonicalSource": "https://github.com/simonw/llm",
     "repositoryId": 622352364,
-    "attemptedAt": "2026-09-20T17:28:15.865Z",
+    "attemptedAt": "2026-09-20T17:44:52.921Z",
     "status": "ok"
   },
   "git": {
@@ -139,14 +139,14 @@
     "createdAt": "2008-07-23T14:21:26Z",
     "pushedAt": "2026-09-17T22:52:17Z",
     "lastCommitAt": "2026-09-17T16:48:17Z",
-    "stars": 63248,
+    "stars": 63249,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-20T17:28:17.070Z",
+    "checkedAt": "2026-09-20T17:44:53.674Z",
     "source": "https://github.com/git/git",
     "canonicalSource": "https://github.com/git/git",
     "repositoryId": 36502,
-    "attemptedAt": "2026-09-20T17:28:16.830Z",
+    "attemptedAt": "2026-09-20T17:44:53.467Z",
     "status": "ok"
   },
   "playwright-cli": {
@@ -157,26 +157,26 @@
     "stars": 13453,
     "license": "Apache-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:28:16.506Z",
+    "checkedAt": "2026-09-20T17:44:53.272Z",
     "source": "https://github.com/microsoft/playwright-cli",
     "canonicalSource": "https://github.com/microsoft/playwright-cli",
     "repositoryId": 273562379,
-    "attemptedAt": "2026-09-20T17:28:16.264Z",
+    "attemptedAt": "2026-09-20T17:44:53.083Z",
     "status": "ok"
   },
   "supabase-cli": {
     "defaultBranch": "develop",
     "createdAt": "2020-11-19T06:46:55Z",
-    "pushedAt": "2026-09-20T16:59:03Z",
+    "pushedAt": "2026-09-20T17:31:24Z",
     "lastCommitAt": "2026-09-18T14:23:42Z",
     "stars": 2419,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:18.870Z",
+    "checkedAt": "2026-09-20T17:44:54.548Z",
     "source": "https://github.com/supabase/cli",
     "canonicalSource": "https://github.com/supabase/cli",
     "repositoryId": 314160187,
-    "attemptedAt": "2026-09-20T17:28:18.387Z",
+    "attemptedAt": "2026-09-20T17:44:54.222Z",
     "status": "ok"
   },
   "vercel-cli": {
@@ -187,11 +187,11 @@
     "stars": 16277,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:18.272Z",
+    "checkedAt": "2026-09-20T17:44:54.214Z",
     "source": "https://github.com/vercel/vercel",
     "canonicalSource": "https://github.com/vercel/vercel",
     "repositoryId": 67753070,
-    "attemptedAt": "2026-09-20T17:28:18.016Z",
+    "attemptedAt": "2026-09-20T17:44:54.046Z",
     "status": "ok"
   },
   "git-town": {
@@ -202,11 +202,11 @@
     "stars": 3375,
     "license": "MIT",
     "language": "Gherkin",
-    "checkedAt": "2026-09-20T17:28:17.371Z",
+    "checkedAt": "2026-09-20T17:44:53.857Z",
     "source": "https://github.com/git-town/git-town",
     "canonicalSource": "https://github.com/git-town/git-town",
     "repositoryId": 19825320,
-    "attemptedAt": "2026-09-20T17:28:17.082Z",
+    "attemptedAt": "2026-09-20T17:44:53.683Z",
     "status": "ok"
   },
   "wrangler": {
@@ -217,11 +217,11 @@
     "stars": 4552,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:18.003Z",
+    "checkedAt": "2026-09-20T17:44:54.038Z",
     "source": "https://github.com/cloudflare/workers-sdk",
     "canonicalSource": "https://github.com/cloudflare/workers-sdk",
     "repositoryId": 426659329,
-    "attemptedAt": "2026-09-20T17:28:17.546Z",
+    "attemptedAt": "2026-09-20T17:44:53.866Z",
     "status": "ok"
   },
   "fd": {
@@ -232,11 +232,11 @@
     "stars": 44493,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:19.944Z",
+    "checkedAt": "2026-09-20T17:44:55.123Z",
     "source": "https://github.com/sharkdp/fd",
     "canonicalSource": "https://github.com/sharkdp/fd",
     "repositoryId": 90793418,
-    "attemptedAt": "2026-09-20T17:28:19.432Z",
+    "attemptedAt": "2026-09-20T17:44:54.953Z",
     "status": "ok"
   },
   "kubectl": {
@@ -247,11 +247,11 @@
     "stars": 3345,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:19.420Z",
+    "checkedAt": "2026-09-20T17:44:54.945Z",
     "source": "https://github.com/kubernetes/kubectl",
     "canonicalSource": "https://github.com/kubernetes/kubectl",
     "repositoryId": 86742497,
-    "attemptedAt": "2026-09-20T17:28:19.132Z",
+    "attemptedAt": "2026-09-20T17:44:54.753Z",
     "status": "ok"
   },
   "ast-grep": {
@@ -262,11 +262,11 @@
     "stars": 15972,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:20.413Z",
+    "checkedAt": "2026-09-20T17:44:55.298Z",
     "source": "https://github.com/ast-grep/ast-grep",
     "canonicalSource": "https://github.com/ast-grep/ast-grep",
     "repositoryId": 509566212,
-    "attemptedAt": "2026-09-20T17:28:19.955Z",
+    "attemptedAt": "2026-09-20T17:44:55.133Z",
     "status": "ok"
   },
   "docker-cli": {
@@ -277,11 +277,11 @@
     "stars": 6069,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:19.121Z",
+    "checkedAt": "2026-09-20T17:44:54.745Z",
     "source": "https://github.com/docker/cli",
     "canonicalSource": "https://github.com/docker/cli",
     "repositoryId": 88013053,
-    "attemptedAt": "2026-09-20T17:28:18.882Z",
+    "attemptedAt": "2026-09-20T17:44:54.558Z",
     "status": "ok"
   },
   "yq": {
@@ -292,11 +292,11 @@
     "stars": 15984,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:20.989Z",
+    "checkedAt": "2026-09-20T17:44:55.641Z",
     "source": "https://github.com/mikefarah/yq",
     "canonicalSource": "https://github.com/mikefarah/yq",
     "repositoryId": 43225113,
-    "attemptedAt": "2026-09-20T17:28:20.735Z",
+    "attemptedAt": "2026-09-20T17:44:55.479Z",
     "status": "ok"
   },
   "scc": {
@@ -307,11 +307,11 @@
     "stars": 8768,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:20.724Z",
+    "checkedAt": "2026-09-20T17:44:55.468Z",
     "source": "https://github.com/boyter/scc",
     "canonicalSource": "https://github.com/boyter/scc",
     "repositoryId": 123394155,
-    "attemptedAt": "2026-09-20T17:28:20.524Z",
+    "attemptedAt": "2026-09-20T17:44:55.306Z",
     "status": "ok"
   },
   "curl": {
@@ -322,11 +322,11 @@
     "stars": 42900,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-20T17:28:21.868Z",
+    "checkedAt": "2026-09-20T17:44:56.016Z",
     "source": "https://github.com/curl/curl",
     "canonicalSource": "https://github.com/curl/curl",
     "repositoryId": 569041,
-    "attemptedAt": "2026-09-20T17:28:21.454Z",
+    "attemptedAt": "2026-09-20T17:44:55.838Z",
     "status": "ok"
   },
   "httpie": {
@@ -337,26 +337,26 @@
     "stars": 38560,
     "license": "BSD-3-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:21.335Z",
+    "checkedAt": "2026-09-20T17:44:55.827Z",
     "source": "https://github.com/httpie/cli",
     "canonicalSource": "https://github.com/httpie/cli",
     "repositoryId": 3544424,
-    "attemptedAt": "2026-09-20T17:28:21.066Z",
+    "attemptedAt": "2026-09-20T17:44:55.661Z",
     "status": "ok"
   },
   "pnpm": {
     "defaultBranch": "main",
     "createdAt": "2016-01-28T07:40:43Z",
-    "pushedAt": "2026-09-20T17:07:29Z",
-    "lastCommitAt": "2026-09-20T16:59:40Z",
-    "stars": 36577,
+    "pushedAt": "2026-09-20T17:44:25Z",
+    "lastCommitAt": "2026-09-20T17:40:02Z",
+    "stars": 36578,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:22.802Z",
+    "checkedAt": "2026-09-20T17:44:56.538Z",
     "source": "https://github.com/pnpm/pnpm",
     "canonicalSource": "https://github.com/pnpm/pnpm",
     "repositoryId": 50565430,
-    "attemptedAt": "2026-09-20T17:28:22.351Z",
+    "attemptedAt": "2026-09-20T17:44:56.216Z",
     "status": "ok"
   },
   "uv": {
@@ -367,41 +367,41 @@
     "stars": 90015,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:22.340Z",
+    "checkedAt": "2026-09-20T17:44:56.208Z",
     "source": "https://github.com/astral-sh/uv",
     "canonicalSource": "https://github.com/astral-sh/uv",
     "repositoryId": 699532645,
-    "attemptedAt": "2026-09-20T17:28:21.880Z",
+    "attemptedAt": "2026-09-20T17:44:56.026Z",
     "status": "ok"
   },
   "bun": {
     "defaultBranch": "main",
     "createdAt": "2021-04-14T00:48:17Z",
-    "pushedAt": "2026-09-20T17:28:07Z",
+    "pushedAt": "2026-09-20T17:40:37Z",
     "lastCommitAt": "2026-09-20T10:38:01Z",
     "stars": 95993,
     "license": null,
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:23.225Z",
+    "checkedAt": "2026-09-20T17:44:56.926Z",
     "source": "https://github.com/oven-sh/bun",
     "canonicalSource": "https://github.com/oven-sh/bun",
     "repositoryId": 357728969,
-    "attemptedAt": "2026-09-20T17:28:22.814Z",
+    "attemptedAt": "2026-09-20T17:44:56.546Z",
     "status": "ok"
   },
   "mise": {
     "defaultBranch": "main",
     "createdAt": "2023-01-09T14:44:21Z",
-    "pushedAt": "2026-09-20T17:27:05Z",
+    "pushedAt": "2026-09-20T17:28:59Z",
     "lastCommitAt": "2026-09-20T16:42:17Z",
-    "stars": 34125,
+    "stars": 34126,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:23.661Z",
+    "checkedAt": "2026-09-20T17:44:57.274Z",
     "source": "https://github.com/jdx/mise",
     "canonicalSource": "https://github.com/jdx/mise",
     "repositoryId": 586920414,
-    "attemptedAt": "2026-09-20T17:28:23.237Z",
+    "attemptedAt": "2026-09-20T17:44:56.936Z",
     "status": "ok"
   },
   "ruff": {
@@ -412,11 +412,11 @@
     "stars": 49706,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:24.225Z",
+    "checkedAt": "2026-09-20T17:44:57.450Z",
     "source": "https://github.com/astral-sh/ruff",
     "canonicalSource": "https://github.com/astral-sh/ruff",
     "repositoryId": 523043277,
-    "attemptedAt": "2026-09-20T17:28:23.783Z",
+    "attemptedAt": "2026-09-20T17:44:57.283Z",
     "status": "ok"
   },
   "gitleaks": {
@@ -427,11 +427,11 @@
     "stars": 29402,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:25.421Z",
+    "checkedAt": "2026-09-20T17:44:58.132Z",
     "source": "https://github.com/gitleaks/gitleaks",
     "canonicalSource": "https://github.com/gitleaks/gitleaks",
     "repositoryId": 119190187,
-    "attemptedAt": "2026-09-20T17:28:25.207Z",
+    "attemptedAt": "2026-09-20T17:44:57.917Z",
     "status": "ok"
   },
   "biome": {
@@ -442,11 +442,11 @@
     "stars": 25832,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:24.683Z",
+    "checkedAt": "2026-09-20T17:44:57.666Z",
     "source": "https://github.com/biomejs/biome",
     "canonicalSource": "https://github.com/biomejs/biome",
     "repositoryId": 671654508,
-    "attemptedAt": "2026-09-20T17:28:24.236Z",
+    "attemptedAt": "2026-09-20T17:44:57.459Z",
     "status": "ok"
   },
   "semgrep": {
@@ -457,11 +457,11 @@
     "stars": 16704,
     "license": "LGPL-2.1",
     "language": "C",
-    "checkedAt": "2026-09-20T17:28:25.069Z",
+    "checkedAt": "2026-09-20T17:44:57.907Z",
     "source": "https://github.com/semgrep/semgrep",
     "canonicalSource": "https://github.com/semgrep/semgrep",
     "repositoryId": 227803815,
-    "attemptedAt": "2026-09-20T17:28:24.797Z",
+    "attemptedAt": "2026-09-20T17:44:57.674Z",
     "status": "ok"
   },
   "bat": {
@@ -472,26 +472,26 @@
     "stars": 60510,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:26.871Z",
+    "checkedAt": "2026-09-20T17:44:58.879Z",
     "source": "https://github.com/sharkdp/bat",
     "canonicalSource": "https://github.com/sharkdp/bat",
     "repositoryId": 130464961,
-    "attemptedAt": "2026-09-20T17:28:26.660Z",
+    "attemptedAt": "2026-09-20T17:44:58.711Z",
     "status": "ok"
   },
   "pandoc": {
     "defaultBranch": "main",
     "createdAt": "2010-03-20T20:34:23Z",
-    "pushedAt": "2026-09-20T02:55:31Z",
-    "lastCommitAt": "2026-09-20T02:55:24Z",
+    "pushedAt": "2026-09-20T17:36:49Z",
+    "lastCommitAt": "2026-09-20T17:28:30Z",
     "stars": 46348,
     "license": "GPL-2.0",
     "language": "Haskell",
-    "checkedAt": "2026-09-20T17:28:26.450Z",
+    "checkedAt": "2026-09-20T17:44:58.702Z",
     "source": "https://github.com/jgm/pandoc",
     "canonicalSource": "https://github.com/jgm/pandoc",
     "repositoryId": 571770,
-    "attemptedAt": "2026-09-20T17:28:26.013Z",
+    "attemptedAt": "2026-09-20T17:44:58.364Z",
     "status": "ok"
   },
   "rclone": {
@@ -502,11 +502,11 @@
     "stars": 59863,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:26.002Z",
+    "checkedAt": "2026-09-20T17:44:58.356Z",
     "source": "https://github.com/rclone/rclone",
     "canonicalSource": "https://github.com/rclone/rclone",
     "repositoryId": 17803236,
-    "attemptedAt": "2026-09-20T17:28:25.567Z",
+    "attemptedAt": "2026-09-20T17:44:58.140Z",
     "status": "ok"
   },
   "glow": {
@@ -514,14 +514,14 @@
     "createdAt": "2019-11-04T23:34:55Z",
     "pushedAt": "2026-09-14T11:41:49Z",
     "lastCommitAt": "2026-09-01T13:59:13Z",
-    "stars": 27393,
+    "stars": 27394,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:27.137Z",
+    "checkedAt": "2026-09-20T17:44:59.069Z",
     "source": "https://github.com/charmbracelet/glow",
     "canonicalSource": "https://github.com/charmbracelet/glow",
     "repositoryId": 219616873,
-    "attemptedAt": "2026-09-20T17:28:26.881Z",
+    "attemptedAt": "2026-09-20T17:44:58.897Z",
     "status": "ok"
   },
   "browser-harness": {
@@ -529,14 +529,14 @@
     "createdAt": "2026-04-17T01:56:15Z",
     "pushedAt": "2026-09-12T08:30:02Z",
     "lastCommitAt": "2026-09-07T20:13:31Z",
-    "stars": 17849,
+    "stars": 17850,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:16.818Z",
+    "checkedAt": "2026-09-20T17:44:53.458Z",
     "source": "https://github.com/browser-use/browser-harness",
     "canonicalSource": "https://github.com/browser-use/browser-harness",
     "repositoryId": 1213049020,
-    "attemptedAt": "2026-09-20T17:28:16.578Z",
+    "attemptedAt": "2026-09-20T17:44:53.287Z",
     "status": "ok"
   },
   "firecrawl-cli": {
@@ -547,11 +547,11 @@
     "stars": 635,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:27.871Z",
+    "checkedAt": "2026-09-20T17:44:59.301Z",
     "source": "https://github.com/firecrawl/cli",
     "canonicalSource": "https://github.com/firecrawl/cli",
     "repositoryId": 1130001700,
-    "attemptedAt": "2026-09-20T17:28:27.428Z",
+    "attemptedAt": "2026-09-20T17:44:59.078Z",
     "status": "ok"
   },
   "peekaboo": {
@@ -562,11 +562,11 @@
     "stars": 5186,
     "license": "MIT",
     "language": "Swift",
-    "checkedAt": "2026-09-20T17:28:28.575Z",
+    "checkedAt": "2026-09-20T17:44:59.529Z",
     "source": "https://github.com/openclaw/Peekaboo",
     "canonicalSource": "https://github.com/openclaw/Peekaboo",
     "repositoryId": 988488798,
-    "attemptedAt": "2026-09-20T17:28:28.121Z",
+    "attemptedAt": "2026-09-20T17:44:59.311Z",
     "status": "ok"
   },
   "qmd": {
@@ -577,11 +577,11 @@
     "stars": 29894,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:29.023Z",
+    "checkedAt": "2026-09-20T17:44:59.705Z",
     "source": "https://github.com/tobi/qmd",
     "canonicalSource": "https://github.com/tobi/qmd",
     "repositoryId": 1112365301,
-    "attemptedAt": "2026-09-20T17:28:28.784Z",
+    "attemptedAt": "2026-09-20T17:44:59.538Z",
     "status": "ok"
   },
   "mcporter": {
@@ -592,11 +592,11 @@
     "stars": 5017,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:29.284Z",
+    "checkedAt": "2026-09-20T17:44:59.913Z",
     "source": "https://github.com/openclaw/mcporter",
     "canonicalSource": "https://github.com/openclaw/mcporter",
     "repositoryId": 1089959414,
-    "attemptedAt": "2026-09-20T17:28:29.036Z",
+    "attemptedAt": "2026-09-20T17:44:59.733Z",
     "status": "ok"
   },
   "repomix": {
@@ -604,14 +604,14 @@
     "createdAt": "2024-07-13T07:11:32Z",
     "pushedAt": "2026-09-20T14:30:20Z",
     "lastCommitAt": "2026-09-20T14:27:19Z",
-    "stars": 28427,
+    "stars": 28428,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:29.700Z",
+    "checkedAt": "2026-09-20T17:45:00.095Z",
     "source": "https://github.com/yamadashy/repomix",
     "canonicalSource": "https://github.com/yamadashy/repomix",
     "repositoryId": 828119367,
-    "attemptedAt": "2026-09-20T17:28:29.295Z",
+    "attemptedAt": "2026-09-20T17:44:59.924Z",
     "status": "ok"
   },
   "summarize": {
@@ -622,11 +622,11 @@
     "stars": 6633,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:29.903Z",
+    "checkedAt": "2026-09-20T17:45:00.263Z",
     "source": "https://github.com/steipete/summarize",
     "canonicalSource": "https://github.com/steipete/summarize",
     "repositoryId": 1118209243,
-    "attemptedAt": "2026-09-20T17:28:29.711Z",
+    "attemptedAt": "2026-09-20T17:45:00.105Z",
     "status": "ok"
   },
   "shot-scraper": {
@@ -637,11 +637,11 @@
     "stars": 2579,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:30.176Z",
+    "checkedAt": "2026-09-20T17:45:00.444Z",
     "source": "https://github.com/simonw/shot-scraper",
     "canonicalSource": "https://github.com/simonw/shot-scraper",
     "repositoryId": 467679579,
-    "attemptedAt": "2026-09-20T17:28:29.914Z",
+    "attemptedAt": "2026-09-20T17:45:00.273Z",
     "status": "ok"
   },
   "google-workspace-cli": {
@@ -649,14 +649,14 @@
     "createdAt": "2026-03-02T19:46:06Z",
     "pushedAt": "2026-09-17T21:08:32Z",
     "lastCommitAt": "2026-03-31T18:51:15Z",
-    "stars": 31072,
+    "stars": 31073,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:30.400Z",
+    "checkedAt": "2026-09-20T17:45:00.639Z",
     "source": "https://github.com/googleworkspace/cli",
     "canonicalSource": "https://github.com/googleworkspace/cli",
     "repositoryId": 1171026502,
-    "attemptedAt": "2026-09-20T17:28:30.190Z",
+    "attemptedAt": "2026-09-20T17:45:00.453Z",
     "status": "ok"
   },
   "gogcli": {
@@ -667,11 +667,11 @@
     "stars": 8432,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:30.672Z",
+    "checkedAt": "2026-09-20T17:45:00.874Z",
     "source": "https://github.com/openclaw/gogcli",
     "canonicalSource": "https://github.com/openclaw/gogcli",
     "repositoryId": 1115161703,
-    "attemptedAt": "2026-09-20T17:28:30.412Z",
+    "attemptedAt": "2026-09-20T17:45:00.648Z",
     "status": "ok"
   },
   "linear-cli": {
@@ -682,11 +682,11 @@
     "stars": 965,
     "license": "ISC",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:30.893Z",
+    "checkedAt": "2026-09-20T17:45:01.029Z",
     "source": "https://github.com/schpet/linear-cli",
     "canonicalSource": "https://github.com/schpet/linear-cli",
     "repositoryId": 893112240,
-    "attemptedAt": "2026-09-20T17:28:30.684Z",
+    "attemptedAt": "2026-09-20T17:45:00.881Z",
     "status": "ok"
   },
   "beads": {
@@ -697,11 +697,11 @@
     "stars": 27328,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:31.362Z",
+    "checkedAt": "2026-09-20T17:45:01.221Z",
     "source": "https://github.com/gastownhall/beads",
     "canonicalSource": "https://github.com/gastownhall/beads",
     "repositoryId": 1074561042,
-    "attemptedAt": "2026-09-20T17:28:30.907Z",
+    "attemptedAt": "2026-09-20T17:45:01.038Z",
     "status": "ok"
   },
   "himalaya": {
@@ -712,11 +712,11 @@
     "stars": 7287,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:31.797Z",
+    "checkedAt": "2026-09-20T17:45:01.428Z",
     "source": "https://github.com/pimalaya/himalaya",
     "canonicalSource": "https://github.com/pimalaya/himalaya",
     "repositoryId": 324025361,
-    "attemptedAt": "2026-09-20T17:28:31.539Z",
+    "attemptedAt": "2026-09-20T17:45:01.230Z",
     "status": "ok"
   },
   "remindctl": {
@@ -727,11 +727,11 @@
     "stars": 376,
     "license": "MIT",
     "language": "Swift",
-    "checkedAt": "2026-09-20T17:28:32.255Z",
+    "checkedAt": "2026-09-20T17:45:01.622Z",
     "source": "https://github.com/openclaw/remindctl",
     "canonicalSource": "https://github.com/openclaw/remindctl",
     "repositoryId": 1127081893,
-    "attemptedAt": "2026-09-20T17:28:32.059Z",
+    "attemptedAt": "2026-09-20T17:45:01.437Z",
     "status": "ok"
   },
   "imsg": {
@@ -742,11 +742,11 @@
     "stars": 1335,
     "license": "MIT",
     "language": "Swift",
-    "checkedAt": "2026-09-20T17:28:32.503Z",
+    "checkedAt": "2026-09-20T17:45:01.820Z",
     "source": "https://github.com/openclaw/imsg",
     "canonicalSource": "https://github.com/openclaw/imsg",
     "repositoryId": 1110558444,
-    "attemptedAt": "2026-09-20T17:28:32.265Z",
+    "attemptedAt": "2026-09-20T17:45:01.632Z",
     "status": "ok"
   },
   "wacli": {
@@ -757,11 +757,11 @@
     "stars": 2749,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:32.726Z",
+    "checkedAt": "2026-09-20T17:45:01.995Z",
     "source": "https://github.com/openclaw/wacli",
     "canonicalSource": "https://github.com/openclaw/wacli",
     "repositoryId": 1115165326,
-    "attemptedAt": "2026-09-20T17:28:32.514Z",
+    "attemptedAt": "2026-09-20T17:45:01.827Z",
     "status": "ok"
   },
   "sonoscli": {
@@ -772,11 +772,11 @@
     "stars": 185,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:32.949Z",
+    "checkedAt": "2026-09-20T17:45:02.165Z",
     "source": "https://github.com/steipete/sonoscli",
     "canonicalSource": "https://github.com/steipete/sonoscli",
     "repositoryId": 1115489431,
-    "attemptedAt": "2026-09-20T17:28:32.737Z",
+    "attemptedAt": "2026-09-20T17:45:02.002Z",
     "status": "ok"
   },
   "goplaces": {
@@ -787,11 +787,11 @@
     "stars": 256,
     "license": "MIT",
     "language": "Shell",
-    "checkedAt": "2026-09-20T17:28:33.199Z",
+    "checkedAt": "2026-09-20T17:45:02.359Z",
     "source": "https://github.com/openclaw/goplaces",
     "canonicalSource": "https://github.com/openclaw/goplaces",
     "repositoryId": 1126800958,
-    "attemptedAt": "2026-09-20T17:28:32.962Z",
+    "attemptedAt": "2026-09-20T17:45:02.181Z",
     "status": "ok"
   },
   "railway-cli": {
@@ -802,11 +802,11 @@
     "stars": 614,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:33.656Z",
+    "checkedAt": "2026-09-20T17:45:02.566Z",
     "source": "https://github.com/railwayapp/cli",
     "canonicalSource": "https://github.com/railwayapp/cli",
     "repositoryId": 300385058,
-    "attemptedAt": "2026-09-20T17:28:33.209Z",
+    "attemptedAt": "2026-09-20T17:45:02.367Z",
     "status": "ok"
   },
   "aws-cli": {
@@ -817,11 +817,11 @@
     "stars": 17267,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:34.257Z",
+    "checkedAt": "2026-09-20T17:45:02.763Z",
     "source": "https://github.com/aws/aws-cli",
     "canonicalSource": "https://github.com/aws/aws-cli",
     "repositoryId": 6780767,
-    "attemptedAt": "2026-09-20T17:28:33.806Z",
+    "attemptedAt": "2026-09-20T17:45:02.577Z",
     "status": "ok"
   },
   "azure-cli": {
@@ -832,11 +832,11 @@
     "stars": 4638,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:34.773Z",
+    "checkedAt": "2026-09-20T17:45:02.974Z",
     "source": "https://github.com/Azure/azure-cli",
     "canonicalSource": "https://github.com/Azure/azure-cli",
     "repositoryId": 51040886,
-    "attemptedAt": "2026-09-20T17:28:34.507Z",
+    "attemptedAt": "2026-09-20T17:45:02.772Z",
     "status": "ok"
   },
   "doctl": {
@@ -847,11 +847,11 @@
     "stars": 3452,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:35.034Z",
+    "checkedAt": "2026-09-20T17:45:03.180Z",
     "source": "https://github.com/digitalocean/doctl",
     "canonicalSource": "https://github.com/digitalocean/doctl",
     "repositoryId": 36529854,
-    "attemptedAt": "2026-09-20T17:28:34.784Z",
+    "attemptedAt": "2026-09-20T17:45:02.983Z",
     "status": "ok"
   },
   "hcloud": {
@@ -862,11 +862,11 @@
     "stars": 1807,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:35.666Z",
+    "checkedAt": "2026-09-20T17:45:03.357Z",
     "source": "https://github.com/hetznercloud/cli",
     "canonicalSource": "https://github.com/hetznercloud/cli",
     "repositoryId": 112504630,
-    "attemptedAt": "2026-09-20T17:28:35.224Z",
+    "attemptedAt": "2026-09-20T17:45:03.188Z",
     "status": "ok"
   },
   "scaleway-cli": {
@@ -877,11 +877,11 @@
     "stars": 997,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:36.107Z",
+    "checkedAt": "2026-09-20T17:45:03.576Z",
     "source": "https://github.com/scaleway/scaleway-cli",
     "canonicalSource": "https://github.com/scaleway/scaleway-cli",
     "repositoryId": 32575663,
-    "attemptedAt": "2026-09-20T17:28:35.902Z",
+    "attemptedAt": "2026-09-20T17:45:03.370Z",
     "status": "ok"
   },
   "linode-cli": {
@@ -892,11 +892,11 @@
     "stars": 442,
     "license": "BSD-3-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:36.528Z",
+    "checkedAt": "2026-09-20T17:45:03.786Z",
     "source": "https://github.com/linode/linode-cli",
     "canonicalSource": "https://github.com/linode/linode-cli",
     "repositoryId": 93558121,
-    "attemptedAt": "2026-09-20T17:28:36.308Z",
+    "attemptedAt": "2026-09-20T17:45:03.585Z",
     "status": "ok"
   },
   "ovhcloud-cli": {
@@ -907,11 +907,11 @@
     "stars": 179,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:36.938Z",
+    "checkedAt": "2026-09-20T17:45:03.962Z",
     "source": "https://github.com/ovh/ovhcloud-cli",
     "canonicalSource": "https://github.com/ovh/ovhcloud-cli",
     "repositoryId": 1054819388,
-    "attemptedAt": "2026-09-20T17:28:36.717Z",
+    "attemptedAt": "2026-09-20T17:45:03.795Z",
     "status": "ok"
   },
   "netlify-cli": {
@@ -922,11 +922,11 @@
     "stars": 1918,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:37.479Z",
+    "checkedAt": "2026-09-20T17:45:04.163Z",
     "source": "https://github.com/netlify/cli",
     "canonicalSource": "https://github.com/netlify/cli",
     "repositoryId": 25067998,
-    "attemptedAt": "2026-09-20T17:28:36.949Z",
+    "attemptedAt": "2026-09-20T17:45:03.972Z",
     "status": "ok"
   },
   "render-cli": {
@@ -937,11 +937,11 @@
     "stars": 115,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:37.756Z",
+    "checkedAt": "2026-09-20T17:45:04.356Z",
     "source": "https://github.com/render-oss/cli",
     "canonicalSource": "https://github.com/render-oss/cli",
     "repositoryId": 869646043,
-    "attemptedAt": "2026-09-20T17:28:37.491Z",
+    "attemptedAt": "2026-09-20T17:45:04.172Z",
     "status": "ok"
   },
   "firebase-cli": {
@@ -952,11 +952,11 @@
     "stars": 4472,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:38.158Z",
+    "checkedAt": "2026-09-20T17:45:04.555Z",
     "source": "https://github.com/firebase/firebase-tools",
     "canonicalSource": "https://github.com/firebase/firebase-tools",
     "repositoryId": 15402300,
-    "attemptedAt": "2026-09-20T17:28:37.921Z",
+    "attemptedAt": "2026-09-20T17:45:04.372Z",
     "status": "ok"
   },
   "neonctl": {
@@ -967,11 +967,11 @@
     "stars": 117,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:38.383Z",
+    "checkedAt": "2026-09-20T17:45:04.760Z",
     "source": "https://github.com/neondatabase/neonctl",
     "canonicalSource": "https://github.com/neondatabase/neonctl",
     "repositoryId": 529548675,
-    "attemptedAt": "2026-09-20T17:28:38.169Z",
+    "attemptedAt": "2026-09-20T17:45:04.567Z",
     "status": "ok"
   },
   "ecctl": {
@@ -982,11 +982,11 @@
     "stars": 58,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:38.641Z",
+    "checkedAt": "2026-09-20T17:45:04.993Z",
     "source": "https://github.com/elastic/ecctl",
     "canonicalSource": "https://github.com/elastic/ecctl",
     "repositoryId": 214075119,
-    "attemptedAt": "2026-09-20T17:28:38.394Z",
+    "attemptedAt": "2026-09-20T17:45:04.772Z",
     "status": "ok"
   },
   "stripe-cli": {
@@ -997,11 +997,11 @@
     "stars": 2183,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:38.896Z",
+    "checkedAt": "2026-09-20T17:45:05.220Z",
     "source": "https://github.com/stripe/stripe-cli",
     "canonicalSource": "https://github.com/stripe/stripe-cli",
     "repositoryId": 191848501,
-    "attemptedAt": "2026-09-20T17:28:38.652Z",
+    "attemptedAt": "2026-09-20T17:45:05.003Z",
     "status": "ok"
   },
   "wp-cli": {
@@ -1012,11 +1012,11 @@
     "stars": 5153,
     "license": "MIT",
     "language": "PHP",
-    "checkedAt": "2026-09-20T17:28:39.148Z",
+    "checkedAt": "2026-09-20T17:45:05.429Z",
     "source": "https://github.com/wp-cli/wp-cli",
     "canonicalSource": "https://github.com/wp-cli/wp-cli",
     "repositoryId": 2360755,
-    "attemptedAt": "2026-09-20T17:28:38.908Z",
+    "attemptedAt": "2026-09-20T17:45:05.230Z",
     "status": "ok"
   },
   "shopify-cli": {
@@ -1027,11 +1027,11 @@
     "stars": 750,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:39.746Z",
+    "checkedAt": "2026-09-20T17:45:05.641Z",
     "source": "https://github.com/Shopify/cli",
     "canonicalSource": "https://github.com/Shopify/cli",
     "repositoryId": 505864478,
-    "attemptedAt": "2026-09-20T17:28:39.297Z",
+    "attemptedAt": "2026-09-20T17:45:05.440Z",
     "status": "ok"
   },
   "salesforce-cli": {
@@ -1042,11 +1042,11 @@
     "stars": 180,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:40.214Z",
+    "checkedAt": "2026-09-20T17:45:05.819Z",
     "source": "https://github.com/salesforcecli/cli",
     "canonicalSource": "https://github.com/salesforcecli/cli",
     "repositoryId": 333994120,
-    "attemptedAt": "2026-09-20T17:28:39.758Z",
+    "attemptedAt": "2026-09-20T17:45:05.650Z",
     "status": "ok"
   },
   "microsoft-365-cli": {
@@ -1057,11 +1057,11 @@
     "stars": 1455,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:40.444Z",
+    "checkedAt": "2026-09-20T17:45:06.003Z",
     "source": "https://github.com/pnp/cli-microsoft365",
     "canonicalSource": "https://github.com/pnp/cli-microsoft365",
     "repositoryId": 106723305,
-    "attemptedAt": "2026-09-20T17:28:40.225Z",
+    "attemptedAt": "2026-09-20T17:45:05.827Z",
     "status": "ok"
   },
   "twilio-cli": {
@@ -1072,11 +1072,11 @@
     "stars": 193,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:28:40.676Z",
+    "checkedAt": "2026-09-20T17:45:06.189Z",
     "source": "https://github.com/twilio/twilio-cli",
     "canonicalSource": "https://github.com/twilio/twilio-cli",
     "repositoryId": 150173164,
-    "attemptedAt": "2026-09-20T17:28:40.456Z",
+    "attemptedAt": "2026-09-20T17:45:06.011Z",
     "status": "ok"
   },
   "algolia-cli": {
@@ -1087,11 +1087,11 @@
     "stars": 110,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:41.163Z",
+    "checkedAt": "2026-09-20T17:45:06.402Z",
     "source": "https://github.com/algolia/cli",
     "canonicalSource": "https://github.com/algolia/cli",
     "repositoryId": 446476572,
-    "attemptedAt": "2026-09-20T17:28:40.686Z",
+    "attemptedAt": "2026-09-20T17:45:06.197Z",
     "status": "ok"
   },
   "contentful-cli": {
@@ -1102,11 +1102,11 @@
     "stars": 361,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:28:41.741Z",
+    "checkedAt": "2026-09-20T17:45:06.708Z",
     "source": "https://github.com/contentful/contentful-cli",
     "canonicalSource": "https://github.com/contentful/contentful-cli",
     "repositoryId": 102004714,
-    "attemptedAt": "2026-09-20T17:28:41.329Z",
+    "attemptedAt": "2026-09-20T17:45:06.412Z",
     "status": "ok"
   },
   "sanity-cli": {
@@ -1117,11 +1117,11 @@
     "stars": 9,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:42.364Z",
+    "checkedAt": "2026-09-20T17:45:06.923Z",
     "source": "https://github.com/sanity-io/cli",
     "canonicalSource": "https://github.com/sanity-io/cli",
     "repositoryId": 916760480,
-    "attemptedAt": "2026-09-20T17:28:41.908Z",
+    "attemptedAt": "2026-09-20T17:45:06.719Z",
     "status": "ok"
   },
   "podman": {
@@ -1132,11 +1132,11 @@
     "stars": 32899,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:42.933Z",
+    "checkedAt": "2026-09-20T17:45:07.147Z",
     "source": "https://github.com/podman-container-tools/podman",
     "canonicalSource": "https://github.com/podman-container-tools/podman",
     "repositoryId": 109145553,
-    "attemptedAt": "2026-09-20T17:28:42.522Z",
+    "attemptedAt": "2026-09-20T17:45:06.932Z",
     "status": "ok"
   },
   "helm": {
@@ -1147,11 +1147,11 @@
     "stars": 30263,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:43.164Z",
+    "checkedAt": "2026-09-20T17:45:07.401Z",
     "source": "https://github.com/helm/helm",
     "canonicalSource": "https://github.com/helm/helm",
     "repositoryId": 43723161,
-    "attemptedAt": "2026-09-20T17:28:42.944Z",
+    "attemptedAt": "2026-09-20T17:45:07.159Z",
     "status": "ok"
   },
   "opentofu": {
@@ -1159,14 +1159,14 @@
     "createdAt": "2023-08-16T20:01:36Z",
     "pushedAt": "2026-09-18T15:10:12Z",
     "lastCommitAt": "2026-09-18T15:10:10Z",
-    "stars": 30235,
+    "stars": 30236,
     "license": "MPL-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:43.386Z",
+    "checkedAt": "2026-09-20T17:45:07.651Z",
     "source": "https://github.com/opentofu/opentofu",
     "canonicalSource": "https://github.com/opentofu/opentofu",
     "repositoryId": 679421146,
-    "attemptedAt": "2026-09-20T17:28:43.176Z",
+    "attemptedAt": "2026-09-20T17:45:07.410Z",
     "status": "ok"
   },
   "pulumi": {
@@ -1177,11 +1177,11 @@
     "stars": 25710,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:43.798Z",
+    "checkedAt": "2026-09-20T17:45:07.847Z",
     "source": "https://github.com/pulumi/pulumi",
     "canonicalSource": "https://github.com/pulumi/pulumi",
     "repositoryId": 72477752,
-    "attemptedAt": "2026-09-20T17:28:43.569Z",
+    "attemptedAt": "2026-09-20T17:45:07.662Z",
     "status": "ok"
   },
   "ansible": {
@@ -1192,11 +1192,11 @@
     "stars": 70748,
     "license": "GPL-3.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:44.041Z",
+    "checkedAt": "2026-09-20T17:45:08.049Z",
     "source": "https://github.com/ansible/ansible",
     "canonicalSource": "https://github.com/ansible/ansible",
     "repositoryId": 3638964,
-    "attemptedAt": "2026-09-20T17:28:43.809Z",
+    "attemptedAt": "2026-09-20T17:45:07.856Z",
     "status": "ok"
   },
   "argocd": {
@@ -1207,11 +1207,11 @@
     "stars": 24204,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:44.592Z",
+    "checkedAt": "2026-09-20T17:45:08.287Z",
     "source": "https://github.com/argoproj/argo-cd",
     "canonicalSource": "https://github.com/argoproj/argo-cd",
     "repositoryId": 120896210,
-    "attemptedAt": "2026-09-20T17:28:44.153Z",
+    "attemptedAt": "2026-09-20T17:45:08.075Z",
     "status": "ok"
   },
   "flux-cli": {
@@ -1222,11 +1222,11 @@
     "stars": 8418,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:44.980Z",
+    "checkedAt": "2026-09-20T17:45:08.506Z",
     "source": "https://github.com/fluxcd/flux2",
     "canonicalSource": "https://github.com/fluxcd/flux2",
     "repositoryId": 258469100,
-    "attemptedAt": "2026-09-20T17:28:44.749Z",
+    "attemptedAt": "2026-09-20T17:45:08.296Z",
     "status": "ok"
   },
   "kind": {
@@ -1237,11 +1237,11 @@
     "stars": 15498,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:45.401Z",
+    "checkedAt": "2026-09-20T17:45:08.751Z",
     "source": "https://github.com/kubernetes-sigs/kind",
     "canonicalSource": "https://github.com/kubernetes-sigs/kind",
     "repositoryId": 148545807,
-    "attemptedAt": "2026-09-20T17:28:45.167Z",
+    "attemptedAt": "2026-09-20T17:45:08.517Z",
     "status": "ok"
   },
   "minikube": {
@@ -1252,11 +1252,11 @@
     "stars": 32142,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:45.983Z",
+    "checkedAt": "2026-09-20T17:45:08.985Z",
     "source": "https://github.com/kubernetes/minikube",
     "canonicalSource": "https://github.com/kubernetes/minikube",
     "repositoryId": 56353740,
-    "attemptedAt": "2026-09-20T17:28:45.558Z",
+    "attemptedAt": "2026-09-20T17:45:08.759Z",
     "status": "ok"
   },
   "sops": {
@@ -1267,11 +1267,11 @@
     "stars": 23168,
     "license": "MPL-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:46.218Z",
+    "checkedAt": "2026-09-20T17:45:09.183Z",
     "source": "https://github.com/getsops/sops",
     "canonicalSource": "https://github.com/getsops/sops",
     "repositoryId": 40684033,
-    "attemptedAt": "2026-09-20T17:28:45.994Z",
+    "attemptedAt": "2026-09-20T17:45:08.994Z",
     "status": "ok"
   },
   "age": {
@@ -1282,11 +1282,11 @@
     "stars": 23641,
     "license": "BSD-3-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:46.424Z",
+    "checkedAt": "2026-09-20T17:45:09.364Z",
     "source": "https://github.com/FiloSottile/age",
     "canonicalSource": "https://github.com/FiloSottile/age",
     "repositoryId": 187403699,
-    "attemptedAt": "2026-09-20T17:28:46.229Z",
+    "attemptedAt": "2026-09-20T17:45:09.195Z",
     "status": "ok"
   },
   "bitwarden-cli": {
@@ -1297,11 +1297,11 @@
     "stars": 13813,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:46.890Z",
+    "checkedAt": "2026-09-20T17:45:09.579Z",
     "source": "https://github.com/bitwarden/clients",
     "canonicalSource": "https://github.com/bitwarden/clients",
     "repositoryId": 53538899,
-    "attemptedAt": "2026-09-20T17:28:46.435Z",
+    "attemptedAt": "2026-09-20T17:45:09.373Z",
     "status": "ok"
   },
   "doppler-cli": {
@@ -1312,11 +1312,11 @@
     "stars": 395,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:47.296Z",
+    "checkedAt": "2026-09-20T17:45:09.793Z",
     "source": "https://github.com/DopplerHQ/cli",
     "canonicalSource": "https://github.com/DopplerHQ/cli",
     "repositoryId": 212754358,
-    "attemptedAt": "2026-09-20T17:28:47.027Z",
+    "attemptedAt": "2026-09-20T17:45:09.588Z",
     "status": "ok"
   },
   "infisical-cli": {
@@ -1327,11 +1327,11 @@
     "stars": 93,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:47.744Z",
+    "checkedAt": "2026-09-20T17:45:09.976Z",
     "source": "https://github.com/Infisical/cli",
     "canonicalSource": "https://github.com/Infisical/cli",
     "repositoryId": 1018155692,
-    "attemptedAt": "2026-09-20T17:28:47.467Z",
+    "attemptedAt": "2026-09-20T17:45:09.802Z",
     "status": "ok"
   },
   "trivy": {
@@ -1342,11 +1342,11 @@
     "stars": 37992,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:48.110Z",
+    "checkedAt": "2026-09-20T17:45:10.189Z",
     "source": "https://github.com/aquasecurity/trivy",
     "canonicalSource": "https://github.com/aquasecurity/trivy",
     "repositoryId": 180687624,
-    "attemptedAt": "2026-09-20T17:28:47.885Z",
+    "attemptedAt": "2026-09-20T17:45:09.992Z",
     "status": "ok"
   },
   "syft": {
@@ -1357,11 +1357,11 @@
     "stars": 9590,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:48.470Z",
+    "checkedAt": "2026-09-20T17:45:10.438Z",
     "source": "https://github.com/anchore/syft",
     "canonicalSource": "https://github.com/anchore/syft",
     "repositoryId": 262126497,
-    "attemptedAt": "2026-09-20T17:28:48.263Z",
+    "attemptedAt": "2026-09-20T17:45:10.200Z",
     "status": "ok"
   },
   "grype": {
@@ -1372,11 +1372,11 @@
     "stars": 12910,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:48.694Z",
+    "checkedAt": "2026-09-20T17:45:10.633Z",
     "source": "https://github.com/anchore/grype",
     "canonicalSource": "https://github.com/anchore/grype",
     "repositoryId": 267054247,
-    "attemptedAt": "2026-09-20T17:28:48.481Z",
+    "attemptedAt": "2026-09-20T17:45:10.446Z",
     "status": "ok"
   },
   "trufflehog": {
@@ -1387,11 +1387,11 @@
     "stars": 28002,
     "license": "AGPL-3.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:48.988Z",
+    "checkedAt": "2026-09-20T17:45:10.838Z",
     "source": "https://github.com/trufflesecurity/trufflehog",
     "canonicalSource": "https://github.com/trufflesecurity/trufflehog",
     "repositoryId": 77726177,
-    "attemptedAt": "2026-09-20T17:28:48.706Z",
+    "attemptedAt": "2026-09-20T17:45:10.644Z",
     "status": "ok"
   },
   "cosign": {
@@ -1402,11 +1402,11 @@
     "stars": 6315,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:49.225Z",
+    "checkedAt": "2026-09-20T17:45:11.024Z",
     "source": "https://github.com/sigstore/cosign",
     "canonicalSource": "https://github.com/sigstore/cosign",
     "repositoryId": 335952417,
-    "attemptedAt": "2026-09-20T17:28:48.999Z",
+    "attemptedAt": "2026-09-20T17:45:10.846Z",
     "status": "ok"
   },
   "snyk-cli": {
@@ -1417,11 +1417,11 @@
     "stars": 5663,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:49.710Z",
+    "checkedAt": "2026-09-20T17:45:11.218Z",
     "source": "https://github.com/snyk/cli",
     "canonicalSource": "https://github.com/snyk/cli",
     "repositoryId": 45247496,
-    "attemptedAt": "2026-09-20T17:28:49.236Z",
+    "attemptedAt": "2026-09-20T17:45:11.034Z",
     "status": "ok"
   },
   "sentry-cli": {
@@ -1432,11 +1432,11 @@
     "stars": 121,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:28:50.211Z",
+    "checkedAt": "2026-09-20T17:45:11.426Z",
     "source": "https://github.com/getsentry/cli",
     "canonicalSource": "https://github.com/getsentry/cli",
     "repositoryId": 1114546946,
-    "attemptedAt": "2026-09-20T17:28:49.721Z",
+    "attemptedAt": "2026-09-20T17:45:11.230Z",
     "status": "ok"
   },
   "k6": {
@@ -1447,11 +1447,11 @@
     "stars": 31533,
     "license": "AGPL-3.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:50.816Z",
+    "checkedAt": "2026-09-20T17:45:11.606Z",
     "source": "https://github.com/grafana/k6",
     "canonicalSource": "https://github.com/grafana/k6",
     "repositoryId": 54400687,
-    "attemptedAt": "2026-09-20T17:28:50.394Z",
+    "attemptedAt": "2026-09-20T17:45:11.435Z",
     "status": "ok"
   },
   "lighthouse": {
@@ -1462,11 +1462,11 @@
     "stars": 30796,
     "license": "Apache-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:28:51.354Z",
+    "checkedAt": "2026-09-20T17:45:11.807Z",
     "source": "https://github.com/GoogleChrome/lighthouse",
     "canonicalSource": "https://github.com/GoogleChrome/lighthouse",
     "repositoryId": 53370988,
-    "attemptedAt": "2026-09-20T17:28:50.827Z",
+    "attemptedAt": "2026-09-20T17:45:11.616Z",
     "status": "ok"
   },
   "axe-cli": {
@@ -1477,11 +1477,11 @@
     "stars": 723,
     "license": "MPL-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:28:51.597Z",
+    "checkedAt": "2026-09-20T17:45:12.039Z",
     "source": "https://github.com/dequelabs/axe-core-npm",
     "canonicalSource": "https://github.com/dequelabs/axe-core-npm",
     "repositoryId": 263923968,
-    "attemptedAt": "2026-09-20T17:28:51.365Z",
+    "attemptedAt": "2026-09-20T17:45:11.819Z",
     "status": "ok"
   },
   "duckdb-cli": {
@@ -1489,14 +1489,14 @@
     "createdAt": "2018-06-26T15:04:45Z",
     "pushedAt": "2026-09-20T10:08:42Z",
     "lastCommitAt": "2026-09-20T09:47:21Z",
-    "stars": 41577,
+    "stars": 41578,
     "license": "MIT",
     "language": "C++",
-    "checkedAt": "2026-09-20T17:28:52.195Z",
+    "checkedAt": "2026-09-20T17:45:12.275Z",
     "source": "https://github.com/duckdb/duckdb",
     "canonicalSource": "https://github.com/duckdb/duckdb",
     "repositoryId": 138754790,
-    "attemptedAt": "2026-09-20T17:28:51.755Z",
+    "attemptedAt": "2026-09-20T17:45:12.054Z",
     "status": "ok"
   },
   "sqlite-utils": {
@@ -1507,11 +1507,11 @@
     "stars": 2171,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:52.404Z",
+    "checkedAt": "2026-09-20T17:45:12.450Z",
     "source": "https://github.com/simonw/sqlite-utils",
     "canonicalSource": "https://github.com/simonw/sqlite-utils",
     "repositoryId": 140912432,
-    "attemptedAt": "2026-09-20T17:28:52.206Z",
+    "attemptedAt": "2026-09-20T17:45:12.288Z",
     "status": "ok"
   },
   "dbt-core": {
@@ -1522,11 +1522,11 @@
     "stars": 13884,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:53.170Z",
+    "checkedAt": "2026-09-20T17:45:12.808Z",
     "source": "https://github.com/dbt-labs/dbt-core",
     "canonicalSource": "https://github.com/dbt-labs/dbt",
     "repositoryId": 53548867,
-    "attemptedAt": "2026-09-20T17:28:52.414Z",
+    "attemptedAt": "2026-09-20T17:45:12.458Z",
     "status": "ok"
   },
   "sqlfluff": {
@@ -1537,11 +1537,11 @@
     "stars": 9883,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:53.608Z",
+    "checkedAt": "2026-09-20T17:45:13.023Z",
     "source": "https://github.com/sqlfluff/sqlfluff",
     "canonicalSource": "https://github.com/sqlfluff/sqlfluff",
     "repositoryId": 155790228,
-    "attemptedAt": "2026-09-20T17:28:53.182Z",
+    "attemptedAt": "2026-09-20T17:45:12.820Z",
     "status": "ok"
   },
   "golang-migrate": {
@@ -1552,11 +1552,11 @@
     "stars": 18931,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:53.990Z",
+    "checkedAt": "2026-09-20T17:45:13.320Z",
     "source": "https://github.com/golang-migrate/migrate",
     "canonicalSource": "https://github.com/golang-migrate/migrate",
     "repositoryId": 118105436,
-    "attemptedAt": "2026-09-20T17:28:53.784Z",
+    "attemptedAt": "2026-09-20T17:45:13.030Z",
     "status": "ok"
   },
   "atlas": {
@@ -1567,11 +1567,11 @@
     "stars": 8734,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:54.438Z",
+    "checkedAt": "2026-09-20T17:45:13.501Z",
     "source": "https://github.com/ariga/atlas",
     "canonicalSource": "https://github.com/ariga/atlas",
     "repositoryId": 363232643,
-    "attemptedAt": "2026-09-20T17:28:54.001Z",
+    "attemptedAt": "2026-09-20T17:45:13.327Z",
     "status": "ok"
   },
   "miller": {
@@ -1582,11 +1582,11 @@
     "stars": 10022,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:54.660Z",
+    "checkedAt": "2026-09-20T17:45:13.680Z",
     "source": "https://github.com/johnkerl/miller",
     "canonicalSource": "https://github.com/johnkerl/miller",
     "repositoryId": 35003822,
-    "attemptedAt": "2026-09-20T17:28:54.449Z",
+    "attemptedAt": "2026-09-20T17:45:13.509Z",
     "status": "ok"
   },
   "dolt": {
@@ -1597,11 +1597,11 @@
     "stars": 24477,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:54.891Z",
+    "checkedAt": "2026-09-20T17:45:13.866Z",
     "source": "https://github.com/dolthub/dolt",
     "canonicalSource": "https://github.com/dolthub/dolt",
     "repositoryId": 198683574,
-    "attemptedAt": "2026-09-20T17:28:54.673Z",
+    "attemptedAt": "2026-09-20T17:45:13.690Z",
     "status": "ok"
   },
   "yt-dlp": {
@@ -1612,11 +1612,11 @@
     "stars": 192314,
     "license": "Unlicense",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:55.245Z",
+    "checkedAt": "2026-09-20T17:45:14.054Z",
     "source": "https://github.com/yt-dlp/yt-dlp",
     "canonicalSource": "https://github.com/yt-dlp/yt-dlp",
     "repositoryId": 307260205,
-    "attemptedAt": "2026-09-20T17:28:55.031Z",
+    "attemptedAt": "2026-09-20T17:45:13.875Z",
     "status": "ok"
   },
   "ffmpeg": {
@@ -1627,11 +1627,11 @@
     "stars": 64372,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-20T17:28:55.675Z",
+    "checkedAt": "2026-09-20T17:45:14.236Z",
     "source": "https://github.com/FFmpeg/FFmpeg",
     "canonicalSource": "https://github.com/FFmpeg/FFmpeg",
     "repositoryId": 1614410,
-    "attemptedAt": "2026-09-20T17:28:55.259Z",
+    "attemptedAt": "2026-09-20T17:45:14.061Z",
     "status": "ok"
   },
   "imagemagick": {
@@ -1639,14 +1639,14 @@
     "createdAt": "2015-05-17T20:07:50Z",
     "pushedAt": "2026-09-20T15:06:05Z",
     "lastCommitAt": "2026-09-20T15:05:55Z",
-    "stars": 17486,
+    "stars": 17485,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-20T17:28:56.091Z",
+    "checkedAt": "2026-09-20T17:45:14.411Z",
     "source": "https://github.com/ImageMagick/ImageMagick",
     "canonicalSource": "https://github.com/ImageMagick/ImageMagick",
     "repositoryId": 35780977,
-    "attemptedAt": "2026-09-20T17:28:55.686Z",
+    "attemptedAt": "2026-09-20T17:45:14.244Z",
     "status": "ok"
   },
   "tesseract": {
@@ -1657,11 +1657,11 @@
     "stars": 76588,
     "license": "Apache-2.0",
     "language": "C++",
-    "checkedAt": "2026-09-20T17:28:56.444Z",
+    "checkedAt": "2026-09-20T17:45:14.626Z",
     "source": "https://github.com/tesseract-ocr/tesseract",
     "canonicalSource": "https://github.com/tesseract-ocr/tesseract",
     "repositoryId": 22887094,
-    "attemptedAt": "2026-09-20T17:28:56.249Z",
+    "attemptedAt": "2026-09-20T17:45:14.420Z",
     "status": "ok"
   },
   "ocrmypdf": {
@@ -1672,11 +1672,11 @@
     "stars": 34812,
     "license": "MPL-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:56.702Z",
+    "checkedAt": "2026-09-20T17:45:14.808Z",
     "source": "https://github.com/ocrmypdf/OCRmyPDF",
     "canonicalSource": "https://github.com/ocrmypdf/OCRmyPDF",
     "repositoryId": 15333471,
-    "attemptedAt": "2026-09-20T17:28:56.455Z",
+    "attemptedAt": "2026-09-20T17:45:14.634Z",
     "status": "ok"
   },
   "qpdf": {
@@ -1687,11 +1687,11 @@
     "stars": 5427,
     "license": "Apache-2.0",
     "language": "C++",
-    "checkedAt": "2026-09-20T17:28:57.059Z",
+    "checkedAt": "2026-09-20T17:45:14.976Z",
     "source": "https://github.com/qpdf/qpdf",
     "canonicalSource": "https://github.com/qpdf/qpdf",
     "repositoryId": 4539167,
-    "attemptedAt": "2026-09-20T17:28:56.860Z",
+    "attemptedAt": "2026-09-20T17:45:14.816Z",
     "status": "ok"
   },
   "restic": {
@@ -1702,11 +1702,11 @@
     "stars": 36152,
     "license": "BSD-2-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:57.659Z",
+    "checkedAt": "2026-09-20T17:45:15.151Z",
     "source": "https://github.com/restic/restic",
     "canonicalSource": "https://github.com/restic/restic",
     "repositoryId": 19205896,
-    "attemptedAt": "2026-09-20T17:28:57.227Z",
+    "attemptedAt": "2026-09-20T17:45:14.987Z",
     "status": "ok"
   },
   "just": {
@@ -1717,11 +1717,11 @@
     "stars": 35921,
     "license": "CC0-1.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:28:57.892Z",
+    "checkedAt": "2026-09-20T17:45:15.341Z",
     "source": "https://github.com/casey/just",
     "canonicalSource": "https://github.com/casey/just",
     "repositoryId": 61349723,
-    "attemptedAt": "2026-09-20T17:28:57.670Z",
+    "attemptedAt": "2026-09-20T17:45:15.160Z",
     "status": "ok"
   },
   "blucli": {
@@ -1732,11 +1732,11 @@
     "stars": 43,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:58.142Z",
+    "checkedAt": "2026-09-20T17:45:15.567Z",
     "source": "https://github.com/steipete/blucli",
     "canonicalSource": "https://github.com/steipete/blucli",
     "repositoryId": 1118340341,
-    "attemptedAt": "2026-09-20T17:28:57.903Z",
+    "attemptedAt": "2026-09-20T17:45:15.390Z",
     "status": "ok"
   },
   "eightctl": {
@@ -1747,11 +1747,11 @@
     "stars": 97,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:58.406Z",
+    "checkedAt": "2026-09-20T17:45:15.737Z",
     "source": "https://github.com/steipete/eightctl",
     "canonicalSource": "https://github.com/steipete/eightctl",
     "repositoryId": 1110488148,
-    "attemptedAt": "2026-09-20T17:28:58.152Z",
+    "attemptedAt": "2026-09-20T17:45:15.579Z",
     "status": "ok"
   },
   "gifgrep": {
@@ -1762,11 +1762,11 @@
     "stars": 130,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:58.631Z",
+    "checkedAt": "2026-09-20T17:45:15.908Z",
     "source": "https://github.com/steipete/gifgrep",
     "canonicalSource": "https://github.com/steipete/gifgrep",
     "repositoryId": 1125410783,
-    "attemptedAt": "2026-09-20T17:28:58.416Z",
+    "attemptedAt": "2026-09-20T17:45:15.744Z",
     "status": "ok"
   },
   "camsnap": {
@@ -1777,11 +1777,11 @@
     "stars": 142,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:58.956Z",
+    "checkedAt": "2026-09-20T17:45:16.083Z",
     "source": "https://github.com/steipete/camsnap",
     "canonicalSource": "https://github.com/steipete/camsnap",
     "repositoryId": 1108110850,
-    "attemptedAt": "2026-09-20T17:28:58.641Z",
+    "attemptedAt": "2026-09-20T17:45:15.916Z",
     "status": "ok"
   },
   "ordercli": {
@@ -1792,11 +1792,11 @@
     "stars": 80,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:59.176Z",
+    "checkedAt": "2026-09-20T17:45:16.282Z",
     "source": "https://github.com/steipete/ordercli",
     "canonicalSource": "https://github.com/steipete/ordercli",
     "repositoryId": 1119783248,
-    "attemptedAt": "2026-09-20T17:28:58.966Z",
+    "attemptedAt": "2026-09-20T17:45:16.091Z",
     "status": "ok"
   },
   "openhue-cli": {
@@ -1807,11 +1807,11 @@
     "stars": 151,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:59.420Z",
+    "checkedAt": "2026-09-20T17:45:16.528Z",
     "source": "https://github.com/openhue/openhue-cli",
     "canonicalSource": "https://github.com/openhue/openhue-cli",
     "repositoryId": 708384181,
-    "attemptedAt": "2026-09-20T17:28:59.186Z",
+    "attemptedAt": "2026-09-20T17:45:16.290Z",
     "status": "ok"
   },
   "sag": {
@@ -1822,11 +1822,11 @@
     "stars": 579,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:28:59.628Z",
+    "checkedAt": "2026-09-20T17:45:16.705Z",
     "source": "https://github.com/steipete/sag",
     "canonicalSource": "https://github.com/steipete/sag",
     "repositoryId": 1111931573,
-    "attemptedAt": "2026-09-20T17:28:59.431Z",
+    "attemptedAt": "2026-09-20T17:45:16.537Z",
     "status": "ok"
   },
   "twitter-cli": {
@@ -1837,11 +1837,11 @@
     "stars": 2930,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:28:59.861Z",
+    "checkedAt": "2026-09-20T17:45:16.888Z",
     "source": "https://github.com/public-clis/twitter-cli",
     "canonicalSource": "https://github.com/public-clis/twitter-cli",
     "repositoryId": 1173308786,
-    "attemptedAt": "2026-09-20T17:28:59.637Z",
+    "attemptedAt": "2026-09-20T17:45:16.712Z",
     "status": "ok"
   },
   "bilibili-cli": {
@@ -1852,11 +1852,11 @@
     "stars": 1043,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:00.299Z",
+    "checkedAt": "2026-09-20T17:45:17.080Z",
     "source": "https://github.com/public-clis/bilibili-cli",
     "canonicalSource": "https://github.com/public-clis/bilibili-cli",
     "repositoryId": 1172405518,
-    "attemptedAt": "2026-09-20T17:29:00.086Z",
+    "attemptedAt": "2026-09-20T17:45:16.898Z",
     "status": "ok"
   },
   "rdt-cli": {
@@ -1867,11 +1867,11 @@
     "stars": 522,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:00.530Z",
+    "checkedAt": "2026-09-20T17:45:17.263Z",
     "source": "https://github.com/public-clis/rdt-cli",
     "canonicalSource": "https://github.com/public-clis/rdt-cli",
     "repositoryId": 1181217016,
-    "attemptedAt": "2026-09-20T17:29:00.312Z",
+    "attemptedAt": "2026-09-20T17:45:17.090Z",
     "status": "ok"
   },
   "xiaohongshu-cli": {
@@ -1882,11 +1882,11 @@
     "stars": 2618,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:00.752Z",
+    "checkedAt": "2026-09-20T17:45:17.427Z",
     "source": "https://github.com/jackwener/xiaohongshu-cli",
     "canonicalSource": "https://github.com/jackwener/xiaohongshu-cli",
     "repositoryId": 1175748667,
-    "attemptedAt": "2026-09-20T17:29:00.540Z",
+    "attemptedAt": "2026-09-20T17:45:17.270Z",
     "status": "ok"
   },
   "notesmd-cli": {
@@ -1897,11 +1897,11 @@
     "stars": 1585,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:00.971Z",
+    "checkedAt": "2026-09-20T17:45:17.606Z",
     "source": "https://github.com/Yakitrak/notesmd-cli",
     "canonicalSource": "https://github.com/Yakitrak/notesmd-cli",
     "repositoryId": 588934663,
-    "attemptedAt": "2026-09-20T17:29:00.765Z",
+    "attemptedAt": "2026-09-20T17:45:17.436Z",
     "status": "ok"
   },
   "jira-cli": {
@@ -1912,11 +1912,11 @@
     "stars": 5979,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:01.408Z",
+    "checkedAt": "2026-09-20T17:45:17.803Z",
     "source": "https://github.com/ankitpokhrel/jira-cli",
     "canonicalSource": "https://github.com/ankitpokhrel/jira-cli",
     "repositoryId": 314995099,
-    "attemptedAt": "2026-09-20T17:29:01.182Z",
+    "attemptedAt": "2026-09-20T17:45:17.614Z",
     "status": "ok"
   },
   "todoist-cli": {
@@ -1927,11 +1927,11 @@
     "stars": 1735,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:01.725Z",
+    "checkedAt": "2026-09-20T17:45:18.021Z",
     "source": "https://github.com/sachaos/todoist",
     "canonicalSource": "https://github.com/sachaos/todoist",
     "repositoryId": 71256290,
-    "attemptedAt": "2026-09-20T17:29:01.516Z",
+    "attemptedAt": "2026-09-20T17:45:17.838Z",
     "status": "ok"
   },
   "taskwarrior": {
@@ -1942,11 +1942,11 @@
     "stars": 6078,
     "license": "MIT",
     "language": "C++",
-    "checkedAt": "2026-09-20T17:29:02.380Z",
+    "checkedAt": "2026-09-20T17:45:18.222Z",
     "source": "https://github.com/GothenburgBitFactory/taskwarrior",
     "canonicalSource": "https://github.com/GothenburgBitFactory/taskwarrior",
     "repositoryId": 120080377,
-    "attemptedAt": "2026-09-20T17:29:01.951Z",
+    "attemptedAt": "2026-09-20T17:45:18.030Z",
     "status": "ok"
   },
   "khal": {
@@ -1957,11 +1957,11 @@
     "stars": 3051,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:02.773Z",
+    "checkedAt": "2026-09-20T17:45:18.444Z",
     "source": "https://github.com/pimutils/khal",
     "canonicalSource": "https://github.com/pimutils/khal",
     "repositoryId": 12357974,
-    "attemptedAt": "2026-09-20T17:29:02.537Z",
+    "attemptedAt": "2026-09-20T17:45:18.231Z",
     "status": "ok"
   },
   "gcalcli": {
@@ -1972,11 +1972,11 @@
     "stars": 3765,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:03.236Z",
+    "checkedAt": "2026-09-20T17:45:18.644Z",
     "source": "https://github.com/insanum/gcalcli",
     "canonicalSource": "https://github.com/insanum/gcalcli",
     "repositoryId": 4132857,
-    "attemptedAt": "2026-09-20T17:29:03.021Z",
+    "attemptedAt": "2026-09-20T17:45:18.463Z",
     "status": "ok"
   },
   "vdirsyncer": {
@@ -1987,11 +1987,11 @@
     "stars": 1877,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:03.470Z",
+    "checkedAt": "2026-09-20T17:45:18.839Z",
     "source": "https://github.com/pimutils/vdirsyncer",
     "canonicalSource": "https://github.com/pimutils/vdirsyncer",
     "repositoryId": 16865424,
-    "attemptedAt": "2026-09-20T17:29:03.248Z",
+    "attemptedAt": "2026-09-20T17:45:18.652Z",
     "status": "ok"
   },
   "buku": {
@@ -2002,11 +2002,11 @@
     "stars": 7203,
     "license": "GPL-3.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:03.712Z",
+    "checkedAt": "2026-09-20T17:45:19.020Z",
     "source": "https://github.com/jarun/buku",
     "canonicalSource": "https://github.com/jarun/buku",
     "repositoryId": 45355064,
-    "attemptedAt": "2026-09-20T17:29:03.481Z",
+    "attemptedAt": "2026-09-20T17:45:18.847Z",
     "status": "ok"
   },
   "nb": {
@@ -2017,11 +2017,11 @@
     "stars": 8404,
     "license": "AGPL-3.0",
     "language": "Shell",
-    "checkedAt": "2026-09-20T17:29:03.967Z",
+    "checkedAt": "2026-09-20T17:45:19.201Z",
     "source": "https://github.com/xwmx/nb",
     "canonicalSource": "https://github.com/xwmx/nb",
     "repositoryId": 49516849,
-    "attemptedAt": "2026-09-20T17:29:03.724Z",
+    "attemptedAt": "2026-09-20T17:45:19.029Z",
     "status": "ok"
   },
   "vibe-notion": {
@@ -2032,11 +2032,11 @@
     "stars": 45,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:04.448Z",
+    "checkedAt": "2026-09-20T17:45:19.381Z",
     "source": "https://github.com/devxoul/vibe-notion",
     "canonicalSource": "https://github.com/devxoul/vibe-notion",
     "repositoryId": 1156133506,
-    "attemptedAt": "2026-09-20T17:29:04.195Z",
+    "attemptedAt": "2026-09-20T17:45:19.210Z",
     "status": "ok"
   },
   "opencli": {
@@ -2047,11 +2047,11 @@
     "stars": 29490,
     "license": "Apache-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:04.665Z",
+    "checkedAt": "2026-09-20T17:45:19.612Z",
     "source": "https://github.com/jackwener/OpenCLI",
     "canonicalSource": "https://github.com/jackwener/OpenCLI",
     "repositoryId": 1181982220,
-    "attemptedAt": "2026-09-20T17:29:04.467Z",
+    "attemptedAt": "2026-09-20T17:45:19.394Z",
     "status": "ok"
   },
   "rulesync": {
@@ -2062,26 +2062,26 @@
     "stars": 1453,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:04.894Z",
+    "checkedAt": "2026-09-20T17:45:19.786Z",
     "source": "https://github.com/dyoshikawa/rulesync",
     "canonicalSource": "https://github.com/dyoshikawa/rulesync",
     "repositoryId": 1004340390,
-    "attemptedAt": "2026-09-20T17:29:04.676Z",
+    "attemptedAt": "2026-09-20T17:45:19.620Z",
     "status": "ok"
   },
   "acpx": {
     "defaultBranch": "main",
     "createdAt": "2026-02-17T19:06:45Z",
-    "pushedAt": "2026-09-20T17:18:29Z",
-    "lastCommitAt": "2026-09-20T16:34:58Z",
+    "pushedAt": "2026-09-20T17:39:59Z",
+    "lastCommitAt": "2026-09-20T17:39:57Z",
     "stars": 3267,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:05.545Z",
+    "checkedAt": "2026-09-20T17:45:20.129Z",
     "source": "https://github.com/openclaw/acpx",
     "canonicalSource": "https://github.com/openclaw/acpx",
     "repositoryId": 1160289278,
-    "attemptedAt": "2026-09-20T17:29:05.049Z",
+    "attemptedAt": "2026-09-20T17:45:19.796Z",
     "status": "ok"
   },
   "discord-cli": {
@@ -2092,11 +2092,11 @@
     "stars": 131,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:05.787Z",
+    "checkedAt": "2026-09-20T17:45:20.343Z",
     "source": "https://github.com/jackwener/discord-cli",
     "canonicalSource": "https://github.com/jackwener/discord-cli",
     "repositoryId": 1175796376,
-    "attemptedAt": "2026-09-20T17:29:05.554Z",
+    "attemptedAt": "2026-09-20T17:45:20.136Z",
     "status": "ok"
   },
   "tg-cli": {
@@ -2107,11 +2107,11 @@
     "stars": 289,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:05.999Z",
+    "checkedAt": "2026-09-20T17:45:20.538Z",
     "source": "https://github.com/jackwener/tg-cli",
     "canonicalSource": "https://github.com/jackwener/tg-cli",
     "repositoryId": 1175792045,
-    "attemptedAt": "2026-09-20T17:29:05.797Z",
+    "attemptedAt": "2026-09-20T17:45:20.350Z",
     "status": "ok"
   },
   "agent-slack": {
@@ -2122,11 +2122,11 @@
     "stars": 535,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:06.261Z",
+    "checkedAt": "2026-09-20T17:45:20.725Z",
     "source": "https://github.com/stablyai/agent-slack",
     "canonicalSource": "https://github.com/stablyai/agent-slack",
     "repositoryId": 1149299036,
-    "attemptedAt": "2026-09-20T17:29:06.009Z",
+    "attemptedAt": "2026-09-20T17:45:20.545Z",
     "status": "ok"
   },
   "auth0-cli": {
@@ -2137,11 +2137,11 @@
     "stars": 342,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:06.649Z",
+    "checkedAt": "2026-09-20T17:45:20.928Z",
     "source": "https://github.com/auth0/auth0-cli",
     "canonicalSource": "https://github.com/auth0/auth0-cli",
     "repositoryId": 292045509,
-    "attemptedAt": "2026-09-20T17:29:06.420Z",
+    "attemptedAt": "2026-09-20T17:45:20.734Z",
     "status": "ok"
   },
   "okta-cli": {
@@ -2152,26 +2152,26 @@
     "stars": 111,
     "license": "Apache-2.0",
     "language": "Java",
-    "checkedAt": "2026-09-20T17:29:06.891Z",
+    "checkedAt": "2026-09-20T17:45:21.132Z",
     "source": "https://github.com/okta/okta-cli",
     "canonicalSource": "https://github.com/okta/okta-cli",
     "repositoryId": 199477028,
-    "attemptedAt": "2026-09-20T17:29:06.660Z",
+    "attemptedAt": "2026-09-20T17:45:20.936Z",
     "status": "ok"
   },
   "tailscale-cli": {
     "defaultBranch": "main",
     "createdAt": "2020-01-31T22:00:03Z",
-    "pushedAt": "2026-09-20T01:19:23Z",
+    "pushedAt": "2026-09-20T17:29:46Z",
     "lastCommitAt": "2026-09-20T01:19:20Z",
     "stars": 36686,
     "license": "BSD-3-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:07.353Z",
+    "checkedAt": "2026-09-20T17:45:21.479Z",
     "source": "https://github.com/tailscale/tailscale",
     "canonicalSource": "https://github.com/tailscale/tailscale",
     "repositoryId": 237523442,
-    "attemptedAt": "2026-09-20T17:29:06.903Z",
+    "attemptedAt": "2026-09-20T17:45:21.141Z",
     "status": "ok"
   },
   "cloudflared": {
@@ -2182,11 +2182,11 @@
     "stars": 15815,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:07.588Z",
+    "checkedAt": "2026-09-20T17:45:21.675Z",
     "source": "https://github.com/cloudflare/cloudflared",
     "canonicalSource": "https://github.com/cloudflare/cloudflared",
     "repositoryId": 106867604,
-    "attemptedAt": "2026-09-20T17:29:07.364Z",
+    "attemptedAt": "2026-09-20T17:45:21.487Z",
     "status": "ok"
   },
   "heroku-cli": {
@@ -2197,11 +2197,11 @@
     "stars": 889,
     "license": "ISC",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:07.846Z",
+    "checkedAt": "2026-09-20T17:45:21.872Z",
     "source": "https://github.com/heroku/cli",
     "canonicalSource": "https://github.com/heroku/cli",
     "repositoryId": 28269754,
-    "attemptedAt": "2026-09-20T17:29:07.599Z",
+    "attemptedAt": "2026-09-20T17:45:21.684Z",
     "status": "ok"
   },
   "flyctl": {
@@ -2212,11 +2212,11 @@
     "stars": 1704,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:08.391Z",
+    "checkedAt": "2026-09-20T17:45:22.054Z",
     "source": "https://github.com/superfly/flyctl",
     "canonicalSource": "https://github.com/superfly/flyctl",
     "repositoryId": 199060308,
-    "attemptedAt": "2026-09-20T17:29:07.857Z",
+    "attemptedAt": "2026-09-20T17:45:21.882Z",
     "status": "ok"
   },
   "fastly-cli": {
@@ -2227,11 +2227,11 @@
     "stars": 164,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:08.805Z",
+    "checkedAt": "2026-09-20T17:45:22.246Z",
     "source": "https://github.com/fastly/cli",
     "canonicalSource": "https://github.com/fastly/cli",
     "repositoryId": 238323615,
-    "attemptedAt": "2026-09-20T17:29:08.550Z",
+    "attemptedAt": "2026-09-20T17:45:22.066Z",
     "status": "ok"
   },
   "akamai-cli": {
@@ -2242,11 +2242,11 @@
     "stars": 237,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:09.051Z",
+    "checkedAt": "2026-09-20T17:45:22.444Z",
     "source": "https://github.com/akamai/cli",
     "canonicalSource": "https://github.com/akamai/cli",
     "repositoryId": 91621332,
-    "attemptedAt": "2026-09-20T17:29:08.816Z",
+    "attemptedAt": "2026-09-20T17:45:22.255Z",
     "status": "ok"
   },
   "deck": {
@@ -2257,11 +2257,11 @@
     "stars": 505,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:09.372Z",
+    "checkedAt": "2026-09-20T17:45:22.675Z",
     "source": "https://github.com/Kong/deck",
     "canonicalSource": "https://github.com/Kong/deck",
     "repositoryId": 157048481,
-    "attemptedAt": "2026-09-20T17:29:09.154Z",
+    "attemptedAt": "2026-09-20T17:45:22.468Z",
     "status": "ok"
   },
   "temporal-cli": {
@@ -2272,11 +2272,11 @@
     "stars": 380,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:09.726Z",
+    "checkedAt": "2026-09-20T17:45:22.851Z",
     "source": "https://github.com/temporalio/cli",
     "canonicalSource": "https://github.com/temporalio/cli",
     "repositoryId": 559700601,
-    "attemptedAt": "2026-09-20T17:29:09.512Z",
+    "attemptedAt": "2026-09-20T17:45:22.685Z",
     "status": "ok"
   },
   "nats-cli": {
@@ -2287,26 +2287,26 @@
     "stars": 827,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:10.132Z",
+    "checkedAt": "2026-09-20T17:45:23.034Z",
     "source": "https://github.com/nats-io/natscli",
     "canonicalSource": "https://github.com/nats-io/natscli",
     "repositoryId": 318166068,
-    "attemptedAt": "2026-09-20T17:29:09.896Z",
+    "attemptedAt": "2026-09-20T17:45:22.861Z",
     "status": "ok"
   },
   "n8n-cli": {
     "defaultBranch": "master",
     "createdAt": "2019-06-22T09:24:21Z",
-    "pushedAt": "2026-09-20T17:24:08Z",
+    "pushedAt": "2026-09-20T17:43:19Z",
     "lastCommitAt": "2026-09-20T10:52:38Z",
-    "stars": 205455,
+    "stars": 205456,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:10.752Z",
+    "checkedAt": "2026-09-20T17:45:23.378Z",
     "source": "https://github.com/n8n-io/n8n",
     "canonicalSource": "https://github.com/n8n-io/n8n",
     "repositoryId": 193215554,
-    "attemptedAt": "2026-09-20T17:29:10.277Z",
+    "attemptedAt": "2026-09-20T17:45:23.043Z",
     "status": "ok"
   },
   "appwrite-cli": {
@@ -2317,11 +2317,11 @@
     "stars": 100,
     "license": "BSD-3-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:11.142Z",
+    "checkedAt": "2026-09-20T17:45:23.597Z",
     "source": "https://github.com/appwrite/sdk-for-cli",
     "canonicalSource": "https://github.com/appwrite/sdk-for-cli",
     "repositoryId": 297582433,
-    "attemptedAt": "2026-09-20T17:29:10.896Z",
+    "attemptedAt": "2026-09-20T17:45:23.386Z",
     "status": "ok"
   },
   "psql": {
@@ -2332,11 +2332,11 @@
     "stars": 22162,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-20T17:29:11.777Z",
+    "checkedAt": "2026-09-20T17:45:23.790Z",
     "source": "https://github.com/postgres/postgres",
     "canonicalSource": "https://github.com/postgres/postgres",
     "repositoryId": 927442,
-    "attemptedAt": "2026-09-20T17:29:11.370Z",
+    "attemptedAt": "2026-09-20T17:45:23.607Z",
     "status": "ok"
   },
   "redis-cli": {
@@ -2347,11 +2347,11 @@
     "stars": 76419,
     "license": null,
     "language": "C",
-    "checkedAt": "2026-09-20T17:29:12.335Z",
+    "checkedAt": "2026-09-20T17:45:23.977Z",
     "source": "https://github.com/redis/redis",
     "canonicalSource": "https://github.com/redis/redis",
     "repositoryId": 156018,
-    "attemptedAt": "2026-09-20T17:29:11.885Z",
+    "attemptedAt": "2026-09-20T17:45:23.806Z",
     "status": "ok"
   },
   "mongosh": {
@@ -2362,11 +2362,11 @@
     "stars": 403,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:12.781Z",
+    "checkedAt": "2026-09-20T17:45:24.167Z",
     "source": "https://github.com/mongodb-js/mongosh",
     "canonicalSource": "https://github.com/mongodb-js/mongosh",
     "repositoryId": 212473529,
-    "attemptedAt": "2026-09-20T17:29:12.346Z",
+    "attemptedAt": "2026-09-20T17:45:23.986Z",
     "status": "ok"
   },
   "mongodb-atlas-cli": {
@@ -2377,11 +2377,11 @@
     "stars": 184,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:13.142Z",
+    "checkedAt": "2026-09-20T17:45:24.356Z",
     "source": "https://github.com/mongodb/mongodb-atlas-cli",
     "canonicalSource": "https://github.com/mongodb/mongodb-atlas-cli",
     "repositoryId": 236735050,
-    "attemptedAt": "2026-09-20T17:29:12.922Z",
+    "attemptedAt": "2026-09-20T17:45:24.175Z",
     "status": "ok"
   },
   "snowflake-cli": {
@@ -2392,11 +2392,11 @@
     "stars": 267,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:13.392Z",
+    "checkedAt": "2026-09-20T17:45:24.547Z",
     "source": "https://github.com/snowflakedb/snowflake-cli",
     "canonicalSource": "https://github.com/snowflakedb/snowflake-cli",
     "repositoryId": 525462593,
-    "attemptedAt": "2026-09-20T17:29:13.157Z",
+    "attemptedAt": "2026-09-20T17:45:24.374Z",
     "status": "ok"
   },
   "databricks-cli": {
@@ -2407,11 +2407,11 @@
     "stars": 396,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:13.829Z",
+    "checkedAt": "2026-09-20T17:45:24.776Z",
     "source": "https://github.com/databricks/cli",
     "canonicalSource": "https://github.com/databricks/cli",
     "repositoryId": 491883713,
-    "attemptedAt": "2026-09-20T17:29:13.403Z",
+    "attemptedAt": "2026-09-20T17:45:24.557Z",
     "status": "ok"
   },
   "confluent-cli": {
@@ -2422,26 +2422,26 @@
     "stars": 80,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:14.323Z",
+    "checkedAt": "2026-09-20T17:45:24.983Z",
     "source": "https://github.com/confluentinc/cli",
     "canonicalSource": "https://github.com/confluentinc/cli",
     "repositoryId": 127888390,
-    "attemptedAt": "2026-09-20T17:29:13.840Z",
+    "attemptedAt": "2026-09-20T17:45:24.786Z",
     "status": "ok"
   },
   "clickhouse-client": {
     "defaultBranch": "master",
     "createdAt": "2016-06-02T08:28:18Z",
-    "pushedAt": "2026-09-20T17:28:38Z",
-    "lastCommitAt": "2026-09-20T16:57:27Z",
-    "stars": 49985,
+    "pushedAt": "2026-09-20T17:41:29Z",
+    "lastCommitAt": "2026-09-20T17:10:38Z",
+    "stars": 49986,
     "license": "Apache-2.0",
     "language": "C++",
-    "checkedAt": "2026-09-20T17:29:14.783Z",
+    "checkedAt": "2026-09-20T17:45:25.372Z",
     "source": "https://github.com/ClickHouse/ClickHouse",
     "canonicalSource": "https://github.com/ClickHouse/ClickHouse",
     "repositoryId": 60246359,
-    "attemptedAt": "2026-09-20T17:29:14.334Z",
+    "attemptedAt": "2026-09-20T17:45:24.992Z",
     "status": "ok"
   },
   "influx-cli": {
@@ -2452,11 +2452,11 @@
     "stars": 75,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:15.172Z",
+    "checkedAt": "2026-09-20T17:45:25.531Z",
     "source": "https://github.com/influxdata/influx-cli",
     "canonicalSource": "https://github.com/influxdata/influx-cli",
     "repositoryId": 356362815,
-    "attemptedAt": "2026-09-20T17:29:14.935Z",
+    "attemptedAt": "2026-09-20T17:45:25.382Z",
     "status": "ok"
   },
   "usql": {
@@ -2467,11 +2467,11 @@
     "stars": 10117,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:15.425Z",
+    "checkedAt": "2026-09-20T17:45:25.719Z",
     "source": "https://github.com/xo/usql",
     "canonicalSource": "https://github.com/xo/usql",
     "repositoryId": 83678416,
-    "attemptedAt": "2026-09-20T17:29:15.183Z",
+    "attemptedAt": "2026-09-20T17:45:25.540Z",
     "status": "ok"
   },
   "pgcli": {
@@ -2482,11 +2482,11 @@
     "stars": 13393,
     "license": "BSD-3-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:16.151Z",
+    "checkedAt": "2026-09-20T17:45:25.903Z",
     "source": "https://github.com/dbcli/pgcli",
     "canonicalSource": "https://github.com/dbcli/pgcli",
     "repositoryId": 25126616,
-    "attemptedAt": "2026-09-20T17:29:15.638Z",
+    "attemptedAt": "2026-09-20T17:45:25.727Z",
     "status": "ok"
   },
   "mycli": {
@@ -2497,11 +2497,11 @@
     "stars": 11976,
     "license": "BSD-3-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:16.612Z",
+    "checkedAt": "2026-09-20T17:45:26.079Z",
     "source": "https://github.com/dbcli/mycli",
     "canonicalSource": "https://github.com/dbcli/mycli",
     "repositoryId": 33457642,
-    "attemptedAt": "2026-09-20T17:29:16.162Z",
+    "attemptedAt": "2026-09-20T17:45:25.910Z",
     "status": "ok"
   },
   "litecli": {
@@ -2512,11 +2512,11 @@
     "stars": 3301,
     "license": "BSD-3-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:16.829Z",
+    "checkedAt": "2026-09-20T17:45:26.256Z",
     "source": "https://github.com/dbcli/litecli",
     "canonicalSource": "https://github.com/dbcli/litecli",
     "repositoryId": 133243075,
-    "attemptedAt": "2026-09-20T17:29:16.624Z",
+    "attemptedAt": "2026-09-20T17:45:26.087Z",
     "status": "ok"
   },
   "csvkit": {
@@ -2527,11 +2527,11 @@
     "stars": 6408,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:17.086Z",
+    "checkedAt": "2026-09-20T17:45:26.422Z",
     "source": "https://github.com/wireservice/csvkit",
     "canonicalSource": "https://github.com/wireservice/csvkit",
     "repositoryId": 1553944,
-    "attemptedAt": "2026-09-20T17:29:16.839Z",
+    "attemptedAt": "2026-09-20T17:45:26.264Z",
     "status": "ok"
   },
   "qsv": {
@@ -2542,11 +2542,11 @@
     "stars": 3789,
     "license": null,
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:17.544Z",
+    "checkedAt": "2026-09-20T17:45:26.627Z",
     "source": "https://github.com/dathere/qsv",
     "canonicalSource": "https://github.com/dathere/qsv",
     "repositoryId": 320463703,
-    "attemptedAt": "2026-09-20T17:29:17.098Z",
+    "attemptedAt": "2026-09-20T17:45:26.432Z",
     "status": "ok"
   },
   "jujutsu": {
@@ -2554,14 +2554,14 @@
     "createdAt": "2020-12-18T04:05:27Z",
     "pushedAt": "2026-09-20T16:51:59Z",
     "lastCommitAt": "2026-09-20T03:19:35Z",
-    "stars": 31671,
+    "stars": 31672,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:18.185Z",
+    "checkedAt": "2026-09-20T17:45:26.789Z",
     "source": "https://github.com/jj-vcs/jj",
     "canonicalSource": "https://github.com/jj-vcs/jj",
     "repositoryId": 322484700,
-    "attemptedAt": "2026-09-20T17:29:17.695Z",
+    "attemptedAt": "2026-09-20T17:45:26.635Z",
     "status": "ok"
   },
   "git-lfs": {
@@ -2572,11 +2572,11 @@
     "stars": 14508,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:18.458Z",
+    "checkedAt": "2026-09-20T17:45:26.972Z",
     "source": "https://github.com/git-lfs/git-lfs",
     "canonicalSource": "https://github.com/git-lfs/git-lfs",
     "repositoryId": 13021798,
-    "attemptedAt": "2026-09-20T17:29:18.196Z",
+    "attemptedAt": "2026-09-20T17:45:26.799Z",
     "status": "ok"
   },
   "goreleaser": {
@@ -2587,11 +2587,11 @@
     "stars": 16057,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:19.064Z",
+    "checkedAt": "2026-09-20T17:45:27.174Z",
     "source": "https://github.com/goreleaser/goreleaser",
     "canonicalSource": "https://github.com/goreleaser/goreleaser",
     "repositoryId": 77071454,
-    "attemptedAt": "2026-09-20T17:29:18.648Z",
+    "attemptedAt": "2026-09-20T17:45:26.986Z",
     "status": "ok"
   },
   "act": {
@@ -2602,11 +2602,11 @@
     "stars": 72066,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:19.287Z",
+    "checkedAt": "2026-09-20T17:45:27.343Z",
     "source": "https://github.com/nektos/act",
     "canonicalSource": "https://github.com/nektos/act",
     "repositoryId": 163883279,
-    "attemptedAt": "2026-09-20T17:29:19.075Z",
+    "attemptedAt": "2026-09-20T17:45:27.183Z",
     "status": "ok"
   },
   "dagger-cli": {
@@ -2617,11 +2617,11 @@
     "stars": 16275,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:19.940Z",
+    "checkedAt": "2026-09-20T17:45:27.524Z",
     "source": "https://github.com/dagger/dagger",
     "canonicalSource": "https://github.com/dagger/dagger",
     "repositoryId": 222824662,
-    "attemptedAt": "2026-09-20T17:29:19.487Z",
+    "attemptedAt": "2026-09-20T17:45:27.351Z",
     "status": "ok"
   },
   "dev-container-cli": {
@@ -2632,11 +2632,11 @@
     "stars": 2958,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:20.327Z",
+    "checkedAt": "2026-09-20T17:45:27.703Z",
     "source": "https://github.com/devcontainers/cli",
     "canonicalSource": "https://github.com/devcontainers/cli",
     "repositoryId": 486125557,
-    "attemptedAt": "2026-09-20T17:29:20.101Z",
+    "attemptedAt": "2026-09-20T17:45:27.532Z",
     "status": "ok"
   },
   "devspace": {
@@ -2647,11 +2647,11 @@
     "stars": 5189,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:20.938Z",
+    "checkedAt": "2026-09-20T17:45:27.889Z",
     "source": "https://github.com/devspace-sh/devspace",
     "canonicalSource": "https://github.com/devspace-sh/devspace",
     "repositoryId": 145153231,
-    "attemptedAt": "2026-09-20T17:29:20.471Z",
+    "attemptedAt": "2026-09-20T17:45:27.711Z",
     "status": "ok"
   },
   "garden": {
@@ -2662,11 +2662,11 @@
     "stars": 3615,
     "license": "MPL-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:21.312Z",
+    "checkedAt": "2026-09-20T17:45:28.081Z",
     "source": "https://github.com/garden-io/garden",
     "canonicalSource": "https://github.com/garden-io/garden",
     "repositoryId": 112892985,
-    "attemptedAt": "2026-09-20T17:29:21.080Z",
+    "attemptedAt": "2026-09-20T17:45:27.900Z",
     "status": "ok"
   },
   "k3d": {
@@ -2677,11 +2677,11 @@
     "stars": 6560,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:21.677Z",
+    "checkedAt": "2026-09-20T17:45:28.267Z",
     "source": "https://github.com/k3d-io/k3d",
     "canonicalSource": "https://github.com/k3d-io/k3d",
     "repositoryId": 179063508,
-    "attemptedAt": "2026-09-20T17:29:21.453Z",
+    "attemptedAt": "2026-09-20T17:45:28.095Z",
     "status": "ok"
   },
   "skaffold": {
@@ -2692,11 +2692,11 @@
     "stars": 15890,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:22.068Z",
+    "checkedAt": "2026-09-20T17:45:28.447Z",
     "source": "https://github.com/GoogleContainerTools/skaffold",
     "canonicalSource": "https://github.com/GoogleContainerTools/skaffold",
     "repositoryId": 118654121,
-    "attemptedAt": "2026-09-20T17:29:21.819Z",
+    "attemptedAt": "2026-09-20T17:45:28.275Z",
     "status": "ok"
   },
   "kustomize": {
@@ -2707,11 +2707,11 @@
     "stars": 12166,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:22.318Z",
+    "checkedAt": "2026-09-20T17:45:28.633Z",
     "source": "https://github.com/kubernetes-sigs/kustomize",
     "canonicalSource": "https://github.com/kubernetes-sigs/kustomize",
     "repositoryId": 133067498,
-    "attemptedAt": "2026-09-20T17:29:22.079Z",
+    "attemptedAt": "2026-09-20T17:45:28.455Z",
     "status": "ok"
   },
   "helmfile": {
@@ -2722,11 +2722,11 @@
     "stars": 5202,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:22.631Z",
+    "checkedAt": "2026-09-20T17:45:28.852Z",
     "source": "https://github.com/helmfile/helmfile",
     "canonicalSource": "https://github.com/helmfile/helmfile",
     "repositoryId": 474521466,
-    "attemptedAt": "2026-09-20T17:29:22.329Z",
+    "attemptedAt": "2026-09-20T17:45:28.641Z",
     "status": "ok"
   },
   "kubectx": {
@@ -2737,11 +2737,11 @@
     "stars": 19994,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:22.985Z",
+    "checkedAt": "2026-09-20T17:45:29.017Z",
     "source": "https://github.com/ahmetb/kubectx",
     "canonicalSource": "https://github.com/ahmetb/kubectx",
     "repositoryId": 86733463,
-    "attemptedAt": "2026-09-20T17:29:22.786Z",
+    "attemptedAt": "2026-09-20T17:45:28.862Z",
     "status": "ok"
   },
   "stern": {
@@ -2752,11 +2752,11 @@
     "stars": 4866,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:23.434Z",
+    "checkedAt": "2026-09-20T17:45:29.202Z",
     "source": "https://github.com/stern/stern",
     "canonicalSource": "https://github.com/stern/stern",
     "repositoryId": 306013800,
-    "attemptedAt": "2026-09-20T17:29:23.193Z",
+    "attemptedAt": "2026-09-20T17:45:29.025Z",
     "status": "ok"
   },
   "eslint": {
@@ -2767,11 +2767,11 @@
     "stars": 27516,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:23.914Z",
+    "checkedAt": "2026-09-20T17:45:29.367Z",
     "source": "https://github.com/eslint/eslint",
     "canonicalSource": "https://github.com/eslint/eslint",
     "repositoryId": 11061773,
-    "attemptedAt": "2026-09-20T17:29:23.607Z",
+    "attemptedAt": "2026-09-20T17:45:29.209Z",
     "status": "ok"
   },
   "prettier": {
@@ -2782,11 +2782,11 @@
     "stars": 52287,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:24.552Z",
+    "checkedAt": "2026-09-20T17:45:29.545Z",
     "source": "https://github.com/prettier/prettier",
     "canonicalSource": "https://github.com/prettier/prettier",
     "repositoryId": 75104123,
-    "attemptedAt": "2026-09-20T17:29:24.052Z",
+    "attemptedAt": "2026-09-20T17:45:29.376Z",
     "status": "ok"
   },
   "deno": {
@@ -2797,11 +2797,11 @@
     "stars": 108478,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:24.767Z",
+    "checkedAt": "2026-09-20T17:45:29.728Z",
     "source": "https://github.com/denoland/deno",
     "canonicalSource": "https://github.com/denoland/deno",
     "repositoryId": 133442384,
-    "attemptedAt": "2026-09-20T17:29:24.563Z",
+    "attemptedAt": "2026-09-20T17:45:29.554Z",
     "status": "ok"
   },
   "npm": {
@@ -2812,11 +2812,11 @@
     "stars": 10124,
     "license": null,
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:25.163Z",
+    "checkedAt": "2026-09-20T17:45:29.924Z",
     "source": "https://github.com/npm/cli",
     "canonicalSource": "https://github.com/npm/cli",
     "repositoryId": 139910229,
-    "attemptedAt": "2026-09-20T17:29:24.929Z",
+    "attemptedAt": "2026-09-20T17:45:29.735Z",
     "status": "ok"
   },
   "poetry": {
@@ -2827,11 +2827,11 @@
     "stars": 34300,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:25.601Z",
+    "checkedAt": "2026-09-20T17:45:30.135Z",
     "source": "https://github.com/python-poetry/poetry",
     "canonicalSource": "https://github.com/python-poetry/poetry",
     "repositoryId": 123303402,
-    "attemptedAt": "2026-09-20T17:29:25.173Z",
+    "attemptedAt": "2026-09-20T17:45:29.934Z",
     "status": "ok"
   },
   "pipx": {
@@ -2842,11 +2842,11 @@
     "stars": 12971,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:26.161Z",
+    "checkedAt": "2026-09-20T17:45:30.329Z",
     "source": "https://github.com/pypa/pipx",
     "canonicalSource": "https://github.com/pypa/pipx",
     "repositoryId": 151871286,
-    "attemptedAt": "2026-09-20T17:29:25.763Z",
+    "attemptedAt": "2026-09-20T17:45:30.147Z",
     "status": "ok"
   },
   "task": {
@@ -2857,11 +2857,11 @@
     "stars": 16171,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:26.749Z",
+    "checkedAt": "2026-09-20T17:45:30.509Z",
     "source": "https://github.com/go-task/task",
     "canonicalSource": "https://github.com/go-task/task",
     "repositoryId": 83252983,
-    "attemptedAt": "2026-09-20T17:29:26.315Z",
+    "attemptedAt": "2026-09-20T17:45:30.337Z",
     "status": "ok"
   },
   "watchexec": {
@@ -2872,11 +2872,11 @@
     "stars": 7192,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:26.967Z",
+    "checkedAt": "2026-09-20T17:45:30.693Z",
     "source": "https://github.com/watchexec/watchexec",
     "canonicalSource": "https://github.com/watchexec/watchexec",
     "repositoryId": 68546136,
-    "attemptedAt": "2026-09-20T17:29:26.760Z",
+    "attemptedAt": "2026-09-20T17:45:30.517Z",
     "status": "ok"
   },
   "hyperfine": {
@@ -2887,11 +2887,11 @@
     "stars": 28882,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:27.177Z",
+    "checkedAt": "2026-09-20T17:45:30.947Z",
     "source": "https://github.com/sharkdp/hyperfine",
     "canonicalSource": "https://github.com/sharkdp/hyperfine",
     "repositoryId": 117356231,
-    "attemptedAt": "2026-09-20T17:29:26.978Z",
+    "attemptedAt": "2026-09-20T17:45:30.704Z",
     "status": "ok"
   },
   "mkcert": {
@@ -2902,11 +2902,11 @@
     "stars": 59657,
     "license": "BSD-3-Clause",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:27.396Z",
+    "checkedAt": "2026-09-20T17:45:31.122Z",
     "source": "https://github.com/FiloSottile/mkcert",
     "canonicalSource": "https://github.com/FiloSottile/mkcert",
     "repositoryId": 138547797,
-    "attemptedAt": "2026-09-20T17:29:27.187Z",
+    "attemptedAt": "2026-09-20T17:45:30.954Z",
     "status": "ok"
   },
   "docling-cli": {
@@ -2914,14 +2914,14 @@
     "createdAt": "2024-07-09T07:50:26Z",
     "pushedAt": "2026-09-20T10:12:27Z",
     "lastCommitAt": "2026-09-18T09:18:30Z",
-    "stars": 67399,
+    "stars": 67400,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:27.822Z",
+    "checkedAt": "2026-09-20T17:45:31.329Z",
     "source": "https://github.com/docling-project/docling",
     "canonicalSource": "https://github.com/docling-project/docling",
     "repositoryId": 826168160,
-    "attemptedAt": "2026-09-20T17:29:27.407Z",
+    "attemptedAt": "2026-09-20T17:45:31.151Z",
     "status": "ok"
   },
   "markitdown": {
@@ -2929,14 +2929,14 @@
     "createdAt": "2024-11-13T19:56:40Z",
     "pushedAt": "2026-09-16T17:23:11Z",
     "lastCommitAt": "2026-09-16T17:23:08Z",
-    "stars": 185900,
+    "stars": 185903,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:28.057Z",
+    "checkedAt": "2026-09-20T17:45:31.534Z",
     "source": "https://github.com/microsoft/markitdown",
     "canonicalSource": "https://github.com/microsoft/markitdown",
     "repositoryId": 888092115,
-    "attemptedAt": "2026-09-20T17:29:27.834Z",
+    "attemptedAt": "2026-09-20T17:45:31.339Z",
     "status": "ok"
   },
   "hugo": {
@@ -2947,11 +2947,11 @@
     "stars": 89870,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:28.493Z",
+    "checkedAt": "2026-09-20T17:45:31.729Z",
     "source": "https://github.com/gohugoio/hugo",
     "canonicalSource": "https://github.com/gohugoio/hugo",
     "repositoryId": 11180687,
-    "attemptedAt": "2026-09-20T17:29:28.068Z",
+    "attemptedAt": "2026-09-20T17:45:31.541Z",
     "status": "ok"
   },
   "mkdocs": {
@@ -2962,11 +2962,11 @@
     "stars": 22453,
     "license": "BSD-2-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:28.757Z",
+    "checkedAt": "2026-09-20T17:45:31.923Z",
     "source": "https://github.com/mkdocs/mkdocs",
     "canonicalSource": "https://github.com/mkdocs/mkdocs",
     "repositoryId": 15830664,
-    "attemptedAt": "2026-09-20T17:29:28.503Z",
+    "attemptedAt": "2026-09-20T17:45:31.738Z",
     "status": "ok"
   },
   "asciidoctor": {
@@ -2977,11 +2977,11 @@
     "stars": 5214,
     "license": null,
     "language": "Ruby",
-    "checkedAt": "2026-09-20T17:29:28.989Z",
+    "checkedAt": "2026-09-20T17:45:32.114Z",
     "source": "https://github.com/asciidoctor/asciidoctor",
     "canonicalSource": "https://github.com/asciidoctor/asciidoctor",
     "repositoryId": 4523235,
-    "attemptedAt": "2026-09-20T17:29:28.769Z",
+    "attemptedAt": "2026-09-20T17:45:31.933Z",
     "status": "ok"
   },
   "quarto-cli": {
@@ -2992,11 +2992,11 @@
     "stars": 6010,
     "license": null,
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:29.692Z",
+    "checkedAt": "2026-09-20T17:45:32.329Z",
     "source": "https://github.com/quarto-dev/quarto-cli",
     "canonicalSource": "https://github.com/quarto-dev/quarto-cli",
     "repositoryId": 298579934,
-    "attemptedAt": "2026-09-20T17:29:29.183Z",
+    "attemptedAt": "2026-09-20T17:45:32.122Z",
     "status": "ok"
   },
   "marp-cli": {
@@ -3007,11 +3007,11 @@
     "stars": 3827,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:29.907Z",
+    "checkedAt": "2026-09-20T17:45:32.529Z",
     "source": "https://github.com/marp-team/marp-cli",
     "canonicalSource": "https://github.com/marp-team/marp-cli",
     "repositoryId": 144130157,
-    "attemptedAt": "2026-09-20T17:29:29.704Z",
+    "attemptedAt": "2026-09-20T17:45:32.338Z",
     "status": "ok"
   },
   "mermaid-cli": {
@@ -3022,11 +3022,11 @@
     "stars": 5018,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:30.145Z",
+    "checkedAt": "2026-09-20T17:45:32.735Z",
     "source": "https://github.com/mermaid-js/mermaid-cli",
     "canonicalSource": "https://github.com/mermaid-js/mermaid-cli",
     "repositoryId": 264861225,
-    "attemptedAt": "2026-09-20T17:29:29.918Z",
+    "attemptedAt": "2026-09-20T17:45:32.537Z",
     "status": "ok"
   },
   "vips-cli": {
@@ -3037,11 +3037,11 @@
     "stars": 11658,
     "license": "LGPL-2.1",
     "language": "C",
-    "checkedAt": "2026-09-20T17:29:30.590Z",
+    "checkedAt": "2026-09-20T17:45:32.909Z",
     "source": "https://github.com/libvips/libvips",
     "canonicalSource": "https://github.com/libvips/libvips",
     "repositoryId": 1291410,
-    "attemptedAt": "2026-09-20T17:29:30.156Z",
+    "attemptedAt": "2026-09-20T17:45:32.744Z",
     "status": "ok"
   },
   "exiftool": {
@@ -3052,11 +3052,11 @@
     "stars": 5072,
     "license": "GPL-3.0",
     "language": "Perl",
-    "checkedAt": "2026-09-20T17:29:30.824Z",
+    "checkedAt": "2026-09-20T17:45:33.097Z",
     "source": "https://github.com/exiftool/exiftool",
     "canonicalSource": "https://github.com/exiftool/exiftool",
     "repositoryId": 132751855,
-    "attemptedAt": "2026-09-20T17:29:30.601Z",
+    "attemptedAt": "2026-09-20T17:45:32.939Z",
     "status": "ok"
   },
   "whisper-cli": {
@@ -3067,11 +3067,11 @@
     "stars": 53802,
     "license": "MIT",
     "language": "C++",
-    "checkedAt": "2026-09-20T17:29:31.219Z",
+    "checkedAt": "2026-09-20T17:45:33.284Z",
     "source": "https://github.com/ggml-org/whisper.cpp",
     "canonicalSource": "https://github.com/ggml-org/whisper.cpp",
     "repositoryId": 541269386,
-    "attemptedAt": "2026-09-20T17:29:31.010Z",
+    "attemptedAt": "2026-09-20T17:45:33.106Z",
     "status": "ok"
   },
   "typst": {
@@ -3082,11 +3082,11 @@
     "stars": 56140,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:31.582Z",
+    "checkedAt": "2026-09-20T17:45:33.485Z",
     "source": "https://github.com/typst/typst",
     "canonicalSource": "https://github.com/typst/typst",
     "repositoryId": 210702427,
-    "attemptedAt": "2026-09-20T17:29:31.338Z",
+    "attemptedAt": "2026-09-20T17:45:33.306Z",
     "status": "ok"
   },
   "mutool": {
@@ -3097,11 +3097,11 @@
     "stars": 2970,
     "license": "AGPL-3.0",
     "language": "C",
-    "checkedAt": "2026-09-20T17:29:32.091Z",
+    "checkedAt": "2026-09-20T17:45:33.713Z",
     "source": "https://github.com/ArtifexSoftware/mupdf",
     "canonicalSource": "https://github.com/ArtifexSoftware/mupdf",
     "repositoryId": 37978718,
-    "attemptedAt": "2026-09-20T17:29:31.594Z",
+    "attemptedAt": "2026-09-20T17:45:33.494Z",
     "status": "ok"
   },
   "pdfcpu": {
@@ -3112,11 +3112,11 @@
     "stars": 8845,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:32.702Z",
+    "checkedAt": "2026-09-20T17:45:33.892Z",
     "source": "https://github.com/pdfcpu/pdfcpu",
     "canonicalSource": "https://github.com/pdfcpu/pdfcpu",
     "repositoryId": 94702367,
-    "attemptedAt": "2026-09-20T17:29:32.220Z",
+    "attemptedAt": "2026-09-20T17:45:33.723Z",
     "status": "ok"
   },
   "miniserve": {
@@ -3127,11 +3127,11 @@
     "stars": 7866,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:33.174Z",
+    "checkedAt": "2026-09-20T17:45:34.103Z",
     "source": "https://github.com/svenstaro/miniserve",
     "canonicalSource": "https://github.com/svenstaro/miniserve",
     "repositoryId": 131135585,
-    "attemptedAt": "2026-09-20T17:29:32.941Z",
+    "attemptedAt": "2026-09-20T17:45:33.901Z",
     "status": "ok"
   },
   "openai-codex-security": {
@@ -3142,26 +3142,26 @@
     "stars": 10811,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:33.642Z",
+    "checkedAt": "2026-09-20T17:45:34.278Z",
     "source": "https://github.com/openai/codex-security",
     "canonicalSource": "https://github.com/openai/codex-security",
     "repositoryId": 1299769220,
-    "attemptedAt": "2026-09-20T17:29:33.185Z",
+    "attemptedAt": "2026-09-20T17:45:34.112Z",
     "status": "ok"
   },
   "esengine-deepseek-reasonix": {
     "defaultBranch": "main-v2",
     "createdAt": "2026-04-21T08:27:02Z",
-    "pushedAt": "2026-09-20T17:12:52Z",
-    "lastCommitAt": "2026-09-20T17:12:51Z",
+    "pushedAt": "2026-09-20T17:45:06Z",
+    "lastCommitAt": "2026-09-20T17:45:05Z",
     "stars": 35644,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:34.177Z",
+    "checkedAt": "2026-09-20T17:45:34.649Z",
     "source": "https://github.com/esengine/DeepSeek-Reasonix",
     "canonicalSource": "https://github.com/esengine/DeepSeek-Reasonix",
     "repositoryId": 1216785679,
-    "attemptedAt": "2026-09-20T17:29:33.653Z",
+    "attemptedAt": "2026-09-20T17:45:34.287Z",
     "status": "ok"
   },
   "sigoden-aichat": {
@@ -3172,11 +3172,11 @@
     "stars": 10460,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:34.526Z",
+    "checkedAt": "2026-09-20T17:45:34.824Z",
     "source": "https://github.com/sigoden/aichat",
     "canonicalSource": "https://github.com/sigoden/aichat",
     "repositoryId": 608896930,
-    "attemptedAt": "2026-09-20T17:29:34.321Z",
+    "attemptedAt": "2026-09-20T17:45:34.658Z",
     "status": "ok"
   },
   "aliyun-aliyun-cli": {
@@ -3187,11 +3187,11 @@
     "stars": 1104,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:35.051Z",
+    "checkedAt": "2026-09-20T17:45:34.988Z",
     "source": "https://github.com/aliyun/aliyun-cli",
     "canonicalSource": "https://github.com/aliyun/aliyun-cli",
     "repositoryId": 38291591,
-    "attemptedAt": "2026-09-20T17:29:34.605Z",
+    "attemptedAt": "2026-09-20T17:45:34.833Z",
     "status": "ok"
   },
   "qwenlm-qwen-code": {
@@ -3202,11 +3202,11 @@
     "stars": 28014,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:35.469Z",
+    "checkedAt": "2026-09-20T17:45:35.181Z",
     "source": "https://github.com/QwenLM/qwen-code",
     "canonicalSource": "https://github.com/QwenLM/qwen-code",
     "repositoryId": 1008713177,
-    "attemptedAt": "2026-09-20T17:29:35.063Z",
+    "attemptedAt": "2026-09-20T17:45:34.999Z",
     "status": "ok"
   },
   "mininglamp-oss-octo-cli": {
@@ -3217,11 +3217,11 @@
     "stars": 918,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:36.034Z",
+    "checkedAt": "2026-09-20T17:45:35.361Z",
     "source": "https://github.com/Mininglamp-OSS/octo-cli",
     "canonicalSource": "https://github.com/Mininglamp-OSS/octo-cli",
     "repositoryId": 1235324410,
-    "attemptedAt": "2026-09-20T17:29:35.602Z",
+    "attemptedAt": "2026-09-20T17:45:35.190Z",
     "status": "ok"
   },
   "pawamoy-aria2p": {
@@ -3232,11 +3232,11 @@
     "stars": 572,
     "license": "ISC",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:36.418Z",
+    "checkedAt": "2026-09-20T17:45:35.544Z",
     "source": "https://github.com/pawamoy/aria2p",
     "canonicalSource": "https://github.com/pawamoy/aria2p",
     "repositoryId": 161701696,
-    "attemptedAt": "2026-09-20T17:29:36.154Z",
+    "attemptedAt": "2026-09-20T17:45:35.371Z",
     "status": "ok"
   },
   "vinhnx-vtcode": {
@@ -3247,11 +3247,11 @@
     "stars": 851,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:36.916Z",
+    "checkedAt": "2026-09-20T17:45:35.712Z",
     "source": "https://github.com/vinhnx/VTCode",
     "canonicalSource": "https://github.com/vinhnx/VTCode",
     "repositoryId": 1046809510,
-    "attemptedAt": "2026-09-20T17:29:36.526Z",
+    "attemptedAt": "2026-09-20T17:45:35.554Z",
     "status": "ok"
   },
   "gptme-gptme": {
@@ -3262,11 +3262,11 @@
     "stars": 4420,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:37.434Z",
+    "checkedAt": "2026-09-20T17:45:35.902Z",
     "source": "https://github.com/gptme/gptme",
     "canonicalSource": "https://github.com/gptme/gptme",
     "repositoryId": 618514446,
-    "attemptedAt": "2026-09-20T17:29:37.028Z",
+    "attemptedAt": "2026-09-20T17:45:35.721Z",
     "status": "ok"
   },
   "apify-mcpc": {
@@ -3277,11 +3277,11 @@
     "stars": 890,
     "license": "Apache-2.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:38.040Z",
+    "checkedAt": "2026-09-20T17:45:36.098Z",
     "source": "https://github.com/apify/mcpc",
     "canonicalSource": "https://github.com/apify/mcpc",
     "repositoryId": 1112733896,
-    "attemptedAt": "2026-09-20T17:29:37.606Z",
+    "attemptedAt": "2026-09-20T17:45:35.912Z",
     "status": "ok"
   },
   "papis-papis": {
@@ -3292,11 +3292,11 @@
     "stars": 1781,
     "license": "GPL-3.0",
     "language": "HTML",
-    "checkedAt": "2026-09-20T17:29:38.258Z",
+    "checkedAt": "2026-09-20T17:45:36.277Z",
     "source": "https://github.com/papis/papis",
     "canonicalSource": "https://github.com/papis/papis",
     "repositoryId": 82691622,
-    "attemptedAt": "2026-09-20T17:29:38.052Z",
+    "attemptedAt": "2026-09-20T17:45:36.106Z",
     "status": "ok"
   },
   "mufeedvh-code2prompt": {
@@ -3307,11 +3307,11 @@
     "stars": 7681,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:38.472Z",
+    "checkedAt": "2026-09-20T17:45:36.501Z",
     "source": "https://github.com/mufeedvh/code2prompt",
     "canonicalSource": "https://github.com/mufeedvh/code2prompt",
     "repositoryId": 769564277,
-    "attemptedAt": "2026-09-20T17:29:38.268Z",
+    "attemptedAt": "2026-09-20T17:45:36.287Z",
     "status": "ok"
   },
   "can4hou6joeng4-boss-agent-cli": {
@@ -3322,11 +3322,11 @@
     "stars": 2017,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:39.099Z",
+    "checkedAt": "2026-09-20T17:45:36.672Z",
     "source": "https://github.com/can4hou6joeng4/boss-agent-cli",
     "canonicalSource": "https://github.com/can4hou6joeng4/boss-agent-cli",
     "repositoryId": 1187014628,
-    "attemptedAt": "2026-09-20T17:29:38.675Z",
+    "attemptedAt": "2026-09-20T17:45:36.510Z",
     "status": "ok"
   },
   "brocode-fblog": {
@@ -3337,11 +3337,11 @@
     "stars": 568,
     "license": "WTFPL",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:39.327Z",
+    "checkedAt": "2026-09-20T17:45:36.870Z",
     "source": "https://github.com/brocode/fblog",
     "canonicalSource": "https://github.com/brocode/fblog",
     "repositoryId": 96447716,
-    "attemptedAt": "2026-09-20T17:29:39.111Z",
+    "attemptedAt": "2026-09-20T17:45:36.684Z",
     "status": "ok"
   },
   "davidanson-markdownlint-cli2": {
@@ -3352,11 +3352,11 @@
     "stars": 922,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:39.720Z",
+    "checkedAt": "2026-09-20T17:45:37.041Z",
     "source": "https://github.com/DavidAnson/markdownlint-cli2",
     "canonicalSource": "https://github.com/DavidAnson/markdownlint-cli2",
     "repositoryId": 276810550,
-    "attemptedAt": "2026-09-20T17:29:39.338Z",
+    "attemptedAt": "2026-09-20T17:45:36.877Z",
     "status": "ok"
   },
   "mozilla-web-ext": {
@@ -3367,11 +3367,11 @@
     "stars": 3138,
     "license": "MPL-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:39.980Z",
+    "checkedAt": "2026-09-20T17:45:37.231Z",
     "source": "https://github.com/mozilla/web-ext",
     "canonicalSource": "https://github.com/mozilla/web-ext",
     "repositoryId": 50859563,
-    "attemptedAt": "2026-09-20T17:29:39.732Z",
+    "attemptedAt": "2026-09-20T17:45:37.049Z",
     "status": "ok"
   },
   "jeffbski-wait-on": {
@@ -3382,11 +3382,11 @@
     "stars": 1981,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:40.323Z",
+    "checkedAt": "2026-09-20T17:45:37.405Z",
     "source": "https://github.com/jeffbski/wait-on",
     "canonicalSource": "https://github.com/jeffbski/wait-on",
     "repositoryId": 39574525,
-    "attemptedAt": "2026-09-20T17:29:40.095Z",
+    "attemptedAt": "2026-09-20T17:45:37.241Z",
     "status": "ok"
   },
   "jacob-bd-gemini-notebook-mcp-cli": {
@@ -3394,14 +3394,14 @@
     "createdAt": "2025-12-23T02:07:42Z",
     "pushedAt": "2026-09-20T15:21:44Z",
     "lastCommitAt": "2026-09-20T15:21:13Z",
-    "stars": 6114,
+    "stars": 6115,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:40.750Z",
+    "checkedAt": "2026-09-20T17:45:37.604Z",
     "source": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
     "canonicalSource": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
     "repositoryId": 1121438740,
-    "attemptedAt": "2026-09-20T17:29:40.336Z",
+    "attemptedAt": "2026-09-20T17:45:37.415Z",
     "status": "ok"
   },
   "tox-dev-pipdeptree": {
@@ -3412,11 +3412,11 @@
     "stars": 3023,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:41.194Z",
+    "checkedAt": "2026-09-20T17:45:37.795Z",
     "source": "https://github.com/tox-dev/pipdeptree",
     "canonicalSource": "https://github.com/tox-dev/pipdeptree",
     "repositoryId": 16459325,
-    "attemptedAt": "2026-09-20T17:29:40.982Z",
+    "attemptedAt": "2026-09-20T17:45:37.616Z",
     "status": "ok"
   },
   "openosint-openosint": {
@@ -3424,14 +3424,14 @@
     "createdAt": "2026-05-06T11:12:42Z",
     "pushedAt": "2026-09-18T17:21:20Z",
     "lastCommitAt": "2026-09-18T17:18:22Z",
-    "stars": 1611,
+    "stars": 1612,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:41.517Z",
+    "checkedAt": "2026-09-20T17:45:37.995Z",
     "source": "https://github.com/OpenOSINT/OpenOSINT",
     "canonicalSource": "https://github.com/OpenOSINT/OpenOSINT",
     "repositoryId": 1230831838,
-    "attemptedAt": "2026-09-20T17:29:41.304Z",
+    "attemptedAt": "2026-09-20T17:45:37.803Z",
     "status": "ok"
   },
   "rorkai-app-store-connect-cli": {
@@ -3442,11 +3442,11 @@
     "stars": 7302,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:41.743Z",
+    "checkedAt": "2026-09-20T17:45:38.204Z",
     "source": "https://github.com/rorkai/App-Store-Connect-CLI",
     "canonicalSource": "https://github.com/rorkai/App-Store-Connect-CLI",
     "repositoryId": 1138200460,
-    "attemptedAt": "2026-09-20T17:29:41.528Z",
+    "attemptedAt": "2026-09-20T17:45:38.004Z",
     "status": "ok"
   },
   "q00-ouroboros": {
@@ -3457,11 +3457,11 @@
     "stars": 6043,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:42.228Z",
+    "checkedAt": "2026-09-20T17:45:38.363Z",
     "source": "https://github.com/Q00/ouroboros",
     "canonicalSource": "https://github.com/Q00/ouroboros",
     "repositoryId": 1133901637,
-    "attemptedAt": "2026-09-20T17:29:41.753Z",
+    "attemptedAt": "2026-09-20T17:45:38.213Z",
     "status": "ok"
   },
   "mindmuxai-brain-md": {
@@ -3472,11 +3472,11 @@
     "stars": 551,
     "license": "Apache-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:42.476Z",
+    "checkedAt": "2026-09-20T17:45:38.540Z",
     "source": "https://github.com/mindmuxai/brain.md",
     "canonicalSource": "https://github.com/mindmuxai/brain.md",
     "repositoryId": 1273038999,
-    "attemptedAt": "2026-09-20T17:29:42.240Z",
+    "attemptedAt": "2026-09-20T17:45:38.373Z",
     "status": "ok"
   },
   "astronomer-astro-cli": {
@@ -3487,11 +3487,11 @@
     "stars": 461,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:42.964Z",
+    "checkedAt": "2026-09-20T17:45:38.766Z",
     "source": "https://github.com/astronomer/astro-cli",
     "canonicalSource": "https://github.com/astronomer/astro-cli",
     "repositoryId": 120663559,
-    "attemptedAt": "2026-09-20T17:29:42.487Z",
+    "attemptedAt": "2026-09-20T17:45:38.549Z",
     "status": "ok"
   },
   "wez-atomicparsley": {
@@ -3502,11 +3502,11 @@
     "stars": 765,
     "license": "GPL-2.0",
     "language": "C++",
-    "checkedAt": "2026-09-20T17:29:43.329Z",
+    "checkedAt": "2026-09-20T17:45:38.940Z",
     "source": "https://github.com/wez/atomicparsley",
     "canonicalSource": "https://github.com/wez/atomicparsley",
     "repositoryId": 1473035,
-    "attemptedAt": "2026-09-20T17:29:43.115Z",
+    "attemptedAt": "2026-09-20T17:45:38.783Z",
     "status": "ok"
   },
   "letsfg-letsfg": {
@@ -3517,11 +3517,11 @@
     "stars": 2046,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:43.883Z",
+    "checkedAt": "2026-09-20T17:45:39.173Z",
     "source": "https://github.com/LetsFG/LetsFG",
     "canonicalSource": "https://github.com/LetsFG/LetsFG",
     "repositoryId": 1169880696,
-    "attemptedAt": "2026-09-20T17:29:43.461Z",
+    "attemptedAt": "2026-09-20T17:45:38.951Z",
     "status": "ok"
   },
   "auriti-labs-geo-optimizer-skill": {
@@ -3532,11 +3532,11 @@
     "stars": 852,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:44.440Z",
+    "checkedAt": "2026-09-20T17:45:39.416Z",
     "source": "https://github.com/Auriti-Labs/geo-optimizer-skill",
     "canonicalSource": "https://github.com/Auriti-Labs/geo-optimizer-skill",
     "repositoryId": 1160558554,
-    "attemptedAt": "2026-09-20T17:29:44.032Z",
+    "attemptedAt": "2026-09-20T17:45:39.185Z",
     "status": "ok"
   },
   "epistates-treemd": {
@@ -3547,11 +3547,11 @@
     "stars": 693,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:44.876Z",
+    "checkedAt": "2026-09-20T17:45:39.633Z",
     "source": "https://github.com/Epistates/treemd",
     "canonicalSource": "https://github.com/Epistates/treemd",
     "repositoryId": 1092132533,
-    "attemptedAt": "2026-09-20T17:29:44.636Z",
+    "attemptedAt": "2026-09-20T17:45:39.424Z",
     "status": "ok"
   },
   "git-bahn-git-graph": {
@@ -3562,11 +3562,11 @@
     "stars": 980,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:45.122Z",
+    "checkedAt": "2026-09-20T17:45:39.817Z",
     "source": "https://github.com/git-bahn/git-graph",
     "canonicalSource": "https://github.com/git-bahn/git-graph",
     "repositoryId": 319462847,
-    "attemptedAt": "2026-09-20T17:29:44.887Z",
+    "attemptedAt": "2026-09-20T17:45:39.651Z",
     "status": "ok"
   },
   "kislyuk-yq": {
@@ -3577,11 +3577,11 @@
     "stars": 2981,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:45.630Z",
+    "checkedAt": "2026-09-20T17:45:40.022Z",
     "source": "https://github.com/kislyuk/yq",
     "canonicalSource": "https://github.com/kislyuk/yq",
     "repositoryId": 78888191,
-    "attemptedAt": "2026-09-20T17:29:45.234Z",
+    "attemptedAt": "2026-09-20T17:45:39.826Z",
     "status": "ok"
   },
   "rahiel-telegram-send": {
@@ -3592,11 +3592,11 @@
     "stars": 1014,
     "license": "GPL-3.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:45.973Z",
+    "checkedAt": "2026-09-20T17:45:40.210Z",
     "source": "https://github.com/rahiel/telegram-send",
     "canonicalSource": "https://github.com/rahiel/telegram-send",
     "repositoryId": 56966781,
-    "attemptedAt": "2026-09-20T17:29:45.775Z",
+    "attemptedAt": "2026-09-20T17:45:40.033Z",
     "status": "ok"
   },
   "cookpete-auto-changelog": {
@@ -3607,11 +3607,11 @@
     "stars": 1399,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:46.254Z",
+    "checkedAt": "2026-09-20T17:45:40.378Z",
     "source": "https://github.com/cookpete/auto-changelog",
     "canonicalSource": "https://github.com/cookpete/auto-changelog",
     "repositoryId": 48847600,
-    "attemptedAt": "2026-09-20T17:29:46.046Z",
+    "attemptedAt": "2026-09-20T17:45:40.224Z",
     "status": "ok"
   },
   "mkb79-audible-cli": {
@@ -3622,11 +3622,11 @@
     "stars": 798,
     "license": "AGPL-3.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:46.631Z",
+    "checkedAt": "2026-09-20T17:45:40.549Z",
     "source": "https://github.com/mkb79/audible-cli",
     "canonicalSource": "https://github.com/mkb79/audible-cli",
     "repositoryId": 292281009,
-    "attemptedAt": "2026-09-20T17:29:46.398Z",
+    "attemptedAt": "2026-09-20T17:45:40.386Z",
     "status": "ok"
   },
   "acheronfail-repgrep": {
@@ -3637,11 +3637,11 @@
     "stars": 535,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:46.855Z",
+    "checkedAt": "2026-09-20T17:45:40.708Z",
     "source": "https://github.com/acheronfail/repgrep",
     "canonicalSource": "https://github.com/acheronfail/repgrep",
     "repositoryId": 273803673,
-    "attemptedAt": "2026-09-20T17:29:46.643Z",
+    "attemptedAt": "2026-09-20T17:45:40.557Z",
     "status": "ok"
   },
   "geekjourneyx-md2wechat-skill": {
@@ -3652,11 +3652,11 @@
     "stars": 3660,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:47.174Z",
+    "checkedAt": "2026-09-20T17:45:40.895Z",
     "source": "https://github.com/geekjourneyx/md2wechat-skill",
     "canonicalSource": "https://github.com/geekjourneyx/md2wechat-skill",
     "repositoryId": 1132020002,
-    "attemptedAt": "2026-09-20T17:29:46.964Z",
+    "attemptedAt": "2026-09-20T17:45:40.718Z",
     "status": "ok"
   },
   "aws-aws-sam-cli": {
@@ -3667,11 +3667,11 @@
     "stars": 6733,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:47.400Z",
+    "checkedAt": "2026-09-20T17:45:41.114Z",
     "source": "https://github.com/aws/aws-sam-cli",
     "canonicalSource": "https://github.com/aws/aws-sam-cli",
     "repositoryId": 92205085,
-    "attemptedAt": "2026-09-20T17:29:47.185Z",
+    "attemptedAt": "2026-09-20T17:45:40.909Z",
     "status": "ok"
   },
   "iwe-org-iwe": {
@@ -3682,11 +3682,11 @@
     "stars": 1654,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:47.852Z",
+    "checkedAt": "2026-09-20T17:45:41.302Z",
     "source": "https://github.com/iwe-org/iwe",
     "canonicalSource": "https://github.com/iwe-org/iwe",
     "repositoryId": 860188605,
-    "attemptedAt": "2026-09-20T17:29:47.413Z",
+    "attemptedAt": "2026-09-20T17:45:41.124Z",
     "status": "ok"
   },
   "http-party-http-server": {
@@ -3697,11 +3697,11 @@
     "stars": 14237,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:48.259Z",
+    "checkedAt": "2026-09-20T17:45:41.488Z",
     "source": "https://github.com/http-party/http-server",
     "canonicalSource": "https://github.com/http-party/http-server",
     "repositoryId": 1908577,
-    "attemptedAt": "2026-09-20T17:29:48.040Z",
+    "attemptedAt": "2026-09-20T17:45:41.311Z",
     "status": "ok"
   },
   "nikolassv-bartib": {
@@ -3712,11 +3712,11 @@
     "stars": 848,
     "license": "GPL-3.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:48.587Z",
+    "checkedAt": "2026-09-20T17:45:41.666Z",
     "source": "https://github.com/nikolassv/bartib",
     "canonicalSource": "https://github.com/nikolassv/bartib",
     "repositoryId": 336082137,
-    "attemptedAt": "2026-09-20T17:29:48.386Z",
+    "attemptedAt": "2026-09-20T17:45:41.496Z",
     "status": "ok"
   },
   "cabal-club-cabal-cli": {
@@ -3727,11 +3727,11 @@
     "stars": 525,
     "license": null,
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:48.997Z",
+    "checkedAt": "2026-09-20T17:45:41.881Z",
     "source": "https://github.com/cabal-club/cabal-cli",
     "canonicalSource": "https://github.com/cabal-club/cabal-cli",
     "repositoryId": 134075618,
-    "attemptedAt": "2026-09-20T17:29:48.761Z",
+    "attemptedAt": "2026-09-20T17:45:41.674Z",
     "status": "ok"
   },
   "vividvilla-csvtotable": {
@@ -3742,11 +3742,11 @@
     "stars": 1183,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:49.208Z",
+    "checkedAt": "2026-09-20T17:45:42.046Z",
     "source": "https://github.com/vividvilla/csvtotable",
     "canonicalSource": "https://github.com/vividvilla/csvtotable",
     "repositoryId": 96341852,
-    "attemptedAt": "2026-09-20T17:29:49.007Z",
+    "attemptedAt": "2026-09-20T17:45:41.892Z",
     "status": "ok"
   },
   "casey-intermodal": {
@@ -3757,11 +3757,11 @@
     "stars": 660,
     "license": "CC0-1.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:49.469Z",
+    "checkedAt": "2026-09-20T17:45:42.230Z",
     "source": "https://github.com/casey/intermodal",
     "canonicalSource": "https://github.com/casey/intermodal",
     "repositoryId": 187931998,
-    "attemptedAt": "2026-09-20T17:29:49.223Z",
+    "attemptedAt": "2026-09-20T17:45:42.056Z",
     "status": "ok"
   },
   "motdotla-node-lambda": {
@@ -3772,11 +3772,11 @@
     "stars": 1352,
     "license": "BSD-2-Clause",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:49.703Z",
+    "checkedAt": "2026-09-20T17:45:42.410Z",
     "source": "https://github.com/motdotla/node-lambda",
     "canonicalSource": "https://github.com/motdotla/node-lambda",
     "repositoryId": 27050722,
-    "attemptedAt": "2026-09-20T17:29:49.480Z",
+    "attemptedAt": "2026-09-20T17:45:42.238Z",
     "status": "ok"
   },
   "alan-turing-institute-clevercsv": {
@@ -3787,11 +3787,11 @@
     "stars": 1336,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:50.032Z",
+    "checkedAt": "2026-09-20T17:45:42.607Z",
     "source": "https://github.com/alan-turing-institute/CleverCSV",
     "canonicalSource": "https://github.com/alan-turing-institute/CleverCSV",
     "repositoryId": 168330293,
-    "attemptedAt": "2026-09-20T17:29:49.817Z",
+    "attemptedAt": "2026-09-20T17:45:42.420Z",
     "status": "ok"
   },
   "rehmatworks-gplaydl": {
@@ -3802,11 +3802,11 @@
     "stars": 650,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:50.258Z",
+    "checkedAt": "2026-09-20T17:45:42.782Z",
     "source": "https://github.com/rehmatworks/gplaydl",
     "canonicalSource": "https://github.com/rehmatworks/gplaydl",
     "repositoryId": 138140103,
-    "attemptedAt": "2026-09-20T17:29:50.043Z",
+    "attemptedAt": "2026-09-20T17:45:42.616Z",
     "status": "ok"
   },
   "nicobailon-surf-cli": {
@@ -3817,11 +3817,11 @@
     "stars": 620,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:50.811Z",
+    "checkedAt": "2026-09-20T17:45:42.977Z",
     "source": "https://github.com/nicobailon/surf-cli",
     "canonicalSource": "https://github.com/nicobailon/surf-cli",
     "repositoryId": 1124070604,
-    "attemptedAt": "2026-09-20T17:29:50.406Z",
+    "attemptedAt": "2026-09-20T17:45:42.799Z",
     "status": "ok"
   },
   "mklement0-fileicon": {
@@ -3832,11 +3832,11 @@
     "stars": 537,
     "license": null,
     "language": "Shell",
-    "checkedAt": "2026-09-20T17:29:51.086Z",
+    "checkedAt": "2026-09-20T17:45:43.154Z",
     "source": "https://github.com/mklement0/fileicon",
     "canonicalSource": "https://github.com/mklement0/fileicon",
     "repositoryId": 40146005,
-    "attemptedAt": "2026-09-20T17:29:50.823Z",
+    "attemptedAt": "2026-09-20T17:45:42.985Z",
     "status": "ok"
   },
   "ruyadorno-ntl": {
@@ -3847,11 +3847,11 @@
     "stars": 963,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:51.319Z",
+    "checkedAt": "2026-09-20T17:45:43.327Z",
     "source": "https://github.com/ruyadorno/ntl",
     "canonicalSource": "https://github.com/ruyadorno/ntl",
     "repositoryId": 51282204,
-    "attemptedAt": "2026-09-20T17:29:51.099Z",
+    "attemptedAt": "2026-09-20T17:45:43.163Z",
     "status": "ok"
   },
   "dat-ecosystem-dat": {
@@ -3862,11 +3862,11 @@
     "stars": 8224,
     "license": "BSD-3-Clause",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:51.687Z",
+    "checkedAt": "2026-09-20T17:45:43.575Z",
     "source": "https://github.com/dat-ecosystem/dat",
     "canonicalSource": "https://github.com/dat-ecosystem/dat",
     "repositoryId": 10985948,
-    "attemptedAt": "2026-09-20T17:29:51.449Z",
+    "attemptedAt": "2026-09-20T17:45:43.338Z",
     "status": "ok"
   },
   "backblaze-b2-command-line-tool": {
@@ -3877,11 +3877,11 @@
     "stars": 631,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:51.927Z",
+    "checkedAt": "2026-09-20T17:45:43.787Z",
     "source": "https://github.com/Backblaze/B2_Command_Line_Tool",
     "canonicalSource": "https://github.com/Backblaze/B2_Command_Line_Tool",
     "repositoryId": 46293472,
-    "attemptedAt": "2026-09-20T17:29:51.699Z",
+    "attemptedAt": "2026-09-20T17:45:43.583Z",
     "status": "ok"
   },
   "raphaelmansuy-code2prompt": {
@@ -3892,11 +3892,11 @@
     "stars": 885,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:52.129Z",
+    "checkedAt": "2026-09-20T17:45:43.965Z",
     "source": "https://github.com/raphaelmansuy/code2prompt",
     "canonicalSource": "https://github.com/raphaelmansuy/code2prompt",
     "repositoryId": 774161409,
-    "attemptedAt": "2026-09-20T17:29:51.940Z",
+    "attemptedAt": "2026-09-20T17:45:43.794Z",
     "status": "ok"
   },
   "parvardegr-sharing": {
@@ -3907,11 +3907,11 @@
     "stars": 1839,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:52.419Z",
+    "checkedAt": "2026-09-20T17:45:44.144Z",
     "source": "https://github.com/parvardegr/sharing",
     "canonicalSource": "https://github.com/parvardegr/sharing",
     "repositoryId": 546006134,
-    "attemptedAt": "2026-09-20T17:29:52.141Z",
+    "attemptedAt": "2026-09-20T17:45:43.974Z",
     "status": "ok"
   },
   "etetoolkit-ete": {
@@ -3922,11 +3922,11 @@
     "stars": 885,
     "license": "GPL-3.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:52.801Z",
+    "checkedAt": "2026-09-20T17:45:44.339Z",
     "source": "https://github.com/etetoolkit/ete",
     "canonicalSource": "https://github.com/etetoolkit/ete",
     "repositoryId": 1077612,
-    "attemptedAt": "2026-09-20T17:29:52.549Z",
+    "attemptedAt": "2026-09-20T17:45:44.153Z",
     "status": "ok"
   },
   "automattic-browser-repl": {
@@ -3937,11 +3937,11 @@
     "stars": 730,
     "license": null,
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:53.127Z",
+    "checkedAt": "2026-09-20T17:45:44.523Z",
     "source": "https://github.com/Automattic/browser-repl",
     "canonicalSource": "https://github.com/Automattic/browser-repl",
     "repositoryId": 16822189,
-    "attemptedAt": "2026-09-20T17:29:52.908Z",
+    "attemptedAt": "2026-09-20T17:45:44.347Z",
     "status": "ok"
   },
   "efforg-apkeep": {
@@ -3952,11 +3952,11 @@
     "stars": 2073,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:53.375Z",
+    "checkedAt": "2026-09-20T17:45:44.705Z",
     "source": "https://github.com/EFForg/apkeep",
     "canonicalSource": "https://github.com/EFForg/apkeep",
     "repositoryId": 361972841,
-    "attemptedAt": "2026-09-20T17:29:53.137Z",
+    "attemptedAt": "2026-09-20T17:45:44.530Z",
     "status": "ok"
   },
   "lavie-runlike": {
@@ -3967,11 +3967,11 @@
     "stars": 2945,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:53.728Z",
+    "checkedAt": "2026-09-20T17:45:44.927Z",
     "source": "https://github.com/lavie/runlike",
     "canonicalSource": "https://github.com/lavie/runlike",
     "repositoryId": 36849312,
-    "attemptedAt": "2026-09-20T17:29:53.527Z",
+    "attemptedAt": "2026-09-20T17:45:44.713Z",
     "status": "ok"
   },
   "seemseam-claude-codex-bridge": {
@@ -3982,11 +3982,11 @@
     "stars": 3513,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:53.944Z",
+    "checkedAt": "2026-09-20T17:45:45.126Z",
     "source": "https://github.com/SeemSeam/claude_codex_bridge",
     "canonicalSource": "https://github.com/SeemSeam/claude_codex_bridge",
     "repositoryId": 1083162948,
-    "attemptedAt": "2026-09-20T17:29:53.739Z",
+    "attemptedAt": "2026-09-20T17:45:44.936Z",
     "status": "ok"
   },
   "ismaelgv-rnr": {
@@ -3997,11 +3997,11 @@
     "stars": 596,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:54.241Z",
+    "checkedAt": "2026-09-20T17:45:45.297Z",
     "source": "https://github.com/ismaelgv/rnr",
     "canonicalSource": "https://github.com/ismaelgv/rnr",
     "repositoryId": 140597469,
-    "attemptedAt": "2026-09-20T17:29:54.024Z",
+    "attemptedAt": "2026-09-20T17:45:45.135Z",
     "status": "ok"
   },
   "run-llama-semtools": {
@@ -4012,11 +4012,11 @@
     "stars": 1867,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:54.629Z",
+    "checkedAt": "2026-09-20T17:45:45.506Z",
     "source": "https://github.com/run-llama/semtools",
     "canonicalSource": "https://github.com/run-llama/semtools",
     "repositoryId": 1043448231,
-    "attemptedAt": "2026-09-20T17:29:54.318Z",
+    "attemptedAt": "2026-09-20T17:45:45.325Z",
     "status": "ok"
   },
   "fraserxu-electron-pdf": {
@@ -4027,11 +4027,11 @@
     "stars": 1292,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:54.860Z",
+    "checkedAt": "2026-09-20T17:45:45.678Z",
     "source": "https://github.com/fraserxu/electron-pdf",
     "canonicalSource": "https://github.com/fraserxu/electron-pdf",
     "repositoryId": 41043749,
-    "attemptedAt": "2026-09-20T17:29:54.640Z",
+    "attemptedAt": "2026-09-20T17:45:45.517Z",
     "status": "ok"
   },
   "chen-zexi-vllm-cli": {
@@ -4042,11 +4042,11 @@
     "stars": 505,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:55.169Z",
+    "checkedAt": "2026-09-20T17:45:45.894Z",
     "source": "https://github.com/Chen-zexi/vllm-cli",
     "canonicalSource": "https://github.com/Chen-zexi/vllm-cli",
     "repositoryId": 1038267026,
-    "attemptedAt": "2026-09-20T17:29:54.935Z",
+    "attemptedAt": "2026-09-20T17:45:45.701Z",
     "status": "ok"
   },
   "bhouston-mycoder": {
@@ -4057,11 +4057,11 @@
     "stars": 569,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:55.378Z",
+    "checkedAt": "2026-09-20T17:45:46.092Z",
     "source": "https://github.com/bhouston/mycoder",
     "canonicalSource": "https://github.com/bhouston/mycoder",
     "repositoryId": 929118172,
-    "attemptedAt": "2026-09-20T17:29:55.182Z",
+    "attemptedAt": "2026-09-20T17:45:45.904Z",
     "status": "ok"
   },
   "timvisee-ffsend": {
@@ -4072,11 +4072,11 @@
     "stars": 7414,
     "license": "GPL-3.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:55.644Z",
+    "checkedAt": "2026-09-20T17:45:46.258Z",
     "source": "https://github.com/timvisee/ffsend",
     "canonicalSource": "https://github.com/timvisee/ffsend",
     "repositoryId": 123954139,
-    "attemptedAt": "2026-09-20T17:29:55.390Z",
+    "attemptedAt": "2026-09-20T17:45:46.100Z",
     "status": "ok"
   },
   "chenhg5-cc-connect": {
@@ -4087,11 +4087,11 @@
     "stars": 15581,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:29:56.117Z",
+    "checkedAt": "2026-09-20T17:45:47.436Z",
     "source": "https://github.com/chenhg5/cc-connect",
     "canonicalSource": "https://github.com/chenhg5/cc-connect",
     "repositoryId": 1168978399,
-    "attemptedAt": "2026-09-20T17:29:55.718Z",
+    "attemptedAt": "2026-09-20T17:45:46.289Z",
     "status": "ok"
   },
   "pchalasani-claude-code-tools": {
@@ -4102,11 +4102,11 @@
     "stars": 2006,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:56.497Z",
+    "checkedAt": "2026-09-20T17:45:47.608Z",
     "source": "https://github.com/pchalasani/claude-code-tools",
     "canonicalSource": "https://github.com/pchalasani/claude-code-tools",
     "repositoryId": 1029289585,
-    "attemptedAt": "2026-09-20T17:29:56.302Z",
+    "attemptedAt": "2026-09-20T17:45:47.447Z",
     "status": "ok"
   },
   "bgreenwell-xleak": {
@@ -4117,11 +4117,11 @@
     "stars": 1487,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:56.827Z",
+    "checkedAt": "2026-09-20T17:45:47.811Z",
     "source": "https://github.com/bgreenwell/xleak",
     "canonicalSource": "https://github.com/bgreenwell/xleak",
     "repositoryId": 1091015339,
-    "attemptedAt": "2026-09-20T17:29:56.619Z",
+    "attemptedAt": "2026-09-20T17:45:47.630Z",
     "status": "ok"
   },
   "afar1-fieldtheory-cli": {
@@ -4132,11 +4132,11 @@
     "stars": 2024,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:57.161Z",
+    "checkedAt": "2026-09-20T17:45:48.010Z",
     "source": "https://github.com/afar1/fieldtheory-cli",
     "canonicalSource": "https://github.com/afar1/fieldtheory-cli",
     "repositoryId": 1200631301,
-    "attemptedAt": "2026-09-20T17:29:56.957Z",
+    "attemptedAt": "2026-09-20T17:45:47.821Z",
     "status": "ok"
   },
   "rbardini-resumed": {
@@ -4147,11 +4147,11 @@
     "stars": 550,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:57.361Z",
+    "checkedAt": "2026-09-20T17:45:48.201Z",
     "source": "https://github.com/rbardini/resumed",
     "canonicalSource": "https://github.com/rbardini/resumed",
     "repositoryId": 342387763,
-    "attemptedAt": "2026-09-20T17:29:57.172Z",
+    "attemptedAt": "2026-09-20T17:45:48.022Z",
     "status": "ok"
   },
   "danburzo-percollate": {
@@ -4162,11 +4162,11 @@
     "stars": 4678,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:57.732Z",
+    "checkedAt": "2026-09-20T17:45:48.410Z",
     "source": "https://github.com/danburzo/percollate",
     "canonicalSource": "https://github.com/danburzo/percollate",
     "repositoryId": 150767713,
-    "attemptedAt": "2026-09-20T17:29:57.521Z",
+    "attemptedAt": "2026-09-20T17:45:48.212Z",
     "status": "ok"
   },
   "pathintegral-institute-mcpm-sh": {
@@ -4177,11 +4177,11 @@
     "stars": 1006,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:57.982Z",
+    "checkedAt": "2026-09-20T17:45:48.673Z",
     "source": "https://github.com/pathintegral-institute/mcpm.sh",
     "canonicalSource": "https://github.com/pathintegral-institute/mcpm.sh",
     "repositoryId": 952463457,
-    "attemptedAt": "2026-09-20T17:29:57.743Z",
+    "attemptedAt": "2026-09-20T17:45:48.418Z",
     "status": "ok"
   },
   "vstorm-co-pydantic-deepagents": {
@@ -4192,11 +4192,11 @@
     "stars": 1068,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:29:58.223Z",
+    "checkedAt": "2026-09-20T17:45:48.870Z",
     "source": "https://github.com/vstorm-co/pydantic-deepagents",
     "canonicalSource": "https://github.com/vstorm-co/pydantic-deepagents",
     "repositoryId": 1106580780,
-    "attemptedAt": "2026-09-20T17:29:57.993Z",
+    "attemptedAt": "2026-09-20T17:45:48.681Z",
     "status": "ok"
   },
   "zhengqbbb-cz-git": {
@@ -4207,11 +4207,11 @@
     "stars": 1530,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:58.432Z",
+    "checkedAt": "2026-09-20T17:45:49.050Z",
     "source": "https://github.com/Zhengqbbb/cz-git",
     "canonicalSource": "https://github.com/Zhengqbbb/cz-git",
     "repositoryId": 459468857,
-    "attemptedAt": "2026-09-20T17:29:58.235Z",
+    "attemptedAt": "2026-09-20T17:45:48.880Z",
     "status": "ok"
   },
   "trentm-json": {
@@ -4222,11 +4222,11 @@
     "stars": 1561,
     "license": null,
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:29:58.659Z",
+    "checkedAt": "2026-09-20T17:45:49.227Z",
     "source": "https://github.com/trentm/json",
     "canonicalSource": "https://github.com/trentm/json",
     "repositoryId": 1353110,
-    "attemptedAt": "2026-09-20T17:29:58.443Z",
+    "attemptedAt": "2026-09-20T17:45:49.068Z",
     "status": "ok"
   },
   "abhixdd-ghgrab": {
@@ -4237,11 +4237,11 @@
     "stars": 1488,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:59.001Z",
+    "checkedAt": "2026-09-20T17:45:49.414Z",
     "source": "https://github.com/abhixdd/ghgrab",
     "canonicalSource": "https://github.com/abhixdd/ghgrab",
     "repositoryId": 1116144677,
-    "attemptedAt": "2026-09-20T17:29:58.775Z",
+    "attemptedAt": "2026-09-20T17:45:49.244Z",
     "status": "ok"
   },
   "bgreenwell-doxx": {
@@ -4252,11 +4252,11 @@
     "stars": 3759,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:29:59.474Z",
+    "checkedAt": "2026-09-20T17:45:49.645Z",
     "source": "https://github.com/bgreenwell/doxx",
     "canonicalSource": "https://github.com/bgreenwell/doxx",
     "repositoryId": 1039227029,
-    "attemptedAt": "2026-09-20T17:29:59.236Z",
+    "attemptedAt": "2026-09-20T17:45:49.431Z",
     "status": "ok"
   },
   "jakepartusch-serverlessui": {
@@ -4267,11 +4267,11 @@
     "stars": 551,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:29:59.690Z",
+    "checkedAt": "2026-09-20T17:45:49.815Z",
     "source": "https://github.com/JakePartusch/serverlessui",
     "canonicalSource": "https://github.com/JakePartusch/serverlessui",
     "repositoryId": 332943848,
-    "attemptedAt": "2026-09-20T17:29:59.485Z",
+    "attemptedAt": "2026-09-20T17:45:49.658Z",
     "status": "ok"
   },
   "jeremyfa-yaml-js": {
@@ -4282,11 +4282,11 @@
     "stars": 884,
     "license": "MIT",
     "language": "CoffeeScript",
-    "checkedAt": "2026-09-20T17:30:00.175Z",
+    "checkedAt": "2026-09-20T17:45:50.062Z",
     "source": "https://github.com/jeremyfa/yaml.js",
     "canonicalSource": "https://github.com/jeremyfa/yaml.js",
     "repositoryId": 1023638,
-    "attemptedAt": "2026-09-20T17:29:59.974Z",
+    "attemptedAt": "2026-09-20T17:45:49.826Z",
     "status": "ok"
   },
   "kerma-defaultbrowser": {
@@ -4297,26 +4297,26 @@
     "stars": 364,
     "license": "MIT",
     "language": "Objective-C",
-    "checkedAt": "2026-09-20T17:30:00.656Z",
+    "checkedAt": "2026-09-20T17:45:50.295Z",
     "source": "https://github.com/kerma/defaultbrowser",
     "canonicalSource": "https://github.com/kerma/defaultbrowser",
     "repositoryId": 21398512,
-    "attemptedAt": "2026-09-20T17:30:00.433Z",
+    "attemptedAt": "2026-09-20T17:45:50.077Z",
     "status": "ok"
   },
   "vshulcz-deja-vu": {
     "defaultBranch": "main",
     "createdAt": "2026-07-14T07:45:44Z",
-    "pushedAt": "2026-09-20T17:06:25Z",
+    "pushedAt": "2026-09-20T17:32:14Z",
     "lastCommitAt": "2026-09-20T16:21:56Z",
     "stars": 891,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:01.081Z",
+    "checkedAt": "2026-09-20T17:45:50.638Z",
     "source": "https://github.com/vshulcz/deja-vu",
     "canonicalSource": "https://github.com/vshulcz/deja-vu",
     "repositoryId": 1300173275,
-    "attemptedAt": "2026-09-20T17:30:00.668Z",
+    "attemptedAt": "2026-09-20T17:45:50.303Z",
     "status": "ok"
   },
   "jnsahaj-lumen": {
@@ -4327,11 +4327,11 @@
     "stars": 2871,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:01.313Z",
+    "checkedAt": "2026-09-20T17:45:50.814Z",
     "source": "https://github.com/jnsahaj/lumen",
     "canonicalSource": "https://github.com/jnsahaj/lumen",
     "repositoryId": 879874959,
-    "attemptedAt": "2026-09-20T17:30:01.091Z",
+    "attemptedAt": "2026-09-20T17:45:50.645Z",
     "status": "ok"
   },
   "paulilaaso-lue": {
@@ -4342,11 +4342,11 @@
     "stars": 813,
     "license": "GPL-3.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:01.554Z",
+    "checkedAt": "2026-09-20T17:45:51.027Z",
     "source": "https://github.com/paulilaaso/lue",
     "canonicalSource": "https://github.com/paulilaaso/lue",
     "repositoryId": 1039114099,
-    "attemptedAt": "2026-09-20T17:30:01.324Z",
+    "attemptedAt": "2026-09-20T17:45:50.829Z",
     "status": "ok"
   },
   "amir20-dtop": {
@@ -4357,11 +4357,11 @@
     "stars": 1423,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:01.780Z",
+    "checkedAt": "2026-09-20T17:45:51.187Z",
     "source": "https://github.com/amir20/dtop",
     "canonicalSource": "https://github.com/amir20/dtop",
     "repositoryId": 1005815924,
-    "attemptedAt": "2026-09-20T17:30:01.565Z",
+    "attemptedAt": "2026-09-20T17:45:51.036Z",
     "status": "ok"
   },
   "massgen-massgen": {
@@ -4372,11 +4372,11 @@
     "stars": 1131,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:02.360Z",
+    "checkedAt": "2026-09-20T17:45:51.391Z",
     "source": "https://github.com/massgen/MassGen",
     "canonicalSource": "https://github.com/massgen/MassGen",
     "repositoryId": 1021913531,
-    "attemptedAt": "2026-09-20T17:30:02.058Z",
+    "attemptedAt": "2026-09-20T17:45:51.196Z",
     "status": "ok"
   },
   "elio-fm-elio": {
@@ -4387,11 +4387,11 @@
     "stars": 866,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:02.829Z",
+    "checkedAt": "2026-09-20T17:45:51.594Z",
     "source": "https://github.com/elio-fm/elio",
     "canonicalSource": "https://github.com/elio-fm/elio",
     "repositoryId": 1177113373,
-    "attemptedAt": "2026-09-20T17:30:02.559Z",
+    "attemptedAt": "2026-09-20T17:45:51.400Z",
     "status": "ok"
   },
   "sheeki03-tirith": {
@@ -4402,11 +4402,11 @@
     "stars": 2731,
     "license": "AGPL-3.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:03.578Z",
+    "checkedAt": "2026-09-20T17:45:51.783Z",
     "source": "https://github.com/sheeki03/tirith",
     "canonicalSource": "https://github.com/sheeki03/tirith",
     "repositoryId": 1147679251,
-    "attemptedAt": "2026-09-20T17:30:03.108Z",
+    "attemptedAt": "2026-09-20T17:45:51.602Z",
     "status": "ok"
   },
   "fujibee-agmsg": {
@@ -4417,11 +4417,11 @@
     "stars": 1509,
     "license": "MIT",
     "language": "Shell",
-    "checkedAt": "2026-09-20T17:30:04.324Z",
+    "checkedAt": "2026-09-20T17:45:52.012Z",
     "source": "https://github.com/fujibee/agmsg",
     "canonicalSource": "https://github.com/fujibee/agmsg",
     "repositoryId": 1199905418,
-    "attemptedAt": "2026-09-20T17:30:03.846Z",
+    "attemptedAt": "2026-09-20T17:45:51.794Z",
     "status": "ok"
   },
   "taverntesting-tavern": {
@@ -4432,11 +4432,11 @@
     "stars": 1161,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:04.919Z",
+    "checkedAt": "2026-09-20T17:45:52.270Z",
     "source": "https://github.com/taverntesting/tavern",
     "canonicalSource": "https://github.com/taverntesting/tavern",
     "repositoryId": 109144395,
-    "attemptedAt": "2026-09-20T17:30:04.666Z",
+    "attemptedAt": "2026-09-20T17:45:52.026Z",
     "status": "ok"
   },
   "ezyang-ghstack": {
@@ -4447,11 +4447,11 @@
     "stars": 1016,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:05.158Z",
+    "checkedAt": "2026-09-20T17:45:52.447Z",
     "source": "https://github.com/ezyang/ghstack",
     "canonicalSource": "https://github.com/ezyang/ghstack",
     "repositoryId": 153046276,
-    "attemptedAt": "2026-09-20T17:30:04.930Z",
+    "attemptedAt": "2026-09-20T17:45:52.280Z",
     "status": "ok"
   },
   "cranot-roam-code": {
@@ -4462,11 +4462,11 @@
     "stars": 518,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:05.778Z",
+    "checkedAt": "2026-09-20T17:45:52.631Z",
     "source": "https://github.com/Cranot/roam-code",
     "canonicalSource": "https://github.com/Cranot/roam-code",
     "repositoryId": 1153451691,
-    "attemptedAt": "2026-09-20T17:30:05.361Z",
+    "attemptedAt": "2026-09-20T17:45:52.462Z",
     "status": "ok"
   },
   "ozeranskii-httptap": {
@@ -4477,11 +4477,11 @@
     "stars": 817,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:06.017Z",
+    "checkedAt": "2026-09-20T17:45:52.812Z",
     "source": "https://github.com/ozeranskii/httptap",
     "canonicalSource": "https://github.com/ozeranskii/httptap",
     "repositoryId": 1081505697,
-    "attemptedAt": "2026-09-20T17:30:05.790Z",
+    "attemptedAt": "2026-09-20T17:45:52.642Z",
     "status": "ok"
   },
   "grafana-gcx": {
@@ -4492,11 +4492,11 @@
     "stars": 710,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:06.502Z",
+    "checkedAt": "2026-09-20T17:45:53.050Z",
     "source": "https://github.com/grafana/gcx",
     "canonicalSource": "https://github.com/grafana/gcx",
     "repositoryId": 1189576423,
-    "attemptedAt": "2026-09-20T17:30:06.271Z",
+    "attemptedAt": "2026-09-20T17:45:52.822Z",
     "status": "ok"
   },
   "skardyy-mcat": {
@@ -4507,11 +4507,11 @@
     "stars": 1417,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:06.718Z",
+    "checkedAt": "2026-09-20T17:45:53.246Z",
     "source": "https://github.com/Skardyy/mcat",
     "canonicalSource": "https://github.com/Skardyy/mcat",
     "repositoryId": 966114168,
-    "attemptedAt": "2026-09-20T17:30:06.513Z",
+    "attemptedAt": "2026-09-20T17:45:53.060Z",
     "status": "ok"
   },
   "unhappychoice-gitlogue": {
@@ -4522,11 +4522,11 @@
     "stars": 4991,
     "license": "ISC",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:07.152Z",
+    "checkedAt": "2026-09-20T17:45:53.420Z",
     "source": "https://github.com/unhappychoice/gitlogue",
     "canonicalSource": "https://github.com/unhappychoice/gitlogue",
     "repositoryId": 1092562478,
-    "attemptedAt": "2026-09-20T17:30:06.938Z",
+    "attemptedAt": "2026-09-20T17:45:53.262Z",
     "status": "ok"
   },
   "ivanmurzak-unity-mcp": {
@@ -4537,11 +4537,11 @@
     "stars": 4305,
     "license": "Apache-2.0",
     "language": "C#",
-    "checkedAt": "2026-09-20T17:30:07.584Z",
+    "checkedAt": "2026-09-20T17:45:53.635Z",
     "source": "https://github.com/IvanMurzak/Unity-MCP",
     "canonicalSource": "https://github.com/IvanMurzak/Unity-MCP",
     "repositoryId": 959123498,
-    "attemptedAt": "2026-09-20T17:30:07.337Z",
+    "attemptedAt": "2026-09-20T17:45:53.428Z",
     "status": "ok"
   },
   "gitguardian-ggshield": {
@@ -4552,11 +4552,11 @@
     "stars": 1998,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:08.121Z",
+    "checkedAt": "2026-09-20T17:45:53.836Z",
     "source": "https://github.com/GitGuardian/ggshield",
     "canonicalSource": "https://github.com/GitGuardian/ggshield",
     "repositoryId": 257326204,
-    "attemptedAt": "2026-09-20T17:30:07.865Z",
+    "attemptedAt": "2026-09-20T17:45:53.649Z",
     "status": "ok"
   },
   "gitui-org-gitui": {
@@ -4567,11 +4567,11 @@
     "stars": 22509,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:08.557Z",
+    "checkedAt": "2026-09-20T17:45:54.029Z",
     "source": "https://github.com/gitui-org/gitui",
     "canonicalSource": "https://github.com/gitui-org/gitui",
     "repositoryId": 247725846,
-    "attemptedAt": "2026-09-20T17:30:08.291Z",
+    "attemptedAt": "2026-09-20T17:45:53.847Z",
     "status": "ok"
   },
   "tconbeer-harlequin": {
@@ -4582,11 +4582,11 @@
     "stars": 6405,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:08.935Z",
+    "checkedAt": "2026-09-20T17:45:54.212Z",
     "source": "https://github.com/tconbeer/harlequin",
     "canonicalSource": "https://github.com/tconbeer/harlequin",
     "repositoryId": 635393461,
-    "attemptedAt": "2026-09-20T17:30:08.729Z",
+    "attemptedAt": "2026-09-20T17:45:54.037Z",
     "status": "ok"
   },
   "derailed-k9s": {
@@ -4597,11 +4597,11 @@
     "stars": 34634,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:09.162Z",
+    "checkedAt": "2026-09-20T17:45:54.382Z",
     "source": "https://github.com/derailed/k9s",
     "canonicalSource": "https://github.com/derailed/k9s",
     "repositoryId": 167596393,
-    "attemptedAt": "2026-09-20T17:30:08.946Z",
+    "attemptedAt": "2026-09-20T17:45:54.221Z",
     "status": "ok"
   },
   "kenn-io-kata": {
@@ -4612,11 +4612,11 @@
     "stars": 440,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:09.887Z",
+    "checkedAt": "2026-09-20T17:45:54.563Z",
     "source": "https://github.com/kenn-io/kata",
     "canonicalSource": "https://github.com/kenn-io/kata",
     "repositoryId": 1225141037,
-    "attemptedAt": "2026-09-20T17:30:09.360Z",
+    "attemptedAt": "2026-09-20T17:45:54.391Z",
     "status": "ok"
   },
   "keeper-security-commander": {
@@ -4627,11 +4627,11 @@
     "stars": 254,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:10.307Z",
+    "checkedAt": "2026-09-20T17:45:54.766Z",
     "source": "https://github.com/Keeper-Security/Commander",
     "canonicalSource": "https://github.com/Keeper-Security/Commander",
     "repositoryId": 41707343,
-    "attemptedAt": "2026-09-20T17:30:10.066Z",
+    "attemptedAt": "2026-09-20T17:45:54.573Z",
     "status": "ok"
   },
   "ipfs-kubo": {
@@ -4642,11 +4642,11 @@
     "stars": 17138,
     "license": null,
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:10.791Z",
+    "checkedAt": "2026-09-20T17:45:54.955Z",
     "source": "https://github.com/ipfs/kubo",
     "canonicalSource": "https://github.com/ipfs/kubo",
     "repositoryId": 21233191,
-    "attemptedAt": "2026-09-20T17:30:10.547Z",
+    "attemptedAt": "2026-09-20T17:45:54.777Z",
     "status": "ok"
   },
   "gokcehan-lf": {
@@ -4657,11 +4657,11 @@
     "stars": 9517,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:11.179Z",
+    "checkedAt": "2026-09-20T17:45:55.133Z",
     "source": "https://github.com/gokcehan/lf",
     "canonicalSource": "https://github.com/gokcehan/lf",
     "repositoryId": 65616765,
-    "attemptedAt": "2026-09-20T17:30:10.978Z",
+    "attemptedAt": "2026-09-20T17:45:54.964Z",
     "status": "ok"
   },
   "janosmiko-lfk": {
@@ -4672,11 +4672,11 @@
     "stars": 899,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:11.507Z",
+    "checkedAt": "2026-09-20T17:45:55.319Z",
     "source": "https://github.com/janosmiko/lfk",
     "canonicalSource": "https://github.com/janosmiko/lfk",
     "repositoryId": 1182344976,
-    "attemptedAt": "2026-09-20T17:30:11.288Z",
+    "attemptedAt": "2026-09-20T17:45:55.152Z",
     "status": "ok"
   },
   "mistralai-mistral-vibe": {
@@ -4687,11 +4687,11 @@
     "stars": 4979,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:11.774Z",
+    "checkedAt": "2026-09-20T17:45:55.508Z",
     "source": "https://github.com/mistralai/mistral-vibe",
     "canonicalSource": "https://github.com/mistralai/mistral-vibe",
     "repositoryId": 1112533539,
-    "attemptedAt": "2026-09-20T17:30:11.518Z",
+    "attemptedAt": "2026-09-20T17:45:55.327Z",
     "status": "ok"
   },
   "google-oauth2l": {
@@ -4702,11 +4702,11 @@
     "stars": 738,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:12.313Z",
+    "checkedAt": "2026-09-20T17:45:55.708Z",
     "source": "https://github.com/google/oauth2l",
     "canonicalSource": "https://github.com/google/oauth2l",
     "repositoryId": 55125415,
-    "attemptedAt": "2026-09-20T17:30:12.015Z",
+    "attemptedAt": "2026-09-20T17:45:55.517Z",
     "status": "ok"
   },
   "planetscale-cli": {
@@ -4717,11 +4717,11 @@
     "stars": 670,
     "license": "Apache-2.0",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:12.772Z",
+    "checkedAt": "2026-09-20T17:45:55.994Z",
     "source": "https://github.com/planetscale/cli",
     "canonicalSource": "https://github.com/planetscale/cli",
     "repositoryId": 317614271,
-    "attemptedAt": "2026-09-20T17:30:12.324Z",
+    "attemptedAt": "2026-09-20T17:45:55.715Z",
     "status": "ok"
   },
   "achristmascarl-rainfrog": {
@@ -4732,11 +4732,11 @@
     "stars": 5342,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:13.196Z",
+    "checkedAt": "2026-09-20T17:45:56.188Z",
     "source": "https://github.com/achristmascarl/rainfrog",
     "canonicalSource": "https://github.com/achristmascarl/rainfrog",
     "repositoryId": 801100155,
-    "attemptedAt": "2026-09-20T17:30:12.928Z",
+    "attemptedAt": "2026-09-20T17:45:56.006Z",
     "status": "ok"
   },
   "asamk-signal-cli": {
@@ -4747,11 +4747,11 @@
     "stars": 4924,
     "license": "GPL-3.0",
     "language": "Java",
-    "checkedAt": "2026-09-20T17:30:13.784Z",
+    "checkedAt": "2026-09-20T17:45:56.390Z",
     "source": "https://github.com/AsamK/signal-cli",
     "canonicalSource": "https://github.com/AsamK/signal-cli",
     "repositoryId": 35418187,
-    "attemptedAt": "2026-09-20T17:30:13.365Z",
+    "attemptedAt": "2026-09-20T17:45:56.198Z",
     "status": "ok"
   },
   "microsoft-go-sqlcmd": {
@@ -4762,26 +4762,26 @@
     "stars": 595,
     "license": "MIT",
     "language": "Go",
-    "checkedAt": "2026-09-20T17:30:14.227Z",
+    "checkedAt": "2026-09-20T17:45:56.627Z",
     "source": "https://github.com/microsoft/go-sqlcmd",
     "canonicalSource": "https://github.com/microsoft/go-sqlcmd",
     "repositoryId": 376924587,
-    "attemptedAt": "2026-09-20T17:30:13.964Z",
+    "attemptedAt": "2026-09-20T17:45:56.408Z",
     "status": "ok"
   },
   "max-sixty-worktrunk": {
     "defaultBranch": "main",
     "createdAt": "2025-10-17T22:13:14Z",
-    "pushedAt": "2026-09-20T09:31:55Z",
-    "lastCommitAt": "2026-09-19T16:30:24Z",
-    "stars": 8170,
+    "pushedAt": "2026-09-20T17:37:33Z",
+    "lastCommitAt": "2026-09-20T17:37:30Z",
+    "stars": 8171,
     "license": null,
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:14.682Z",
+    "checkedAt": "2026-09-20T17:45:56.981Z",
     "source": "https://github.com/max-sixty/worktrunk",
     "canonicalSource": "https://github.com/max-sixty/worktrunk",
     "repositoryId": 1078528927,
-    "attemptedAt": "2026-09-20T17:30:14.238Z",
+    "attemptedAt": "2026-09-20T17:45:56.634Z",
     "status": "ok"
   },
   "ldomaradzki-xcsift": {
@@ -4792,11 +4792,11 @@
     "stars": 469,
     "license": "MIT",
     "language": "Swift",
-    "checkedAt": "2026-09-20T17:30:14.906Z",
+    "checkedAt": "2026-09-20T17:45:57.185Z",
     "source": "https://github.com/ldomaradzki/xcsift",
     "canonicalSource": "https://github.com/ldomaradzki/xcsift",
     "repositoryId": 1017599209,
-    "attemptedAt": "2026-09-20T17:30:14.693Z",
+    "attemptedAt": "2026-09-20T17:45:56.989Z",
     "status": "ok"
   },
   "unlinearity-cli-wechat-bridge": {
@@ -4807,11 +4807,11 @@
     "stars": 499,
     "license": "AGPL-3.0",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:30:15.521Z",
+    "checkedAt": "2026-09-20T17:45:57.358Z",
     "source": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge",
     "canonicalSource": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge",
     "repositoryId": 1189593001,
-    "attemptedAt": "2026-09-20T17:30:15.058Z",
+    "attemptedAt": "2026-09-20T17:45:57.195Z",
     "status": "ok"
   },
   "nostacks-ekphos": {
@@ -4822,11 +4822,11 @@
     "stars": 1004,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:16.110Z",
+    "checkedAt": "2026-09-20T17:45:57.555Z",
     "source": "https://github.com/nostacks/ekphos",
     "canonicalSource": "https://github.com/nostacks/ekphos",
     "repositoryId": 1116772709,
-    "attemptedAt": "2026-09-20T17:30:15.690Z",
+    "attemptedAt": "2026-09-20T17:45:57.369Z",
     "status": "ok"
   },
   "alexpovel-srgn": {
@@ -4837,11 +4837,11 @@
     "stars": 912,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:16.479Z",
+    "checkedAt": "2026-09-20T17:45:57.745Z",
     "source": "https://github.com/alexpovel/srgn",
     "canonicalSource": "https://github.com/alexpovel/srgn",
     "repositoryId": 641495940,
-    "attemptedAt": "2026-09-20T17:30:16.259Z",
+    "attemptedAt": "2026-09-20T17:45:57.565Z",
     "status": "ok"
   },
   "libimobiledevice-libirecovery": {
@@ -4852,11 +4852,11 @@
     "stars": 652,
     "license": "LGPL-2.1",
     "language": "C",
-    "checkedAt": "2026-09-20T17:30:17.062Z",
+    "checkedAt": "2026-09-20T17:45:58.024Z",
     "source": "https://github.com/libimobiledevice/libirecovery",
     "canonicalSource": "https://github.com/libimobiledevice/libirecovery",
     "repositoryId": 8180767,
-    "attemptedAt": "2026-09-20T17:30:16.792Z",
+    "attemptedAt": "2026-09-20T17:45:57.836Z",
     "status": "ok"
   },
   "orhun-halp": {
@@ -4867,11 +4867,11 @@
     "stars": 769,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:17.450Z",
+    "checkedAt": "2026-09-20T17:45:58.360Z",
     "source": "https://github.com/orhun/halp",
     "canonicalSource": "https://github.com/orhun/halp",
     "repositoryId": 610958533,
-    "attemptedAt": "2026-09-20T17:30:17.229Z",
+    "attemptedAt": "2026-09-20T17:45:58.159Z",
     "status": "ok"
   },
   "flatkey-ai-flatkey-cli": {
@@ -4882,11 +4882,11 @@
     "stars": 910,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:30:17.882Z",
+    "checkedAt": "2026-09-20T17:45:58.616Z",
     "source": "https://github.com/flatkey-ai/flatkey-cli",
     "canonicalSource": "https://github.com/flatkey-ai/flatkey-cli",
     "repositoryId": 1303516931,
-    "attemptedAt": "2026-09-20T17:30:17.668Z",
+    "attemptedAt": "2026-09-20T17:45:58.446Z",
     "status": "ok"
   },
   "hukkin-mdformat": {
@@ -4897,11 +4897,11 @@
     "stars": 823,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:18.301Z",
+    "checkedAt": "2026-09-20T17:45:58.892Z",
     "source": "https://github.com/hukkin/mdformat",
     "canonicalSource": "https://github.com/hukkin/mdformat",
     "repositoryId": 278875517,
-    "attemptedAt": "2026-09-20T17:30:18.086Z",
+    "attemptedAt": "2026-09-20T17:45:58.720Z",
     "status": "ok"
   },
   "eyeblech-cinecli": {
@@ -4912,11 +4912,11 @@
     "stars": 779,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:18.733Z",
+    "checkedAt": "2026-09-20T17:45:59.230Z",
     "source": "https://github.com/eyeblech/cinecli",
     "canonicalSource": "https://github.com/eyeblech/cinecli",
     "repositoryId": 1120449210,
-    "attemptedAt": "2026-09-20T17:30:18.504Z",
+    "attemptedAt": "2026-09-20T17:45:59.018Z",
     "status": "ok"
   },
   "libimobiledevice-libplist": {
@@ -4927,11 +4927,11 @@
     "stars": 636,
     "license": "LGPL-2.1",
     "language": "C",
-    "checkedAt": "2026-09-20T17:30:19.123Z",
+    "checkedAt": "2026-09-20T17:45:59.491Z",
     "source": "https://github.com/libimobiledevice/libplist",
     "canonicalSource": "https://github.com/libimobiledevice/libplist",
     "repositoryId": 8180632,
-    "attemptedAt": "2026-09-20T17:30:18.867Z",
+    "attemptedAt": "2026-09-20T17:45:59.302Z",
     "status": "ok"
   },
   "lightonai-next-plaid": {
@@ -4942,11 +4942,11 @@
     "stars": 546,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:19.402Z",
+    "checkedAt": "2026-09-20T17:45:59.678Z",
     "source": "https://github.com/lightonai/next-plaid",
     "canonicalSource": "https://github.com/lightonai/next-plaid",
     "repositoryId": 1129164502,
-    "attemptedAt": "2026-09-20T17:30:19.136Z",
+    "attemptedAt": "2026-09-20T17:45:59.506Z",
     "status": "ok"
   },
   "ihabunek-twitch-dl": {
@@ -4957,11 +4957,11 @@
     "stars": 762,
     "license": "GPL-3.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:19.811Z",
+    "checkedAt": "2026-09-20T17:45:59.902Z",
     "source": "https://github.com/ihabunek/twitch-dl",
     "canonicalSource": "https://github.com/ihabunek/twitch-dl",
     "repositoryId": 118896446,
-    "attemptedAt": "2026-09-20T17:30:19.594Z",
+    "attemptedAt": "2026-09-20T17:45:59.748Z",
     "status": "ok"
   },
   "trebornamor-tradingview-machine-learning-gui": {
@@ -4972,11 +4972,11 @@
     "stars": 991,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:20.214Z",
+    "checkedAt": "2026-09-20T17:46:00.148Z",
     "source": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI",
     "canonicalSource": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI",
     "repositoryId": 333328520,
-    "attemptedAt": "2026-09-20T17:30:20.005Z",
+    "attemptedAt": "2026-09-20T17:45:59.977Z",
     "status": "ok"
   },
   "supercilex-fuc": {
@@ -4987,11 +4987,11 @@
     "stars": 533,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:20.592Z",
+    "checkedAt": "2026-09-20T17:46:00.470Z",
     "source": "https://github.com/SUPERCILEX/fuc",
     "canonicalSource": "https://github.com/SUPERCILEX/fuc",
     "repositoryId": 430960694,
-    "attemptedAt": "2026-09-20T17:30:20.382Z",
+    "attemptedAt": "2026-09-20T17:46:00.272Z",
     "status": "ok"
   },
   "mattrobenolt-jinja2-cli": {
@@ -5002,11 +5002,11 @@
     "stars": 610,
     "license": "BSD-2-Clause",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:20.969Z",
+    "checkedAt": "2026-09-20T17:46:00.648Z",
     "source": "https://github.com/mattrobenolt/jinja2-cli",
     "canonicalSource": "https://github.com/mattrobenolt/jinja2-cli",
     "repositoryId": 4523552,
-    "attemptedAt": "2026-09-20T17:30:20.704Z",
+    "attemptedAt": "2026-09-20T17:46:00.496Z",
     "status": "ok"
   },
   "westpoint-io-lazyrsync": {
@@ -5017,11 +5017,11 @@
     "stars": 856,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:21.303Z",
+    "checkedAt": "2026-09-20T17:46:00.880Z",
     "source": "https://github.com/westpoint-io/lazyrsync",
     "canonicalSource": "https://github.com/westpoint-io/lazyrsync",
     "repositoryId": 1270207874,
-    "attemptedAt": "2026-09-20T17:30:21.077Z",
+    "attemptedAt": "2026-09-20T17:46:00.665Z",
     "status": "ok"
   },
   "home-assistant-ecosystem-home-assistant-cli": {
@@ -5032,11 +5032,11 @@
     "stars": 597,
     "license": null,
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:21.793Z",
+    "checkedAt": "2026-09-20T17:46:01.119Z",
     "source": "https://github.com/home-assistant-ecosystem/home-assistant-cli",
     "canonicalSource": "https://github.com/home-assistant-ecosystem/home-assistant-cli",
     "repositoryId": 64300226,
-    "attemptedAt": "2026-09-20T17:30:21.547Z",
+    "attemptedAt": "2026-09-20T17:46:00.959Z",
     "status": "ok"
   },
   "burntsushi-bttf": {
@@ -5047,11 +5047,11 @@
     "stars": 768,
     "license": "Unlicense",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:22.267Z",
+    "checkedAt": "2026-09-20T17:46:01.370Z",
     "source": "https://github.com/BurntSushi/bttf",
     "canonicalSource": "https://github.com/BurntSushi/bttf",
     "repositoryId": 945094389,
-    "attemptedAt": "2026-09-20T17:30:22.032Z",
+    "attemptedAt": "2026-09-20T17:46:01.166Z",
     "status": "ok"
   },
   "remarshal-project-remarshal": {
@@ -5062,11 +5062,11 @@
     "stars": 553,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:22.523Z",
+    "checkedAt": "2026-09-20T17:46:01.565Z",
     "source": "https://github.com/remarshal-project/remarshal",
     "canonicalSource": "https://github.com/remarshal-project/remarshal",
     "repositoryId": 24801045,
-    "attemptedAt": "2026-09-20T17:30:22.279Z",
+    "attemptedAt": "2026-09-20T17:46:01.380Z",
     "status": "ok"
   },
   "brocode-fw": {
@@ -5077,11 +5077,11 @@
     "stars": 565,
     "license": "WTFPL",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:22.934Z",
+    "checkedAt": "2026-09-20T17:46:01.769Z",
     "source": "https://github.com/brocode/fw",
     "canonicalSource": "https://github.com/brocode/fw",
     "repositoryId": 85922134,
-    "attemptedAt": "2026-09-20T17:30:22.729Z",
+    "attemptedAt": "2026-09-20T17:46:01.579Z",
     "status": "ok"
   },
   "codesnap-rs-codesnap": {
@@ -5092,11 +5092,11 @@
     "stars": 570,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:23.225Z",
+    "checkedAt": "2026-09-20T17:46:01.945Z",
     "source": "https://github.com/codesnap-rs/codesnap",
     "canonicalSource": "https://github.com/codesnap-rs/codesnap",
     "repositoryId": 861293276,
-    "attemptedAt": "2026-09-20T17:30:22.945Z",
+    "attemptedAt": "2026-09-20T17:46:01.777Z",
     "status": "ok"
   },
   "esubaalew-run": {
@@ -5107,11 +5107,11 @@
     "stars": 939,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:23.647Z",
+    "checkedAt": "2026-09-20T17:46:02.131Z",
     "source": "https://github.com/Esubaalew/run",
     "canonicalSource": "https://github.com/Esubaalew/run",
     "repositoryId": 1066975996,
-    "attemptedAt": "2026-09-20T17:30:23.390Z",
+    "attemptedAt": "2026-09-20T17:46:01.966Z",
     "status": "ok"
   },
   "oskvr37-tiddl": {
@@ -5122,11 +5122,11 @@
     "stars": 679,
     "license": "Apache-2.0",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:24.031Z",
+    "checkedAt": "2026-09-20T17:46:02.333Z",
     "source": "https://github.com/oskvr37/tiddl",
     "canonicalSource": "https://github.com/oskvr37/tiddl",
     "repositoryId": 831188719,
-    "attemptedAt": "2026-09-20T17:30:23.795Z",
+    "attemptedAt": "2026-09-20T17:46:02.172Z",
     "status": "ok"
   },
   "1jehuang-mermaid-rs-renderer": {
@@ -5137,11 +5137,11 @@
     "stars": 1722,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:24.364Z",
+    "checkedAt": "2026-09-20T17:46:02.524Z",
     "source": "https://github.com/1jehuang/mermaid-rs-renderer",
     "canonicalSource": "https://github.com/1jehuang/mermaid-rs-renderer",
     "repositoryId": 1139576798,
-    "attemptedAt": "2026-09-20T17:30:24.175Z",
+    "attemptedAt": "2026-09-20T17:46:02.352Z",
     "status": "ok"
   },
   "apconw-aix-db": {
@@ -5152,26 +5152,26 @@
     "stars": 2247,
     "license": null,
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:30:24.770Z",
+    "checkedAt": "2026-09-20T17:46:02.793Z",
     "source": "https://github.com/apconw/Aix-DB",
     "canonicalSource": "https://github.com/apconw/Aix-DB",
     "repositoryId": 888874620,
-    "attemptedAt": "2026-09-20T17:30:24.554Z",
+    "attemptedAt": "2026-09-20T17:46:02.601Z",
     "status": "ok"
   },
   "kalil0321-reverse-api-engineer": {
     "defaultBranch": "main",
     "createdAt": "2025-12-23T14:04:45Z",
-    "pushedAt": "2026-09-20T17:10:53Z",
+    "pushedAt": "2026-09-20T17:46:00Z",
     "lastCommitAt": "2026-09-20T17:10:53Z",
     "stars": 1174,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:25.468Z",
+    "checkedAt": "2026-09-20T17:46:03.145Z",
     "source": "https://github.com/kalil0321/reverse-api-engineer",
     "canonicalSource": "https://github.com/kalil0321/reverse-api-engineer",
     "repositoryId": 1121759870,
-    "attemptedAt": "2026-09-20T17:30:24.993Z",
+    "attemptedAt": "2026-09-20T17:46:02.802Z",
     "status": "ok"
   },
   "chaqchase-lla": {
@@ -5182,11 +5182,11 @@
     "stars": 1223,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:25.855Z",
+    "checkedAt": "2026-09-20T17:46:03.415Z",
     "source": "https://github.com/chaqchase/lla",
     "canonicalSource": "https://github.com/chaqchase/lla",
     "repositoryId": 672935720,
-    "attemptedAt": "2026-09-20T17:30:25.651Z",
+    "attemptedAt": "2026-09-20T17:46:03.243Z",
     "status": "ok"
   },
   "webtorrent-webtorrent-cli": {
@@ -5197,11 +5197,11 @@
     "stars": 1370,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:30:26.283Z",
+    "checkedAt": "2026-09-20T17:46:03.704Z",
     "source": "https://github.com/webtorrent/webtorrent-cli",
     "canonicalSource": "https://github.com/webtorrent/webtorrent-cli",
     "repositoryId": 53643073,
-    "attemptedAt": "2026-09-20T17:30:26.027Z",
+    "attemptedAt": "2026-09-20T17:46:03.483Z",
     "status": "ok"
   },
   "mike-engel-jwt-cli": {
@@ -5212,11 +5212,11 @@
     "stars": 1511,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:26.501Z",
+    "checkedAt": "2026-09-20T17:46:03.956Z",
     "source": "https://github.com/mike-engel/jwt-cli",
     "canonicalSource": "https://github.com/mike-engel/jwt-cli",
     "repositoryId": 84038847,
-    "attemptedAt": "2026-09-20T17:30:26.294Z",
+    "attemptedAt": "2026-09-20T17:46:03.785Z",
     "status": "ok"
   },
   "helvesec-rmux": {
@@ -5227,11 +5227,11 @@
     "stars": 2643,
     "license": null,
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:27.032Z",
+    "checkedAt": "2026-09-20T17:46:04.233Z",
     "source": "https://github.com/Helvesec/rmux",
     "canonicalSource": "https://github.com/Helvesec/rmux",
     "repositoryId": 1239918790,
-    "attemptedAt": "2026-09-20T17:30:26.790Z",
+    "attemptedAt": "2026-09-20T17:46:04.061Z",
     "status": "ok"
   },
   "wbopan-moffee": {
@@ -5242,11 +5242,11 @@
     "stars": 1330,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:27.509Z",
+    "checkedAt": "2026-09-20T17:46:04.527Z",
     "source": "https://github.com/wbopan/moffee",
     "canonicalSource": "https://github.com/wbopan/moffee",
     "repositoryId": 838240603,
-    "attemptedAt": "2026-09-20T17:30:27.271Z",
+    "attemptedAt": "2026-09-20T17:46:04.352Z",
     "status": "ok"
   },
   "code-with-beto-snapai": {
@@ -5257,11 +5257,11 @@
     "stars": 1934,
     "license": "MIT",
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:30:27.945Z",
+    "checkedAt": "2026-09-20T17:46:04.768Z",
     "source": "https://github.com/Code-with-Beto/snapai",
     "canonicalSource": "https://github.com/Code-with-Beto/snapai",
     "repositoryId": 1006328382,
-    "attemptedAt": "2026-09-20T17:30:27.675Z",
+    "attemptedAt": "2026-09-20T17:46:04.595Z",
     "status": "ok"
   },
   "plopjs-plop": {
@@ -5272,11 +5272,11 @@
     "stars": 7674,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:30:28.396Z",
+    "checkedAt": "2026-09-20T17:46:05.016Z",
     "source": "https://github.com/plopjs/plop",
     "canonicalSource": "https://github.com/plopjs/plop",
     "repositoryId": 19317081,
-    "attemptedAt": "2026-09-20T17:30:28.130Z",
+    "attemptedAt": "2026-09-20T17:46:04.845Z",
     "status": "ok"
   },
   "hatoo-oha": {
@@ -5287,11 +5287,11 @@
     "stars": 10552,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:28.811Z",
+    "checkedAt": "2026-09-20T17:46:05.363Z",
     "source": "https://github.com/hatoo/oha",
     "canonicalSource": "https://github.com/hatoo/oha",
     "repositoryId": 244377430,
-    "attemptedAt": "2026-09-20T17:30:28.606Z",
+    "attemptedAt": "2026-09-20T17:46:05.169Z",
     "status": "ok"
   },
   "sindresorhus-np": {
@@ -5302,11 +5302,11 @@
     "stars": 7712,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:30:29.149Z",
+    "checkedAt": "2026-09-20T17:46:05.610Z",
     "source": "https://github.com/sindresorhus/np",
     "canonicalSource": "https://github.com/sindresorhus/np",
     "repositoryId": 40806530,
-    "attemptedAt": "2026-09-20T17:30:28.917Z",
+    "attemptedAt": "2026-09-20T17:46:05.379Z",
     "status": "ok"
   },
   "sloria-doitlive": {
@@ -5317,11 +5317,11 @@
     "stars": 3582,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:29.503Z",
+    "checkedAt": "2026-09-20T17:46:05.789Z",
     "source": "https://github.com/sloria/doitlive",
     "canonicalSource": "https://github.com/sloria/doitlive",
     "repositoryId": 20870711,
-    "attemptedAt": "2026-09-20T17:30:29.301Z",
+    "attemptedAt": "2026-09-20T17:46:05.622Z",
     "status": "ok"
   },
   "xampprocky-tokei": {
@@ -5332,11 +5332,11 @@
     "stars": 14930,
     "license": null,
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:29.931Z",
+    "checkedAt": "2026-09-20T17:46:06.072Z",
     "source": "https://github.com/XAMPPRocky/tokei",
     "canonicalSource": "https://github.com/XAMPPRocky/tokei",
     "repositoryId": 36323226,
-    "attemptedAt": "2026-09-20T17:30:29.686Z",
+    "attemptedAt": "2026-09-20T17:46:05.900Z",
     "status": "ok"
   },
   "ducaale-xh": {
@@ -5344,14 +5344,14 @@
     "createdAt": "2020-09-10T20:58:13Z",
     "pushedAt": "2026-09-05T09:34:49Z",
     "lastCommitAt": "2026-09-05T09:34:49Z",
-    "stars": 8085,
+    "stars": 8086,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:30.441Z",
+    "checkedAt": "2026-09-20T17:46:06.398Z",
     "source": "https://github.com/ducaale/xh",
     "canonicalSource": "https://github.com/ducaale/xh",
     "repositoryId": 294521053,
-    "attemptedAt": "2026-09-20T17:30:30.150Z",
+    "attemptedAt": "2026-09-20T17:46:06.230Z",
     "status": "ok"
   },
   "jhspetersson-fselect": {
@@ -5362,11 +5362,11 @@
     "stars": 4467,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:30.665Z",
+    "checkedAt": "2026-09-20T17:46:06.626Z",
     "source": "https://github.com/jhspetersson/fselect",
     "canonicalSource": "https://github.com/jhspetersson/fselect",
     "repositoryId": 119048105,
-    "attemptedAt": "2026-09-20T17:30:30.452Z",
+    "attemptedAt": "2026-09-20T17:46:06.465Z",
     "status": "ok"
   },
   "kuberwastaken-claurst": {
@@ -5377,11 +5377,11 @@
     "stars": 10301,
     "license": "GPL-3.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:31.019Z",
+    "checkedAt": "2026-09-20T17:46:06.862Z",
     "source": "https://github.com/Kuberwastaken/claurst",
     "canonicalSource": "https://github.com/Kuberwastaken/claurst",
     "repositoryId": 1197043989,
-    "attemptedAt": "2026-09-20T17:30:30.676Z",
+    "attemptedAt": "2026-09-20T17:46:06.700Z",
     "status": "ok"
   },
   "pycqa-isort": {
@@ -5392,11 +5392,11 @@
     "stars": 6954,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:31.253Z",
+    "checkedAt": "2026-09-20T17:46:07.115Z",
     "source": "https://github.com/PyCQA/isort",
     "canonicalSource": "https://github.com/PyCQA/isort",
     "repositoryId": 12550138,
-    "attemptedAt": "2026-09-20T17:30:31.031Z",
+    "attemptedAt": "2026-09-20T17:46:06.927Z",
     "status": "ok"
   },
   "svg-svgo": {
@@ -5407,11 +5407,11 @@
     "stars": 22686,
     "license": "MIT",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:30:31.533Z",
+    "checkedAt": "2026-09-20T17:46:07.394Z",
     "source": "https://github.com/svg/svgo",
     "canonicalSource": "https://github.com/svg/svgo",
     "repositoryId": 5508088,
-    "attemptedAt": "2026-09-20T17:30:31.264Z",
+    "attemptedAt": "2026-09-20T17:46:07.213Z",
     "status": "ok"
   },
   "str4d-rage": {
@@ -5422,11 +5422,11 @@
     "stars": 3657,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:31.780Z",
+    "checkedAt": "2026-09-20T17:46:07.721Z",
     "source": "https://github.com/str4d/rage",
     "canonicalSource": "https://github.com/str4d/rage",
     "repositoryId": 213749542,
-    "attemptedAt": "2026-09-20T17:30:31.554Z",
+    "attemptedAt": "2026-09-20T17:46:07.530Z",
     "status": "ok"
   },
   "google-zx": {
@@ -5437,11 +5437,11 @@
     "stars": 45755,
     "license": "Apache-2.0",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:30:32.160Z",
+    "checkedAt": "2026-09-20T17:46:07.927Z",
     "source": "https://github.com/google/zx",
     "canonicalSource": "https://github.com/google/zx",
     "repositoryId": 364474335,
-    "attemptedAt": "2026-09-20T17:30:31.899Z",
+    "attemptedAt": "2026-09-20T17:46:07.747Z",
     "status": "ok"
   },
   "vi-websocat": {
@@ -5452,11 +5452,11 @@
     "stars": 8693,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:32.395Z",
+    "checkedAt": "2026-09-20T17:46:08.151Z",
     "source": "https://github.com/vi/websocat",
     "canonicalSource": "https://github.com/vi/websocat",
     "repositoryId": 74579985,
-    "attemptedAt": "2026-09-20T17:30:32.171Z",
+    "attemptedAt": "2026-09-20T17:46:07.935Z",
     "status": "ok"
   },
   "veirt-weathr": {
@@ -5467,11 +5467,11 @@
     "stars": 3056,
     "license": "GPL-3.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:32.684Z",
+    "checkedAt": "2026-09-20T17:46:08.360Z",
     "source": "https://github.com/Veirt/weathr",
     "canonicalSource": "https://github.com/Veirt/weathr",
     "repositoryId": 1152969678,
-    "attemptedAt": "2026-09-20T17:30:32.473Z",
+    "attemptedAt": "2026-09-20T17:46:08.170Z",
     "status": "ok"
   },
   "conventional-changelog-standard-version": {
@@ -5482,11 +5482,11 @@
     "stars": 7982,
     "license": "ISC",
     "language": "JavaScript",
-    "checkedAt": "2026-09-20T17:30:32.922Z",
+    "checkedAt": "2026-09-20T17:46:08.580Z",
     "source": "https://github.com/conventional-changelog/standard-version",
     "canonicalSource": "https://github.com/conventional-changelog/standard-version",
     "repositoryId": 55387233,
-    "attemptedAt": "2026-09-20T17:30:32.696Z",
+    "attemptedAt": "2026-09-20T17:46:08.369Z",
     "status": "ok"
   },
   "robinmoisson-staticrypt": {
@@ -5497,11 +5497,11 @@
     "stars": 8042,
     "license": "MIT",
     "language": "HTML",
-    "checkedAt": "2026-09-20T17:30:33.266Z",
+    "checkedAt": "2026-09-20T17:46:08.777Z",
     "source": "https://github.com/robinmoisson/staticrypt",
     "canonicalSource": "https://github.com/robinmoisson/staticrypt",
     "repositoryId": 89785877,
-    "attemptedAt": "2026-09-20T17:30:33.029Z",
+    "attemptedAt": "2026-09-20T17:46:08.596Z",
     "status": "ok"
   },
   "campfirein-byterover-cli": {
@@ -5512,11 +5512,11 @@
     "stars": 4966,
     "license": null,
     "language": "TypeScript",
-    "checkedAt": "2026-09-20T17:30:33.631Z",
+    "checkedAt": "2026-09-20T17:46:08.962Z",
     "source": "https://github.com/campfirein/byterover-cli",
     "canonicalSource": "https://github.com/campfirein/byterover-cli",
     "repositoryId": 1005233473,
-    "attemptedAt": "2026-09-20T17:30:33.383Z",
+    "attemptedAt": "2026-09-20T17:46:08.792Z",
     "status": "ok"
   },
   "sharkdp-vivid": {
@@ -5527,11 +5527,11 @@
     "stars": 2267,
     "license": "Apache-2.0",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:33.850Z",
+    "checkedAt": "2026-09-20T17:46:09.255Z",
     "source": "https://github.com/sharkdp/vivid",
     "canonicalSource": "https://github.com/sharkdp/vivid",
     "repositoryId": 158295285,
-    "attemptedAt": "2026-09-20T17:30:33.642Z",
+    "attemptedAt": "2026-09-20T17:46:08.972Z",
     "status": "ok"
   },
   "pvolok-dekit": {
@@ -5542,26 +5542,26 @@
     "stars": 2725,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:34.068Z",
+    "checkedAt": "2026-09-20T17:46:09.431Z",
     "source": "https://github.com/pvolok/dekit",
     "canonicalSource": "https://github.com/pvolok/dekit",
     "repositoryId": 401345297,
-    "attemptedAt": "2026-09-20T17:30:33.860Z",
+    "attemptedAt": "2026-09-20T17:46:09.262Z",
     "status": "ok"
   },
   "whyisdifficult-jiratui": {
     "defaultBranch": "main",
     "createdAt": "2025-08-04T15:10:45Z",
-    "pushedAt": "2026-09-20T13:16:07Z",
+    "pushedAt": "2026-09-20T17:36:29Z",
     "lastCommitAt": "2026-09-20T13:16:05Z",
     "stars": 1698,
     "license": "MIT",
     "language": "Python",
-    "checkedAt": "2026-09-20T17:30:34.674Z",
+    "checkedAt": "2026-09-20T17:46:09.741Z",
     "source": "https://github.com/whyisdifficult/jiratui",
     "canonicalSource": "https://github.com/whyisdifficult/jiratui",
     "repositoryId": 1031945919,
-    "attemptedAt": "2026-09-20T17:30:34.267Z",
+    "attemptedAt": "2026-09-20T17:46:09.444Z",
     "status": "ok"
   },
   "maxcurzi-tplay": {
@@ -5572,11 +5572,11 @@
     "stars": 684,
     "license": "MIT",
     "language": "Rust",
-    "checkedAt": "2026-09-20T17:30:35.083Z",
+    "checkedAt": "2026-09-20T17:46:09.911Z",
     "source": "https://github.com/maxcurzi/tplay",
     "canonicalSource": "https://github.com/maxcurzi/tplay",
     "repositoryId": 623391325,
-    "attemptedAt": "2026-09-20T17:30:34.878Z",
+    "attemptedAt": "2026-09-20T17:46:09.754Z",
     "status": "ok"
   }
 }
