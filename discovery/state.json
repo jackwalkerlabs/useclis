@@ -4,144 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "todotxt/todo.txt-cli"
-    },
-    {
-      "repo": "charmbracelet/bubbles"
-    },
-    {
-      "repo": "ducaale/xh"
-    },
-    {
-      "repo": "jhspetersson/fselect"
-    },
-    {
-      "repo": "mergestat/mergestat-lite"
-    },
-    {
-      "repo": "sharkdp/bat"
-    },
-    {
-      "repo": "asdf-vm/asdf"
-    },
-    {
-      "repo": "alecthomas/kingpin"
-    },
-    {
-      "repo": "ykdojo/claude-code-tips"
-    },
-    {
-      "repo": "Kuberwastaken/claurst"
-    },
-    {
-      "repo": "arxanas/git-branchless"
-    },
-    {
-      "repo": "Tyrrrz/CliWrap"
-    },
-    {
-      "repo": "svenstaro/genact"
-    },
-    {
-      "repo": "projectdiscovery/uncover"
-    },
-    {
-      "repo": "UfoMiao/zcf"
-    },
-    {
-      "repo": "jackwener/OpenCLI"
-    },
-    {
-      "repo": "privatenumber/tsx"
-    },
-    {
-      "repo": "google/clasp"
-    },
-    {
-      "repo": "PyCQA/isort"
-    },
-    {
-      "repo": "svg/svgo"
-    },
-    {
-      "repo": "antonmedv/fx"
-    },
-    {
-      "repo": "xwmx/nb"
-    },
-    {
-      "repo": "codesenberg/bombardier"
-    },
-    {
-      "repo": "str4d/rage"
-    },
-    {
-      "repo": "smtg-ai/claude-squad"
-    },
-    {
-      "repo": "ankitpokhrel/jira-cli"
-    },
-    {
-      "repo": "TomWright/dasel"
-    },
-    {
-      "repo": "remkop/picocli"
-    },
-    {
-      "repo": "sachaos/viddy"
-    },
-    {
-      "repo": "jarun/ddgr"
-    },
-    {
-      "repo": "pranshuparmar/witr"
-    },
-    {
-      "repo": "CommandCodeAI/command-code"
-    },
-    {
-      "repo": "asciinema/asciinema"
-    },
-    {
-      "repo": "google/zx"
-    },
-    {
-      "repo": "vi/websocat"
-    },
-    {
-      "repo": "dbohdan/structured-text-tools"
-    },
-    {
-      "repo": "wasm-bindgen/wasm-pack"
-    },
-    {
-      "repo": "laravel-zero/laravel-zero"
-    },
-    {
-      "repo": "Veirt/weathr"
-    },
-    {
-      "repo": "bgreenwell/doxx"
-    },
-    {
-      "repo": "gpakosz/.tmux"
-    },
-    {
-      "repo": "nunomaduro/collision"
-    },
-    {
-      "repo": "BurntSushi/ripgrep"
-    },
-    {
-      "repo": "asciimoo/wuzz"
-    },
-    {
-      "repo": "JohannesKaufmann/html-to-markdown"
-    },
-    {
-      "repo": "simeji/jid"
-    },
-    {
       "repo": "dalibo/pg_activity"
     },
     {
@@ -2661,9 +2523,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "jhspetersson/fselect": {
-      "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "jhspetersson-fselect",
+      "acceptedAt": "2026-09-20T05:44:06.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/jhspetersson/fselect/blob/e5919213058e239eb3dfa36bfbe1e70d56d3341c/Cargo.toml",
+          "snippet": "package.name=\"fselect\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/jhspetersson/fselect/blob/e5919213058e239eb3dfa36bfbe1e70d56d3341c/README.md",
+          "snippet": "* Run `cargo install fselect`"
+        },
+        "usage": {
+          "url": "https://github.com/jhspetersson/fselect/blob/e5919213058e239eb3dfa36bfbe1e70d56d3341c/docs/usage.md",
+          "snippet": "fselect --plocate \"name, size from /home where size gt 100mb\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/jhspetersson/fselect",
+          "snippet": "Find files with SQL-like queries"
+        },
+        "adoption": {
+          "stars": 4467,
+          "githubSource": "https://github.com/jhspetersson/fselect",
+          "homebrew": null
+        },
+        "commit": "e5919213058e239eb3dfa36bfbe1e70d56d3341c"
+      }
     },
     "unitech/pm2": {
       "status": "held",
@@ -2713,8 +2603,9 @@
     },
     "alecthomas/kingpin": {
       "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "azure/azure-devops-cli-extension": {
       "status": "held",
@@ -2785,8 +2676,9 @@
     },
     "mergestat/mergestat-lite": {
       "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "apple/swift-argument-parser": {
       "status": "held",
@@ -2801,8 +2693,9 @@
     },
     "tyrrrz/cliwrap": {
       "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "orhun/halp": {
       "status": "accepted",
@@ -3476,13 +3369,15 @@
     },
     "asciinema/asciinema": {
       "status": "held",
-      "checkedAt": "2026-09-11T19:43:50.709Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "asdf-vm/asdf": {
       "status": "held",
-      "checkedAt": "2026-09-11T19:43:50.709Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "asimovmac/asimov": {
       "status": "held",
@@ -4110,7 +4005,8 @@
     },
     "antonmedv/fx": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "commitizen/cz-conventional-changelog": {
@@ -4172,7 +4068,8 @@
     },
     "remkop/picocli": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "jarun/imgp": {
@@ -4183,13 +4080,15 @@
     },
     "jarun/ddgr": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "commandcodeai/command-code": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "malxau/yori": {
       "status": "held",
@@ -4202,14 +4101,43 @@
       "reason": "Terminal use case needs classification"
     },
     "vi/websocat": {
-      "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "vi-websocat",
+      "acceptedAt": "2026-09-20T05:44:06.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/vi/websocat/blob/3a3574cd2f5d17857d87f3982e72c3ede159dde0/Cargo.toml",
+          "snippet": "package.name=\"websocat\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/vi/websocat/blob/3a3574cd2f5d17857d87f3982e72c3ede159dde0/README.md",
+          "snippet": "* Install the [Rust toolchain](https://rustup.rs/) and do `cargo install websocat`. If something fails with a `-sys` crate, try with `--no-default-features`;"
+        },
+        "usage": {
+          "url": "https://github.com/vi/websocat/blob/3a3574cd2f5d17857d87f3982e72c3ede159dde0/README.md",
+          "snippet": "websocat ws://ws.vi-server.org/mirror"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/vi/websocat",
+          "snippet": "Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions"
+        },
+        "adoption": {
+          "stars": 8692,
+          "githubSource": "https://github.com/vi/websocat",
+          "homebrew": null
+        },
+        "commit": "3a3574cd2f5d17857d87f3982e72c3ede159dde0"
+      }
     },
     "laravel-zero/laravel-zero": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "gerardog/gsudo": {
       "status": "held",
@@ -6162,8 +6090,9 @@
     },
     "google/clasp": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "yoshiko-pg/difit": {
       "status": "held",
@@ -6362,8 +6291,9 @@
     },
     "dbohdan/structured-text-tools": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cc1a2b/jshunter": {
       "status": "held",
@@ -6525,8 +6455,9 @@
     },
     "nunomaduro/collision": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "glomatico/gamdl": {
       "status": "held",
@@ -9444,8 +9375,9 @@
     },
     "todotxt/todo.txt-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "iannuttall/seo": {
       "status": "held",
@@ -9465,8 +9397,9 @@
     },
     "charmbracelet/bubbles": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rasterio/rasterio": {
       "status": "held",
@@ -9544,9 +9477,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "ducaale/xh": {
-      "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ducaale-xh",
+      "acceptedAt": "2026-09-20T05:44:06.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ducaale/xh/blob/2404aceecc08b0b2d100fedc96f57745cd5904dc/Cargo.toml",
+          "snippet": "package.name=\"xh\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/ducaale/xh/blob/2404aceecc08b0b2d100fedc96f57745cd5904dc/README.md",
+          "snippet": "| Any                           | Cargo\\*        | `cargo install xh --locked`                |"
+        },
+        "usage": {
+          "url": "https://github.com/ducaale/xh/blob/2404aceecc08b0b2d100fedc96f57745cd5904dc/README.md",
+          "snippet": "xh httpbin.org/json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ducaale/xh",
+          "snippet": "Friendly and fast tool for sending HTTP requests"
+        },
+        "adoption": {
+          "stars": 8085,
+          "githubSource": "https://github.com/ducaale/xh",
+          "homebrew": null
+        },
+        "commit": "2404aceecc08b0b2d100fedc96f57745cd5904dc"
+      }
     },
     "amalshaji/portr": {
       "status": "held",
@@ -9680,8 +9641,9 @@
     },
     "ykdojo/claude-code-tips": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "stormzhang/ai-coding-guide": {
       "status": "held",
@@ -9690,9 +9652,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "kuberwastaken/claurst": {
-      "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "kuberwastaken-claurst",
+      "acceptedAt": "2026-09-20T05:44:06.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Kuberwastaken/claurst/blob/b0637c97ec34144387cbf2f74f65df6d16a6cef1/npm/package.json",
+          "snippet": "{\"bin\":{\"claurst\":\"bin/claurst\"}}",
+          "target": "npm/bin/claurst"
+        },
+        "installation": {
+          "url": "https://github.com/Kuberwastaken/claurst/blob/b0637c97ec34144387cbf2f74f65df6d16a6cef1/README.md",
+          "snippet": "npm install -g claurst"
+        },
+        "usage": {
+          "url": "https://github.com/Kuberwastaken/claurst/blob/b0637c97ec34144387cbf2f74f65df6d16a6cef1/README.md",
+          "snippet": "claurst -p \"explain this codebase\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Kuberwastaken/claurst",
+          "snippet": "Agentic Coding for Builders who Ship"
+        },
+        "adoption": {
+          "stars": 10300,
+          "githubSource": "https://github.com/Kuberwastaken/claurst",
+          "homebrew": null
+        },
+        "commit": "b0637c97ec34144387cbf2f74f65df6d16a6cef1"
+      }
     },
     "taiki-e/cargo-hack": {
       "status": "held",
@@ -10168,13 +10158,15 @@
     },
     "arxanas/git-branchless": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "smtg-ai/claude-squad": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bluem/cliclick": {
       "status": "held",
@@ -10225,8 +10217,9 @@
     },
     "svenstaro/genact": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "gruntwork-io/cloud-nuke": {
       "status": "held",
@@ -10432,8 +10425,9 @@
     },
     "projectdiscovery/uncover": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "coder/coder": {
       "status": "held",
@@ -10463,8 +10457,9 @@
     },
     "ufomiao/zcf": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "colmap/colmap": {
       "status": "held",
@@ -10540,8 +10535,9 @@
     },
     "privatenumber/tsx": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "noborus/trdsql": {
       "status": "held",
@@ -10585,14 +10581,70 @@
       "reason": "Terminal use case needs classification"
     },
     "pycqa/isort": {
-      "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "pycqa-isort",
+      "acceptedAt": "2026-09-20T05:44:06.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/PyCQA/isort/blob/131f4adcd5582bfc53928ab0d740eceb8b506b6c/pyproject.toml",
+          "snippet": "isort = \"isort.main:main\"",
+          "target": "isort/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/PyCQA/isort/blob/131f4adcd5582bfc53928ab0d740eceb8b506b6c/README.md",
+          "snippet": "pip install isort"
+        },
+        "usage": {
+          "url": "https://github.com/PyCQA/isort/blob/131f4adcd5582bfc53928ab0d740eceb8b506b6c/README.md",
+          "snippet": "isort mypythonfile.py mypythonfile2.py"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/PyCQA/isort",
+          "snippet": "A Python utility / library to sort imports."
+        },
+        "adoption": {
+          "stars": 6954,
+          "githubSource": "https://github.com/PyCQA/isort",
+          "homebrew": null
+        },
+        "commit": "131f4adcd5582bfc53928ab0d740eceb8b506b6c"
+      }
     },
     "svg/svgo": {
-      "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "svg-svgo",
+      "acceptedAt": "2026-09-20T05:44:06.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/svg/svgo/blob/e4cb29bebcc9820ac979dfc05106b512cc5de986/package.json",
+          "snippet": "{\"bin\":{\"svgo\":\"./bin/svgo.js\"}}",
+          "target": "bin/svgo.js"
+        },
+        "installation": {
+          "url": "https://github.com/svg/svgo/blob/e4cb29bebcc9820ac979dfc05106b512cc5de986/README.md",
+          "snippet": "npm install -g svgo"
+        },
+        "usage": {
+          "url": "https://github.com/svg/svgo/blob/e4cb29bebcc9820ac979dfc05106b512cc5de986/README.md",
+          "snippet": "svgo one.svg two.svg -o one.min.svg two.min.svg"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/svg/svgo",
+          "snippet": "SVG Optimizer for Node.js and CLI. ⚙️"
+        },
+        "adoption": {
+          "stars": 22685,
+          "githubSource": "https://github.com/svg/svgo",
+          "homebrew": null
+        },
+        "commit": "e4cb29bebcc9820ac979dfc05106b512cc5de986"
+      }
     },
     "albert-weasker/niubi_guard": {
       "status": "held",
@@ -10629,8 +10681,9 @@
     },
     "codesenberg/bombardier": {
       "status": "held",
-      "checkedAt": "2026-09-14T23:44:21.493Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "lightonai/next-plaid": {
       "status": "accepted",
@@ -10929,9 +10982,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "str4d/rage": {
-      "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "str4d-rage",
+      "acceptedAt": "2026-09-20T05:44:06.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/str4d/rage/blob/b5b68c4f4f7ea5c368bc060f6fe0237549c3a13f/rage/Cargo.toml",
+          "snippet": "[[bin]] name=\"rage\" path=\"src/bin/rage/main.rs\"",
+          "target": "rage/src/bin/rage/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/str4d/rage/blob/b5b68c4f4f7ea5c368bc060f6fe0237549c3a13f/README.md",
+          "snippet": "| Cargo (Rust 1.85+) | `cargo install rage` |"
+        },
+        "usage": {
+          "url": "https://github.com/str4d/rage/blob/b5b68c4f4f7ea5c368bc060f6fe0237549c3a13f/README.md",
+          "snippet": "rage -p -o example.png.age example.png"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/str4d/rage",
+          "snippet": "A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability."
+        },
+        "adoption": {
+          "stars": 3657,
+          "githubSource": "https://github.com/str4d/rage",
+          "homebrew": null
+        },
+        "commit": "b5b68c4f4f7ea5c368bc060f6fe0237549c3a13f"
+      }
     },
     "amap-ml/longhorizon-harness": {
       "status": "held",
@@ -11611,8 +11692,9 @@
     },
     "tomwright/dasel": {
       "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "pyca/cryptography": {
       "status": "held",
@@ -11707,8 +11789,9 @@
     },
     "sachaos/viddy": {
       "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cue-lang/cue": {
       "status": "held",
@@ -11728,7 +11811,8 @@
     },
     "pranshuparmar/witr": {
       "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "cycodehq/cycode-cli": {
@@ -11786,9 +11870,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "google/zx": {
-      "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "google-zx",
+      "acceptedAt": "2026-09-20T05:44:06.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/google/zx/blob/65fc542d88baac578967e22bea28cb610976578c/package.json",
+          "snippet": "{\"bin\":{\"zx\":\"build/cli.js\"}}",
+          "target": "build/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/google/zx/blob/65fc542d88baac578967e22bea28cb610976578c/README.md",
+          "snippet": "npm install zx"
+        },
+        "usage": {
+          "url": "https://github.com/google/zx/blob/65fc542d88baac578967e22bea28cb610976578c/docs/getting-started.md",
+          "snippet": "zx ./script.mjs"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/google/zx",
+          "snippet": "A tool for writing better scripts"
+        },
+        "adoption": {
+          "stars": 45749,
+          "githubSource": "https://github.com/google/zx",
+          "homebrew": null
+        },
+        "commit": "65fc542d88baac578967e22bea28cb610976578c"
+      }
     },
     "mco-org/mco": {
       "status": "held",
@@ -11828,8 +11940,9 @@
     },
     "wasm-bindgen/wasm-pack": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
     },
     "kubermatic/fubectl": {
       "status": "held",
@@ -11838,9 +11951,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "veirt/weathr": {
-      "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "veirt-weathr",
+      "acceptedAt": "2026-09-20T05:44:06.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Veirt/weathr/blob/7d403a0c4039aca37ff4609ffe613e39552307f2/Cargo.toml",
+          "snippet": "package.name=\"weathr\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/Veirt/weathr/blob/7d403a0c4039aca37ff4609ffe613e39552307f2/README.md",
+          "snippet": "cargo install weathr"
+        },
+        "usage": {
+          "url": "https://github.com/Veirt/weathr/blob/7d403a0c4039aca37ff4609ffe613e39552307f2/README.md",
+          "snippet": "weathr --simulate rain"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Veirt/weathr",
+          "snippet": "a terminal weather app with ascii animation"
+        },
+        "adoption": {
+          "stars": 3056,
+          "githubSource": "https://github.com/Veirt/weathr",
+          "homebrew": null
+        },
+        "commit": "7d403a0c4039aca37ff4609ffe613e39552307f2"
+      }
     },
     "mattrobenolt/jinja2-cli": {
       "status": "accepted",
@@ -12016,8 +12157,9 @@
     },
     "gpakosz/.tmux": {
       "status": "held",
-      "checkedAt": "2026-09-15T04:44:21.268Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "msoap/shell2http": {
       "status": "held",
@@ -12121,7 +12263,8 @@
     },
     "asciimoo/wuzz": {
       "status": "held",
-      "checkedAt": "2026-09-15T05:44:18.625Z",
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "junedomingo/react-native-rename": {
@@ -12150,8 +12293,9 @@
     },
     "johanneskaufmann/html-to-markdown": {
       "status": "held",
-      "checkedAt": "2026-09-15T05:44:18.625Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bjarneo/ku": {
       "status": "held",
@@ -12166,8 +12310,9 @@
     },
     "simeji/jid": {
       "status": "held",
-      "checkedAt": "2026-09-15T05:44:18.625Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-20T05:44:06.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "codebendkit/codeseek": {
       "status": "held",
@@ -20167,5 +20312,5 @@
       "reason": "Description does not clearly identify a CLI"
     }
   },
-  "lastRunAt": "2026-09-20T04:44:06.279Z"
+  "lastRunAt": "2026-09-20T05:44:06.028Z"
 }

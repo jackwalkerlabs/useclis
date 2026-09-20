@@ -7297,6 +7297,177 @@ window.USECLIS_DATA = {
       "stars": 14924,
       "license": null,
       "checkedAt": "2026-09-20T04:45:01.889Z"
+    },
+    {
+      "slug": "ducaale-xh",
+      "name": "xh",
+      "repo": "ducaale/xh",
+      "category": "Data & APIs",
+      "command": "xh",
+      "useCase": "Friendly and fast tool for sending HTTP requests",
+      "description": "Friendly and fast tool for sending HTTP requests",
+      "agentUse": "Invoke xh from a shell for the documented use case: Friendly and fast tool for sending HTTP requests",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "xh httpbin.org/json",
+      "website": "https://github.com/ducaale/xh",
+      "docs": "https://github.com/ducaale/xh/blob/2404aceecc08b0b2d100fedc96f57745cd5904dc/README.md",
+      "stars": 8085,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T05:44:56.189Z"
+    },
+    {
+      "slug": "jhspetersson-fselect",
+      "name": "fselect",
+      "repo": "jhspetersson/fselect",
+      "category": "Data & APIs",
+      "command": "fselect",
+      "useCase": "Find files with SQL-like queries",
+      "description": "Find files with SQL-like queries",
+      "agentUse": "Invoke fselect from a shell for the documented use case: Find files with SQL-like queries",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fselect --plocate \"name, size from /home where size gt 100mb\"",
+      "website": "https://github.com/jhspetersson/fselect",
+      "docs": "https://github.com/jhspetersson/fselect/blob/e5919213058e239eb3dfa36bfbe1e70d56d3341c/docs/usage.md",
+      "stars": 4467,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-20T05:44:56.812Z"
+    },
+    {
+      "slug": "kuberwastaken-claurst",
+      "name": "claurst",
+      "repo": "Kuberwastaken/claurst",
+      "category": "Terminal utilities",
+      "command": "claurst",
+      "useCase": "Agentic Coding for Builders who Ship",
+      "description": "Agentic Coding for Builders who Ship",
+      "agentUse": "Invoke claurst from a shell for the documented use case: Agentic Coding for Builders who Ship",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "claurst -p \"explain this codebase\"",
+      "website": "https://github.com/Kuberwastaken/claurst",
+      "docs": "https://github.com/Kuberwastaken/claurst/blob/b0637c97ec34144387cbf2f74f65df6d16a6cef1/README.md",
+      "stars": 10300,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-20T05:44:57.431Z"
+    },
+    {
+      "slug": "pycqa-isort",
+      "name": "isort",
+      "repo": "PyCQA/isort",
+      "category": "Testing & quality",
+      "command": "isort",
+      "useCase": "A Python utility / library to sort imports.",
+      "description": "A Python utility / library to sort imports.",
+      "agentUse": "Invoke isort from a shell for the documented use case: A Python utility / library to sort imports.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "isort mypythonfile.py mypythonfile2.py",
+      "website": "https://github.com/PyCQA/isort",
+      "docs": "https://github.com/PyCQA/isort/blob/131f4adcd5582bfc53928ab0d740eceb8b506b6c/README.md",
+      "stars": 6954,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T05:44:58.045Z"
+    },
+    {
+      "slug": "svg-svgo",
+      "name": "svgo",
+      "repo": "svg/svgo",
+      "category": "Terminal utilities",
+      "command": "svgo",
+      "useCase": "SVG Optimizer for Node.js and CLI. ⚙️",
+      "description": "SVG Optimizer for Node.js and CLI. ⚙️",
+      "agentUse": "Invoke svgo from a shell for the documented use case: SVG Optimizer for Node.js and CLI. ⚙️",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "svgo one.svg two.svg -o one.min.svg two.min.svg",
+      "website": "https://github.com/svg/svgo",
+      "docs": "https://github.com/svg/svgo/blob/e4cb29bebcc9820ac979dfc05106b512cc5de986/README.md",
+      "stars": 22685,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T05:44:58.638Z"
+    },
+    {
+      "slug": "str4d-rage",
+      "name": "rage",
+      "repo": "str4d/rage",
+      "category": "Files & documents",
+      "command": "rage",
+      "useCase": "A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability.",
+      "description": "A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability.",
+      "agentUse": "Invoke rage from a shell for the documented use case: A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "rage -p -o example.png.age example.png",
+      "website": "https://github.com/str4d/rage",
+      "docs": "https://github.com/str4d/rage/blob/b5b68c4f4f7ea5c368bc060f6fe0237549c3a13f/README.md",
+      "stars": 3657,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-20T05:44:59.251Z"
+    },
+    {
+      "slug": "google-zx",
+      "name": "zx",
+      "repo": "google/zx",
+      "category": "Terminal utilities",
+      "command": "zx",
+      "useCase": "A tool for writing better scripts",
+      "description": "A tool for writing better scripts",
+      "agentUse": "Invoke zx from a shell for the documented use case: A tool for writing better scripts",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "zx ./script.mjs",
+      "website": "https://github.com/google/zx",
+      "docs": "https://github.com/google/zx/blob/65fc542d88baac578967e22bea28cb610976578c/docs/getting-started.md",
+      "stars": 45749,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-20T05:44:59.808Z"
+    },
+    {
+      "slug": "vi-websocat",
+      "name": "websocat",
+      "repo": "vi/websocat",
+      "category": "Terminal utilities",
+      "command": "websocat",
+      "useCase": "Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions",
+      "description": "Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions",
+      "agentUse": "Invoke websocat from a shell for the documented use case: Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "websocat ws://ws.vi-server.org/mirror",
+      "website": "https://github.com/vi/websocat",
+      "docs": "https://github.com/vi/websocat/blob/3a3574cd2f5d17857d87f3982e72c3ede159dde0/README.md",
+      "stars": 8692,
+      "license": "MIT",
+      "checkedAt": "2026-09-20T05:45:00.250Z"
+    },
+    {
+      "slug": "veirt-weathr",
+      "name": "weathr",
+      "repo": "Veirt/weathr",
+      "category": "Terminal utilities",
+      "command": "weathr",
+      "useCase": "a terminal weather app with ascii animation",
+      "description": "a terminal weather app with ascii animation",
+      "agentUse": "Invoke weathr from a shell for the documented use case: a terminal weather app with ascii animation",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "weathr --simulate rain",
+      "website": "https://github.com/Veirt/weathr",
+      "docs": "https://github.com/Veirt/weathr/blob/7d403a0c4039aca37ff4609ffe613e39552307f2/README.md",
+      "stars": 3056,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-20T05:45:00.774Z"
     }
   ],
   "categories": [
