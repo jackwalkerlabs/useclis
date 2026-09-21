@@ -8076,6 +8076,120 @@ window.USECLIS_DATA = {
       "stars": 938,
       "license": "MIT",
       "checkedAt": "2026-09-21T04:44:18.837Z"
+    },
+    {
+      "slug": "jkfran-killport",
+      "name": "killport",
+      "repo": "jkfran/killport",
+      "category": "Terminal utilities",
+      "command": "killport",
+      "useCase": "A command-line tool to kill processes and containers running on specified ports.",
+      "description": "A command-line tool to kill processes and containers running on specified ports.",
+      "agentUse": "Invoke killport from a shell for the documented use case: A command-line tool to kill processes and containers running on specified ports.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "killport 8080",
+      "website": "https://github.com/jkfran/killport",
+      "docs": "https://github.com/jkfran/killport/blob/ca21e877444391b0dfd4846865c545e8f2068533/README.md",
+      "stars": 1841,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T05:44:15.116Z"
+    },
+    {
+      "slug": "orhun-menyoki",
+      "name": "menyoki",
+      "repo": "orhun/menyoki",
+      "category": "Terminal utilities",
+      "command": "menyoki",
+      "useCase": "Screen{shot,cast} and perform ImageOps on the command line 🌱 🏞️",
+      "description": "Screen{shot,cast} and perform ImageOps on the command line 🌱 🏞️",
+      "agentUse": "Invoke menyoki from a shell for the documented use case: Screen{shot,cast} and perform ImageOps on the command line 🌱 🏞️",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "menyoki - image analysis report",
+      "website": "https://github.com/orhun/menyoki",
+      "docs": "https://github.com/orhun/menyoki/blob/1183d7e66956f66fb12e7410cc151ccbe83f7055/README.md",
+      "stars": 669,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-21T05:44:15.741Z"
+    },
+    {
+      "slug": "textualize-rich-cli",
+      "name": "rich-cli",
+      "repo": "Textualize/rich-cli",
+      "category": "Files & documents",
+      "command": "rich",
+      "useCase": "Rich-cli is a command line toolbox for fancy output in the terminal",
+      "description": "Rich-cli is a command line toolbox for fancy output in the terminal",
+      "agentUse": "Invoke rich from a shell for the documented use case: Rich-cli is a command line toolbox for fancy output in the terminal",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "rich loop.py",
+      "website": "https://github.com/Textualize/rich-cli",
+      "docs": "https://github.com/Textualize/rich-cli/blob/46f4d2469097be395558768714a5f07ebccf1412/README.md",
+      "stars": 3724,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T05:44:16.163Z"
+    },
+    {
+      "slug": "tldr-pages-tldr-python-client",
+      "name": "tldr-python-client",
+      "repo": "tldr-pages/tldr-python-client",
+      "category": "Terminal utilities",
+      "command": "tldr",
+      "useCase": "Official Python command-line client for tldr pages 🐍.",
+      "description": "Official Python command-line client for tldr pages 🐍.",
+      "agentUse": "Invoke tldr from a shell for the documented use case: Official Python command-line client for tldr pages 🐍.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "tldr --clear-cache",
+      "website": "https://github.com/tldr-pages/tldr-python-client",
+      "docs": "https://github.com/tldr-pages/tldr-python-client/blob/85eda9793fff693caf0b5c9099950b6b1aec9982/README.md",
+      "stars": 750,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T05:44:16.789Z"
+    },
+    {
+      "slug": "glomatico-gamdl",
+      "name": "gamdl",
+      "repo": "glomatico/gamdl",
+      "category": "Terminal utilities",
+      "command": "gamdl",
+      "useCase": "A command-line app for downloading Apple Music songs, music videos and post videos.",
+      "description": "A command-line app for downloading Apple Music songs, music videos and post videos.",
+      "agentUse": "Invoke gamdl from a shell for the documented use case: A command-line app for downloading Apple Music songs, music videos and post videos.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "gamdl \"https://music.apple.com/us/album/never-gonna-give-you-up-2022-remaster/1624945511?i=1624945512\"",
+      "website": "https://github.com/glomatico/gamdl",
+      "docs": "https://github.com/glomatico/gamdl/blob/478c3f26464b499f3a6b875c4ceb1d3c9fc2eefc/README.md",
+      "stars": 2635,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T05:44:17.354Z"
+    },
+    {
+      "slug": "ttytm-wthrr-the-weathercrab",
+      "name": "wthrr-the-weathercrab",
+      "repo": "ttytm/wthrr-the-weathercrab",
+      "category": "Terminal utilities",
+      "command": "wthrr",
+      "useCase": "🌞 🦀 🌙 Weather companion for the terminal. Rust app. ",
+      "description": "🌞 🦀 🌙 Weather companion for the terminal. Rust app. ",
+      "agentUse": "Invoke wthrr from a shell for the documented use case: 🌞 🦀 🌙 Weather companion for the terminal. Rust app. ",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "wthrr melbourne",
+      "website": "https://github.com/ttytm/wthrr-the-weathercrab",
+      "docs": "https://github.com/ttytm/wthrr-the-weathercrab/blob/8c71fe8930f534f12ad66e0bcb119667717e2a0f/README.md",
+      "stars": 501,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T05:44:17.962Z"
     }
   ],
   "categories": [

@@ -4,138 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "cognidox/OfficeToPDF"
-    },
-    {
-      "repo": "jkfran/killport"
-    },
-    {
-      "repo": "mr-karan/doggo"
-    },
-    {
-      "repo": "charmbracelet/soft-serve"
-    },
-    {
-      "repo": "Hejsil/zig-clap"
-    },
-    {
-      "repo": "exercism/cli"
-    },
-    {
-      "repo": "ascii-boxes/boxes"
-    },
-    {
-      "repo": "julienXX/terminal-notifier"
-    },
-    {
-      "repo": "jpmml/jpmml-sklearn"
-    },
-    {
-      "repo": "sveinbjornt/hear"
-    },
-    {
-      "repo": "ayoisaiah/f2"
-    },
-    {
-      "repo": "c-blake/cligen"
-    },
-    {
-      "repo": "orhun/menyoki"
-    },
-    {
-      "repo": "yoshiko-pg/difit"
-    },
-    {
-      "repo": "idank/explainshell"
-    },
-    {
-      "repo": "Licoy/fetch-github-hosts"
-    },
-    {
-      "repo": "CryptoDmitry/Ghost-Agent"
-    },
-    {
-      "repo": "laravel/prompts"
-    },
-    {
-      "repo": "Klemen1337/node-thermal-printer"
-    },
-    {
-      "repo": "internet-development/www-server-mono"
-    },
-    {
-      "repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
-    },
-    {
-      "repo": "mssun/passforios"
-    },
-    {
-      "repo": "tmbo/questionary"
-    },
-    {
-      "repo": "tobya/DocTo"
-    },
-    {
-      "repo": "cc1a2b/JShunter"
-    },
-    {
-      "repo": "adamabdelhamed/PowerArgs"
-    },
-    {
-      "repo": "Textualize/rich-cli"
-    },
-    {
-      "repo": "motdotla/node-lambda"
-    },
-    {
-      "repo": "tldr-pages/tldr-python-client"
-    },
-    {
-      "repo": "alan-turing-institute/CleverCSV"
-    },
-    {
-      "repo": "jpsim/SourceKitten"
-    },
-    {
-      "repo": "normen/whatscli"
-    },
-    {
-      "repo": "EasyEngine/easyengine"
-    },
-    {
-      "repo": "GameServerManagers/LinuxGSM"
-    },
-    {
-      "repo": "git-bahn/git-graph"
-    },
-    {
-      "repo": "bugaevc/wl-clipboard"
-    },
-    {
-      "repo": "glomatico/gamdl"
-    },
-    {
-      "repo": "commander-rb/commander"
-    },
-    {
-      "repo": "rehmatworks/gplaydl"
-    },
-    {
-      "repo": "tempestphp/highlight"
-    },
-    {
-      "repo": "nfzerox/VirtualMacOniPad"
-    },
-    {
-      "repo": "owo-colors/owo-colors"
-    },
-    {
-      "repo": "thephpleague/climate"
-    },
-    {
-      "repo": "ttytm/wthrr-the-weathercrab"
-    },
-    {
       "repo": "JCluzet/Grademe"
     },
     {
@@ -3129,8 +2997,9 @@
     },
     "hejsil/zig-clap": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "macports/macports-base": {
       "status": "held",
@@ -3139,8 +3008,9 @@
     },
     "ascii-boxes/boxes": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "blacknon/hwatch": {
       "status": "accepted",
@@ -3177,18 +3047,48 @@
     },
     "julienxx/terminal-notifier": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sveinbjornt/hear": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "orhun/menyoki": {
-      "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "orhun-menyoki",
+      "acceptedAt": "2026-09-21T05:43:34.640Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/orhun/menyoki/blob/1183d7e66956f66fb12e7410cc151ccbe83f7055/Cargo.toml",
+          "snippet": "package.name=\"menyoki\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/orhun/menyoki/blob/1183d7e66956f66fb12e7410cc151ccbe83f7055/README.md",
+          "snippet": "cargo install menyoki"
+        },
+        "usage": {
+          "url": "https://github.com/orhun/menyoki/blob/1183d7e66956f66fb12e7410cc151ccbe83f7055/README.md",
+          "snippet": "menyoki - image analysis report"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/orhun/menyoki",
+          "snippet": "Screen{shot,cast} and perform ImageOps on the command line 🌱 🏞️"
+        },
+        "adoption": {
+          "stars": 669,
+          "githubSource": "https://github.com/orhun/menyoki",
+          "homebrew": null
+        },
+        "commit": "1183d7e66956f66fb12e7410cc151ccbe83f7055"
+      }
     },
     "kellyjonbrazil/jc": {
       "status": "held",
@@ -4174,8 +4074,9 @@
     },
     "cognidox/officetopdf": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "kardolus/chatgpt-cli": {
       "status": "held",
@@ -4195,9 +4096,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "jkfran/killport": {
-      "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "jkfran-killport",
+      "acceptedAt": "2026-09-21T05:43:34.640Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/jkfran/killport/blob/ca21e877444391b0dfd4846865c545e8f2068533/Cargo.toml",
+          "snippet": "package.name=\"killport\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/jkfran/killport/blob/ca21e877444391b0dfd4846865c545e8f2068533/README.md",
+          "snippet": "cargo install killport"
+        },
+        "usage": {
+          "url": "https://github.com/jkfran/killport/blob/ca21e877444391b0dfd4846865c545e8f2068533/README.md",
+          "snippet": "killport 8080"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/jkfran/killport",
+          "snippet": "A command-line tool to kill processes and containers running on specified ports."
+        },
+        "adoption": {
+          "stars": 1841,
+          "githubSource": "https://github.com/jkfran/killport",
+          "homebrew": null
+        },
+        "commit": "ca21e877444391b0dfd4846865c545e8f2068533"
+      }
     },
     "ad-si/transity": {
       "status": "held",
@@ -4207,8 +4136,9 @@
     },
     "mr-karan/doggo": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "wyattblue/auto-editor": {
       "status": "held",
@@ -5329,7 +5259,8 @@
     },
     "charmbracelet/soft-serve": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "tj/commander.js": {
@@ -5399,13 +5330,15 @@
     },
     "exercism/cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jpmml/jpmml-sklearn": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "moul/http2curl": {
       "status": "held",
@@ -5414,13 +5347,15 @@
     },
     "ayoisaiah/f2": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "c-blake/cligen": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "google/clasp": {
       "status": "held",
@@ -5430,7 +5365,8 @@
     },
     "yoshiko-pg/difit": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "meganz/megacmd": {
@@ -5445,12 +5381,14 @@
     },
     "idank/explainshell": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "licoy/fetch-github-hosts": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "utiso/dorkbot": {
@@ -5465,13 +5403,15 @@
     },
     "cryptodmitry/ghost-agent": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "laravel/prompts": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bashly-framework/bashly": {
       "status": "held",
@@ -5481,8 +5421,9 @@
     },
     "klemen1337/node-thermal-printer": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "vividvilla/csvtotable": {
       "status": "accepted",
@@ -5524,8 +5465,9 @@
     },
     "internet-development/www-server-mono": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "casey/intermodal": {
       "status": "accepted",
@@ -5561,8 +5503,9 @@
     },
     "montrealcorpustools/montreal-forced-aligner": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "webtorrent/webtorrent-cli": {
       "status": "accepted",
@@ -5604,13 +5547,15 @@
     },
     "mssun/passforios": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "tmbo/questionary": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "shadawck/awesome-cli-frameworks": {
       "status": "held",
@@ -5620,7 +5565,8 @@
     },
     "tobya/docto": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "dbohdan/structured-text-tools": {
@@ -5631,13 +5577,15 @@
     },
     "cc1a2b/jshunter": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "adamabdelhamed/powerargs": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "gruntwork-io/git-xargs": {
       "status": "held",
@@ -5646,9 +5594,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "textualize/rich-cli": {
-      "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "textualize-rich-cli",
+      "acceptedAt": "2026-09-21T05:43:34.640Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Textualize/rich-cli/blob/46f4d2469097be395558768714a5f07ebccf1412/pyproject.toml",
+          "snippet": "rich = \"rich_cli.__main__:run\"",
+          "target": "src/rich_cli/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/Textualize/rich-cli/blob/46f4d2469097be395558768714a5f07ebccf1412/README.md",
+          "snippet": "pipx install rich-cli"
+        },
+        "usage": {
+          "url": "https://github.com/Textualize/rich-cli/blob/46f4d2469097be395558768714a5f07ebccf1412/README.md",
+          "snippet": "rich loop.py"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Textualize/rich-cli",
+          "snippet": "Rich-cli is a command line toolbox for fancy output in the terminal"
+        },
+        "adoption": {
+          "stars": 3724,
+          "githubSource": "https://github.com/Textualize/rich-cli",
+          "homebrew": null
+        },
+        "commit": "46f4d2469097be395558768714a5f07ebccf1412"
+      }
     },
     "pcb2gcode/pcb2gcode": {
       "status": "held",
@@ -5688,9 +5664,37 @@
       }
     },
     "tldr-pages/tldr-python-client": {
-      "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "tldr-pages-tldr-python-client",
+      "acceptedAt": "2026-09-21T05:43:34.640Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/tldr-pages/tldr-python-client/blob/85eda9793fff693caf0b5c9099950b6b1aec9982/pyproject.toml",
+          "snippet": "tldr = \"tldr:cli\"",
+          "target": "tldr.py"
+        },
+        "installation": {
+          "url": "https://github.com/tldr-pages/tldr-python-client/blob/85eda9793fff693caf0b5c9099950b6b1aec9982/README.md",
+          "snippet": "pip install tldr"
+        },
+        "usage": {
+          "url": "https://github.com/tldr-pages/tldr-python-client/blob/85eda9793fff693caf0b5c9099950b6b1aec9982/README.md",
+          "snippet": "tldr --clear-cache"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/tldr-pages/tldr-python-client",
+          "snippet": "Official Python command-line client for tldr pages 🐍."
+        },
+        "adoption": {
+          "stars": 750,
+          "githubSource": "https://github.com/tldr-pages/tldr-python-client",
+          "homebrew": null
+        },
+        "commit": "85eda9793fff693caf0b5c9099950b6b1aec9982"
+      }
     },
     "alan-turing-institute/clevercsv": {
       "status": "accepted",
@@ -5726,28 +5730,33 @@
     },
     "jpsim/sourcekitten": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "normen/whatscli": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "easyengine/easyengine": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "gameservermanagers/linuxgsm": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "bugaevc/wl-clipboard": {
       "status": "held",
-      "checkedAt": "2026-09-14T04:44:19.190Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "home-assistant-ecosystem/home-assistant-cli": {
       "status": "accepted",
@@ -5794,14 +5803,43 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "glomatico/gamdl": {
-      "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "glomatico-gamdl",
+      "acceptedAt": "2026-09-21T05:43:34.640Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/glomatico/gamdl/blob/478c3f26464b499f3a6b875c4ceb1d3c9fc2eefc/pyproject.toml",
+          "snippet": "gamdl = \"gamdl.cli.cli:main\"",
+          "target": "gamdl/cli/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/glomatico/gamdl/blob/478c3f26464b499f3a6b875c4ceb1d3c9fc2eefc/README.md",
+          "snippet": "pip install gamdl"
+        },
+        "usage": {
+          "url": "https://github.com/glomatico/gamdl/blob/478c3f26464b499f3a6b875c4ceb1d3c9fc2eefc/README.md",
+          "snippet": "gamdl \"https://music.apple.com/us/album/never-gonna-give-you-up-2022-remaster/1624945511?i=1624945512\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/glomatico/gamdl",
+          "snippet": "A command-line app for downloading Apple Music songs, music videos and post videos."
+        },
+        "adoption": {
+          "stars": 2635,
+          "githubSource": "https://github.com/glomatico/gamdl",
+          "homebrew": null
+        },
+        "commit": "478c3f26464b499f3a6b875c4ceb1d3c9fc2eefc"
+      }
     },
     "commander-rb/commander": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rehmatworks/gplaydl": {
       "status": "accepted",
@@ -21398,7 +21436,64 @@
       "checkedAt": "2026-09-21T04:43:41.897Z",
       "rulesVersion": 2,
       "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "tempestphp/highlight": {
+      "status": "held",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nfzerox/virtualmaconipad": {
+      "status": "held",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "owo-colors/owo-colors": {
+      "status": "held",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "thephpleague/climate": {
+      "status": "held",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ttytm/wthrr-the-weathercrab": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T05:43:34.640Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ttytm-wthrr-the-weathercrab",
+      "acceptedAt": "2026-09-21T05:43:34.640Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ttytm/wthrr-the-weathercrab/blob/8c71fe8930f534f12ad66e0bcb119667717e2a0f/Cargo.toml",
+          "snippet": "[[bin]] name=\"wthrr\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/ttytm/wthrr-the-weathercrab/blob/8c71fe8930f534f12ad66e0bcb119667717e2a0f/README.md",
+          "snippet": "| release     | `cargo install wthrr` |"
+        },
+        "usage": {
+          "url": "https://github.com/ttytm/wthrr-the-weathercrab/blob/8c71fe8930f534f12ad66e0bcb119667717e2a0f/README.md",
+          "snippet": "wthrr melbourne"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ttytm/wthrr-the-weathercrab",
+          "snippet": "🌞 🦀 🌙 Weather companion for the terminal. Rust app. "
+        },
+        "adoption": {
+          "stars": 501,
+          "githubSource": "https://github.com/ttytm/wthrr-the-weathercrab",
+          "homebrew": null
+        },
+        "commit": "8c71fe8930f534f12ad66e0bcb119667717e2a0f"
+      }
     }
   },
-  "lastRunAt": "2026-09-21T04:43:41.897Z"
+  "lastRunAt": "2026-09-21T05:43:34.640Z"
 }

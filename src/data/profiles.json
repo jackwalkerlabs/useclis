@@ -4561,5 +4561,70 @@
     "createdAt": "2019-04-09T07:30:11Z",
     "checkedAt": "2026-09-21T04:44:21.792Z",
     "source": "https://github.com/abey79"
+  },
+  "jkfran": {
+    "login": "jkfran",
+    "name": "Francisco Jiménez Cabrera",
+    "type": "User",
+    "bio": null,
+    "location": "London, UK",
+    "website": "https://jkfran.com",
+    "followers": 47,
+    "publicRepos": 130,
+    "createdAt": "2014-01-08T22:38:27Z",
+    "checkedAt": "2026-09-21T05:44:20.292Z",
+    "source": "https://github.com/jkfran"
+  },
+  "textualize": {
+    "login": "Textualize",
+    "name": "Textualize",
+    "type": "Organization",
+    "bio": "Move at terminal velocity",
+    "location": null,
+    "website": "https://www.textualize.io",
+    "followers": 2372,
+    "publicRepos": 33,
+    "createdAt": "2021-10-29T10:06:26Z",
+    "checkedAt": "2026-09-21T05:44:20.493Z",
+    "source": "https://github.com/Textualize"
+  },
+  "tldr-pages": {
+    "login": "tldr-pages",
+    "name": "tldr pages",
+    "type": "Organization",
+    "bio": "Collaborative cheatsheets for console commands 📚.",
+    "location": null,
+    "website": "https://tldr.sh",
+    "followers": 693,
+    "publicRepos": 28,
+    "createdAt": "2014-04-21T23:00:30Z",
+    "checkedAt": "2026-09-21T05:44:20.759Z",
+    "source": "https://github.com/tldr-pages"
+  },
+  "glomatico": {
+    "login": "glomatico",
+    "name": "Rafael Moraes",
+    "type": "User",
+    "bio": "Developer",
+    "location": "Rio Grande do Sul, Brazil",
+    "website": "glomatico.me",
+    "followers": 307,
+    "publicRepos": 26,
+    "createdAt": "2019-05-05T13:14:20Z",
+    "checkedAt": "2026-09-21T05:44:21.186Z",
+    "source": "https://github.com/glomatico"
+  },
+  "ttytm": {
+    "login": "ttytm",
+    "name": "Turiiya",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 105,
+    "publicRepos": 69,
+    "createdAt": "2017-12-06T15:22:36Z",
+    "checkedAt": "2026-09-21T05:44:21.486Z",
+    "source": "https://github.com/ttytm"
   }
 }
