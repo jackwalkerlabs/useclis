@@ -8456,6 +8456,101 @@ window.USECLIS_DATA = {
       "stars": 528,
       "license": null,
       "checkedAt": "2026-09-21T08:44:49.057Z"
+    },
+    {
+      "slug": "enulus-openpackage",
+      "name": "OpenPackage",
+      "repo": "enulus/OpenPackage",
+      "category": "Agents & models",
+      "command": "opkg",
+      "useCase": "The open, universal, coding agent skills, agents, rules, and commands organizer and package manager.",
+      "description": "The open, universal, coding agent skills, agents, rules, and commands organizer and package manager.",
+      "agentUse": "Invoke opkg from a shell for the documented use case: The open, universal, coding agent skills, agents, rules, and commands organizer and package manager.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "opkg new",
+      "website": "https://github.com/enulus/OpenPackage",
+      "docs": "https://github.com/enulus/OpenPackage/blob/399187d6cc4f4c86391fa07ff23b5387f898d2bf/specs/README.md",
+      "stars": 615,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-21T09:44:01.024Z"
+    },
+    {
+      "slug": "afshinm-zerobox",
+      "name": "zerobox",
+      "repo": "afshinm/zerobox",
+      "category": "Agents & models",
+      "command": "zerobox",
+      "useCase": "Lightweight, cross-platform process sandboxing powered by OpenAI Codex's runtime. Sandbox any command with file, network, and credential controls.",
+      "description": "Lightweight, cross-platform process sandboxing powered by OpenAI Codex's runtime. Sandbox any command with file, network, and credential controls.",
+      "agentUse": "Invoke zerobox from a shell for the documented use case: Lightweight, cross-platform process sandboxing powered by OpenAI Codex's runtime. Sandbox any command with file, network, and credential controls.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "zerobox --allow-write=. -- node script.js",
+      "website": "https://github.com/afshinm/zerobox",
+      "docs": "https://github.com/afshinm/zerobox/blob/9a7affd6c68fb2541c7c709559c40e08ba0a1872/README.md",
+      "stars": 720,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-21T09:44:01.502Z"
+    },
+    {
+      "slug": "kaifcodec-ytconverter",
+      "name": "ytconverter",
+      "repo": "kaifcodec/ytconverter",
+      "category": "Terminal utilities",
+      "command": "ytconverter",
+      "useCase": "The ytconverter is a CLI tool for downloading YouTube videos in various format directly from the terminal. It leverages popular libraries (yt-dlp) and frameworks within the Python ecosystem to handle video downloading, format conversion, metadata handling and many more!",
+      "description": "The ytconverter is a CLI tool for downloading YouTube videos in various format directly from the terminal. It leverages popular libraries (yt-dlp) and frameworks within the Python ecosystem to handle video downloading, format conversion, metadata handling and many more!",
+      "agentUse": "Invoke ytconverter from a shell for the documented use case: The ytconverter is a CLI tool for downloading YouTube videos in various format directly from the terminal. It leverages popular libraries (yt-dlp) and frameworks within the Python ecosystem to handle video downloading, format conversion, metadata handling and many more!",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ytconverter -S",
+      "website": "https://github.com/kaifcodec/ytconverter",
+      "docs": "https://github.com/kaifcodec/ytconverter/blob/a5017652d358cc939db98232002b2e0754c091fe/README.md",
+      "stars": 681,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T09:44:02.040Z"
+    },
+    {
+      "slug": "glomatico-votify",
+      "name": "votify",
+      "repo": "glomatico/votify",
+      "category": "Terminal utilities",
+      "command": "votify",
+      "useCase": "A command-line app for downloading songs, podcasts and videos from Spotify.",
+      "description": "A command-line app for downloading songs, podcasts and videos from Spotify.",
+      "agentUse": "Invoke votify from a shell for the documented use case: A command-line app for downloading songs, podcasts and videos from Spotify.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "votify \"https://open.spotify.com/track/18gqCQzqYb0zvurQPlRkpo\"",
+      "website": "https://github.com/glomatico/votify",
+      "docs": "https://github.com/glomatico/votify/blob/db14e4d1aa01456e0ec3b55d6f7268787ba2e2c4/README.md",
+      "stars": 919,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T09:44:02.576Z"
+    },
+    {
+      "slug": "ferrislucas-promptr",
+      "name": "promptr",
+      "repo": "ferrislucas/promptr",
+      "category": "Terminal utilities",
+      "command": "promptr",
+      "useCase": "Promptr is a CLI tool that applies plain language instructions to the filesystem. Instructions can utilize a liquidjs based templating system. Use cases include refactoring, code generation, and experimentation.",
+      "description": "Promptr is a CLI tool that applies plain language instructions to the filesystem. Instructions can utilize a liquidjs based templating system. Use cases include refactoring, code generation, and experimentation.",
+      "agentUse": "Invoke promptr from a shell for the documented use case: Promptr is a CLI tool that applies plain language instructions to the filesystem. Instructions can utilize a liquidjs based templating system. Use cases include refactoring, code generation, and experimentation.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "promptr -p my_prompt.txt",
+      "website": "https://github.com/ferrislucas/promptr",
+      "docs": "https://github.com/ferrislucas/promptr/blob/1459f515ff27905e53df0291ffd72664e3ee10d1/README.md",
+      "stars": 950,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T09:44:03.012Z"
     }
   ],
   "categories": [

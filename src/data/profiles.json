@@ -4808,5 +4808,57 @@
     "createdAt": "2018-07-24T14:13:43Z",
     "checkedAt": "2026-09-21T08:44:54.889Z",
     "source": "https://github.com/ARCANGEL0"
+  },
+  "enulus": {
+    "login": "enulus",
+    "name": "Enulus",
+    "type": "Organization",
+    "bio": null,
+    "location": null,
+    "website": "enulus.com",
+    "followers": 1,
+    "publicRepos": 1,
+    "createdAt": "2025-11-20T12:21:19Z",
+    "checkedAt": "2026-09-21T09:44:05.860Z",
+    "source": "https://github.com/enulus"
+  },
+  "afshinm": {
+    "login": "afshinm",
+    "name": "Afshin Mehrabani",
+    "type": "User",
+    "bio": null,
+    "location": "Dublin, Ireland",
+    "website": "https://afshin.io",
+    "followers": 1045,
+    "publicRepos": 141,
+    "createdAt": "2010-06-25T08:00:27Z",
+    "checkedAt": "2026-09-21T09:44:06.114Z",
+    "source": "https://github.com/afshinm"
+  },
+  "kaifcodec": {
+    "login": "kaifcodec",
+    "name": "Kaif",
+    "type": "User",
+    "bio": "OSINT, Moble App Reverse Engineering, Ethical Hacking, Python, Cybersecurity, Deep low-level RE, WebDev, Android Dev",
+    "location": null,
+    "website": null,
+    "followers": 454,
+    "publicRepos": 30,
+    "createdAt": "2022-01-27T12:00:36Z",
+    "checkedAt": "2026-09-21T09:44:06.394Z",
+    "source": "https://github.com/kaifcodec"
+  },
+  "ferrislucas": {
+    "login": "ferrislucas",
+    "name": "Ferris Lucas",
+    "type": "User",
+    "bio": null,
+    "location": "Kansas City, KS",
+    "website": "https://ferrislucas.net/",
+    "followers": 42,
+    "publicRepos": 35,
+    "createdAt": "2011-03-19T03:13:50Z",
+    "checkedAt": "2026-09-21T09:44:06.597Z",
+    "source": "https://github.com/ferrislucas"
   }
 }

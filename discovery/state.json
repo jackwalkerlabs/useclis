@@ -4,96 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "jrnxf/thokr"
-    },
-    {
-      "repo": "Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI"
-    },
-    {
-      "repo": "ahmadawais/ramadan-cli"
-    },
-    {
-      "repo": "julien040/gut"
-    },
-    {
-      "repo": "babarot/gomi"
-    },
-    {
-      "repo": "Bahaaio/pomo"
-    },
-    {
-      "repo": "kargnas/damn-my-slow-kt"
-    },
-    {
-      "repo": "fuelen/owl"
-    },
-    {
-      "repo": "loxy0devlp/RedTiger-Tools"
-    },
-    {
-      "repo": "shotgun-sh/shotgun"
-    },
-    {
-      "repo": "alajmo/sake"
-    },
-    {
-      "repo": "enulus/OpenPackage"
-    },
-    {
-      "repo": "EwenQuim/entropy"
-    },
-    {
-      "repo": "daniel3303/ClaudeCodeStatusLine"
-    },
-    {
-      "repo": "MagicCube/helixent"
-    },
-    {
-      "repo": "alajmo/mani"
-    },
-    {
-      "repo": "afshinm/zerobox"
-    },
-    {
-      "repo": "DuanYan007/markitdown"
-    },
-    {
-      "repo": "Krasjet/pdf.tocgen"
-    },
-    {
-      "repo": "pythops/tenere"
-    },
-    {
-      "repo": "FrancescoStabile/numasec"
-    },
-    {
-      "repo": "minamijoyo/hcledit"
-    },
-    {
-      "repo": "hofstadter-io/hof"
-    },
-    {
-      "repo": "php-tui/php-tui"
-    },
-    {
-      "repo": "leventcz/laravel-top"
-    },
-    {
-      "repo": "akd-io/create-next-stack"
-    },
-    {
-      "repo": "kaifcodec/ytconverter"
-    },
-    {
-      "repo": "nakabonne/pbgopy"
-    },
-    {
-      "repo": "glomatico/votify"
-    },
-    {
-      "repo": "ferrislucas/promptr"
-    },
-    {
       "repo": "str4d/age-plugin-yubikey"
     },
     {
@@ -6592,9 +6502,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "ferrislucas/promptr": {
-      "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ferrislucas-promptr",
+      "acceptedAt": "2026-09-21T09:43:34.326Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ferrislucas/promptr/blob/1459f515ff27905e53df0291ffd72664e3ee10d1/package.json",
+          "snippet": "{\"bin\":{\"promptr\":\"bin/index.js\"}}",
+          "target": "bin/index.js"
+        },
+        "installation": {
+          "url": "https://github.com/ferrislucas/promptr/blob/1459f515ff27905e53df0291ffd72664e3ee10d1/README.md",
+          "snippet": "yarn global add @ifnotnowwhen/promptr"
+        },
+        "usage": {
+          "url": "https://github.com/ferrislucas/promptr/blob/1459f515ff27905e53df0291ffd72664e3ee10d1/README.md",
+          "snippet": "promptr -p my_prompt.txt"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ferrislucas/promptr",
+          "snippet": "Promptr is a CLI tool that applies plain language instructions to the filesystem. Instructions can utilize a liquidjs based templating system. Use cases include refactoring, code generation, and experimentation."
+        },
+        "adoption": {
+          "stars": 950,
+          "githubSource": "https://github.com/ferrislucas/promptr",
+          "homebrew": null
+        },
+        "commit": "1459f515ff27905e53df0291ffd72664e3ee10d1"
+      }
     },
     "svetlitski/fcp": {
       "status": "held",
@@ -9071,8 +9009,9 @@
     },
     "minamijoyo/hcledit": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "efforg/apkeep": {
       "status": "accepted",
@@ -9108,8 +9047,9 @@
     },
     "leventcz/laravel-top": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ipinfo/cli": {
       "status": "held",
@@ -9154,9 +9094,37 @@
       }
     },
     "glomatico/votify": {
-      "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "glomatico-votify",
+      "acceptedAt": "2026-09-21T09:43:34.326Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/glomatico/votify/blob/db14e4d1aa01456e0ec3b55d6f7268787ba2e2c4/pyproject.toml",
+          "snippet": "votify = \"votify.cli.cli:main\"",
+          "target": "votify/cli/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/glomatico/votify/blob/db14e4d1aa01456e0ec3b55d6f7268787ba2e2c4/README.md",
+          "snippet": "pip install votify[librespot]"
+        },
+        "usage": {
+          "url": "https://github.com/glomatico/votify/blob/db14e4d1aa01456e0ec3b55d6f7268787ba2e2c4/README.md",
+          "snippet": "votify \"https://open.spotify.com/track/18gqCQzqYb0zvurQPlRkpo\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/glomatico/votify",
+          "snippet": "A command-line app for downloading songs, podcasts and videos from Spotify."
+        },
+        "adoption": {
+          "stars": 919,
+          "githubSource": "https://github.com/glomatico/votify",
+          "homebrew": null
+        },
+        "commit": "db14e4d1aa01456e0ec3b55d6f7268787ba2e2c4"
+      }
     },
     "guywaldman/magic-cli": {
       "status": "held",
@@ -15480,8 +15448,9 @@
     },
     "dokhacgiakhoa/agent-skills-4-vibe-coding-cli": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
     },
     "canop/dysk": {
       "status": "held",
@@ -15505,18 +15474,21 @@
     },
     "ahmadawais/ramadan-cli": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "julien040/gut": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "babarot/gomi": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "infinitered/ignite": {
       "status": "held",
@@ -15531,8 +15503,9 @@
     },
     "kargnas/damn-my-slow-kt": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "langwatch/better-agents": {
       "status": "held",
@@ -15551,8 +15524,9 @@
     },
     "loxy0devlp/redtiger-tools": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rohitg00/skillkit": {
       "status": "held",
@@ -15566,8 +15540,9 @@
     },
     "shotgun-sh/shotgun": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "instill-ai/instill-core": {
       "status": "held",
@@ -15576,8 +15551,9 @@
     },
     "alajmo/sake": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "lorryjovens-hub/claude-code-rust": {
       "status": "held",
@@ -15591,13 +15567,42 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "enulus/openpackage": {
-      "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "enulus-openpackage",
+      "acceptedAt": "2026-09-21T09:43:34.326Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/enulus/OpenPackage/blob/399187d6cc4f4c86391fa07ff23b5387f898d2bf/package.json",
+          "snippet": "{\"bin\":{\"opkg\":\"./bin/openpackage\"}}",
+          "target": "bin/openpackage"
+        },
+        "installation": {
+          "url": "https://github.com/enulus/OpenPackage/blob/399187d6cc4f4c86391fa07ff23b5387f898d2bf/README.md",
+          "snippet": "npm install -g opkg"
+        },
+        "usage": {
+          "url": "https://github.com/enulus/OpenPackage/blob/399187d6cc4f4c86391fa07ff23b5387f898d2bf/specs/README.md",
+          "snippet": "opkg new"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/enulus/OpenPackage",
+          "snippet": "The open, universal, coding agent skills, agents, rules, and commands organizer and package manager."
+        },
+        "adoption": {
+          "stars": 615,
+          "githubSource": "https://github.com/enulus/OpenPackage",
+          "homebrew": null
+        },
+        "commit": "399187d6cc4f4c86391fa07ff23b5387f898d2bf"
+      }
     },
     "ewenquim/entropy": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "stefanmaric/g": {
@@ -15607,8 +15612,9 @@
     },
     "daniel3303/claudecodestatusline": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "owloops/updo": {
       "status": "held",
@@ -15632,13 +15638,15 @@
     },
     "magiccube/helixent": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "alajmo/mani": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "docsagent/docsagent": {
       "status": "held",
@@ -15656,9 +15664,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "afshinm/zerobox": {
-      "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "afshinm-zerobox",
+      "acceptedAt": "2026-09-21T09:43:34.326Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/afshinm/zerobox/blob/9a7affd6c68fb2541c7c709559c40e08ba0a1872/crates/zerobox/Cargo.toml",
+          "snippet": "[[bin]] name=\"zerobox\" path=\"src/main.rs\"",
+          "target": "crates/zerobox/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/afshinm/zerobox/blob/9a7affd6c68fb2541c7c709559c40e08ba0a1872/README.md",
+          "snippet": "| Cargo | `cargo install zerobox` |"
+        },
+        "usage": {
+          "url": "https://github.com/afshinm/zerobox/blob/9a7affd6c68fb2541c7c709559c40e08ba0a1872/README.md",
+          "snippet": "zerobox --allow-write=. -- node script.js"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/afshinm/zerobox",
+          "snippet": "Lightweight, cross-platform process sandboxing powered by OpenAI Codex's runtime. Sandbox any command with file, network, and credential controls."
+        },
+        "adoption": {
+          "stars": 720,
+          "githubSource": "https://github.com/afshinm/zerobox",
+          "homebrew": null
+        },
+        "commit": "9a7affd6c68fb2541c7c709559c40e08ba0a1872"
+      }
     },
     "kainctl/isd": {
       "status": "held",
@@ -15668,8 +15704,9 @@
     },
     "duanyan007/markitdown": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sclevine/yj": {
       "status": "held",
@@ -15678,7 +15715,8 @@
     },
     "krasjet/pdf.tocgen": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "zu1k/nali": {
@@ -15699,8 +15737,9 @@
     },
     "francescostabile/numasec": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "gildas-lormeau/singlefilez": {
       "status": "held",
@@ -15731,8 +15770,9 @@
     },
     "akd-io/create-next-stack": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "randy3k/radian": {
       "status": "held",
@@ -15740,9 +15780,37 @@
       "reason": "Terminal use case needs classification"
     },
     "kaifcodec/ytconverter": {
-      "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "kaifcodec-ytconverter",
+      "acceptedAt": "2026-09-21T09:43:34.326Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/kaifcodec/ytconverter/blob/a5017652d358cc939db98232002b2e0754c091fe/pyproject.toml",
+          "snippet": "ytconverter = \"ytconverter.__main__:main\"",
+          "target": "ytconverter/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/kaifcodec/ytconverter/blob/a5017652d358cc939db98232002b2e0754c091fe/README.md",
+          "snippet": "pip3 install ytconverter"
+        },
+        "usage": {
+          "url": "https://github.com/kaifcodec/ytconverter/blob/a5017652d358cc939db98232002b2e0754c091fe/README.md",
+          "snippet": "ytconverter -S"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kaifcodec/ytconverter",
+          "snippet": "The ytconverter is a CLI tool for downloading YouTube videos in various format directly from the terminal. It leverages popular libraries (yt-dlp) and frameworks within the Python ecosystem to handle video downloading, format conversion, metadata handling and many more!"
+        },
+        "adoption": {
+          "stars": 681,
+          "githubSource": "https://github.com/kaifcodec/ytconverter",
+          "homebrew": null
+        },
+        "commit": "a5017652d358cc939db98232002b2e0754c091fe"
+      }
     },
     "bubblelabai/bubblelab": {
       "status": "held",
@@ -15751,8 +15819,9 @@
     },
     "nakabonne/pbgopy": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T09:43:34.326Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "six-ddc/plow": {
       "status": "held",
@@ -24200,5 +24269,5 @@
       "reason": "Possible graphical application or launcher"
     }
   },
-  "lastRunAt": "2026-09-21T08:43:37.177Z"
+  "lastRunAt": "2026-09-21T09:43:34.326Z"
 }
