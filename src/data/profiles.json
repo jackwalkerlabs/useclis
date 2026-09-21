@@ -4405,5 +4405,70 @@
     "createdAt": "2008-04-08T04:06:51Z",
     "checkedAt": "2026-09-21T01:44:40.467Z",
     "source": "https://github.com/zdk"
+  },
+  "promptdriven": {
+    "login": "promptdriven",
+    "name": "Prompt Driven",
+    "type": "Organization",
+    "bio": null,
+    "location": "United States of America",
+    "website": "www.promptdriven.ai",
+    "followers": 23,
+    "publicRepos": 1,
+    "createdAt": "2024-09-13T23:20:48Z",
+    "checkedAt": "2026-09-21T02:44:09.612Z",
+    "source": "https://github.com/promptdriven"
+  },
+  "fast-editor": {
+    "login": "Fast-Editor",
+    "name": "Fast-Editor",
+    "type": "Organization",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 4,
+    "publicRepos": 6,
+    "createdAt": "2025-12-15T08:30:52Z",
+    "checkedAt": "2026-09-21T02:44:09.844Z",
+    "source": "https://github.com/Fast-Editor"
+  },
+  "xiufengsun": {
+    "login": "xiufengsun",
+    "name": "Rocky",
+    "type": "User",
+    "bio": null,
+    "location": "Shanghai",
+    "website": "https://www.rynn.me/",
+    "followers": 29,
+    "publicRepos": 28,
+    "createdAt": "2015-02-10T00:52:08Z",
+    "checkedAt": "2026-09-21T02:44:10.111Z",
+    "source": "https://github.com/xiufengsun"
+  },
+  "manojmallick": {
+    "login": "manojmallick",
+    "name": "Manoj Mallick",
+    "type": "User",
+    "bio": "🏆 5x Hackathon Winner · GenAI Engineer @ ING & HCLTech · Founder of SigMap · Open Source Builder · 15+ yrs in software & fintech · Amsterdam 🇳🇱",
+    "location": "Amsterdam",
+    "website": "manojmallick.github.io/sigmap/",
+    "followers": 30,
+    "publicRepos": 130,
+    "createdAt": "2016-07-16T06:43:40Z",
+    "checkedAt": "2026-09-21T02:44:10.512Z",
+    "source": "https://github.com/manojmallick"
+  },
+  "eli64s": {
+    "login": "eli64s",
+    "name": "Eli Salamie",
+    "type": "User",
+    "bio": "(๑˃̵ᴗ˂̵)و ⟠",
+    "location": "United States",
+    "website": "elisalamie.com",
+    "followers": 102,
+    "publicRepos": 20,
+    "createdAt": "2018-09-18T15:35:29Z",
+    "checkedAt": "2026-09-21T02:44:10.925Z",
+    "source": "https://github.com/eli64s"
   }
 }

@@ -6675,5 +6675,101 @@
     "example": "lowfat git status",
     "website": "https://github.com/zdk/lowfat",
     "docs": "https://github.com/zdk/lowfat/blob/3a0de90cce463a4f5d9c968774507097570b9270/README.md"
+  },
+  {
+    "slug": "promptdriven-pdd",
+    "name": "pdd",
+    "repo": "promptdriven/pdd",
+    "category": "Files & documents",
+    "command": "pdd",
+    "useCase": " Prompt Driven Development (PDD): The Last Programming Language™. Prompt files are source; code is generated output.",
+    "description": " Prompt Driven Development (PDD): The Last Programming Language™. Prompt files are source; code is generated output.",
+    "agentUse": "Invoke pdd from a shell for the documented use case:  Prompt Driven Development (PDD): The Last Programming Language™. Prompt files are source; code is generated output.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "pdd checkup demo/prompts/prompt_lint_python.prompt --apply",
+    "website": "https://github.com/promptdriven/pdd",
+    "docs": "https://github.com/promptdriven/pdd/blob/d6730c73bb604da19c496d36263a22a46d96aa22/demo/README.md"
+  },
+  {
+    "slug": "vercel-labs-opensrc",
+    "name": "opensrc",
+    "repo": "vercel-labs/opensrc",
+    "category": "Agents & models",
+    "command": "opensrc",
+    "useCase": "Fetch source code for npm packages to give AI coding agents deeper context",
+    "description": "Fetch source code for npm packages to give AI coding agents deeper context",
+    "agentUse": "Invoke opensrc from a shell for the documented use case: Fetch source code for npm packages to give AI coding agents deeper context",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "opensrc path",
+    "website": "https://github.com/vercel-labs/opensrc",
+    "docs": "https://github.com/vercel-labs/opensrc/blob/b51de60867e806da1839b33dd29c29424f12521b/README.md"
+  },
+  {
+    "slug": "fast-editor-lynkr",
+    "name": "Lynkr",
+    "repo": "Fast-Editor/Lynkr",
+    "category": "Agents & models",
+    "command": "lynkr",
+    "useCase": "Streamline your workflow with Lynkr, a CLI tool that acts as an HTTP proxy for efficient code interactions using Claude Code CLI.",
+    "description": "Streamline your workflow with Lynkr, a CLI tool that acts as an HTTP proxy for efficient code interactions using Claude Code CLI.",
+    "agentUse": "Invoke lynkr from a shell for the documented use case: Streamline your workflow with Lynkr, a CLI tool that acts as an HTTP proxy for efficient code interactions using Claude Code CLI.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "lynkr wrap claude",
+    "website": "https://github.com/Fast-Editor/Lynkr",
+    "docs": "https://github.com/Fast-Editor/Lynkr/blob/23cc328c1838451b931309593a55fc6379d8ff24/README.md"
+  },
+  {
+    "slug": "xiufengsun-tokentracker",
+    "name": "TokenTracker",
+    "repo": "xiufengsun/TokenTracker",
+    "category": "Terminal utilities",
+    "command": "tracker",
+    "useCase": "Local-first AI token usage & cost tracker for 31 coding tools incl. Claude Code, Codex, Cursor, Gemini & DeepSeek Harness—with native apps. Never reads prompts.",
+    "description": "Local-first AI token usage & cost tracker for 31 coding tools incl. Claude Code, Codex, Cursor, Gemini & DeepSeek Harness—with native apps. Never reads prompts.",
+    "agentUse": "Invoke tracker from a shell for the documented use case: Local-first AI token usage & cost tracker for 31 coding tools incl. Claude Code, Codex, Cursor, Gemini & DeepSeek Harness—with native apps. Never reads prompts.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "tracker serve",
+    "website": "https://github.com/xiufengsun/TokenTracker",
+    "docs": "https://github.com/xiufengsun/TokenTracker/blob/e889dc3b0507c17ecda9dfa26fe2fa312a8d945d/TokenTrackerWin/README.md"
+  },
+  {
+    "slug": "manojmallick-sigmap",
+    "name": "sigmap",
+    "repo": "manojmallick/sigmap",
+    "category": "Agents & models",
+    "command": "sigmap",
+    "useCase": "~97% token reduction for AI coding sessions — zero deps, 33 languages, MCP server",
+    "description": "~97% token reduction for AI coding sessions — zero deps, 33 languages, MCP server",
+    "agentUse": "Invoke sigmap from a shell for the documented use case: ~97% token reduction for AI coding sessions — zero deps, 33 languages, MCP server",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "sigmap --mcp",
+    "website": "https://github.com/manojmallick/sigmap",
+    "docs": "https://github.com/manojmallick/sigmap/blob/03d5008bc1e73d36efa7a3f8640493261c680a87/README.md"
+  },
+  {
+    "slug": "eli64s-readme-ai",
+    "name": "readme-ai",
+    "repo": "eli64s/readme-ai",
+    "category": "Files & documents",
+    "command": "readmeai",
+    "useCase": "README file generator, powered by AI.",
+    "description": "README file generator, powered by AI.",
+    "agentUse": "Invoke readmeai from a shell for the documented use case: README file generator, powered by AI.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "readmeai 1.0.0",
+    "website": "https://github.com/eli64s/readme-ai",
+    "docs": "https://github.com/eli64s/readme-ai/blob/6f507b5f87795799649cfe5eb78d8644f8c2eac8/README.md"
   }
 ]

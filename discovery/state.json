@@ -4,126 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "childrentime/reactuse"
-    },
-    {
-      "repo": "kubenetworks/kubevpn"
-    },
-    {
-      "repo": "ossillate-inc/packj"
-    },
-    {
-      "repo": "shinpr/claude-code-workflows"
-    },
-    {
-      "repo": "microsoft/HydraLab"
-    },
-    {
-      "repo": "0xsline/awesome-deepseek-harness"
-    },
-    {
-      "repo": "abhinav/git-spice"
-    },
-    {
-      "repo": "proxysoul/Empryo"
-    },
-    {
-      "repo": "jarun/bcal"
-    },
-    {
-      "repo": "promptdriven/pdd"
-    },
-    {
-      "repo": "tradecatlabs/vibe-coding-cn"
-    },
-    {
-      "repo": "elixirs/faker"
-    },
-    {
-      "repo": "vercel-labs/opensrc"
-    },
-    {
-      "repo": "Fast-Editor/Lynkr"
-    },
-    {
-      "repo": "maildev/maildev"
-    },
-    {
-      "repo": "zzet/gortex"
-    },
-    {
-      "repo": "raskrebs/sonar"
-    },
-    {
-      "repo": "CorentinTh/it-tools"
-    },
-    {
-      "repo": "ApeWorX/ape"
-    },
-    {
-      "repo": "universal-tool-calling-protocol/python-utcp"
-    },
-    {
-      "repo": "hoppscotch/hoppscotch"
-    },
-    {
-      "repo": "jrswab/axe"
-    },
-    {
-      "repo": "tzachbon/smart-ralph"
-    },
-    {
-      "repo": "xiufengsun/TokenTracker"
-    },
-    {
-      "repo": "macbre/phantomas"
-    },
-    {
-      "repo": "stackryze/FreeDomains"
-    },
-    {
-      "repo": "xpf0000/FlyEnv"
-    },
-    {
-      "repo": "sayanarijit/xplr"
-    },
-    {
-      "repo": "levnikolaevich/claude-code-skills"
-    },
-    {
-      "repo": "lennney/stop-that-shit"
-    },
-    {
-      "repo": "lintsinghua/DeepAudit"
-    },
-    {
-      "repo": "memorax-ai/memorax-code"
-    },
-    {
-      "repo": "manojmallick/sigmap"
-    },
-    {
-      "repo": "oliver-kriska/claude-elixir-phoenix"
-    },
-    {
-      "repo": "universal-ctags/ctags"
-    },
-    {
-      "repo": "KKKKhazix/khazix-skills"
-    },
-    {
-      "repo": "eli64s/readme-ai"
-    },
-    {
-      "repo": "AI-Builder-Club/skills"
-    },
-    {
-      "repo": "rio-labs/rio"
-    },
-    {
-      "repo": "atlassian/atlassian-mcp-server"
-    },
-    {
       "repo": "regexident/cargo-modules"
     },
     {
@@ -1984,8 +1864,9 @@
     },
     "jarun/bcal": {
       "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jhspetersson/fselect": {
       "status": "accepted",
@@ -2829,9 +2710,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "manojmallick/sigmap": {
-      "status": "held",
-      "checkedAt": "2026-09-11T19:43:50.709Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "manojmallick-sigmap",
+      "acceptedAt": "2026-09-21T02:43:36.127Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/manojmallick/sigmap/blob/03d5008bc1e73d36efa7a3f8640493261c680a87/package.json",
+          "snippet": "{\"bin\":{\"sigmap\":\"./gen-context.js\"}}",
+          "target": "gen-context.js"
+        },
+        "installation": {
+          "url": "https://github.com/manojmallick/sigmap/blob/03d5008bc1e73d36efa7a3f8640493261c680a87/README.md",
+          "snippet": "npm install -g sigmap"
+        },
+        "usage": {
+          "url": "https://github.com/manojmallick/sigmap/blob/03d5008bc1e73d36efa7a3f8640493261c680a87/README.md",
+          "snippet": "sigmap --mcp"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/manojmallick/sigmap",
+          "snippet": "~97% token reduction for AI coding sessions — zero deps, 33 languages, MCP server"
+        },
+        "adoption": {
+          "stars": 639,
+          "githubSource": "https://github.com/manojmallick/sigmap",
+          "homebrew": null
+        },
+        "commit": "03d5008bc1e73d36efa7a3f8640493261c680a87"
+      }
     },
     "asciinema/asciinema": {
       "status": "held",
@@ -2974,8 +2883,9 @@
     },
     "raskrebs/sonar": {
       "status": "held",
-      "checkedAt": "2026-09-11T19:43:50.709Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cipi-sh/cipi": {
       "status": "held",
@@ -3312,9 +3222,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "xiufengsun/tokentracker": {
-      "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "xiufengsun-tokentracker",
+      "acceptedAt": "2026-09-21T02:43:36.127Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/xiufengsun/TokenTracker/blob/e889dc3b0507c17ecda9dfa26fe2fa312a8d945d/package.json",
+          "snippet": "{\"bin\":{\"tracker\":\"bin/tracker.js\"}}",
+          "target": "bin/tracker.js"
+        },
+        "installation": {
+          "url": "https://github.com/xiufengsun/TokenTracker/blob/e889dc3b0507c17ecda9dfa26fe2fa312a8d945d/README.md",
+          "snippet": "npm i -g tokentracker-cli"
+        },
+        "usage": {
+          "url": "https://github.com/xiufengsun/TokenTracker/blob/e889dc3b0507c17ecda9dfa26fe2fa312a8d945d/TokenTrackerWin/README.md",
+          "snippet": "tracker serve"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/xiufengsun/TokenTracker",
+          "snippet": "Local-first AI token usage & cost tracker for 31 coding tools incl. Claude Code, Codex, Cursor, Gemini & DeepSeek Harness—with native apps. Never reads prompts."
+        },
+        "adoption": {
+          "stars": 1683,
+          "githubSource": "https://github.com/xiufengsun/TokenTracker",
+          "homebrew": null
+        },
+        "commit": "e889dc3b0507c17ecda9dfa26fe2fa312a8d945d"
+      }
     },
     "dotenvx/dotenvx": {
       "status": "held",
@@ -3522,8 +3460,9 @@
     },
     "sayanarijit/xplr": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "gbevin/sendmidi": {
       "status": "held",
@@ -3873,7 +3812,8 @@
     },
     "jrswab/axe": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "natemcmaster/commandlineutils": {
@@ -6205,8 +6145,9 @@
     },
     "proxysoul/empryo": {
       "status": "held",
-      "checkedAt": "2026-09-14T06:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "kepano/obsidian-skills": {
       "status": "held",
@@ -7687,9 +7628,37 @@
       "reason": "Terminal use case needs classification"
     },
     "promptdriven/pdd": {
-      "status": "held",
-      "checkedAt": "2026-09-14T13:44:21.937Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "promptdriven-pdd",
+      "acceptedAt": "2026-09-21T02:43:36.127Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/promptdriven/pdd/blob/d6730c73bb604da19c496d36263a22a46d96aa22/pyproject.toml",
+          "snippet": "pdd = \"pdd.cli:cli\"",
+          "target": "pdd/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/promptdriven/pdd/blob/d6730c73bb604da19c496d36263a22a46d96aa22/utils/mcp/README.md",
+          "snippet": "*   Install: `pip install pdd-cli`"
+        },
+        "usage": {
+          "url": "https://github.com/promptdriven/pdd/blob/d6730c73bb604da19c496d36263a22a46d96aa22/demo/README.md",
+          "snippet": "pdd checkup demo/prompts/prompt_lint_python.prompt --apply"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/promptdriven/pdd",
+          "snippet": " Prompt Driven Development (PDD): The Last Programming Language™. Prompt files are source; code is generated output."
+        },
+        "adoption": {
+          "stars": 874,
+          "githubSource": "https://github.com/promptdriven/pdd",
+          "homebrew": null
+        },
+        "commit": "d6730c73bb604da19c496d36263a22a46d96aa22"
+      }
     },
     "seemseam/claude_codex_bridge": {
       "status": "accepted",
@@ -7745,9 +7714,37 @@
       "reason": "Possible graphical application or launcher"
     },
     "eli64s/readme-ai": {
-      "status": "held",
-      "checkedAt": "2026-09-14T13:44:21.937Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "eli64s-readme-ai",
+      "acceptedAt": "2026-09-21T02:43:36.127Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/eli64s/readme-ai/blob/6f507b5f87795799649cfe5eb78d8644f8c2eac8/pyproject.toml",
+          "snippet": "readmeai = \"readmeai.cli.main:main\"",
+          "target": "readmeai/cli/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/eli64s/readme-ai/blob/6f507b5f87795799649cfe5eb78d8644f8c2eac8/README.md",
+          "snippet": "❯ pipx install readmeai"
+        },
+        "usage": {
+          "url": "https://github.com/eli64s/readme-ai/blob/6f507b5f87795799649cfe5eb78d8644f8c2eac8/README.md",
+          "snippet": "readmeai 1.0.0"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/eli64s/readme-ai",
+          "snippet": "README file generator, powered by AI."
+        },
+        "adoption": {
+          "stars": 2989,
+          "githubSource": "https://github.com/eli64s/readme-ai",
+          "homebrew": null
+        },
+        "commit": "6f507b5f87795799649cfe5eb78d8644f8c2eac8"
+      }
     },
     "mono0926/licenseplist": {
       "status": "held",
@@ -13273,9 +13270,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "vercel-labs/opensrc": {
-      "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "vercel-labs-opensrc",
+      "acceptedAt": "2026-09-21T02:43:36.127Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/vercel-labs/opensrc/blob/b51de60867e806da1839b33dd29c29424f12521b/packages/opensrc/package.json",
+          "snippet": "{\"bin\":{\"opensrc\":\"./bin/opensrc.js\"}}",
+          "target": "packages/opensrc/bin/opensrc.js"
+        },
+        "installation": {
+          "url": "https://github.com/vercel-labs/opensrc/blob/b51de60867e806da1839b33dd29c29424f12521b/README.md",
+          "snippet": "npm install -g opensrc"
+        },
+        "usage": {
+          "url": "https://github.com/vercel-labs/opensrc/blob/b51de60867e806da1839b33dd29c29424f12521b/README.md",
+          "snippet": "opensrc path"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/vercel-labs/opensrc",
+          "snippet": "Fetch source code for npm packages to give AI coding agents deeper context"
+        },
+        "adoption": {
+          "stars": 2990,
+          "githubSource": "https://github.com/vercel-labs/opensrc",
+          "homebrew": null
+        },
+        "commit": "b51de60867e806da1839b33dd29c29424f12521b"
+      }
     },
     "docker/docker-credential-helpers": {
       "status": "held",
@@ -15374,8 +15399,9 @@
     },
     "abhinav/git-spice": {
       "status": "held",
-      "checkedAt": "2026-09-15T22:44:19.564Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
     },
     "huggingface/xet-core": {
       "status": "held",
@@ -19234,8 +19260,9 @@
     },
     "universal-ctags/ctags": {
       "status": "held",
-      "checkedAt": "2026-09-17T02:44:16.781Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
     },
     "lurcher/unixodbc": {
       "status": "held",
@@ -20977,7 +21004,202 @@
       "checkedAt": "2026-09-21T01:43:37.864Z",
       "rulesVersion": 2,
       "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "childrentime/reactuse": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "kubenetworks/kubevpn": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "ossillate-inc/packj": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "shinpr/claude-code-workflows": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "microsoft/hydralab": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "0xsline/awesome-deepseek-harness": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "tradecatlabs/vibe-coding-cn": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "elixirs/faker": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "fast-editor/lynkr": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "fast-editor-lynkr",
+      "acceptedAt": "2026-09-21T02:43:36.127Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Fast-Editor/Lynkr/blob/23cc328c1838451b931309593a55fc6379d8ff24/package.json",
+          "snippet": "{\"bin\":{\"lynkr\":\"bin/cli.js\"}}",
+          "target": "bin/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/Fast-Editor/Lynkr/blob/23cc328c1838451b931309593a55fc6379d8ff24/README.md",
+          "snippet": "npm install -g lynkr"
+        },
+        "usage": {
+          "url": "https://github.com/Fast-Editor/Lynkr/blob/23cc328c1838451b931309593a55fc6379d8ff24/README.md",
+          "snippet": "lynkr wrap claude"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Fast-Editor/Lynkr",
+          "snippet": "Streamline your workflow with Lynkr, a CLI tool that acts as an HTTP proxy for efficient code interactions using Claude Code CLI."
+        },
+        "adoption": {
+          "stars": 568,
+          "githubSource": "https://github.com/Fast-Editor/Lynkr",
+          "homebrew": null
+        },
+        "commit": "23cc328c1838451b931309593a55fc6379d8ff24"
+      }
+    },
+    "maildev/maildev": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "zzet/gortex": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "corentinth/it-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "apeworx/ape": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "universal-tool-calling-protocol/python-utcp": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "hoppscotch/hoppscotch": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "tzachbon/smart-ralph": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "macbre/phantomas": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "stackryze/freedomains": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "xpf0000/flyenv": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "levnikolaevich/claude-code-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "lennney/stop-that-shit": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "lintsinghua/deepaudit": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "memorax-ai/memorax-code": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "oliver-kriska/claude-elixir-phoenix": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "kkkkhazix/khazix-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "ai-builder-club/skills": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "rio-labs/rio": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "atlassian/atlassian-mcp-server": {
+      "status": "held",
+      "checkedAt": "2026-09-21T02:43:36.127Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
     }
   },
-  "lastRunAt": "2026-09-21T01:43:37.864Z"
+  "lastRunAt": "2026-09-21T02:43:36.127Z"
 }
