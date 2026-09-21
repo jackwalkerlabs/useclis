@@ -8190,6 +8190,63 @@ window.USECLIS_DATA = {
       "stars": 501,
       "license": "MIT",
       "checkedAt": "2026-09-21T05:44:17.962Z"
+    },
+    {
+      "slug": "usewhale-whale",
+      "name": "Whale",
+      "repo": "usewhale/Whale",
+      "category": "Agents & models",
+      "command": "whale",
+      "useCase": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
+      "description": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
+      "agentUse": "Invoke whale from a shell for the documented use case: Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "whale setup",
+      "website": "https://github.com/usewhale/Whale",
+      "docs": "https://github.com/usewhale/Whale/blob/676a0a228882c457ff4dc00d9d285d972aea4a43/README.md",
+      "stars": 929,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T06:44:12.344Z"
+    },
+    {
+      "slug": "sassman-t-rec-rs",
+      "name": "t-rec-rs",
+      "repo": "sassman/t-rec-rs",
+      "category": "Terminal utilities",
+      "command": "t-rec",
+      "useCase": "Blazingly fast terminal recorder that generates animated gif images for the web written in rust",
+      "description": "Blazingly fast terminal recorder that generates animated gif images for the web written in rust",
+      "agentUse": "Invoke t-rec from a shell for the documented use case: Blazingly fast terminal recorder that generates animated gif images for the web written in rust",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "t-rec 0.4.3",
+      "website": "https://github.com/sassman/t-rec-rs",
+      "docs": "https://github.com/sassman/t-rec-rs/blob/c46cbb5bf5b296f36dfc7dbae530b47128364660/README.md",
+      "stars": 1253,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-21T06:44:12.842Z"
+    },
+    {
+      "slug": "opendev-to-opendev",
+      "name": "opendev",
+      "repo": "opendev-to/opendev",
+      "category": "Agents & models",
+      "command": "opendev",
+      "useCase": "Open-Source Coding Agent in the terminal",
+      "description": "Open-Source Coding Agent in the terminal",
+      "agentUse": "Invoke opendev from a shell for the documented use case: Open-Source Coding Agent in the terminal",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "opendev run ui",
+      "website": "https://github.com/opendev-to/opendev",
+      "docs": "https://github.com/opendev-to/opendev/blob/d32c660e4eed1a8e988d1fd58da88e41ba641d08/README.md",
+      "stars": 840,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T06:44:13.279Z"
     }
   ],
   "categories": [

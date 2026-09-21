@@ -4626,5 +4626,44 @@
     "createdAt": "2017-12-06T15:22:36Z",
     "checkedAt": "2026-09-21T05:44:21.486Z",
     "source": "https://github.com/ttytm"
+  },
+  "usewhale": {
+    "login": "usewhale",
+    "name": "usewhale",
+    "type": "Organization",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 43,
+    "publicRepos": 2,
+    "createdAt": "2026-05-06T06:59:45Z",
+    "checkedAt": "2026-09-21T06:44:14.922Z",
+    "source": "https://github.com/usewhale"
+  },
+  "sassman": {
+    "login": "sassman",
+    "name": "Sven Kanoldt",
+    "type": "User",
+    "bio": "polyglot software engineer | rustlang enthusiast | co-organizer at @rust-meetup-munich | maintainer of @cargo-generate | creator of t-rec-rs and @steganogram",
+    "location": "Munich",
+    "website": "d34dl0ck.me",
+    "followers": 171,
+    "publicRepos": 137,
+    "createdAt": "2010-07-12T14:42:28Z",
+    "checkedAt": "2026-09-21T06:44:15.240Z",
+    "source": "https://github.com/sassman"
+  },
+  "opendev-to": {
+    "login": "opendev-to",
+    "name": "Building product & research on coding agents",
+    "type": "Organization",
+    "bio": "We democratize how coding agents should be built",
+    "location": null,
+    "website": null,
+    "followers": 27,
+    "publicRepos": 3,
+    "createdAt": "2025-10-05T06:06:21Z",
+    "checkedAt": "2026-09-21T06:44:15.471Z",
+    "source": "https://github.com/opendev-to"
   }
 }

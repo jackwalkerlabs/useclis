@@ -6043,5 +6043,50 @@
     "repositoryId": 513138823,
     "attemptedAt": "2026-09-21T05:44:17.537Z",
     "status": "ok"
+  },
+  "usewhale-whale": {
+    "defaultBranch": "main",
+    "createdAt": "2026-05-06T07:01:36Z",
+    "pushedAt": "2026-08-11T00:03:37Z",
+    "lastCommitAt": "2026-08-10T16:01:44Z",
+    "stars": 929,
+    "license": "MIT",
+    "language": "Go",
+    "checkedAt": "2026-09-21T06:44:12.344Z",
+    "source": "https://github.com/usewhale/Whale",
+    "canonicalSource": "https://github.com/usewhale/Whale",
+    "repositoryId": 1230620963,
+    "attemptedAt": "2026-09-21T06:44:11.833Z",
+    "status": "ok"
+  },
+  "sassman-t-rec-rs": {
+    "defaultBranch": "main",
+    "createdAt": "2020-10-08T23:16:40Z",
+    "pushedAt": "2026-09-21T04:04:25Z",
+    "lastCommitAt": "2026-07-08T20:13:45Z",
+    "stars": 1253,
+    "license": "GPL-3.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-21T06:44:12.842Z",
+    "source": "https://github.com/sassman/t-rec-rs",
+    "canonicalSource": "https://github.com/sassman/t-rec-rs",
+    "repositoryId": 302482658,
+    "attemptedAt": "2026-09-21T06:44:12.432Z",
+    "status": "ok"
+  },
+  "opendev-to-opendev": {
+    "defaultBranch": "main",
+    "createdAt": "2026-03-04T20:13:44Z",
+    "pushedAt": "2026-08-08T15:37:31Z",
+    "lastCommitAt": "2026-08-08T15:37:31Z",
+    "stars": 840,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-21T06:44:13.279Z",
+    "source": "https://github.com/opendev-to/opendev",
+    "canonicalSource": "https://github.com/opendev-to/opendev",
+    "repositoryId": 1172905557,
+    "attemptedAt": "2026-09-21T06:44:12.847Z",
+    "status": "ok"
   }
 }

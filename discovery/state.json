@@ -4,126 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "JCluzet/Grademe"
-    },
-    {
-      "repo": "zhenorzz/goploy"
-    },
-    {
-      "repo": "ShawnPana/smux"
-    },
-    {
-      "repo": "Linus-Mussmaecher/rucola"
-    },
-    {
-      "repo": "kju4q/ai-weekend-builds"
-    },
-    {
-      "repo": "vil/H4X-Tools"
-    },
-    {
-      "repo": "imxv/Pretty-mermaid-skills"
-    },
-    {
-      "repo": "RohitKushvaha01/ReTerminal"
-    },
-    {
-      "repo": "rylena/sshdesk"
-    },
-    {
-      "repo": "andresgongora/synth-shell"
-    },
-    {
-      "repo": "sjurba/rebase-editor"
-    },
-    {
-      "repo": "m4tt72/terminal"
-    },
-    {
-      "repo": "yandanp/Connexio"
-    },
-    {
-      "repo": "gurgeous/tennis"
-    },
-    {
-      "repo": "OffcierCia/Crypto-OpSec-SelfGuard-RoadMap"
-    },
-    {
-      "repo": "zulip/zulip-terminal"
-    },
-    {
-      "repo": "trzsz/trzsz-go"
-    },
-    {
-      "repo": "JuliusBrussee/caveman-code"
-    },
-    {
-      "repo": "suitedaces/computer-agent"
-    },
-    {
-      "repo": "kilianc/rtail"
-    },
-    {
-      "repo": "joeroe/risotto"
-    },
-    {
-      "repo": "usewhale/Whale"
-    },
-    {
-      "repo": "sassman/t-rec-rs"
-    },
-    {
-      "repo": "ChrisTitusTech/powershell-profile"
-    },
-    {
-      "repo": "ghostty-org/ghostling"
-    },
-    {
-      "repo": "opendev-to/opendev"
-    },
-    {
-      "repo": "termstandard/colors"
-    },
-    {
-      "repo": "asbru-cm/asbru-cm"
-    },
-    {
-      "repo": "cosmos72/twin"
-    },
-    {
-      "repo": "china-qijizhifeng/agentic-harness-engineering"
-    },
-    {
-      "repo": "MicrosoftDocs/terminal"
-    },
-    {
-      "repo": "pazz/alot"
-    },
-    {
-      "repo": "Ylianst/MeshCommander"
-    },
-    {
-      "repo": "fcambus/ansiweather"
-    },
-    {
-      "repo": "hasegawa-tomoki/php-terminal-nes-emulator"
-    },
-    {
-      "repo": "libtcod/libtcod"
-    },
-    {
-      "repo": "kyokomi/emoji"
-    },
-    {
-      "repo": "siduck/st"
-    },
-    {
-      "repo": "rse/stmux"
-    },
-    {
-      "repo": "kai-morich/SimpleUsbTerminal"
-    },
-    {
       "repo": "pablostanley/yoinks"
     },
     {
@@ -21493,7 +21373,328 @@
         },
         "commit": "8c71fe8930f534f12ad66e0bcb119667717e2a0f"
       }
+    },
+    "jcluzet/grademe": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zhenorzz/goploy": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "shawnpana/smux": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "linus-mussmaecher/rucola": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kju4q/ai-weekend-builds": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vil/h4x-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "imxv/pretty-mermaid-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rohitkushvaha01/reterminal": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rylena/sshdesk": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "andresgongora/synth-shell": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sjurba/rebase-editor": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "m4tt72/terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "yandanp/connexio": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gurgeous/tennis": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "offciercia/crypto-opsec-selfguard-roadmap": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "zulip/zulip-terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "trzsz/trzsz-go": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "juliusbrussee/caveman-code": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "suitedaces/computer-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "kilianc/rtail": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "joeroe/risotto": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "usewhale/whale": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "usewhale-whale",
+      "acceptedAt": "2026-09-21T06:43:33.602Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/usewhale/Whale/blob/676a0a228882c457ff4dc00d9d285d972aea4a43/npm/whale/package.json",
+          "snippet": "{\"bin\":{\"whale\":\"bin/whale.js\"}}",
+          "target": "npm/whale/bin/whale.js"
+        },
+        "installation": {
+          "url": "https://github.com/usewhale/Whale/blob/676a0a228882c457ff4dc00d9d285d972aea4a43/README.md",
+          "snippet": "npm install -g @usewhale/whale"
+        },
+        "usage": {
+          "url": "https://github.com/usewhale/Whale/blob/676a0a228882c457ff4dc00d9d285d972aea4a43/README.md",
+          "snippet": "whale setup"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/usewhale/Whale",
+          "snippet": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows."
+        },
+        "adoption": {
+          "stars": 929,
+          "githubSource": "https://github.com/usewhale/Whale",
+          "homebrew": null
+        },
+        "commit": "676a0a228882c457ff4dc00d9d285d972aea4a43"
+      }
+    },
+    "sassman/t-rec-rs": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "sassman-t-rec-rs",
+      "acceptedAt": "2026-09-21T06:43:33.602Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/sassman/t-rec-rs/blob/c46cbb5bf5b296f36dfc7dbae530b47128364660/crates/t-rec/Cargo.toml",
+          "snippet": "package.name=\"t-rec\"; src/main.rs",
+          "target": "crates/t-rec/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/sassman/t-rec-rs/blob/c46cbb5bf5b296f36dfc7dbae530b47128364660/README.md",
+          "snippet": "> **Windows support is in preview.** The first Windows-capable release is shipped as a pre-release (`v0.9.0-preview1`) so it does **not** auto-install via `cargo install t-rec` or distro packages — you have to opt in. If you are on Windows, please try it and report what you find on the [issue tracker](https://github.com/sassman/t-rec-rs/issues). Se"
+        },
+        "usage": {
+          "url": "https://github.com/sassman/t-rec-rs/blob/c46cbb5bf5b296f36dfc7dbae530b47128364660/README.md",
+          "snippet": "t-rec 0.4.3"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/sassman/t-rec-rs",
+          "snippet": "Blazingly fast terminal recorder that generates animated gif images for the web written in rust"
+        },
+        "adoption": {
+          "stars": 1253,
+          "githubSource": "https://github.com/sassman/t-rec-rs",
+          "homebrew": null
+        },
+        "commit": "c46cbb5bf5b296f36dfc7dbae530b47128364660"
+      }
+    },
+    "christitustech/powershell-profile": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ghostty-org/ghostling": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "opendev-to/opendev": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "opendev-to-opendev",
+      "acceptedAt": "2026-09-21T06:43:33.602Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/opendev-to/opendev/blob/d32c660e4eed1a8e988d1fd58da88e41ba641d08/crates/opendev-cli/Cargo.toml",
+          "snippet": "[[bin]] name=\"opendev\" path=\"src/main.rs\"",
+          "target": "crates/opendev-cli/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/opendev-to/opendev/blob/d32c660e4eed1a8e988d1fd58da88e41ba641d08/README.md",
+          "snippet": "cargo install opendev-cli"
+        },
+        "usage": {
+          "url": "https://github.com/opendev-to/opendev/blob/d32c660e4eed1a8e988d1fd58da88e41ba641d08/README.md",
+          "snippet": "opendev run ui"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/opendev-to/opendev",
+          "snippet": "Open-Source Coding Agent in the terminal"
+        },
+        "adoption": {
+          "stars": 840,
+          "githubSource": "https://github.com/opendev-to/opendev",
+          "homebrew": null
+        },
+        "commit": "d32c660e4eed1a8e988d1fd58da88e41ba641d08"
+      }
+    },
+    "termstandard/colors": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "asbru-cm/asbru-cm": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cosmos72/twin": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "china-qijizhifeng/agentic-harness-engineering": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "microsoftdocs/terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pazz/alot": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ylianst/meshcommander": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
+    },
+    "fcambus/ansiweather": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hasegawa-tomoki/php-terminal-nes-emulator": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "libtcod/libtcod": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kyokomi/emoji": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "siduck/st": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rse/stmux": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kai-morich/simpleusbterminal": {
+      "status": "held",
+      "checkedAt": "2026-09-21T06:43:33.602Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-21T05:43:34.640Z"
+  "lastRunAt": "2026-09-21T06:43:33.602Z"
 }
