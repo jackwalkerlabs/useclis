@@ -7715,6 +7715,120 @@ window.USECLIS_DATA = {
       "stars": 504,
       "license": "MIT",
       "checkedAt": "2026-09-21T00:44:32.045Z"
+    },
+    {
+      "slug": "jrnxf-thokr",
+      "name": "thokr",
+      "repo": "jrnxf/thokr",
+      "category": "Terminal utilities",
+      "command": "thokr",
+      "useCase": "✨ sleek typing tui with visualized results and historical logging",
+      "description": "✨ sleek typing tui with visualized results and historical logging",
+      "agentUse": "Invoke thokr from a shell for the documented use case: ✨ sleek typing tui with visualized results and historical logging",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "thokr -w 100",
+      "website": "https://github.com/jrnxf/thokr",
+      "docs": "https://github.com/jrnxf/thokr/blob/0ebf43b7b1938bfbedddc4fe7ea7f796b1e241e1/README.md",
+      "stars": 602,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T01:44:32.309Z"
+    },
+    {
+      "slug": "yassinebridi-serpl",
+      "name": "serpl",
+      "repo": "yassinebridi/serpl",
+      "category": "Code search",
+      "command": "serpl",
+      "useCase": "A simple terminal UI for search and replace, ala VS Code.",
+      "description": "A simple terminal UI for search and replace, ala VS Code.",
+      "agentUse": "Invoke serpl from a shell for the documented use case: A simple terminal UI for search and replace, ala VS Code.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "serpl --project-root /path/to/project",
+      "website": "https://github.com/yassinebridi/serpl",
+      "docs": "https://github.com/yassinebridi/serpl/blob/aff9a23223b51b320b6d1f3143f67261c339f4b8/README.md",
+      "stars": 856,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T01:44:33.101Z"
+    },
+    {
+      "slug": "ccgauche-ytermusic",
+      "name": "ytermusic",
+      "repo": "ccgauche/ytermusic",
+      "category": "Terminal utilities",
+      "command": "ytermusic",
+      "useCase": "An in terminal youtube music client with focus on privacy, simplicity and performance",
+      "description": "An in terminal youtube music client with focus on privacy, simplicity and performance",
+      "agentUse": "Invoke ytermusic from a shell for the documented use case: An in terminal youtube music client with focus on privacy, simplicity and performance",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ytermusic --fix-db",
+      "website": "https://github.com/ccgauche/ytermusic",
+      "docs": "https://github.com/ccgauche/ytermusic/blob/0663348365ebf5a5ebb354ecc6544b142c5c478b/README.md",
+      "stars": 696,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-21T01:44:33.935Z"
+    },
+    {
+      "slug": "juftin-browsr",
+      "name": "browsr",
+      "repo": "juftin/browsr",
+      "category": "Files & documents",
+      "command": "browsr",
+      "useCase": "🗂️ a pleasant file explorer in your terminal supporting all filesystems",
+      "description": "🗂️ a pleasant file explorer in your terminal supporting all filesystems",
+      "agentUse": "Invoke browsr from a shell for the documented use case: 🗂️ a pleasant file explorer in your terminal supporting all filesystems",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "browsr github://juftin:browsr",
+      "website": "https://github.com/juftin/browsr",
+      "docs": "https://github.com/juftin/browsr/blob/e2423d837c4cb67a3e82152140f16386d967e5bd/README.md",
+      "stars": 649,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T01:44:34.708Z"
+    },
+    {
+      "slug": "max-niederman-ttyper",
+      "name": "ttyper",
+      "repo": "max-niederman/ttyper",
+      "category": "Testing & quality",
+      "command": "ttyper",
+      "useCase": "Terminal-based typing test.",
+      "description": "Terminal-based typing test.",
+      "agentUse": "Invoke ttyper from a shell for the documented use case: Terminal-based typing test.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ttyper 1.6.1",
+      "website": "https://github.com/max-niederman/ttyper",
+      "docs": "https://github.com/max-niederman/ttyper/blob/e218bad9d5c546ff31c1b2a141a42c2eebf50d23/README.md",
+      "stars": 1596,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T01:44:35.178Z"
+    },
+    {
+      "slug": "zdk-lowfat",
+      "name": "lowfat",
+      "repo": "zdk/lowfat",
+      "category": "Agents & models",
+      "command": "lowfat",
+      "useCase": "lowfat - slim your command output. strips noise, saves tokens.",
+      "description": "lowfat - slim your command output. strips noise, saves tokens.",
+      "agentUse": "Invoke lowfat from a shell for the documented use case: lowfat - slim your command output. strips noise, saves tokens.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lowfat git status",
+      "website": "https://github.com/zdk/lowfat",
+      "docs": "https://github.com/zdk/lowfat/blob/3a0de90cce463a4f5d9c968774507097570b9270/README.md",
+      "stars": 574,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-21T01:44:36.012Z"
     }
   ],
   "categories": [

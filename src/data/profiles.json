@@ -4327,5 +4327,83 @@
     "createdAt": "2014-04-15T14:54:44Z",
     "checkedAt": "2026-09-21T00:44:36.615Z",
     "source": "https://github.com/karimknaebel"
+  },
+  "jrnxf": {
+    "login": "jrnxf",
+    "name": "Colby Thomas",
+    "type": "User",
+    "bio": "should probably be sleeping",
+    "location": "Porto, Portugal",
+    "website": "jrnxf.co",
+    "followers": 76,
+    "publicRepos": 90,
+    "createdAt": "2016-08-30T20:24:45Z",
+    "checkedAt": "2026-09-21T01:44:38.792Z",
+    "source": "https://github.com/jrnxf"
+  },
+  "yassinebridi": {
+    "login": "yassinebridi",
+    "name": "Yassine Bridi",
+    "type": "User",
+    "bio": null,
+    "location": "Morocco",
+    "website": "https://yasbr.com",
+    "followers": 87,
+    "publicRepos": 56,
+    "createdAt": "2016-04-11T17:33:16Z",
+    "checkedAt": "2026-09-21T01:44:39.215Z",
+    "source": "https://github.com/yassinebridi"
+  },
+  "ccgauche": {
+    "login": "ccgauche",
+    "name": "Laurent Gaucheron",
+    "type": "User",
+    "bio": "I am a french developer.\r\nI know Java, Rust, JS, HTML, PhP, C, TS, Python, CSS, WASM",
+    "location": "Paris, France",
+    "website": "ccgauche.github.io",
+    "followers": 48,
+    "publicRepos": 34,
+    "createdAt": "2016-01-09T17:59:01Z",
+    "checkedAt": "2026-09-21T01:44:39.534Z",
+    "source": "https://github.com/ccgauche"
+  },
+  "juftin": {
+    "login": "juftin",
+    "name": "Justin Flannery",
+    "type": "User",
+    "bio": null,
+    "location": "Denver, CO, USA",
+    "website": "juftin.com",
+    "followers": 86,
+    "publicRepos": 54,
+    "createdAt": "2019-04-18T03:58:49Z",
+    "checkedAt": "2026-09-21T01:44:39.880Z",
+    "source": "https://github.com/juftin"
+  },
+  "max-niederman": {
+    "login": "max-niederman",
+    "name": "Max Niederman",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": "https://maxniederman.com",
+    "followers": 73,
+    "publicRepos": 71,
+    "createdAt": "2016-05-25T23:39:48Z",
+    "checkedAt": "2026-09-21T01:44:40.150Z",
+    "source": "https://github.com/max-niederman"
+  },
+  "zdk": {
+    "login": "zdk",
+    "name": "Di Warachet S.",
+    "type": "User",
+    "bio": null,
+    "location": "Thailand",
+    "website": null,
+    "followers": 154,
+    "publicRepos": 75,
+    "createdAt": "2008-04-08T04:06:51Z",
+    "checkedAt": "2026-09-21T01:44:40.467Z",
+    "source": "https://github.com/zdk"
   }
 }

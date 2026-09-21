@@ -4,126 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "Textualize/rich"
-    },
-    {
-      "repo": "red-data-tools/YouPlot"
-    },
-    {
-      "repo": "vinibiavatti1/TuiCss"
-    },
-    {
-      "repo": "RtlZeroMemory/Rezi"
-    },
-    {
-      "repo": "orhun/flawz"
-    },
-    {
-      "repo": "jrnxf/thokr"
-    },
-    {
-      "repo": "vyfor/rattles"
-    },
-    {
-      "repo": "nemuTUI/nemu"
-    },
-    {
-      "repo": "Bahaaio/pomo"
-    },
-    {
-      "repo": "fuelen/owl"
-    },
-    {
-      "repo": "P403n1x87/austin-tui"
-    },
-    {
-      "repo": "maria-rcks/t1code"
-    },
-    {
-      "repo": "yassinebridi/serpl"
-    },
-    {
-      "repo": "Siriusmart/youtube-tui"
-    },
-    {
-      "repo": "batrachianai/toad"
-    },
-    {
-      "repo": "tarkah/tickrs"
-    },
-    {
-      "repo": "kainctl/isd"
-    },
-    {
-      "repo": "zaghaghi/openapi-tui"
-    },
-    {
-      "repo": "ccgauche/ytermusic"
-    },
-    {
-      "repo": "ms-jpq/sad"
-    },
-    {
-      "repo": "pythops/tenere"
-    },
-    {
-      "repo": "hofstadter-io/hof"
-    },
-    {
-      "repo": "php-tui/php-tui"
-    },
-    {
-      "repo": "paul-nameless/tg"
-    },
-    {
-      "repo": "lusingander/stu"
-    },
-    {
-      "repo": "curlpipe/ox"
-    },
-    {
-      "repo": "juftin/browsr"
-    },
-    {
-      "repo": "xgi/castero"
-    },
-    {
-      "repo": "p-gen/smenu"
-    },
-    {
-      "repo": "max-niederman/ttyper"
-    },
-    {
-      "repo": "Broderick-Westrope/tetrigo"
-    },
-    {
-      "repo": "aome510/hackernews-TUI"
-    },
-    {
-      "repo": "jwlodek/py_cui"
-    },
-    {
-      "repo": "darrenburns/posting"
-    },
-    {
-      "repo": "productdevbook/port-killer"
-    },
-    {
-      "repo": "microsoft/rnx-kit"
-    },
-    {
-      "repo": "gglucass/headroom-desktop"
-    },
-    {
-      "repo": "Jarvis322/macos-sysdata"
-    },
-    {
-      "repo": "ix-infrastructure/Ix"
-    },
-    {
-      "repo": "zdk/lowfat"
-    },
-    {
       "repo": "childrentime/reactuse"
     },
     {
@@ -4136,8 +4016,9 @@
     },
     "ms-jpq/sad": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "nicklockwood/swiftformat": {
       "status": "held",
@@ -5079,13 +4960,15 @@
     },
     "xgi/castero": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "p-gen/smenu": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "http-party/http-server": {
       "status": "accepted",
@@ -5141,8 +5024,9 @@
     },
     "jwlodek/py_cui": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "kareman/swiftshell": {
       "status": "held",
@@ -6274,8 +6158,9 @@
     },
     "microsoft/rnx-kit": {
       "status": "held",
-      "checkedAt": "2026-09-14T06:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "refirmlabs/binwalk": {
       "status": "held",
@@ -6556,8 +6441,9 @@
     },
     "ix-infrastructure/ix": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "manifoldco/promptui": {
       "status": "held",
@@ -7175,8 +7061,9 @@
     },
     "red-data-tools/youplot": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "defunkt/gist": {
       "status": "held",
@@ -7242,8 +7129,9 @@
     },
     "fuelen/owl": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "klattimer/lgwebosremote": {
       "status": "held",
@@ -11307,9 +11195,37 @@
       }
     },
     "zdk/lowfat": {
-      "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "zdk-lowfat",
+      "acceptedAt": "2026-09-21T01:43:37.864Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/zdk/lowfat/blob/3a0de90cce463a4f5d9c968774507097570b9270/crates/lowfat/Cargo.toml",
+          "snippet": "[[bin]] name=\"lowfat\" path=\"src/main.rs\"",
+          "target": "crates/lowfat/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/zdk/lowfat/blob/3a0de90cce463a4f5d9c968774507097570b9270/README.md",
+          "snippet": "cargo install lowfat"
+        },
+        "usage": {
+          "url": "https://github.com/zdk/lowfat/blob/3a0de90cce463a4f5d9c968774507097570b9270/README.md",
+          "snippet": "lowfat git status"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/zdk/lowfat",
+          "snippet": "lowfat - slim your command output. strips noise, saves tokens."
+        },
+        "adoption": {
+          "stars": 574,
+          "githubSource": "https://github.com/zdk/lowfat",
+          "homebrew": null
+        },
+        "commit": "3a0de90cce463a4f5d9c968774507097570b9270"
+      }
     },
     "schollz/croc": {
       "status": "held",
@@ -13433,8 +13349,9 @@
     },
     "rtlzeromemory/rezi": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dprint/dprint": {
       "status": "held",
@@ -13567,9 +13484,37 @@
       }
     },
     "jrnxf/thokr": {
-      "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "jrnxf-thokr",
+      "acceptedAt": "2026-09-21T01:43:37.864Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/jrnxf/thokr/blob/0ebf43b7b1938bfbedddc4fe7ea7f796b1e241e1/Cargo.toml",
+          "snippet": "package.name=\"thokr\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/jrnxf/thokr/blob/0ebf43b7b1938bfbedddc4fe7ea7f796b1e241e1/README.md",
+          "snippet": "$ cargo install thokr"
+        },
+        "usage": {
+          "url": "https://github.com/jrnxf/thokr/blob/0ebf43b7b1938bfbedddc4fe7ea7f796b1e241e1/README.md",
+          "snippet": "thokr -w 100"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/jrnxf/thokr",
+          "snippet": "✨ sleek typing tui with visualized results and historical logging"
+        },
+        "adoption": {
+          "stars": 602,
+          "githubSource": "https://github.com/jrnxf/thokr",
+          "homebrew": null
+        },
+        "commit": "0ebf43b7b1938bfbedddc4fe7ea7f796b1e241e1"
+      }
     },
     "mgieseki/dvisvgm": {
       "status": "held",
@@ -13578,8 +13523,9 @@
     },
     "vyfor/rattles": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "auriamg/macdylibbundler": {
       "status": "held",
@@ -13633,8 +13579,9 @@
     },
     "bahaaio/pomo": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
     },
     "kargnas/damn-my-slow-kt": {
       "status": "held",
@@ -13693,8 +13640,9 @@
     },
     "siriusmart/youtube-tui": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "enulus/openpackage": {
       "status": "held",
@@ -13768,8 +13716,9 @@
     },
     "kainctl/isd": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "duanyan007/markitdown": {
       "status": "held",
@@ -13798,8 +13747,9 @@
     },
     "pythops/tenere": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "francescostabile/numasec": {
       "status": "held",
@@ -13818,8 +13768,9 @@
     },
     "hofstadter-io/hof": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "greymd/tmux-xpanes": {
       "status": "held",
@@ -13828,8 +13779,9 @@
     },
     "php-tui/php-tui": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "akd-io/create-next-stack": {
       "status": "held",
@@ -20785,7 +20737,247 @@
       "checkedAt": "2026-09-21T00:43:35.850Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "textualize/rich": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vinibiavatti1/tuicss": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "orhun/flawz": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nemutui/nemu": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "p403n1x87/austin-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "maria-rcks/t1code": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "yassinebridi/serpl": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "yassinebridi-serpl",
+      "acceptedAt": "2026-09-21T01:43:37.864Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/yassinebridi/serpl/blob/aff9a23223b51b320b6d1f3143f67261c339f4b8/Cargo.toml",
+          "snippet": "package.name=\"serpl\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/yassinebridi/serpl/blob/aff9a23223b51b320b6d1f3143f67261c339f4b8/README.md",
+          "snippet": "cargo install serpl"
+        },
+        "usage": {
+          "url": "https://github.com/yassinebridi/serpl/blob/aff9a23223b51b320b6d1f3143f67261c339f4b8/README.md",
+          "snippet": "serpl --project-root /path/to/project"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/yassinebridi/serpl",
+          "snippet": "A simple terminal UI for search and replace, ala VS Code."
+        },
+        "adoption": {
+          "stars": 856,
+          "githubSource": "https://github.com/yassinebridi/serpl",
+          "homebrew": null
+        },
+        "commit": "aff9a23223b51b320b6d1f3143f67261c339f4b8"
+      }
+    },
+    "batrachianai/toad": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tarkah/tickrs": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zaghaghi/openapi-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ccgauche/ytermusic": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ccgauche-ytermusic",
+      "acceptedAt": "2026-09-21T01:43:37.864Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ccgauche/ytermusic/blob/0663348365ebf5a5ebb354ecc6544b142c5c478b/crates/ytermusic/Cargo.toml",
+          "snippet": "package.name=\"ytermusic\"; src/main.rs",
+          "target": "crates/ytermusic/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/ccgauche/ytermusic/blob/0663348365ebf5a5ebb354ecc6544b142c5c478b/README.md",
+          "snippet": "cargo install ytermusic --git https://github.com/ccgauche/ytermusic"
+        },
+        "usage": {
+          "url": "https://github.com/ccgauche/ytermusic/blob/0663348365ebf5a5ebb354ecc6544b142c5c478b/README.md",
+          "snippet": "ytermusic --fix-db"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ccgauche/ytermusic",
+          "snippet": "An in terminal youtube music client with focus on privacy, simplicity and performance"
+        },
+        "adoption": {
+          "stars": 696,
+          "githubSource": "https://github.com/ccgauche/ytermusic",
+          "homebrew": null
+        },
+        "commit": "0663348365ebf5a5ebb354ecc6544b142c5c478b"
+      }
+    },
+    "paul-nameless/tg": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lusingander/stu": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "curlpipe/ox": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "juftin/browsr": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "juftin-browsr",
+      "acceptedAt": "2026-09-21T01:43:37.864Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/juftin/browsr/blob/e2423d837c4cb67a3e82152140f16386d967e5bd/pyproject.toml",
+          "snippet": "browsr = \"browsr.__main__:browsr\"",
+          "target": "browsr/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/juftin/browsr/blob/e2423d837c4cb67a3e82152140f16386d967e5bd/README.md",
+          "snippet": "pipx install browsr"
+        },
+        "usage": {
+          "url": "https://github.com/juftin/browsr/blob/e2423d837c4cb67a3e82152140f16386d967e5bd/README.md",
+          "snippet": "browsr github://juftin:browsr"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/juftin/browsr",
+          "snippet": "🗂️ a pleasant file explorer in your terminal supporting all filesystems"
+        },
+        "adoption": {
+          "stars": 649,
+          "githubSource": "https://github.com/juftin/browsr",
+          "homebrew": null
+        },
+        "commit": "e2423d837c4cb67a3e82152140f16386d967e5bd"
+      }
+    },
+    "max-niederman/ttyper": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "max-niederman-ttyper",
+      "acceptedAt": "2026-09-21T01:43:37.864Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/max-niederman/ttyper/blob/e218bad9d5c546ff31c1b2a141a42c2eebf50d23/Cargo.toml",
+          "snippet": "package.name=\"ttyper\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/max-niederman/ttyper/blob/e218bad9d5c546ff31c1b2a141a42c2eebf50d23/README.md",
+          "snippet": "cargo install ttyper"
+        },
+        "usage": {
+          "url": "https://github.com/max-niederman/ttyper/blob/e218bad9d5c546ff31c1b2a141a42c2eebf50d23/README.md",
+          "snippet": "ttyper 1.6.1"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/max-niederman/ttyper",
+          "snippet": "Terminal-based typing test."
+        },
+        "adoption": {
+          "stars": 1596,
+          "githubSource": "https://github.com/max-niederman/ttyper",
+          "homebrew": null
+        },
+        "commit": "e218bad9d5c546ff31c1b2a141a42c2eebf50d23"
+      }
+    },
+    "broderick-westrope/tetrigo": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "aome510/hackernews-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "darrenburns/posting": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "productdevbook/port-killer": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "gglucass/headroom-desktop": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "jarvis322/macos-sysdata": {
+      "status": "held",
+      "checkedAt": "2026-09-21T01:43:37.864Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
     }
   },
-  "lastRunAt": "2026-09-21T00:43:35.850Z"
+  "lastRunAt": "2026-09-21T01:43:37.864Z"
 }
