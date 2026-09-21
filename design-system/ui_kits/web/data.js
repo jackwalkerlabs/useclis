@@ -8247,6 +8247,25 @@ window.USECLIS_DATA = {
       "stars": 840,
       "license": "MIT",
       "checkedAt": "2026-09-21T06:44:13.279Z"
+    },
+    {
+      "slug": "dtnewman-zev",
+      "name": "zev",
+      "repo": "dtnewman/zev",
+      "category": "Agents & models",
+      "command": "zev",
+      "useCase": "A simple CLI tool to help you remember terminal commands",
+      "description": "A simple CLI tool to help you remember terminal commands",
+      "agentUse": "Invoke zev from a shell for the documented use case: A simple CLI tool to help you remember terminal commands",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "zev 'show all running python processes'",
+      "website": "https://github.com/dtnewman/zev",
+      "docs": "https://github.com/dtnewman/zev/blob/af4f098d8805226fde5f8f15ea2cb540f8293128/README.md",
+      "stars": 721,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T07:43:55.316Z"
     }
   ],
   "categories": [

@@ -7027,5 +7027,21 @@
     "example": "opendev run ui",
     "website": "https://github.com/opendev-to/opendev",
     "docs": "https://github.com/opendev-to/opendev/blob/d32c660e4eed1a8e988d1fd58da88e41ba641d08/README.md"
+  },
+  {
+    "slug": "dtnewman-zev",
+    "name": "zev",
+    "repo": "dtnewman/zev",
+    "category": "Agents & models",
+    "command": "zev",
+    "useCase": "A simple CLI tool to help you remember terminal commands",
+    "description": "A simple CLI tool to help you remember terminal commands",
+    "agentUse": "Invoke zev from a shell for the documented use case: A simple CLI tool to help you remember terminal commands",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "zev 'show all running python processes'",
+    "website": "https://github.com/dtnewman/zev",
+    "docs": "https://github.com/dtnewman/zev/blob/af4f098d8805226fde5f8f15ea2cb540f8293128/README.md"
   }
 ]

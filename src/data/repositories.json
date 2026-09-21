@@ -6088,5 +6088,20 @@
     "repositoryId": 1172905557,
     "attemptedAt": "2026-09-21T06:44:12.847Z",
     "status": "ok"
+  },
+  "dtnewman-zev": {
+    "defaultBranch": "main",
+    "createdAt": "2025-03-24T05:21:42Z",
+    "pushedAt": "2026-06-17T19:40:09Z",
+    "lastCommitAt": "2026-06-17T19:40:09Z",
+    "stars": 721,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-21T07:43:55.316Z",
+    "source": "https://github.com/dtnewman/zev",
+    "canonicalSource": "https://github.com/dtnewman/zev",
+    "repositoryId": 953803366,
+    "attemptedAt": "2026-09-21T07:43:54.854Z",
+    "status": "ok"
   }
 }

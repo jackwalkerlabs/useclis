@@ -2,74 +2,7 @@
   "version": 1,
   "searchPage": 4,
   "brewOffset": 840,
-  "pending": [
-    {
-      "repo": "pablostanley/yoinks"
-    },
-    {
-      "repo": "mptre/yank"
-    },
-    {
-      "repo": "0xhckr/ghostty-shaders"
-    },
-    {
-      "repo": "sindresorhus/terminal-image"
-    },
-    {
-      "repo": "Chleba/netscanner"
-    },
-    {
-      "repo": "coder/boo"
-    },
-    {
-      "repo": "npcole/npyscreen"
-    },
-    {
-      "repo": "S-Sigdel/vimhjkl"
-    },
-    {
-      "repo": "fenetikm/falcon"
-    },
-    {
-      "repo": "dpnkrpl/radio-active"
-    },
-    {
-      "repo": "xaspx/hermes-control-interface"
-    },
-    {
-      "repo": "kholia/xvc-pico"
-    },
-    {
-      "repo": "ku1ik/rainbow"
-    },
-    {
-      "repo": "Morantron/tmux-fingers"
-    },
-    {
-      "repo": "jmuncor/tokentap"
-    },
-    {
-      "repo": "bhauman/rebel-readline"
-    },
-    {
-      "repo": "my-claude-utils/clsh"
-    },
-    {
-      "repo": "willothy/flatten.nvim"
-    },
-    {
-      "repo": "dtnewman/zev"
-    },
-    {
-      "repo": "justskiv/goschedviz"
-    },
-    {
-      "repo": "penso/arbor"
-    },
-    {
-      "repo": "massgen/MassGen"
-    }
-  ],
+  "pending": [],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -12975,8 +12908,9 @@
     },
     "dpnkrpl/radio-active": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mohsen1/yek": {
       "status": "held",
@@ -13131,12 +13065,14 @@
     },
     "jmuncor/tokentap": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "my-claude-utils/clsh": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "mbailey/bash-my-aws": {
@@ -13170,9 +13106,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "dtnewman/zev": {
-      "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "dtnewman-zev",
+      "acceptedAt": "2026-09-21T07:43:37.523Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/dtnewman/zev/blob/af4f098d8805226fde5f8f15ea2cb540f8293128/pyproject.toml",
+          "snippet": "zev = \"zev.main:app\"",
+          "target": "src/zev/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/dtnewman/zev/blob/af4f098d8805226fde5f8f15ea2cb540f8293128/README.md",
+          "snippet": "pipx install zev"
+        },
+        "usage": {
+          "url": "https://github.com/dtnewman/zev/blob/af4f098d8805226fde5f8f15ea2cb540f8293128/README.md",
+          "snippet": "zev 'show all running python processes'"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/dtnewman/zev",
+          "snippet": "A simple CLI tool to help you remember terminal commands"
+        },
+        "adoption": {
+          "stars": 721,
+          "githubSource": "https://github.com/dtnewman/zev",
+          "homebrew": null
+        },
+        "commit": "af4f098d8805226fde5f8f15ea2cb540f8293128"
+      }
     },
     "doxygen/doxygen": {
       "status": "held",
@@ -21694,7 +21658,109 @@
       "checkedAt": "2026-09-21T06:43:33.602Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pablostanley/yoinks": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mptre/yank": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "0xhckr/ghostty-shaders": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sindresorhus/terminal-image": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chleba/netscanner": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "coder/boo": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "npcole/npyscreen": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "s-sigdel/vimhjkl": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fenetikm/falcon": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "xaspx/hermes-control-interface": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kholia/xvc-pico": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ku1ik/rainbow": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "morantron/tmux-fingers": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bhauman/rebel-readline": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "willothy/flatten.nvim": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "justskiv/goschedviz": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "penso/arbor": {
+      "status": "held",
+      "checkedAt": "2026-09-21T07:43:37.523Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
     }
   },
-  "lastRunAt": "2026-09-21T06:43:33.602Z"
+  "lastRunAt": "2026-09-21T07:43:37.523Z"
 }
