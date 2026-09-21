@@ -578,10 +578,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://amazon.com/aws",
-    "followers": 16770,
-    "publicRepos": 552,
+    "followers": 16892,
+    "publicRepos": 553,
     "createdAt": "2012-08-28T05:37:55Z",
-    "checkedAt": "2026-09-13T23:45:00.986Z",
+    "checkedAt": "2026-09-21T12:50:04.037Z",
     "source": "https://github.com/aws"
   },
   "azure": {
@@ -1319,10 +1319,10 @@
     "bio": "😻A N A R C H O ー ネ コ バ ス 😻",
     "location": "The Blue Planet",
     "website": "https://rodarmor.com",
-    "followers": 3735,
+    "followers": 3743,
     "publicRepos": 312,
     "createdAt": "2008-03-02T09:58:31Z",
-    "checkedAt": "2026-09-14T04:44:42.824Z",
+    "checkedAt": "2026-09-21T12:50:04.277Z",
     "source": "https://github.com/casey"
   },
   "openhue": {
@@ -2687,7 +2687,7 @@
     "followers": 558,
     "publicRepos": 33,
     "createdAt": "2012-07-05T08:04:26Z",
-    "checkedAt": "2026-09-13T23:42:35.500Z",
+    "checkedAt": "2026-09-21T12:50:04.521Z",
     "source": "https://github.com/cookpete"
   },
   "mkb79": {
@@ -2697,10 +2697,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 31,
+    "followers": 32,
     "publicRepos": 16,
     "createdAt": "2018-06-18T18:49:47Z",
-    "checkedAt": "2026-09-13T23:42:35.684Z",
+    "checkedAt": "2026-09-21T12:50:04.718Z",
     "source": "https://github.com/mkb79"
   },
   "acheronfail": {
@@ -2711,9 +2711,9 @@
     "location": null,
     "website": null,
     "followers": 64,
-    "publicRepos": 147,
+    "publicRepos": 148,
     "createdAt": "2017-12-06T00:25:11Z",
-    "checkedAt": "2026-09-13T23:42:35.868Z",
+    "checkedAt": "2026-09-21T12:50:04.946Z",
     "source": "https://github.com/acheronfail"
   },
   "geekjourneyx": {
@@ -2723,10 +2723,10 @@
     "bio": "AI Builder |  Harness Engineer",
     "location": "china",
     "website": "https://jieni.ai",
-    "followers": 290,
-    "publicRepos": 174,
+    "followers": 294,
+    "publicRepos": 175,
     "createdAt": "2016-12-07T01:11:52Z",
-    "checkedAt": "2026-09-13T23:45:00.528Z",
+    "checkedAt": "2026-09-21T12:50:05.262Z",
     "source": "https://github.com/geekjourneyx"
   },
   "iwe-org": {
@@ -2736,10 +2736,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://iwe.md",
-    "followers": 21,
+    "followers": 24,
     "publicRepos": 15,
     "createdAt": "2024-02-20T23:36:43Z",
-    "checkedAt": "2026-09-13T23:45:01.339Z",
+    "checkedAt": "2026-09-21T12:50:05.537Z",
     "source": "https://github.com/iwe-org"
   },
   "http-party": {
@@ -2749,10 +2749,10 @@
     "bio": "Who says networking can't be fun?",
     "location": "Worldwide",
     "website": null,
-    "followers": 105,
+    "followers": 108,
     "publicRepos": 5,
     "createdAt": "2015-02-04T08:41:26Z",
-    "checkedAt": "2026-09-14T01:44:35.279Z",
+    "checkedAt": "2026-09-21T12:50:05.776Z",
     "source": "https://github.com/http-party"
   },
   "nikolassv": {
@@ -2765,7 +2765,7 @@
     "followers": 27,
     "publicRepos": 28,
     "createdAt": "2011-08-26T16:16:07Z",
-    "checkedAt": "2026-09-14T01:44:35.613Z",
+    "checkedAt": "2026-09-21T12:50:06.198Z",
     "source": "https://github.com/nikolassv"
   },
   "cabal-club": {
@@ -2778,7 +2778,7 @@
     "followers": 162,
     "publicRepos": 31,
     "createdAt": "2018-05-16T11:08:24Z",
-    "checkedAt": "2026-09-14T03:44:40.706Z",
+    "checkedAt": "2026-09-21T12:50:06.460Z",
     "source": "https://github.com/cabal-club"
   },
   "vividvilla": {
@@ -2788,10 +2788,10 @@
     "bio": "Full stack developer @zerodha\r\n",
     "location": "Bengaluru",
     "website": "https://vivekr.dev",
-    "followers": 512,
+    "followers": 510,
     "publicRepos": 77,
     "createdAt": "2011-04-07T15:09:07Z",
-    "checkedAt": "2026-09-14T04:44:42.647Z",
+    "checkedAt": "2026-09-21T12:50:06.673Z",
     "source": "https://github.com/vividvilla"
   },
   "motdotla": {
@@ -2801,10 +2801,10 @@
     "bio": "Creator of `dotenv` and `dotenvx`.",
     "location": "LA & SF",
     "website": "https://mot.la",
-    "followers": 1202,
-    "publicRepos": 275,
+    "followers": 1203,
+    "publicRepos": 276,
     "createdAt": "2008-03-26T01:13:18Z",
-    "checkedAt": "2026-09-14T04:44:42.990Z",
+    "checkedAt": "2026-09-21T12:50:06.898Z",
     "source": "https://github.com/motdotla"
   },
   "alan-turing-institute": {
@@ -2814,10 +2814,10 @@
     "bio": "The UK's national institute for data science and artificial intelligence.",
     "location": null,
     "website": "https://turing.ac.uk",
-    "followers": 1015,
-    "publicRepos": 669,
+    "followers": 1017,
+    "publicRepos": 670,
     "createdAt": "2016-04-06T09:38:19Z",
-    "checkedAt": "2026-09-14T04:44:43.165Z",
+    "checkedAt": "2026-09-21T12:50:07.083Z",
     "source": "https://github.com/alan-turing-institute"
   },
   "rehmatworks": {
@@ -2830,7 +2830,7 @@
     "followers": 105,
     "publicRepos": 56,
     "createdAt": "2016-11-18T12:19:34Z",
-    "checkedAt": "2026-09-14T05:44:27.590Z",
+    "checkedAt": "2026-09-21T12:50:07.324Z",
     "source": "https://github.com/rehmatworks"
   },
   "nicobailon": {
@@ -2840,10 +2840,10 @@
     "bio": "Senior Agent Engineer @ Pika Labs",
     "location": "Vancouver, BC",
     "website": "https://pika.art",
-    "followers": 2011,
+    "followers": 2031,
     "publicRepos": 132,
     "createdAt": "2012-12-04T04:29:28Z",
-    "checkedAt": "2026-09-14T06:44:49.472Z",
+    "checkedAt": "2026-09-21T12:50:07.581Z",
     "source": "https://github.com/nicobailon"
   },
   "mklement0": {
@@ -2853,10 +2853,10 @@
     "bio": null,
     "location": "New Hampshire (USA)",
     "website": "https://www.linkedin.com/in/mklement0/",
-    "followers": 165,
+    "followers": 166,
     "publicRepos": 30,
     "createdAt": "2011-01-28T18:31:44Z",
-    "checkedAt": "2026-09-14T07:44:36.279Z",
+    "checkedAt": "2026-09-21T12:50:07.755Z",
     "source": "https://github.com/mklement0"
   },
   "ruyadorno": {
@@ -2869,7 +2869,7 @@
     "followers": 933,
     "publicRepos": 249,
     "createdAt": "2010-03-11T21:20:40Z",
-    "checkedAt": "2026-09-14T07:44:36.610Z",
+    "checkedAt": "2026-09-21T12:50:08.009Z",
     "source": "https://github.com/ruyadorno"
   },
   "dat-ecosystem": {
@@ -2882,7 +2882,7 @@
     "followers": 126,
     "publicRepos": 23,
     "createdAt": "2021-01-06T19:53:51Z",
-    "checkedAt": "2026-09-14T08:44:39.113Z",
+    "checkedAt": "2026-09-21T12:50:08.200Z",
     "source": "https://github.com/dat-ecosystem"
   },
   "backblaze": {
@@ -2895,7 +2895,7 @@
     "followers": 133,
     "publicRepos": 18,
     "createdAt": "2014-12-23T19:40:54Z",
-    "checkedAt": "2026-09-14T09:44:43.141Z",
+    "checkedAt": "2026-09-21T12:50:08.418Z",
     "source": "https://github.com/Backblaze"
   },
   "raphaelmansuy": {
@@ -2906,9 +2906,9 @@
     "location": "Hong Kong SAR",
     "website": "https://www.elitizon.com",
     "followers": 315,
-    "publicRepos": 175,
+    "publicRepos": 176,
     "createdAt": "2011-08-25T03:13:02Z",
-    "checkedAt": "2026-09-14T09:44:43.379Z",
+    "checkedAt": "2026-09-21T12:50:08.642Z",
     "source": "https://github.com/raphaelmansuy"
   },
   "parvardegr": {
@@ -2921,7 +2921,7 @@
     "followers": 53,
     "publicRepos": 19,
     "createdAt": "2014-10-29T17:34:51Z",
-    "checkedAt": "2026-09-14T09:44:43.604Z",
+    "checkedAt": "2026-09-21T12:50:08.908Z",
     "source": "https://github.com/parvardegr"
   },
   "etetoolkit": {
@@ -2934,7 +2934,7 @@
     "followers": 40,
     "publicRepos": 16,
     "createdAt": "2016-01-31T08:56:02Z",
-    "checkedAt": "2026-09-14T10:44:46.338Z",
+    "checkedAt": "2026-09-21T12:50:09.172Z",
     "source": "https://github.com/etetoolkit"
   },
   "automattic": {
@@ -2944,10 +2944,10 @@
     "bio": "We are passionate about making the web a better place.",
     "location": "Worldwide",
     "website": "https://automattic.com",
-    "followers": 3336,
-    "publicRepos": 1402,
+    "followers": 3353,
+    "publicRepos": 1406,
     "createdAt": "2011-07-01T02:45:15Z",
-    "checkedAt": "2026-09-14T10:44:46.685Z",
+    "checkedAt": "2026-09-21T12:50:09.375Z",
     "source": "https://github.com/Automattic"
   },
   "efforg": {
@@ -2957,10 +2957,10 @@
     "bio": null,
     "location": "San Francisco",
     "website": "https://www.eff.org/",
-    "followers": 1696,
+    "followers": 1711,
     "publicRepos": 107,
     "createdAt": "2012-08-09T01:26:53Z",
-    "checkedAt": "2026-09-14T10:44:46.993Z",
+    "checkedAt": "2026-09-21T12:50:09.586Z",
     "source": "https://github.com/EFForg"
   },
   "lavie": {
@@ -2973,7 +2973,7 @@
     "followers": 48,
     "publicRepos": 82,
     "createdAt": "2010-03-30T14:44:01Z",
-    "checkedAt": "2026-09-14T10:44:47.332Z",
+    "checkedAt": "2026-09-21T12:50:09.865Z",
     "source": "https://github.com/lavie"
   },
   "seemseam": {
