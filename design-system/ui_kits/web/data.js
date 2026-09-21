@@ -8000,6 +8000,82 @@ window.USECLIS_DATA = {
       "stars": 671,
       "license": "MIT",
       "checkedAt": "2026-09-21T03:43:54.775Z"
+    },
+    {
+      "slug": "afc163-fanyi",
+      "name": "fanyi",
+      "repo": "afc163/fanyi",
+      "category": "Terminal utilities",
+      "command": "fy",
+      "useCase": "A 🇨🇳 and 🇺🇸 translator in your command line",
+      "description": "A 🇨🇳 and 🇺🇸 translator in your command line",
+      "agentUse": "Invoke fy from a shell for the documented use case: A 🇨🇳 and 🇺🇸 translator in your command line",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fy word",
+      "website": "https://github.com/afc163/fanyi",
+      "docs": "https://github.com/afc163/fanyi/blob/c853e6bc9bedef2eb92d948816118f311cd4cacd/README.md",
+      "stars": 1553,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T04:44:16.882Z"
+    },
+    {
+      "slug": "commitizen-cz-cli",
+      "name": "cz-cli",
+      "repo": "commitizen/cz-cli",
+      "category": "Git & collaboration",
+      "command": "commitizen",
+      "useCase": "The commitizen command line utility. #BlackLivesMatter",
+      "description": "The commitizen command line utility. #BlackLivesMatter",
+      "agentUse": "Invoke commitizen from a shell for the documented use case: The commitizen command line utility. #BlackLivesMatter",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "commitizen init cz-conventional-changelog --save-dev --save-exact",
+      "website": "https://github.com/commitizen/cz-cli",
+      "docs": "https://github.com/commitizen/cz-cli/blob/1a8c49c02c9d52d1b4ef8cdabefb538088ddea03/README.md",
+      "stars": 17501,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T04:44:17.543Z"
+    },
+    {
+      "slug": "haidaram-ansible-playbook-grapher",
+      "name": "ansible-playbook-grapher",
+      "repo": "haidaraM/ansible-playbook-grapher",
+      "category": "Terminal utilities",
+      "command": "ansible-playbook-grapher",
+      "useCase": "A command line tool to create a graph representing your Ansible playbook tasks and roles",
+      "description": "A command line tool to create a graph representing your Ansible playbook tasks and roles",
+      "agentUse": "Invoke ansible-playbook-grapher from a shell for the documented use case: A command line tool to create a graph representing your Ansible playbook tasks and roles",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ansible-playbook-grapher tests/fixtures/example.yml",
+      "website": "https://github.com/haidaraM/ansible-playbook-grapher",
+      "docs": "https://github.com/haidaraM/ansible-playbook-grapher/blob/3bf87a820b939c74301213fb4667fbbf043c2d0e/README.md",
+      "stars": 762,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-21T04:44:18.176Z"
+    },
+    {
+      "slug": "abey79-vpype",
+      "name": "vpype",
+      "repo": "abey79/vpype",
+      "category": "Files & documents",
+      "command": "vpype",
+      "useCase": "The Swiss-Army-knife command-line tool for plotter vector graphics.",
+      "description": "The Swiss-Army-knife command-line tool for plotter vector graphics.",
+      "agentUse": "Invoke vpype from a shell for the documented use case: The Swiss-Army-knife command-line tool for plotter vector graphics.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "vpype -I examples/grid.vpy",
+      "website": "https://github.com/abey79/vpype",
+      "docs": "https://github.com/abey79/vpype/blob/e593ff05c2b13e48be2b3aa10e1c8d71c1b21dc0/README.md",
+      "stars": 938,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T04:44:18.837Z"
     }
   ],
   "categories": [

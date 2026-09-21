@@ -4509,5 +4509,57 @@
     "createdAt": "2022-09-01T01:49:53Z",
     "checkedAt": "2026-09-21T03:43:56.716Z",
     "source": "https://github.com/micahkepe"
+  },
+  "afc163": {
+    "login": "afc163",
+    "name": "afc163",
+    "type": "User",
+    "bio": "Life is a box of chaos",
+    "location": "Hangzhou, China",
+    "website": "https://twitter.com/afc163",
+    "followers": 7369,
+    "publicRepos": 273,
+    "createdAt": "2010-12-03T06:35:28Z",
+    "checkedAt": "2026-09-21T04:44:20.866Z",
+    "source": "https://github.com/afc163"
+  },
+  "commitizen": {
+    "login": "commitizen",
+    "name": "Commitizen",
+    "type": "Organization",
+    "bio": "Zen-like commit messages for internet citizens.",
+    "location": "Minneapolis, MN",
+    "website": "http://twitter.com/commitizen",
+    "followers": 151,
+    "publicRepos": 12,
+    "createdAt": "2015-04-16T14:54:29Z",
+    "checkedAt": "2026-09-21T04:44:21.143Z",
+    "source": "https://github.com/commitizen"
+  },
+  "haidaram": {
+    "login": "haidaraM",
+    "name": "Mohamed El Mouctar Haidara",
+    "type": "User",
+    "bio": "Senior Cloud Architect/Platform Engineer/SRE",
+    "location": "Paris",
+    "website": "https://blog.haidara.io/",
+    "followers": 81,
+    "publicRepos": 20,
+    "createdAt": "2014-11-19T19:26:11Z",
+    "checkedAt": "2026-09-21T04:44:21.496Z",
+    "source": "https://github.com/haidaraM"
+  },
+  "abey79": {
+    "login": "abey79",
+    "name": "Antoine Beyeler",
+    "type": "User",
+    "bio": null,
+    "location": "Lausanne, Switzerland",
+    "website": "bylr.info",
+    "followers": 210,
+    "publicRepos": 64,
+    "createdAt": "2019-04-09T07:30:11Z",
+    "checkedAt": "2026-09-21T04:44:21.792Z",
+    "source": "https://github.com/abey79"
   }
 }

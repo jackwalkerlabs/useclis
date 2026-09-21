@@ -4,135 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "glauth/glauth"
-    },
-    {
-      "repo": "darrenhinde/OpenAgentsControl"
-    },
-    {
-      "repo": "Ataraxy-Labs/sem"
-    },
-    {
-      "repo": "rafal-qa/slopo"
-    },
-    {
-      "repo": "sourcey/sourcey"
-    },
-    {
-      "repo": "amalshaji/portr"
-    },
-    {
-      "repo": "Mirascope/mirascope"
-    },
-    {
-      "repo": "Tura-AI/tura"
-    },
-    {
-      "repo": "Owloops/claude-powerline"
-    },
-    {
-      "repo": "kaochenlong/spectra-app"
-    },
-    {
-      "repo": "spaam/svtplay-dl"
-    },
-    {
-      "repo": "deviceinsight/kafkactl"
-    },
-    {
-      "repo": "containers/toolbox"
-    },
-    {
-      "repo": "ARM-software/astc-encoder"
-    },
-    {
-      "repo": "xo/dbtpl"
-    },
-    {
-      "repo": "python-poetry/cleo"
-    },
-    {
-      "repo": "fioncat/otree"
-    },
-    {
-      "repo": "afc163/fanyi"
-    },
-    {
-      "repo": "hartwork/git-delete-merged-branches"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-health-probe"
-    },
-    {
-      "repo": "boredazfcuk/docker-icloudpd"
-    },
-    {
-      "repo": "packwiz/packwiz"
-    },
-    {
-      "repo": "mkideal/cli"
-    },
-    {
-      "repo": "howeyc/ledger"
-    },
-    {
-      "repo": "cookpete/auto-changelog"
-    },
-    {
-      "repo": "cs50/submit50"
-    },
-    {
-      "repo": "ledger/ledger"
-    },
-    {
-      "repo": "magmax/python-inquirer"
-    },
-    {
-      "repo": "buo/homebrew-cask-upgrade"
-    },
-    {
-      "repo": "commitizen/cz-cli"
-    },
-    {
-      "repo": "jasonrbriggs/stomp.py"
-    },
-    {
-      "repo": "haidaraM/ansible-playbook-grapher"
-    },
-    {
-      "repo": "coherentgraphics/cpdf-binaries"
-    },
-    {
-      "repo": "osmcode/osmium-tool"
-    },
-    {
-      "repo": "fullstorydev/grpcurl"
-    },
-    {
-      "repo": "curl/trurl"
-    },
-    {
-      "repo": "acheronfail/repgrep"
-    },
-    {
-      "repo": "brocode/fblog"
-    },
-    {
-      "repo": "knadh/koanf"
-    },
-    {
-      "repo": "hexdigest/gowrap"
-    },
-    {
-      "repo": "JEG2/highline"
-    },
-    {
-      "repo": "cutechess/cutechess"
-    },
-    {
-      "repo": "abey79/vpype"
-    },
-    {
       "repo": "cognidox/OfficeToPDF"
     },
     {
@@ -1687,7 +1558,8 @@
     },
     "hartwork/git-delete-merged-branches": {
       "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "nextlevelbuilder/ui-ux-pro-max-skill": {
@@ -1803,9 +1675,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "commitizen/cz-cli": {
-      "status": "held",
-      "checkedAt": "2026-09-11T16:43:51.396Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "commitizen-cz-cli",
+      "acceptedAt": "2026-09-21T04:43:41.897Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/commitizen/cz-cli/blob/1a8c49c02c9d52d1b4ef8cdabefb538088ddea03/package.json",
+          "snippet": "{\"bin\":{\"commitizen\":\"./bin/commitizen\"}}",
+          "target": "bin/commitizen"
+        },
+        "installation": {
+          "url": "https://github.com/commitizen/cz-cli/blob/1a8c49c02c9d52d1b4ef8cdabefb538088ddea03/README.md",
+          "snippet": "npm install -g commitizen"
+        },
+        "usage": {
+          "url": "https://github.com/commitizen/cz-cli/blob/1a8c49c02c9d52d1b4ef8cdabefb538088ddea03/README.md",
+          "snippet": "commitizen init cz-conventional-changelog --save-dev --save-exact"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/commitizen/cz-cli",
+          "snippet": "The commitizen command line utility. #BlackLivesMatter"
+        },
+        "adoption": {
+          "stars": 17501,
+          "githubSource": "https://github.com/commitizen/cz-cli",
+          "homebrew": null
+        },
+        "commit": "1a8c49c02c9d52d1b4ef8cdabefb538088ddea03"
+      }
     },
     "dropbox/dbxcli": {
       "status": "held",
@@ -2236,8 +2136,9 @@
     },
     "spaam/svtplay-dl": {
       "status": "held",
-      "checkedAt": "2026-09-11T17:43:49.743Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jacob-bd/gemini-notebook-mcp-cli": {
       "status": "accepted",
@@ -2273,8 +2174,9 @@
     },
     "deviceinsight/kafkactl": {
       "status": "held",
-      "checkedAt": "2026-09-11T17:43:49.743Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "drush-ops/drush": {
       "status": "held",
@@ -2331,8 +2233,9 @@
     },
     "containers/toolbox": {
       "status": "held",
-      "checkedAt": "2026-09-11T18:43:50.739Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dart-lang/pub": {
       "status": "held",
@@ -2371,7 +2274,8 @@
     },
     "xo/dbtpl": {
       "status": "held",
-      "checkedAt": "2026-09-11T18:43:50.739Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "foundweekends/giter8": {
@@ -3505,8 +3409,9 @@
     },
     "python-poetry/cleo": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "taywee/args": {
       "status": "held",
@@ -3854,8 +3759,9 @@
     },
     "arm-software/astc-encoder": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "igorshubovych/markdownlint-cli": {
       "status": "held",
@@ -3880,7 +3786,8 @@
     },
     "fioncat/otree": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "rust-av/av1an": {
@@ -3889,9 +3796,37 @@
       "reason": "Terminal use case needs classification"
     },
     "afc163/fanyi": {
-      "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "afc163-fanyi",
+      "acceptedAt": "2026-09-21T04:43:41.897Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/afc163/fanyi/blob/c853e6bc9bedef2eb92d948816118f311cd4cacd/package.json",
+          "snippet": "{\"bin\":{\"fy\":\"bin/fanyi.mjs\"}}",
+          "target": "bin/fanyi.mjs"
+        },
+        "installation": {
+          "url": "https://github.com/afc163/fanyi/blob/c853e6bc9bedef2eb92d948816118f311cd4cacd/README.md",
+          "snippet": "$ npm i fanyi -g"
+        },
+        "usage": {
+          "url": "https://github.com/afc163/fanyi/blob/c853e6bc9bedef2eb92d948816118f311cd4cacd/README.md",
+          "snippet": "fy word"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/afc163/fanyi",
+          "snippet": "A 🇨🇳 and 🇺🇸 translator in your command line"
+        },
+        "adoption": {
+          "stars": 1553,
+          "githubSource": "https://github.com/afc163/fanyi",
+          "homebrew": null
+        },
+        "commit": "c853e6bc9bedef2eb92d948816118f311cd4cacd"
+      }
     },
     "sferik/x-cli": {
       "status": "held",
@@ -3905,12 +3840,14 @@
     },
     "boredazfcuk/docker-icloudpd": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "packwiz/packwiz": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "termux/termux-api": {
@@ -3930,13 +3867,15 @@
     },
     "mkideal/cli": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "howeyc/ledger": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "agarrharr/awesome-cli-apps": {
       "status": "held",
@@ -3946,7 +3885,8 @@
     },
     "grpc-ecosystem/grpc-health-probe": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "tizonia/tizonia-openmax-il": {
@@ -3989,13 +3929,15 @@
     },
     "cs50/submit50": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ledger/ledger": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mkb79/audible-cli": {
       "status": "accepted",
@@ -4031,7 +3973,8 @@
     },
     "magmax/python-inquirer": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "sibprogrammer/xq": {
@@ -4046,8 +3989,9 @@
     },
     "buo/homebrew-cask-upgrade": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "fossology/fossology": {
       "status": "held",
@@ -4056,23 +4000,54 @@
     },
     "jasonrbriggs/stomp.py": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "haidaram/ansible-playbook-grapher": {
-      "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "haidaram-ansible-playbook-grapher",
+      "acceptedAt": "2026-09-21T04:43:41.897Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/haidaraM/ansible-playbook-grapher/blob/3bf87a820b939c74301213fb4667fbbf043c2d0e/pyproject.toml",
+          "snippet": "ansible-playbook-grapher = \"ansibleplaybookgrapher.cli:main\"",
+          "target": "ansibleplaybookgrapher/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/haidaraM/ansible-playbook-grapher/blob/3bf87a820b939c74301213fb4667fbbf043c2d0e/README.md",
+          "snippet": "uv tool install ansible-playbook-grapher"
+        },
+        "usage": {
+          "url": "https://github.com/haidaraM/ansible-playbook-grapher/blob/3bf87a820b939c74301213fb4667fbbf043c2d0e/README.md",
+          "snippet": "ansible-playbook-grapher tests/fixtures/example.yml"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/haidaraM/ansible-playbook-grapher",
+          "snippet": "A command line tool to create a graph representing your Ansible playbook tasks and roles"
+        },
+        "adoption": {
+          "stars": 762,
+          "githubSource": "https://github.com/haidaraM/ansible-playbook-grapher",
+          "homebrew": null
+        },
+        "commit": "3bf87a820b939c74301213fb4667fbbf043c2d0e"
+      }
     },
     "coherentgraphics/cpdf-binaries": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "osmcode/osmium-tool": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "yubico/yubikey-manager": {
       "status": "held",
@@ -4092,13 +4067,15 @@
     },
     "fullstorydev/grpcurl": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "curl/trurl": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "fastapi/fastapi-cli": {
       "status": "held",
@@ -4140,28 +4117,60 @@
     },
     "knadh/koanf": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "hexdigest/gowrap": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jeg2/highline": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cutechess/cutechess": {
       "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "abey79/vpype": {
-      "status": "held",
-      "checkedAt": "2026-09-13T23:42:06.208Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "abey79-vpype",
+      "acceptedAt": "2026-09-21T04:43:41.897Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/abey79/vpype/blob/e593ff05c2b13e48be2b3aa10e1c8d71c1b21dc0/pyproject.toml",
+          "snippet": "vpype = \"vpype_cli.cli:cli\"",
+          "target": "vpype_cli/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/abey79/vpype/blob/e593ff05c2b13e48be2b3aa10e1c8d71c1b21dc0/README.md",
+          "snippet": "pipx install vpype"
+        },
+        "usage": {
+          "url": "https://github.com/abey79/vpype/blob/e593ff05c2b13e48be2b3aa10e1c8d71c1b21dc0/README.md",
+          "snippet": "vpype -I examples/grid.vpy"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/abey79/vpype",
+          "snippet": "The Swiss-Army-knife command-line tool for plotter vector graphics."
+        },
+        "adoption": {
+          "stars": 938,
+          "githubSource": "https://github.com/abey79/vpype",
+          "homebrew": null
+        },
+        "commit": "e593ff05c2b13e48be2b3aa10e1c8d71c1b21dc0"
+      }
     },
     "cognidox/officetopdf": {
       "status": "held",
@@ -8914,8 +8923,9 @@
     },
     "amalshaji/portr": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jreleaser/jreleaser": {
       "status": "held",
@@ -15197,8 +15207,9 @@
     },
     "owloops/claude-powerline": {
       "status": "held",
-      "checkedAt": "2026-09-15T21:44:22.715Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "probelabs/probe": {
       "status": "held",
@@ -15207,7 +15218,8 @@
     },
     "kaochenlong/spectra-app": {
       "status": "held",
-      "checkedAt": "2026-09-15T21:44:22.715Z",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "flow-typed/flow-typed": {
@@ -18442,8 +18454,9 @@
     },
     "ataraxy-labs/sem": {
       "status": "held",
-      "checkedAt": "2026-09-16T21:44:08.720Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
     },
     "joshmedeski/sesh": {
       "status": "held",
@@ -21349,7 +21362,43 @@
         },
         "commit": "2c913fa21c2a264311ff8b1c44ed5fd4f68363e5"
       }
+    },
+    "glauth/glauth": {
+      "status": "held",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "darrenhinde/openagentscontrol": {
+      "status": "held",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "rafal-qa/slopo": {
+      "status": "held",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "sourcey/sourcey": {
+      "status": "held",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "mirascope/mirascope": {
+      "status": "held",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "tura-ai/tura": {
+      "status": "held",
+      "checkedAt": "2026-09-21T04:43:41.897Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
     }
   },
-  "lastRunAt": "2026-09-21T03:43:33.092Z"
+  "lastRunAt": "2026-09-21T04:43:41.897Z"
 }
