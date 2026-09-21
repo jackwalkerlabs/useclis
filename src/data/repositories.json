@@ -5848,5 +5848,50 @@
     "repositoryId": 589727205,
     "attemptedAt": "2026-09-21T02:44:06.520Z",
     "status": "ok"
+  },
+  "ojuschugh1-sqz": {
+    "defaultBranch": "main",
+    "createdAt": "2026-04-12T07:23:52Z",
+    "pushedAt": "2026-09-15T18:09:50Z",
+    "lastCommitAt": "2026-09-15T18:09:35Z",
+    "stars": 626,
+    "license": null,
+    "language": "Rust",
+    "checkedAt": "2026-09-21T03:43:53.829Z",
+    "source": "https://github.com/ojuschugh1/sqz",
+    "canonicalSource": "https://github.com/ojuschugh1/sqz",
+    "repositoryId": 1208373001,
+    "attemptedAt": "2026-09-21T03:43:53.438Z",
+    "status": "ok"
+  },
+  "liaohch3-claude-tap": {
+    "defaultBranch": "main",
+    "createdAt": "2026-02-15T12:51:26Z",
+    "pushedAt": "2026-09-15T12:13:50Z",
+    "lastCommitAt": "2026-09-15T12:13:36Z",
+    "stars": 3224,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-21T03:43:54.329Z",
+    "source": "https://github.com/liaohch3/claude-tap",
+    "canonicalSource": "https://github.com/liaohch3/claude-tap",
+    "repositoryId": 1158479469,
+    "attemptedAt": "2026-09-21T03:43:53.948Z",
+    "status": "ok"
+  },
+  "micahkepe-jsongrep": {
+    "defaultBranch": "main",
+    "createdAt": "2025-08-08T22:08:52Z",
+    "pushedAt": "2026-09-14T00:56:50Z",
+    "lastCommitAt": "2026-09-14T00:56:09Z",
+    "stars": 671,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-21T03:43:54.775Z",
+    "source": "https://github.com/micahkepe/jsongrep",
+    "canonicalSource": "https://github.com/micahkepe/jsongrep",
+    "repositoryId": 1034729507,
+    "attemptedAt": "2026-09-21T03:43:54.399Z",
+    "status": "ok"
   }
 }

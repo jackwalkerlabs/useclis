@@ -4470,5 +4470,44 @@
     "createdAt": "2018-09-18T15:35:29Z",
     "checkedAt": "2026-09-21T02:44:10.925Z",
     "source": "https://github.com/eli64s"
+  },
+  "ojuschugh1": {
+    "login": "ojuschugh1",
+    "name": "Ojus Chugh",
+    "type": "User",
+    "bio": " Open Source Life Long Learner | Ex @sassoftware | LFXM @zowe  @linuxfoundation | Ex @lucy-platform | GSoC\"2023 @eclipse  | Open Source | FOSS |",
+    "location": "Planet Earth",
+    "website": "https://ojuschugh1.github.io/",
+    "followers": 55,
+    "publicRepos": 112,
+    "createdAt": "2021-02-15T07:42:40Z",
+    "checkedAt": "2026-09-21T03:43:56.334Z",
+    "source": "https://github.com/ojuschugh1"
+  },
+  "liaohch3": {
+    "login": "liaohch3",
+    "name": "liaohch3",
+    "type": "User",
+    "bio": "Agent developer. Building @SoTALab-ai and claude-tap, built AnyGen.",
+    "location": null,
+    "website": null,
+    "followers": 32,
+    "publicRepos": 41,
+    "createdAt": "2017-11-28T08:30:19Z",
+    "checkedAt": "2026-09-21T03:43:56.535Z",
+    "source": "https://github.com/liaohch3"
+  },
+  "micahkepe": {
+    "login": "micahkepe",
+    "name": "Micah Kepe",
+    "type": "User",
+    "bio": "i make computers go beep boop | rice cs alum",
+    "location": "Austin, TX",
+    "website": "https://micahkepe.com",
+    "followers": 73,
+    "publicRepos": 57,
+    "createdAt": "2022-09-01T01:49:53Z",
+    "checkedAt": "2026-09-21T03:43:56.716Z",
+    "source": "https://github.com/micahkepe"
   }
 }

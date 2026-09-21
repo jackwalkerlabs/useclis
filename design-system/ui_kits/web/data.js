@@ -7943,6 +7943,63 @@ window.USECLIS_DATA = {
       "stars": 2989,
       "license": "MIT",
       "checkedAt": "2026-09-21T02:44:06.929Z"
+    },
+    {
+      "slug": "ojuschugh1-sqz",
+      "name": "sqz",
+      "repo": "ojuschugh1/sqz",
+      "category": "Agents & models",
+      "command": "sqz",
+      "useCase": "Compress LLM context to save tokens and reduce costs",
+      "description": "Compress LLM context to save tokens and reduce costs",
+      "agentUse": "Invoke sqz from a shell for the documented use case: Compress LLM context to save tokens and reduce costs",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "sqz gain",
+      "website": "https://github.com/ojuschugh1/sqz",
+      "docs": "https://github.com/ojuschugh1/sqz/blob/9461782e6b5998bda68b49c92c864cf4900848b2/README.md",
+      "stars": 626,
+      "license": null,
+      "checkedAt": "2026-09-21T03:43:53.829Z"
+    },
+    {
+      "slug": "liaohch3-claude-tap",
+      "name": "claude-tap",
+      "repo": "liaohch3/claude-tap",
+      "category": "Agents & models",
+      "command": "claude-tap",
+      "useCase": "Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer.",
+      "description": "Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer.",
+      "agentUse": "Invoke claude-tap from a shell for the documented use case: Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "claude-tap --tap-no-live",
+      "website": "https://github.com/liaohch3/claude-tap",
+      "docs": "https://github.com/liaohch3/claude-tap/blob/a05e5582a5ab79314fef02244091da776badc707/README.md",
+      "stars": 3224,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T03:43:54.329Z"
+    },
+    {
+      "slug": "micahkepe-jsongrep",
+      "name": "jsongrep",
+      "repo": "micahkepe/jsongrep",
+      "category": "Data & APIs",
+      "command": "jg",
+      "useCase": "A path query language for JSON, YAML, TOML, and other serialization formats.",
+      "description": "A path query language for JSON, YAML, TOML, and other serialization formats.",
+      "agentUse": "Invoke jg from a shell for the documented use case: A path query language for JSON, YAML, TOML, and other serialization formats.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "jg 'dependencies.*.version' Cargo.toml",
+      "website": "https://github.com/micahkepe/jsongrep",
+      "docs": "https://github.com/micahkepe/jsongrep/blob/2c913fa21c2a264311ff8b1c44ed5fd4f68363e5/README.md",
+      "stars": 671,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T03:43:54.775Z"
     }
   ],
   "categories": [

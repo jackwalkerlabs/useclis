@@ -4,132 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "regexident/cargo-modules"
-    },
-    {
-      "repo": "ojuschugh1/sqz"
-    },
-    {
-      "repo": "AnswerDotAI/nbdev"
-    },
-    {
-      "repo": "FrancyJGLisboa/agent-skills-platform"
-    },
-    {
-      "repo": "cytostack/openwolf"
-    },
-    {
-      "repo": "aminkheddache-dotcom/Ptero"
-    },
-    {
-      "repo": "timholy/Revise.jl"
-    },
-    {
-      "repo": "liaohch3/claude-tap"
-    },
-    {
-      "repo": "watchexec/watchexec"
-    },
-    {
-      "repo": "paladini/harness-score"
-    },
-    {
-      "repo": "txn2/kubefwd"
-    },
-    {
-      "repo": "sivchari/kumo"
-    },
-    {
-      "repo": "Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins"
-    },
-    {
-      "repo": "cocojojo5213/Dev-Janitor"
-    },
-    {
-      "repo": "d2lang/d2"
-    },
-    {
-      "repo": "tach-org/tach"
-    },
-    {
-      "repo": "ShawnPana/phone-harness"
-    },
-    {
-      "repo": "riponcm/projectmem"
-    },
-    {
-      "repo": "BradGroux/veritas-kanban"
-    },
-    {
-      "repo": "surrealdb/surrealdb"
-    },
-    {
-      "repo": "argilla-io/argilla"
-    },
-    {
-      "repo": "SWE-agent/SWE-agent"
-    },
-    {
-      "repo": "Lightning-AI/LitServe"
-    },
-    {
-      "repo": "treeverse/dvc"
-    },
-    {
-      "repo": "python-cmd2/cmd2"
-    },
-    {
-      "repo": "digitalsamba/claude-code-video-toolkit"
-    },
-    {
-      "repo": "foss42/apidash"
-    },
-    {
-      "repo": "teaql/teaql-agent-kit"
-    },
-    {
-      "repo": "DietrichGebert/ponytail"
-    },
-    {
-      "repo": "hyhmrright/brooks-lint"
-    },
-    {
-      "repo": "crafter-station/petdex"
-    },
-    {
-      "repo": "dailydotdev/daily"
-    },
-    {
-      "repo": "itigges22/ATLAS"
-    },
-    {
-      "repo": "httptoolkit/httptoolkit-desktop"
-    },
-    {
-      "repo": "unhappychoice/gitlogue"
-    },
-    {
-      "repo": "public-api-lists/public-api-lists"
-    },
-    {
-      "repo": "yoanbernabeu/grepai"
-    },
-    {
-      "repo": "waybarrios/opencode-power-pack"
-    },
-    {
-      "repo": "Tiger3807861189/J-Space-Cognition-Suite"
-    },
-    {
-      "repo": "brandonyoungdev/tldx"
-    },
-    {
-      "repo": "amplifthq/opentag"
-    },
-    {
-      "repo": "micahkepe/jsongrep"
-    },
-    {
       "repo": "glauth/glauth"
     },
     {
@@ -1609,8 +1483,9 @@
     },
     "python-cmd2/cmd2": {
       "status": "held",
-      "checkedAt": "2026-09-11T15:43:52.976Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "alecthomas/kong": {
       "status": "held",
@@ -3208,8 +3083,9 @@
     },
     "crafter-station/petdex": {
       "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "pypa/hatch": {
       "status": "held",
@@ -6283,8 +6159,9 @@
     },
     "yoanbernabeu/grepai": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mangiucugna/json_repair": {
       "status": "held",
@@ -8840,8 +8717,9 @@
     },
     "brandonyoungdev/tldx": {
       "status": "held",
-      "checkedAt": "2026-09-14T18:44:21.153Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "charmbracelet/glamour": {
       "status": "held",
@@ -12350,8 +12228,9 @@
     },
     "d2lang/d2": {
       "status": "held",
-      "checkedAt": "2026-09-15T08:44:23.550Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
     },
     "artginzburg/sudo-touchid": {
       "status": "held",
@@ -14776,8 +14655,9 @@
     },
     "tach-org/tach": {
       "status": "held",
-      "checkedAt": "2026-09-15T18:44:18.455Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "nasiko-labs/nasiko": {
       "status": "held",
@@ -16585,14 +16465,43 @@
       "reason": "Terminal use case needs classification"
     },
     "ojuschugh1/sqz": {
-      "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ojuschugh1-sqz",
+      "acceptedAt": "2026-09-21T03:43:33.092Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ojuschugh1/sqz/blob/9461782e6b5998bda68b49c92c864cf4900848b2/sqz/Cargo.toml",
+          "snippet": "[[bin]] name=\"sqz\" path=\"src/main.rs\"",
+          "target": "sqz/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/ojuschugh1/sqz/blob/9461782e6b5998bda68b49c92c864cf4900848b2/README.md",
+          "snippet": "cargo install sqz-cli sqz-mcp"
+        },
+        "usage": {
+          "url": "https://github.com/ojuschugh1/sqz/blob/9461782e6b5998bda68b49c92c864cf4900848b2/README.md",
+          "snippet": "sqz gain"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ojuschugh1/sqz",
+          "snippet": "Compress LLM context to save tokens and reduce costs"
+        },
+        "adoption": {
+          "stars": 626,
+          "githubSource": "https://github.com/ojuschugh1/sqz",
+          "homebrew": null
+        },
+        "commit": "9461782e6b5998bda68b49c92c864cf4900848b2"
+      }
     },
     "cytostack/openwolf": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "obsidianmd/knap": {
       "status": "held",
@@ -20114,8 +20023,9 @@
     },
     "paladini/harness-score": {
       "status": "held",
-      "checkedAt": "2026-09-19T16:44:07.089Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "orhun/ratty": {
       "status": "held",
@@ -21199,7 +21109,247 @@
       "checkedAt": "2026-09-21T02:43:36.127Z",
       "rulesVersion": 2,
       "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "regexident/cargo-modules": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "answerdotai/nbdev": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "francyjglisboa/agent-skills-platform": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "aminkheddache-dotcom/ptero": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "timholy/revise.jl": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "liaohch3/claude-tap": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "liaohch3-claude-tap",
+      "acceptedAt": "2026-09-21T03:43:33.092Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/liaohch3/claude-tap/blob/a05e5582a5ab79314fef02244091da776badc707/pyproject.toml",
+          "snippet": "claude-tap = \"claude_tap.cli:main_entry\"",
+          "target": "claude_tap/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/liaohch3/claude-tap/blob/a05e5582a5ab79314fef02244091da776badc707/README.md",
+          "snippet": "uv tool install claude-tap"
+        },
+        "usage": {
+          "url": "https://github.com/liaohch3/claude-tap/blob/a05e5582a5ab79314fef02244091da776badc707/README.md",
+          "snippet": "claude-tap --tap-no-live"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/liaohch3/claude-tap",
+          "snippet": "Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer."
+        },
+        "adoption": {
+          "stars": 3224,
+          "githubSource": "https://github.com/liaohch3/claude-tap",
+          "homebrew": null
+        },
+        "commit": "a05e5582a5ab79314fef02244091da776badc707"
+      }
+    },
+    "txn2/kubefwd": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "sivchari/kumo": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "zhiyuan-fan/awesome-deepseek-harness-plugins": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "cocojojo5213/dev-janitor": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "shawnpana/phone-harness": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "riponcm/projectmem": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "bradgroux/veritas-kanban": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "surrealdb/surrealdb": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "argilla-io/argilla": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "swe-agent/swe-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "lightning-ai/litserve": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "treeverse/dvc": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "digitalsamba/claude-code-video-toolkit": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "foss42/apidash": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "teaql/teaql-agent-kit": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "dietrichgebert/ponytail": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "hyhmrright/brooks-lint": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "dailydotdev/daily": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "itigges22/atlas": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "httptoolkit/httptoolkit-desktop": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "public-api-lists/public-api-lists": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "waybarrios/opencode-power-pack": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "tiger3807861189/j-space-cognition-suite": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "amplifthq/opentag": {
+      "status": "held",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "micahkepe/jsongrep": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T03:43:33.092Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "micahkepe-jsongrep",
+      "acceptedAt": "2026-09-21T03:43:33.092Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/micahkepe/jsongrep/blob/2c913fa21c2a264311ff8b1c44ed5fd4f68363e5/Cargo.toml",
+          "snippet": "[[bin]] name=\"jg\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/micahkepe/jsongrep/blob/2c913fa21c2a264311ff8b1c44ed5fd4f68363e5/README.md",
+          "snippet": "cargo install jsongrep"
+        },
+        "usage": {
+          "url": "https://github.com/micahkepe/jsongrep/blob/2c913fa21c2a264311ff8b1c44ed5fd4f68363e5/README.md",
+          "snippet": "jg 'dependencies.*.version' Cargo.toml"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/micahkepe/jsongrep",
+          "snippet": "A path query language for JSON, YAML, TOML, and other serialization formats."
+        },
+        "adoption": {
+          "stars": 671,
+          "githubSource": "https://github.com/micahkepe/jsongrep",
+          "homebrew": null
+        },
+        "commit": "2c913fa21c2a264311ff8b1c44ed5fd4f68363e5"
+      }
     }
   },
-  "lastRunAt": "2026-09-21T02:43:36.127Z"
+  "lastRunAt": "2026-09-21T03:43:33.092Z"
 }
