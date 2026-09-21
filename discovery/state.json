@@ -4,129 +4,6 @@
   "brewOffset": 840,
   "pending": [
     {
-      "repo": "ajalt/mordant"
-    },
-    {
-      "repo": "PeonPing/peon-ping"
-    },
-    {
-      "repo": "rcaloras/bashhub-client"
-    },
-    {
-      "repo": "anufrievroman/calcure"
-    },
-    {
-      "repo": "pythops/oryx"
-    },
-    {
-      "repo": "blacknon/hwatch"
-    },
-    {
-      "repo": "pythops/bluetui"
-    },
-    {
-      "repo": "magiblot/turbo"
-    },
-    {
-      "repo": "pythops/impala"
-    },
-    {
-      "repo": "vue-terminal/vue-termui"
-    },
-    {
-      "repo": "furkan/dockerlings"
-    },
-    {
-      "repo": "matterhorn-chat/matterhorn"
-    },
-    {
-      "repo": "mrjackwills/oxker"
-    },
-    {
-      "repo": "Macmod/godap"
-    },
-    {
-      "repo": "jacek-kurlit/pik"
-    },
-    {
-      "repo": "kraanzu/smassh"
-    },
-    {
-      "repo": "browser-use/terminal"
-    },
-    {
-      "repo": "Strophox/tetro-tui"
-    },
-    {
-      "repo": "gitui-org/gitui"
-    },
-    {
-      "repo": "Lifailon/lazyjournal"
-    },
-    {
-      "repo": "orhun/systeroid"
-    },
-    {
-      "repo": "veeso/tui-realm"
-    },
-    {
-      "repo": "kavehtehrani/cloudflare-speed-cli"
-    },
-    {
-      "repo": "sammcj/gollama"
-    },
-    {
-      "repo": "JustAman62/undercut-f1"
-    },
-    {
-      "repo": "sup-heliotrope/sup"
-    },
-    {
-      "repo": "JFreegman/toxic"
-    },
-    {
-      "repo": "josueBarretogit/manga-tui"
-    },
-    {
-      "repo": "laixintao/pingtop"
-    },
-    {
-      "repo": "pterm/pterm"
-    },
-    {
-      "repo": "filiparag/wikiman"
-    },
-    {
-      "repo": "aaronjanse/3mux"
-    },
-    {
-      "repo": "joeynyc/hermes-hud"
-    },
-    {
-      "repo": "ratatui/ratzilla"
-    },
-    {
-      "repo": "peterbrittain/asciimatics"
-    },
-    {
-      "repo": "makew0rld/amfora"
-    },
-    {
-      "repo": "karimknaebel/turm"
-    },
-    {
-      "repo": "bluetuith-org/bluetuith"
-    },
-    {
-      "repo": "GiorgosXou/TUIFIManager"
-    },
-    {
-      "repo": "skywind3000/vim-quickui"
-    },
-    {
-      "repo": "achannarasappa/ticker"
-    },
-    {
       "repo": "Textualize/rich"
     },
     {
@@ -3668,9 +3545,37 @@
       "reason": "Terminal use case needs classification"
     },
     "blacknon/hwatch": {
-      "status": "held",
-      "checkedAt": "2026-09-11T22:43:31.776Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "blacknon-hwatch",
+      "acceptedAt": "2026-09-21T00:43:35.850Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/blacknon/hwatch/blob/aeed51e5e5d138880e2a473af86effa42bfe3ce6/Cargo.toml",
+          "snippet": "[[bin]] name=\"hwatch\" path=\"crates/core/main.rs\"",
+          "target": "crates/core/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/blacknon/hwatch/blob/aeed51e5e5d138880e2a473af86effa42bfe3ce6/README.md",
+          "snippet": "cargo install hwatch"
+        },
+        "usage": {
+          "url": "https://github.com/blacknon/hwatch/blob/aeed51e5e5d138880e2a473af86effa42bfe3ce6/README.md",
+          "snippet": "hwatch -K ctrl-p=history_pane_up -K ctrl-n=history_pane_down command..."
+        },
+        "description": {
+          "url": "https://api.github.com/repos/blacknon/hwatch",
+          "snippet": "hwatch: alternative watch command with history, diff view, JSONL logging, and change hooks. since 2018."
+        },
+        "adoption": {
+          "stars": 1080,
+          "githubSource": "https://github.com/blacknon/hwatch",
+          "homebrew": null
+        },
+        "commit": "aeed51e5e5d138880e2a473af86effa42bfe3ce6"
+      }
     },
     "julienxx/terminal-notifier": {
       "status": "held",
@@ -4098,8 +4003,9 @@
     },
     "skywind3000/vim-quickui": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sigoden/dufs": {
       "status": "held",
@@ -5745,8 +5651,9 @@
     },
     "ajalt/mordant": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "eyeblech/cinecli": {
       "status": "accepted",
@@ -13144,8 +13051,9 @@
     },
     "filiparag/wikiman": {
       "status": "held",
-      "checkedAt": "2026-09-15T09:44:18.633Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "textualize/textual": {
       "status": "held",
@@ -17929,8 +17837,9 @@
     },
     "mrjackwills/oxker": {
       "status": "held",
-      "checkedAt": "2026-09-16T15:44:23.115Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "oxc-project/oxc": {
       "status": "held",
@@ -20531,7 +20440,352 @@
         },
         "commit": "c62dca0da1696e57eb9726cfe08354311587fb7f"
       }
+    },
+    "peonping/peon-ping": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rcaloras/bashhub-client": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "anufrievroman/calcure": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pythops/oryx": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pythops/bluetui": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "magiblot/turbo": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pythops/impala": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vue-terminal/vue-termui": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "furkan/dockerlings": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "matterhorn-chat/matterhorn": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "macmod/godap": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jacek-kurlit/pik": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "jacek-kurlit-pik",
+      "acceptedAt": "2026-09-21T00:43:35.850Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/jacek-kurlit/pik/blob/2d50f78447a758f89b921770e67594dbee08b5d4/Cargo.toml",
+          "snippet": "package.name=\"pik\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/jacek-kurlit/pik/blob/2d50f78447a758f89b921770e67594dbee08b5d4/README.md",
+          "snippet": "cargo install pik"
+        },
+        "usage": {
+          "url": "https://github.com/jacek-kurlit/pik/blob/2d50f78447a758f89b921770e67594dbee08b5d4/README.md",
+          "snippet": "pik -- -foo"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/jacek-kurlit/pik",
+          "snippet": "Process Interactive Kill"
+        },
+        "adoption": {
+          "stars": 570,
+          "githubSource": "https://github.com/jacek-kurlit/pik",
+          "homebrew": null
+        },
+        "commit": "2d50f78447a758f89b921770e67594dbee08b5d4"
+      }
+    },
+    "kraanzu/smassh": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "browser-use/terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "strophox/tetro-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lifailon/lazyjournal": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "orhun/systeroid": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "orhun-systeroid",
+      "acceptedAt": "2026-09-21T00:43:35.850Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/orhun/systeroid/blob/ecc9365429ff1564c485a37c2e477723865634e1/systeroid/Cargo.toml",
+          "snippet": "package.name=\"systeroid\"; src/main.rs",
+          "target": "systeroid/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/orhun/systeroid/blob/ecc9365429ff1564c485a37c2e477723865634e1/README.md",
+          "snippet": "cargo install systeroid"
+        },
+        "usage": {
+          "url": "https://github.com/orhun/systeroid/blob/ecc9365429ff1564c485a37c2e477723865634e1/README.md",
+          "snippet": "systeroid -A"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/orhun/systeroid",
+          "snippet": "A more powerful alternative to sysctl(8) with a terminal user interface 🐧"
+        },
+        "adoption": {
+          "stars": 1470,
+          "githubSource": "https://github.com/orhun/systeroid",
+          "homebrew": null
+        },
+        "commit": "ecc9365429ff1564c485a37c2e477723865634e1"
+      }
+    },
+    "veeso/tui-realm": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kavehtehrani/cloudflare-speed-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "kavehtehrani-cloudflare-speed-cli",
+      "acceptedAt": "2026-09-21T00:43:35.850Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/kavehtehrani/cloudflare-speed-cli/blob/89c2b2afa0647bbf0d9a09e38c885c52e7234a70/Cargo.toml",
+          "snippet": "[[bin]] name=\"cloudflare-speed-cli\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/kavehtehrani/cloudflare-speed-cli/blob/89c2b2afa0647bbf0d9a09e38c885c52e7234a70/README.md",
+          "snippet": "cargo install cloudflare-speed-cli"
+        },
+        "usage": {
+          "url": "https://github.com/kavehtehrani/cloudflare-speed-cli/blob/89c2b2afa0647bbf0d9a09e38c885c52e7234a70/README.md",
+          "snippet": "cloudflare-speed-cli --text"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kavehtehrani/cloudflare-speed-cli",
+          "snippet": "CLI for internet speed test via cloudflare"
+        },
+        "adoption": {
+          "stars": 1041,
+          "githubSource": "https://github.com/kavehtehrani/cloudflare-speed-cli",
+          "homebrew": null
+        },
+        "commit": "89c2b2afa0647bbf0d9a09e38c885c52e7234a70"
+      }
+    },
+    "sammcj/gollama": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "justaman62/undercut-f1": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sup-heliotrope/sup": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jfreegman/toxic": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "josuebarretogit/manga-tui": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "josuebarretogit-manga-tui",
+      "acceptedAt": "2026-09-21T00:43:35.850Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/josueBarretogit/manga-tui/blob/d0fcc714e0e2ddf885d6f7e1ef61dbb75a29a86e/Cargo.toml",
+          "snippet": "package.name=\"manga-tui\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/josueBarretogit/manga-tui/blob/d0fcc714e0e2ddf885d6f7e1ef61dbb75a29a86e/README.md",
+          "snippet": "cargo install manga-tui --locked"
+        },
+        "usage": {
+          "url": "https://github.com/josueBarretogit/manga-tui/blob/d0fcc714e0e2ddf885d6f7e1ef61dbb75a29a86e/README.md",
+          "snippet": "manga-tui -p weebcentral"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/josueBarretogit/manga-tui",
+          "snippet": "Terminal-based manga reader and downloader with image rendering support "
+        },
+        "adoption": {
+          "stars": 930,
+          "githubSource": "https://github.com/josueBarretogit/manga-tui",
+          "homebrew": null
+        },
+        "commit": "d0fcc714e0e2ddf885d6f7e1ef61dbb75a29a86e"
+      }
+    },
+    "laixintao/pingtop": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pterm/pterm": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "aaronjanse/3mux": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "joeynyc/hermes-hud": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ratatui/ratzilla": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "peterbrittain/asciimatics": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "makew0rld/amfora": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "karimknaebel/turm": {
+      "status": "accepted",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "karimknaebel-turm",
+      "acceptedAt": "2026-09-21T00:43:35.850Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/karimknaebel/turm/blob/4e648dbd500674a55277fd7dfe3357d56228c759/Cargo.toml",
+          "snippet": "package.name=\"turm\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/karimknaebel/turm/blob/4e648dbd500674a55277fd7dfe3357d56228c759/README.md",
+          "snippet": "cargo install turm"
+        },
+        "usage": {
+          "url": "https://github.com/karimknaebel/turm/blob/4e648dbd500674a55277fd7dfe3357d56228c759/README.md",
+          "snippet": "turm --me --sort=-id --states=ALL"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/karimknaebel/turm",
+          "snippet": "TUI for the Slurm Workload Manager"
+        },
+        "adoption": {
+          "stars": 504,
+          "githubSource": "https://github.com/karimknaebel/turm",
+          "homebrew": null
+        },
+        "commit": "4e648dbd500674a55277fd7dfe3357d56228c759"
+      }
+    },
+    "bluetuith-org/bluetuith": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "giorgosxou/tuifimanager": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "achannarasappa/ticker": {
+      "status": "held",
+      "checkedAt": "2026-09-21T00:43:35.850Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-20T23:43:35.090Z"
+  "lastRunAt": "2026-09-21T00:43:35.850Z"
 }

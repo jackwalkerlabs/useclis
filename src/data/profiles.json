@@ -4262,5 +4262,70 @@
     "createdAt": "2017-07-11T17:07:28Z",
     "checkedAt": "2026-09-20T08:44:49.764Z",
     "source": "https://github.com/maxcurzi"
+  },
+  "blacknon": {
+    "login": "blacknon",
+    "name": "blacknon",
+    "type": "User",
+    "bio": null,
+    "location": "Tokyo,Japan",
+    "website": "https://orebibou.com",
+    "followers": 95,
+    "publicRepos": 154,
+    "createdAt": "2015-04-02T20:37:57Z",
+    "checkedAt": "2026-09-21T00:44:34.688Z",
+    "source": "https://github.com/blacknon"
+  },
+  "jacek-kurlit": {
+    "login": "jacek-kurlit",
+    "name": "RustyJack",
+    "type": "User",
+    "bio": "Jesus disciple, \r\nhusband and father,\r\nJava and Rust Programmer,\r\nLinux and vim enjoyer\r\n####\r\nAve Maria!",
+    "location": "Kraków Poland",
+    "website": null,
+    "followers": 11,
+    "publicRepos": 22,
+    "createdAt": "2013-12-14T10:07:20Z",
+    "checkedAt": "2026-09-21T00:44:35.193Z",
+    "source": "https://github.com/jacek-kurlit"
+  },
+  "kavehtehrani": {
+    "login": "kavehtehrani",
+    "name": "Kaveh",
+    "type": "User",
+    "bio": "nomadic trader\r\nlong defi, short jpm",
+    "location": null,
+    "website": "https://kaveh.page/",
+    "followers": 46,
+    "publicRepos": 47,
+    "createdAt": "2017-02-27T15:10:07Z",
+    "checkedAt": "2026-09-21T00:44:35.811Z",
+    "source": "https://github.com/kavehtehrani"
+  },
+  "josuebarretogit": {
+    "login": "josueBarretogit",
+    "name": "Josue Barreto",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 49,
+    "publicRepos": 43,
+    "createdAt": "2023-09-06T03:10:49Z",
+    "checkedAt": "2026-09-21T00:44:36.319Z",
+    "source": "https://github.com/josueBarretogit"
+  },
+  "karimknaebel": {
+    "login": "karimknaebel",
+    "name": "Karim Knaebel",
+    "type": "User",
+    "bio": "Computer Vision PhD student",
+    "location": "Aachen, Germany",
+    "website": "https://karimknaebel.com",
+    "followers": 606,
+    "publicRepos": 125,
+    "createdAt": "2014-04-15T14:54:44Z",
+    "checkedAt": "2026-09-21T00:44:36.615Z",
+    "source": "https://github.com/karimknaebel"
   }
 }

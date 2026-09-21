@@ -7601,6 +7601,120 @@ window.USECLIS_DATA = {
       "stars": 684,
       "license": "MIT",
       "checkedAt": "2026-09-20T17:46:09.911Z"
+    },
+    {
+      "slug": "blacknon-hwatch",
+      "name": "hwatch",
+      "repo": "blacknon/hwatch",
+      "category": "Terminal utilities",
+      "command": "hwatch",
+      "useCase": "hwatch: alternative watch command with history, diff view, JSONL logging, and change hooks. since 2018.",
+      "description": "hwatch: alternative watch command with history, diff view, JSONL logging, and change hooks. since 2018.",
+      "agentUse": "Invoke hwatch from a shell for the documented use case: hwatch: alternative watch command with history, diff view, JSONL logging, and change hooks. since 2018.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "hwatch -K ctrl-p=history_pane_up -K ctrl-n=history_pane_down command...",
+      "website": "https://github.com/blacknon/hwatch",
+      "docs": "https://github.com/blacknon/hwatch/blob/aeed51e5e5d138880e2a473af86effa42bfe3ce6/README.md",
+      "stars": 1080,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T00:44:29.037Z"
+    },
+    {
+      "slug": "jacek-kurlit-pik",
+      "name": "pik",
+      "repo": "jacek-kurlit/pik",
+      "category": "Terminal utilities",
+      "command": "pik",
+      "useCase": "Process Interactive Kill",
+      "description": "Process Interactive Kill",
+      "agentUse": "Invoke pik from a shell for the documented use case: Process Interactive Kill",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "pik -- -foo",
+      "website": "https://github.com/jacek-kurlit/pik",
+      "docs": "https://github.com/jacek-kurlit/pik/blob/2d50f78447a758f89b921770e67594dbee08b5d4/README.md",
+      "stars": 570,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T00:44:29.631Z"
+    },
+    {
+      "slug": "orhun-systeroid",
+      "name": "systeroid",
+      "repo": "orhun/systeroid",
+      "category": "Terminal utilities",
+      "command": "systeroid",
+      "useCase": "A more powerful alternative to sysctl(8) with a terminal user interface 🐧",
+      "description": "A more powerful alternative to sysctl(8) with a terminal user interface 🐧",
+      "agentUse": "Invoke systeroid from a shell for the documented use case: A more powerful alternative to sysctl(8) with a terminal user interface 🐧",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "systeroid -A",
+      "website": "https://github.com/orhun/systeroid",
+      "docs": "https://github.com/orhun/systeroid/blob/ecc9365429ff1564c485a37c2e477723865634e1/README.md",
+      "stars": 1470,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-21T00:44:30.272Z"
+    },
+    {
+      "slug": "kavehtehrani-cloudflare-speed-cli",
+      "name": "cloudflare-speed-cli",
+      "repo": "kavehtehrani/cloudflare-speed-cli",
+      "category": "Testing & quality",
+      "command": "cloudflare-speed-cli",
+      "useCase": "CLI for internet speed test via cloudflare",
+      "description": "CLI for internet speed test via cloudflare",
+      "agentUse": "Invoke cloudflare-speed-cli from a shell for the documented use case: CLI for internet speed test via cloudflare",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "cloudflare-speed-cli --text",
+      "website": "https://github.com/kavehtehrani/cloudflare-speed-cli",
+      "docs": "https://github.com/kavehtehrani/cloudflare-speed-cli/blob/89c2b2afa0647bbf0d9a09e38c885c52e7234a70/README.md",
+      "stars": 1041,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-21T00:44:30.721Z"
+    },
+    {
+      "slug": "josuebarretogit-manga-tui",
+      "name": "manga-tui",
+      "repo": "josueBarretogit/manga-tui",
+      "category": "Browser automation",
+      "command": "manga-tui",
+      "useCase": "Terminal-based manga reader and downloader with image rendering support ",
+      "description": "Terminal-based manga reader and downloader with image rendering support ",
+      "agentUse": "Invoke manga-tui from a shell for the documented use case: Terminal-based manga reader and downloader with image rendering support ",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "manga-tui -p weebcentral",
+      "website": "https://github.com/josueBarretogit/manga-tui",
+      "docs": "https://github.com/josueBarretogit/manga-tui/blob/d0fcc714e0e2ddf885d6f7e1ef61dbb75a29a86e/README.md",
+      "stars": 930,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T00:44:31.388Z"
+    },
+    {
+      "slug": "karimknaebel-turm",
+      "name": "turm",
+      "repo": "karimknaebel/turm",
+      "category": "Terminal utilities",
+      "command": "turm",
+      "useCase": "TUI for the Slurm Workload Manager",
+      "description": "TUI for the Slurm Workload Manager",
+      "agentUse": "Invoke turm from a shell for the documented use case: TUI for the Slurm Workload Manager",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "turm --me --sort=-id --states=ALL",
+      "website": "https://github.com/karimknaebel/turm",
+      "docs": "https://github.com/karimknaebel/turm/blob/4e648dbd500674a55277fd7dfe3357d56228c759/README.md",
+      "stars": 504,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T00:44:32.045Z"
     }
   ],
   "categories": [
