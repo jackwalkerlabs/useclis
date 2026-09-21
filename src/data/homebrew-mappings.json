@@ -433,5 +433,37 @@
   "libimobiledevice-libplist": {
     "formula": "libplist",
     "repo": "libimobiledevice/libplist"
+  },
+  "lsd-rs-lsd": {
+    "formula": "lsd",
+    "repo": "lsd-rs/lsd"
+  },
+  "lsof-org-lsof": {
+    "formula": "lsof",
+    "repo": "lsof-org/lsof"
+  },
+  "openresty-luajit2": {
+    "formula": "luajit-openresty",
+    "repo": "openresty/luajit2"
+  },
+  "lycheeverse-lychee": {
+    "formula": "lychee",
+    "repo": "lycheeverse/lychee"
+  },
+  "waydabber-m1ddc": {
+    "formula": "m1ddc",
+    "repo": "waydabber/m1ddc"
+  },
+  "lra-mackup": {
+    "formula": "mackup",
+    "repo": "lra/mackup"
+  },
+  "soxoj-maigret": {
+    "formula": "maigret",
+    "repo": "soxoj/maigret"
+  },
+  "kovetskiy-mark": {
+    "formula": "mark",
+    "repo": "kovetskiy/mark"
   }
 }

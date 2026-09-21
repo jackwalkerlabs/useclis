@@ -8266,6 +8266,196 @@ window.USECLIS_DATA = {
       "stars": 721,
       "license": "MIT",
       "checkedAt": "2026-09-21T07:43:55.316Z"
+    },
+    {
+      "slug": "lsd-rs-lsd",
+      "name": "lsd",
+      "repo": "lsd-rs/lsd",
+      "category": "Terminal utilities",
+      "command": "lsd",
+      "useCase": "The next gen ls command",
+      "description": "The next gen ls command",
+      "agentUse": "Invoke lsd from a shell for the documented use case: The next gen ls command",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lsd --icon never --ignore-config",
+      "website": "https://github.com/lsd-rs/lsd",
+      "docs": "https://github.com/lsd-rs/lsd/blob/4b6c14a110fe0fd544ec0204501b5fd3a5d6218f/README.md",
+      "stars": 16235,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-21T08:44:44.462Z"
+    },
+    {
+      "slug": "lsof-org-lsof",
+      "name": "lsof",
+      "repo": "lsof-org/lsof",
+      "category": "Files & documents",
+      "command": "lsof",
+      "useCase": "LiSt Open Files",
+      "description": "LiSt Open Files",
+      "agentUse": "Invoke lsof from a shell for the documented use case: LiSt Open Files",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lsof -p 18083",
+      "website": "https://github.com/lsof-org/lsof",
+      "docs": "https://github.com/lsof-org/lsof/blob/1ebf257c64db1b2ece5e4d5e922ed711c692f161/README.md",
+      "stars": 574,
+      "license": null,
+      "checkedAt": "2026-09-21T08:44:44.885Z"
+    },
+    {
+      "slug": "dannote-figma-use",
+      "name": "figma-use",
+      "repo": "dannote/figma-use",
+      "category": "Terminal utilities",
+      "command": "figma-use",
+      "useCase": "Control Figma from the command line. Full read/write access for AI agents — create shapes, text, components, set styles, export images. 100+ commands.",
+      "description": "Control Figma from the command line. Full read/write access for AI agents — create shapes, text, components, set styles, export images. 100+ commands.",
+      "agentUse": "Invoke figma-use from a shell for the documented use case: Control Figma from the command line. Full read/write access for AI agents — create shapes, text, components, set styles, export images. 100+ commands.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "figma-use set layout 1:23 --mode GRID --cols \"1fr 1fr 1fr\" --gap 16",
+      "website": "https://github.com/dannote/figma-use",
+      "docs": "https://github.com/dannote/figma-use/blob/7bfa9ba3ea7c56c5c8ca6cd5085c6e56a0735027/README.md",
+      "stars": 606,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T08:44:45.389Z"
+    },
+    {
+      "slug": "openresty-luajit2",
+      "name": "luajit2",
+      "repo": "openresty/luajit2",
+      "category": "Terminal utilities",
+      "command": "luajit",
+      "useCase": "OpenResty's Branch of LuaJIT 2",
+      "description": "OpenResty's Branch of LuaJIT 2",
+      "agentUse": "Invoke luajit from a shell for the documented use case: OpenResty's Branch of LuaJIT 2",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "luajit -bl a.lua'",
+      "website": "https://github.com/openresty/luajit2",
+      "docs": "https://github.com/openresty/luajit2/blob/f75bf45e8b869a8ee4562ab0183322c3ebf2d9f3/README.md",
+      "stars": 1449,
+      "license": null,
+      "checkedAt": "2026-09-21T08:44:45.924Z"
+    },
+    {
+      "slug": "lycheeverse-lychee",
+      "name": "lychee",
+      "repo": "lycheeverse/lychee",
+      "category": "Files & documents",
+      "command": "lychee",
+      "useCase": "⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!",
+      "description": "⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!",
+      "agentUse": "Invoke lychee from a shell for the documented use case: ⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lychee .",
+      "website": "https://github.com/lycheeverse/lychee",
+      "docs": "https://github.com/lycheeverse/lychee/blob/694caf580f2bd7c4497565ca8f26f4dcd8d5da6d/README.md",
+      "stars": 3922,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-21T08:44:46.433Z"
+    },
+    {
+      "slug": "waydabber-m1ddc",
+      "name": "m1ddc",
+      "repo": "waydabber/m1ddc",
+      "category": "Terminal utilities",
+      "command": "m1ddc",
+      "useCase": "This little tool controls external displays (connected via USB-C/DisplayPort Alt Mode) using DDC/CI on Apple Silicon Macs. Useful to embed in various scripts.",
+      "description": "This little tool controls external displays (connected via USB-C/DisplayPort Alt Mode) using DDC/CI on Apple Silicon Macs. Useful to embed in various scripts.",
+      "agentUse": "Invoke m1ddc from a shell for the documented use case: This little tool controls external displays (connected via USB-C/DisplayPort Alt Mode) using DDC/CI on Apple Silicon Macs. Useful to embed in various scripts.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "m1ddc set contrast 5",
+      "website": "https://github.com/waydabber/m1ddc",
+      "docs": "https://github.com/waydabber/m1ddc/blob/04d949794102eb8df01ad3681afff6464a3eede2/README.md",
+      "stars": 736,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T08:44:47.028Z"
+    },
+    {
+      "slug": "lra-mackup",
+      "name": "mackup",
+      "repo": "lra/mackup",
+      "category": "Files & documents",
+      "command": "mackup",
+      "useCase": "Backup and keep your application settings in sync.",
+      "description": "Backup and keep your application settings in sync.",
+      "agentUse": "Invoke mackup from a shell for the documented use case: Backup and keep your application settings in sync.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mackup backup",
+      "website": "https://github.com/lra/mackup",
+      "docs": "https://github.com/lra/mackup/blob/9fc154052c2b026e4e912ef73fb6d396e4993699/README.md",
+      "stars": 15330,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-21T08:44:47.575Z"
+    },
+    {
+      "slug": "soxoj-maigret",
+      "name": "maigret",
+      "repo": "soxoj/maigret",
+      "category": "Terminal utilities",
+      "command": "maigret",
+      "useCase": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites",
+      "agentUse": "Invoke maigret from a shell for the documented use case: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "maigret username",
+      "website": "https://github.com/soxoj/maigret",
+      "docs": "https://github.com/soxoj/maigret/blob/38bbf5cc735439bb0a3c8d8d60e4f900ade7cf96/README.md",
+      "stars": 37863,
+      "license": "MIT",
+      "checkedAt": "2026-09-21T08:44:48.073Z"
+    },
+    {
+      "slug": "kovetskiy-mark",
+      "name": "mark",
+      "repo": "kovetskiy/mark",
+      "category": "Git & collaboration",
+      "command": "mark",
+      "useCase": "Sync your markdown files with Confluence pages.",
+      "description": "Sync your markdown files with Confluence pages.",
+      "agentUse": "Invoke mark from a shell for the documented use case: Sync your markdown files with Confluence pages.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mark --features=mermaid --features=mention --features=frontmatter",
+      "website": "https://github.com/kovetskiy/mark",
+      "docs": "https://github.com/kovetskiy/mark/blob/2d69a795ecd0073abad5d4f2670c681b1137988e/README.md",
+      "stars": 1574,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-21T08:44:48.588Z"
+    },
+    {
+      "slug": "arcangel0-eva",
+      "name": "EVA",
+      "repo": "ARCANGEL0/EVA",
+      "category": "Agents & models",
+      "command": "eva",
+      "useCase": "EVA is an AI-assisted penetration testing agent that enhances offensive security workflows by providing structured attack guidance, contextual analysis, and multi-backend AI integration.",
+      "description": "EVA is an AI-assisted penetration testing agent that enhances offensive security workflows by providing structured attack guidance, contextual analysis, and multi-backend AI integration.",
+      "agentUse": "Invoke eva from a shell for the documented use case: EVA is an AI-assisted penetration testing agent that enhances offensive security workflows by providing structured attack guidance, contextual analysis, and multi-backend AI integration.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "eva --config",
+      "website": "https://github.com/ARCANGEL0/EVA",
+      "docs": "https://github.com/ARCANGEL0/EVA/blob/3651649b955103e0ea044106bb218ca7ab4c546a/README.md",
+      "stars": 528,
+      "license": null,
+      "checkedAt": "2026-09-21T08:44:49.057Z"
     }
   ],
   "categories": [

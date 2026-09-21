@@ -1510,5 +1510,117 @@
     "checkedAt": "2026-09-20T17:46:59.861Z",
     "generatedDate": "2026-09-20",
     "status": "ok"
+  },
+  "lsd-rs-lsd": {
+    "formula": "lsd",
+    "repo": "lsd-rs/lsd",
+    "source": "https://formulae.brew.sh/api/formula/lsd.json",
+    "attemptedAt": "2026-09-21T08:44:51.557Z",
+    "counts": {
+      "30d": 543,
+      "90d": 2593,
+      "365d": 22112
+    },
+    "checkedAt": "2026-09-21T08:44:51.557Z",
+    "generatedDate": "2026-09-21",
+    "status": "ok"
+  },
+  "lsof-org-lsof": {
+    "formula": "lsof",
+    "repo": "lsof-org/lsof",
+    "source": "https://formulae.brew.sh/api/formula/lsof.json",
+    "attemptedAt": "2026-09-21T08:44:51.595Z",
+    "counts": {
+      "30d": 270,
+      "90d": 1349,
+      "365d": 9875
+    },
+    "checkedAt": "2026-09-21T08:44:51.595Z",
+    "generatedDate": "2026-09-21",
+    "status": "ok"
+  },
+  "openresty-luajit2": {
+    "formula": "luajit-openresty",
+    "repo": "openresty/luajit2",
+    "source": "https://formulae.brew.sh/api/formula/luajit-openresty.json",
+    "attemptedAt": "2026-09-21T08:44:51.596Z",
+    "counts": {
+      "30d": 162,
+      "90d": 799,
+      "365d": 3525
+    },
+    "checkedAt": "2026-09-21T08:44:51.596Z",
+    "generatedDate": "2026-09-21",
+    "status": "ok"
+  },
+  "lycheeverse-lychee": {
+    "formula": "lychee",
+    "repo": "lycheeverse/lychee",
+    "source": "https://formulae.brew.sh/api/formula/lychee.json",
+    "attemptedAt": "2026-09-21T08:44:51.597Z",
+    "counts": {
+      "30d": 1761,
+      "90d": 5862,
+      "365d": 22225
+    },
+    "checkedAt": "2026-09-21T08:44:51.597Z",
+    "generatedDate": "2026-09-21",
+    "status": "ok"
+  },
+  "waydabber-m1ddc": {
+    "formula": "m1ddc",
+    "repo": "waydabber/m1ddc",
+    "source": "https://formulae.brew.sh/api/formula/m1ddc.json",
+    "attemptedAt": "2026-09-21T08:44:51.727Z",
+    "counts": {
+      "30d": 280,
+      "90d": 899,
+      "365d": 1973
+    },
+    "checkedAt": "2026-09-21T08:44:51.727Z",
+    "generatedDate": "2026-09-21",
+    "status": "ok"
+  },
+  "lra-mackup": {
+    "formula": "mackup",
+    "repo": "lra/mackup",
+    "source": "https://formulae.brew.sh/api/formula/mackup.json",
+    "attemptedAt": "2026-09-21T08:44:51.728Z",
+    "counts": {
+      "30d": 105,
+      "90d": 869,
+      "365d": 9531
+    },
+    "checkedAt": "2026-09-21T08:44:51.728Z",
+    "generatedDate": "2026-09-21",
+    "status": "ok"
+  },
+  "soxoj-maigret": {
+    "formula": "maigret",
+    "repo": "soxoj/maigret",
+    "source": "https://formulae.brew.sh/api/formula/maigret.json",
+    "attemptedAt": "2026-09-21T08:44:51.728Z",
+    "counts": {
+      "30d": 127,
+      "90d": 634,
+      "365d": 2510
+    },
+    "checkedAt": "2026-09-21T08:44:51.728Z",
+    "generatedDate": "2026-09-21",
+    "status": "ok"
+  },
+  "kovetskiy-mark": {
+    "formula": "mark",
+    "repo": "kovetskiy/mark",
+    "source": "https://formulae.brew.sh/api/formula/mark.json",
+    "attemptedAt": "2026-09-21T08:44:51.729Z",
+    "counts": {
+      "30d": 168,
+      "90d": 857,
+      "365d": 1705
+    },
+    "checkedAt": "2026-09-21T08:44:51.729Z",
+    "generatedDate": "2026-09-21",
+    "status": "ok"
   }
 }

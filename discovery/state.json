@@ -1,8 +1,2088 @@
 {
   "version": 1,
-  "searchPage": 4,
-  "brewOffset": 840,
-  "pending": [],
+  "searchPage": 5,
+  "brewOffset": 880,
+  "pending": [
+    {
+      "repo": "jrnxf/thokr"
+    },
+    {
+      "repo": "Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI"
+    },
+    {
+      "repo": "ahmadawais/ramadan-cli"
+    },
+    {
+      "repo": "julien040/gut"
+    },
+    {
+      "repo": "babarot/gomi"
+    },
+    {
+      "repo": "Bahaaio/pomo"
+    },
+    {
+      "repo": "kargnas/damn-my-slow-kt"
+    },
+    {
+      "repo": "fuelen/owl"
+    },
+    {
+      "repo": "loxy0devlp/RedTiger-Tools"
+    },
+    {
+      "repo": "shotgun-sh/shotgun"
+    },
+    {
+      "repo": "alajmo/sake"
+    },
+    {
+      "repo": "enulus/OpenPackage"
+    },
+    {
+      "repo": "EwenQuim/entropy"
+    },
+    {
+      "repo": "daniel3303/ClaudeCodeStatusLine"
+    },
+    {
+      "repo": "MagicCube/helixent"
+    },
+    {
+      "repo": "alajmo/mani"
+    },
+    {
+      "repo": "afshinm/zerobox"
+    },
+    {
+      "repo": "DuanYan007/markitdown"
+    },
+    {
+      "repo": "Krasjet/pdf.tocgen"
+    },
+    {
+      "repo": "pythops/tenere"
+    },
+    {
+      "repo": "FrancescoStabile/numasec"
+    },
+    {
+      "repo": "minamijoyo/hcledit"
+    },
+    {
+      "repo": "hofstadter-io/hof"
+    },
+    {
+      "repo": "php-tui/php-tui"
+    },
+    {
+      "repo": "leventcz/laravel-top"
+    },
+    {
+      "repo": "akd-io/create-next-stack"
+    },
+    {
+      "repo": "kaifcodec/ytconverter"
+    },
+    {
+      "repo": "nakabonne/pbgopy"
+    },
+    {
+      "repo": "glomatico/votify"
+    },
+    {
+      "repo": "ferrislucas/promptr"
+    },
+    {
+      "repo": "str4d/age-plugin-yubikey"
+    },
+    {
+      "repo": "Svetlitski/fcp"
+    },
+    {
+      "repo": "greymd/teip"
+    },
+    {
+      "repo": "guywaldman/magic-cli"
+    },
+    {
+      "repo": "esimov/diagram"
+    },
+    {
+      "repo": "cli-table/cli-table3"
+    },
+    {
+      "repo": "xen0l/aws-gate"
+    },
+    {
+      "repo": "0xKarl-dev/claw-codes"
+    },
+    {
+      "repo": "keyshade-xyz/keyshade"
+    },
+    {
+      "repo": "desertbit/grumble"
+    },
+    {
+      "repo": "Broderick-Westrope/tetrigo"
+    },
+    {
+      "repo": "mevdschee/2048.c"
+    },
+    {
+      "repo": "satococoa/wtp"
+    },
+    {
+      "repo": "42futures/firm"
+    },
+    {
+      "repo": "nikolassv/bartib"
+    },
+    {
+      "repo": "olets/zsh-abbr"
+    },
+    {
+      "repo": "jackwener/xhs-cli"
+    },
+    {
+      "repo": "resurrecting-open-source-projects/scrot"
+    },
+    {
+      "repo": "twitchdev/twitch-cli"
+    },
+    {
+      "repo": "markserv/markserv"
+    },
+    {
+      "repo": "kowainik/summoner"
+    },
+    {
+      "repo": "Rishurajgautam24/free-claude-code"
+    },
+    {
+      "repo": "ynqa/sig"
+    },
+    {
+      "repo": "liamg/tml"
+    },
+    {
+      "repo": "alemidev/scope-tui"
+    },
+    {
+      "repo": "Beastwick18/nyaa"
+    },
+    {
+      "repo": "povils/phpmnd"
+    },
+    {
+      "repo": "stovmascript/react-native-version"
+    },
+    {
+      "repo": "ashish0kumar/stormy"
+    },
+    {
+      "repo": "InkSha/rust-tutorial"
+    },
+    {
+      "repo": "arl/gitmux"
+    },
+    {
+      "repo": "L1AD/claude-task-viewer"
+    },
+    {
+      "repo": "noisrucer/girok"
+    },
+    {
+      "repo": "mansuf/mangadex-downloader"
+    },
+    {
+      "repo": "rtfpessoa/diff2html-cli"
+    },
+    {
+      "repo": "naelstrof/slop"
+    },
+    {
+      "repo": "StringManolo/hackingTermux101"
+    },
+    {
+      "repo": "rndusr/stig"
+    },
+    {
+      "repo": "hellzerg/optimizerNXT"
+    },
+    {
+      "repo": "RobinCK/typeorm-fixtures"
+    },
+    {
+      "repo": "bgauryy/open-docs"
+    },
+    {
+      "repo": "superfly/fly"
+    },
+    {
+      "repo": "firecracker-microvm/firectl"
+    },
+    {
+      "repo": "ronin-rb/ronin"
+    },
+    {
+      "repo": "Code-with-Beto/snapai"
+    },
+    {
+      "repo": "jenkinsci/jenkinsfile-runner"
+    },
+    {
+      "repo": "filiparag/wikiman"
+    },
+    {
+      "repo": "zackees/transcribe-anything"
+    },
+    {
+      "repo": "ionic-team/ionic-cli"
+    },
+    {
+      "repo": "dvcoolarun/web2pdf"
+    },
+    {
+      "repo": "nosarthur/gita"
+    },
+    {
+      "repo": "QuiiBz/sherif"
+    },
+    {
+      "repo": "bergside/typeui"
+    },
+    {
+      "repo": "mohsen1/yek"
+    },
+    {
+      "repo": "iosifache/annas-mcp"
+    },
+    {
+      "repo": "retlehs/quien"
+    },
+    {
+      "repo": "PatrickF1/fzf.fish"
+    },
+    {
+      "repo": "DanielSWolf/rhubarb-lip-sync"
+    },
+    {
+      "repo": "0xranx/OpenContext"
+    },
+    {
+      "repo": "Timmoth/RackPeek"
+    },
+    {
+      "repo": "massgen/MassGen"
+    },
+    {
+      "repo": "vyfor/rattles"
+    },
+    {
+      "repo": "Achno/gowall"
+    },
+    {
+      "repo": "retypeapp/retype"
+    },
+    {
+      "repo": "langwatch/better-agents"
+    },
+    {
+      "repo": "inlife/nexrender"
+    },
+    {
+      "repo": "ReVanced/revanced-cli"
+    },
+    {
+      "repo": "rohitg00/skillkit"
+    },
+    {
+      "repo": "expo/expo-github-action"
+    },
+    {
+      "repo": "instill-ai/instill-core"
+    },
+    {
+      "repo": "lorryjovens-hub/claude-code-rust"
+    },
+    {
+      "repo": "Siriusmart/youtube-tui"
+    },
+    {
+      "repo": "stefanmaric/g"
+    },
+    {
+      "repo": "Owloops/updo"
+    },
+    {
+      "repo": "shinshin86/oh-my-logo"
+    },
+    {
+      "repo": "agauniyal/rang"
+    },
+    {
+      "repo": "kainctl/isd"
+    },
+    {
+      "repo": "sclevine/yj"
+    },
+    {
+      "repo": "naggie/dstask"
+    },
+    {
+      "repo": "ms-jpq/sad"
+    },
+    {
+      "repo": "emersion/slurp"
+    },
+    {
+      "repo": "gildas-lormeau/SingleFileZ"
+    },
+    {
+      "repo": "yigitkonur/cli-continues"
+    },
+    {
+      "repo": "greymd/tmux-xpanes"
+    },
+    {
+      "repo": "randy3k/radian"
+    },
+    {
+      "repo": "bubblelabai/BubbleLab"
+    },
+    {
+      "repo": "ipinfo/cli"
+    },
+    {
+      "repo": "securisec/chepy"
+    },
+    {
+      "repo": "tbillington/kondo"
+    },
+    {
+      "repo": "cocogitto/cocogitto"
+    },
+    {
+      "repo": "remotemobprogramming/mob"
+    },
+    {
+      "repo": "Tencent/feflow"
+    },
+    {
+      "repo": "JakWai01/lurk"
+    },
+    {
+      "repo": "absadiki/subsai"
+    },
+    {
+      "repo": "zurawiki/gptcommit"
+    },
+    {
+      "repo": "gowebly/gowebly"
+    },
+    {
+      "repo": "p-gen/smenu"
+    },
+    {
+      "repo": "whoozle/android-file-transfer-linux"
+    },
+    {
+      "repo": "statoscope/statoscope"
+    },
+    {
+      "repo": "rust-cli/confy"
+    },
+    {
+      "repo": "square/certigo"
+    },
+    {
+      "repo": "fandreuz/TUI-ConsoleLauncher"
+    },
+    {
+      "repo": "max-niederman/ttyper"
+    },
+    {
+      "repo": "oh-my-mermaid/oh-my-mermaid"
+    },
+    {
+      "repo": "pndurette/gTTS"
+    },
+    {
+      "repo": "cupcakearmy/autorestic"
+    },
+    {
+      "repo": "dosisod/refurb"
+    },
+    {
+      "repo": "whchien/ai-trader"
+    },
+    {
+      "repo": "databricks/click"
+    },
+    {
+      "repo": "vadimdemedes/pastel"
+    },
+    {
+      "repo": "tembo/tembo"
+    },
+    {
+      "repo": "mix-php/mix"
+    },
+    {
+      "repo": "run-llama/semtools"
+    },
+    {
+      "repo": "unixzii/ibackupextractor"
+    },
+    {
+      "repo": "micahmo/WgServerforWindows"
+    },
+    {
+      "repo": "mikaelmello/inquire"
+    },
+    {
+      "repo": "ctongfei/progressbar"
+    },
+    {
+      "repo": "moazbuilds/CodeMachine-CLI"
+    },
+    {
+      "repo": "whipper-team/whipper"
+    },
+    {
+      "repo": "jmathai/elodie"
+    },
+    {
+      "repo": "sharkdp/diskus"
+    },
+    {
+      "repo": "minicli/minicli"
+    },
+    {
+      "repo": "zaquestion/lab"
+    },
+    {
+      "repo": "localstack/awscli-local"
+    },
+    {
+      "repo": "create-go-app/cli"
+    },
+    {
+      "repo": "livecycle/preevy"
+    },
+    {
+      "repo": "kronenthaler/mod-pbxproj"
+    },
+    {
+      "repo": "npiv/chatblade"
+    },
+    {
+      "repo": "NotJoeMartinez/yt-fts"
+    },
+    {
+      "repo": "ranyitz/qnm"
+    },
+    {
+      "repo": "org-formation/org-formation-cli"
+    },
+    {
+      "repo": "jfelchner/ruby-progressbar"
+    },
+    {
+      "repo": "hauntsaninja/pyp"
+    },
+    {
+      "repo": "dulikaifazr/Cougar-CLI"
+    },
+    {
+      "repo": "abhimanyu003/sttr"
+    },
+    {
+      "repo": "daniele77/cli"
+    },
+    {
+      "repo": "rockbruno/SwiftInfo"
+    },
+    {
+      "repo": "jazzband/Watson"
+    },
+    {
+      "repo": "ryanmjacobs/c"
+    },
+    {
+      "repo": "simonhaenisch/md-to-pdf"
+    },
+    {
+      "repo": "aspiers/stow"
+    },
+    {
+      "repo": "splx-ai/agentic-radar"
+    },
+    {
+      "repo": "peterldowns/localias"
+    },
+    {
+      "repo": "klaudiosinani/qoa"
+    },
+    {
+      "repo": "red-data-tools/YouPlot"
+    },
+    {
+      "repo": "guptarohit/asciigraph"
+    },
+    {
+      "repo": "avajs/ava"
+    },
+    {
+      "repo": "win-acme/win-acme"
+    },
+    {
+      "repo": "infinitered/ignite"
+    },
+    {
+      "repo": "rgcr/m-cli"
+    },
+    {
+      "repo": "exiftool/exiftool"
+    },
+    {
+      "repo": "rsalmei/alive-progress"
+    },
+    {
+      "repo": "mfontanini/presenterm"
+    },
+    {
+      "repo": "Aider-AI/aider"
+    },
+    {
+      "repo": "claudiodangelis/qrcp"
+    },
+    {
+      "repo": "dankamongmen/notcurses"
+    },
+    {
+      "repo": "zu1k/nali"
+    },
+    {
+      "repo": "Slackadays/Clipboard"
+    },
+    {
+      "repo": "sharkdp/pastel"
+    },
+    {
+      "repo": "sharkdp/hyperfine"
+    },
+    {
+      "repo": "six-ddc/plow"
+    },
+    {
+      "repo": "sorin-ionescu/prezto"
+    },
+    {
+      "repo": "reorx/httpstat"
+    },
+    {
+      "repo": "klaudiosinani/signale"
+    },
+    {
+      "repo": "darrenburns/posting"
+    },
+    {
+      "repo": "sindresorhus/create-dmg"
+    },
+    {
+      "repo": "ddworken/hishtory"
+    },
+    {
+      "repo": "mmulet/term.everything"
+    },
+    {
+      "repo": "nexe/nexe"
+    },
+    {
+      "repo": "lebinh/ngxtop"
+    },
+    {
+      "repo": "guarinogabriel/Mac-CLI"
+    },
+    {
+      "repo": "pemistahl/grex"
+    },
+    {
+      "repo": "chmln/sd"
+    },
+    {
+      "repo": "sigoden/aichat"
+    },
+    {
+      "repo": "harelba/q"
+    },
+    {
+      "repo": "ekzhang/bore"
+    },
+    {
+      "repo": "tio/tio"
+    },
+    {
+      "repo": "ajalt/clikt"
+    },
+    {
+      "repo": "muesli/duf"
+    },
+    {
+      "repo": "qeeqbox/social-analyzer"
+    },
+    {
+      "repo": "trinib/Linux-Bash-Commands"
+    },
+    {
+      "repo": "antonmedv/walk"
+    },
+    {
+      "repo": "99designs/aws-vault"
+    },
+    {
+      "repo": "chubin/cheat.sh"
+    },
+    {
+      "repo": "wagoodman/dive"
+    },
+    {
+      "repo": "atanunq/viu"
+    },
+    {
+      "repo": "t3-oss/create-t3-app"
+    },
+    {
+      "repo": "rs/curlie"
+    },
+    {
+      "repo": "infinitered/gluegun"
+    },
+    {
+      "repo": "timvisee/ffsend"
+    },
+    {
+      "repo": "ponzu-cms/ponzu"
+    },
+    {
+      "repo": "mixn/carbon-now-cli"
+    },
+    {
+      "repo": "sindresorhus/fkill-cli"
+    },
+    {
+      "repo": "klaudiosinani/taskbook"
+    },
+    {
+      "repo": "s3tools/s3cmd"
+    },
+    {
+      "repo": "Adembc/lazyssh"
+    },
+    {
+      "repo": "plandex-ai/plandex"
+    },
+    {
+      "repo": "danburzo/percollate"
+    },
+    {
+      "repo": "alebcay/awesome-shell"
+    },
+    {
+      "repo": "c-bata/go-prompt"
+    },
+    {
+      "repo": "jhawthorn/fzy"
+    },
+    {
+      "repo": "gnebbia/kb"
+    },
+    {
+      "repo": "peak/s5cmd"
+    },
+    {
+      "repo": "iterative/cml"
+    },
+    {
+      "repo": "tomnomnom/gron"
+    },
+    {
+      "repo": "terkelg/prompts"
+    },
+    {
+      "repo": "mifi/editly"
+    },
+    {
+      "repo": "withfig/autocomplete"
+    },
+    {
+      "repo": "hasura/graphqurl"
+    },
+    {
+      "repo": "httpie/cli"
+    },
+    {
+      "repo": "pomber/git-history"
+    },
+    {
+      "repo": "pystardust/ytfzf"
+    },
+    {
+      "repo": "ibraheemdev/modern-unix"
+    },
+    {
+      "repo": "deepjyoti30/ytmdl"
+    },
+    {
+      "repo": "mysticatea/npm-run-all"
+    },
+    {
+      "repo": "FormidableLabs/webpack-dashboard"
+    },
+    {
+      "repo": "manifoldco/promptui"
+    },
+    {
+      "repo": "niklashigi/apk-mitm"
+    },
+    {
+      "repo": "jondot/hygen"
+    },
+    {
+      "repo": "enquirer/enquirer"
+    },
+    {
+      "repo": "cube2222/octosql"
+    },
+    {
+      "repo": "httpie/http-prompt"
+    },
+    {
+      "repo": "genuinetools/img"
+    },
+    {
+      "repo": "jeroenjanssens/data-science-at-the-command-line"
+    },
+    {
+      "repo": "jpbruinsslot/slack-term"
+    },
+    {
+      "repo": "tlkh/asitop"
+    },
+    {
+      "repo": "TheZoraiz/ascii-image-converter"
+    },
+    {
+      "repo": "Rigellute/spotify-tui"
+    },
+    {
+      "repo": "donnemartin/saws"
+    },
+    {
+      "repo": "squizlabs/PHP_CodeSniffer"
+    },
+    {
+      "repo": "preactjs/preact-cli"
+    },
+    {
+      "repo": "imsnif/diskonaut"
+    },
+    {
+      "repo": "donnemartin/gitsome"
+    },
+    {
+      "repo": "qustavo/httplab"
+    },
+    {
+      "repo": "waylaidwanderer/node-chatgpt-api"
+    },
+    {
+      "repo": "mattallty/Caporal.js"
+    },
+    {
+      "repo": "ktr0731/evans"
+    },
+    {
+      "repo": "you-dont-need/You-Dont-Need-GUI"
+    },
+    {
+      "repo": "frostming/legit"
+    },
+    {
+      "repo": "multiprocessio/dsq"
+    },
+    {
+      "repo": "dthree/vorpal"
+    },
+    {
+      "repo": "archivy/archivy"
+    },
+    {
+      "repo": "bchao1/bullet"
+    },
+    {
+      "repo": "anufrievroman/calcure"
+    },
+    {
+      "repo": "warpdotdev/themes"
+    },
+    {
+      "repo": "simeg/eureka"
+    },
+    {
+      "repo": "magiblot/turbo"
+    },
+    {
+      "repo": "vue-terminal/vue-termui"
+    },
+    {
+      "repo": "lysyi3m/macos-terminal-themes"
+    },
+    {
+      "repo": "neur0map/glazepkg"
+    },
+    {
+      "repo": "andmarti1424/sc-im"
+    },
+    {
+      "repo": "MacPaw/cleanmymac-cli"
+    },
+    {
+      "repo": "lmorg/murex"
+    },
+    {
+      "repo": "zhenorzz/goploy"
+    },
+    {
+      "repo": "Linus-Mussmaecher/rucola"
+    },
+    {
+      "repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "repo": "panr/hugo-theme-terminal"
+    },
+    {
+      "repo": "mrjackwills/oxker"
+    },
+    {
+      "repo": "harmoninux/HiSH"
+    },
+    {
+      "repo": "RohitKushvaha01/ReTerminal"
+    },
+    {
+      "repo": "rylena/sshdesk"
+    },
+    {
+      "repo": "andresgongora/synth-shell"
+    },
+    {
+      "repo": "vercel/hyper"
+    },
+    {
+      "repo": "Macmod/godap"
+    },
+    {
+      "repo": "chaqchase/lla"
+    },
+    {
+      "repo": "dob323/session-kit"
+    },
+    {
+      "repo": "m4tt72/terminal"
+    },
+    {
+      "repo": "gnomeria/usbtree"
+    },
+    {
+      "repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "repo": "Guake/guake"
+    },
+    {
+      "repo": "baairon/soundcli"
+    },
+    {
+      "repo": "yandanp/Connexio"
+    },
+    {
+      "repo": "jacek-kurlit/pik"
+    },
+    {
+      "repo": "poetaman/arttime"
+    },
+    {
+      "repo": "browser-use/terminal"
+    },
+    {
+      "repo": "jarun/imgp"
+    },
+    {
+      "repo": "sachaos/viddy"
+    },
+    {
+      "repo": "jarun/ddgr"
+    },
+    {
+      "repo": "zulip/zulip-terminal"
+    },
+    {
+      "repo": "pranshuparmar/witr"
+    },
+    {
+      "repo": "malxau/yori"
+    },
+    {
+      "repo": "onceupon/Bash-Oneliner"
+    },
+    {
+      "repo": "asciinema/asciinema-server"
+    },
+    {
+      "repo": "asciinema/asciinema"
+    },
+    {
+      "repo": "asciinema/agg"
+    },
+    {
+      "repo": "github/gh-skyline"
+    },
+    {
+      "repo": "Strophox/tetro-tui"
+    },
+    {
+      "repo": "GaoSSR/best-claude-hud"
+    },
+    {
+      "repo": "webtui/webtui"
+    },
+    {
+      "repo": "laravel-zero/laravel-zero"
+    },
+    {
+      "repo": "Textualize/rich-cli"
+    },
+    {
+      "repo": "Veirt/weathr"
+    },
+    {
+      "repo": "gerardog/gsudo"
+    },
+    {
+      "repo": "tsl0922/ttyd"
+    },
+    {
+      "repo": "maticzav/emma-cli"
+    },
+    {
+      "repo": "usewhale/Whale"
+    },
+    {
+      "repo": "westpoint-io/lazyrsync"
+    },
+    {
+      "repo": "vshymanskyy/ViperIDE"
+    },
+    {
+      "repo": "bgreenwell/doxx"
+    },
+    {
+      "repo": "Helvesec/rmux"
+    },
+    {
+      "repo": "varabyte/kotter"
+    },
+    {
+      "repo": "gpakosz/.tmux"
+    },
+    {
+      "repo": "collabs-inc/collab-public"
+    },
+    {
+      "repo": "mkasberg/ghostty-ubuntu"
+    },
+    {
+      "repo": "eza-community/eza"
+    },
+    {
+      "repo": "amantus-ai/vibetunnel"
+    },
+    {
+      "repo": "hzeller/timg"
+    },
+    {
+      "repo": "gitui-org/gitui"
+    },
+    {
+      "repo": "PabloLec/RecoverPy"
+    },
+    {
+      "repo": "eliukblau/pixterm"
+    },
+    {
+      "repo": "schachmat/wego"
+    },
+    {
+      "repo": "artginzburg/sudo-touchid"
+    },
+    {
+      "repo": "trasta298/keifu"
+    },
+    {
+      "repo": "avtzis/awesome-linux-ricing"
+    },
+    {
+      "repo": "veeso/tui-realm"
+    },
+    {
+      "repo": "athityakumar/colorls"
+    },
+    {
+      "repo": "zquestz/s"
+    },
+    {
+      "repo": "lasantosr/intelli-shell"
+    },
+    {
+      "repo": "fcambus/ansiweather"
+    },
+    {
+      "repo": "sergi0g/cup"
+    },
+    {
+      "repo": "wfxr/code-minimap"
+    },
+    {
+      "repo": "dungngminh/simutil"
+    },
+    {
+      "repo": "mrusme/neonmodem"
+    },
+    {
+      "repo": "srcery-colors/srcery-vim"
+    },
+    {
+      "repo": "sinclairzx81/zero"
+    },
+    {
+      "repo": "cdleon/awesome-terminals"
+    },
+    {
+      "repo": "siduck/st"
+    },
+    {
+      "repo": "rse/stmux"
+    },
+    {
+      "repo": "Fahrj/reverse-ssh"
+    },
+    {
+      "repo": "jeffreytse/zsh-vi-mode"
+    },
+    {
+      "repo": "cyrus-and/gdb-dashboard"
+    },
+    {
+      "repo": "ThatOneCalculator/NerdFetch"
+    },
+    {
+      "repo": "paulilaaso/lue"
+    },
+    {
+      "repo": "archfz/cypress-terminal-report"
+    },
+    {
+      "repo": "coderofsalvation/kanban.bash"
+    },
+    {
+      "repo": "josueBarretogit/manga-tui"
+    },
+    {
+      "repo": "pterm/pterm"
+    },
+    {
+      "repo": "Textualize/textual"
+    },
+    {
+      "repo": "maaslalani/slides"
+    },
+    {
+      "repo": "open-gitagent/clawless"
+    },
+    {
+      "repo": "coder/boo"
+    },
+    {
+      "repo": "siddhantac/puffin"
+    },
+    {
+      "repo": "mgunyho/tere"
+    },
+    {
+      "repo": "Amjad50/plastic"
+    },
+    {
+      "repo": "ahmadawais/terminui"
+    },
+    {
+      "repo": "Cretezy/lazyjj"
+    },
+    {
+      "repo": "1j01/textual-paint"
+    },
+    {
+      "repo": "silva96/log_bench"
+    },
+    {
+      "repo": "noahgorstein/jqp"
+    },
+    {
+      "repo": "learnbyexample/TUI-apps"
+    },
+    {
+      "repo": "ajaxray/geek-life"
+    },
+    {
+      "repo": "nakabonne/ali"
+    },
+    {
+      "repo": "rsadsb/adsb_deku"
+    },
+    {
+      "repo": "mistakenelf/fm"
+    },
+    {
+      "repo": "miantiao-me/ssh-ai-chat"
+    },
+    {
+      "repo": "redox-os/termion"
+    },
+    {
+      "repo": "ShaftUI/Shaft"
+    },
+    {
+      "repo": "muesli/termenv"
+    },
+    {
+      "repo": "aksakalli/gtop"
+    },
+    {
+      "repo": "ggerganov/imtui"
+    },
+    {
+      "repo": "a-n-t-h-o-n-y/TermOx"
+    },
+    {
+      "repo": "TomasTomecek/sen"
+    },
+    {
+      "repo": "EnhancedJax/Bagels"
+    },
+    {
+      "repo": "samtay/so"
+    },
+    {
+      "repo": "kyoheiu/felix"
+    },
+    {
+      "repo": "ajeetdsouza/clidle"
+    },
+    {
+      "repo": "paololazzari/play"
+    },
+    {
+      "repo": "bloznelis/typioca"
+    },
+    {
+      "repo": "sudipghimire533/ytui-music"
+    },
+    {
+      "repo": "samtay/tetris"
+    },
+    {
+      "repo": "rhysd/tui-textarea"
+    },
+    {
+      "repo": "wintermute-cell/ngrrram"
+    },
+    {
+      "repo": "Biont/sway-launcher-desktop"
+    },
+    {
+      "repo": "darrenburns/elia"
+    },
+    {
+      "repo": "akavel/up"
+    },
+    {
+      "repo": "oppiliappan/dijo"
+    },
+    {
+      "repo": "tboox/ltui"
+    },
+    {
+      "repo": "Textualize/toolong"
+    },
+    {
+      "repo": "Textualize/frogmouth"
+    },
+    {
+      "repo": "ekkinox/yai"
+    },
+    {
+      "repo": "1buran/rHttp"
+    },
+    {
+      "repo": "astefanutti/kubebox"
+    },
+    {
+      "repo": "Samyak2/toipe"
+    },
+    {
+      "repo": "dustinblackman/oatmeal"
+    },
+    {
+      "repo": "darylhjd/mangadesk"
+    },
+    {
+      "repo": "vadimdemedes/ink-ui"
+    },
+    {
+      "repo": "gcla/termshark"
+    },
+    {
+      "repo": "TomaszRewak/C-sharp-console-gui-framework"
+    },
+    {
+      "repo": "joehillen/sysz"
+    },
+    {
+      "repo": "st3w/neo"
+    },
+    {
+      "repo": "octobanana/peaclock"
+    },
+    {
+      "repo": "GeorgeFilipkin/pulsemixer"
+    },
+    {
+      "repo": "wustho/baca"
+    },
+    {
+      "repo": "RasmusLindroth/tut"
+    },
+    {
+      "repo": "TaKO8Ki/gobang"
+    },
+    {
+      "repo": "svartalf/rust-battop"
+    },
+    {
+      "repo": "muesli/gitty"
+    },
+    {
+      "repo": "ceuk/spotui"
+    },
+    {
+      "repo": "ndreynolds/ratatouille"
+    },
+    {
+      "repo": "gcla/gowid"
+    },
+    {
+      "repo": "pfalcon/picotui"
+    },
+    {
+      "repo": "mathaou/termdbms"
+    },
+    {
+      "repo": "2mol/pboy"
+    },
+    {
+      "repo": "VladimirMarkelov/clui"
+    },
+    {
+      "repo": "ivanceras/sauron-native"
+    },
+    {
+      "repo": "mempodippy/vlany"
+    },
+    {
+      "repo": "igor-kostromin/consoleframework"
+    },
+    {
+      "repo": "Tiger3807861189/J-Space-Cognition-Suite"
+    },
+    {
+      "repo": "amplifthq/opentag"
+    },
+    {
+      "repo": "micahkepe/jsongrep"
+    },
+    {
+      "repo": "glauth/glauth"
+    },
+    {
+      "repo": "darrenhinde/OpenAgentsControl"
+    },
+    {
+      "repo": "rafal-qa/slopo"
+    },
+    {
+      "repo": "sourcey/sourcey"
+    },
+    {
+      "repo": "amalshaji/portr"
+    },
+    {
+      "repo": "aannoo/hcom"
+    },
+    {
+      "repo": "Tura-AI/tura"
+    },
+    {
+      "repo": "kaochenlong/spectra-app"
+    },
+    {
+      "repo": "alexandrehtrb/Pororoca"
+    },
+    {
+      "repo": "leo-lilinxiao/codex-autoresearch"
+    },
+    {
+      "repo": "JordanCoin/codemap"
+    },
+    {
+      "repo": "httptoolkit/httptoolkit-server"
+    },
+    {
+      "repo": "qpoint-io/qtap"
+    },
+    {
+      "repo": "Jia-Ethan/claude-keysmith"
+    },
+    {
+      "repo": "palkan/isolator"
+    },
+    {
+      "repo": "software-mansion/live-debugger"
+    },
+    {
+      "repo": "mindmuxai/brain.md"
+    },
+    {
+      "repo": "agentrhq/webcmd"
+    },
+    {
+      "repo": "ScottArbeit/Grace"
+    },
+    {
+      "repo": "mereyabdenbekuly-ctrl/clodex-ide"
+    },
+    {
+      "repo": "electron/osx-sign"
+    },
+    {
+      "repo": "ImKKingshuk/LockKnife"
+    },
+    {
+      "repo": "bysiber/cleardisk"
+    },
+    {
+      "repo": "jiweiyeah/Skills-Manager"
+    },
+    {
+      "repo": "ipyflow/ipyflow"
+    },
+    {
+      "repo": "refinedev/refine"
+    },
+    {
+      "repo": "JetBrains/go-modern-guidelines"
+    },
+    {
+      "repo": "KhazP/vibe-coding-prompt-template"
+    },
+    {
+      "repo": "MadAppGang/dingo"
+    },
+    {
+      "repo": "ethanplusai/jarvis"
+    },
+    {
+      "repo": "wavetermdev/waveterm"
+    },
+    {
+      "repo": "Lonero-Team/Decentralized-Internet"
+    },
+    {
+      "repo": "kubero-dev/kubero"
+    },
+    {
+      "repo": "Agent-Field/SWE-AF"
+    },
+    {
+      "repo": "am-will/gooey-pi"
+    },
+    {
+      "repo": "zealdocs/zeal"
+    },
+    {
+      "repo": "fuxicodex/Fuxi"
+    },
+    {
+      "repo": "stormzhang/token-tracker"
+    },
+    {
+      "repo": "nikolaydubina/go-recipes"
+    },
+    {
+      "repo": "study8677/repobrain"
+    },
+    {
+      "repo": "microsoft/ai-dev-gallery"
+    },
+    {
+      "repo": "krishn404/Git-Friend"
+    },
+    {
+      "repo": "LiuMengxuan04/MiniCode"
+    },
+    {
+      "repo": "sodiumsun/agenttrail"
+    },
+    {
+      "repo": "danvergara/dblab"
+    },
+    {
+      "repo": "appbaseio/reactivesearch"
+    },
+    {
+      "repo": "voidcosmos/npkill"
+    },
+    {
+      "repo": "rubycdp/ferrum"
+    },
+    {
+      "repo": "JelteF/derive_more"
+    },
+    {
+      "repo": "raiyanyahya/recall"
+    },
+    {
+      "repo": "eltociear/awesome-AI-driven-development"
+    },
+    {
+      "repo": "Giammarco-Ferranti/deja"
+    },
+    {
+      "repo": "RedPlanetHQ/core"
+    },
+    {
+      "repo": "2akouwu/reverify"
+    },
+    {
+      "repo": "Dong90/oh-my-taiyiforge"
+    },
+    {
+      "repo": "SpartanJ/ecode"
+    },
+    {
+      "repo": "decebals/claude-code-java"
+    },
+    {
+      "repo": "Microck/opencode-studio"
+    },
+    {
+      "repo": "braedonsaunders/codeflow"
+    },
+    {
+      "repo": "RoggeOhta/awesome-codex-cli"
+    },
+    {
+      "repo": "yaolifeng0629/Awesome-independent-tools"
+    },
+    {
+      "repo": "lindell/multi-gitter"
+    },
+    {
+      "repo": "yizhiyanhua-ai/fireworks-tech-graph"
+    },
+    {
+      "repo": "kubewall/kubewall"
+    },
+    {
+      "repo": "ducaale/xh"
+    },
+    {
+      "repo": "tutti-os/tutti"
+    },
+    {
+      "repo": "iAmCorey/kooky"
+    },
+    {
+      "repo": "utensils/mcp-nixos"
+    },
+    {
+      "repo": "jhlee0409/claude-code-history-viewer"
+    },
+    {
+      "repo": "soumatheusgomes/vibe-coding-toolkit"
+    },
+    {
+      "repo": "sangrokjung/claude-forge"
+    },
+    {
+      "repo": "bybit-exchange/svg-diagram"
+    },
+    {
+      "repo": "elirantutia/vibeyard"
+    },
+    {
+      "repo": "ykdojo/claude-code-tips"
+    },
+    {
+      "repo": "wxtsky/CodeIsland"
+    },
+    {
+      "repo": "Dicklesworthstone/claude_code_agent_farm"
+    },
+    {
+      "repo": "fufankeji/deepseek-harness-studio"
+    },
+    {
+      "repo": "rohitg00/pro-workflow"
+    },
+    {
+      "repo": "Railly/agentfiles"
+    },
+    {
+      "repo": "foryourhealth111-pixel/Vibe-Skills"
+    },
+    {
+      "repo": "stevesolun/ctx"
+    },
+    {
+      "repo": "Michael-A-Kuykendall/shimmy"
+    },
+    {
+      "repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "repo": "atomantic/dotfiles"
+    },
+    {
+      "repo": "ligurio/awesome-ci"
+    },
+    {
+      "repo": "Galaxy-Dawn/claude-scholar"
+    },
+    {
+      "repo": "dongshuyan/compass-skills"
+    },
+    {
+      "repo": "doccker/cc-use-exp"
+    },
+    {
+      "repo": "graphprotocol/graph-node"
+    },
+    {
+      "repo": "hey-api/hey-api"
+    },
+    {
+      "repo": "garden-io/garden"
+    },
+    {
+      "repo": "clawwork-ai/ClawWork"
+    },
+    {
+      "repo": "dohooo/helmor"
+    },
+    {
+      "repo": "promptise-com/Foundry"
+    },
+    {
+      "repo": "rehmatworks/gplaydl"
+    },
+    {
+      "repo": "francescofugazzi/3dgsconverter"
+    },
+    {
+      "repo": "ben-z/findphone"
+    },
+    {
+      "repo": "Martchus/tageditor"
+    },
+    {
+      "repo": "broadinstitute/picard"
+    },
+    {
+      "repo": "elliotblackburn/mdpdf"
+    },
+    {
+      "repo": "GoogleChromeLabs/bubblewrap"
+    },
+    {
+      "repo": "sisong/HDiffPatch"
+    },
+    {
+      "repo": "google/yamlfmt"
+    },
+    {
+      "repo": "bfgroup/Lyra"
+    },
+    {
+      "repo": "GoogleCloudPlatform/gsutil"
+    },
+    {
+      "repo": "Gu1llaum-3/sshm"
+    },
+    {
+      "repo": "RedMadRobot/figma-export"
+    },
+    {
+      "repo": "prompt-toolkit/python-prompt-toolkit"
+    },
+    {
+      "repo": "indexzero/nconf"
+    },
+    {
+      "repo": "dnote/dnote"
+    },
+    {
+      "repo": "vjeantet/alerter"
+    },
+    {
+      "repo": "gotify/cli"
+    },
+    {
+      "repo": "rust-fuzz/cargo-fuzz"
+    },
+    {
+      "repo": "jasonacox/tinytuya"
+    },
+    {
+      "repo": "jifunks/botany"
+    },
+    {
+      "repo": "guard/guard"
+    },
+    {
+      "repo": "killercup/cargo-edit"
+    },
+    {
+      "repo": "anthonyraymond/joal"
+    },
+    {
+      "repo": "75lb/command-line-args"
+    },
+    {
+      "repo": "zhongwencool/observer_cli"
+    },
+    {
+      "repo": "JosephLai241/URS"
+    },
+    {
+      "repo": "nadermx/backgroundremover"
+    },
+    {
+      "repo": "VirusTotal/vt-cli"
+    },
+    {
+      "repo": "daeuniverse/gg"
+    },
+    {
+      "repo": "rails/thor"
+    },
+    {
+      "repo": "terryyin/translate-python"
+    },
+    {
+      "repo": "YS-L/csvlens"
+    },
+    {
+      "repo": "nexus-xyz/nexus-cli"
+    },
+    {
+      "repo": "TheR1D/shell_gpt"
+    },
+    {
+      "repo": "natemcmaster/CommandLineUtils"
+    },
+    {
+      "repo": "google/python-fire"
+    },
+    {
+      "repo": "spotify2tidal/spotify_to_tidal"
+    },
+    {
+      "repo": "natesales/q"
+    },
+    {
+      "repo": "aria2/aria2"
+    },
+    {
+      "repo": "ageitgey/face_recognition"
+    },
+    {
+      "repo": "welaika/wordmove"
+    },
+    {
+      "repo": "defunkt/gist"
+    },
+    {
+      "repo": "parvardegr/sharing"
+    },
+    {
+      "repo": "clitic/vsd"
+    },
+    {
+      "repo": "nojhan/colout"
+    },
+    {
+      "repo": "dutchcoders/transfer.sh"
+    },
+    {
+      "repo": "ninxsoft/mist-cli"
+    },
+    {
+      "repo": "linux-sunxi/sunxi-tools"
+    },
+    {
+      "repo": "klattimer/LGWebOSRemote"
+    },
+    {
+      "repo": "etetoolkit/ete"
+    },
+    {
+      "repo": "ameshkov/dnslookup"
+    },
+    {
+      "repo": "Automattic/browser-repl"
+    },
+    {
+      "repo": "icloud-photos-downloader/icloud_photos_downloader"
+    },
+    {
+      "repo": "allthemusicllc/atm-cli"
+    },
+    {
+      "repo": "nicfit/eyeD3"
+    },
+    {
+      "repo": "pimutils/todoman"
+    },
+    {
+      "repo": "laurikari/tre"
+    },
+    {
+      "repo": "linkedin/shiv"
+    },
+    {
+      "repo": "rahiel/telegram-send"
+    },
+    {
+      "repo": "cheat/cheat"
+    },
+    {
+      "repo": "einaregilsson/beanstalk-deploy"
+    },
+    {
+      "repo": "istanbuljs/nyc"
+    },
+    {
+      "repo": "cli-guidelines/cli-guidelines"
+    },
+    {
+      "repo": "sveinbjornt/Platypus"
+    },
+    {
+      "repo": "clearbluejar/ghidriff"
+    },
+    {
+      "repo": "PGYER/fir-cli"
+    },
+    {
+      "repo": "onevcat/FengNiao"
+    },
+    {
+      "repo": "EFForg/apkeep"
+    },
+    {
+      "repo": "sharkdp/hexyl"
+    },
+    {
+      "repo": "barnybug/cli53"
+    },
+    {
+      "repo": "lavie/runlike"
+    },
+    {
+      "repo": "nashsu/AutoCLI"
+    },
+    {
+      "repo": "sandreas/m4b-tool"
+    },
+    {
+      "repo": "http-party/http-server"
+    },
+    {
+      "repo": "RedSiege/C2concealer"
+    },
+    {
+      "repo": "arqbackup/arq_restore"
+    },
+    {
+      "repo": "bkirwi/decline"
+    },
+    {
+      "repo": "iqlusioninc/abscissa"
+    },
+    {
+      "repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "repo": "bmc/daemonize"
+    },
+    {
+      "repo": "justskiv/goschedviz"
+    },
+    {
+      "repo": "orhun/flawz"
+    },
+    {
+      "repo": "s0xDk/ghostty-blackhole"
+    },
+    {
+      "repo": "peltho/tufw"
+    },
+    {
+      "repo": "maria-rcks/t1code"
+    },
+    {
+      "repo": "poppinss/youch"
+    },
+    {
+      "repo": "yassinebridi/serpl"
+    },
+    {
+      "repo": "raphamorim/lucario"
+    },
+    {
+      "repo": "mco-org/squad"
+    },
+    {
+      "repo": "Gottox/terminal.js"
+    },
+    {
+      "repo": "innotop/innotop"
+    },
+    {
+      "repo": "will8211/unimatrix"
+    },
+    {
+      "repo": "waynesutton/markdown-site"
+    },
+    {
+      "repo": "tarkah/tickrs"
+    },
+    {
+      "repo": "SoptikHa2/desed"
+    },
+    {
+      "repo": "kaplanelad/shellfirm"
+    },
+    {
+      "repo": "zaghaghi/openapi-tui"
+    },
+    {
+      "repo": "nightmare-space/any_share"
+    },
+    {
+      "repo": "ccgauche/ytermusic"
+    },
+    {
+      "repo": "HazAT/pi-interactive-subagents"
+    },
+    {
+      "repo": "hosenur/portal"
+    },
+    {
+      "repo": "adsr/mle"
+    },
+    {
+      "repo": "paul-nameless/tg"
+    },
+    {
+      "repo": "FGRibreau/spinners"
+    },
+    {
+      "repo": "lewislulu/terminal-setup"
+    },
+    {
+      "repo": "rhysd/kiro-editor"
+    },
+    {
+      "repo": "juftin/browsr"
+    },
+    {
+      "repo": "xgi/castero"
+    },
+    {
+      "repo": "its-maestro-baby/maestro"
+    },
+    {
+      "repo": "CodeOne45/vex-tui"
+    },
+    {
+      "repo": "LigphiDonk/Oh-my--paper"
+    },
+    {
+      "repo": "DinkDonk/kitty-icon"
+    },
+    {
+      "repo": "plutov/oq"
+    },
+    {
+      "repo": "clarkduvall/jsterm"
+    },
+    {
+      "repo": "MitMaro/git-interactive-rebase-tool"
+    },
+    {
+      "repo": "marcusbuffett/command-line-chess"
+    },
+    {
+      "repo": "kai-morich/SimpleBluetoothTerminal"
+    },
+    {
+      "repo": "LukeSmithxyz/st"
+    },
+    {
+      "repo": "posva/catimg"
+    },
+    {
+      "repo": "raitonoberu/sptlrx"
+    },
+    {
+      "repo": "gautamkrishnar/socli"
+    },
+    {
+      "repo": "ndd7xv/heh"
+    },
+    {
+      "repo": "aome510/hackernews-TUI"
+    },
+    {
+      "repo": "stanford-iris-lab/meta-harness-tbench2-artifact"
+    },
+    {
+      "repo": "cs01/termpair"
+    },
+    {
+      "repo": "klaudiosinani/hyper-pokemon"
+    },
+    {
+      "repo": "Terminals-Origin/Terminals"
+    },
+    {
+      "repo": "public-clis/rdt-cli"
+    },
+    {
+      "repo": "osa1/tiny"
+    },
+    {
+      "repo": "public-clis/bilibili-cli"
+    },
+    {
+      "repo": "mental-os/Aurora-OS.js"
+    },
+    {
+      "repo": "ahmadawais/chartli"
+    },
+    {
+      "repo": "outsmartchad/outsmart-cli"
+    },
+    {
+      "repo": "feremabraz/bloomberg-terminal"
+    },
+    {
+      "repo": "psychohackers/PhantomDroid"
+    },
+    {
+      "repo": "YS-L/flamelens"
+    },
+    {
+      "repo": "Austin-Patrician/eastmoney"
+    },
+    {
+      "repo": "Gioni06/terminal.css"
+    },
+    {
+      "repo": "cesarferreira/rip"
+    },
+    {
+      "repo": "migueldeicaza/TermKit"
+    },
+    {
+      "repo": "trehn/termdown"
+    },
+    {
+      "repo": "szieke/ScriptCommunicator_serial-terminal"
+    },
+    {
+      "repo": "trehn/termtrack"
+    },
+    {
+      "repo": "AngelJumbo/lavat"
+    },
+    {
+      "repo": "Hammster/windows-terminal-shaders"
+    },
+    {
+      "repo": "Rigellute/rigel"
+    },
+    {
+      "repo": "lanoxx/tilda"
+    },
+    {
+      "repo": "mcpcpc/kirc"
+    },
+    {
+      "repo": "leg100/pug"
+    },
+    {
+      "repo": "ravikiranvm/aws-finops-dashboard"
+    },
+    {
+      "repo": "vibeforge1111/vibeship-spawner-skills"
+    },
+    {
+      "repo": "dheera/rosshow"
+    },
+    {
+      "repo": "piqoni/matcha"
+    },
+    {
+      "repo": "randy3k/Terminus"
+    },
+    {
+      "repo": "termux/termux-styling"
+    },
+    {
+      "repo": "termux/termux-float"
+    },
+    {
+      "repo": "carloscuesta/materialshell"
+    },
+    {
+      "repo": "ck-zhang/reddix"
+    }
+  ],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -6686,9 +8766,37 @@
       "reason": "Terminal use case needs classification"
     },
     "dannote/figma-use": {
-      "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "dannote-figma-use",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/dannote/figma-use/blob/7bfa9ba3ea7c56c5c8ca6cd5085c6e56a0735027/package.json",
+          "snippet": "{\"bin\":{\"figma-use\":\"bin/figma-use.js\"}}",
+          "target": "bin/figma-use.js"
+        },
+        "installation": {
+          "url": "https://github.com/dannote/figma-use/blob/7bfa9ba3ea7c56c5c8ca6cd5085c6e56a0735027/README.md",
+          "snippet": "npm install -g figma-use"
+        },
+        "usage": {
+          "url": "https://github.com/dannote/figma-use/blob/7bfa9ba3ea7c56c5c8ca6cd5085c6e56a0735027/README.md",
+          "snippet": "figma-use set layout 1:23 --mode GRID --cols \"1fr 1fr 1fr\" --gap 16"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/dannote/figma-use",
+          "snippet": "Control Figma from the command line. Full read/write access for AI agents — create shapes, text, components, set styles, export images. 100+ commands."
+        },
+        "adoption": {
+          "stars": 606,
+          "githubSource": "https://github.com/dannote/figma-use",
+          "homebrew": null
+        },
+        "commit": "7bfa9ba3ea7c56c5c8ca6cd5085c6e56a0735027"
+      }
     },
     "ther1d/shell_gpt": {
       "status": "held",
@@ -6729,7 +8837,8 @@
     },
     "humblepenguinn/envio": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "welaika/wordmove": {
@@ -12876,23 +14985,27 @@
     },
     "lune-org/lune": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "corsinvest/cv4pve-autosnap": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jo1gi/audiobook-dl": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "wfxr/tmux-power": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "vercel/serve": {
       "status": "held",
@@ -12919,23 +15032,27 @@
     },
     "2arons/duel-agents": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mnapoli/silly": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "joeynyc/hermes-skins": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "arindam200/cc-lens": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "brennercruvinel/ccplugins": {
       "status": "held",
@@ -12954,8 +15071,9 @@
     },
     "iagooar/qqqa": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "campfirein/byterover-cli": {
       "status": "accepted",
@@ -13055,8 +15173,9 @@
     },
     "shayonj/pg-osc": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "moby/moby": {
       "status": "held",
@@ -13077,13 +15196,15 @@
     },
     "mbailey/bash-my-aws": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "openlightingproject/ola": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "joncampbell123/dosbox-x": {
       "status": "held",
@@ -13203,9 +15324,37 @@
       }
     },
     "arcangel0/eva": {
-      "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "arcangel0-eva",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ARCANGEL0/EVA/blob/3651649b955103e0ea044106bb218ca7ab4c546a/pyproject.toml",
+          "snippet": "eva = \"eva:cli\"",
+          "target": "eva.py"
+        },
+        "installation": {
+          "url": "https://github.com/ARCANGEL0/EVA/blob/3651649b955103e0ea044106bb218ca7ab4c546a/README.md",
+          "snippet": "pip install eva-exploit"
+        },
+        "usage": {
+          "url": "https://github.com/ARCANGEL0/EVA/blob/3651649b955103e0ea044106bb218ca7ab4c546a/README.md",
+          "snippet": "eva --config"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ARCANGEL0/EVA",
+          "snippet": "EVA is an AI-assisted penetration testing agent that enhances offensive security workflows by providing structured attack guidance, contextual analysis, and multi-backend AI integration."
+        },
+        "adoption": {
+          "stars": 528,
+          "githubSource": "https://github.com/ARCANGEL0/EVA",
+          "homebrew": null
+        },
+        "commit": "3651649b955103e0ea044106bb218ca7ab4c546a"
+      }
     },
     "byron/dua-cli": {
       "status": "held",
@@ -13224,8 +15373,9 @@
     },
     "trugamr/wol": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "fujiwarachoki/moneyprinterv2": {
       "status": "held",
@@ -14123,9 +16273,43 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "soxoj/maigret": {
-      "status": "held",
-      "checkedAt": "2026-09-15T16:44:25.222Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "soxoj-maigret",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/soxoj/maigret/blob/38bbf5cc735439bb0a3c8d8d60e4f900ade7cf96/pyproject.toml",
+          "snippet": "maigret = \"maigret.maigret:run\"",
+          "target": "maigret/maigret.py"
+        },
+        "installation": {
+          "url": "https://github.com/soxoj/maigret/blob/38bbf5cc735439bb0a3c8d8d60e4f900ade7cf96/README.md",
+          "snippet": "pip install maigret"
+        },
+        "usage": {
+          "url": "https://github.com/soxoj/maigret/blob/38bbf5cc735439bb0a3c8d8d60e4f900ade7cf96/README.md",
+          "snippet": "maigret username"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/soxoj/maigret",
+          "snippet": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites"
+        },
+        "adoption": {
+          "stars": 37863,
+          "githubSource": "https://github.com/soxoj/maigret",
+          "homebrew": {
+            "repo": "soxoj/maigret",
+            "formula": "maigret",
+            "count": 127,
+            "source": "https://formulae.brew.sh/api/formula/maigret.json",
+            "generatedDate": "2026-09-21"
+          }
+        },
+        "commit": "38bbf5cc735439bb0a3c8d8d60e4f900ade7cf96"
+      }
     },
     "umputun/agterm": {
       "status": "held",
@@ -16691,13 +18875,15 @@
     },
     "grafana/loki": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "logrotate/logrotate": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "elastic/logstash": {
       "status": "held",
@@ -16706,53 +18892,195 @@
     },
     "busyloop/lolcat": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "lsd-rs/lsd": {
-      "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "lsd-rs-lsd",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/lsd-rs/lsd/blob/4b6c14a110fe0fd544ec0204501b5fd3a5d6218f/Cargo.toml",
+          "snippet": "[[bin]] name=\"lsd\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/lsd-rs/lsd/blob/4b6c14a110fe0fd544ec0204501b5fd3a5d6218f/README.md",
+          "snippet": "cargo install lsd"
+        },
+        "usage": {
+          "url": "https://github.com/lsd-rs/lsd/blob/4b6c14a110fe0fd544ec0204501b5fd3a5d6218f/README.md",
+          "snippet": "lsd --icon never --ignore-config"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/lsd-rs/lsd",
+          "snippet": "The next gen ls command"
+        },
+        "adoption": {
+          "stars": 16235,
+          "githubSource": "https://github.com/lsd-rs/lsd",
+          "homebrew": {
+            "repo": "lsd-rs/lsd",
+            "formula": "lsd",
+            "count": 543,
+            "source": "https://formulae.brew.sh/api/formula/lsd.json",
+            "generatedDate": "2026-09-21"
+          }
+        },
+        "commit": "4b6c14a110fe0fd544ec0204501b5fd3a5d6218f"
+      }
     },
     "lsof-org/lsof": {
-      "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "lsof-org-lsof",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/lsof.json",
+          "snippet": "{\"executables\":[\"lsof\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/lsof",
+          "snippet": "brew install lsof"
+        },
+        "usage": {
+          "url": "https://github.com/lsof-org/lsof/blob/1ebf257c64db1b2ece5e4d5e922ed711c692f161/README.md",
+          "snippet": "lsof -p 18083"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/lsof-org/lsof",
+          "snippet": "LiSt Open Files"
+        },
+        "adoption": {
+          "stars": 574,
+          "githubSource": "https://github.com/lsof-org/lsof",
+          "homebrew": {
+            "repo": "lsof-org/lsof",
+            "formula": "lsof",
+            "count": 270,
+            "source": "https://formulae.brew.sh/api/formula/lsof.json",
+            "generatedDate": "2026-09-21"
+          }
+        },
+        "commit": "1ebf257c64db1b2ece5e4d5e922ed711c692f161"
+      }
     },
     "jlhonora/lsusb": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "luals/lua-language-server": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "luajit/luajit": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "openresty/luajit2": {
-      "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "openresty-luajit2",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/luajit-openresty.json",
+          "snippet": "{\"executables\":[\"luajit\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/luajit-openresty",
+          "snippet": "brew install luajit-openresty"
+        },
+        "usage": {
+          "url": "https://github.com/openresty/luajit2/blob/f75bf45e8b869a8ee4562ab0183322c3ebf2d9f3/README.md",
+          "snippet": "luajit -bl a.lua'"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/openresty/luajit2",
+          "snippet": "OpenResty's Branch of LuaJIT 2"
+        },
+        "adoption": {
+          "stars": 1449,
+          "githubSource": "https://github.com/openresty/luajit2",
+          "homebrew": {
+            "repo": "openresty/luajit2",
+            "formula": "luajit-openresty",
+            "count": 162,
+            "source": "https://formulae.brew.sh/api/formula/luajit-openresty.json",
+            "generatedDate": "2026-09-21"
+          }
+        },
+        "commit": "f75bf45e8b869a8ee4562ab0183322c3ebf2d9f3"
+      }
     },
     "luarocks/luarocks": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "luau-lang/luau": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "lycheeverse/lychee": {
-      "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "lycheeverse-lychee",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/lycheeverse/lychee/blob/694caf580f2bd7c4497565ca8f26f4dcd8d5da6d/lychee-bin/Cargo.toml",
+          "snippet": "package.name=\"lychee\"; src/main.rs",
+          "target": "lychee-bin/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/lycheeverse/lychee/blob/694caf580f2bd7c4497565ca8f26f4dcd8d5da6d/README.md",
+          "snippet": "cargo install lychee"
+        },
+        "usage": {
+          "url": "https://github.com/lycheeverse/lychee/blob/694caf580f2bd7c4497565ca8f26f4dcd8d5da6d/README.md",
+          "snippet": "lychee ."
+        },
+        "description": {
+          "url": "https://api.github.com/repos/lycheeverse/lychee",
+          "snippet": "⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!"
+        },
+        "adoption": {
+          "stars": 3922,
+          "githubSource": "https://github.com/lycheeverse/lychee",
+          "homebrew": {
+            "repo": "lycheeverse/lychee",
+            "formula": "lychee",
+            "count": 1761,
+            "source": "https://formulae.brew.sh/api/formula/lychee.json",
+            "generatedDate": "2026-09-21"
+          }
+        },
+        "commit": "694caf580f2bd7c4497565ca8f26f4dcd8d5da6d"
+      }
     },
     "cisofy/lynis": {
       "status": "held",
@@ -16761,18 +19089,87 @@
     },
     "lz4/lz4": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "waydabber/m1ddc": {
-      "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "waydabber-m1ddc",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/m1ddc.json",
+          "snippet": "{\"executables\":[\"m1ddc\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/m1ddc",
+          "snippet": "brew install m1ddc"
+        },
+        "usage": {
+          "url": "https://github.com/waydabber/m1ddc/blob/04d949794102eb8df01ad3681afff6464a3eede2/README.md",
+          "snippet": "m1ddc set contrast 5"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/waydabber/m1ddc",
+          "snippet": "This little tool controls external displays (connected via USB-C/DisplayPort Alt Mode) using DDC/CI on Apple Silicon Macs. Useful to embed in various scripts."
+        },
+        "adoption": {
+          "stars": 736,
+          "githubSource": "https://github.com/waydabber/m1ddc",
+          "homebrew": {
+            "repo": "waydabber/m1ddc",
+            "formula": "m1ddc",
+            "count": 280,
+            "source": "https://formulae.brew.sh/api/formula/m1ddc.json",
+            "generatedDate": "2026-09-21"
+          }
+        },
+        "commit": "04d949794102eb8df01ad3681afff6464a3eede2"
+      }
     },
     "lra/mackup": {
-      "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "lra-mackup",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/mackup.json",
+          "snippet": "{\"executables\":[\"mackup\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/lra/mackup/blob/9fc154052c2b026e4e912ef73fb6d396e4993699/README.md",
+          "snippet": "brew install mackup"
+        },
+        "usage": {
+          "url": "https://github.com/lra/mackup/blob/9fc154052c2b026e4e912ef73fb6d396e4993699/README.md",
+          "snippet": "mackup backup"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/lra/mackup",
+          "snippet": "Backup and keep your application settings in sync."
+        },
+        "adoption": {
+          "stars": 15330,
+          "githubSource": "https://github.com/lra/mackup",
+          "homebrew": {
+            "repo": "lra/mackup",
+            "formula": "mackup",
+            "count": 105,
+            "source": "https://formulae.brew.sh/api/formula/mackup.json",
+            "generatedDate": "2026-09-21"
+          }
+        },
+        "commit": "9fc154052c2b026e4e912ef73fb6d396e4993699"
+      }
     },
     "metaspartan/mactop": {
       "status": "held",
@@ -16782,28 +19179,33 @@
     },
     "macvim-dev/macvim": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "magic-wormhole/magic-wormhole": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "carthage-software/mago": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "axllent/mailpit": {
       "status": "held",
-      "checkedAt": "2026-09-16T08:44:21.465Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mamedev/mame": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
     },
     "manimcommunity/manim": {
       "status": "held",
@@ -16812,18 +19214,54 @@
     },
     "mariadb-corporation/mariadb-connector-c": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "kovetskiy/mark": {
-      "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "kovetskiy-mark",
+      "acceptedAt": "2026-09-21T08:43:37.177Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/mark.json",
+          "snippet": "{\"executables\":[\"mark\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/kovetskiy/mark/blob/2d69a795ecd0073abad5d4f2670c681b1137988e/README.md",
+          "snippet": "brew install mark"
+        },
+        "usage": {
+          "url": "https://github.com/kovetskiy/mark/blob/2d69a795ecd0073abad5d4f2670c681b1137988e/README.md",
+          "snippet": "mark --features=mermaid --features=mention --features=frontmatter"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kovetskiy/mark",
+          "snippet": "Sync your markdown files with Confluence pages."
+        },
+        "adoption": {
+          "stars": 1574,
+          "githubSource": "https://github.com/kovetskiy/mark",
+          "homebrew": {
+            "repo": "kovetskiy/mark",
+            "formula": "mark",
+            "count": 168,
+            "source": "https://formulae.brew.sh/api/formula/mark.json",
+            "generatedDate": "2026-09-21"
+          }
+        },
+        "commit": "2d69a795ecd0073abad5d4f2670c681b1137988e"
+      }
     },
     "artempyanykh/marksman": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-21T08:43:37.177Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "robertdavidgraham/masscan": {
       "status": "held",
@@ -21762,5 +24200,5 @@
       "reason": "Possible graphical application or launcher"
     }
   },
-  "lastRunAt": "2026-09-21T07:43:37.523Z"
+  "lastRunAt": "2026-09-21T08:43:37.177Z"
 }
