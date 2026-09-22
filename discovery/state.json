@@ -4,147 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "firecracker-microvm/firectl"
-    },
-    {
-      "repo": "ronin-rb/ronin"
-    },
-    {
-      "repo": "Code-with-Beto/snapai"
-    },
-    {
-      "repo": "jenkinsci/jenkinsfile-runner"
-    },
-    {
-      "repo": "filiparag/wikiman"
-    },
-    {
-      "repo": "zackees/transcribe-anything"
-    },
-    {
-      "repo": "ionic-team/ionic-cli"
-    },
-    {
-      "repo": "dvcoolarun/web2pdf"
-    },
-    {
-      "repo": "nosarthur/gita"
-    },
-    {
-      "repo": "QuiiBz/sherif"
-    },
-    {
-      "repo": "bergside/typeui"
-    },
-    {
-      "repo": "mohsen1/yek"
-    },
-    {
-      "repo": "iosifache/annas-mcp"
-    },
-    {
-      "repo": "retlehs/quien"
-    },
-    {
-      "repo": "PatrickF1/fzf.fish"
-    },
-    {
-      "repo": "DanielSWolf/rhubarb-lip-sync"
-    },
-    {
-      "repo": "0xranx/OpenContext"
-    },
-    {
-      "repo": "Timmoth/RackPeek"
-    },
-    {
-      "repo": "massgen/MassGen"
-    },
-    {
-      "repo": "vyfor/rattles"
-    },
-    {
-      "repo": "Achno/gowall"
-    },
-    {
-      "repo": "retypeapp/retype"
-    },
-    {
-      "repo": "langwatch/better-agents"
-    },
-    {
-      "repo": "inlife/nexrender"
-    },
-    {
-      "repo": "ReVanced/revanced-cli"
-    },
-    {
-      "repo": "rohitg00/skillkit"
-    },
-    {
-      "repo": "expo/expo-github-action"
-    },
-    {
-      "repo": "instill-ai/instill-core"
-    },
-    {
-      "repo": "lorryjovens-hub/claude-code-rust"
-    },
-    {
-      "repo": "Siriusmart/youtube-tui"
-    },
-    {
-      "repo": "stefanmaric/g"
-    },
-    {
-      "repo": "Owloops/updo"
-    },
-    {
-      "repo": "shinshin86/oh-my-logo"
-    },
-    {
-      "repo": "agauniyal/rang"
-    },
-    {
-      "repo": "kainctl/isd"
-    },
-    {
-      "repo": "sclevine/yj"
-    },
-    {
-      "repo": "naggie/dstask"
-    },
-    {
-      "repo": "ms-jpq/sad"
-    },
-    {
-      "repo": "emersion/slurp"
-    },
-    {
-      "repo": "gildas-lormeau/SingleFileZ"
-    },
-    {
-      "repo": "yigitkonur/cli-continues"
-    },
-    {
-      "repo": "greymd/tmux-xpanes"
-    },
-    {
-      "repo": "randy3k/radian"
-    },
-    {
-      "repo": "bubblelabai/BubbleLab"
-    },
-    {
-      "repo": "ipinfo/cli"
-    },
-    {
-      "repo": "securisec/chepy"
-    },
-    {
-      "repo": "tbillington/kondo"
-    },
-    {
       "repo": "cocogitto/cocogitto"
     },
     {
@@ -5160,8 +5019,9 @@
     },
     "nosarthur/gita": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "humbug/php-scoper": {
       "status": "held",
@@ -5212,13 +5072,15 @@
     },
     "patrickf1/fzf.fish": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "danielswolf/rhubarb-lip-sync": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rust-shell-script/rust_cmd_lib": {
       "status": "held",
@@ -5304,12 +5166,14 @@
     },
     "agauniyal/rang": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "naggie/dstask": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "ms-jpq/sad": {
@@ -6372,8 +6236,9 @@
     },
     "tbillington/kondo": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ferrislucas/promptr": {
       "status": "accepted",
@@ -8584,13 +8449,42 @@
     },
     "jenkinsci/jenkinsfile-runner": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ionic-team/ionic-cli": {
-      "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ionic-team-ionic-cli",
+      "acceptedAt": "2026-09-22T01:43:40.522Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ionic-team/ionic-cli/blob/54a76b5acccce994946c1cba6603d70918f1513d/packages/%40ionic/cli/package.json",
+          "snippet": "{\"bin\":{\"ionic\":\"./bin/ionic\"}}",
+          "target": "packages/@ionic/cli/bin/ionic"
+        },
+        "installation": {
+          "url": "https://github.com/ionic-team/ionic-cli/blob/54a76b5acccce994946c1cba6603d70918f1513d/README.md",
+          "snippet": "npm install -g @ionic/cli"
+        },
+        "usage": {
+          "url": "https://github.com/ionic-team/ionic-cli/blob/54a76b5acccce994946c1cba6603d70918f1513d/README.md",
+          "snippet": "ionic cordova --help"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ionic-team/ionic-cli",
+          "snippet": "The Ionic command-line interface"
+        },
+        "adoption": {
+          "stars": 2002,
+          "githubSource": "https://github.com/ionic-team/ionic-cli",
+          "homebrew": null
+        },
+        "commit": "54a76b5acccce994946c1cba6603d70918f1513d"
+      }
     },
     "nadermx/backgroundremover": {
       "status": "held",
@@ -8826,8 +8720,9 @@
     },
     "revanced/revanced-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "etetoolkit/ete": {
       "status": "accepted",
@@ -9014,7 +8909,8 @@
     },
     "ipinfo/cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "barnybug/cli53": {
@@ -10035,8 +9931,9 @@
     },
     "firecracker-microvm/firectl": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "remorses/tuitube": {
       "status": "held",
@@ -14757,9 +14654,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "zackees/transcribe-anything": {
-      "status": "held",
-      "checkedAt": "2026-09-15T09:44:18.633Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "zackees-transcribe-anything",
+      "acceptedAt": "2026-09-22T01:43:40.522Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/zackees/transcribe-anything/blob/4bcdcfb8c15ec3f22dea2b6b3fd311fded47abdc/pyproject.toml",
+          "snippet": "transcribe-anything = \"transcribe_anything._cmd:main\"",
+          "target": "src/transcribe_anything/_cmd.py"
+        },
+        "installation": {
+          "url": "https://github.com/zackees/transcribe-anything/blob/4bcdcfb8c15ec3f22dea2b6b3fd311fded47abdc/README.md",
+          "snippet": "Easiest whisper implementation to install and use. Just install with `pip install transcribe-anything`. All whisper backends are executed in an isolated environment. GPU acceleration is _automatic_, using the _blazingly_ fast [insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) as the backend for `--device insane`. CUDA user"
+        },
+        "usage": {
+          "url": "https://github.com/zackees/transcribe-anything/blob/4bcdcfb8c15ec3f22dea2b6b3fd311fded47abdc/README.md",
+          "snippet": "transcribe-anything video.mp4 --device xpu"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/zackees/transcribe-anything",
+          "snippet": "Multi-backend whisper app. Blazing fast. Mac-arm optimized. Easy install. Input a local file or url and this service will transcribe it using Whisper AI. Completely private and Free 🤯🤯🤯"
+        },
+        "adoption": {
+          "stars": 1404,
+          "githubSource": "https://github.com/zackees/transcribe-anything",
+          "homebrew": null
+        },
+        "commit": "4bcdcfb8c15ec3f22dea2b6b3fd311fded47abdc"
+      }
     },
     "jsrepojs/jsrepo": {
       "status": "held",
@@ -14814,8 +14739,9 @@
     },
     "dvcoolarun/web2pdf": {
       "status": "held",
-      "checkedAt": "2026-09-15T09:44:18.633Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "guyfedwards/nom": {
       "status": "held",
@@ -14908,13 +14834,15 @@
     },
     "quiibz/sherif": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bergside/typeui": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "lune-org/lune": {
       "status": "held",
@@ -14960,8 +14888,9 @@
     },
     "mohsen1/yek": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "2arons/duel-agents": {
       "status": "held",
@@ -14994,7 +14923,8 @@
     },
     "iosifache/annas-mcp": {
       "status": "held",
-      "checkedAt": "2026-09-15T10:44:19.634Z",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "docbook/xslt10-stylesheets": {
@@ -15053,8 +14983,9 @@
     },
     "retlehs/quien": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "docker/compose": {
       "status": "held",
@@ -15296,7 +15227,8 @@
     },
     "0xranx/opencontext": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "iterate-ch/cyberduck": {
@@ -15322,7 +15254,8 @@
     },
     "timmoth/rackpeek": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "bootandy/dust": {
@@ -15424,8 +15357,9 @@
     },
     "achno/gowall": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "win-acme/win-acme": {
       "status": "held",
@@ -15434,8 +15368,9 @@
     },
     "retypeapp/retype": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ahmadawais/ramadan-cli": {
       "status": "held",
@@ -15474,13 +15409,42 @@
     },
     "langwatch/better-agents": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "inlife/nexrender": {
-      "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "inlife-nexrender",
+      "acceptedAt": "2026-09-22T01:43:40.522Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/inlife/nexrender/blob/f17a178f61391f744fdd78b25f7ed6e32c196110/packages/nexrender-cli/package.json",
+          "snippet": "{\"bin\":{\"nexrender-cli\":\"src/bin.js\"}}",
+          "target": "packages/nexrender-cli/src/bin.js"
+        },
+        "installation": {
+          "url": "https://github.com/inlife/nexrender/blob/f17a178f61391f744fdd78b25f7ed6e32c196110/README.md",
+          "snippet": "npm i -g @nexrender/cli @nexrender/action-copy @nexrender/action-encode ..."
+        },
+        "usage": {
+          "url": "https://github.com/inlife/nexrender/blob/f17a178f61391f744fdd78b25f7ed6e32c196110/README.md",
+          "snippet": "nexrender-cli --file myjob.json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/inlife/nexrender",
+          "snippet": "📹  Data-driven render automation for After Effects"
+        },
+        "adoption": {
+          "stars": 1854,
+          "githubSource": "https://github.com/inlife/nexrender",
+          "homebrew": null
+        },
+        "commit": "f17a178f61391f744fdd78b25f7ed6e32c196110"
+      }
     },
     "rgcr/m-cli": {
       "status": "held",
@@ -15495,13 +15459,15 @@
     },
     "rohitg00/skillkit": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "expo/expo-github-action": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "shotgun-sh/shotgun": {
       "status": "held",
@@ -15511,8 +15477,9 @@
     },
     "instill-ai/instill-core": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "alajmo/sake": {
       "status": "held",
@@ -15522,8 +15489,9 @@
     },
     "lorryjovens-hub/claude-code-rust": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "siriusmart/youtube-tui": {
       "status": "held",
@@ -15572,8 +15540,9 @@
     },
     "stefanmaric/g": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "daniel3303/claudecodestatusline": {
       "status": "held",
@@ -15583,8 +15552,9 @@
     },
     "owloops/updo": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rsalmei/alive-progress": {
       "status": "held",
@@ -15620,8 +15590,9 @@
     },
     "shinshin86/oh-my-logo": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dankamongmen/notcurses": {
       "status": "held",
@@ -15675,7 +15646,8 @@
     },
     "sclevine/yj": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "krasjet/pdf.tocgen": {
@@ -15691,8 +15663,9 @@
     },
     "emersion/slurp": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "pythops/tenere": {
       "status": "held",
@@ -15708,13 +15681,15 @@
     },
     "gildas-lormeau/singlefilez": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "yigitkonur/cli-continues": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "hofstadter-io/hof": {
       "status": "held",
@@ -15724,8 +15699,9 @@
     },
     "greymd/tmux-xpanes": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "php-tui/php-tui": {
       "status": "held",
@@ -15740,9 +15716,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "randy3k/radian": {
-      "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "randy3k-radian",
+      "acceptedAt": "2026-09-22T01:43:40.522Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/randy3k/radian/blob/a7cb91a99b2361404f3baab031cc18b935353660/pyproject.toml",
+          "snippet": "radian = \"radian:main\"",
+          "target": "radian/__init__.py"
+        },
+        "installation": {
+          "url": "https://github.com/randy3k/radian/blob/a7cb91a99b2361404f3baab031cc18b935353660/README.md",
+          "snippet": "pipx install radian"
+        },
+        "usage": {
+          "url": "https://github.com/randy3k/radian/blob/a7cb91a99b2361404f3baab031cc18b935353660/README.md",
+          "snippet": "radian --r-binary=/path/to/R"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/randy3k/radian",
+          "snippet": "A 21 century R console"
+        },
+        "adoption": {
+          "stars": 2289,
+          "githubSource": "https://github.com/randy3k/radian",
+          "homebrew": null
+        },
+        "commit": "a7cb91a99b2361404f3baab031cc18b935353660"
+      }
     },
     "kaifcodec/ytconverter": {
       "status": "accepted",
@@ -15779,8 +15783,9 @@
     },
     "bubblelabai/bubblelab": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "nakabonne/pbgopy": {
       "status": "held",
@@ -15795,8 +15800,9 @@
     },
     "securisec/chepy": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sorin-ionescu/prezto": {
       "status": "held",
@@ -24520,7 +24526,13 @@
       "checkedAt": "2026-09-22T00:43:33.028Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ronin-rb/ronin": {
+      "status": "held",
+      "checkedAt": "2026-09-22T01:43:40.522Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-22T00:43:33.028Z"
+  "lastRunAt": "2026-09-22T01:43:40.522Z"
 }

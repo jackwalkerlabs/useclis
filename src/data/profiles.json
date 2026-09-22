@@ -4925,5 +4925,57 @@
     "createdAt": "2011-07-08T07:26:31Z",
     "checkedAt": "2026-09-22T00:44:24.316Z",
     "source": "https://github.com/rtfpessoa"
+  },
+  "zackees": {
+    "login": "zackees",
+    "name": "Zachary Vorhies",
+    "type": "User",
+    "bio": "High-velocity engineer (51k commits in 2023). Most of my stuff is open source and serves as building blocks for deploying custom apps to clients.",
+    "location": "San Francisco",
+    "website": null,
+    "followers": 322,
+    "publicRepos": 222,
+    "createdAt": "2014-03-05T01:19:54Z",
+    "checkedAt": "2026-09-22T01:44:37.056Z",
+    "source": "https://github.com/zackees"
+  },
+  "ionic-team": {
+    "login": "ionic-team",
+    "name": "Ionic",
+    "type": "Organization",
+    "bio": "Powerful tools and services for building cross-platform mobile apps",
+    "location": "Cyberspace",
+    "website": "https://ionic.io",
+    "followers": 2511,
+    "publicRepos": 380,
+    "createdAt": "2013-01-02T19:02:52Z",
+    "checkedAt": "2026-09-22T01:44:37.311Z",
+    "source": "https://github.com/ionic-team"
+  },
+  "inlife": {
+    "login": "inlife",
+    "name": "Vladyslav Hrytsenko",
+    "type": "User",
+    "bio": "i like creating apps · small games · writing in c and nodejs\r\n",
+    "location": "Kyiv, Ukraine",
+    "website": "https://inlife.github.io",
+    "followers": 313,
+    "publicRepos": 45,
+    "createdAt": "2012-08-20T08:38:24Z",
+    "checkedAt": "2026-09-22T01:44:37.651Z",
+    "source": "https://github.com/inlife"
+  },
+  "randy3k": {
+    "login": "randy3k",
+    "name": "Randy Lai",
+    "type": "User",
+    "bio": null,
+    "location": "California",
+    "website": "https://randylai.info/",
+    "followers": 566,
+    "publicRepos": 167,
+    "createdAt": "2012-04-29T22:57:16Z",
+    "checkedAt": "2026-09-22T01:44:37.919Z",
+    "source": "https://github.com/randy3k"
   }
 }

@@ -8684,6 +8684,82 @@ window.USECLIS_DATA = {
       "stars": 605,
       "license": "MIT",
       "checkedAt": "2026-09-22T00:44:20.456Z"
+    },
+    {
+      "slug": "zackees-transcribe-anything",
+      "name": "transcribe-anything",
+      "repo": "zackees/transcribe-anything",
+      "category": "Files & documents",
+      "command": "transcribe-anything",
+      "useCase": "Multi-backend whisper app. Blazing fast. Mac-arm optimized. Easy install. Input a local file or url and this service will transcribe it using Whisper AI. Completely private and Free 🤯🤯🤯",
+      "description": "Multi-backend whisper app. Blazing fast. Mac-arm optimized. Easy install. Input a local file or url and this service will transcribe it using Whisper AI. Completely private and Free 🤯🤯🤯",
+      "agentUse": "Invoke transcribe-anything from a shell for the documented use case: Multi-backend whisper app. Blazing fast. Mac-arm optimized. Easy install. Input a local file or url and this service will transcribe it using Whisper AI. Completely private and Free 🤯🤯🤯",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "transcribe-anything video.mp4 --device xpu",
+      "website": "https://github.com/zackees/transcribe-anything",
+      "docs": "https://github.com/zackees/transcribe-anything/blob/4bcdcfb8c15ec3f22dea2b6b3fd311fded47abdc/README.md",
+      "stars": 1404,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T01:44:33.165Z"
+    },
+    {
+      "slug": "ionic-team-ionic-cli",
+      "name": "ionic-cli",
+      "repo": "ionic-team/ionic-cli",
+      "category": "Terminal utilities",
+      "command": "ionic",
+      "useCase": "The Ionic command-line interface",
+      "description": "The Ionic command-line interface",
+      "agentUse": "Invoke ionic from a shell for the documented use case: The Ionic command-line interface",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ionic cordova --help",
+      "website": "https://github.com/ionic-team/ionic-cli",
+      "docs": "https://github.com/ionic-team/ionic-cli/blob/54a76b5acccce994946c1cba6603d70918f1513d/README.md",
+      "stars": 2002,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T01:44:33.783Z"
+    },
+    {
+      "slug": "inlife-nexrender",
+      "name": "nexrender",
+      "repo": "inlife/nexrender",
+      "category": "Data & APIs",
+      "command": "nexrender-cli",
+      "useCase": "📹  Data-driven render automation for After Effects",
+      "description": "📹  Data-driven render automation for After Effects",
+      "agentUse": "Invoke nexrender-cli from a shell for the documented use case: 📹  Data-driven render automation for After Effects",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "nexrender-cli --file myjob.json",
+      "website": "https://github.com/inlife/nexrender",
+      "docs": "https://github.com/inlife/nexrender/blob/f17a178f61391f744fdd78b25f7ed6e32c196110/README.md",
+      "stars": 1854,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T01:44:34.367Z"
+    },
+    {
+      "slug": "randy3k-radian",
+      "name": "radian",
+      "repo": "randy3k/radian",
+      "category": "Terminal utilities",
+      "command": "radian",
+      "useCase": "A 21 century R console",
+      "description": "A 21 century R console",
+      "agentUse": "Invoke radian from a shell for the documented use case: A 21 century R console",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "radian --r-binary=/path/to/R",
+      "website": "https://github.com/randy3k/radian",
+      "docs": "https://github.com/randy3k/radian/blob/a7cb91a99b2361404f3baab031cc18b935353660/README.md",
+      "stars": 2289,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T01:44:34.982Z"
     }
   ],
   "categories": [
