@@ -4,195 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "eza-community/eza"
-    },
-    {
-      "repo": "amantus-ai/vibetunnel"
-    },
-    {
-      "repo": "hzeller/timg"
-    },
-    {
-      "repo": "gitui-org/gitui"
-    },
-    {
-      "repo": "PabloLec/RecoverPy"
-    },
-    {
-      "repo": "eliukblau/pixterm"
-    },
-    {
-      "repo": "schachmat/wego"
-    },
-    {
-      "repo": "artginzburg/sudo-touchid"
-    },
-    {
-      "repo": "trasta298/keifu"
-    },
-    {
-      "repo": "avtzis/awesome-linux-ricing"
-    },
-    {
-      "repo": "veeso/tui-realm"
-    },
-    {
-      "repo": "athityakumar/colorls"
-    },
-    {
-      "repo": "zquestz/s"
-    },
-    {
-      "repo": "lasantosr/intelli-shell"
-    },
-    {
-      "repo": "fcambus/ansiweather"
-    },
-    {
-      "repo": "sergi0g/cup"
-    },
-    {
-      "repo": "wfxr/code-minimap"
-    },
-    {
-      "repo": "dungngminh/simutil"
-    },
-    {
-      "repo": "mrusme/neonmodem"
-    },
-    {
-      "repo": "srcery-colors/srcery-vim"
-    },
-    {
-      "repo": "sinclairzx81/zero"
-    },
-    {
-      "repo": "cdleon/awesome-terminals"
-    },
-    {
-      "repo": "siduck/st"
-    },
-    {
-      "repo": "rse/stmux"
-    },
-    {
-      "repo": "Fahrj/reverse-ssh"
-    },
-    {
-      "repo": "jeffreytse/zsh-vi-mode"
-    },
-    {
-      "repo": "cyrus-and/gdb-dashboard"
-    },
-    {
-      "repo": "ThatOneCalculator/NerdFetch"
-    },
-    {
-      "repo": "paulilaaso/lue"
-    },
-    {
-      "repo": "archfz/cypress-terminal-report"
-    },
-    {
-      "repo": "coderofsalvation/kanban.bash"
-    },
-    {
-      "repo": "josueBarretogit/manga-tui"
-    },
-    {
-      "repo": "pterm/pterm"
-    },
-    {
-      "repo": "Textualize/textual"
-    },
-    {
-      "repo": "maaslalani/slides"
-    },
-    {
-      "repo": "open-gitagent/clawless"
-    },
-    {
-      "repo": "coder/boo"
-    },
-    {
-      "repo": "siddhantac/puffin"
-    },
-    {
-      "repo": "mgunyho/tere"
-    },
-    {
-      "repo": "Amjad50/plastic"
-    },
-    {
-      "repo": "ahmadawais/terminui"
-    },
-    {
-      "repo": "Cretezy/lazyjj"
-    },
-    {
-      "repo": "1j01/textual-paint"
-    },
-    {
-      "repo": "silva96/log_bench"
-    },
-    {
-      "repo": "noahgorstein/jqp"
-    },
-    {
-      "repo": "learnbyexample/TUI-apps"
-    },
-    {
-      "repo": "ajaxray/geek-life"
-    },
-    {
-      "repo": "nakabonne/ali"
-    },
-    {
-      "repo": "rsadsb/adsb_deku"
-    },
-    {
-      "repo": "mistakenelf/fm"
-    },
-    {
-      "repo": "miantiao-me/ssh-ai-chat"
-    },
-    {
-      "repo": "redox-os/termion"
-    },
-    {
-      "repo": "ShaftUI/Shaft"
-    },
-    {
-      "repo": "muesli/termenv"
-    },
-    {
-      "repo": "aksakalli/gtop"
-    },
-    {
-      "repo": "ggerganov/imtui"
-    },
-    {
-      "repo": "a-n-t-h-o-n-y/TermOx"
-    },
-    {
-      "repo": "TomasTomecek/sen"
-    },
-    {
-      "repo": "EnhancedJax/Bagels"
-    },
-    {
-      "repo": "samtay/so"
-    },
-    {
-      "repo": "kyoheiu/felix"
-    },
-    {
-      "repo": "ajeetdsouza/clidle"
-    },
-    {
-      "repo": "paololazzari/play"
-    },
-    {
       "repo": "bloznelis/typioca"
     },
     {
@@ -4192,8 +4003,9 @@
     },
     "eza-community/eza": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "wfxr/csview": {
       "status": "held",
@@ -4308,8 +4120,9 @@
     },
     "cdleon/awesome-terminals": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "anthonyraymond/joal": {
       "status": "held",
@@ -5960,7 +5773,8 @@
     },
     "ajaxray/geek-life": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "tio/tio": {
@@ -6041,8 +5855,9 @@
     },
     "aksakalli/gtop": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "klaudiosinani/qoa": {
       "status": "held",
@@ -6176,8 +5991,9 @@
     },
     "ajeetdsouza/clidle": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "macchina-cli/macchina": {
       "status": "held",
@@ -20995,8 +20811,9 @@
     },
     "hzeller/timg": {
       "status": "held",
-      "checkedAt": "2026-09-17T01:44:09.621Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "myriad-dreamin/tinymist": {
       "status": "held",
@@ -25155,7 +24972,319 @@
       "checkedAt": "2026-09-22T05:43:38.940Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "amantus-ai/vibetunnel": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "amantus-ai-vibetunnel",
+      "acceptedAt": "2026-09-22T06:43:34.384Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/amantus-ai/vibetunnel/blob/f78324f5a6f5617711581cf5b119651094b2d9bc/web/package.json",
+          "snippet": "{\"bin\":{\"vibetunnel\":\"./bin/vibetunnel\"}}",
+          "target": "web/bin/vibetunnel"
+        },
+        "installation": {
+          "url": "https://github.com/amantus-ai/vibetunnel/blob/f78324f5a6f5617711581cf5b119651094b2d9bc/README.md",
+          "snippet": "npm install -g vibetunnel"
+        },
+        "usage": {
+          "url": "https://github.com/amantus-ai/vibetunnel/blob/f78324f5a6f5617711581cf5b119651094b2d9bc/README.md",
+          "snippet": "vibetunnel --bind 0.0.0.0"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/amantus-ai/vibetunnel",
+          "snippet": "Turn any browser into your terminal & command your agents on the go."
+        },
+        "adoption": {
+          "stars": 4662,
+          "githubSource": "https://github.com/amantus-ai/vibetunnel",
+          "homebrew": null
+        },
+        "commit": "f78324f5a6f5617711581cf5b119651094b2d9bc"
+      }
+    },
+    "schachmat/wego": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "avtzis/awesome-linux-ricing": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zquestz/s": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "srcery-colors/srcery-vim": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sinclairzx81/zero": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fahrj/reverse-ssh": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jeffreytse/zsh-vi-mode": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cyrus-and/gdb-dashboard": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "maaslalani/slides": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "open-gitagent/clawless": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "siddhantac/puffin": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mgunyho/tere": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "mgunyho-tere",
+      "acceptedAt": "2026-09-22T06:43:34.384Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mgunyho/tere/blob/3c63ed36d1bc6f1fe74c7fb2122642bbb5107b2d/Cargo.toml",
+          "snippet": "package.name=\"tere\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/mgunyho/tere/blob/3c63ed36d1bc6f1fe74c7fb2122642bbb5107b2d/README.md",
+          "snippet": "- Install `tere` with [Cargo](https://www.rust-lang.org/tools/install) by running `cargo install tere`."
+        },
+        "usage": {
+          "url": "https://github.com/mgunyho/tere/blob/3c63ed36d1bc6f1fe74c7fb2122642bbb5107b2d/README.md",
+          "snippet": "tere --filter-search"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mgunyho/tere",
+          "snippet": "Terminal file explorer"
+        },
+        "adoption": {
+          "stars": 1801,
+          "githubSource": "https://github.com/mgunyho/tere",
+          "homebrew": null
+        },
+        "commit": "3c63ed36d1bc6f1fe74c7fb2122642bbb5107b2d"
+      }
+    },
+    "amjad50/plastic": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ahmadawais/terminui": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cretezy/lazyjj": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "cretezy-lazyjj",
+      "acceptedAt": "2026-09-22T06:43:34.384Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Cretezy/lazyjj/blob/1be13be98e9dd62a27fe3c93037de223b3615d32/Cargo.toml",
+          "snippet": "package.name=\"lazyjj\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/Cretezy/lazyjj/blob/1be13be98e9dd62a27fe3c93037de223b3615d32/README.md",
+          "snippet": "- With `cargo install`: `cargo install lazyjj --locked` (may take a few moments to compile)"
+        },
+        "usage": {
+          "url": "https://github.com/Cretezy/lazyjj/blob/1be13be98e9dd62a27fe3c93037de223b3615d32/README.md",
+          "snippet": "lazyjj -r '::@'"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Cretezy/lazyjj",
+          "snippet": "TUI for Jujutsu/jj"
+        },
+        "adoption": {
+          "stars": 1214,
+          "githubSource": "https://github.com/Cretezy/lazyjj",
+          "homebrew": null
+        },
+        "commit": "1be13be98e9dd62a27fe3c93037de223b3615d32"
+      }
+    },
+    "1j01/textual-paint": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "silva96/log_bench": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "noahgorstein/jqp": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "learnbyexample/tui-apps": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nakabonne/ali": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rsadsb/adsb_deku": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mistakenelf/fm": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "miantiao-me/ssh-ai-chat": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "redox-os/termion": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "shaftui/shaft": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "muesli/termenv": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ggerganov/imtui": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "a-n-t-h-o-n-y/termox": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tomastomecek/sen": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "enhancedjax/bagels": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "samtay/so": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "samtay-so",
+      "acceptedAt": "2026-09-22T06:43:34.384Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/samtay/so/blob/4969956b4aab1bb3aa8705627f71a1ad269ffe31/Cargo.toml",
+          "snippet": "package.name=\"so\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/samtay/so/blob/4969956b4aab1bb3aa8705627f71a1ad269ffe31/README.md",
+          "snippet": "cargo install so"
+        },
+        "usage": {
+          "url": "https://github.com/samtay/so/blob/4969956b4aab1bb3aa8705627f71a1ad269ffe31/README.md",
+          "snippet": "so how do i reverse a list in python"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/samtay/so",
+          "snippet": "A terminal interface for Stack Overflow"
+        },
+        "adoption": {
+          "stars": 1424,
+          "githubSource": "https://github.com/samtay/so",
+          "homebrew": null
+        },
+        "commit": "4969956b4aab1bb3aa8705627f71a1ad269ffe31"
+      }
+    },
+    "kyoheiu/felix": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "paololazzari/play": {
+      "status": "held",
+      "checkedAt": "2026-09-22T06:43:34.384Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-22T05:43:38.940Z"
+  "lastRunAt": "2026-09-22T06:43:34.384Z"
 }

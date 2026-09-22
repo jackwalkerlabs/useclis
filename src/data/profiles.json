@@ -5250,5 +5250,57 @@
     "createdAt": "2011-05-18T11:43:31Z",
     "checkedAt": "2026-09-22T05:44:27.792Z",
     "source": "https://github.com/imsnif"
+  },
+  "amantus-ai": {
+    "login": "amantus-ai",
+    "name": "Amantus Machina",
+    "type": "Organization",
+    "bio": "The loving machine",
+    "location": "Austria",
+    "website": "https://amantus.ai",
+    "followers": 132,
+    "publicRepos": 4,
+    "createdAt": "2025-04-17T18:22:08Z",
+    "checkedAt": "2026-09-22T06:44:23.356Z",
+    "source": "https://github.com/amantus-ai"
+  },
+  "mgunyho": {
+    "login": "mgunyho",
+    "name": "mgunyho",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 41,
+    "publicRepos": 41,
+    "createdAt": "2016-06-23T23:06:08Z",
+    "checkedAt": "2026-09-22T06:44:23.570Z",
+    "source": "https://github.com/mgunyho"
+  },
+  "cretezy": {
+    "login": "Cretezy",
+    "name": "Cretezy",
+    "type": "User",
+    "bio": "Hi, I'm Cretezy, a software developer. I write open-source software, articles, and make YouTube videos.",
+    "location": "Canada",
+    "website": "https://cretezy.com",
+    "followers": 132,
+    "publicRepos": 66,
+    "createdAt": "2012-10-29T03:25:42Z",
+    "checkedAt": "2026-09-22T06:44:23.756Z",
+    "source": "https://github.com/Cretezy"
+  },
+  "samtay": {
+    "login": "samtay",
+    "name": "Sam Tay",
+    "type": "User",
+    "bio": null,
+    "location": "Seattle, WA",
+    "website": "samtay.github.io",
+    "followers": 129,
+    "publicRepos": 71,
+    "createdAt": "2014-04-10T03:54:21Z",
+    "checkedAt": "2026-09-22T06:44:24.141Z",
+    "source": "https://github.com/samtay"
   }
 }

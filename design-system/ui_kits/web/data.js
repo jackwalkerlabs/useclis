@@ -9216,6 +9216,82 @@ window.USECLIS_DATA = {
       "stars": 3131,
       "license": "MIT",
       "checkedAt": "2026-09-22T05:44:25.752Z"
+    },
+    {
+      "slug": "amantus-ai-vibetunnel",
+      "name": "vibetunnel",
+      "repo": "amantus-ai/vibetunnel",
+      "category": "Terminal utilities",
+      "command": "vibetunnel",
+      "useCase": "Turn any browser into your terminal & command your agents on the go.",
+      "description": "Turn any browser into your terminal & command your agents on the go.",
+      "agentUse": "Invoke vibetunnel from a shell for the documented use case: Turn any browser into your terminal & command your agents on the go.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "vibetunnel --bind 0.0.0.0",
+      "website": "https://github.com/amantus-ai/vibetunnel",
+      "docs": "https://github.com/amantus-ai/vibetunnel/blob/f78324f5a6f5617711581cf5b119651094b2d9bc/README.md",
+      "stars": 4662,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T06:44:19.751Z"
+    },
+    {
+      "slug": "mgunyho-tere",
+      "name": "tere",
+      "repo": "mgunyho/tere",
+      "category": "Files & documents",
+      "command": "tere",
+      "useCase": "Terminal file explorer",
+      "description": "Terminal file explorer",
+      "agentUse": "Invoke tere from a shell for the documented use case: Terminal file explorer",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "tere --filter-search",
+      "website": "https://github.com/mgunyho/tere",
+      "docs": "https://github.com/mgunyho/tere/blob/3c63ed36d1bc6f1fe74c7fb2122642bbb5107b2d/README.md",
+      "stars": 1801,
+      "license": "EUPL-1.2",
+      "checkedAt": "2026-09-22T06:44:20.493Z"
+    },
+    {
+      "slug": "cretezy-lazyjj",
+      "name": "lazyjj",
+      "repo": "Cretezy/lazyjj",
+      "category": "Terminal utilities",
+      "command": "lazyjj",
+      "useCase": "TUI for Jujutsu/jj",
+      "description": "TUI for Jujutsu/jj",
+      "agentUse": "Invoke lazyjj from a shell for the documented use case: TUI for Jujutsu/jj",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lazyjj -r '::@'",
+      "website": "https://github.com/Cretezy/lazyjj",
+      "docs": "https://github.com/Cretezy/lazyjj/blob/1be13be98e9dd62a27fe3c93037de223b3615d32/README.md",
+      "stars": 1214,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-22T06:44:20.890Z"
+    },
+    {
+      "slug": "samtay-so",
+      "name": "so",
+      "repo": "samtay/so",
+      "category": "Terminal utilities",
+      "command": "so",
+      "useCase": "A terminal interface for Stack Overflow",
+      "description": "A terminal interface for Stack Overflow",
+      "agentUse": "Invoke so from a shell for the documented use case: A terminal interface for Stack Overflow",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "so how do i reverse a list in python",
+      "website": "https://github.com/samtay/so",
+      "docs": "https://github.com/samtay/so/blob/4969956b4aab1bb3aa8705627f71a1ad269ffe31/README.md",
+      "stars": 1424,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T06:44:21.461Z"
     }
   ],
   "categories": [
