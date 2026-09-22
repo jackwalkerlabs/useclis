@@ -6988,5 +6988,35 @@
     "repositoryId": 1351859098,
     "attemptedAt": "2026-09-22T08:43:52.291Z",
     "status": "ok"
+  },
+  "michael-a-kuykendall-shimmy": {
+    "defaultBranch": "main",
+    "createdAt": "2025-08-28T22:55:46Z",
+    "pushedAt": "2026-08-30T22:45:24Z",
+    "lastCommitAt": "2026-08-30T22:41:11Z",
+    "stars": 5905,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-22T09:44:05.148Z",
+    "source": "https://github.com/Michael-A-Kuykendall/shimmy",
+    "canonicalSource": "https://github.com/Michael-A-Kuykendall/shimmy",
+    "repositoryId": 1046584285,
+    "attemptedAt": "2026-09-22T09:44:04.699Z",
+    "status": "ok"
+  },
+  "googlechromelabs-bubblewrap": {
+    "defaultBranch": "main",
+    "createdAt": "2019-11-08T10:59:37Z",
+    "pushedAt": "2026-07-31T07:16:56Z",
+    "lastCommitAt": "2026-07-31T07:16:52Z",
+    "stars": 3106,
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "checkedAt": "2026-09-22T09:44:05.734Z",
+    "source": "https://github.com/GoogleChromeLabs/bubblewrap",
+    "canonicalSource": "https://github.com/GoogleChromeLabs/bubblewrap",
+    "repositoryId": 220448610,
+    "attemptedAt": "2026-09-22T09:44:05.315Z",
+    "status": "ok"
   }
 }

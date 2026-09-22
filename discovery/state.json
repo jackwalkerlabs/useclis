@@ -4,153 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "Dong90/oh-my-taiyiforge"
-    },
-    {
-      "repo": "SpartanJ/ecode"
-    },
-    {
-      "repo": "decebals/claude-code-java"
-    },
-    {
-      "repo": "Microck/opencode-studio"
-    },
-    {
-      "repo": "braedonsaunders/codeflow"
-    },
-    {
-      "repo": "RoggeOhta/awesome-codex-cli"
-    },
-    {
-      "repo": "yaolifeng0629/Awesome-independent-tools"
-    },
-    {
-      "repo": "lindell/multi-gitter"
-    },
-    {
-      "repo": "yizhiyanhua-ai/fireworks-tech-graph"
-    },
-    {
-      "repo": "kubewall/kubewall"
-    },
-    {
-      "repo": "ducaale/xh"
-    },
-    {
-      "repo": "tutti-os/tutti"
-    },
-    {
-      "repo": "iAmCorey/kooky"
-    },
-    {
-      "repo": "utensils/mcp-nixos"
-    },
-    {
-      "repo": "jhlee0409/claude-code-history-viewer"
-    },
-    {
-      "repo": "soumatheusgomes/vibe-coding-toolkit"
-    },
-    {
-      "repo": "sangrokjung/claude-forge"
-    },
-    {
-      "repo": "bybit-exchange/svg-diagram"
-    },
-    {
-      "repo": "elirantutia/vibeyard"
-    },
-    {
-      "repo": "ykdojo/claude-code-tips"
-    },
-    {
-      "repo": "wxtsky/CodeIsland"
-    },
-    {
-      "repo": "Dicklesworthstone/claude_code_agent_farm"
-    },
-    {
-      "repo": "fufankeji/deepseek-harness-studio"
-    },
-    {
-      "repo": "rohitg00/pro-workflow"
-    },
-    {
-      "repo": "Railly/agentfiles"
-    },
-    {
-      "repo": "foryourhealth111-pixel/Vibe-Skills"
-    },
-    {
-      "repo": "stevesolun/ctx"
-    },
-    {
-      "repo": "Michael-A-Kuykendall/shimmy"
-    },
-    {
-      "repo": "alirezarezvani/claude-skills"
-    },
-    {
-      "repo": "atomantic/dotfiles"
-    },
-    {
-      "repo": "ligurio/awesome-ci"
-    },
-    {
-      "repo": "Galaxy-Dawn/claude-scholar"
-    },
-    {
-      "repo": "dongshuyan/compass-skills"
-    },
-    {
-      "repo": "doccker/cc-use-exp"
-    },
-    {
-      "repo": "graphprotocol/graph-node"
-    },
-    {
-      "repo": "hey-api/hey-api"
-    },
-    {
-      "repo": "garden-io/garden"
-    },
-    {
-      "repo": "clawwork-ai/ClawWork"
-    },
-    {
-      "repo": "dohooo/helmor"
-    },
-    {
-      "repo": "promptise-com/Foundry"
-    },
-    {
-      "repo": "rehmatworks/gplaydl"
-    },
-    {
-      "repo": "francescofugazzi/3dgsconverter"
-    },
-    {
-      "repo": "ben-z/findphone"
-    },
-    {
-      "repo": "Martchus/tageditor"
-    },
-    {
-      "repo": "broadinstitute/picard"
-    },
-    {
-      "repo": "elliotblackburn/mdpdf"
-    },
-    {
-      "repo": "GoogleChromeLabs/bubblewrap"
-    },
-    {
-      "repo": "sisong/HDiffPatch"
-    },
-    {
-      "repo": "google/yamlfmt"
-    },
-    {
       "repo": "bfgroup/Lyra"
     },
     {
@@ -6467,42 +6320,77 @@
     },
     "francescofugazzi/3dgsconverter": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ben-z/findphone": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "martchus/tageditor": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "broadinstitute/picard": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "elliotblackburn/mdpdf": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "googlechromelabs/bubblewrap": {
-      "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "googlechromelabs-bubblewrap",
+      "acceptedAt": "2026-09-22T09:43:39.990Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/GoogleChromeLabs/bubblewrap/blob/a5ffe214c3b03d2d19fbce6d40097a78aa043f66/packages/cli/package.json",
+          "snippet": "{\"bin\":{\"bubblewrap\":\"bin/bubblewrap.js\"}}",
+          "target": "packages/cli/bin/bubblewrap.js"
+        },
+        "installation": {
+          "url": "https://github.com/GoogleChromeLabs/bubblewrap/blob/a5ffe214c3b03d2d19fbce6d40097a78aa043f66/packages/cli/README.md",
+          "snippet": "npm i -g @bubblewrap/cli"
+        },
+        "usage": {
+          "url": "https://github.com/GoogleChromeLabs/bubblewrap/blob/a5ffe214c3b03d2d19fbce6d40097a78aa043f66/packages/cli/README.md",
+          "snippet": "bubblewrap init --manifest https://my-twa.com/manifest.json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/GoogleChromeLabs/bubblewrap",
+          "snippet": "Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity."
+        },
+        "adoption": {
+          "stars": 3106,
+          "githubSource": "https://github.com/GoogleChromeLabs/bubblewrap",
+          "homebrew": null
+        },
+        "commit": "a5ffe214c3b03d2d19fbce6d40097a78aa043f66"
+      }
     },
     "sisong/hdiffpatch": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "google/yamlfmt": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "googlecloudplatform/gsutil": {
@@ -25568,7 +25456,226 @@
         },
         "commit": "f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923"
       }
+    },
+    "dong90/oh-my-taiyiforge": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "decebals/claude-code-java": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "microck/opencode-studio": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "braedonsaunders/codeflow": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "yaolifeng0629/awesome-independent-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "yizhiyanhua-ai/fireworks-tech-graph": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "kubewall/kubewall": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "tutti-os/tutti": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "utensils/mcp-nixos": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "jhlee0409/claude-code-history-viewer": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "soumatheusgomes/vibe-coding-toolkit": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "sangrokjung/claude-forge": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bybit-exchange/svg-diagram": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "wxtsky/codeisland": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "dicklesworthstone/claude_code_agent_farm": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "fufankeji/deepseek-harness-studio": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "rohitg00/pro-workflow": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "railly/agentfiles": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "foryourhealth111-pixel/vibe-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "stevesolun/ctx": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "michael-a-kuykendall/shimmy": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "michael-a-kuykendall-shimmy",
+      "acceptedAt": "2026-09-22T09:43:39.990Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Michael-A-Kuykendall/shimmy/blob/4895730a700cb164ac2855d2ad35cb3ce59e557e/Cargo.toml",
+          "snippet": "package.name=\"shimmy\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/Michael-A-Kuykendall/shimmy/blob/4895730a700cb164ac2855d2ad35cb3ce59e557e/README.md",
+          "snippet": "cargo install shimmy"
+        },
+        "usage": {
+          "url": "https://github.com/Michael-A-Kuykendall/shimmy/blob/4895730a700cb164ac2855d2ad35cb3ce59e557e/README.md",
+          "snippet": "shimmy serve --model-path /absolute/path/to/model.gguf --bind 127.0.0.1:11435"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Michael-A-Kuykendall/shimmy",
+          "snippet": "⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Single binary."
+        },
+        "adoption": {
+          "stars": 5905,
+          "githubSource": "https://github.com/Michael-A-Kuykendall/shimmy",
+          "homebrew": null
+        },
+        "commit": "4895730a700cb164ac2855d2ad35cb3ce59e557e"
+      }
+    },
+    "alirezarezvani/claude-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "atomantic/dotfiles": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "ligurio/awesome-ci": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "galaxy-dawn/claude-scholar": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dongshuyan/compass-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "doccker/cc-use-exp": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "graphprotocol/graph-node": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "hey-api/hey-api": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "clawwork-ai/clawwork": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "dohooo/helmor": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "promptise-com/foundry": {
+      "status": "held",
+      "checkedAt": "2026-09-22T09:43:39.990Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
     }
   },
-  "lastRunAt": "2026-09-22T08:43:34.709Z"
+  "lastRunAt": "2026-09-22T09:43:39.990Z"
 }

@@ -5341,5 +5341,31 @@
     "createdAt": "2015-09-23T23:19:23Z",
     "checkedAt": "2026-09-22T08:43:54.398Z",
     "source": "https://github.com/2akouwu"
+  },
+  "michael-a-kuykendall": {
+    "login": "Michael-A-Kuykendall",
+    "name": "Mike Kuykendall",
+    "type": "User",
+    "bio": "Former 9/11 era Staff Sergeant in the United States Air Force.\r\n\r\nA loving father of two, and a devoted husband and a software engineer for over twenty years.\r\n",
+    "location": "United States",
+    "website": "https://targetedwebresults.com/",
+    "followers": 179,
+    "publicRepos": 25,
+    "createdAt": "2025-01-27T16:39:49Z",
+    "checkedAt": "2026-09-22T09:44:07.476Z",
+    "source": "https://github.com/Michael-A-Kuykendall"
+  },
+  "googlechromelabs": {
+    "login": "GoogleChromeLabs",
+    "name": "GoogleChromeLabs",
+    "type": "Organization",
+    "bio": "Experimental projects from the Chrome team",
+    "location": null,
+    "website": null,
+    "followers": 3131,
+    "publicRepos": 258,
+    "createdAt": "2017-09-14T19:32:34Z",
+    "checkedAt": "2026-09-22T09:44:07.812Z",
+    "source": "https://github.com/GoogleChromeLabs"
   }
 }

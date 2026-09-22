@@ -7987,5 +7987,37 @@
     "example": "reverify auto sample.bin --json",
     "website": "https://github.com/2akouwu/reverify",
     "docs": "https://github.com/2akouwu/reverify/blob/f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923/README.md"
+  },
+  {
+    "slug": "michael-a-kuykendall-shimmy",
+    "name": "shimmy",
+    "repo": "Michael-A-Kuykendall/shimmy",
+    "category": "Agents & models",
+    "command": "shimmy",
+    "useCase": "⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Single binary.",
+    "description": "⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Single binary.",
+    "agentUse": "Invoke shimmy from a shell for the documented use case: ⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Single binary.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "shimmy serve --model-path /absolute/path/to/model.gguf --bind 127.0.0.1:11435",
+    "website": "https://github.com/Michael-A-Kuykendall/shimmy",
+    "docs": "https://github.com/Michael-A-Kuykendall/shimmy/blob/4895730a700cb164ac2855d2ad35cb3ce59e557e/README.md"
+  },
+  {
+    "slug": "googlechromelabs-bubblewrap",
+    "name": "bubblewrap",
+    "repo": "GoogleChromeLabs/bubblewrap",
+    "category": "Terminal utilities",
+    "command": "bubblewrap",
+    "useCase": "Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.",
+    "description": "Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.",
+    "agentUse": "Invoke bubblewrap from a shell for the documented use case: Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "bubblewrap init --manifest https://my-twa.com/manifest.json",
+    "website": "https://github.com/GoogleChromeLabs/bubblewrap",
+    "docs": "https://github.com/GoogleChromeLabs/bubblewrap/blob/a5ffe214c3b03d2d19fbce6d40097a78aa043f66/packages/cli/README.md"
   }
 ]
