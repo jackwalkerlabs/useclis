@@ -5302,5 +5302,31 @@
     "createdAt": "2014-04-10T03:54:21Z",
     "checkedAt": "2026-09-22T06:44:24.141Z",
     "source": "https://github.com/samtay"
+  },
+  "samyak2": {
+    "login": "Samyak2",
+    "name": "Samyak Sarnayak",
+    "type": "User",
+    "bio": null,
+    "location": "Bangalore",
+    "website": "samyak.me",
+    "followers": 202,
+    "publicRepos": 100,
+    "createdAt": "2017-12-01T12:55:04Z",
+    "checkedAt": "2026-09-22T07:44:31.779Z",
+    "source": "https://github.com/Samyak2"
+  },
+  "wustho": {
+    "login": "wustho",
+    "name": "Benawi Adha",
+    "type": "User",
+    "bio": null,
+    "location": "Yogyakarta, Indonesia.",
+    "website": null,
+    "followers": 54,
+    "publicRepos": 4,
+    "createdAt": "2018-10-03T09:32:40Z",
+    "checkedAt": "2026-09-22T07:44:31.950Z",
+    "source": "https://github.com/wustho"
   }
 }

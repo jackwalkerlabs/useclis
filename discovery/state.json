@@ -4,126 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "bloznelis/typioca"
-    },
-    {
-      "repo": "sudipghimire533/ytui-music"
-    },
-    {
-      "repo": "samtay/tetris"
-    },
-    {
-      "repo": "rhysd/tui-textarea"
-    },
-    {
-      "repo": "wintermute-cell/ngrrram"
-    },
-    {
-      "repo": "Biont/sway-launcher-desktop"
-    },
-    {
-      "repo": "darrenburns/elia"
-    },
-    {
-      "repo": "akavel/up"
-    },
-    {
-      "repo": "oppiliappan/dijo"
-    },
-    {
-      "repo": "tboox/ltui"
-    },
-    {
-      "repo": "Textualize/toolong"
-    },
-    {
-      "repo": "Textualize/frogmouth"
-    },
-    {
-      "repo": "ekkinox/yai"
-    },
-    {
-      "repo": "1buran/rHttp"
-    },
-    {
-      "repo": "astefanutti/kubebox"
-    },
-    {
-      "repo": "Samyak2/toipe"
-    },
-    {
-      "repo": "dustinblackman/oatmeal"
-    },
-    {
-      "repo": "darylhjd/mangadesk"
-    },
-    {
-      "repo": "vadimdemedes/ink-ui"
-    },
-    {
-      "repo": "gcla/termshark"
-    },
-    {
-      "repo": "TomaszRewak/C-sharp-console-gui-framework"
-    },
-    {
-      "repo": "joehillen/sysz"
-    },
-    {
-      "repo": "st3w/neo"
-    },
-    {
-      "repo": "octobanana/peaclock"
-    },
-    {
-      "repo": "GeorgeFilipkin/pulsemixer"
-    },
-    {
-      "repo": "wustho/baca"
-    },
-    {
-      "repo": "RasmusLindroth/tut"
-    },
-    {
-      "repo": "TaKO8Ki/gobang"
-    },
-    {
-      "repo": "svartalf/rust-battop"
-    },
-    {
-      "repo": "muesli/gitty"
-    },
-    {
-      "repo": "ceuk/spotui"
-    },
-    {
-      "repo": "ndreynolds/ratatouille"
-    },
-    {
-      "repo": "gcla/gowid"
-    },
-    {
-      "repo": "pfalcon/picotui"
-    },
-    {
-      "repo": "mathaou/termdbms"
-    },
-    {
-      "repo": "2mol/pboy"
-    },
-    {
-      "repo": "VladimirMarkelov/clui"
-    },
-    {
-      "repo": "ivanceras/sauron-native"
-    },
-    {
-      "repo": "mempodippy/vlany"
-    },
-    {
-      "repo": "igor-kostromin/consoleframework"
-    },
-    {
       "repo": "Tiger3807861189/J-Space-Cognition-Suite"
     },
     {
@@ -7518,7 +7398,8 @@
     },
     "2mol/pboy": {
       "status": "held",
-      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "xwmx/bash-boilerplate": {
@@ -10692,8 +10573,9 @@
     },
     "vadimdemedes/ink-ui": {
       "status": "held",
-      "checkedAt": "2026-09-14T21:44:20.281Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "httpie/http-prompt": {
       "status": "held",
@@ -11870,7 +11752,8 @@
     },
     "muesli/gitty": {
       "status": "held",
-      "checkedAt": "2026-09-15T01:44:17.914Z",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "narasimha1997/fake-sms": {
@@ -13058,8 +12941,9 @@
     },
     "vladimirmarkelov/clui": {
       "status": "held",
-      "checkedAt": "2026-09-15T05:44:18.625Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "airlift/airline": {
       "status": "held",
@@ -25284,7 +25168,331 @@
       "checkedAt": "2026-09-22T06:43:34.384Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bloznelis/typioca": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sudipghimire533/ytui-music": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "samtay/tetris": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rhysd/tui-textarea": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "wintermute-cell/ngrrram": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "biont/sway-launcher-desktop": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "darrenburns/elia": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "akavel/up": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "oppiliappan/dijo": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tboox/ltui": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "textualize/toolong": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "textualize-toolong",
+      "acceptedAt": "2026-09-22T07:43:54.337Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Textualize/toolong/blob/5aa22ee878026f46d4d265905c4e1df4d37842ae/pyproject.toml",
+          "snippet": "tl = \"toolong.cli:run\"",
+          "target": "src/toolong/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/Textualize/toolong/blob/5aa22ee878026f46d4d265905c4e1df4d37842ae/README.md",
+          "snippet": "pipx install toolong"
+        },
+        "usage": {
+          "url": "https://github.com/Textualize/toolong/blob/5aa22ee878026f46d4d265905c4e1df4d37842ae/README.md",
+          "snippet": "tl mylogfile.log"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Textualize/toolong",
+          "snippet": "A terminal application to view, tail, merge, and search log files (plus JSONL)."
+        },
+        "adoption": {
+          "stars": 3949,
+          "githubSource": "https://github.com/Textualize/toolong",
+          "homebrew": null
+        },
+        "commit": "5aa22ee878026f46d4d265905c4e1df4d37842ae"
+      }
+    },
+    "textualize/frogmouth": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "textualize-frogmouth",
+      "acceptedAt": "2026-09-22T07:43:54.337Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Textualize/frogmouth/blob/15c3e85a6e84b2e4a6845723acf12beb54c81eb2/pyproject.toml",
+          "snippet": "frogmouth = \"frogmouth.app.app:run\"",
+          "target": "frogmouth/app/app.py"
+        },
+        "installation": {
+          "url": "https://github.com/Textualize/frogmouth/blob/15c3e85a6e84b2e4a6845723acf12beb54c81eb2/README.md",
+          "snippet": "pipx install frogmouth"
+        },
+        "usage": {
+          "url": "https://github.com/Textualize/frogmouth/blob/15c3e85a6e84b2e4a6845723acf12beb54c81eb2/README.md",
+          "snippet": "frogmouth README.md"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Textualize/frogmouth",
+          "snippet": "A Markdown browser for your terminal"
+        },
+        "adoption": {
+          "stars": 3293,
+          "githubSource": "https://github.com/Textualize/frogmouth",
+          "homebrew": null
+        },
+        "commit": "15c3e85a6e84b2e4a6845723acf12beb54c81eb2"
+      }
+    },
+    "ekkinox/yai": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "1buran/rhttp": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "astefanutti/kubebox": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "samyak2/toipe": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "samyak2-toipe",
+      "acceptedAt": "2026-09-22T07:43:54.337Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Samyak2/toipe/blob/93a0fb69b6ee70fc66a858add92cee5177cc42c8/Cargo.toml",
+          "snippet": "package.name=\"toipe\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/Samyak2/toipe/blob/93a0fb69b6ee70fc66a858add92cee5177cc42c8/README.md",
+          "snippet": "cargo install toipe"
+        },
+        "usage": {
+          "url": "https://github.com/Samyak2/toipe/blob/93a0fb69b6ee70fc66a858add92cee5177cc42c8/README.md",
+          "snippet": "toipe -n 10"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Samyak2/toipe",
+          "snippet": "yet another typing test, but crab flavoured"
+        },
+        "adoption": {
+          "stars": 671,
+          "githubSource": "https://github.com/Samyak2/toipe",
+          "homebrew": null
+        },
+        "commit": "93a0fb69b6ee70fc66a858add92cee5177cc42c8"
+      }
+    },
+    "dustinblackman/oatmeal": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "darylhjd/mangadesk": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gcla/termshark": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tomaszrewak/c-sharp-console-gui-framework": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "joehillen/sysz": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "st3w/neo": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "octobanana/peaclock": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "georgefilipkin/pulsemixer": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "wustho/baca": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "wustho-baca",
+      "acceptedAt": "2026-09-22T07:43:54.337Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/wustho/baca/blob/13ee794b08a4852f63002e7b0ca6a5c82b4239d4/pyproject.toml",
+          "snippet": "baca = \"baca.__main__:main\"",
+          "target": "src/baca/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/wustho/baca/blob/13ee794b08a4852f63002e7b0ca6a5c82b4239d4/README.md",
+          "snippet": "- Via pip: `pip install baca`"
+        },
+        "usage": {
+          "url": "https://github.com/wustho/baca/blob/13ee794b08a4852f63002e7b0ca6a5c82b4239d4/README.md",
+          "snippet": "baca path/to/your/ebook.epub"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/wustho/baca",
+          "snippet": "TUI Ebook Reader"
+        },
+        "adoption": {
+          "stars": 524,
+          "githubSource": "https://github.com/wustho/baca",
+          "homebrew": null
+        },
+        "commit": "13ee794b08a4852f63002e7b0ca6a5c82b4239d4"
+      }
+    },
+    "rasmuslindroth/tut": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tako8ki/gobang": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "svartalf/rust-battop": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ceuk/spotui": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ndreynolds/ratatouille": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gcla/gowid": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pfalcon/picotui": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mathaou/termdbms": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ivanceras/sauron-native": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "mempodippy/vlany": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "igor-kostromin/consoleframework": {
+      "status": "held",
+      "checkedAt": "2026-09-22T07:43:54.337Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-22T06:43:34.384Z"
+  "lastRunAt": "2026-09-22T07:43:54.337Z"
 }

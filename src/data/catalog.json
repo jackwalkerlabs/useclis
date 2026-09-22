@@ -7907,5 +7907,69 @@
     "example": "so how do i reverse a list in python",
     "website": "https://github.com/samtay/so",
     "docs": "https://github.com/samtay/so/blob/4969956b4aab1bb3aa8705627f71a1ad269ffe31/README.md"
+  },
+  {
+    "slug": "textualize-toolong",
+    "name": "toolong",
+    "repo": "Textualize/toolong",
+    "category": "Files & documents",
+    "command": "tl",
+    "useCase": "A terminal application to view, tail, merge, and search log files (plus JSONL).",
+    "description": "A terminal application to view, tail, merge, and search log files (plus JSONL).",
+    "agentUse": "Invoke tl from a shell for the documented use case: A terminal application to view, tail, merge, and search log files (plus JSONL).",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "tl mylogfile.log",
+    "website": "https://github.com/Textualize/toolong",
+    "docs": "https://github.com/Textualize/toolong/blob/5aa22ee878026f46d4d265905c4e1df4d37842ae/README.md"
+  },
+  {
+    "slug": "textualize-frogmouth",
+    "name": "frogmouth",
+    "repo": "Textualize/frogmouth",
+    "category": "Files & documents",
+    "command": "frogmouth",
+    "useCase": "A Markdown browser for your terminal",
+    "description": "A Markdown browser for your terminal",
+    "agentUse": "Invoke frogmouth from a shell for the documented use case: A Markdown browser for your terminal",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "frogmouth README.md",
+    "website": "https://github.com/Textualize/frogmouth",
+    "docs": "https://github.com/Textualize/frogmouth/blob/15c3e85a6e84b2e4a6845723acf12beb54c81eb2/README.md"
+  },
+  {
+    "slug": "samyak2-toipe",
+    "name": "toipe",
+    "repo": "Samyak2/toipe",
+    "category": "Testing & quality",
+    "command": "toipe",
+    "useCase": "yet another typing test, but crab flavoured",
+    "description": "yet another typing test, but crab flavoured",
+    "agentUse": "Invoke toipe from a shell for the documented use case: yet another typing test, but crab flavoured",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "toipe -n 10",
+    "website": "https://github.com/Samyak2/toipe",
+    "docs": "https://github.com/Samyak2/toipe/blob/93a0fb69b6ee70fc66a858add92cee5177cc42c8/README.md"
+  },
+  {
+    "slug": "wustho-baca",
+    "name": "baca",
+    "repo": "wustho/baca",
+    "category": "Terminal utilities",
+    "command": "baca",
+    "useCase": "TUI Ebook Reader",
+    "description": "TUI Ebook Reader",
+    "agentUse": "Invoke baca from a shell for the documented use case: TUI Ebook Reader",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "baca path/to/your/ebook.epub",
+    "website": "https://github.com/wustho/baca",
+    "docs": "https://github.com/wustho/baca/blob/13ee794b08a4852f63002e7b0ca6a5c82b4239d4/README.md"
   }
 ]
