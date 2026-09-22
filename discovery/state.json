@@ -4,36 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "plutov/oq"
-    },
-    {
-      "repo": "clarkduvall/jsterm"
-    },
-    {
-      "repo": "MitMaro/git-interactive-rebase-tool"
-    },
-    {
-      "repo": "marcusbuffett/command-line-chess"
-    },
-    {
-      "repo": "kai-morich/SimpleBluetoothTerminal"
-    },
-    {
-      "repo": "LukeSmithxyz/st"
-    },
-    {
-      "repo": "posva/catimg"
-    },
-    {
-      "repo": "raitonoberu/sptlrx"
-    },
-    {
-      "repo": "gautamkrishnar/socli"
-    },
-    {
-      "repo": "ndd7xv/heh"
-    },
-    {
       "repo": "aome510/hackernews-TUI"
     },
     {
@@ -4827,9 +4797,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "ndd7xv/heh": {
-      "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ndd7xv-heh",
+      "acceptedAt": "2026-09-22T12:43:39.510Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ndd7xv/heh/blob/89b1e99695069e4caaa3dfb55f90815963a2c3a2/Cargo.toml",
+          "snippet": "package.name=\"heh\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/ndd7xv/heh/blob/89b1e99695069e4caaa3dfb55f90815963a2c3a2/README.md",
+          "snippet": "cargo install heh"
+        },
+        "usage": {
+          "url": "https://github.com/ndd7xv/heh/blob/89b1e99695069e4caaa3dfb55f90815963a2c3a2/README.md",
+          "snippet": "heh = \"0.6\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ndd7xv/heh",
+          "snippet": "A terminal UI to edit bytes by the nibble."
+        },
+        "adoption": {
+          "stars": 500,
+          "githubSource": "https://github.com/ndd7xv/heh",
+          "homebrew": null
+        },
+        "commit": "89b1e99695069e4caaa3dfb55f90815963a2c3a2"
+      }
     },
     "xero/figlet-fonts": {
       "status": "held",
@@ -7687,9 +7685,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "gautamkrishnar/socli": {
-      "status": "held",
-      "checkedAt": "2026-09-14T11:44:22.776Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "gautamkrishnar-socli",
+      "acceptedAt": "2026-09-22T12:43:39.510Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/gautamkrishnar/socli/blob/131d4d930da0991d173689674db82cf49ffc2d5a/pyproject.toml",
+          "snippet": "socli = \"socli.sentry:main\"",
+          "target": "socli/sentry.py"
+        },
+        "installation": {
+          "url": "https://github.com/gautamkrishnar/socli/blob/131d4d930da0991d173689674db82cf49ffc2d5a/README.md",
+          "snippet": "pip install socli"
+        },
+        "usage": {
+          "url": "https://github.com/gautamkrishnar/socli/blob/131d4d930da0991d173689674db82cf49ffc2d5a/README.md",
+          "snippet": "socli --register"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/gautamkrishnar/socli",
+          "snippet": "Stack overflow command line client. Search and browse stack overflow without leaving the terminal :computer: "
+        },
+        "adoption": {
+          "stars": 1111,
+          "githubSource": "https://github.com/gautamkrishnar/socli",
+          "homebrew": null
+        },
+        "commit": "131d4d930da0991d173689674db82cf49ffc2d5a"
+      }
     },
     "aaif-goose/goose": {
       "status": "held",
@@ -25607,7 +25633,55 @@
       "checkedAt": "2026-09-22T11:44:02.846Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "plutov/oq": {
+      "status": "held",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "clarkduvall/jsterm": {
+      "status": "held",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mitmaro/git-interactive-rebase-tool": {
+      "status": "held",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "marcusbuffett/command-line-chess": {
+      "status": "held",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kai-morich/simplebluetoothterminal": {
+      "status": "held",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lukesmithxyz/st": {
+      "status": "held",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "posva/catimg": {
+      "status": "held",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "raitonoberu/sptlrx": {
+      "status": "held",
+      "checkedAt": "2026-09-22T12:43:39.510Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-22T11:44:02.846Z"
+  "lastRunAt": "2026-09-22T12:43:39.510Z"
 }

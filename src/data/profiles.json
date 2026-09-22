@@ -5393,5 +5393,31 @@
     "createdAt": "2011-11-28T05:28:51Z",
     "checkedAt": "2026-09-22T11:44:52.829Z",
     "source": "https://github.com/kaplanelad"
+  },
+  "gautamkrishnar": {
+    "login": "gautamkrishnar",
+    "name": "Gautam krishna R",
+    "type": "User",
+    "bio": "Tech Lead, Principal Software Engineer @RedHatOfficial | Full Stack Developer, Open-source Maintainer & Contributor  | Polyglot",
+    "location": "India",
+    "website": "https://www.gautamkrishnar.com/",
+    "followers": 2364,
+    "publicRepos": 275,
+    "createdAt": "2014-08-08T18:05:51Z",
+    "checkedAt": "2026-09-22T12:43:55.941Z",
+    "source": "https://github.com/gautamkrishnar"
+  },
+  "ndd7xv": {
+    "login": "ndd7xv",
+    "name": "nathan",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 18,
+    "publicRepos": 11,
+    "createdAt": "2019-11-15T19:23:47Z",
+    "checkedAt": "2026-09-22T12:43:56.366Z",
+    "source": "https://github.com/ndd7xv"
   }
 }

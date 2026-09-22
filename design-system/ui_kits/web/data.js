@@ -9463,6 +9463,44 @@ window.USECLIS_DATA = {
       "stars": 934,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-22T11:44:51.472Z"
+    },
+    {
+      "slug": "gautamkrishnar-socli",
+      "name": "socli",
+      "repo": "gautamkrishnar/socli",
+      "category": "Terminal utilities",
+      "command": "socli",
+      "useCase": "Stack overflow command line client. Search and browse stack overflow without leaving the terminal :computer: ",
+      "description": "Stack overflow command line client. Search and browse stack overflow without leaving the terminal :computer: ",
+      "agentUse": "Invoke socli from a shell for the documented use case: Stack overflow command line client. Search and browse stack overflow without leaving the terminal :computer: ",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "socli --register",
+      "website": "https://github.com/gautamkrishnar/socli",
+      "docs": "https://github.com/gautamkrishnar/socli/blob/131d4d930da0991d173689674db82cf49ffc2d5a/README.md",
+      "stars": 1111,
+      "license": "BSD-3-Clause",
+      "checkedAt": "2026-09-22T12:43:52.958Z"
+    },
+    {
+      "slug": "ndd7xv-heh",
+      "name": "heh",
+      "repo": "ndd7xv/heh",
+      "category": "Terminal utilities",
+      "command": "heh",
+      "useCase": "A terminal UI to edit bytes by the nibble.",
+      "description": "A terminal UI to edit bytes by the nibble.",
+      "agentUse": "Invoke heh from a shell for the documented use case: A terminal UI to edit bytes by the nibble.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "heh = \"0.6\"",
+      "website": "https://github.com/ndd7xv/heh",
+      "docs": "https://github.com/ndd7xv/heh/blob/89b1e99695069e4caaa3dfb55f90815963a2c3a2/README.md",
+      "stars": 500,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T12:43:53.783Z"
     }
   ],
   "categories": [
