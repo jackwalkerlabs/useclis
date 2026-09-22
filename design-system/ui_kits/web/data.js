@@ -8760,6 +8760,139 @@ window.USECLIS_DATA = {
       "stars": 2289,
       "license": "MIT",
       "checkedAt": "2026-09-22T01:44:34.982Z"
+    },
+    {
+      "slug": "tencent-feflow",
+      "name": "feflow",
+      "repo": "Tencent/feflow",
+      "category": "Testing & quality",
+      "command": "fef",
+      "useCase": "🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript.",
+      "description": "🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript.",
+      "agentUse": "Invoke fef from a shell for the documented use case: 🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fef info",
+      "website": "https://github.com/Tencent/feflow",
+      "docs": "https://github.com/Tencent/feflow/blob/bfc4bd31427bf8add7134802b7b14ab079f9b86c/README.md",
+      "stars": 1384,
+      "license": null,
+      "checkedAt": "2026-09-22T02:44:16.455Z"
+    },
+    {
+      "slug": "jakwai01-lurk",
+      "name": "lurk",
+      "repo": "JakWai01/lurk",
+      "category": "Terminal utilities",
+      "command": "lurk",
+      "useCase": "A pretty (simple) alternative to strace.",
+      "description": "A pretty (simple) alternative to strace.",
+      "agentUse": "Invoke lurk from a shell for the documented use case: A pretty (simple) alternative to strace.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lurk 0.2.7",
+      "website": "https://github.com/JakWai01/lurk",
+      "docs": "https://github.com/JakWai01/lurk/blob/64a01ebbc71b450ba88f8e41b759aeadd4fcf4fd/README.md",
+      "stars": 1154,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-22T02:44:16.837Z"
+    },
+    {
+      "slug": "statoscope-statoscope",
+      "name": "statoscope",
+      "repo": "statoscope/statoscope",
+      "category": "Terminal utilities",
+      "command": "statoscope",
+      "useCase": "Statoscope is a toolkit to analyze and validate webpack bundle",
+      "description": "Statoscope is a toolkit to analyze and validate webpack bundle",
+      "agentUse": "Invoke statoscope from a shell for the documented use case: Statoscope is a toolkit to analyze and validate webpack bundle",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "statoscope validate --input path/to/stats.json",
+      "website": "https://github.com/statoscope/statoscope",
+      "docs": "https://github.com/statoscope/statoscope/blob/f95565b117288719c65ca563ac0c20c508e404f7/packages/cli/README.md",
+      "stars": 1581,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T02:44:17.376Z"
+    },
+    {
+      "slug": "dosisod-refurb",
+      "name": "refurb",
+      "repo": "dosisod/refurb",
+      "category": "Testing & quality",
+      "command": "refurb",
+      "useCase": "A tool for refurbishing and modernizing Python codebases",
+      "description": "A tool for refurbishing and modernizing Python codebases",
+      "agentUse": "Invoke refurb from a shell for the documented use case: A tool for refurbishing and modernizing Python codebases",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "refurb main.py",
+      "website": "https://github.com/dosisod/refurb",
+      "docs": "https://github.com/dosisod/refurb/blob/0dbb127465ca9398b6c89c32a7fd86d78ca755c4/README.md",
+      "stars": 2533,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-22T02:44:17.788Z"
+    },
+    {
+      "slug": "whchien-ai-trader",
+      "name": "ai-trader",
+      "repo": "whchien/ai-trader",
+      "category": "Terminal utilities",
+      "command": "ai-trader",
+      "useCase": "Backtrader-powered backtesting framework for algorithmic trading, featuring 20+ strategies, multi-market support, CLI tools, and an integrated MCP server for professional traders.",
+      "description": "Backtrader-powered backtesting framework for algorithmic trading, featuring 20+ strategies, multi-market support, CLI tools, and an integrated MCP server for professional traders.",
+      "agentUse": "Invoke ai-trader from a shell for the documented use case: Backtrader-powered backtesting framework for algorithmic trading, featuring 20+ strategies, multi-market support, CLI tools, and an integrated MCP server for professional traders.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ai-trader run config/backtest/classic/sma_example.yaml",
+      "website": "https://github.com/whchien/ai-trader",
+      "docs": "https://github.com/whchien/ai-trader/blob/7681fe331fb638beab1ae20d3552c802bbaa9174/README.md",
+      "stars": 1092,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-22T02:44:18.323Z"
+    },
+    {
+      "slug": "livecycle-preevy",
+      "name": "preevy",
+      "repo": "livecycle/preevy",
+      "category": "Cloud & deployment",
+      "command": "preevy",
+      "useCase": "Quickly deploy preview environments to the cloud!",
+      "description": "Quickly deploy preview environments to the cloud!",
+      "agentUse": "Invoke preevy from a shell for the documented use case: Quickly deploy preview environments to the cloud!",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "preevy init",
+      "website": "https://github.com/livecycle/preevy",
+      "docs": "https://github.com/livecycle/preevy/blob/4494835434556958b8be85f121e391d6d7968676/README.md",
+      "stars": 2230,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-22T02:44:18.855Z"
+    },
+    {
+      "slug": "notjoemartinez-yt-fts",
+      "name": "yt-fts",
+      "repo": "NotJoeMartinez/yt-fts",
+      "category": "Agents & models",
+      "command": "yt-fts",
+      "useCase": "YouTube Full Text Search - Search all of YouTube from the command line",
+      "description": "YouTube Full Text Search - Search all of YouTube from the command line",
+      "agentUse": "Invoke yt-fts from a shell for the documented use case: YouTube Full Text Search - Search all of YouTube from the command line",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "yt-fts download --jobs 5 \"https://www.youtube.com/@3blue1brown\"",
+      "website": "https://github.com/NotJoeMartinez/yt-fts",
+      "docs": "https://github.com/NotJoeMartinez/yt-fts/blob/7fbc0088f30672b6fbfe2ea7351fa42bafe1f886/README.md",
+      "stars": 1813,
+      "license": "Unlicense",
+      "checkedAt": "2026-09-22T02:44:19.337Z"
     }
   ],
   "categories": [

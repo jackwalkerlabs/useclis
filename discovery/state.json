@@ -4,135 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "cocogitto/cocogitto"
-    },
-    {
-      "repo": "remotemobprogramming/mob"
-    },
-    {
-      "repo": "Tencent/feflow"
-    },
-    {
-      "repo": "JakWai01/lurk"
-    },
-    {
-      "repo": "absadiki/subsai"
-    },
-    {
-      "repo": "zurawiki/gptcommit"
-    },
-    {
-      "repo": "gowebly/gowebly"
-    },
-    {
-      "repo": "p-gen/smenu"
-    },
-    {
-      "repo": "whoozle/android-file-transfer-linux"
-    },
-    {
-      "repo": "statoscope/statoscope"
-    },
-    {
-      "repo": "rust-cli/confy"
-    },
-    {
-      "repo": "square/certigo"
-    },
-    {
-      "repo": "fandreuz/TUI-ConsoleLauncher"
-    },
-    {
-      "repo": "max-niederman/ttyper"
-    },
-    {
-      "repo": "oh-my-mermaid/oh-my-mermaid"
-    },
-    {
-      "repo": "pndurette/gTTS"
-    },
-    {
-      "repo": "cupcakearmy/autorestic"
-    },
-    {
-      "repo": "dosisod/refurb"
-    },
-    {
-      "repo": "whchien/ai-trader"
-    },
-    {
-      "repo": "databricks/click"
-    },
-    {
-      "repo": "vadimdemedes/pastel"
-    },
-    {
-      "repo": "tembo/tembo"
-    },
-    {
-      "repo": "mix-php/mix"
-    },
-    {
-      "repo": "run-llama/semtools"
-    },
-    {
-      "repo": "unixzii/ibackupextractor"
-    },
-    {
-      "repo": "micahmo/WgServerforWindows"
-    },
-    {
-      "repo": "mikaelmello/inquire"
-    },
-    {
-      "repo": "ctongfei/progressbar"
-    },
-    {
-      "repo": "moazbuilds/CodeMachine-CLI"
-    },
-    {
-      "repo": "whipper-team/whipper"
-    },
-    {
-      "repo": "jmathai/elodie"
-    },
-    {
-      "repo": "sharkdp/diskus"
-    },
-    {
-      "repo": "minicli/minicli"
-    },
-    {
-      "repo": "zaquestion/lab"
-    },
-    {
-      "repo": "localstack/awscli-local"
-    },
-    {
-      "repo": "create-go-app/cli"
-    },
-    {
-      "repo": "livecycle/preevy"
-    },
-    {
-      "repo": "kronenthaler/mod-pbxproj"
-    },
-    {
-      "repo": "npiv/chatblade"
-    },
-    {
-      "repo": "NotJoeMartinez/yt-fts"
-    },
-    {
-      "repo": "ranyitz/qnm"
-    },
-    {
-      "repo": "org-formation/org-formation-cli"
-    },
-    {
-      "repo": "jfelchner/ruby-progressbar"
-    },
-    {
       "repo": "hauntsaninja/pyp"
     },
     {
@@ -6427,8 +6298,9 @@
     },
     "vadimdemedes/pastel": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "olets/zsh-abbr": {
       "status": "held",
@@ -6481,8 +6353,9 @@
     },
     "mikaelmello/inquire": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "chmln/sd": {
       "status": "held",
@@ -6496,18 +6369,21 @@
     },
     "jmathai/elodie": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sharkdp/diskus": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "minicli/minicli": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mpvnet-player/mpv.net": {
       "status": "held",
@@ -8990,9 +8866,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "tencent/feflow": {
-      "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "tencent-feflow",
+      "acceptedAt": "2026-09-22T02:43:34.082Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Tencent/feflow/blob/bfc4bd31427bf8add7134802b7b14ab079f9b86c/packages/feflow-cli/package.json",
+          "snippet": "{\"bin\":{\"fef\":\"./bin/feflow\"}}",
+          "target": "packages/feflow-cli/bin/feflow"
+        },
+        "installation": {
+          "url": "https://github.com/Tencent/feflow/blob/bfc4bd31427bf8add7134802b7b14ab079f9b86c/README.md",
+          "snippet": "npm install @feflow/cli -g"
+        },
+        "usage": {
+          "url": "https://github.com/Tencent/feflow/blob/bfc4bd31427bf8add7134802b7b14ab079f9b86c/README.md",
+          "snippet": "fef info"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Tencent/feflow",
+          "snippet": "🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript."
+        },
+        "adoption": {
+          "stars": 1384,
+          "githubSource": "https://github.com/Tencent/feflow",
+          "homebrew": null
+        },
+        "commit": "bfc4bd31427bf8add7134802b7b14ab079f9b86c"
+      }
     },
     "nashsu/autocli": {
       "status": "held",
@@ -9586,7 +9490,8 @@
     },
     "databricks/click": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "aleksandr-m/gitflow-maven-plugin": {
@@ -9848,8 +9753,9 @@
     },
     "localstack/awscli-local": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sunnyyoung/wechattweak": {
       "status": "held",
@@ -9920,9 +9826,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "notjoemartinez/yt-fts": {
-      "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "notjoemartinez-yt-fts",
+      "acceptedAt": "2026-09-22T02:43:34.082Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/NotJoeMartinez/yt-fts/blob/7fbc0088f30672b6fbfe2ea7351fa42bafe1f886/pyproject.toml",
+          "snippet": "yt-fts = \"yt_fts.yt_fts:cli\"",
+          "target": "src/yt_fts/yt_fts.py"
+        },
+        "installation": {
+          "url": "https://github.com/NotJoeMartinez/yt-fts/blob/7fbc0088f30672b6fbfe2ea7351fa42bafe1f886/README.md",
+          "snippet": "pip install yt-fts"
+        },
+        "usage": {
+          "url": "https://github.com/NotJoeMartinez/yt-fts/blob/7fbc0088f30672b6fbfe2ea7351fa42bafe1f886/README.md",
+          "snippet": "yt-fts download --jobs 5 \"https://www.youtube.com/@3blue1brown\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/NotJoeMartinez/yt-fts",
+          "snippet": "YouTube Full Text Search - Search all of YouTube from the command line"
+        },
+        "adoption": {
+          "stars": 1813,
+          "githubSource": "https://github.com/NotJoeMartinez/yt-fts",
+          "homebrew": null
+        },
+        "commit": "7fbc0088f30672b6fbfe2ea7351fa42bafe1f886"
+      }
     },
     "fastn-stack/kulfi": {
       "status": "held",
@@ -11536,8 +11470,9 @@
     },
     "cocogitto/cocogitto": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "fsociety-team/fsociety": {
       "status": "held",
@@ -24532,7 +24467,322 @@
       "checkedAt": "2026-09-22T01:43:40.522Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "remotemobprogramming/mob": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jakwai01/lurk": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "jakwai01-lurk",
+      "acceptedAt": "2026-09-22T02:43:34.082Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/JakWai01/lurk/blob/64a01ebbc71b450ba88f8e41b759aeadd4fcf4fd/Cargo.toml",
+          "snippet": "[[bin]] name=\"lurk\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/JakWai01/lurk/blob/64a01ebbc71b450ba88f8e41b759aeadd4fcf4fd/README.md",
+          "snippet": "cargo install lurk-cli"
+        },
+        "usage": {
+          "url": "https://github.com/JakWai01/lurk/blob/64a01ebbc71b450ba88f8e41b759aeadd4fcf4fd/README.md",
+          "snippet": "lurk 0.2.7"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/JakWai01/lurk",
+          "snippet": "A pretty (simple) alternative to strace."
+        },
+        "adoption": {
+          "stars": 1154,
+          "githubSource": "https://github.com/JakWai01/lurk",
+          "homebrew": null
+        },
+        "commit": "64a01ebbc71b450ba88f8e41b759aeadd4fcf4fd"
+      }
+    },
+    "absadiki/subsai": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zurawiki/gptcommit": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gowebly/gowebly": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "whoozle/android-file-transfer-linux": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "statoscope/statoscope": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "statoscope-statoscope",
+      "acceptedAt": "2026-09-22T02:43:34.082Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/statoscope/statoscope/blob/f95565b117288719c65ca563ac0c20c508e404f7/packages/cli/package.json",
+          "snippet": "{\"bin\":{\"statoscope\":\"./bin/cli.js\"}}",
+          "target": "packages/cli/bin/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/statoscope/statoscope/blob/f95565b117288719c65ca563ac0c20c508e404f7/packages/cli/README.md",
+          "snippet": "npm i @statoscope/cli -g"
+        },
+        "usage": {
+          "url": "https://github.com/statoscope/statoscope/blob/f95565b117288719c65ca563ac0c20c508e404f7/packages/cli/README.md",
+          "snippet": "statoscope validate --input path/to/stats.json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/statoscope/statoscope",
+          "snippet": "Statoscope is a toolkit to analyze and validate webpack bundle"
+        },
+        "adoption": {
+          "stars": 1581,
+          "githubSource": "https://github.com/statoscope/statoscope",
+          "homebrew": null
+        },
+        "commit": "f95565b117288719c65ca563ac0c20c508e404f7"
+      }
+    },
+    "rust-cli/confy": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "square/certigo": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fandreuz/tui-consolelauncher": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "oh-my-mermaid/oh-my-mermaid": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pndurette/gtts": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cupcakearmy/autorestic": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dosisod/refurb": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "dosisod-refurb",
+      "acceptedAt": "2026-09-22T02:43:34.082Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/dosisod/refurb/blob/0dbb127465ca9398b6c89c32a7fd86d78ca755c4/pyproject.toml",
+          "snippet": "refurb = \"refurb.__main__:main\"",
+          "target": "refurb/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/dosisod/refurb/blob/0dbb127465ca9398b6c89c32a7fd86d78ca755c4/README.md",
+          "snippet": "$ pipx install refurb"
+        },
+        "usage": {
+          "url": "https://github.com/dosisod/refurb/blob/0dbb127465ca9398b6c89c32a7fd86d78ca755c4/README.md",
+          "snippet": "refurb main.py"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/dosisod/refurb",
+          "snippet": "A tool for refurbishing and modernizing Python codebases"
+        },
+        "adoption": {
+          "stars": 2533,
+          "githubSource": "https://github.com/dosisod/refurb",
+          "homebrew": null
+        },
+        "commit": "0dbb127465ca9398b6c89c32a7fd86d78ca755c4"
+      }
+    },
+    "whchien/ai-trader": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "whchien-ai-trader",
+      "acceptedAt": "2026-09-22T02:43:34.082Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/whchien/ai-trader/blob/7681fe331fb638beab1ae20d3552c802bbaa9174/pyproject.toml",
+          "snippet": "ai-trader = \"ai_trader.cli:cli\"",
+          "target": "ai_trader/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/whchien/ai-trader/blob/7681fe331fb638beab1ae20d3552c802bbaa9174/README.md",
+          "snippet": "pip install ai-trader"
+        },
+        "usage": {
+          "url": "https://github.com/whchien/ai-trader/blob/7681fe331fb638beab1ae20d3552c802bbaa9174/README.md",
+          "snippet": "ai-trader run config/backtest/classic/sma_example.yaml"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/whchien/ai-trader",
+          "snippet": "Backtrader-powered backtesting framework for algorithmic trading, featuring 20+ strategies, multi-market support, CLI tools, and an integrated MCP server for professional traders."
+        },
+        "adoption": {
+          "stars": 1092,
+          "githubSource": "https://github.com/whchien/ai-trader",
+          "homebrew": null
+        },
+        "commit": "7681fe331fb638beab1ae20d3552c802bbaa9174"
+      }
+    },
+    "tembo/tembo": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
+    },
+    "mix-php/mix": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "unixzii/ibackupextractor": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "micahmo/wgserverforwindows": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "ctongfei/progressbar": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "moazbuilds/codemachine-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "whipper-team/whipper": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zaquestion/lab": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "create-go-app/cli": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "livecycle/preevy": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "livecycle-preevy",
+      "acceptedAt": "2026-09-22T02:43:34.082Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/livecycle/preevy/blob/4494835434556958b8be85f121e391d6d7968676/packages/cli/package.json",
+          "snippet": "{\"bin\":{\"preevy\":\"./bin/run.js\"}}",
+          "target": "packages/cli/bin/run.js"
+        },
+        "installation": {
+          "url": "https://github.com/livecycle/preevy/blob/4494835434556958b8be85f121e391d6d7968676/README.md",
+          "snippet": "npm install -g preevy"
+        },
+        "usage": {
+          "url": "https://github.com/livecycle/preevy/blob/4494835434556958b8be85f121e391d6d7968676/README.md",
+          "snippet": "preevy init"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/livecycle/preevy",
+          "snippet": "Quickly deploy preview environments to the cloud!"
+        },
+        "adoption": {
+          "stars": 2230,
+          "githubSource": "https://github.com/livecycle/preevy",
+          "homebrew": null
+        },
+        "commit": "4494835434556958b8be85f121e391d6d7968676"
+      }
+    },
+    "kronenthaler/mod-pbxproj": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "npiv/chatblade": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ranyitz/qnm": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "org-formation/org-formation-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jfelchner/ruby-progressbar": {
+      "status": "held",
+      "checkedAt": "2026-09-22T02:43:34.082Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-22T01:43:40.522Z"
+  "lastRunAt": "2026-09-22T02:43:34.082Z"
 }
