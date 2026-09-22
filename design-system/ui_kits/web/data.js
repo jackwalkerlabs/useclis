@@ -8893,6 +8893,120 @@ window.USECLIS_DATA = {
       "stars": 1813,
       "license": "Unlicense",
       "checkedAt": "2026-09-22T02:44:19.337Z"
+    },
+    {
+      "slug": "splx-ai-agentic-radar",
+      "name": "agentic-radar",
+      "repo": "splx-ai/agentic-radar",
+      "category": "Agents & models",
+      "command": "agentic-radar",
+      "useCase": "A security scanner for your LLM agentic workflows",
+      "description": "A security scanner for your LLM agentic workflows",
+      "agentUse": "Invoke agentic-radar from a shell for the documented use case: A security scanner for your LLM agentic workflows",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "agentic-radar scan langgraph -i path/to/langgraph/example/folder -o report.html",
+      "website": "https://github.com/splx-ai/agentic-radar",
+      "docs": "https://github.com/splx-ai/agentic-radar/blob/65a7e4bd01e2034c7cb52e9620eeed287688cc53/README.md",
+      "stars": 1054,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-22T03:44:14.103Z"
+    },
+    {
+      "slug": "sharkdp-pastel",
+      "name": "pastel",
+      "repo": "sharkdp/pastel",
+      "category": "Terminal utilities",
+      "command": "pastel",
+      "useCase": "A command-line tool to generate, analyze, convert and manipulate colors",
+      "description": "A command-line tool to generate, analyze, convert and manipulate colors",
+      "agentUse": "Invoke pastel from a shell for the documented use case: A command-line tool to generate, analyze, convert and manipulate colors",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "pastel lighten 0.2 orchid orange lawngreen",
+      "website": "https://github.com/sharkdp/pastel",
+      "docs": "https://github.com/sharkdp/pastel/blob/01d4252aa794f1331834948f133e75c64532be46/README.md",
+      "stars": 6502,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-22T03:44:14.712Z"
+    },
+    {
+      "slug": "reorx-httpstat",
+      "name": "httpstat",
+      "repo": "reorx/httpstat",
+      "category": "Data & APIs",
+      "command": "httpstat",
+      "useCase": "curl statistics made simple",
+      "description": "curl statistics made simple",
+      "agentUse": "Invoke httpstat from a shell for the documented use case: curl statistics made simple",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "httpstat httpbin.org/get",
+      "website": "https://github.com/reorx/httpstat",
+      "docs": "https://github.com/reorx/httpstat/blob/b37cd4655c0b0595dbf5be4466abd1dcbc202b84/README.md",
+      "stars": 6221,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T03:44:15.134Z"
+    },
+    {
+      "slug": "sindresorhus-create-dmg",
+      "name": "create-dmg",
+      "repo": "sindresorhus/create-dmg",
+      "category": "Terminal utilities",
+      "command": "create-dmg",
+      "useCase": "Create a good-looking DMG for your macOS app in seconds",
+      "description": "Create a good-looking DMG for your macOS app in seconds",
+      "agentUse": "Invoke create-dmg from a shell for the documented use case: Create a good-looking DMG for your macOS app in seconds",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "create-dmg 'Lungo.app'",
+      "website": "https://github.com/sindresorhus/create-dmg",
+      "docs": "https://github.com/sindresorhus/create-dmg/blob/0da89d104885daf019498a17da6e1c0203c2a9ed/readme.md",
+      "stars": 5372,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T03:44:15.618Z"
+    },
+    {
+      "slug": "nexe-nexe",
+      "name": "nexe",
+      "repo": "nexe/nexe",
+      "category": "Terminal utilities",
+      "command": "nexe",
+      "useCase": "🎉 create a single executable out of your node.js apps",
+      "description": "🎉 create a single executable out of your node.js apps",
+      "agentUse": "Invoke nexe from a shell for the documented use case: 🎉 create a single executable out of your node.js apps",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "nexe my-app.js",
+      "website": "https://github.com/nexe/nexe",
+      "docs": "https://github.com/nexe/nexe/blob/6220bf052223d5347ae656f0f680f33303b6a874/README.md",
+      "stars": 13568,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T03:44:16.199Z"
+    },
+    {
+      "slug": "ekzhang-bore",
+      "name": "bore",
+      "repo": "ekzhang/bore",
+      "category": "Terminal utilities",
+      "command": "bore",
+      "useCase": "🕳 bore is a simple CLI tool for making tunnels to localhost",
+      "description": "🕳 bore is a simple CLI tool for making tunnels to localhost",
+      "agentUse": "Invoke bore from a shell for the documented use case: 🕳 bore is a simple CLI tool for making tunnels to localhost",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "bore local 8000 --to bore.pub",
+      "website": "https://github.com/ekzhang/bore",
+      "docs": "https://github.com/ekzhang/bore/blob/00a735a89917642df62d84336a90d9476fa175b5/README.md",
+      "stars": 11505,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T03:44:16.662Z"
     }
   ],
   "categories": [

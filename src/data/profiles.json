@@ -5068,5 +5068,57 @@
     "createdAt": "2018-06-04T10:11:28Z",
     "checkedAt": "2026-09-22T02:44:23.288Z",
     "source": "https://github.com/NotJoeMartinez"
+  },
+  "splx-ai": {
+    "login": "splx-ai",
+    "name": "SplxAI",
+    "type": "Organization",
+    "bio": "GenAI Security Platform",
+    "location": "United States of America",
+    "website": "www.splx.ai",
+    "followers": 47,
+    "publicRepos": 6,
+    "createdAt": "2023-11-06T09:38:00Z",
+    "checkedAt": "2026-09-22T03:44:19.064Z",
+    "source": "https://github.com/splx-ai"
+  },
+  "reorx": {
+    "login": "reorx",
+    "name": "Xiao Meng",
+    "type": "User",
+    "bio": "Craft and smelt.",
+    "location": "United States",
+    "website": "https://reorx.com",
+    "followers": 765,
+    "publicRepos": 247,
+    "createdAt": "2010-09-18T14:02:55Z",
+    "checkedAt": "2026-09-22T03:44:19.305Z",
+    "source": "https://github.com/reorx"
+  },
+  "nexe": {
+    "login": "nexe",
+    "name": "nexe",
+    "type": "Organization",
+    "bio": "Single file executables from node.js apps",
+    "location": "World",
+    "website": null,
+    "followers": 26,
+    "publicRepos": 2,
+    "createdAt": "2016-12-15T21:38:22Z",
+    "checkedAt": "2026-09-22T03:44:19.608Z",
+    "source": "https://github.com/nexe"
+  },
+  "ekzhang": {
+    "login": "ekzhang",
+    "name": "Eric Zhang",
+    "type": "User",
+    "bio": "An honest, more human kind of software",
+    "location": "New York, NY",
+    "website": "https://www.ekzhang.com",
+    "followers": 3224,
+    "publicRepos": 84,
+    "createdAt": "2014-05-11T18:08:40Z",
+    "checkedAt": "2026-09-22T03:44:19.813Z",
+    "source": "https://github.com/ekzhang"
   }
 }

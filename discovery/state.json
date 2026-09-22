@@ -4,144 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "hauntsaninja/pyp"
-    },
-    {
-      "repo": "dulikaifazr/Cougar-CLI"
-    },
-    {
-      "repo": "abhimanyu003/sttr"
-    },
-    {
-      "repo": "daniele77/cli"
-    },
-    {
-      "repo": "rockbruno/SwiftInfo"
-    },
-    {
-      "repo": "jazzband/Watson"
-    },
-    {
-      "repo": "ryanmjacobs/c"
-    },
-    {
-      "repo": "simonhaenisch/md-to-pdf"
-    },
-    {
-      "repo": "aspiers/stow"
-    },
-    {
-      "repo": "splx-ai/agentic-radar"
-    },
-    {
-      "repo": "peterldowns/localias"
-    },
-    {
-      "repo": "klaudiosinani/qoa"
-    },
-    {
-      "repo": "red-data-tools/YouPlot"
-    },
-    {
-      "repo": "guptarohit/asciigraph"
-    },
-    {
-      "repo": "avajs/ava"
-    },
-    {
-      "repo": "win-acme/win-acme"
-    },
-    {
-      "repo": "infinitered/ignite"
-    },
-    {
-      "repo": "rgcr/m-cli"
-    },
-    {
-      "repo": "exiftool/exiftool"
-    },
-    {
-      "repo": "rsalmei/alive-progress"
-    },
-    {
-      "repo": "mfontanini/presenterm"
-    },
-    {
-      "repo": "Aider-AI/aider"
-    },
-    {
-      "repo": "claudiodangelis/qrcp"
-    },
-    {
-      "repo": "dankamongmen/notcurses"
-    },
-    {
-      "repo": "zu1k/nali"
-    },
-    {
-      "repo": "Slackadays/Clipboard"
-    },
-    {
-      "repo": "sharkdp/pastel"
-    },
-    {
-      "repo": "sharkdp/hyperfine"
-    },
-    {
-      "repo": "six-ddc/plow"
-    },
-    {
-      "repo": "sorin-ionescu/prezto"
-    },
-    {
-      "repo": "reorx/httpstat"
-    },
-    {
-      "repo": "klaudiosinani/signale"
-    },
-    {
-      "repo": "darrenburns/posting"
-    },
-    {
-      "repo": "sindresorhus/create-dmg"
-    },
-    {
-      "repo": "ddworken/hishtory"
-    },
-    {
-      "repo": "mmulet/term.everything"
-    },
-    {
-      "repo": "nexe/nexe"
-    },
-    {
-      "repo": "lebinh/ngxtop"
-    },
-    {
-      "repo": "guarinogabriel/Mac-CLI"
-    },
-    {
-      "repo": "pemistahl/grex"
-    },
-    {
-      "repo": "chmln/sd"
-    },
-    {
-      "repo": "sigoden/aichat"
-    },
-    {
-      "repo": "harelba/q"
-    },
-    {
-      "repo": "ekzhang/bore"
-    },
-    {
-      "repo": "tio/tio"
-    },
-    {
-      "repo": "ajalt/clikt"
-    },
-    {
       "repo": "muesli/duf"
     },
     {
@@ -4938,7 +4800,8 @@
     },
     "guptarohit/asciigraph": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "patrickf1/fzf.fish": {
@@ -5027,7 +4890,8 @@
     },
     "claudiodangelis/qrcp": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "hardikvasa/google-images-download": {
@@ -6092,13 +5956,42 @@
     },
     "slackadays/clipboard": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sharkdp/pastel": {
-      "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "sharkdp-pastel",
+      "acceptedAt": "2026-09-22T03:43:33.626Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/sharkdp/pastel/blob/01d4252aa794f1331834948f133e75c64532be46/Cargo.toml",
+          "snippet": "[[bin]] name=\"pastel\" path=\"src/cli/main.rs\"",
+          "target": "src/cli/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/sharkdp/pastel/blob/01d4252aa794f1331834948f133e75c64532be46/README.md",
+          "snippet": "cargo install pastel"
+        },
+        "usage": {
+          "url": "https://github.com/sharkdp/pastel/blob/01d4252aa794f1331834948f133e75c64532be46/README.md",
+          "snippet": "pastel lighten 0.2 orchid orange lawngreen"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/sharkdp/pastel",
+          "snippet": "A command-line tool to generate, analyze, convert and manipulate colors"
+        },
+        "adoption": {
+          "stars": 6502,
+          "githubSource": "https://github.com/sharkdp/pastel",
+          "homebrew": null
+        },
+        "commit": "01d4252aa794f1331834948f133e75c64532be46"
+      }
     },
     "sharkdp/hexyl": {
       "status": "held",
@@ -6359,8 +6252,9 @@
     },
     "chmln/sd": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bvanhoekelen/performance": {
       "status": "held",
@@ -6425,8 +6319,9 @@
     },
     "harelba/q": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "makew0rld/didder": {
       "status": "held",
@@ -6445,13 +6340,15 @@
     },
     "tio/tio": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ajalt/clikt": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "nolze/msoffcrypto-tool": {
       "status": "held",
@@ -6465,8 +6362,9 @@
     },
     "hauntsaninja/pyp": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "richih/vcsh": {
       "status": "held",
@@ -6520,8 +6418,9 @@
     },
     "klaudiosinani/qoa": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ayoisaiah/focus": {
       "status": "held",
@@ -8985,9 +8884,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "ekzhang/bore": {
-      "status": "held",
-      "checkedAt": "2026-09-14T12:44:22.966Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ekzhang-bore",
+      "acceptedAt": "2026-09-22T03:43:33.626Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ekzhang/bore/blob/00a735a89917642df62d84336a90d9476fa175b5/Cargo.toml",
+          "snippet": "[[bin]] name=\"bore\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/ekzhang/bore/blob/00a735a89917642df62d84336a90d9476fa175b5/README.md",
+          "snippet": "cargo install bore-cli"
+        },
+        "usage": {
+          "url": "https://github.com/ekzhang/bore/blob/00a735a89917642df62d84336a90d9476fa175b5/README.md",
+          "snippet": "bore local 8000 --to bore.pub"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ekzhang/bore",
+          "snippet": "🕳 bore is a simple CLI tool for making tunnels to localhost"
+        },
+        "adoption": {
+          "stars": 11505,
+          "githubSource": "https://github.com/ekzhang/bore",
+          "homebrew": null
+        },
+        "commit": "00a735a89917642df62d84336a90d9476fa175b5"
+      }
     },
     "borgbackup/borg": {
       "status": "held",
@@ -9656,12 +9583,14 @@
     },
     "guarinogabriel/mac-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "pemistahl/grex": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "scrapy/scrapyd-client": {
@@ -9918,7 +9847,8 @@
     },
     "dulikaifazr/cougar-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "kcrawford/dockutil": {
@@ -9938,8 +9868,9 @@
     },
     "daniele77/cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "reimunotmoe/ydotool": {
       "status": "held",
@@ -15076,8 +15007,9 @@
     },
     "avajs/ava": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "immanuwell/dockerfile-roast": {
       "status": "held",
@@ -15298,8 +15230,9 @@
     },
     "win-acme/win-acme": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "retypeapp/retype": {
       "status": "held",
@@ -15327,8 +15260,9 @@
     },
     "infinitered/ignite": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bahaaio/pomo": {
       "status": "held",
@@ -15383,8 +15317,9 @@
     },
     "rgcr/m-cli": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "loxy0devlp/redtiger-tools": {
       "status": "held",
@@ -15493,8 +15428,9 @@
     },
     "rsalmei/alive-progress": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rawnly/splash-cli": {
       "status": "held",
@@ -15503,7 +15439,8 @@
     },
     "mfontanini/presenterm": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "magiccube/helixent": {
@@ -15531,8 +15468,9 @@
     },
     "dankamongmen/notcurses": {
       "status": "held",
-      "checkedAt": "2026-09-15T12:44:27.350Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "afshinm/zerobox": {
       "status": "accepted",
@@ -15593,8 +15531,9 @@
     },
     "zu1k/nali": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "emersion/slurp": {
       "status": "held",
@@ -15730,7 +15669,8 @@
     },
     "six-ddc/plow": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "securisec/chepy": {
@@ -15741,8 +15681,9 @@
     },
     "sorin-ionescu/prezto": {
       "status": "held",
-      "checkedAt": "2026-09-15T13:44:20.973Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "facebookexperimental/edencommon": {
       "status": "held",
@@ -24782,7 +24723,205 @@
       "checkedAt": "2026-09-22T02:43:34.082Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "abhimanyu003/sttr": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rockbruno/swiftinfo": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jazzband/watson": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ryanmjacobs/c": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "simonhaenisch/md-to-pdf": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "aspiers/stow": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "splx-ai/agentic-radar": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "splx-ai-agentic-radar",
+      "acceptedAt": "2026-09-22T03:43:33.626Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/splx-ai/agentic-radar/blob/65a7e4bd01e2034c7cb52e9620eeed287688cc53/pyproject.toml",
+          "snippet": "agentic-radar = \"agentic_radar.cli:app\"",
+          "target": "agentic_radar/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/splx-ai/agentic-radar/blob/65a7e4bd01e2034c7cb52e9620eeed287688cc53/README.md",
+          "snippet": "pip install agentic-radar"
+        },
+        "usage": {
+          "url": "https://github.com/splx-ai/agentic-radar/blob/65a7e4bd01e2034c7cb52e9620eeed287688cc53/README.md",
+          "snippet": "agentic-radar scan langgraph -i path/to/langgraph/example/folder -o report.html"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/splx-ai/agentic-radar",
+          "snippet": "A security scanner for your LLM agentic workflows"
+        },
+        "adoption": {
+          "stars": 1054,
+          "githubSource": "https://github.com/splx-ai/agentic-radar",
+          "homebrew": null
+        },
+        "commit": "65a7e4bd01e2034c7cb52e9620eeed287688cc53"
+      }
+    },
+    "peterldowns/localias": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "reorx/httpstat": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "reorx-httpstat",
+      "acceptedAt": "2026-09-22T03:43:33.626Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/reorx/httpstat/blob/b37cd4655c0b0595dbf5be4466abd1dcbc202b84/pyproject.toml",
+          "snippet": "httpstat = \"httpstat:main\"",
+          "target": "httpstat.py"
+        },
+        "installation": {
+          "url": "https://github.com/reorx/httpstat/blob/b37cd4655c0b0595dbf5be4466abd1dcbc202b84/README.md",
+          "snippet": "- Through pip: `pip install httpstat`"
+        },
+        "usage": {
+          "url": "https://github.com/reorx/httpstat/blob/b37cd4655c0b0595dbf5be4466abd1dcbc202b84/README.md",
+          "snippet": "httpstat httpbin.org/get"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/reorx/httpstat",
+          "snippet": "curl statistics made simple"
+        },
+        "adoption": {
+          "stars": 6221,
+          "githubSource": "https://github.com/reorx/httpstat",
+          "homebrew": null
+        },
+        "commit": "b37cd4655c0b0595dbf5be4466abd1dcbc202b84"
+      }
+    },
+    "klaudiosinani/signale": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sindresorhus/create-dmg": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "sindresorhus-create-dmg",
+      "acceptedAt": "2026-09-22T03:43:33.626Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/sindresorhus/create-dmg/blob/0da89d104885daf019498a17da6e1c0203c2a9ed/package.json",
+          "snippet": "{\"bin\":{\"create-dmg\":\"./cli.js\"}}",
+          "target": "cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/sindresorhus/create-dmg/blob/0da89d104885daf019498a17da6e1c0203c2a9ed/readme.md",
+          "snippet": "npm install --global create-dmg"
+        },
+        "usage": {
+          "url": "https://github.com/sindresorhus/create-dmg/blob/0da89d104885daf019498a17da6e1c0203c2a9ed/readme.md",
+          "snippet": "create-dmg 'Lungo.app'"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/sindresorhus/create-dmg",
+          "snippet": "Create a good-looking DMG for your macOS app in seconds"
+        },
+        "adoption": {
+          "stars": 5372,
+          "githubSource": "https://github.com/sindresorhus/create-dmg",
+          "homebrew": null
+        },
+        "commit": "0da89d104885daf019498a17da6e1c0203c2a9ed"
+      }
+    },
+    "ddworken/hishtory": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mmulet/term.everything": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "nexe/nexe": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "nexe-nexe",
+      "acceptedAt": "2026-09-22T03:43:33.626Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/nexe/nexe/blob/6220bf052223d5347ae656f0f680f33303b6a874/package.json",
+          "snippet": "{\"bin\":{\"nexe\":\"index.js\"}}",
+          "target": "index.js"
+        },
+        "installation": {
+          "url": "https://github.com/nexe/nexe/blob/6220bf052223d5347ae656f0f680f33303b6a874/README.md",
+          "snippet": "<p align=\"center\">Install:&nbsp<code>npm i nexe -g</code></p>"
+        },
+        "usage": {
+          "url": "https://github.com/nexe/nexe/blob/6220bf052223d5347ae656f0f680f33303b6a874/README.md",
+          "snippet": "nexe my-app.js"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/nexe/nexe",
+          "snippet": "🎉 create a single executable out of your node.js apps"
+        },
+        "adoption": {
+          "stars": 13568,
+          "githubSource": "https://github.com/nexe/nexe",
+          "homebrew": null
+        },
+        "commit": "6220bf052223d5347ae656f0f680f33303b6a874"
+      }
+    },
+    "lebinh/ngxtop": {
+      "status": "held",
+      "checkedAt": "2026-09-22T03:43:33.626Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-22T02:43:34.082Z"
+  "lastRunAt": "2026-09-22T03:43:33.626Z"
 }
