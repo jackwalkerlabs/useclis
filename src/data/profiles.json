@@ -5328,5 +5328,18 @@
     "createdAt": "2018-10-03T09:32:40Z",
     "checkedAt": "2026-09-22T07:44:31.950Z",
     "source": "https://github.com/wustho"
+  },
+  "2akouwu": {
+    "login": "2akouwu",
+    "name": "2ako",
+    "type": "User",
+    "bio": "2ako论坛开发者 LLM 大语言模型爱好",
+    "location": "Vienna, Austria",
+    "website": null,
+    "followers": 19,
+    "publicRepos": 45,
+    "createdAt": "2015-09-23T23:19:23Z",
+    "checkedAt": "2026-09-22T08:43:54.398Z",
+    "source": "https://github.com/2akouwu"
   }
 }

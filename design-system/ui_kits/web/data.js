@@ -9368,6 +9368,25 @@ window.USECLIS_DATA = {
       "stars": 524,
       "license": "GPL-3.0",
       "checkedAt": "2026-09-22T07:44:30.296Z"
+    },
+    {
+      "slug": "2akouwu-reverify",
+      "name": "reverify",
+      "repo": "2akouwu/reverify",
+      "category": "Agents & models",
+      "command": "reverify",
+      "useCase": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
+      "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
+      "agentUse": "Invoke reverify from a shell for the documented use case: Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "reverify auto sample.bin --json",
+      "website": "https://github.com/2akouwu/reverify",
+      "docs": "https://github.com/2akouwu/reverify/blob/f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923/README.md",
+      "stars": 1240,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T08:43:52.741Z"
     }
   ],
   "categories": [

@@ -4,177 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "Tiger3807861189/J-Space-Cognition-Suite"
-    },
-    {
-      "repo": "amplifthq/opentag"
-    },
-    {
-      "repo": "micahkepe/jsongrep"
-    },
-    {
-      "repo": "glauth/glauth"
-    },
-    {
-      "repo": "darrenhinde/OpenAgentsControl"
-    },
-    {
-      "repo": "rafal-qa/slopo"
-    },
-    {
-      "repo": "sourcey/sourcey"
-    },
-    {
-      "repo": "amalshaji/portr"
-    },
-    {
-      "repo": "aannoo/hcom"
-    },
-    {
-      "repo": "Tura-AI/tura"
-    },
-    {
-      "repo": "kaochenlong/spectra-app"
-    },
-    {
-      "repo": "alexandrehtrb/Pororoca"
-    },
-    {
-      "repo": "leo-lilinxiao/codex-autoresearch"
-    },
-    {
-      "repo": "JordanCoin/codemap"
-    },
-    {
-      "repo": "httptoolkit/httptoolkit-server"
-    },
-    {
-      "repo": "qpoint-io/qtap"
-    },
-    {
-      "repo": "Jia-Ethan/claude-keysmith"
-    },
-    {
-      "repo": "palkan/isolator"
-    },
-    {
-      "repo": "software-mansion/live-debugger"
-    },
-    {
-      "repo": "mindmuxai/brain.md"
-    },
-    {
-      "repo": "agentrhq/webcmd"
-    },
-    {
-      "repo": "ScottArbeit/Grace"
-    },
-    {
-      "repo": "mereyabdenbekuly-ctrl/clodex-ide"
-    },
-    {
-      "repo": "electron/osx-sign"
-    },
-    {
-      "repo": "ImKKingshuk/LockKnife"
-    },
-    {
-      "repo": "bysiber/cleardisk"
-    },
-    {
-      "repo": "jiweiyeah/Skills-Manager"
-    },
-    {
-      "repo": "ipyflow/ipyflow"
-    },
-    {
-      "repo": "refinedev/refine"
-    },
-    {
-      "repo": "JetBrains/go-modern-guidelines"
-    },
-    {
-      "repo": "KhazP/vibe-coding-prompt-template"
-    },
-    {
-      "repo": "MadAppGang/dingo"
-    },
-    {
-      "repo": "ethanplusai/jarvis"
-    },
-    {
-      "repo": "wavetermdev/waveterm"
-    },
-    {
-      "repo": "Lonero-Team/Decentralized-Internet"
-    },
-    {
-      "repo": "kubero-dev/kubero"
-    },
-    {
-      "repo": "Agent-Field/SWE-AF"
-    },
-    {
-      "repo": "am-will/gooey-pi"
-    },
-    {
-      "repo": "zealdocs/zeal"
-    },
-    {
-      "repo": "fuxicodex/Fuxi"
-    },
-    {
-      "repo": "stormzhang/token-tracker"
-    },
-    {
-      "repo": "nikolaydubina/go-recipes"
-    },
-    {
-      "repo": "study8677/repobrain"
-    },
-    {
-      "repo": "microsoft/ai-dev-gallery"
-    },
-    {
-      "repo": "krishn404/Git-Friend"
-    },
-    {
-      "repo": "LiuMengxuan04/MiniCode"
-    },
-    {
-      "repo": "sodiumsun/agenttrail"
-    },
-    {
-      "repo": "danvergara/dblab"
-    },
-    {
-      "repo": "appbaseio/reactivesearch"
-    },
-    {
-      "repo": "voidcosmos/npkill"
-    },
-    {
-      "repo": "rubycdp/ferrum"
-    },
-    {
-      "repo": "JelteF/derive_more"
-    },
-    {
-      "repo": "raiyanyahya/recall"
-    },
-    {
-      "repo": "eltociear/awesome-AI-driven-development"
-    },
-    {
-      "repo": "Giammarco-Ferranti/deja"
-    },
-    {
-      "repo": "RedPlanetHQ/core"
-    },
-    {
-      "repo": "2akouwu/reverify"
-    },
-    {
       "repo": "Dong90/oh-my-taiyiforge"
     },
     {
@@ -3239,8 +3068,9 @@
     },
     "agentrhq/webcmd": {
       "status": "held",
-      "checkedAt": "2026-09-11T21:43:33.440Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "altimateai/altimate-code": {
       "status": "held",
@@ -5142,8 +4972,9 @@
     },
     "jordancoin/codemap": {
       "status": "held",
-      "checkedAt": "2026-09-14T00:44:18.483Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "marcosnils/bin": {
       "status": "held",
@@ -8418,8 +8249,9 @@
     },
     "stormzhang/token-tracker": {
       "status": "held",
-      "checkedAt": "2026-09-14T12:44:22.966Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "learnprompt/learnprompt": {
       "status": "held",
@@ -9647,8 +9479,9 @@
     },
     "giammarco-ferranti/deja": {
       "status": "held",
-      "checkedAt": "2026-09-14T17:44:24.786Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "twpayne/chezmoi": {
       "status": "held",
@@ -25492,7 +25325,250 @@
       "checkedAt": "2026-09-22T07:43:54.337Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "alexandrehtrb/pororoca": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "leo-lilinxiao/codex-autoresearch": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "httptoolkit/httptoolkit-server": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "qpoint-io/qtap": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "jia-ethan/claude-keysmith": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "palkan/isolator": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "software-mansion/live-debugger": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "scottarbeit/grace": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "mereyabdenbekuly-ctrl/clodex-ide": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "electron/osx-sign": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "imkkingshuk/lockknife": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bysiber/cleardisk": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "jiweiyeah/skills-manager": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "ipyflow/ipyflow": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "refinedev/refine": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "jetbrains/go-modern-guidelines": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "khazp/vibe-coding-prompt-template": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "madappgang/dingo": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "ethanplusai/jarvis": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "lonero-team/decentralized-internet": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "kubero-dev/kubero": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "agent-field/swe-af": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "am-will/gooey-pi": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "zealdocs/zeal": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "nikolaydubina/go-recipes": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "study8677/repobrain": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "microsoft/ai-dev-gallery": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "krishn404/git-friend": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "sodiumsun/agenttrail": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "appbaseio/reactivesearch": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "rubycdp/ferrum": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "jeltef/derive_more": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "raiyanyahya/recall": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "eltociear/awesome-ai-driven-development": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "redplanethq/core": {
+      "status": "held",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "2akouwu/reverify": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T08:43:34.709Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "2akouwu-reverify",
+      "acceptedAt": "2026-09-22T08:43:34.709Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/2akouwu/reverify/blob/f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923/pyproject.toml",
+          "snippet": "reverify = \"reverify.cli:main\"",
+          "target": "reverify/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/2akouwu/reverify/blob/f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923/README.md",
+          "snippet": "pip install reverify        # pure-Python core; or \"reverify[full]\" for capstone+unicorn+lief"
+        },
+        "usage": {
+          "url": "https://github.com/2akouwu/reverify/blob/f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923/README.md",
+          "snippet": "reverify auto sample.bin --json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/2akouwu/reverify",
+          "snippet": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI."
+        },
+        "adoption": {
+          "stars": 1240,
+          "githubSource": "https://github.com/2akouwu/reverify",
+          "homebrew": null
+        },
+        "commit": "f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923"
+      }
     }
   },
-  "lastRunAt": "2026-09-22T07:43:54.337Z"
+  "lastRunAt": "2026-09-22T08:43:34.709Z"
 }
