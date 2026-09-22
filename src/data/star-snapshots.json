@@ -10514,5 +10514,47 @@
       "date": "2026-09-21",
       "stars": 950
     }
+  ],
+  "str4d-age-plugin-yubikey": [
+    {
+      "date": "2026-09-22",
+      "stars": 975
+    }
+  ],
+  "svetlitski-fcp": [
+    {
+      "date": "2026-09-22",
+      "stars": 856
+    }
+  ],
+  "jackwener-xhs-cli": [
+    {
+      "date": "2026-09-22",
+      "stars": 660
+    }
+  ],
+  "markserv-markserv": [
+    {
+      "date": "2026-09-22",
+      "stars": 623
+    }
+  ],
+  "ynqa-sig": [
+    {
+      "date": "2026-09-22",
+      "stars": 770
+    }
+  ],
+  "noisrucer-girok": [
+    {
+      "date": "2026-09-22",
+      "stars": 501
+    }
+  ],
+  "rtfpessoa-diff2html-cli": [
+    {
+      "date": "2026-09-22",
+      "stars": 605
+    }
   ]
 }

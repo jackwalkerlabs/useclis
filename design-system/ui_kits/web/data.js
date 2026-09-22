@@ -8551,6 +8551,139 @@ window.USECLIS_DATA = {
       "stars": 950,
       "license": "MIT",
       "checkedAt": "2026-09-21T12:48:36.694Z"
+    },
+    {
+      "slug": "str4d-age-plugin-yubikey",
+      "name": "age-plugin-yubikey",
+      "repo": "str4d/age-plugin-yubikey",
+      "category": "Security & secrets",
+      "command": "age-plugin-yubikey",
+      "useCase": "YubiKey plugin for age",
+      "description": "YubiKey plugin for age",
+      "agentUse": "Invoke age-plugin-yubikey from a shell for the documented use case: YubiKey plugin for age",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "age-plugin-yubikey --generate",
+      "website": "https://github.com/str4d/age-plugin-yubikey",
+      "docs": "https://github.com/str4d/age-plugin-yubikey/blob/cafbc75fbd309e6f7ab62749052f98a91a89764e/README.md",
+      "stars": 975,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-22T00:44:17.503Z"
+    },
+    {
+      "slug": "svetlitski-fcp",
+      "name": "fcp",
+      "repo": "Svetlitski/fcp",
+      "category": "Files & documents",
+      "command": "fcp",
+      "useCase": "A significantly faster alternative to the classic Unix cp(1) command, copying large files and directories in a fraction of the time.",
+      "description": "A significantly faster alternative to the classic Unix cp(1) command, copying large files and directories in a fraction of the time.",
+      "agentUse": "Invoke fcp from a shell for the documented use case: A significantly faster alternative to the classic Unix cp(1) command, copying large files and directories in a fraction of the time.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fcp 0.2.1",
+      "website": "https://github.com/Svetlitski/fcp",
+      "docs": "https://github.com/Svetlitski/fcp/blob/f8db0603ff0fb66d34d3c461b8e6239b72e1cad2/README.md",
+      "stars": 856,
+      "license": "BSD-3-Clause",
+      "checkedAt": "2026-09-22T00:44:17.969Z"
+    },
+    {
+      "slug": "jackwener-xhs-cli",
+      "name": "xhs-cli",
+      "repo": "jackwener/xhs-cli",
+      "category": "Terminal utilities",
+      "command": "xhs",
+      "useCase": "小红书命令行工具 — 搜索、阅读、点赞、收藏、评论，全在终端完成 | Xiaohongshu CLI",
+      "description": "小红书命令行工具 — 搜索、阅读、点赞、收藏、评论，全在终端完成 | Xiaohongshu CLI",
+      "agentUse": "Invoke xhs from a shell for the documented use case: 小红书命令行工具 — 搜索、阅读、点赞、收藏、评论，全在终端完成 | Xiaohongshu CLI",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "xhs status",
+      "website": "https://github.com/jackwener/xhs-cli",
+      "docs": "https://github.com/jackwener/xhs-cli/blob/3ce71415dc0816ebb4c3f547baf6c08fb3d5cb5a/README.md",
+      "stars": 660,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-22T00:44:18.501Z"
+    },
+    {
+      "slug": "markserv-markserv",
+      "name": "markserv",
+      "repo": "markserv/markserv",
+      "category": "Git & collaboration",
+      "command": "markserv",
+      "useCase": "🏁  serve markdown as html (GitHub style), index directories, live-reload as you edit",
+      "description": "🏁  serve markdown as html (GitHub style), index directories, live-reload as you edit",
+      "agentUse": "Invoke markserv from a shell for the documented use case: 🏁  serve markdown as html (GitHub style), index directories, live-reload as you edit",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "markserv README.md",
+      "website": "https://github.com/markserv/markserv",
+      "docs": "https://github.com/markserv/markserv/blob/f295bf093a79e745af0bf26bcd4a8a08e011eb34/README.md",
+      "stars": 623,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T00:44:18.953Z"
+    },
+    {
+      "slug": "ynqa-sig",
+      "name": "sig",
+      "repo": "ynqa/sig",
+      "category": "Code search",
+      "command": "sig",
+      "useCase": "Interactive grep (for streaming)",
+      "description": "Interactive grep (for streaming)",
+      "agentUse": "Invoke sig from a shell for the documented use case: Interactive grep (for streaming)",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "sig --cmd \"stern --context kind-kind etcd\"",
+      "website": "https://github.com/ynqa/sig",
+      "docs": "https://github.com/ynqa/sig/blob/e002a10c8334686ab55b4b2e91d442840a6f2923/README.md",
+      "stars": 770,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T00:44:19.436Z"
+    },
+    {
+      "slug": "noisrucer-girok",
+      "name": "girok",
+      "repo": "noisrucer/girok",
+      "category": "Productivity & communication",
+      "command": "girok",
+      "useCase": "A powerful and beautiful CLI scheduler",
+      "description": "A powerful and beautiful CLI scheduler",
+      "agentUse": "Invoke girok from a shell for the documented use case: A powerful and beautiful CLI scheduler",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "girok addtask --help",
+      "website": "https://github.com/noisrucer/girok",
+      "docs": "https://github.com/noisrucer/girok/blob/f645cdfdab97f31eb8adce9cc434a5e030dc849a/README.md",
+      "stars": 501,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-22T00:44:19.857Z"
+    },
+    {
+      "slug": "rtfpessoa-diff2html-cli",
+      "name": "diff2html-cli",
+      "repo": "rtfpessoa/diff2html-cli",
+      "category": "Git & collaboration",
+      "command": "diff2html",
+      "useCase": "Pretty diff to html javascript cli (diff2html-cli)",
+      "description": "Pretty diff to html javascript cli (diff2html-cli)",
+      "agentUse": "Invoke diff2html from a shell for the documented use case: Pretty diff to html javascript cli (diff2html-cli)",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "diff2html -i file -- my-file-diff.diff",
+      "website": "https://github.com/rtfpessoa/diff2html-cli",
+      "docs": "https://github.com/rtfpessoa/diff2html-cli/blob/18add5d220d624022dd24a303c55f4a63547b65b/README.md",
+      "stars": 605,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T00:44:20.456Z"
     }
   ],
   "categories": [

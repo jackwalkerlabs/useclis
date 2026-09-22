@@ -4,132 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "str4d/age-plugin-yubikey"
-    },
-    {
-      "repo": "Svetlitski/fcp"
-    },
-    {
-      "repo": "greymd/teip"
-    },
-    {
-      "repo": "guywaldman/magic-cli"
-    },
-    {
-      "repo": "esimov/diagram"
-    },
-    {
-      "repo": "cli-table/cli-table3"
-    },
-    {
-      "repo": "xen0l/aws-gate"
-    },
-    {
-      "repo": "0xKarl-dev/claw-codes"
-    },
-    {
-      "repo": "keyshade-xyz/keyshade"
-    },
-    {
-      "repo": "desertbit/grumble"
-    },
-    {
-      "repo": "Broderick-Westrope/tetrigo"
-    },
-    {
-      "repo": "mevdschee/2048.c"
-    },
-    {
-      "repo": "satococoa/wtp"
-    },
-    {
-      "repo": "42futures/firm"
-    },
-    {
-      "repo": "nikolassv/bartib"
-    },
-    {
-      "repo": "olets/zsh-abbr"
-    },
-    {
-      "repo": "jackwener/xhs-cli"
-    },
-    {
-      "repo": "resurrecting-open-source-projects/scrot"
-    },
-    {
-      "repo": "twitchdev/twitch-cli"
-    },
-    {
-      "repo": "markserv/markserv"
-    },
-    {
-      "repo": "kowainik/summoner"
-    },
-    {
-      "repo": "Rishurajgautam24/free-claude-code"
-    },
-    {
-      "repo": "ynqa/sig"
-    },
-    {
-      "repo": "liamg/tml"
-    },
-    {
-      "repo": "alemidev/scope-tui"
-    },
-    {
-      "repo": "Beastwick18/nyaa"
-    },
-    {
-      "repo": "povils/phpmnd"
-    },
-    {
-      "repo": "stovmascript/react-native-version"
-    },
-    {
-      "repo": "ashish0kumar/stormy"
-    },
-    {
-      "repo": "InkSha/rust-tutorial"
-    },
-    {
-      "repo": "arl/gitmux"
-    },
-    {
-      "repo": "L1AD/claude-task-viewer"
-    },
-    {
-      "repo": "noisrucer/girok"
-    },
-    {
-      "repo": "mansuf/mangadex-downloader"
-    },
-    {
-      "repo": "rtfpessoa/diff2html-cli"
-    },
-    {
-      "repo": "naelstrof/slop"
-    },
-    {
-      "repo": "StringManolo/hackingTermux101"
-    },
-    {
-      "repo": "rndusr/stig"
-    },
-    {
-      "repo": "hellzerg/optimizerNXT"
-    },
-    {
-      "repo": "RobinCK/typeorm-fixtures"
-    },
-    {
-      "repo": "bgauryy/open-docs"
-    },
-    {
-      "repo": "superfly/fly"
-    },
-    {
       "repo": "firecracker-microvm/firectl"
     },
     {
@@ -6535,14 +6409,43 @@
       }
     },
     "svetlitski/fcp": {
-      "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "svetlitski-fcp",
+      "acceptedAt": "2026-09-22T00:43:33.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Svetlitski/fcp/blob/f8db0603ff0fb66d34d3c461b8e6239b72e1cad2/Cargo.toml",
+          "snippet": "[[bin]] name=\"fcp\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/Svetlitski/fcp/blob/f8db0603ff0fb66d34d3c461b8e6239b72e1cad2/README.md",
+          "snippet": "cargo install fcp"
+        },
+        "usage": {
+          "url": "https://github.com/Svetlitski/fcp/blob/f8db0603ff0fb66d34d3c461b8e6239b72e1cad2/README.md",
+          "snippet": "fcp 0.2.1"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Svetlitski/fcp",
+          "snippet": "A significantly faster alternative to the classic Unix cp(1) command, copying large files and directories in a fraction of the time."
+        },
+        "adoption": {
+          "stars": 856,
+          "githubSource": "https://github.com/Svetlitski/fcp",
+          "homebrew": null
+        },
+        "commit": "f8db0603ff0fb66d34d3c461b8e6239b72e1cad2"
+      }
     },
     "greymd/teip": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "xgi/castero": {
       "status": "held",
@@ -6595,8 +6498,9 @@
     },
     "mevdschee/2048.c": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ndd7xv/heh": {
       "status": "held",
@@ -6663,8 +6567,9 @@
     },
     "olets/zsh-abbr": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "knqyf263/pet": {
       "status": "held",
@@ -6677,9 +6582,37 @@
       "reason": "Terminal use case needs classification"
     },
     "ynqa/sig": {
-      "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ynqa-sig",
+      "acceptedAt": "2026-09-22T00:43:33.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ynqa/sig/blob/e002a10c8334686ab55b4b2e91d442840a6f2923/Cargo.toml",
+          "snippet": "[[bin]] name=\"sig\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/ynqa/sig/blob/e002a10c8334686ab55b4b2e91d442840a6f2923/README.md",
+          "snippet": "cargo install sigrs"
+        },
+        "usage": {
+          "url": "https://github.com/ynqa/sig/blob/e002a10c8334686ab55b4b2e91d442840a6f2923/README.md",
+          "snippet": "sig --cmd \"stern --context kind-kind etcd\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ynqa/sig",
+          "snippet": "Interactive grep (for streaming)"
+        },
+        "adoption": {
+          "stars": 770,
+          "githubSource": "https://github.com/ynqa/sig",
+          "homebrew": null
+        },
+        "commit": "e002a10c8334686ab55b4b2e91d442840a6f2923"
+      }
     },
     "mikaelmello/inquire": {
       "status": "held",
@@ -6717,9 +6650,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "noisrucer/girok": {
-      "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "noisrucer-girok",
+      "acceptedAt": "2026-09-22T00:43:33.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/noisrucer/girok/blob/f645cdfdab97f31eb8adce9cc434a5e030dc849a/pyproject.toml",
+          "snippet": "girok = \"girok.girok:app\"",
+          "target": "girok/girok.py"
+        },
+        "installation": {
+          "url": "https://github.com/noisrucer/girok/blob/f645cdfdab97f31eb8adce9cc434a5e030dc849a/README.md",
+          "snippet": "### Upgrade with `pip install girok --upgrade`"
+        },
+        "usage": {
+          "url": "https://github.com/noisrucer/girok/blob/f645cdfdab97f31eb8adce9cc434a5e030dc849a/README.md",
+          "snippet": "girok addtask --help"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/noisrucer/girok",
+          "snippet": "A powerful and beautiful CLI scheduler"
+        },
+        "adoption": {
+          "stars": 501,
+          "githubSource": "https://github.com/noisrucer/girok",
+          "homebrew": null
+        },
+        "commit": "f645cdfdab97f31eb8adce9cc434a5e030dc849a"
+      }
     },
     "harelba/q": {
       "status": "held",
@@ -9128,8 +9089,9 @@
     },
     "guywaldman/magic-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "tencent/feflow": {
       "status": "held",
@@ -9143,8 +9105,9 @@
     },
     "cli-table/cli-table3": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sandreas/m4b-tool": {
       "status": "held",
@@ -9824,8 +9787,9 @@
     },
     "resurrecting-open-source-projects/scrot": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "run-llama/semtools": {
       "status": "accepted",
@@ -9998,8 +9962,9 @@
     },
     "mansuf/mangadex-downloader": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rcoh/angle-grinder": {
       "status": "held",
@@ -24267,7 +24232,295 @@
       "checkedAt": "2026-09-21T07:43:37.523Z",
       "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
+    },
+    "str4d/age-plugin-yubikey": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "str4d-age-plugin-yubikey",
+      "acceptedAt": "2026-09-22T00:43:33.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/str4d/age-plugin-yubikey/blob/cafbc75fbd309e6f7ab62749052f98a91a89764e/Cargo.toml",
+          "snippet": "package.name=\"age-plugin-yubikey\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/str4d/age-plugin-yubikey/blob/cafbc75fbd309e6f7ab62749052f98a91a89764e/README.md",
+          "snippet": "| Cargo (Rust 1.70+) | `cargo install age-plugin-yubikey` |"
+        },
+        "usage": {
+          "url": "https://github.com/str4d/age-plugin-yubikey/blob/cafbc75fbd309e6f7ab62749052f98a91a89764e/README.md",
+          "snippet": "age-plugin-yubikey --generate"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/str4d/age-plugin-yubikey",
+          "snippet": "YubiKey plugin for age"
+        },
+        "adoption": {
+          "stars": 975,
+          "githubSource": "https://github.com/str4d/age-plugin-yubikey",
+          "homebrew": null
+        },
+        "commit": "cafbc75fbd309e6f7ab62749052f98a91a89764e"
+      }
+    },
+    "esimov/diagram": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "xen0l/aws-gate": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "0xkarl-dev/claw-codes": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "keyshade-xyz/keyshade": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "desertbit/grumble": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "satococoa/wtp": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "42futures/firm": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jackwener/xhs-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "jackwener-xhs-cli",
+      "acceptedAt": "2026-09-22T00:43:33.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/jackwener/xhs-cli/blob/3ce71415dc0816ebb4c3f547baf6c08fb3d5cb5a/pyproject.toml",
+          "snippet": "xhs = \"xhs_cli.cli:cli\"",
+          "target": "xhs_cli/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/jackwener/xhs-cli/blob/3ce71415dc0816ebb4c3f547baf6c08fb3d5cb5a/README.md",
+          "snippet": "uv tool install xhs-cli"
+        },
+        "usage": {
+          "url": "https://github.com/jackwener/xhs-cli/blob/3ce71415dc0816ebb4c3f547baf6c08fb3d5cb5a/README.md",
+          "snippet": "xhs status"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/jackwener/xhs-cli",
+          "snippet": "小红书命令行工具 — 搜索、阅读、点赞、收藏、评论，全在终端完成 | Xiaohongshu CLI"
+        },
+        "adoption": {
+          "stars": 660,
+          "githubSource": "https://github.com/jackwener/xhs-cli",
+          "homebrew": null
+        },
+        "commit": "3ce71415dc0816ebb4c3f547baf6c08fb3d5cb5a"
+      }
+    },
+    "twitchdev/twitch-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "markserv/markserv": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "markserv-markserv",
+      "acceptedAt": "2026-09-22T00:43:33.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/markserv/markserv/blob/f295bf093a79e745af0bf26bcd4a8a08e011eb34/package.json",
+          "snippet": "{\"bin\":{\"markserv\":\"lib/cli.js\"}}",
+          "target": "lib/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/markserv/markserv/blob/f295bf093a79e745af0bf26bcd4a8a08e011eb34/README.md",
+          "snippet": "$ npm i -g markserv"
+        },
+        "usage": {
+          "url": "https://github.com/markserv/markserv/blob/f295bf093a79e745af0bf26bcd4a8a08e011eb34/README.md",
+          "snippet": "markserv README.md"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/markserv/markserv",
+          "snippet": "🏁  serve markdown as html (GitHub style), index directories, live-reload as you edit"
+        },
+        "adoption": {
+          "stars": 623,
+          "githubSource": "https://github.com/markserv/markserv",
+          "homebrew": null
+        },
+        "commit": "f295bf093a79e745af0bf26bcd4a8a08e011eb34"
+      }
+    },
+    "kowainik/summoner": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rishurajgautam24/free-claude-code": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "liamg/tml": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "alemidev/scope-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "beastwick18/nyaa": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "povils/phpmnd": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "stovmascript/react-native-version": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ashish0kumar/stormy": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "inksha/rust-tutorial": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "arl/gitmux": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "l1ad/claude-task-viewer": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rtfpessoa/diff2html-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "rtfpessoa-diff2html-cli",
+      "acceptedAt": "2026-09-22T00:43:33.028Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/rtfpessoa/diff2html-cli/blob/18add5d220d624022dd24a303c55f4a63547b65b/package.json",
+          "snippet": "{\"bin\":{\"diff2html\":\"./bin/diff2html.js\"}}",
+          "target": "bin/diff2html.js"
+        },
+        "installation": {
+          "url": "https://github.com/rtfpessoa/diff2html-cli/blob/18add5d220d624022dd24a303c55f4a63547b65b/README.md",
+          "snippet": "npm install -g diff2html-cli"
+        },
+        "usage": {
+          "url": "https://github.com/rtfpessoa/diff2html-cli/blob/18add5d220d624022dd24a303c55f4a63547b65b/README.md",
+          "snippet": "diff2html -i file -- my-file-diff.diff"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/rtfpessoa/diff2html-cli",
+          "snippet": "Pretty diff to html javascript cli (diff2html-cli)"
+        },
+        "adoption": {
+          "stars": 605,
+          "githubSource": "https://github.com/rtfpessoa/diff2html-cli",
+          "homebrew": null
+        },
+        "commit": "18add5d220d624022dd24a303c55f4a63547b65b"
+      }
+    },
+    "naelstrof/slop": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "stringmanolo/hackingtermux101": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rndusr/stig": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hellzerg/optimizernxt": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "robinck/typeorm-fixtures": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bgauryy/open-docs": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "superfly/fly": {
+      "status": "held",
+      "checkedAt": "2026-09-22T00:43:33.028Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-21T23:43:34.998Z"
+  "lastRunAt": "2026-09-22T00:43:33.028Z"
 }
