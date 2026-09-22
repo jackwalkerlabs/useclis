@@ -9007,6 +9007,177 @@ window.USECLIS_DATA = {
       "stars": 11505,
       "license": "MIT",
       "checkedAt": "2026-09-22T03:44:16.662Z"
+    },
+    {
+      "slug": "atanunq-viu",
+      "name": "viu",
+      "repo": "atanunq/viu",
+      "category": "Terminal utilities",
+      "command": "viu",
+      "useCase": "Terminal image viewer with native support for iTerm and Kitty",
+      "description": "Terminal image viewer with native support for iTerm and Kitty",
+      "agentUse": "Invoke viu from a shell for the documented use case: Terminal image viewer with native support for iTerm and Kitty",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "viu img/giphy.gif",
+      "website": "https://github.com/atanunq/viu",
+      "docs": "https://github.com/atanunq/viu/blob/5733be5f8b18c54495123725e7f13cc5ec23ee68/README.md",
+      "stars": 3280,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T04:44:13.624Z"
+    },
+    {
+      "slug": "infinitered-gluegun",
+      "name": "gluegun",
+      "repo": "infinitered/gluegun",
+      "category": "Terminal utilities",
+      "command": "gluegun",
+      "useCase": "A delightful toolkit for building TypeScript-powered command-line apps.",
+      "description": "A delightful toolkit for building TypeScript-powered command-line apps.",
+      "agentUse": "Invoke gluegun from a shell for the documented use case: A delightful toolkit for building TypeScript-powered command-line apps.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "gluegun new mycli",
+      "website": "https://github.com/infinitered/gluegun",
+      "docs": "https://github.com/infinitered/gluegun/blob/a343d0f256187ec810c67162ec1edb9cc7640f73/docs/getting-started.md",
+      "stars": 3146,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T04:44:14.042Z"
+    },
+    {
+      "slug": "sindresorhus-fkill-cli",
+      "name": "fkill-cli",
+      "repo": "sindresorhus/fkill-cli",
+      "category": "Terminal utilities",
+      "command": "fkill",
+      "useCase": "Fabulously kill processes. Cross-platform.",
+      "description": "Fabulously kill processes. Cross-platform.",
+      "agentUse": "Invoke fkill from a shell for the documented use case: Fabulously kill processes. Cross-platform.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fkill 1337",
+      "website": "https://github.com/sindresorhus/fkill-cli",
+      "docs": "https://github.com/sindresorhus/fkill-cli/blob/2afe64c9110612ef377d0aa8fdcf8c0ba8d940a1/readme.md",
+      "stars": 7006,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T04:44:14.577Z"
+    },
+    {
+      "slug": "klaudiosinani-taskbook",
+      "name": "taskbook",
+      "repo": "klaudiosinani/taskbook",
+      "category": "Terminal utilities",
+      "command": "tb",
+      "useCase": "Tasks, boards & notes for the command-line habitat",
+      "description": "Tasks, boards & notes for the command-line habitat",
+      "agentUse": "Invoke tb from a shell for the documented use case: Tasks, boards & notes for the command-line habitat",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "tb --archive",
+      "website": "https://github.com/klaudiosinani/taskbook",
+      "docs": "https://github.com/klaudiosinani/taskbook/blob/49b760a76c5b96caf4a3abd821fffa9b819092a0/readme.md",
+      "stars": 9345,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T04:44:14.944Z"
+    },
+    {
+      "slug": "pomber-git-history",
+      "name": "git-history",
+      "repo": "pomber/git-history",
+      "category": "Git & collaboration",
+      "command": "git-file-history",
+      "useCase": "Quickly browse the history of a file from any git repository",
+      "description": "Quickly browse the history of a file from any git repository",
+      "agentUse": "Invoke git-file-history from a shell for the documented use case: Quickly browse the history of a file from any git repository",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "git-file-history path/to/file.ext",
+      "website": "https://github.com/pomber/git-history",
+      "docs": "https://github.com/pomber/git-history/blob/a20f6085cf9055b350a4db13cea6e013936da9cd/cli/readme.md",
+      "stars": 13683,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T04:44:15.516Z"
+    },
+    {
+      "slug": "mysticatea-npm-run-all",
+      "name": "npm-run-all",
+      "repo": "mysticatea/npm-run-all",
+      "category": "Terminal utilities",
+      "command": "npm-run-all",
+      "useCase": "A CLI tool to run multiple npm-scripts in parallel or sequential.",
+      "description": "A CLI tool to run multiple npm-scripts in parallel or sequential.",
+      "agentUse": "Invoke npm-run-all from a shell for the documented use case: A CLI tool to run multiple npm-scripts in parallel or sequential.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "npm-run-all clean build:*",
+      "website": "https://github.com/mysticatea/npm-run-all",
+      "docs": "https://github.com/mysticatea/npm-run-all/blob/bf91f94ce597aa61da37d2e4208ce8c48bc86673/README.md",
+      "stars": 5833,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T04:44:15.960Z"
+    },
+    {
+      "slug": "formidablelabs-webpack-dashboard",
+      "name": "webpack-dashboard",
+      "repo": "FormidableLabs/webpack-dashboard",
+      "category": "Terminal utilities",
+      "command": "webpack-dashboard",
+      "useCase": "A CLI dashboard for webpack dev server",
+      "description": "A CLI dashboard for webpack dev server",
+      "agentUse": "Invoke webpack-dashboard from a shell for the documented use case: A CLI dashboard for webpack dev server",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "webpack-dashboard --port 3001 -- webpack",
+      "website": "https://github.com/FormidableLabs/webpack-dashboard",
+      "docs": "https://github.com/FormidableLabs/webpack-dashboard/blob/9333a27e4b8f784fee13132df4f88e73aca3ca31/README.md",
+      "stars": 13962,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T04:44:16.366Z"
+    },
+    {
+      "slug": "niklashigi-apk-mitm",
+      "name": "apk-mitm",
+      "repo": "niklashigi/apk-mitm",
+      "category": "Files & documents",
+      "command": "apk-mitm",
+      "useCase": "🤖 A CLI application that automatically prepares Android APK files for HTTPS inspection",
+      "description": "🤖 A CLI application that automatically prepares Android APK files for HTTPS inspection",
+      "agentUse": "Invoke apk-mitm from a shell for the documented use case: 🤖 A CLI application that automatically prepares Android APK files for HTTPS inspection",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "apk-mitm example.apk",
+      "website": "https://github.com/niklashigi/apk-mitm",
+      "docs": "https://github.com/niklashigi/apk-mitm/blob/5a96363fc9112b97d60fc2bd3799d6bbfd8e4e00/README.md",
+      "stars": 5112,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T04:44:16.757Z"
+    },
+    {
+      "slug": "jondot-hygen",
+      "name": "hygen",
+      "repo": "jondot/hygen",
+      "category": "Terminal utilities",
+      "command": "hygen",
+      "useCase": "The simple, fast, and scalable code generator that lives in your project.",
+      "description": "The simple, fast, and scalable code generator that lives in your project.",
+      "agentUse": "Invoke hygen from a shell for the documented use case: The simple, fast, and scalable code generator that lives in your project.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "hygen init self",
+      "website": "https://github.com/jondot/hygen",
+      "docs": "https://github.com/jondot/hygen/blob/26f76d8dede565b2bf38d0b9e9f3009ee2c8f9ae/README.md",
+      "stars": 5933,
+      "license": "MIT",
+      "checkedAt": "2026-09-22T04:44:17.137Z"
     }
   ],
   "categories": [

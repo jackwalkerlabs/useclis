@@ -4,135 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "muesli/duf"
-    },
-    {
-      "repo": "qeeqbox/social-analyzer"
-    },
-    {
-      "repo": "trinib/Linux-Bash-Commands"
-    },
-    {
-      "repo": "antonmedv/walk"
-    },
-    {
-      "repo": "99designs/aws-vault"
-    },
-    {
-      "repo": "chubin/cheat.sh"
-    },
-    {
-      "repo": "wagoodman/dive"
-    },
-    {
-      "repo": "atanunq/viu"
-    },
-    {
-      "repo": "t3-oss/create-t3-app"
-    },
-    {
-      "repo": "rs/curlie"
-    },
-    {
-      "repo": "infinitered/gluegun"
-    },
-    {
-      "repo": "timvisee/ffsend"
-    },
-    {
-      "repo": "ponzu-cms/ponzu"
-    },
-    {
-      "repo": "mixn/carbon-now-cli"
-    },
-    {
-      "repo": "sindresorhus/fkill-cli"
-    },
-    {
-      "repo": "klaudiosinani/taskbook"
-    },
-    {
-      "repo": "s3tools/s3cmd"
-    },
-    {
-      "repo": "Adembc/lazyssh"
-    },
-    {
-      "repo": "plandex-ai/plandex"
-    },
-    {
-      "repo": "danburzo/percollate"
-    },
-    {
-      "repo": "alebcay/awesome-shell"
-    },
-    {
-      "repo": "c-bata/go-prompt"
-    },
-    {
-      "repo": "jhawthorn/fzy"
-    },
-    {
-      "repo": "gnebbia/kb"
-    },
-    {
-      "repo": "peak/s5cmd"
-    },
-    {
-      "repo": "iterative/cml"
-    },
-    {
-      "repo": "tomnomnom/gron"
-    },
-    {
-      "repo": "terkelg/prompts"
-    },
-    {
-      "repo": "mifi/editly"
-    },
-    {
-      "repo": "withfig/autocomplete"
-    },
-    {
-      "repo": "hasura/graphqurl"
-    },
-    {
-      "repo": "httpie/cli"
-    },
-    {
-      "repo": "pomber/git-history"
-    },
-    {
-      "repo": "pystardust/ytfzf"
-    },
-    {
-      "repo": "ibraheemdev/modern-unix"
-    },
-    {
-      "repo": "deepjyoti30/ytmdl"
-    },
-    {
-      "repo": "mysticatea/npm-run-all"
-    },
-    {
-      "repo": "FormidableLabs/webpack-dashboard"
-    },
-    {
-      "repo": "manifoldco/promptui"
-    },
-    {
-      "repo": "niklashigi/apk-mitm"
-    },
-    {
-      "repo": "jondot/hygen"
-    },
-    {
-      "repo": "enquirer/enquirer"
-    },
-    {
-      "repo": "cube2222/octosql"
-    },
-    {
       "repo": "httpie/http-prompt"
     },
     {
@@ -6357,8 +6228,9 @@
     },
     "trinib/linux-bash-commands": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "hauntsaninja/pyp": {
       "status": "held",
@@ -6378,8 +6250,9 @@
     },
     "chubin/cheat.sh": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "learnbyexample/learn_gnuawk": {
       "status": "held",
@@ -6403,8 +6276,9 @@
     },
     "mixn/carbon-now-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "oniony/tmsu": {
       "status": "held",
@@ -6434,8 +6308,9 @@
     },
     "plandex-ai/plandex": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sindresorhus/terminal-link": {
       "status": "held",
@@ -6469,8 +6344,9 @@
     },
     "c-bata/go-prompt": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "fabiofalci/sconsify": {
       "status": "held",
@@ -6509,12 +6385,14 @@
     },
     "terkelg/prompts": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mifi/editly": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "gitbito/cli": {
@@ -6666,8 +6544,9 @@
     },
     "ibraheemdev/modern-unix": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "faressoft/terminalizer": {
       "status": "held",
@@ -7744,8 +7623,9 @@
     },
     "manifoldco/promptui": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "davydany/sultan": {
       "status": "held",
@@ -7779,8 +7659,9 @@
     },
     "enquirer/enquirer": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "vercel/micro-dev": {
       "status": "held",
@@ -9908,9 +9789,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "infinitered/gluegun": {
-      "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "infinitered-gluegun",
+      "acceptedAt": "2026-09-22T04:43:35.063Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/infinitered/gluegun/blob/a343d0f256187ec810c67162ec1edb9cc7640f73/package.json",
+          "snippet": "{\"bin\":{\"gluegun\":\"bin/gluegun\"}}",
+          "target": "bin/gluegun"
+        },
+        "installation": {
+          "url": "https://github.com/infinitered/gluegun/blob/a343d0f256187ec810c67162ec1edb9cc7640f73/docs/getting-started.md",
+          "snippet": "$ yarn global add gluegun"
+        },
+        "usage": {
+          "url": "https://github.com/infinitered/gluegun/blob/a343d0f256187ec810c67162ec1edb9cc7640f73/docs/getting-started.md",
+          "snippet": "gluegun new mycli"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/infinitered/gluegun",
+          "snippet": "A delightful toolkit for building TypeScript-powered command-line apps."
+        },
+        "adoption": {
+          "stars": 3146,
+          "githubSource": "https://github.com/infinitered/gluegun",
+          "homebrew": null
+        },
+        "commit": "a343d0f256187ec810c67162ec1edb9cc7640f73"
+      }
     },
     "gphotosuploader/gphotos-uploader-cli": {
       "status": "held",
@@ -9980,9 +9889,37 @@
       "reason": "Terminal use case needs classification"
     },
     "klaudiosinani/taskbook": {
-      "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "klaudiosinani-taskbook",
+      "acceptedAt": "2026-09-22T04:43:35.063Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/klaudiosinani/taskbook/blob/49b760a76c5b96caf4a3abd821fffa9b819092a0/package.json",
+          "snippet": "{\"bin\":{\"tb\":\"cli.js\"}}",
+          "target": "cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/klaudiosinani/taskbook/blob/49b760a76c5b96caf4a3abd821fffa9b819092a0/readme.md",
+          "snippet": "yarn global add taskbook"
+        },
+        "usage": {
+          "url": "https://github.com/klaudiosinani/taskbook/blob/49b760a76c5b96caf4a3abd821fffa9b819092a0/readme.md",
+          "snippet": "tb --archive"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/klaudiosinani/taskbook",
+          "snippet": "Tasks, boards & notes for the command-line habitat"
+        },
+        "adoption": {
+          "stars": 9345,
+          "githubSource": "https://github.com/klaudiosinani/taskbook",
+          "homebrew": null
+        },
+        "commit": "49b760a76c5b96caf4a3abd821fffa9b819092a0"
+      }
     },
     "fent/node-ytdl": {
       "status": "held",
@@ -10011,8 +9948,9 @@
     },
     "s3tools/s3cmd": {
       "status": "held",
-      "checkedAt": "2026-09-14T16:44:23.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "lowleveldesign/wtrace": {
       "status": "held",
@@ -10843,8 +10781,9 @@
     },
     "alebcay/awesome-shell": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "andrey-pohilko/registry-cli": {
       "status": "held",
@@ -10888,8 +10827,9 @@
     },
     "gnebbia/kb": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "wix/applesimulatorutils": {
       "status": "held",
@@ -12904,8 +12844,9 @@
     },
     "rs/curlie": {
       "status": "held",
-      "checkedAt": "2026-09-15T03:44:23.175Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "pranshuparmar/witr": {
       "status": "held",
@@ -14191,8 +14132,9 @@
     },
     "wagoodman/dive": {
       "status": "held",
-      "checkedAt": "2026-09-15T08:44:23.550Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rupeshs/fastsdcpu": {
       "status": "held",
@@ -15116,8 +15058,9 @@
     },
     "muesli/duf": {
       "status": "held",
-      "checkedAt": "2026-09-15T11:49:09.864Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "timmoth/rackpeek": {
       "status": "held",
@@ -17492,8 +17435,9 @@
     },
     "tomnomnom/gron": {
       "status": "held",
-      "checkedAt": "2026-09-16T00:44:17.092Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "groonga/groonga": {
       "status": "held",
@@ -18230,8 +18174,9 @@
     },
     "adembc/lazyssh": {
       "status": "held",
-      "checkedAt": "2026-09-16T04:44:21.445Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "linux-test-project/lcov": {
       "status": "held",
@@ -21573,9 +21518,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "atanunq/viu": {
-      "status": "held",
-      "checkedAt": "2026-09-17T03:44:07.546Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "atanunq-viu",
+      "acceptedAt": "2026-09-22T04:43:35.063Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/atanunq/viu/blob/5733be5f8b18c54495123725e7f13cc5ec23ee68/Cargo.toml",
+          "snippet": "package.name=\"viu\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/atanunq/viu/blob/5733be5f8b18c54495123725e7f13cc5ec23ee68/README.md",
+          "snippet": "cargo install viu"
+        },
+        "usage": {
+          "url": "https://github.com/atanunq/viu/blob/5733be5f8b18c54495123725e7f13cc5ec23ee68/README.md",
+          "snippet": "viu img/giphy.gif"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/atanunq/viu",
+          "snippet": "Terminal image viewer with native support for iTerm and Kitty"
+        },
+        "adoption": {
+          "stars": 3280,
+          "githubSource": "https://github.com/atanunq/viu",
+          "homebrew": null
+        },
+        "commit": "5733be5f8b18c54495123725e7f13cc5ec23ee68"
+      }
     },
     "sharkdp/vivid": {
       "status": "accepted",
@@ -24921,7 +24894,283 @@
       "checkedAt": "2026-09-22T03:43:33.626Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "qeeqbox/social-analyzer": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "antonmedv/walk": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "99designs/aws-vault": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "t3-oss/create-t3-app": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ponzu-cms/ponzu": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sindresorhus/fkill-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "sindresorhus-fkill-cli",
+      "acceptedAt": "2026-09-22T04:43:35.063Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/sindresorhus/fkill-cli/blob/2afe64c9110612ef377d0aa8fdcf8c0ba8d940a1/package.json",
+          "snippet": "{\"bin\":{\"fkill\":\"./cli.js\"}}",
+          "target": "cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/sindresorhus/fkill-cli/blob/2afe64c9110612ef377d0aa8fdcf8c0ba8d940a1/readme.md",
+          "snippet": "npm install --global fkill-cli"
+        },
+        "usage": {
+          "url": "https://github.com/sindresorhus/fkill-cli/blob/2afe64c9110612ef377d0aa8fdcf8c0ba8d940a1/readme.md",
+          "snippet": "fkill 1337"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/sindresorhus/fkill-cli",
+          "snippet": "Fabulously kill processes. Cross-platform."
+        },
+        "adoption": {
+          "stars": 7006,
+          "githubSource": "https://github.com/sindresorhus/fkill-cli",
+          "homebrew": null
+        },
+        "commit": "2afe64c9110612ef377d0aa8fdcf8c0ba8d940a1"
+      }
+    },
+    "jhawthorn/fzy": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "peak/s5cmd": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "iterative/cml": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "withfig/autocomplete": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hasura/graphqurl": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pomber/git-history": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "pomber-git-history",
+      "acceptedAt": "2026-09-22T04:43:35.063Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/pomber/git-history/blob/a20f6085cf9055b350a4db13cea6e013936da9cd/cli/package.json",
+          "snippet": "{\"bin\":{\"git-file-history\":\"./cli.js\"}}",
+          "target": "cli/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/pomber/git-history/blob/a20f6085cf9055b350a4db13cea6e013936da9cd/cli/readme.md",
+          "snippet": "$ npm install -g git-file-history"
+        },
+        "usage": {
+          "url": "https://github.com/pomber/git-history/blob/a20f6085cf9055b350a4db13cea6e013936da9cd/cli/readme.md",
+          "snippet": "git-file-history path/to/file.ext"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/pomber/git-history",
+          "snippet": "Quickly browse the history of a file from any git repository"
+        },
+        "adoption": {
+          "stars": 13683,
+          "githubSource": "https://github.com/pomber/git-history",
+          "homebrew": null
+        },
+        "commit": "a20f6085cf9055b350a4db13cea6e013936da9cd"
+      }
+    },
+    "pystardust/ytfzf": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "deepjyoti30/ytmdl": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mysticatea/npm-run-all": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "mysticatea-npm-run-all",
+      "acceptedAt": "2026-09-22T04:43:35.063Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mysticatea/npm-run-all/blob/bf91f94ce597aa61da37d2e4208ce8c48bc86673/package.json",
+          "snippet": "{\"bin\":{\"npm-run-all\":\"bin/npm-run-all/index.js\"}}",
+          "target": "bin/npm-run-all/index.js"
+        },
+        "installation": {
+          "url": "https://github.com/mysticatea/npm-run-all/blob/bf91f94ce597aa61da37d2e4208ce8c48bc86673/README.md",
+          "snippet": "$ npm install npm-run-all --save-dev"
+        },
+        "usage": {
+          "url": "https://github.com/mysticatea/npm-run-all/blob/bf91f94ce597aa61da37d2e4208ce8c48bc86673/README.md",
+          "snippet": "npm-run-all clean build:*"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mysticatea/npm-run-all",
+          "snippet": "A CLI tool to run multiple npm-scripts in parallel or sequential."
+        },
+        "adoption": {
+          "stars": 5833,
+          "githubSource": "https://github.com/mysticatea/npm-run-all",
+          "homebrew": null
+        },
+        "commit": "bf91f94ce597aa61da37d2e4208ce8c48bc86673"
+      }
+    },
+    "formidablelabs/webpack-dashboard": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "formidablelabs-webpack-dashboard",
+      "acceptedAt": "2026-09-22T04:43:35.063Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/FormidableLabs/webpack-dashboard/blob/9333a27e4b8f784fee13132df4f88e73aca3ca31/package.json",
+          "snippet": "{\"bin\":{\"webpack-dashboard\":\"bin/webpack-dashboard.js\"}}",
+          "target": "bin/webpack-dashboard.js"
+        },
+        "installation": {
+          "url": "https://github.com/FormidableLabs/webpack-dashboard/blob/9333a27e4b8f784fee13132df4f88e73aca3ca31/README.md",
+          "snippet": "> ℹ️ **Note**: You can alternatively globally install the dashboard (e.g. `npm install -g webpack-dashboard`) for use with any project and everything should work the same."
+        },
+        "usage": {
+          "url": "https://github.com/FormidableLabs/webpack-dashboard/blob/9333a27e4b8f784fee13132df4f88e73aca3ca31/README.md",
+          "snippet": "webpack-dashboard --port 3001 -- webpack"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/FormidableLabs/webpack-dashboard",
+          "snippet": "A CLI dashboard for webpack dev server"
+        },
+        "adoption": {
+          "stars": 13962,
+          "githubSource": "https://github.com/FormidableLabs/webpack-dashboard",
+          "homebrew": null
+        },
+        "commit": "9333a27e4b8f784fee13132df4f88e73aca3ca31"
+      }
+    },
+    "niklashigi/apk-mitm": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "niklashigi-apk-mitm",
+      "acceptedAt": "2026-09-22T04:43:35.063Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/niklashigi/apk-mitm/blob/5a96363fc9112b97d60fc2bd3799d6bbfd8e4e00/package.json",
+          "snippet": "{\"bin\":{\"apk-mitm\":\"bin/apk-mitm\"}}",
+          "target": "bin/apk-mitm"
+        },
+        "installation": {
+          "url": "https://github.com/niklashigi/apk-mitm/blob/5a96363fc9112b97d60fc2bd3799d6bbfd8e4e00/README.md",
+          "snippet": "npm install -g apk-mitm"
+        },
+        "usage": {
+          "url": "https://github.com/niklashigi/apk-mitm/blob/5a96363fc9112b97d60fc2bd3799d6bbfd8e4e00/README.md",
+          "snippet": "apk-mitm example.apk"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/niklashigi/apk-mitm",
+          "snippet": "🤖 A CLI application that automatically prepares Android APK files for HTTPS inspection"
+        },
+        "adoption": {
+          "stars": 5112,
+          "githubSource": "https://github.com/niklashigi/apk-mitm",
+          "homebrew": null
+        },
+        "commit": "5a96363fc9112b97d60fc2bd3799d6bbfd8e4e00"
+      }
+    },
+    "jondot/hygen": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "jondot-hygen",
+      "acceptedAt": "2026-09-22T04:43:35.063Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/jondot/hygen/blob/26f76d8dede565b2bf38d0b9e9f3009ee2c8f9ae/package.json",
+          "snippet": "{\"bin\":{\"hygen\":\"./dist/bin.js\"}}",
+          "target": "dist/bin.js"
+        },
+        "installation": {
+          "url": "https://github.com/jondot/hygen/blob/26f76d8dede565b2bf38d0b9e9f3009ee2c8f9ae/README.md",
+          "snippet": "$ npm i -g hygen"
+        },
+        "usage": {
+          "url": "https://github.com/jondot/hygen/blob/26f76d8dede565b2bf38d0b9e9f3009ee2c8f9ae/README.md",
+          "snippet": "hygen init self"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/jondot/hygen",
+          "snippet": "The simple, fast, and scalable code generator that lives in your project."
+        },
+        "adoption": {
+          "stars": 5933,
+          "githubSource": "https://github.com/jondot/hygen",
+          "homebrew": null
+        },
+        "commit": "26f76d8dede565b2bf38d0b9e9f3009ee2c8f9ae"
+      }
+    },
+    "cube2222/octosql": {
+      "status": "held",
+      "checkedAt": "2026-09-22T04:43:35.063Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-22T03:43:33.626Z"
+  "lastRunAt": "2026-09-22T04:43:35.063Z"
 }
