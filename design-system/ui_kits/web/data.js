@@ -9425,6 +9425,25 @@ window.USECLIS_DATA = {
       "stars": 3106,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-22T09:44:05.734Z"
+    },
+    {
+      "slug": "clitic-vsd",
+      "name": "vsd",
+      "repo": "clitic/vsd",
+      "category": "Terminal utilities",
+      "command": "vsd",
+      "useCase": "A command-line utility and library for downloading streams from DASH .mpd manifests and HLS .m3u8 playlists.",
+      "description": "A command-line utility and library for downloading streams from DASH .mpd manifests and HLS .m3u8 playlists.",
+      "agentUse": "Invoke vsd from a shell for the documented use case: A command-line utility and library for downloading streams from DASH .mpd manifests and HLS .m3u8 playlists.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "vsd save \"https://media.axprod.net/TestVectors/Hls/not_protected_hls_1080p_h264/manifest.m3u8\" -o output.mp4",
+      "website": "https://github.com/clitic/vsd",
+      "docs": "https://github.com/clitic/vsd/blob/24cd681114d425605db5b6c5fbf8e5ffc803716b/docs/usage.md",
+      "stars": 545,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-22T10:44:31.053Z"
     }
   ],
   "categories": [

@@ -4,156 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "bfgroup/Lyra"
-    },
-    {
-      "repo": "GoogleCloudPlatform/gsutil"
-    },
-    {
-      "repo": "Gu1llaum-3/sshm"
-    },
-    {
-      "repo": "RedMadRobot/figma-export"
-    },
-    {
-      "repo": "prompt-toolkit/python-prompt-toolkit"
-    },
-    {
-      "repo": "indexzero/nconf"
-    },
-    {
-      "repo": "dnote/dnote"
-    },
-    {
-      "repo": "vjeantet/alerter"
-    },
-    {
-      "repo": "gotify/cli"
-    },
-    {
-      "repo": "rust-fuzz/cargo-fuzz"
-    },
-    {
-      "repo": "jasonacox/tinytuya"
-    },
-    {
-      "repo": "jifunks/botany"
-    },
-    {
-      "repo": "guard/guard"
-    },
-    {
-      "repo": "killercup/cargo-edit"
-    },
-    {
-      "repo": "anthonyraymond/joal"
-    },
-    {
-      "repo": "75lb/command-line-args"
-    },
-    {
-      "repo": "zhongwencool/observer_cli"
-    },
-    {
-      "repo": "JosephLai241/URS"
-    },
-    {
-      "repo": "nadermx/backgroundremover"
-    },
-    {
-      "repo": "VirusTotal/vt-cli"
-    },
-    {
-      "repo": "daeuniverse/gg"
-    },
-    {
-      "repo": "rails/thor"
-    },
-    {
-      "repo": "terryyin/translate-python"
-    },
-    {
-      "repo": "YS-L/csvlens"
-    },
-    {
-      "repo": "nexus-xyz/nexus-cli"
-    },
-    {
-      "repo": "TheR1D/shell_gpt"
-    },
-    {
-      "repo": "natemcmaster/CommandLineUtils"
-    },
-    {
-      "repo": "google/python-fire"
-    },
-    {
-      "repo": "spotify2tidal/spotify_to_tidal"
-    },
-    {
-      "repo": "natesales/q"
-    },
-    {
-      "repo": "aria2/aria2"
-    },
-    {
-      "repo": "ageitgey/face_recognition"
-    },
-    {
-      "repo": "welaika/wordmove"
-    },
-    {
-      "repo": "defunkt/gist"
-    },
-    {
-      "repo": "parvardegr/sharing"
-    },
-    {
-      "repo": "clitic/vsd"
-    },
-    {
-      "repo": "nojhan/colout"
-    },
-    {
-      "repo": "dutchcoders/transfer.sh"
-    },
-    {
-      "repo": "ninxsoft/mist-cli"
-    },
-    {
-      "repo": "linux-sunxi/sunxi-tools"
-    },
-    {
-      "repo": "klattimer/LGWebOSRemote"
-    },
-    {
-      "repo": "etetoolkit/ete"
-    },
-    {
-      "repo": "ameshkov/dnslookup"
-    },
-    {
-      "repo": "Automattic/browser-repl"
-    },
-    {
-      "repo": "icloud-photos-downloader/icloud_photos_downloader"
-    },
-    {
-      "repo": "allthemusicllc/atm-cli"
-    },
-    {
-      "repo": "nicfit/eyeD3"
-    },
-    {
-      "repo": "pimutils/todoman"
-    },
-    {
-      "repo": "laurikari/tre"
-    },
-    {
-      "repo": "linkedin/shiv"
-    },
-    {
       "repo": "rahiel/telegram-send"
     },
     {
@@ -2540,7 +2390,8 @@
     },
     "aria2/aria2": {
       "status": "held",
-      "checkedAt": "2026-09-11T19:43:50.709Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "floatpane/matcha": {
@@ -3689,8 +3540,9 @@
     },
     "anthonyraymond/joal": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "learnbyexample/scripting_course": {
       "status": "held",
@@ -3699,7 +3551,8 @@
     },
     "josephlai241/urs": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "kislyuk/yq": {
@@ -3770,8 +3623,9 @@
     },
     "natemcmaster/commandlineutils": {
       "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "skywind3000/vim-quickui": {
       "status": "held",
@@ -6395,23 +6249,27 @@
     },
     "googlecloudplatform/gsutil": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "gu1llaum-3/sshm": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "redmadrobot/figma-export": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "prompt-toolkit/python-prompt-toolkit": {
       "status": "held",
-      "checkedAt": "2026-09-14T05:44:17.671Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "imsnif/bandwhich": {
       "status": "held",
@@ -7183,7 +7041,8 @@
     },
     "indexzero/nconf": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "dnote/dnote": {
@@ -7226,8 +7085,9 @@
     },
     "vjeantet/alerter": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "gotify/cli": {
       "status": "held",
@@ -7237,12 +7097,14 @@
     },
     "rust-fuzz/cargo-fuzz": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jasonacox/tinytuya": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "jifunks/botany": {
@@ -7253,7 +7115,8 @@
     },
     "guard/guard": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "killercup/cargo-edit": {
@@ -7269,13 +7132,15 @@
     },
     "75lb/command-line-args": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "zhongwencool/observer_cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jenkinsci/jenkinsfile-runner": {
       "status": "held",
@@ -7318,8 +7183,9 @@
     },
     "nadermx/backgroundremover": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "console-rs/dialoguer": {
       "status": "held",
@@ -7328,8 +7194,9 @@
     },
     "virustotal/vt-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "raphaelmansuy/code2prompt": {
       "status": "accepted",
@@ -7365,28 +7232,33 @@
     },
     "daeuniverse/gg": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "rails/thor": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "terryyin/translate-python": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ys-l/csvlens": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "nexus-xyz/nexus-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dannote/figma-use": {
       "status": "accepted",
@@ -7435,13 +7307,15 @@
     },
     "spotify2tidal/spotify_to_tidal": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "natesales/q": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "facebook/wdt": {
       "status": "held",
@@ -7455,7 +7329,8 @@
     },
     "ageitgey/face_recognition": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "humblepenguinn/envio": {
@@ -7466,7 +7341,8 @@
     },
     "welaika/wordmove": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "red-data-tools/youplot": {
@@ -7477,8 +7353,9 @@
     },
     "defunkt/gist": {
       "status": "held",
-      "checkedAt": "2026-09-14T09:44:19.179Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "parvardegr/sharing": {
       "status": "accepted",
@@ -7513,29 +7390,61 @@
       }
     },
     "clitic/vsd": {
-      "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "clitic-vsd",
+      "acceptedAt": "2026-09-22T10:43:37.883Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/clitic/vsd/blob/24cd681114d425605db5b6c5fbf8e5ffc803716b/vsd/Cargo.toml",
+          "snippet": "package.name=\"vsd\"; src/main.rs",
+          "target": "vsd/src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/clitic/vsd/blob/24cd681114d425605db5b6c5fbf8e5ffc803716b/docs/installation.md",
+          "snippet": "cargo install vsd"
+        },
+        "usage": {
+          "url": "https://github.com/clitic/vsd/blob/24cd681114d425605db5b6c5fbf8e5ffc803716b/docs/usage.md",
+          "snippet": "vsd save \"https://media.axprod.net/TestVectors/Hls/not_protected_hls_1080p_h264/manifest.m3u8\" -o output.mp4"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/clitic/vsd",
+          "snippet": "A command-line utility and library for downloading streams from DASH .mpd manifests and HLS .m3u8 playlists."
+        },
+        "adoption": {
+          "stars": 545,
+          "githubSource": "https://github.com/clitic/vsd",
+          "homebrew": null
+        },
+        "commit": "24cd681114d425605db5b6c5fbf8e5ffc803716b"
+      }
     },
     "nojhan/colout": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dutchcoders/transfer.sh": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "ninxsoft/mist-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "linux-sunxi/sunxi-tools": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "fuelen/owl": {
       "status": "held",
@@ -7545,8 +7454,9 @@
     },
     "klattimer/lgwebosremote": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "revanced/revanced-cli": {
       "status": "held",
@@ -7588,8 +7498,9 @@
     },
     "ameshkov/dnslookup": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "automattic/browser-repl": {
       "status": "accepted",
@@ -7625,32 +7536,38 @@
     },
     "icloud-photos-downloader/icloud_photos_downloader": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "allthemusicllc/atm-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "nicfit/eyed3": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "pimutils/todoman": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "laurikari/tre": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "linkedin/shiv": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "checkedAt": "2026-09-22T10:43:37.883Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "cheat/cheat": {
@@ -25677,5 +25594,5 @@
       "reason": "No CLI evidence in description, topics, or Homebrew"
     }
   },
-  "lastRunAt": "2026-09-22T09:43:39.990Z"
+  "lastRunAt": "2026-09-22T10:43:37.883Z"
 }

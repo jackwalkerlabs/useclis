@@ -5367,5 +5367,18 @@
     "createdAt": "2017-09-14T19:32:34Z",
     "checkedAt": "2026-09-22T09:44:07.812Z",
     "source": "https://github.com/GoogleChromeLabs"
+  },
+  "clitic": {
+    "login": "clitic",
+    "name": "Apoorv Sachan",
+    "type": "User",
+    "bio": "Building stuff to solve my own problems and maybe yours.",
+    "location": null,
+    "website": null,
+    "followers": 42,
+    "publicRepos": 18,
+    "createdAt": "2020-09-14T05:01:39Z",
+    "checkedAt": "2026-09-22T10:44:32.672Z",
+    "source": "https://github.com/clitic"
   }
 }
