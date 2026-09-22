@@ -5224,5 +5224,31 @@
     "createdAt": "2009-05-11T19:46:11Z",
     "checkedAt": "2026-09-22T04:44:20.976Z",
     "source": "https://github.com/jondot"
+  },
+  "rigellute": {
+    "login": "Rigellute",
+    "name": "Alexander Keliris",
+    "type": "User",
+    "bio": "Software consultant. Author of spotify-tui. Lover of Rust 🚀, Golang, Typescript, React (+ Native), and cloud infrastructure. Musician and lover of learning.",
+    "location": "London",
+    "website": "https://keliris.dev/",
+    "followers": 566,
+    "publicRepos": 87,
+    "createdAt": "2015-04-28T08:47:01Z",
+    "checkedAt": "2026-09-22T05:44:27.463Z",
+    "source": "https://github.com/Rigellute"
+  },
+  "imsnif": {
+    "login": "imsnif",
+    "name": "Aram Drevekenin",
+    "type": "User",
+    "bio": "Rethinking our terminal experience.",
+    "location": "Vienna, Austria",
+    "website": "https://www.poor.dev",
+    "followers": 1528,
+    "publicRepos": 99,
+    "createdAt": "2011-05-18T11:43:31Z",
+    "checkedAt": "2026-09-22T05:44:27.792Z",
+    "source": "https://github.com/imsnif"
   }
 }

@@ -4,255 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "httpie/http-prompt"
-    },
-    {
-      "repo": "genuinetools/img"
-    },
-    {
-      "repo": "jeroenjanssens/data-science-at-the-command-line"
-    },
-    {
-      "repo": "jpbruinsslot/slack-term"
-    },
-    {
-      "repo": "tlkh/asitop"
-    },
-    {
-      "repo": "TheZoraiz/ascii-image-converter"
-    },
-    {
-      "repo": "Rigellute/spotify-tui"
-    },
-    {
-      "repo": "donnemartin/saws"
-    },
-    {
-      "repo": "squizlabs/PHP_CodeSniffer"
-    },
-    {
-      "repo": "preactjs/preact-cli"
-    },
-    {
-      "repo": "imsnif/diskonaut"
-    },
-    {
-      "repo": "donnemartin/gitsome"
-    },
-    {
-      "repo": "qustavo/httplab"
-    },
-    {
-      "repo": "waylaidwanderer/node-chatgpt-api"
-    },
-    {
-      "repo": "mattallty/Caporal.js"
-    },
-    {
-      "repo": "ktr0731/evans"
-    },
-    {
-      "repo": "you-dont-need/You-Dont-Need-GUI"
-    },
-    {
-      "repo": "frostming/legit"
-    },
-    {
-      "repo": "multiprocessio/dsq"
-    },
-    {
-      "repo": "dthree/vorpal"
-    },
-    {
-      "repo": "archivy/archivy"
-    },
-    {
-      "repo": "bchao1/bullet"
-    },
-    {
-      "repo": "anufrievroman/calcure"
-    },
-    {
-      "repo": "warpdotdev/themes"
-    },
-    {
-      "repo": "simeg/eureka"
-    },
-    {
-      "repo": "magiblot/turbo"
-    },
-    {
-      "repo": "vue-terminal/vue-termui"
-    },
-    {
-      "repo": "lysyi3m/macos-terminal-themes"
-    },
-    {
-      "repo": "neur0map/glazepkg"
-    },
-    {
-      "repo": "andmarti1424/sc-im"
-    },
-    {
-      "repo": "MacPaw/cleanmymac-cli"
-    },
-    {
-      "repo": "lmorg/murex"
-    },
-    {
-      "repo": "zhenorzz/goploy"
-    },
-    {
-      "repo": "Linus-Mussmaecher/rucola"
-    },
-    {
-      "repo": "aws/amazon-q-developer-cli"
-    },
-    {
-      "repo": "panr/hugo-theme-terminal"
-    },
-    {
-      "repo": "mrjackwills/oxker"
-    },
-    {
-      "repo": "harmoninux/HiSH"
-    },
-    {
-      "repo": "RohitKushvaha01/ReTerminal"
-    },
-    {
-      "repo": "rylena/sshdesk"
-    },
-    {
-      "repo": "andresgongora/synth-shell"
-    },
-    {
-      "repo": "vercel/hyper"
-    },
-    {
-      "repo": "Macmod/godap"
-    },
-    {
-      "repo": "chaqchase/lla"
-    },
-    {
-      "repo": "dob323/session-kit"
-    },
-    {
-      "repo": "m4tt72/terminal"
-    },
-    {
-      "repo": "gnomeria/usbtree"
-    },
-    {
-      "repo": "ankitpokhrel/jira-cli"
-    },
-    {
-      "repo": "Guake/guake"
-    },
-    {
-      "repo": "baairon/soundcli"
-    },
-    {
-      "repo": "yandanp/Connexio"
-    },
-    {
-      "repo": "jacek-kurlit/pik"
-    },
-    {
-      "repo": "poetaman/arttime"
-    },
-    {
-      "repo": "browser-use/terminal"
-    },
-    {
-      "repo": "jarun/imgp"
-    },
-    {
-      "repo": "sachaos/viddy"
-    },
-    {
-      "repo": "jarun/ddgr"
-    },
-    {
-      "repo": "zulip/zulip-terminal"
-    },
-    {
-      "repo": "pranshuparmar/witr"
-    },
-    {
-      "repo": "malxau/yori"
-    },
-    {
-      "repo": "onceupon/Bash-Oneliner"
-    },
-    {
-      "repo": "asciinema/asciinema-server"
-    },
-    {
-      "repo": "asciinema/asciinema"
-    },
-    {
-      "repo": "asciinema/agg"
-    },
-    {
-      "repo": "github/gh-skyline"
-    },
-    {
-      "repo": "Strophox/tetro-tui"
-    },
-    {
-      "repo": "GaoSSR/best-claude-hud"
-    },
-    {
-      "repo": "webtui/webtui"
-    },
-    {
-      "repo": "laravel-zero/laravel-zero"
-    },
-    {
-      "repo": "Textualize/rich-cli"
-    },
-    {
-      "repo": "Veirt/weathr"
-    },
-    {
-      "repo": "gerardog/gsudo"
-    },
-    {
-      "repo": "tsl0922/ttyd"
-    },
-    {
-      "repo": "maticzav/emma-cli"
-    },
-    {
-      "repo": "usewhale/Whale"
-    },
-    {
-      "repo": "westpoint-io/lazyrsync"
-    },
-    {
-      "repo": "vshymanskyy/ViperIDE"
-    },
-    {
-      "repo": "bgreenwell/doxx"
-    },
-    {
-      "repo": "Helvesec/rmux"
-    },
-    {
-      "repo": "varabyte/kotter"
-    },
-    {
-      "repo": "gpakosz/.tmux"
-    },
-    {
-      "repo": "collabs-inc/collab-public"
-    },
-    {
-      "repo": "mkasberg/ghostty-ubuntu"
-    },
-    {
       "repo": "eza-community/eza"
     },
     {
@@ -1502,8 +1253,9 @@
     },
     "asciinema/agg": {
       "status": "held",
-      "checkedAt": "2026-09-10T02:34:48.725Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "manavarya09/design-extract": {
       "status": "held",
@@ -4346,8 +4098,9 @@
     },
     "malxau/yori": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "vapor/console-kit": {
       "status": "held",
@@ -4395,8 +4148,9 @@
     },
     "gerardog/gsudo": {
       "status": "held",
-      "checkedAt": "2026-09-11T23:43:28.624Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bgreenwell/lstr": {
       "status": "held",
@@ -7732,8 +7486,9 @@
     },
     "thezoraiz/ascii-image-converter": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bellingcat/instagram-location-search": {
       "status": "held",
@@ -7797,7 +7552,8 @@
     },
     "donnemartin/gitsome": {
       "status": "held",
-      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "zacharypatten/towel": {
@@ -7807,8 +7563,9 @@
     },
     "mattallty/caporal.js": {
       "status": "held",
-      "checkedAt": "2026-09-14T08:44:22.215Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "chestnutheng/wudao-dict": {
       "status": "held",
@@ -7827,7 +7584,8 @@
     },
     "you-dont-need/you-dont-need-gui": {
       "status": "held",
-      "checkedAt": "2026-09-14T08:44:22.215Z",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "nayamamarshe/please": {
@@ -11123,7 +10881,8 @@
     },
     "httpie/http-prompt": {
       "status": "held",
-      "checkedAt": "2026-09-14T21:44:20.281Z",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "rubymetric/chsrc": {
@@ -12061,8 +11820,9 @@
     },
     "jeroenjanssens/data-science-at-the-command-line": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ericchiang/pup": {
       "status": "held",
@@ -12096,8 +11856,9 @@
     },
     "donnemartin/saws": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "defunkt/github-gem": {
       "status": "held",
@@ -18215,8 +17976,9 @@
     },
     "frostming/legit": {
       "status": "held",
-      "checkedAt": "2026-09-16T05:44:23.279Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "go-acme/lego": {
       "status": "held",
@@ -21303,8 +21065,9 @@
     },
     "tsl0922/ttyd": {
       "status": "held",
-      "checkedAt": "2026-09-17T02:44:16.781Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "agavra/tuicr": {
       "status": "held",
@@ -25170,7 +24933,229 @@
       "checkedAt": "2026-09-22T04:43:35.063Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "genuinetools/img": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jpbruinsslot/slack-term": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tlkh/asitop": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rigellute/spotify-tui": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "rigellute-spotify-tui",
+      "acceptedAt": "2026-09-22T05:43:38.940Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Rigellute/spotify-tui/blob/c4dcf6b9fd8318017acbdd7ec005955e26cf2794/Cargo.toml",
+          "snippet": "[[bin]] name=\"spt\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/Rigellute/spotify-tui/blob/c4dcf6b9fd8318017acbdd7ec005955e26cf2794/README.md",
+          "snippet": "cargo install spotify-tui"
+        },
+        "usage": {
+          "url": "https://github.com/Rigellute/spotify-tui/blob/c4dcf6b9fd8318017acbdd7ec005955e26cf2794/README.md",
+          "snippet": "spt search \"An even cooler song\" --tracks --format \"%t from %b\" --limit 30"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Rigellute/spotify-tui",
+          "snippet": "Spotify for the terminal written in Rust 🚀"
+        },
+        "adoption": {
+          "stars": 19352,
+          "githubSource": "https://github.com/Rigellute/spotify-tui",
+          "homebrew": null
+        },
+        "commit": "c4dcf6b9fd8318017acbdd7ec005955e26cf2794"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "preactjs/preact-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "imsnif/diskonaut": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "imsnif-diskonaut",
+      "acceptedAt": "2026-09-22T05:43:38.940Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/imsnif/diskonaut/blob/65cd829069e275dc8a3e4493d0da7f8f08055d82/Cargo.toml",
+          "snippet": "package.name=\"diskonaut\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/imsnif/diskonaut/blob/65cd829069e275dc8a3e4493d0da7f8f08055d82/README.md",
+          "snippet": "cargo install diskonaut"
+        },
+        "usage": {
+          "url": "https://github.com/imsnif/diskonaut/blob/65cd829069e275dc8a3e4493d0da7f8f08055d82/README.md",
+          "snippet": "diskonaut /home/aram"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/imsnif/diskonaut",
+          "snippet": "Terminal disk space navigator 🔭"
+        },
+        "adoption": {
+          "stars": 3131,
+          "githubSource": "https://github.com/imsnif/diskonaut",
+          "homebrew": null
+        },
+        "commit": "65cd829069e275dc8a3e4493d0da7f8f08055d82"
+      }
+    },
+    "qustavo/httplab": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "waylaidwanderer/node-chatgpt-api": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ktr0731/evans": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "multiprocessio/dsq": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dthree/vorpal": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "archivy/archivy": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bchao1/bullet": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lysyi3m/macos-terminal-themes": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "andmarti1424/sc-im": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lmorg/murex": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "panr/hugo-theme-terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "harmoninux/hish": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vercel/hyper": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "guake/guake": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "onceupon/bash-oneliner": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "asciinema/asciinema-server": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "webtui/webtui": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vshymanskyy/viperide": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "varabyte/kotter": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "collabs-inc/collab-public": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mkasberg/ghostty-ubuntu": {
+      "status": "held",
+      "checkedAt": "2026-09-22T05:43:38.940Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-22T04:43:35.063Z"
+  "lastRunAt": "2026-09-22T05:43:38.940Z"
 }

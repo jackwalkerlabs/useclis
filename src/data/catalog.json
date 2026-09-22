@@ -7811,5 +7811,37 @@
     "example": "hygen init self",
     "website": "https://github.com/jondot/hygen",
     "docs": "https://github.com/jondot/hygen/blob/26f76d8dede565b2bf38d0b9e9f3009ee2c8f9ae/README.md"
+  },
+  {
+    "slug": "rigellute-spotify-tui",
+    "name": "spotify-tui",
+    "repo": "Rigellute/spotify-tui",
+    "category": "Data & APIs",
+    "command": "spt",
+    "useCase": "Spotify for the terminal written in Rust 🚀",
+    "description": "Spotify for the terminal written in Rust 🚀",
+    "agentUse": "Invoke spt from a shell for the documented use case: Spotify for the terminal written in Rust 🚀",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "spt search \"An even cooler song\" --tracks --format \"%t from %b\" --limit 30",
+    "website": "https://github.com/Rigellute/spotify-tui",
+    "docs": "https://github.com/Rigellute/spotify-tui/blob/c4dcf6b9fd8318017acbdd7ec005955e26cf2794/README.md"
+  },
+  {
+    "slug": "imsnif-diskonaut",
+    "name": "diskonaut",
+    "repo": "imsnif/diskonaut",
+    "category": "Terminal utilities",
+    "command": "diskonaut",
+    "useCase": "Terminal disk space navigator 🔭",
+    "description": "Terminal disk space navigator 🔭",
+    "agentUse": "Invoke diskonaut from a shell for the documented use case: Terminal disk space navigator 🔭",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "diskonaut /home/aram",
+    "website": "https://github.com/imsnif/diskonaut",
+    "docs": "https://github.com/imsnif/diskonaut/blob/65cd829069e275dc8a3e4493d0da7f8f08055d82/README.md"
   }
 ]

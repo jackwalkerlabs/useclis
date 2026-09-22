@@ -6823,5 +6823,35 @@
     "repositoryId": 100161483,
     "attemptedAt": "2026-09-22T04:44:16.816Z",
     "status": "ok"
+  },
+  "rigellute-spotify-tui": {
+    "defaultBranch": "master",
+    "createdAt": "2019-08-16T19:31:53Z",
+    "pushedAt": "2024-04-04T15:03:12Z",
+    "lastCommitAt": "2021-11-17T20:29:15Z",
+    "stars": 19352,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-22T05:44:25.059Z",
+    "source": "https://github.com/Rigellute/spotify-tui",
+    "canonicalSource": "https://github.com/Rigellute/spotify-tui",
+    "repositoryId": 202787876,
+    "attemptedAt": "2026-09-22T05:44:24.528Z",
+    "status": "ok"
+  },
+  "imsnif-diskonaut": {
+    "defaultBranch": "main",
+    "createdAt": "2020-02-22T20:24:51Z",
+    "pushedAt": "2024-03-07T20:44:17Z",
+    "lastCommitAt": "2022-02-19T09:11:54Z",
+    "stars": 3131,
+    "license": "MIT",
+    "language": "Rust",
+    "checkedAt": "2026-09-22T05:44:25.752Z",
+    "source": "https://github.com/imsnif/diskonaut",
+    "canonicalSource": "https://github.com/imsnif/diskonaut",
+    "repositoryId": 242406704,
+    "attemptedAt": "2026-09-22T05:44:25.282Z",
+    "status": "ok"
   }
 }
