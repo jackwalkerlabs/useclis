@@ -4,168 +4,6 @@
   "brewOffset": 880,
   "pending": [
     {
-      "repo": "rahiel/telegram-send"
-    },
-    {
-      "repo": "cheat/cheat"
-    },
-    {
-      "repo": "einaregilsson/beanstalk-deploy"
-    },
-    {
-      "repo": "istanbuljs/nyc"
-    },
-    {
-      "repo": "cli-guidelines/cli-guidelines"
-    },
-    {
-      "repo": "sveinbjornt/Platypus"
-    },
-    {
-      "repo": "clearbluejar/ghidriff"
-    },
-    {
-      "repo": "PGYER/fir-cli"
-    },
-    {
-      "repo": "onevcat/FengNiao"
-    },
-    {
-      "repo": "EFForg/apkeep"
-    },
-    {
-      "repo": "sharkdp/hexyl"
-    },
-    {
-      "repo": "barnybug/cli53"
-    },
-    {
-      "repo": "lavie/runlike"
-    },
-    {
-      "repo": "nashsu/AutoCLI"
-    },
-    {
-      "repo": "sandreas/m4b-tool"
-    },
-    {
-      "repo": "http-party/http-server"
-    },
-    {
-      "repo": "RedSiege/C2concealer"
-    },
-    {
-      "repo": "arqbackup/arq_restore"
-    },
-    {
-      "repo": "bkirwi/decline"
-    },
-    {
-      "repo": "iqlusioninc/abscissa"
-    },
-    {
-      "repo": "cookiecutter/cookiecutter"
-    },
-    {
-      "repo": "bmc/daemonize"
-    },
-    {
-      "repo": "justskiv/goschedviz"
-    },
-    {
-      "repo": "orhun/flawz"
-    },
-    {
-      "repo": "s0xDk/ghostty-blackhole"
-    },
-    {
-      "repo": "peltho/tufw"
-    },
-    {
-      "repo": "maria-rcks/t1code"
-    },
-    {
-      "repo": "poppinss/youch"
-    },
-    {
-      "repo": "yassinebridi/serpl"
-    },
-    {
-      "repo": "raphamorim/lucario"
-    },
-    {
-      "repo": "mco-org/squad"
-    },
-    {
-      "repo": "Gottox/terminal.js"
-    },
-    {
-      "repo": "innotop/innotop"
-    },
-    {
-      "repo": "will8211/unimatrix"
-    },
-    {
-      "repo": "waynesutton/markdown-site"
-    },
-    {
-      "repo": "tarkah/tickrs"
-    },
-    {
-      "repo": "SoptikHa2/desed"
-    },
-    {
-      "repo": "kaplanelad/shellfirm"
-    },
-    {
-      "repo": "zaghaghi/openapi-tui"
-    },
-    {
-      "repo": "nightmare-space/any_share"
-    },
-    {
-      "repo": "ccgauche/ytermusic"
-    },
-    {
-      "repo": "HazAT/pi-interactive-subagents"
-    },
-    {
-      "repo": "hosenur/portal"
-    },
-    {
-      "repo": "adsr/mle"
-    },
-    {
-      "repo": "paul-nameless/tg"
-    },
-    {
-      "repo": "FGRibreau/spinners"
-    },
-    {
-      "repo": "lewislulu/terminal-setup"
-    },
-    {
-      "repo": "rhysd/kiro-editor"
-    },
-    {
-      "repo": "juftin/browsr"
-    },
-    {
-      "repo": "xgi/castero"
-    },
-    {
-      "repo": "its-maestro-baby/maestro"
-    },
-    {
-      "repo": "CodeOne45/vex-tui"
-    },
-    {
-      "repo": "LigphiDonk/Oh-my--paper"
-    },
-    {
-      "repo": "DinkDonk/kitty-icon"
-    },
-    {
       "repo": "plutov/oq"
     },
     {
@@ -4851,8 +4689,9 @@
     },
     "sharkdp/hexyl": {
       "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "tbillington/kondo": {
       "status": "held",
@@ -7572,43 +7411,51 @@
     },
     "cheat/cheat": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "einaregilsson/beanstalk-deploy": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "istanbuljs/nyc": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cli-guidelines/cli-guidelines": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sveinbjornt/platypus": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "clearbluejar/ghidriff": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "pgyer/fir-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "onevcat/fengniao": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "minamijoyo/hcledit": {
       "status": "held",
@@ -7662,8 +7509,9 @@
     },
     "barnybug/cli53": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "lavie/runlike": {
       "status": "accepted",
@@ -7771,7 +7619,8 @@
     },
     "nashsu/autocli": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "cli-table/cli-table3": {
@@ -7782,7 +7631,8 @@
     },
     "sandreas/m4b-tool": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "cbeust/jcommander": {
@@ -7797,33 +7647,39 @@
     },
     "redsiege/c2concealer": {
       "status": "held",
-      "checkedAt": "2026-09-14T10:44:21.422Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "arqbackup/arq_restore": {
       "status": "held",
-      "checkedAt": "2026-09-14T11:44:22.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bkirwi/decline": {
       "status": "held",
-      "checkedAt": "2026-09-14T11:44:22.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "iqlusioninc/abscissa": {
       "status": "held",
-      "checkedAt": "2026-09-14T11:44:22.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "cookiecutter/cookiecutter": {
       "status": "held",
-      "checkedAt": "2026-09-14T11:44:22.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bmc/daemonize": {
       "status": "held",
-      "checkedAt": "2026-09-14T11:44:22.776Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "garybernhardt/selecta": {
       "status": "held",
@@ -25592,7 +25448,166 @@
       "checkedAt": "2026-09-22T09:43:39.990Z",
       "rulesVersion": 2,
       "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "s0xdk/ghostty-blackhole": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "peltho/tufw": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "poppinss/youch": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "raphamorim/lucario": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mco-org/squad": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gottox/terminal.js": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "innotop/innotop": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "will8211/unimatrix": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "waynesutton/markdown-site": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "soptikha2/desed": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kaplanelad/shellfirm": {
+      "status": "accepted",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "kaplanelad-shellfirm",
+      "acceptedAt": "2026-09-22T11:44:02.846Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/kaplanelad/shellfirm/blob/7ebf869770c197bf5591bdcf4003f6373af6c211/npm/shellfirm/package.json",
+          "snippet": "{\"bin\":{\"shellfirm\":\"bin/shellfirm\"}}",
+          "target": "npm/shellfirm/bin/shellfirm"
+        },
+        "installation": {
+          "url": "https://github.com/kaplanelad/shellfirm/blob/7ebf869770c197bf5591bdcf4003f6373af6c211/README.md",
+          "snippet": "npm install -g @shellfirm/cli"
+        },
+        "usage": {
+          "url": "https://github.com/kaplanelad/shellfirm/blob/7ebf869770c197bf5591bdcf4003f6373af6c211/README.md",
+          "snippet": "shellfirm connect claude-code"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kaplanelad/shellfirm",
+          "snippet": "Safety guardrails for ai coding agents and human terminal commands"
+        },
+        "adoption": {
+          "stars": 934,
+          "githubSource": "https://github.com/kaplanelad/shellfirm",
+          "homebrew": null
+        },
+        "commit": "7ebf869770c197bf5591bdcf4003f6373af6c211"
+      }
+    },
+    "nightmare-space/any_share": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hazat/pi-interactive-subagents": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "hosenur/portal": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "adsr/mle": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fgribreau/spinners": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lewislulu/terminal-setup": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rhysd/kiro-editor": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "its-maestro-baby/maestro": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "codeone45/vex-tui": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ligphidonk/oh-my--paper": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dinkdonk/kitty-icon": {
+      "status": "held",
+      "checkedAt": "2026-09-22T11:44:02.846Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-22T10:43:37.883Z"
+  "lastRunAt": "2026-09-22T11:44:02.846Z"
 }

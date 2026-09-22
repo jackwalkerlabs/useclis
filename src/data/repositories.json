@@ -7033,5 +7033,20 @@
     "repositoryId": 496101474,
     "attemptedAt": "2026-09-22T11:39:47.655Z",
     "status": "ok"
+  },
+  "kaplanelad-shellfirm": {
+    "defaultBranch": "main",
+    "createdAt": "2021-12-24T19:00:12Z",
+    "pushedAt": "2026-05-15T06:32:05Z",
+    "lastCommitAt": "2026-05-15T06:32:05Z",
+    "stars": 934,
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "checkedAt": "2026-09-22T11:44:51.472Z",
+    "source": "https://github.com/kaplanelad/shellfirm",
+    "canonicalSource": "https://github.com/kaplanelad/shellfirm",
+    "repositoryId": 441537080,
+    "attemptedAt": "2026-09-22T11:44:50.956Z",
+    "status": "ok"
   }
 }

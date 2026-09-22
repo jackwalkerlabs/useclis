@@ -9444,6 +9444,25 @@ window.USECLIS_DATA = {
       "stars": 545,
       "license": "Apache-2.0",
       "checkedAt": "2026-09-22T11:39:47.854Z"
+    },
+    {
+      "slug": "kaplanelad-shellfirm",
+      "name": "shellfirm",
+      "repo": "kaplanelad/shellfirm",
+      "category": "Agents & models",
+      "command": "shellfirm",
+      "useCase": "Safety guardrails for ai coding agents and human terminal commands",
+      "description": "Safety guardrails for ai coding agents and human terminal commands",
+      "agentUse": "Invoke shellfirm from a shell for the documented use case: Safety guardrails for ai coding agents and human terminal commands",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "shellfirm connect claude-code",
+      "website": "https://github.com/kaplanelad/shellfirm",
+      "docs": "https://github.com/kaplanelad/shellfirm/blob/7ebf869770c197bf5591bdcf4003f6373af6c211/README.md",
+      "stars": 934,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-22T11:44:51.472Z"
     }
   ],
   "categories": [

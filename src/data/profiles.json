@@ -5380,5 +5380,18 @@
     "createdAt": "2020-09-14T05:01:39Z",
     "checkedAt": "2026-09-22T10:44:32.672Z",
     "source": "https://github.com/clitic"
+  },
+  "kaplanelad": {
+    "login": "kaplanelad",
+    "name": "Elad Kaplan",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 115,
+    "publicRepos": 67,
+    "createdAt": "2011-11-28T05:28:51Z",
+    "checkedAt": "2026-09-22T11:44:52.829Z",
+    "source": "https://github.com/kaplanelad"
   }
 }

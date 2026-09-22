@@ -8035,5 +8035,21 @@
     "example": "vsd save \"https://media.axprod.net/TestVectors/Hls/not_protected_hls_1080p_h264/manifest.m3u8\" -o output.mp4",
     "website": "https://github.com/clitic/vsd",
     "docs": "https://github.com/clitic/vsd/blob/24cd681114d425605db5b6c5fbf8e5ffc803716b/docs/usage.md"
+  },
+  {
+    "slug": "kaplanelad-shellfirm",
+    "name": "shellfirm",
+    "repo": "kaplanelad/shellfirm",
+    "category": "Agents & models",
+    "command": "shellfirm",
+    "useCase": "Safety guardrails for ai coding agents and human terminal commands",
+    "description": "Safety guardrails for ai coding agents and human terminal commands",
+    "agentUse": "Invoke shellfirm from a shell for the documented use case: Safety guardrails for ai coding agents and human terminal commands",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "shellfirm connect claude-code",
+    "website": "https://github.com/kaplanelad/shellfirm",
+    "docs": "https://github.com/kaplanelad/shellfirm/blob/7ebf869770c197bf5591bdcf4003f6373af6c211/README.md"
   }
 ]
