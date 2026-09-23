@@ -8083,5 +8083,69 @@
     "example": "heh = \"0.6\"",
     "website": "https://github.com/ndd7xv/heh",
     "docs": "https://github.com/ndd7xv/heh/blob/89b1e99695069e4caaa3dfb55f90815963a2c3a2/README.md"
+  },
+  {
+    "slug": "ahmadawais-chartli",
+    "name": "chartli",
+    "repo": "ahmadawais/chartli",
+    "category": "Terminal utilities",
+    "command": "chartlir",
+    "useCase": "CLI that turns plain numbers into terminal charts. ascii, spark, bars, columns, heatmap, unicode, braille, svg. ",
+    "description": "CLI that turns plain numbers into terminal charts. ascii, spark, bars, columns, heatmap, unicode, braille, svg. ",
+    "agentUse": "Invoke chartlir from a shell for the documented use case: CLI that turns plain numbers into terminal charts. ascii, spark, bars, columns, heatmap, unicode, braille, svg. ",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "chartlir data.txt -t ascii -w 24 -H 8",
+    "website": "https://github.com/ahmadawais/chartli",
+    "docs": "https://github.com/ahmadawais/chartli/blob/3b39b97aeb564646437b2b7501b60541994d7575/rust/README.md"
+  },
+  {
+    "slug": "cesarferreira-rip",
+    "name": "rip",
+    "repo": "cesarferreira/rip",
+    "category": "Terminal utilities",
+    "command": "rip",
+    "useCase": "Fuzzy find and kill processes from your terminal",
+    "description": "Fuzzy find and kill processes from your terminal",
+    "agentUse": "Invoke rip from a shell for the documented use case: Fuzzy find and kill processes from your terminal",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "rip -f chrome",
+    "website": "https://github.com/cesarferreira/rip",
+    "docs": "https://github.com/cesarferreira/rip/blob/83f0260229489cd3db2f60316bf2a9939b87c4a6/README.md"
+  },
+  {
+    "slug": "trehn-termtrack",
+    "name": "termtrack",
+    "repo": "trehn/termtrack",
+    "category": "Terminal utilities",
+    "command": "termtrack",
+    "useCase": "Track satellites in your terminal",
+    "description": "Track satellites in your terminal",
+    "agentUse": "Invoke termtrack from a shell for the documented use case: Track satellites in your terminal",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "termtrack -figmntxo 1 iss",
+    "website": "https://github.com/trehn/termtrack",
+    "docs": "https://github.com/trehn/termtrack/blob/11b75d76bd81bab5151e79706804866b8a8c3c52/README.md"
+  },
+  {
+    "slug": "ravikiranvm-aws-finops-dashboard",
+    "name": "aws-finops-dashboard",
+    "repo": "ravikiranvm/aws-finops-dashboard",
+    "category": "Terminal utilities",
+    "command": "aws-finops",
+    "useCase": "A terminal-based AWS cost and resource dashboard built with Python and the Rich library. It provides an overview of AWS spend by account, service-level breakdowns, budget tracking, and EC2 instance summaries.",
+    "description": "A terminal-based AWS cost and resource dashboard built with Python and the Rich library. It provides an overview of AWS spend by account, service-level breakdowns, budget tracking, and EC2 instance summaries.",
+    "agentUse": "Invoke aws-finops from a shell for the documented use case: A terminal-based AWS cost and resource dashboard built with Python and the Rich library. It provides an overview of AWS spend by account, service-level breakdowns, budget tracking, and EC2 instance summaries.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "aws-finops --region us-east-1",
+    "website": "https://github.com/ravikiranvm/aws-finops-dashboard",
+    "docs": "https://github.com/ravikiranvm/aws-finops-dashboard/blob/3b2606495a57708ce73b25ffa24bd0a6fe5c7e52/README.md"
   }
 ]

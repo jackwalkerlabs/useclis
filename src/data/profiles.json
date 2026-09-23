@@ -5419,5 +5419,57 @@
     "createdAt": "2019-11-15T19:23:47Z",
     "checkedAt": "2026-09-22T12:43:56.366Z",
     "source": "https://github.com/ndd7xv"
+  },
+  "ahmadawais": {
+    "login": "ahmadawais",
+    "name": "Ahmad Awais",
+    "type": "User",
+    "bio": "Award-winning Open Source Eng\r\n❯❯❯ CEO @CommandCodeAI @Google Dev Advisory Board\r\n❯ Automator at NodeCLI.com\r\n❯ @Nodejs ComCommittee\r\n❯ BGB Linux Foundation",
+    "location": "San Francisco Bay Area",
+    "website": "https://AhmadAwais.com",
+    "followers": 6986,
+    "publicRepos": 841,
+    "createdAt": "2011-08-04T23:27:10Z",
+    "checkedAt": "2026-09-23T00:44:17.762Z",
+    "source": "https://github.com/ahmadawais"
+  },
+  "cesarferreira": {
+    "login": "cesarferreira",
+    "name": "César Ferreira",
+    "type": "User",
+    "bio": "Senior Flutter/Android Developer, currently working @wayveai ",
+    "location": "London, UK",
+    "website": "http://cesarferreira.com",
+    "followers": 741,
+    "publicRepos": 153,
+    "createdAt": "2010-05-15T03:02:27Z",
+    "checkedAt": "2026-09-23T00:44:18.008Z",
+    "source": "https://github.com/cesarferreira"
+  },
+  "trehn": {
+    "login": "trehn",
+    "name": "Torsten Rehn",
+    "type": "User",
+    "bio": null,
+    "location": "Wiesbaden, Germany",
+    "website": "http://trehn.com",
+    "followers": 90,
+    "publicRepos": 21,
+    "createdAt": "2008-10-13T10:24:00Z",
+    "checkedAt": "2026-09-23T00:44:18.469Z",
+    "source": "https://github.com/trehn"
+  },
+  "ravikiranvm": {
+    "login": "ravikiranvm",
+    "name": "Ravi Kiran Vallamkonda",
+    "type": "User",
+    "bio": "Full Stack Developer @openops-cloud ",
+    "location": "India",
+    "website": null,
+    "followers": 134,
+    "publicRepos": 16,
+    "createdAt": "2018-02-12T10:25:16Z",
+    "checkedAt": "2026-09-23T00:44:18.684Z",
+    "source": "https://github.com/ravikiranvm"
   }
 }
