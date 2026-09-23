@@ -10128,6 +10128,139 @@ window.USECLIS_DATA = {
       "stars": 1864,
       "license": "MIT",
       "checkedAt": "2026-09-23T03:44:19.569Z"
+    },
+    {
+      "slug": "ipfs-shipyard-ipfs-deploy",
+      "name": "ipfs-deploy",
+      "repo": "ipfs-shipyard/ipfs-deploy",
+      "category": "Cloud & deployment",
+      "command": "ipfs-deploy",
+      "useCase": "Old (2022) proof of concept:  Zero-Config CLI to Deploy Static Websites to IPFS",
+      "description": "Old (2022) proof of concept:  Zero-Config CLI to Deploy Static Websites to IPFS",
+      "agentUse": "Invoke ipfs-deploy from a shell for the documented use case: Old (2022) proof of concept:  Zero-Config CLI to Deploy Static Websites to IPFS",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ipfs-deploy public/",
+      "website": "https://github.com/ipfs-shipyard/ipfs-deploy",
+      "docs": "https://github.com/ipfs-shipyard/ipfs-deploy/blob/79d16bf6edbcc3f023f39c7a38ec929316fc1fba/README.md",
+      "stars": 1168,
+      "license": null,
+      "checkedAt": "2026-09-23T04:44:24.772Z"
+    },
+    {
+      "slug": "yinnx-cmd-wrapped",
+      "name": "cmd-wrapped",
+      "repo": "YiNNx/cmd-wrapped",
+      "category": "Terminal utilities",
+      "command": "cmd-wrapped",
+      "useCase": "👩‍💻 A CLI Tool for Command Line Insights",
+      "description": "👩‍💻 A CLI Tool for Command Line Insights",
+      "agentUse": "Invoke cmd-wrapped from a shell for the documented use case: 👩‍💻 A CLI Tool for Command Line Insights",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "cmd-wrapped 2024",
+      "website": "https://github.com/YiNNx/cmd-wrapped",
+      "docs": "https://github.com/YiNNx/cmd-wrapped/blob/c150a84c050261a4f8e96daab33f3cdcec7df3dd/README.md",
+      "stars": 1288,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T04:44:25.296Z"
+    },
+    {
+      "slug": "toblerity-fiona",
+      "name": "Fiona",
+      "repo": "Toblerity/Fiona",
+      "category": "Files & documents",
+      "command": "fio",
+      "useCase": "Fiona reads and writes geographic data files",
+      "description": "Fiona reads and writes geographic data files",
+      "agentUse": "Invoke fio from a shell for the documented use case: Fiona reads and writes geographic data files",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fio cat",
+      "website": "https://github.com/Toblerity/Fiona",
+      "docs": "https://github.com/Toblerity/Fiona/blob/ec9768a9389530a0570446e3c34ae91448d28cf4/README.rst",
+      "stars": 1247,
+      "license": "BSD-3-Clause",
+      "checkedAt": "2026-09-23T04:44:25.925Z"
+    },
+    {
+      "slug": "dutiyesh-chrome-extension-cli",
+      "name": "chrome-extension-cli",
+      "repo": "dutiyesh/chrome-extension-cli",
+      "category": "Terminal utilities",
+      "command": "chrome-extension-cli",
+      "useCase": "🚀 The CLI for your next Chrome Extension",
+      "description": "🚀 The CLI for your next Chrome Extension",
+      "agentUse": "Invoke chrome-extension-cli from a shell for the documented use case: 🚀 The CLI for your next Chrome Extension",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "chrome-extension-cli my-extension",
+      "website": "https://github.com/dutiyesh/chrome-extension-cli",
+      "docs": "https://github.com/dutiyesh/chrome-extension-cli/blob/83cb2f1cfa598a017f0cb9e010810f7adc744445/README.md",
+      "stars": 2463,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T04:44:26.465Z"
+    },
+    {
+      "slug": "hustcer-star",
+      "name": "star",
+      "repo": "hustcer/star",
+      "category": "Terminal utilities",
+      "command": "star",
+      "useCase": "A STock Analysis and Research tool for terminal(cli) users. 技术控和命令行爱好者的 A 股辅助分析工具。",
+      "description": "A STock Analysis and Research tool for terminal(cli) users. 技术控和命令行爱好者的 A 股辅助分析工具。",
+      "agentUse": "Invoke star from a shell for the documented use case: A STock Analysis and Research tool for terminal(cli) users. 技术控和命令行爱好者的 A 股辅助分析工具。",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "star      : 3",
+      "website": "https://github.com/hustcer/star",
+      "docs": "https://github.com/hustcer/star/blob/2bb8151b3b18437aa495515392994ab2eb2d8b21/README.md",
+      "stars": 1055,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T04:44:27.151Z"
+    },
+    {
+      "slug": "hfrost0-bilix",
+      "name": "bilix",
+      "repo": "HFrost0/bilix",
+      "category": "Terminal utilities",
+      "command": "bilix",
+      "useCase": "⚡️Lightning-fast async download tool for bilibili and more",
+      "description": "⚡️Lightning-fast async download tool for bilibili and more",
+      "agentUse": "Invoke bilix from a shell for the documented use case: ⚡️Lightning-fast async download tool for bilibili and more",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "bilix v 'url'",
+      "website": "https://github.com/HFrost0/bilix",
+      "docs": "https://github.com/HFrost0/bilix/blob/bb5b234cdfe3fafc4db9d992b91091f2edf791e5/README.md",
+      "stars": 1784,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-23T04:44:27.823Z"
+    },
+    {
+      "slug": "freedmand-semantra-python",
+      "name": "semantra-python",
+      "repo": "freedmand/semantra-python",
+      "category": "Terminal utilities",
+      "command": "semantra",
+      "useCase": "Multi-tool for semantic search",
+      "description": "Multi-tool for semantic search",
+      "agentUse": "Invoke semantra from a shell for the documented use case: Multi-tool for semantic search",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "semantra doc.pdf",
+      "website": "https://github.com/freedmand/semantra-python",
+      "docs": "https://github.com/freedmand/semantra-python/blob/1aed8fd0057f6b3eb7946e0f351f9c668842774d/README.md",
+      "stars": 2712,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T04:44:28.494Z"
     }
   ],
   "categories": [

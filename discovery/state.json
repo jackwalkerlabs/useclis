@@ -4,132 +4,6 @@
   "brewOffset": 920,
   "pending": [
     {
-      "repo": "desgeeko/pdfsyntax"
-    },
-    {
-      "repo": "jakobhoeg/shadcn-chat"
-    },
-    {
-      "repo": "php-school/cli-menu"
-    },
-    {
-      "repo": "psanford/wormhole-william"
-    },
-    {
-      "repo": "EnhancedJax/Bagels"
-    },
-    {
-      "repo": "samtay/so"
-    },
-    {
-      "repo": "ehmicky/cross-platform-node-guide"
-    },
-    {
-      "repo": "p-ranav/tabulate"
-    },
-    {
-      "repo": "ipfs-shipyard/ipfs-deploy"
-    },
-    {
-      "repo": "zpl-c/zpl"
-    },
-    {
-      "repo": "chubin/rate.sx"
-    },
-    {
-      "repo": "vercel/kirimase"
-    },
-    {
-      "repo": "gabotechs/dep-tree"
-    },
-    {
-      "repo": "YiNNx/cmd-wrapped"
-    },
-    {
-      "repo": "LuRsT/hr"
-    },
-    {
-      "repo": "jucasoliveira/terminalGPT"
-    },
-    {
-      "repo": "Toblerity/Fiona"
-    },
-    {
-      "repo": "sezna/nps"
-    },
-    {
-      "repo": "sniptt-official/ots"
-    },
-    {
-      "repo": "babarot/enhancd"
-    },
-    {
-      "repo": "adishavit/argh"
-    },
-    {
-      "repo": "briandowns/spinner"
-    },
-    {
-      "repo": "AnalogJ/lexicon"
-    },
-    {
-      "repo": "Mark24Code/rime-auto-deploy"
-    },
-    {
-      "repo": "dronesploit/dronesploit"
-    },
-    {
-      "repo": "trimstray/sandmap"
-    },
-    {
-      "repo": "dutiyesh/chrome-extension-cli"
-    },
-    {
-      "repo": "sapegin/mrm"
-    },
-    {
-      "repo": "blst-security/cherrybomb"
-    },
-    {
-      "repo": "rubik/radon"
-    },
-    {
-      "repo": "stevemao/awesome-git-addons"
-    },
-    {
-      "repo": "hustcer/star"
-    },
-    {
-      "repo": "lukeed/sade"
-    },
-    {
-      "repo": "HFrost0/bilix"
-    },
-    {
-      "repo": "phsym/prettytable-rs"
-    },
-    {
-      "repo": "arcanis/clipanion"
-    },
-    {
-      "repo": "freedmand/semantra-python"
-    },
-    {
-      "repo": "kyclark/command-line-rust"
-    },
-    {
-      "repo": "hooklift/gowsdl"
-    },
-    {
-      "repo": "bcicen/slackcat"
-    },
-    {
-      "repo": "bloomreach/s4cmd"
-    },
-    {
-      "repo": "piotrmurach/tty-prompt"
-    },
-    {
       "repo": "vercel/arg"
     },
     {
@@ -6704,8 +6578,9 @@
     },
     "adishavit/argh": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ad4mx/spinoff": {
       "status": "held",
@@ -6765,8 +6640,9 @@
     },
     "trimstray/sandmap": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sindresorhus/figures": {
       "status": "held",
@@ -6780,8 +6656,9 @@
     },
     "lukeed/sade": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ogham/exa": {
       "status": "held",
@@ -6844,8 +6721,9 @@
     },
     "kyclark/command-line-rust": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "charmbracelet/soft-serve": {
       "status": "held",
@@ -11321,9 +11199,37 @@
       "reason": "Terminal use case needs classification"
     },
     "yinnx/cmd-wrapped": {
-      "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "yinnx-cmd-wrapped",
+      "acceptedAt": "2026-09-23T04:43:34.110Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/YiNNx/cmd-wrapped/blob/c150a84c050261a4f8e96daab33f3cdcec7df3dd/Cargo.toml",
+          "snippet": "package.name=\"cmd-wrapped\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/YiNNx/cmd-wrapped/blob/c150a84c050261a4f8e96daab33f3cdcec7df3dd/README.md",
+          "snippet": "cargo install cmd-wrapped"
+        },
+        "usage": {
+          "url": "https://github.com/YiNNx/cmd-wrapped/blob/c150a84c050261a4f8e96daab33f3cdcec7df3dd/README.md",
+          "snippet": "cmd-wrapped 2024"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/YiNNx/cmd-wrapped",
+          "snippet": "👩‍💻 A CLI Tool for Command Line Insights"
+        },
+        "adoption": {
+          "stars": 1288,
+          "githubSource": "https://github.com/YiNNx/cmd-wrapped",
+          "homebrew": null
+        },
+        "commit": "c150a84c050261a4f8e96daab33f3cdcec7df3dd"
+      }
     },
     "samg/timetrap": {
       "status": "held",
@@ -11472,8 +11378,9 @@
     },
     "bloomreach/s4cmd": {
       "status": "held",
-      "checkedAt": "2026-09-14T20:44:18.759Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "gruntjs/grunt-cli": {
       "status": "held",
@@ -11482,8 +11389,9 @@
     },
     "piotrmurach/tty-prompt": {
       "status": "held",
-      "checkedAt": "2026-09-14T20:44:18.759Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dirk-thomas/vcstool": {
       "status": "held",
@@ -28591,7 +28499,367 @@
       "checkedAt": "2026-09-23T03:43:35.929Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "desgeeko/pdfsyntax": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jakobhoeg/shadcn-chat": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "php-school/cli-menu": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "psanford/wormhole-william": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ehmicky/cross-platform-node-guide": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "p-ranav/tabulate": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ipfs-shipyard/ipfs-deploy": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ipfs-shipyard-ipfs-deploy",
+      "acceptedAt": "2026-09-23T04:43:34.110Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ipfs-shipyard/ipfs-deploy/blob/79d16bf6edbcc3f023f39c7a38ec929316fc1fba/package.json",
+          "snippet": "{\"bin\":{\"ipfs-deploy\":\"src/cli.js\"}}",
+          "target": "src/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/ipfs-shipyard/ipfs-deploy/blob/79d16bf6edbcc3f023f39c7a38ec929316fc1fba/README.md",
+          "snippet": "npm install -g ipfs-deploy"
+        },
+        "usage": {
+          "url": "https://github.com/ipfs-shipyard/ipfs-deploy/blob/79d16bf6edbcc3f023f39c7a38ec929316fc1fba/README.md",
+          "snippet": "ipfs-deploy public/"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ipfs-shipyard/ipfs-deploy",
+          "snippet": "Old (2022) proof of concept:  Zero-Config CLI to Deploy Static Websites to IPFS"
+        },
+        "adoption": {
+          "stars": 1168,
+          "githubSource": "https://github.com/ipfs-shipyard/ipfs-deploy",
+          "homebrew": null
+        },
+        "commit": "79d16bf6edbcc3f023f39c7a38ec929316fc1fba"
+      }
+    },
+    "zpl-c/zpl": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chubin/rate.sx": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vercel/kirimase": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gabotechs/dep-tree": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lurst/hr": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jucasoliveira/terminalgpt": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "toblerity/fiona": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "toblerity-fiona",
+      "acceptedAt": "2026-09-23T04:43:34.110Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Toblerity/Fiona/blob/ec9768a9389530a0570446e3c34ae91448d28cf4/pyproject.toml",
+          "snippet": "fio = \"fiona.fio.main:main_group\"",
+          "target": "fiona/fio/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/Toblerity/Fiona/blob/ec9768a9389530a0570446e3c34ae91448d28cf4/README.rst",
+          "snippet": "pip install fiona"
+        },
+        "usage": {
+          "url": "https://github.com/Toblerity/Fiona/blob/ec9768a9389530a0570446e3c34ae91448d28cf4/README.rst",
+          "snippet": "fio cat"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Toblerity/Fiona",
+          "snippet": "Fiona reads and writes geographic data files"
+        },
+        "adoption": {
+          "stars": 1247,
+          "githubSource": "https://github.com/Toblerity/Fiona",
+          "homebrew": null
+        },
+        "commit": "ec9768a9389530a0570446e3c34ae91448d28cf4"
+      }
+    },
+    "sezna/nps": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sniptt-official/ots": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "babarot/enhancd": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "briandowns/spinner": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "analogj/lexicon": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mark24code/rime-auto-deploy": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dronesploit/dronesploit": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dutiyesh/chrome-extension-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "dutiyesh-chrome-extension-cli",
+      "acceptedAt": "2026-09-23T04:43:34.110Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/dutiyesh/chrome-extension-cli/blob/83cb2f1cfa598a017f0cb9e010810f7adc744445/package.json",
+          "snippet": "{\"bin\":{\"chrome-extension-cli\":\"index.js\"}}",
+          "target": "index.js"
+        },
+        "installation": {
+          "url": "https://github.com/dutiyesh/chrome-extension-cli/blob/83cb2f1cfa598a017f0cb9e010810f7adc744445/README.md",
+          "snippet": "npm install -g chrome-extension-cli"
+        },
+        "usage": {
+          "url": "https://github.com/dutiyesh/chrome-extension-cli/blob/83cb2f1cfa598a017f0cb9e010810f7adc744445/README.md",
+          "snippet": "chrome-extension-cli my-extension"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/dutiyesh/chrome-extension-cli",
+          "snippet": "🚀 The CLI for your next Chrome Extension"
+        },
+        "adoption": {
+          "stars": 2463,
+          "githubSource": "https://github.com/dutiyesh/chrome-extension-cli",
+          "homebrew": null
+        },
+        "commit": "83cb2f1cfa598a017f0cb9e010810f7adc744445"
+      }
+    },
+    "sapegin/mrm": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "blst-security/cherrybomb": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rubik/radon": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "stevemao/awesome-git-addons": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hustcer/star": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "hustcer-star",
+      "acceptedAt": "2026-09-23T04:43:34.110Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/hustcer/star/blob/2bb8151b3b18437aa495515392994ab2eb2d8b21/package.json",
+          "snippet": "{\"bin\":{\"star\":\"./star.js\"}}",
+          "target": "star.js"
+        },
+        "installation": {
+          "url": "https://github.com/hustcer/star/blob/2bb8151b3b18437aa495515392994ab2eb2d8b21/README.md",
+          "snippet": "1. 安装`star`: `sudo npm i -g star`，注意一定记得加上 `-g` 参数，这样在任意路径下都可以调用`star`命令，否则可能找不到可执行文件;"
+        },
+        "usage": {
+          "url": "https://github.com/hustcer/star/blob/2bb8151b3b18437aa495515392994ab2eb2d8b21/README.md",
+          "snippet": "star      : 3"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/hustcer/star",
+          "snippet": "A STock Analysis and Research tool for terminal(cli) users. 技术控和命令行爱好者的 A 股辅助分析工具。"
+        },
+        "adoption": {
+          "stars": 1055,
+          "githubSource": "https://github.com/hustcer/star",
+          "homebrew": null
+        },
+        "commit": "2bb8151b3b18437aa495515392994ab2eb2d8b21"
+      }
+    },
+    "hfrost0/bilix": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "hfrost0-bilix",
+      "acceptedAt": "2026-09-23T04:43:34.110Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/HFrost0/bilix/blob/bb5b234cdfe3fafc4db9d992b91091f2edf791e5/pyproject.toml",
+          "snippet": "bilix = \"bilix.cli.main:main\"",
+          "target": "bilix/cli/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/HFrost0/bilix/blob/bb5b234cdfe3fafc4db9d992b91091f2edf791e5/README.md",
+          "snippet": "pip install bilix"
+        },
+        "usage": {
+          "url": "https://github.com/HFrost0/bilix/blob/bb5b234cdfe3fafc4db9d992b91091f2edf791e5/README.md",
+          "snippet": "bilix v 'url'"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/HFrost0/bilix",
+          "snippet": "⚡️Lightning-fast async download tool for bilibili and more"
+        },
+        "adoption": {
+          "stars": 1784,
+          "githubSource": "https://github.com/HFrost0/bilix",
+          "homebrew": null
+        },
+        "commit": "bb5b234cdfe3fafc4db9d992b91091f2edf791e5"
+      }
+    },
+    "phsym/prettytable-rs": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "arcanis/clipanion": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "freedmand/semantra-python": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "freedmand-semantra-python",
+      "acceptedAt": "2026-09-23T04:43:34.110Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/freedmand/semantra-python/blob/1aed8fd0057f6b3eb7946e0f351f9c668842774d/pyproject.toml",
+          "snippet": "semantra = \"semantra.semantra:main\"",
+          "target": "src/semantra/semantra.py"
+        },
+        "installation": {
+          "url": "https://github.com/freedmand/semantra-python/blob/1aed8fd0057f6b3eb7946e0f351f9c668842774d/README.md",
+          "snippet": "python3 -m pipx install semantra"
+        },
+        "usage": {
+          "url": "https://github.com/freedmand/semantra-python/blob/1aed8fd0057f6b3eb7946e0f351f9c668842774d/README.md",
+          "snippet": "semantra doc.pdf"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/freedmand/semantra-python",
+          "snippet": "Multi-tool for semantic search"
+        },
+        "adoption": {
+          "stars": 2712,
+          "githubSource": "https://github.com/freedmand/semantra-python",
+          "homebrew": null
+        },
+        "commit": "1aed8fd0057f6b3eb7946e0f351f9c668842774d"
+      }
+    },
+    "hooklift/gowsdl": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "bcicen/slackcat": {
+      "status": "held",
+      "checkedAt": "2026-09-23T04:43:34.110Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-23T03:43:35.929Z"
+  "lastRunAt": "2026-09-23T04:43:34.110Z"
 }
