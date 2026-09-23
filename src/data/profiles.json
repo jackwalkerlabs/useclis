@@ -5744,5 +5744,70 @@
     "createdAt": "2012-08-02T10:36:50Z",
     "checkedAt": "2026-09-23T02:44:27.493Z",
     "source": "https://github.com/rajasegar"
+  },
+  "soft": {
+    "login": "Soft",
+    "name": "Samuel Laurén",
+    "type": "User",
+    "bio": "🐧",
+    "location": "Finland",
+    "website": null,
+    "followers": 38,
+    "publicRepos": 55,
+    "createdAt": "2008-12-14T17:33:55Z",
+    "checkedAt": "2026-09-23T03:44:21.755Z",
+    "source": "https://github.com/Soft"
+  },
+  "cutenode": {
+    "login": "cutenode",
+    "name": "cutenode",
+    "type": "Organization",
+    "bio": "cute lil' node projects",
+    "location": null,
+    "website": null,
+    "followers": 40,
+    "publicRepos": 46,
+    "createdAt": "2019-05-31T09:12:06Z",
+    "checkedAt": "2026-09-23T03:44:22.030Z",
+    "source": "https://github.com/cutenode"
+  },
+  "oberblastmeister": {
+    "login": "oberblastmeister",
+    "name": "Brian",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 63,
+    "publicRepos": 143,
+    "createdAt": "2020-02-15T21:01:40Z",
+    "checkedAt": "2026-09-23T03:44:22.299Z",
+    "source": "https://github.com/oberblastmeister"
+  },
+  "mov-cli": {
+    "login": "mov-cli",
+    "name": "mov-cli",
+    "type": "Organization",
+    "bio": null,
+    "location": "Mars",
+    "website": "https://mov-cli.github.io/",
+    "followers": 43,
+    "publicRepos": 10,
+    "createdAt": "2022-03-18T17:40:37Z",
+    "checkedAt": "2026-09-23T03:44:22.622Z",
+    "source": "https://github.com/mov-cli"
+  },
+  "joelibaceta": {
+    "login": "joelibaceta",
+    "name": "Joel Ibaceta",
+    "type": "User",
+    "bio": "AI Researcher in Transition\r\n\r\nFrom Software Engineering to Cognitive Systems & Scientific Computing.",
+    "location": "Lima, Peru",
+    "website": "https://joelibaceta.github.io",
+    "followers": 666,
+    "publicRepos": 542,
+    "createdAt": "2011-06-21T16:49:43Z",
+    "checkedAt": "2026-09-23T03:44:22.995Z",
+    "source": "https://github.com/joelibaceta"
   }
 }

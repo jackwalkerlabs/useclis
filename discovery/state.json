@@ -4,141 +4,6 @@
   "brewOffset": 920,
   "pending": [
     {
-      "repo": "davydany/sultan"
-    },
-    {
-      "repo": "infinitered/solidarity"
-    },
-    {
-      "repo": "kmhmubin/Face-Recognition-Attendance-System"
-    },
-    {
-      "repo": "Soft/xcolor"
-    },
-    {
-      "repo": "MarketingPipeline/Termino.js"
-    },
-    {
-      "repo": "sdushantha/fontpreview"
-    },
-    {
-      "repo": "dominikbraun/timetrace"
-    },
-    {
-      "repo": "srevinsaju/zap"
-    },
-    {
-      "repo": "vercel/micro-dev"
-    },
-    {
-      "repo": "dustinblackman/oatmeal"
-    },
-    {
-      "repo": "lucagrulla/cw"
-    },
-    {
-      "repo": "darylhjd/mangadesk"
-    },
-    {
-      "repo": "ruyadorno/ntl"
-    },
-    {
-      "repo": "MarcoEidinger/SwiftPlantUML"
-    },
-    {
-      "repo": "metaverse/truss"
-    },
-    {
-      "repo": "gyf304/vmcli"
-    },
-    {
-      "repo": "fgeller/kt"
-    },
-    {
-      "repo": "ColdGrub1384/LibTerm"
-    },
-    {
-      "repo": "yliu7949/KouShare-dl"
-    },
-    {
-      "repo": "octobanana/peaclock"
-    },
-    {
-      "repo": "GeorgeFilipkin/pulsemixer"
-    },
-    {
-      "repo": "lukeed/mri"
-    },
-    {
-      "repo": "jawher/mow.cli"
-    },
-    {
-      "repo": "cutenode/good-first-issue"
-    },
-    {
-      "repo": "furkansenharputlu/f-license"
-    },
-    {
-      "repo": "gen0cide/gscript"
-    },
-    {
-      "repo": "teamdfir/sift"
-    },
-    {
-      "repo": "nilslice/protolock"
-    },
-    {
-      "repo": "willghatch/racket-rash"
-    },
-    {
-      "repo": "ecumene/rust-sloth"
-    },
-    {
-      "repo": "ropery/FFcast"
-    },
-    {
-      "repo": "oberblastmeister/trashy"
-    },
-    {
-      "repo": "melbahja/got"
-    },
-    {
-      "repo": "pdevito3/craftsman"
-    },
-    {
-      "repo": "mov-cli/mov-cli"
-    },
-    {
-      "repo": "jorgebucaran/colorette"
-    },
-    {
-      "repo": "joelibaceta/video-to-ascii"
-    },
-    {
-      "repo": "vasani-arpit/WBOT"
-    },
-    {
-      "repo": "ricklamers/shell-ai"
-    },
-    {
-      "repo": "samwho/spacer"
-    },
-    {
-      "repo": "pankod/superplate"
-    },
-    {
-      "repo": "BlackTechX011/Termux-Command-Handbook"
-    },
-    {
-      "repo": "BlueM/cliclick"
-    },
-    {
-      "repo": "alexhallam/tv"
-    },
-    {
-      "repo": "vet-run/vet"
-    },
-    {
       "repo": "desgeeko/pdfsyntax"
     },
     {
@@ -6618,12 +6483,14 @@
     },
     "alexhallam/tv": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "vet-run/vet": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "mayuki/kurukuru": {
@@ -8080,8 +7947,9 @@
     },
     "davydany/sultan": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "lmammino/jwt-cracker": {
       "status": "held",
@@ -8090,8 +7958,9 @@
     },
     "marketingpipeline/termino.js": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bcicen/ctop": {
       "status": "held",
@@ -8116,8 +7985,9 @@
     },
     "vercel/micro-dev": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "johnsundell/shellout": {
       "status": "held",
@@ -8219,13 +8089,15 @@
     },
     "lukeed/mri": {
       "status": "held",
-      "checkedAt": "2026-09-14T08:44:22.215Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jawher/mow.cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T08:44:22.215Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "citguru/pyinquirer": {
       "status": "held",
@@ -11747,8 +11619,9 @@
     },
     "bluem/cliclick": {
       "status": "held",
-      "checkedAt": "2026-09-14T22:44:18.530Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "solana-foundation/create-solana-dapp": {
       "status": "held",
@@ -12625,8 +12498,9 @@
     },
     "marcoeidinger/swiftplantuml": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jeroenjanssens/data-science-at-the-command-line": {
       "status": "held",
@@ -12656,7 +12530,8 @@
     },
     "fgeller/kt": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "davetron5000/optparse-plus": {
@@ -28374,7 +28249,349 @@
       "checkedAt": "2026-09-23T02:43:34.841Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "infinitered/solidarity": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "infinitered-solidarity",
+      "acceptedAt": "2026-09-23T03:43:35.929Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/infinitered/solidarity/blob/47470cff106808a629bcf5755460265f97d5b73d/package.json",
+          "snippet": "{\"bin\":{\"solidarity\":\"bin/solidarity\"}}",
+          "target": "bin/solidarity"
+        },
+        "installation": {
+          "url": "https://github.com/infinitered/solidarity/blob/47470cff106808a629bcf5755460265f97d5b73d/README.md",
+          "snippet": "$ npm i -g solidarity solidarity-react-native"
+        },
+        "usage": {
+          "url": "https://github.com/infinitered/solidarity/blob/47470cff106808a629bcf5755460265f97d5b73d/README.md",
+          "snippet": "solidarity snapshot"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/infinitered/solidarity",
+          "snippet": "Solidarity is an environment checker for project dependencies across multiple machines."
+        },
+        "adoption": {
+          "stars": 640,
+          "githubSource": "https://github.com/infinitered/solidarity",
+          "homebrew": null
+        },
+        "commit": "47470cff106808a629bcf5755460265f97d5b73d"
+      }
+    },
+    "kmhmubin/face-recognition-attendance-system": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "soft/xcolor": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "soft-xcolor",
+      "acceptedAt": "2026-09-23T03:43:35.929Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Soft/xcolor/blob/969d6525c4568a2fafd321fcd72a95481c5f3c7b/Cargo.toml",
+          "snippet": "package.name=\"xcolor\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/Soft/xcolor/blob/969d6525c4568a2fafd321fcd72a95481c5f3c7b/README.md",
+          "snippet": "cargo install xcolor"
+        },
+        "usage": {
+          "url": "https://github.com/Soft/xcolor/blob/969d6525c4568a2fafd321fcd72a95481c5f3c7b/README.md",
+          "snippet": "xcolor 0.5.0"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Soft/xcolor",
+          "snippet": "Lightweight color picker for X11"
+        },
+        "adoption": {
+          "stars": 515,
+          "githubSource": "https://github.com/Soft/xcolor",
+          "homebrew": null
+        },
+        "commit": "969d6525c4568a2fafd321fcd72a95481c5f3c7b"
+      }
+    },
+    "sdushantha/fontpreview": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dominikbraun/timetrace": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "srevinsaju/zap": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lucagrulla/cw": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "metaverse/truss": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gyf304/vmcli": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "coldgrub1384/libterm": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "yliu7949/koushare-dl": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cutenode/good-first-issue": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "cutenode-good-first-issue",
+      "acceptedAt": "2026-09-23T03:43:35.929Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/cutenode/good-first-issue/blob/af7ccf3c47511cc02c782d9c04d4011c1435cfb9/package.json",
+          "snippet": "{\"bin\":{\"good-first-issue\":\"./bin/good-first-issue.js\"}}",
+          "target": "bin/good-first-issue.js"
+        },
+        "installation": {
+          "url": "https://github.com/cutenode/good-first-issue/blob/af7ccf3c47511cc02c782d9c04d4011c1435cfb9/README.md",
+          "snippet": "npm i -g good-first-issue # install globally"
+        },
+        "usage": {
+          "url": "https://github.com/cutenode/good-first-issue/blob/af7ccf3c47511cc02c782d9c04d4011c1435cfb9/README.md",
+          "snippet": "good-first-issue thisisntarealprojectorgithuborg"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/cutenode/good-first-issue",
+          "snippet": "🖥 CLI for finding good first issues"
+        },
+        "adoption": {
+          "stars": 832,
+          "githubSource": "https://github.com/cutenode/good-first-issue",
+          "homebrew": null
+        },
+        "commit": "af7ccf3c47511cc02c782d9c04d4011c1435cfb9"
+      }
+    },
+    "furkansenharputlu/f-license": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gen0cide/gscript": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "teamdfir/sift": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
+    },
+    "nilslice/protolock": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "willghatch/racket-rash": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ecumene/rust-sloth": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ropery/ffcast": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "oberblastmeister/trashy": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "oberblastmeister-trashy",
+      "acceptedAt": "2026-09-23T03:43:35.929Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/oberblastmeister/trashy/blob/7c48827e55bca5a3188d3de44afda3028837b34b/Cargo.toml",
+          "snippet": "[[bin]] name=\"trashy\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/oberblastmeister/trashy/blob/7c48827e55bca5a3188d3de44afda3028837b34b/README.md",
+          "snippet": "cargo install trashy"
+        },
+        "usage": {
+          "url": "https://github.com/oberblastmeister/trashy/blob/7c48827e55bca5a3188d3de44afda3028837b34b/README.md",
+          "snippet": "trashy first second third"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/oberblastmeister/trashy",
+          "snippet": "a cli system trash manager, alternative to rm and trash-cli"
+        },
+        "adoption": {
+          "stars": 537,
+          "githubSource": "https://github.com/oberblastmeister/trashy",
+          "homebrew": null
+        },
+        "commit": "7c48827e55bca5a3188d3de44afda3028837b34b"
+      }
+    },
+    "melbahja/got": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pdevito3/craftsman": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mov-cli/mov-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "mov-cli-mov-cli",
+      "acceptedAt": "2026-09-23T03:43:35.929Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mov-cli/mov-cli/blob/13399f91b8b4e811afc4f739eb7f0da1cd6acb57/pyproject.toml",
+          "snippet": "mov-cli = \"mov_cli.cli.__main__:app\"",
+          "target": "mov_cli/cli/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/mov-cli/mov-cli/blob/13399f91b8b4e811afc4f739eb7f0da1cd6acb57/README.md",
+          "snippet": "pip install mov-cli -U"
+        },
+        "usage": {
+          "url": "https://github.com/mov-cli/mov-cli/blob/13399f91b8b4e811afc4f739eb7f0da1cd6acb57/README.md",
+          "snippet": "mov-cli -e"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mov-cli/mov-cli",
+          "snippet": "Watch everything from your terminal."
+        },
+        "adoption": {
+          "stars": 1300,
+          "githubSource": "https://github.com/mov-cli/mov-cli",
+          "homebrew": null
+        },
+        "commit": "13399f91b8b4e811afc4f739eb7f0da1cd6acb57"
+      }
+    },
+    "jorgebucaran/colorette": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "joelibaceta/video-to-ascii": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "joelibaceta-video-to-ascii",
+      "acceptedAt": "2026-09-23T03:43:35.929Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/joelibaceta/video-to-ascii/blob/b04a494e6e1be429d18af2400425cea93f896377/pyproject.toml",
+          "snippet": "video-to-ascii = \"video_to_ascii.cli:main\"",
+          "target": "video_to_ascii/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/joelibaceta/video-to-ascii/blob/b04a494e6e1be429d18af2400425cea93f896377/README.md",
+          "snippet": "$ pip install video-to-ascii"
+        },
+        "usage": {
+          "url": "https://github.com/joelibaceta/video-to-ascii/blob/b04a494e6e1be429d18af2400425cea93f896377/README.md",
+          "snippet": "video-to-ascii -f myvideo.mp4"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/joelibaceta/video-to-ascii",
+          "snippet": "It is a simple python package to play videos in the terminal using characters as pixels"
+        },
+        "adoption": {
+          "stars": 1864,
+          "githubSource": "https://github.com/joelibaceta/video-to-ascii",
+          "homebrew": null
+        },
+        "commit": "b04a494e6e1be429d18af2400425cea93f896377"
+      }
+    },
+    "vasani-arpit/wbot": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ricklamers/shell-ai": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "samwho/spacer": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pankod/superplate": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "blacktechx011/termux-command-handbook": {
+      "status": "held",
+      "checkedAt": "2026-09-23T03:43:35.929Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-23T02:43:34.841Z"
+  "lastRunAt": "2026-09-23T03:43:35.929Z"
 }

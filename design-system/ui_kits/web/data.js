@@ -10014,6 +10014,120 @@ window.USECLIS_DATA = {
       "stars": 733,
       "license": "MIT",
       "checkedAt": "2026-09-23T02:44:22.121Z"
+    },
+    {
+      "slug": "infinitered-solidarity",
+      "name": "solidarity",
+      "repo": "infinitered/solidarity",
+      "category": "Packages & environments",
+      "command": "solidarity",
+      "useCase": "Solidarity is an environment checker for project dependencies across multiple machines.",
+      "description": "Solidarity is an environment checker for project dependencies across multiple machines.",
+      "agentUse": "Invoke solidarity from a shell for the documented use case: Solidarity is an environment checker for project dependencies across multiple machines.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "solidarity snapshot",
+      "website": "https://github.com/infinitered/solidarity",
+      "docs": "https://github.com/infinitered/solidarity/blob/47470cff106808a629bcf5755460265f97d5b73d/README.md",
+      "stars": 640,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T03:44:16.587Z"
+    },
+    {
+      "slug": "soft-xcolor",
+      "name": "xcolor",
+      "repo": "Soft/xcolor",
+      "category": "Terminal utilities",
+      "command": "xcolor",
+      "useCase": "Lightweight color picker for X11",
+      "description": "Lightweight color picker for X11",
+      "agentUse": "Invoke xcolor from a shell for the documented use case: Lightweight color picker for X11",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "xcolor 0.5.0",
+      "website": "https://github.com/Soft/xcolor",
+      "docs": "https://github.com/Soft/xcolor/blob/969d6525c4568a2fafd321fcd72a95481c5f3c7b/README.md",
+      "stars": 515,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T03:44:17.160Z"
+    },
+    {
+      "slug": "cutenode-good-first-issue",
+      "name": "good-first-issue",
+      "repo": "cutenode/good-first-issue",
+      "category": "Git & collaboration",
+      "command": "good-first-issue",
+      "useCase": "🖥 CLI for finding good first issues",
+      "description": "🖥 CLI for finding good first issues",
+      "agentUse": "Invoke good-first-issue from a shell for the documented use case: 🖥 CLI for finding good first issues",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "good-first-issue thisisntarealprojectorgithuborg",
+      "website": "https://github.com/cutenode/good-first-issue",
+      "docs": "https://github.com/cutenode/good-first-issue/blob/af7ccf3c47511cc02c782d9c04d4011c1435cfb9/README.md",
+      "stars": 832,
+      "license": null,
+      "checkedAt": "2026-09-23T03:44:17.833Z"
+    },
+    {
+      "slug": "oberblastmeister-trashy",
+      "name": "trashy",
+      "repo": "oberblastmeister/trashy",
+      "category": "Files & documents",
+      "command": "trashy",
+      "useCase": "a cli system trash manager, alternative to rm and trash-cli",
+      "description": "a cli system trash manager, alternative to rm and trash-cli",
+      "agentUse": "Invoke trashy from a shell for the documented use case: a cli system trash manager, alternative to rm and trash-cli",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "trashy first second third",
+      "website": "https://github.com/oberblastmeister/trashy",
+      "docs": "https://github.com/oberblastmeister/trashy/blob/7c48827e55bca5a3188d3de44afda3028837b34b/README.md",
+      "stars": 537,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-23T03:44:18.370Z"
+    },
+    {
+      "slug": "mov-cli-mov-cli",
+      "name": "mov-cli",
+      "repo": "mov-cli/mov-cli",
+      "category": "Terminal utilities",
+      "command": "mov-cli",
+      "useCase": "Watch everything from your terminal.",
+      "description": "Watch everything from your terminal.",
+      "agentUse": "Invoke mov-cli from a shell for the documented use case: Watch everything from your terminal.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mov-cli -e",
+      "website": "https://github.com/mov-cli/mov-cli",
+      "docs": "https://github.com/mov-cli/mov-cli/blob/13399f91b8b4e811afc4f739eb7f0da1cd6acb57/README.md",
+      "stars": 1300,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T03:44:18.903Z"
+    },
+    {
+      "slug": "joelibaceta-video-to-ascii",
+      "name": "video-to-ascii",
+      "repo": "joelibaceta/video-to-ascii",
+      "category": "Terminal utilities",
+      "command": "video-to-ascii",
+      "useCase": "It is a simple python package to play videos in the terminal using characters as pixels",
+      "description": "It is a simple python package to play videos in the terminal using characters as pixels",
+      "agentUse": "Invoke video-to-ascii from a shell for the documented use case: It is a simple python package to play videos in the terminal using characters as pixels",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "video-to-ascii -f myvideo.mp4",
+      "website": "https://github.com/joelibaceta/video-to-ascii",
+      "docs": "https://github.com/joelibaceta/video-to-ascii/blob/b04a494e6e1be429d18af2400425cea93f896377/README.md",
+      "stars": 1864,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T03:44:19.569Z"
     }
   ],
   "categories": [
