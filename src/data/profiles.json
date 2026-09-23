@@ -5900,5 +5900,83 @@
     "createdAt": "2010-06-15T18:47:04Z",
     "checkedAt": "2026-09-23T04:44:32.947Z",
     "source": "https://github.com/freedmand"
+  },
+  "swanandx": {
+    "login": "swanandx",
+    "name": "Swanand Mulay",
+    "type": "User",
+    "bio": "redoxing all the systems 🦀 ",
+    "location": null,
+    "website": "swanandx.github.io",
+    "followers": 127,
+    "publicRepos": 39,
+    "createdAt": "2020-10-19T12:43:39Z",
+    "checkedAt": "2026-09-23T05:44:28.209Z",
+    "source": "https://github.com/swanandx"
+  },
+  "solidiquis": {
+    "login": "solidiquis",
+    "name": "Benji Nguyen",
+    "type": "User",
+    "bio": "Former medical student turned self-taught programmer. I like horror movies, extreme metal, and anime.\r\n",
+    "location": "Los Angeles",
+    "website": null,
+    "followers": 132,
+    "publicRepos": 60,
+    "createdAt": "2018-12-01T22:52:51Z",
+    "checkedAt": "2026-09-23T05:44:28.654Z",
+    "source": "https://github.com/solidiquis"
+  },
+  "zonemeen": {
+    "login": "zonemeen",
+    "name": "烽宁",
+    "type": "User",
+    "bio": null,
+    "location": "Hangzhou, China",
+    "website": null,
+    "followers": 113,
+    "publicRepos": 50,
+    "createdAt": "2018-10-30T04:39:32Z",
+    "checkedAt": "2026-09-23T05:44:29.086Z",
+    "source": "https://github.com/zonemeen"
+  },
+  "ycd": {
+    "login": "ycd",
+    "name": "Yagiz Degirmenci",
+    "type": "User",
+    "bio": "Interested in Statistics, Distributed Systems and Networking.",
+    "location": "Istanbul, Turkey",
+    "website": null,
+    "followers": 252,
+    "publicRepos": 44,
+    "createdAt": "2020-03-26T21:32:41Z",
+    "checkedAt": "2026-09-23T05:44:29.518Z",
+    "source": "https://github.com/ycd"
+  },
+  "abhagsain": {
+    "login": "abhagsain",
+    "name": "Anurag Bhagsain",
+    "type": "User",
+    "bio": "Love to build stuff, Learner & Engineer",
+    "location": "Remote",
+    "website": "https://abhagsain.com",
+    "followers": 261,
+    "publicRepos": 70,
+    "createdAt": "2018-02-18T08:41:09Z",
+    "checkedAt": "2026-09-23T05:44:29.960Z",
+    "source": "https://github.com/abhagsain"
+  },
+  "annihil": {
+    "login": "Annihil",
+    "name": "Bap",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 960,
+    "publicRepos": 8,
+    "createdAt": "2016-01-14T14:03:41Z",
+    "checkedAt": "2026-09-23T05:44:30.398Z",
+    "source": "https://github.com/Annihil"
   }
 }

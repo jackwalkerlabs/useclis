@@ -10261,6 +10261,139 @@ window.USECLIS_DATA = {
       "stars": 2712,
       "license": "MIT",
       "checkedAt": "2026-09-23T04:44:28.494Z"
+    },
+    {
+      "slug": "swanandx-lemmeknow",
+      "name": "lemmeknow",
+      "repo": "swanandx/lemmeknow",
+      "category": "Terminal utilities",
+      "command": "lemmeknow",
+      "useCase": "The fastest way to identify anything!",
+      "description": "The fastest way to identify anything!",
+      "agentUse": "Invoke lemmeknow from a shell for the documented use case: The fastest way to identify anything!",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "lemmeknow UC11L3JDgDQMyH8iolKkVZ4w --json",
+      "website": "https://github.com/swanandx/lemmeknow",
+      "docs": "https://github.com/swanandx/lemmeknow/blob/1ed4a6b75540bae403d834857a0ddc371f1ac2f9/README.md",
+      "stars": 1118,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T05:44:21.309Z"
+    },
+    {
+      "slug": "solidiquis-erdtree",
+      "name": "erdtree",
+      "repo": "solidiquis/erdtree",
+      "category": "Files & documents",
+      "command": "erd",
+      "useCase": "A modern, cross-platform, multi-threaded, and general purpose filesystem and disk-usage utility that is aware of .gitignore and hidden file rules.",
+      "description": "A modern, cross-platform, multi-threaded, and general purpose filesystem and disk-usage utility that is aware of .gitignore and hidden file rules.",
+      "agentUse": "Invoke erd from a shell for the documented use case: A modern, cross-platform, multi-threaded, and general purpose filesystem and disk-usage utility that is aware of .gitignore and hidden file rules.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "erd --config du",
+      "website": "https://github.com/solidiquis/erdtree",
+      "docs": "https://github.com/solidiquis/erdtree/blob/77199d97c3f14cfaf66a3c0c54c06d1f28d7e7ca/README.md",
+      "stars": 2603,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T05:44:21.968Z"
+    },
+    {
+      "slug": "zonemeen-musicn",
+      "name": "musicn",
+      "repo": "zonemeen/musicn",
+      "category": "Cloud & deployment",
+      "command": "msc",
+      "useCase": "🎵 一个可播放及下载音乐的 Node.js 命令行工具",
+      "description": "🎵 一个可播放及下载音乐的 Node.js 命令行工具",
+      "agentUse": "Invoke msc from a shell for the documented use case: 🎵 一个可播放及下载音乐的 Node.js 命令行工具",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "msc --qrcode",
+      "website": "https://github.com/zonemeen/musicn",
+      "docs": "https://github.com/zonemeen/musicn/blob/14b3faa00aebfdb235022eb255bc4a346ed66c69/README.md",
+      "stars": 1767,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T05:44:22.536Z"
+    },
+    {
+      "slug": "ycd-manage-fastapi",
+      "name": "manage-fastapi",
+      "repo": "ycd/manage-fastapi",
+      "category": "Terminal utilities",
+      "command": "fastapi",
+      "useCase": ":rocket: CLI tool for FastAPI. Generating new FastAPI projects & boilerplates made easy.    ",
+      "description": ":rocket: CLI tool for FastAPI. Generating new FastAPI projects & boilerplates made easy.    ",
+      "agentUse": "Invoke fastapi from a shell for the documented use case: :rocket: CLI tool for FastAPI. Generating new FastAPI projects & boilerplates made easy.    ",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "fastapi run",
+      "website": "https://github.com/ycd/manage-fastapi",
+      "docs": "https://github.com/ycd/manage-fastapi/blob/b1c266fb5eb73ce09f6ccc2fcb28b76be9fade4b/README.md",
+      "stars": 1905,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T05:44:23.181Z"
+    },
+    {
+      "slug": "abhagsain-ai-cli",
+      "name": "ai-cli",
+      "repo": "abhagsain/ai-cli",
+      "category": "Terminal utilities",
+      "command": "ai",
+      "useCase": "Get answers for CLI commands from ChatGPT right from your terminal",
+      "description": "Get answers for CLI commands from ChatGPT right from your terminal",
+      "agentUse": "Invoke ai from a shell for the documented use case: Get answers for CLI commands from ChatGPT right from your terminal",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ai ask \"Check process running on port\"",
+      "website": "https://github.com/abhagsain/ai-cli",
+      "docs": "https://github.com/abhagsain/ai-cli/blob/39d1c6f858f95f1193e6a0738bedccb59dc33709/README.md",
+      "stars": 1170,
+      "license": "GPL-3.0",
+      "checkedAt": "2026-09-23T05:44:23.885Z"
+    },
+    {
+      "slug": "annihil-github-spray",
+      "name": "github-spray",
+      "repo": "Annihil/github-spray",
+      "category": "Git & collaboration",
+      "command": "github-spray",
+      "useCase": ":octocat: Draw on your GitHub contribution graph ░▒▓█",
+      "description": ":octocat: Draw on your GitHub contribution graph ░▒▓█",
+      "agentUse": "Invoke github-spray from a shell for the documented use case: :octocat: Draw on your GitHub contribution graph ░▒▓█",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "github-spray -t hello --multiplier 10 --push --origin https://github.com/John/hello.git",
+      "website": "https://github.com/Annihil/github-spray",
+      "docs": "https://github.com/Annihil/github-spray/blob/3d03719567563fbc88fc317bf6cf1a41787e9213/readme.md",
+      "stars": 1471,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T05:44:24.570Z"
+    },
+    {
+      "slug": "wustho-epr",
+      "name": "epr",
+      "repo": "wustho/epr",
+      "category": "Terminal utilities",
+      "command": "epr",
+      "useCase": "CLI Epub Reader",
+      "description": "CLI Epub Reader",
+      "agentUse": "Invoke epr from a shell for the documented use case: CLI Epub Reader",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "epr dumas count mont",
+      "website": "https://github.com/wustho/epr",
+      "docs": "https://github.com/wustho/epr/blob/723c77d34d7f149a2c1bcadd99d288d26f66531d/README.md",
+      "stars": 1409,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T05:44:25.202Z"
     }
   ],
   "categories": [

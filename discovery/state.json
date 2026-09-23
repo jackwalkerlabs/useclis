@@ -4,129 +4,6 @@
   "brewOffset": 920,
   "pending": [
     {
-      "repo": "vercel/arg"
-    },
-    {
-      "repo": "timothymiller/t4-app"
-    },
-    {
-      "repo": "genuinetools/reg"
-    },
-    {
-      "repo": "0xacx/chatGPT-shell-cli"
-    },
-    {
-      "repo": "altdesktop/playerctl"
-    },
-    {
-      "repo": "swanandx/lemmeknow"
-    },
-    {
-      "repo": "muellan/clipp"
-    },
-    {
-      "repo": "gorilla-llm/gorilla-cli"
-    },
-    {
-      "repo": "solidiquis/erdtree"
-    },
-    {
-      "repo": "davrodpin/mole"
-    },
-    {
-      "repo": "joehillen/sysz"
-    },
-    {
-      "repo": "zonemeen/musicn"
-    },
-    {
-      "repo": "CITGuru/PyInquirer"
-    },
-    {
-      "repo": "ycd/manage-fastapi"
-    },
-    {
-      "repo": "dbcli/mssql-cli"
-    },
-    {
-      "repo": "abhagsain/ai-cli"
-    },
-    {
-      "repo": "guumaster/hostctl"
-    },
-    {
-      "repo": "sheepla/pingu"
-    },
-    {
-      "repo": "Annihil/github-spray"
-    },
-    {
-      "repo": "patrickfav/uber-apk-signer"
-    },
-    {
-      "repo": "npkgz/cli-progress"
-    },
-    {
-      "repo": "abiosoft/ishell"
-    },
-    {
-      "repo": "gitless-vcs/gitless"
-    },
-    {
-      "repo": "hexsum/Mojo-Weixin"
-    },
-    {
-      "repo": "ngx-rocket/generator-ngx-rocket"
-    },
-    {
-      "repo": "chunqiuyiyu/ervy"
-    },
-    {
-      "repo": "twitter/twurl"
-    },
-    {
-      "repo": "bcicen/grmon"
-    },
-    {
-      "repo": "rickyah/ini-parser"
-    },
-    {
-      "repo": "MattMoony/figaro"
-    },
-    {
-      "repo": "TermuxArch/TermuxArch"
-    },
-    {
-      "repo": "nordtheme/iterm2"
-    },
-    {
-      "repo": "stampery/mongoaudit"
-    },
-    {
-      "repo": "DimitarPetrov/stegify"
-    },
-    {
-      "repo": "TylerBrock/saw"
-    },
-    {
-      "repo": "tmrts/boilr"
-    },
-    {
-      "repo": "isacikgoz/gitin"
-    },
-    {
-      "repo": "wustho/epr"
-    },
-    {
-      "repo": "Nonchalant/AppIcon"
-    },
-    {
-      "repo": "daxeel/blockshell"
-    },
-    {
-      "repo": "peggyrayzis/react-native-create-bridge"
-    },
-    {
       "repo": "piotrmurach/tty"
     },
     {
@@ -7874,8 +7751,9 @@
     },
     "muellan/clipp": {
       "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ogham/dog": {
       "status": "held",
@@ -7920,9 +7798,37 @@
       }
     },
     "solidiquis/erdtree": {
-      "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "solidiquis-erdtree",
+      "acceptedAt": "2026-09-23T05:43:37.679Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/solidiquis/erdtree/blob/77199d97c3f14cfaf66a3c0c54c06d1f28d7e7ca/Cargo.toml",
+          "snippet": "[[bin]] name=\"erd\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/solidiquis/erdtree/blob/77199d97c3f14cfaf66a3c0c54c06d1f28d7e7ca/README.md",
+          "snippet": "$ cargo install erdtree"
+        },
+        "usage": {
+          "url": "https://github.com/solidiquis/erdtree/blob/77199d97c3f14cfaf66a3c0c54c06d1f28d7e7ca/README.md",
+          "snippet": "erd --config du"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/solidiquis/erdtree",
+          "snippet": "A modern, cross-platform, multi-threaded, and general purpose filesystem and disk-usage utility that is aware of .gitignore and hidden file rules."
+        },
+        "adoption": {
+          "stars": 2603,
+          "githubSource": "https://github.com/solidiquis/erdtree",
+          "homebrew": null
+        },
+        "commit": "77199d97c3f14cfaf66a3c0c54c06d1f28d7e7ca"
+      }
     },
     "lptstr/winfetch": {
       "status": "held",
@@ -7956,9 +7862,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "zonemeen/musicn": {
-      "status": "held",
-      "checkedAt": "2026-09-14T07:44:19.259Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "zonemeen-musicn",
+      "acceptedAt": "2026-09-23T05:43:37.679Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/zonemeen/musicn/blob/14b3faa00aebfdb235022eb255bc4a346ed66c69/package.json",
+          "snippet": "{\"bin\":{\"msc\":\"bin/cli.js\"}}",
+          "target": "bin/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/zonemeen/musicn/blob/14b3faa00aebfdb235022eb255bc4a346ed66c69/README.md",
+          "snippet": "$ npm i musicn -g"
+        },
+        "usage": {
+          "url": "https://github.com/zonemeen/musicn/blob/14b3faa00aebfdb235022eb255bc4a346ed66c69/README.md",
+          "snippet": "msc --qrcode"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/zonemeen/musicn",
+          "snippet": "🎵 一个可播放及下载音乐的 Node.js 命令行工具"
+        },
+        "adoption": {
+          "stars": 1767,
+          "githubSource": "https://github.com/zonemeen/musicn",
+          "homebrew": null
+        },
+        "commit": "14b3faa00aebfdb235022eb255bc4a346ed66c69"
+      }
     },
     "lemnos/theme.sh": {
       "status": "held",
@@ -7979,8 +7913,9 @@
     },
     "citguru/pyinquirer": {
       "status": "held",
-      "checkedAt": "2026-09-14T08:44:22.215Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "commandlineparser/commandline": {
       "status": "held",
@@ -8042,8 +7977,9 @@
     },
     "npkgz/cli-progress": {
       "status": "held",
-      "checkedAt": "2026-09-14T08:44:22.215Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "michaelmacinnis/oh": {
       "status": "held",
@@ -8057,8 +7993,9 @@
     },
     "bcicen/grmon": {
       "status": "held",
-      "checkedAt": "2026-09-14T08:44:22.215Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "daleroberts/itermplot": {
       "status": "held",
@@ -11425,7 +11362,8 @@
     },
     "genuinetools/reg": {
       "status": "held",
-      "checkedAt": "2026-09-14T20:44:18.759Z",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "maaslalani/invoice": {
@@ -11435,8 +11373,9 @@
     },
     "altdesktop/playerctl": {
       "status": "held",
-      "checkedAt": "2026-09-14T21:44:20.281Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dwtkns/gdal-cheat-sheet": {
       "status": "held",
@@ -12475,7 +12414,8 @@
     },
     "dbcli/mssql-cli": {
       "status": "held",
-      "checkedAt": "2026-09-15T00:44:19.861Z",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "akamhy/waybackpy": {
@@ -28859,7 +28799,328 @@
       "checkedAt": "2026-09-23T04:43:34.110Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "vercel/arg": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "timothymiller/t4-app": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "Archived, disabled, forked, private, or template repository"
+    },
+    "0xacx/chatgpt-shell-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "swanandx/lemmeknow": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "swanandx-lemmeknow",
+      "acceptedAt": "2026-09-23T05:43:37.679Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/swanandx/lemmeknow/blob/1ed4a6b75540bae403d834857a0ddc371f1ac2f9/Cargo.toml",
+          "snippet": "package.name=\"lemmeknow\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/swanandx/lemmeknow/blob/1ed4a6b75540bae403d834857a0ddc371f1ac2f9/README.md",
+          "snippet": "cargo install lemmeknow"
+        },
+        "usage": {
+          "url": "https://github.com/swanandx/lemmeknow/blob/1ed4a6b75540bae403d834857a0ddc371f1ac2f9/README.md",
+          "snippet": "lemmeknow UC11L3JDgDQMyH8iolKkVZ4w --json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/swanandx/lemmeknow",
+          "snippet": "The fastest way to identify anything!"
+        },
+        "adoption": {
+          "stars": 1118,
+          "githubSource": "https://github.com/swanandx/lemmeknow",
+          "homebrew": null
+        },
+        "commit": "1ed4a6b75540bae403d834857a0ddc371f1ac2f9"
+      }
+    },
+    "gorilla-llm/gorilla-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "davrodpin/mole": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ycd/manage-fastapi": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ycd-manage-fastapi",
+      "acceptedAt": "2026-09-23T05:43:37.679Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ycd/manage-fastapi/blob/b1c266fb5eb73ce09f6ccc2fcb28b76be9fade4b/pyproject.toml",
+          "snippet": "fastapi = \"manage_fastapi.main:app\"",
+          "target": "manage_fastapi/main.py"
+        },
+        "installation": {
+          "url": "https://github.com/ycd/manage-fastapi/blob/b1c266fb5eb73ce09f6ccc2fcb28b76be9fade4b/README.md",
+          "snippet": "pip install manage-fastapi"
+        },
+        "usage": {
+          "url": "https://github.com/ycd/manage-fastapi/blob/b1c266fb5eb73ce09f6ccc2fcb28b76be9fade4b/README.md",
+          "snippet": "fastapi run"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ycd/manage-fastapi",
+          "snippet": ":rocket: CLI tool for FastAPI. Generating new FastAPI projects & boilerplates made easy.    "
+        },
+        "adoption": {
+          "stars": 1905,
+          "githubSource": "https://github.com/ycd/manage-fastapi",
+          "homebrew": null
+        },
+        "commit": "b1c266fb5eb73ce09f6ccc2fcb28b76be9fade4b"
+      }
+    },
+    "abhagsain/ai-cli": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "abhagsain-ai-cli",
+      "acceptedAt": "2026-09-23T05:43:37.679Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/abhagsain/ai-cli/blob/39d1c6f858f95f1193e6a0738bedccb59dc33709/package.json",
+          "snippet": "{\"bin\":{\"ai\":\"./bin/run\"}}",
+          "target": "bin/run"
+        },
+        "installation": {
+          "url": "https://github.com/abhagsain/ai-cli/blob/39d1c6f858f95f1193e6a0738bedccb59dc33709/README.md",
+          "snippet": "npm i @abhagsain/ai-cli -g"
+        },
+        "usage": {
+          "url": "https://github.com/abhagsain/ai-cli/blob/39d1c6f858f95f1193e6a0738bedccb59dc33709/README.md",
+          "snippet": "ai ask \"Check process running on port\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/abhagsain/ai-cli",
+          "snippet": "Get answers for CLI commands from ChatGPT right from your terminal"
+        },
+        "adoption": {
+          "stars": 1170,
+          "githubSource": "https://github.com/abhagsain/ai-cli",
+          "homebrew": null
+        },
+        "commit": "39d1c6f858f95f1193e6a0738bedccb59dc33709"
+      }
+    },
+    "guumaster/hostctl": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sheepla/pingu": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "annihil/github-spray": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "annihil-github-spray",
+      "acceptedAt": "2026-09-23T05:43:37.679Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Annihil/github-spray/blob/3d03719567563fbc88fc317bf6cf1a41787e9213/package.json",
+          "snippet": "{\"bin\":{\"github-spray\":\"index.js\"}}",
+          "target": "index.js"
+        },
+        "installation": {
+          "url": "https://github.com/Annihil/github-spray/blob/3d03719567563fbc88fc317bf6cf1a41787e9213/readme.md",
+          "snippet": "npm i -g github-spray"
+        },
+        "usage": {
+          "url": "https://github.com/Annihil/github-spray/blob/3d03719567563fbc88fc317bf6cf1a41787e9213/readme.md",
+          "snippet": "github-spray -t hello --multiplier 10 --push --origin https://github.com/John/hello.git"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Annihil/github-spray",
+          "snippet": ":octocat: Draw on your GitHub contribution graph ░▒▓█"
+        },
+        "adoption": {
+          "stars": 1471,
+          "githubSource": "https://github.com/Annihil/github-spray",
+          "homebrew": null
+        },
+        "commit": "3d03719567563fbc88fc317bf6cf1a41787e9213"
+      }
+    },
+    "patrickfav/uber-apk-signer": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "abiosoft/ishell": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gitless-vcs/gitless": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hexsum/mojo-weixin": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "ngx-rocket/generator-ngx-rocket": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chunqiuyiyu/ervy": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "twitter/twurl": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rickyah/ini-parser": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mattmoony/figaro": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "termuxarch/termuxarch": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nordtheme/iterm2": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "stampery/mongoaudit": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dimitarpetrov/stegify": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tylerbrock/saw": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tmrts/boilr": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "isacikgoz/gitin": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "wustho/epr": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "wustho-epr",
+      "acceptedAt": "2026-09-23T05:43:37.679Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/wustho/epr/blob/723c77d34d7f149a2c1bcadd99d288d26f66531d/pyproject.toml",
+          "snippet": "epr = \"epr:main\"",
+          "target": "epr.py"
+        },
+        "installation": {
+          "url": "https://github.com/wustho/epr/blob/723c77d34d7f149a2c1bcadd99d288d26f66531d/README.md",
+          "snippet": "$ pip3 install epr-reader"
+        },
+        "usage": {
+          "url": "https://github.com/wustho/epr/blob/723c77d34d7f149a2c1bcadd99d288d26f66531d/README.md",
+          "snippet": "epr dumas count mont"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/wustho/epr",
+          "snippet": "CLI Epub Reader"
+        },
+        "adoption": {
+          "stars": 1409,
+          "githubSource": "https://github.com/wustho/epr",
+          "homebrew": null
+        },
+        "commit": "723c77d34d7f149a2c1bcadd99d288d26f66531d"
+      }
+    },
+    "nonchalant/appicon": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "daxeel/blockshell": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "peggyrayzis/react-native-create-bridge": {
+      "status": "held",
+      "checkedAt": "2026-09-23T05:43:37.679Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-23T04:43:34.110Z"
+  "lastRunAt": "2026-09-23T05:43:37.679Z"
 }
