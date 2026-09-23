@@ -4,142 +4,6 @@
   "brewOffset": 920,
   "pending": [
     {
-      "repo": "arthurhenrique/cookiecutter-fastapi"
-    },
-    {
-      "repo": "kubernetes/minikube",
-      "formula": "minikube"
-    },
-    {
-      "repo": "chenjiandongx/sniffer"
-    },
-    {
-      "repo": "HackYourFuture/curriculum"
-    },
-    {
-      "repo": "mayuki/Kurukuru"
-    },
-    {
-      "repo": "aibox22/readmeX"
-    },
-    {
-      "repo": "oppiliappan/eva"
-    },
-    {
-      "repo": "manparvesh/yoda"
-    },
-    {
-      "repo": "gulpjs/liftoff"
-    },
-    {
-      "repo": "pomdtr/sunbeam"
-    },
-    {
-      "repo": "kellyjonbrazil/jello"
-    },
-    {
-      "repo": "pkosiec/mongo-seeding"
-    },
-    {
-      "repo": "gitbito/CLI"
-    },
-    {
-      "repo": "hechoendrupal/drupal-console"
-    },
-    {
-      "repo": "kharvd/gpt-cli"
-    },
-    {
-      "repo": "darrenburns/dunk"
-    },
-    {
-      "repo": "piqnt/svgexport"
-    },
-    {
-      "repo": "patrickfav/bcrypt"
-    },
-    {
-      "repo": "ajeetdsouza/clidle"
-    },
-    {
-      "repo": "paololazzari/play"
-    },
-    {
-      "repo": "paulopacitti/gruvbox-factory"
-    },
-    {
-      "repo": "bloznelis/typioca"
-    },
-    {
-      "repo": "mcknly/breadboard-os"
-    },
-    {
-      "repo": "efugier/smartcat"
-    },
-    {
-      "repo": "benibela/xidel"
-    },
-    {
-      "repo": "jonasvinther/medusa"
-    },
-    {
-      "repo": "gajus/table"
-    },
-    {
-      "repo": "balta2ar/brotab"
-    },
-    {
-      "repo": "ad4mx/spinoff"
-    },
-    {
-      "repo": "samuel-lucas6/Kryptor"
-    },
-    {
-      "repo": "skovy/typed-scss-modules"
-    },
-    {
-      "repo": "achillesrasquinha/pipupgrade"
-    },
-    {
-      "repo": "ruyadorno/ipt"
-    },
-    {
-      "repo": "BalliAsghar/Mailsy"
-    },
-    {
-      "repo": "trakBan/spongebob-cli"
-    },
-    {
-      "repo": "wintermute-cell/ngrrram"
-    },
-    {
-      "repo": "addyosmani/git2txt"
-    },
-    {
-      "repo": "i18next/i18next-scanner"
-    },
-    {
-      "repo": "d3witt/viking"
-    },
-    {
-      "repo": "facundoolano/ngtop"
-    },
-    {
-      "repo": "Hyde46/hoard"
-    },
-    {
-      "repo": "hedyhli/starcli"
-    },
-    {
-      "repo": "ahmadawais/create-node-cli"
-    },
-    {
-      "repo": "rajasegar/alacritty-themes"
-    },
-    {
-      "repo": "spring-projects-experimental/spring-boot-migrator"
-    },
-    {
       "repo": "davydany/sultan"
     },
     {
@@ -6764,8 +6628,9 @@
     },
     "mayuki/kurukuru": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "c-bata/go-prompt": {
       "status": "held",
@@ -6795,12 +6660,14 @@
     },
     "gulpjs/liftoff": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "kellyjonbrazil/jello": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "nriver/episode-rename": {
@@ -6822,13 +6689,42 @@
     },
     "gitbito/cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "kharvd/gpt-cli": {
-      "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "kharvd-gpt-cli",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/kharvd/gpt-cli/blob/bff5d87311abf00a900fb17595d443953750e29c/pyproject.toml",
+          "snippet": "gpt = \"gptcli.gpt:main\"",
+          "target": "gptcli/gpt.py"
+        },
+        "installation": {
+          "url": "https://github.com/kharvd/gpt-cli/blob/bff5d87311abf00a900fb17595d443953750e29c/README.md",
+          "snippet": "pip install gpt-command-line"
+        },
+        "usage": {
+          "url": "https://github.com/kharvd/gpt-cli/blob/bff5d87311abf00a900fb17595d443953750e29c/README.md",
+          "snippet": "gpt dev"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kharvd/gpt-cli",
+          "snippet": "Command-line interface for ChatGPT, Claude and Bard"
+        },
+        "adoption": {
+          "stars": 724,
+          "githubSource": "https://github.com/kharvd/gpt-cli",
+          "homebrew": null
+        },
+        "commit": "bff5d87311abf00a900fb17595d443953750e29c"
+      }
     },
     "conemu/conemu": {
       "status": "held",
@@ -6841,9 +6737,37 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "piqnt/svgexport": {
-      "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "piqnt-svgexport",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/piqnt/svgexport/blob/7465da7765ba3439739ade3060456d3bc6b597aa/package.json",
+          "snippet": "{\"bin\":{\"svgexport\":\"bin/index.js\"}}",
+          "target": "bin/index.js"
+        },
+        "installation": {
+          "url": "https://github.com/piqnt/svgexport/blob/7465da7765ba3439739ade3060456d3bc6b597aa/README.md",
+          "snippet": "npm install svgexport -g"
+        },
+        "usage": {
+          "url": "https://github.com/piqnt/svgexport/blob/7465da7765ba3439739ade3060456d3bc6b597aa/README.md",
+          "snippet": "svgexport input.svg output.png 1.5x"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/piqnt/svgexport",
+          "snippet": "SVG to PNG/JPEG command-line tool and Node.js module"
+        },
+        "adoption": {
+          "stars": 951,
+          "githubSource": "https://github.com/piqnt/svgexport",
+          "homebrew": null
+        },
+        "commit": "7465da7765ba3439739ade3060456d3bc6b597aa"
+      }
     },
     "ajeetdsouza/clidle": {
       "status": "held",
@@ -6862,13 +6786,42 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "efugier/smartcat": {
-      "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "efugier-smartcat",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/efugier/smartcat/blob/30d992fc3da13249fa072911411cce00e0b5b5f2/Cargo.toml",
+          "snippet": "[[bin]] name=\"sc\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/efugier/smartcat/blob/30d992fc3da13249fa072911411cce00e0b5b5f2/README.md",
+          "snippet": "cargo install smartcat"
+        },
+        "usage": {
+          "url": "https://github.com/efugier/smartcat/blob/30d992fc3da13249fa072911411cce00e0b5b5f2/README.md",
+          "snippet": "sc \"my quick question\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/efugier/smartcat",
+          "snippet": "Putting a brain behind `cat`🐈‍⬛ Integrating language models in the Unix commands ecosystem through text streams."
+        },
+        "adoption": {
+          "stars": 572,
+          "githubSource": "https://github.com/efugier/smartcat",
+          "homebrew": null
+        },
+        "commit": "30d992fc3da13249fa072911411cce00e0b5b5f2"
+      }
     },
     "benibela/xidel": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "hnarayanan/shpotify": {
@@ -6878,8 +6831,9 @@
     },
     "balta2ar/brotab": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "adishavit/argh": {
       "status": "held",
@@ -6888,23 +6842,54 @@
     },
     "ad4mx/spinoff": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "achillesrasquinha/pipupgrade": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ruyadorno/ipt": {
-      "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "ruyadorno-ipt",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ruyadorno/ipt/blob/a3c931f6a791cf6a32aa4d5cf12d9c0f36341927/package.json",
+          "snippet": "{\"bin\":{\"ipt\":\"src/cli.js\"}}",
+          "target": "src/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/ruyadorno/ipt/blob/a3c931f6a791cf6a32aa4d5cf12d9c0f36341927/README.md",
+          "snippet": "npm install -g ipt"
+        },
+        "usage": {
+          "url": "https://github.com/ruyadorno/ipt/blob/a3c931f6a791cf6a32aa4d5cf12d9c0f36341927/README.md",
+          "snippet": "ipt -a"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ruyadorno/ipt",
+          "snippet": "Interactive Pipe To: The Node.js cli interactive workflow"
+        },
+        "adoption": {
+          "stars": 855,
+          "githubSource": "https://github.com/ruyadorno/ipt",
+          "homebrew": null
+        },
+        "commit": "a3c931f6a791cf6a32aa4d5cf12d9c0f36341927"
+      }
     },
     "trakban/spongebob-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sharkdp/shell-functools": {
       "status": "held",
@@ -6981,7 +6966,8 @@
     },
     "hedyhli/starcli": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "naibowang/commandlineconfig": {
@@ -11423,7 +11409,8 @@
     },
     "pomdtr/sunbeam": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
       "reason": "Possible graphical application or launcher"
     },
     "silenceper/gowatch": {
@@ -28075,7 +28062,319 @@
       "checkedAt": "2026-09-23T01:43:33.915Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "arthurhenrique/cookiecutter-fastapi": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chenjiandongx/sniffer": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hackyourfuture/curriculum": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "aibox22/readmex": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "aibox22-readmex",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/aibox22/readmeX/blob/b83df6104cffacc0dabfa33e93c533bbd5b00fae/pyproject.toml",
+          "snippet": "readmex = \"readmex.utils.cli:main\"",
+          "target": "src/readmex/utils/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/aibox22/readmeX/blob/b83df6104cffacc0dabfa33e93c533bbd5b00fae/README.md",
+          "snippet": "pip install readmex"
+        },
+        "usage": {
+          "url": "https://github.com/aibox22/readmeX/blob/b83df6104cffacc0dabfa33e93c533bbd5b00fae/README.md",
+          "snippet": "readmex ."
+        },
+        "description": {
+          "url": "https://api.github.com/repos/aibox22/readmeX",
+          "snippet": "An AI Powered README and Interactive Wiki Generator for Any Projects. AI驱动的README及交互式Wiki生成工具，面向中文的开源DeepWiki。"
+        },
+        "adoption": {
+          "stars": 610,
+          "githubSource": "https://github.com/aibox22/readmeX",
+          "homebrew": null
+        },
+        "commit": "b83df6104cffacc0dabfa33e93c533bbd5b00fae"
+      }
+    },
+    "oppiliappan/eva": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "oppiliappan-eva",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/oppiliappan/eva/blob/41ae2455085c10978c5d93be4e6b139682396eb0/Cargo.toml",
+          "snippet": "package.name=\"eva\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/oppiliappan/eva/blob/41ae2455085c10978c5d93be4e6b139682396eb0/readme.md",
+          "snippet": "$ cargo install eva"
+        },
+        "usage": {
+          "url": "https://github.com/oppiliappan/eva/blob/41ae2455085c10978c5d93be4e6b139682396eb0/readme.md",
+          "snippet": "eva 0.3.1"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/oppiliappan/eva",
+          "snippet": "a calculator REPL, similar to bc(1)"
+        },
+        "adoption": {
+          "stars": 913,
+          "githubSource": "https://github.com/oppiliappan/eva",
+          "homebrew": null
+        },
+        "commit": "41ae2455085c10978c5d93be4e6b139682396eb0"
+      }
+    },
+    "manparvesh/yoda": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "manparvesh-yoda",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/manparvesh/yoda/blob/e8fdbb20961d525e0b26e5e87dc09e55e79afadf/pyproject.toml",
+          "snippet": "yoda = \"yodapa.yoda:app\"",
+          "target": "src/yodapa/yoda.py"
+        },
+        "installation": {
+          "url": "https://github.com/manparvesh/yoda/blob/e8fdbb20961d525e0b26e5e87dc09e55e79afadf/README.md",
+          "snippet": "pip install yodapa"
+        },
+        "usage": {
+          "url": "https://github.com/manparvesh/yoda/blob/e8fdbb20961d525e0b26e5e87dc09e55e79afadf/README.md",
+          "snippet": "yoda hi hello --name MP"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/manparvesh/yoda",
+          "snippet": "Wise and powerful personal assistant, available in your nearest terminal"
+        },
+        "adoption": {
+          "stars": 749,
+          "githubSource": "https://github.com/manparvesh/yoda",
+          "homebrew": null
+        },
+        "commit": "e8fdbb20961d525e0b26e5e87dc09e55e79afadf"
+      }
+    },
+    "pkosiec/mongo-seeding": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hechoendrupal/drupal-console": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "darrenburns/dunk": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "patrickfav/bcrypt": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "paulopacitti/gruvbox-factory": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mcknly/breadboard-os": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jonasvinther/medusa": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gajus/table": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "samuel-lucas6/kryptor": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "skovy/typed-scss-modules": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "balliasghar/mailsy": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "addyosmani/git2txt": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "addyosmani-git2txt",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/addyosmani/git2txt/blob/e8db771b976d1f463d6b5492beb5ec1c9687328d/package.json",
+          "snippet": "{\"bin\":{\"git2txt\":\"./index.js\"}}",
+          "target": "index.js"
+        },
+        "installation": {
+          "url": "https://github.com/addyosmani/git2txt/blob/e8db771b976d1f463d6b5492beb5ec1c9687328d/README.md",
+          "snippet": "npm install -g git2txt"
+        },
+        "usage": {
+          "url": "https://github.com/addyosmani/git2txt/blob/e8db771b976d1f463d6b5492beb5ec1c9687328d/README.md",
+          "snippet": "git2txt https://github.com/username/repository"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/addyosmani/git2txt",
+          "snippet": "CLI tool to convert GitHub repositories to text files for LLMs"
+        },
+        "adoption": {
+          "stars": 566,
+          "githubSource": "https://github.com/addyosmani/git2txt",
+          "homebrew": null
+        },
+        "commit": "e8db771b976d1f463d6b5492beb5ec1c9687328d"
+      }
+    },
+    "i18next/i18next-scanner": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "d3witt/viking": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "facundoolano/ngtop": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hyde46/hoard": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "hyde46-hoard",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Hyde46/hoard/blob/03349b7cc504f39cb49771b235e4a6344e92013e/Cargo.toml",
+          "snippet": "[[bin]] name=\"hoard\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/Hyde46/hoard/blob/03349b7cc504f39cb49771b235e4a6344e92013e/README.md",
+          "snippet": "cargo install hoard-rs"
+        },
+        "usage": {
+          "url": "https://github.com/Hyde46/hoard/blob/03349b7cc504f39cb49771b235e4a6344e92013e/README.md",
+          "snippet": "hoard new"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Hyde46/hoard",
+          "snippet": "cli command organizer written in rust"
+        },
+        "adoption": {
+          "stars": 660,
+          "githubSource": "https://github.com/Hyde46/hoard",
+          "homebrew": null
+        },
+        "commit": "03349b7cc504f39cb49771b235e4a6344e92013e"
+      }
+    },
+    "ahmadawais/create-node-cli": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rajasegar/alacritty-themes": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "rajasegar-alacritty-themes",
+      "acceptedAt": "2026-09-23T02:43:34.841Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/rajasegar/alacritty-themes/blob/a6f1cbc9c6c6a6ff2bc2ebe83e176e5a959ca421/package.json",
+          "snippet": "{\"bin\":{\"alacritty-themes\":\"./bin/cli.js\"}}",
+          "target": "bin/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/rajasegar/alacritty-themes/blob/a6f1cbc9c6c6a6ff2bc2ebe83e176e5a959ca421/README.md",
+          "snippet": "npm i -g alacritty-themes"
+        },
+        "usage": {
+          "url": "https://github.com/rajasegar/alacritty-themes/blob/a6f1cbc9c6c6a6ff2bc2ebe83e176e5a959ca421/README.md",
+          "snippet": "alacritty-themes Dracula"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/rajasegar/alacritty-themes",
+          "snippet": ":rainbow: :lollipop: Themes :candy: :heart_eyes: for Alacritty: A cross-platform GPU-accelerated Terminal emulator"
+        },
+        "adoption": {
+          "stars": 733,
+          "githubSource": "https://github.com/rajasegar/alacritty-themes",
+          "homebrew": null
+        },
+        "commit": "a6f1cbc9c6c6a6ff2bc2ebe83e176e5a959ca421"
+      }
+    },
+    "spring-projects-experimental/spring-boot-migrator": {
+      "status": "held",
+      "checkedAt": "2026-09-23T02:43:34.841Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-23T01:43:33.915Z"
+  "lastRunAt": "2026-09-23T02:43:34.841Z"
 }

@@ -8355,5 +8355,165 @@
     "example": "minify -o script.min.js script.js",
     "website": "https://github.com/tdewolff/minify",
     "docs": "https://github.com/tdewolff/minify/blob/bc8705359b222873a4e8f9fec94e37103853ab4e/README.md"
+  },
+  {
+    "slug": "aibox22-readmex",
+    "name": "readmeX",
+    "repo": "aibox22/readmeX",
+    "category": "Agents & models",
+    "command": "readmex",
+    "useCase": "An AI Powered README and Interactive Wiki Generator for Any Projects. AI驱动的README及交互式Wiki生成工具，面向中文的开源DeepWiki。",
+    "description": "An AI Powered README and Interactive Wiki Generator for Any Projects. AI驱动的README及交互式Wiki生成工具，面向中文的开源DeepWiki。",
+    "agentUse": "Invoke readmex from a shell for the documented use case: An AI Powered README and Interactive Wiki Generator for Any Projects. AI驱动的README及交互式Wiki生成工具，面向中文的开源DeepWiki。",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "readmex .",
+    "website": "https://github.com/aibox22/readmeX",
+    "docs": "https://github.com/aibox22/readmeX/blob/b83df6104cffacc0dabfa33e93c533bbd5b00fae/README.md"
+  },
+  {
+    "slug": "oppiliappan-eva",
+    "name": "eva",
+    "repo": "oppiliappan/eva",
+    "category": "Terminal utilities",
+    "command": "eva",
+    "useCase": "a calculator REPL, similar to bc(1)",
+    "description": "a calculator REPL, similar to bc(1)",
+    "agentUse": "Invoke eva from a shell for the documented use case: a calculator REPL, similar to bc(1)",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "eva 0.3.1",
+    "website": "https://github.com/oppiliappan/eva",
+    "docs": "https://github.com/oppiliappan/eva/blob/41ae2455085c10978c5d93be4e6b139682396eb0/readme.md"
+  },
+  {
+    "slug": "manparvesh-yoda",
+    "name": "yoda",
+    "repo": "manparvesh/yoda",
+    "category": "Agents & models",
+    "command": "yoda",
+    "useCase": "Wise and powerful personal assistant, available in your nearest terminal",
+    "description": "Wise and powerful personal assistant, available in your nearest terminal",
+    "agentUse": "Invoke yoda from a shell for the documented use case: Wise and powerful personal assistant, available in your nearest terminal",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "yoda hi hello --name MP",
+    "website": "https://github.com/manparvesh/yoda",
+    "docs": "https://github.com/manparvesh/yoda/blob/e8fdbb20961d525e0b26e5e87dc09e55e79afadf/README.md"
+  },
+  {
+    "slug": "kharvd-gpt-cli",
+    "name": "gpt-cli",
+    "repo": "kharvd/gpt-cli",
+    "category": "Agents & models",
+    "command": "gpt",
+    "useCase": "Command-line interface for ChatGPT, Claude and Bard",
+    "description": "Command-line interface for ChatGPT, Claude and Bard",
+    "agentUse": "Invoke gpt from a shell for the documented use case: Command-line interface for ChatGPT, Claude and Bard",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "gpt dev",
+    "website": "https://github.com/kharvd/gpt-cli",
+    "docs": "https://github.com/kharvd/gpt-cli/blob/bff5d87311abf00a900fb17595d443953750e29c/README.md"
+  },
+  {
+    "slug": "piqnt-svgexport",
+    "name": "svgexport",
+    "repo": "piqnt/svgexport",
+    "category": "Terminal utilities",
+    "command": "svgexport",
+    "useCase": "SVG to PNG/JPEG command-line tool and Node.js module",
+    "description": "SVG to PNG/JPEG command-line tool and Node.js module",
+    "agentUse": "Invoke svgexport from a shell for the documented use case: SVG to PNG/JPEG command-line tool and Node.js module",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "svgexport input.svg output.png 1.5x",
+    "website": "https://github.com/piqnt/svgexport",
+    "docs": "https://github.com/piqnt/svgexport/blob/7465da7765ba3439739ade3060456d3bc6b597aa/README.md"
+  },
+  {
+    "slug": "efugier-smartcat",
+    "name": "smartcat",
+    "repo": "efugier/smartcat",
+    "category": "Agents & models",
+    "command": "sc",
+    "useCase": "Putting a brain behind `cat`🐈‍⬛ Integrating language models in the Unix commands ecosystem through text streams.",
+    "description": "Putting a brain behind `cat`🐈‍⬛ Integrating language models in the Unix commands ecosystem through text streams.",
+    "agentUse": "Invoke sc from a shell for the documented use case: Putting a brain behind `cat`🐈‍⬛ Integrating language models in the Unix commands ecosystem through text streams.",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "sc \"my quick question\"",
+    "website": "https://github.com/efugier/smartcat",
+    "docs": "https://github.com/efugier/smartcat/blob/30d992fc3da13249fa072911411cce00e0b5b5f2/README.md"
+  },
+  {
+    "slug": "ruyadorno-ipt",
+    "name": "ipt",
+    "repo": "ruyadorno/ipt",
+    "category": "Terminal utilities",
+    "command": "ipt",
+    "useCase": "Interactive Pipe To: The Node.js cli interactive workflow",
+    "description": "Interactive Pipe To: The Node.js cli interactive workflow",
+    "agentUse": "Invoke ipt from a shell for the documented use case: Interactive Pipe To: The Node.js cli interactive workflow",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "ipt -a",
+    "website": "https://github.com/ruyadorno/ipt",
+    "docs": "https://github.com/ruyadorno/ipt/blob/a3c931f6a791cf6a32aa4d5cf12d9c0f36341927/README.md"
+  },
+  {
+    "slug": "addyosmani-git2txt",
+    "name": "git2txt",
+    "repo": "addyosmani/git2txt",
+    "category": "Agents & models",
+    "command": "git2txt",
+    "useCase": "CLI tool to convert GitHub repositories to text files for LLMs",
+    "description": "CLI tool to convert GitHub repositories to text files for LLMs",
+    "agentUse": "Invoke git2txt from a shell for the documented use case: CLI tool to convert GitHub repositories to text files for LLMs",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "git2txt https://github.com/username/repository",
+    "website": "https://github.com/addyosmani/git2txt",
+    "docs": "https://github.com/addyosmani/git2txt/blob/e8db771b976d1f463d6b5492beb5ec1c9687328d/README.md"
+  },
+  {
+    "slug": "hyde46-hoard",
+    "name": "hoard",
+    "repo": "Hyde46/hoard",
+    "category": "Terminal utilities",
+    "command": "hoard",
+    "useCase": "cli command organizer written in rust",
+    "description": "cli command organizer written in rust",
+    "agentUse": "Invoke hoard from a shell for the documented use case: cli command organizer written in rust",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "hoard new",
+    "website": "https://github.com/Hyde46/hoard",
+    "docs": "https://github.com/Hyde46/hoard/blob/03349b7cc504f39cb49771b235e4a6344e92013e/README.md"
+  },
+  {
+    "slug": "rajasegar-alacritty-themes",
+    "name": "alacritty-themes",
+    "repo": "rajasegar/alacritty-themes",
+    "category": "Terminal utilities",
+    "command": "alacritty-themes",
+    "useCase": ":rainbow: :lollipop: Themes :candy: :heart_eyes: for Alacritty: A cross-platform GPU-accelerated Terminal emulator",
+    "description": ":rainbow: :lollipop: Themes :candy: :heart_eyes: for Alacritty: A cross-platform GPU-accelerated Terminal emulator",
+    "agentUse": "Invoke alacritty-themes from a shell for the documented use case: :rainbow: :lollipop: Themes :candy: :heart_eyes: for Alacritty: A cross-platform GPU-accelerated Terminal emulator",
+    "features": [
+      "Command-line interface"
+    ],
+    "example": "alacritty-themes Dracula",
+    "website": "https://github.com/rajasegar/alacritty-themes",
+    "docs": "https://github.com/rajasegar/alacritty-themes/blob/a6f1cbc9c6c6a6ff2bc2ebe83e176e5a959ca421/README.md"
   }
 ]
