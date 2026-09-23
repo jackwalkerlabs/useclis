@@ -7783,5 +7783,50 @@
     "repositoryId": 177038652,
     "attemptedAt": "2026-09-23T05:44:24.769Z",
     "status": "ok"
+  },
+  "manrajgrover-football-cli": {
+    "defaultBranch": "master",
+    "createdAt": "2016-08-22T17:33:22Z",
+    "pushedAt": "2022-12-08T18:48:21Z",
+    "lastCommitAt": "2018-10-10T19:28:21Z",
+    "stars": 1081,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-23T06:43:59.262Z",
+    "source": "https://github.com/manrajgrover/football-cli",
+    "canonicalSource": "https://github.com/manrajgrover/football-cli",
+    "repositoryId": 66293963,
+    "attemptedAt": "2026-09-23T06:43:58.588Z",
+    "status": "ok"
+  },
+  "c8r-kit": {
+    "defaultBranch": "master",
+    "createdAt": "2017-11-23T17:12:35Z",
+    "pushedAt": "2022-12-08T17:15:29Z",
+    "lastCommitAt": "2018-08-04T23:21:28Z",
+    "stars": 1209,
+    "license": "MIT",
+    "language": "JavaScript",
+    "checkedAt": "2026-09-23T06:43:59.942Z",
+    "source": "https://github.com/c8r/kit",
+    "canonicalSource": "https://github.com/c8r/kit",
+    "repositoryId": 111834349,
+    "attemptedAt": "2026-09-23T06:43:59.429Z",
+    "status": "ok"
+  },
+  "maciek-roboblog-claude-code-usage-monitor": {
+    "defaultBranch": "main",
+    "createdAt": "2025-06-19T00:00:05Z",
+    "pushedAt": "2026-07-05T04:52:21Z",
+    "lastCommitAt": "2026-06-27T09:31:11Z",
+    "stars": 8715,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-23T06:44:00.547Z",
+    "source": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "canonicalSource": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "repositoryId": 1004631442,
+    "attemptedAt": "2026-09-23T06:44:00.075Z",
+    "status": "ok"
   }
 }

@@ -5978,5 +5978,44 @@
     "createdAt": "2016-01-14T14:03:41Z",
     "checkedAt": "2026-09-23T05:44:30.398Z",
     "source": "https://github.com/Annihil"
+  },
+  "manrajgrover": {
+    "login": "manrajgrover",
+    "name": "Manraj Singh",
+    "type": "User",
+    "bio": "Software Engineer @media-net\r\n\r\nContributor @tensorflow, @duckduckgo, @mozilla and more!\r\n\r\nPast: @practo @midas-research",
+    "location": "New Delhi, India",
+    "website": "https://manrajsingh.in/",
+    "followers": 841,
+    "publicRepos": 234,
+    "createdAt": "2013-10-12T20:26:02Z",
+    "checkedAt": "2026-09-23T06:44:02.490Z",
+    "source": "https://github.com/manrajgrover"
+  },
+  "c8r": {
+    "login": "c8r",
+    "name": "Compositor",
+    "type": "Organization",
+    "bio": "Design and development tools for people who build the web",
+    "location": "NYC / ID / LDN",
+    "website": "https://compositor.io",
+    "followers": 7,
+    "publicRepos": 19,
+    "createdAt": "2016-05-08T02:39:21Z",
+    "checkedAt": "2026-09-23T06:44:02.903Z",
+    "source": "https://github.com/c8r"
+  },
+  "maciek-roboblog": {
+    "login": "Maciek-roboblog",
+    "name": "Maciej",
+    "type": "User",
+    "bio": "DevOps Engineer & Python Dev & Java Dev (Love Automation, AI & ML)",
+    "location": null,
+    "website": null,
+    "followers": 172,
+    "publicRepos": 7,
+    "createdAt": "2016-04-09T09:54:04Z",
+    "checkedAt": "2026-09-23T06:44:03.172Z",
+    "source": "https://github.com/Maciek-roboblog"
   }
 }

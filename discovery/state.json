@@ -4,69 +4,6 @@
   "brewOffset": 920,
   "pending": [
     {
-      "repo": "piotrmurach/tty"
-    },
-    {
-      "repo": "manrajgrover/football-cli"
-    },
-    {
-      "repo": "c8r/kit"
-    },
-    {
-      "repo": "haskellcamargo/sclack"
-    },
-    {
-      "repo": "dundalek/closh"
-    },
-    {
-      "repo": "bchao1/bullet"
-    },
-    {
-      "repo": "nklayman/vue-cli-plugin-electron-builder"
-    },
-    {
-      "repo": "donnemartin/dev-setup"
-    },
-    {
-      "repo": "chriswalz/bit"
-    },
-    {
-      "repo": "homerchen19/nba-go"
-    },
-    {
-      "repo": "kefranabg/readme-md-generator"
-    },
-    {
-      "repo": "wallix/awless"
-    },
-    {
-      "repo": "donnemartin/haxor-news"
-    },
-    {
-      "repo": "callstack/haul"
-    },
-    {
-      "repo": "Yomguithereal/react-blessed"
-    },
-    {
-      "repo": "maaslalani/slides"
-    },
-    {
-      "repo": "open-gitagent/clawless"
-    },
-    {
-      "repo": "nosarthur/gita"
-    },
-    {
-      "repo": "coder/boo"
-    },
-    {
-      "repo": "joeynyc/hermes-hud"
-    },
-    {
-      "repo": "Maciek-roboblog/Claude-Code-Usage-Monitor"
-    },
-    {
       "repo": "npcole/npyscreen"
     },
     {
@@ -12743,13 +12680,42 @@
     },
     "piotrmurach/tty": {
       "status": "held",
-      "checkedAt": "2026-09-15T02:44:21.193Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "manrajgrover/football-cli": {
-      "status": "held",
-      "checkedAt": "2026-09-15T02:44:21.193Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "manrajgrover-football-cli",
+      "acceptedAt": "2026-09-23T06:43:36.828Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/manrajgrover/football-cli/blob/37be3ab26b6e6e683d35b5de2c2608e84f8846e6/package.json",
+          "snippet": "{\"bin\":{\"football\":\"./cli.js\"}}",
+          "target": "cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/manrajgrover/football-cli/blob/37be3ab26b6e6e683d35b5de2c2608e84f8846e6/README.md",
+          "snippet": "$ npm install -g footballcli"
+        },
+        "usage": {
+          "url": "https://github.com/manrajgrover/football-cli/blob/37be3ab26b6e6e683d35b5de2c2608e84f8846e6/README.md",
+          "snippet": "football scores -t \"Manchester United\" -l"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/manrajgrover/football-cli",
+          "snippet": "⚽ Command line interface for Hackers who love football"
+        },
+        "adoption": {
+          "stars": 1081,
+          "githubSource": "https://github.com/manrajgrover/football-cli",
+          "homebrew": null
+        },
+        "commit": "37be3ab26b6e6e683d35b5de2c2608e84f8846e6"
+      }
     },
     "nishanths/license": {
       "status": "held",
@@ -13787,8 +13753,9 @@
     },
     "donnemartin/haxor-news": {
       "status": "held",
-      "checkedAt": "2026-09-15T05:44:18.625Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sirupsen/zk": {
       "status": "held",
@@ -13812,8 +13779,9 @@
     },
     "callstack/haul": {
       "status": "held",
-      "checkedAt": "2026-09-15T05:44:18.625Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "pindexis/qfc": {
       "status": "held",
@@ -29120,7 +29088,127 @@
       "checkedAt": "2026-09-23T05:43:37.679Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "c8r/kit": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "c8r-kit",
+      "acceptedAt": "2026-09-23T06:43:36.828Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/c8r/kit/blob/bd1e9d9088bf097dfaf007edc46596a7f72d1405/cli/package.json",
+          "snippet": "{\"bin\":{\"kit\":\"cli.js\"}}",
+          "target": "cli/cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/c8r/kit/blob/bd1e9d9088bf097dfaf007edc46596a7f72d1405/README.md",
+          "snippet": "npm i -g @compositor/kit-cli"
+        },
+        "usage": {
+          "url": "https://github.com/c8r/kit/blob/bd1e9d9088bf097dfaf007edc46596a7f72d1405/README.md",
+          "snippet": "kit examples"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/c8r/kit",
+          "snippet": "Tools for developing, documenting, and testing React component libraries"
+        },
+        "adoption": {
+          "stars": 1209,
+          "githubSource": "https://github.com/c8r/kit",
+          "homebrew": null
+        },
+        "commit": "bd1e9d9088bf097dfaf007edc46596a7f72d1405"
+      }
+    },
+    "haskellcamargo/sclack": {
+      "status": "held",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dundalek/closh": {
+      "status": "held",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "nklayman/vue-cli-plugin-electron-builder": {
+      "status": "held",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "donnemartin/dev-setup": {
+      "status": "held",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "chriswalz/bit": {
+      "status": "held",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "homerchen19/nba-go": {
+      "status": "held",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kefranabg/readme-md-generator": {
+      "status": "held",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "wallix/awless": {
+      "status": "held",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "yomguithereal/react-blessed": {
+      "status": "held",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "maciek-roboblog/claude-code-usage-monitor": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T06:43:36.828Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "maciek-roboblog-claude-code-usage-monitor",
+      "acceptedAt": "2026-09-23T06:43:36.828Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor/blob/c59a83bf943f329f0e61f1a29c760353ee1860a5/pyproject.toml",
+          "snippet": "claude-monitor = \"claude_monitor.__main__:main\"",
+          "target": "src/claude_monitor/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor/blob/c59a83bf943f329f0e61f1a29c760353ee1860a5/README.md",
+          "snippet": "uv tool install claude-monitor"
+        },
+        "usage": {
+          "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor/blob/c59a83bf943f329f0e61f1a29c760353ee1860a5/README.md",
+          "snippet": "claude-monitor --plan pro --theme dark --timezone \"America/New_York\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/Maciek-roboblog/Claude-Code-Usage-Monitor",
+          "snippet": "Real-time Claude Code usage monitor with predictions and warnings"
+        },
+        "adoption": {
+          "stars": 8715,
+          "githubSource": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+          "homebrew": null
+        },
+        "commit": "c59a83bf943f329f0e61f1a29c760353ee1860a5"
+      }
     }
   },
-  "lastRunAt": "2026-09-23T05:43:37.679Z"
+  "lastRunAt": "2026-09-23T06:43:36.828Z"
 }

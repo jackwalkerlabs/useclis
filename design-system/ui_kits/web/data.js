@@ -10394,6 +10394,63 @@ window.USECLIS_DATA = {
       "stars": 1409,
       "license": "MIT",
       "checkedAt": "2026-09-23T05:44:25.202Z"
+    },
+    {
+      "slug": "manrajgrover-football-cli",
+      "name": "football-cli",
+      "repo": "manrajgrover/football-cli",
+      "category": "Terminal utilities",
+      "command": "football",
+      "useCase": "⚽ Command line interface for Hackers who love football",
+      "description": "⚽ Command line interface for Hackers who love football",
+      "agentUse": "Invoke football from a shell for the documented use case: ⚽ Command line interface for Hackers who love football",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "football scores -t \"Manchester United\" -l",
+      "website": "https://github.com/manrajgrover/football-cli",
+      "docs": "https://github.com/manrajgrover/football-cli/blob/37be3ab26b6e6e683d35b5de2c2608e84f8846e6/README.md",
+      "stars": 1081,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T06:43:59.262Z"
+    },
+    {
+      "slug": "c8r-kit",
+      "name": "kit",
+      "repo": "c8r/kit",
+      "category": "Testing & quality",
+      "command": "kit",
+      "useCase": "Tools for developing, documenting, and testing React component libraries",
+      "description": "Tools for developing, documenting, and testing React component libraries",
+      "agentUse": "Invoke kit from a shell for the documented use case: Tools for developing, documenting, and testing React component libraries",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "kit examples",
+      "website": "https://github.com/c8r/kit",
+      "docs": "https://github.com/c8r/kit/blob/bd1e9d9088bf097dfaf007edc46596a7f72d1405/README.md",
+      "stars": 1209,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T06:43:59.942Z"
+    },
+    {
+      "slug": "maciek-roboblog-claude-code-usage-monitor",
+      "name": "Claude-Code-Usage-Monitor",
+      "repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "category": "Terminal utilities",
+      "command": "claude-monitor",
+      "useCase": "Real-time Claude Code usage monitor with predictions and warnings",
+      "description": "Real-time Claude Code usage monitor with predictions and warnings",
+      "agentUse": "Invoke claude-monitor from a shell for the documented use case: Real-time Claude Code usage monitor with predictions and warnings",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "claude-monitor --plan pro --theme dark --timezone \"America/New_York\"",
+      "website": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "docs": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor/blob/c59a83bf943f329f0e61f1a29c760353ee1860a5/README.md",
+      "stars": 8715,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T06:44:00.547Z"
     }
   ],
   "categories": [
