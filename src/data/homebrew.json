@@ -1622,5 +1622,145 @@
     "checkedAt": "2026-09-22T11:41:28.702Z",
     "generatedDate": "2026-09-22",
     "status": "ok"
+  },
+  "pyo3-maturin": {
+    "formula": "maturin",
+    "repo": "PyO3/maturin",
+    "source": "https://formulae.brew.sh/api/formula/maturin.json",
+    "attemptedAt": "2026-09-23T01:44:43.950Z",
+    "counts": {
+      "30d": 161,
+      "90d": 424,
+      "365d": 3116
+    },
+    "checkedAt": "2026-09-23T01:44:43.950Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
+  },
+  "grafana-mcp-grafana": {
+    "formula": "mcp-grafana",
+    "repo": "grafana/mcp-grafana",
+    "source": "https://formulae.brew.sh/api/formula/mcp-grafana.json",
+    "attemptedAt": "2026-09-23T01:44:43.985Z",
+    "counts": {
+      "30d": 391,
+      "90d": 1496,
+      "365d": 3563
+    },
+    "checkedAt": "2026-09-23T01:44:43.985Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
+  },
+  "googleapis-mcp-toolbox": {
+    "formula": "mcp-toolbox",
+    "repo": "googleapis/mcp-toolbox",
+    "source": "https://formulae.brew.sh/api/formula/mcp-toolbox.json",
+    "attemptedAt": "2026-09-23T01:44:43.986Z",
+    "counts": {
+      "30d": 247,
+      "90d": 1369,
+      "365d": 6334
+    },
+    "checkedAt": "2026-09-23T01:44:43.986Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
+  },
+  "birsax2-mdcat": {
+    "formula": "mdcat",
+    "repo": "BIRSAx2/mdcat",
+    "source": "https://formulae.brew.sh/api/formula/mdcat.json",
+    "attemptedAt": "2026-09-23T01:44:43.987Z",
+    "counts": {
+      "30d": 217,
+      "90d": 2682,
+      "365d": 4810
+    },
+    "checkedAt": "2026-09-23T01:44:43.987Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
+  },
+  "chainguard-dev-melange": {
+    "formula": "melange",
+    "repo": "chainguard-dev/melange",
+    "source": "https://formulae.brew.sh/api/formula/melange.json",
+    "attemptedAt": "2026-09-23T01:44:44.079Z",
+    "counts": {
+      "30d": 147,
+      "90d": 689,
+      "365d": 3929
+    },
+    "checkedAt": "2026-09-23T01:44:44.079Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
+  },
+  "mesonbuild-meson": {
+    "formula": "meson",
+    "repo": "mesonbuild/meson",
+    "source": "https://formulae.brew.sh/api/formula/meson.json",
+    "attemptedAt": "2026-09-23T01:44:44.080Z",
+    "counts": {
+      "30d": 1910,
+      "90d": 11952,
+      "365d": 57829
+    },
+    "checkedAt": "2026-09-23T01:44:44.080Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
+  },
+  "kdeldycke-meta-package-manager": {
+    "formula": "meta-package-manager",
+    "repo": "kdeldycke/meta-package-manager",
+    "source": "https://formulae.brew.sh/api/formula/meta-package-manager.json",
+    "attemptedAt": "2026-09-23T01:44:44.081Z",
+    "counts": {
+      "30d": 109,
+      "90d": 842,
+      "365d": 2185
+    },
+    "checkedAt": "2026-09-23T01:44:44.081Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
+  },
+  "micro-editor-micro": {
+    "formula": "micro",
+    "repo": "micro-editor/micro",
+    "source": "https://formulae.brew.sh/api/formula/micro.json",
+    "attemptedAt": "2026-09-23T01:44:44.081Z",
+    "counts": {
+      "30d": 471,
+      "90d": 2822,
+      "365d": 15766
+    },
+    "checkedAt": "2026-09-23T01:44:44.081Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
+  },
+  "mamba-org-mamba": {
+    "formula": "micromamba",
+    "repo": "mamba-org/mamba",
+    "source": "https://formulae.brew.sh/api/formula/micromamba.json",
+    "attemptedAt": "2026-09-23T01:44:44.144Z",
+    "counts": {
+      "30d": 332,
+      "90d": 1436,
+      "365d": 11821
+    },
+    "checkedAt": "2026-09-23T01:44:44.144Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
+  },
+  "tdewolff-minify": {
+    "formula": "minify",
+    "repo": "tdewolff/minify",
+    "source": "https://formulae.brew.sh/api/formula/minify.json",
+    "attemptedAt": "2026-09-23T01:44:44.145Z",
+    "counts": {
+      "30d": 331,
+      "90d": 1132,
+      "365d": 4435
+    },
+    "checkedAt": "2026-09-23T01:44:44.145Z",
+    "generatedDate": "2026-09-23",
+    "status": "ok"
   }
 }

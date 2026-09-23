@@ -9577,6 +9577,253 @@ window.USECLIS_DATA = {
       "stars": 1281,
       "license": "MIT",
       "checkedAt": "2026-09-23T00:44:15.911Z"
+    },
+    {
+      "slug": "pyo3-maturin",
+      "name": "maturin",
+      "repo": "PyO3/maturin",
+      "category": "Packages & environments",
+      "command": "maturin",
+      "useCase": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages",
+      "description": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages",
+      "agentUse": "Invoke maturin from a shell for the documented use case: Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "maturin new",
+      "website": "https://github.com/PyO3/maturin",
+      "docs": "https://github.com/PyO3/maturin/blob/9ad0e183016dcd785fa6143d883c33fcf8271294/README.md",
+      "stars": 5814,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-23T01:44:35.327Z"
+    },
+    {
+      "slug": "zerosumquant-claude-conversation-extractor",
+      "name": "claude-conversation-extractor",
+      "repo": "ZeroSumQuant/claude-conversation-extractor",
+      "category": "Files & documents",
+      "command": "claude-extract",
+      "useCase": "Extract clean conversation logs from Claude Code's internal storage",
+      "description": "Extract clean conversation logs from Claude Code's internal storage",
+      "agentUse": "Invoke claude-extract from a shell for the documented use case: Extract clean conversation logs from Claude Code's internal storage",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "claude-extract --list",
+      "website": "https://github.com/ZeroSumQuant/claude-conversation-extractor",
+      "docs": "https://github.com/ZeroSumQuant/claude-conversation-extractor/blob/a12b72e3be2e23d4ed1956fd67a09472b311e783/README.md",
+      "stars": 676,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T01:44:35.951Z"
+    },
+    {
+      "slug": "grafana-mcp-grafana",
+      "name": "mcp-grafana",
+      "repo": "grafana/mcp-grafana",
+      "category": "Terminal utilities",
+      "command": "mcp-grafana",
+      "useCase": "MCP server for Grafana",
+      "description": "MCP server for Grafana",
+      "agentUse": "Invoke mcp-grafana from a shell for the documented use case: MCP server for Grafana",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mcp-grafana --usage-stats=enabled",
+      "website": "https://github.com/grafana/mcp-grafana",
+      "docs": "https://github.com/grafana/mcp-grafana/blob/65bd38b61bd5e9edc3883be5824f4b7494e20366/README.md",
+      "stars": 3482,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-23T01:44:36.503Z"
+    },
+    {
+      "slug": "googleapis-mcp-toolbox",
+      "name": "mcp-toolbox",
+      "repo": "googleapis/mcp-toolbox",
+      "category": "Agents & models",
+      "command": "toolbox",
+      "useCase": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "agentUse": "Invoke toolbox from a shell for the documented use case: MCP Toolbox for Databases is an open source MCP server for databases.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "toolbox --config \"tools.yaml\"",
+      "website": "https://github.com/googleapis/mcp-toolbox",
+      "docs": "https://github.com/googleapis/mcp-toolbox/blob/4b7a44d6052137c912a15aea44fed4e826173ce9/README.md",
+      "stars": 16477,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-23T01:44:36.853Z"
+    },
+    {
+      "slug": "birsax2-mdcat",
+      "name": "mdcat",
+      "repo": "BIRSAx2/mdcat",
+      "category": "Files & documents",
+      "command": "mdcat",
+      "useCase": "cat for markdown",
+      "description": "cat for markdown",
+      "agentUse": "Invoke mdcat from a shell for the documented use case: cat for markdown",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mdcat sample.md",
+      "website": "https://github.com/BIRSAx2/mdcat",
+      "docs": "https://github.com/BIRSAx2/mdcat/blob/66bf14fb22c53857a548d759c20c71686370d928/README.md",
+      "stars": 121,
+      "license": "MPL-2.0",
+      "checkedAt": "2026-09-23T01:44:37.286Z"
+    },
+    {
+      "slug": "chainguard-dev-melange",
+      "name": "melange",
+      "repo": "chainguard-dev/melange",
+      "category": "Terminal utilities",
+      "command": "melange",
+      "useCase": "build APKs from source code",
+      "description": "build APKs from source code",
+      "agentUse": "Invoke melange from a shell for the documented use case: build APKs from source code",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "melange build examples/gnu-hello.yaml",
+      "website": "https://github.com/chainguard-dev/melange",
+      "docs": "https://github.com/chainguard-dev/melange/blob/d062cf25ce373bf8045d79b9897878ab207d8d36/README.md",
+      "stars": 629,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-23T01:44:37.797Z"
+    },
+    {
+      "slug": "clemlesne-scrape-it-now",
+      "name": "scrape-it-now",
+      "repo": "clemlesne/scrape-it-now",
+      "category": "Browser automation",
+      "command": "scrape-it-now",
+      "useCase": "Web scraper made for AI and simplicity in mind. It runs as a CLI that can be parallelized and outputs high-quality markdown content.",
+      "description": "Web scraper made for AI and simplicity in mind. It runs as a CLI that can be parallelized and outputs high-quality markdown content.",
+      "agentUse": "Invoke scrape-it-now from a shell for the documented use case: Web scraper made for AI and simplicity in mind. It runs as a CLI that can be parallelized and outputs high-quality markdown content.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "scrape-it-now scrape run https://nytimes.com",
+      "website": "https://github.com/clemlesne/scrape-it-now",
+      "docs": "https://github.com/clemlesne/scrape-it-now/blob/4ffc517f1297fc57b043b138c28c86b2ab415f09/README.md",
+      "stars": 544,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-23T01:44:38.182Z"
+    },
+    {
+      "slug": "mesonbuild-meson",
+      "name": "meson",
+      "repo": "mesonbuild/meson",
+      "category": "Terminal utilities",
+      "command": "meson",
+      "useCase": "The Meson Build System",
+      "description": "The Meson Build System",
+      "agentUse": "Invoke meson from a shell for the documented use case: The Meson Build System",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "meson setup builddir",
+      "website": "https://github.com/mesonbuild/meson",
+      "docs": "https://github.com/mesonbuild/meson/blob/d1c7b4dae011e13a695c3303a050460f02655ccc/README.md",
+      "stars": 6633,
+      "license": "Apache-2.0",
+      "checkedAt": "2026-09-23T01:44:38.607Z"
+    },
+    {
+      "slug": "kdeldycke-meta-package-manager",
+      "name": "meta-package-manager",
+      "repo": "kdeldycke/meta-package-manager",
+      "category": "Packages & environments",
+      "command": "mpm",
+      "useCase": "🎁 snapshot every package on your machine to one file, restore it on a new one",
+      "description": "🎁 snapshot every package on your machine to one file, restore it on a new one",
+      "agentUse": "Invoke mpm from a shell for the documented use case: 🎁 snapshot every package on your machine to one file, restore it on a new one",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mpm dump packages.toml",
+      "website": "https://github.com/kdeldycke/meta-package-manager",
+      "docs": "https://github.com/kdeldycke/meta-package-manager/blob/598d3089ed3f43242eb465c90395ae8de8933a80/readme.md",
+      "stars": 618,
+      "license": "GPL-2.0",
+      "checkedAt": "2026-09-23T01:44:38.974Z"
+    },
+    {
+      "slug": "micro-editor-micro",
+      "name": "micro",
+      "repo": "micro-editor/micro",
+      "category": "Terminal utilities",
+      "command": "micro",
+      "useCase": "A modern and intuitive terminal-based text editor",
+      "description": "A modern and intuitive terminal-based text editor",
+      "agentUse": "Invoke micro from a shell for the documented use case: A modern and intuitive terminal-based text editor",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "micro -version",
+      "website": "https://github.com/micro-editor/micro",
+      "docs": "https://github.com/micro-editor/micro/blob/7484d5f5fa95d3dfb025a01b09f31a1b0e7f9b1b/README.md",
+      "stars": 29623,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T01:44:39.465Z"
+    },
+    {
+      "slug": "mamba-org-mamba",
+      "name": "mamba",
+      "repo": "mamba-org/mamba",
+      "category": "Packages & environments",
+      "command": "mamba",
+      "useCase": "The Fast Cross-Platform Package Manager",
+      "description": "The Fast Cross-Platform Package Manager",
+      "agentUse": "Invoke mamba from a shell for the documented use case: The Fast Cross-Platform Package Manager",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "mamba repoquery",
+      "website": "https://github.com/mamba-org/mamba",
+      "docs": "https://github.com/mamba-org/mamba/blob/46a63edd422bf412c044c98962562eb5cca1c40d/README.md",
+      "stars": 8098,
+      "license": "BSD-3-Clause",
+      "checkedAt": "2026-09-23T01:44:40.036Z"
+    },
+    {
+      "slug": "mololab-json-translator",
+      "name": "json-translator",
+      "repo": "mololab/json-translator",
+      "category": "Data & APIs",
+      "command": "jsontt",
+      "useCase": "jsontt 💡 - AI JSON Translator with GPT / Gemma / Mixtral / llama + other FREE translation modules to translate your json/yaml files into other languages ✅ Check Readme ✌ Supports GPT / Gemma / Mixtral / llama /  DeepL / Google / Bing / Libre / Argos",
+      "description": "jsontt 💡 - AI JSON Translator with GPT / Gemma / Mixtral / llama + other FREE translation modules to translate your json/yaml files into other languages ✅ Check Readme ✌ Supports GPT / Gemma / Mixtral / llama /  DeepL / Google / Bing / Libre / Argos",
+      "agentUse": "Invoke jsontt from a shell for the documented use case: jsontt 💡 - AI JSON Translator with GPT / Gemma / Mixtral / llama + other FREE translation modules to translate your json/yaml files into other languages ✅ Check Readme ✌ Supports GPT / Gemma / Mixtral / llama /  DeepL / Google / Bing / Libre / Argos",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "jsontt file.json",
+      "website": "https://github.com/mololab/json-translator",
+      "docs": "https://github.com/mololab/json-translator/blob/749e602a1e19dfc194750a543d3db40ca8820a33/README.md",
+      "stars": 613,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T01:44:40.473Z"
+    },
+    {
+      "slug": "tdewolff-minify",
+      "name": "minify",
+      "repo": "tdewolff/minify",
+      "category": "Data & APIs",
+      "command": "minify",
+      "useCase": "Go minifiers for web formats",
+      "description": "Go minifiers for web formats",
+      "agentUse": "Invoke minify from a shell for the documented use case: Go minifiers for web formats",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "minify -o script.min.js script.js",
+      "website": "https://github.com/tdewolff/minify",
+      "docs": "https://github.com/tdewolff/minify/blob/bc8705359b222873a4e8f9fec94e37103853ab4e/README.md",
+      "stars": 4141,
+      "license": "MIT",
+      "checkedAt": "2026-09-23T01:44:40.911Z"
     }
   ],
   "categories": [

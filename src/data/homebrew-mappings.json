@@ -465,5 +465,45 @@
   "kovetskiy-mark": {
     "formula": "mark",
     "repo": "kovetskiy/mark"
+  },
+  "pyo3-maturin": {
+    "formula": "maturin",
+    "repo": "PyO3/maturin"
+  },
+  "grafana-mcp-grafana": {
+    "formula": "mcp-grafana",
+    "repo": "grafana/mcp-grafana"
+  },
+  "googleapis-mcp-toolbox": {
+    "formula": "mcp-toolbox",
+    "repo": "googleapis/mcp-toolbox"
+  },
+  "birsax2-mdcat": {
+    "formula": "mdcat",
+    "repo": "BIRSAx2/mdcat"
+  },
+  "chainguard-dev-melange": {
+    "formula": "melange",
+    "repo": "chainguard-dev/melange"
+  },
+  "mesonbuild-meson": {
+    "formula": "meson",
+    "repo": "mesonbuild/meson"
+  },
+  "kdeldycke-meta-package-manager": {
+    "formula": "meta-package-manager",
+    "repo": "kdeldycke/meta-package-manager"
+  },
+  "micro-editor-micro": {
+    "formula": "micro",
+    "repo": "micro-editor/micro"
+  },
+  "mamba-org-mamba": {
+    "formula": "micromamba",
+    "repo": "mamba-org/mamba"
+  },
+  "tdewolff-minify": {
+    "formula": "minify",
+    "repo": "tdewolff/minify"
   }
 }

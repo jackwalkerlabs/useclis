@@ -12526,5 +12526,83 @@
       "date": "2026-09-23",
       "stars": 1281
     }
+  ],
+  "pyo3-maturin": [
+    {
+      "date": "2026-09-23",
+      "stars": 5814
+    }
+  ],
+  "zerosumquant-claude-conversation-extractor": [
+    {
+      "date": "2026-09-23",
+      "stars": 676
+    }
+  ],
+  "grafana-mcp-grafana": [
+    {
+      "date": "2026-09-23",
+      "stars": 3482
+    }
+  ],
+  "googleapis-mcp-toolbox": [
+    {
+      "date": "2026-09-23",
+      "stars": 16477
+    }
+  ],
+  "birsax2-mdcat": [
+    {
+      "date": "2026-09-23",
+      "stars": 121
+    }
+  ],
+  "chainguard-dev-melange": [
+    {
+      "date": "2026-09-23",
+      "stars": 629
+    }
+  ],
+  "clemlesne-scrape-it-now": [
+    {
+      "date": "2026-09-23",
+      "stars": 544
+    }
+  ],
+  "mesonbuild-meson": [
+    {
+      "date": "2026-09-23",
+      "stars": 6633
+    }
+  ],
+  "kdeldycke-meta-package-manager": [
+    {
+      "date": "2026-09-23",
+      "stars": 618
+    }
+  ],
+  "micro-editor-micro": [
+    {
+      "date": "2026-09-23",
+      "stars": 29623
+    }
+  ],
+  "mamba-org-mamba": [
+    {
+      "date": "2026-09-23",
+      "stars": 8098
+    }
+  ],
+  "mololab-json-translator": [
+    {
+      "date": "2026-09-23",
+      "stars": 613
+    }
+  ],
+  "tdewolff-minify": [
+    {
+      "date": "2026-09-23",
+      "stars": 4141
+    }
   ]
 }

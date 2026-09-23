@@ -1,8 +1,1684 @@
 {
   "version": 1,
-  "searchPage": 5,
-  "brewOffset": 880,
-  "pending": [],
+  "searchPage": 6,
+  "brewOffset": 920,
+  "pending": [
+    {
+      "repo": "arthurhenrique/cookiecutter-fastapi"
+    },
+    {
+      "repo": "kubernetes/minikube",
+      "formula": "minikube"
+    },
+    {
+      "repo": "chenjiandongx/sniffer"
+    },
+    {
+      "repo": "HackYourFuture/curriculum"
+    },
+    {
+      "repo": "mayuki/Kurukuru"
+    },
+    {
+      "repo": "aibox22/readmeX"
+    },
+    {
+      "repo": "oppiliappan/eva"
+    },
+    {
+      "repo": "manparvesh/yoda"
+    },
+    {
+      "repo": "gulpjs/liftoff"
+    },
+    {
+      "repo": "pomdtr/sunbeam"
+    },
+    {
+      "repo": "kellyjonbrazil/jello"
+    },
+    {
+      "repo": "pkosiec/mongo-seeding"
+    },
+    {
+      "repo": "gitbito/CLI"
+    },
+    {
+      "repo": "hechoendrupal/drupal-console"
+    },
+    {
+      "repo": "kharvd/gpt-cli"
+    },
+    {
+      "repo": "darrenburns/dunk"
+    },
+    {
+      "repo": "piqnt/svgexport"
+    },
+    {
+      "repo": "patrickfav/bcrypt"
+    },
+    {
+      "repo": "ajeetdsouza/clidle"
+    },
+    {
+      "repo": "paololazzari/play"
+    },
+    {
+      "repo": "paulopacitti/gruvbox-factory"
+    },
+    {
+      "repo": "bloznelis/typioca"
+    },
+    {
+      "repo": "mcknly/breadboard-os"
+    },
+    {
+      "repo": "efugier/smartcat"
+    },
+    {
+      "repo": "benibela/xidel"
+    },
+    {
+      "repo": "jonasvinther/medusa"
+    },
+    {
+      "repo": "gajus/table"
+    },
+    {
+      "repo": "balta2ar/brotab"
+    },
+    {
+      "repo": "ad4mx/spinoff"
+    },
+    {
+      "repo": "samuel-lucas6/Kryptor"
+    },
+    {
+      "repo": "skovy/typed-scss-modules"
+    },
+    {
+      "repo": "achillesrasquinha/pipupgrade"
+    },
+    {
+      "repo": "ruyadorno/ipt"
+    },
+    {
+      "repo": "BalliAsghar/Mailsy"
+    },
+    {
+      "repo": "trakBan/spongebob-cli"
+    },
+    {
+      "repo": "wintermute-cell/ngrrram"
+    },
+    {
+      "repo": "addyosmani/git2txt"
+    },
+    {
+      "repo": "i18next/i18next-scanner"
+    },
+    {
+      "repo": "d3witt/viking"
+    },
+    {
+      "repo": "facundoolano/ngtop"
+    },
+    {
+      "repo": "Hyde46/hoard"
+    },
+    {
+      "repo": "hedyhli/starcli"
+    },
+    {
+      "repo": "ahmadawais/create-node-cli"
+    },
+    {
+      "repo": "rajasegar/alacritty-themes"
+    },
+    {
+      "repo": "spring-projects-experimental/spring-boot-migrator"
+    },
+    {
+      "repo": "davydany/sultan"
+    },
+    {
+      "repo": "infinitered/solidarity"
+    },
+    {
+      "repo": "kmhmubin/Face-Recognition-Attendance-System"
+    },
+    {
+      "repo": "Soft/xcolor"
+    },
+    {
+      "repo": "MarketingPipeline/Termino.js"
+    },
+    {
+      "repo": "sdushantha/fontpreview"
+    },
+    {
+      "repo": "dominikbraun/timetrace"
+    },
+    {
+      "repo": "srevinsaju/zap"
+    },
+    {
+      "repo": "vercel/micro-dev"
+    },
+    {
+      "repo": "dustinblackman/oatmeal"
+    },
+    {
+      "repo": "lucagrulla/cw"
+    },
+    {
+      "repo": "darylhjd/mangadesk"
+    },
+    {
+      "repo": "ruyadorno/ntl"
+    },
+    {
+      "repo": "MarcoEidinger/SwiftPlantUML"
+    },
+    {
+      "repo": "metaverse/truss"
+    },
+    {
+      "repo": "gyf304/vmcli"
+    },
+    {
+      "repo": "fgeller/kt"
+    },
+    {
+      "repo": "ColdGrub1384/LibTerm"
+    },
+    {
+      "repo": "yliu7949/KouShare-dl"
+    },
+    {
+      "repo": "octobanana/peaclock"
+    },
+    {
+      "repo": "GeorgeFilipkin/pulsemixer"
+    },
+    {
+      "repo": "lukeed/mri"
+    },
+    {
+      "repo": "jawher/mow.cli"
+    },
+    {
+      "repo": "cutenode/good-first-issue"
+    },
+    {
+      "repo": "furkansenharputlu/f-license"
+    },
+    {
+      "repo": "gen0cide/gscript"
+    },
+    {
+      "repo": "teamdfir/sift"
+    },
+    {
+      "repo": "nilslice/protolock"
+    },
+    {
+      "repo": "willghatch/racket-rash"
+    },
+    {
+      "repo": "ecumene/rust-sloth"
+    },
+    {
+      "repo": "ropery/FFcast"
+    },
+    {
+      "repo": "oberblastmeister/trashy"
+    },
+    {
+      "repo": "melbahja/got"
+    },
+    {
+      "repo": "pdevito3/craftsman"
+    },
+    {
+      "repo": "mov-cli/mov-cli"
+    },
+    {
+      "repo": "jorgebucaran/colorette"
+    },
+    {
+      "repo": "joelibaceta/video-to-ascii"
+    },
+    {
+      "repo": "vasani-arpit/WBOT"
+    },
+    {
+      "repo": "ricklamers/shell-ai"
+    },
+    {
+      "repo": "samwho/spacer"
+    },
+    {
+      "repo": "pankod/superplate"
+    },
+    {
+      "repo": "BlackTechX011/Termux-Command-Handbook"
+    },
+    {
+      "repo": "BlueM/cliclick"
+    },
+    {
+      "repo": "alexhallam/tv"
+    },
+    {
+      "repo": "vet-run/vet"
+    },
+    {
+      "repo": "desgeeko/pdfsyntax"
+    },
+    {
+      "repo": "jakobhoeg/shadcn-chat"
+    },
+    {
+      "repo": "php-school/cli-menu"
+    },
+    {
+      "repo": "psanford/wormhole-william"
+    },
+    {
+      "repo": "EnhancedJax/Bagels"
+    },
+    {
+      "repo": "samtay/so"
+    },
+    {
+      "repo": "ehmicky/cross-platform-node-guide"
+    },
+    {
+      "repo": "p-ranav/tabulate"
+    },
+    {
+      "repo": "ipfs-shipyard/ipfs-deploy"
+    },
+    {
+      "repo": "zpl-c/zpl"
+    },
+    {
+      "repo": "chubin/rate.sx"
+    },
+    {
+      "repo": "vercel/kirimase"
+    },
+    {
+      "repo": "gabotechs/dep-tree"
+    },
+    {
+      "repo": "YiNNx/cmd-wrapped"
+    },
+    {
+      "repo": "LuRsT/hr"
+    },
+    {
+      "repo": "jucasoliveira/terminalGPT"
+    },
+    {
+      "repo": "Toblerity/Fiona"
+    },
+    {
+      "repo": "sezna/nps"
+    },
+    {
+      "repo": "sniptt-official/ots"
+    },
+    {
+      "repo": "babarot/enhancd"
+    },
+    {
+      "repo": "adishavit/argh"
+    },
+    {
+      "repo": "briandowns/spinner"
+    },
+    {
+      "repo": "AnalogJ/lexicon"
+    },
+    {
+      "repo": "Mark24Code/rime-auto-deploy"
+    },
+    {
+      "repo": "dronesploit/dronesploit"
+    },
+    {
+      "repo": "trimstray/sandmap"
+    },
+    {
+      "repo": "dutiyesh/chrome-extension-cli"
+    },
+    {
+      "repo": "sapegin/mrm"
+    },
+    {
+      "repo": "blst-security/cherrybomb"
+    },
+    {
+      "repo": "rubik/radon"
+    },
+    {
+      "repo": "stevemao/awesome-git-addons"
+    },
+    {
+      "repo": "hustcer/star"
+    },
+    {
+      "repo": "lukeed/sade"
+    },
+    {
+      "repo": "HFrost0/bilix"
+    },
+    {
+      "repo": "phsym/prettytable-rs"
+    },
+    {
+      "repo": "arcanis/clipanion"
+    },
+    {
+      "repo": "freedmand/semantra-python"
+    },
+    {
+      "repo": "kyclark/command-line-rust"
+    },
+    {
+      "repo": "hooklift/gowsdl"
+    },
+    {
+      "repo": "bcicen/slackcat"
+    },
+    {
+      "repo": "bloomreach/s4cmd"
+    },
+    {
+      "repo": "piotrmurach/tty-prompt"
+    },
+    {
+      "repo": "vercel/arg"
+    },
+    {
+      "repo": "timothymiller/t4-app"
+    },
+    {
+      "repo": "genuinetools/reg"
+    },
+    {
+      "repo": "0xacx/chatGPT-shell-cli"
+    },
+    {
+      "repo": "altdesktop/playerctl"
+    },
+    {
+      "repo": "swanandx/lemmeknow"
+    },
+    {
+      "repo": "muellan/clipp"
+    },
+    {
+      "repo": "gorilla-llm/gorilla-cli"
+    },
+    {
+      "repo": "solidiquis/erdtree"
+    },
+    {
+      "repo": "davrodpin/mole"
+    },
+    {
+      "repo": "joehillen/sysz"
+    },
+    {
+      "repo": "zonemeen/musicn"
+    },
+    {
+      "repo": "CITGuru/PyInquirer"
+    },
+    {
+      "repo": "ycd/manage-fastapi"
+    },
+    {
+      "repo": "dbcli/mssql-cli"
+    },
+    {
+      "repo": "abhagsain/ai-cli"
+    },
+    {
+      "repo": "guumaster/hostctl"
+    },
+    {
+      "repo": "sheepla/pingu"
+    },
+    {
+      "repo": "Annihil/github-spray"
+    },
+    {
+      "repo": "patrickfav/uber-apk-signer"
+    },
+    {
+      "repo": "npkgz/cli-progress"
+    },
+    {
+      "repo": "abiosoft/ishell"
+    },
+    {
+      "repo": "gitless-vcs/gitless"
+    },
+    {
+      "repo": "hexsum/Mojo-Weixin"
+    },
+    {
+      "repo": "ngx-rocket/generator-ngx-rocket"
+    },
+    {
+      "repo": "chunqiuyiyu/ervy"
+    },
+    {
+      "repo": "twitter/twurl"
+    },
+    {
+      "repo": "bcicen/grmon"
+    },
+    {
+      "repo": "rickyah/ini-parser"
+    },
+    {
+      "repo": "MattMoony/figaro"
+    },
+    {
+      "repo": "TermuxArch/TermuxArch"
+    },
+    {
+      "repo": "nordtheme/iterm2"
+    },
+    {
+      "repo": "stampery/mongoaudit"
+    },
+    {
+      "repo": "DimitarPetrov/stegify"
+    },
+    {
+      "repo": "TylerBrock/saw"
+    },
+    {
+      "repo": "tmrts/boilr"
+    },
+    {
+      "repo": "isacikgoz/gitin"
+    },
+    {
+      "repo": "wustho/epr"
+    },
+    {
+      "repo": "Nonchalant/AppIcon"
+    },
+    {
+      "repo": "daxeel/blockshell"
+    },
+    {
+      "repo": "peggyrayzis/react-native-create-bridge"
+    },
+    {
+      "repo": "piotrmurach/tty"
+    },
+    {
+      "repo": "manrajgrover/football-cli"
+    },
+    {
+      "repo": "c8r/kit"
+    },
+    {
+      "repo": "haskellcamargo/sclack"
+    },
+    {
+      "repo": "dundalek/closh"
+    },
+    {
+      "repo": "bchao1/bullet"
+    },
+    {
+      "repo": "nklayman/vue-cli-plugin-electron-builder"
+    },
+    {
+      "repo": "donnemartin/dev-setup"
+    },
+    {
+      "repo": "chriswalz/bit"
+    },
+    {
+      "repo": "homerchen19/nba-go"
+    },
+    {
+      "repo": "kefranabg/readme-md-generator"
+    },
+    {
+      "repo": "wallix/awless"
+    },
+    {
+      "repo": "donnemartin/haxor-news"
+    },
+    {
+      "repo": "callstack/haul"
+    },
+    {
+      "repo": "Yomguithereal/react-blessed"
+    },
+    {
+      "repo": "maaslalani/slides"
+    },
+    {
+      "repo": "open-gitagent/clawless"
+    },
+    {
+      "repo": "nosarthur/gita"
+    },
+    {
+      "repo": "coder/boo"
+    },
+    {
+      "repo": "joeynyc/hermes-hud"
+    },
+    {
+      "repo": "Maciek-roboblog/Claude-Code-Usage-Monitor"
+    },
+    {
+      "repo": "npcole/npyscreen"
+    },
+    {
+      "repo": "peterbrittain/asciimatics"
+    },
+    {
+      "repo": "bergside/typeui"
+    },
+    {
+      "repo": "makew0rld/amfora"
+    },
+    {
+      "repo": "karimknaebel/turm"
+    },
+    {
+      "repo": "coder/ghostty-web"
+    },
+    {
+      "repo": "TheR1D/shell_gpt"
+    },
+    {
+      "repo": "gnunn1/tilix"
+    },
+    {
+      "repo": "sayanarijit/qrcode.show"
+    },
+    {
+      "repo": "GiorgosXou/TUIFIManager"
+    },
+    {
+      "repo": "skywind3000/vim-quickui"
+    },
+    {
+      "repo": "blinksh/blink"
+    },
+    {
+      "repo": "achannarasappa/ticker"
+    },
+    {
+      "repo": "mjswensen/themer"
+    },
+    {
+      "repo": "taviso/123elf"
+    },
+    {
+      "repo": "jaspervdj/patat"
+    },
+    {
+      "repo": "iagooar/qqqa"
+    },
+    {
+      "repo": "Textualize/rich"
+    },
+    {
+      "repo": "red-data-tools/YouPlot"
+    },
+    {
+      "repo": "guptarohit/asciigraph"
+    },
+    {
+      "repo": "my-claude-utils/clsh"
+    },
+    {
+      "repo": "samsesh/SocialBox-Termux"
+    },
+    {
+      "repo": "willothy/flatten.nvim"
+    },
+    {
+      "repo": "vinibiavatti1/TuiCss"
+    },
+    {
+      "repo": "dodo-reach/hermes-desktop"
+    },
+    {
+      "repo": "oldratlee/useful-scripts"
+    },
+    {
+      "repo": "RtlZeroMemory/Rezi"
+    },
+    {
+      "repo": "craigsc/cmux"
+    },
+    {
+      "repo": "jrnxf/thokr"
+    },
+    {
+      "repo": "vyfor/rattles"
+    },
+    {
+      "repo": "jmacdonald/amp"
+    },
+    {
+      "repo": "julien040/gut"
+    },
+    {
+      "repo": "sedwards2009/extraterm"
+    },
+    {
+      "repo": "fuelen/owl"
+    },
+    {
+      "repo": "Swordfish90/cool-retro-term"
+    },
+    {
+      "repo": "yassinebridi/serpl"
+    },
+    {
+      "repo": "Siriusmart/youtube-tui"
+    },
+    {
+      "repo": "seebi/dircolors-solarized"
+    },
+    {
+      "repo": "daniel3303/ClaudeCodeStatusLine"
+    },
+    {
+      "repo": "pimutils/todoman"
+    },
+    {
+      "repo": "rsalmei/alive-progress"
+    },
+    {
+      "repo": "tony/tmux-config"
+    },
+    {
+      "repo": "lxgr-linux/pokete"
+    },
+    {
+      "repo": "mfontanini/presenterm"
+    },
+    {
+      "repo": "dankamongmen/notcurses"
+    },
+    {
+      "repo": "hardikvasa/google-images-download"
+    },
+    {
+      "repo": "agauniyal/rang"
+    },
+    {
+      "repo": "kaplanelad/shellfirm"
+    },
+    {
+      "repo": "reobin/typewritten"
+    },
+    {
+      "repo": "ccgauche/ytermusic"
+    },
+    {
+      "repo": "naggie/dstask"
+    },
+    {
+      "repo": "ms-jpq/sad"
+    },
+    {
+      "repo": "b3nj5m1n/xdg-ninja"
+    },
+    {
+      "repo": "Slackadays/Clipboard"
+    },
+    {
+      "repo": "adsr/mle"
+    },
+    {
+      "repo": "paul-nameless/tg"
+    },
+    {
+      "repo": "randy3k/radian"
+    },
+    {
+      "repo": "sharkdp/pastel"
+    },
+    {
+      "repo": "lusingander/stu"
+    },
+    {
+      "repo": "sharkdp/hyperfine"
+    },
+    {
+      "repo": "sorin-ionescu/prezto"
+    },
+    {
+      "repo": "ashish0kumar/windots"
+    },
+    {
+      "repo": "Neutree/COMTool"
+    },
+    {
+      "repo": "curlpipe/ox"
+    },
+    {
+      "repo": "rhysd/kiro-editor"
+    },
+    {
+      "repo": "greymd/teip"
+    },
+    {
+      "repo": "xgi/castero"
+    },
+    {
+      "repo": "esimov/diagram"
+    },
+    {
+      "repo": "JakWai01/lurk"
+    },
+    {
+      "repo": "p-gen/smenu"
+    },
+    {
+      "repo": "sindresorhus/hyper-snazzy"
+    },
+    {
+      "repo": "fandreuz/TUI-ConsoleLauncher"
+    },
+    {
+      "repo": "max-niederman/ttyper"
+    },
+    {
+      "repo": "posva/catimg"
+    },
+    {
+      "repo": "raitonoberu/sptlrx"
+    },
+    {
+      "repo": "kroitor/asciichart"
+    },
+    {
+      "repo": "aidlearning/AidLearning-FrameWork"
+    },
+    {
+      "repo": "ndd7xv/heh"
+    },
+    {
+      "repo": "aome510/hackernews-TUI"
+    },
+    {
+      "repo": "jwlodek/py_cui"
+    },
+    {
+      "repo": "darrenburns/posting"
+    },
+    {
+      "repo": "cs01/termpair"
+    },
+    {
+      "repo": "OrkoHunter/keep"
+    },
+    {
+      "repo": "clangen/musikcube"
+    },
+    {
+      "repo": "Terminals-Origin/Terminals"
+    },
+    {
+      "repo": "mmulet/term.everything"
+    },
+    {
+      "repo": "TNK-Studio/lazykube"
+    },
+    {
+      "repo": "mgunyho/tere"
+    },
+    {
+      "repo": "Amjad50/plastic"
+    },
+    {
+      "repo": "ahmadawais/terminui"
+    },
+    {
+      "repo": "ynqa/sig"
+    },
+    {
+      "repo": "mikaelmello/inquire"
+    },
+    {
+      "repo": "liamg/tml"
+    },
+    {
+      "repo": "alemidev/scope-tui"
+    },
+    {
+      "repo": "dongshuyan/compass-skills"
+    },
+    {
+      "repo": "MacPaw/cleanmymac-cli"
+    },
+    {
+      "repo": "lmorg/murex"
+    },
+    {
+      "repo": "doccker/cc-use-exp"
+    },
+    {
+      "repo": "graphprotocol/graph-node"
+    },
+    {
+      "repo": "hey-api/hey-api"
+    },
+    {
+      "repo": "garden-io/garden"
+    },
+    {
+      "repo": "clawwork-ai/ClawWork"
+    },
+    {
+      "repo": "dohooo/helmor"
+    },
+    {
+      "repo": "promptise-com/Foundry"
+    },
+    {
+      "repo": "dob323/session-kit"
+    },
+    {
+      "repo": "Rohithgilla12/data-peek"
+    },
+    {
+      "repo": "superglue-ai/superglue"
+    },
+    {
+      "repo": "yandanp/Connexio"
+    },
+    {
+      "repo": "spacedriveapp/spacebot"
+    },
+    {
+      "repo": "guhcostan/mac-cleaner-cli"
+    },
+    {
+      "repo": "ui-layouts/ui-tools"
+    },
+    {
+      "repo": "nadimtuhin/claude-token-optimizer"
+    },
+    {
+      "repo": "umutxyp/Seo-Promt-Master"
+    },
+    {
+      "repo": "Optim-Agent/optim-agent"
+    },
+    {
+      "repo": "tryproduck/produck-skills"
+    },
+    {
+      "repo": "MioMioOS/MioIsland"
+    },
+    {
+      "repo": "mco-org/mco"
+    },
+    {
+      "repo": "memfault/interrupt"
+    },
+    {
+      "repo": "GaoSSR/best-claude-hud"
+    },
+    {
+      "repo": "justjanne/powerline-go"
+    },
+    {
+      "repo": "m0n0x41d/haft"
+    },
+    {
+      "repo": "ctreffs/xcode-defaults"
+    },
+    {
+      "repo": "bgreenwell/lstr"
+    },
+    {
+      "repo": "Avaiga/taipy"
+    },
+    {
+      "repo": "daisuke0131/ViewMonitor"
+    },
+    {
+      "repo": "vibeeval/vibecosystem"
+    },
+    {
+      "repo": "golutra/golutra"
+    },
+    {
+      "repo": "julep-ai/julep"
+    },
+    {
+      "repo": "Tenderly/tenderly-cli"
+    },
+    {
+      "repo": "abinthomasonline/repo2txt"
+    },
+    {
+      "repo": "Clivern/Peanut"
+    },
+    {
+      "repo": "brettcannon/python-launcher"
+    },
+    {
+      "repo": "vostride/agent-qa"
+    },
+    {
+      "repo": "robertpsoane/ducker"
+    },
+    {
+      "repo": "sunscrapers/djoser"
+    },
+    {
+      "repo": "brocode/fw"
+    },
+    {
+      "repo": "trasta298/keifu"
+    },
+    {
+      "repo": "neurogen-dev/NeuroAPI"
+    },
+    {
+      "repo": "code-forge-io/react-router-devtools"
+    },
+    {
+      "repo": "Hainrixz/the-architect"
+    },
+    {
+      "repo": "Houseofmvps/codesight"
+    },
+    {
+      "repo": "paperboytm/spool"
+    },
+    {
+      "repo": "zhu1090093659/spec_driven_develop"
+    },
+    {
+      "repo": "mhattingpete/claude-skills-marketplace"
+    },
+    {
+      "repo": "dnote/dnote"
+    },
+    {
+      "repo": "tensorchord/envd"
+    },
+    {
+      "repo": "AlmanacCode/codealmanac"
+    },
+    {
+      "repo": "jcalabro/uscope"
+    },
+    {
+      "repo": "writer/writer-framework"
+    },
+    {
+      "repo": "rshankras/claude-code-apple-skills"
+    },
+    {
+      "repo": "daytonaio/daytona"
+    },
+    {
+      "repo": "cporter202/API-mega-list"
+    },
+    {
+      "repo": "aldefy/compose-skill"
+    },
+    {
+      "repo": "LING71671/Open-ClaudeCode"
+    },
+    {
+      "repo": "Nya-Foundation/NyaProxy"
+    },
+    {
+      "repo": "Code-with-Beto/snapai"
+    },
+    {
+      "repo": "royalbhati/sqltoerdiagram"
+    },
+    {
+      "repo": "marcoaapfortes/Mantic.sh"
+    },
+    {
+      "repo": "nat-n/poethepoet"
+    },
+    {
+      "repo": "patoles/agent-flow"
+    },
+    {
+      "repo": "linxidnju/OpenTag"
+    },
+    {
+      "repo": "regent-vcs/re_gent"
+    },
+    {
+      "repo": "TabbyML/tabby"
+    },
+    {
+      "repo": "Arindam200/cc-lens"
+    },
+    {
+      "repo": "SanderMertens/bake"
+    },
+    {
+      "repo": "campfirein/byterover-cli"
+    },
+    {
+      "repo": "heyman/heynote"
+    },
+    {
+      "repo": "Ataraxy-Labs/opensessions"
+    },
+    {
+      "repo": "cortesi/modd"
+    },
+    {
+      "repo": "withkynam/vibecode-pro-max-kit"
+    },
+    {
+      "repo": "jmuncor/tokentap"
+    },
+    {
+      "repo": "Pythagora-io/gpt-pilot"
+    },
+    {
+      "repo": "insidegui/WWDC"
+    },
+    {
+      "repo": "Pythagora-io/pythagora"
+    },
+    {
+      "repo": "0xranx/OpenContext"
+    },
+    {
+      "repo": "EvoLinkAI/awesome-openclaw-usecases-moltbook"
+    },
+    {
+      "repo": "Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI"
+    },
+    {
+      "repo": "tianchangNorth/pocket-mocker"
+    },
+    {
+      "repo": "russelleNVy/three-man-team"
+    },
+    {
+      "repo": "OSPanel/OpenServerPanel"
+    },
+    {
+      "repo": "jacktasia/dumb-jump"
+    },
+    {
+      "repo": "shotgun-sh/shotgun"
+    },
+    {
+      "repo": "instill-ai/instill-core"
+    },
+    {
+      "repo": "Klavis-AI/klavis"
+    },
+    {
+      "repo": "FeatureProbe/FeatureProbe"
+    },
+    {
+      "repo": "fosslife/devtools-x"
+    },
+    {
+      "repo": "aipotheosis-labs/aci"
+    },
+    {
+      "repo": "illacloud/illa-builder"
+    },
+    {
+      "repo": "Smooth-E/wireless-adb-switch"
+    },
+    {
+      "repo": "bmc/daemonize"
+    },
+    {
+      "repo": "garybernhardt/selecta"
+    },
+    {
+      "repo": "gautamkrishnar/socli"
+    },
+    {
+      "repo": "eidelen/DicomToMesh"
+    },
+    {
+      "repo": "databricks/click"
+    },
+    {
+      "repo": "aleksandr-m/gitflow-maven-plugin"
+    },
+    {
+      "repo": "facebookincubator/FBX2glTF"
+    },
+    {
+      "repo": "lcoutodemos/clui-cc"
+    },
+    {
+      "repo": "artiebits/fake-git-history"
+    },
+    {
+      "repo": "nikolassv/bartib"
+    },
+    {
+      "repo": "mkaz/termgraph"
+    },
+    {
+      "repo": "lavv17/lftp"
+    },
+    {
+      "repo": "ismaelgv/rnr"
+    },
+    {
+      "repo": "dineshba/tf-summarize"
+    },
+    {
+      "repo": "iflow-ai/iflow-cli"
+    },
+    {
+      "repo": "open-pomodoro/openpomodoro-cli"
+    },
+    {
+      "repo": "nferraz/st"
+    },
+    {
+      "repo": "kokorin/Jaffree"
+    },
+    {
+      "repo": "resurrecting-open-source-projects/scrot"
+    },
+    {
+      "repo": "knqyf263/pet"
+    },
+    {
+      "repo": "run-llama/semtools"
+    },
+    {
+      "repo": "astanin/python-tabulate"
+    },
+    {
+      "repo": "clojure/tools.cli"
+    },
+    {
+      "repo": "sts10/rust-command-line-utilities"
+    },
+    {
+      "repo": "AnWeber/httpyac"
+    },
+    {
+      "repo": "krzysztof-o/spritesheet.js"
+    },
+    {
+      "repo": "MarcoLucidi01/ytcast"
+    },
+    {
+      "repo": "nefarius/Injector"
+    },
+    {
+      "repo": "guarinogabriel/Mac-CLI"
+    },
+    {
+      "repo": "pemistahl/grex"
+    },
+    {
+      "repo": "scrapy/scrapyd-client"
+    },
+    {
+      "repo": "ToaHartor/GI-cutscenes"
+    },
+    {
+      "repo": "microsoft/appcenter-cli"
+    },
+    {
+      "repo": "hueristiq/xurlfind3r"
+    },
+    {
+      "repo": "bvanhoekelen/performance"
+    },
+    {
+      "repo": "zkonduit/ezkl"
+    },
+    {
+      "repo": "ytdl-org/youtube-dl"
+    },
+    {
+      "repo": "Softcatala/whisper-ctranslate2"
+    },
+    {
+      "repo": "ahmadawais/corona-cli"
+    },
+    {
+      "repo": "AppraiseQA/appraise"
+    },
+    {
+      "repo": "minicli/minicli"
+    },
+    {
+      "repo": "sindresorhus/emoj"
+    },
+    {
+      "repo": "fraserxu/electron-pdf"
+    },
+    {
+      "repo": "localstack/awscli-local"
+    },
+    {
+      "repo": "sunnyyoung/WeChatTweak"
+    },
+    {
+      "repo": "mansuf/mangadex-downloader"
+    },
+    {
+      "repo": "rcoh/angle-grinder"
+    },
+    {
+      "repo": "makew0rld/didder"
+    },
+    {
+      "repo": "akemin-dayo/simject"
+    },
+    {
+      "repo": "Prayag2/konsave"
+    },
+    {
+      "repo": "0k/shyaml"
+    },
+    {
+      "repo": "ajaxray/geek-life"
+    },
+    {
+      "repo": "tellerops/teller"
+    },
+    {
+      "repo": "Chen-zexi/vllm-cli"
+    },
+    {
+      "repo": "Keyang/node-csvtojson"
+    },
+    {
+      "repo": "NotJoeMartinez/yt-fts"
+    },
+    {
+      "repo": "fastn-stack/kulfi"
+    },
+    {
+      "repo": "ajalt/clikt"
+    },
+    {
+      "repo": "remorses/tuitube"
+    },
+    {
+      "repo": "jehiah/json2csv"
+    },
+    {
+      "repo": "FontCustom/fontcustom"
+    },
+    {
+      "repo": "bhouston/mycoder"
+    },
+    {
+      "repo": "dulikaifazr/Cougar-CLI"
+    },
+    {
+      "repo": "kcrawford/dockutil"
+    },
+    {
+      "repo": "natemcmaster/dotnet-serve"
+    },
+    {
+      "repo": "learnbyexample/cli-computing"
+    },
+    {
+      "repo": "daniele77/cli"
+    },
+    {
+      "repo": "ReimuNotMoe/ydotool"
+    },
+    {
+      "repo": "f/mcptools"
+    },
+    {
+      "repo": "sirwart/ripsecrets"
+    },
+    {
+      "repo": "google/bundletool"
+    },
+    {
+      "repo": "bartobri/no-more-secrets"
+    },
+    {
+      "repo": "regolith-labs/ore-cli-legacy"
+    },
+    {
+      "repo": "terryso/nof1-tracker"
+    },
+    {
+      "repo": "philippta/flyscrape"
+    },
+    {
+      "repo": "infinitered/gluegun"
+    },
+    {
+      "repo": "timvisee/ffsend"
+    },
+    {
+      "repo": "Shopify/themekit"
+    },
+    {
+      "repo": "go-jira/jira"
+    },
+    {
+      "repo": "Ch00k/ffmpy"
+    },
+    {
+      "repo": "MrRio/shellwrap"
+    },
+    {
+      "repo": "zackelia/bclm"
+    },
+    {
+      "repo": "fieu/discord.sh"
+    },
+    {
+      "repo": "klaudiosinani/taskbook"
+    },
+    {
+      "repo": "klaudiosinani/qoa"
+    },
+    {
+      "repo": "fent/node-ytdl"
+    },
+    {
+      "repo": "sindresorhus/capture-website-cli"
+    },
+    {
+      "repo": "DocNow/twarc"
+    },
+    {
+      "repo": "cr-marcstevens/sha1collisiondetection"
+    },
+    {
+      "repo": "leahneukirchen/nq"
+    },
+    {
+      "repo": "ayoisaiah/focus"
+    },
+    {
+      "repo": "insanum/gcalcli"
+    },
+    {
+      "repo": "s3tools/s3cmd"
+    },
+    {
+      "repo": "lowleveldesign/wtrace"
+    },
+    {
+      "repo": "sudofox/shell-mommy"
+    },
+    {
+      "repo": "umutphp/awesome-cli"
+    },
+    {
+      "repo": "jacobsalmela/tccutil"
+    },
+    {
+      "repo": "ck-zhang/reddix"
+    },
+    {
+      "repo": "ayushsharma82/WebSerial"
+    },
+    {
+      "repo": "drudru/ansi_up"
+    },
+    {
+      "repo": "Danau5tin/multi-agent-coding-system"
+    },
+    {
+      "repo": "timofurrer/colorful"
+    },
+    {
+      "repo": "theNetworkChuck/ai-in-the-terminal"
+    },
+    {
+      "repo": "jonaslu/ain"
+    },
+    {
+      "repo": "sontek/snowmachine"
+    },
+    {
+      "repo": "jimmy201602/webterminal"
+    },
+    {
+      "repo": "tattoy-org/tattoy"
+    },
+    {
+      "repo": "elisescu/tty-share"
+    },
+    {
+      "repo": "selectel/pyte"
+    },
+    {
+      "repo": "mikaelbr/marked-terminal"
+    },
+    {
+      "repo": "cruzyjapan/Gemini-CLI-UI"
+    },
+    {
+      "repo": "a-n-t-h-o-n-y/TermOx"
+    },
+    {
+      "repo": "erikrose/blessings"
+    },
+    {
+      "repo": "context-labs/uwu"
+    },
+    {
+      "repo": "th3r00t/pyShelf"
+    },
+    {
+      "repo": "TomasTomecek/sen"
+    },
+    {
+      "repo": "raphamorim/gameboy"
+    },
+    {
+      "repo": "andyk/ht"
+    },
+    {
+      "repo": "e6a5/zenta"
+    },
+    {
+      "repo": "eliasdorneles/upiano"
+    },
+    {
+      "repo": "TerminalStudio/xterm.dart"
+    },
+    {
+      "repo": "vaniacer/piu-piu-SH"
+    },
+    {
+      "repo": "susiai/susi_shell"
+    },
+    {
+      "repo": "satnaing/terminal-portfolio"
+    },
+    {
+      "repo": "JaDogg/pydoro"
+    },
+    {
+      "repo": "hundredrabbits/Ronin"
+    },
+    {
+      "repo": "taviso/wpunix"
+    },
+    {
+      "repo": "excalith/excalith-start-page"
+    },
+    {
+      "repo": "sudipghimire533/ytui-music"
+    },
+    {
+      "repo": "samtay/tetris"
+    },
+    {
+      "repo": "fdivitto/FabGL"
+    },
+    {
+      "repo": "alichtman/stronghold"
+    },
+    {
+      "repo": "antonmedv/countdown"
+    },
+    {
+      "repo": "zee-editor/zee"
+    },
+    {
+      "repo": "cmuratori/refterm"
+    },
+    {
+      "repo": "addyosmani/firew0rks"
+    },
+    {
+      "repo": "TBS1996/speki"
+    },
+    {
+      "repo": "shobrook/wut"
+    },
+    {
+      "repo": "s0md3v/huepy"
+    },
+    {
+      "repo": "isamert/scli"
+    },
+    {
+      "repo": "atomcorp/themes"
+    },
+    {
+      "repo": "alexeyraspopov/picocolors"
+    },
+    {
+      "repo": "pineapplegiant/spaceduck"
+    },
+    {
+      "repo": "x0rzavi/github-readme-terminal"
+    },
+    {
+      "repo": "darrenburns/rich-pixels"
+    },
+    {
+      "repo": "bokub/gradient-string"
+    },
+    {
+      "repo": "Gbox4/tstock"
+    },
+    {
+      "repo": "pritamzope/OS"
+    },
+    {
+      "repo": "cabal-club/cabal-cli"
+    },
+    {
+      "repo": "Textualize/textual-web"
+    },
+    {
+      "repo": "ikalnytskyi/termcolor"
+    },
+    {
+      "repo": "tboox/ltui"
+    },
+    {
+      "repo": "JoelOtter/termloop"
+    },
+    {
+      "repo": "deadpixi/mtm"
+    },
+    {
+      "repo": "workshopper/workshopper"
+    },
+    {
+      "repo": "metal3d/bashsimplecurses"
+    },
+    {
+      "repo": "rensbreur/SwiftTUI"
+    },
+    {
+      "repo": "glamp/bashplotlib"
+    },
+    {
+      "repo": "akinomyoga/cxxmatrix"
+    },
+    {
+      "repo": "pixegami/terminal-profile"
+    },
+    {
+      "repo": "xolox/python-coloredlogs"
+    },
+    {
+      "repo": "pasky/speedread"
+    },
+    {
+      "repo": "sonph/onehalf"
+    },
+    {
+      "repo": "paul/progress_bar"
+    },
+    {
+      "repo": "daipeihust/im-select"
+    },
+    {
+      "repo": "diogocavilha/fancy-git"
+    },
+    {
+      "repo": "Tjatse/pm2-gui"
+    },
+    {
+      "repo": "lemnos/tt"
+    },
+    {
+      "repo": "axiros/terminal_markdown_viewer"
+    },
+    {
+      "repo": "EliverLara/terminator-themes"
+    },
+    {
+      "repo": "FedericoCeratto/dashing"
+    },
+    {
+      "repo": "lextm/windowsterminal-shell"
+    },
+    {
+      "repo": "gchp/iota"
+    },
+    {
+      "repo": "klange/nyancat"
+    },
+    {
+      "repo": "sdushantha/qr-filetransfer"
+    }
+  ],
   "candidates": {
     "alexheretic/ab-av1": {
       "status": "held",
@@ -1025,9 +2701,43 @@
       "reason": "Terminal use case needs classification"
     },
     "micro-editor/micro": {
-      "status": "held",
-      "checkedAt": "2026-09-11T15:43:52.976Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "micro-editor-micro",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/micro.json",
+          "snippet": "{\"executables\":[\"micro\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/micro-editor/micro/blob/7484d5f5fa95d3dfb025a01b09f31a1b0e7f9b1b/README.md",
+          "snippet": "brew install micro"
+        },
+        "usage": {
+          "url": "https://github.com/micro-editor/micro/blob/7484d5f5fa95d3dfb025a01b09f31a1b0e7f9b1b/README.md",
+          "snippet": "micro -version"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/micro-editor/micro",
+          "snippet": "A modern and intuitive terminal-based text editor"
+        },
+        "adoption": {
+          "stars": 29623,
+          "githubSource": "https://github.com/micro-editor/micro",
+          "homebrew": {
+            "repo": "micro-editor/micro",
+            "formula": "micro",
+            "count": 471,
+            "source": "https://formulae.brew.sh/api/formula/micro.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "7484d5f5fa95d3dfb025a01b09f31a1b0e7f9b1b"
+      }
     },
     "sxyazi/yazi": {
       "status": "held",
@@ -8609,8 +10319,9 @@
     },
     "pwittchen/spotify-cli-linux": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "daniele77/cli": {
       "status": "held",
@@ -8688,8 +10399,9 @@
     },
     "gphotosuploader/gphotos-uploader-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "timvisee/ffsend": {
       "status": "accepted",
@@ -9580,8 +11292,9 @@
     },
     "cofyc/argparse": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "inotify-tools/inotify-tools": {
       "status": "held",
@@ -9595,8 +11308,9 @@
     },
     "sindresorhus/dark-mode": {
       "status": "held",
-      "checkedAt": "2026-09-14T19:44:19.656Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "nschloe/tiptop": {
       "status": "held",
@@ -18003,14 +19717,49 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "pyo3/maturin": {
-      "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "pyo3-maturin",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/maturin.json",
+          "snippet": "{\"executables\":[\"maturin\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/PyO3/maturin/blob/9ad0e183016dcd785fa6143d883c33fcf8271294/guide/src/installation.md",
+          "snippet": "brew install maturin"
+        },
+        "usage": {
+          "url": "https://github.com/PyO3/maturin/blob/9ad0e183016dcd785fa6143d883c33fcf8271294/README.md",
+          "snippet": "maturin new"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/PyO3/maturin",
+          "snippet": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+        },
+        "adoption": {
+          "stars": 5814,
+          "githubSource": "https://github.com/PyO3/maturin",
+          "homebrew": {
+            "repo": "PyO3/maturin",
+            "formula": "maturin",
+            "count": 161,
+            "source": "https://formulae.brew.sh/api/formula/maturin.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "9ad0e183016dcd785fa6143d883c33fcf8271294"
+      }
     },
     "mbed-tls/mbedtls": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sooperset/mcp-atlassian": {
       "status": "held",
@@ -18018,23 +19767,93 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "grafana/mcp-grafana": {
-      "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "grafana-mcp-grafana",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/mcp-grafana.json",
+          "snippet": "{\"executables\":[\"mcp-grafana\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/mcp-grafana",
+          "snippet": "brew install mcp-grafana"
+        },
+        "usage": {
+          "url": "https://github.com/grafana/mcp-grafana/blob/65bd38b61bd5e9edc3883be5824f4b7494e20366/README.md",
+          "snippet": "mcp-grafana --usage-stats=enabled"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/grafana/mcp-grafana",
+          "snippet": "MCP server for Grafana"
+        },
+        "adoption": {
+          "stars": 3482,
+          "githubSource": "https://github.com/grafana/mcp-grafana",
+          "homebrew": {
+            "repo": "grafana/mcp-grafana",
+            "formula": "mcp-grafana",
+            "count": 391,
+            "source": "https://formulae.brew.sh/api/formula/mcp-grafana.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "65bd38b61bd5e9edc3883be5824f4b7494e20366"
+      }
     },
     "modelcontextprotocol/registry": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "googleapis/mcp-toolbox": {
-      "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "googleapis-mcp-toolbox",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/mcp-toolbox.json",
+          "snippet": "{\"executables\":[\"toolbox\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/googleapis/mcp-toolbox/blob/4b7a44d6052137c912a15aea44fed4e826173ce9/README.md",
+          "snippet": "brew install mcp-toolbox"
+        },
+        "usage": {
+          "url": "https://github.com/googleapis/mcp-toolbox/blob/4b7a44d6052137c912a15aea44fed4e826173ce9/README.md",
+          "snippet": "toolbox --config \"tools.yaml\""
+        },
+        "description": {
+          "url": "https://api.github.com/repos/googleapis/mcp-toolbox",
+          "snippet": "MCP Toolbox for Databases is an open source MCP server for databases."
+        },
+        "adoption": {
+          "stars": 16477,
+          "githubSource": "https://github.com/googleapis/mcp-toolbox",
+          "homebrew": {
+            "repo": "googleapis/mcp-toolbox",
+            "formula": "mcp-toolbox",
+            "count": 247,
+            "source": "https://formulae.brew.sh/api/formula/mcp-toolbox.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "4b7a44d6052137c912a15aea44fed4e826173ce9"
+      }
     },
     "solworktech/md2pdf": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "rust-lang/mdbook": {
@@ -18044,13 +19863,48 @@
     },
     "mdbtools/mdbtools": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "birsax2/mdcat": {
-      "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "Homebrew install-on-request",
+      "slug": "birsax2-mdcat",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/BIRSAx2/mdcat/blob/66bf14fb22c53857a548d759c20c71686370d928/Cargo.toml",
+          "snippet": "package.name=\"mdcat\"; src/main.rs",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/BIRSAx2/mdcat/blob/66bf14fb22c53857a548d759c20c71686370d928/README.md",
+          "snippet": "- You can also build `mdcat` manually with `cargo install mdcat` (see below for details)."
+        },
+        "usage": {
+          "url": "https://github.com/BIRSAx2/mdcat/blob/66bf14fb22c53857a548d759c20c71686370d928/README.md",
+          "snippet": "mdcat sample.md"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/BIRSAx2/mdcat",
+          "snippet": "cat for markdown"
+        },
+        "adoption": {
+          "stars": 121,
+          "githubSource": "https://github.com/BIRSAx2/mdcat",
+          "homebrew": {
+            "repo": "BIRSAx2/mdcat",
+            "formula": "mdcat",
+            "count": 217,
+            "source": "https://formulae.brew.sh/api/formula/mdcat.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "66bf14fb22c53857a548d759c20c71686370d928"
+      }
     },
     "ungive/media-control": {
       "status": "held",
@@ -18059,48 +19913,189 @@
     },
     "mediaarea/mediainfo": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bluenviron/mediamtx": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "meilisearch/meilisearch": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "chainguard-dev/melange": {
-      "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "chainguard-dev-melange",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/melange.json",
+          "snippet": "{\"executables\":[\"melange\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://github.com/chainguard-dev/melange/blob/d062cf25ce373bf8045d79b9897878ab207d8d36/README.md",
+          "snippet": "brew install melange"
+        },
+        "usage": {
+          "url": "https://github.com/chainguard-dev/melange/blob/d062cf25ce373bf8045d79b9897878ab207d8d36/README.md",
+          "snippet": "melange build examples/gnu-hello.yaml"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/chainguard-dev/melange",
+          "snippet": "build APKs from source code"
+        },
+        "adoption": {
+          "stars": 629,
+          "githubSource": "https://github.com/chainguard-dev/melange",
+          "homebrew": {
+            "repo": "chainguard-dev/melange",
+            "formula": "melange",
+            "count": 147,
+            "source": "https://formulae.brew.sh/api/formula/melange.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "d062cf25ce373bf8045d79b9897878ab207d8d36"
+      }
     },
     "memcached/memcached": {
       "status": "held",
-      "checkedAt": "2026-09-16T09:44:24.905Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "nodejs/merve": {
       "status": "held",
-      "checkedAt": "2026-09-16T10:44:19.693Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mesonbuild/meson": {
-      "status": "held",
-      "checkedAt": "2026-09-16T10:44:19.693Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "mesonbuild-meson",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/meson.json",
+          "snippet": "{\"executables\":[\"meson\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/meson",
+          "snippet": "brew install meson"
+        },
+        "usage": {
+          "url": "https://github.com/mesonbuild/meson/blob/d1c7b4dae011e13a695c3303a050460f02655ccc/README.md",
+          "snippet": "meson setup builddir"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mesonbuild/meson",
+          "snippet": "The Meson Build System"
+        },
+        "adoption": {
+          "stars": 6633,
+          "githubSource": "https://github.com/mesonbuild/meson",
+          "homebrew": {
+            "repo": "mesonbuild/meson",
+            "formula": "meson",
+            "count": 1910,
+            "source": "https://formulae.brew.sh/api/formula/meson.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "d1c7b4dae011e13a695c3303a050460f02655ccc"
+      }
     },
     "kdeldycke/meta-package-manager": {
-      "status": "held",
-      "checkedAt": "2026-09-16T10:44:19.693Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "kdeldycke-meta-package-manager",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/kdeldycke/meta-package-manager/blob/598d3089ed3f43242eb465c90395ae8de8933a80/pyproject.toml",
+          "snippet": "mpm = \"meta_package_manager.__main__:main\"",
+          "target": "meta_package_manager/__main__.py"
+        },
+        "installation": {
+          "url": "https://github.com/kdeldycke/meta-package-manager/blob/598d3089ed3f43242eb465c90395ae8de8933a80/readme.md",
+          "snippet": "$ uv tool install meta-package-manager"
+        },
+        "usage": {
+          "url": "https://github.com/kdeldycke/meta-package-manager/blob/598d3089ed3f43242eb465c90395ae8de8933a80/readme.md",
+          "snippet": "mpm dump packages.toml"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/kdeldycke/meta-package-manager",
+          "snippet": "🎁 snapshot every package on your machine to one file, restore it on a new one"
+        },
+        "adoption": {
+          "stars": 618,
+          "githubSource": "https://github.com/kdeldycke/meta-package-manager",
+          "homebrew": {
+            "repo": "kdeldycke/meta-package-manager",
+            "formula": "meta-package-manager",
+            "count": 109,
+            "source": "https://formulae.brew.sh/api/formula/meta-package-manager.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "598d3089ed3f43242eb465c90395ae8de8933a80"
+      }
     },
     "mamba-org/mamba": {
-      "status": "held",
-      "checkedAt": "2026-09-16T10:44:19.693Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "mamba-org-mamba",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/micromamba.json",
+          "snippet": "{\"executables\":[\"mamba\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/micromamba",
+          "snippet": "brew install micromamba"
+        },
+        "usage": {
+          "url": "https://github.com/mamba-org/mamba/blob/46a63edd422bf412c044c98962562eb5cca1c40d/README.md",
+          "snippet": "mamba repoquery"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mamba-org/mamba",
+          "snippet": "The Fast Cross-Platform Package Manager"
+        },
+        "adoption": {
+          "stars": 8098,
+          "githubSource": "https://github.com/mamba-org/mamba",
+          "homebrew": {
+            "repo": "mamba-org/mamba",
+            "formula": "micromamba",
+            "count": 332,
+            "source": "https://formulae.brew.sh/api/formula/micromamba.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "46a63edd422bf412c044c98962562eb5cca1c40d"
+      }
     },
     "micronaut-projects/micronaut-starter": {
       "status": "held",
@@ -18109,18 +20104,21 @@
     },
     "micropython/micropython": {
       "status": "held",
-      "checkedAt": "2026-09-16T10:44:19.693Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "midnightcommander/mc": {
       "status": "held",
-      "checkedAt": "2026-09-16T10:44:19.693Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "metacubex/mihomo": {
       "status": "held",
-      "checkedAt": "2026-09-16T10:44:19.693Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "microsoft/mimalloc": {
       "status": "held",
@@ -18133,9 +20131,43 @@
       "reason": "Description does not clearly identify a CLI"
     },
     "tdewolff/minify": {
-      "status": "held",
-      "checkedAt": "2026-09-16T10:44:19.693Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "tdewolff-minify",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://formulae.brew.sh/api/formula/minify.json",
+          "snippet": "{\"executables\":[\"minify\"]}",
+          "target": null
+        },
+        "installation": {
+          "url": "https://formulae.brew.sh/formula/minify",
+          "snippet": "brew install minify"
+        },
+        "usage": {
+          "url": "https://github.com/tdewolff/minify/blob/bc8705359b222873a4e8f9fec94e37103853ab4e/README.md",
+          "snippet": "minify -o script.min.js script.js"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/tdewolff/minify",
+          "snippet": "Go minifiers for web formats"
+        },
+        "adoption": {
+          "stars": 4141,
+          "githubSource": "https://github.com/tdewolff/minify",
+          "homebrew": {
+            "repo": "tdewolff/minify",
+            "formula": "minify",
+            "count": 331,
+            "source": "https://formulae.brew.sh/api/formula/minify.json",
+            "generatedDate": "2026-09-23"
+          }
+        },
+        "commit": "bc8705359b222873a4e8f9fec94e37103853ab4e"
+      }
     },
     "jedisct1/minisign": {
       "status": "held",
@@ -25878,7 +27910,172 @@
       "checkedAt": "2026-09-23T00:43:41.016Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zerosumquant/claude-conversation-extractor": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "zerosumquant-claude-conversation-extractor",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/ZeroSumQuant/claude-conversation-extractor/blob/a12b72e3be2e23d4ed1956fd67a09472b311e783/pyproject.toml",
+          "snippet": "claude-extract = \"extract_claude_logs:launch_interactive\"",
+          "target": "src/extract_claude_logs.py"
+        },
+        "installation": {
+          "url": "https://github.com/ZeroSumQuant/claude-conversation-extractor/blob/a12b72e3be2e23d4ed1956fd67a09472b311e783/README.md",
+          "snippet": "pipx install claude-conversation-extractor"
+        },
+        "usage": {
+          "url": "https://github.com/ZeroSumQuant/claude-conversation-extractor/blob/a12b72e3be2e23d4ed1956fd67a09472b311e783/README.md",
+          "snippet": "claude-extract --list"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/ZeroSumQuant/claude-conversation-extractor",
+          "snippet": "Extract clean conversation logs from Claude Code's internal storage"
+        },
+        "adoption": {
+          "stars": 676,
+          "githubSource": "https://github.com/ZeroSumQuant/claude-conversation-extractor",
+          "homebrew": null
+        },
+        "commit": "a12b72e3be2e23d4ed1956fd67a09472b311e783"
+      }
+    },
+    "cevoaustralia/aws-google-auth": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mix-go/mix": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tesserato/codeweaver": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "life4/enc": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hhatto/gocloc": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "alt-romes/programmer-calculator": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "clemlesne/scrape-it-now": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "clemlesne-scrape-it-now",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/clemlesne/scrape-it-now/blob/4ffc517f1297fc57b043b138c28c86b2ab415f09/pyproject.toml",
+          "snippet": "scrape-it-now = \"scrape_it_now.cli:main\"",
+          "target": "src/scrape_it_now/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/clemlesne/scrape-it-now/blob/4ffc517f1297fc57b043b138c28c86b2ab415f09/README.md",
+          "snippet": "python3 -m pip install scrape-it-now"
+        },
+        "usage": {
+          "url": "https://github.com/clemlesne/scrape-it-now/blob/4ffc517f1297fc57b043b138c28c86b2ab415f09/README.md",
+          "snippet": "scrape-it-now scrape run https://nytimes.com"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/clemlesne/scrape-it-now",
+          "snippet": "Web scraper made for AI and simplicity in mind. It runs as a CLI that can be parallelized and outputs high-quality markdown content."
+        },
+        "adoption": {
+          "stars": 544,
+          "githubSource": "https://github.com/clemlesne/scrape-it-now",
+          "homebrew": null
+        },
+        "commit": "4ffc517f1297fc57b043b138c28c86b2ab415f09"
+      }
+    },
+    "pop-code/nestjs-console": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "eddieantonio/imgcat": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "grigorij-dudnik/clean-coder-ai": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mololab/json-translator": {
+      "status": "accepted",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "mololab-json-translator",
+      "acceptedAt": "2026-09-23T01:43:33.915Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/mololab/json-translator/blob/749e602a1e19dfc194750a543d3db40ca8820a33/package.json",
+          "snippet": "{\"bin\":{\"jsontt\":\"bin/jsontt\"}}",
+          "target": "bin/jsontt"
+        },
+        "installation": {
+          "url": "https://github.com/mololab/json-translator/blob/749e602a1e19dfc194750a543d3db40ca8820a33/README.md",
+          "snippet": "npm i @parvineyvazov/json-translator"
+        },
+        "usage": {
+          "url": "https://github.com/mololab/json-translator/blob/749e602a1e19dfc194750a543d3db40ca8820a33/README.md",
+          "snippet": "jsontt file.json"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/mololab/json-translator",
+          "snippet": "jsontt 💡 - AI JSON Translator with GPT / Gemma / Mixtral / llama + other FREE translation modules to translate your json/yaml files into other languages ✅ Check Readme ✌ Supports GPT / Gemma / Mixtral / llama /  DeepL / Google / Bing / Libre / Argos"
+        },
+        "adoption": {
+          "stars": 613,
+          "githubSource": "https://github.com/mololab/json-translator",
+          "homebrew": null
+        },
+        "commit": "749e602a1e19dfc194750a543d3db40ca8820a33"
+      }
+    },
+    "guyzmo/git-repo": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rogerwelin/cassowary": {
+      "status": "held",
+      "checkedAt": "2026-09-23T01:43:33.915Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-23T00:43:41.016Z"
+  "lastRunAt": "2026-09-23T01:43:33.915Z"
 }
