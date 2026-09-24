@@ -7858,5 +7858,35 @@
     "repositoryId": 46737100,
     "attemptedAt": "2026-09-24T00:44:14.020Z",
     "status": "ok"
+  },
+  "mkaz-termgraph": {
+    "defaultBranch": "main",
+    "createdAt": "2012-09-21T18:31:27Z",
+    "pushedAt": "2026-03-25T05:21:11Z",
+    "lastCommitAt": "2026-03-25T05:19:12Z",
+    "stars": 3296,
+    "license": "MIT",
+    "language": "Python",
+    "checkedAt": "2026-09-24T02:44:03.970Z",
+    "source": "https://github.com/mkaz/termgraph",
+    "canonicalSource": "https://github.com/mkaz/termgraph",
+    "repositoryId": 5905633,
+    "attemptedAt": "2026-09-24T02:44:03.387Z",
+    "status": "ok"
+  },
+  "krzysztof-o-spritesheet-js": {
+    "defaultBranch": "master",
+    "createdAt": "2013-09-18T20:01:13Z",
+    "pushedAt": "2026-03-04T01:13:39Z",
+    "lastCommitAt": "2023-09-11T08:42:09Z",
+    "stars": 566,
+    "license": null,
+    "language": "JavaScript",
+    "checkedAt": "2026-09-24T02:44:04.562Z",
+    "source": "https://github.com/krzysztof-o/spritesheet.js",
+    "canonicalSource": "https://github.com/krzysztof-o/spritesheet.js",
+    "repositoryId": 12933201,
+    "attemptedAt": "2026-09-24T02:44:04.194Z",
+    "status": "ok"
   }
 }

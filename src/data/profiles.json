@@ -6043,5 +6043,31 @@
     "createdAt": "2014-07-04T07:48:24Z",
     "checkedAt": "2026-09-24T00:44:16.048Z",
     "source": "https://github.com/OrkoHunter"
+  },
+  "mkaz": {
+    "login": "mkaz",
+    "name": "Marcus Kazmierczak",
+    "type": "User",
+    "bio": "R&D, @hatch-baby",
+    "location": "San Francisco, CA",
+    "website": "https://mkaz.blog",
+    "followers": 433,
+    "publicRepos": 45,
+    "createdAt": "2009-01-09T16:11:51Z",
+    "checkedAt": "2026-09-24T02:44:06.003Z",
+    "source": "https://github.com/mkaz"
+  },
+  "krzysztof-o": {
+    "login": "krzysztof-o",
+    "name": "Kris",
+    "type": "User",
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 19,
+    "publicRepos": 22,
+    "createdAt": "2010-08-30T21:01:42Z",
+    "checkedAt": "2026-09-24T02:44:06.363Z",
+    "source": "https://github.com/krzysztof-o"
   }
 }

@@ -10489,6 +10489,44 @@ window.USECLIS_DATA = {
       "stars": 630,
       "license": "MIT",
       "checkedAt": "2026-09-24T00:44:14.430Z"
+    },
+    {
+      "slug": "mkaz-termgraph",
+      "name": "termgraph",
+      "repo": "mkaz/termgraph",
+      "category": "Terminal utilities",
+      "command": "termgraph",
+      "useCase": "A Python command-line and library that draws basic graphs in the terminal",
+      "description": "A Python command-line and library that draws basic graphs in the terminal",
+      "agentUse": "Invoke termgraph from a shell for the documented use case: A Python command-line and library that draws basic graphs in the terminal",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "termgraph data/ex1.dat",
+      "website": "https://github.com/mkaz/termgraph",
+      "docs": "https://github.com/mkaz/termgraph/blob/8ed81e21ce07db18393c7af9f77238f642546d3a/README.md",
+      "stars": 3296,
+      "license": "MIT",
+      "checkedAt": "2026-09-24T02:44:03.970Z"
+    },
+    {
+      "slug": "krzysztof-o-spritesheet-js",
+      "name": "spritesheet.js",
+      "repo": "krzysztof-o/spritesheet.js",
+      "category": "Terminal utilities",
+      "command": "spritesheet-js",
+      "useCase": "Command-line spritesheet generator supporting Starling / Sparrow, PIXI.js, Easel.js and cocos2d",
+      "description": "Command-line spritesheet generator supporting Starling / Sparrow, PIXI.js, Easel.js and cocos2d",
+      "agentUse": "Invoke spritesheet-js from a shell for the documented use case: Command-line spritesheet generator supporting Starling / Sparrow, PIXI.js, Easel.js and cocos2d",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "spritesheet-js assets/*.png",
+      "website": "https://github.com/krzysztof-o/spritesheet.js",
+      "docs": "https://github.com/krzysztof-o/spritesheet.js/blob/fa8411dcab0744286fbbd40a3b0fe013c7d54cb5/README.md",
+      "stars": 566,
+      "license": null,
+      "checkedAt": "2026-09-24T02:44:04.562Z"
     }
   ],
   "categories": [
