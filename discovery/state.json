@@ -4,177 +4,6 @@
   "brewOffset": 920,
   "pending": [
     {
-      "repo": "Softcatala/whisper-ctranslate2"
-    },
-    {
-      "repo": "ahmadawais/corona-cli"
-    },
-    {
-      "repo": "AppraiseQA/appraise"
-    },
-    {
-      "repo": "minicli/minicli"
-    },
-    {
-      "repo": "sindresorhus/emoj"
-    },
-    {
-      "repo": "fraserxu/electron-pdf"
-    },
-    {
-      "repo": "localstack/awscli-local"
-    },
-    {
-      "repo": "sunnyyoung/WeChatTweak"
-    },
-    {
-      "repo": "mansuf/mangadex-downloader"
-    },
-    {
-      "repo": "rcoh/angle-grinder"
-    },
-    {
-      "repo": "makew0rld/didder"
-    },
-    {
-      "repo": "akemin-dayo/simject"
-    },
-    {
-      "repo": "Prayag2/konsave"
-    },
-    {
-      "repo": "0k/shyaml"
-    },
-    {
-      "repo": "ajaxray/geek-life"
-    },
-    {
-      "repo": "tellerops/teller"
-    },
-    {
-      "repo": "Chen-zexi/vllm-cli"
-    },
-    {
-      "repo": "Keyang/node-csvtojson"
-    },
-    {
-      "repo": "NotJoeMartinez/yt-fts"
-    },
-    {
-      "repo": "fastn-stack/kulfi"
-    },
-    {
-      "repo": "ajalt/clikt"
-    },
-    {
-      "repo": "remorses/tuitube"
-    },
-    {
-      "repo": "jehiah/json2csv"
-    },
-    {
-      "repo": "FontCustom/fontcustom"
-    },
-    {
-      "repo": "bhouston/mycoder"
-    },
-    {
-      "repo": "dulikaifazr/Cougar-CLI"
-    },
-    {
-      "repo": "kcrawford/dockutil"
-    },
-    {
-      "repo": "natemcmaster/dotnet-serve"
-    },
-    {
-      "repo": "learnbyexample/cli-computing"
-    },
-    {
-      "repo": "daniele77/cli"
-    },
-    {
-      "repo": "ReimuNotMoe/ydotool"
-    },
-    {
-      "repo": "f/mcptools"
-    },
-    {
-      "repo": "sirwart/ripsecrets"
-    },
-    {
-      "repo": "google/bundletool"
-    },
-    {
-      "repo": "bartobri/no-more-secrets"
-    },
-    {
-      "repo": "regolith-labs/ore-cli-legacy"
-    },
-    {
-      "repo": "terryso/nof1-tracker"
-    },
-    {
-      "repo": "philippta/flyscrape"
-    },
-    {
-      "repo": "infinitered/gluegun"
-    },
-    {
-      "repo": "timvisee/ffsend"
-    },
-    {
-      "repo": "Shopify/themekit"
-    },
-    {
-      "repo": "go-jira/jira"
-    },
-    {
-      "repo": "Ch00k/ffmpy"
-    },
-    {
-      "repo": "MrRio/shellwrap"
-    },
-    {
-      "repo": "zackelia/bclm"
-    },
-    {
-      "repo": "fieu/discord.sh"
-    },
-    {
-      "repo": "klaudiosinani/taskbook"
-    },
-    {
-      "repo": "klaudiosinani/qoa"
-    },
-    {
-      "repo": "fent/node-ytdl"
-    },
-    {
-      "repo": "sindresorhus/capture-website-cli"
-    },
-    {
-      "repo": "DocNow/twarc"
-    },
-    {
-      "repo": "cr-marcstevens/sha1collisiondetection"
-    },
-    {
-      "repo": "leahneukirchen/nq"
-    },
-    {
-      "repo": "ayoisaiah/focus"
-    },
-    {
-      "repo": "insanum/gcalcli"
-    },
-    {
-      "repo": "s3tools/s3cmd"
-    },
-    {
-      "repo": "lowleveldesign/wtrace"
-    },
-    {
       "repo": "sudofox/shell-mommy"
     },
     {
@@ -5417,12 +5246,14 @@
     },
     "makew0rld/didder": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "0k/shyaml": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "ajaxray/geek-life": {
@@ -5467,8 +5298,9 @@
     },
     "learnbyexample/cli-computing": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "chubin/cheat.sh": {
       "status": "held",
@@ -5521,7 +5353,8 @@
     },
     "ayoisaiah/focus": {
       "status": "held",
-      "checkedAt": "2026-09-14T02:44:19.106Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "leejarvis/slop": {
@@ -8430,8 +8263,9 @@
     },
     "google/bundletool": {
       "status": "held",
-      "checkedAt": "2026-09-14T12:44:22.966Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "dustinkirkland/byobu": {
       "status": "held",
@@ -9156,23 +8990,27 @@
     },
     "softcatala/whisper-ctranslate2": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ahmadawais/corona-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
-      "reason": "Description does not clearly identify a CLI"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
     },
     "appraiseqa/appraise": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "sindresorhus/emoj": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "fraserxu/electron-pdf": {
       "status": "accepted",
@@ -9214,8 +9052,9 @@
     },
     "sunnyyoung/wechattweak": {
       "status": "held",
-      "checkedAt": "2026-09-14T14:44:26.478Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mansuf/mangadex-downloader": {
       "status": "held",
@@ -9225,22 +9064,26 @@
     },
     "rcoh/angle-grinder": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "akemin-dayo/simject": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "prayag2/konsave": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "tellerops/teller": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "chen-zexi/vllm-cli": {
@@ -9277,7 +9120,8 @@
     },
     "keyang/node-csvtojson": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "notjoemartinez/yt-fts": {
@@ -9315,8 +9159,9 @@
     },
     "fastn-stack/kulfi": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "firecracker-microvm/firectl": {
       "status": "held",
@@ -9326,18 +9171,21 @@
     },
     "remorses/tuitube": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jehiah/json2csv": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "fontcustom/fontcustom": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bhouston/mycoder": {
       "status": "accepted",
@@ -9379,13 +9227,15 @@
     },
     "kcrawford/dockutil": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "natemcmaster/dotnet-serve": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "pwittchen/spotify-cli-linux": {
       "status": "held",
@@ -9401,37 +9251,71 @@
     },
     "reimunotmoe/ydotool": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "f/mcptools": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "sirwart/ripsecrets": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "bartobri/no-more-secrets": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "regolith-labs/ore-cli-legacy": {
-      "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "regolith-labs-ore-cli-legacy",
+      "acceptedAt": "2026-09-24T03:43:33.724Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/regolith-labs/ore-cli-legacy/blob/63a9c0eb86682949a6f2f3a0155ae9fa6f19acd7/Cargo.toml",
+          "snippet": "[[bin]] name=\"ore\" path=\"src/main.rs\"",
+          "target": "src/main.rs"
+        },
+        "installation": {
+          "url": "https://github.com/regolith-labs/ore-cli-legacy/blob/63a9c0eb86682949a6f2f3a0155ae9fa6f19acd7/README.md",
+          "snippet": "cargo install ore-cli"
+        },
+        "usage": {
+          "url": "https://github.com/regolith-labs/ore-cli-legacy/blob/63a9c0eb86682949a6f2f3a0155ae9fa6f19acd7/README.md",
+          "snippet": "ore mine"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/regolith-labs/ore-cli-legacy",
+          "snippet": "Command line interface for ORE cryptocurrency mining."
+        },
+        "adoption": {
+          "stars": 1493,
+          "githubSource": "https://github.com/regolith-labs/ore-cli-legacy",
+          "homebrew": null
+        },
+        "commit": "63a9c0eb86682949a6f2f3a0155ae9fa6f19acd7"
+      }
     },
     "terryso/nof1-tracker": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "philippta/flyscrape": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "infinitered/gluegun": {
@@ -9507,33 +9391,39 @@
     },
     "shopify/themekit": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "go-jira/jira": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "ch00k/ffmpy": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "mrrio/shellwrap": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "zackelia/bclm": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "fieu/discord.sh": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "klaudiosinani/taskbook": {
       "status": "accepted",
@@ -9570,28 +9460,60 @@
     },
     "fent/node-ytdl": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sindresorhus/capture-website-cli": {
-      "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "sindresorhus-capture-website-cli",
+      "acceptedAt": "2026-09-24T03:43:33.724Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/sindresorhus/capture-website-cli/blob/032a6214826c77c099482f8a805326644501113d/package.json",
+          "snippet": "{\"bin\":{\"capture-website\":\"./cli.js\"}}",
+          "target": "cli.js"
+        },
+        "installation": {
+          "url": "https://github.com/sindresorhus/capture-website-cli/blob/032a6214826c77c099482f8a805326644501113d/readme.md",
+          "snippet": "npm install --global capture-website-cli"
+        },
+        "usage": {
+          "url": "https://github.com/sindresorhus/capture-website-cli/blob/032a6214826c77c099482f8a805326644501113d/readme.md",
+          "snippet": "capture-website https://sindresorhus.com --output=screenshot.png"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/sindresorhus/capture-website-cli",
+          "snippet": "Capture screenshots of websites from the command-line"
+        },
+        "adoption": {
+          "stars": 853,
+          "githubSource": "https://github.com/sindresorhus/capture-website-cli",
+          "homebrew": null
+        },
+        "commit": "032a6214826c77c099482f8a805326644501113d"
+      }
     },
     "docnow/twarc": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "cr-marcstevens/sha1collisiondetection": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "leahneukirchen/nq": {
       "status": "held",
-      "checkedAt": "2026-09-14T15:44:25.426Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "s3tools/s3cmd": {
       "status": "held",
@@ -9601,8 +9523,9 @@
     },
     "lowleveldesign/wtrace": {
       "status": "held",
-      "checkedAt": "2026-09-14T16:44:23.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T03:43:33.724Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "sudofox/shell-mommy": {
       "status": "held",
@@ -29210,5 +29133,5 @@
       "reason": "No CLI evidence in description, topics, or Homebrew"
     }
   },
-  "lastRunAt": "2026-09-24T02:43:34.699Z"
+  "lastRunAt": "2026-09-24T03:43:33.724Z"
 }

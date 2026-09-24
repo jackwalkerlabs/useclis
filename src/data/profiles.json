@@ -6069,5 +6069,18 @@
     "createdAt": "2010-08-30T21:01:42Z",
     "checkedAt": "2026-09-24T02:44:06.363Z",
     "source": "https://github.com/krzysztof-o"
+  },
+  "regolith-labs": {
+    "login": "regolith-labs",
+    "name": "Regolith Labs",
+    "type": "Organization",
+    "bio": null,
+    "location": null,
+    "website": "https://ore.com",
+    "followers": 210,
+    "publicRepos": 42,
+    "createdAt": "2024-02-06T18:42:58Z",
+    "checkedAt": "2026-09-24T03:44:10.771Z",
+    "source": "https://github.com/regolith-labs"
   }
 }

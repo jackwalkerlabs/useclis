@@ -10527,6 +10527,44 @@ window.USECLIS_DATA = {
       "stars": 566,
       "license": null,
       "checkedAt": "2026-09-24T02:44:04.562Z"
+    },
+    {
+      "slug": "regolith-labs-ore-cli-legacy",
+      "name": "ore-cli-legacy",
+      "repo": "regolith-labs/ore-cli-legacy",
+      "category": "Terminal utilities",
+      "command": "ore",
+      "useCase": "Command line interface for ORE cryptocurrency mining.",
+      "description": "Command line interface for ORE cryptocurrency mining.",
+      "agentUse": "Invoke ore from a shell for the documented use case: Command line interface for ORE cryptocurrency mining.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "ore mine",
+      "website": "https://github.com/regolith-labs/ore-cli-legacy",
+      "docs": "https://github.com/regolith-labs/ore-cli-legacy/blob/63a9c0eb86682949a6f2f3a0155ae9fa6f19acd7/README.md",
+      "stars": 1493,
+      "license": null,
+      "checkedAt": "2026-09-24T03:44:09.002Z"
+    },
+    {
+      "slug": "sindresorhus-capture-website-cli",
+      "name": "capture-website-cli",
+      "repo": "sindresorhus/capture-website-cli",
+      "category": "Terminal utilities",
+      "command": "capture-website",
+      "useCase": "Capture screenshots of websites from the command-line",
+      "description": "Capture screenshots of websites from the command-line",
+      "agentUse": "Invoke capture-website from a shell for the documented use case: Capture screenshots of websites from the command-line",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "capture-website https://sindresorhus.com --output=screenshot.png",
+      "website": "https://github.com/sindresorhus/capture-website-cli",
+      "docs": "https://github.com/sindresorhus/capture-website-cli/blob/032a6214826c77c099482f8a805326644501113d/readme.md",
+      "stars": 853,
+      "license": "MIT",
+      "checkedAt": "2026-09-24T03:44:09.528Z"
     }
   ],
   "categories": [
