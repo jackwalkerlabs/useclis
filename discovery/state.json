@@ -4,162 +4,6 @@
   "brewOffset": 920,
   "pending": [
     {
-      "repo": "ctreffs/xcode-defaults"
-    },
-    {
-      "repo": "bgreenwell/lstr"
-    },
-    {
-      "repo": "Avaiga/taipy"
-    },
-    {
-      "repo": "daisuke0131/ViewMonitor"
-    },
-    {
-      "repo": "vibeeval/vibecosystem"
-    },
-    {
-      "repo": "golutra/golutra"
-    },
-    {
-      "repo": "julep-ai/julep"
-    },
-    {
-      "repo": "Tenderly/tenderly-cli"
-    },
-    {
-      "repo": "abinthomasonline/repo2txt"
-    },
-    {
-      "repo": "Clivern/Peanut"
-    },
-    {
-      "repo": "brettcannon/python-launcher"
-    },
-    {
-      "repo": "vostride/agent-qa"
-    },
-    {
-      "repo": "robertpsoane/ducker"
-    },
-    {
-      "repo": "sunscrapers/djoser"
-    },
-    {
-      "repo": "brocode/fw"
-    },
-    {
-      "repo": "trasta298/keifu"
-    },
-    {
-      "repo": "neurogen-dev/NeuroAPI"
-    },
-    {
-      "repo": "code-forge-io/react-router-devtools"
-    },
-    {
-      "repo": "Hainrixz/the-architect"
-    },
-    {
-      "repo": "Houseofmvps/codesight"
-    },
-    {
-      "repo": "paperboytm/spool"
-    },
-    {
-      "repo": "zhu1090093659/spec_driven_develop"
-    },
-    {
-      "repo": "mhattingpete/claude-skills-marketplace"
-    },
-    {
-      "repo": "dnote/dnote"
-    },
-    {
-      "repo": "tensorchord/envd"
-    },
-    {
-      "repo": "AlmanacCode/codealmanac"
-    },
-    {
-      "repo": "jcalabro/uscope"
-    },
-    {
-      "repo": "writer/writer-framework"
-    },
-    {
-      "repo": "rshankras/claude-code-apple-skills"
-    },
-    {
-      "repo": "daytonaio/daytona"
-    },
-    {
-      "repo": "cporter202/API-mega-list"
-    },
-    {
-      "repo": "aldefy/compose-skill"
-    },
-    {
-      "repo": "LING71671/Open-ClaudeCode"
-    },
-    {
-      "repo": "Nya-Foundation/NyaProxy"
-    },
-    {
-      "repo": "Code-with-Beto/snapai"
-    },
-    {
-      "repo": "royalbhati/sqltoerdiagram"
-    },
-    {
-      "repo": "marcoaapfortes/Mantic.sh"
-    },
-    {
-      "repo": "nat-n/poethepoet"
-    },
-    {
-      "repo": "patoles/agent-flow"
-    },
-    {
-      "repo": "linxidnju/OpenTag"
-    },
-    {
-      "repo": "regent-vcs/re_gent"
-    },
-    {
-      "repo": "TabbyML/tabby"
-    },
-    {
-      "repo": "Arindam200/cc-lens"
-    },
-    {
-      "repo": "SanderMertens/bake"
-    },
-    {
-      "repo": "campfirein/byterover-cli"
-    },
-    {
-      "repo": "heyman/heynote"
-    },
-    {
-      "repo": "Ataraxy-Labs/opensessions"
-    },
-    {
-      "repo": "cortesi/modd"
-    },
-    {
-      "repo": "withkynam/vibecode-pro-max-kit"
-    },
-    {
-      "repo": "jmuncor/tokentap"
-    },
-    {
-      "repo": "Pythagora-io/gpt-pilot"
-    },
-    {
-      "repo": "insidegui/WWDC"
-    },
-    {
       "repo": "Pythagora-io/pythagora"
     },
     {
@@ -29129,7 +28973,247 @@
       "checkedAt": "2026-09-24T00:43:34.475Z",
       "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ctreffs/xcode-defaults": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "avaiga/taipy": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "daisuke0131/viewmonitor": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "vibeeval/vibecosystem": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "golutra/golutra": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "julep-ai/julep": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "abinthomasonline/repo2txt": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "clivern/peanut": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "vostride/agent-qa": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "robertpsoane/ducker": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "sunscrapers/djoser": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "neurogen-dev/neuroapi": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "code-forge-io/react-router-devtools": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "hainrixz/the-architect": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "paperboytm/spool": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "zhu1090093659/spec_driven_develop": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "mhattingpete/claude-skills-marketplace": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "tensorchord/envd": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "jcalabro/uscope": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
+    },
+    "writer/writer-framework": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "rshankras/claude-code-apple-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "daytonaio/daytona": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "cporter202/api-mega-list": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "aldefy/compose-skill": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ling71671/open-claudecode": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "nya-foundation/nyaproxy": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "royalbhati/sqltoerdiagram": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "marcoaapfortes/mantic.sh": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "nat-n/poethepoet": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "patoles/agent-flow": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "linxidnju/opentag": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "regent-vcs/re_gent": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "tabbyml/tabby": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "sandermertens/bake": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "heyman/heynote": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "ataraxy-labs/opensessions": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "cortesi/modd": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "withkynam/vibecode-pro-max-kit": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "pythagora-io/gpt-pilot": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "insidegui/wwdc": {
+      "status": "held",
+      "checkedAt": "2026-09-24T01:43:33.575Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
     }
   },
-  "lastRunAt": "2026-09-24T00:43:34.475Z"
+  "lastRunAt": "2026-09-24T01:43:33.575Z"
 }
