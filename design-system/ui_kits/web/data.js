@@ -10584,6 +10584,27 @@ window.USECLIS_DATA = {
       "stars": 607,
       "license": "BSD-3-Clause",
       "checkedAt": "2026-09-24T11:48:49.491Z"
+    },
+    {
+      "slug": "agent-qa",
+      "name": "Agent QA",
+      "repo": "vostride/agent-qa",
+      "category": "Testing & quality",
+      "command": "agent-qa",
+      "useCase": "Web and mobile QA",
+      "description": "Run natural-language web and mobile tests from the CLI with memory and self-healing.",
+      "agentUse": "Run a documented QA suite from a coding agent's shell to check application behavior after changes.",
+      "features": [
+        "Natural-language tests",
+        "Web and mobile automation",
+        "Run memory and self-healing"
+      ],
+      "example": "npx agent-qa run tests/hacker-news-top-story.yaml",
+      "website": "https://github.com/vostride/agent-qa",
+      "docs": "https://vostride.com/docs/agent-qa/cli",
+      "stars": 887,
+      "license": null,
+      "checkedAt": "2026-09-24T16:07:46.079Z"
     }
   ],
   "categories": [
