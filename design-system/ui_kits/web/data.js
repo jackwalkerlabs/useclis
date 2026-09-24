@@ -10565,6 +10565,25 @@ window.USECLIS_DATA = {
       "stars": 853,
       "license": "MIT",
       "checkedAt": "2026-09-24T03:44:09.528Z"
+    },
+    {
+      "slug": "sontek-snowmachine",
+      "name": "snowmachine",
+      "repo": "sontek/snowmachine",
+      "category": "Terminal utilities",
+      "command": "snowmachine",
+      "useCase": "A python script that allows your terminal to snow.",
+      "description": "A python script that allows your terminal to snow.",
+      "agentUse": "Invoke snowmachine from a shell for the documented use case: A python script that allows your terminal to snow.",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "snowmachine snow",
+      "website": "https://github.com/sontek/snowmachine",
+      "docs": "https://github.com/sontek/snowmachine/blob/148abd32190b0a0a43700045e07eb915bdccbd8f/README.md",
+      "stars": 607,
+      "license": "BSD-3-Clause",
+      "checkedAt": "2026-09-24T04:44:21.145Z"
     }
   ],
   "categories": [

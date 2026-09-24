@@ -4,141 +4,6 @@
   "brewOffset": 920,
   "pending": [
     {
-      "repo": "sudofox/shell-mommy"
-    },
-    {
-      "repo": "umutphp/awesome-cli"
-    },
-    {
-      "repo": "jacobsalmela/tccutil"
-    },
-    {
-      "repo": "ck-zhang/reddix"
-    },
-    {
-      "repo": "ayushsharma82/WebSerial"
-    },
-    {
-      "repo": "drudru/ansi_up"
-    },
-    {
-      "repo": "Danau5tin/multi-agent-coding-system"
-    },
-    {
-      "repo": "timofurrer/colorful"
-    },
-    {
-      "repo": "theNetworkChuck/ai-in-the-terminal"
-    },
-    {
-      "repo": "jonaslu/ain"
-    },
-    {
-      "repo": "sontek/snowmachine"
-    },
-    {
-      "repo": "jimmy201602/webterminal"
-    },
-    {
-      "repo": "tattoy-org/tattoy"
-    },
-    {
-      "repo": "elisescu/tty-share"
-    },
-    {
-      "repo": "selectel/pyte"
-    },
-    {
-      "repo": "mikaelbr/marked-terminal"
-    },
-    {
-      "repo": "cruzyjapan/Gemini-CLI-UI"
-    },
-    {
-      "repo": "a-n-t-h-o-n-y/TermOx"
-    },
-    {
-      "repo": "erikrose/blessings"
-    },
-    {
-      "repo": "context-labs/uwu"
-    },
-    {
-      "repo": "th3r00t/pyShelf"
-    },
-    {
-      "repo": "TomasTomecek/sen"
-    },
-    {
-      "repo": "raphamorim/gameboy"
-    },
-    {
-      "repo": "andyk/ht"
-    },
-    {
-      "repo": "e6a5/zenta"
-    },
-    {
-      "repo": "eliasdorneles/upiano"
-    },
-    {
-      "repo": "TerminalStudio/xterm.dart"
-    },
-    {
-      "repo": "vaniacer/piu-piu-SH"
-    },
-    {
-      "repo": "susiai/susi_shell"
-    },
-    {
-      "repo": "satnaing/terminal-portfolio"
-    },
-    {
-      "repo": "JaDogg/pydoro"
-    },
-    {
-      "repo": "hundredrabbits/Ronin"
-    },
-    {
-      "repo": "taviso/wpunix"
-    },
-    {
-      "repo": "excalith/excalith-start-page"
-    },
-    {
-      "repo": "sudipghimire533/ytui-music"
-    },
-    {
-      "repo": "samtay/tetris"
-    },
-    {
-      "repo": "fdivitto/FabGL"
-    },
-    {
-      "repo": "alichtman/stronghold"
-    },
-    {
-      "repo": "antonmedv/countdown"
-    },
-    {
-      "repo": "zee-editor/zee"
-    },
-    {
-      "repo": "cmuratori/refterm"
-    },
-    {
-      "repo": "addyosmani/firew0rks"
-    },
-    {
-      "repo": "TBS1996/speki"
-    },
-    {
-      "repo": "shobrook/wut"
-    },
-    {
-      "repo": "s0md3v/huepy"
-    },
-    {
       "repo": "isamert/scli"
     },
     {
@@ -5551,7 +5416,8 @@
     },
     "alichtman/stronghold": {
       "status": "held",
-      "checkedAt": "2026-09-14T03:44:21.644Z",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "efugier/smartcat": {
@@ -9529,17 +9395,20 @@
     },
     "sudofox/shell-mommy": {
       "status": "held",
-      "checkedAt": "2026-09-14T16:44:23.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "umutphp/awesome-cli": {
       "status": "held",
-      "checkedAt": "2026-09-14T16:44:23.350Z",
-      "reason": "Terminal use case needs classification"
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     },
     "jacobsalmela/tccutil": {
       "status": "held",
-      "checkedAt": "2026-09-14T16:44:23.350Z",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "ambionics/phpggc": {
@@ -29131,7 +29000,250 @@
       "checkedAt": "2026-09-24T02:43:34.699Z",
       "rulesVersion": 2,
       "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "ayushsharma82/webserial": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "drudru/ansi_up": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "danau5tin/multi-agent-coding-system": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "timofurrer/colorful": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "thenetworkchuck/ai-in-the-terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jonaslu/ain": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sontek/snowmachine": {
+      "status": "accepted",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "sontek-snowmachine",
+      "acceptedAt": "2026-09-24T04:43:35.737Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/sontek/snowmachine/blob/148abd32190b0a0a43700045e07eb915bdccbd8f/pyproject.toml",
+          "snippet": "snowmachine = \"snowmachine:cli\"",
+          "target": "snowmachine/__init__.py"
+        },
+        "installation": {
+          "url": "https://github.com/sontek/snowmachine/blob/148abd32190b0a0a43700045e07eb915bdccbd8f/README.md",
+          "snippet": "pip install snowmachine"
+        },
+        "usage": {
+          "url": "https://github.com/sontek/snowmachine/blob/148abd32190b0a0a43700045e07eb915bdccbd8f/README.md",
+          "snippet": "snowmachine snow"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/sontek/snowmachine",
+          "snippet": "A python script that allows your terminal to snow."
+        },
+        "adoption": {
+          "stars": 607,
+          "githubSource": "https://github.com/sontek/snowmachine",
+          "homebrew": null
+        },
+        "commit": "148abd32190b0a0a43700045e07eb915bdccbd8f"
+      }
+    },
+    "jimmy201602/webterminal": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tattoy-org/tattoy": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "elisescu/tty-share": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "selectel/pyte": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mikaelbr/marked-terminal": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cruzyjapan/gemini-cli-ui": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "erikrose/blessings": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "context-labs/uwu": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "th3r00t/pyshelf": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "raphamorim/gameboy": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "andyk/ht": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "e6a5/zenta": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "eliasdorneles/upiano": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "terminalstudio/xterm.dart": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "vaniacer/piu-piu-sh": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "Description is missing or unusable"
+    },
+    "susiai/susi_shell": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "satnaing/terminal-portfolio": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jadogg/pydoro": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "hundredrabbits/ronin": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "taviso/wpunix": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "excalith/excalith-start-page": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "fdivitto/fabgl": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "antonmedv/countdown": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "zee-editor/zee": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "cmuratori/refterm": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "addyosmani/firew0rks": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tbs1996/speki": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "shobrook/wut": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "s0md3v/huepy": {
+      "status": "held",
+      "checkedAt": "2026-09-24T04:43:35.737Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
     }
   },
-  "lastRunAt": "2026-09-24T03:43:33.724Z"
+  "lastRunAt": "2026-09-24T04:43:35.737Z"
 }

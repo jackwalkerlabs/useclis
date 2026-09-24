@@ -6082,5 +6082,18 @@
     "createdAt": "2024-02-06T18:42:58Z",
     "checkedAt": "2026-09-24T03:44:10.771Z",
     "source": "https://github.com/regolith-labs"
+  },
+  "sontek": {
+    "login": "sontek",
+    "name": "John Anderson",
+    "type": "User",
+    "bio": null,
+    "location": "Gurabo, PR",
+    "website": "http://sontek.net",
+    "followers": 384,
+    "publicRepos": 125,
+    "createdAt": "2009-11-11T19:13:37Z",
+    "checkedAt": "2026-09-24T04:44:22.786Z",
+    "source": "https://github.com/sontek"
   }
 }
