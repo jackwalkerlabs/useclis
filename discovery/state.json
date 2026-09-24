@@ -4,369 +4,6 @@
   "brewOffset": 920,
   "pending": [
     {
-      "repo": "npcole/npyscreen"
-    },
-    {
-      "repo": "peterbrittain/asciimatics"
-    },
-    {
-      "repo": "bergside/typeui"
-    },
-    {
-      "repo": "makew0rld/amfora"
-    },
-    {
-      "repo": "karimknaebel/turm"
-    },
-    {
-      "repo": "coder/ghostty-web"
-    },
-    {
-      "repo": "TheR1D/shell_gpt"
-    },
-    {
-      "repo": "gnunn1/tilix"
-    },
-    {
-      "repo": "sayanarijit/qrcode.show"
-    },
-    {
-      "repo": "GiorgosXou/TUIFIManager"
-    },
-    {
-      "repo": "skywind3000/vim-quickui"
-    },
-    {
-      "repo": "blinksh/blink"
-    },
-    {
-      "repo": "achannarasappa/ticker"
-    },
-    {
-      "repo": "mjswensen/themer"
-    },
-    {
-      "repo": "taviso/123elf"
-    },
-    {
-      "repo": "jaspervdj/patat"
-    },
-    {
-      "repo": "iagooar/qqqa"
-    },
-    {
-      "repo": "Textualize/rich"
-    },
-    {
-      "repo": "red-data-tools/YouPlot"
-    },
-    {
-      "repo": "guptarohit/asciigraph"
-    },
-    {
-      "repo": "my-claude-utils/clsh"
-    },
-    {
-      "repo": "samsesh/SocialBox-Termux"
-    },
-    {
-      "repo": "willothy/flatten.nvim"
-    },
-    {
-      "repo": "vinibiavatti1/TuiCss"
-    },
-    {
-      "repo": "dodo-reach/hermes-desktop"
-    },
-    {
-      "repo": "oldratlee/useful-scripts"
-    },
-    {
-      "repo": "RtlZeroMemory/Rezi"
-    },
-    {
-      "repo": "craigsc/cmux"
-    },
-    {
-      "repo": "jrnxf/thokr"
-    },
-    {
-      "repo": "vyfor/rattles"
-    },
-    {
-      "repo": "jmacdonald/amp"
-    },
-    {
-      "repo": "julien040/gut"
-    },
-    {
-      "repo": "sedwards2009/extraterm"
-    },
-    {
-      "repo": "fuelen/owl"
-    },
-    {
-      "repo": "Swordfish90/cool-retro-term"
-    },
-    {
-      "repo": "yassinebridi/serpl"
-    },
-    {
-      "repo": "Siriusmart/youtube-tui"
-    },
-    {
-      "repo": "seebi/dircolors-solarized"
-    },
-    {
-      "repo": "daniel3303/ClaudeCodeStatusLine"
-    },
-    {
-      "repo": "pimutils/todoman"
-    },
-    {
-      "repo": "rsalmei/alive-progress"
-    },
-    {
-      "repo": "tony/tmux-config"
-    },
-    {
-      "repo": "lxgr-linux/pokete"
-    },
-    {
-      "repo": "mfontanini/presenterm"
-    },
-    {
-      "repo": "dankamongmen/notcurses"
-    },
-    {
-      "repo": "hardikvasa/google-images-download"
-    },
-    {
-      "repo": "agauniyal/rang"
-    },
-    {
-      "repo": "kaplanelad/shellfirm"
-    },
-    {
-      "repo": "reobin/typewritten"
-    },
-    {
-      "repo": "ccgauche/ytermusic"
-    },
-    {
-      "repo": "naggie/dstask"
-    },
-    {
-      "repo": "ms-jpq/sad"
-    },
-    {
-      "repo": "b3nj5m1n/xdg-ninja"
-    },
-    {
-      "repo": "Slackadays/Clipboard"
-    },
-    {
-      "repo": "adsr/mle"
-    },
-    {
-      "repo": "paul-nameless/tg"
-    },
-    {
-      "repo": "randy3k/radian"
-    },
-    {
-      "repo": "sharkdp/pastel"
-    },
-    {
-      "repo": "lusingander/stu"
-    },
-    {
-      "repo": "sharkdp/hyperfine"
-    },
-    {
-      "repo": "sorin-ionescu/prezto"
-    },
-    {
-      "repo": "ashish0kumar/windots"
-    },
-    {
-      "repo": "Neutree/COMTool"
-    },
-    {
-      "repo": "curlpipe/ox"
-    },
-    {
-      "repo": "rhysd/kiro-editor"
-    },
-    {
-      "repo": "greymd/teip"
-    },
-    {
-      "repo": "xgi/castero"
-    },
-    {
-      "repo": "esimov/diagram"
-    },
-    {
-      "repo": "JakWai01/lurk"
-    },
-    {
-      "repo": "p-gen/smenu"
-    },
-    {
-      "repo": "sindresorhus/hyper-snazzy"
-    },
-    {
-      "repo": "fandreuz/TUI-ConsoleLauncher"
-    },
-    {
-      "repo": "max-niederman/ttyper"
-    },
-    {
-      "repo": "posva/catimg"
-    },
-    {
-      "repo": "raitonoberu/sptlrx"
-    },
-    {
-      "repo": "kroitor/asciichart"
-    },
-    {
-      "repo": "aidlearning/AidLearning-FrameWork"
-    },
-    {
-      "repo": "ndd7xv/heh"
-    },
-    {
-      "repo": "aome510/hackernews-TUI"
-    },
-    {
-      "repo": "jwlodek/py_cui"
-    },
-    {
-      "repo": "darrenburns/posting"
-    },
-    {
-      "repo": "cs01/termpair"
-    },
-    {
-      "repo": "OrkoHunter/keep"
-    },
-    {
-      "repo": "clangen/musikcube"
-    },
-    {
-      "repo": "Terminals-Origin/Terminals"
-    },
-    {
-      "repo": "mmulet/term.everything"
-    },
-    {
-      "repo": "TNK-Studio/lazykube"
-    },
-    {
-      "repo": "mgunyho/tere"
-    },
-    {
-      "repo": "Amjad50/plastic"
-    },
-    {
-      "repo": "ahmadawais/terminui"
-    },
-    {
-      "repo": "ynqa/sig"
-    },
-    {
-      "repo": "mikaelmello/inquire"
-    },
-    {
-      "repo": "liamg/tml"
-    },
-    {
-      "repo": "alemidev/scope-tui"
-    },
-    {
-      "repo": "dongshuyan/compass-skills"
-    },
-    {
-      "repo": "MacPaw/cleanmymac-cli"
-    },
-    {
-      "repo": "lmorg/murex"
-    },
-    {
-      "repo": "doccker/cc-use-exp"
-    },
-    {
-      "repo": "graphprotocol/graph-node"
-    },
-    {
-      "repo": "hey-api/hey-api"
-    },
-    {
-      "repo": "garden-io/garden"
-    },
-    {
-      "repo": "clawwork-ai/ClawWork"
-    },
-    {
-      "repo": "dohooo/helmor"
-    },
-    {
-      "repo": "promptise-com/Foundry"
-    },
-    {
-      "repo": "dob323/session-kit"
-    },
-    {
-      "repo": "Rohithgilla12/data-peek"
-    },
-    {
-      "repo": "superglue-ai/superglue"
-    },
-    {
-      "repo": "yandanp/Connexio"
-    },
-    {
-      "repo": "spacedriveapp/spacebot"
-    },
-    {
-      "repo": "guhcostan/mac-cleaner-cli"
-    },
-    {
-      "repo": "ui-layouts/ui-tools"
-    },
-    {
-      "repo": "nadimtuhin/claude-token-optimizer"
-    },
-    {
-      "repo": "umutxyp/Seo-Promt-Master"
-    },
-    {
-      "repo": "Optim-Agent/optim-agent"
-    },
-    {
-      "repo": "tryproduck/produck-skills"
-    },
-    {
-      "repo": "MioMioOS/MioIsland"
-    },
-    {
-      "repo": "mco-org/mco"
-    },
-    {
-      "repo": "memfault/interrupt"
-    },
-    {
-      "repo": "GaoSSR/best-claude-hud"
-    },
-    {
-      "repo": "justjanne/powerline-go"
-    },
-    {
-      "repo": "m0n0x41d/haft"
-    },
-    {
       "repo": "ctreffs/xcode-defaults"
     },
     {
@@ -4576,9 +4213,37 @@
       "reason": "No matching package declaration, installation, and useful command example"
     },
     "hardikvasa/google-images-download": {
-      "status": "held",
-      "checkedAt": "2026-09-12T00:43:29.989Z",
-      "reason": "Description does not clearly identify a CLI"
+      "status": "accepted",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "hardikvasa-google-images-download",
+      "acceptedAt": "2026-09-24T00:43:34.475Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/hardikvasa/google-images-download/blob/9057dad76ce4bcdd20e9c332f4172ecb7c6c0559/pyproject.toml",
+          "snippet": "googleimagesdownload = \"google_images_download.google_images_download:main\"",
+          "target": "google_images_download/google_images_download.py"
+        },
+        "installation": {
+          "url": "https://github.com/hardikvasa/google-images-download/blob/9057dad76ce4bcdd20e9c332f4172ecb7c6c0559/docs/installation.md",
+          "snippet": "pip install google_images_download"
+        },
+        "usage": {
+          "url": "https://github.com/hardikvasa/google-images-download/blob/9057dad76ce4bcdd20e9c332f4172ecb7c6c0559/docs/installation.md",
+          "snippet": "googleimagesdownload --keywords \"test\" --limit 1"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/hardikvasa/google-images-download",
+          "snippet": "Python Script to download hundreds of images from 'Google Images'. It is a ready-to-run code!"
+        },
+        "adoption": {
+          "stars": 8687,
+          "githubSource": "https://github.com/hardikvasa/google-images-download",
+          "homebrew": null
+        },
+        "commit": "9057dad76ce4bcdd20e9c332f4172ecb7c6c0559"
+      }
     },
     "agauniyal/rang": {
       "status": "held",
@@ -5896,9 +5561,37 @@
       }
     },
     "orkohunter/keep": {
-      "status": "held",
-      "checkedAt": "2026-09-14T01:44:19.653Z",
-      "reason": "Terminal use case needs classification"
+      "status": "accepted",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "GitHub stars",
+      "slug": "orkohunter-keep",
+      "acceptedAt": "2026-09-24T00:43:34.475Z",
+      "evidence": {
+        "package": {
+          "url": "https://github.com/OrkoHunter/keep/blob/6d6823bc5222738e3ea3422871b4b885d140a831/pyproject.toml",
+          "snippet": "keep = \"keep.cli:cli\"",
+          "target": "keep/cli.py"
+        },
+        "installation": {
+          "url": "https://github.com/OrkoHunter/keep/blob/6d6823bc5222738e3ea3422871b4b885d140a831/README.md",
+          "snippet": "$ pip3 install keep"
+        },
+        "usage": {
+          "url": "https://github.com/OrkoHunter/keep/blob/6d6823bc5222738e3ea3422871b4b885d140a831/README.md",
+          "snippet": "keep new notes"
+        },
+        "description": {
+          "url": "https://api.github.com/repos/OrkoHunter/keep",
+          "snippet": "A Meta CLI toolkit : Personal shell command keeper and snippets manager"
+        },
+        "adoption": {
+          "stars": 630,
+          "githubSource": "https://github.com/OrkoHunter/keep",
+          "homebrew": null
+        },
+        "commit": "6d6823bc5222738e3ea3422871b4b885d140a831"
+      }
     },
     "vadimdemedes/pastel": {
       "status": "held",
@@ -29208,7 +28901,235 @@
         },
         "commit": "c59a83bf943f329f0e61f1a29c760353ee1860a5"
       }
+    },
+    "coder/ghostty-web": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "gnunn1/tilix": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sayanarijit/qrcode.show": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "blinksh/blink": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "mjswensen/themer": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "taviso/123elf": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jaspervdj/patat": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "samsesh/socialbox-termux": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "dodo-reach/hermes-desktop": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "oldratlee/useful-scripts": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "craigsc/cmux": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "jmacdonald/amp": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sedwards2009/extraterm": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "swordfish90/cool-retro-term": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "seebi/dircolors-solarized": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tony/tmux-config": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "lxgr-linux/pokete": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "reobin/typewritten": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "b3nj5m1n/xdg-ninja": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "ashish0kumar/windots": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "neutree/comtool": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "sindresorhus/hyper-snazzy": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "kroitor/asciichart": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "aidlearning/aidlearning-framework": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "clangen/musikcube": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "tnk-studio/lazykube": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "rohithgilla12/data-peek": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "Possible graphical application or launcher"
+    },
+    "superglue-ai/superglue": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "spacedriveapp/spacebot": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "ui-layouts/ui-tools": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "nadimtuhin/claude-token-optimizer": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "umutxyp/seo-promt-master": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "optim-agent/optim-agent": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "tryproduck/produck-skills": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "miomioos/mioisland": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "memfault/interrupt": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No CLI evidence in description, topics, or Homebrew"
+    },
+    "justjanne/powerline-go": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
+    },
+    "m0n0x41d/haft": {
+      "status": "held",
+      "checkedAt": "2026-09-24T00:43:34.475Z",
+      "rulesVersion": 2,
+      "reason": "No matching package declaration, installation, and useful command example"
     }
   },
-  "lastRunAt": "2026-09-23T23:43:33.935Z"
+  "lastRunAt": "2026-09-24T00:43:34.475Z"
 }

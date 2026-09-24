@@ -10451,6 +10451,44 @@ window.USECLIS_DATA = {
       "stars": 8716,
       "license": "MIT",
       "checkedAt": "2026-09-23T11:37:36.540Z"
+    },
+    {
+      "slug": "hardikvasa-google-images-download",
+      "name": "google-images-download",
+      "repo": "hardikvasa/google-images-download",
+      "category": "Browser automation",
+      "command": "googleimagesdownload",
+      "useCase": "Python Script to download hundreds of images from 'Google Images'. It is a ready-to-run code!",
+      "description": "Python Script to download hundreds of images from 'Google Images'. It is a ready-to-run code!",
+      "agentUse": "Invoke googleimagesdownload from a shell for the documented use case: Python Script to download hundreds of images from 'Google Images'. It is a ready-to-run code!",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "googleimagesdownload --keywords \"test\" --limit 1",
+      "website": "https://github.com/hardikvasa/google-images-download",
+      "docs": "https://github.com/hardikvasa/google-images-download/blob/9057dad76ce4bcdd20e9c332f4172ecb7c6c0559/docs/installation.md",
+      "stars": 8687,
+      "license": "MIT",
+      "checkedAt": "2026-09-24T00:44:13.757Z"
+    },
+    {
+      "slug": "orkohunter-keep",
+      "name": "keep",
+      "repo": "OrkoHunter/keep",
+      "category": "Terminal utilities",
+      "command": "keep",
+      "useCase": "A Meta CLI toolkit : Personal shell command keeper and snippets manager",
+      "description": "A Meta CLI toolkit : Personal shell command keeper and snippets manager",
+      "agentUse": "Invoke keep from a shell for the documented use case: A Meta CLI toolkit : Personal shell command keeper and snippets manager",
+      "features": [
+        "Command-line interface"
+      ],
+      "example": "keep new notes",
+      "website": "https://github.com/OrkoHunter/keep",
+      "docs": "https://github.com/OrkoHunter/keep/blob/6d6823bc5222738e3ea3422871b4b885d140a831/README.md",
+      "stars": 630,
+      "license": "MIT",
+      "checkedAt": "2026-09-24T00:44:14.430Z"
     }
   ],
   "categories": [
