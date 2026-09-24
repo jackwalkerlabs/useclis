@@ -8995,5 +8995,23 @@
     "example": "snowmachine snow",
     "website": "https://github.com/sontek/snowmachine",
     "docs": "https://github.com/sontek/snowmachine/blob/148abd32190b0a0a43700045e07eb915bdccbd8f/README.md"
+  },
+  {
+    "slug": "agent-qa",
+    "name": "Agent QA",
+    "repo": "vostride/agent-qa",
+    "category": "Testing & quality",
+    "command": "agent-qa",
+    "useCase": "Web and mobile QA",
+    "description": "Run natural-language web and mobile tests from the CLI with memory and self-healing.",
+    "agentUse": "Run a documented QA suite from a coding agent's shell to check application behavior after changes.",
+    "features": [
+      "Natural-language tests",
+      "Web and mobile automation",
+      "Run memory and self-healing"
+    ],
+    "example": "npx agent-qa run tests/hacker-news-top-story.yaml",
+    "website": "https://github.com/vostride/agent-qa",
+    "docs": "https://vostride.com/docs/agent-qa/cli"
   }
 ]
