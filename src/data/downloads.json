@@ -6,14 +6,14 @@
       "package": "agent-browser",
       "source": "npm",
       "url": "https://www.npmjs.com/package/agent-browser",
-      "attemptedAt": "2026-09-27T12:05:11.154Z",
+      "attemptedAt": "2026-09-28T13:56:46.419Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:11.666Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:46.680Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 5810631,
-        "90d": 15561338,
-        "365d": 30757605
+        "30d": 5767993,
+        "90d": 15570237,
+        "365d": 30931150
       },
       "total": null
     }
@@ -25,14 +25,14 @@
       "package": "@openai/codex",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@openai/codex",
-      "attemptedAt": "2026-09-27T12:05:11.666Z",
+      "attemptedAt": "2026-09-28T13:56:46.681Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:11.918Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:47.122Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 83646673,
-        "90d": 209337018,
-        "365d": 550217302
+        "30d": 82707380,
+        "90d": 210215897,
+        "365d": 552744305
       },
       "total": null
     }
@@ -44,14 +44,14 @@
       "package": "@google/gemini-cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@google/gemini-cli",
-      "attemptedAt": "2026-09-27T12:05:11.918Z",
+      "attemptedAt": "2026-09-28T13:56:47.122Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:12.180Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:47.368Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 1375313,
-        "90d": 4986477,
-        "365d": 26550576
+        "30d": 1367661,
+        "90d": 4967531,
+        "365d": 26574782
       },
       "total": null
     }
@@ -63,14 +63,14 @@
       "package": "@playwright/cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@playwright/cli",
-      "attemptedAt": "2026-09-27T12:05:12.180Z",
+      "attemptedAt": "2026-09-28T13:56:47.368Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:12.623Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:47.800Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 3482479,
-        "90d": 9779328,
-        "365d": 16905621
+        "30d": 3471508,
+        "90d": 9762939,
+        "365d": 17016084
       },
       "total": null
     }
@@ -82,14 +82,14 @@
       "package": "wrangler",
       "source": "npm",
       "url": "https://www.npmjs.com/package/wrangler",
-      "attemptedAt": "2026-09-27T12:05:12.623Z",
+      "attemptedAt": "2026-09-28T13:56:47.800Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:12.879Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:47.942Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 82059164,
-        "90d": 224615019,
-        "365d": 482327857
+        "30d": 82092123,
+        "90d": 225554618,
+        "365d": 485184713
       },
       "total": null
     }
@@ -101,14 +101,14 @@
       "package": "vercel",
       "source": "npm",
       "url": "https://www.npmjs.com/package/vercel",
-      "attemptedAt": "2026-09-27T12:05:12.879Z",
+      "attemptedAt": "2026-09-28T13:56:47.942Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:13.126Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:48.213Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 14174322,
-        "90d": 42302564,
-        "365d": 111243343
+        "30d": 14158683,
+        "90d": 42388709,
+        "365d": 111747555
       },
       "total": null
     }
@@ -120,14 +120,14 @@
       "package": "supabase",
       "source": "npm",
       "url": "https://www.npmjs.com/package/supabase",
-      "attemptedAt": "2026-09-27T12:05:13.126Z",
+      "attemptedAt": "2026-09-28T13:56:48.213Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:13.282Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:48.337Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 15943473,
-        "90d": 40682009,
-        "365d": 79023555
+        "30d": 15953020,
+        "90d": 41000122,
+        "365d": 79589187
       },
       "total": null
     }
@@ -139,14 +139,14 @@
       "package": "@ast-grep/cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@ast-grep/cli",
-      "attemptedAt": "2026-09-27T12:05:13.282Z",
+      "attemptedAt": "2026-09-28T13:56:48.337Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:13.704Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:48.823Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 4958808,
-        "90d": 12124548,
-        "365d": 26839410
+        "30d": 4907707,
+        "90d": 12125292,
+        "365d": 26959942
       },
       "total": null
     }
@@ -158,14 +158,14 @@
       "package": "pnpm",
       "source": "npm",
       "url": "https://www.npmjs.com/package/pnpm",
-      "attemptedAt": "2026-09-27T12:05:13.704Z",
+      "attemptedAt": "2026-09-28T13:56:48.823Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:14.047Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:48.945Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 674745639,
-        "90d": 1891763883,
-        "365d": 4112064521
+        "30d": 666751457,
+        "90d": 1891696057,
+        "365d": 4129584755
       },
       "total": null
     }
@@ -177,14 +177,14 @@
       "package": "@biomejs/biome",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@biomejs/biome",
-      "attemptedAt": "2026-09-27T12:05:14.047Z",
+      "attemptedAt": "2026-09-28T13:56:48.945Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:14.636Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:49.415Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 55685761,
-        "90d": 153386981,
-        "365d": 374692420
+        "30d": 55293157,
+        "90d": 153534470,
+        "365d": 376365410
       },
       "total": null
     }
@@ -196,14 +196,14 @@
       "package": "repomix",
       "source": "npm",
       "url": "https://www.npmjs.com/package/repomix",
-      "attemptedAt": "2026-09-27T12:05:14.636Z",
+      "attemptedAt": "2026-09-28T13:56:49.415Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:15.067Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:49.632Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 341378,
-        "90d": 1048348,
-        "365d": 2855959
+        "30d": 338242,
+        "90d": 1046491,
+        "365d": 2865457
       },
       "total": null
     }
@@ -215,14 +215,14 @@
       "package": "netlify-cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/netlify-cli",
-      "attemptedAt": "2026-09-27T12:05:15.067Z",
+      "attemptedAt": "2026-09-28T13:56:49.633Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:15.320Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:49.926Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 1455532,
-        "90d": 3972573,
-        "365d": 12610125
+        "30d": 1444572,
+        "90d": 3978453,
+        "365d": 12642049
       },
       "total": null
     }
@@ -234,14 +234,14 @@
       "package": "firebase-tools",
       "source": "npm",
       "url": "https://www.npmjs.com/package/firebase-tools",
-      "attemptedAt": "2026-09-27T12:05:15.320Z",
+      "attemptedAt": "2026-09-28T13:56:49.926Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:15.467Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:50.052Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 10378178,
-        "90d": 31283713,
-        "365d": 80806334
+        "30d": 10226995,
+        "90d": 31242687,
+        "365d": 81066191
       },
       "total": null
     }
@@ -253,14 +253,14 @@
       "package": "@shopify/cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@shopify/cli",
-      "attemptedAt": "2026-09-27T12:05:15.468Z",
+      "attemptedAt": "2026-09-28T13:56:50.052Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:15.887Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:50.377Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 2091767,
-        "90d": 6109512,
-        "365d": 15593391
+        "30d": 2071676,
+        "90d": 6100146,
+        "365d": 15640270
       },
       "total": null
     }
@@ -272,14 +272,14 @@
       "package": "@salesforce/cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@salesforce/cli",
-      "attemptedAt": "2026-09-27T12:05:15.887Z",
+      "attemptedAt": "2026-09-28T13:56:50.377Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:16.311Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:50.858Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 1417282,
-        "90d": 4771414,
-        "365d": 16193556
+        "30d": 1379851,
+        "90d": 4730876,
+        "365d": 16206818
       },
       "total": null
     }
@@ -291,14 +291,14 @@
       "package": "@pnp/cli-microsoft365",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@pnp/cli-microsoft365",
-      "attemptedAt": "2026-09-27T12:05:16.311Z",
+      "attemptedAt": "2026-09-28T13:56:50.858Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:16.756Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:51.171Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 156192,
-        "90d": 367215,
-        "365d": 852171
+        "30d": 154404,
+        "90d": 364856,
+        "365d": 852562
       },
       "total": null
     }
@@ -310,14 +310,14 @@
       "package": "twilio-cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/twilio-cli",
-      "attemptedAt": "2026-09-27T12:05:16.756Z",
+      "attemptedAt": "2026-09-28T13:56:51.171Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:17.000Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:51.670Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 50241,
-        "90d": 167195,
-        "365d": 386592
+        "30d": 48852,
+        "90d": 166960,
+        "365d": 387596
       },
       "total": null
     }
@@ -329,14 +329,14 @@
       "package": "contentful-cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/contentful-cli",
-      "attemptedAt": "2026-09-27T12:05:17.000Z",
+      "attemptedAt": "2026-09-28T13:56:51.670Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:17.230Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:52.087Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 297134,
-        "90d": 1061229,
-        "365d": 3802729
+        "30d": 282465,
+        "90d": 1044049,
+        "365d": 3803340
       },
       "total": null
     }
@@ -348,14 +348,14 @@
       "package": "@bitwarden/cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@bitwarden/cli",
-      "attemptedAt": "2026-09-27T12:05:17.230Z",
+      "attemptedAt": "2026-09-28T13:56:52.087Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:17.858Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:53.300Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 225893,
-        "90d": 624026,
-        "365d": 2119421
+        "30d": 226468,
+        "90d": 625897,
+        "365d": 2126374
       },
       "total": null
     }
@@ -367,14 +367,14 @@
       "package": "lighthouse",
       "source": "npm",
       "url": "https://www.npmjs.com/package/lighthouse",
-      "attemptedAt": "2026-09-27T12:05:17.858Z",
+      "attemptedAt": "2026-09-28T13:56:53.300Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:18.099Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:53.611Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 15872084,
-        "90d": 49122471,
-        "365d": 141122999
+        "30d": 15662605,
+        "90d": 48989045,
+        "365d": 141462154
       },
       "total": null
     }
@@ -386,14 +386,14 @@
       "package": "@axe-core/cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@axe-core/cli",
-      "attemptedAt": "2026-09-27T12:05:18.099Z",
+      "attemptedAt": "2026-09-28T13:56:53.611Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:18.407Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:53.878Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 332289,
-        "90d": 978812,
-        "365d": 2492382
+        "30d": 328145,
+        "90d": 976120,
+        "365d": 2500099
       },
       "total": null
     }
@@ -405,14 +405,14 @@
       "package": "rulesync",
       "source": "npm",
       "url": "https://www.npmjs.com/package/rulesync",
-      "attemptedAt": "2026-09-27T12:05:18.407Z",
+      "attemptedAt": "2026-09-28T13:56:53.878Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:18.648Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:54.325Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 886410,
-        "90d": 2932551,
-        "365d": 7797557
+        "30d": 864093,
+        "90d": 2927972,
+        "365d": 7818470
       },
       "total": null
     }
@@ -424,14 +424,14 @@
       "package": "acpx",
       "source": "npm",
       "url": "https://www.npmjs.com/package/acpx",
-      "attemptedAt": "2026-09-27T12:05:18.648Z",
+      "attemptedAt": "2026-09-28T13:56:54.325Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:19.076Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:54.753Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 5265950,
-        "90d": 12968094,
-        "365d": 27687979
+        "30d": 5232453,
+        "90d": 12987062,
+        "365d": 27807289
       },
       "total": null
     }
@@ -443,14 +443,14 @@
       "package": "heroku",
       "source": "npm",
       "url": "https://www.npmjs.com/package/heroku",
-      "attemptedAt": "2026-09-27T12:05:19.076Z",
+      "attemptedAt": "2026-09-28T13:56:54.753Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:19.329Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:55.012Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 48154,
-        "90d": 142645,
-        "365d": 525799
+        "30d": 47273,
+        "90d": 142070,
+        "365d": 526229
       },
       "total": null
     }
@@ -462,14 +462,14 @@
       "package": "n8n",
       "source": "npm",
       "url": "https://www.npmjs.com/package/n8n",
-      "attemptedAt": "2026-09-27T12:05:19.329Z",
+      "attemptedAt": "2026-09-28T13:56:55.012Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:19.760Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:55.259Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 395438,
-        "90d": 1224783,
-        "365d": 4194777
+        "30d": 399795,
+        "90d": 1228257,
+        "365d": 4201915
       },
       "total": null
     }
@@ -481,14 +481,14 @@
       "package": "appwrite-cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/appwrite-cli",
-      "attemptedAt": "2026-09-27T12:05:19.760Z",
+      "attemptedAt": "2026-09-28T13:56:55.259Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:19.993Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:55.770Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 10251,
-        "90d": 36771,
-        "365d": 97975
+        "30d": 10094,
+        "90d": 36742,
+        "365d": 97965
       },
       "total": null
     }
@@ -500,14 +500,14 @@
       "package": "mongosh",
       "source": "npm",
       "url": "https://www.npmjs.com/package/mongosh",
-      "attemptedAt": "2026-09-27T12:05:19.993Z",
+      "attemptedAt": "2026-09-28T13:56:55.770Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:20.152Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:56.015Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 76746,
-        "90d": 275395,
-        "365d": 922469
+        "30d": 75612,
+        "90d": 273413,
+        "365d": 923793
       },
       "total": null
     }
@@ -519,14 +519,14 @@
       "package": "@devcontainers/cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@devcontainers/cli",
-      "attemptedAt": "2026-09-27T12:05:20.152Z",
+      "attemptedAt": "2026-09-28T13:56:56.015Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:20.410Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:56.264Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 1353688,
-        "90d": 3720150,
-        "365d": 11534356
+        "30d": 1328410,
+        "90d": 3700511,
+        "365d": 11556167
       },
       "total": null
     }
@@ -538,14 +538,14 @@
       "package": "eslint",
       "source": "npm",
       "url": "https://www.npmjs.com/package/eslint",
-      "attemptedAt": "2026-09-27T12:05:20.410Z",
+      "attemptedAt": "2026-09-28T13:56:56.264Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:20.938Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:56.764Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 588806867,
-        "90d": 1864059549,
-        "365d": 5508803923
+        "30d": 581587232,
+        "90d": 1857208143,
+        "365d": 5521457613
       },
       "total": null
     }
@@ -557,14 +557,14 @@
       "package": "prettier",
       "source": "npm",
       "url": "https://www.npmjs.com/package/prettier",
-      "attemptedAt": "2026-09-27T12:05:20.939Z",
+      "attemptedAt": "2026-09-28T13:56:56.764Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:21.471Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:56.950Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 486676612,
-        "90d": 1521868916,
-        "365d": 4458134915
+        "30d": 479399429,
+        "90d": 1513954913,
+        "365d": 4467821214
       },
       "total": null
     }
@@ -576,14 +576,14 @@
       "package": "npm",
       "source": "npm",
       "url": "https://www.npmjs.com/package/npm",
-      "attemptedAt": "2026-09-27T12:05:21.471Z",
+      "attemptedAt": "2026-09-28T13:56:56.950Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:21.637Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:57.290Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 58805460,
-        "90d": 192371797,
-        "365d": 611911537
+        "30d": 57917529,
+        "90d": 190700781,
+        "365d": 612902664
       },
       "total": null
     }
@@ -595,14 +595,14 @@
       "package": "@marp-team/marp-cli",
       "source": "npm",
       "url": "https://www.npmjs.com/package/@marp-team/marp-cli",
-      "attemptedAt": "2026-09-27T12:05:21.637Z",
+      "attemptedAt": "2026-09-28T13:56:57.290Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:22.030Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:57.949Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 288315,
-        "90d": 732686,
-        "365d": 1561795
+        "30d": 284708,
+        "90d": 730499,
+        "365d": 1566512
       },
       "total": null
     }
@@ -614,13 +614,13 @@
       "package": "aider-chat",
       "source": "pypi",
       "url": "https://pypi.org/project/aider-chat/",
-      "attemptedAt": "2026-09-27T12:05:22.030Z",
+      "attemptedAt": "2026-09-28T13:56:57.950Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:22.354Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.173Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 267037,
-        "90d": 1851497,
+        "30d": 267327,
+        "90d": 1831735,
         "365d": null
       },
       "total": null
@@ -633,13 +633,13 @@
       "package": "llm",
       "source": "pypi",
       "url": "https://pypi.org/project/llm/",
-      "attemptedAt": "2026-09-27T12:05:22.354Z",
+      "attemptedAt": "2026-09-28T13:56:58.173Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:22.405Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.300Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 461845,
-        "90d": 1511512,
+        "30d": 461266,
+        "90d": 1515311,
         "365d": null
       },
       "total": null
@@ -652,13 +652,13 @@
       "package": "httpie",
       "source": "pypi",
       "url": "https://pypi.org/project/httpie/",
-      "attemptedAt": "2026-09-27T12:05:22.405Z",
+      "attemptedAt": "2026-09-28T13:56:58.300Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:22.476Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.351Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 582896,
-        "90d": 2688909,
+        "30d": 572840,
+        "90d": 2656005,
         "365d": null
       },
       "total": null
@@ -671,13 +671,13 @@
       "package": "uv",
       "source": "pypi",
       "url": "https://pypi.org/project/uv/",
-      "attemptedAt": "2026-09-27T12:05:22.476Z",
+      "attemptedAt": "2026-09-28T13:56:58.351Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:22.593Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.455Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 122077770,
-        "90d": 493455558,
+        "30d": 121073112,
+        "90d": 491030025,
         "365d": null
       },
       "total": null
@@ -690,13 +690,13 @@
       "package": "ruff",
       "source": "pypi",
       "url": "https://pypi.org/project/ruff/",
-      "attemptedAt": "2026-09-27T12:05:22.593Z",
+      "attemptedAt": "2026-09-28T13:56:58.455Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:22.712Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.554Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 283165038,
-        "90d": 916412106,
+        "30d": 280681982,
+        "90d": 912913134,
         "365d": null
       },
       "total": null
@@ -709,13 +709,13 @@
       "package": "semgrep",
       "source": "pypi",
       "url": "https://pypi.org/project/semgrep/",
-      "attemptedAt": "2026-09-27T12:05:22.712Z",
+      "attemptedAt": "2026-09-28T13:56:58.554Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:22.779Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.612Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 18388568,
-        "90d": 84580369,
+        "30d": 18021090,
+        "90d": 83585025,
         "365d": null
       },
       "total": null
@@ -728,13 +728,13 @@
       "package": "shot-scraper",
       "source": "pypi",
       "url": "https://pypi.org/project/shot-scraper/",
-      "attemptedAt": "2026-09-27T12:05:22.779Z",
+      "attemptedAt": "2026-09-28T13:56:58.612Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:22.881Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.702Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 283704,
-        "90d": 612535,
+        "30d": 286067,
+        "90d": 614820,
         "365d": null
       },
       "total": null
@@ -747,13 +747,13 @@
       "package": "awscli",
       "source": "pypi",
       "url": "https://pypi.org/project/awscli/",
-      "attemptedAt": "2026-09-27T12:05:22.881Z",
+      "attemptedAt": "2026-09-28T13:56:58.702Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:22.967Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.782Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 86118806,
-        "90d": 595719897,
+        "30d": 85273779,
+        "90d": 586527149,
         "365d": null
       },
       "total": null
@@ -766,13 +766,13 @@
       "package": "azure-cli",
       "source": "pypi",
       "url": "https://pypi.org/project/azure-cli/",
-      "attemptedAt": "2026-09-27T12:05:22.967Z",
+      "attemptedAt": "2026-09-28T13:56:58.782Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.028Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.827Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 2901549,
-        "90d": 15518756,
+        "30d": 2851976,
+        "90d": 15344891,
         "365d": null
       },
       "total": null
@@ -785,13 +785,13 @@
       "package": "ansible-core",
       "source": "pypi",
       "url": "https://pypi.org/project/ansible-core/",
-      "attemptedAt": "2026-09-27T12:05:23.028Z",
+      "attemptedAt": "2026-09-28T13:56:58.827Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.079Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.869Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 11886993,
-        "90d": 48299357,
+        "30d": 11807836,
+        "90d": 47998818,
         "365d": null
       },
       "total": null
@@ -804,13 +804,13 @@
       "package": "sqlite-utils",
       "source": "pypi",
       "url": "https://pypi.org/project/sqlite-utils/",
-      "attemptedAt": "2026-09-27T12:05:23.079Z",
+      "attemptedAt": "2026-09-28T13:56:58.870Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.146Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.940Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 856408,
-        "90d": 3427507,
+        "30d": 852367,
+        "90d": 3422028,
         "365d": null
       },
       "total": null
@@ -823,13 +823,13 @@
       "package": "dbt-core",
       "source": "pypi",
       "url": "https://pypi.org/project/dbt-core/",
-      "attemptedAt": "2026-09-27T12:05:23.146Z",
+      "attemptedAt": "2026-09-28T13:56:58.940Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.198Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:58.982Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 22191105,
-        "90d": 221520518,
+        "30d": 21968668,
+        "90d": 218362950,
         "365d": null
       },
       "total": null
@@ -842,13 +842,13 @@
       "package": "sqlfluff",
       "source": "pypi",
       "url": "https://pypi.org/project/sqlfluff/",
-      "attemptedAt": "2026-09-27T12:05:23.198Z",
+      "attemptedAt": "2026-09-28T13:56:58.982Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.258Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.033Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 9026046,
-        "90d": 31918059,
+        "30d": 8836868,
+        "90d": 31673177,
         "365d": null
       },
       "total": null
@@ -861,13 +861,13 @@
       "package": "yt-dlp",
       "source": "pypi",
       "url": "https://pypi.org/project/yt-dlp/",
-      "attemptedAt": "2026-09-27T12:05:23.258Z",
+      "attemptedAt": "2026-09-28T13:56:59.033Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.316Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.087Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 12020134,
-        "90d": 48945140,
+        "30d": 11999572,
+        "90d": 48371525,
         "365d": null
       },
       "total": null
@@ -880,13 +880,13 @@
       "package": "ocrmypdf",
       "source": "pypi",
       "url": "https://pypi.org/project/ocrmypdf/",
-      "attemptedAt": "2026-09-27T12:05:23.316Z",
+      "attemptedAt": "2026-09-28T13:56:59.087Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.393Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.133Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 1165787,
-        "90d": 3442642,
+        "30d": 1142043,
+        "90d": 3421022,
         "365d": null
       },
       "total": null
@@ -899,13 +899,13 @@
       "package": "khal",
       "source": "pypi",
       "url": "https://pypi.org/project/khal/",
-      "attemptedAt": "2026-09-27T12:05:23.393Z",
+      "attemptedAt": "2026-09-28T13:56:59.133Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.523Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.187Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 3229,
-        "90d": 16024,
+        "30d": 3122,
+        "90d": 15942,
         "365d": null
       },
       "total": null
@@ -918,13 +918,13 @@
       "package": "gcalcli",
       "source": "pypi",
       "url": "https://pypi.org/project/gcalcli/",
-      "attemptedAt": "2026-09-27T12:05:23.523Z",
+      "attemptedAt": "2026-09-28T13:56:59.187Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.734Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.324Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 3366,
-        "90d": 15564,
+        "30d": 3398,
+        "90d": 15468,
         "365d": null
       },
       "total": null
@@ -937,13 +937,13 @@
       "package": "buku",
       "source": "pypi",
       "url": "https://pypi.org/project/buku/",
-      "attemptedAt": "2026-09-27T12:05:23.734Z",
+      "attemptedAt": "2026-09-28T13:56:59.324Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.891Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.404Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 913,
-        "90d": 2196,
+        "30d": 919,
+        "90d": 2201,
         "365d": null
       },
       "total": null
@@ -956,13 +956,13 @@
       "package": "snowflake-cli",
       "source": "pypi",
       "url": "https://pypi.org/project/snowflake-cli/",
-      "attemptedAt": "2026-09-27T12:05:23.891Z",
+      "attemptedAt": "2026-09-28T13:56:59.404Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:23.934Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.498Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 632640,
-        "90d": 2825858,
+        "30d": 618443,
+        "90d": 2787779,
         "365d": null
       },
       "total": null
@@ -975,13 +975,13 @@
       "package": "mycli",
       "source": "pypi",
       "url": "https://pypi.org/project/mycli/",
-      "attemptedAt": "2026-09-27T12:05:23.935Z",
+      "attemptedAt": "2026-09-28T13:56:59.498Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:24.036Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.695Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 67763,
-        "90d": 307381,
+        "30d": 66251,
+        "90d": 303640,
         "365d": null
       },
       "total": null
@@ -994,13 +994,13 @@
       "package": "litecli",
       "source": "pypi",
       "url": "https://pypi.org/project/litecli/",
-      "attemptedAt": "2026-09-27T12:05:24.037Z",
+      "attemptedAt": "2026-09-28T13:56:59.695Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:24.172Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.750Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 47120,
-        "90d": 199731,
+        "30d": 46654,
+        "90d": 198169,
         "365d": null
       },
       "total": null
@@ -1013,13 +1013,13 @@
       "package": "csvkit",
       "source": "pypi",
       "url": "https://pypi.org/project/csvkit/",
-      "attemptedAt": "2026-09-27T12:05:24.172Z",
+      "attemptedAt": "2026-09-28T13:56:59.750Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:24.268Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.834Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 220543,
-        "90d": 1047492,
+        "30d": 218686,
+        "90d": 1039843,
         "365d": null
       },
       "total": null
@@ -1032,13 +1032,13 @@
       "package": "poetry",
       "source": "pypi",
       "url": "https://pypi.org/project/poetry/",
-      "attemptedAt": "2026-09-27T12:05:24.268Z",
+      "attemptedAt": "2026-09-28T13:56:59.834Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:24.315Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.910Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 39872062,
-        "90d": 196397540,
+        "30d": 39125661,
+        "90d": 193774688,
         "365d": null
       },
       "total": null
@@ -1051,13 +1051,13 @@
       "package": "pipx",
       "source": "pypi",
       "url": "https://pypi.org/project/pipx/",
-      "attemptedAt": "2026-09-27T12:05:24.315Z",
+      "attemptedAt": "2026-09-28T13:56:59.910Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:24.361Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.953Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 3554200,
-        "90d": 17166819,
+        "30d": 3487639,
+        "90d": 16954513,
         "365d": null
       },
       "total": null
@@ -1070,13 +1070,13 @@
       "package": "docling",
       "source": "pypi",
       "url": "https://pypi.org/project/docling/",
-      "attemptedAt": "2026-09-27T12:05:24.361Z",
+      "attemptedAt": "2026-09-28T13:56:59.953Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:24.412Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:56:59.996Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 2710715,
-        "90d": 30086210,
+        "30d": 2679658,
+        "90d": 29435708,
         "365d": null
       },
       "total": null
@@ -1089,13 +1089,13 @@
       "package": "markitdown",
       "source": "pypi",
       "url": "https://pypi.org/project/markitdown/",
-      "attemptedAt": "2026-09-27T12:05:24.412Z",
+      "attemptedAt": "2026-09-28T13:56:59.996Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:24.466Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:57:00.061Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 13713494,
-        "90d": 41772477,
+        "30d": 13659312,
+        "90d": 41713775,
         "365d": null
       },
       "total": null
@@ -1108,13 +1108,13 @@
       "package": "mkdocs",
       "source": "pypi",
       "url": "https://pypi.org/project/mkdocs/",
-      "attemptedAt": "2026-09-27T12:05:24.466Z",
+      "attemptedAt": "2026-09-28T13:57:00.061Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:24.526Z",
-      "end": "2026-09-26",
+      "checkedAt": "2026-09-28T13:57:00.131Z",
+      "end": "2026-09-27",
       "counts": {
-        "30d": 12804751,
-        "90d": 46691797,
+        "30d": 12582019,
+        "90d": 46271239,
         "365d": null
       },
       "total": null
@@ -1127,16 +1127,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/cli/cli/releases",
-      "attemptedAt": "2026-09-27T12:05:24.527Z",
+      "attemptedAt": "2026-09-28T13:57:00.131Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:27.674Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:03.192Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 127399844,
+      "total": 127736838,
       "assetCount": 3588,
       "releaseCount": 204
     }
@@ -1148,16 +1148,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/BurntSushi/ripgrep/releases",
-      "attemptedAt": "2026-09-27T12:05:27.674Z",
+      "attemptedAt": "2026-09-28T13:57:03.192Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:28.213Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:03.839Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 51160448,
+      "total": 51542422,
       "assetCount": 492,
       "releaseCount": 63
     }
@@ -1169,16 +1169,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/jqlang/jq/releases",
-      "attemptedAt": "2026-09-27T12:05:28.213Z",
+      "attemptedAt": "2026-09-28T13:57:03.839Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:28.697Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:04.227Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 285266715,
+      "total": 285535104,
       "assetCount": 141,
       "releaseCount": 9
     }
@@ -1190,16 +1190,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/sharkdp/fd/releases",
-      "attemptedAt": "2026-09-27T12:05:28.697Z",
+      "attemptedAt": "2026-09-28T13:57:04.227Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:29.241Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:04.784Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 9581220,
+      "total": 9637102,
       "assetCount": 583,
       "releaseCount": 36
     }
@@ -1211,16 +1211,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/sharkdp/bat/releases",
-      "attemptedAt": "2026-09-27T12:05:29.241Z",
+      "attemptedAt": "2026-09-28T13:57:04.784Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:29.835Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:05.359Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 3820001,
+      "total": 3826014,
       "assetCount": 532,
       "releaseCount": 43
     }
@@ -1232,16 +1232,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/sharkdp/hyperfine/releases",
-      "attemptedAt": "2026-09-27T12:05:29.836Z",
+      "attemptedAt": "2026-09-28T13:57:05.359Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:30.239Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:05.800Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 2349501,
+      "total": 2356552,
       "assetCount": 319,
       "releaseCount": 25
     }
@@ -1253,16 +1253,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/casey/just/releases",
-      "attemptedAt": "2026-09-27T12:05:30.239Z",
+      "attemptedAt": "2026-09-28T13:57:05.800Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:31.435Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:07.047Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 55803189,
+      "total": 56011322,
       "assetCount": 652,
       "releaseCount": 93
     }
@@ -1274,16 +1274,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/typst/typst/releases",
-      "attemptedAt": "2026-09-27T12:05:31.435Z",
+      "attemptedAt": "2026-09-28T13:57:07.047Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:31.856Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:07.557Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 3525666,
+      "total": 3558338,
       "assetCount": 132,
       "releaseCount": 20
     }
@@ -1295,16 +1295,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/svenstaro/miniserve/releases",
-      "attemptedAt": "2026-09-27T12:05:31.856Z",
+      "attemptedAt": "2026-09-28T13:57:07.557Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:32.434Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:08.088Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 2205853,
+      "total": 2208466,
       "assetCount": 251,
       "releaseCount": 18
     }
@@ -1316,16 +1316,16 @@
       "package": null,
       "source": "github",
       "url": "https://github.com/mikefarah/yq/releases",
-      "attemptedAt": "2026-09-27T12:05:32.434Z",
+      "attemptedAt": "2026-09-28T13:57:08.088Z",
       "status": "ok",
-      "checkedAt": "2026-09-27T12:05:36.031Z",
-      "end": "2026-09-27",
+      "checkedAt": "2026-09-28T13:57:12.342Z",
+      "end": "2026-09-28",
       "counts": {
         "30d": null,
         "90d": null,
         "365d": null
       },
-      "total": 341752683,
+      "total": 342233867,
       "assetCount": 6088,
       "releaseCount": 145
     }
