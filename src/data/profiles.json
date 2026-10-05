@@ -578,10 +578,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://amazon.com/aws",
-    "followers": 16984,
-    "publicRepos": 554,
+    "followers": 17069,
+    "publicRepos": 556,
     "createdAt": "2012-08-28T05:37:55Z",
-    "checkedAt": "2026-09-28T13:56:29.352Z",
+    "checkedAt": "2026-10-05T14:40:44.208Z",
     "source": "https://github.com/aws"
   },
   "azure": {
@@ -1319,10 +1319,10 @@
     "bio": "😻A N A R C H O ー ネ コ バ ス 😻",
     "location": "The Blue Planet",
     "website": "https://rodarmor.com",
-    "followers": 3749,
+    "followers": 3751,
     "publicRepos": 312,
     "createdAt": "2008-03-02T09:58:31Z",
-    "checkedAt": "2026-09-28T13:56:29.564Z",
+    "checkedAt": "2026-10-05T14:40:44.524Z",
     "source": "https://github.com/casey"
   },
   "openhue": {
@@ -2687,7 +2687,7 @@
     "followers": 559,
     "publicRepos": 33,
     "createdAt": "2012-07-05T08:04:26Z",
-    "checkedAt": "2026-09-28T13:56:29.794Z",
+    "checkedAt": "2026-10-05T14:40:44.866Z",
     "source": "https://github.com/cookpete"
   },
   "mkb79": {
@@ -2700,7 +2700,7 @@
     "followers": 32,
     "publicRepos": 16,
     "createdAt": "2018-06-18T18:49:47Z",
-    "checkedAt": "2026-09-28T13:56:29.968Z",
+    "checkedAt": "2026-10-05T14:40:45.128Z",
     "source": "https://github.com/mkb79"
   },
   "acheronfail": {
@@ -2711,9 +2711,9 @@
     "location": null,
     "website": null,
     "followers": 65,
-    "publicRepos": 148,
+    "publicRepos": 151,
     "createdAt": "2017-12-06T00:25:11Z",
-    "checkedAt": "2026-09-28T13:56:30.212Z",
+    "checkedAt": "2026-10-05T14:40:45.498Z",
     "source": "https://github.com/acheronfail"
   },
   "geekjourneyx": {
@@ -2723,10 +2723,10 @@
     "bio": "AI Builder |  Harness Engineer",
     "location": "china",
     "website": "https://jieni.ai",
-    "followers": 294,
+    "followers": 300,
     "publicRepos": 175,
     "createdAt": "2016-12-07T01:11:52Z",
-    "checkedAt": "2026-09-28T13:56:30.558Z",
+    "checkedAt": "2026-10-05T14:40:45.834Z",
     "source": "https://github.com/geekjourneyx"
   },
   "iwe-org": {
@@ -2736,10 +2736,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://iwe.md",
-    "followers": 26,
+    "followers": 27,
     "publicRepos": 15,
     "createdAt": "2024-02-20T23:36:43Z",
-    "checkedAt": "2026-09-28T13:56:30.878Z",
+    "checkedAt": "2026-10-05T14:40:46.189Z",
     "source": "https://github.com/iwe-org"
   },
   "http-party": {
@@ -2749,10 +2749,10 @@
     "bio": "Who says networking can't be fun?",
     "location": "Worldwide",
     "website": null,
-    "followers": 108,
+    "followers": 109,
     "publicRepos": 5,
     "createdAt": "2015-02-04T08:41:26Z",
-    "checkedAt": "2026-09-28T13:56:31.150Z",
+    "checkedAt": "2026-10-05T14:40:46.437Z",
     "source": "https://github.com/http-party"
   },
   "nikolassv": {
@@ -2765,7 +2765,7 @@
     "followers": 27,
     "publicRepos": 28,
     "createdAt": "2011-08-26T16:16:07Z",
-    "checkedAt": "2026-09-28T13:56:31.440Z",
+    "checkedAt": "2026-10-05T14:40:46.765Z",
     "source": "https://github.com/nikolassv"
   },
   "cabal-club": {
@@ -2778,7 +2778,7 @@
     "followers": 162,
     "publicRepos": 31,
     "createdAt": "2018-05-16T11:08:24Z",
-    "checkedAt": "2026-09-28T13:56:31.675Z",
+    "checkedAt": "2026-10-05T14:40:47.018Z",
     "source": "https://github.com/cabal-club"
   },
   "vividvilla": {
@@ -2788,10 +2788,10 @@
     "bio": "Full stack developer @zerodha\r\n",
     "location": "Bengaluru",
     "website": "https://vivekr.dev",
-    "followers": 509,
+    "followers": 510,
     "publicRepos": 77,
     "createdAt": "2011-04-07T15:09:07Z",
-    "checkedAt": "2026-09-28T13:56:31.923Z",
+    "checkedAt": "2026-10-05T14:40:47.279Z",
     "source": "https://github.com/vividvilla"
   },
   "motdotla": {
@@ -2801,10 +2801,10 @@
     "bio": "Creator of `dotenv` and `dotenvx`.",
     "location": "LA & SF",
     "website": "https://mot.la",
-    "followers": 1205,
+    "followers": 1207,
     "publicRepos": 276,
     "createdAt": "2008-03-26T01:13:18Z",
-    "checkedAt": "2026-09-28T13:56:32.107Z",
+    "checkedAt": "2026-10-05T14:40:47.524Z",
     "source": "https://github.com/motdotla"
   },
   "alan-turing-institute": {
@@ -2814,10 +2814,10 @@
     "bio": "The UK's national institute for data science and artificial intelligence.",
     "location": null,
     "website": "https://turing.ac.uk",
-    "followers": 1020,
+    "followers": 1021,
     "publicRepos": 670,
     "createdAt": "2016-04-06T09:38:19Z",
-    "checkedAt": "2026-09-28T13:56:32.306Z",
+    "checkedAt": "2026-10-05T14:40:47.809Z",
     "source": "https://github.com/alan-turing-institute"
   },
   "rehmatworks": {
@@ -2830,7 +2830,7 @@
     "followers": 105,
     "publicRepos": 56,
     "createdAt": "2016-11-18T12:19:34Z",
-    "checkedAt": "2026-09-28T13:56:32.607Z",
+    "checkedAt": "2026-10-05T14:40:48.112Z",
     "source": "https://github.com/rehmatworks"
   },
   "nicobailon": {
@@ -2840,10 +2840,10 @@
     "bio": "Senior Agent Engineer @ Pika Labs",
     "location": "Vancouver, BC",
     "website": "https://pika.art",
-    "followers": 2054,
+    "followers": 2080,
     "publicRepos": 133,
     "createdAt": "2012-12-04T04:29:28Z",
-    "checkedAt": "2026-09-28T13:56:32.833Z",
+    "checkedAt": "2026-10-05T14:40:48.373Z",
     "source": "https://github.com/nicobailon"
   },
   "mklement0": {
@@ -2853,10 +2853,10 @@
     "bio": null,
     "location": "New Hampshire (USA)",
     "website": "https://www.linkedin.com/in/mklement0/",
-    "followers": 167,
+    "followers": 168,
     "publicRepos": 30,
     "createdAt": "2011-01-28T18:31:44Z",
-    "checkedAt": "2026-09-28T13:56:33.006Z",
+    "checkedAt": "2026-10-05T14:40:48.629Z",
     "source": "https://github.com/mklement0"
   },
   "ruyadorno": {
@@ -2866,10 +2866,10 @@
     "bio": "Node.js TSC member & Node.js Releaser • Building the future of JavaScript packages at vlt.sh • prev: @Google, @github, @npm",
     "location": "Montreal, Canada",
     "website": "https://ruyadorno.com",
-    "followers": 933,
+    "followers": 932,
     "publicRepos": 250,
     "createdAt": "2010-03-11T21:20:40Z",
-    "checkedAt": "2026-09-28T13:56:33.196Z",
+    "checkedAt": "2026-10-05T14:40:48.885Z",
     "source": "https://github.com/ruyadorno"
   },
   "dat-ecosystem": {
@@ -2882,7 +2882,7 @@
     "followers": 126,
     "publicRepos": 23,
     "createdAt": "2021-01-06T19:53:51Z",
-    "checkedAt": "2026-09-28T13:56:33.468Z",
+    "checkedAt": "2026-10-05T14:40:49.129Z",
     "source": "https://github.com/dat-ecosystem"
   },
   "backblaze": {
@@ -2892,10 +2892,10 @@
     "bio": "Backblaze Cloud Backup & Cloud Storage",
     "location": "San Mateo, California, USA",
     "website": "https://www.backblaze.com",
-    "followers": 133,
+    "followers": 134,
     "publicRepos": 18,
     "createdAt": "2014-12-23T19:40:54Z",
-    "checkedAt": "2026-09-28T13:56:33.646Z",
+    "checkedAt": "2026-10-05T14:40:49.411Z",
     "source": "https://github.com/Backblaze"
   },
   "raphaelmansuy": {
@@ -2905,10 +2905,10 @@
     "bio": "CTO - ELITIZON Ltd\r\n\r\n🍵  Green Tea addict\r\n\r\n🚀  Maker \r\n\r\n 📚 Life learner\r\n",
     "location": "Hong Kong SAR",
     "website": "https://www.elitizon.com",
-    "followers": 314,
-    "publicRepos": 177,
+    "followers": 317,
+    "publicRepos": 178,
     "createdAt": "2011-08-25T03:13:02Z",
-    "checkedAt": "2026-09-28T13:56:33.822Z",
+    "checkedAt": "2026-10-05T14:40:49.826Z",
     "source": "https://github.com/raphaelmansuy"
   },
   "parvardegr": {
@@ -2918,10 +2918,10 @@
     "bio": "Software Craftsman",
     "location": null,
     "website": null,
-    "followers": 54,
+    "followers": 52,
     "publicRepos": 19,
     "createdAt": "2014-10-29T17:34:51Z",
-    "checkedAt": "2026-09-28T13:56:34.071Z",
+    "checkedAt": "2026-10-05T14:40:51.098Z",
     "source": "https://github.com/parvardegr"
   },
   "etetoolkit": {
@@ -2934,7 +2934,7 @@
     "followers": 40,
     "publicRepos": 16,
     "createdAt": "2016-01-31T08:56:02Z",
-    "checkedAt": "2026-09-28T13:56:34.254Z",
+    "checkedAt": "2026-10-05T14:40:51.358Z",
     "source": "https://github.com/etetoolkit"
   },
   "automattic": {
@@ -2944,10 +2944,10 @@
     "bio": "We are passionate about making the web a better place.",
     "location": "Worldwide",
     "website": "https://automattic.com",
-    "followers": 3370,
-    "publicRepos": 1409,
+    "followers": 3382,
+    "publicRepos": 1414,
     "createdAt": "2011-07-01T02:45:15Z",
-    "checkedAt": "2026-09-28T13:56:34.494Z",
+    "checkedAt": "2026-10-05T14:40:51.602Z",
     "source": "https://github.com/Automattic"
   },
   "efforg": {
@@ -2957,10 +2957,10 @@
     "bio": null,
     "location": "San Francisco",
     "website": "https://www.eff.org/",
-    "followers": 1714,
+    "followers": 1724,
     "publicRepos": 107,
     "createdAt": "2012-08-09T01:26:53Z",
-    "checkedAt": "2026-09-28T13:56:34.741Z",
+    "checkedAt": "2026-10-05T14:40:51.907Z",
     "source": "https://github.com/EFForg"
   },
   "lavie": {
@@ -2973,7 +2973,7 @@
     "followers": 48,
     "publicRepos": 82,
     "createdAt": "2010-03-30T14:44:01Z",
-    "checkedAt": "2026-09-28T13:56:34.976Z",
+    "checkedAt": "2026-10-05T14:40:52.213Z",
     "source": "https://github.com/lavie"
   },
   "seemseam": {
@@ -4273,7 +4273,7 @@
     "followers": 96,
     "publicRepos": 154,
     "createdAt": "2015-04-02T20:37:57Z",
-    "checkedAt": "2026-09-28T13:56:35.241Z",
+    "checkedAt": "2026-10-05T14:40:52.590Z",
     "source": "https://github.com/blacknon"
   },
   "jacek-kurlit": {
@@ -4286,7 +4286,7 @@
     "followers": 12,
     "publicRepos": 22,
     "createdAt": "2013-12-14T10:07:20Z",
-    "checkedAt": "2026-09-28T13:56:35.456Z",
+    "checkedAt": "2026-10-05T14:40:52.866Z",
     "source": "https://github.com/jacek-kurlit"
   },
   "kavehtehrani": {
@@ -4296,10 +4296,10 @@
     "bio": "nomadic trader\r\nlong defi, short jpm",
     "location": null,
     "website": "https://kaveh.page/",
-    "followers": 46,
+    "followers": 47,
     "publicRepos": 47,
     "createdAt": "2017-02-27T15:10:07Z",
-    "checkedAt": "2026-09-28T13:56:35.810Z",
+    "checkedAt": "2026-10-05T14:40:53.265Z",
     "source": "https://github.com/kavehtehrani"
   },
   "josuebarretogit": {
@@ -4309,10 +4309,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 49,
+    "followers": 48,
     "publicRepos": 43,
     "createdAt": "2023-09-06T03:10:49Z",
-    "checkedAt": "2026-09-28T13:56:36.118Z",
+    "checkedAt": "2026-10-05T14:40:53.605Z",
     "source": "https://github.com/josueBarretogit"
   },
   "karimknaebel": {
@@ -4322,10 +4322,10 @@
     "bio": "Computer Vision PhD student",
     "location": "Aachen, Germany",
     "website": "https://karimknaebel.com",
-    "followers": 609,
+    "followers": 612,
     "publicRepos": 125,
     "createdAt": "2014-04-15T14:54:44Z",
-    "checkedAt": "2026-09-28T13:56:36.366Z",
+    "checkedAt": "2026-10-05T14:40:53.951Z",
     "source": "https://github.com/karimknaebel"
   },
   "jrnxf": {
@@ -4335,10 +4335,10 @@
     "bio": "should probably be sleeping",
     "location": "Porto, Portugal",
     "website": "jrnxf.co",
-    "followers": 76,
+    "followers": 75,
     "publicRepos": 90,
     "createdAt": "2016-08-30T20:24:45Z",
-    "checkedAt": "2026-09-28T13:56:36.679Z",
+    "checkedAt": "2026-10-05T14:40:54.269Z",
     "source": "https://github.com/jrnxf"
   },
   "yassinebridi": {
@@ -4351,7 +4351,7 @@
     "followers": 87,
     "publicRepos": 56,
     "createdAt": "2016-04-11T17:33:16Z",
-    "checkedAt": "2026-09-28T13:56:36.977Z",
+    "checkedAt": "2026-10-05T14:40:54.646Z",
     "source": "https://github.com/yassinebridi"
   },
   "ccgauche": {
@@ -4364,7 +4364,7 @@
     "followers": 48,
     "publicRepos": 34,
     "createdAt": "2016-01-09T17:59:01Z",
-    "checkedAt": "2026-09-28T13:56:37.238Z",
+    "checkedAt": "2026-10-05T14:40:54.995Z",
     "source": "https://github.com/ccgauche"
   },
   "juftin": {
@@ -4375,9 +4375,9 @@
     "location": "Denver, CO, USA",
     "website": "juftin.com",
     "followers": 86,
-    "publicRepos": 54,
+    "publicRepos": 56,
     "createdAt": "2019-04-18T03:58:49Z",
-    "checkedAt": "2026-09-28T13:56:37.453Z",
+    "checkedAt": "2026-10-05T14:40:55.283Z",
     "source": "https://github.com/juftin"
   },
   "max-niederman": {
@@ -4390,7 +4390,7 @@
     "followers": 73,
     "publicRepos": 71,
     "createdAt": "2016-05-25T23:39:48Z",
-    "checkedAt": "2026-09-28T13:56:37.673Z",
+    "checkedAt": "2026-10-05T14:40:55.651Z",
     "source": "https://github.com/max-niederman"
   },
   "zdk": {
@@ -4400,10 +4400,10 @@
     "bio": null,
     "location": "Thailand",
     "website": null,
-    "followers": 155,
-    "publicRepos": 75,
+    "followers": 156,
+    "publicRepos": 77,
     "createdAt": "2008-04-08T04:06:51Z",
-    "checkedAt": "2026-09-28T13:56:37.921Z",
+    "checkedAt": "2026-10-05T14:40:56.010Z",
     "source": "https://github.com/zdk"
   },
   "promptdriven": {
@@ -4416,7 +4416,7 @@
     "followers": 23,
     "publicRepos": 1,
     "createdAt": "2024-09-13T23:20:48Z",
-    "checkedAt": "2026-09-28T13:56:38.138Z",
+    "checkedAt": "2026-10-05T14:40:56.371Z",
     "source": "https://github.com/promptdriven"
   },
   "fast-editor": {
@@ -4429,7 +4429,7 @@
     "followers": 4,
     "publicRepos": 6,
     "createdAt": "2025-12-15T08:30:52Z",
-    "checkedAt": "2026-09-28T13:56:38.300Z",
+    "checkedAt": "2026-10-05T14:40:56.649Z",
     "source": "https://github.com/Fast-Editor"
   },
   "xiufengsun": {
@@ -4439,10 +4439,10 @@
     "bio": null,
     "location": "Shanghai",
     "website": "https://www.rynn.me/",
-    "followers": 29,
+    "followers": 30,
     "publicRepos": 28,
     "createdAt": "2015-02-10T00:52:08Z",
-    "checkedAt": "2026-09-28T13:56:38.488Z",
+    "checkedAt": "2026-10-05T14:40:56.938Z",
     "source": "https://github.com/xiufengsun"
   },
   "manojmallick": {
@@ -4455,7 +4455,7 @@
     "followers": 30,
     "publicRepos": 130,
     "createdAt": "2016-07-16T06:43:40Z",
-    "checkedAt": "2026-09-28T13:56:38.685Z",
+    "checkedAt": "2026-10-05T14:40:57.277Z",
     "source": "https://github.com/manojmallick"
   },
   "eli64s": {
@@ -4465,10 +4465,10 @@
     "bio": "(๑˃̵ᴗ˂̵)و ⟠",
     "location": "United States",
     "website": "elisalamie.com",
-    "followers": 103,
+    "followers": 101,
     "publicRepos": 20,
     "createdAt": "2018-09-18T15:35:29Z",
-    "checkedAt": "2026-09-28T13:56:38.876Z",
+    "checkedAt": "2026-10-05T14:40:57.663Z",
     "source": "https://github.com/eli64s"
   },
   "ojuschugh1": {
@@ -4478,10 +4478,10 @@
     "bio": " Open Source Life Long Learner | Ex @sassoftware | LFXM @zowe  @linuxfoundation | Ex @lucy-platform | GSoC\"2023 @eclipse  | Open Source | FOSS |",
     "location": "Planet Earth",
     "website": "https://ojuschugh1.github.io/",
-    "followers": 55,
-    "publicRepos": 113,
+    "followers": 56,
+    "publicRepos": 115,
     "createdAt": "2021-02-15T07:42:40Z",
-    "checkedAt": "2026-09-28T13:56:39.070Z",
+    "checkedAt": "2026-10-05T14:40:57.998Z",
     "source": "https://github.com/ojuschugh1"
   },
   "liaohch3": {
@@ -4491,10 +4491,10 @@
     "bio": "Agent developer. Building @SoTALab-ai and claude-tap, built AnyGen.",
     "location": null,
     "website": null,
-    "followers": 32,
+    "followers": 34,
     "publicRepos": 41,
     "createdAt": "2017-11-28T08:30:19Z",
-    "checkedAt": "2026-09-28T13:56:39.319Z",
+    "checkedAt": "2026-10-05T14:40:58.339Z",
     "source": "https://github.com/liaohch3"
   },
   "micahkepe": {
@@ -4507,7 +4507,7 @@
     "followers": 73,
     "publicRepos": 59,
     "createdAt": "2022-09-01T01:49:53Z",
-    "checkedAt": "2026-09-28T13:56:39.587Z",
+    "checkedAt": "2026-10-05T14:40:58.611Z",
     "source": "https://github.com/micahkepe"
   },
   "afc163": {
@@ -4517,10 +4517,10 @@
     "bio": "Life is a box of chaos",
     "location": "Hangzhou, China",
     "website": "https://twitter.com/afc163",
-    "followers": 7370,
+    "followers": 7372,
     "publicRepos": 273,
     "createdAt": "2010-12-03T06:35:28Z",
-    "checkedAt": "2026-09-28T13:56:39.756Z",
+    "checkedAt": "2026-10-05T14:40:58.862Z",
     "source": "https://github.com/afc163"
   },
   "commitizen": {
@@ -4533,7 +4533,7 @@
     "followers": 151,
     "publicRepos": 12,
     "createdAt": "2015-04-16T14:54:29Z",
-    "checkedAt": "2026-09-28T13:56:40.029Z",
+    "checkedAt": "2026-10-05T14:40:59.146Z",
     "source": "https://github.com/commitizen"
   },
   "haidaram": {
@@ -4546,7 +4546,7 @@
     "followers": 84,
     "publicRepos": 20,
     "createdAt": "2014-11-19T19:26:11Z",
-    "checkedAt": "2026-09-28T13:56:40.325Z",
+    "checkedAt": "2026-10-05T14:40:59.452Z",
     "source": "https://github.com/haidaraM"
   },
   "abey79": {
@@ -4556,10 +4556,10 @@
     "bio": null,
     "location": "Lausanne, Switzerland",
     "website": "bylr.info",
-    "followers": 210,
+    "followers": 211,
     "publicRepos": 64,
     "createdAt": "2019-04-09T07:30:11Z",
-    "checkedAt": "2026-09-28T13:56:40.572Z",
+    "checkedAt": "2026-10-05T14:40:59.785Z",
     "source": "https://github.com/abey79"
   },
   "jkfran": {
@@ -4570,9 +4570,9 @@
     "location": "London, UK",
     "website": "https://jkfran.com",
     "followers": 48,
-    "publicRepos": 130,
+    "publicRepos": 131,
     "createdAt": "2014-01-08T22:38:27Z",
-    "checkedAt": "2026-09-28T13:56:40.904Z",
+    "checkedAt": "2026-10-05T14:41:00.191Z",
     "source": "https://github.com/jkfran"
   },
   "textualize": {
@@ -4582,10 +4582,10 @@
     "bio": "Move at terminal velocity",
     "location": null,
     "website": "https://www.textualize.io",
-    "followers": 2375,
+    "followers": 2376,
     "publicRepos": 33,
     "createdAt": "2021-10-29T10:06:26Z",
-    "checkedAt": "2026-09-28T13:56:41.123Z",
+    "checkedAt": "2026-10-05T14:41:00.485Z",
     "source": "https://github.com/Textualize"
   },
   "tldr-pages": {
@@ -4595,10 +4595,10 @@
     "bio": "Collaborative cheatsheets for console commands 📚.",
     "location": null,
     "website": "https://tldr.sh",
-    "followers": 694,
+    "followers": 696,
     "publicRepos": 28,
     "createdAt": "2014-04-21T23:00:30Z",
-    "checkedAt": "2026-09-28T13:56:41.414Z",
+    "checkedAt": "2026-10-05T14:41:00.782Z",
     "source": "https://github.com/tldr-pages"
   },
   "glomatico": {
@@ -4608,10 +4608,10 @@
     "bio": "Developer",
     "location": "Rio Grande do Sul, Brazil",
     "website": "glomatico.me",
-    "followers": 306,
+    "followers": 307,
     "publicRepos": 26,
     "createdAt": "2019-05-05T13:14:20Z",
-    "checkedAt": "2026-09-28T13:56:41.653Z",
+    "checkedAt": "2026-10-05T14:41:01.140Z",
     "source": "https://github.com/glomatico"
   },
   "ttytm": {
@@ -4624,7 +4624,7 @@
     "followers": 106,
     "publicRepos": 69,
     "createdAt": "2017-12-06T15:22:36Z",
-    "checkedAt": "2026-09-28T13:56:41.943Z",
+    "checkedAt": "2026-10-05T14:41:01.510Z",
     "source": "https://github.com/ttytm"
   },
   "usewhale": {
@@ -4637,7 +4637,7 @@
     "followers": 43,
     "publicRepos": 2,
     "createdAt": "2026-05-06T06:59:45Z",
-    "checkedAt": "2026-09-28T13:56:42.204Z",
+    "checkedAt": "2026-10-05T14:41:01.818Z",
     "source": "https://github.com/usewhale"
   },
   "sassman": {
@@ -4648,9 +4648,9 @@
     "location": "Munich",
     "website": "d34dl0ck.me",
     "followers": 170,
-    "publicRepos": 137,
+    "publicRepos": 138,
     "createdAt": "2010-07-12T14:42:28Z",
-    "checkedAt": "2026-09-28T13:56:42.384Z",
+    "checkedAt": "2026-10-05T14:41:02.095Z",
     "source": "https://github.com/sassman"
   },
   "opendev-to": {
@@ -4663,7 +4663,7 @@
     "followers": 27,
     "publicRepos": 3,
     "createdAt": "2025-10-05T06:06:21Z",
-    "checkedAt": "2026-09-28T13:56:42.675Z",
+    "checkedAt": "2026-10-05T14:41:02.419Z",
     "source": "https://github.com/opendev-to"
   },
   "dtnewman": {
@@ -4676,7 +4676,7 @@
     "followers": 69,
     "publicRepos": 32,
     "createdAt": "2013-02-22T13:22:32Z",
-    "checkedAt": "2026-09-28T13:56:42.972Z",
+    "checkedAt": "2026-10-05T14:41:02.820Z",
     "source": "https://github.com/dtnewman"
   },
   "lsd-rs": {
@@ -4689,7 +4689,7 @@
     "followers": 46,
     "publicRepos": 3,
     "createdAt": "2021-01-20T06:12:51Z",
-    "checkedAt": "2026-09-28T13:56:43.267Z",
+    "checkedAt": "2026-10-05T14:41:03.165Z",
     "source": "https://github.com/lsd-rs"
   },
   "lsof-org": {
@@ -4702,7 +4702,7 @@
     "followers": 21,
     "publicRepos": 2,
     "createdAt": "2018-05-23T14:37:22Z",
-    "checkedAt": "2026-09-28T13:56:43.401Z",
+    "checkedAt": "2026-10-05T14:41:03.394Z",
     "source": "https://github.com/lsof-org"
   },
   "dannote": {
@@ -4712,10 +4712,10 @@
     "bio": null,
     "location": "Armenia",
     "website": "https://dannote.net",
-    "followers": 353,
-    "publicRepos": 122,
+    "followers": 357,
+    "publicRepos": 125,
     "createdAt": "2012-08-23T19:08:46Z",
-    "checkedAt": "2026-09-28T13:56:43.631Z",
+    "checkedAt": "2026-10-05T14:41:03.688Z",
     "source": "https://github.com/dannote"
   },
   "openresty": {
@@ -4725,10 +4725,10 @@
     "bio": "A Fast and Scalable Web Platform by Extending NGINX with LuaJIT. Commercial support is provided at https://openresty.com/",
     "location": "San Francisco Bay Area",
     "website": "https://openresty.org",
-    "followers": 1355,
+    "followers": 1359,
     "publicRepos": 73,
     "createdAt": "2014-04-24T01:07:11Z",
-    "checkedAt": "2026-09-28T13:56:43.803Z",
+    "checkedAt": "2026-10-05T14:41:03.986Z",
     "source": "https://github.com/openresty"
   },
   "lycheeverse": {
@@ -4741,7 +4741,7 @@
     "followers": 56,
     "publicRepos": 9,
     "createdAt": "2020-11-05T23:18:16Z",
-    "checkedAt": "2026-09-28T13:56:43.990Z",
+    "checkedAt": "2026-10-05T14:41:04.270Z",
     "source": "https://github.com/lycheeverse"
   },
   "waydabber": {
@@ -4751,10 +4751,10 @@
     "bio": "App developer",
     "location": null,
     "website": "https://betterdisplay.pro",
-    "followers": 950,
+    "followers": 954,
     "publicRepos": 9,
     "createdAt": "2018-03-20T16:40:20Z",
-    "checkedAt": "2026-09-28T13:56:44.236Z",
+    "checkedAt": "2026-10-05T14:41:04.604Z",
     "source": "https://github.com/waydabber"
   },
   "lra": {
@@ -4765,9 +4765,9 @@
     "location": "Toulouse, NY, SF",
     "website": "glop.org",
     "followers": 284,
-    "publicRepos": 92,
+    "publicRepos": 93,
     "createdAt": "2009-09-02T08:40:21Z",
-    "checkedAt": "2026-09-28T13:56:44.461Z",
+    "checkedAt": "2026-10-05T14:41:04.952Z",
     "source": "https://github.com/lra"
   },
   "soxoj": {
@@ -4777,10 +4777,10 @@
     "bio": "CPO @ Social Links",
     "location": "Amsterdam, Netherlands",
     "website": "soxoj.com/gh",
-    "followers": 2251,
+    "followers": 2256,
     "publicRepos": 112,
     "createdAt": "2017-08-14T17:03:07Z",
-    "checkedAt": "2026-09-28T13:56:44.695Z",
+    "checkedAt": "2026-10-05T14:41:05.220Z",
     "source": "https://github.com/soxoj"
   },
   "kovetskiy": {
@@ -4793,7 +4793,7 @@
     "followers": 205,
     "publicRepos": 295,
     "createdAt": "2014-08-14T06:33:18Z",
-    "checkedAt": "2026-09-28T13:56:44.950Z",
+    "checkedAt": "2026-10-05T14:41:05.488Z",
     "source": "https://github.com/kovetskiy"
   },
   "arcangel0": {
@@ -4804,9 +4804,9 @@
     "location": "127.0.0.1",
     "website": "https://arcangelo.net",
     "followers": 85,
-    "publicRepos": 40,
+    "publicRepos": 41,
     "createdAt": "2018-07-24T14:13:43Z",
-    "checkedAt": "2026-09-28T13:56:45.317Z",
+    "checkedAt": "2026-10-05T14:41:05.884Z",
     "source": "https://github.com/ARCANGEL0"
   },
   "enulus": {
@@ -4819,7 +4819,7 @@
     "followers": 1,
     "publicRepos": 1,
     "createdAt": "2025-11-20T12:21:19Z",
-    "checkedAt": "2026-09-28T13:56:45.537Z",
+    "checkedAt": "2026-10-05T14:41:06.151Z",
     "source": "https://github.com/enulus"
   },
   "afshinm": {
@@ -4829,10 +4829,10 @@
     "bio": null,
     "location": "Dublin, Ireland",
     "website": "https://afshin.io",
-    "followers": 1045,
+    "followers": 1047,
     "publicRepos": 141,
     "createdAt": "2010-06-25T08:00:27Z",
-    "checkedAt": "2026-09-28T13:56:45.781Z",
+    "checkedAt": "2026-10-05T14:41:06.442Z",
     "source": "https://github.com/afshinm"
   },
   "kaifcodec": {
@@ -4842,10 +4842,10 @@
     "bio": "OSINT, Moble App Reverse Engineering, Ethical Hacking, Python, Cybersecurity, Deep low-level RE, WebDev, Android Dev",
     "location": null,
     "website": null,
-    "followers": 464,
-    "publicRepos": 30,
+    "followers": 490,
+    "publicRepos": 31,
     "createdAt": "2022-01-27T12:00:36Z",
-    "checkedAt": "2026-09-28T13:56:46.095Z",
+    "checkedAt": "2026-10-05T14:41:06.905Z",
     "source": "https://github.com/kaifcodec"
   },
   "ferrislucas": {
@@ -4855,10 +4855,10 @@
     "bio": null,
     "location": "Kansas City, KS",
     "website": "https://ferrislucas.net/",
-    "followers": 43,
+    "followers": 42,
     "publicRepos": 35,
     "createdAt": "2011-03-19T03:13:50Z",
-    "checkedAt": "2026-09-28T13:56:46.398Z",
+    "checkedAt": "2026-10-05T14:41:07.356Z",
     "source": "https://github.com/ferrislucas"
   },
   "svetlitski": {
