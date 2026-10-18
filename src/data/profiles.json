@@ -2385,10 +2385,10 @@
     "bio": "Your agent in your terminal, equipped with local tools: writes and runs code, uses the terminal, browses the web, uses your computer, vision.",
     "location": null,
     "website": "https://gptme.org/",
-    "followers": 72,
+    "followers": 73,
     "publicRepos": 18,
     "createdAt": "2024-01-20T14:17:11Z",
-    "checkedAt": "2026-10-10T12:34:33.613Z",
+    "checkedAt": "2026-10-18T11:07:56.654Z",
     "source": "https://github.com/gptme"
   },
   "apify": {
@@ -2398,10 +2398,10 @@
     "bio": "Put the web to work.",
     "location": null,
     "website": "https://apify.com/",
-    "followers": 2415,
-    "publicRepos": 268,
+    "followers": 2472,
+    "publicRepos": 270,
     "createdAt": "2016-12-15T10:36:52Z",
-    "checkedAt": "2026-10-10T12:34:33.895Z",
+    "checkedAt": "2026-10-18T11:07:57.107Z",
     "source": "https://github.com/apify"
   },
   "papis": {
@@ -2414,7 +2414,7 @@
     "followers": 10,
     "publicRepos": 25,
     "createdAt": "2018-02-09T22:55:56Z",
-    "checkedAt": "2026-10-10T12:34:34.290Z",
+    "checkedAt": "2026-10-18T11:07:57.602Z",
     "source": "https://github.com/papis"
   },
   "mufeedvh": {
@@ -2424,10 +2424,10 @@
     "bio": "co-founder/ceo @winfunc (YC S24)",
     "location": "sf 🌉 | kerala 🌴",
     "website": "mufeedvh.com",
-    "followers": 1234,
+    "followers": 1237,
     "publicRepos": 43,
     "createdAt": "2017-03-05T10:01:41Z",
-    "checkedAt": "2026-10-10T12:34:34.679Z",
+    "checkedAt": "2026-10-18T11:07:58.145Z",
     "source": "https://github.com/mufeedvh"
   },
   "can4hou6joeng4": {
@@ -2437,10 +2437,10 @@
     "bio": "Developer · Guangzhou",
     "location": "Guangzhou Guangdong",
     "website": "https://bobochang.cn",
-    "followers": 27,
-    "publicRepos": 16,
+    "followers": 29,
+    "publicRepos": 19,
     "createdAt": "2020-06-05T01:13:35Z",
-    "checkedAt": "2026-10-10T12:34:34.990Z",
+    "checkedAt": "2026-10-18T11:07:58.681Z",
     "source": "https://github.com/can4hou6joeng4"
   },
   "brocode": {
@@ -2453,7 +2453,7 @@
     "followers": 74,
     "publicRepos": 27,
     "createdAt": "2016-01-08T15:15:49Z",
-    "checkedAt": "2026-10-10T12:34:35.330Z",
+    "checkedAt": "2026-10-18T11:07:59.139Z",
     "source": "https://github.com/brocode"
   },
   "davidanson": {
@@ -2463,10 +2463,10 @@
     "bio": "I work at Microsoft where I've helped build client, server, and web applications. I contribute to open-source software.",
     "location": null,
     "website": "https://dlaa.me",
-    "followers": 756,
+    "followers": 758,
     "publicRepos": 37,
     "createdAt": "2012-06-07T19:59:17Z",
-    "checkedAt": "2026-10-10T12:34:35.633Z",
+    "checkedAt": "2026-10-18T11:07:59.626Z",
     "source": "https://github.com/DavidAnson"
   },
   "mozilla": {
@@ -2476,10 +2476,10 @@
     "bio": "This technology could fall into the right hands.",
     "location": "Mountain View, California",
     "website": "https://www.mozilla.org/",
-    "followers": 10889,
+    "followers": 10899,
     "publicRepos": 2576,
     "createdAt": "2009-09-26T08:22:18Z",
-    "checkedAt": "2026-10-10T12:34:35.934Z",
+    "checkedAt": "2026-10-18T11:08:00.062Z",
     "source": "https://github.com/mozilla"
   },
   "jeffbski": {
@@ -2492,7 +2492,7 @@
     "followers": 231,
     "publicRepos": 134,
     "createdAt": "2008-04-07T21:17:30Z",
-    "checkedAt": "2026-10-10T12:34:36.288Z",
+    "checkedAt": "2026-10-18T11:08:00.594Z",
     "source": "https://github.com/jeffbski"
   },
   "jacob-bd": {
@@ -2502,10 +2502,10 @@
     "bio": "I am learning to code with AI. Cursor, Claude, v0, and Replit are my best dev buddies. ",
     "location": "Toronto, ON, Canada",
     "website": "https://t.me/genaispot",
-    "followers": 392,
+    "followers": 396,
     "publicRepos": 20,
     "createdAt": "2019-02-14T18:22:29Z",
-    "checkedAt": "2026-10-10T12:34:36.734Z",
+    "checkedAt": "2026-10-18T11:08:01.143Z",
     "source": "https://github.com/jacob-bd"
   },
   "tox-dev": {
@@ -2515,10 +2515,10 @@
     "bio": "testing out of the box",
     "location": "United Kingdom",
     "website": "https://tox.wiki",
-    "followers": 147,
+    "followers": 148,
     "publicRepos": 49,
     "createdAt": "2016-07-07T21:19:53Z",
-    "checkedAt": "2026-10-10T12:34:37.029Z",
+    "checkedAt": "2026-10-18T11:08:01.579Z",
     "source": "https://github.com/tox-dev"
   },
   "openosint": {
@@ -2528,10 +2528,10 @@
     "bio": "AI-powered OSINT agent for the terminal. Investigate emails, usernames, domains and more using Claude, GPT-5 or local models.",
     "location": "Italy",
     "website": "openosint.tech",
-    "followers": 68,
+    "followers": 70,
     "publicRepos": 1,
     "createdAt": "2026-05-05T15:37:35Z",
-    "checkedAt": "2026-10-10T12:34:37.349Z",
+    "checkedAt": "2026-10-18T11:08:02.018Z",
     "source": "https://github.com/OpenOSINT"
   },
   "rorkai": {
@@ -2541,23 +2541,23 @@
     "bio": null,
     "location": "San Francisco, CA",
     "website": "https://rork.com",
-    "followers": 222,
+    "followers": 225,
     "publicRepos": 27,
     "createdAt": "2024-09-13T14:31:27Z",
-    "checkedAt": "2026-10-10T12:34:37.614Z",
+    "checkedAt": "2026-10-18T11:08:02.483Z",
     "source": "https://github.com/rorkai"
   },
   "q00": {
     "login": "Q00",
     "name": "Q00",
     "type": "User",
-    "bio": "SNUT adjunct professor  |                               \r\nouroboros lead                 |                           \r\n@zep-us Tech Lead\r\n\r\n",
+    "bio": "SNUT adjunct professor  |                               \r\nouroboros lead                 \r\n\r\n",
     "location": "seoul",
     "website": "https://wpti.dev",
-    "followers": 672,
+    "followers": 674,
     "publicRepos": 174,
     "createdAt": "2017-08-23T02:01:51Z",
-    "checkedAt": "2026-10-10T12:34:38.062Z",
+    "checkedAt": "2026-10-18T11:08:02.952Z",
     "source": "https://github.com/Q00"
   },
   "mindmuxai": {
@@ -2567,10 +2567,10 @@
     "bio": "Your project remembers. The project brain for builders and agents.",
     "location": null,
     "website": "https://mindmux.ai",
-    "followers": 16,
+    "followers": 17,
     "publicRepos": 5,
     "createdAt": "2026-01-08T03:10:33Z",
-    "checkedAt": "2026-10-10T12:34:38.390Z",
+    "checkedAt": "2026-10-18T11:08:03.420Z",
     "source": "https://github.com/mindmuxai"
   },
   "astronomer": {
@@ -2580,10 +2580,10 @@
     "bio": "Modern Data Orchestration, powered by Apache Airflow",
     "location": "Globally distributed",
     "website": "https://astronomer.io",
-    "followers": 822,
-    "publicRepos": 361,
+    "followers": 824,
+    "publicRepos": 362,
     "createdAt": "2015-05-14T18:05:00Z",
-    "checkedAt": "2026-10-10T12:34:38.703Z",
+    "checkedAt": "2026-10-18T11:08:03.896Z",
     "source": "https://github.com/astronomer"
   },
   "wez": {
@@ -2593,10 +2593,10 @@
     "bio": null,
     "location": "UK",
     "website": "https://wezfurlong.org",
-    "followers": 3925,
+    "followers": 3937,
     "publicRepos": 133,
     "createdAt": "2009-08-21T05:08:07Z",
-    "checkedAt": "2026-10-10T12:34:39.039Z",
+    "checkedAt": "2026-10-18T11:08:04.403Z",
     "source": "https://github.com/wez"
   },
   "letsfg": {
@@ -2609,7 +2609,7 @@
     "followers": 12,
     "publicRepos": 1,
     "createdAt": "2025-07-09T09:35:10Z",
-    "checkedAt": "2026-10-10T12:34:39.451Z",
+    "checkedAt": "2026-10-18T11:08:04.895Z",
     "source": "https://github.com/LetsFG"
   },
   "auriti-labs": {
@@ -2622,7 +2622,7 @@
     "followers": 16,
     "publicRepos": 7,
     "createdAt": "2026-02-25T08:14:16Z",
-    "checkedAt": "2026-10-10T12:34:39.885Z",
+    "checkedAt": "2026-10-18T11:08:05.427Z",
     "source": "https://github.com/Auriti-Labs"
   },
   "epistates": {
@@ -2635,7 +2635,7 @@
     "followers": 19,
     "publicRepos": 30,
     "createdAt": "2025-08-10T04:34:10Z",
-    "checkedAt": "2026-10-10T12:34:40.204Z",
+    "checkedAt": "2026-10-18T11:08:05.936Z",
     "source": "https://github.com/Epistates"
   },
   "git-bahn": {
@@ -2648,7 +2648,7 @@
     "followers": 1,
     "publicRepos": 3,
     "createdAt": "2025-12-20T19:44:28Z",
-    "checkedAt": "2026-10-10T12:34:40.661Z",
+    "checkedAt": "2026-10-18T11:08:06.515Z",
     "source": "https://github.com/git-bahn"
   },
   "kislyuk": {
@@ -2658,10 +2658,10 @@
     "bio": "Software engineer in AI/ML and genomics",
     "location": "San Francisco, CA",
     "website": "https://kislyuk.com/",
-    "followers": 384,
+    "followers": 383,
     "publicRepos": 133,
     "createdAt": "2011-06-20T15:37:14Z",
-    "checkedAt": "2026-10-10T12:34:40.993Z",
+    "checkedAt": "2026-10-18T11:08:06.970Z",
     "source": "https://github.com/kislyuk"
   },
   "rahiel": {
@@ -2674,7 +2674,7 @@
     "followers": 91,
     "publicRepos": 18,
     "createdAt": "2014-03-03T12:57:06Z",
-    "checkedAt": "2026-10-10T12:34:41.571Z",
+    "checkedAt": "2026-10-18T11:08:07.499Z",
     "source": "https://github.com/rahiel"
   },
   "cookpete": {
@@ -3672,10 +3672,10 @@
     "bio": "We create tools for humans and agents",
     "location": null,
     "website": "https://nostacks.xyz",
-    "followers": 2,
-    "publicRepos": 2,
+    "followers": 3,
+    "publicRepos": 3,
     "createdAt": "2026-07-23T10:35:40Z",
-    "checkedAt": "2026-10-10T12:34:42.025Z",
+    "checkedAt": "2026-10-18T11:08:07.931Z",
     "source": "https://github.com/nostacks"
   },
   "alexpovel": {
