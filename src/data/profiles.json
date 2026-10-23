@@ -6,10 +6,10 @@
     "bio": null,
     "location": null,
     "website": "https://cli.github.com/",
-    "followers": 1857,
+    "followers": 1873,
     "publicRepos": 10,
     "createdAt": "2020-01-09T18:03:11Z",
-    "checkedAt": "2026-10-16T11:26:59.596Z",
+    "checkedAt": "2026-10-23T11:42:29.263Z",
     "source": "https://github.com/cli"
   },
   "vercel-labs": {
@@ -19,10 +19,10 @@
     "bio": "Develop. Preview. Ship. Creators of Next.js.",
     "location": null,
     "website": "https://vercel.com",
-    "followers": 9538,
-    "publicRepos": 386,
+    "followers": 9684,
+    "publicRepos": 389,
     "createdAt": "2022-07-01T17:46:06Z",
-    "checkedAt": "2026-10-16T11:26:59.839Z",
+    "checkedAt": "2026-10-23T11:42:29.436Z",
     "source": "https://github.com/vercel-labs"
   },
   "burntsushi": {
@@ -32,10 +32,10 @@
     "bio": "I love to code.",
     "location": "Marlborough, MA",
     "website": "https://burntsushi.net",
-    "followers": 13386,
+    "followers": 13422,
     "publicRepos": 182,
     "createdAt": "2010-10-27T16:54:30Z",
-    "checkedAt": "2026-10-16T11:27:00.261Z",
+    "checkedAt": "2026-10-23T11:42:29.867Z",
     "source": "https://github.com/BurntSushi"
   },
   "jqlang": {
@@ -45,10 +45,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 392,
+    "followers": 411,
     "publicRepos": 5,
     "createdAt": "2022-05-02T22:42:30Z",
-    "checkedAt": "2026-10-16T11:27:00.505Z",
+    "checkedAt": "2026-10-23T11:42:30.146Z",
     "source": "https://github.com/jqlang"
   },
   "openai": {
@@ -58,10 +58,10 @@
     "bio": null,
     "location": null,
     "website": "https://openai.com/",
-    "followers": 138764,
-    "publicRepos": 276,
+    "followers": 139795,
+    "publicRepos": 278,
     "createdAt": "2015-10-03T19:34:05Z",
-    "checkedAt": "2026-10-16T11:27:00.737Z",
+    "checkedAt": "2026-10-23T11:42:30.355Z",
     "source": "https://github.com/openai"
   },
   "google-gemini": {
@@ -71,10 +71,10 @@
     "bio": "Get started building with the Gemini API",
     "location": "United States of America",
     "website": "https://ai.google.dev/gemini-api/docs",
-    "followers": 15643,
+    "followers": 15724,
     "publicRepos": 50,
     "createdAt": "2024-02-29T23:57:46Z",
-    "checkedAt": "2026-10-16T11:27:00.972Z",
+    "checkedAt": "2026-10-23T11:42:30.754Z",
     "source": "https://github.com/google-gemini"
   },
   "aider-ai": {
@@ -84,10 +84,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://aider.chat/",
-    "followers": 899,
+    "followers": 911,
     "publicRepos": 7,
     "createdAt": "2024-06-08T17:48:56Z",
-    "checkedAt": "2026-10-16T11:27:01.277Z",
+    "checkedAt": "2026-10-23T11:42:31.302Z",
     "source": "https://github.com/Aider-AI"
   },
   "anomalyco": {
@@ -97,10 +97,10 @@
     "bio": "For whatever you build.",
     "location": null,
     "website": "https://anoma.ly",
-    "followers": 6466,
-    "publicRepos": 84,
+    "followers": 6653,
+    "publicRepos": 85,
     "createdAt": "2020-06-07T19:32:58Z",
-    "checkedAt": "2026-10-16T11:27:01.552Z",
+    "checkedAt": "2026-10-23T11:42:31.591Z",
     "source": "https://github.com/anomalyco"
   },
   "simonw": {
@@ -110,10 +110,10 @@
     "bio": null,
     "location": "Half Moon Bay, California",
     "website": "https://simonwillison.net/",
-    "followers": 17297,
-    "publicRepos": 993,
+    "followers": 17431,
+    "publicRepos": 995,
     "createdAt": "2008-05-07T17:22:14Z",
-    "checkedAt": "2026-10-16T11:27:01.967Z",
+    "checkedAt": "2026-10-23T11:42:31.857Z",
     "source": "https://github.com/simonw"
   },
   "microsoft": {
@@ -123,10 +123,10 @@
     "bio": "Open source projects and samples from Microsoft",
     "location": "Redmond, WA",
     "website": "https://opensource.microsoft.com",
-    "followers": 131850,
-    "publicRepos": 8375,
+    "followers": 132392,
+    "publicRepos": 8397,
     "createdAt": "2013-12-10T19:06:48Z",
-    "checkedAt": "2026-10-16T11:27:02.298Z",
+    "checkedAt": "2026-10-23T11:42:32.098Z",
     "source": "https://github.com/microsoft"
   },
   "browser-use": {
@@ -136,10 +136,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://browser-use.com",
-    "followers": 4645,
-    "publicRepos": 57,
+    "followers": 4672,
+    "publicRepos": 58,
     "createdAt": "2024-12-17T16:30:16Z",
-    "checkedAt": "2026-10-16T11:27:02.563Z",
+    "checkedAt": "2026-10-23T11:42:32.378Z",
     "source": "https://github.com/browser-use"
   },
   "git": {
@@ -149,10 +149,10 @@
     "bio": null,
     "location": null,
     "website": "https://git-scm.com",
-    "followers": 5595,
+    "followers": 5634,
     "publicRepos": 9,
     "createdAt": "2008-07-23T14:16:55Z",
-    "checkedAt": "2026-10-16T11:27:02.865Z",
+    "checkedAt": "2026-10-23T11:42:32.621Z",
     "source": "https://github.com/git"
   },
   "git-town": {
@@ -165,7 +165,7 @@
     "followers": 22,
     "publicRepos": 2,
     "createdAt": "2020-04-19T22:43:39Z",
-    "checkedAt": "2026-10-16T11:27:03.137Z",
+    "checkedAt": "2026-10-23T11:42:32.873Z",
     "source": "https://github.com/git-town"
   },
   "cloudflare": {
@@ -175,10 +175,10 @@
     "bio": null,
     "location": "San Francisco, London, Austin, Lisbon, Singapore",
     "website": "https://www.cloudflare.com",
-    "followers": 17711,
+    "followers": 18091,
     "publicRepos": 580,
     "createdAt": "2010-06-25T01:24:59Z",
-    "checkedAt": "2026-10-16T11:27:03.381Z",
+    "checkedAt": "2026-10-23T11:42:33.233Z",
     "source": "https://github.com/cloudflare"
   },
   "vercel": {
@@ -188,10 +188,10 @@
     "bio": "Agentic infrastructure for every app and agent.",
     "location": null,
     "website": "https://vercel.com",
-    "followers": 31604,
-    "publicRepos": 238,
+    "followers": 31745,
+    "publicRepos": 241,
     "createdAt": "2015-10-05T19:40:30Z",
-    "checkedAt": "2026-10-16T11:27:03.837Z",
+    "checkedAt": "2026-10-23T11:42:33.463Z",
     "source": "https://github.com/vercel"
   },
   "supabase": {
@@ -201,10 +201,10 @@
     "bio": "The Postgres Development Platform.",
     "location": "United States of America",
     "website": "https://supabase.com",
-    "followers": 12262,
-    "publicRepos": 174,
+    "followers": 12450,
+    "publicRepos": 176,
     "createdAt": "2019-08-24T09:21:56Z",
-    "checkedAt": "2026-10-16T11:27:04.132Z",
+    "checkedAt": "2026-10-23T11:42:33.725Z",
     "source": "https://github.com/supabase"
   },
   "docker": {
@@ -214,10 +214,10 @@
     "bio": "Docker helps developers bring their ideas to life by conquering the complexity of app development.",
     "location": "United States of America",
     "website": "https://www.docker.com",
-    "followers": 15724,
+    "followers": 15778,
     "publicRepos": 156,
     "createdAt": "2013-09-10T17:53:43Z",
-    "checkedAt": "2026-10-16T11:27:04.510Z",
+    "checkedAt": "2026-10-23T11:42:34.243Z",
     "source": "https://github.com/docker"
   },
   "kubernetes": {
@@ -227,10 +227,10 @@
     "bio": "Production-Grade Container Scheduling and Management",
     "location": null,
     "website": "https://kubernetes.io",
-    "followers": 14590,
-    "publicRepos": 80,
+    "followers": 14650,
+    "publicRepos": 81,
     "createdAt": "2015-08-03T17:55:43Z",
-    "checkedAt": "2026-10-16T11:27:04.791Z",
+    "checkedAt": "2026-10-23T11:42:34.482Z",
     "source": "https://github.com/kubernetes"
   },
   "sharkdp": {
@@ -240,10 +240,10 @@
     "bio": null,
     "location": "Stuttgart, Germany",
     "website": "https://david-peter.de/",
-    "followers": 8333,
+    "followers": 8361,
     "publicRepos": 122,
     "createdAt": "2013-04-20T11:07:58Z",
-    "checkedAt": "2026-10-16T11:27:05.329Z",
+    "checkedAt": "2026-10-23T11:42:34.823Z",
     "source": "https://github.com/sharkdp"
   },
   "ast-grep": {
@@ -253,10 +253,10 @@
     "bio": "A lightning fast code search/rewrite tool!",
     "location": null,
     "website": "https://ast-grep.github.io",
-    "followers": 166,
+    "followers": 168,
     "publicRepos": 16,
     "createdAt": "2022-09-20T17:31:26Z",
-    "checkedAt": "2026-10-16T11:27:05.656Z",
+    "checkedAt": "2026-10-23T11:42:34.997Z",
     "source": "https://github.com/ast-grep"
   },
   "boyter": {
@@ -269,7 +269,7 @@
     "followers": 760,
     "publicRepos": 107,
     "createdAt": "2011-02-11T03:53:40Z",
-    "checkedAt": "2026-10-16T11:27:06.079Z",
+    "checkedAt": "2026-10-23T11:42:35.254Z",
     "source": "https://github.com/boyter"
   },
   "mikefarah": {
@@ -279,10 +279,10 @@
     "bio": null,
     "location": "Melbourne, Australia",
     "website": "https://www.linkedin.com/in/mike-farah-b5a75b2?trk=hp-identity-name",
-    "followers": 274,
+    "followers": 275,
     "publicRepos": 18,
     "createdAt": "2011-10-25T22:18:17Z",
-    "checkedAt": "2026-10-16T11:27:06.536Z",
+    "checkedAt": "2026-10-23T11:42:35.867Z",
     "source": "https://github.com/mikefarah"
   },
   "httpie": {
@@ -292,10 +292,10 @@
     "bio": "Making APIs simple and intuitive for those building the tools, apps and technologies of our time. ",
     "location": null,
     "website": "https://httpie.io",
-    "followers": 2432,
+    "followers": 2436,
     "publicRepos": 15,
     "createdAt": "2016-12-08T11:43:15Z",
-    "checkedAt": "2026-10-16T11:27:06.835Z",
+    "checkedAt": "2026-10-23T11:42:36.253Z",
     "source": "https://github.com/httpie"
   },
   "curl": {
@@ -305,10 +305,10 @@
     "bio": "groks those URLs",
     "location": null,
     "website": "https://curl.se/",
-    "followers": 1464,
+    "followers": 1485,
     "publicRepos": 25,
     "createdAt": "2016-01-27T22:34:53Z",
-    "checkedAt": "2026-10-16T11:27:07.258Z",
+    "checkedAt": "2026-10-23T11:42:36.502Z",
     "source": "https://github.com/curl"
   },
   "astral-sh": {
@@ -318,10 +318,10 @@
     "bio": "High-performance developer tools for the Python ecosystem, from @OpenAI.",
     "location": "United States of America",
     "website": "https://astral.sh",
-    "followers": 10558,
+    "followers": 10641,
     "publicRepos": 95,
     "createdAt": "2022-10-17T02:12:50Z",
-    "checkedAt": "2026-10-16T11:27:07.637Z",
+    "checkedAt": "2026-10-23T11:42:36.664Z",
     "source": "https://github.com/astral-sh"
   },
   "pnpm": {
@@ -331,10 +331,10 @@
     "bio": "Fast, disk space efficient package manager",
     "location": null,
     "website": "https://pnpm.io",
-    "followers": 1043,
+    "followers": 1047,
     "publicRepos": 120,
     "createdAt": "2016-08-29T21:10:42Z",
-    "checkedAt": "2026-10-16T11:27:07.985Z",
+    "checkedAt": "2026-10-23T11:42:36.855Z",
     "source": "https://github.com/pnpm"
   },
   "oven-sh": {
@@ -344,10 +344,10 @@
     "bio": "The company behind Bun, the incredibly fast JavaScript runtime, bundler, transpiler and package manager.",
     "location": "United States of America",
     "website": "https://bun.com/",
-    "followers": 3827,
+    "followers": 3831,
     "publicRepos": 36,
     "createdAt": "2022-07-08T09:28:16Z",
-    "checkedAt": "2026-10-16T11:27:08.430Z",
+    "checkedAt": "2026-10-23T11:42:37.056Z",
     "source": "https://github.com/oven-sh"
   },
   "jdx": {
@@ -357,10 +357,10 @@
     "bio": null,
     "location": "Dallas, TX",
     "website": "https://jdx.dev",
-    "followers": 4370,
-    "publicRepos": 692,
+    "followers": 4397,
+    "publicRepos": 696,
     "createdAt": "2010-03-04T23:56:27Z",
-    "checkedAt": "2026-10-16T11:27:08.854Z",
+    "checkedAt": "2026-10-23T11:42:37.325Z",
     "source": "https://github.com/jdx"
   },
   "biomejs": {
@@ -370,10 +370,10 @@
     "bio": "Toolchain of the web",
     "location": null,
     "website": "https://biomejs.dev",
-    "followers": 690,
+    "followers": 691,
     "publicRepos": 20,
     "createdAt": "2023-07-21T14:24:32Z",
-    "checkedAt": "2026-10-16T11:27:09.291Z",
+    "checkedAt": "2026-10-23T11:42:37.698Z",
     "source": "https://github.com/biomejs"
   },
   "semgrep": {
@@ -383,10 +383,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://semgrep.dev",
-    "followers": 484,
-    "publicRepos": 166,
+    "followers": 493,
+    "publicRepos": 171,
     "createdAt": "2017-06-28T19:02:39Z",
-    "checkedAt": "2026-10-16T11:27:09.833Z",
+    "checkedAt": "2026-10-23T11:42:37.927Z",
     "source": "https://github.com/semgrep"
   },
   "gitleaks": {
@@ -396,10 +396,10 @@
     "bio": "Scanning code, past or present, for secrets",
     "location": "United States of America",
     "website": "https://gitleaks.io",
-    "followers": 391,
+    "followers": 400,
     "publicRepos": 6,
     "createdAt": "2021-09-09T12:50:22Z",
-    "checkedAt": "2026-10-16T11:27:10.109Z",
+    "checkedAt": "2026-10-23T11:42:38.196Z",
     "source": "https://github.com/gitleaks"
   },
   "rclone": {
@@ -409,10 +409,10 @@
     "bio": "Github organization for development of rclone and related projects",
     "location": null,
     "website": "https://rclone.org",
-    "followers": 764,
+    "followers": 768,
     "publicRepos": 27,
     "createdAt": "2017-01-05T12:51:15Z",
-    "checkedAt": "2026-10-16T11:27:10.535Z",
+    "checkedAt": "2026-10-23T11:42:38.414Z",
     "source": "https://github.com/rclone"
   },
   "jgm": {
@@ -422,10 +422,10 @@
     "bio": null,
     "location": "Berkeley, CA",
     "website": null,
-    "followers": 3371,
+    "followers": 3373,
     "publicRepos": 103,
     "createdAt": "2008-03-13T21:28:32Z",
-    "checkedAt": "2026-10-16T11:27:10.790Z",
+    "checkedAt": "2026-10-23T11:42:38.588Z",
     "source": "https://github.com/jgm"
   },
   "charmbracelet": {
@@ -435,10 +435,10 @@
     "bio": "We make the command line glamorous.",
     "location": "/dev/tty",
     "website": "https://charm.land/",
-    "followers": 16441,
+    "followers": 16484,
     "publicRepos": 57,
     "createdAt": "2019-11-04T23:27:11Z",
-    "checkedAt": "2026-10-16T11:27:11.179Z",
+    "checkedAt": "2026-10-23T11:42:38.915Z",
     "source": "https://github.com/charmbracelet"
   },
   "firecrawl": {
@@ -448,10 +448,10 @@
     "bio": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
     "location": "United States of America",
     "website": "firecrawl.dev",
-    "followers": 3794,
-    "publicRepos": 116,
+    "followers": 3826,
+    "publicRepos": 118,
     "createdAt": "2023-05-30T17:52:44Z",
-    "checkedAt": "2026-10-16T11:27:11.431Z",
+    "checkedAt": "2026-10-23T11:42:39.169Z",
     "source": "https://github.com/firecrawl"
   },
   "openclaw": {
@@ -461,10 +461,10 @@
     "bio": "Your personal, open source AI assistant.",
     "location": null,
     "website": "https://openclaw.ai",
-    "followers": 24077,
-    "publicRepos": 96,
+    "followers": 24158,
+    "publicRepos": 97,
     "createdAt": "2026-01-04T02:59:23Z",
-    "checkedAt": "2026-10-16T11:27:11.719Z",
+    "checkedAt": "2026-10-23T11:42:39.329Z",
     "source": "https://github.com/openclaw"
   },
   "tobi": {
@@ -474,10 +474,10 @@
     "bio": null,
     "location": "Ottawa, Canada",
     "website": "tobi.lutke.com",
-    "followers": 6389,
-    "publicRepos": 122,
+    "followers": 6433,
+    "publicRepos": 127,
     "createdAt": "2008-02-17T20:58:38Z",
-    "checkedAt": "2026-10-16T11:27:12.006Z",
+    "checkedAt": "2026-10-23T11:42:39.678Z",
     "source": "https://github.com/tobi"
   },
   "yamadashy": {
@@ -490,7 +490,7 @@
     "followers": 528,
     "publicRepos": 54,
     "createdAt": "2013-07-16T05:55:41Z",
-    "checkedAt": "2026-10-16T11:27:12.308Z",
+    "checkedAt": "2026-10-23T11:42:40.100Z",
     "source": "https://github.com/yamadashy"
   },
   "steipete": {
@@ -500,10 +500,10 @@
     "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
     "location": "London / San Francisco",
     "website": "http://steipete.me",
-    "followers": 53290,
-    "publicRepos": 224,
+    "followers": 53359,
+    "publicRepos": 226,
     "createdAt": "2009-02-27T08:34:22Z",
-    "checkedAt": "2026-10-16T11:27:12.698Z",
+    "checkedAt": "2026-10-23T11:42:40.258Z",
     "source": "https://github.com/steipete"
   },
   "googleworkspace": {
@@ -513,10 +513,10 @@
     "bio": "Developer samples for Google Workspace APIs ",
     "location": "☁️",
     "website": "https://developers.google.com/workspace",
-    "followers": 5500,
+    "followers": 5525,
     "publicRepos": 60,
     "createdAt": "2013-02-26T19:20:34Z",
-    "checkedAt": "2026-10-16T11:27:13.032Z",
+    "checkedAt": "2026-10-23T11:42:40.523Z",
     "source": "https://github.com/googleworkspace"
   },
   "schpet": {
@@ -529,7 +529,7 @@
     "followers": 65,
     "publicRepos": 106,
     "createdAt": "2011-07-17T22:16:18Z",
-    "checkedAt": "2026-10-16T11:27:13.440Z",
+    "checkedAt": "2026-10-23T11:42:40.812Z",
     "source": "https://github.com/schpet"
   },
   "gastownhall": {
@@ -539,10 +539,10 @@
     "bio": "Building community for Gas Town, your AI agent orchestrator.",
     "location": "United States of America",
     "website": "https://gastownhall.ai",
-    "followers": 610,
+    "followers": 619,
     "publicRepos": 26,
     "createdAt": "2026-01-19T19:46:26Z",
-    "checkedAt": "2026-10-16T11:27:13.738Z",
+    "checkedAt": "2026-10-23T11:42:40.982Z",
     "source": "https://github.com/gastownhall"
   },
   "pimalaya": {
@@ -552,10 +552,10 @@
     "bio": "Pimalaya is an ambitious project that aims to improve open-source tools related to Personal Information Management.",
     "location": null,
     "website": "https://pimalaya.org",
-    "followers": 312,
+    "followers": 316,
     "publicRepos": 69,
     "createdAt": "2024-08-25T21:44:11Z",
-    "checkedAt": "2026-10-16T11:27:14.075Z",
+    "checkedAt": "2026-10-23T11:42:41.168Z",
     "source": "https://github.com/pimalaya"
   },
   "railwayapp": {
@@ -565,10 +565,10 @@
     "bio": "The all-in-one intelligent cloud provider",
     "location": "Cloud",
     "website": "https://railway.com",
-    "followers": 4302,
+    "followers": 4331,
     "publicRepos": 52,
     "createdAt": "2020-06-10T06:32:12Z",
-    "checkedAt": "2026-10-16T11:27:14.442Z",
+    "checkedAt": "2026-10-23T11:42:41.449Z",
     "source": "https://github.com/railwayapp"
   },
   "aws": {
@@ -591,10 +591,10 @@
     "bio": "APIs, SDKs and open source projects from Microsoft Azure",
     "location": "United States of America",
     "website": "https://docs.microsoft.com/en-us/azure/",
-    "followers": 15490,
-    "publicRepos": 2754,
+    "followers": 15516,
+    "publicRepos": 2755,
     "createdAt": "2014-03-03T22:17:42Z",
-    "checkedAt": "2026-10-16T11:27:14.799Z",
+    "checkedAt": "2026-10-23T11:42:41.655Z",
     "source": "https://github.com/Azure"
   },
   "digitalocean": {
@@ -604,10 +604,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://digitalocean.com",
-    "followers": 2902,
-    "publicRepos": 367,
+    "followers": 2909,
+    "publicRepos": 368,
     "createdAt": "2013-06-08T21:05:06Z",
-    "checkedAt": "2026-10-16T11:27:15.221Z",
+    "checkedAt": "2026-10-23T11:42:41.947Z",
     "source": "https://github.com/digitalocean"
   },
   "hetznercloud": {
@@ -617,10 +617,10 @@
     "bio": "Tools and libraries for Hetzner Cloud",
     "location": "Germany",
     "website": "https://console.hetzner.com/",
-    "followers": 846,
+    "followers": 848,
     "publicRepos": 33,
     "createdAt": "2016-09-12T17:07:15Z",
-    "checkedAt": "2026-10-16T11:27:15.582Z",
+    "checkedAt": "2026-10-23T11:42:42.332Z",
     "source": "https://github.com/hetznercloud"
   },
   "scaleway": {
@@ -631,9 +631,9 @@
     "location": "Paris, France",
     "website": "https://scaleway.com",
     "followers": 330,
-    "publicRepos": 133,
+    "publicRepos": 134,
     "createdAt": "2013-08-07T21:43:43Z",
-    "checkedAt": "2026-10-16T11:27:15.884Z",
+    "checkedAt": "2026-10-23T11:42:42.644Z",
     "source": "https://github.com/scaleway"
   },
   "linode": {
@@ -643,10 +643,10 @@
     "bio": null,
     "location": "Philadelphia, PA",
     "website": "https://www.linode.com",
-    "followers": 730,
+    "followers": 733,
     "publicRepos": 118,
     "createdAt": "2013-08-07T18:11:55Z",
-    "checkedAt": "2026-10-16T11:27:16.230Z",
+    "checkedAt": "2026-10-23T11:42:42.910Z",
     "source": "https://github.com/linode"
   },
   "ovh": {
@@ -656,10 +656,10 @@
     "bio": null,
     "location": null,
     "website": "https://www.ovhcloud.com",
-    "followers": 1664,
+    "followers": 1685,
     "publicRepos": 179,
     "createdAt": "2012-05-02T10:26:41Z",
-    "checkedAt": "2026-10-16T11:27:16.479Z",
+    "checkedAt": "2026-10-23T11:42:43.075Z",
     "source": "https://github.com/ovh"
   },
   "netlify": {
@@ -669,10 +669,10 @@
     "bio": "Build with AI or code, deploy instantly. One platform with everything you need to make real apps live.",
     "location": "San Francisco",
     "website": "https://www.netlify.com",
-    "followers": 15502,
+    "followers": 15607,
     "publicRepos": 380,
     "createdAt": "2014-06-15T06:49:35Z",
-    "checkedAt": "2026-10-16T11:27:16.728Z",
+    "checkedAt": "2026-10-23T11:42:43.270Z",
     "source": "https://github.com/netlify"
   },
   "render-oss": {
@@ -682,10 +682,10 @@
     "bio": "Render's Public Repos",
     "location": "United States of America",
     "website": "https://render.com",
-    "followers": 221,
+    "followers": 225,
     "publicRepos": 17,
     "createdAt": "2022-09-20T23:19:15Z",
-    "checkedAt": "2026-10-16T11:27:17.022Z",
+    "checkedAt": "2026-10-23T11:42:43.552Z",
     "source": "https://github.com/render-oss"
   },
   "firebase": {
@@ -695,10 +695,10 @@
     "bio": null,
     "location": "San Francisco, CA",
     "website": "firebase.google.com",
-    "followers": 7408,
+    "followers": 7416,
     "publicRepos": 103,
     "createdAt": "2012-01-16T21:44:16Z",
-    "checkedAt": "2026-10-16T11:27:17.382Z",
+    "checkedAt": "2026-10-23T11:42:43.854Z",
     "source": "https://github.com/firebase"
   },
   "neondatabase": {
@@ -708,10 +708,10 @@
     "bio": null,
     "location": null,
     "website": "https://neon.tech",
-    "followers": 1810,
+    "followers": 1862,
     "publicRepos": 243,
     "createdAt": "2021-01-19T17:40:35Z",
-    "checkedAt": "2026-10-16T11:27:17.753Z",
+    "checkedAt": "2026-10-23T11:42:44.268Z",
     "source": "https://github.com/neondatabase"
   },
   "elastic": {
@@ -721,10 +721,10 @@
     "bio": null,
     "location": null,
     "website": "https://www.elastic.co/",
-    "followers": 5635,
+    "followers": 5663,
     "publicRepos": 967,
     "createdAt": "2014-02-23T17:48:57Z",
-    "checkedAt": "2026-10-16T11:27:18.188Z",
+    "checkedAt": "2026-10-23T11:42:44.480Z",
     "source": "https://github.com/elastic"
   },
   "stripe": {
@@ -734,10 +734,10 @@
     "bio": null,
     "location": "San Francisco, CA",
     "website": "https://stripe.dev",
-    "followers": 3643,
+    "followers": 3653,
     "publicRepos": 101,
     "createdAt": "2011-06-17T15:42:37Z",
-    "checkedAt": "2026-10-16T11:27:18.607Z",
+    "checkedAt": "2026-10-23T11:42:44.883Z",
     "source": "https://github.com/stripe"
   },
   "wp-cli": {
@@ -750,7 +750,7 @@
     "followers": 218,
     "publicRepos": 67,
     "createdAt": "2012-03-24T10:42:59Z",
-    "checkedAt": "2026-10-16T11:27:18.901Z",
+    "checkedAt": "2026-10-23T11:42:45.164Z",
     "source": "https://github.com/wp-cli"
   },
   "shopify": {
@@ -760,10 +760,10 @@
     "bio": null,
     "location": "The Internet",
     "website": "https://shopify.engineering/",
-    "followers": 8697,
-    "publicRepos": 1234,
+    "followers": 8713,
+    "publicRepos": 1235,
     "createdAt": "2008-04-21T18:02:10Z",
-    "checkedAt": "2026-10-16T11:27:19.270Z",
+    "checkedAt": "2026-10-23T11:42:45.433Z",
     "source": "https://github.com/Shopify"
   },
   "salesforcecli": {
@@ -773,10 +773,10 @@
     "bio": "The Salesforce CLI is a collection of command line interfaces and tools that simplify development and build automation when working with your Salesforce org",
     "location": null,
     "website": "https://developer.salesforce.com/tools/salesforcecli",
-    "followers": 273,
+    "followers": 274,
     "publicRepos": 77,
     "createdAt": "2020-01-22T17:17:16Z",
-    "checkedAt": "2026-10-16T11:27:19.514Z",
+    "checkedAt": "2026-10-23T11:42:45.733Z",
     "source": "https://github.com/salesforcecli"
   },
   "pnp": {
@@ -786,10 +786,10 @@
     "bio": "Microsoft 365 & Power Platform Community open-source projects and samples",
     "location": "Interweb",
     "website": "http://aka.ms/community/home",
-    "followers": 1916,
+    "followers": 1921,
     "publicRepos": 125,
     "createdAt": "2017-08-29T13:57:13Z",
-    "checkedAt": "2026-10-16T11:27:19.915Z",
+    "checkedAt": "2026-10-23T11:42:46.077Z",
     "source": "https://github.com/pnp"
   },
   "twilio": {
@@ -799,10 +799,10 @@
     "bio": null,
     "location": "San Francisco",
     "website": "http://www.twilio.com",
-    "followers": 981,
+    "followers": 984,
     "publicRepos": 240,
     "createdAt": "2009-07-27T17:04:49Z",
-    "checkedAt": "2026-10-16T11:27:20.293Z",
+    "checkedAt": "2026-10-23T11:42:46.319Z",
     "source": "https://github.com/twilio"
   },
   "algolia": {
@@ -812,10 +812,10 @@
     "bio": "Open source tools for building search. Learn more at community.algolia.com",
     "location": "United States of America",
     "website": "https://www.algolia.com",
-    "followers": 864,
+    "followers": 868,
     "publicRepos": 548,
     "createdAt": "2012-07-24T14:07:23Z",
-    "checkedAt": "2026-10-16T11:27:20.600Z",
+    "checkedAt": "2026-10-23T11:42:46.581Z",
     "source": "https://github.com/algolia"
   },
   "contentful": {
@@ -825,10 +825,10 @@
     "bio": "The Composable Content Platform ✨ Our API-first technology empowers builders to connect, create, and extend content with ease delivering impactful experiences.",
     "location": null,
     "website": "https://www.contentful.com",
-    "followers": 813,
+    "followers": 814,
     "publicRepos": 272,
     "createdAt": "2010-11-08T10:03:41Z",
-    "checkedAt": "2026-10-16T11:27:20.914Z",
+    "checkedAt": "2026-10-23T11:42:46.910Z",
     "source": "https://github.com/contentful"
   },
   "sanity-io": {
@@ -838,10 +838,10 @@
     "bio": "A fully customizable all-code backend for content-driven websites and apps. Get started for free.",
     "location": "San Francisco / Oslo",
     "website": "https://www.sanity.io/",
-    "followers": 1422,
+    "followers": 1426,
     "publicRepos": 367,
     "createdAt": "2016-02-11T12:41:19Z",
-    "checkedAt": "2026-10-16T11:27:21.382Z",
+    "checkedAt": "2026-10-23T11:42:47.093Z",
     "source": "https://github.com/sanity-io"
   },
   "podman-container-tools": {
@@ -851,10 +851,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 155,
+    "followers": 164,
     "publicRepos": 13,
     "createdAt": "2026-04-20T15:10:12Z",
-    "checkedAt": "2026-10-16T11:27:21.665Z",
+    "checkedAt": "2026-10-23T11:42:47.277Z",
     "source": "https://github.com/podman-container-tools"
   },
   "helm": {
@@ -864,10 +864,10 @@
     "bio": "The package manager for Kubernetes",
     "location": null,
     "website": "https://helm.sh",
-    "followers": 1199,
+    "followers": 1206,
     "publicRepos": 36,
     "createdAt": "2015-11-15T18:03:39Z",
-    "checkedAt": "2026-10-16T11:27:21.918Z",
+    "checkedAt": "2026-10-23T11:42:47.519Z",
     "source": "https://github.com/helm"
   },
   "opentofu": {
@@ -877,10 +877,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://opentofu.org",
-    "followers": 3802,
+    "followers": 3804,
     "publicRepos": 114,
     "createdAt": "2023-08-11T22:55:07Z",
-    "checkedAt": "2026-10-16T11:27:22.314Z",
+    "checkedAt": "2026-10-23T11:42:47.839Z",
     "source": "https://github.com/opentofu"
   },
   "pulumi": {
@@ -890,10 +890,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://pulumi.com/",
-    "followers": 1326,
-    "publicRepos": 431,
+    "followers": 1327,
+    "publicRepos": 433,
     "createdAt": "2016-09-05T00:08:26Z",
-    "checkedAt": "2026-10-16T11:27:22.682Z",
+    "checkedAt": "2026-10-23T11:42:48.144Z",
     "source": "https://github.com/pulumi"
   },
   "ansible": {
@@ -903,10 +903,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://www.ansible.com/",
-    "followers": 3815,
-    "publicRepos": 307,
+    "followers": 3842,
+    "publicRepos": 308,
     "createdAt": "2012-03-06T14:55:51Z",
-    "checkedAt": "2026-10-16T11:27:22.938Z",
+    "checkedAt": "2026-10-23T11:42:48.629Z",
     "source": "https://github.com/ansible"
   },
   "argoproj": {
@@ -916,10 +916,10 @@
     "bio": "Get stuff done with Kubernetes!",
     "location": "@argoproj",
     "website": "https://argoproj.github.io/",
-    "followers": 4348,
+    "followers": 4358,
     "publicRepos": 38,
     "createdAt": "2017-07-18T17:41:31Z",
-    "checkedAt": "2026-10-16T11:27:23.274Z",
+    "checkedAt": "2026-10-23T11:42:48.896Z",
     "source": "https://github.com/argoproj"
   },
   "fluxcd": {
@@ -929,10 +929,10 @@
     "bio": "Open and extensible continuous delivery solution for Kubernetes",
     "location": null,
     "website": "https://fluxcd.io",
-    "followers": 920,
+    "followers": 922,
     "publicRepos": 51,
     "createdAt": "2019-06-24T10:08:50Z",
-    "checkedAt": "2026-10-16T11:27:23.661Z",
+    "checkedAt": "2026-10-23T11:42:49.212Z",
     "source": "https://github.com/fluxcd"
   },
   "kubernetes-sigs": {
@@ -942,10 +942,10 @@
     "bio": "Org for Kubernetes SIG-related work",
     "location": null,
     "website": null,
-    "followers": 4750,
+    "followers": 4762,
     "publicRepos": 210,
     "createdAt": "2018-01-31T21:47:56Z",
-    "checkedAt": "2026-10-16T11:27:24.028Z",
+    "checkedAt": "2026-10-23T11:42:49.462Z",
     "source": "https://github.com/kubernetes-sigs"
   },
   "getsops": {
@@ -955,10 +955,10 @@
     "bio": "Simple and flexible tool for managing secrets",
     "location": null,
     "website": "https://getsops.io",
-    "followers": 229,
+    "followers": 231,
     "publicRepos": 7,
     "createdAt": "2023-03-28T13:11:16Z",
-    "checkedAt": "2026-10-16T11:27:24.324Z",
+    "checkedAt": "2026-10-23T11:42:49.643Z",
     "source": "https://github.com/getsops"
   },
   "filosottile": {
@@ -968,10 +968,10 @@
     "bio": "Cryptogopher. @geomys founder. @recursecenter alum.\r\nRC F'13, F2'17.",
     "location": "Rome, Italy",
     "website": "https://filippo.io",
-    "followers": 9489,
+    "followers": 9515,
     "publicRepos": 132,
     "createdAt": "2011-11-28T13:06:49Z",
-    "checkedAt": "2026-10-16T11:27:24.621Z",
+    "checkedAt": "2026-10-23T11:42:49.908Z",
     "source": "https://github.com/FiloSottile"
   },
   "bitwarden": {
@@ -981,10 +981,10 @@
     "bio": "Open source security solutions for individuals, teams, and business organizations. Explore Password Manager, Secrets Manager, and passkey innovations.",
     "location": "Earth",
     "website": "https://bitwarden.com",
-    "followers": 11205,
+    "followers": 11262,
     "publicRepos": 69,
     "createdAt": "2015-11-23T23:43:05Z",
-    "checkedAt": "2026-10-16T11:27:24.913Z",
+    "checkedAt": "2026-10-23T11:42:50.087Z",
     "source": "https://github.com/bitwarden"
   },
   "dopplerhq": {
@@ -994,10 +994,10 @@
     "bio": "Doppler is the multi-cloud SecretOps Platform developers and security teams trust to provide secrets management at enterprise scale.",
     "location": "United States of America",
     "website": "https://www.doppler.com",
-    "followers": 1117,
+    "followers": 1121,
     "publicRepos": 29,
     "createdAt": "2017-11-27T07:45:39Z",
-    "checkedAt": "2026-10-16T11:27:25.317Z",
+    "checkedAt": "2026-10-23T11:42:50.562Z",
     "source": "https://github.com/DopplerHQ"
   },
   "infisical": {
@@ -1007,10 +1007,10 @@
     "bio": "Infisical is the open-source secrets management platform: Sync secrets across your team/infrastructure, prevent secret leaks, and manage internal PKI",
     "location": "United States of America",
     "website": "https://www.infisical.com",
-    "followers": 588,
-    "publicRepos": 78,
+    "followers": 591,
+    "publicRepos": 79,
     "createdAt": "2022-06-20T17:29:43Z",
-    "checkedAt": "2026-10-16T11:27:25.606Z",
+    "checkedAt": "2026-10-23T11:42:50.797Z",
     "source": "https://github.com/Infisical"
   },
   "aquasecurity": {
@@ -1020,10 +1020,10 @@
     "bio": "Next-generation cloud native security",
     "location": null,
     "website": "https://aquasec.com",
-    "followers": 2382,
+    "followers": 2393,
     "publicRepos": 215,
     "createdAt": "2015-06-07T11:19:41Z",
-    "checkedAt": "2026-10-16T11:27:25.880Z",
+    "checkedAt": "2026-10-23T11:42:50.990Z",
     "source": "https://github.com/aquasecurity"
   },
   "anchore": {
@@ -1033,10 +1033,10 @@
     "bio": null,
     "location": null,
     "website": "https://anchore.com/",
-    "followers": 602,
-    "publicRepos": 111,
+    "followers": 604,
+    "publicRepos": 112,
     "createdAt": "2015-12-08T13:35:16Z",
-    "checkedAt": "2026-10-16T11:27:26.194Z",
+    "checkedAt": "2026-10-23T11:42:51.421Z",
     "source": "https://github.com/anchore"
   },
   "trufflesecurity": {
@@ -1049,7 +1049,7 @@
     "followers": 866,
     "publicRepos": 53,
     "createdAt": "2021-02-17T22:06:28Z",
-    "checkedAt": "2026-10-16T11:27:26.431Z",
+    "checkedAt": "2026-10-23T11:42:51.670Z",
     "source": "https://github.com/trufflesecurity"
   },
   "sigstore": {
@@ -1059,10 +1059,10 @@
     "bio": "Software Supply Chain Security",
     "location": "United States of America",
     "website": "https://sigstore.dev",
-    "followers": 1773,
+    "followers": 1779,
     "publicRepos": 67,
     "createdAt": "2020-09-10T18:28:56Z",
-    "checkedAt": "2026-10-16T11:27:26.703Z",
+    "checkedAt": "2026-10-23T11:42:51.832Z",
     "source": "https://github.com/sigstore"
   },
   "snyk": {
@@ -1072,10 +1072,10 @@
     "bio": "Find and automatically fix vulnerabilities in your code, open source dependencies, containers, and infrastructure as code.",
     "location": "London/Israel",
     "website": "https://snyk.io/",
-    "followers": 2008,
+    "followers": 2013,
     "publicRepos": 240,
     "createdAt": "2015-06-18T22:58:59Z",
-    "checkedAt": "2026-10-16T11:27:27.059Z",
+    "checkedAt": "2026-10-23T11:42:52.132Z",
     "source": "https://github.com/snyk"
   },
   "getsentry": {
@@ -1085,10 +1085,10 @@
     "bio": "Real-time crash reporting for your web apps, mobile apps, and games.",
     "location": "United States of America",
     "website": "https://sentry.io",
-    "followers": 3270,
-    "publicRepos": 816,
+    "followers": 3293,
+    "publicRepos": 820,
     "createdAt": "2012-02-01T06:56:22Z",
-    "checkedAt": "2026-10-16T11:27:27.452Z",
+    "checkedAt": "2026-10-23T11:42:52.336Z",
     "source": "https://github.com/getsentry"
   },
   "grafana": {
@@ -1111,10 +1111,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 7080,
+    "followers": 7109,
     "publicRepos": 51,
     "createdAt": "2012-05-25T18:21:42Z",
-    "checkedAt": "2026-10-16T11:27:27.777Z",
+    "checkedAt": "2026-10-23T11:42:52.597Z",
     "source": "https://github.com/GoogleChrome"
   },
   "dequelabs": {
@@ -1124,10 +1124,10 @@
     "bio": "Build More Accessible Experiences Today",
     "location": "Ann Arbor",
     "website": "https://www.deque.com/",
-    "followers": 352,
-    "publicRepos": 120,
+    "followers": 353,
+    "publicRepos": 121,
     "createdAt": "2013-04-08T15:11:15Z",
-    "checkedAt": "2026-10-16T11:27:28.150Z",
+    "checkedAt": "2026-10-23T11:42:52.871Z",
     "source": "https://github.com/dequelabs"
   },
   "duckdb": {
@@ -1137,10 +1137,10 @@
     "bio": null,
     "location": "Amsterdam, The Netherlands",
     "website": "https://www.duckdb.org",
-    "followers": 1805,
+    "followers": 1845,
     "publicRepos": 96,
     "createdAt": "2021-04-06T13:31:08Z",
-    "checkedAt": "2026-10-16T11:27:28.491Z",
+    "checkedAt": "2026-10-23T11:42:53.017Z",
     "source": "https://github.com/duckdb"
   },
   "dbt-labs": {
@@ -1150,10 +1150,10 @@
     "bio": "dbt helps data teams work like software engineers—to ship trusted data, faster.",
     "location": "Philadelphia, PA",
     "website": "getdbt.com",
-    "followers": 2364,
+    "followers": 2371,
     "publicRepos": 421,
     "createdAt": "2016-04-08T01:29:30Z",
-    "checkedAt": "2026-10-16T11:27:28.786Z",
+    "checkedAt": "2026-10-23T11:42:53.321Z",
     "source": "https://github.com/dbt-labs"
   },
   "sqlfluff": {
@@ -1166,7 +1166,7 @@
     "followers": 135,
     "publicRepos": 7,
     "createdAt": "2020-09-25T08:50:28Z",
-    "checkedAt": "2026-10-16T11:27:29.087Z",
+    "checkedAt": "2026-10-23T11:42:53.622Z",
     "source": "https://github.com/sqlfluff"
   },
   "golang-migrate": {
@@ -1179,7 +1179,7 @@
     "followers": 91,
     "publicRepos": 2,
     "createdAt": "2018-01-19T09:30:27Z",
-    "checkedAt": "2026-10-16T11:27:29.302Z",
+    "checkedAt": "2026-10-23T11:42:53.957Z",
     "source": "https://github.com/golang-migrate"
   },
   "ariga": {
@@ -1189,10 +1189,10 @@
     "bio": "GitOps-native CI/CD for secure and compliant database management",
     "location": "United States of America",
     "website": "https://atlasgo.io",
-    "followers": 164,
+    "followers": 163,
     "publicRepos": 30,
     "createdAt": "2012-12-17T02:23:25Z",
-    "checkedAt": "2026-10-16T11:27:29.611Z",
+    "checkedAt": "2026-10-23T11:42:54.194Z",
     "source": "https://github.com/ariga"
   },
   "johnkerl": {
@@ -1202,10 +1202,10 @@
     "bio": "Who: Nerd/dad. What: () => {this}\r\n",
     "location": "Washington DC",
     "website": "https://linktr.ee/johnkerl",
-    "followers": 769,
+    "followers": 768,
     "publicRepos": 66,
     "createdAt": "2012-07-20T00:51:39Z",
-    "checkedAt": "2026-10-16T11:27:29.847Z",
+    "checkedAt": "2026-10-23T11:42:54.543Z",
     "source": "https://github.com/johnkerl"
   },
   "dolthub": {
@@ -1218,7 +1218,7 @@
     "followers": 390,
     "publicRepos": 178,
     "createdAt": "2018-08-06T22:10:46Z",
-    "checkedAt": "2026-10-16T11:27:30.106Z",
+    "checkedAt": "2026-10-23T11:42:54.800Z",
     "source": "https://github.com/dolthub"
   },
   "yt-dlp": {
@@ -1228,10 +1228,10 @@
     "bio": null,
     "location": null,
     "website": "https://discord.gg/H5MNcFW63r",
-    "followers": 4574,
-    "publicRepos": 14,
+    "followers": 4628,
+    "publicRepos": 15,
     "createdAt": "2021-02-24T14:52:59Z",
-    "checkedAt": "2026-10-16T11:27:30.400Z",
+    "checkedAt": "2026-10-23T11:42:55.008Z",
     "source": "https://github.com/yt-dlp"
   },
   "ffmpeg": {
@@ -1241,10 +1241,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 2350,
+    "followers": 2374,
     "publicRepos": 9,
     "createdAt": "2011-04-14T14:08:39Z",
-    "checkedAt": "2026-10-16T11:27:30.728Z",
+    "checkedAt": "2026-10-23T11:42:55.262Z",
     "source": "https://github.com/FFmpeg"
   },
   "imagemagick": {
@@ -1254,10 +1254,10 @@
     "bio": "© 1999 ImageMagick Studio LLC",
     "location": "Lost Springs, Wyoming 82224",
     "website": "https://imagemagick.org/",
-    "followers": 556,
+    "followers": 557,
     "publicRepos": 75,
     "createdAt": "2015-05-17T19:57:23Z",
-    "checkedAt": "2026-10-16T11:27:31.106Z",
+    "checkedAt": "2026-10-23T11:42:55.594Z",
     "source": "https://github.com/ImageMagick"
   },
   "tesseract-ocr": {
@@ -1267,10 +1267,10 @@
     "bio": "Tesseract OCR",
     "location": null,
     "website": "https://github.com/tesseract-ocr/",
-    "followers": 2833,
+    "followers": 2835,
     "publicRepos": 14,
     "createdAt": "2014-08-09T09:33:12Z",
-    "checkedAt": "2026-10-16T11:27:31.309Z",
+    "checkedAt": "2026-10-23T11:42:55.809Z",
     "source": "https://github.com/tesseract-ocr"
   },
   "ocrmypdf": {
@@ -1283,7 +1283,7 @@
     "followers": 226,
     "publicRepos": 4,
     "createdAt": "2021-12-12T23:15:05Z",
-    "checkedAt": "2026-10-16T11:27:31.681Z",
+    "checkedAt": "2026-10-23T11:42:56.008Z",
     "source": "https://github.com/ocrmypdf"
   },
   "qpdf": {
@@ -1296,7 +1296,7 @@
     "followers": 62,
     "publicRepos": 5,
     "createdAt": "2012-06-03T12:29:45Z",
-    "checkedAt": "2026-10-16T11:27:32.044Z",
+    "checkedAt": "2026-10-23T11:42:56.269Z",
     "source": "https://github.com/qpdf"
   },
   "restic": {
@@ -1306,10 +1306,10 @@
     "bio": null,
     "location": null,
     "website": "https://restic.net",
-    "followers": 340,
+    "followers": 342,
     "publicRepos": 13,
     "createdAt": "2014-12-04T10:51:46Z",
-    "checkedAt": "2026-10-16T11:27:32.612Z",
+    "checkedAt": "2026-10-23T11:42:56.441Z",
     "source": "https://github.com/restic"
   },
   "casey": {
@@ -1332,10 +1332,10 @@
     "bio": "We're on a mission to make integrating Philips Hue smart lighting easier than ever",
     "location": "France",
     "website": "https://www.openhue.io",
-    "followers": 51,
+    "followers": 53,
     "publicRepos": 6,
     "createdAt": "2023-10-02T09:25:16Z",
-    "checkedAt": "2026-10-16T11:27:33.121Z",
+    "checkedAt": "2026-10-23T11:42:56.810Z",
     "source": "https://github.com/openhue"
   },
   "public-clis": {
@@ -1345,10 +1345,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 110,
+    "followers": 113,
     "publicRepos": 4,
     "createdAt": "2026-03-20T09:26:08Z",
-    "checkedAt": "2026-10-16T11:27:33.469Z",
+    "checkedAt": "2026-10-23T11:42:56.977Z",
     "source": "https://github.com/public-clis"
   },
   "jackwener": {
@@ -1358,10 +1358,10 @@
     "bio": "Building OpenCLI & Maka & Raft.\r\nAI enthusiast! Love Open Source! PMC member & Committer of @apache Arrow & Datafusion & Doris\r\n",
     "location": "Hangzhou, China",
     "website": null,
-    "followers": 3122,
+    "followers": 3151,
     "publicRepos": 48,
     "createdAt": "2017-07-28T11:06:31Z",
-    "checkedAt": "2026-10-16T11:27:33.876Z",
+    "checkedAt": "2026-10-23T11:42:57.269Z",
     "source": "https://github.com/jackwener"
   },
   "yakitrak": {
@@ -1374,7 +1374,7 @@
     "followers": 30,
     "publicRepos": 11,
     "createdAt": "2015-10-15T19:39:41Z",
-    "checkedAt": "2026-10-16T11:27:34.233Z",
+    "checkedAt": "2026-10-23T11:42:57.605Z",
     "source": "https://github.com/Yakitrak"
   },
   "ankitpokhrel": {
@@ -1387,7 +1387,7 @@
     "followers": 291,
     "publicRepos": 19,
     "createdAt": "2012-09-17T18:30:54Z",
-    "checkedAt": "2026-10-16T11:27:34.729Z",
+    "checkedAt": "2026-10-23T11:42:57.879Z",
     "source": "https://github.com/ankitpokhrel"
   },
   "sachaos": {
@@ -1397,10 +1397,10 @@
     "bio": null,
     "location": "Tokyo",
     "website": null,
-    "followers": 329,
+    "followers": 330,
     "publicRepos": 135,
     "createdAt": "2013-12-06T08:45:53Z",
-    "checkedAt": "2026-10-16T11:27:35.220Z",
+    "checkedAt": "2026-10-23T11:42:58.054Z",
     "source": "https://github.com/sachaos"
   },
   "gothenburgbitfactory": {
@@ -1410,10 +1410,10 @@
     "bio": "Open source organization. The team bringing you Taskwarrior and Timewarrior, since 2006.",
     "location": null,
     "website": "https://gothenburgbitfactory.org/",
-    "followers": 299,
+    "followers": 301,
     "publicRepos": 32,
     "createdAt": "2018-02-03T09:56:34Z",
-    "checkedAt": "2026-10-16T11:27:35.579Z",
+    "checkedAt": "2026-10-23T11:42:58.217Z",
     "source": "https://github.com/GothenburgBitFactory"
   },
   "pimutils": {
@@ -1426,7 +1426,7 @@
     "followers": 88,
     "publicRepos": 7,
     "createdAt": "2016-03-15T14:10:56Z",
-    "checkedAt": "2026-10-16T11:27:36.101Z",
+    "checkedAt": "2026-10-23T11:42:58.384Z",
     "source": "https://github.com/pimutils"
   },
   "insanum": {
@@ -1439,7 +1439,7 @@
     "followers": 93,
     "publicRepos": 67,
     "createdAt": "2010-12-09T04:39:16Z",
-    "checkedAt": "2026-10-16T11:27:36.381Z",
+    "checkedAt": "2026-10-23T11:42:58.675Z",
     "source": "https://github.com/insanum"
   },
   "jarun": {
@@ -1449,10 +1449,10 @@
     "bio": "Writing terminal utilities (often GUI-integrated) for efficient workflows.",
     "location": null,
     "website": null,
-    "followers": 2608,
+    "followers": 2610,
     "publicRepos": 26,
     "createdAt": "2013-11-17T05:30:04Z",
-    "checkedAt": "2026-10-16T11:27:36.667Z",
+    "checkedAt": "2026-10-23T11:42:58.951Z",
     "source": "https://github.com/jarun"
   },
   "xwmx": {
@@ -1465,7 +1465,7 @@
     "followers": 422,
     "publicRepos": 132,
     "createdAt": "2008-02-27T22:54:17Z",
-    "checkedAt": "2026-10-16T11:27:37.183Z",
+    "checkedAt": "2026-10-23T11:42:59.287Z",
     "source": "https://github.com/xwmx"
   },
   "devxoul": {
@@ -1476,9 +1476,9 @@
     "location": "Seoul, Korea",
     "website": null,
     "followers": 4037,
-    "publicRepos": 229,
+    "publicRepos": 230,
     "createdAt": "2011-07-22T03:42:52Z",
-    "checkedAt": "2026-10-16T11:27:37.692Z",
+    "checkedAt": "2026-10-23T11:42:59.474Z",
     "source": "https://github.com/devxoul"
   },
   "dyoshikawa": {
@@ -1491,7 +1491,7 @@
     "followers": 51,
     "publicRepos": 59,
     "createdAt": "2017-12-01T05:33:39Z",
-    "checkedAt": "2026-10-16T11:27:37.983Z",
+    "checkedAt": "2026-10-23T11:42:59.663Z",
     "source": "https://github.com/dyoshikawa"
   },
   "stablyai": {
@@ -1501,10 +1501,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://stably.ai",
-    "followers": 573,
+    "followers": 619,
     "publicRepos": 23,
     "createdAt": "2023-03-07T21:50:31Z",
-    "checkedAt": "2026-10-16T11:27:38.267Z",
+    "checkedAt": "2026-10-23T11:43:00.093Z",
     "source": "https://github.com/stablyai"
   },
   "auth0": {
@@ -1514,10 +1514,10 @@
     "bio": null,
     "location": "Seattle",
     "website": "https://auth0.com",
-    "followers": 2164,
+    "followers": 2170,
     "publicRepos": 346,
     "createdAt": "2012-11-17T23:55:00Z",
-    "checkedAt": "2026-10-16T11:27:38.674Z",
+    "checkedAt": "2026-10-23T11:43:00.324Z",
     "source": "https://github.com/auth0"
   },
   "okta": {
@@ -1527,10 +1527,10 @@
     "bio": null,
     "location": null,
     "website": "okta.com",
-    "followers": 684,
-    "publicRepos": 89,
+    "followers": 685,
+    "publicRepos": 90,
     "createdAt": "2010-08-12T17:21:53Z",
-    "checkedAt": "2026-10-16T11:27:39.048Z",
+    "checkedAt": "2026-10-23T11:43:00.715Z",
     "source": "https://github.com/okta"
   },
   "tailscale": {
@@ -1540,10 +1540,10 @@
     "bio": "Tailscale is a WireGuard-based app that makes secure, private networks easy for teams of any scale.",
     "location": "Canada",
     "website": "https://tailscale.com",
-    "followers": 4625,
+    "followers": 4683,
     "publicRepos": 139,
     "createdAt": "2019-03-26T00:25:42Z",
-    "checkedAt": "2026-10-16T11:27:39.349Z",
+    "checkedAt": "2026-10-23T11:43:01.111Z",
     "source": "https://github.com/tailscale"
   },
   "heroku": {
@@ -1553,10 +1553,10 @@
     "bio": null,
     "location": "San Francisco, CA",
     "website": "https://heroku.com/",
-    "followers": 1974,
+    "followers": 1976,
     "publicRepos": 866,
     "createdAt": "2008-09-04T20:53:06Z",
-    "checkedAt": "2026-10-16T11:27:39.633Z",
+    "checkedAt": "2026-10-23T11:43:01.302Z",
     "source": "https://github.com/heroku"
   },
   "superfly": {
@@ -1566,10 +1566,10 @@
     "bio": null,
     "location": null,
     "website": "https://fly.io",
-    "followers": 2381,
+    "followers": 2392,
     "publicRepos": 297,
     "createdAt": "2016-09-29T15:14:32Z",
-    "checkedAt": "2026-10-16T11:27:39.933Z",
+    "checkedAt": "2026-10-23T11:43:01.660Z",
     "source": "https://github.com/superfly"
   },
   "fastly": {
@@ -1579,10 +1579,10 @@
     "bio": "Powering the best of the internet",
     "location": null,
     "website": "https://www.fastly.com",
-    "followers": 450,
-    "publicRepos": 301,
+    "followers": 451,
+    "publicRepos": 300,
     "createdAt": "2011-05-09T14:55:55Z",
-    "checkedAt": "2026-10-16T11:27:40.206Z",
+    "checkedAt": "2026-10-23T11:43:01.996Z",
     "source": "https://github.com/fastly"
   },
   "akamai": {
@@ -1592,10 +1592,10 @@
     "bio": "A collection of official Akamai tools, community projects, and other goodies.",
     "location": null,
     "website": "https://techdocs.akamai.com",
-    "followers": 631,
+    "followers": 635,
     "publicRepos": 206,
     "createdAt": "2013-09-19T20:32:01Z",
-    "checkedAt": "2026-10-16T11:27:40.721Z",
+    "checkedAt": "2026-10-23T11:43:02.532Z",
     "source": "https://github.com/akamai"
   },
   "kong": {
@@ -1605,10 +1605,10 @@
     "bio": "Powering the API world. No AI without APIs.",
     "location": "San Francisco",
     "website": "https://konghq.com",
-    "followers": 1823,
-    "publicRepos": 587,
+    "followers": 1832,
+    "publicRepos": 585,
     "createdAt": "2011-08-06T02:08:16Z",
-    "checkedAt": "2026-10-16T11:27:41.085Z",
+    "checkedAt": "2026-10-23T11:43:03.011Z",
     "source": "https://github.com/Kong"
   },
   "temporalio": {
@@ -1618,10 +1618,10 @@
     "bio": "Open source durable execution system. Write code that’s fault tolerant, durable, and simple.",
     "location": "Bellevue",
     "website": "https://temporal.io",
-    "followers": 3953,
-    "publicRepos": 236,
+    "followers": 3990,
+    "publicRepos": 239,
     "createdAt": "2019-10-13T00:36:27Z",
-    "checkedAt": "2026-10-16T11:27:41.390Z",
+    "checkedAt": "2026-10-23T11:43:03.452Z",
     "source": "https://github.com/temporalio"
   },
   "nats-io": {
@@ -1631,10 +1631,10 @@
     "bio": "NATS is a simple, secure and performant communications system and data layer for digital systems, services and devices.",
     "location": null,
     "website": "https://nats.io",
-    "followers": 2556,
+    "followers": 2561,
     "publicRepos": 133,
     "createdAt": "2014-12-16T02:38:52Z",
-    "checkedAt": "2026-10-16T11:27:41.660Z",
+    "checkedAt": "2026-10-23T11:43:03.720Z",
     "source": "https://github.com/nats-io"
   },
   "n8n-io": {
@@ -1644,10 +1644,10 @@
     "bio": "Free and open fair-code licensed node based Workflow Automation Tool.",
     "location": "Germany",
     "website": "https://n8n.io",
-    "followers": 15173,
+    "followers": 15232,
     "publicRepos": 53,
     "createdAt": "2018-11-30T12:19:59Z",
-    "checkedAt": "2026-10-16T11:27:41.922Z",
+    "checkedAt": "2026-10-23T11:43:04.162Z",
     "source": "https://github.com/n8n-io"
   },
   "appwrite": {
@@ -1657,10 +1657,10 @@
     "bio": "Build like a team of hundreds_",
     "location": "Planet Earth, Milky Way",
     "website": "https://appwrite.io",
-    "followers": 4400,
+    "followers": 4399,
     "publicRepos": 165,
     "createdAt": "2017-01-09T09:05:24Z",
-    "checkedAt": "2026-10-16T11:27:42.312Z",
+    "checkedAt": "2026-10-23T11:43:04.349Z",
     "source": "https://github.com/appwrite"
   },
   "postgres": {
@@ -1670,10 +1670,10 @@
     "bio": null,
     "location": "Worldwide",
     "website": "https://www.postgresql.org/",
-    "followers": 2385,
+    "followers": 2422,
     "publicRepos": 6,
     "createdAt": "2010-01-06T18:43:48Z",
-    "checkedAt": "2026-10-16T11:27:42.558Z",
+    "checkedAt": "2026-10-23T11:43:04.696Z",
     "source": "https://github.com/postgres"
   },
   "redis": {
@@ -1683,10 +1683,10 @@
     "bio": null,
     "location": null,
     "website": "https://redis.io",
-    "followers": 3020,
+    "followers": 3045,
     "publicRepos": 79,
     "createdAt": "2012-03-12T18:05:54Z",
-    "checkedAt": "2026-10-16T11:27:42.916Z",
+    "checkedAt": "2026-10-23T11:43:05.088Z",
     "source": "https://github.com/redis"
   },
   "mongodb-js": {
@@ -1696,10 +1696,10 @@
     "bio": "mongodb-js is a collective of JavaScript developers and code focused on interacting with MongoDB",
     "location": null,
     "website": "https://github.com/mongodb-js/mongodb-js",
-    "followers": 329,
+    "followers": 330,
     "publicRepos": 255,
     "createdAt": "2015-02-26T16:22:07Z",
-    "checkedAt": "2026-10-16T11:27:43.166Z",
+    "checkedAt": "2026-10-23T11:43:05.465Z",
     "source": "https://github.com/mongodb-js"
   },
   "mongodb": {
@@ -1709,10 +1709,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "http://www.mongodb.com/",
-    "followers": 4765,
-    "publicRepos": 309,
+    "followers": 4782,
+    "publicRepos": 310,
     "createdAt": "2009-01-08T17:02:04Z",
-    "checkedAt": "2026-10-16T11:27:43.422Z",
+    "checkedAt": "2026-10-23T11:43:05.744Z",
     "source": "https://github.com/mongodb"
   },
   "snowflakedb": {
@@ -1722,10 +1722,10 @@
     "bio": null,
     "location": "In the ☁",
     "website": "https://snowflake.com",
-    "followers": 1667,
+    "followers": 1672,
     "publicRepos": 66,
     "createdAt": "2014-01-20T19:36:18Z",
-    "checkedAt": "2026-10-16T11:27:43.724Z",
+    "checkedAt": "2026-10-23T11:43:05.984Z",
     "source": "https://github.com/snowflakedb"
   },
   "databricks": {
@@ -1735,10 +1735,10 @@
     "bio": "Helping data teams solve the world’s toughest problems using data and AI",
     "location": "United States of America",
     "website": "https://databricks.com",
-    "followers": 4162,
+    "followers": 4193,
     "publicRepos": 251,
     "createdAt": "2013-07-12T15:30:49Z",
-    "checkedAt": "2026-10-16T11:27:44.027Z",
+    "checkedAt": "2026-10-23T11:43:06.288Z",
     "source": "https://github.com/databricks"
   },
   "confluentinc": {
@@ -1748,10 +1748,10 @@
     "bio": "Real-time streams powered by Apache Kafka®",
     "location": "Mountain View, CA",
     "website": "https://confluent.io",
-    "followers": 2640,
-    "publicRepos": 428,
+    "followers": 2653,
+    "publicRepos": 430,
     "createdAt": "2014-10-28T23:16:31Z",
-    "checkedAt": "2026-10-16T11:27:44.444Z",
+    "checkedAt": "2026-10-23T11:43:06.939Z",
     "source": "https://github.com/confluentinc"
   },
   "clickhouse": {
@@ -1761,10 +1761,10 @@
     "bio": "The leading database for AI",
     "location": "United States of America",
     "website": "https://clickhouse.com",
-    "followers": 2073,
+    "followers": 2085,
     "publicRepos": 382,
     "createdAt": "2019-09-02T10:22:35Z",
-    "checkedAt": "2026-10-16T11:27:44.722Z",
+    "checkedAt": "2026-10-23T11:43:07.212Z",
     "source": "https://github.com/ClickHouse"
   },
   "influxdata": {
@@ -1774,10 +1774,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://influxdata.com",
-    "followers": 1078,
+    "followers": 1079,
     "publicRepos": 230,
     "createdAt": "2013-10-17T21:07:39Z",
-    "checkedAt": "2026-10-16T11:27:45.009Z",
+    "checkedAt": "2026-10-23T11:43:07.450Z",
     "source": "https://github.com/influxdata"
   },
   "xo": {
@@ -1787,10 +1787,10 @@
     "bio": "Cross-platform database, language, and platform tools",
     "location": null,
     "website": null,
-    "followers": 68,
+    "followers": 69,
     "publicRepos": 31,
     "createdAt": "2017-08-05T23:54:18Z",
-    "checkedAt": "2026-10-16T11:27:45.315Z",
+    "checkedAt": "2026-10-23T11:43:07.626Z",
     "source": "https://github.com/xo"
   },
   "dbcli": {
@@ -1800,10 +1800,10 @@
     "bio": "Better CLIs for Databases",
     "location": "United States",
     "website": "http://dbcli.com",
-    "followers": 372,
+    "followers": 371,
     "publicRepos": 19,
     "createdAt": "2015-04-05T22:38:14Z",
-    "checkedAt": "2026-10-16T11:27:45.814Z",
+    "checkedAt": "2026-10-23T11:43:08.026Z",
     "source": "https://github.com/dbcli"
   },
   "wireservice": {
@@ -1816,7 +1816,7 @@
     "followers": 65,
     "publicRepos": 16,
     "createdAt": "2016-02-07T18:26:02Z",
-    "checkedAt": "2026-10-16T11:27:46.131Z",
+    "checkedAt": "2026-10-23T11:43:08.185Z",
     "source": "https://github.com/wireservice"
   },
   "dathere": {
@@ -1829,7 +1829,7 @@
     "followers": 30,
     "publicRepos": 127,
     "createdAt": "2020-03-02T15:54:09Z",
-    "checkedAt": "2026-10-16T11:27:46.423Z",
+    "checkedAt": "2026-10-23T11:43:08.578Z",
     "source": "https://github.com/dathere"
   },
   "jj-vcs": {
@@ -1839,10 +1839,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 316,
+    "followers": 321,
     "publicRepos": 5,
     "createdAt": "2024-04-06T06:36:34Z",
-    "checkedAt": "2026-10-16T11:27:46.812Z",
+    "checkedAt": "2026-10-23T11:43:08.947Z",
     "source": "https://github.com/jj-vcs"
   },
   "git-lfs": {
@@ -1852,10 +1852,10 @@
     "bio": null,
     "location": null,
     "website": "https://git-lfs.com",
-    "followers": 386,
+    "followers": 387,
     "publicRepos": 12,
     "createdAt": "2016-07-01T17:32:15Z",
-    "checkedAt": "2026-10-16T11:27:47.215Z",
+    "checkedAt": "2026-10-23T11:43:09.296Z",
     "source": "https://github.com/git-lfs"
   },
   "goreleaser": {
@@ -1868,7 +1868,7 @@
     "followers": 314,
     "publicRepos": 66,
     "createdAt": "2016-12-21T11:52:53Z",
-    "checkedAt": "2026-10-16T11:27:47.514Z",
+    "checkedAt": "2026-10-23T11:43:09.696Z",
     "source": "https://github.com/goreleaser"
   },
   "nektos": {
@@ -1881,7 +1881,7 @@
     "followers": 262,
     "publicRepos": 17,
     "createdAt": "2013-03-09T00:11:28Z",
-    "checkedAt": "2026-10-16T11:27:47.793Z",
+    "checkedAt": "2026-10-23T11:43:10.125Z",
     "source": "https://github.com/nektos"
   },
   "dagger": {
@@ -1891,10 +1891,10 @@
     "bio": "The agent-ready test platform. Test any codebase end-to-end, repeatably and at scale. Runs locally, in your CI server, or directly in the cloud.",
     "location": null,
     "website": "dagger.io",
-    "followers": 497,
-    "publicRepos": 66,
+    "followers": 500,
+    "publicRepos": 68,
     "createdAt": "2021-02-09T20:57:44Z",
-    "checkedAt": "2026-10-16T11:27:48.129Z",
+    "checkedAt": "2026-10-23T11:43:10.301Z",
     "source": "https://github.com/dagger"
   },
   "devcontainers": {
@@ -1904,10 +1904,10 @@
     "bio": "Official organization for the Development Containers Specification and dev container resources.",
     "location": null,
     "website": "https://containers.dev",
-    "followers": 3592,
+    "followers": 3590,
     "publicRepos": 13,
     "createdAt": "2022-03-30T18:48:31Z",
-    "checkedAt": "2026-10-16T11:27:48.417Z",
+    "checkedAt": "2026-10-23T11:43:10.572Z",
     "source": "https://github.com/devcontainers"
   },
   "devspace-sh": {
@@ -1917,10 +1917,10 @@
     "bio": "The Fastest Dev Tool For Cloud-Native Developers",
     "location": null,
     "website": "https://devspace.sh",
-    "followers": 43,
+    "followers": 44,
     "publicRepos": 3,
     "createdAt": "2020-01-21T21:25:25Z",
-    "checkedAt": "2026-10-16T11:27:48.662Z",
+    "checkedAt": "2026-10-23T11:43:10.919Z",
     "source": "https://github.com/devspace-sh"
   },
   "garden-io": {
@@ -1933,7 +1933,7 @@
     "followers": 62,
     "publicRepos": 58,
     "createdAt": "2017-12-20T19:23:53Z",
-    "checkedAt": "2026-10-16T11:27:48.898Z",
+    "checkedAt": "2026-10-23T11:43:11.197Z",
     "source": "https://github.com/garden-io"
   },
   "k3d-io": {
@@ -1946,7 +1946,7 @@
     "followers": 117,
     "publicRepos": 4,
     "createdAt": "2022-02-02T20:50:00Z",
-    "checkedAt": "2026-10-16T11:27:49.199Z",
+    "checkedAt": "2026-10-23T11:43:11.510Z",
     "source": "https://github.com/k3d-io"
   },
   "googlecontainertools": {
@@ -1956,10 +1956,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 1525,
+    "followers": 1526,
     "publicRepos": 22,
     "createdAt": "2018-04-16T22:47:20Z",
-    "checkedAt": "2026-10-16T11:27:49.625Z",
+    "checkedAt": "2026-10-23T11:43:11.833Z",
     "source": "https://github.com/GoogleContainerTools"
   },
   "helmfile": {
@@ -1972,7 +1972,7 @@
     "followers": 64,
     "publicRepos": 6,
     "createdAt": "2021-04-25T23:59:52Z",
-    "checkedAt": "2026-10-16T11:27:49.935Z",
+    "checkedAt": "2026-10-23T11:43:12.234Z",
     "source": "https://github.com/helmfile"
   },
   "ahmetb": {
@@ -1982,10 +1982,10 @@
     "bio": "infrastructure @ baseten",
     "location": "Seattle, WA",
     "website": "https://ahmet.dev",
-    "followers": 8916,
+    "followers": 8925,
     "publicRepos": 239,
     "createdAt": "2009-11-28T14:59:59Z",
-    "checkedAt": "2026-10-16T11:27:50.226Z",
+    "checkedAt": "2026-10-23T11:43:12.434Z",
     "source": "https://github.com/ahmetb"
   },
   "stern": {
@@ -1998,7 +1998,7 @@
     "followers": 30,
     "publicRepos": 3,
     "createdAt": "2020-10-20T11:59:06Z",
-    "checkedAt": "2026-10-16T11:27:50.587Z",
+    "checkedAt": "2026-10-23T11:43:12.636Z",
     "source": "https://github.com/stern"
   },
   "eslint": {
@@ -2008,10 +2008,10 @@
     "bio": "Find and fix problems in your JavaScript code.",
     "location": null,
     "website": "https://eslint.org",
-    "followers": 1028,
+    "followers": 1029,
     "publicRepos": 37,
     "createdAt": "2013-11-23T19:50:40Z",
-    "checkedAt": "2026-10-16T11:27:50.838Z",
+    "checkedAt": "2026-10-23T11:43:12.899Z",
     "source": "https://github.com/eslint"
   },
   "prettier": {
@@ -2024,7 +2024,7 @@
     "followers": 992,
     "publicRepos": 46,
     "createdAt": "2017-02-16T14:37:13Z",
-    "checkedAt": "2026-10-16T11:27:51.107Z",
+    "checkedAt": "2026-10-23T11:43:13.190Z",
     "source": "https://github.com/prettier"
   },
   "denoland": {
@@ -2034,10 +2034,10 @@
     "bio": "Uncomplicate JavaScript",
     "location": null,
     "website": "https://deno.land",
-    "followers": 6089,
+    "followers": 6112,
     "publicRepos": 235,
     "createdAt": "2018-08-02T22:47:41Z",
-    "checkedAt": "2026-10-16T11:27:51.382Z",
+    "checkedAt": "2026-10-23T11:43:13.490Z",
     "source": "https://github.com/denoland"
   },
   "npm": {
@@ -2047,10 +2047,10 @@
     "bio": "JavaScript Package Manager, Registry & Website",
     "location": "United States of America",
     "website": "https://npmjs.com",
-    "followers": 5258,
+    "followers": 5267,
     "publicRepos": 358,
     "createdAt": "2013-12-01T14:43:53Z",
-    "checkedAt": "2026-10-16T11:27:51.652Z",
+    "checkedAt": "2026-10-23T11:43:13.790Z",
     "source": "https://github.com/npm"
   },
   "python-poetry": {
@@ -2063,7 +2063,7 @@
     "followers": 934,
     "publicRepos": 14,
     "createdAt": "2019-03-19T13:46:32Z",
-    "checkedAt": "2026-10-16T11:27:52.056Z",
+    "checkedAt": "2026-10-23T11:43:13.983Z",
     "source": "https://github.com/python-poetry"
   },
   "pypa": {
@@ -2073,10 +2073,10 @@
     "bio": null,
     "location": "United States of America",
     "website": "https://www.pypa.io",
-    "followers": 2439,
+    "followers": 2443,
     "publicRepos": 60,
     "createdAt": "2011-03-02T14:17:18Z",
-    "checkedAt": "2026-10-16T11:27:52.453Z",
+    "checkedAt": "2026-10-23T11:43:14.254Z",
     "source": "https://github.com/pypa"
   },
   "go-task": {
@@ -2089,7 +2089,7 @@
     "followers": 184,
     "publicRepos": 12,
     "createdAt": "2017-02-26T23:44:19Z",
-    "checkedAt": "2026-10-16T11:27:52.773Z",
+    "checkedAt": "2026-10-23T11:43:14.460Z",
     "source": "https://github.com/go-task"
   },
   "watchexec": {
@@ -2102,7 +2102,7 @@
     "followers": 67,
     "publicRepos": 7,
     "createdAt": "2018-08-15T15:04:50Z",
-    "checkedAt": "2026-10-16T11:27:53.260Z",
+    "checkedAt": "2026-10-23T11:43:14.754Z",
     "source": "https://github.com/watchexec"
   },
   "docling-project": {
@@ -2112,10 +2112,10 @@
     "bio": null,
     "location": "Switzerland",
     "website": null,
-    "followers": 1369,
+    "followers": 1386,
     "publicRepos": 29,
     "createdAt": "2024-11-14T10:15:54Z",
-    "checkedAt": "2026-10-16T11:27:53.613Z",
+    "checkedAt": "2026-10-23T11:43:14.954Z",
     "source": "https://github.com/docling-project"
   },
   "gohugoio": {
@@ -2125,10 +2125,10 @@
     "bio": "A Fast and Flexible Static Site Generator built with love in GoLang",
     "location": null,
     "website": "gohugo.io",
-    "followers": 1282,
+    "followers": 1286,
     "publicRepos": 41,
     "createdAt": "2017-06-12T19:52:19Z",
-    "checkedAt": "2026-10-16T11:27:53.930Z",
+    "checkedAt": "2026-10-23T11:43:15.132Z",
     "source": "https://github.com/gohugoio"
   },
   "mkdocs": {
@@ -2138,10 +2138,10 @@
     "bio": "Project documentation with Markdown",
     "location": null,
     "website": "http://www.mkdocs.org/",
-    "followers": 409,
+    "followers": 410,
     "publicRepos": 15,
     "createdAt": "2014-11-12T09:10:03Z",
-    "checkedAt": "2026-10-16T11:27:54.211Z",
+    "checkedAt": "2026-10-23T11:43:15.296Z",
     "source": "https://github.com/mkdocs"
   },
   "asciidoctor": {
@@ -2151,10 +2151,10 @@
     "bio": "An open source publishing toolchain for the AsciiDoc writing format. Provides tools & extensions for converting AsciiDoc to HTML, DocBook, PDF, & other formats.",
     "location": null,
     "website": "https://asciidoctor.org",
-    "followers": 482,
+    "followers": 483,
     "publicRepos": 83,
     "createdAt": "2012-12-27T21:15:25Z",
-    "checkedAt": "2026-10-16T11:27:54.614Z",
+    "checkedAt": "2026-10-23T11:43:15.499Z",
     "source": "https://github.com/asciidoctor"
   },
   "quarto-dev": {
@@ -2164,10 +2164,10 @@
     "bio": "Open source scientific and technical publishing system",
     "location": "United States of America",
     "website": "https://quarto.org",
-    "followers": 1320,
+    "followers": 1321,
     "publicRepos": 45,
     "createdAt": "2020-06-25T18:55:13Z",
-    "checkedAt": "2026-10-16T11:27:54.883Z",
+    "checkedAt": "2026-10-23T11:43:15.837Z",
     "source": "https://github.com/quarto-dev"
   },
   "marp-team": {
@@ -2177,10 +2177,10 @@
     "bio": "The ecosystem to write your presentation with plain Markdown",
     "location": null,
     "website": "https://marp.app/",
-    "followers": 491,
+    "followers": 492,
     "publicRepos": 14,
     "createdAt": "2016-07-27T15:26:27Z",
-    "checkedAt": "2026-10-16T11:27:55.129Z",
+    "checkedAt": "2026-10-23T11:43:16.100Z",
     "source": "https://github.com/marp-team"
   },
   "mermaid-js": {
@@ -2190,10 +2190,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 1616,
+    "followers": 1619,
     "publicRepos": 13,
     "createdAt": "2019-10-30T07:10:41Z",
-    "checkedAt": "2026-10-16T11:27:55.526Z",
+    "checkedAt": "2026-10-23T11:43:16.261Z",
     "source": "https://github.com/mermaid-js"
   },
   "libvips": {
@@ -2206,7 +2206,7 @@
     "followers": 152,
     "publicRepos": 18,
     "createdAt": "2017-03-30T15:42:44Z",
-    "checkedAt": "2026-10-16T11:27:55.726Z",
+    "checkedAt": "2026-10-23T11:43:16.519Z",
     "source": "https://github.com/libvips"
   },
   "exiftool": {
@@ -2216,10 +2216,10 @@
     "bio": "Making metadata more accessible",
     "location": "Canada",
     "website": "https://exiftool.org/",
-    "followers": 161,
+    "followers": 160,
     "publicRepos": 3,
     "createdAt": "2014-09-04T14:23:14Z",
-    "checkedAt": "2026-10-16T11:27:56.049Z",
+    "checkedAt": "2026-10-23T11:43:16.869Z",
     "source": "https://github.com/exiftool"
   },
   "ggml-org": {
@@ -2229,10 +2229,10 @@
     "bio": "AI inference at the edge",
     "location": null,
     "website": "https://huggingface.co/ggml-org",
-    "followers": 4914,
+    "followers": 4969,
     "publicRepos": 26,
     "createdAt": "2023-05-22T07:00:01Z",
-    "checkedAt": "2026-10-16T11:27:56.335Z",
+    "checkedAt": "2026-10-23T11:43:17.147Z",
     "source": "https://github.com/ggml-org"
   },
   "typst": {
@@ -2242,10 +2242,10 @@
     "bio": "The new foundation for documents: Limitless power to write, create, and automate anything that you can fit on a page.",
     "location": "Berlin",
     "website": "https://typst.app",
-    "followers": 3589,
+    "followers": 3592,
     "publicRepos": 35,
     "createdAt": "2020-06-29T15:08:38Z",
-    "checkedAt": "2026-10-16T11:27:56.681Z",
+    "checkedAt": "2026-10-23T11:43:17.481Z",
     "source": "https://github.com/typst"
   },
   "artifexsoftware": {
@@ -2255,10 +2255,10 @@
     "bio": null,
     "location": null,
     "website": "http://www.artifex.com/",
-    "followers": 285,
+    "followers": 288,
     "publicRepos": 54,
     "createdAt": "2015-06-24T10:20:25Z",
-    "checkedAt": "2026-10-16T11:27:56.964Z",
+    "checkedAt": "2026-10-23T11:43:17.760Z",
     "source": "https://github.com/ArtifexSoftware"
   },
   "pdfcpu": {
@@ -2271,7 +2271,7 @@
     "followers": 46,
     "publicRepos": 1,
     "createdAt": "2019-07-20T20:44:34Z",
-    "checkedAt": "2026-10-16T11:27:57.315Z",
+    "checkedAt": "2026-10-23T11:43:18.258Z",
     "source": "https://github.com/pdfcpu"
   },
   "svenstaro": {
@@ -2284,7 +2284,7 @@
     "followers": 1088,
     "publicRepos": 180,
     "createdAt": "2008-02-28T22:42:59Z",
-    "checkedAt": "2026-10-16T11:27:57.662Z",
+    "checkedAt": "2026-10-23T11:43:18.648Z",
     "source": "https://github.com/svenstaro"
   },
   "esengine": {
@@ -2294,10 +2294,10 @@
     "bio": null,
     "location": null,
     "website": "esengine.cn",
-    "followers": 897,
+    "followers": 912,
     "publicRepos": 118,
     "createdAt": "2016-04-14T14:01:45Z",
-    "checkedAt": "2026-10-16T11:27:57.910Z",
+    "checkedAt": "2026-10-23T11:43:19.068Z",
     "source": "https://github.com/esengine"
   },
   "sigoden": {
@@ -2307,10 +2307,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 1199,
+    "followers": 1198,
     "publicRepos": 87,
     "createdAt": "2013-03-30T11:18:10Z",
-    "checkedAt": "2026-10-16T11:27:58.162Z",
+    "checkedAt": "2026-10-23T11:43:19.306Z",
     "source": "https://github.com/sigoden"
   },
   "aliyun": {
@@ -2320,10 +2320,10 @@
     "bio": "More Than Just Cloud",
     "location": "Hangzhou.China",
     "website": "www.alibabacloud.com",
-    "followers": 2015,
-    "publicRepos": 705,
+    "followers": 2032,
+    "publicRepos": 707,
     "createdAt": "2011-07-27T02:38:58Z",
-    "checkedAt": "2026-10-16T11:27:58.468Z",
+    "checkedAt": "2026-10-23T11:43:19.600Z",
     "source": "https://github.com/aliyun"
   },
   "qwenlm": {
@@ -2333,10 +2333,10 @@
     "bio": "Alibaba Cloud's general-purpose AI models",
     "location": "China",
     "website": "https://qwen.ai/",
-    "followers": 19967,
+    "followers": 20082,
     "publicRepos": 60,
     "createdAt": "2023-08-02T08:18:52Z",
-    "checkedAt": "2026-10-16T11:27:58.761Z",
+    "checkedAt": "2026-10-23T11:43:19.846Z",
     "source": "https://github.com/QwenLM"
   },
   "mininglamp-oss": {
@@ -2346,10 +2346,10 @@
     "bio": "Open-source AI-native collaboration platform — where humans and AI Agents work as one team.",
     "location": "China",
     "website": "https://github.com/Mininglamp-OSS",
-    "followers": 219,
+    "followers": 220,
     "publicRepos": 35,
     "createdAt": "2026-05-11T07:40:33Z",
-    "checkedAt": "2026-10-16T11:27:59.060Z",
+    "checkedAt": "2026-10-23T11:43:20.021Z",
     "source": "https://github.com/Mininglamp-OSS"
   },
   "pawamoy": {
@@ -3581,10 +3581,10 @@
     "bio": "Google ❤️ Open Source",
     "location": "United States of America",
     "website": "https://opensource.google/",
-    "followers": 80317,
-    "publicRepos": 2921,
+    "followers": 80735,
+    "publicRepos": 2930,
     "createdAt": "2012-01-18T01:30:18Z",
-    "checkedAt": "2026-10-16T11:27:59.331Z",
+    "checkedAt": "2026-10-23T11:43:20.509Z",
     "source": "https://github.com/google"
   },
   "planetscale": {
@@ -3594,10 +3594,10 @@
     "bio": "The fastest and most reliable MySQL and Postgres database platform.",
     "location": "United States of America",
     "website": "https://planetscale.com",
-    "followers": 1453,
+    "followers": 1460,
     "publicRepos": 157,
     "createdAt": "2018-01-19T20:42:45Z",
-    "checkedAt": "2026-10-16T11:27:59.602Z",
+    "checkedAt": "2026-10-23T11:43:20.686Z",
     "source": "https://github.com/planetscale"
   },
   "achristmascarl": {
@@ -3610,7 +3610,7 @@
     "followers": 72,
     "publicRepos": 42,
     "createdAt": "2018-10-10T09:11:47Z",
-    "checkedAt": "2026-10-16T11:27:59.966Z",
+    "checkedAt": "2026-10-23T11:43:21.078Z",
     "source": "https://github.com/achristmascarl"
   },
   "asamk": {
@@ -3620,10 +3620,10 @@
     "bio": null,
     "location": null,
     "website": null,
-    "followers": 128,
+    "followers": 129,
     "publicRepos": 50,
     "createdAt": "2012-09-13T16:55:57Z",
-    "checkedAt": "2026-10-16T11:28:00.264Z",
+    "checkedAt": "2026-10-23T11:43:21.514Z",
     "source": "https://github.com/AsamK"
   },
   "max-sixty": {
@@ -3633,10 +3633,10 @@
     "bio": "Developer of worktrunk, prql, xarray & insta.\r\n\r\nAlso pytest-accept and numbagg.\r\n\r\n\r\nYou can give me feedback at feedback.maxroos.com",
     "location": "Los Angeles",
     "website": null,
-    "followers": 1930,
+    "followers": 1965,
     "publicRepos": 95,
     "createdAt": "2013-10-08T05:44:10Z",
-    "checkedAt": "2026-10-16T11:28:00.573Z",
+    "checkedAt": "2026-10-23T11:43:21.814Z",
     "source": "https://github.com/max-sixty"
   },
   "ldomaradzki": {
@@ -3649,7 +3649,7 @@
     "followers": 23,
     "publicRepos": 17,
     "createdAt": "2013-04-22T11:36:20Z",
-    "checkedAt": "2026-10-16T11:28:00.893Z",
+    "checkedAt": "2026-10-23T11:43:22.165Z",
     "source": "https://github.com/ldomaradzki"
   },
   "unlinearity": {
@@ -6028,7 +6028,7 @@
     "followers": 348,
     "publicRepos": 30,
     "createdAt": "2015-03-27T22:07:21Z",
-    "checkedAt": "2026-10-16T11:28:01.263Z",
+    "checkedAt": "2026-10-23T11:43:22.462Z",
     "source": "https://github.com/hardikvasa"
   },
   "orkohunter": {
@@ -6041,7 +6041,7 @@
     "followers": 1027,
     "publicRepos": 116,
     "createdAt": "2014-07-04T07:48:24Z",
-    "checkedAt": "2026-10-16T11:28:01.603Z",
+    "checkedAt": "2026-10-23T11:43:22.737Z",
     "source": "https://github.com/OrkoHunter"
   },
   "mkaz": {
@@ -6054,7 +6054,7 @@
     "followers": 432,
     "publicRepos": 44,
     "createdAt": "2009-01-09T16:11:51Z",
-    "checkedAt": "2026-10-16T11:28:02.078Z",
+    "checkedAt": "2026-10-23T11:43:23.085Z",
     "source": "https://github.com/mkaz"
   },
   "krzysztof-o": {
@@ -6067,7 +6067,7 @@
     "followers": 19,
     "publicRepos": 22,
     "createdAt": "2010-08-30T21:01:42Z",
-    "checkedAt": "2026-10-16T11:28:02.570Z",
+    "checkedAt": "2026-10-23T11:43:23.480Z",
     "source": "https://github.com/krzysztof-o"
   },
   "regolith-labs": {
@@ -6077,10 +6077,10 @@
     "bio": null,
     "location": null,
     "website": "https://ore.com",
-    "followers": 213,
+    "followers": 215,
     "publicRepos": 42,
     "createdAt": "2024-02-06T18:42:58Z",
-    "checkedAt": "2026-10-16T11:28:02.882Z",
+    "checkedAt": "2026-10-23T11:43:23.679Z",
     "source": "https://github.com/regolith-labs"
   },
   "sontek": {
@@ -6090,10 +6090,10 @@
     "bio": null,
     "location": "Gurabo, PR",
     "website": "http://sontek.net",
-    "followers": 384,
+    "followers": 385,
     "publicRepos": 127,
     "createdAt": "2009-11-11T19:13:37Z",
-    "checkedAt": "2026-10-16T11:28:03.194Z",
+    "checkedAt": "2026-10-23T11:43:24.085Z",
     "source": "https://github.com/sontek"
   }
 }
