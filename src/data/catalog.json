@@ -8995,5 +8995,23 @@
     "example": "snowmachine snow",
     "website": "https://github.com/sontek/snowmachine",
     "docs": "https://github.com/sontek/snowmachine/blob/148abd32190b0a0a43700045e07eb915bdccbd8f/README.md"
+  },
+  {
+    "slug": "agent-qa",
+    "name": "agent-qa",
+    "repo": "vostride/agent-qa",
+    "category": "Testing & quality",
+    "command": "agent-qa",
+    "useCase": "Web and mobile QA",
+    "description": "Run natural-language web, Android and iOS tests with advanced memidex memory and self-improvement.",
+    "agentUse": "Run a documented QA suite from a coding agent's shell to check application behavior after changes.",
+    "features": [
+      "Natural-language tests",
+      "Web, Android and iOS automation",
+      "memidex memory and self-improvement"
+    ],
+    "example": "npx agent-qa run tests/hacker-news-top-story.yaml",
+    "website": "https://vostride.com",
+    "docs": "https://vostride.com/docs/agent-qa/cli"
   }
 ]

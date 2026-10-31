@@ -6095,5 +6095,18 @@
     "createdAt": "2009-11-11T19:13:37Z",
     "checkedAt": "2026-10-30T12:58:54.005Z",
     "source": "https://github.com/sontek"
+  },
+  "vostride": {
+    "login": "vostride",
+    "name": "vostride",
+    "type": "Organization",
+    "bio": "Ship Confidently",
+    "location": null,
+    "website": "vostride.com",
+    "followers": 4,
+    "publicRepos": 5,
+    "createdAt": "2026-03-08T23:14:06Z",
+    "checkedAt": "2026-10-25T09:22:07.913Z",
+    "source": "https://github.com/vostride"
   }
 }
