@@ -10584,6 +10584,29 @@ window.USECLIS_DATA = {
       "stars": 610,
       "license": "BSD-3-Clause",
       "checkedAt": "2026-11-10T14:55:59.023Z"
+    },
+    {
+      "slug": "agent-qa",
+      "name": "agent-qa",
+      "repo": "vostride/agent-qa",
+      "category": "Testing & quality",
+      "command": "agent-qa",
+      "useCase": "Web and mobile QA",
+      "description": "Run natural-language web, Android and iOS tests with persistent memidex memory and validated self-improvement.",
+      "agentUse": "Verify application behavior from a coding agent shell, then review recorded steps, screenshots and verdicts.",
+      "features": [
+        "Natural-language tests",
+        "Web, Android and iOS automation",
+        "Persistent memidex memory",
+        "Validated self-improvement",
+        "CLI and MCP integration"
+      ],
+      "example": "npx agent-qa run",
+      "website": "https://vostride.com",
+      "docs": "https://vostride.com/docs/agent-qa/cli",
+      "stars": 852,
+      "license": null,
+      "checkedAt": "2026-11-10T19:16:39.584Z"
     }
   ],
   "categories": [
