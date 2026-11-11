@@ -7933,5 +7933,20 @@
     "repositoryId": 7475320,
     "attemptedAt": "2026-11-11T14:24:15.893Z",
     "status": "ok"
+  },
+  "agent-qa": {
+    "defaultBranch": "main",
+    "createdAt": "2026-05-07T20:17:57Z",
+    "pushedAt": "2026-11-11T14:27:26Z",
+    "lastCommitAt": "2026-11-11T14:27:23Z",
+    "stars": 853,
+    "license": null,
+    "language": "TypeScript",
+    "checkedAt": "2026-11-11T15:23:30.310Z",
+    "source": "https://github.com/vostride/agent-qa",
+    "canonicalSource": "https://github.com/vostride/agent-qa",
+    "repositoryId": 1232322871,
+    "attemptedAt": "2026-11-11T15:23:29.224Z",
+    "status": "ok"
   }
 }
