@@ -3,455 +3,455 @@
     "formula": "gh",
     "repo": "cli/cli",
     "source": "https://formulae.brew.sh/api/formula/gh.json",
-    "attemptedAt": "2026-11-18T15:46:11.599Z",
+    "attemptedAt": "2026-11-19T15:49:17.210Z",
     "counts": {
-      "30d": 329866,
-      "90d": 767022,
-      "365d": 3136863
+      "30d": 346951,
+      "90d": 782792,
+      "365d": 3154212
     },
-    "checkedAt": "2026-11-18T15:46:11.599Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.210Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "agent-browser": {
     "formula": "agent-browser",
     "repo": "vercel-labs/agent-browser",
     "source": "https://formulae.brew.sh/api/formula/agent-browser.json",
-    "attemptedAt": "2026-11-18T15:46:11.600Z",
+    "attemptedAt": "2026-11-19T15:49:17.212Z",
     "counts": {
-      "30d": 8151,
-      "90d": 15713,
-      "365d": 49168
+      "30d": 8193,
+      "90d": 15755,
+      "365d": 49317
     },
-    "checkedAt": "2026-11-18T15:46:11.600Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.212Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "ripgrep": {
     "formula": "ripgrep",
     "repo": "BurntSushi/ripgrep",
     "source": "https://formulae.brew.sh/api/formula/ripgrep.json",
-    "attemptedAt": "2026-11-18T15:46:11.601Z",
+    "attemptedAt": "2026-11-19T15:49:17.212Z",
     "counts": {
-      "30d": 33861,
-      "90d": 98726,
-      "365d": 505063
+      "30d": 33573,
+      "90d": 97843,
+      "365d": 505083
     },
-    "checkedAt": "2026-11-18T15:46:11.601Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.212Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "jq": {
     "formula": "jq",
     "repo": "jqlang/jq",
     "source": "https://formulae.brew.sh/api/formula/jq.json",
-    "attemptedAt": "2026-11-18T15:46:11.601Z",
+    "attemptedAt": "2026-11-19T15:49:17.213Z",
     "counts": {
-      "30d": 56696,
-      "90d": 162597,
-      "365d": 806913
+      "30d": 56312,
+      "90d": 161438,
+      "365d": 806882
     },
-    "checkedAt": "2026-11-18T15:46:11.601Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.213Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "aider": {
     "formula": "aider",
     "repo": "Aider-AI/aider",
     "source": "https://formulae.brew.sh/api/formula/aider.json",
-    "attemptedAt": "2026-11-18T15:46:11.967Z",
+    "attemptedAt": "2026-11-19T15:49:17.434Z",
     "counts": {
-      "30d": 391,
-      "90d": 1187,
-      "365d": 9333
+      "30d": 387,
+      "90d": 1171,
+      "365d": 9291
     },
-    "checkedAt": "2026-11-18T15:46:11.967Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.434Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "opencode": {
     "formula": "opencode",
     "repo": "anomalyco/opencode",
     "source": "https://formulae.brew.sh/api/formula/opencode.json",
-    "attemptedAt": "2026-11-18T15:46:11.967Z",
+    "attemptedAt": "2026-11-19T15:49:17.434Z",
     "counts": {
-      "30d": 47040,
-      "90d": 99997,
-      "365d": 422185
+      "30d": 47714,
+      "90d": 101460,
+      "365d": 423311
     },
-    "checkedAt": "2026-11-18T15:46:11.967Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.434Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "git-town": {
     "formula": "git-town",
     "repo": "git-town/git-town",
     "source": "https://formulae.brew.sh/api/formula/git-town.json",
-    "attemptedAt": "2026-11-18T15:46:11.967Z",
+    "attemptedAt": "2026-11-19T15:49:17.434Z",
     "counts": {
-      "30d": 221,
-      "90d": 505,
-      "365d": 3431
+      "30d": 248,
+      "90d": 531,
+      "365d": 3459
     },
-    "checkedAt": "2026-11-18T15:46:11.967Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.434Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "fd": {
     "formula": "fd",
     "repo": "sharkdp/fd",
     "source": "https://formulae.brew.sh/api/formula/fd.json",
-    "attemptedAt": "2026-11-18T15:46:11.968Z",
+    "attemptedAt": "2026-11-19T15:49:17.434Z",
     "counts": {
-      "30d": 53804,
-      "90d": 94461,
-      "365d": 267056
+      "30d": 54068,
+      "90d": 95045,
+      "365d": 267797
     },
-    "checkedAt": "2026-11-18T15:46:11.968Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.434Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "ast-grep": {
     "formula": "ast-grep",
     "repo": "ast-grep/ast-grep",
     "source": "https://formulae.brew.sh/api/formula/ast-grep.json",
-    "attemptedAt": "2026-11-18T15:46:12.050Z",
+    "attemptedAt": "2026-11-19T15:49:17.471Z",
     "counts": {
-      "30d": 12298,
-      "90d": 31708,
-      "365d": 95338
+      "30d": 12312,
+      "90d": 32015,
+      "365d": 95688
     },
-    "checkedAt": "2026-11-18T15:46:12.050Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.471Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "scc": {
     "formula": "scc",
     "repo": "boyter/scc",
     "source": "https://formulae.brew.sh/api/formula/scc.json",
-    "attemptedAt": "2026-11-18T15:46:12.050Z",
+    "attemptedAt": "2026-11-19T15:49:17.471Z",
     "counts": {
-      "30d": 641,
-      "90d": 2568,
-      "365d": 7651
+      "30d": 623,
+      "90d": 2563,
+      "365d": 7647
     },
-    "checkedAt": "2026-11-18T15:46:12.050Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.471Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "yq": {
     "formula": "yq",
     "repo": "mikefarah/yq",
     "source": "https://formulae.brew.sh/api/formula/yq.json",
-    "attemptedAt": "2026-11-18T15:46:12.050Z",
+    "attemptedAt": "2026-11-19T15:49:17.471Z",
     "counts": {
-      "30d": 64949,
-      "90d": 157546,
-      "365d": 633479
+      "30d": 65109,
+      "90d": 154364,
+      "365d": 633235
     },
-    "checkedAt": "2026-11-18T15:46:12.050Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.471Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "httpie": {
     "formula": "httpie",
     "repo": "httpie/cli",
     "source": "https://formulae.brew.sh/api/formula/httpie.json",
-    "attemptedAt": "2026-11-18T15:46:12.050Z",
+    "attemptedAt": "2026-11-19T15:49:17.471Z",
     "counts": {
-      "30d": 7078,
-      "90d": 14852,
-      "365d": 76164
+      "30d": 7035,
+      "90d": 14850,
+      "365d": 76178
     },
-    "checkedAt": "2026-11-18T15:46:12.050Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.471Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "curl": {
     "formula": "curl",
     "repo": "curl/curl",
     "source": "https://formulae.brew.sh/api/formula/curl.json",
-    "attemptedAt": "2026-11-18T15:46:12.130Z",
+    "attemptedAt": "2026-11-19T15:49:17.499Z",
     "counts": {
-      "30d": 18734,
-      "90d": 57895,
-      "365d": 308406
+      "30d": 17905,
+      "90d": 57841,
+      "365d": 307705
     },
-    "checkedAt": "2026-11-18T15:46:12.130Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.499Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "uv": {
     "formula": "uv",
     "repo": "astral-sh/uv",
     "source": "https://formulae.brew.sh/api/formula/uv.json",
-    "attemptedAt": "2026-11-18T15:46:12.131Z",
+    "attemptedAt": "2026-11-19T15:49:17.500Z",
     "counts": {
-      "30d": 207980,
-      "90d": 531863,
-      "365d": 2059093
+      "30d": 212961,
+      "90d": 537168,
+      "365d": 2064824
     },
-    "checkedAt": "2026-11-18T15:46:12.131Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.500Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "pnpm": {
     "formula": "pnpm",
     "repo": "pnpm/pnpm",
     "source": "https://formulae.brew.sh/api/formula/pnpm.json",
-    "attemptedAt": "2026-11-18T15:46:12.131Z",
+    "attemptedAt": "2026-11-19T15:49:17.500Z",
     "counts": {
-      "30d": 42112,
-      "90d": 123724,
-      "365d": 616620
+      "30d": 41304,
+      "90d": 123240,
+      "365d": 616743
     },
-    "checkedAt": "2026-11-18T15:46:12.131Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.500Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "bun": {
     "formula": "bun",
     "repo": "oven-sh/bun",
     "source": "https://formulae.brew.sh/api/formula/bun.json",
-    "attemptedAt": "2026-11-18T15:46:12.131Z",
+    "attemptedAt": "2026-11-19T15:49:17.500Z",
     "counts": {
-      "30d": 11908,
-      "90d": 24274,
-      "365d": 40425
+      "30d": 11885,
+      "90d": 24348,
+      "365d": 40746
     },
-    "checkedAt": "2026-11-18T15:46:12.131Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.500Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "mise": {
     "formula": "mise",
     "repo": "jdx/mise",
     "source": "https://formulae.brew.sh/api/formula/mise.json",
-    "attemptedAt": "2026-11-18T15:46:12.217Z",
+    "attemptedAt": "2026-11-19T15:49:17.512Z",
     "counts": {
-      "30d": 92000,
-      "90d": 195910,
-      "365d": 851461
+      "30d": 90794,
+      "90d": 195191,
+      "365d": 852224
     },
-    "checkedAt": "2026-11-18T15:46:12.217Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.512Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "ruff": {
     "formula": "ruff",
     "repo": "astral-sh/ruff",
     "source": "https://formulae.brew.sh/api/formula/ruff.json",
-    "attemptedAt": "2026-11-18T15:46:12.218Z",
+    "attemptedAt": "2026-11-19T15:49:17.512Z",
     "counts": {
-      "30d": 13833,
-      "90d": 33073,
-      "365d": 131602
+      "30d": 13666,
+      "90d": 32960,
+      "365d": 131684
     },
-    "checkedAt": "2026-11-18T15:46:12.218Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.512Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "biome": {
     "formula": "biome",
     "repo": "biomejs/biome",
     "source": "https://formulae.brew.sh/api/formula/biome.json",
-    "attemptedAt": "2026-11-18T15:46:12.218Z",
+    "attemptedAt": "2026-11-19T15:49:17.513Z",
     "counts": {
-      "30d": 5221,
-      "90d": 9669,
-      "365d": 44603
+      "30d": 5287,
+      "90d": 9616,
+      "365d": 44505
     },
-    "checkedAt": "2026-11-18T15:46:12.218Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.513Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "semgrep": {
     "formula": "semgrep",
     "repo": "semgrep/semgrep",
     "source": "https://formulae.brew.sh/api/formula/semgrep.json",
-    "attemptedAt": "2026-11-18T15:46:12.218Z",
+    "attemptedAt": "2026-11-19T15:49:17.513Z",
     "counts": {
-      "30d": 8902,
-      "90d": 19765,
-      "365d": 76163
+      "30d": 8796,
+      "90d": 19788,
+      "365d": 76215
     },
-    "checkedAt": "2026-11-18T15:46:12.218Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.513Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "gitleaks": {
     "formula": "gitleaks",
     "repo": "gitleaks/gitleaks",
     "source": "https://formulae.brew.sh/api/formula/gitleaks.json",
-    "attemptedAt": "2026-11-18T15:46:12.315Z",
+    "attemptedAt": "2026-11-19T15:49:17.536Z",
     "counts": {
-      "30d": 21422,
-      "90d": 43510,
-      "365d": 133663
+      "30d": 21532,
+      "90d": 43846,
+      "365d": 134052
     },
-    "checkedAt": "2026-11-18T15:46:12.315Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.536Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "rclone": {
     "formula": "rclone",
     "repo": "rclone/rclone",
     "source": "https://formulae.brew.sh/api/formula/rclone.json",
-    "attemptedAt": "2026-11-18T15:46:12.315Z",
+    "attemptedAt": "2026-11-19T15:49:17.536Z",
     "counts": {
-      "30d": 23185,
-      "90d": 57364,
-      "365d": 225631
+      "30d": 23201,
+      "90d": 57533,
+      "365d": 226108
     },
-    "checkedAt": "2026-11-18T15:46:12.315Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.536Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "pandoc": {
     "formula": "pandoc",
     "repo": "jgm/pandoc",
     "source": "https://formulae.brew.sh/api/formula/pandoc.json",
-    "attemptedAt": "2026-11-18T15:46:12.315Z",
+    "attemptedAt": "2026-11-19T15:49:17.536Z",
     "counts": {
-      "30d": 41721,
-      "90d": 106073,
-      "365d": 415682
+      "30d": 42134,
+      "90d": 106190,
+      "365d": 416438
     },
-    "checkedAt": "2026-11-18T15:46:12.315Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.536Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "bat": {
     "formula": "bat",
     "repo": "sharkdp/bat",
     "source": "https://formulae.brew.sh/api/formula/bat.json",
-    "attemptedAt": "2026-11-18T15:46:12.315Z",
+    "attemptedAt": "2026-11-19T15:49:17.536Z",
     "counts": {
-      "30d": 18636,
-      "90d": 39586,
-      "365d": 194513
+      "30d": 18600,
+      "90d": 39701,
+      "365d": 194637
     },
-    "checkedAt": "2026-11-18T15:46:12.315Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.536Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "glow": {
     "formula": "glow",
     "repo": "charmbracelet/glow",
     "source": "https://formulae.brew.sh/api/formula/glow.json",
-    "attemptedAt": "2026-11-18T15:46:12.405Z",
+    "attemptedAt": "2026-11-19T15:49:17.556Z",
     "counts": {
-      "30d": 5998,
-      "90d": 16632,
-      "365d": 63753
+      "30d": 6012,
+      "90d": 16523,
+      "365d": 63939
     },
-    "checkedAt": "2026-11-18T15:46:12.405Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.556Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "summarize": {
     "formula": "summarize",
     "repo": "steipete/summarize",
     "source": "https://formulae.brew.sh/api/formula/summarize.json",
-    "attemptedAt": "2026-11-18T15:46:12.405Z",
+    "attemptedAt": "2026-11-19T15:49:17.556Z",
     "counts": {
-      "30d": 5035,
-      "90d": 14583,
-      "365d": 58986
+      "30d": 5268,
+      "90d": 14796,
+      "365d": 59328
     },
-    "checkedAt": "2026-11-18T15:46:12.405Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.556Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "google-workspace-cli": {
     "formula": "googleworkspace-cli",
     "repo": "googleworkspace/cli",
     "source": "https://formulae.brew.sh/api/formula/googleworkspace-cli.json",
-    "attemptedAt": "2026-11-18T15:46:12.405Z",
+    "attemptedAt": "2026-11-19T15:49:17.556Z",
     "counts": {
-      "30d": 1288,
-      "90d": 3152,
-      "365d": 18119
+      "30d": 1295,
+      "90d": 3157,
+      "365d": 18165
     },
-    "checkedAt": "2026-11-18T15:46:12.405Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.556Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "gogcli": {
     "formula": "gogcli",
     "repo": "openclaw/gogcli",
     "source": "https://formulae.brew.sh/api/formula/gogcli.json",
-    "attemptedAt": "2026-11-18T15:46:12.405Z",
+    "attemptedAt": "2026-11-19T15:49:17.556Z",
     "counts": {
-      "30d": 4256,
-      "90d": 10930,
-      "365d": 43345
+      "30d": 4219,
+      "90d": 10916,
+      "365d": 43459
     },
-    "checkedAt": "2026-11-18T15:46:12.405Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.556Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "beads": {
     "formula": "beads",
     "repo": "gastownhall/beads",
     "source": "https://formulae.brew.sh/api/formula/beads.json",
-    "attemptedAt": "2026-11-18T15:46:12.495Z",
+    "attemptedAt": "2026-11-19T15:49:17.589Z",
     "counts": {
-      "30d": 3589,
-      "90d": 7483,
-      "365d": 26359
+      "30d": 3599,
+      "90d": 7415,
+      "365d": 26428
     },
-    "checkedAt": "2026-11-18T15:46:12.495Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.589Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "himalaya": {
     "formula": "himalaya",
     "repo": "pimalaya/himalaya",
     "source": "https://formulae.brew.sh/api/formula/himalaya.json",
-    "attemptedAt": "2026-11-18T15:46:12.495Z",
+    "attemptedAt": "2026-11-19T15:49:17.589Z",
     "counts": {
-      "30d": 1480,
-      "90d": 6397,
-      "365d": 115252
+      "30d": 1439,
+      "90d": 6296,
+      "365d": 115288
     },
-    "checkedAt": "2026-11-18T15:46:12.495Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.589Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "railway-cli": {
     "formula": "railway",
     "repo": "railwayapp/cli",
     "source": "https://formulae.brew.sh/api/formula/railway.json",
-    "attemptedAt": "2026-11-18T15:46:12.495Z",
+    "attemptedAt": "2026-11-19T15:49:17.589Z",
     "counts": {
-      "30d": 3962,
-      "90d": 15456,
-      "365d": 68276
+      "30d": 4055,
+      "90d": 15584,
+      "365d": 68494
     },
-    "checkedAt": "2026-11-18T15:46:12.495Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.589Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "aws-cli": {
     "formula": "awscli",
     "repo": "aws/aws-cli",
     "source": "https://formulae.brew.sh/api/formula/awscli.json",
-    "attemptedAt": "2026-11-18T15:46:12.495Z",
+    "attemptedAt": "2026-11-19T15:49:17.589Z",
     "counts": {
-      "30d": 175325,
-      "90d": 449504,
-      "365d": 2298029
+      "30d": 180085,
+      "90d": 448526,
+      "365d": 2298825
     },
-    "checkedAt": "2026-11-18T15:46:12.495Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.589Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "azure-cli": {
     "formula": "azure-cli",
     "repo": "Azure/azure-cli",
     "source": "https://formulae.brew.sh/api/formula/azure-cli.json",
-    "attemptedAt": "2026-11-18T15:46:12.592Z",
+    "attemptedAt": "2026-11-19T15:49:17.608Z",
     "counts": {
       "30d": 12567,
       "90d": 83225,
@@ -465,1302 +465,1302 @@
     "formula": "doctl",
     "repo": "digitalocean/doctl",
     "source": "https://formulae.brew.sh/api/formula/doctl.json",
-    "attemptedAt": "2026-11-18T15:46:12.592Z",
+    "attemptedAt": "2026-11-19T15:49:17.608Z",
     "counts": {
-      "30d": 5762,
-      "90d": 15429,
-      "365d": 46420
+      "30d": 5954,
+      "90d": 15579,
+      "365d": 46692
     },
-    "checkedAt": "2026-11-18T15:46:12.592Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.608Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "hcloud": {
     "formula": "hcloud",
     "repo": "hetznercloud/cli",
     "source": "https://formulae.brew.sh/api/formula/hcloud.json",
-    "attemptedAt": "2026-11-18T15:46:12.592Z",
+    "attemptedAt": "2026-11-19T15:49:17.608Z",
     "counts": {
-      "30d": 2359,
-      "90d": 5915,
-      "365d": 20816
+      "30d": 2375,
+      "90d": 5945,
+      "365d": 20870
     },
-    "checkedAt": "2026-11-18T15:46:12.592Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.608Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "scaleway-cli": {
     "formula": "scw",
     "repo": "scaleway/scaleway-cli",
     "source": "https://formulae.brew.sh/api/formula/scw.json",
-    "attemptedAt": "2026-11-18T15:46:12.593Z",
+    "attemptedAt": "2026-11-19T15:49:17.609Z",
     "counts": {
-      "30d": 821,
-      "90d": 1940,
-      "365d": 6720
+      "30d": 872,
+      "90d": 1979,
+      "365d": 6783
     },
-    "checkedAt": "2026-11-18T15:46:12.593Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.609Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "linode-cli": {
     "formula": "linode-cli",
     "repo": "linode/linode-cli",
     "source": "https://formulae.brew.sh/api/formula/linode-cli.json",
-    "attemptedAt": "2026-11-18T15:46:12.689Z",
+    "attemptedAt": "2026-11-19T15:49:17.641Z",
     "counts": {
-      "30d": 188,
-      "90d": 359,
-      "365d": 2196
+      "30d": 180,
+      "90d": 357,
+      "365d": 2198
     },
-    "checkedAt": "2026-11-18T15:46:12.689Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.641Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "render-cli": {
     "formula": "render",
     "repo": "render-oss/cli",
     "source": "https://formulae.brew.sh/api/formula/render.json",
-    "attemptedAt": "2026-11-18T15:46:12.690Z",
+    "attemptedAt": "2026-11-19T15:49:17.641Z",
     "counts": {
-      "30d": 1826,
-      "90d": 3548,
-      "365d": 12534
+      "30d": 1784,
+      "90d": 3497,
+      "365d": 12569
     },
-    "checkedAt": "2026-11-18T15:46:12.690Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.641Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "stripe-cli": {
     "formula": "stripe-cli",
     "repo": "stripe/stripe-cli",
     "source": "https://formulae.brew.sh/api/formula/stripe-cli.json",
-    "attemptedAt": "2026-11-18T15:46:12.690Z",
+    "attemptedAt": "2026-11-19T15:49:17.641Z",
     "counts": {
-      "30d": 3536,
-      "90d": 8115,
-      "365d": 25199
+      "30d": 3637,
+      "90d": 8147,
+      "365d": 25389
     },
-    "checkedAt": "2026-11-18T15:46:12.690Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.641Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "algolia-cli": {
     "formula": "algolia",
     "repo": "algolia/cli",
     "source": "https://formulae.brew.sh/api/formula/algolia.json",
-    "attemptedAt": "2026-11-18T15:46:12.690Z",
+    "attemptedAt": "2026-11-19T15:49:17.641Z",
     "counts": {
-      "30d": 18,
-      "90d": 55,
+      "30d": 14,
+      "90d": 46,
       "365d": 399
     },
-    "checkedAt": "2026-11-18T15:46:12.690Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.641Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "podman": {
     "formula": "podman",
     "repo": "podman-container-tools/podman",
     "source": "https://formulae.brew.sh/api/formula/podman.json",
-    "attemptedAt": "2026-11-18T15:46:12.786Z",
+    "attemptedAt": "2026-11-19T15:49:17.667Z",
     "counts": {
-      "30d": 12905,
-      "90d": 30879,
-      "365d": 200628
+      "30d": 12728,
+      "90d": 30848,
+      "365d": 200284
     },
-    "checkedAt": "2026-11-18T15:46:12.786Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.667Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "helm": {
     "formula": "helm",
     "repo": "helm/helm",
     "source": "https://formulae.brew.sh/api/formula/helm.json",
-    "attemptedAt": "2026-11-18T15:46:12.786Z",
+    "attemptedAt": "2026-11-19T15:49:17.667Z",
     "counts": {
-      "30d": 42889,
-      "90d": 92988,
-      "365d": 500525
+      "30d": 42189,
+      "90d": 93379,
+      "365d": 500445
     },
-    "checkedAt": "2026-11-18T15:46:12.786Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.667Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "opentofu": {
     "formula": "opentofu",
     "repo": "opentofu/opentofu",
     "source": "https://formulae.brew.sh/api/formula/opentofu.json",
-    "attemptedAt": "2026-11-18T15:46:12.786Z",
+    "attemptedAt": "2026-11-19T15:49:17.667Z",
     "counts": {
-      "30d": 14661,
-      "90d": 27916,
-      "365d": 93511
+      "30d": 14698,
+      "90d": 27376,
+      "365d": 93612
     },
-    "checkedAt": "2026-11-18T15:46:12.786Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.667Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "pulumi": {
     "formula": "pulumi",
     "repo": "pulumi/pulumi",
     "source": "https://formulae.brew.sh/api/formula/pulumi.json",
-    "attemptedAt": "2026-11-18T15:46:12.786Z",
+    "attemptedAt": "2026-11-19T15:49:17.667Z",
     "counts": {
-      "30d": 3438,
-      "90d": 8336,
-      "365d": 39723
+      "30d": 3357,
+      "90d": 8183,
+      "365d": 39720
     },
-    "checkedAt": "2026-11-18T15:46:12.786Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.667Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "ansible": {
     "formula": "ansible",
     "repo": "ansible/ansible",
     "source": "https://formulae.brew.sh/api/formula/ansible.json",
-    "attemptedAt": "2026-11-18T15:46:12.884Z",
+    "attemptedAt": "2026-11-19T15:49:17.681Z",
     "counts": {
-      "30d": 24003,
-      "90d": 46675,
-      "365d": 236525
+      "30d": 23946,
+      "90d": 46477,
+      "365d": 236494
     },
-    "checkedAt": "2026-11-18T15:46:12.884Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.681Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "argocd": {
     "formula": "argocd",
     "repo": "argoproj/argo-cd",
     "source": "https://formulae.brew.sh/api/formula/argocd.json",
-    "attemptedAt": "2026-11-18T15:46:12.884Z",
+    "attemptedAt": "2026-11-19T15:49:17.681Z",
     "counts": {
-      "30d": 13617,
-      "90d": 29267,
-      "365d": 143531
+      "30d": 13563,
+      "90d": 29338,
+      "365d": 143480
     },
-    "checkedAt": "2026-11-18T15:46:12.884Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.681Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "flux-cli": {
     "formula": "fluxcd",
     "repo": "fluxcd/flux2",
     "source": "https://formulae.brew.sh/api/formula/fluxcd.json",
-    "attemptedAt": "2026-11-18T15:46:12.884Z",
+    "attemptedAt": "2026-11-19T15:49:17.681Z",
     "counts": {
-      "30d": 213,
-      "90d": 403,
-      "365d": 458
+      "30d": 215,
+      "90d": 400,
+      "365d": 464
     },
-    "checkedAt": "2026-11-18T15:46:12.884Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.681Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "kind": {
     "formula": "kind",
     "repo": "kubernetes-sigs/kind",
     "source": "https://formulae.brew.sh/api/formula/kind.json",
-    "attemptedAt": "2026-11-18T15:46:12.884Z",
+    "attemptedAt": "2026-11-19T15:49:17.681Z",
     "counts": {
-      "30d": 4155,
-      "90d": 12327,
-      "365d": 58401
+      "30d": 4098,
+      "90d": 12330,
+      "365d": 58280
     },
-    "checkedAt": "2026-11-18T15:46:12.884Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.681Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "minikube": {
     "formula": "minikube",
     "repo": "kubernetes/minikube",
     "source": "https://formulae.brew.sh/api/formula/minikube.json",
-    "attemptedAt": "2026-11-18T15:46:12.968Z",
+    "attemptedAt": "2026-11-19T15:49:17.723Z",
     "counts": {
-      "30d": 2656,
-      "90d": 7950,
-      "365d": 55463
+      "30d": 2641,
+      "90d": 7949,
+      "365d": 55340
     },
-    "checkedAt": "2026-11-18T15:46:12.968Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.723Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "sops": {
     "formula": "sops",
     "repo": "getsops/sops",
     "source": "https://formulae.brew.sh/api/formula/sops.json",
-    "attemptedAt": "2026-11-18T15:46:12.968Z",
+    "attemptedAt": "2026-11-19T15:49:17.723Z",
     "counts": {
-      "30d": 5063,
-      "90d": 12006,
-      "365d": 101482
+      "30d": 5138,
+      "90d": 11952,
+      "365d": 101290
     },
-    "checkedAt": "2026-11-18T15:46:12.968Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.723Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "age": {
     "formula": "age",
     "repo": "FiloSottile/age",
     "source": "https://formulae.brew.sh/api/formula/age.json",
-    "attemptedAt": "2026-11-18T15:46:12.968Z",
+    "attemptedAt": "2026-11-19T15:49:17.723Z",
     "counts": {
-      "30d": 11562,
-      "90d": 27646,
-      "365d": 66444
+      "30d": 11517,
+      "90d": 27758,
+      "365d": 66685
     },
-    "checkedAt": "2026-11-18T15:46:12.968Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.723Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "bitwarden-cli": {
     "formula": "bitwarden-cli",
     "repo": "bitwarden/clients",
     "source": "https://formulae.brew.sh/api/formula/bitwarden-cli.json",
-    "attemptedAt": "2026-11-18T15:46:12.968Z",
+    "attemptedAt": "2026-11-19T15:49:17.724Z",
     "counts": {
-      "30d": 5029,
-      "90d": 13452,
-      "365d": 46823
+      "30d": 4890,
+      "90d": 13331,
+      "365d": 46817
     },
-    "checkedAt": "2026-11-18T15:46:12.968Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.724Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "doppler-cli": {
     "formula": "doppler",
     "repo": "DopplerHQ/cli",
     "source": "https://formulae.brew.sh/api/formula/doppler.json",
-    "attemptedAt": "2026-11-18T15:46:13.049Z",
+    "attemptedAt": "2026-11-19T15:49:17.759Z",
     "counts": {
-      "30d": 761,
-      "90d": 2120,
-      "365d": 7519
+      "30d": 744,
+      "90d": 2096,
+      "365d": 7522
     },
-    "checkedAt": "2026-11-18T15:46:13.049Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.759Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "infisical-cli": {
     "formula": "infisical",
     "repo": "Infisical/cli",
     "source": "https://formulae.brew.sh/api/formula/infisical.json",
-    "attemptedAt": "2026-11-18T15:46:13.049Z",
+    "attemptedAt": "2026-11-19T15:49:17.759Z",
     "counts": {
-      "30d": 1200,
-      "90d": 2671,
-      "365d": 8062
+      "30d": 1208,
+      "90d": 2675,
+      "365d": 8111
     },
-    "checkedAt": "2026-11-18T15:46:13.049Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.759Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "trivy": {
     "formula": "trivy",
     "repo": "aquasecurity/trivy",
     "source": "https://formulae.brew.sh/api/formula/trivy.json",
-    "attemptedAt": "2026-11-18T15:46:13.049Z",
+    "attemptedAt": "2026-11-19T15:49:17.759Z",
     "counts": {
-      "30d": 16331,
-      "90d": 33852,
-      "365d": 142360
+      "30d": 16160,
+      "90d": 33753,
+      "365d": 142497
     },
-    "checkedAt": "2026-11-18T15:46:13.049Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.759Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "syft": {
     "formula": "syft",
     "repo": "anchore/syft",
     "source": "https://formulae.brew.sh/api/formula/syft.json",
-    "attemptedAt": "2026-11-18T15:46:13.049Z",
+    "attemptedAt": "2026-11-19T15:49:17.759Z",
     "counts": {
-      "30d": 5827,
-      "90d": 10976,
-      "365d": 38831
+      "30d": 5829,
+      "90d": 11012,
+      "365d": 38757
     },
-    "checkedAt": "2026-11-18T15:46:13.049Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.759Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "grype": {
     "formula": "grype",
     "repo": "anchore/grype",
     "source": "https://formulae.brew.sh/api/formula/grype.json",
-    "attemptedAt": "2026-11-18T15:46:13.130Z",
+    "attemptedAt": "2026-11-19T15:49:17.789Z",
     "counts": {
-      "30d": 5452,
-      "90d": 9857,
-      "365d": 35553
+      "30d": 5646,
+      "90d": 10064,
+      "365d": 35514
     },
-    "checkedAt": "2026-11-18T15:46:13.130Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.789Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "trufflehog": {
     "formula": "trufflehog",
     "repo": "trufflesecurity/trufflehog",
     "source": "https://formulae.brew.sh/api/formula/trufflehog.json",
-    "attemptedAt": "2026-11-18T15:46:13.130Z",
+    "attemptedAt": "2026-11-19T15:49:17.789Z",
     "counts": {
-      "30d": 9329,
-      "90d": 21510,
-      "365d": 60800
+      "30d": 9301,
+      "90d": 21440,
+      "365d": 60900
     },
-    "checkedAt": "2026-11-18T15:46:13.130Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.789Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "cosign": {
     "formula": "cosign",
     "repo": "sigstore/cosign",
     "source": "https://formulae.brew.sh/api/formula/cosign.json",
-    "attemptedAt": "2026-11-18T15:46:13.130Z",
+    "attemptedAt": "2026-11-19T15:49:17.790Z",
     "counts": {
-      "30d": 5902,
-      "90d": 10325,
-      "365d": 53441
+      "30d": 5853,
+      "90d": 10329,
+      "365d": 53423
     },
-    "checkedAt": "2026-11-18T15:46:13.130Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.790Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "k6": {
     "formula": "k6",
     "repo": "grafana/k6",
     "source": "https://formulae.brew.sh/api/formula/k6.json",
-    "attemptedAt": "2026-11-18T15:46:13.130Z",
+    "attemptedAt": "2026-11-19T15:49:17.790Z",
     "counts": {
-      "30d": 6137,
-      "90d": 14854,
-      "365d": 70613
+      "30d": 6246,
+      "90d": 14918,
+      "365d": 70692
     },
-    "checkedAt": "2026-11-18T15:46:13.130Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.790Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "duckdb-cli": {
     "formula": "duckdb",
     "repo": "duckdb/duckdb",
     "source": "https://formulae.brew.sh/api/formula/duckdb.json",
-    "attemptedAt": "2026-11-18T15:46:13.216Z",
+    "attemptedAt": "2026-11-19T15:49:17.810Z",
     "counts": {
-      "30d": 7246,
-      "90d": 15068,
-      "365d": 60716
+      "30d": 7189,
+      "90d": 15003,
+      "365d": 60674
     },
-    "checkedAt": "2026-11-18T15:46:13.216Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.810Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "sqlite-utils": {
     "formula": "sqlite-utils",
     "repo": "simonw/sqlite-utils",
     "source": "https://formulae.brew.sh/api/formula/sqlite-utils.json",
-    "attemptedAt": "2026-11-18T15:46:13.217Z",
+    "attemptedAt": "2026-11-19T15:49:17.811Z",
     "counts": {
-      "30d": 69,
-      "90d": 259,
-      "365d": 2138
+      "30d": 68,
+      "90d": 249,
+      "365d": 2139
     },
-    "checkedAt": "2026-11-18T15:46:13.217Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.811Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "golang-migrate": {
     "formula": "golang-migrate",
     "repo": "golang-migrate/migrate",
     "source": "https://formulae.brew.sh/api/formula/golang-migrate.json",
-    "attemptedAt": "2026-11-18T15:46:13.217Z",
+    "attemptedAt": "2026-11-19T15:49:17.811Z",
     "counts": {
-      "30d": 1170,
-      "90d": 2313,
-      "365d": 11187
+      "30d": 1107,
+      "90d": 2291,
+      "365d": 11183
     },
-    "checkedAt": "2026-11-18T15:46:13.217Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.811Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "atlas": {
     "formula": "atlas",
     "repo": "ariga/atlas",
     "source": "https://formulae.brew.sh/api/formula/atlas.json",
-    "attemptedAt": "2026-11-18T15:46:13.217Z",
+    "attemptedAt": "2026-11-19T15:49:17.811Z",
     "counts": {
-      "30d": 164,
-      "90d": 387,
-      "365d": 7905
+      "30d": 191,
+      "90d": 397,
+      "365d": 7929
     },
-    "checkedAt": "2026-11-18T15:46:13.217Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.811Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "miller": {
     "formula": "miller",
     "repo": "johnkerl/miller",
     "source": "https://formulae.brew.sh/api/formula/miller.json",
-    "attemptedAt": "2026-11-18T15:46:13.305Z",
+    "attemptedAt": "2026-11-19T15:49:17.834Z",
     "counts": {
-      "30d": 394,
-      "90d": 1736,
-      "365d": 8531
+      "30d": 376,
+      "90d": 1716,
+      "365d": 8526
     },
-    "checkedAt": "2026-11-18T15:46:13.305Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.834Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "dolt": {
     "formula": "dolt",
     "repo": "dolthub/dolt",
     "source": "https://formulae.brew.sh/api/formula/dolt.json",
-    "attemptedAt": "2026-11-18T15:46:13.305Z",
+    "attemptedAt": "2026-11-19T15:49:17.835Z",
     "counts": {
-      "30d": 1549,
-      "90d": 2953,
-      "365d": 16273
+      "30d": 1589,
+      "90d": 2943,
+      "365d": 16314
     },
-    "checkedAt": "2026-11-18T15:46:13.305Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.835Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "yt-dlp": {
     "formula": "yt-dlp",
     "repo": "yt-dlp/yt-dlp",
     "source": "https://formulae.brew.sh/api/formula/yt-dlp.json",
-    "attemptedAt": "2026-11-18T15:46:13.305Z",
+    "attemptedAt": "2026-11-19T15:49:17.835Z",
     "counts": {
-      "30d": 63731,
-      "90d": 147095,
-      "365d": 622844
+      "30d": 63904,
+      "90d": 147079,
+      "365d": 623023
     },
-    "checkedAt": "2026-11-18T15:46:13.305Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.835Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "tesseract": {
     "formula": "tesseract",
     "repo": "tesseract-ocr/tesseract",
     "source": "https://formulae.brew.sh/api/formula/tesseract.json",
-    "attemptedAt": "2026-11-18T15:46:13.306Z",
+    "attemptedAt": "2026-11-19T15:49:17.835Z",
     "counts": {
-      "30d": 29242,
-      "90d": 55455,
-      "365d": 268227
+      "30d": 29406,
+      "90d": 55272,
+      "365d": 267664
     },
-    "checkedAt": "2026-11-18T15:46:13.306Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.835Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "qpdf": {
     "formula": "qpdf",
     "repo": "qpdf/qpdf",
     "source": "https://formulae.brew.sh/api/formula/qpdf.json",
-    "attemptedAt": "2026-11-18T15:46:13.385Z",
+    "attemptedAt": "2026-11-19T15:49:17.862Z",
     "counts": {
-      "30d": 6403,
-      "90d": 22693,
-      "365d": 66310
+      "30d": 6352,
+      "90d": 22662,
+      "365d": 66470
     },
-    "checkedAt": "2026-11-18T15:46:13.385Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.862Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "restic": {
     "formula": "restic",
     "repo": "restic/restic",
     "source": "https://formulae.brew.sh/api/formula/restic.json",
-    "attemptedAt": "2026-11-18T15:46:13.386Z",
+    "attemptedAt": "2026-11-19T15:49:17.862Z",
     "counts": {
-      "30d": 3836,
-      "90d": 9322,
-      "365d": 19582
+      "30d": 3837,
+      "90d": 9356,
+      "365d": 19673
     },
-    "checkedAt": "2026-11-18T15:46:13.386Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.862Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "just": {
     "formula": "just",
     "repo": "casey/just",
     "source": "https://formulae.brew.sh/api/formula/just.json",
-    "attemptedAt": "2026-11-18T15:46:13.386Z",
+    "attemptedAt": "2026-11-19T15:49:17.862Z",
     "counts": {
-      "30d": 35989,
-      "90d": 92241,
-      "365d": 438106
+      "30d": 35104,
+      "90d": 91773,
+      "365d": 438283
     },
-    "checkedAt": "2026-11-18T15:46:13.386Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.862Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "git": {
     "formula": "git",
     "repo": "git/git",
     "source": "https://formulae.brew.sh/api/formula/git.json",
-    "attemptedAt": "2026-11-18T15:46:13.386Z",
+    "attemptedAt": "2026-11-19T15:49:17.862Z",
     "counts": {
-      "30d": 133844,
-      "90d": 297747,
-      "365d": 1400620
+      "30d": 134158,
+      "90d": 298778,
+      "365d": 1390538
     },
-    "checkedAt": "2026-11-18T15:46:13.386Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.862Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "docker-cli": {
     "formula": "docker",
     "repo": "docker/cli",
     "source": "https://formulae.brew.sh/api/formula/docker.json",
-    "attemptedAt": "2026-11-18T15:46:13.470Z",
+    "attemptedAt": "2026-11-19T15:49:17.880Z",
     "counts": {
-      "30d": 62095,
-      "90d": 141825,
-      "365d": 751665
+      "30d": 62568,
+      "90d": 143136,
+      "365d": 750148
     },
-    "checkedAt": "2026-11-18T15:46:13.470Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.880Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "wp-cli": {
     "formula": "wp-cli",
     "repo": "wp-cli/wp-cli",
     "source": "https://formulae.brew.sh/api/formula/wp-cli.json",
-    "attemptedAt": "2026-11-18T15:46:13.471Z",
+    "attemptedAt": "2026-11-19T15:49:17.880Z",
     "counts": {
-      "30d": 316,
-      "90d": 964,
-      "365d": 5349
+      "30d": 318,
+      "90d": 956,
+      "365d": 5353
     },
-    "checkedAt": "2026-11-18T15:46:13.471Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.880Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "ffmpeg": {
     "formula": "ffmpeg",
     "repo": "FFmpeg/FFmpeg",
     "source": "https://formulae.brew.sh/api/formula/ffmpeg.json",
-    "attemptedAt": "2026-11-18T15:46:13.471Z",
+    "attemptedAt": "2026-11-19T15:49:17.880Z",
     "counts": {
-      "30d": 115894,
-      "90d": 385992,
-      "365d": 1765099
+      "30d": 115166,
+      "90d": 383776,
+      "365d": 1765459
     },
-    "checkedAt": "2026-11-18T15:46:13.471Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.880Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "imagemagick": {
     "formula": "imagemagick",
     "repo": "ImageMagick/ImageMagick",
     "source": "https://formulae.brew.sh/api/formula/imagemagick.json",
-    "attemptedAt": "2026-11-18T15:46:13.471Z",
+    "attemptedAt": "2026-11-19T15:49:17.880Z",
     "counts": {
-      "30d": 51400,
-      "90d": 146390,
-      "365d": 780562
+      "30d": 52334,
+      "90d": 147850,
+      "365d": 781734
     },
-    "checkedAt": "2026-11-18T15:46:13.471Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.880Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "gemini-cli": {
     "formula": "gemini-cli",
     "repo": "google-gemini/gemini-cli",
     "source": "https://formulae.brew.sh/api/formula/gemini-cli.json",
-    "attemptedAt": "2026-11-18T15:46:13.556Z",
+    "attemptedAt": "2026-11-19T15:49:17.901Z",
     "counts": {
-      "30d": 22419,
-      "90d": 31354,
-      "365d": 736266
+      "30d": 21236,
+      "90d": 31443,
+      "365d": 732349
     },
-    "checkedAt": "2026-11-18T15:46:13.556Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.901Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "sigoden-aichat": {
     "formula": "aichat",
     "repo": "sigoden/aichat",
     "source": "https://formulae.brew.sh/api/formula/aichat.json",
-    "attemptedAt": "2026-11-18T15:46:13.556Z",
+    "attemptedAt": "2026-11-19T15:49:17.901Z",
     "counts": {
-      "30d": 183,
+      "30d": 186,
       "90d": 574,
-      "365d": 4993
+      "365d": 4978
     },
-    "checkedAt": "2026-11-18T15:46:13.556Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.901Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "aliyun-aliyun-cli": {
     "formula": "aliyun-cli",
     "repo": "aliyun/aliyun-cli",
     "source": "https://formulae.brew.sh/api/formula/aliyun-cli.json",
-    "attemptedAt": "2026-11-18T15:46:13.556Z",
+    "attemptedAt": "2026-11-19T15:49:17.901Z",
     "counts": {
-      "30d": 1503,
-      "90d": 3207,
-      "365d": 15238
+      "30d": 1524,
+      "90d": 3209,
+      "365d": 15271
     },
-    "checkedAt": "2026-11-18T15:46:13.556Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.901Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "rorkai-app-store-connect-cli": {
     "formula": "asc",
     "repo": "rorkai/App-Store-Connect-CLI",
     "source": "https://formulae.brew.sh/api/formula/asc.json",
-    "attemptedAt": "2026-11-18T15:46:13.556Z",
+    "attemptedAt": "2026-11-19T15:49:17.901Z",
     "counts": {
-      "30d": 3509,
-      "90d": 8340,
-      "365d": 18169
+      "30d": 3534,
+      "90d": 8342,
+      "365d": 18272
     },
-    "checkedAt": "2026-11-18T15:46:13.556Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.901Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "astronomer-astro-cli": {
     "formula": "astro",
     "repo": "astronomer/astro-cli",
     "source": "https://formulae.brew.sh/api/formula/astro.json",
-    "attemptedAt": "2026-11-18T15:46:13.637Z",
+    "attemptedAt": "2026-11-19T15:49:17.946Z",
     "counts": {
-      "30d": 783,
-      "90d": 1715,
-      "365d": 8007
+      "30d": 757,
+      "90d": 1710,
+      "365d": 7992
     },
-    "checkedAt": "2026-11-18T15:46:13.637Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.946Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "wez-atomicparsley": {
     "formula": "atomicparsley",
     "repo": "wez/atomicparsley",
     "source": "https://formulae.brew.sh/api/formula/atomicparsley.json",
-    "attemptedAt": "2026-11-18T15:46:13.637Z",
+    "attemptedAt": "2026-11-19T15:49:17.947Z",
     "counts": {
-      "30d": 92,
-      "90d": 279,
-      "365d": 1811
+      "30d": 88,
+      "90d": 276,
+      "365d": 1808
     },
-    "checkedAt": "2026-11-18T15:46:13.637Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.947Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "aws-aws-sam-cli": {
     "formula": "aws-sam-cli",
     "repo": "aws/aws-sam-cli",
     "source": "https://formulae.brew.sh/api/formula/aws-sam-cli.json",
-    "attemptedAt": "2026-11-18T15:46:13.637Z",
+    "attemptedAt": "2026-11-19T15:49:17.947Z",
     "counts": {
-      "30d": 8191,
-      "90d": 16147,
-      "365d": 80258
+      "30d": 8270,
+      "90d": 16290,
+      "365d": 80336
     },
-    "checkedAt": "2026-11-18T15:46:13.637Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.947Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "chenhg5-cc-connect": {
     "formula": "cc-connect",
     "repo": "chenhg5/cc-connect",
     "source": "https://formulae.brew.sh/api/formula/cc-connect.json",
-    "attemptedAt": "2026-11-18T15:46:13.637Z",
+    "attemptedAt": "2026-11-19T15:49:17.947Z",
     "counts": {
-      "30d": 91,
+      "30d": 102,
       "90d": 260,
-      "365d": 1890
+      "365d": 1903
     },
-    "checkedAt": "2026-11-18T15:46:13.637Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.947Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "kerma-defaultbrowser": {
     "formula": "defaultbrowser",
     "repo": "kerma/defaultbrowser",
     "source": "https://formulae.brew.sh/api/formula/defaultbrowser.json",
-    "attemptedAt": "2026-11-18T15:46:13.723Z",
+    "attemptedAt": "2026-11-19T15:49:17.968Z",
     "counts": {
-      "30d": 191,
-      "90d": 504,
-      "365d": 2004
+      "30d": 192,
+      "90d": 497,
+      "365d": 2008
     },
-    "checkedAt": "2026-11-18T15:46:13.723Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.968Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "vshulcz-deja-vu": {
     "formula": "deja-vu",
     "repo": "vshulcz/deja-vu",
     "source": "https://formulae.brew.sh/api/formula/deja-vu.json",
-    "attemptedAt": "2026-11-18T15:46:13.723Z",
+    "attemptedAt": "2026-11-19T15:49:17.968Z",
     "counts": {
-      "30d": 356,
-      "90d": 810,
-      "365d": 810
+      "30d": 351,
+      "90d": 813,
+      "365d": 813
     },
-    "checkedAt": "2026-11-18T15:46:13.723Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.968Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "amir20-dtop": {
     "formula": "dtop",
     "repo": "amir20/dtop",
     "source": "https://formulae.brew.sh/api/formula/dtop.json",
-    "attemptedAt": "2026-11-18T15:46:13.723Z",
+    "attemptedAt": "2026-11-19T15:49:17.968Z",
     "counts": {
-      "30d": 494,
+      "30d": 476,
       "90d": 1144,
-      "365d": 2616
+      "365d": 2624
     },
-    "checkedAt": "2026-11-18T15:46:13.723Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.968Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "elio-fm-elio": {
     "formula": "elio",
     "repo": "elio-fm/elio",
     "source": "https://formulae.brew.sh/api/formula/elio.json",
-    "attemptedAt": "2026-11-18T15:46:13.723Z",
+    "attemptedAt": "2026-11-19T15:49:17.968Z",
     "counts": {
-      "30d": 187,
+      "30d": 164,
       "90d": 398,
-      "365d": 981
+      "365d": 982
     },
-    "checkedAt": "2026-11-18T15:46:13.723Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.968Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "grafana-gcx": {
     "formula": "gcx",
     "repo": "grafana/gcx",
     "source": "https://formulae.brew.sh/api/formula/gcx.json",
-    "attemptedAt": "2026-11-18T15:46:13.848Z",
+    "attemptedAt": "2026-11-19T15:49:17.995Z",
     "counts": {
-      "30d": 772,
-      "90d": 1880,
-      "365d": 2218
+      "30d": 814,
+      "90d": 1938,
+      "365d": 2299
     },
-    "checkedAt": "2026-11-18T15:46:13.848Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.995Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "gitguardian-ggshield": {
     "formula": "ggshield",
     "repo": "GitGuardian/ggshield",
     "source": "https://formulae.brew.sh/api/formula/ggshield.json",
-    "attemptedAt": "2026-11-18T15:46:13.848Z",
+    "attemptedAt": "2026-11-19T15:49:17.995Z",
     "counts": {
-      "30d": 809,
-      "90d": 1893,
-      "365d": 7516
+      "30d": 776,
+      "90d": 1905,
+      "365d": 7478
     },
-    "checkedAt": "2026-11-18T15:46:13.848Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.995Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "gitui-org-gitui": {
     "formula": "gitui",
     "repo": "gitui-org/gitui",
     "source": "https://formulae.brew.sh/api/formula/gitui.json",
-    "attemptedAt": "2026-11-18T15:46:13.848Z",
+    "attemptedAt": "2026-11-19T15:49:17.995Z",
     "counts": {
-      "30d": 324,
-      "90d": 822,
-      "365d": 9587
+      "30d": 316,
+      "90d": 812,
+      "365d": 9577
     },
-    "checkedAt": "2026-11-18T15:46:13.848Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.995Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "tconbeer-harlequin": {
     "formula": "harlequin",
     "repo": "tconbeer/harlequin",
     "source": "https://formulae.brew.sh/api/formula/harlequin.json",
-    "attemptedAt": "2026-11-18T15:46:13.848Z",
+    "attemptedAt": "2026-11-19T15:49:17.995Z",
     "counts": {
-      "30d": 345,
-      "90d": 1111,
-      "365d": 3607
+      "30d": 325,
+      "90d": 1104,
+      "365d": 3595
     },
-    "checkedAt": "2026-11-18T15:46:13.848Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:17.995Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "derailed-k9s": {
     "formula": "k9s",
     "repo": "derailed/k9s",
     "source": "https://formulae.brew.sh/api/formula/k9s.json",
-    "attemptedAt": "2026-11-18T15:46:13.942Z",
+    "attemptedAt": "2026-11-19T15:49:18.020Z",
     "counts": {
-      "30d": 11578,
-      "90d": 28155,
-      "365d": 157714
+      "30d": 11481,
+      "90d": 28077,
+      "365d": 157588
     },
-    "checkedAt": "2026-11-18T15:46:13.942Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.020Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "kenn-io-kata": {
     "formula": "kata",
     "repo": "kenn-io/kata",
     "source": "https://formulae.brew.sh/api/formula/kata.json",
-    "attemptedAt": "2026-11-18T15:46:13.943Z",
+    "attemptedAt": "2026-11-19T15:49:18.020Z",
     "counts": {
-      "30d": 157,
-      "90d": 297,
-      "365d": 400
+      "30d": 152,
+      "90d": 284,
+      "365d": 402
     },
-    "checkedAt": "2026-11-18T15:46:13.943Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.020Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "keeper-security-commander": {
     "formula": "keeper-commander",
     "repo": "Keeper-Security/Commander",
     "source": "https://formulae.brew.sh/api/formula/keeper-commander.json",
-    "attemptedAt": "2026-11-18T15:46:13.943Z",
+    "attemptedAt": "2026-11-19T15:49:18.020Z",
     "counts": {
-      "30d": 191,
-      "90d": 497,
-      "365d": 2699
+      "30d": 200,
+      "90d": 506,
+      "365d": 2712
     },
-    "checkedAt": "2026-11-18T15:46:13.943Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.020Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "ipfs-kubo": {
     "formula": "kubo",
     "repo": "ipfs/kubo",
     "source": "https://formulae.brew.sh/api/formula/kubo.json",
-    "attemptedAt": "2026-11-18T15:46:13.943Z",
+    "attemptedAt": "2026-11-19T15:49:18.020Z",
     "counts": {
-      "30d": 131,
-      "90d": 414,
-      "365d": 3654
+      "30d": 137,
+      "90d": 413,
+      "365d": 3650
     },
-    "checkedAt": "2026-11-18T15:46:13.943Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.020Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "gokcehan-lf": {
     "formula": "lf",
     "repo": "gokcehan/lf",
     "source": "https://formulae.brew.sh/api/formula/lf.json",
-    "attemptedAt": "2026-11-18T15:46:14.039Z",
+    "attemptedAt": "2026-11-19T15:49:18.066Z",
     "counts": {
       "30d": 143,
-      "90d": 517,
-      "365d": 5585
+      "90d": 505,
+      "365d": 5577
     },
-    "checkedAt": "2026-11-18T15:46:14.039Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.066Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "janosmiko-lfk": {
     "formula": "lfk",
     "repo": "janosmiko/lfk",
     "source": "https://formulae.brew.sh/api/formula/lfk.json",
-    "attemptedAt": "2026-11-18T15:46:14.039Z",
+    "attemptedAt": "2026-11-19T15:49:18.066Z",
     "counts": {
-      "30d": 252,
-      "90d": 662,
-      "365d": 872
+      "30d": 238,
+      "90d": 654,
+      "365d": 876
     },
-    "checkedAt": "2026-11-18T15:46:14.039Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.066Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "mistralai-mistral-vibe": {
     "formula": "mistral-vibe",
     "repo": "mistralai/mistral-vibe",
     "source": "https://formulae.brew.sh/api/formula/mistral-vibe.json",
-    "attemptedAt": "2026-11-18T15:46:14.039Z",
+    "attemptedAt": "2026-11-19T15:49:18.066Z",
     "counts": {
-      "30d": 1744,
-      "90d": 3048,
-      "365d": 14993
+      "30d": 1757,
+      "90d": 2993,
+      "365d": 15020
     },
-    "checkedAt": "2026-11-18T15:46:14.039Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.066Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "google-oauth2l": {
     "formula": "oauth2l",
     "repo": "google/oauth2l",
     "source": "https://formulae.brew.sh/api/formula/oauth2l.json",
-    "attemptedAt": "2026-11-18T15:46:14.039Z",
+    "attemptedAt": "2026-11-19T15:49:18.066Z",
     "counts": {
-      "30d": 242,
-      "90d": 706,
-      "365d": 3083
+      "30d": 245,
+      "90d": 700,
+      "365d": 3086
     },
-    "checkedAt": "2026-11-18T15:46:14.039Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.066Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "planetscale-cli": {
     "formula": "pscale",
     "repo": "planetscale/cli",
     "source": "https://formulae.brew.sh/api/formula/pscale.json",
-    "attemptedAt": "2026-11-18T15:46:14.132Z",
+    "attemptedAt": "2026-11-19T15:49:18.093Z",
     "counts": {
-      "30d": 334,
-      "90d": 872,
-      "365d": 2845
+      "30d": 350,
+      "90d": 877,
+      "365d": 2865
     },
-    "checkedAt": "2026-11-18T15:46:14.132Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.093Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "achristmascarl-rainfrog": {
     "formula": "rainfrog",
     "repo": "achristmascarl/rainfrog",
     "source": "https://formulae.brew.sh/api/formula/rainfrog.json",
-    "attemptedAt": "2026-11-18T15:46:14.132Z",
+    "attemptedAt": "2026-11-19T15:49:18.094Z",
     "counts": {
-      "30d": 195,
-      "90d": 591,
-      "365d": 2986
+      "30d": 197,
+      "90d": 587,
+      "365d": 2989
     },
-    "checkedAt": "2026-11-18T15:46:14.132Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.094Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "asamk-signal-cli": {
     "formula": "signal-cli",
     "repo": "AsamK/signal-cli",
     "source": "https://formulae.brew.sh/api/formula/signal-cli.json",
-    "attemptedAt": "2026-11-18T15:46:14.132Z",
+    "attemptedAt": "2026-11-19T15:49:18.094Z",
     "counts": {
-      "30d": 865,
-      "90d": 2016,
-      "365d": 11851
+      "30d": 847,
+      "90d": 2009,
+      "365d": 11859
     },
-    "checkedAt": "2026-11-18T15:46:14.132Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.094Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "microsoft-go-sqlcmd": {
     "formula": "sqlcmd",
     "repo": "microsoft/go-sqlcmd",
     "source": "https://formulae.brew.sh/api/formula/sqlcmd.json",
-    "attemptedAt": "2026-11-18T15:46:14.132Z",
+    "attemptedAt": "2026-11-19T15:49:18.094Z",
     "counts": {
-      "30d": 4349,
-      "90d": 9173,
-      "365d": 32126
+      "30d": 4518,
+      "90d": 9444,
+      "365d": 32387
     },
-    "checkedAt": "2026-11-18T15:46:14.132Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.094Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "max-sixty-worktrunk": {
     "formula": "worktrunk",
     "repo": "max-sixty/worktrunk",
     "source": "https://formulae.brew.sh/api/formula/worktrunk.json",
-    "attemptedAt": "2026-11-18T15:46:14.220Z",
+    "attemptedAt": "2026-11-19T15:49:18.123Z",
     "counts": {
-      "30d": 3482,
-      "90d": 7265,
-      "365d": 29974
+      "30d": 3554,
+      "90d": 7338,
+      "365d": 30111
     },
-    "checkedAt": "2026-11-18T15:46:14.220Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.123Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "ldomaradzki-xcsift": {
     "formula": "xcsift",
     "repo": "ldomaradzki/xcsift",
     "source": "https://formulae.brew.sh/api/formula/xcsift.json",
-    "attemptedAt": "2026-11-18T15:46:14.220Z",
+    "attemptedAt": "2026-11-19T15:49:18.123Z",
     "counts": {
-      "30d": 242,
-      "90d": 578,
-      "365d": 1459
+      "30d": 235,
+      "90d": 570,
+      "365d": 1464
     },
-    "checkedAt": "2026-11-18T15:46:14.220Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.123Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "libimobiledevice-libirecovery": {
     "formula": "libirecovery",
     "repo": "libimobiledevice/libirecovery",
     "source": "https://formulae.brew.sh/api/formula/libirecovery.json",
-    "attemptedAt": "2026-11-18T15:46:14.220Z",
+    "attemptedAt": "2026-11-19T15:49:18.124Z",
     "counts": {
-      "30d": 1167,
-      "90d": 2878,
-      "365d": 7575
+      "30d": 1202,
+      "90d": 2882,
+      "365d": 7624
     },
-    "checkedAt": "2026-11-18T15:46:14.220Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.124Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "libimobiledevice-libplist": {
     "formula": "libplist",
     "repo": "libimobiledevice/libplist",
     "source": "https://formulae.brew.sh/api/formula/libplist.json",
-    "attemptedAt": "2026-11-18T15:46:14.220Z",
+    "attemptedAt": "2026-11-19T15:49:18.124Z",
     "counts": {
-      "30d": 757,
-      "90d": 1755,
-      "365d": 4023
+      "30d": 751,
+      "90d": 1762,
+      "365d": 4042
     },
-    "checkedAt": "2026-11-18T15:46:14.220Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.124Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "lsd-rs-lsd": {
     "formula": "lsd",
     "repo": "lsd-rs/lsd",
     "source": "https://formulae.brew.sh/api/formula/lsd.json",
-    "attemptedAt": "2026-11-18T15:46:14.312Z",
+    "attemptedAt": "2026-11-19T15:49:18.145Z",
     "counts": {
-      "30d": 1172,
-      "90d": 2722,
-      "365d": 17147
+      "30d": 1137,
+      "90d": 2707,
+      "365d": 17108
     },
-    "checkedAt": "2026-11-18T15:46:14.312Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.145Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "lsof-org-lsof": {
     "formula": "lsof",
     "repo": "lsof-org/lsof",
     "source": "https://formulae.brew.sh/api/formula/lsof.json",
-    "attemptedAt": "2026-11-18T15:46:14.313Z",
+    "attemptedAt": "2026-11-19T15:49:18.145Z",
     "counts": {
-      "30d": 272,
-      "90d": 935,
-      "365d": 9915
+      "30d": 258,
+      "90d": 911,
+      "365d": 9911
     },
-    "checkedAt": "2026-11-18T15:46:14.313Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.145Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "openresty-luajit2": {
     "formula": "luajit-openresty",
     "repo": "openresty/luajit2",
     "source": "https://formulae.brew.sh/api/formula/luajit-openresty.json",
-    "attemptedAt": "2026-11-18T15:46:14.313Z",
+    "attemptedAt": "2026-11-19T15:49:18.145Z",
     "counts": {
-      "30d": 354,
-      "90d": 680,
-      "365d": 3372
+      "30d": 343,
+      "90d": 675,
+      "365d": 3369
     },
-    "checkedAt": "2026-11-18T15:46:14.313Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.145Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "lycheeverse-lychee": {
     "formula": "lychee",
     "repo": "lycheeverse/lychee",
     "source": "https://formulae.brew.sh/api/formula/lychee.json",
-    "attemptedAt": "2026-11-18T15:46:14.313Z",
+    "attemptedAt": "2026-11-19T15:49:18.145Z",
     "counts": {
-      "30d": 978,
-      "90d": 3951,
-      "365d": 20636
+      "30d": 958,
+      "90d": 3886,
+      "365d": 20597
     },
-    "checkedAt": "2026-11-18T15:46:14.313Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.145Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "waydabber-m1ddc": {
     "formula": "m1ddc",
     "repo": "waydabber/m1ddc",
     "source": "https://formulae.brew.sh/api/formula/m1ddc.json",
-    "attemptedAt": "2026-11-18T15:46:14.401Z",
+    "attemptedAt": "2026-11-19T15:49:18.166Z",
     "counts": {
-      "30d": 1181,
-      "90d": 2003,
-      "365d": 3599
+      "30d": 1215,
+      "90d": 2056,
+      "365d": 3665
     },
-    "checkedAt": "2026-11-18T15:46:14.401Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.166Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "lra-mackup": {
     "formula": "mackup",
     "repo": "lra/mackup",
     "source": "https://formulae.brew.sh/api/formula/mackup.json",
-    "attemptedAt": "2026-11-18T15:46:14.401Z",
+    "attemptedAt": "2026-11-19T15:49:18.166Z",
     "counts": {
-      "30d": 517,
-      "90d": 999,
-      "365d": 7415
+      "30d": 528,
+      "90d": 1011,
+      "365d": 7411
     },
-    "checkedAt": "2026-11-18T15:46:14.401Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.166Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "soxoj-maigret": {
     "formula": "maigret",
     "repo": "soxoj/maigret",
     "source": "https://formulae.brew.sh/api/formula/maigret.json",
-    "attemptedAt": "2026-11-18T15:46:14.401Z",
+    "attemptedAt": "2026-11-19T15:49:18.166Z",
     "counts": {
-      "30d": 72,
-      "90d": 378,
-      "365d": 2749
+      "30d": 73,
+      "90d": 375,
+      "365d": 2753
     },
-    "checkedAt": "2026-11-18T15:46:14.401Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.166Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "kovetskiy-mark": {
     "formula": "mark",
     "repo": "kovetskiy/mark",
     "source": "https://formulae.brew.sh/api/formula/mark.json",
-    "attemptedAt": "2026-11-18T15:46:14.402Z",
+    "attemptedAt": "2026-11-19T15:49:18.166Z",
     "counts": {
-      "30d": 300,
-      "90d": 762,
-      "365d": 2190
+      "30d": 312,
+      "90d": 766,
+      "365d": 2211
     },
-    "checkedAt": "2026-11-18T15:46:14.402Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.166Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "pyo3-maturin": {
     "formula": "maturin",
     "repo": "PyO3/maturin",
     "source": "https://formulae.brew.sh/api/formula/maturin.json",
-    "attemptedAt": "2026-11-18T15:46:14.492Z",
+    "attemptedAt": "2026-11-19T15:49:18.198Z",
     "counts": {
-      "30d": 319,
-      "90d": 734,
-      "365d": 3138
+      "30d": 309,
+      "90d": 737,
+      "365d": 3135
     },
-    "checkedAt": "2026-11-18T15:46:14.492Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.198Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "grafana-mcp-grafana": {
     "formula": "mcp-grafana",
     "repo": "grafana/mcp-grafana",
     "source": "https://formulae.brew.sh/api/formula/mcp-grafana.json",
-    "attemptedAt": "2026-11-18T15:46:14.492Z",
+    "attemptedAt": "2026-11-19T15:49:18.198Z",
     "counts": {
-      "30d": 1558,
-      "90d": 3113,
-      "365d": 6043
+      "30d": 1568,
+      "90d": 3128,
+      "365d": 6081
     },
-    "checkedAt": "2026-11-18T15:46:14.492Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.198Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "googleapis-mcp-toolbox": {
     "formula": "mcp-toolbox",
     "repo": "googleapis/mcp-toolbox",
     "source": "https://formulae.brew.sh/api/formula/mcp-toolbox.json",
-    "attemptedAt": "2026-11-18T15:46:14.492Z",
+    "attemptedAt": "2026-11-19T15:49:18.198Z",
     "counts": {
-      "30d": 719,
-      "90d": 1552,
-      "365d": 6809
+      "30d": 712,
+      "90d": 1543,
+      "365d": 6819
     },
-    "checkedAt": "2026-11-18T15:46:14.492Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.198Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "birsax2-mdcat": {
     "formula": "mdcat",
     "repo": "BIRSAx2/mdcat",
     "source": "https://formulae.brew.sh/api/formula/mdcat.json",
-    "attemptedAt": "2026-11-18T15:46:14.492Z",
+    "attemptedAt": "2026-11-19T15:49:18.198Z",
     "counts": {
-      "30d": 1452,
-      "90d": 2841,
-      "365d": 7118
+      "30d": 1360,
+      "90d": 2860,
+      "365d": 7151
     },
-    "checkedAt": "2026-11-18T15:46:14.492Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.198Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "chainguard-dev-melange": {
     "formula": "melange",
     "repo": "chainguard-dev/melange",
     "source": "https://formulae.brew.sh/api/formula/melange.json",
-    "attemptedAt": "2026-11-18T15:46:14.577Z",
+    "attemptedAt": "2026-11-19T15:49:18.233Z",
     "counts": {
-      "30d": 244,
-      "90d": 656,
-      "365d": 3935
+      "30d": 230,
+      "90d": 648,
+      "365d": 3923
     },
-    "checkedAt": "2026-11-18T15:46:14.577Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.233Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "mesonbuild-meson": {
     "formula": "meson",
     "repo": "mesonbuild/meson",
     "source": "https://formulae.brew.sh/api/formula/meson.json",
-    "attemptedAt": "2026-11-18T15:46:14.578Z",
+    "attemptedAt": "2026-11-19T15:49:18.234Z",
     "counts": {
-      "30d": 4733,
-      "90d": 12934,
-      "365d": 57723
+      "30d": 4935,
+      "90d": 13122,
+      "365d": 57961
     },
-    "checkedAt": "2026-11-18T15:46:14.578Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.234Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "kdeldycke-meta-package-manager": {
     "formula": "meta-package-manager",
     "repo": "kdeldycke/meta-package-manager",
     "source": "https://formulae.brew.sh/api/formula/meta-package-manager.json",
-    "attemptedAt": "2026-11-18T15:46:14.578Z",
+    "attemptedAt": "2026-11-19T15:49:18.234Z",
     "counts": {
-      "30d": 246,
-      "90d": 822,
-      "365d": 2612
+      "30d": 240,
+      "90d": 758,
+      "365d": 2610
     },
-    "checkedAt": "2026-11-18T15:46:14.578Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.234Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "micro-editor-micro": {
     "formula": "micro",
     "repo": "micro-editor/micro",
     "source": "https://formulae.brew.sh/api/formula/micro.json",
-    "attemptedAt": "2026-11-18T15:46:14.578Z",
+    "attemptedAt": "2026-11-19T15:49:18.234Z",
     "counts": {
-      "30d": 822,
-      "90d": 2531,
-      "365d": 16218
+      "30d": 808,
+      "90d": 2500,
+      "365d": 16202
     },
-    "checkedAt": "2026-11-18T15:46:14.578Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.234Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "mamba-org-mamba": {
     "formula": "micromamba",
     "repo": "mamba-org/mamba",
     "source": "https://formulae.brew.sh/api/formula/micromamba.json",
-    "attemptedAt": "2026-11-18T15:46:14.669Z",
+    "attemptedAt": "2026-11-19T15:49:18.258Z",
     "counts": {
-      "30d": 1293,
-      "90d": 2590,
-      "365d": 11424
+      "30d": 1315,
+      "90d": 2591,
+      "365d": 11433
     },
-    "checkedAt": "2026-11-18T15:46:14.669Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.258Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   },
   "tdewolff-minify": {
     "formula": "minify",
     "repo": "tdewolff/minify",
     "source": "https://formulae.brew.sh/api/formula/minify.json",
-    "attemptedAt": "2026-11-18T15:46:14.669Z",
+    "attemptedAt": "2026-11-19T15:49:18.259Z",
     "counts": {
-      "30d": 578,
-      "90d": 1536,
-      "365d": 5026
+      "30d": 556,
+      "90d": 1501,
+      "365d": 5004
     },
-    "checkedAt": "2026-11-18T15:46:14.669Z",
-    "generatedDate": "2026-11-18",
+    "checkedAt": "2026-11-19T15:49:18.259Z",
+    "generatedDate": "2026-11-19",
     "status": "ok"
   }
 }
