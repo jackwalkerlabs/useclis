@@ -19,9 +19,9 @@ window.USECLIS_DATA = {
       "featured": true,
       "website": "https://github.com/cli/cli#readme",
       "docs": "https://cli.github.com/manual/",
-      "stars": 47202,
+      "stars": 47233,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:37.507Z"
+      "checkedAt": "2026-11-26T16:52:01.509Z"
     },
     {
       "slug": "agent-browser",
@@ -41,9 +41,9 @@ window.USECLIS_DATA = {
       "featured": true,
       "website": "https://github.com/vercel-labs/agent-browser#readme",
       "docs": "https://github.com/vercel-labs/agent-browser#readme",
-      "stars": 53937,
+      "stars": 54112,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:38.287Z"
+      "checkedAt": "2026-11-26T16:52:02.269Z"
     },
     {
       "slug": "ripgrep",
@@ -63,9 +63,9 @@ window.USECLIS_DATA = {
       "featured": true,
       "website": "https://github.com/BurntSushi/ripgrep#readme",
       "docs": "https://github.com/BurntSushi/ripgrep#readme",
-      "stars": 70331,
+      "stars": 70374,
       "license": "Unlicense",
-      "checkedAt": "2026-11-25T17:11:38.626Z"
+      "checkedAt": "2026-11-26T16:52:02.530Z"
     },
     {
       "slug": "jq",
@@ -85,9 +85,9 @@ window.USECLIS_DATA = {
       "featured": true,
       "website": "https://github.com/jqlang/jq#readme",
       "docs": "https://jqlang.org/manual/",
-      "stars": 36337,
+      "stars": 36355,
       "license": null,
-      "checkedAt": "2026-11-25T17:11:38.917Z"
+      "checkedAt": "2026-11-26T16:52:02.884Z"
     },
     {
       "slug": "codex",
@@ -107,9 +107,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/openai/codex#readme",
       "docs": "https://github.com/openai/codex#readme",
-      "stars": 136431,
+      "stars": 136561,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:39.422Z"
+      "checkedAt": "2026-11-26T16:52:03.422Z"
     },
     {
       "slug": "gemini-cli",
@@ -129,9 +129,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/google-gemini/gemini-cli#readme",
       "docs": "https://github.com/google-gemini/gemini-cli#readme",
-      "stars": 109105,
+      "stars": 109183,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:40.040Z"
+      "checkedAt": "2026-11-26T16:52:04.097Z"
     },
     {
       "slug": "aider",
@@ -151,9 +151,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/Aider-AI/aider#readme",
       "docs": "https://github.com/Aider-AI/aider#readme",
-      "stars": 50256,
+      "stars": 50268,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:40.359Z"
+      "checkedAt": "2026-11-26T16:52:04.511Z"
     },
     {
       "slug": "opencode",
@@ -173,9 +173,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/anomalyco/opencode#readme",
       "docs": "https://github.com/anomalyco/opencode#readme",
-      "stars": 229129,
+      "stars": 229360,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:41.089Z"
+      "checkedAt": "2026-11-26T16:52:05.010Z"
     },
     {
       "slug": "llm",
@@ -195,9 +195,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/simonw/llm#readme",
       "docs": "https://github.com/simonw/llm#readme",
-      "stars": 12827,
+      "stars": 12834,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:41.750Z"
+      "checkedAt": "2026-11-26T16:52:05.250Z"
     },
     {
       "slug": "playwright-cli",
@@ -217,9 +217,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/microsoft/playwright-cli#readme",
       "docs": "https://github.com/microsoft/playwright-cli#readme",
-      "stars": 15453,
+      "stars": 15486,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:42.445Z"
+      "checkedAt": "2026-11-26T16:52:05.670Z"
     },
     {
       "slug": "browser-harness",
@@ -239,9 +239,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/browser-use/browser-harness#readme",
       "docs": "https://github.com/browser-use/browser-harness#readme",
-      "stars": 19241,
+      "stars": 19256,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:42.956Z"
+      "checkedAt": "2026-11-26T16:52:06.211Z"
     },
     {
       "slug": "git",
@@ -261,9 +261,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/git/git#readme",
       "docs": "https://github.com/git/git#readme",
-      "stars": 64496,
+      "stars": 64516,
       "license": null,
-      "checkedAt": "2026-11-25T17:11:43.621Z"
+      "checkedAt": "2026-11-26T16:52:06.850Z"
     },
     {
       "slug": "git-town",
@@ -285,7 +285,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/git-town/git-town#readme",
       "stars": 3405,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:44.104Z"
+      "checkedAt": "2026-11-26T16:52:07.122Z"
     },
     {
       "slug": "wrangler",
@@ -305,9 +305,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/cloudflare/workers-sdk#readme",
       "docs": "https://developers.cloudflare.com/workers/wrangler/",
-      "stars": 4749,
+      "stars": 4752,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:44.849Z"
+      "checkedAt": "2026-11-26T16:52:07.693Z"
     },
     {
       "slug": "vercel-cli",
@@ -327,9 +327,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/vercel/vercel#readme",
       "docs": "https://github.com/vercel/vercel#readme",
-      "stars": 16662,
+      "stars": 16673,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:45.637Z"
+      "checkedAt": "2026-11-26T16:52:08.109Z"
     },
     {
       "slug": "supabase-cli",
@@ -351,7 +351,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/supabase/cli#readme",
       "stars": 2473,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:46.167Z"
+      "checkedAt": "2026-11-26T16:52:08.624Z"
     },
     {
       "slug": "docker-cli",
@@ -373,7 +373,7 @@ window.USECLIS_DATA = {
       "docs": "https://docs.docker.com/reference/cli/docker/",
       "stars": 6146,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:46.684Z"
+      "checkedAt": "2026-11-26T16:52:09.167Z"
     },
     {
       "slug": "kubectl",
@@ -393,9 +393,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/kubernetes/kubectl#readme",
       "docs": "https://github.com/kubernetes/kubectl#readme",
-      "stars": 3376,
+      "stars": 3377,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:46.987Z"
+      "checkedAt": "2026-11-26T16:52:09.731Z"
     },
     {
       "slug": "fd",
@@ -415,9 +415,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/sharkdp/fd#readme",
       "docs": "https://github.com/sharkdp/fd#readme",
-      "stars": 45196,
+      "stars": 45215,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:47.539Z"
+      "checkedAt": "2026-11-26T16:52:10.012Z"
     },
     {
       "slug": "ast-grep",
@@ -437,9 +437,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/ast-grep/ast-grep#readme",
       "docs": "https://github.com/ast-grep/ast-grep#readme",
-      "stars": 16696,
+      "stars": 16722,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:48.294Z"
+      "checkedAt": "2026-11-26T16:52:10.553Z"
     },
     {
       "slug": "scc",
@@ -459,9 +459,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/boyter/scc#readme",
       "docs": "https://github.com/boyter/scc#readme",
-      "stars": 8893,
+      "stars": 8900,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:48.595Z"
+      "checkedAt": "2026-11-26T16:52:10.806Z"
     },
     {
       "slug": "yq",
@@ -481,9 +481,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/mikefarah/yq#readme",
       "docs": "https://github.com/mikefarah/yq#readme",
-      "stars": 16355,
+      "stars": 16363,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:49.237Z"
+      "checkedAt": "2026-11-26T16:52:11.423Z"
     },
     {
       "slug": "httpie",
@@ -503,9 +503,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/httpie/cli#readme",
       "docs": "https://github.com/httpie/cli#readme",
-      "stars": 38738,
+      "stars": 38742,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:11:49.559Z"
+      "checkedAt": "2026-11-26T16:52:11.778Z"
     },
     {
       "slug": "curl",
@@ -525,9 +525,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/curl/curl#readme",
       "docs": "https://github.com/curl/curl#readme",
-      "stars": 43676,
+      "stars": 43693,
       "license": null,
-      "checkedAt": "2026-11-25T17:11:50.257Z"
+      "checkedAt": "2026-11-26T16:52:12.303Z"
     },
     {
       "slug": "uv",
@@ -547,9 +547,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/astral-sh/uv#readme",
       "docs": "https://github.com/astral-sh/uv#readme",
-      "stars": 92643,
+      "stars": 92709,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:51.029Z"
+      "checkedAt": "2026-11-26T16:52:12.797Z"
     },
     {
       "slug": "pnpm",
@@ -569,9 +569,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/pnpm/pnpm#readme",
       "docs": "https://github.com/pnpm/pnpm#readme",
-      "stars": 37161,
+      "stars": 37164,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:51.685Z"
+      "checkedAt": "2026-11-26T16:52:13.350Z"
     },
     {
       "slug": "bun",
@@ -591,9 +591,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/oven-sh/bun#readme",
       "docs": "https://github.com/oven-sh/bun#readme",
-      "stars": 96966,
+      "stars": 96991,
       "license": null,
-      "checkedAt": "2026-11-25T17:11:52.273Z"
+      "checkedAt": "2026-11-26T16:52:13.889Z"
     },
     {
       "slug": "mise",
@@ -613,9 +613,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/jdx/mise#readme",
       "docs": "https://github.com/jdx/mise#readme",
-      "stars": 36517,
+      "stars": 36546,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:52.868Z"
+      "checkedAt": "2026-11-26T16:52:14.342Z"
     },
     {
       "slug": "ruff",
@@ -635,9 +635,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/astral-sh/ruff#readme",
       "docs": "https://docs.astral.sh/ruff/",
-      "stars": 51514,
+      "stars": 51562,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:53.743Z"
+      "checkedAt": "2026-11-26T16:52:14.896Z"
     },
     {
       "slug": "biome",
@@ -657,9 +657,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/biomejs/biome#readme",
       "docs": "https://github.com/biomejs/biome#readme",
-      "stars": 26209,
+      "stars": 26221,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:54.441Z"
+      "checkedAt": "2026-11-26T16:52:15.396Z"
     },
     {
       "slug": "semgrep",
@@ -679,9 +679,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/semgrep/semgrep#readme",
       "docs": "https://github.com/semgrep/semgrep#readme",
-      "stars": 17940,
+      "stars": 17980,
       "license": "LGPL-2.1",
-      "checkedAt": "2026-11-25T17:11:55.166Z"
+      "checkedAt": "2026-11-26T16:52:16.044Z"
     },
     {
       "slug": "gitleaks",
@@ -701,9 +701,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/gitleaks/gitleaks#readme",
       "docs": "https://github.com/gitleaks/gitleaks#readme",
-      "stars": 31337,
+      "stars": 31364,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:55.914Z"
+      "checkedAt": "2026-11-26T16:52:16.461Z"
     },
     {
       "slug": "rclone",
@@ -723,9 +723,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/rclone/rclone#readme",
       "docs": "https://github.com/rclone/rclone#readme",
-      "stars": 61260,
+      "stars": 61297,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:56.619Z"
+      "checkedAt": "2026-11-26T16:52:16.928Z"
     },
     {
       "slug": "pandoc",
@@ -745,9 +745,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/jgm/pandoc#readme",
       "docs": "https://github.com/jgm/pandoc#readme",
-      "stars": 47083,
+      "stars": 47098,
       "license": "GPL-2.0",
-      "checkedAt": "2026-11-25T17:11:57.362Z"
+      "checkedAt": "2026-11-26T16:52:17.379Z"
     },
     {
       "slug": "bat",
@@ -767,9 +767,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/sharkdp/bat#readme",
       "docs": "https://github.com/sharkdp/bat#readme",
-      "stars": 61502,
+      "stars": 61525,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:11:57.736Z"
+      "checkedAt": "2026-11-26T16:52:17.878Z"
     },
     {
       "slug": "glow",
@@ -789,9 +789,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/charmbracelet/glow#readme",
       "docs": "https://github.com/charmbracelet/glow#readme",
-      "stars": 28184,
+      "stars": 28208,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:58.192Z"
+      "checkedAt": "2026-11-26T16:52:18.130Z"
     },
     {
       "slug": "firecrawl-cli",
@@ -811,9 +811,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/firecrawl/cli#readme",
       "docs": "https://github.com/firecrawl/cli#readme",
-      "stars": 699,
+      "stars": 700,
       "license": null,
-      "checkedAt": "2026-11-25T17:11:58.690Z"
+      "checkedAt": "2026-11-26T16:52:18.686Z"
     },
     {
       "slug": "peekaboo",
@@ -833,9 +833,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/openclaw/Peekaboo#readme",
       "docs": "https://github.com/openclaw/Peekaboo#readme",
-      "stars": 5536,
+      "stars": 5540,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:58.944Z"
+      "checkedAt": "2026-11-26T16:52:18.936Z"
     },
     {
       "slug": "qmd",
@@ -855,9 +855,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/tobi/qmd#readme",
       "docs": "https://github.com/tobi/qmd#readme",
-      "stars": 31594,
+      "stars": 31624,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:59.270Z"
+      "checkedAt": "2026-11-26T16:52:19.193Z"
     },
     {
       "slug": "mcporter",
@@ -877,9 +877,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/openclaw/mcporter#readme",
       "docs": "https://github.com/openclaw/mcporter#readme",
-      "stars": 5142,
+      "stars": 5144,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:11:59.949Z"
+      "checkedAt": "2026-11-26T16:52:19.469Z"
     },
     {
       "slug": "repomix",
@@ -899,9 +899,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/yamadashy/repomix#readme",
       "docs": "https://github.com/yamadashy/repomix#readme",
-      "stars": 29434,
+      "stars": 29447,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:00.449Z"
+      "checkedAt": "2026-11-26T16:52:20.286Z"
     },
     {
       "slug": "summarize",
@@ -921,9 +921,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/steipete/summarize#readme",
       "docs": "https://github.com/steipete/summarize#readme",
-      "stars": 6877,
+      "stars": 6881,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:01.252Z"
+      "checkedAt": "2026-11-26T16:52:20.773Z"
     },
     {
       "slug": "shot-scraper",
@@ -943,9 +943,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/simonw/shot-scraper#readme",
       "docs": "https://github.com/simonw/shot-scraper#readme",
-      "stars": 2614,
+      "stars": 2615,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:01.629Z"
+      "checkedAt": "2026-11-26T16:52:21.006Z"
     },
     {
       "slug": "google-workspace-cli",
@@ -965,9 +965,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/googleworkspace/cli#readme",
       "docs": "https://github.com/googleworkspace/cli#readme",
-      "stars": 32476,
+      "stars": 32520,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:02.699Z"
+      "checkedAt": "2026-11-26T16:52:21.271Z"
     },
     {
       "slug": "gogcli",
@@ -987,9 +987,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/openclaw/gogcli#readme",
       "docs": "https://github.com/openclaw/gogcli#readme",
-      "stars": 8614,
+      "stars": 8618,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:03.330Z"
+      "checkedAt": "2026-11-26T16:52:21.536Z"
     },
     {
       "slug": "linear-cli",
@@ -1009,9 +1009,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/schpet/linear-cli#readme",
       "docs": "https://github.com/schpet/linear-cli#readme",
-      "stars": 1053,
+      "stars": 1054,
       "license": "ISC",
-      "checkedAt": "2026-11-25T17:12:04.024Z"
+      "checkedAt": "2026-11-26T16:52:21.754Z"
     },
     {
       "slug": "beads",
@@ -1031,9 +1031,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/gastownhall/beads#readme",
       "docs": "https://github.com/gastownhall/beads#readme",
-      "stars": 29059,
+      "stars": 29114,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:04.466Z"
+      "checkedAt": "2026-11-26T16:52:22.172Z"
     },
     {
       "slug": "himalaya",
@@ -1053,9 +1053,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/pimalaya/himalaya#readme",
       "docs": "https://github.com/pimalaya/himalaya#readme",
-      "stars": 7707,
+      "stars": 7716,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:05.208Z"
+      "checkedAt": "2026-11-26T16:52:22.825Z"
     },
     {
       "slug": "remindctl",
@@ -1075,9 +1075,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/openclaw/remindctl#readme",
       "docs": "https://github.com/openclaw/remindctl#readme",
-      "stars": 429,
+      "stars": 428,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:05.646Z"
+      "checkedAt": "2026-11-26T16:52:23.224Z"
     },
     {
       "slug": "imsg",
@@ -1097,9 +1097,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/openclaw/imsg#readme",
       "docs": "https://github.com/openclaw/imsg#readme",
-      "stars": 1418,
+      "stars": 1419,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:05.889Z"
+      "checkedAt": "2026-11-26T16:52:23.538Z"
     },
     {
       "slug": "wacli",
@@ -1119,9 +1119,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/openclaw/wacli#readme",
       "docs": "https://github.com/openclaw/wacli#readme",
-      "stars": 2948,
+      "stars": 2950,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:06.202Z"
+      "checkedAt": "2026-11-26T16:52:23.824Z"
     },
     {
       "slug": "sonoscli",
@@ -1143,7 +1143,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/steipete/sonoscli#readme",
       "stars": 194,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:06.467Z"
+      "checkedAt": "2026-11-26T16:52:24.096Z"
     },
     {
       "slug": "goplaces",
@@ -1165,7 +1165,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/openclaw/goplaces#readme",
       "stars": 269,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:06.760Z"
+      "checkedAt": "2026-11-26T16:52:24.359Z"
     },
     {
       "slug": "railway-cli",
@@ -1187,7 +1187,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/railwayapp/cli#readme",
       "stars": 635,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:07.094Z"
+      "checkedAt": "2026-11-26T16:52:24.900Z"
     },
     {
       "slug": "aws-cli",
@@ -1207,9 +1207,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/aws/aws-cli#readme",
       "docs": "https://github.com/aws/aws-cli#readme",
-      "stars": 17390,
+      "stars": 17389,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:07.887Z"
+      "checkedAt": "2026-11-26T16:52:25.523Z"
     },
     {
       "slug": "azure-cli",
@@ -1229,9 +1229,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/Azure/azure-cli#readme",
       "docs": "https://github.com/Azure/azure-cli#readme",
-      "stars": 4669,
+      "stars": 4670,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:08.651Z"
+      "checkedAt": "2026-11-26T16:52:26.124Z"
     },
     {
       "slug": "doctl",
@@ -1251,9 +1251,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/digitalocean/doctl#readme",
       "docs": "https://github.com/digitalocean/doctl#readme",
-      "stars": 3456,
+      "stars": 3457,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:09.177Z"
+      "checkedAt": "2026-11-26T16:52:26.710Z"
     },
     {
       "slug": "hcloud",
@@ -1273,9 +1273,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/hetznercloud/cli#readme",
       "docs": "https://github.com/hetznercloud/cli#readme",
-      "stars": 1877,
+      "stars": 1879,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:09.798Z"
+      "checkedAt": "2026-11-26T16:52:27.464Z"
     },
     {
       "slug": "scaleway-cli",
@@ -1295,9 +1295,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/scaleway/scaleway-cli#readme",
       "docs": "https://github.com/scaleway/scaleway-cli#readme",
-      "stars": 1029,
+      "stars": 1030,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:10.480Z"
+      "checkedAt": "2026-11-26T16:52:27.940Z"
     },
     {
       "slug": "linode-cli",
@@ -1319,7 +1319,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/linode/linode-cli#readme",
       "stars": 443,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:12:10.896Z"
+      "checkedAt": "2026-11-26T16:52:28.225Z"
     },
     {
       "slug": "ovhcloud-cli",
@@ -1341,7 +1341,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ovh/ovhcloud-cli#readme",
       "stars": 238,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:11.856Z"
+      "checkedAt": "2026-11-26T16:52:28.436Z"
     },
     {
       "slug": "netlify-cli",
@@ -1363,7 +1363,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/netlify/cli#readme",
       "stars": 1937,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:12.386Z"
+      "checkedAt": "2026-11-26T16:52:28.718Z"
     },
     {
       "slug": "render-cli",
@@ -1385,7 +1385,7 @@ window.USECLIS_DATA = {
       "docs": "https://render.com/docs/cli",
       "stars": 142,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:12.951Z"
+      "checkedAt": "2026-11-26T16:52:28.970Z"
     },
     {
       "slug": "firebase-cli",
@@ -1405,9 +1405,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/firebase/firebase-tools#readme",
       "docs": "https://github.com/firebase/firebase-tools#readme",
-      "stars": 4492,
+      "stars": 4493,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:13.732Z"
+      "checkedAt": "2026-11-26T16:52:29.478Z"
     },
     {
       "slug": "neonctl",
@@ -1429,7 +1429,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/neondatabase/neonctl#readme",
       "stars": 120,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:14.024Z"
+      "checkedAt": "2026-11-26T16:52:29.760Z"
     },
     {
       "slug": "ecctl",
@@ -1451,7 +1451,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/elastic/ecctl#readme",
       "stars": 58,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:14.406Z"
+      "checkedAt": "2026-11-26T16:52:30.433Z"
     },
     {
       "slug": "stripe-cli",
@@ -1473,7 +1473,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/stripe/stripe-cli#readme",
       "stars": 2243,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:14.971Z"
+      "checkedAt": "2026-11-26T16:52:30.963Z"
     },
     {
       "slug": "wp-cli",
@@ -1495,7 +1495,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/wp-cli/wp-cli#readme",
       "stars": 5179,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:15.493Z"
+      "checkedAt": "2026-11-26T16:52:31.251Z"
     },
     {
       "slug": "shopify-cli",
@@ -1515,9 +1515,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/Shopify/cli#readme",
       "docs": "https://github.com/Shopify/cli#readme",
-      "stars": 781,
+      "stars": 783,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:16.235Z"
+      "checkedAt": "2026-11-26T16:52:31.804Z"
     },
     {
       "slug": "salesforce-cli",
@@ -1539,7 +1539,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/salesforcecli/cli#readme",
       "stars": 189,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:16.915Z"
+      "checkedAt": "2026-11-26T16:52:32.334Z"
     },
     {
       "slug": "microsoft-365-cli",
@@ -1559,9 +1559,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/pnp/cli-microsoft365#readme",
       "docs": "https://github.com/pnp/cli-microsoft365#readme",
-      "stars": 1487,
+      "stars": 1488,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:17.713Z"
+      "checkedAt": "2026-11-26T16:52:32.619Z"
     },
     {
       "slug": "twilio-cli",
@@ -1583,7 +1583,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/twilio/twilio-cli#readme",
       "stars": 194,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:17.994Z"
+      "checkedAt": "2026-11-26T16:52:33.036Z"
     },
     {
       "slug": "algolia-cli",
@@ -1605,7 +1605,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/algolia/cli#readme",
       "stars": 110,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:19.090Z"
+      "checkedAt": "2026-11-26T16:52:33.726Z"
     },
     {
       "slug": "contentful-cli",
@@ -1627,7 +1627,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/contentful/contentful-cli#readme",
       "stars": 360,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:19.529Z"
+      "checkedAt": "2026-11-26T16:52:34.599Z"
     },
     {
       "slug": "sanity-cli",
@@ -1649,7 +1649,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sanity-io/cli#readme",
       "stars": 11,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:20.476Z"
+      "checkedAt": "2026-11-26T16:52:35.319Z"
     },
     {
       "slug": "podman",
@@ -1669,9 +1669,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/podman-container-tools/podman#readme",
       "docs": "https://github.com/podman-container-tools/podman#readme",
-      "stars": 33389,
+      "stars": 33398,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:21.173Z"
+      "checkedAt": "2026-11-26T16:52:35.829Z"
     },
     {
       "slug": "helm",
@@ -1691,9 +1691,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/helm/helm#readme",
       "docs": "https://github.com/helm/helm#readme",
-      "stars": 30489,
+      "stars": 30499,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:21.618Z"
+      "checkedAt": "2026-11-26T16:52:36.459Z"
     },
     {
       "slug": "opentofu",
@@ -1713,9 +1713,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/opentofu/opentofu#readme",
       "docs": "https://github.com/opentofu/opentofu#readme",
-      "stars": 30992,
+      "stars": 31008,
       "license": "MPL-2.0",
-      "checkedAt": "2026-11-25T17:12:22.212Z"
+      "checkedAt": "2026-11-26T16:52:37.097Z"
     },
     {
       "slug": "pulumi",
@@ -1735,9 +1735,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/pulumi/pulumi#readme",
       "docs": "https://github.com/pulumi/pulumi#readme",
-      "stars": 25939,
+      "stars": 25944,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:22.940Z"
+      "checkedAt": "2026-11-26T16:52:37.606Z"
     },
     {
       "slug": "ansible",
@@ -1757,9 +1757,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/ansible/ansible#readme",
       "docs": "https://github.com/ansible/ansible#readme",
-      "stars": 71605,
+      "stars": 71638,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:12:23.341Z"
+      "checkedAt": "2026-11-26T16:52:37.832Z"
     },
     {
       "slug": "argocd",
@@ -1779,9 +1779,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/argoproj/argo-cd#readme",
       "docs": "https://github.com/argoproj/argo-cd#readme",
-      "stars": 24694,
+      "stars": 24701,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:23.941Z"
+      "checkedAt": "2026-11-26T16:52:38.369Z"
     },
     {
       "slug": "flux-cli",
@@ -1801,9 +1801,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/fluxcd/flux2#readme",
       "docs": "https://github.com/fluxcd/flux2#readme",
-      "stars": 8540,
+      "stars": 8545,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:24.636Z"
+      "checkedAt": "2026-11-26T16:52:38.792Z"
     },
     {
       "slug": "kind",
@@ -1823,9 +1823,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/kubernetes-sigs/kind#readme",
       "docs": "https://github.com/kubernetes-sigs/kind#readme",
-      "stars": 15647,
+      "stars": 15652,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:25.027Z"
+      "checkedAt": "2026-11-26T16:52:39.396Z"
     },
     {
       "slug": "minikube",
@@ -1845,9 +1845,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/kubernetes/minikube#readme",
       "docs": "https://github.com/kubernetes/minikube#readme",
-      "stars": 32274,
+      "stars": 32275,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:25.443Z"
+      "checkedAt": "2026-11-26T16:52:39.916Z"
     },
     {
       "slug": "sops",
@@ -1867,9 +1867,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/getsops/sops#readme",
       "docs": "https://github.com/getsops/sops#readme",
-      "stars": 23855,
+      "stars": 23875,
       "license": "MPL-2.0",
-      "checkedAt": "2026-11-25T17:12:25.739Z"
+      "checkedAt": "2026-11-26T16:52:40.179Z"
     },
     {
       "slug": "age",
@@ -1889,9 +1889,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/FiloSottile/age#readme",
       "docs": "https://github.com/FiloSottile/age#readme",
-      "stars": 24472,
+      "stars": 24486,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:12:26.109Z"
+      "checkedAt": "2026-11-26T16:52:40.525Z"
     },
     {
       "slug": "bitwarden-cli",
@@ -1911,9 +1911,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/bitwarden/clients#readme",
       "docs": "https://bitwarden.com/help/cli/",
-      "stars": 14317,
+      "stars": 14329,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:38.172Z"
+      "checkedAt": "2026-11-26T16:52:41.022Z"
     },
     {
       "slug": "doppler-cli",
@@ -1933,9 +1933,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/DopplerHQ/cli#readme",
       "docs": "https://github.com/DopplerHQ/cli#readme",
-      "stars": 405,
+      "stars": 406,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:38.583Z"
+      "checkedAt": "2026-11-26T16:52:41.653Z"
     },
     {
       "slug": "infisical-cli",
@@ -1955,9 +1955,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/Infisical/cli#readme",
       "docs": "https://github.com/Infisical/cli#readme",
-      "stars": 105,
+      "stars": 106,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:39.494Z"
+      "checkedAt": "2026-11-26T16:52:42.562Z"
     },
     {
       "slug": "trivy",
@@ -1977,9 +1977,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/aquasecurity/trivy#readme",
       "docs": "https://github.com/aquasecurity/trivy#readme",
-      "stars": 39731,
+      "stars": 39787,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:39.871Z"
+      "checkedAt": "2026-11-26T16:52:43.088Z"
     },
     {
       "slug": "syft",
@@ -1999,9 +1999,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/anchore/syft#readme",
       "docs": "https://github.com/anchore/syft#readme",
-      "stars": 9966,
+      "stars": 9974,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:40.520Z"
+      "checkedAt": "2026-11-26T16:52:43.519Z"
     },
     {
       "slug": "grype",
@@ -2021,9 +2021,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/anchore/grype#readme",
       "docs": "https://github.com/anchore/grype#readme",
-      "stars": 13345,
+      "stars": 13352,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:41.299Z"
+      "checkedAt": "2026-11-26T16:52:44.129Z"
     },
     {
       "slug": "trufflehog",
@@ -2043,9 +2043,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/trufflesecurity/trufflehog#readme",
       "docs": "https://github.com/trufflesecurity/trufflehog#readme",
-      "stars": 29652,
+      "stars": 29704,
       "license": "AGPL-3.0",
-      "checkedAt": "2026-11-25T17:12:42.146Z"
+      "checkedAt": "2026-11-26T16:52:44.394Z"
     },
     {
       "slug": "cosign",
@@ -2065,9 +2065,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/sigstore/cosign#readme",
       "docs": "https://github.com/sigstore/cosign#readme",
-      "stars": 6476,
+      "stars": 6479,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:42.924Z"
+      "checkedAt": "2026-11-26T16:52:45.085Z"
     },
     {
       "slug": "snyk-cli",
@@ -2087,9 +2087,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/snyk/cli#readme",
       "docs": "https://github.com/snyk/cli#readme",
-      "stars": 5720,
+      "stars": 5719,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:43.587Z"
+      "checkedAt": "2026-11-26T16:52:45.572Z"
     },
     {
       "slug": "sentry-cli",
@@ -2111,7 +2111,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/getsentry/cli/tree/main/packages/cli#readme",
       "stars": 124,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:43.842Z"
+      "checkedAt": "2026-11-26T16:52:45.815Z"
     },
     {
       "slug": "k6",
@@ -2131,9 +2131,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/grafana/k6#readme",
       "docs": "https://github.com/grafana/k6#readme",
-      "stars": 32404,
+      "stars": 32416,
       "license": "AGPL-3.0",
-      "checkedAt": "2026-11-25T17:12:44.465Z"
+      "checkedAt": "2026-11-26T16:52:46.338Z"
     },
     {
       "slug": "lighthouse",
@@ -2153,9 +2153,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/GoogleChrome/lighthouse#readme",
       "docs": "https://github.com/GoogleChrome/lighthouse#readme",
-      "stars": 31204,
+      "stars": 31210,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:44.995Z"
+      "checkedAt": "2026-11-26T16:52:46.693Z"
     },
     {
       "slug": "axe-cli",
@@ -2177,7 +2177,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli#readme",
       "stars": 740,
       "license": "MPL-2.0",
-      "checkedAt": "2026-11-25T17:12:45.338Z"
+      "checkedAt": "2026-11-26T16:52:47.008Z"
     },
     {
       "slug": "duckdb-cli",
@@ -2197,9 +2197,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/duckdb/duckdb#readme",
       "docs": "https://github.com/duckdb/duckdb#readme",
-      "stars": 43345,
+      "stars": 43380,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:45.916Z"
+      "checkedAt": "2026-11-26T16:52:47.725Z"
     },
     {
       "slug": "sqlite-utils",
@@ -2219,9 +2219,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/simonw/sqlite-utils#readme",
       "docs": "https://github.com/simonw/sqlite-utils#readme",
-      "stars": 2236,
+      "stars": 2238,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:46.163Z"
+      "checkedAt": "2026-11-26T16:52:47.981Z"
     },
     {
       "slug": "dbt-core",
@@ -2241,9 +2241,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/dbt-labs/dbt-core#readme",
       "docs": "https://github.com/dbt-labs/dbt-core#readme",
-      "stars": 14213,
+      "stars": 14218,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:46.931Z"
+      "checkedAt": "2026-11-26T16:52:48.701Z"
     },
     {
       "slug": "sqlfluff",
@@ -2265,7 +2265,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sqlfluff/sqlfluff#readme",
       "stars": 10037,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:47.568Z"
+      "checkedAt": "2026-11-26T16:52:49.240Z"
     },
     {
       "slug": "golang-migrate",
@@ -2285,9 +2285,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/golang-migrate/migrate#readme",
       "docs": "https://github.com/golang-migrate/migrate#readme",
-      "stars": 19072,
+      "stars": 19083,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:48.076Z"
+      "checkedAt": "2026-11-26T16:52:49.510Z"
     },
     {
       "slug": "atlas",
@@ -2307,9 +2307,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/ariga/atlas#readme",
       "docs": "https://github.com/ariga/atlas#readme",
-      "stars": 8842,
+      "stars": 8845,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:48.649Z"
+      "checkedAt": "2026-11-26T16:52:49.831Z"
     },
     {
       "slug": "miller",
@@ -2329,9 +2329,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/johnkerl/miller#readme",
       "docs": "https://github.com/johnkerl/miller#readme",
-      "stars": 10070,
+      "stars": 10071,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:49.084Z"
+      "checkedAt": "2026-11-26T16:52:50.091Z"
     },
     {
       "slug": "dolt",
@@ -2351,9 +2351,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/dolthub/dolt#readme",
       "docs": "https://github.com/dolthub/dolt#readme",
-      "stars": 24980,
+      "stars": 24987,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:49.743Z"
+      "checkedAt": "2026-11-26T16:52:50.786Z"
     },
     {
       "slug": "yt-dlp",
@@ -2373,9 +2373,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/yt-dlp/yt-dlp#readme",
       "docs": "https://github.com/yt-dlp/yt-dlp#readme",
-      "stars": 210645,
+      "stars": 210919,
       "license": "Unlicense",
-      "checkedAt": "2026-11-25T17:12:50.259Z"
+      "checkedAt": "2026-11-26T16:52:51.030Z"
     },
     {
       "slug": "ffmpeg",
@@ -2395,9 +2395,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/FFmpeg/FFmpeg#readme",
       "docs": "https://github.com/FFmpeg/FFmpeg#readme",
-      "stars": 68158,
+      "stars": 68263,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:50.835Z"
+      "checkedAt": "2026-11-26T16:52:51.515Z"
     },
     {
       "slug": "imagemagick",
@@ -2417,9 +2417,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/ImageMagick/ImageMagick#readme",
       "docs": "https://github.com/ImageMagick/ImageMagick#readme",
-      "stars": 17938,
+      "stars": 17946,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:51.645Z"
+      "checkedAt": "2026-11-26T16:52:52.169Z"
     },
     {
       "slug": "tesseract",
@@ -2439,9 +2439,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/tesseract-ocr/tesseract#readme",
       "docs": "https://github.com/tesseract-ocr/tesseract#readme",
-      "stars": 77657,
+      "stars": 77673,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:52.274Z"
+      "checkedAt": "2026-11-26T16:52:52.801Z"
     },
     {
       "slug": "ocrmypdf",
@@ -2461,9 +2461,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/ocrmypdf/OCRmyPDF#readme",
       "docs": "https://github.com/ocrmypdf/OCRmyPDF#readme",
-      "stars": 35401,
+      "stars": 35409,
       "license": "MPL-2.0",
-      "checkedAt": "2026-11-25T17:12:53.032Z"
+      "checkedAt": "2026-11-26T16:52:53.085Z"
     },
     {
       "slug": "qpdf",
@@ -2483,9 +2483,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/qpdf/qpdf#readme",
       "docs": "https://github.com/qpdf/qpdf#readme",
-      "stars": 5613,
+      "stars": 5618,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:53.498Z"
+      "checkedAt": "2026-11-26T16:52:53.356Z"
     },
     {
       "slug": "restic",
@@ -2505,9 +2505,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/restic/restic#readme",
       "docs": "https://github.com/restic/restic#readme",
-      "stars": 37453,
+      "stars": 37479,
       "license": "BSD-2-Clause",
-      "checkedAt": "2026-11-25T17:12:54.176Z"
+      "checkedAt": "2026-11-26T16:52:53.635Z"
     },
     {
       "slug": "just",
@@ -2527,9 +2527,9 @@ window.USECLIS_DATA = {
       "featured": false,
       "website": "https://github.com/casey/just#readme",
       "docs": "https://github.com/casey/just#readme",
-      "stars": 36840,
+      "stars": 36859,
       "license": "CC0-1.0",
-      "checkedAt": "2026-11-25T17:12:54.774Z"
+      "checkedAt": "2026-11-26T16:52:53.880Z"
     },
     {
       "slug": "blucli",
@@ -2550,7 +2550,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/steipete/blucli#readme",
       "stars": 48,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:55.166Z"
+      "checkedAt": "2026-11-26T16:52:54.105Z"
     },
     {
       "slug": "eightctl",
@@ -2571,7 +2571,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/steipete/eightctl#readme",
       "stars": 106,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:55.392Z"
+      "checkedAt": "2026-11-26T16:52:54.357Z"
     },
     {
       "slug": "gifgrep",
@@ -2592,7 +2592,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/steipete/gifgrep#readme",
       "stars": 140,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:55.624Z"
+      "checkedAt": "2026-11-26T16:52:54.632Z"
     },
     {
       "slug": "camsnap",
@@ -2611,9 +2611,9 @@ window.USECLIS_DATA = {
       "example": "camsnap discover --info",
       "website": "https://github.com/steipete/camsnap#readme",
       "docs": "https://github.com/steipete/camsnap#readme",
-      "stars": 150,
+      "stars": 151,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:55.871Z"
+      "checkedAt": "2026-11-26T16:52:54.878Z"
     },
     {
       "slug": "ordercli",
@@ -2634,7 +2634,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/steipete/ordercli#readme",
       "stars": 88,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:56.150Z"
+      "checkedAt": "2026-11-26T16:52:55.117Z"
     },
     {
       "slug": "openhue-cli",
@@ -2655,7 +2655,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/openhue/openhue-cli#readme",
       "stars": 163,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:56.463Z"
+      "checkedAt": "2026-11-26T16:52:55.361Z"
     },
     {
       "slug": "sag",
@@ -2676,7 +2676,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/steipete/sag#readme",
       "stars": 588,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:57.030Z"
+      "checkedAt": "2026-11-26T16:52:55.590Z"
     },
     {
       "slug": "twitter-cli",
@@ -2695,9 +2695,9 @@ window.USECLIS_DATA = {
       "example": "twitter feed",
       "website": "https://github.com/public-clis/twitter-cli#readme",
       "docs": "https://github.com/public-clis/twitter-cli#readme",
-      "stars": 3033,
+      "stars": 3035,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:57.273Z"
+      "checkedAt": "2026-11-26T16:52:55.898Z"
     },
     {
       "slug": "bilibili-cli",
@@ -2716,9 +2716,9 @@ window.USECLIS_DATA = {
       "example": "bili --help",
       "website": "https://github.com/public-clis/bilibili-cli#readme",
       "docs": "https://github.com/public-clis/bilibili-cli#readme",
-      "stars": 1166,
+      "stars": 1168,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:12:57.861Z"
+      "checkedAt": "2026-11-26T16:52:56.408Z"
     },
     {
       "slug": "rdt-cli",
@@ -2739,7 +2739,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/public-clis/rdt-cli#readme",
       "stars": 547,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:58.103Z"
+      "checkedAt": "2026-11-26T16:52:56.713Z"
     },
     {
       "slug": "xiaohongshu-cli",
@@ -2758,9 +2758,9 @@ window.USECLIS_DATA = {
       "example": "xhs --help",
       "website": "https://github.com/jackwener/xiaohongshu-cli#readme",
       "docs": "https://github.com/jackwener/xiaohongshu-cli#readme",
-      "stars": 2748,
+      "stars": 2749,
       "license": null,
-      "checkedAt": "2026-11-25T17:12:58.328Z"
+      "checkedAt": "2026-11-26T16:52:56.968Z"
     },
     {
       "slug": "notesmd-cli",
@@ -2779,9 +2779,9 @@ window.USECLIS_DATA = {
       "example": "notesmd-cli --help",
       "website": "https://github.com/Yakitrak/notesmd-cli#readme",
       "docs": "https://github.com/Yakitrak/notesmd-cli#readme",
-      "stars": 1610,
+      "stars": 1612,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:58.681Z"
+      "checkedAt": "2026-11-26T16:52:57.629Z"
     },
     {
       "slug": "jira-cli",
@@ -2800,9 +2800,9 @@ window.USECLIS_DATA = {
       "example": "jira issue list",
       "website": "https://github.com/ankitpokhrel/jira-cli#readme",
       "docs": "https://github.com/ankitpokhrel/jira-cli#readme",
-      "stars": 6095,
+      "stars": 6098,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:59.154Z"
+      "checkedAt": "2026-11-26T16:52:57.876Z"
     },
     {
       "slug": "todoist-cli",
@@ -2823,7 +2823,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sachaos/todoist#readme",
       "stars": 1731,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:12:59.508Z"
+      "checkedAt": "2026-11-26T16:52:58.191Z"
     },
     {
       "slug": "taskwarrior",
@@ -2842,9 +2842,9 @@ window.USECLIS_DATA = {
       "example": "task list",
       "website": "https://github.com/GothenburgBitFactory/taskwarrior#readme",
       "docs": "https://github.com/GothenburgBitFactory/taskwarrior#readme",
-      "stars": 6185,
+      "stars": 6187,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:00.303Z"
+      "checkedAt": "2026-11-26T16:52:58.951Z"
     },
     {
       "slug": "khal",
@@ -2863,9 +2863,9 @@ window.USECLIS_DATA = {
       "example": "khal --help",
       "website": "https://github.com/pimutils/khal#readme",
       "docs": "https://github.com/pimutils/khal#readme",
-      "stars": 3095,
+      "stars": 3097,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:00.790Z"
+      "checkedAt": "2026-11-26T16:52:59.701Z"
     },
     {
       "slug": "gcalcli",
@@ -2884,9 +2884,9 @@ window.USECLIS_DATA = {
       "example": "gcalcli --help",
       "website": "https://github.com/insanum/gcalcli#readme",
       "docs": "https://github.com/insanum/gcalcli#readme",
-      "stars": 3787,
+      "stars": 3789,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:01.465Z"
+      "checkedAt": "2026-11-26T16:53:00.323Z"
     },
     {
       "slug": "vdirsyncer",
@@ -2905,9 +2905,9 @@ window.USECLIS_DATA = {
       "example": "vdirsyncer --help",
       "website": "https://github.com/pimutils/vdirsyncer#readme",
       "docs": "https://github.com/pimutils/vdirsyncer#readme",
-      "stars": 1918,
+      "stars": 1919,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:01.986Z"
+      "checkedAt": "2026-11-26T16:53:00.550Z"
     },
     {
       "slug": "buku",
@@ -2926,9 +2926,9 @@ window.USECLIS_DATA = {
       "example": "buku --help",
       "website": "https://github.com/jarun/buku#readme",
       "docs": "https://github.com/jarun/buku#readme",
-      "stars": 7256,
+      "stars": 7257,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:13:02.262Z"
+      "checkedAt": "2026-11-26T16:53:00.800Z"
     },
     {
       "slug": "nb",
@@ -2947,9 +2947,9 @@ window.USECLIS_DATA = {
       "example": "nb list",
       "website": "https://github.com/xwmx/nb#readme",
       "docs": "https://github.com/xwmx/nb#readme",
-      "stars": 8486,
+      "stars": 8487,
       "license": "AGPL-3.0",
-      "checkedAt": "2026-11-25T17:13:03.144Z"
+      "checkedAt": "2026-11-26T16:53:01.193Z"
     },
     {
       "slug": "vibe-notion",
@@ -2970,7 +2970,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/devxoul/vibe-notion#readme",
       "stars": 64,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:03.593Z"
+      "checkedAt": "2026-11-26T16:53:01.441Z"
     },
     {
       "slug": "opencli",
@@ -2989,9 +2989,9 @@ window.USECLIS_DATA = {
       "example": "opencli list",
       "website": "https://github.com/jackwener/OpenCLI#readme",
       "docs": "https://github.com/jackwener/OpenCLI#readme",
-      "stars": 31280,
+      "stars": 31308,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:04.086Z"
+      "checkedAt": "2026-11-26T16:53:02.104Z"
     },
     {
       "slug": "rulesync",
@@ -3010,9 +3010,9 @@ window.USECLIS_DATA = {
       "example": "rulesync --help",
       "website": "https://github.com/dyoshikawa/rulesync#readme",
       "docs": "https://github.com/dyoshikawa/rulesync#readme",
-      "stars": 1648,
+      "stars": 1653,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:04.590Z"
+      "checkedAt": "2026-11-26T16:53:02.549Z"
     },
     {
       "slug": "acpx",
@@ -3031,9 +3031,9 @@ window.USECLIS_DATA = {
       "example": "acpx --help",
       "website": "https://github.com/openclaw/acpx#readme",
       "docs": "https://github.com/openclaw/acpx#readme",
-      "stars": 3472,
+      "stars": 3474,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:05.253Z"
+      "checkedAt": "2026-11-26T16:53:03.307Z"
     },
     {
       "slug": "discord-cli",
@@ -3054,7 +3054,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/jackwener/discord-cli#readme",
       "stars": 140,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:05.499Z"
+      "checkedAt": "2026-11-26T16:53:03.531Z"
     },
     {
       "slug": "tg-cli",
@@ -3075,7 +3075,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/jackwener/tg-cli#readme",
       "stars": 299,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:05.715Z"
+      "checkedAt": "2026-11-26T16:53:03.792Z"
     },
     {
       "slug": "agent-slack",
@@ -3094,9 +3094,9 @@ window.USECLIS_DATA = {
       "example": "agent-slack auth whoami",
       "website": "https://github.com/stablyai/agent-slack#readme",
       "docs": "https://github.com/stablyai/agent-slack#readme",
-      "stars": 588,
+      "stars": 587,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:05.974Z"
+      "checkedAt": "2026-11-26T16:53:15.625Z"
     },
     {
       "slug": "auth0-cli",
@@ -3117,7 +3117,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/auth0/auth0-cli#readme",
       "stars": 346,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:06.551Z"
+      "checkedAt": "2026-11-26T16:53:16.165Z"
     },
     {
       "slug": "okta-cli",
@@ -3138,7 +3138,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/okta/okta-cli#readme",
       "stars": 111,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:06.857Z"
+      "checkedAt": "2026-11-26T16:53:16.472Z"
     },
     {
       "slug": "tailscale-cli",
@@ -3157,9 +3157,9 @@ window.USECLIS_DATA = {
       "example": "tailscale status",
       "website": "https://github.com/tailscale/tailscale#readme",
       "docs": "https://github.com/tailscale/tailscale#readme",
-      "stars": 39608,
+      "stars": 39662,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:13:07.787Z"
+      "checkedAt": "2026-11-26T16:53:17.205Z"
     },
     {
       "slug": "cloudflared",
@@ -3178,9 +3178,9 @@ window.USECLIS_DATA = {
       "example": "cloudflared --help",
       "website": "https://github.com/cloudflare/cloudflared#readme",
       "docs": "https://github.com/cloudflare/cloudflared#readme",
-      "stars": 16744,
+      "stars": 16758,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:08.067Z"
+      "checkedAt": "2026-11-26T16:53:17.459Z"
     },
     {
       "slug": "heroku-cli",
@@ -3201,7 +3201,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/heroku/cli#readme",
       "stars": 887,
       "license": "ISC",
-      "checkedAt": "2026-11-25T17:13:08.583Z"
+      "checkedAt": "2026-11-26T16:53:18.036Z"
     },
     {
       "slug": "flyctl",
@@ -3220,9 +3220,9 @@ window.USECLIS_DATA = {
       "example": "flyctl status",
       "website": "https://github.com/superfly/flyctl#readme",
       "docs": "https://github.com/superfly/flyctl#readme",
-      "stars": 1725,
+      "stars": 1726,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:09.252Z"
+      "checkedAt": "2026-11-26T16:53:18.658Z"
     },
     {
       "slug": "fastly-cli",
@@ -3243,7 +3243,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/fastly/cli#readme",
       "stars": 167,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:09.908Z"
+      "checkedAt": "2026-11-26T16:53:19.462Z"
     },
     {
       "slug": "akamai-cli",
@@ -3264,7 +3264,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/akamai/cli#readme",
       "stars": 234,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:10.347Z"
+      "checkedAt": "2026-11-26T16:53:19.757Z"
     },
     {
       "slug": "deck",
@@ -3285,7 +3285,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Kong/deck#readme",
       "stars": 507,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:11.145Z"
+      "checkedAt": "2026-11-26T16:53:20.401Z"
     },
     {
       "slug": "temporal-cli",
@@ -3304,9 +3304,9 @@ window.USECLIS_DATA = {
       "example": "temporal --help",
       "website": "https://github.com/temporalio/cli#readme",
       "docs": "https://github.com/temporalio/cli#readme",
-      "stars": 389,
+      "stars": 390,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:11.750Z"
+      "checkedAt": "2026-11-26T16:53:20.800Z"
     },
     {
       "slug": "nats-cli",
@@ -3327,7 +3327,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/nats-io/natscli#readme",
       "stars": 836,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:12.207Z"
+      "checkedAt": "2026-11-26T16:53:21.052Z"
     },
     {
       "slug": "n8n-cli",
@@ -3346,9 +3346,9 @@ window.USECLIS_DATA = {
       "example": "n8n --help",
       "website": "https://github.com/n8n-io/n8n#readme",
       "docs": "https://github.com/n8n-io/n8n#readme",
-      "stars": 212107,
+      "stars": 212252,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:12.880Z"
+      "checkedAt": "2026-11-26T16:53:21.657Z"
     },
     {
       "slug": "appwrite-cli",
@@ -3369,7 +3369,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/appwrite/sdk-for-cli#readme",
       "stars": 105,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:13:13.419Z"
+      "checkedAt": "2026-11-26T16:53:22.198Z"
     },
     {
       "slug": "psql",
@@ -3388,9 +3388,9 @@ window.USECLIS_DATA = {
       "example": "psql --help",
       "website": "https://github.com/postgres/postgres#readme",
       "docs": "https://www.postgresql.org/docs/current/app-psql.html",
-      "stars": 22947,
+      "stars": 22957,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:14.001Z"
+      "checkedAt": "2026-11-26T16:53:22.886Z"
     },
     {
       "slug": "redis-cli",
@@ -3409,9 +3409,9 @@ window.USECLIS_DATA = {
       "example": "redis-cli --help",
       "website": "https://github.com/redis/redis#readme",
       "docs": "https://redis.io/docs/latest/develop/tools/cli/",
-      "stars": 77738,
+      "stars": 77779,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:14.547Z"
+      "checkedAt": "2026-11-26T16:53:23.476Z"
     },
     {
       "slug": "mongosh",
@@ -3432,7 +3432,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mongodb-js/mongosh#readme",
       "stars": 402,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:15.107Z"
+      "checkedAt": "2026-11-26T16:53:24.014Z"
     },
     {
       "slug": "mongodb-atlas-cli",
@@ -3451,9 +3451,9 @@ window.USECLIS_DATA = {
       "example": "atlas --help",
       "website": "https://github.com/mongodb/mongodb-atlas-cli#readme",
       "docs": "https://github.com/mongodb/mongodb-atlas-cli#readme",
-      "stars": 188,
+      "stars": 189,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:15.795Z"
+      "checkedAt": "2026-11-26T16:53:24.689Z"
     },
     {
       "slug": "snowflake-cli",
@@ -3474,7 +3474,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/snowflakedb/snowflake-cli#readme",
       "stars": 272,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:16.470Z"
+      "checkedAt": "2026-11-26T16:53:25.385Z"
     },
     {
       "slug": "databricks-cli",
@@ -3495,7 +3495,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/databricks/cli#readme",
       "stars": 434,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:17.086Z"
+      "checkedAt": "2026-11-26T16:53:25.919Z"
     },
     {
       "slug": "confluent-cli",
@@ -3516,7 +3516,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/confluentinc/cli#readme",
       "stars": 82,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:17.918Z"
+      "checkedAt": "2026-11-26T16:53:26.505Z"
     },
     {
       "slug": "clickhouse-client",
@@ -3535,9 +3535,9 @@ window.USECLIS_DATA = {
       "example": "clickhouse client --help",
       "website": "https://github.com/ClickHouse/ClickHouse#readme",
       "docs": "https://clickhouse.com/docs/concepts/features/interfaces/client",
-      "stars": 51133,
+      "stars": 51165,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:18.412Z"
+      "checkedAt": "2026-11-26T16:53:27.008Z"
     },
     {
       "slug": "influx-cli",
@@ -3558,7 +3558,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/influxdata/influx-cli#readme",
       "stars": 75,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:18.854Z"
+      "checkedAt": "2026-11-26T16:53:27.287Z"
     },
     {
       "slug": "usql",
@@ -3577,9 +3577,9 @@ window.USECLIS_DATA = {
       "example": "usql --help",
       "website": "https://github.com/xo/usql#readme",
       "docs": "https://github.com/xo/usql#readme",
-      "stars": 10179,
+      "stars": 10181,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:19.206Z"
+      "checkedAt": "2026-11-26T16:53:27.583Z"
     },
     {
       "slug": "pgcli",
@@ -3598,9 +3598,9 @@ window.USECLIS_DATA = {
       "example": "pgcli --help",
       "website": "https://github.com/dbcli/pgcli#readme",
       "docs": "https://github.com/dbcli/pgcli#readme",
-      "stars": 13461,
+      "stars": 13462,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:13:19.602Z"
+      "checkedAt": "2026-11-26T16:53:27.902Z"
     },
     {
       "slug": "mycli",
@@ -3621,7 +3621,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/dbcli/mycli#readme",
       "stars": 12005,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:13:20.299Z"
+      "checkedAt": "2026-11-26T16:53:28.380Z"
     },
     {
       "slug": "litecli",
@@ -3642,7 +3642,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/dbcli/litecli#readme",
       "stars": 3321,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:13:20.608Z"
+      "checkedAt": "2026-11-26T16:53:28.650Z"
     },
     {
       "slug": "csvkit",
@@ -3663,7 +3663,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/wireservice/csvkit#readme",
       "stars": 6421,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:20.906Z"
+      "checkedAt": "2026-11-26T16:53:28.903Z"
     },
     {
       "slug": "qsv",
@@ -3682,9 +3682,9 @@ window.USECLIS_DATA = {
       "example": "qsv --help",
       "website": "https://github.com/dathere/qsv#readme",
       "docs": "https://github.com/dathere/qsv#readme",
-      "stars": 3857,
+      "stars": 3865,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:21.607Z"
+      "checkedAt": "2026-11-26T16:53:29.646Z"
     },
     {
       "slug": "jujutsu",
@@ -3703,9 +3703,9 @@ window.USECLIS_DATA = {
       "example": "jj status",
       "website": "https://github.com/jj-vcs/jj#readme",
       "docs": "https://github.com/jj-vcs/jj#readme",
-      "stars": 32632,
+      "stars": 32644,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:22.310Z"
+      "checkedAt": "2026-11-26T16:53:30.344Z"
     },
     {
       "slug": "git-lfs",
@@ -3724,9 +3724,9 @@ window.USECLIS_DATA = {
       "example": "git lfs ls-files",
       "website": "https://github.com/git-lfs/git-lfs#readme",
       "docs": "https://github.com/git-lfs/git-lfs#readme",
-      "stars": 14622,
+      "stars": 14625,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:22.892Z"
+      "checkedAt": "2026-11-26T16:53:30.946Z"
     },
     {
       "slug": "goreleaser",
@@ -3745,9 +3745,9 @@ window.USECLIS_DATA = {
       "example": "goreleaser --help",
       "website": "https://github.com/goreleaser/goreleaser#readme",
       "docs": "https://github.com/goreleaser/goreleaser#readme",
-      "stars": 16155,
+      "stars": 16158,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:23.633Z"
+      "checkedAt": "2026-11-26T16:53:31.565Z"
     },
     {
       "slug": "act",
@@ -3766,9 +3766,9 @@ window.USECLIS_DATA = {
       "example": "act --list",
       "website": "https://github.com/nektos/act#readme",
       "docs": "https://github.com/nektos/act#readme",
-      "stars": 72792,
+      "stars": 72804,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:24.144Z"
+      "checkedAt": "2026-11-26T16:53:31.830Z"
     },
     {
       "slug": "dagger-cli",
@@ -3787,9 +3787,9 @@ window.USECLIS_DATA = {
       "example": "dagger --help",
       "website": "https://github.com/dagger/dagger#readme",
       "docs": "https://github.com/dagger/dagger#readme",
-      "stars": 16648,
+      "stars": 16652,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:24.696Z"
+      "checkedAt": "2026-11-26T16:53:32.345Z"
     },
     {
       "slug": "dev-container-cli",
@@ -3808,9 +3808,9 @@ window.USECLIS_DATA = {
       "example": "devcontainer --help",
       "website": "https://github.com/devcontainers/cli#readme",
       "docs": "https://github.com/devcontainers/cli#readme",
-      "stars": 3043,
+      "stars": 3044,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:25.149Z"
+      "checkedAt": "2026-11-26T16:53:33.021Z"
     },
     {
       "slug": "devspace",
@@ -3829,9 +3829,9 @@ window.USECLIS_DATA = {
       "example": "devspace --help",
       "website": "https://github.com/devspace-sh/devspace#readme",
       "docs": "https://github.com/devspace-sh/devspace#readme",
-      "stars": 5251,
+      "stars": 5252,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:25.534Z"
+      "checkedAt": "2026-11-26T16:53:33.686Z"
     },
     {
       "slug": "garden",
@@ -3852,7 +3852,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/garden-io/garden#readme",
       "stars": 3624,
       "license": "MPL-2.0",
-      "checkedAt": "2026-11-25T17:13:25.976Z"
+      "checkedAt": "2026-11-26T16:53:34.136Z"
     },
     {
       "slug": "k3d",
@@ -3871,9 +3871,9 @@ window.USECLIS_DATA = {
       "example": "k3d cluster list",
       "website": "https://github.com/k3d-io/k3d#readme",
       "docs": "https://github.com/k3d-io/k3d#readme",
-      "stars": 6629,
+      "stars": 6630,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:26.955Z"
+      "checkedAt": "2026-11-26T16:53:34.627Z"
     },
     {
       "slug": "skaffold",
@@ -3892,9 +3892,9 @@ window.USECLIS_DATA = {
       "example": "skaffold --help",
       "website": "https://github.com/GoogleContainerTools/skaffold#readme",
       "docs": "https://github.com/GoogleContainerTools/skaffold#readme",
-      "stars": 15920,
+      "stars": 15921,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:27.395Z"
+      "checkedAt": "2026-11-26T16:53:34.905Z"
     },
     {
       "slug": "kustomize",
@@ -3913,9 +3913,9 @@ window.USECLIS_DATA = {
       "example": "kustomize build ./overlays/production",
       "website": "https://github.com/kubernetes-sigs/kustomize#readme",
       "docs": "https://github.com/kubernetes-sigs/kustomize#readme",
-      "stars": 12218,
+      "stars": 12220,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:27.919Z"
+      "checkedAt": "2026-11-26T16:53:35.539Z"
     },
     {
       "slug": "helmfile",
@@ -3936,7 +3936,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/helmfile/helmfile#readme",
       "stars": 5233,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:28.462Z"
+      "checkedAt": "2026-11-26T16:53:36.017Z"
     },
     {
       "slug": "kubectx",
@@ -3955,9 +3955,9 @@ window.USECLIS_DATA = {
       "example": "kubectx",
       "website": "https://github.com/ahmetb/kubectx#readme",
       "docs": "https://github.com/ahmetb/kubectx#readme",
-      "stars": 20149,
+      "stars": 20158,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:28.829Z"
+      "checkedAt": "2026-11-26T16:53:36.288Z"
     },
     {
       "slug": "stern",
@@ -3976,9 +3976,9 @@ window.USECLIS_DATA = {
       "example": "stern --help",
       "website": "https://github.com/stern/stern#readme",
       "docs": "https://github.com/stern/stern#readme",
-      "stars": 4929,
+      "stars": 4930,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:29.263Z"
+      "checkedAt": "2026-11-26T16:53:36.532Z"
     },
     {
       "slug": "eslint",
@@ -3997,9 +3997,9 @@ window.USECLIS_DATA = {
       "example": "eslint --help",
       "website": "https://github.com/eslint/eslint#readme",
       "docs": "https://github.com/eslint/eslint#readme",
-      "stars": 27652,
+      "stars": 27654,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:30.071Z"
+      "checkedAt": "2026-11-26T16:53:37.158Z"
     },
     {
       "slug": "prettier",
@@ -4018,9 +4018,9 @@ window.USECLIS_DATA = {
       "example": "prettier --help",
       "website": "https://github.com/prettier/prettier#readme",
       "docs": "https://github.com/prettier/prettier#readme",
-      "stars": 52447,
+      "stars": 52454,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:30.823Z"
+      "checkedAt": "2026-11-26T16:53:37.783Z"
     },
     {
       "slug": "deno",
@@ -4039,9 +4039,9 @@ window.USECLIS_DATA = {
       "example": "deno --help",
       "website": "https://github.com/denoland/deno#readme",
       "docs": "https://github.com/denoland/deno#readme",
-      "stars": 109020,
+      "stars": 109030,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:31.283Z"
+      "checkedAt": "2026-11-26T16:53:38.086Z"
     },
     {
       "slug": "npm",
@@ -4060,9 +4060,9 @@ window.USECLIS_DATA = {
       "example": "npm --help",
       "website": "https://github.com/npm/cli#readme",
       "docs": "https://github.com/npm/cli#readme",
-      "stars": 10278,
+      "stars": 10282,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:31.763Z"
+      "checkedAt": "2026-11-26T16:53:38.386Z"
     },
     {
       "slug": "poetry",
@@ -4083,7 +4083,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/python-poetry/poetry#readme",
       "stars": 34314,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:32.169Z"
+      "checkedAt": "2026-11-26T16:53:38.639Z"
     },
     {
       "slug": "pipx",
@@ -4102,9 +4102,9 @@ window.USECLIS_DATA = {
       "example": "pipx list",
       "website": "https://github.com/pypa/pipx#readme",
       "docs": "https://github.com/pypa/pipx#readme",
-      "stars": 13029,
+      "stars": 13038,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:32.870Z"
+      "checkedAt": "2026-11-26T16:53:38.936Z"
     },
     {
       "slug": "task",
@@ -4123,9 +4123,9 @@ window.USECLIS_DATA = {
       "example": "task --list",
       "website": "https://github.com/go-task/task#readme",
       "docs": "https://github.com/go-task/task#readme",
-      "stars": 16392,
+      "stars": 16395,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:33.456Z"
+      "checkedAt": "2026-11-26T16:53:39.429Z"
     },
     {
       "slug": "watchexec",
@@ -4144,9 +4144,9 @@ window.USECLIS_DATA = {
       "example": "watchexec --help",
       "website": "https://github.com/watchexec/watchexec#readme",
       "docs": "https://github.com/watchexec/watchexec#readme",
-      "stars": 7339,
+      "stars": 7341,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:33.847Z"
+      "checkedAt": "2026-11-26T16:53:39.703Z"
     },
     {
       "slug": "hyperfine",
@@ -4165,9 +4165,9 @@ window.USECLIS_DATA = {
       "example": "hyperfine 'sleep 0.3'",
       "website": "https://github.com/sharkdp/hyperfine#readme",
       "docs": "https://github.com/sharkdp/hyperfine#readme",
-      "stars": 29364,
+      "stars": 29373,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:34.203Z"
+      "checkedAt": "2026-11-26T16:53:39.954Z"
     },
     {
       "slug": "mkcert",
@@ -4186,9 +4186,9 @@ window.USECLIS_DATA = {
       "example": "mkcert -help",
       "website": "https://github.com/FiloSottile/mkcert#readme",
       "docs": "https://github.com/FiloSottile/mkcert#readme",
-      "stars": 59926,
+      "stars": 59932,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:13:34.441Z"
+      "checkedAt": "2026-11-26T16:53:40.194Z"
     },
     {
       "slug": "docling-cli",
@@ -4207,9 +4207,9 @@ window.USECLIS_DATA = {
       "example": "docling --help",
       "website": "https://github.com/docling-project/docling#readme",
       "docs": "https://github.com/docling-project/docling#readme",
-      "stars": 71034,
+      "stars": 71104,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:34.851Z"
+      "checkedAt": "2026-11-26T16:53:40.689Z"
     },
     {
       "slug": "markitdown",
@@ -4228,9 +4228,9 @@ window.USECLIS_DATA = {
       "example": "markitdown document.pdf -o document.md",
       "website": "https://github.com/microsoft/markitdown#readme",
       "docs": "https://github.com/microsoft/markitdown#readme",
-      "stars": 198421,
+      "stars": 198578,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:35.364Z"
+      "checkedAt": "2026-11-26T16:53:40.946Z"
     },
     {
       "slug": "hugo",
@@ -4249,9 +4249,9 @@ window.USECLIS_DATA = {
       "example": "hugo --help",
       "website": "https://github.com/gohugoio/hugo#readme",
       "docs": "https://github.com/gohugoio/hugo#readme",
-      "stars": 90563,
+      "stars": 90573,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:35.859Z"
+      "checkedAt": "2026-11-26T16:53:41.410Z"
     },
     {
       "slug": "mkdocs",
@@ -4270,9 +4270,9 @@ window.USECLIS_DATA = {
       "example": "mkdocs --help",
       "website": "https://github.com/mkdocs/mkdocs#readme",
       "docs": "https://github.com/mkdocs/mkdocs#readme",
-      "stars": 22570,
+      "stars": 22576,
       "license": "BSD-2-Clause",
-      "checkedAt": "2026-11-25T17:13:36.230Z"
+      "checkedAt": "2026-11-26T16:53:41.803Z"
     },
     {
       "slug": "asciidoctor",
@@ -4293,7 +4293,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/asciidoctor/asciidoctor#readme",
       "stars": 5230,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:36.593Z"
+      "checkedAt": "2026-11-26T16:53:42.226Z"
     },
     {
       "slug": "quarto-cli",
@@ -4312,9 +4312,9 @@ window.USECLIS_DATA = {
       "example": "quarto --help",
       "website": "https://github.com/quarto-dev/quarto-cli#readme",
       "docs": "https://github.com/quarto-dev/quarto-cli#readme",
-      "stars": 6212,
+      "stars": 6214,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:37.306Z"
+      "checkedAt": "2026-11-26T16:53:42.943Z"
     },
     {
       "slug": "marp-cli",
@@ -4333,9 +4333,9 @@ window.USECLIS_DATA = {
       "example": "marp slide-deck.md -o output.html",
       "website": "https://github.com/marp-team/marp-cli#readme",
       "docs": "https://github.com/marp-team/marp-cli#readme",
-      "stars": 3951,
+      "stars": 3952,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:37.920Z"
+      "checkedAt": "2026-11-26T16:53:43.394Z"
     },
     {
       "slug": "mermaid-cli",
@@ -4354,9 +4354,9 @@ window.USECLIS_DATA = {
       "example": "mmdc -i input.mmd -o output.svg",
       "website": "https://github.com/mermaid-js/mermaid-cli#readme",
       "docs": "https://github.com/mermaid-js/mermaid-cli#readme",
-      "stars": 5194,
+      "stars": 5198,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:38.337Z"
+      "checkedAt": "2026-11-26T16:53:43.654Z"
     },
     {
       "slug": "vips-cli",
@@ -4375,9 +4375,9 @@ window.USECLIS_DATA = {
       "example": "vips --help",
       "website": "https://github.com/libvips/libvips#readme",
       "docs": "https://www.libvips.org/API/current/using-the-cli.html",
-      "stars": 11837,
+      "stars": 11841,
       "license": "LGPL-2.1",
-      "checkedAt": "2026-11-25T17:13:39.055Z"
+      "checkedAt": "2026-11-26T16:53:44.023Z"
     },
     {
       "slug": "exiftool",
@@ -4396,9 +4396,9 @@ window.USECLIS_DATA = {
       "example": "exiftool image.jpg",
       "website": "https://github.com/exiftool/exiftool#readme",
       "docs": "https://github.com/exiftool/exiftool#readme",
-      "stars": 5311,
+      "stars": 5322,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:13:39.319Z"
+      "checkedAt": "2026-11-26T16:53:44.273Z"
     },
     {
       "slug": "whisper-cli",
@@ -4417,9 +4417,9 @@ window.USECLIS_DATA = {
       "example": "whisper-cli -h",
       "website": "https://github.com/ggml-org/whisper.cpp#readme",
       "docs": "https://github.com/ggml-org/whisper.cpp#readme",
-      "stars": 55516,
+      "stars": 55551,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:39.985Z"
+      "checkedAt": "2026-11-26T16:53:44.904Z"
     },
     {
       "slug": "typst",
@@ -4438,9 +4438,9 @@ window.USECLIS_DATA = {
       "example": "typst compile document.typ",
       "website": "https://github.com/typst/typst#readme",
       "docs": "https://github.com/typst/typst#readme",
-      "stars": 57420,
+      "stars": 57439,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:40.393Z"
+      "checkedAt": "2026-11-26T16:53:45.434Z"
     },
     {
       "slug": "mutool",
@@ -4459,9 +4459,9 @@ window.USECLIS_DATA = {
       "example": "mutool draw -h",
       "website": "https://github.com/ArtifexSoftware/mupdf#readme",
       "docs": "https://mupdf.readthedocs.io/en/latest/tools/index.html",
-      "stars": 3072,
+      "stars": 3073,
       "license": "AGPL-3.0",
-      "checkedAt": "2026-11-25T17:13:41.130Z"
+      "checkedAt": "2026-11-26T16:53:45.910Z"
     },
     {
       "slug": "pdfcpu",
@@ -4480,9 +4480,9 @@ window.USECLIS_DATA = {
       "example": "pdfcpu help",
       "website": "https://github.com/pdfcpu/pdfcpu#readme",
       "docs": "https://github.com/pdfcpu/pdfcpu#readme",
-      "stars": 8920,
+      "stars": 8922,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:41.487Z"
+      "checkedAt": "2026-11-26T16:53:46.387Z"
     },
     {
       "slug": "miniserve",
@@ -4501,9 +4501,9 @@ window.USECLIS_DATA = {
       "example": "miniserve ./public",
       "website": "https://github.com/svenstaro/miniserve#readme",
       "docs": "https://github.com/svenstaro/miniserve#readme",
-      "stars": 8176,
+      "stars": 8179,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:42.044Z"
+      "checkedAt": "2026-11-26T16:53:46.824Z"
     },
     {
       "slug": "openai-codex-security",
@@ -4520,9 +4520,9 @@ window.USECLIS_DATA = {
       "example": "codex-security scan /path/to/directory",
       "website": "https://github.com/openai/codex-security",
       "docs": "https://github.com/openai/codex-security/blob/fa5fe21cd39e5771883d87358d58c6af50db8a97/README.md",
-      "stars": 14355,
+      "stars": 14401,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:42.830Z"
+      "checkedAt": "2026-11-26T16:53:47.338Z"
     },
     {
       "slug": "esengine-deepseek-reasonix",
@@ -4539,9 +4539,9 @@ window.USECLIS_DATA = {
       "example": "reasonix run \"implement the TODOs in main.go\"",
       "website": "https://github.com/esengine/DeepSeek-Reasonix",
       "docs": "https://github.com/esengine/DeepSeek-Reasonix/blob/82a0d3693c8f24c454c04fe18a0f43c5c1b5edf8/README.md",
-      "stars": 36070,
+      "stars": 36071,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:43.071Z"
+      "checkedAt": "2026-11-26T16:53:47.580Z"
     },
     {
       "slug": "sigoden-aichat",
@@ -4558,9 +4558,9 @@ window.USECLIS_DATA = {
       "example": "aichat hello",
       "website": "https://github.com/sigoden/aichat",
       "docs": "https://github.com/sigoden/aichat/blob/82976d349ad97ac9aae0655ad631dace5e2a6385/README.md",
-      "stars": 10599,
+      "stars": 10603,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:43.322Z"
+      "checkedAt": "2026-11-26T16:53:47.828Z"
     },
     {
       "slug": "aliyun-aliyun-cli",
@@ -4577,9 +4577,9 @@ window.USECLIS_DATA = {
       "example": "aliyun ecs DescribeRegions",
       "website": "https://github.com/aliyun/aliyun-cli",
       "docs": "https://github.com/aliyun/aliyun-cli/blob/f1abad5be684af82bdb976da059887b20d10aa65/README.md",
-      "stars": 1142,
+      "stars": 1143,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:43.645Z"
+      "checkedAt": "2026-11-26T16:53:48.150Z"
     },
     {
       "slug": "qwenlm-qwen-code",
@@ -4596,9 +4596,9 @@ window.USECLIS_DATA = {
       "example": "qwen channel start",
       "website": "https://github.com/QwenLM/qwen-code",
       "docs": "https://github.com/QwenLM/qwen-code/blob/69db15e2342b957b453fa247b5fba7d3835fa239/README.md",
-      "stars": 30934,
+      "stars": 30957,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:44.240Z"
+      "checkedAt": "2026-11-26T16:53:48.673Z"
     },
     {
       "slug": "mininglamp-oss-octo-cli",
@@ -4617,7 +4617,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Mininglamp-OSS/octo-cli/blob/47f4c5f0238a962c3dec61be291f4deeca5da494/README.md",
       "stars": 924,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:44.743Z"
+      "checkedAt": "2026-11-26T16:53:49.101Z"
     },
     {
       "slug": "pawamoy-aria2p",
@@ -4636,7 +4636,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/pawamoy/aria2p/blob/d232c8e0da7dff2c8887fd40b03725bc138e4804/README.md",
       "stars": 577,
       "license": "ISC",
-      "checkedAt": "2026-11-25T17:13:45.175Z"
+      "checkedAt": "2026-11-26T16:53:49.364Z"
     },
     {
       "slug": "vinhnx-vtcode",
@@ -4653,9 +4653,9 @@ window.USECLIS_DATA = {
       "example": "vtcode models list",
       "website": "https://github.com/vinhnx/VTCode",
       "docs": "https://github.com/vinhnx/VTCode/blob/9883f173c917c494c7dbe98a86d15cdf5576d074/README.md",
-      "stars": 916,
+      "stars": 917,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:45.717Z"
+      "checkedAt": "2026-11-26T16:53:49.634Z"
     },
     {
       "slug": "gptme-gptme",
@@ -4672,9 +4672,9 @@ window.USECLIS_DATA = {
       "example": "gptme 'write an impressive and colorful particle effect using three.js to particles.html'",
       "website": "https://github.com/gptme/gptme",
       "docs": "https://github.com/gptme/gptme/blob/31a3853900a1621751b119cd9562d2fbcddbe74f/README.md",
-      "stars": 4494,
+      "stars": 4495,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:46.520Z"
+      "checkedAt": "2026-11-26T16:53:50.257Z"
     },
     {
       "slug": "apify-mcpc",
@@ -4693,7 +4693,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/apify/mcpc/blob/ab880f909662893accebe92c2b76408f2dfdf387/README.md",
       "stars": 1118,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:47.204Z"
+      "checkedAt": "2026-11-26T16:53:50.737Z"
     },
     {
       "slug": "papis-papis",
@@ -4712,7 +4712,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/papis/papis/blob/69b90609a18846ae594b7882fd317509bd01547f/README.rst",
       "stars": 1810,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:13:47.512Z"
+      "checkedAt": "2026-11-26T16:53:51.029Z"
     },
     {
       "slug": "mufeedvh-code2prompt",
@@ -4729,9 +4729,9 @@ window.USECLIS_DATA = {
       "example": "code2prompt .",
       "website": "https://github.com/mufeedvh/code2prompt",
       "docs": "https://github.com/mufeedvh/code2prompt/blob/66585136062c04275ddd5a01c5518a4d78c4aa76/README.md",
-      "stars": 7767,
+      "stars": 7769,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:47.979Z"
+      "checkedAt": "2026-11-26T16:53:51.277Z"
     },
     {
       "slug": "can4hou6joeng4-boss-agent-cli",
@@ -4748,9 +4748,9 @@ window.USECLIS_DATA = {
       "example": "boss hr candidates \"Python\" --city 101010100",
       "website": "https://github.com/can4hou6joeng4/boss-agent-cli",
       "docs": "https://github.com/can4hou6joeng4/boss-agent-cli/blob/69e54c4f13a3ab07c1e4315cc061317d34b12c6e/README.md",
-      "stars": 2305,
+      "stars": 2302,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:48.860Z"
+      "checkedAt": "2026-11-26T16:53:52.034Z"
     },
     {
       "slug": "brocode-fblog",
@@ -4769,7 +4769,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/brocode/fblog/blob/7a899abb5f77e63dccb33a9f3208ee23db302920/README.md",
       "stars": 570,
       "license": "WTFPL",
-      "checkedAt": "2026-11-25T17:13:49.242Z"
+      "checkedAt": "2026-11-26T16:53:52.468Z"
     },
     {
       "slug": "davidanson-markdownlint-cli2",
@@ -4786,9 +4786,9 @@ window.USECLIS_DATA = {
       "example": "markdownlint-cli2 --config package.json --configPointer /markdownlint-cli2 \"*.md\"",
       "website": "https://github.com/DavidAnson/markdownlint-cli2",
       "docs": "https://github.com/DavidAnson/markdownlint-cli2/blob/55d5a6c74127a24f4c369611ee0d3e972b7097ab/README.md",
-      "stars": 989,
+      "stars": 990,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:50.174Z"
+      "checkedAt": "2026-11-26T16:53:53.045Z"
     },
     {
       "slug": "mozilla-web-ext",
@@ -4807,7 +4807,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mozilla/web-ext/blob/f1fd305c3071ec6cf2806f66de13bcf21e6f053c/README.md",
       "stars": 3152,
       "license": "MPL-2.0",
-      "checkedAt": "2026-11-25T17:13:50.701Z"
+      "checkedAt": "2026-11-26T16:53:53.961Z"
     },
     {
       "slug": "jeffbski-wait-on",
@@ -4826,7 +4826,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/jeffbski/wait-on/blob/30ec1418bf53e4aed39a06cc2806302d758167a7/README.md",
       "stars": 1987,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:50.919Z"
+      "checkedAt": "2026-11-26T16:53:54.254Z"
     },
     {
       "slug": "jacob-bd-gemini-notebook-mcp-cli",
@@ -4843,9 +4843,9 @@ window.USECLIS_DATA = {
       "example": "nlm setup add claude-code",
       "website": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
       "docs": "https://github.com/jacob-bd/gemini-notebook-mcp-cli/blob/03f7812c243f4d6ff732e2a485e6b9d35540f660/README.md",
-      "stars": 6573,
+      "stars": 6583,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:51.329Z"
+      "checkedAt": "2026-11-26T16:53:54.914Z"
     },
     {
       "slug": "tox-dev-pipdeptree",
@@ -4864,7 +4864,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/tox-dev/pipdeptree/blob/c59bf3c5f2a7fb9d0a0bed924c4adb47e6ad8fb5/README.md",
       "stars": 3035,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:52.370Z"
+      "checkedAt": "2026-11-26T16:53:55.578Z"
     },
     {
       "slug": "openosint-openosint",
@@ -4881,9 +4881,9 @@ window.USECLIS_DATA = {
       "example": "openosint web",
       "website": "https://github.com/OpenOSINT/OpenOSINT",
       "docs": "https://github.com/OpenOSINT/OpenOSINT/blob/6bfd34b622346983e4bb3410688c0a516cc9397c/README.md",
-      "stars": 1971,
+      "stars": 1972,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:52.798Z"
+      "checkedAt": "2026-11-26T16:53:55.865Z"
     },
     {
       "slug": "rorkai-app-store-connect-cli",
@@ -4900,9 +4900,9 @@ window.USECLIS_DATA = {
       "example": "asc install-skills",
       "website": "https://github.com/rorkai/App-Store-Connect-CLI",
       "docs": "https://github.com/rorkai/App-Store-Connect-CLI/blob/21af85d7d87e364a188bcb9e062522517de4cd6a/README.md",
-      "stars": 8520,
+      "stars": 8535,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:53.632Z"
+      "checkedAt": "2026-11-26T16:53:56.381Z"
     },
     {
       "slug": "q00-ouroboros",
@@ -4919,9 +4919,9 @@ window.USECLIS_DATA = {
       "example": "ooo setup",
       "website": "https://github.com/Q00/ouroboros",
       "docs": "https://github.com/Q00/ouroboros/blob/1c96832803add472b7b1ec6a01d92a266c60cd82/README.md",
-      "stars": 6384,
+      "stars": 6388,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:54.004Z"
+      "checkedAt": "2026-11-26T16:53:56.831Z"
     },
     {
       "slug": "mindmuxai-brain-md",
@@ -4938,9 +4938,9 @@ window.USECLIS_DATA = {
       "example": "brain setup -y",
       "website": "https://github.com/mindmuxai/brain.md",
       "docs": "https://github.com/mindmuxai/brain.md/blob/8064f3334cfa465129d42668ba271ef71a53dc71/README.md",
-      "stars": 724,
+      "stars": 725,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:54.484Z"
+      "checkedAt": "2026-11-26T16:53:57.093Z"
     },
     {
       "slug": "astronomer-astro-cli",
@@ -4959,7 +4959,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/astronomer/astro-cli/blob/25bbf2d1c16a4e01b040738a965177014fc1ff2b/README.md",
       "stars": 463,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:55.681Z"
+      "checkedAt": "2026-11-26T16:53:57.624Z"
     },
     {
       "slug": "wez-atomicparsley",
@@ -4978,7 +4978,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/wez/atomicparsley/blob/1ca825de2b92d0eadf29b2f7d781399796528b7c/README.md",
       "stars": 777,
       "license": "GPL-2.0",
-      "checkedAt": "2026-11-25T17:13:56.178Z"
+      "checkedAt": "2026-11-26T16:53:57.858Z"
     },
     {
       "slug": "letsfg-letsfg",
@@ -4995,9 +4995,9 @@ window.USECLIS_DATA = {
       "example": "letsfg search LHR BCN 2026-06-15",
       "website": "https://github.com/LetsFG/LetsFG",
       "docs": "https://github.com/LetsFG/LetsFG/blob/7023e687c16aa6ecf7e7d9e12b97af09e3626b4c/README.md",
-      "stars": 2301,
+      "stars": 2302,
       "license": null,
-      "checkedAt": "2026-11-25T17:13:56.698Z"
+      "checkedAt": "2026-11-26T16:53:58.127Z"
     },
     {
       "slug": "auriti-labs-geo-optimizer-skill",
@@ -5014,9 +5014,9 @@ window.USECLIS_DATA = {
       "example": "geo audit --url https://yoursite.com",
       "website": "https://github.com/Auriti-Labs/geo-optimizer-skill",
       "docs": "https://github.com/Auriti-Labs/geo-optimizer-skill/blob/463ad7097e8585cb8c9969a03dd12fde78827454/README.md",
-      "stars": 1389,
+      "stars": 1396,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:57.336Z"
+      "checkedAt": "2026-11-26T16:53:58.646Z"
     },
     {
       "slug": "epistates-treemd",
@@ -5033,9 +5033,9 @@ window.USECLIS_DATA = {
       "example": "treemd -l README.md",
       "website": "https://github.com/Epistates/treemd",
       "docs": "https://github.com/Epistates/treemd/blob/adb907df7d7aa94fb8c0c113cd9d33c86eb784d4/README.md",
-      "stars": 738,
+      "stars": 739,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:57.933Z"
+      "checkedAt": "2026-11-26T16:53:59.260Z"
     },
     {
       "slug": "git-bahn-git-graph",
@@ -5054,7 +5054,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/git-bahn/git-graph/blob/aff556afb1272f12828eb66f47d3ec17c10416e5/README.md",
       "stars": 1009,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:58.646Z"
+      "checkedAt": "2026-11-26T16:53:59.769Z"
     },
     {
       "slug": "kislyuk-yq",
@@ -5073,7 +5073,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/kislyuk/yq/blob/ff9fc4b18d0bcbfb7758ff82bf1f36b60020b48a/README.rst",
       "stars": 3007,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:13:59.071Z"
+      "checkedAt": "2026-11-26T16:54:00.223Z"
     },
     {
       "slug": "rahiel-telegram-send",
@@ -5092,7 +5092,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/rahiel/telegram-send/blob/f5466fc2b8b8b9aaa55dd28fb80b6ae138b578d8/README.md",
       "stars": 1014,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:13:59.516Z"
+      "checkedAt": "2026-11-26T16:54:00.455Z"
     },
     {
       "slug": "cookpete-auto-changelog",
@@ -5111,7 +5111,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/cookpete/auto-changelog/blob/3c33a5b48ee27bc7141c9c7b6471a9f24af6b119/README.md",
       "stars": 1406,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:13:59.833Z"
+      "checkedAt": "2026-11-26T16:54:00.790Z"
     },
     {
       "slug": "mkb79-audible-cli",
@@ -5130,7 +5130,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mkb79/audible-cli/blob/274539eba80a63ddccb79a9ec4f59b2fe911e232/README.md",
       "stars": 818,
       "license": "AGPL-3.0",
-      "checkedAt": "2026-11-25T17:14:00.310Z"
+      "checkedAt": "2026-11-26T16:54:01.036Z"
     },
     {
       "slug": "acheronfail-repgrep",
@@ -5149,7 +5149,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/acheronfail/repgrep/blob/64d444576a2c15a8c703e5e2bbf11957122498cf/README.md",
       "stars": 548,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:00.775Z"
+      "checkedAt": "2026-11-26T16:54:01.443Z"
     },
     {
       "slug": "geekjourneyx-md2wechat-skill",
@@ -5166,9 +5166,9 @@ window.USECLIS_DATA = {
       "example": "md2wechat inspect article.md --json",
       "website": "https://github.com/geekjourneyx/md2wechat-skill",
       "docs": "https://github.com/geekjourneyx/md2wechat-skill/blob/342cc66b492bd2bcf5039920e3cc52bd44a9bf0e/README.md",
-      "stars": 3823,
+      "stars": 3829,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:01.251Z"
+      "checkedAt": "2026-11-26T16:54:01.703Z"
     },
     {
       "slug": "aws-aws-sam-cli",
@@ -5185,9 +5185,9 @@ window.USECLIS_DATA = {
       "example": "sam init",
       "website": "https://github.com/aws/aws-sam-cli",
       "docs": "https://github.com/aws/aws-sam-cli/blob/5b20d0ec502e167ba37d2f1e8c6aa92c843ede5d/README.md",
-      "stars": 6745,
+      "stars": 6744,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:01.960Z"
+      "checkedAt": "2026-11-26T16:54:02.261Z"
     },
     {
       "slug": "iwe-org-iwe",
@@ -5206,7 +5206,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/iwe-org/iwe/blob/4fd184731e8a80ca1886cfdfc6eee6d227834068/README.md",
       "stars": 1844,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:02.463Z"
+      "checkedAt": "2026-11-26T16:54:02.468Z"
     },
     {
       "slug": "http-party-http-server",
@@ -5225,7 +5225,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/http-party/http-server/blob/0d3b7bb5b6e8a59fd450ae2dca65870009cfcd8b/README.md",
       "stars": 14242,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:02.991Z"
+      "checkedAt": "2026-11-26T16:54:02.728Z"
     },
     {
       "slug": "nikolassv-bartib",
@@ -5244,7 +5244,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/nikolassv/bartib/blob/6b39bc0afb27a4143439604615e645e3050f7d06/README.md",
       "stars": 856,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:14:03.492Z"
+      "checkedAt": "2026-11-26T16:54:03.200Z"
     },
     {
       "slug": "cabal-club-cabal-cli",
@@ -5263,7 +5263,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/cabal-club/cabal-cli/blob/d310fadd1209983f438e5a6b7f93b507c503781e/README.md",
       "stars": 524,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:03.944Z"
+      "checkedAt": "2026-11-26T16:54:03.472Z"
     },
     {
       "slug": "vividvilla-csvtotable",
@@ -5282,7 +5282,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/vividvilla/csvtotable/blob/b523461605af7b8a844c1537371b5d2732945892/README.md",
       "stars": 1189,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:04.348Z"
+      "checkedAt": "2026-11-26T16:54:03.903Z"
     },
     {
       "slug": "casey-intermodal",
@@ -5301,7 +5301,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/casey/intermodal/blob/f2dc19537fe389ddf5485fa7a6b7fe14858846fa/README.md",
       "stars": 661,
       "license": "CC0-1.0",
-      "checkedAt": "2026-11-25T17:14:04.758Z"
+      "checkedAt": "2026-11-26T16:54:04.144Z"
     },
     {
       "slug": "motdotla-node-lambda",
@@ -5318,9 +5318,9 @@ window.USECLIS_DATA = {
       "example": "node-lambda run",
       "website": "https://github.com/motdotla/node-lambda",
       "docs": "https://github.com/motdotla/node-lambda/blob/48b0a35fc779bd0104e5b359f6b4e150d863cee0/README.md",
-      "stars": 1350,
+      "stars": 1351,
       "license": "BSD-2-Clause",
-      "checkedAt": "2026-11-25T17:14:05.038Z"
+      "checkedAt": "2026-11-26T16:54:04.454Z"
     },
     {
       "slug": "alan-turing-institute-clevercsv",
@@ -5339,7 +5339,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/alan-turing-institute/CleverCSV/blob/e80acaa5c324889416a5727ad9929d5b2f8bccb6/README.md",
       "stars": 1343,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:05.551Z"
+      "checkedAt": "2026-11-26T16:54:04.699Z"
     },
     {
       "slug": "rehmatworks-gplaydl",
@@ -5358,7 +5358,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/rehmatworks/gplaydl/blob/7c3d87f20a5f61f6cfa7446683bb4c698bfa2396/readme.md",
       "stars": 712,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:05.942Z"
+      "checkedAt": "2026-11-26T16:54:05.127Z"
     },
     {
       "slug": "nicobailon-surf-cli",
@@ -5377,7 +5377,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/nicobailon/surf-cli/blob/56faa5aec29763de0866e212e5e1fb39a9dd1d79/README.md",
       "stars": 708,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:06.413Z"
+      "checkedAt": "2026-11-26T16:54:05.513Z"
     },
     {
       "slug": "mklement0-fileicon",
@@ -5396,7 +5396,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mklement0/fileicon/blob/361ef41e18fa975a396fb5a8316e78d97a0ee081/README.md",
       "stars": 550,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:06.823Z"
+      "checkedAt": "2026-11-26T16:54:05.797Z"
     },
     {
       "slug": "ruyadorno-ntl",
@@ -5415,7 +5415,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ruyadorno/ntl/blob/7f4126c3a2f6cc77fc36c6e3a93af14122ce22df/README.md",
       "stars": 966,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:07.120Z"
+      "checkedAt": "2026-11-26T16:54:06.044Z"
     },
     {
       "slug": "dat-ecosystem-dat",
@@ -5434,7 +5434,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/dat-ecosystem/dat/blob/14885d660adc01e19c84dc69f2a9ab3990b6584e/README.md",
       "stars": 8216,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:14:07.558Z"
+      "checkedAt": "2026-11-26T16:54:06.526Z"
     },
     {
       "slug": "backblaze-b2-command-line-tool",
@@ -5453,7 +5453,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Backblaze/B2_Command_Line_Tool/blob/87e3e14c1f238b46e554073ac8c8be9511089f0d/README.md",
       "stars": 638,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:08.379Z"
+      "checkedAt": "2026-11-26T16:54:07.237Z"
     },
     {
       "slug": "raphaelmansuy-code2prompt",
@@ -5472,7 +5472,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/raphaelmansuy/code2prompt/blob/1af498e7905b1fc5fdd9ff25156fc64548d5a608/README.md",
       "stars": 887,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:08.751Z"
+      "checkedAt": "2026-11-26T16:54:07.666Z"
     },
     {
       "slug": "parvardegr-sharing",
@@ -5491,7 +5491,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/parvardegr/sharing/blob/e103cc3124227f42ea1e31f138560cbe7c031904/README.md",
       "stars": 1844,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:09.215Z"
+      "checkedAt": "2026-11-26T16:54:08.075Z"
     },
     {
       "slug": "etetoolkit-ete",
@@ -5510,7 +5510,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/etetoolkit/ete/blob/9562dfb6a02795dfda3975be5025f83b8dc884b1/README.md",
       "stars": 884,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:14:09.498Z"
+      "checkedAt": "2026-11-26T16:54:08.377Z"
     },
     {
       "slug": "automattic-browser-repl",
@@ -5529,7 +5529,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Automattic/browser-repl/blob/df580ef7dac49a8cc74a93342ce877a0f3a65535/Readme.md",
       "stars": 731,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:09.896Z"
+      "checkedAt": "2026-11-26T16:54:08.622Z"
     },
     {
       "slug": "efforg-apkeep",
@@ -5546,9 +5546,9 @@ window.USECLIS_DATA = {
       "example": "apkeep -a com.instagram.android .",
       "website": "https://github.com/EFForg/apkeep",
       "docs": "https://github.com/EFForg/apkeep/blob/0a60a4af03444ae237fa018848623ff9cd8b6119/README.md",
-      "stars": 2230,
+      "stars": 2231,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:10.168Z"
+      "checkedAt": "2026-11-26T16:54:08.871Z"
     },
     {
       "slug": "lavie-runlike",
@@ -5565,9 +5565,9 @@ window.USECLIS_DATA = {
       "example": "runlike YOUR-CONTAINER",
       "website": "https://github.com/lavie/runlike",
       "docs": "https://github.com/lavie/runlike/blob/91e74d35890a2ba831f9d34c9dc8b8135bb95676/README.md",
-      "stars": 2960,
+      "stars": 2962,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:10.607Z"
+      "checkedAt": "2026-11-26T16:54:09.120Z"
     },
     {
       "slug": "seemseam-claude-codex-bridge",
@@ -5584,9 +5584,9 @@ window.USECLIS_DATA = {
       "example": "ccb --print-version",
       "website": "https://github.com/SeemSeam/claude_codex_bridge",
       "docs": "https://github.com/SeemSeam/claude_codex_bridge/blob/20ac0ec58c17375bab2ce3bb75fa2efcc5bd8cf6/README.md",
-      "stars": 3635,
+      "stars": 3636,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:11.220Z"
+      "checkedAt": "2026-11-26T16:54:09.534Z"
     },
     {
       "slug": "ismaelgv-rnr",
@@ -5605,7 +5605,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ismaelgv/rnr/blob/111c425a8110072e7eae08266ac57df0b6f2b664/README.md",
       "stars": 607,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:11.599Z"
+      "checkedAt": "2026-11-26T16:54:09.782Z"
     },
     {
       "slug": "run-llama-semtools",
@@ -5622,9 +5622,9 @@ window.USECLIS_DATA = {
       "example": "semtools parse my_dir/*.pdf",
       "website": "https://github.com/run-llama/semtools",
       "docs": "https://github.com/run-llama/semtools/blob/fe7f6d260fdc0128768fcfea0e8d624d6f304739/README.md",
-      "stars": 1889,
+      "stars": 1888,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:12.377Z"
+      "checkedAt": "2026-11-26T16:54:10.413Z"
     },
     {
       "slug": "fraserxu-electron-pdf",
@@ -5643,7 +5643,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/fraserxu/electron-pdf/blob/77a9ad817fcd7af50473b169680cdec1cbf384f1/README.md",
       "stars": 1292,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:12.837Z"
+      "checkedAt": "2026-11-26T16:54:10.912Z"
     },
     {
       "slug": "chen-zexi-vllm-cli",
@@ -5662,7 +5662,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Chen-zexi/vllm-cli/blob/36356b611f28eea6470557a43e09ace0f4a38533/README.md",
       "stars": 507,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:13.401Z"
+      "checkedAt": "2026-11-26T16:54:11.315Z"
     },
     {
       "slug": "bhouston-mycoder",
@@ -5681,7 +5681,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/bhouston/mycoder/blob/774e068e5daefab9c18bac898521d238dd12c794/README.md",
       "stars": 569,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:13.861Z"
+      "checkedAt": "2026-11-26T16:54:11.957Z"
     },
     {
       "slug": "timvisee-ffsend",
@@ -5698,9 +5698,9 @@ window.USECLIS_DATA = {
       "example": "ffsend upload my-file.txt",
       "website": "https://github.com/timvisee/ffsend",
       "docs": "https://github.com/timvisee/ffsend/blob/85aae2f3e83a6c956c1ee7e22b416650e1c04db2/README.md",
-      "stars": 7427,
+      "stars": 7426,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:14:14.146Z"
+      "checkedAt": "2026-11-26T16:54:12.274Z"
     },
     {
       "slug": "chenhg5-cc-connect",
@@ -5717,9 +5717,9 @@ window.USECLIS_DATA = {
       "example": "cc-connect doctor user-isolation",
       "website": "https://github.com/chenhg5/cc-connect",
       "docs": "https://github.com/chenhg5/cc-connect/blob/757b4df059d537eacb84dd0c955b5e7ede205420/README.md",
-      "stars": 16490,
+      "stars": 16504,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:14.723Z"
+      "checkedAt": "2026-11-26T16:54:12.953Z"
     },
     {
       "slug": "pchalasani-claude-code-tools",
@@ -5738,7 +5738,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/pchalasani/claude-code-tools/blob/ee0f3099c05c50141feff2559193c0af1fb81ec7/plugins/aichat/README.md",
       "stars": 2041,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:15.348Z"
+      "checkedAt": "2026-11-26T16:54:13.189Z"
     },
     {
       "slug": "bgreenwell-xleak",
@@ -5757,7 +5757,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/bgreenwell/xleak/blob/ef6560c8e16815e2e74acf3973c0a5958a2c6523/README.md",
       "stars": 1524,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:15.741Z"
+      "checkedAt": "2026-11-26T16:54:13.488Z"
     },
     {
       "slug": "afar1-fieldtheory-cli",
@@ -5776,7 +5776,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/afar1/fieldtheory-cli/blob/542c1167c127a788940731a2ef60493f0f522533/README.md",
       "stars": 2064,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:16.226Z"
+      "checkedAt": "2026-11-26T16:54:13.874Z"
     },
     {
       "slug": "rbardini-resumed",
@@ -5793,9 +5793,9 @@ window.USECLIS_DATA = {
       "example": "resumed render --help",
       "website": "https://github.com/rbardini/resumed",
       "docs": "https://github.com/rbardini/resumed/blob/18d31f04c52f02dd9518b5cf743b4f84e6d75075/README.md",
-      "stars": 551,
+      "stars": 552,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:16.732Z"
+      "checkedAt": "2026-11-26T16:54:14.121Z"
     },
     {
       "slug": "danburzo-percollate",
@@ -5814,7 +5814,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/danburzo/percollate/blob/09932540ae6df6178591a2e5531e1df70ff31c33/README.md",
       "stars": 4702,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:17.219Z"
+      "checkedAt": "2026-11-26T16:54:14.382Z"
     },
     {
       "slug": "pathintegral-institute-mcpm-sh",
@@ -5833,7 +5833,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/pathintegral-institute/mcpm.sh/blob/6a92e54c748766973add4b8c153fcc85738d2d89/README.md",
       "stars": 1027,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:18.071Z"
+      "checkedAt": "2026-11-26T16:54:14.655Z"
     },
     {
       "slug": "vstorm-co-pydantic-deepagents",
@@ -5850,9 +5850,9 @@ window.USECLIS_DATA = {
       "example": "pydantic-deep tui --model openrouter:anthropic/claude-opus-4-6",
       "website": "https://github.com/vstorm-co/pydantic-deepagents",
       "docs": "https://github.com/vstorm-co/pydantic-deepagents/blob/32b57ba6df24c744537b9b9080394ead6fc02c10/README.md",
-      "stars": 1125,
+      "stars": 1124,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:18.514Z"
+      "checkedAt": "2026-11-26T16:54:15.369Z"
     },
     {
       "slug": "zhengqbbb-cz-git",
@@ -5869,9 +5869,9 @@ window.USECLIS_DATA = {
       "example": "czg - Interactive Commitizen CLI that generate standardized git commit message",
       "website": "https://github.com/Zhengqbbb/cz-git",
       "docs": "https://github.com/Zhengqbbb/cz-git/blob/da546923ce5b5ae19c0456c40d3ac708ea60d193/packages/cli/README.md",
-      "stars": 1539,
+      "stars": 1540,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:18.905Z"
+      "checkedAt": "2026-11-26T16:54:15.643Z"
     },
     {
       "slug": "trentm-json",
@@ -5890,7 +5890,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/trentm/json/blob/a8baa02b5d6fc5f0c16521372ee89674a4706d82/README.md",
       "stars": 1562,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:19.329Z"
+      "checkedAt": "2026-11-26T16:54:15.926Z"
     },
     {
       "slug": "abhixdd-ghgrab",
@@ -5907,9 +5907,9 @@ window.USECLIS_DATA = {
       "example": "ghgrab https://github.com/rust-lang/rust",
       "website": "https://github.com/abhixdd/ghgrab",
       "docs": "https://github.com/abhixdd/ghgrab/blob/bd8b4337025d79cd3220768fdde79d1132edf4c0/README.md",
-      "stars": 1631,
+      "stars": 1633,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:19.641Z"
+      "checkedAt": "2026-11-26T16:54:16.238Z"
     },
     {
       "slug": "bgreenwell-doxx",
@@ -5926,9 +5926,9 @@ window.USECLIS_DATA = {
       "example": "doxx report.docx",
       "website": "https://github.com/bgreenwell/doxx",
       "docs": "https://github.com/bgreenwell/doxx/blob/062819a10f423f2b2ce52be6d264e9069b1b9a40/README.md",
-      "stars": 3795,
+      "stars": 3794,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:19.942Z"
+      "checkedAt": "2026-11-26T16:54:16.652Z"
     },
     {
       "slug": "jakepartusch-serverlessui",
@@ -5947,7 +5947,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/JakePartusch/serverlessui/blob/c28e57a72e4428af50dc42997f47a90f5f0dffb7/README.md",
       "stars": 552,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:20.186Z"
+      "checkedAt": "2026-11-26T16:54:16.945Z"
     },
     {
       "slug": "jeremyfa-yaml-js",
@@ -5966,7 +5966,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/jeremyfa/yaml.js/blob/efe8ce18704ae43383e4177aa7de1a2619bd4e67/README.md",
       "stars": 881,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:20.659Z"
+      "checkedAt": "2026-11-26T16:54:17.548Z"
     },
     {
       "slug": "kerma-defaultbrowser",
@@ -5985,7 +5985,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/kerma/defaultbrowser/blob/ad812c4e678a1e1f04cc44b8ab6d1ed5b8733359/README.md",
       "stars": 365,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:21.130Z"
+      "checkedAt": "2026-11-26T16:54:17.908Z"
     },
     {
       "slug": "vshulcz-deja-vu",
@@ -6002,9 +6002,9 @@ window.USECLIS_DATA = {
       "example": "deja embed",
       "website": "https://github.com/vshulcz/deja-vu",
       "docs": "https://github.com/vshulcz/deja-vu/blob/20d163819ff2f3cde395c94ace23438c961b57b7/README.md",
-      "stars": 1674,
+      "stars": 1679,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:21.796Z"
+      "checkedAt": "2026-11-26T16:54:18.604Z"
     },
     {
       "slug": "jnsahaj-lumen",
@@ -6021,9 +6021,9 @@ window.USECLIS_DATA = {
       "example": "lumen diff",
       "website": "https://github.com/jnsahaj/lumen",
       "docs": "https://github.com/jnsahaj/lumen/blob/f60038908c66ef25be09d52c76334570fcfb67d0/README.md",
-      "stars": 2927,
+      "stars": 2928,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:22.097Z"
+      "checkedAt": "2026-11-26T16:54:18.827Z"
     },
     {
       "slug": "paulilaaso-lue",
@@ -6040,9 +6040,9 @@ window.USECLIS_DATA = {
       "example": "lue --guide",
       "website": "https://github.com/paulilaaso/lue",
       "docs": "https://github.com/paulilaaso/lue/blob/e7948addadf3e089b97b460e6262074ce8597bf3/README.md",
-      "stars": 824,
+      "stars": 823,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:14:22.342Z"
+      "checkedAt": "2026-11-26T16:54:19.102Z"
     },
     {
       "slug": "amir20-dtop",
@@ -6061,7 +6061,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/amir20/dtop/blob/1861b18996cdc4daaacb835d097ece8c3456b5cb/README.md",
       "stars": 1507,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:22.609Z"
+      "checkedAt": "2026-11-26T16:54:19.802Z"
     },
     {
       "slug": "massgen-massgen",
@@ -6078,9 +6078,9 @@ window.USECLIS_DATA = {
       "example": "massgen --display rich \"Your question\"",
       "website": "https://github.com/massgen/MassGen",
       "docs": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/README.md",
-      "stars": 1159,
+      "stars": 1158,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:23.026Z"
+      "checkedAt": "2026-11-26T16:54:20.345Z"
     },
     {
       "slug": "elio-fm-elio",
@@ -6097,9 +6097,9 @@ window.USECLIS_DATA = {
       "example": "elio shell install",
       "website": "https://github.com/elio-fm/elio",
       "docs": "https://github.com/elio-fm/elio/blob/ff9e89b5ca2bbe1de40d76b7f2e819565cb21181/README.md",
-      "stars": 920,
+      "stars": 921,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:23.470Z"
+      "checkedAt": "2026-11-26T16:54:21.188Z"
     },
     {
       "slug": "sheeki03-tirith",
@@ -6116,9 +6116,9 @@ window.USECLIS_DATA = {
       "example": "tirith scan evil_skill.py",
       "website": "https://github.com/sheeki03/tirith",
       "docs": "https://github.com/sheeki03/tirith/blob/9bfc275ee6296a32881ca41df924060335b7c8e6/README.md",
-      "stars": 2789,
+      "stars": 2791,
       "license": "AGPL-3.0",
-      "checkedAt": "2026-11-25T17:14:24.390Z"
+      "checkedAt": "2026-11-26T16:54:21.984Z"
     },
     {
       "slug": "fujibee-agmsg",
@@ -6135,9 +6135,9 @@ window.USECLIS_DATA = {
       "example": "agmsg plugin trust",
       "website": "https://github.com/fujibee/agmsg",
       "docs": "https://github.com/fujibee/agmsg/blob/a9866620043136a133b9c9ebb0570ce05a035413/README.md",
-      "stars": 1603,
+      "stars": 1604,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:25.021Z"
+      "checkedAt": "2026-11-26T16:54:22.653Z"
     },
     {
       "slug": "taverntesting-tavern",
@@ -6156,7 +6156,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/taverntesting/tavern/blob/b9c6d89c466e1d8065d6ed6f01a9cd3960d9aa68/README.md",
       "stars": 1168,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:25.586Z"
+      "checkedAt": "2026-11-26T16:54:23.208Z"
     },
     {
       "slug": "ezyang-ghstack",
@@ -6175,7 +6175,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ezyang/ghstack/blob/f6e21c56531026a58024cf32eadcbc5c06d1c006/README.md",
       "stars": 1019,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:25.997Z"
+      "checkedAt": "2026-11-26T16:54:23.585Z"
     },
     {
       "slug": "cranot-roam-code",
@@ -6194,7 +6194,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Cranot/roam-code/blob/09cdcb6f19ce5fab1a947d1b32e42d1dfbb5395b/README.md",
       "stars": 516,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:26.519Z"
+      "checkedAt": "2026-11-26T16:54:24.088Z"
     },
     {
       "slug": "ozeranskii-httptap",
@@ -6213,7 +6213,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ozeranskii/httptap/blob/afd0ce726d3cf190fd90c4b58d01885ca94ad5a9/README.md",
       "stars": 853,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:26.841Z"
+      "checkedAt": "2026-11-26T16:54:24.323Z"
     },
     {
       "slug": "grafana-gcx",
@@ -6232,7 +6232,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/grafana/gcx/blob/5e10fc84a699a1c17518203c5665f71d2fe8c6a7/README.md",
       "stars": 843,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:27.661Z"
+      "checkedAt": "2026-11-26T16:54:25.013Z"
     },
     {
       "slug": "skardyy-mcat",
@@ -6249,9 +6249,9 @@ window.USECLIS_DATA = {
       "example": "mcat file.docx file.pdf -o inline",
       "website": "https://github.com/Skardyy/mcat",
       "docs": "https://github.com/Skardyy/mcat/blob/3cdf3e50a71e4cafcb04a7e7538355bf4304a276/README.md",
-      "stars": 1482,
+      "stars": 1483,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:27.980Z"
+      "checkedAt": "2026-11-26T16:54:25.257Z"
     },
     {
       "slug": "unhappychoice-gitlogue",
@@ -6268,9 +6268,9 @@ window.USECLIS_DATA = {
       "example": "gitlogue --commit abc123",
       "website": "https://github.com/unhappychoice/gitlogue",
       "docs": "https://github.com/unhappychoice/gitlogue/blob/db2df596e2dd83b219c3378920460896f30cdb15/README.md",
-      "stars": 5286,
+      "stars": 5290,
       "license": "ISC",
-      "checkedAt": "2026-11-25T17:14:28.414Z"
+      "checkedAt": "2026-11-26T16:54:25.715Z"
     },
     {
       "slug": "ivanmurzak-unity-mcp",
@@ -6287,9 +6287,9 @@ window.USECLIS_DATA = {
       "example": "unity-mcp-cli install-plugin ./MyUnityProject",
       "website": "https://github.com/IvanMurzak/Unity-MCP",
       "docs": "https://github.com/IvanMurzak/Unity-MCP/blob/39a4bb329285523428813cc0a1e79eb8945f6f1f/README.md",
-      "stars": 4698,
+      "stars": 4704,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:29.194Z"
+      "checkedAt": "2026-11-26T16:54:26.004Z"
     },
     {
       "slug": "gitguardian-ggshield",
@@ -6306,9 +6306,9 @@ window.USECLIS_DATA = {
       "example": "ggshield --config-path path/to/.gitguardian.yaml config migrate",
       "website": "https://github.com/GitGuardian/ggshield",
       "docs": "https://github.com/GitGuardian/ggshield/blob/6f310346304be713f9afa49529f42918d10846c7/README.md",
-      "stars": 2027,
+      "stars": 2028,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:30.076Z"
+      "checkedAt": "2026-11-26T16:54:26.485Z"
     },
     {
       "slug": "gitui-org-gitui",
@@ -6325,9 +6325,9 @@ window.USECLIS_DATA = {
       "example": "gitui -l",
       "website": "https://github.com/gitui-org/gitui",
       "docs": "https://github.com/gitui-org/gitui/blob/2fa693cb6ed431b21ebc300dd02e83c2476699ce/README.md",
-      "stars": 22687,
+      "stars": 22693,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:30.638Z"
+      "checkedAt": "2026-11-26T16:54:26.815Z"
     },
     {
       "slug": "tconbeer-harlequin",
@@ -6344,9 +6344,9 @@ window.USECLIS_DATA = {
       "example": "harlequin \"path/to/duck.db\" \"another_duck.db\"",
       "website": "https://github.com/tconbeer/harlequin",
       "docs": "https://github.com/tconbeer/harlequin/blob/590e16aaada1accfef7fa1e2fbf9f41c130ad4ab/README.md",
-      "stars": 6540,
+      "stars": 6542,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:31.293Z"
+      "checkedAt": "2026-11-26T16:54:27.456Z"
     },
     {
       "slug": "derailed-k9s",
@@ -6363,9 +6363,9 @@ window.USECLIS_DATA = {
       "example": "k9s info",
       "website": "https://github.com/derailed/k9s",
       "docs": "https://github.com/derailed/k9s/blob/bb55b2ab513c5bdae3028c66ec9a01b523aeb08e/README.md",
-      "stars": 35065,
+      "stars": 35081,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:31.851Z"
+      "checkedAt": "2026-11-26T16:54:27.869Z"
     },
     {
       "slug": "kenn-io-kata",
@@ -6384,7 +6384,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/kenn-io/kata/blob/ee97ebab58bea84cee0063092569b9968da88bac/README.md",
       "stars": 538,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:32.573Z"
+      "checkedAt": "2026-11-26T16:54:28.478Z"
     },
     {
       "slug": "keeper-security-commander",
@@ -6403,7 +6403,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Keeper-Security/Commander/blob/faef1b3c9771619e6ed0e7558fc5d98679c95a7c/README.md",
       "stars": 260,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:33.460Z"
+      "checkedAt": "2026-11-26T16:54:29.054Z"
     },
     {
       "slug": "ipfs-kubo",
@@ -6420,9 +6420,9 @@ window.USECLIS_DATA = {
       "example": "ipfs init --profile=unixfs-v1-2025",
       "website": "https://github.com/ipfs/kubo",
       "docs": "https://github.com/ipfs/kubo/blob/dcde4a4c38c58aad5942e579cbec5ac963fbfea6/README.md",
-      "stars": 17198,
+      "stars": 17196,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:34.174Z"
+      "checkedAt": "2026-11-26T16:54:29.329Z"
     },
     {
       "slug": "gokcehan-lf",
@@ -6439,9 +6439,9 @@ window.USECLIS_DATA = {
       "example": "lf -help",
       "website": "https://github.com/gokcehan/lf",
       "docs": "https://github.com/gokcehan/lf/blob/9ecf9ac6600764a478f8d0f7971e0f5c348773be/README.md",
-      "stars": 9600,
+      "stars": 9601,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:34.668Z"
+      "checkedAt": "2026-11-26T16:54:29.624Z"
     },
     {
       "slug": "janosmiko-lfk",
@@ -6458,9 +6458,9 @@ window.USECLIS_DATA = {
       "example": "lfk --demo",
       "website": "https://github.com/janosmiko/lfk",
       "docs": "https://github.com/janosmiko/lfk/blob/9b9ef71b87c230baf248f10b755c7696124fef8b/README.md",
-      "stars": 942,
+      "stars": 943,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:35.013Z"
+      "checkedAt": "2026-11-26T16:54:30.209Z"
     },
     {
       "slug": "mistralai-mistral-vibe",
@@ -6477,9 +6477,9 @@ window.USECLIS_DATA = {
       "example": "vibe --agent plan",
       "website": "https://github.com/mistralai/mistral-vibe",
       "docs": "https://github.com/mistralai/mistral-vibe/blob/d4b3223bbd74f83cbc08da4b9c3776c8ad196955/README.md",
-      "stars": 5485,
+      "stars": 5502,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:35.497Z"
+      "checkedAt": "2026-11-26T16:54:30.896Z"
     },
     {
       "slug": "google-oauth2l",
@@ -6498,7 +6498,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/google/oauth2l/blob/fca8a31aed945c1f4275fe82bceb08a0a6e05dcc/README.md",
       "stars": 747,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:36.264Z"
+      "checkedAt": "2026-11-26T16:54:31.141Z"
     },
     {
       "slug": "planetscale-cli",
@@ -6517,7 +6517,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/planetscale/cli/blob/1ce2d69f74a829010de40e67a43e4b07471bbeb2/README.md",
       "stars": 675,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:36.816Z"
+      "checkedAt": "2026-11-26T16:54:31.663Z"
     },
     {
       "slug": "achristmascarl-rainfrog",
@@ -6536,7 +6536,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/achristmascarl/rainfrog/blob/d8b0c8d08e6473415bcab8171159a25049be699c/README.md",
       "stars": 5419,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:37.157Z"
+      "checkedAt": "2026-11-26T16:54:32.128Z"
     },
     {
       "slug": "asamk-signal-cli",
@@ -6555,7 +6555,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/AsamK/signal-cli/blob/a255a7fecfe80452fde83c1709086fcbf900716a/README.md",
       "stars": 5074,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:14:37.632Z"
+      "checkedAt": "2026-11-26T16:54:32.576Z"
     },
     {
       "slug": "microsoft-go-sqlcmd",
@@ -6572,9 +6572,9 @@ window.USECLIS_DATA = {
       "example": "sqlcmd create mssql --accept-eula --using https://aka.ms/AdventureWorksLT.bak",
       "website": "https://github.com/microsoft/go-sqlcmd",
       "docs": "https://github.com/microsoft/go-sqlcmd/blob/b359e41049c45e9533fee320e37764096febc3c4/README.md",
-      "stars": 620,
+      "stars": 621,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:38.059Z"
+      "checkedAt": "2026-11-26T16:54:33.065Z"
     },
     {
       "slug": "max-sixty-worktrunk",
@@ -6591,9 +6591,9 @@ window.USECLIS_DATA = {
       "example": "wt switch --create feature-auth",
       "website": "https://github.com/max-sixty/worktrunk",
       "docs": "https://github.com/max-sixty/worktrunk/blob/acf50b72589f09cba1d2af3cd507d5963ddbf584/README.md",
-      "stars": 12743,
+      "stars": 12757,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:38.615Z"
+      "checkedAt": "2026-11-26T16:54:33.490Z"
     },
     {
       "slug": "ldomaradzki-xcsift",
@@ -6610,9 +6610,9 @@ window.USECLIS_DATA = {
       "example": "xcsift mcp",
       "website": "https://github.com/ldomaradzki/xcsift",
       "docs": "https://github.com/ldomaradzki/xcsift/blob/f9f1228bab78c99c16b1800e12208e7e57c875cb/README.md",
-      "stars": 523,
+      "stars": 524,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:38.884Z"
+      "checkedAt": "2026-11-26T16:54:33.718Z"
     },
     {
       "slug": "unlinearity-cli-wechat-bridge",
@@ -6631,7 +6631,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/UNLINEARITY/CLI-WeChat-Bridge/blob/abc1bec9e2710be7c712d24894d5c9c2e64f03c8/README.md",
       "stars": 579,
       "license": "AGPL-3.0",
-      "checkedAt": "2026-11-25T17:14:39.309Z"
+      "checkedAt": "2026-11-26T16:54:33.959Z"
     },
     {
       "slug": "nostacks-ekphos",
@@ -6648,9 +6648,9 @@ window.USECLIS_DATA = {
       "example": "ekphos --reset",
       "website": "https://github.com/nostacks/ekphos",
       "docs": "https://github.com/nostacks/ekphos/blob/6520fc0fcd9be8b3200af2c3b11086d54ac6b596/README.md",
-      "stars": 1075,
+      "stars": 1074,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:39.729Z"
+      "checkedAt": "2026-11-26T16:54:34.242Z"
     },
     {
       "slug": "alexpovel-srgn",
@@ -6669,7 +6669,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/alexpovel/srgn/blob/8574ea123ceef25fdbd77245dbbb2986761b6252/README.md",
       "stars": 915,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:40.156Z"
+      "checkedAt": "2026-11-26T16:54:34.758Z"
     },
     {
       "slug": "libimobiledevice-libirecovery",
@@ -6686,9 +6686,9 @@ window.USECLIS_DATA = {
       "example": "irecovery --shell",
       "website": "https://github.com/libimobiledevice/libirecovery",
       "docs": "https://github.com/libimobiledevice/libirecovery/blob/93c117c29b1f6669bc4ceca8b84e1df06449fe33/README.md",
-      "stars": 668,
+      "stars": 669,
       "license": "LGPL-2.1",
-      "checkedAt": "2026-11-25T17:14:40.865Z"
+      "checkedAt": "2026-11-26T16:54:35.010Z"
     },
     {
       "slug": "orhun-halp",
@@ -6707,7 +6707,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/orhun/halp/blob/80797eaa0706f6fdfcf5d2905bba52961ebda738/README.md",
       "stars": 768,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:41.270Z"
+      "checkedAt": "2026-11-26T16:54:35.464Z"
     },
     {
       "slug": "flatkey-ai-flatkey-cli",
@@ -6726,7 +6726,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/flatkey-ai/flatkey-cli/blob/c3d94ea3c3879c650c9ed8f95e038948010ba649/README.md",
       "stars": 868,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:42.350Z"
+      "checkedAt": "2026-11-26T16:54:35.782Z"
     },
     {
       "slug": "hukkin-mdformat",
@@ -6743,9 +6743,9 @@ window.USECLIS_DATA = {
       "example": "mdformat README.md CHANGELOG.md",
       "website": "https://github.com/hukkin/mdformat",
       "docs": "https://github.com/hukkin/mdformat/blob/56b24ef0c6cfdab501844925971204f858185547/README.md",
-      "stars": 830,
+      "stars": 831,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:42.796Z"
+      "checkedAt": "2026-11-26T16:54:36.261Z"
     },
     {
       "slug": "eyeblech-cinecli",
@@ -6764,7 +6764,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/eyeblech/cinecli/blob/1a812e42785eb9f58224f0cc7d8c58fc4b395739/README.md",
       "stars": 783,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:43.276Z"
+      "checkedAt": "2026-11-26T16:54:36.722Z"
     },
     {
       "slug": "libimobiledevice-libplist",
@@ -6783,7 +6783,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/libimobiledevice/libplist/blob/32428abacb909988e8e960a8845a6430b17b6a60/README.md",
       "stars": 644,
       "license": "LGPL-2.1",
-      "checkedAt": "2026-11-25T17:14:44.183Z"
+      "checkedAt": "2026-11-26T16:54:37.383Z"
     },
     {
       "slug": "lightonai-next-plaid",
@@ -6800,9 +6800,9 @@ window.USECLIS_DATA = {
       "example": "colgrep \"database connection pooling\"",
       "website": "https://github.com/lightonai/next-plaid",
       "docs": "https://github.com/lightonai/next-plaid/blob/00e26aae0006b322727db277672211d9a0e3ccec/README.md",
-      "stars": 625,
+      "stars": 624,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:44.448Z"
+      "checkedAt": "2026-11-26T16:54:37.639Z"
     },
     {
       "slug": "ihabunek-twitch-dl",
@@ -6821,7 +6821,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ihabunek/twitch-dl/blob/a8232c6dae5795d52ce4646099fcd3ec03976cda/README.md",
       "stars": 759,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:14:44.903Z"
+      "checkedAt": "2026-11-26T16:54:38.077Z"
     },
     {
       "slug": "trebornamor-tradingview-machine-learning-gui",
@@ -6840,7 +6840,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI/blob/04439529bab93a2b82a6777d3d0e6d28ffc1b19c/README.md",
       "stars": 1031,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:45.391Z"
+      "checkedAt": "2026-11-26T16:54:38.483Z"
     },
     {
       "slug": "supercilex-fuc",
@@ -6859,7 +6859,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/SUPERCILEX/fuc/blob/789ac5dbc11fb5b5df4844274d9e9b7f15536798/cpz/README.md",
       "stars": 538,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:45.933Z"
+      "checkedAt": "2026-11-26T16:54:38.776Z"
     },
     {
       "slug": "mattrobenolt-jinja2-cli",
@@ -6878,7 +6878,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mattrobenolt/jinja2-cli/blob/de1ec69e451f411effe16898e61c7effc4af4529/README.md",
       "stars": 614,
       "license": "BSD-2-Clause",
-      "checkedAt": "2026-11-25T17:14:46.314Z"
+      "checkedAt": "2026-11-26T16:54:39.094Z"
     },
     {
       "slug": "westpoint-io-lazyrsync",
@@ -6897,7 +6897,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/westpoint-io/lazyrsync/blob/e30d96b4c7d167b6db535931db2230afd619aa93/README.md",
       "stars": 1005,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:46.737Z"
+      "checkedAt": "2026-11-26T16:54:39.413Z"
     },
     {
       "slug": "home-assistant-ecosystem-home-assistant-cli",
@@ -6916,7 +6916,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/home-assistant-ecosystem/home-assistant-cli/blob/6174dd8de76ccd034576ba73e295d354a96fd12d/README.rst",
       "stars": 608,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:47.205Z"
+      "checkedAt": "2026-11-26T16:54:39.729Z"
     },
     {
       "slug": "burntsushi-bttf",
@@ -6935,7 +6935,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/BurntSushi/bttf/blob/fa8b5433f5a4d879d5cd3165d460533f91ecd667/README.md",
       "stars": 768,
       "license": "Unlicense",
-      "checkedAt": "2026-11-25T17:14:47.563Z"
+      "checkedAt": "2026-11-26T16:54:39.980Z"
     },
     {
       "slug": "remarshal-project-remarshal",
@@ -6954,7 +6954,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/remarshal-project/remarshal/blob/2300f5dfc39411020c86ade0d202aaea2897ccf0/README.md",
       "stars": 554,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:47.874Z"
+      "checkedAt": "2026-11-26T16:54:40.341Z"
     },
     {
       "slug": "brocode-fw",
@@ -6973,7 +6973,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/brocode/fw/blob/0623107be9590251dc89c71d167bf20292cb339e/doc/usage.md",
       "stars": 564,
       "license": "WTFPL",
-      "checkedAt": "2026-11-25T17:14:48.190Z"
+      "checkedAt": "2026-11-26T16:54:40.669Z"
     },
     {
       "slug": "codesnap-rs-codesnap",
@@ -6992,7 +6992,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/codesnap-rs/codesnap/blob/3f6282fe16601125b72e07d7de5270bd8690a37b/README.md",
       "stars": 575,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:48.415Z"
+      "checkedAt": "2026-11-26T16:54:40.972Z"
     },
     {
       "slug": "esubaalew-run",
@@ -7011,7 +7011,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Esubaalew/run/blob/78210629399e1a0d26488cd5b0df39ff669f9799/README.md",
       "stars": 941,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:48.849Z"
+      "checkedAt": "2026-11-26T16:54:41.236Z"
     },
     {
       "slug": "oskvr37-tiddl",
@@ -7028,9 +7028,9 @@ window.USECLIS_DATA = {
       "example": "tiddl download",
       "website": "https://github.com/oskvr37/tiddl",
       "docs": "https://github.com/oskvr37/tiddl/blob/f5c8e9658032d79be61ea1c0a5a782fe310d8546/README.md",
-      "stars": 731,
+      "stars": 732,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:49.209Z"
+      "checkedAt": "2026-11-26T16:54:41.627Z"
     },
     {
       "slug": "1jehuang-mermaid-rs-renderer",
@@ -7047,9 +7047,9 @@ window.USECLIS_DATA = {
       "example": "mermaid-rs-renderer = \"0.3.1\"",
       "website": "https://github.com/1jehuang/mermaid-rs-renderer",
       "docs": "https://github.com/1jehuang/mermaid-rs-renderer/blob/3726ccbffe0e8032361eb9668694b24f77858060/README.md",
-      "stars": 1833,
+      "stars": 1834,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:49.594Z"
+      "checkedAt": "2026-11-26T16:54:41.865Z"
     },
     {
       "slug": "apconw-aix-db",
@@ -7068,7 +7068,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/apconw/Aix-DB/blob/27aab1ecc2e28f482be6a2f6069a12c44acbebb6/README.md",
       "stars": 2268,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:50.085Z"
+      "checkedAt": "2026-11-26T16:54:42.116Z"
     },
     {
       "slug": "kalil0321-reverse-api-engineer",
@@ -7085,9 +7085,9 @@ window.USECLIS_DATA = {
       "example": "reverse-api-engineer list --json",
       "website": "https://github.com/kalil0321/reverse-api-engineer",
       "docs": "https://github.com/kalil0321/reverse-api-engineer/blob/83308ef3103a4d8d7aa11bb8de7f2cf05ed256d8/README.md",
-      "stars": 4316,
+      "stars": 4357,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:50.697Z"
+      "checkedAt": "2026-11-26T16:54:42.601Z"
     },
     {
       "slug": "chaqchase-lla",
@@ -7106,7 +7106,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/chaqchase/lla/blob/d8c8c7775bd7692e6488fc47fbc6be4759785372/README.md",
       "stars": 1235,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:51.084Z"
+      "checkedAt": "2026-11-26T16:54:42.861Z"
     },
     {
       "slug": "webtorrent-webtorrent-cli",
@@ -7125,7 +7125,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/webtorrent/webtorrent-cli/blob/9f28def6ec0d62e8a0f061c8d31ad1b46cd71c5c/README.md",
       "stars": 1391,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:51.575Z"
+      "checkedAt": "2026-11-26T16:54:43.127Z"
     },
     {
       "slug": "mike-engel-jwt-cli",
@@ -7144,7 +7144,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mike-engel/jwt-cli/blob/6b203a2fc73b09ab50159c2be64939fe76422b6c/README.md",
       "stars": 1522,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:52.090Z"
+      "checkedAt": "2026-11-26T16:54:43.640Z"
     },
     {
       "slug": "helvesec-rmux",
@@ -7163,7 +7163,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Helvesec/rmux/blob/1f4571e74f36be0c033c6294d1616c7d3a6fbda1/README.md",
       "stars": 2704,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:52.546Z"
+      "checkedAt": "2026-11-26T16:54:44.179Z"
     },
     {
       "slug": "wbopan-moffee",
@@ -7182,7 +7182,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/wbopan/moffee/blob/0dbc4e691e9dc455262fdab00a5563b890b7046f/README.md",
       "stars": 1326,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:53.122Z"
+      "checkedAt": "2026-11-26T16:54:44.416Z"
     },
     {
       "slug": "code-with-beto-snapai",
@@ -7199,9 +7199,9 @@ window.USECLIS_DATA = {
       "example": "snapai icon",
       "website": "https://github.com/Code-with-Beto/snapai",
       "docs": "https://github.com/Code-with-Beto/snapai/blob/a60d5393287cbf46794507e6ee0ff54d689d5976/README.md",
-      "stars": 1951,
+      "stars": 1952,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:53.614Z"
+      "checkedAt": "2026-11-26T16:54:44.904Z"
     },
     {
       "slug": "plopjs-plop",
@@ -7218,9 +7218,9 @@ window.USECLIS_DATA = {
       "example": "plop component \"my component\" react",
       "website": "https://github.com/plopjs/plop",
       "docs": "https://github.com/plopjs/plop/blob/0c90e7ef93ffa5f40b10fe8f53d3cc23adee5a8e/README.md",
-      "stars": 7685,
+      "stars": 7686,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:54.147Z"
+      "checkedAt": "2026-11-26T16:54:45.186Z"
     },
     {
       "slug": "hatoo-oha",
@@ -7237,9 +7237,9 @@ window.USECLIS_DATA = {
       "example": "oha -n 10 --burst-delay 2s --burst-rate 4",
       "website": "https://github.com/hatoo/oha",
       "docs": "https://github.com/hatoo/oha/blob/0d6d370ed37108385d79a4ce34c0b8a8d7c9b6fe/README.md",
-      "stars": 10735,
+      "stars": 10748,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:54.694Z"
+      "checkedAt": "2026-11-26T16:54:45.652Z"
     },
     {
       "slug": "sindresorhus-np",
@@ -7256,9 +7256,9 @@ window.USECLIS_DATA = {
       "example": "np patch",
       "website": "https://github.com/sindresorhus/np",
       "docs": "https://github.com/sindresorhus/np/blob/591e003bfc57371cfb8236694e8d784ae5d6fe5f/readme.md",
-      "stars": 7714,
+      "stars": 7713,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:55.041Z"
+      "checkedAt": "2026-11-26T16:54:45.955Z"
     },
     {
       "slug": "sloria-doitlive",
@@ -7277,7 +7277,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sloria/doitlive/blob/168333b454bc4bf95c1a9f0e4c3aa3f07c1768d1/README.rst",
       "stars": 3577,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:55.520Z"
+      "checkedAt": "2026-11-26T16:54:46.232Z"
     },
     {
       "slug": "xampprocky-tokei",
@@ -7294,9 +7294,9 @@ window.USECLIS_DATA = {
       "example": "tokei ./foo",
       "website": "https://github.com/XAMPPRocky/tokei",
       "docs": "https://github.com/XAMPPRocky/tokei/blob/c14f744716272fadeb27a74443cdffa0af35f82f/README.md",
-      "stars": 15121,
+      "stars": 15131,
       "license": null,
-      "checkedAt": "2026-11-25T17:14:55.966Z"
+      "checkedAt": "2026-11-26T16:54:46.501Z"
     },
     {
       "slug": "ducaale-xh",
@@ -7313,9 +7313,9 @@ window.USECLIS_DATA = {
       "example": "xh httpbin.org/json",
       "website": "https://github.com/ducaale/xh",
       "docs": "https://github.com/ducaale/xh/blob/2404aceecc08b0b2d100fedc96f57745cd5904dc/README.md",
-      "stars": 8228,
+      "stars": 8239,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:56.541Z"
+      "checkedAt": "2026-11-26T16:54:46.903Z"
     },
     {
       "slug": "jhspetersson-fselect",
@@ -7332,9 +7332,9 @@ window.USECLIS_DATA = {
       "example": "fselect --plocate \"name, size from /home where size gt 100mb\"",
       "website": "https://github.com/jhspetersson/fselect",
       "docs": "https://github.com/jhspetersson/fselect/blob/e5919213058e239eb3dfa36bfbe1e70d56d3341c/docs/usage.md",
-      "stars": 4479,
+      "stars": 4480,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:56.917Z"
+      "checkedAt": "2026-11-26T16:54:47.303Z"
     },
     {
       "slug": "kuberwastaken-claurst",
@@ -7353,7 +7353,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Kuberwastaken/claurst/blob/b0637c97ec34144387cbf2f74f65df6d16a6cef1/README.md",
       "stars": 10345,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:14:57.486Z"
+      "checkedAt": "2026-11-26T16:54:47.837Z"
     },
     {
       "slug": "pycqa-isort",
@@ -7372,7 +7372,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/PyCQA/isort/blob/131f4adcd5582bfc53928ab0d740eceb8b506b6c/README.md",
       "stars": 6966,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:58.218Z"
+      "checkedAt": "2026-11-26T16:54:48.285Z"
     },
     {
       "slug": "svg-svgo",
@@ -7389,9 +7389,9 @@ window.USECLIS_DATA = {
       "example": "svgo one.svg two.svg -o one.min.svg two.min.svg",
       "website": "https://github.com/svg/svgo",
       "docs": "https://github.com/svg/svgo/blob/e4cb29bebcc9820ac979dfc05106b512cc5de986/README.md",
-      "stars": 22836,
+      "stars": 22840,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:14:58.715Z"
+      "checkedAt": "2026-11-26T16:54:48.554Z"
     },
     {
       "slug": "str4d-rage",
@@ -7408,9 +7408,9 @@ window.USECLIS_DATA = {
       "example": "rage -p -o example.png.age example.png",
       "website": "https://github.com/str4d/rage",
       "docs": "https://github.com/str4d/rage/blob/b5b68c4f4f7ea5c368bc060f6fe0237549c3a13f/README.md",
-      "stars": 3743,
+      "stars": 3746,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:59.497Z"
+      "checkedAt": "2026-11-26T16:54:48.935Z"
     },
     {
       "slug": "google-zx",
@@ -7427,9 +7427,9 @@ window.USECLIS_DATA = {
       "example": "zx ./script.mjs",
       "website": "https://github.com/google/zx",
       "docs": "https://github.com/google/zx/blob/65fc542d88baac578967e22bea28cb610976578c/docs/getting-started.md",
-      "stars": 45869,
+      "stars": 45872,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:14:59.823Z"
+      "checkedAt": "2026-11-26T16:54:49.288Z"
     },
     {
       "slug": "vi-websocat",
@@ -7446,9 +7446,9 @@ window.USECLIS_DATA = {
       "example": "websocat ws://ws.vi-server.org/mirror",
       "website": "https://github.com/vi/websocat",
       "docs": "https://github.com/vi/websocat/blob/3a3574cd2f5d17857d87f3982e72c3ede159dde0/README.md",
-      "stars": 8760,
+      "stars": 8761,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:00.092Z"
+      "checkedAt": "2026-11-26T16:54:49.592Z"
     },
     {
       "slug": "veirt-weathr",
@@ -7465,9 +7465,9 @@ window.USECLIS_DATA = {
       "example": "weathr --simulate rain",
       "website": "https://github.com/Veirt/weathr",
       "docs": "https://github.com/Veirt/weathr/blob/7d403a0c4039aca37ff4609ffe613e39552307f2/README.md",
-      "stars": 3095,
+      "stars": 3096,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:00.544Z"
+      "checkedAt": "2026-11-26T16:54:49.945Z"
     },
     {
       "slug": "conventional-changelog-standard-version",
@@ -7486,7 +7486,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/conventional-changelog/standard-version/blob/d70752c463991d34fa192e0332d7e4efacad78ba/README.md",
       "stars": 7985,
       "license": "ISC",
-      "checkedAt": "2026-11-25T17:15:00.814Z"
+      "checkedAt": "2026-11-26T16:54:50.212Z"
     },
     {
       "slug": "robinmoisson-staticrypt",
@@ -7505,7 +7505,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/robinmoisson/staticrypt/blob/3594426d316af37dcd94f3e0ffb0c9cd6c3c5d9f/README.md",
       "stars": 8078,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:01.159Z"
+      "checkedAt": "2026-11-26T16:54:50.537Z"
     },
     {
       "slug": "campfirein-byterover-cli",
@@ -7522,9 +7522,9 @@ window.USECLIS_DATA = {
       "example": "brv settings list",
       "website": "https://github.com/campfirein/byterover-cli",
       "docs": "https://github.com/campfirein/byterover-cli/blob/1052ac1a5dd0fde4da8693d4712064f7876c269c/README.md",
-      "stars": 4944,
+      "stars": 4945,
       "license": null,
-      "checkedAt": "2026-11-25T17:15:01.478Z"
+      "checkedAt": "2026-11-26T16:54:50.910Z"
     },
     {
       "slug": "sharkdp-vivid",
@@ -7543,7 +7543,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sharkdp/vivid/blob/cdadaeeda1366ce1979a94192220748e248cde00/README.md",
       "stars": 2292,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:01.726Z"
+      "checkedAt": "2026-11-26T16:54:51.151Z"
     },
     {
       "slug": "pvolok-dekit",
@@ -7560,9 +7560,9 @@ window.USECLIS_DATA = {
       "example": "dekit mprocs ...",
       "website": "https://github.com/pvolok/dekit",
       "docs": "https://github.com/pvolok/dekit/blob/775ac72a1b65f3201f08bb6ac567462df7069a47/README.md",
-      "stars": 2824,
+      "stars": 2826,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:02.206Z"
+      "checkedAt": "2026-11-26T16:54:51.410Z"
     },
     {
       "slug": "whyisdifficult-jiratui",
@@ -7581,7 +7581,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/whyisdifficult/jiratui/blob/de1edf1988e666df778e623efa9d9799cd5863a1/README.md",
       "stars": 1730,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:02.470Z"
+      "checkedAt": "2026-11-26T16:54:52.017Z"
     },
     {
       "slug": "maxcurzi-tplay",
@@ -7598,9 +7598,9 @@ window.USECLIS_DATA = {
       "example": "tplay ./image.png",
       "website": "https://github.com/maxcurzi/tplay",
       "docs": "https://github.com/maxcurzi/tplay/blob/c62dca0da1696e57eb9726cfe08354311587fb7f/README.md",
-      "stars": 705,
+      "stars": 706,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:02.960Z"
+      "checkedAt": "2026-11-26T16:54:52.256Z"
     },
     {
       "slug": "blacknon-hwatch",
@@ -7617,9 +7617,9 @@ window.USECLIS_DATA = {
       "example": "hwatch -K ctrl-p=history_pane_up -K ctrl-n=history_pane_down command...",
       "website": "https://github.com/blacknon/hwatch",
       "docs": "https://github.com/blacknon/hwatch/blob/aeed51e5e5d138880e2a473af86effa42bfe3ce6/README.md",
-      "stars": 1095,
+      "stars": 1096,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:03.327Z"
+      "checkedAt": "2026-11-26T16:54:52.627Z"
     },
     {
       "slug": "jacek-kurlit-pik",
@@ -7636,9 +7636,9 @@ window.USECLIS_DATA = {
       "example": "pik -- -foo",
       "website": "https://github.com/jacek-kurlit/pik",
       "docs": "https://github.com/jacek-kurlit/pik/blob/2d50f78447a758f89b921770e67594dbee08b5d4/README.md",
-      "stars": 586,
+      "stars": 588,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:03.677Z"
+      "checkedAt": "2026-11-26T16:54:52.957Z"
     },
     {
       "slug": "orhun-systeroid",
@@ -7655,9 +7655,9 @@ window.USECLIS_DATA = {
       "example": "systeroid -A",
       "website": "https://github.com/orhun/systeroid",
       "docs": "https://github.com/orhun/systeroid/blob/ecc9365429ff1564c485a37c2e477723865634e1/README.md",
-      "stars": 1473,
+      "stars": 1474,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:04.260Z"
+      "checkedAt": "2026-11-26T16:54:53.191Z"
     },
     {
       "slug": "kavehtehrani-cloudflare-speed-cli",
@@ -7674,9 +7674,9 @@ window.USECLIS_DATA = {
       "example": "cloudflare-speed-cli --text",
       "website": "https://github.com/kavehtehrani/cloudflare-speed-cli",
       "docs": "https://github.com/kavehtehrani/cloudflare-speed-cli/blob/89c2b2afa0647bbf0d9a09e38c885c52e7234a70/README.md",
-      "stars": 1100,
+      "stars": 1101,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:04.546Z"
+      "checkedAt": "2026-11-26T16:54:53.424Z"
     },
     {
       "slug": "josuebarretogit-manga-tui",
@@ -7695,7 +7695,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/josueBarretogit/manga-tui/blob/d0fcc714e0e2ddf885d6f7e1ef61dbb75a29a86e/README.md",
       "stars": 960,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:05.058Z"
+      "checkedAt": "2026-11-26T16:54:53.953Z"
     },
     {
       "slug": "karimknaebel-turm",
@@ -7714,7 +7714,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/karimknaebel/turm/blob/4e648dbd500674a55277fd7dfe3357d56228c759/README.md",
       "stars": 518,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:05.446Z"
+      "checkedAt": "2026-11-26T16:54:54.191Z"
     },
     {
       "slug": "jrnxf-thokr",
@@ -7731,9 +7731,9 @@ window.USECLIS_DATA = {
       "example": "thokr -w 100",
       "website": "https://github.com/jrnxf/thokr",
       "docs": "https://github.com/jrnxf/thokr/blob/0ebf43b7b1938bfbedddc4fe7ea7f796b1e241e1/README.md",
-      "stars": 603,
+      "stars": 604,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:05.927Z"
+      "checkedAt": "2026-11-26T16:54:54.598Z"
     },
     {
       "slug": "yassinebridi-serpl",
@@ -7752,7 +7752,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/yassinebridi/serpl/blob/aff9a23223b51b320b6d1f3143f67261c339f4b8/README.md",
       "stars": 865,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:06.466Z"
+      "checkedAt": "2026-11-26T16:54:55.047Z"
     },
     {
       "slug": "ccgauche-ytermusic",
@@ -7771,7 +7771,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ccgauche/ytermusic/blob/0663348365ebf5a5ebb354ecc6544b142c5c478b/README.md",
       "stars": 699,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:07.066Z"
+      "checkedAt": "2026-11-26T16:54:55.520Z"
     },
     {
       "slug": "juftin-browsr",
@@ -7790,7 +7790,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/juftin/browsr/blob/e2423d837c4cb67a3e82152140f16386d967e5bd/README.md",
       "stars": 649,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:07.435Z"
+      "checkedAt": "2026-11-26T16:54:55.756Z"
     },
     {
       "slug": "max-niederman-ttyper",
@@ -7807,9 +7807,9 @@ window.USECLIS_DATA = {
       "example": "ttyper 1.6.1",
       "website": "https://github.com/max-niederman/ttyper",
       "docs": "https://github.com/max-niederman/ttyper/blob/e218bad9d5c546ff31c1b2a141a42c2eebf50d23/README.md",
-      "stars": 1618,
+      "stars": 1619,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:07.734Z"
+      "checkedAt": "2026-11-26T16:54:55.997Z"
     },
     {
       "slug": "zdk-lowfat",
@@ -7828,7 +7828,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/zdk/lowfat/blob/3a0de90cce463a4f5d9c968774507097570b9270/README.md",
       "stars": 587,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:08.119Z"
+      "checkedAt": "2026-11-26T16:54:56.472Z"
     },
     {
       "slug": "promptdriven-pdd",
@@ -7845,9 +7845,9 @@ window.USECLIS_DATA = {
       "example": "pdd checkup demo/prompts/prompt_lint_python.prompt --apply",
       "website": "https://github.com/promptdriven/pdd",
       "docs": "https://github.com/promptdriven/pdd/blob/d6730c73bb604da19c496d36263a22a46d96aa22/demo/README.md",
-      "stars": 973,
+      "stars": 1015,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:08.974Z"
+      "checkedAt": "2026-11-26T16:54:56.979Z"
     },
     {
       "slug": "vercel-labs-opensrc",
@@ -7866,7 +7866,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/vercel-labs/opensrc/blob/b51de60867e806da1839b33dd29c29424f12521b/README.md",
       "stars": 3042,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:09.466Z"
+      "checkedAt": "2026-11-26T16:54:57.276Z"
     },
     {
       "slug": "fast-editor-lynkr",
@@ -7885,7 +7885,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Fast-Editor/Lynkr/blob/23cc328c1838451b931309593a55fc6379d8ff24/README.md",
       "stars": 641,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:09.760Z"
+      "checkedAt": "2026-11-26T16:54:57.484Z"
     },
     {
       "slug": "xiufengsun-tokentracker",
@@ -7902,9 +7902,9 @@ window.USECLIS_DATA = {
       "example": "tracker serve",
       "website": "https://github.com/xiufengsun/TokenTracker",
       "docs": "https://github.com/xiufengsun/TokenTracker/blob/e889dc3b0507c17ecda9dfa26fe2fa312a8d945d/TokenTrackerWin/README.md",
-      "stars": 2278,
+      "stars": 2286,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:10.354Z"
+      "checkedAt": "2026-11-26T16:54:58.029Z"
     },
     {
       "slug": "manojmallick-sigmap",
@@ -7921,9 +7921,9 @@ window.USECLIS_DATA = {
       "example": "sigmap --mcp",
       "website": "https://github.com/manojmallick/sigmap",
       "docs": "https://github.com/manojmallick/sigmap/blob/03d5008bc1e73d36efa7a3f8640493261c680a87/README.md",
-      "stars": 650,
+      "stars": 649,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:10.773Z"
+      "checkedAt": "2026-11-26T16:54:58.760Z"
     },
     {
       "slug": "eli64s-readme-ai",
@@ -7940,9 +7940,9 @@ window.USECLIS_DATA = {
       "example": "readmeai 1.0.0",
       "website": "https://github.com/eli64s/readme-ai",
       "docs": "https://github.com/eli64s/readme-ai/blob/6f507b5f87795799649cfe5eb78d8644f8c2eac8/README.md",
-      "stars": 3014,
+      "stars": 3016,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:11.243Z"
+      "checkedAt": "2026-11-26T16:54:59.016Z"
     },
     {
       "slug": "ojuschugh1-sqz",
@@ -7959,9 +7959,9 @@ window.USECLIS_DATA = {
       "example": "sqz gain",
       "website": "https://github.com/ojuschugh1/sqz",
       "docs": "https://github.com/ojuschugh1/sqz/blob/9461782e6b5998bda68b49c92c864cf4900848b2/README.md",
-      "stars": 679,
+      "stars": 680,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:11.945Z"
+      "checkedAt": "2026-11-26T16:54:59.248Z"
     },
     {
       "slug": "liaohch3-claude-tap",
@@ -7978,9 +7978,9 @@ window.USECLIS_DATA = {
       "example": "claude-tap --tap-no-live",
       "website": "https://github.com/liaohch3/claude-tap",
       "docs": "https://github.com/liaohch3/claude-tap/blob/a05e5582a5ab79314fef02244091da776badc707/README.md",
-      "stars": 3368,
+      "stars": 3369,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:12.687Z"
+      "checkedAt": "2026-11-26T16:54:59.963Z"
     },
     {
       "slug": "micahkepe-jsongrep",
@@ -7999,7 +7999,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/micahkepe/jsongrep/blob/2c913fa21c2a264311ff8b1c44ed5fd4f68363e5/README.md",
       "stars": 678,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:13.105Z"
+      "checkedAt": "2026-11-26T16:55:00.393Z"
     },
     {
       "slug": "afc163-fanyi",
@@ -8018,7 +8018,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/afc163/fanyi/blob/c853e6bc9bedef2eb92d948816118f311cd4cacd/README.md",
       "stars": 1554,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:13.721Z"
+      "checkedAt": "2026-11-26T16:55:00.709Z"
     },
     {
       "slug": "commitizen-cz-cli",
@@ -8035,9 +8035,9 @@ window.USECLIS_DATA = {
       "example": "commitizen init cz-conventional-changelog --save-dev --save-exact",
       "website": "https://github.com/commitizen/cz-cli",
       "docs": "https://github.com/commitizen/cz-cli/blob/1a8c49c02c9d52d1b4ef8cdabefb538088ddea03/README.md",
-      "stars": 17503,
+      "stars": 17504,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:14.013Z"
+      "checkedAt": "2026-11-26T16:55:00.952Z"
     },
     {
       "slug": "haidaram-ansible-playbook-grapher",
@@ -8056,7 +8056,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/haidaraM/ansible-playbook-grapher/blob/3bf87a820b939c74301213fb4667fbbf043c2d0e/README.md",
       "stars": 768,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:14.471Z"
+      "checkedAt": "2026-11-26T16:55:01.438Z"
     },
     {
       "slug": "abey79-vpype",
@@ -8075,7 +8075,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/abey79/vpype/blob/e593ff05c2b13e48be2b3aa10e1c8d71c1b21dc0/README.md",
       "stars": 986,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:14.988Z"
+      "checkedAt": "2026-11-26T16:55:01.721Z"
     },
     {
       "slug": "jkfran-killport",
@@ -8094,7 +8094,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/jkfran/killport/blob/ca21e877444391b0dfd4846865c545e8f2068533/README.md",
       "stars": 1845,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:15.414Z"
+      "checkedAt": "2026-11-26T16:55:02.078Z"
     },
     {
       "slug": "orhun-menyoki",
@@ -8113,7 +8113,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/orhun/menyoki/blob/1183d7e66956f66fb12e7410cc151ccbe83f7055/README.md",
       "stars": 675,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:15.929Z"
+      "checkedAt": "2026-11-26T16:55:02.324Z"
     },
     {
       "slug": "textualize-rich-cli",
@@ -8130,9 +8130,9 @@ window.USECLIS_DATA = {
       "example": "rich loop.py",
       "website": "https://github.com/Textualize/rich-cli",
       "docs": "https://github.com/Textualize/rich-cli/blob/46f4d2469097be395558768714a5f07ebccf1412/README.md",
-      "stars": 3783,
+      "stars": 3784,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:16.222Z"
+      "checkedAt": "2026-11-26T16:55:02.583Z"
     },
     {
       "slug": "tldr-pages-tldr-python-client",
@@ -8151,7 +8151,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/tldr-pages/tldr-python-client/blob/85eda9793fff693caf0b5c9099950b6b1aec9982/README.md",
       "stars": 759,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:16.660Z"
+      "checkedAt": "2026-11-26T16:55:03.002Z"
     },
     {
       "slug": "glomatico-gamdl",
@@ -8168,9 +8168,9 @@ window.USECLIS_DATA = {
       "example": "gamdl \"https://music.apple.com/us/album/never-gonna-give-you-up-2022-remaster/1624945511?i=1624945512\"",
       "website": "https://github.com/glomatico/gamdl",
       "docs": "https://github.com/glomatico/gamdl/blob/478c3f26464b499f3a6b875c4ceb1d3c9fc2eefc/README.md",
-      "stars": 2785,
+      "stars": 2789,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:17.044Z"
+      "checkedAt": "2026-11-26T16:55:03.391Z"
     },
     {
       "slug": "ttytm-wthrr-the-weathercrab",
@@ -8189,7 +8189,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ttytm/wthrr-the-weathercrab/blob/8c71fe8930f534f12ad66e0bcb119667717e2a0f/README.md",
       "stars": 501,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:17.723Z"
+      "checkedAt": "2026-11-26T16:55:03.823Z"
     },
     {
       "slug": "usewhale-whale",
@@ -8208,7 +8208,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/usewhale/Whale/blob/676a0a228882c457ff4dc00d9d285d972aea4a43/README.md",
       "stars": 933,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:18.375Z"
+      "checkedAt": "2026-11-26T16:55:04.063Z"
     },
     {
       "slug": "sassman-t-rec-rs",
@@ -8227,7 +8227,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sassman/t-rec-rs/blob/c46cbb5bf5b296f36dfc7dbae530b47128364660/README.md",
       "stars": 1258,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:18.772Z"
+      "checkedAt": "2026-11-26T16:55:04.552Z"
     },
     {
       "slug": "opendev-to-opendev",
@@ -8244,9 +8244,9 @@ window.USECLIS_DATA = {
       "example": "opendev run ui",
       "website": "https://github.com/opendev-to/opendev",
       "docs": "https://github.com/opendev-to/opendev/blob/d32c660e4eed1a8e988d1fd58da88e41ba641d08/README.md",
-      "stars": 855,
+      "stars": 854,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:19.262Z"
+      "checkedAt": "2026-11-26T16:55:04.829Z"
     },
     {
       "slug": "dtnewman-zev",
@@ -8263,9 +8263,9 @@ window.USECLIS_DATA = {
       "example": "zev 'show all running python processes'",
       "website": "https://github.com/dtnewman/zev",
       "docs": "https://github.com/dtnewman/zev/blob/af4f098d8805226fde5f8f15ea2cb540f8293128/README.md",
-      "stars": 725,
+      "stars": 724,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:19.696Z"
+      "checkedAt": "2026-11-26T16:55:05.100Z"
     },
     {
       "slug": "lsd-rs-lsd",
@@ -8282,9 +8282,9 @@ window.USECLIS_DATA = {
       "example": "lsd --icon never --ignore-config",
       "website": "https://github.com/lsd-rs/lsd",
       "docs": "https://github.com/lsd-rs/lsd/blob/4b6c14a110fe0fd544ec0204501b5fd3a5d6218f/README.md",
-      "stars": 16320,
+      "stars": 16331,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:20.226Z"
+      "checkedAt": "2026-11-26T16:55:05.542Z"
     },
     {
       "slug": "lsof-org-lsof",
@@ -8303,7 +8303,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/lsof-org/lsof/blob/1ebf257c64db1b2ece5e4d5e922ed711c692f161/README.md",
       "stars": 579,
       "license": null,
-      "checkedAt": "2026-11-25T17:15:20.831Z"
+      "checkedAt": "2026-11-26T16:55:06.098Z"
     },
     {
       "slug": "dannote-figma-use",
@@ -8322,7 +8322,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/dannote/figma-use/blob/7bfa9ba3ea7c56c5c8ca6cd5085c6e56a0735027/README.md",
       "stars": 615,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:21.149Z"
+      "checkedAt": "2026-11-26T16:55:06.549Z"
     },
     {
       "slug": "openresty-luajit2",
@@ -8341,7 +8341,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/openresty/luajit2/blob/f75bf45e8b869a8ee4562ab0183322c3ebf2d9f3/README.md",
       "stars": 1461,
       "license": null,
-      "checkedAt": "2026-11-25T17:15:21.405Z"
+      "checkedAt": "2026-11-26T16:55:07.042Z"
     },
     {
       "slug": "lycheeverse-lychee",
@@ -8358,9 +8358,9 @@ window.USECLIS_DATA = {
       "example": "lychee .",
       "website": "https://github.com/lycheeverse/lychee",
       "docs": "https://github.com/lycheeverse/lychee/blob/694caf580f2bd7c4497565ca8f26f4dcd8d5da6d/README.md",
-      "stars": 4157,
+      "stars": 4160,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:21.830Z"
+      "checkedAt": "2026-11-26T16:55:07.587Z"
     },
     {
       "slug": "waydabber-m1ddc",
@@ -8377,9 +8377,9 @@ window.USECLIS_DATA = {
       "example": "m1ddc set contrast 5",
       "website": "https://github.com/waydabber/m1ddc",
       "docs": "https://github.com/waydabber/m1ddc/blob/04d949794102eb8df01ad3681afff6464a3eede2/README.md",
-      "stars": 772,
+      "stars": 773,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:22.207Z"
+      "checkedAt": "2026-11-26T16:55:08.055Z"
     },
     {
       "slug": "lra-mackup",
@@ -8396,9 +8396,9 @@ window.USECLIS_DATA = {
       "example": "mackup backup",
       "website": "https://github.com/lra/mackup",
       "docs": "https://github.com/lra/mackup/blob/9fc154052c2b026e4e912ef73fb6d396e4993699/README.md",
-      "stars": 15361,
+      "stars": 15360,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:22.635Z"
+      "checkedAt": "2026-11-26T16:55:08.315Z"
     },
     {
       "slug": "soxoj-maigret",
@@ -8415,9 +8415,9 @@ window.USECLIS_DATA = {
       "example": "maigret username",
       "website": "https://github.com/soxoj/maigret",
       "docs": "https://github.com/soxoj/maigret/blob/38bbf5cc735439bb0a3c8d8d60e4f900ade7cf96/README.md",
-      "stars": 41269,
+      "stars": 41311,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:23.424Z"
+      "checkedAt": "2026-11-26T16:55:08.936Z"
     },
     {
       "slug": "kovetskiy-mark",
@@ -8436,7 +8436,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/kovetskiy/mark/blob/2d69a795ecd0073abad5d4f2670c681b1137988e/README.md",
       "stars": 1621,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:24.055Z"
+      "checkedAt": "2026-11-26T16:55:09.441Z"
     },
     {
       "slug": "arcangel0-eva",
@@ -8453,9 +8453,9 @@ window.USECLIS_DATA = {
       "example": "eva --config",
       "website": "https://github.com/ARCANGEL0/EVA",
       "docs": "https://github.com/ARCANGEL0/EVA/blob/3651649b955103e0ea044106bb218ca7ab4c546a/README.md",
-      "stars": 544,
+      "stars": 543,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:24.682Z"
+      "checkedAt": "2026-11-26T16:55:10.146Z"
     },
     {
       "slug": "enulus-openpackage",
@@ -8472,9 +8472,9 @@ window.USECLIS_DATA = {
       "example": "opkg new",
       "website": "https://github.com/enulus/OpenPackage",
       "docs": "https://github.com/enulus/OpenPackage/blob/399187d6cc4f4c86391fa07ff23b5387f898d2bf/specs/README.md",
-      "stars": 621,
+      "stars": 620,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:25.259Z"
+      "checkedAt": "2026-11-26T16:55:10.776Z"
     },
     {
       "slug": "afshinm-zerobox",
@@ -8491,9 +8491,9 @@ window.USECLIS_DATA = {
       "example": "zerobox --allow-write=. -- node script.js",
       "website": "https://github.com/afshinm/zerobox",
       "docs": "https://github.com/afshinm/zerobox/blob/9a7affd6c68fb2541c7c709559c40e08ba0a1872/README.md",
-      "stars": 733,
+      "stars": 731,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:25.683Z"
+      "checkedAt": "2026-11-26T16:55:11.278Z"
     },
     {
       "slug": "kaifcodec-ytconverter",
@@ -8512,7 +8512,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/kaifcodec/ytconverter/blob/a5017652d358cc939db98232002b2e0754c091fe/README.md",
       "stars": 691,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:26.128Z"
+      "checkedAt": "2026-11-26T16:55:11.575Z"
     },
     {
       "slug": "glomatico-votify",
@@ -8529,9 +8529,9 @@ window.USECLIS_DATA = {
       "example": "votify \"https://open.spotify.com/track/18gqCQzqYb0zvurQPlRkpo\"",
       "website": "https://github.com/glomatico/votify",
       "docs": "https://github.com/glomatico/votify/blob/db14e4d1aa01456e0ec3b55d6f7268787ba2e2c4/README.md",
-      "stars": 950,
+      "stars": 951,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:26.624Z"
+      "checkedAt": "2026-11-26T16:55:11.876Z"
     },
     {
       "slug": "ferrislucas-promptr",
@@ -8550,7 +8550,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ferrislucas/promptr/blob/1459f515ff27905e53df0291ffd72664e3ee10d1/README.md",
       "stars": 952,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:26.889Z"
+      "checkedAt": "2026-11-26T16:55:12.145Z"
     },
     {
       "slug": "str4d-age-plugin-yubikey",
@@ -8569,7 +8569,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/str4d/age-plugin-yubikey/blob/cafbc75fbd309e6f7ab62749052f98a91a89764e/README.md",
       "stars": 1034,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:27.553Z"
+      "checkedAt": "2026-11-26T16:55:12.592Z"
     },
     {
       "slug": "svetlitski-fcp",
@@ -8588,7 +8588,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Svetlitski/fcp/blob/f8db0603ff0fb66d34d3c461b8e6239b72e1cad2/README.md",
       "stars": 864,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:15:27.836Z"
+      "checkedAt": "2026-11-26T16:55:12.850Z"
     },
     {
       "slug": "jackwener-xhs-cli",
@@ -8605,9 +8605,9 @@ window.USECLIS_DATA = {
       "example": "xhs status",
       "website": "https://github.com/jackwener/xhs-cli",
       "docs": "https://github.com/jackwener/xhs-cli/blob/3ce71415dc0816ebb4c3f547baf6c08fb3d5cb5a/README.md",
-      "stars": 705,
+      "stars": 706,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:28.347Z"
+      "checkedAt": "2026-11-26T16:55:13.241Z"
     },
     {
       "slug": "markserv-markserv",
@@ -8626,7 +8626,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/markserv/markserv/blob/f295bf093a79e745af0bf26bcd4a8a08e011eb34/README.md",
       "stars": 639,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:28.605Z"
+      "checkedAt": "2026-11-26T16:55:13.551Z"
     },
     {
       "slug": "ynqa-sig",
@@ -8645,7 +8645,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ynqa/sig/blob/e002a10c8334686ab55b4b2e91d442840a6f2923/README.md",
       "stars": 774,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:29.013Z"
+      "checkedAt": "2026-11-26T16:55:13.864Z"
     },
     {
       "slug": "noisrucer-girok",
@@ -8664,7 +8664,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/noisrucer/girok/blob/f645cdfdab97f31eb8adce9cc434a5e030dc849a/README.md",
       "stars": 502,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:29.363Z"
+      "checkedAt": "2026-11-26T16:55:14.166Z"
     },
     {
       "slug": "rtfpessoa-diff2html-cli",
@@ -8683,7 +8683,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/rtfpessoa/diff2html-cli/blob/18add5d220d624022dd24a303c55f4a63547b65b/README.md",
       "stars": 610,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:29.901Z"
+      "checkedAt": "2026-11-26T16:55:14.683Z"
     },
     {
       "slug": "zackees-transcribe-anything",
@@ -8702,7 +8702,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/zackees/transcribe-anything/blob/4bcdcfb8c15ec3f22dea2b6b3fd311fded47abdc/README.md",
       "stars": 1488,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:30.353Z"
+      "checkedAt": "2026-11-26T16:55:15.051Z"
     },
     {
       "slug": "ionic-team-ionic-cli",
@@ -8721,7 +8721,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ionic-team/ionic-cli/blob/54a76b5acccce994946c1cba6603d70918f1513d/README.md",
       "stars": 1999,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:30.755Z"
+      "checkedAt": "2026-11-26T16:55:15.393Z"
     },
     {
       "slug": "inlife-nexrender",
@@ -8740,7 +8740,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/inlife/nexrender/blob/f17a178f61391f744fdd78b25f7ed6e32c196110/README.md",
       "stars": 1867,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:31.282Z"
+      "checkedAt": "2026-11-26T16:55:15.931Z"
     },
     {
       "slug": "randy3k-radian",
@@ -8757,9 +8757,9 @@ window.USECLIS_DATA = {
       "example": "radian --r-binary=/path/to/R",
       "website": "https://github.com/randy3k/radian",
       "docs": "https://github.com/randy3k/radian/blob/a7cb91a99b2361404f3baab031cc18b935353660/README.md",
-      "stars": 2297,
+      "stars": 2298,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:31.728Z"
+      "checkedAt": "2026-11-26T16:55:16.176Z"
     },
     {
       "slug": "tencent-feflow",
@@ -8778,7 +8778,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Tencent/feflow/blob/bfc4bd31427bf8add7134802b7b14ab079f9b86c/README.md",
       "stars": 1388,
       "license": null,
-      "checkedAt": "2026-11-25T17:15:32.195Z"
+      "checkedAt": "2026-11-26T16:55:16.795Z"
     },
     {
       "slug": "jakwai01-lurk",
@@ -8797,7 +8797,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/JakWai01/lurk/blob/64a01ebbc71b450ba88f8e41b759aeadd4fcf4fd/README.md",
       "stars": 1160,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:32.622Z"
+      "checkedAt": "2026-11-26T16:55:17.059Z"
     },
     {
       "slug": "statoscope-statoscope",
@@ -8816,7 +8816,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/statoscope/statoscope/blob/f95565b117288719c65ca563ac0c20c508e404f7/packages/cli/README.md",
       "stars": 1578,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:33.231Z"
+      "checkedAt": "2026-11-26T16:55:17.315Z"
     },
     {
       "slug": "dosisod-refurb",
@@ -8835,7 +8835,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/dosisod/refurb/blob/0dbb127465ca9398b6c89c32a7fd86d78ca755c4/README.md",
       "stars": 2534,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:33.688Z"
+      "checkedAt": "2026-11-26T16:55:17.578Z"
     },
     {
       "slug": "whchien-ai-trader",
@@ -8854,7 +8854,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/whchien/ai-trader/blob/7681fe331fb638beab1ae20d3552c802bbaa9174/README.md",
       "stars": 1144,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:34.144Z"
+      "checkedAt": "2026-11-26T16:55:17.822Z"
     },
     {
       "slug": "livecycle-preevy",
@@ -8873,7 +8873,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/livecycle/preevy/blob/4494835434556958b8be85f121e391d6d7968676/README.md",
       "stars": 2242,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:34.654Z"
+      "checkedAt": "2026-11-26T16:55:18.044Z"
     },
     {
       "slug": "notjoemartinez-yt-fts",
@@ -8892,7 +8892,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/NotJoeMartinez/yt-fts/blob/7fbc0088f30672b6fbfe2ea7351fa42bafe1f886/README.md",
       "stars": 1812,
       "license": "Unlicense",
-      "checkedAt": "2026-11-25T17:15:35.062Z"
+      "checkedAt": "2026-11-26T16:55:18.533Z"
     },
     {
       "slug": "splx-ai-agentic-radar",
@@ -8909,9 +8909,9 @@ window.USECLIS_DATA = {
       "example": "agentic-radar scan langgraph -i path/to/langgraph/example/folder -o report.html",
       "website": "https://github.com/splx-ai/agentic-radar",
       "docs": "https://github.com/splx-ai/agentic-radar/blob/65a7e4bd01e2034c7cb52e9620eeed287688cc53/README.md",
-      "stars": 1073,
+      "stars": 1074,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:35.628Z"
+      "checkedAt": "2026-11-26T16:55:19.254Z"
     },
     {
       "slug": "sharkdp-pastel",
@@ -8928,9 +8928,9 @@ window.USECLIS_DATA = {
       "example": "pastel lighten 0.2 orchid orange lawngreen",
       "website": "https://github.com/sharkdp/pastel",
       "docs": "https://github.com/sharkdp/pastel/blob/01d4252aa794f1331834948f133e75c64532be46/README.md",
-      "stars": 6581,
+      "stars": 6590,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:36.168Z"
+      "checkedAt": "2026-11-26T16:55:19.727Z"
     },
     {
       "slug": "reorx-httpstat",
@@ -8949,7 +8949,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/reorx/httpstat/blob/b37cd4655c0b0595dbf5be4466abd1dcbc202b84/README.md",
       "stars": 6223,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:36.406Z"
+      "checkedAt": "2026-11-26T16:55:19.961Z"
     },
     {
       "slug": "sindresorhus-create-dmg",
@@ -8968,7 +8968,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sindresorhus/create-dmg/blob/0da89d104885daf019498a17da6e1c0203c2a9ed/readme.md",
       "stars": 5398,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:36.815Z"
+      "checkedAt": "2026-11-26T16:55:20.211Z"
     },
     {
       "slug": "nexe-nexe",
@@ -8985,9 +8985,9 @@ window.USECLIS_DATA = {
       "example": "nexe my-app.js",
       "website": "https://github.com/nexe/nexe",
       "docs": "https://github.com/nexe/nexe/blob/6220bf052223d5347ae656f0f680f33303b6a874/README.md",
-      "stars": 13570,
+      "stars": 13571,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:37.107Z"
+      "checkedAt": "2026-11-26T16:55:20.470Z"
     },
     {
       "slug": "ekzhang-bore",
@@ -9004,9 +9004,9 @@ window.USECLIS_DATA = {
       "example": "bore local 8000 --to bore.pub",
       "website": "https://github.com/ekzhang/bore",
       "docs": "https://github.com/ekzhang/bore/blob/00a735a89917642df62d84336a90d9476fa175b5/README.md",
-      "stars": 11634,
+      "stars": 11636,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:37.506Z"
+      "checkedAt": "2026-11-26T16:55:20.765Z"
     },
     {
       "slug": "atanunq-viu",
@@ -9023,9 +9023,9 @@ window.USECLIS_DATA = {
       "example": "viu img/giphy.gif",
       "website": "https://github.com/atanunq/viu",
       "docs": "https://github.com/atanunq/viu/blob/5733be5f8b18c54495123725e7f13cc5ec23ee68/README.md",
-      "stars": 3317,
+      "stars": 3318,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:37.895Z"
+      "checkedAt": "2026-11-26T16:55:21.074Z"
     },
     {
       "slug": "infinitered-gluegun",
@@ -9044,7 +9044,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/infinitered/gluegun/blob/a343d0f256187ec810c67162ec1edb9cc7640f73/docs/getting-started.md",
       "stars": 3136,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:38.262Z"
+      "checkedAt": "2026-11-26T16:55:21.324Z"
     },
     {
       "slug": "sindresorhus-fkill-cli",
@@ -9063,7 +9063,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sindresorhus/fkill-cli/blob/2afe64c9110612ef377d0aa8fdcf8c0ba8d940a1/readme.md",
       "stars": 7013,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:38.672Z"
+      "checkedAt": "2026-11-26T16:55:21.570Z"
     },
     {
       "slug": "klaudiosinani-taskbook",
@@ -9080,9 +9080,9 @@ window.USECLIS_DATA = {
       "example": "tb --archive",
       "website": "https://github.com/klaudiosinani/taskbook",
       "docs": "https://github.com/klaudiosinani/taskbook/blob/49b760a76c5b96caf4a3abd821fffa9b819092a0/readme.md",
-      "stars": 9348,
+      "stars": 9349,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:38.909Z"
+      "checkedAt": "2026-11-26T16:55:21.824Z"
     },
     {
       "slug": "pomber-git-history",
@@ -9099,9 +9099,9 @@ window.USECLIS_DATA = {
       "example": "git-file-history path/to/file.ext",
       "website": "https://github.com/pomber/git-history",
       "docs": "https://github.com/pomber/git-history/blob/a20f6085cf9055b350a4db13cea6e013936da9cd/cli/readme.md",
-      "stars": 13683,
+      "stars": 13680,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:39.398Z"
+      "checkedAt": "2026-11-26T16:55:22.287Z"
     },
     {
       "slug": "mysticatea-npm-run-all",
@@ -9120,7 +9120,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mysticatea/npm-run-all/blob/bf91f94ce597aa61da37d2e4208ce8c48bc86673/README.md",
       "stars": 5833,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:39.827Z"
+      "checkedAt": "2026-11-26T16:55:22.740Z"
     },
     {
       "slug": "formidablelabs-webpack-dashboard",
@@ -9137,9 +9137,9 @@ window.USECLIS_DATA = {
       "example": "webpack-dashboard --port 3001 -- webpack",
       "website": "https://github.com/FormidableLabs/webpack-dashboard",
       "docs": "https://github.com/FormidableLabs/webpack-dashboard/blob/9333a27e4b8f784fee13132df4f88e73aca3ca31/README.md",
-      "stars": 13946,
+      "stars": 13947,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:40.110Z"
+      "checkedAt": "2026-11-26T16:55:23.119Z"
     },
     {
       "slug": "niklashigi-apk-mitm",
@@ -9158,7 +9158,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/niklashigi/apk-mitm/blob/5a96363fc9112b97d60fc2bd3799d6bbfd8e4e00/README.md",
       "stars": 5152,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:40.539Z"
+      "checkedAt": "2026-11-26T16:55:23.543Z"
     },
     {
       "slug": "jondot-hygen",
@@ -9177,7 +9177,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/jondot/hygen/blob/26f76d8dede565b2bf38d0b9e9f3009ee2c8f9ae/README.md",
       "stars": 5924,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:40.971Z"
+      "checkedAt": "2026-11-26T16:55:23.942Z"
     },
     {
       "slug": "rigellute-spotify-tui",
@@ -9194,9 +9194,9 @@ window.USECLIS_DATA = {
       "example": "spt search \"An even cooler song\" --tracks --format \"%t from %b\" --limit 30",
       "website": "https://github.com/Rigellute/spotify-tui",
       "docs": "https://github.com/Rigellute/spotify-tui/blob/c4dcf6b9fd8318017acbdd7ec005955e26cf2794/README.md",
-      "stars": 19437,
+      "stars": 19439,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:41.301Z"
+      "checkedAt": "2026-11-26T16:55:24.244Z"
     },
     {
       "slug": "imsnif-diskonaut",
@@ -9215,7 +9215,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/imsnif/diskonaut/blob/65cd829069e275dc8a3e4493d0da7f8f08055d82/README.md",
       "stars": 3168,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:41.559Z"
+      "checkedAt": "2026-11-26T16:55:24.684Z"
     },
     {
       "slug": "amantus-ai-vibetunnel",
@@ -9232,9 +9232,9 @@ window.USECLIS_DATA = {
       "example": "vibetunnel --bind 0.0.0.0",
       "website": "https://github.com/amantus-ai/vibetunnel",
       "docs": "https://github.com/amantus-ai/vibetunnel/blob/f78324f5a6f5617711581cf5b119651094b2d9bc/README.md",
-      "stars": 4709,
+      "stars": 4712,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:41.834Z"
+      "checkedAt": "2026-11-26T16:55:25.130Z"
     },
     {
       "slug": "mgunyho-tere",
@@ -9253,7 +9253,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mgunyho/tere/blob/3c63ed36d1bc6f1fe74c7fb2122642bbb5107b2d/README.md",
       "stars": 1805,
       "license": "EUPL-1.2",
-      "checkedAt": "2026-11-25T17:15:42.484Z"
+      "checkedAt": "2026-11-26T16:55:25.798Z"
     },
     {
       "slug": "cretezy-lazyjj",
@@ -9270,9 +9270,9 @@ window.USECLIS_DATA = {
       "example": "lazyjj -r '::@'",
       "website": "https://github.com/Cretezy/lazyjj",
       "docs": "https://github.com/Cretezy/lazyjj/blob/1be13be98e9dd62a27fe3c93037de223b3615d32/README.md",
-      "stars": 1233,
+      "stars": 1234,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:42.809Z"
+      "checkedAt": "2026-11-26T16:55:26.159Z"
     },
     {
       "slug": "samtay-so",
@@ -9289,9 +9289,9 @@ window.USECLIS_DATA = {
       "example": "so how do i reverse a list in python",
       "website": "https://github.com/samtay/so",
       "docs": "https://github.com/samtay/so/blob/4969956b4aab1bb3aa8705627f71a1ad269ffe31/README.md",
-      "stars": 1421,
+      "stars": 1422,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:43.328Z"
+      "checkedAt": "2026-11-26T16:55:26.429Z"
     },
     {
       "slug": "textualize-toolong",
@@ -9310,7 +9310,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Textualize/toolong/blob/5aa22ee878026f46d4d265905c4e1df4d37842ae/README.md",
       "stars": 3971,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:43.722Z"
+      "checkedAt": "2026-11-26T16:55:26.707Z"
     },
     {
       "slug": "textualize-frogmouth",
@@ -9329,7 +9329,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Textualize/frogmouth/blob/15c3e85a6e84b2e4a6845723acf12beb54c81eb2/README.md",
       "stars": 3326,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:43.996Z"
+      "checkedAt": "2026-11-26T16:55:26.975Z"
     },
     {
       "slug": "samyak2-toipe",
@@ -9348,7 +9348,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Samyak2/toipe/blob/93a0fb69b6ee70fc66a858add92cee5177cc42c8/README.md",
       "stars": 669,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:44.399Z"
+      "checkedAt": "2026-11-26T16:55:27.242Z"
     },
     {
       "slug": "wustho-baca",
@@ -9367,7 +9367,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/wustho/baca/blob/13ee794b08a4852f63002e7b0ca6a5c82b4239d4/README.md",
       "stars": 528,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:44.684Z"
+      "checkedAt": "2026-11-26T16:55:27.586Z"
     },
     {
       "slug": "2akouwu-reverify",
@@ -9386,7 +9386,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/2akouwu/reverify/blob/f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923/README.md",
       "stars": 1354,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:45.018Z"
+      "checkedAt": "2026-11-26T16:55:27.821Z"
     },
     {
       "slug": "michael-a-kuykendall-shimmy",
@@ -9403,9 +9403,9 @@ window.USECLIS_DATA = {
       "example": "shimmy serve --model-path /absolute/path/to/model.gguf --bind 127.0.0.1:11435",
       "website": "https://github.com/Michael-A-Kuykendall/shimmy",
       "docs": "https://github.com/Michael-A-Kuykendall/shimmy/blob/4895730a700cb164ac2855d2ad35cb3ce59e557e/README.md",
-      "stars": 6032,
+      "stars": 6033,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:45.563Z"
+      "checkedAt": "2026-11-26T16:55:28.235Z"
     },
     {
       "slug": "googlechromelabs-bubblewrap",
@@ -9424,7 +9424,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/GoogleChromeLabs/bubblewrap/blob/a5ffe214c3b03d2d19fbce6d40097a78aa043f66/packages/cli/README.md",
       "stars": 3178,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:46.080Z"
+      "checkedAt": "2026-11-26T16:55:28.733Z"
     },
     {
       "slug": "clitic-vsd",
@@ -9443,7 +9443,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/clitic/vsd/blob/24cd681114d425605db5b6c5fbf8e5ffc803716b/docs/usage.md",
       "stars": 555,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:46.535Z"
+      "checkedAt": "2026-11-26T16:55:29.252Z"
     },
     {
       "slug": "kaplanelad-shellfirm",
@@ -9462,7 +9462,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/kaplanelad/shellfirm/blob/7ebf869770c197bf5591bdcf4003f6373af6c211/README.md",
       "stars": 954,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:47.019Z"
+      "checkedAt": "2026-11-26T16:55:29.698Z"
     },
     {
       "slug": "gautamkrishnar-socli",
@@ -9481,7 +9481,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/gautamkrishnar/socli/blob/131d4d930da0991d173689674db82cf49ffc2d5a/README.md",
       "stars": 1113,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:15:47.474Z"
+      "checkedAt": "2026-11-26T16:55:30.093Z"
     },
     {
       "slug": "ndd7xv-heh",
@@ -9500,7 +9500,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ndd7xv/heh/blob/89b1e99695069e4caaa3dfb55f90815963a2c3a2/README.md",
       "stars": 505,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:47.937Z"
+      "checkedAt": "2026-11-26T16:55:30.395Z"
     },
     {
       "slug": "ahmadawais-chartli",
@@ -9519,7 +9519,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ahmadawais/chartli/blob/3b39b97aeb564646437b2b7501b60541994d7575/rust/README.md",
       "stars": 821,
       "license": null,
-      "checkedAt": "2026-11-25T17:15:48.253Z"
+      "checkedAt": "2026-11-26T16:55:30.650Z"
     },
     {
       "slug": "cesarferreira-rip",
@@ -9536,9 +9536,9 @@ window.USECLIS_DATA = {
       "example": "rip -f chrome",
       "website": "https://github.com/cesarferreira/rip",
       "docs": "https://github.com/cesarferreira/rip/blob/83f0260229489cd3db2f60316bf2a9939b87c4a6/README.md",
-      "stars": 523,
+      "stars": 522,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:48.717Z"
+      "checkedAt": "2026-11-26T16:55:30.924Z"
     },
     {
       "slug": "trehn-termtrack",
@@ -9557,7 +9557,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/trehn/termtrack/blob/11b75d76bd81bab5151e79706804866b8a8c3c52/README.md",
       "stars": 553,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:15:49.136Z"
+      "checkedAt": "2026-11-26T16:55:31.316Z"
     },
     {
       "slug": "ravikiranvm-aws-finops-dashboard",
@@ -9576,7 +9576,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ravikiranvm/aws-finops-dashboard/blob/3b2606495a57708ce73b25ffa24bd0a6fe5c7e52/README.md",
       "stars": 1284,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:49.449Z"
+      "checkedAt": "2026-11-26T16:55:31.618Z"
     },
     {
       "slug": "pyo3-maturin",
@@ -9593,9 +9593,9 @@ window.USECLIS_DATA = {
       "example": "maturin new",
       "website": "https://github.com/PyO3/maturin",
       "docs": "https://github.com/PyO3/maturin/blob/9ad0e183016dcd785fa6143d883c33fcf8271294/README.md",
-      "stars": 5921,
+      "stars": 5926,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:49.832Z"
+      "checkedAt": "2026-11-26T16:55:32.307Z"
     },
     {
       "slug": "zerosumquant-claude-conversation-extractor",
@@ -9614,7 +9614,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ZeroSumQuant/claude-conversation-extractor/blob/a12b72e3be2e23d4ed1956fd67a09472b311e783/README.md",
       "stars": 697,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:50.296Z"
+      "checkedAt": "2026-11-26T16:55:32.567Z"
     },
     {
       "slug": "grafana-mcp-grafana",
@@ -9631,9 +9631,9 @@ window.USECLIS_DATA = {
       "example": "mcp-grafana --usage-stats=enabled",
       "website": "https://github.com/grafana/mcp-grafana",
       "docs": "https://github.com/grafana/mcp-grafana/blob/65bd38b61bd5e9edc3883be5824f4b7494e20366/README.md",
-      "stars": 3699,
+      "stars": 3703,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:51.070Z"
+      "checkedAt": "2026-11-26T16:55:33.468Z"
     },
     {
       "slug": "googleapis-mcp-toolbox",
@@ -9650,9 +9650,9 @@ window.USECLIS_DATA = {
       "example": "toolbox --config \"tools.yaml\"",
       "website": "https://github.com/googleapis/mcp-toolbox",
       "docs": "https://github.com/googleapis/mcp-toolbox/blob/4b7a44d6052137c912a15aea44fed4e826173ce9/README.md",
-      "stars": 16950,
+      "stars": 16960,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:51.570Z"
+      "checkedAt": "2026-11-26T16:55:33.953Z"
     },
     {
       "slug": "birsax2-mdcat",
@@ -9671,7 +9671,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/BIRSAx2/mdcat/blob/66bf14fb22c53857a548d759c20c71686370d928/README.md",
       "stars": 186,
       "license": "MPL-2.0",
-      "checkedAt": "2026-11-25T17:15:51.833Z"
+      "checkedAt": "2026-11-26T16:55:34.178Z"
     },
     {
       "slug": "chainguard-dev-melange",
@@ -9690,7 +9690,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/chainguard-dev/melange/blob/d062cf25ce373bf8045d79b9897878ab207d8d36/README.md",
       "stars": 630,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:52.791Z"
+      "checkedAt": "2026-11-26T16:55:34.745Z"
     },
     {
       "slug": "clemlesne-scrape-it-now",
@@ -9709,7 +9709,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/clemlesne/scrape-it-now/blob/4ffc517f1297fc57b043b138c28c86b2ab415f09/README.md",
       "stars": 542,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:53.133Z"
+      "checkedAt": "2026-11-26T16:55:35.120Z"
     },
     {
       "slug": "mesonbuild-meson",
@@ -9726,9 +9726,9 @@ window.USECLIS_DATA = {
       "example": "meson setup builddir",
       "website": "https://github.com/mesonbuild/meson",
       "docs": "https://github.com/mesonbuild/meson/blob/d1c7b4dae011e13a695c3303a050460f02655ccc/README.md",
-      "stars": 6680,
+      "stars": 6683,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:53.807Z"
+      "checkedAt": "2026-11-26T16:55:35.360Z"
     },
     {
       "slug": "kdeldycke-meta-package-manager",
@@ -9747,7 +9747,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/kdeldycke/meta-package-manager/blob/598d3089ed3f43242eb465c90395ae8de8933a80/readme.md",
       "stars": 632,
       "license": "GPL-2.0",
-      "checkedAt": "2026-11-25T17:15:54.519Z"
+      "checkedAt": "2026-11-26T16:55:36.089Z"
     },
     {
       "slug": "micro-editor-micro",
@@ -9764,9 +9764,9 @@ window.USECLIS_DATA = {
       "example": "micro -version",
       "website": "https://github.com/micro-editor/micro",
       "docs": "https://github.com/micro-editor/micro/blob/7484d5f5fa95d3dfb025a01b09f31a1b0e7f9b1b/README.md",
-      "stars": 29968,
+      "stars": 29977,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:55.257Z"
+      "checkedAt": "2026-11-26T16:55:36.634Z"
     },
     {
       "slug": "mamba-org-mamba",
@@ -9783,9 +9783,9 @@ window.USECLIS_DATA = {
       "example": "mamba repoquery",
       "website": "https://github.com/mamba-org/mamba",
       "docs": "https://github.com/mamba-org/mamba/blob/46a63edd422bf412c044c98962562eb5cca1c40d/README.md",
-      "stars": 8126,
+      "stars": 8127,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:15:55.705Z"
+      "checkedAt": "2026-11-26T16:55:37.067Z"
     },
     {
       "slug": "mololab-json-translator",
@@ -9804,7 +9804,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mololab/json-translator/blob/749e602a1e19dfc194750a543d3db40ca8820a33/README.md",
       "stars": 613,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:56.236Z"
+      "checkedAt": "2026-11-26T16:55:37.320Z"
     },
     {
       "slug": "tdewolff-minify",
@@ -9821,9 +9821,9 @@ window.USECLIS_DATA = {
       "example": "minify -o script.min.js script.js",
       "website": "https://github.com/tdewolff/minify",
       "docs": "https://github.com/tdewolff/minify/blob/bc8705359b222873a4e8f9fec94e37103853ab4e/README.md",
-      "stars": 4156,
+      "stars": 4158,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:56.614Z"
+      "checkedAt": "2026-11-26T16:55:37.774Z"
     },
     {
       "slug": "aibox22-readmex",
@@ -9842,7 +9842,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/aibox22/readmeX/blob/b83df6104cffacc0dabfa33e93c533bbd5b00fae/README.md",
       "stars": 672,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:57.017Z"
+      "checkedAt": "2026-11-26T16:55:38.030Z"
     },
     {
       "slug": "oppiliappan-eva",
@@ -9861,7 +9861,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/oppiliappan/eva/blob/41ae2455085c10978c5d93be4e6b139682396eb0/readme.md",
       "stars": 918,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:57.273Z"
+      "checkedAt": "2026-11-26T16:55:38.560Z"
     },
     {
       "slug": "manparvesh-yoda",
@@ -9880,7 +9880,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/manparvesh/yoda/blob/e8fdbb20961d525e0b26e5e87dc09e55e79afadf/README.md",
       "stars": 751,
       "license": null,
-      "checkedAt": "2026-11-25T17:15:57.694Z"
+      "checkedAt": "2026-11-26T16:55:38.822Z"
     },
     {
       "slug": "kharvd-gpt-cli",
@@ -9899,7 +9899,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/kharvd/gpt-cli/blob/bff5d87311abf00a900fb17595d443953750e29c/README.md",
       "stars": 720,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:58.200Z"
+      "checkedAt": "2026-11-26T16:55:39.311Z"
     },
     {
       "slug": "piqnt-svgexport",
@@ -9918,7 +9918,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/piqnt/svgexport/blob/7465da7765ba3439739ade3060456d3bc6b597aa/README.md",
       "stars": 951,
       "license": null,
-      "checkedAt": "2026-11-25T17:15:58.676Z"
+      "checkedAt": "2026-11-26T16:55:39.608Z"
     },
     {
       "slug": "efugier-smartcat",
@@ -9937,7 +9937,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/efugier/smartcat/blob/30d992fc3da13249fa072911411cce00e0b5b5f2/README.md",
       "stars": 581,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:15:59.143Z"
+      "checkedAt": "2026-11-26T16:55:40.076Z"
     },
     {
       "slug": "ruyadorno-ipt",
@@ -9956,7 +9956,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ruyadorno/ipt/blob/a3c931f6a791cf6a32aa4d5cf12d9c0f36341927/README.md",
       "stars": 858,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:59.685Z"
+      "checkedAt": "2026-11-26T16:55:40.317Z"
     },
     {
       "slug": "addyosmani-git2txt",
@@ -9975,7 +9975,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/addyosmani/git2txt/blob/e8db771b976d1f463d6b5492beb5ec1c9687328d/README.md",
       "stars": 569,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:15:59.925Z"
+      "checkedAt": "2026-11-26T16:55:40.557Z"
     },
     {
       "slug": "hyde46-hoard",
@@ -9994,7 +9994,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Hyde46/hoard/blob/03349b7cc504f39cb49771b235e4a6344e92013e/README.md",
       "stars": 660,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:00.183Z"
+      "checkedAt": "2026-11-26T16:55:40.865Z"
     },
     {
       "slug": "rajasegar-alacritty-themes",
@@ -10013,7 +10013,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/rajasegar/alacritty-themes/blob/a6f1cbc9c6c6a6ff2bc2ebe83e176e5a959ca421/README.md",
       "stars": 732,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:00.747Z"
+      "checkedAt": "2026-11-26T16:55:41.107Z"
     },
     {
       "slug": "infinitered-solidarity",
@@ -10032,7 +10032,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/infinitered/solidarity/blob/47470cff106808a629bcf5755460265f97d5b73d/README.md",
       "stars": 641,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:01.309Z"
+      "checkedAt": "2026-11-26T16:55:41.379Z"
     },
     {
       "slug": "soft-xcolor",
@@ -10051,7 +10051,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Soft/xcolor/blob/969d6525c4568a2fafd321fcd72a95481c5f3c7b/README.md",
       "stars": 517,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:01.582Z"
+      "checkedAt": "2026-11-26T16:55:41.695Z"
     },
     {
       "slug": "cutenode-good-first-issue",
@@ -10070,7 +10070,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/cutenode/good-first-issue/blob/af7ccf3c47511cc02c782d9c04d4011c1435cfb9/README.md",
       "stars": 839,
       "license": null,
-      "checkedAt": "2026-11-25T17:16:02.244Z"
+      "checkedAt": "2026-11-26T16:55:42.420Z"
     },
     {
       "slug": "oberblastmeister-trashy",
@@ -10087,9 +10087,9 @@ window.USECLIS_DATA = {
       "example": "trashy first second third",
       "website": "https://github.com/oberblastmeister/trashy",
       "docs": "https://github.com/oberblastmeister/trashy/blob/7c48827e55bca5a3188d3de44afda3028837b34b/README.md",
-      "stars": 535,
+      "stars": 537,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:16:02.745Z"
+      "checkedAt": "2026-11-26T16:55:42.637Z"
     },
     {
       "slug": "mov-cli-mov-cli",
@@ -10106,9 +10106,9 @@ window.USECLIS_DATA = {
       "example": "mov-cli -e",
       "website": "https://github.com/mov-cli/mov-cli",
       "docs": "https://github.com/mov-cli/mov-cli/blob/13399f91b8b4e811afc4f739eb7f0da1cd6acb57/README.md",
-      "stars": 1339,
+      "stars": 1340,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:03.168Z"
+      "checkedAt": "2026-11-26T16:55:43.021Z"
     },
     {
       "slug": "joelibaceta-video-to-ascii",
@@ -10125,9 +10125,9 @@ window.USECLIS_DATA = {
       "example": "video-to-ascii -f myvideo.mp4",
       "website": "https://github.com/joelibaceta/video-to-ascii",
       "docs": "https://github.com/joelibaceta/video-to-ascii/blob/b04a494e6e1be429d18af2400425cea93f896377/README.md",
-      "stars": 1872,
+      "stars": 1873,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:03.648Z"
+      "checkedAt": "2026-11-26T16:55:43.321Z"
     },
     {
       "slug": "ipfs-shipyard-ipfs-deploy",
@@ -10146,7 +10146,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ipfs-shipyard/ipfs-deploy/blob/79d16bf6edbcc3f023f39c7a38ec929316fc1fba/README.md",
       "stars": 1170,
       "license": null,
-      "checkedAt": "2026-11-25T17:16:03.927Z"
+      "checkedAt": "2026-11-26T16:55:43.886Z"
     },
     {
       "slug": "yinnx-cmd-wrapped",
@@ -10163,9 +10163,9 @@ window.USECLIS_DATA = {
       "example": "cmd-wrapped 2024",
       "website": "https://github.com/YiNNx/cmd-wrapped",
       "docs": "https://github.com/YiNNx/cmd-wrapped/blob/c150a84c050261a4f8e96daab33f3cdcec7df3dd/README.md",
-      "stars": 1287,
+      "stars": 1289,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:04.397Z"
+      "checkedAt": "2026-11-26T16:55:44.182Z"
     },
     {
       "slug": "toblerity-fiona",
@@ -10184,7 +10184,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Toblerity/Fiona/blob/ec9768a9389530a0570446e3c34ae91448d28cf4/README.rst",
       "stars": 1251,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:16:04.854Z"
+      "checkedAt": "2026-11-26T16:55:44.478Z"
     },
     {
       "slug": "dutiyesh-chrome-extension-cli",
@@ -10203,7 +10203,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/dutiyesh/chrome-extension-cli/blob/83cb2f1cfa598a017f0cb9e010810f7adc744445/README.md",
       "stars": 2461,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:05.187Z"
+      "checkedAt": "2026-11-26T16:55:44.776Z"
     },
     {
       "slug": "hustcer-star",
@@ -10222,7 +10222,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/hustcer/star/blob/2bb8151b3b18437aa495515392994ab2eb2d8b21/README.md",
       "stars": 1062,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:05.537Z"
+      "checkedAt": "2026-11-26T16:55:45.267Z"
     },
     {
       "slug": "hfrost0-bilix",
@@ -10239,9 +10239,9 @@ window.USECLIS_DATA = {
       "example": "bilix v 'url'",
       "website": "https://github.com/HFrost0/bilix",
       "docs": "https://github.com/HFrost0/bilix/blob/bb5b234cdfe3fafc4db9d992b91091f2edf791e5/README.md",
-      "stars": 1779,
+      "stars": 1778,
       "license": "Apache-2.0",
-      "checkedAt": "2026-11-25T17:16:05.978Z"
+      "checkedAt": "2026-11-26T16:55:45.486Z"
     },
     {
       "slug": "freedmand-semantra-python",
@@ -10260,7 +10260,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/freedmand/semantra-python/blob/1aed8fd0057f6b3eb7946e0f351f9c668842774d/README.md",
       "stars": 2709,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:06.607Z"
+      "checkedAt": "2026-11-26T16:55:45.977Z"
     },
     {
       "slug": "swanandx-lemmeknow",
@@ -10279,7 +10279,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/swanandx/lemmeknow/blob/1ed4a6b75540bae403d834857a0ddc371f1ac2f9/README.md",
       "stars": 1132,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:07.028Z"
+      "checkedAt": "2026-11-26T16:55:46.392Z"
     },
     {
       "slug": "solidiquis-erdtree",
@@ -10298,7 +10298,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/solidiquis/erdtree/blob/77199d97c3f14cfaf66a3c0c54c06d1f28d7e7ca/README.md",
       "stars": 2605,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:07.422Z"
+      "checkedAt": "2026-11-26T16:55:46.815Z"
     },
     {
       "slug": "zonemeen-musicn",
@@ -10317,7 +10317,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/zonemeen/musicn/blob/14b3faa00aebfdb235022eb255bc4a346ed66c69/README.md",
       "stars": 1765,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:07.823Z"
+      "checkedAt": "2026-11-26T16:55:47.228Z"
     },
     {
       "slug": "ycd-manage-fastapi",
@@ -10336,7 +10336,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/ycd/manage-fastapi/blob/b1c266fb5eb73ce09f6ccc2fcb28b76be9fade4b/README.md",
       "stars": 1904,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:08.276Z"
+      "checkedAt": "2026-11-26T16:55:47.663Z"
     },
     {
       "slug": "abhagsain-ai-cli",
@@ -10353,9 +10353,9 @@ window.USECLIS_DATA = {
       "example": "ai ask \"Check process running on port\"",
       "website": "https://github.com/abhagsain/ai-cli",
       "docs": "https://github.com/abhagsain/ai-cli/blob/39d1c6f858f95f1193e6a0738bedccb59dc33709/README.md",
-      "stars": 1164,
+      "stars": 1165,
       "license": "GPL-3.0",
-      "checkedAt": "2026-11-25T17:16:08.760Z"
+      "checkedAt": "2026-11-26T16:55:48.102Z"
     },
     {
       "slug": "annihil-github-spray",
@@ -10372,9 +10372,9 @@ window.USECLIS_DATA = {
       "example": "github-spray -t hello --multiplier 10 --push --origin https://github.com/John/hello.git",
       "website": "https://github.com/Annihil/github-spray",
       "docs": "https://github.com/Annihil/github-spray/blob/3d03719567563fbc88fc317bf6cf1a41787e9213/readme.md",
-      "stars": 1470,
+      "stars": 1471,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:09.230Z"
+      "checkedAt": "2026-11-26T16:55:48.360Z"
     },
     {
       "slug": "wustho-epr",
@@ -10391,9 +10391,9 @@ window.USECLIS_DATA = {
       "example": "epr dumas count mont",
       "website": "https://github.com/wustho/epr",
       "docs": "https://github.com/wustho/epr/blob/723c77d34d7f149a2c1bcadd99d288d26f66531d/README.md",
-      "stars": 1418,
+      "stars": 1419,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:09.613Z"
+      "checkedAt": "2026-11-26T16:55:48.798Z"
     },
     {
       "slug": "manrajgrover-football-cli",
@@ -10412,7 +10412,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/manrajgrover/football-cli/blob/37be3ab26b6e6e683d35b5de2c2608e84f8846e6/README.md",
       "stars": 1083,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:09.849Z"
+      "checkedAt": "2026-11-26T16:55:49.080Z"
     },
     {
       "slug": "c8r-kit",
@@ -10431,7 +10431,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/c8r/kit/blob/bd1e9d9088bf097dfaf007edc46596a7f72d1405/README.md",
       "stars": 1206,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:10.424Z"
+      "checkedAt": "2026-11-26T16:55:49.389Z"
     },
     {
       "slug": "maciek-roboblog-claude-code-usage-monitor",
@@ -10450,7 +10450,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor/blob/c59a83bf943f329f0e61f1a29c760353ee1860a5/README.md",
       "stars": 8818,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:10.888Z"
+      "checkedAt": "2026-11-26T16:55:49.841Z"
     },
     {
       "slug": "hardikvasa-google-images-download",
@@ -10467,9 +10467,9 @@ window.USECLIS_DATA = {
       "example": "googleimagesdownload --keywords \"test\" --limit 1",
       "website": "https://github.com/hardikvasa/google-images-download",
       "docs": "https://github.com/hardikvasa/google-images-download/blob/9057dad76ce4bcdd20e9c332f4172ecb7c6c0559/docs/installation.md",
-      "stars": 8706,
+      "stars": 8707,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:11.334Z"
+      "checkedAt": "2026-11-26T16:55:50.248Z"
     },
     {
       "slug": "orkohunter-keep",
@@ -10488,7 +10488,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/OrkoHunter/keep/blob/6d6823bc5222738e3ea3422871b4b885d140a831/README.md",
       "stars": 630,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:11.735Z"
+      "checkedAt": "2026-11-26T16:55:50.660Z"
     },
     {
       "slug": "mkaz-termgraph",
@@ -10507,7 +10507,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/mkaz/termgraph/blob/8ed81e21ce07db18393c7af9f77238f642546d3a/README.md",
       "stars": 3303,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:12.204Z"
+      "checkedAt": "2026-11-26T16:55:51.067Z"
     },
     {
       "slug": "krzysztof-o-spritesheet-js",
@@ -10526,7 +10526,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/krzysztof-o/spritesheet.js/blob/fa8411dcab0744286fbbd40a3b0fe013c7d54cb5/README.md",
       "stars": 567,
       "license": null,
-      "checkedAt": "2026-11-25T17:16:12.570Z"
+      "checkedAt": "2026-11-26T16:55:51.344Z"
     },
     {
       "slug": "regolith-labs-ore-cli-legacy",
@@ -10545,7 +10545,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/regolith-labs/ore-cli-legacy/blob/63a9c0eb86682949a6f2f3a0155ae9fa6f19acd7/README.md",
       "stars": 1493,
       "license": null,
-      "checkedAt": "2026-11-25T17:16:12.926Z"
+      "checkedAt": "2026-11-26T16:55:51.657Z"
     },
     {
       "slug": "sindresorhus-capture-website-cli",
@@ -10564,7 +10564,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sindresorhus/capture-website-cli/blob/032a6214826c77c099482f8a805326644501113d/readme.md",
       "stars": 856,
       "license": "MIT",
-      "checkedAt": "2026-11-25T17:16:13.360Z"
+      "checkedAt": "2026-11-26T16:55:52.094Z"
     },
     {
       "slug": "sontek-snowmachine",
@@ -10583,7 +10583,7 @@ window.USECLIS_DATA = {
       "docs": "https://github.com/sontek/snowmachine/blob/148abd32190b0a0a43700045e07eb915bdccbd8f/README.md",
       "stars": 609,
       "license": "BSD-3-Clause",
-      "checkedAt": "2026-11-25T17:16:13.634Z"
+      "checkedAt": "2026-11-26T16:55:52.333Z"
     }
   ],
   "categories": [
